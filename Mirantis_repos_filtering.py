@@ -9,7 +9,7 @@ def extract_repos(Organization):
     url_repos = 'https://api.github.com/orgs/'+ Organization +'/repos'
     f1 = open('./Mirantis_repos/Mirantis_repos_extraction', "w", encoding='utf-8')
     request_gitapi_repos = Request(url_repos, headers={
-                             "authorization": "Bearer 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 "})
+                             "authorization": "#githubapitoken"})
     url = urlopen(request_gitapi_repos)
     data = json.load(url)
     id=[]
@@ -29,7 +29,7 @@ def extract_repos(Organization):
         language.append(x["language"])
         url_reposlanguages = 'https://api.github.com/repos/'+str(x["full_name"])+'/languages'
         request_gitapi_reposlanguages = Request(url_reposlanguages, headers={
-                             "authorization": "Bearer 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 "})
+                             "authorization": "githubapittoken "})
         data1 = json.load(urlopen(request_gitapi_reposlanguages))
         if 'Puppet' in data1.keys():
             puppet_percentage.append(100*(data1['Puppet']/sum(data1.values())))
