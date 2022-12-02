@@ -1,0 +1,343 @@
+73b05edee8d4510da67cd3e36bdfce54f22e50a9|Merge pull request #146 from bodepd/fix_test_script|Sun, 25 Nov 2012 20:09:11 -0800|Sun, 25 Nov 2012 20:09:11 -0800
+34e7f6ad6555b20dc2b3154c17b460b84d91f61e|Edit test script template|Sun, 25 Nov 2012 20:03:54 -0800|Sun, 25 Nov 2012 20:03:54 -0800
+664b7990377b6f46ab893bca61e41cbc22523779|Merge pull request #138 from aimonb/master|Tue, 13 Nov 2012 23:51:53 -0800|Tue, 13 Nov 2012 23:51:53 -0800
+f9e22a513b78264ba4310ed9812880553eb0ef7a|Add rspec test for nova-volume addition|Tue, 13 Nov 2012 23:49:20 -0800|Tue, 13 Nov 2012 23:50:08 -0800
+eaffe6118fd56e46343ce6c93b84a00fe7b8db68|Merge pull request #137 from aimonb/master|Tue, 13 Nov 2012 23:22:33 -0800|Tue, 13 Nov 2012 23:22:33 -0800
+c21ce0d07cb44038b42bcb2eb0694f1dd50d2e9a|add nova-volume class.|Tue, 13 Nov 2012 22:31:15 -0800|Tue, 13 Nov 2012 22:31:15 -0800
+601d623b7b41f4c612d18e567aec089d832d9af1|Merge pull request #135 from aimonb/master|Wed, 7 Nov 2012 23:06:16 -0800|Wed, 7 Nov 2012 23:06:16 -0800
+2d4b7fbccf6fb13c087382dc89003f0b0a03eccc|FIX: add missing arg. ADD: tests|Wed, 7 Nov 2012 22:30:18 -0800|Wed, 7 Nov 2012 22:44:17 -0800
+0a967ea68a4f7eac139550b3d877cd0c0f0add5a|Merge pull request #130 from bodepd/aimon_specs|Wed, 7 Nov 2012 00:15:35 -0800|Wed, 7 Nov 2012 22:43:29 -0800
+eb81e84aa719b6bd7d053b5f5104f3ecb17b2bc3|Merge pull request #130 from bodepd/aimon_specs|Wed, 7 Nov 2012 00:15:35 -0800|Wed, 7 Nov 2012 00:15:35 -0800
+eb3e229484d2c1a6818142cbd7edcf71302bb949|add spec tests|Wed, 7 Nov 2012 00:13:38 -0800|Wed, 7 Nov 2012 00:13:38 -0800
+d48424b655ebd3d1212910d17a0ae6100e31520d|Merge pull request #129 from aimonb/rabbit_virtual_host|Tue, 6 Nov 2012 23:41:04 -0800|Tue, 6 Nov 2012 23:41:04 -0800
+b0e290682c87a43e5dea216f36e723377ae5ff2c|Merge pull request #128 from aimonb/optional_horizon|Tue, 6 Nov 2012 23:31:42 -0800|Tue, 6 Nov 2012 23:31:42 -0800
+426236831fe3ba03c14e83be53905af94b15949a|Fixed bad variable name|Tue, 6 Nov 2012 22:15:50 -0800|Tue, 6 Nov 2012 22:15:50 -0800
+e9d544721d00a1be346d0d16ebf7c56b8533dab3|typo|Tue, 6 Nov 2012 21:27:41 -0800|Tue, 6 Nov 2012 21:27:41 -0800
+2283204d0ce8eac236b46117b31978e19f2b0b05|typo|Tue, 6 Nov 2012 21:26:25 -0800|Tue, 6 Nov 2012 21:26:25 -0800
+7d45133d37442e1bfee2666665203142f949d676|Make Horiuzon installation optional|Tue, 6 Nov 2012 21:23:46 -0800|Tue, 6 Nov 2012 21:23:46 -0800
+9b052cd5fe53745e32ba5f21e6645f68fc8bce91|revert optional horizon for separate pull requests|Tue, 6 Nov 2012 21:00:54 -0800|Tue, 6 Nov 2012 21:00:54 -0800
+843a2e0aef58dd2789852715fa9a73a76e6db130|Add rabbit_virtual_host support to openstack controller module .. feature exists in puppetlabs-nova already. Also Made installation of Horizon optional.|Tue, 6 Nov 2012 17:08:41 -0800|Tue, 6 Nov 2012 17:08:41 -0800
+0a31e07d9ef2c36eca0be4ffc845c0b1b50411d2|Add rabbit_virtual_host support to openstack controller module .. feature exists in puppetlabs-nova already. Also Made installation of Horizon optional.|Tue, 6 Nov 2012 17:06:02 -0800|Tue, 6 Nov 2012 17:06:02 -0800
+02fc41294e67292b40d3a8c4f855fefd3b95aa96|update version|Fri, 2 Nov 2012 15:08:59 -0700|Fri, 2 Nov 2012 15:08:59 -0700
+ac6eba3551d95a7f496fcfa41b8aa5c41c73fb8b|1.0.3|Fri, 2 Nov 2012 15:07:42 -0700|Fri, 2 Nov 2012 15:07:42 -0700
+cee96ad5e2813f3ea425b62b4e9c1adbecb20132|1.0.2|Fri, 2 Nov 2012 14:47:47 -0700|Fri, 2 Nov 2012 14:47:47 -0700
+8ddf2a26ae8e2ebbeeba2d1e07770d1d8b8eca6f|update to use quantum|Fri, 2 Nov 2012 14:46:08 -0700|Fri, 2 Nov 2012 14:46:08 -0700
+d3c56c89f9255f0d064d48e96ac266071f299df1|removed quantum as a dep.|Fri, 2 Nov 2012 14:42:52 -0700|Fri, 2 Nov 2012 14:43:39 -0700
+f322255e30d058eca061bd7c1c0b392103f6a336|update module dep|Fri, 2 Nov 2012 14:41:37 -0700|Fri, 2 Nov 2012 14:41:37 -0700
+5416498f2be0bb56ac6e04bc23447fb01d044593|Relase 1.0.0|Fri, 2 Nov 2012 14:13:12 -0700|Fri, 2 Nov 2012 14:21:48 -0700
+0921350a667cb63a6f3989869941f3651ca0709b|Merge pull request #122 from bodepd/folsom_quantum_updates|Fri, 2 Nov 2012 11:24:04 -0700|Fri, 2 Nov 2012 11:24:04 -0700
+ad142c3ee3a44505a50524ea8ec2e77cebf2602e|fix test failures|Fri, 2 Nov 2012 10:46:09 -0700|Fri, 2 Nov 2012 10:46:09 -0700
+6f76b4f9794af32ab27125cf6fbd44710858cdac|quantum updates|Thu, 1 Nov 2012 23:31:23 -0700|Thu, 1 Nov 2012 23:31:23 -0700
+bf7230912acfb48ccbd631da135829685853c79b|Merge pull request #121 from bodepd/fix_quantum|Mon, 29 Oct 2012 21:46:47 -0700|Mon, 29 Oct 2012 21:46:47 -0700
+cf70688b4f2a08e4d468d86cf3b3a4c3a220b993|Fix typo|Mon, 29 Oct 2012 21:44:55 -0700|Mon, 29 Oct 2012 21:44:55 -0700
+e760b5dc86f490a468e1a85823f0bba502f05641|Merge pull request #120 from bodepd/work|Mon, 29 Oct 2012 18:29:25 -0700|Mon, 29 Oct 2012 18:29:25 -0700
+09370e1a74f3f5175896c9757fc13e1b909c4f4e|fix test file error|Mon, 29 Oct 2012 18:28:31 -0700|Mon, 29 Oct 2012 18:28:31 -0700
+d1054c68dd9dbe7bfdb1c3bee87aa0b5de4105f6|Add quantum to compute, all and controller|Mon, 29 Oct 2012 18:28:14 -0700|Mon, 29 Oct 2012 18:28:14 -0700
+69eeea34d33c07b749454b06e3e8a390c1dbac07|Add vswitch as testing sep|Mon, 29 Oct 2012 18:27:26 -0700|Mon, 29 Oct 2012 18:27:26 -0700
+7a68dbab2d0777f226a9ecc06ecd8a64c7574981|Merge pull request #119 from bodepd/fix_folsom_spec_tests|Sun, 28 Oct 2012 22:54:43 -0700|Sun, 28 Oct 2012 22:54:43 -0700
+69adc83390f6662d05bd16edc1cdce087674dba7|update fixtures.|Sun, 28 Oct 2012 21:49:47 -0700|Sun, 28 Oct 2012 21:49:47 -0700
+728bbb6bb8b4fd3d45c3c8881d03115666098c38|remove trailing comma|Sun, 28 Oct 2012 21:47:00 -0700|Sun, 28 Oct 2012 21:47:00 -0700
+3205a06e50201a765e9ff04cc06098269d7854be|fix spec tests|Sun, 28 Oct 2012 21:23:53 -0700|Sun, 28 Oct 2012 21:23:53 -0700
+33f0fc17360a4a57c9392aa2bcd945e50dd72ad7|fail explicitly for unsupported db types|Sun, 28 Oct 2012 21:23:44 -0700|Sun, 28 Oct 2012 21:23:44 -0700
+8da819bcf250844e3551f140bf14412d29bee546|fix minor compute issues|Sun, 28 Oct 2012 21:23:22 -0700|Sun, 28 Oct 2012 21:23:22 -0700
+c8a15dfc747db9989db969cbd82f5d2463150a6a|fix vncproxy_host|Sun, 28 Oct 2012 21:22:44 -0700|Sun, 28 Oct 2012 21:22:44 -0700
+49e64884db4d86fdf4c9662abdcbc9f32940e0fc|change controller params|Sun, 28 Oct 2012 21:22:05 -0700|Sun, 28 Oct 2012 21:22:05 -0700
+6126c743b9c7981a3b4aae3515294af2d4af9c90|style updates|Sun, 28 Oct 2012 21:18:28 -0700|Sun, 28 Oct 2012 21:18:28 -0700
+57d50f52ebf032263fb4add076c264496f420a31|Add gitignore|Sun, 28 Oct 2012 21:17:13 -0700|Sun, 28 Oct 2012 21:17:13 -0700
+60c55597ba8f6d540e6d57eb48419d73878cce01|update fixtures|Sun, 28 Oct 2012 21:16:51 -0700|Sun, 28 Oct 2012 21:16:51 -0700
+d746a8619091ee918dc4123685ba24ddc8200315|Merge pull request #116 from bodepd/update_repos|Thu, 25 Oct 2012 23:58:31 -0700|Thu, 25 Oct 2012 23:58:31 -0700
+77262213df1b64a9e8db985e64737640b1c6b7ba|remove ref to invalid variable|Thu, 25 Oct 2012 23:56:22 -0700|Thu, 25 Oct 2012 23:56:22 -0700
+d3645fecd171ff58bbfe305378fcf38a2a3291fb|update other repos for folsom|Thu, 25 Oct 2012 23:56:04 -0700|Thu, 25 Oct 2012 23:56:04 -0700
+15edab1cbdb1cc58e0f0a823e67198366e8ecf0d|Merge pull request #114 from bodepd/fix_cinder|Thu, 25 Oct 2012 16:12:46 -0700|Thu, 25 Oct 2012 16:12:46 -0700
+ecf1033c9e6aed711d37f37078edb394c4be0d9f|update cinder def in compute|Thu, 25 Oct 2012 16:09:30 -0700|Thu, 25 Oct 2012 16:09:30 -0700
+6b5fce498cf09941aa6441d8d0d79700c56422f2|Merge pull request #113 from puppetlabs/folsom|Thu, 25 Oct 2012 14:33:53 -0700|Thu, 25 Oct 2012 14:33:53 -0700
+5b293a1970e01bf7191732e0b8c42b15d4639d0d|do not use other class param values as default|Wed, 24 Oct 2012 12:17:10 -0700|Wed, 24 Oct 2012 14:42:40 -0700
+5463abbdf161519ac916b1135ee56ae5351ad3bc|remove defaults for controller passwords|Wed, 24 Oct 2012 12:16:17 -0700|Wed, 24 Oct 2012 12:16:17 -0700
+da518f627c10c70545163cc8c45b6132a05f7e8f|remove unused compute params|Wed, 24 Oct 2012 12:14:41 -0700|Wed, 24 Oct 2012 12:14:41 -0700
+94f5b516a607dde056d2a456e863c837128697c4|refactor all.pp|Wed, 24 Oct 2012 11:46:12 -0700|Wed, 24 Oct 2012 11:57:53 -0700
+7e9d20669b441ac0ba4a9cd47b2ae855cfbd7daf|reorganize class params for controller|Wed, 24 Oct 2012 11:45:52 -0700|Wed, 24 Oct 2012 11:57:49 -0700
+89002ebfc5d61640fe1d380d74c9c102a297f87b|add vnc_enabled flag|Wed, 24 Oct 2012 11:28:59 -0700|Wed, 24 Oct 2012 11:57:47 -0700
+7254a339e31a37fe1e424d6267e693e85e2e29a0|style updates|Wed, 24 Oct 2012 11:27:19 -0700|Wed, 24 Oct 2012 11:57:47 -0700
+7f969c591853ac2b31dd705cdf816edff93b5bd4|Add live migration support|Wed, 24 Oct 2012 11:21:33 -0700|Wed, 24 Oct 2012 11:57:47 -0700
+ea22f02ab3b1cd9b6141d01221137c1d00d86e10|stop exporting resources.|Wed, 24 Oct 2012 11:18:04 -0700|Wed, 24 Oct 2012 11:57:47 -0700
+867b783b8a20a71466dc72c5be12cc195cb47814|Add cinder config to nova::compute|Wed, 24 Oct 2012 11:13:27 -0700|Wed, 24 Oct 2012 11:57:43 -0700
+69e48a2ed27a619fee267f5963be23fd1404d2eb|re-add nova-network support|Wed, 24 Oct 2012 11:02:31 -0700|Wed, 24 Oct 2012 11:56:26 -0700
+7bba3d59a010129741de6d3cfe78f86c73cfade5|Add support for setting regions.|Wed, 24 Oct 2012 10:52:28 -0700|Wed, 24 Oct 2012 11:56:09 -0700
+31a0ade2afebd6a3255da19d3b167381617a078f|Merge pull request #111 from bodepd/folsom|Tue, 23 Oct 2012 17:09:40 -0700|Tue, 23 Oct 2012 17:09:40 -0700
+4acdc9a9fa66aa253d35e84bb396d4e36a9cdf49|Merge remote-tracking branch 'origin/master' into HEAD|Tue, 23 Oct 2012 17:08:22 -0700|Tue, 23 Oct 2012 17:08:22 -0700
+240a58f81e33e2f15be8df5c0faddd6f890cebd9|Merge pull request #110 from bodepd/essex|Tue, 23 Oct 2012 11:35:40 -0700|Tue, 23 Oct 2012 11:35:40 -0700
+b3a2cbebd45231c340ad9ce0835273b2b4169a2a|Add travis file|Tue, 23 Oct 2012 11:31:34 -0700|Tue, 23 Oct 2012 11:31:34 -0700
+eb4df1274173d6ad1f181c50c055feadfd847bf8|Merge pull request #109 from bodepd/folsom|Mon, 22 Oct 2012 16:30:41 -0700|Mon, 22 Oct 2012 16:30:41 -0700
+f001bfa157cb12753dc240fd68d014a86d80629c|removed trailing whitespace.|Mon, 15 Oct 2012 00:43:44 -0700|Tue, 16 Oct 2012 11:24:37 -0700
+52871a35954221542bbb0d3ec959233ab8cfc33a|add inifile repo as a testing dep|Sun, 14 Oct 2012 17:42:48 -0700|Tue, 16 Oct 2012 11:24:37 -0700
+03546bc90c0058c3654280a189aa455a10b0e5b0|nova-network work. cinder and quantum logic|Mon, 15 Oct 2012 07:09:43 +0000|Tue, 16 Oct 2012 11:24:37 -0700
+6b84c12fa7e6cd457447e93ef787e12b27133b4a|update params|Sun, 14 Oct 2012 01:03:35 -0700|Tue, 16 Oct 2012 11:24:37 -0700
+346e51d9a92c2748afad1aeade781caf9d4bb873|update log_debug,log_verbose to debug,verbose|Sun, 14 Oct 2012 00:26:29 -0700|Tue, 16 Oct 2012 11:24:37 -0700
+c9e1ed4f9a9261bb7c3d1f81af511dab6562541e|Change log_verbose and log_debug to verbose and debug|Sat, 13 Oct 2012 21:19:49 -0700|Tue, 16 Oct 2012 11:24:37 -0700
+07d66ad8093d059ef2738d384d33b655d076dc3e|Removed unused network configs|Sat, 13 Oct 2012 19:50:05 -0700|Tue, 16 Oct 2012 11:24:37 -0700
+d8747ed6e7152a77ef3827b22031aa2d9ded0eb3|update test file to work with quantum|Sat, 13 Oct 2012 19:49:35 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+8200961537f14c3d035e8a6a656f07390e8cabed|set root_password|Sat, 13 Oct 2012 02:59:00 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+c612934570ccc9988622486620ce4b46be080189|replaced nova::nework with quantum.|Fri, 12 Oct 2012 20:49:12 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+cca646e76d1b996a854aa78acbce7131730cf087|class params cannot be dep on other class params|Thu, 11 Oct 2012 02:10:56 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+0ee00d71130643433468ab1d04e9310d80aab148|Add cinder support|Thu, 11 Oct 2012 02:10:22 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+49173c6f403f254065ce21545389afffd1a96b3a|total refactor of openstack::compute|Tue, 9 Oct 2012 22:37:31 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+83952b9f4e1c3610dc3a64b3ac002c32eb9b0f4d|add --no-cahce to all nova calls in tests|Tue, 9 Oct 2012 22:37:17 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+eaf3d80f0f9dde38f1e79dfc70d406283bd37993|remove some class param default chains|Tue, 9 Oct 2012 22:36:44 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+f06d4d9f29845c8bcc943bbc94a11ae6e6fbe1f7|add keystone_host to the controller|Tue, 9 Oct 2012 22:34:53 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+c51463d66826311d008ab68ada4d44e51f511f2a|remove openstack::nova::compute|Tue, 9 Oct 2012 22:34:21 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+1a62606836d1969b5ccc25e73b783afc5d2d0a94|shorten names of keystone db class params|Tue, 9 Oct 2012 22:33:57 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+fd305d2bb71248b92e74cb9ce9b7e934d777eeed|change public_address back to controller_node|Mon, 20 Aug 2012 04:19:29 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+e1392b36eef839f5e437db8bbada959ec19dbc1e|Set defaults in openstack::all class|Mon, 20 Aug 2012 04:16:42 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+16cedd9642e8cf20c85c72137ddfadcb17b4d204|Remove unused public controller node.|Mon, 20 Aug 2012 04:16:04 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+d85d6f23fac71c97853354e5010ef641859edecf|Remove auth_file|Mon, 20 Aug 2012 04:14:30 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+c1600bcab5d370bf6727dedf041f7cc926656dfe|Update default for keystone admin_address|Mon, 20 Aug 2012 04:13:12 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+92c80bd8ff0a3cd8a79377a2c298677fdabdef7b|Update class parameter documentation|Mon, 20 Aug 2012 04:12:31 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+45eccb2a186339e52c4f6a32aad1149b103b0759|Refactor parameter defaults|Sun, 19 Aug 2012 00:47:58 -0700|Tue, 16 Oct 2012 11:24:36 -0700
+f6085946b93ff317687930179081fa961bf4ef2d|Add conditional dependency|Sun, 19 Aug 2012 00:47:21 -0700|Tue, 16 Oct 2012 11:24:35 -0700
+67a317b82bb8cc81445ef34262ced845b1f66afa|change exported_resources param to export_resources|Sun, 19 Aug 2012 00:45:45 -0700|Tue, 16 Oct 2012 11:24:35 -0700
+c8895dcee34a4d180a76abd1098727431d48cc4e|Add openstack::compute|Sun, 19 Aug 2012 00:44:49 -0700|Tue, 16 Oct 2012 11:24:35 -0700
+f1e8a37300d5250efa39e1e99743471ac145ad7f|Support passive mysql servers|Sun, 19 Aug 2012 00:44:23 -0700|Tue, 16 Oct 2012 11:24:35 -0700
+bcb75dda9ef590616c8d5f7126920f44d4dc9486|Add configuration for cache_server setting in horizon.|Sun, 19 Aug 2012 00:44:00 -0700|Tue, 16 Oct 2012 11:24:35 -0700
+1a8a61aaa21185d13be628be738ef432a0bca6bf|Support enabled for keystone|Sun, 19 Aug 2012 00:43:41 -0700|Tue, 16 Oct 2012 11:24:35 -0700
+c6dd87ec37e33f7e0b2dd91b4b9c87549cdf48a5|Always configure network|Sun, 19 Aug 2012 00:42:50 -0700|Tue, 16 Oct 2012 11:24:35 -0700
+bb96698ab3688fc5a2ed656dce3012d9145de777|unset default for public_interface|Sun, 19 Aug 2012 00:41:30 -0700|Tue, 16 Oct 2012 11:24:35 -0700
+afafbd355fac0d57e01f28f1c31e01dec06b15fa|Always create nova class|Sun, 19 Aug 2012 00:40:47 -0700|Tue, 16 Oct 2012 11:24:35 -0700
+4e2684090fbddb2705af43fd2fca04b2ecb8a9c6|Pass enabled flag to nova::vncproxy|Sun, 19 Aug 2012 00:38:50 -0700|Tue, 16 Oct 2012 11:24:35 -0700
+7f16726e57551eb8a7b8069e98f5e3ebe9e78666|Remove collection code from openstack::nova::compute|Sun, 19 Aug 2012 00:37:26 -0700|Tue, 16 Oct 2012 11:24:35 -0700
+90a7a67becd4a03da45a643e7f7fb45984968a8b|Fix bug in variable naming|Sun, 19 Aug 2012 00:29:37 -0700|Tue, 16 Oct 2012 11:24:35 -0700
+9644278f54af766c9ca0919f5690fb2da7242d33|Expand tests for compute and controller|Sun, 19 Aug 2012 00:28:11 -0700|Tue, 16 Oct 2012 11:24:35 -0700
+0f7f03284c8603e94b0d29548666c7106999b558|Further edits|Mon, 6 Aug 2012 18:38:56 +0000|Tue, 16 Oct 2012 11:24:35 -0700
+55f7f2b01c4c4cefcfe66e70c2cdbdfff273baad|Further edits.|Mon, 30 Jul 2012 17:09:32 +0000|Tue, 16 Oct 2012 11:24:35 -0700
+1e95338230adccef6b660a5f56a3e863037e3b85|temporary commit.|Thu, 26 Jul 2012 10:30:10 -0700|Tue, 16 Oct 2012 11:21:51 -0700
+7acaad1c54e3faeb22134c11066e75ae540e3d95|Began putting params in individual manifests instead of a single params.pp file.|Wed, 25 Jul 2012 22:11:47 +0000|Tue, 16 Oct 2012 11:21:12 -0700
+89beb232e4942a933f899f1f5ee1416d40d60123|Beginning cleanup/refactor of puppetlabs-openstack.|Thu, 12 Jul 2012 05:33:18 +0000|Tue, 16 Oct 2012 11:20:01 -0700
+9c72fa0d25828a918beb0593bab6ae6c0b42da09|Merge pull request #105 from bodepd/release|Mon, 8 Oct 2012 14:50:43 -0700|Mon, 8 Oct 2012 14:50:43 -0700
+10f1541b82e23d9ef1e1a7f92a04c3020a61618a|0.2.0 release|Mon, 8 Oct 2012 14:49:01 -0700|Mon, 8 Oct 2012 14:49:01 -0700
+63e7a19fbd49f487aa2a7d28fc61f4cd45763473|Merge pull request #104 from bodepd/folsom|Mon, 1 Oct 2012 21:47:51 -0700|Mon, 1 Oct 2012 21:47:51 -0700
+445363560de65f0ce94f0cd99ca89abc2dd47fad|Merge pull request #100 from jtopjian/jtopjian-essex_swift|Mon, 20 Aug 2012 21:35:57 -0700|Mon, 20 Aug 2012 21:35:57 -0700
+472dafd2140984814fc150d71707d3c366d5238d|Added swift manifests|Tue, 21 Aug 2012 02:13:37 +0000|Tue, 21 Aug 2012 02:13:37 +0000
+bcb76de993f1d48c6ec750c15ca770fcf4c8e462|Merge pull request #99 from jtopjian/jtopjian-essex_mods|Mon, 20 Aug 2012 14:01:49 -0700|Mon, 20 Aug 2012 14:01:49 -0700
+97d719f7e6946c9413549cdb6c9b2482dad4c728|Keystone admin tenant and mysql root password|Mon, 20 Aug 2012 11:53:38 -0600|Mon, 20 Aug 2012 11:57:31 -0600
+8abed24b08a4fe54e722da704e77b6ab25aaae23|Merge pull request #97 from acidprime/update_keystone_bind_host|Wed, 8 Aug 2012 11:30:02 -0700|Wed, 8 Aug 2012 11:30:02 -0700
+45534e2daf558285c0e3bc28cf6a0a387f96a993|Update keystone bind_host value to 0.0.0.0|Mon, 6 Aug 2012 13:29:47 -0700|Mon, 6 Aug 2012 13:29:47 -0700
+ea4343d3815b34bfe86a39e4095f50935f2aae9b|Merge pull request #95 from bodepd/update_xinetd_url|Mon, 16 Jul 2012 11:13:08 -0700|Mon, 16 Jul 2012 11:13:08 -0700
+4957cc3f432c6996cc3a76d8dc16e26f4ffbde3a|Update xinetd url to use puppetlabs version|Mon, 16 Jul 2012 10:50:06 -0700|Mon, 16 Jul 2012 11:11:50 -0700
+af02603774efb9986826b118c1bdf8e3ccced5d9|Merge pull request #93 from dizz/patch-3|Thu, 12 Jul 2012 09:09:24 -0700|Thu, 12 Jul 2012 09:09:24 -0700
+6771da8117d35ad6656b5f46803151712a9a197b|vnc_enabled should be a literal boolean value|Thu, 12 Jul 2012 13:50:04 +0300|Thu, 12 Jul 2012 13:50:04 +0300
+20ac464cebd16e456957541b4900dd14020138ef|Merge pull request #91 from branan/multi_host_default|Wed, 11 Jul 2012 00:32:43 -0700|Wed, 11 Jul 2012 00:32:43 -0700
+7f08cca49b28e260b46716c394300ac56543bf3e|Merge pull request #92 from fcharlier/horizon_mandatory_param|Tue, 10 Jul 2012 12:01:21 -0700|Tue, 10 Jul 2012 12:01:21 -0700
+4ddc4bc1b45ba5e24c88bb4a6a6f20e19b9bec78|Add the secret_key parameter to the Horizon class|Tue, 10 Jul 2012 20:01:45 +0200|Tue, 10 Jul 2012 20:01:45 +0200
+a580de87a73d63c3601014e44393300b65eb94af|(#15205) Enable multihost by default in the example|Tue, 10 Jul 2012 10:13:58 -0700|Tue, 10 Jul 2012 10:13:58 -0700
+4bb922483d7643049ad3394fa0682adbc544aa5b|Merge pull request #84 from bodepd/add_pull_request_stat_task|Thu, 5 Jul 2012 14:52:15 -0700|Thu, 5 Jul 2012 14:52:15 -0700
+a7f966073fd8b9798da84969226b72d21b47683c|Merge pull request #88 from branan/cleanups_for_testing|Mon, 2 Jul 2012 18:21:12 -0700|Mon, 2 Jul 2012 18:21:12 -0700
+0dce2b866c8d6ff445caa44e2c416866258d44a0|Merge pull request #89 from sorenh/public_address_endpoints|Mon, 2 Jul 2012 17:43:18 -0700|Mon, 2 Jul 2012 17:43:18 -0700
+1d7c391c849094b422ac998e84006515f8ba107d|Make public urls use public_address in all-in-one|Mon, 2 Jul 2012 16:29:57 +0200|Mon, 2 Jul 2012 16:32:39 +0200
+b453c95ae587deb66606bfada678258dcf352907|Enable floating IP on all-in-one setup|Fri, 29 Jun 2012 15:57:39 -0700|Fri, 29 Jun 2012 15:57:39 -0700
+bcde88e987e151c08c8c89214cff6416b0308594|Merge pull request #87 from dizz/patch-2|Fri, 29 Jun 2012 10:23:03 -0700|Fri, 29 Jun 2012 10:23:03 -0700
+ca379e003cab8784c9b1a089ce59475df40db6bb|$verbose should not be quoted|Fri, 29 Jun 2012 11:05:17 +0300|Fri, 29 Jun 2012 11:05:17 +0300
+5ed02b01ea09f2cdf5c1eed5a59f5fcecce8d4dd|Merge pull request #86 from dizz/patch-1|Wed, 27 Jun 2012 07:12:27 -0700|Wed, 27 Jun 2012 07:12:27 -0700
+36986a127b03295ad32c8cd99516ffe29b9ce81a|$auto_assign_floating_ip needs to be a boolean and not string|Wed, 27 Jun 2012 13:36:57 +0300|Wed, 27 Jun 2012 13:36:57 +0300
+a128c60f42da1924e2655e092eb5e213af244e1a|Merge pull request #85 from branan/fix_rabbit_host|Tue, 26 Jun 2012 22:35:05 -0700|Tue, 26 Jun 2012 22:35:05 -0700
+b611ed76e96587858551f535d4b37b476ae7870a|Fix rabbitmq connection when not exporting resources|Tue, 26 Jun 2012 19:31:20 -0700|Tue, 26 Jun 2012 19:31:20 -0700
+ac0cad46584010ab9a14c04f316d3c5275c188cd|Adds rake task for pull request stats|Mon, 25 Jun 2012 20:23:03 -0700|Mon, 25 Jun 2012 20:23:03 -0700
+b077b6c98956215de44bfeedcdad3b5a0162d359|Merge pull request #83 from bodepd/ship_better_test|Mon, 25 Jun 2012 17:46:56 -0700|Mon, 25 Jun 2012 17:46:56 -0700
+0ca48ee8320481c41a587f1ffc54ab183b08a954|Add template to create test file|Mon, 25 Jun 2012 17:44:04 -0700|Mon, 25 Jun 2012 17:44:04 -0700
+e8c32c56a610740d7aecba4b723460f402144e16|Merge pull request #82 from bodepd/enable_params|Mon, 25 Jun 2012 16:03:26 -0700|Mon, 25 Jun 2012 16:03:26 -0700
+aa2b981aeaea9ebb209174df6ede609ad662447f|Add enabled parameter to nova::controller|Mon, 18 Jun 2012 15:29:35 -0700|Mon, 25 Jun 2012 15:55:05 -0700
+327c3741793440e2dd038fbc64c8cb1ca3e79bd1|Merge pull request #78 from hswong3i/multi_host|Mon, 25 Jun 2012 15:35:38 -0700|Mon, 25 Jun 2012 15:35:38 -0700
+4fde7caa0c6983810f69b3d70bdf8bdf28f41a18|Merge pull request #79 from hswong3i/auto_assign_floating_ip|Mon, 25 Jun 2012 15:35:08 -0700|Mon, 25 Jun 2012 15:35:08 -0700
+58ea1c64d9ecc5133f42ebf4871f98ac6380ac99|Merge pull request #80 from bodepd/doc_permisc|Mon, 25 Jun 2012 12:23:01 -0700|Mon, 25 Jun 2012 12:23:01 -0700
+cc1b52688593adeb8b07c712d443e61a953a4fcf|Update README to specify promisc mode for interfaces as a req|Mon, 25 Jun 2012 12:15:31 -0700|Mon, 25 Jun 2012 12:21:22 -0700
+772168c1a0c9651ba7875cbfb914a1711c78641d|Also disable send_arp_for_ha when multi_host is false.|Wed, 20 Jun 2012 11:47:25 +0800|Wed, 20 Jun 2012 11:47:25 +0800
+b8c7b9a5563b2c681f58b9deae700411bb0f2ec5|Add optional auto_assign_floating_ip parameter.|Wed, 20 Jun 2012 11:41:23 +0800|Wed, 20 Jun 2012 11:41:23 +0800
+cb4ea70d8fe3b2881548f03bb7bf57bbc81a64d1|Add missing send_arp_for_ha for multi_host mode, reference from devstack.|Wed, 20 Jun 2012 09:18:03 +0800|Wed, 20 Jun 2012 09:18:03 +0800
+90dffc13643fe216acc9080a8f0e1e4f66ea6b26|Merge pull request #77 from hswong3i/precise|Tue, 19 Jun 2012 10:27:33 -0700|Tue, 19 Jun 2012 10:27:33 -0700
+79ba57a1e2e0fb282492bd9ad914b4045982ac2c|Merge pull request #75 from hswong3i/public_interface|Tue, 19 Jun 2012 10:26:45 -0700|Tue, 19 Jun 2012 10:26:45 -0700
+40ae6bdd25fed9a259c5960c440d22be1cbf0cdf|Merge pull request #76 from hswong3i/nova_user_password|Tue, 19 Jun 2012 10:25:54 -0700|Tue, 19 Jun 2012 10:25:54 -0700
+1242f8c71c9648ed6ff87856cec580035e11cf11|Update default UEC image import with Ubuntu 12.04.|Tue, 19 Jun 2012 21:48:54 +0800|Tue, 19 Jun 2012 21:48:54 +0800
+69e46afb418dafe39930c93608d5d1936592b671|compute.pp's admin_password should sync with $nova_user_password of controller.pp.|Tue, 19 Jun 2012 21:43:54 +0800|Tue, 19 Jun 2012 21:43:54 +0800
+83d38ec8a444feff4f32254fa95a832a7718ba59|Add missing  for openstack_compute.|Tue, 19 Jun 2012 21:38:43 +0800|Tue, 19 Jun 2012 21:38:43 +0800
+8997682d65747e6e4ba527c1426aea680512e4ab|Merge pull request #74 from branan/spec_automation|Mon, 18 Jun 2012 13:40:26 -0700|Mon, 18 Jun 2012 13:40:26 -0700
+786ef593c2f0d86fd2316b7775484a1812de73c7|Add gemfile for jenkins job|Mon, 18 Jun 2012 11:25:52 -0700|Mon, 18 Jun 2012 11:25:52 -0700
+4bf1cf0034f59ee824ebc4cb07fbb0a274240424|Merge pull request #73 from SilverSurfer972/master|Mon, 18 Jun 2012 09:06:55 -0700|Mon, 18 Jun 2012 09:06:55 -0700
+be0addf16c02247ad48b27deb7ee4467b284b36f|Yaml added to fix "uninitialized constant YAML" error|Mon, 18 Jun 2012 21:33:45 +0900|Mon, 18 Jun 2012 21:33:45 +0900
+682af7456995870c5cf5cb56caa683cd7a551d8d|Merge pull request #72 from bodepd/remove_puppet_reference|Sat, 16 Jun 2012 11:08:57 -0700|Sat, 16 Jun 2012 11:08:57 -0700
+e9923f2eda9cedf9b801ce2d31dc9876a083fdd9|Remove Puppet reference from rake task.|Fri, 15 Jun 2012 23:28:28 -0700|Fri, 15 Jun 2012 23:31:04 -0700
+5dee52bb264ef1012dce3f05d30dca2ff952beb0|Merge pull request #71 from branan/handle_missing_spechelper|Fri, 15 Jun 2012 20:38:30 -0700|Fri, 15 Jun 2012 20:38:30 -0700
+d834dafdd47422a6ed7cd36d78e1fc49945b4fe4|Wrap puppetlabs_spec_helper in a begin/rescue|Fri, 15 Jun 2012 16:22:45 -0700|Fri, 15 Jun 2012 16:28:18 -0700
+e5c6153ee151f8627cf61a7be8d1b8e4727c0134|Merge pull request #69 from sbadia/master|Wed, 13 Jun 2012 15:47:40 -0700|Wed, 13 Jun 2012 15:47:40 -0700
+5687d79bb03fe686b4efa27bd82703361acddd1e|Typo fixed_network_range|Wed, 13 Jun 2012 17:35:04 +0200|Wed, 13 Jun 2012 17:35:04 +0200
+9e03db71d534b17e5215063b2c3650b2650cdb32|Merge pull request #64 from robertstarmer/master|Tue, 12 Jun 2012 19:40:05 -0700|Tue, 12 Jun 2012 19:40:05 -0700
+f172bdbd0bac4a7c88251e956fec68e048ad1904|Merge pull request #68 from branan/less_strict_dependencies|Tue, 12 Jun 2012 17:04:26 -0700|Tue, 12 Jun 2012 17:04:26 -0700
+54193adae43a8691e6ce16576ac7d3bb82f49875|Use >= for all module dependencies|Tue, 12 Jun 2012 17:01:32 -0700|Tue, 12 Jun 2012 17:01:32 -0700
+5ac1b2804e96b85cc6b325c7279da33bdaa67eca|Merge pull request #67 from branan/fix_modulefile_typo|Tue, 12 Jun 2012 16:52:32 -0700|Tue, 12 Jun 2012 16:52:32 -0700
+bbd719a9af2dbffa3e42d251aebfe37d71c4fd6b|spell mysql correctly|Tue, 12 Jun 2012 16:41:16 -0700|Tue, 12 Jun 2012 16:41:16 -0700
+cf39e1cb2c0b561a43b39ac1aa7392c60fc0ea0c|Merge pull request #66 from branan/doc_cleanup|Tue, 12 Jun 2012 16:31:00 -0700|Tue, 12 Jun 2012 16:31:00 -0700
+f7066470e1537ad1411df2a1c918d8d6c7cde90b|Cleanup documentation in prep for release|Tue, 12 Jun 2012 11:31:58 -0700|Tue, 12 Jun 2012 16:17:15 -0700
+fba5fdf45ef7e13370ce4e5a3b085fca3c6862ec|reversed nova_test.sh updates, fixed misspelling in controller.pp; added parameters needed to enable additional horizon services|Tue, 12 Jun 2012 22:25:26 +0000|Tue, 12 Jun 2012 22:25:26 +0000
+94b6ec1159559e69ebad1f2dc75cce48b3269143|Merge pull request #65 from branan/test_script_compatibility|Tue, 12 Jun 2012 11:38:06 -0700|Tue, 12 Jun 2012 11:38:06 -0700
+3a3940d7647852dab89b58d0196faf65ebbd7bbd|Use i386 instead of x86_64 cirros image in the test script|Tue, 12 Jun 2012 11:35:07 -0700|Tue, 12 Jun 2012 11:35:07 -0700
+e6c36084809a08f584efe15916e0c1494a62390b|updates based on pull request|Tue, 12 Jun 2012 07:40:09 +0000|Tue, 12 Jun 2012 07:40:09 +0000
+73c1ac6a97ef1a7d215fc6342b85a7d6460394c6|updated nova_test.sh to include floating IP and security_groups, and controller.pp to support a change in the horizon module (more horizon services)|Tue, 12 Jun 2012 05:34:59 +0000|Tue, 12 Jun 2012 05:34:59 +0000
+eaa3b0b8f71861ffb5dbada0d8ae751530ec3537|Merge pull request #63 from sbadia/master|Mon, 11 Jun 2012 16:51:58 -0700|Mon, 11 Jun 2012 16:51:58 -0700
+3cbdab7ee378ed60c812519e64f8f6514c64bb19|Typo correct (for the moment openstack is avail. only on wheezy)|Tue, 12 Jun 2012 01:39:25 +0200|Tue, 12 Jun 2012 01:39:25 +0200
+5baa805befa773a3903ecbcdd5852030bc0f6c57|Merge pull request #62 from bodepd/rewrite_readme|Mon, 11 Jun 2012 12:17:51 -0700|Mon, 11 Jun 2012 12:17:51 -0700
+c4d50b478ac715a430966c413db7dcc6d05e32e5|Refactor README in preparation for release.|Mon, 11 Jun 2012 12:11:17 -0700|Mon, 11 Jun 2012 12:11:17 -0700
+c19ebbf425f065b1cf98d4c7ac4198e973e46209|Merge pull request #61 from bodepd/dev|Sun, 10 Jun 2012 22:44:56 -0700|Sun, 10 Jun 2012 22:44:56 -0700
+0ee4c8b1f7f0374f07f50a077541a9bdff8f5658|Style update|Sun, 10 Jun 2012 22:43:56 -0700|Sun, 10 Jun 2012 22:43:56 -0700
+75a64bb0676af55c0c75fff526e30e47643455b6|Merge pull request #60 from bodepd/compute_example|Fri, 8 Jun 2012 11:27:44 -0700|Fri, 8 Jun 2012 11:27:44 -0700
+13295cb720837b130596055f0396d40b9b852818|Clean up openstack::compute example manifest|Thu, 7 Jun 2012 18:12:52 -0700|Thu, 7 Jun 2012 18:12:52 -0700
+7eeabae8bb9da35b4dacd6fd6c704eb43764d2e6|Merge pull request #59 from bodepd/remove_extra_commas|Thu, 7 Jun 2012 16:19:50 -0700|Thu, 7 Jun 2012 16:19:50 -0700
+a749027801ca1a6c2790b64b08b578dfc8a3fd60|Fix syntax errors|Thu, 7 Jun 2012 16:04:55 -0700|Thu, 7 Jun 2012 16:04:55 -0700
+c682091619121c03c7fd19ac88563df1a5641df5|Merge pull request #57 from bodepd/site_pp_refactor|Thu, 7 Jun 2012 15:49:28 -0700|Thu, 7 Jun 2012 15:49:28 -0700
+cfc99e1506e8d69b523bc7d26aac70516fda9fa6|Improvements to example site.pp|Thu, 7 Jun 2012 15:47:01 -0700|Thu, 7 Jun 2012 15:47:01 -0700
+af91598557c728e8c31e74df7c8ed8aaf3ce7f7e|Merge pull request #56 from bodepd/upate_password_param_names|Thu, 7 Jun 2012 15:45:32 -0700|Thu, 7 Jun 2012 15:45:32 -0700
+270973611e2c21703c00313c63345a7ab98be113|Update service user param names|Thu, 7 Jun 2012 15:41:17 -0700|Thu, 7 Jun 2012 15:41:17 -0700
+45b68d9a179a0633039db7875d6dc37e32a102f9|Merge pull request #55 from branan/forge_release|Thu, 7 Jun 2012 15:37:49 -0700|Thu, 7 Jun 2012 15:37:49 -0700
+bff71aac1a638a9af56396530b7ecb7b6e49dea8|Merge pull request #53 from branan/write_spec_tests|Thu, 7 Jun 2012 15:37:25 -0700|Thu, 7 Jun 2012 15:37:25 -0700
+9e9a01c3166408bf23d3b4969c25d9205858247a|Add modulefile and changelog for initial forge release|Thu, 7 Jun 2012 15:34:10 -0700|Thu, 7 Jun 2012 15:34:10 -0700
+708892a248d8253e6d55fe9d2da6df3c42ce8c97|Merge pull request #54 from bodepd/openstack|Thu, 7 Jun 2012 11:04:20 -0700|Thu, 7 Jun 2012 11:04:20 -0700
+8b9c670ed8925616a014e3d0b566fa11798e0edf|update examples/site.pp|Thu, 7 Jun 2012 10:28:01 -0700|Thu, 7 Jun 2012 11:02:16 -0700
+eb84da4e5966376b51f0e86916a84dba1b6e9390|Add inline documentation.|Thu, 7 Jun 2012 10:10:42 -0700|Thu, 7 Jun 2012 11:02:03 -0700
+498473097eb6171c6a62c3e6f5cbba43117190cf|Change admin_user_password to admin_password|Thu, 7 Jun 2012 10:08:51 -0700|Thu, 7 Jun 2012 10:08:51 -0700
+6d50c3f83948e1e46bbd23962e2c8c5ca08a4404|Write spec test for openstack::compute|Fri, 1 Jun 2012 14:04:44 -0700|Fri, 1 Jun 2012 14:04:44 -0700
+d6bf2709e74a0abf2bcc0ab4953643774a88e2c9|Merge pull request #52 from bodepd/allow_vg_overrides_in_all|Tue, 29 May 2012 10:01:01 -0700|Tue, 29 May 2012 10:01:01 -0700
+4f5d06396cd2a332d273edb05e5b3f4ab2ff8fb4|Allow nova volume vg name to be overridden in openstack::all|Fri, 25 May 2012 18:26:36 -0700|Fri, 25 May 2012 18:26:36 -0700
+7eab1160d730c3efea8b78ae6642df3566bcf66e|Merge pull request #51 from bodepd/volume_support_for_compute|Fri, 25 May 2012 16:31:28 -0700|Fri, 25 May 2012 16:31:28 -0700
+5eab169ec10655f8c35e06f265d177323663b7c0|Add volume management option for compute nodes|Fri, 25 May 2012 16:24:51 -0700|Fri, 25 May 2012 16:24:51 -0700
+0a67b507cd9a9b6c2043fa220579f5016b1b2506|Merge pull request #50 from bodepd/minor_changes|Tue, 22 May 2012 13:26:15 -0700|Tue, 22 May 2012 13:26:15 -0700
+6e8f566cde37657b651ef96c4e50e19645b07cab|Change fixed_range default to /24|Tue, 22 May 2012 10:11:05 -0700|Tue, 22 May 2012 10:11:05 -0700
+13f0c78b0cf3b62ce74bd8ee2107faba97c204a7|Add nova::volume:iscsi class to nova::all|Tue, 22 May 2012 10:10:10 -0700|Tue, 22 May 2012 10:10:10 -0700
+83eccdfa7dea5830136f85cdcb87abfbbbc2b1e2|Ensure that verbose is set for nova class|Tue, 22 May 2012 10:05:11 -0700|Tue, 22 May 2012 10:05:11 -0700
+db70dbea0214bd4236fe00cbd5dbfa2d7a4e8f32|Change verbose default to false|Tue, 22 May 2012 10:04:14 -0700|Tue, 22 May 2012 10:04:14 -0700
+a335d0bc393f398fe99250bba683022fe2f968d9|Merge pull request #49 from craigtracey/master|Tue, 15 May 2012 09:26:25 -0700|Tue, 15 May 2012 09:26:25 -0700
+d519815a863bc2aa7422354846f61791f200edac|Adding puppet-sysctl to other_repos.yaml|Tue, 15 May 2012 11:25:57 -0400|Tue, 15 May 2012 11:25:57 -0400
+6c7cd9061423a75e1c11edd9a34268700b5ee0df|Merge pull request #48 from bodepd/dev|Mon, 14 May 2012 16:09:48 -0700|Mon, 14 May 2012 16:09:48 -0700
+3eadf464c11a08bff510640bf96d177f4b13bcd7|Link to issues|Mon, 14 May 2012 16:08:48 -0700|Mon, 14 May 2012 16:08:48 -0700
+424d96f3e0706586863f26eb4abdce8327fcb507|Merge pull request #47 from craigtracey/master|Mon, 14 May 2012 15:50:36 -0700|Mon, 14 May 2012 15:50:36 -0700
+a7e2cd5283480db5421153c3404969100d336342|Add example usage of modulepath|Mon, 14 May 2012 18:19:15 -0400|Mon, 14 May 2012 18:19:15 -0400
+af66ddc422dd05f7d35a70d01503db29cc2e6a57|Update repos file to support alternative modulepath support|Mon, 14 May 2012 18:16:04 -0400|Mon, 14 May 2012 18:16:04 -0400
+ca6b95b19c7456994cf51c47bdb9a4ce00e81b74|Add support for alternative modulepath|Mon, 14 May 2012 18:09:01 -0400|Mon, 14 May 2012 18:09:01 -0400
+efeff768bf9f4f1304231c3a90e5ef1092619231|Merge pull request #46 from bodepd/update_repo_paths|Mon, 14 May 2012 11:34:56 -0700|Mon, 14 May 2012 11:34:56 -0700
+53642fb79cccbd7974a34954e4b9ae289945be5d|Update repo paths|Mon, 14 May 2012 11:32:27 -0700|Mon, 14 May 2012 11:32:27 -0700
+b9420823cae421ac0c797299f3d5a0cc39f2e89d|Merge pull request #45 from bodepd/dev|Thu, 10 May 2012 22:22:09 -0700|Thu, 10 May 2012 22:22:09 -0700
+880ba865ff7965f5a9569fb90286eb97687c35c3|Add files for spec tests.|Thu, 10 May 2012 22:20:37 -0700|Thu, 10 May 2012 22:20:37 -0700
+6c6439a459dd8317eb21ccfde48ea93eb3f3b417|Add LICENSE and inline documentation.|Thu, 10 May 2012 22:18:33 -0700|Thu, 10 May 2012 22:18:33 -0700
+63a8901181e49477df00c6c984febc50505f6b25|Merge pull request #44 from bodepd/dev|Thu, 10 May 2012 21:57:29 -0700|Thu, 10 May 2012 21:57:29 -0700
+1c6c46fddbe92298ffad727d24468060db213b9c|Revert "Use rabbit_host parameter"|Thu, 10 May 2012 21:54:06 -0700|Thu, 10 May 2012 21:54:06 -0700
+9e6b2156fd99bf19dfed4323c5537f7de76c0098|Merge pull request #43 from sorenh/master|Thu, 10 May 2012 07:09:44 -0700|Thu, 10 May 2012 07:09:44 -0700
+3e419bc834751bc2625a7ff2df2d986a62dcb363|Use rabbit_host parameter|Wed, 9 May 2012 20:17:57 -0700|Thu, 10 May 2012 06:26:45 -0700
+f19f225f25a4c27bca0e119470e643f7949b0187|Remove network_host parameter|Wed, 9 May 2012 20:15:41 -0700|Thu, 10 May 2012 06:26:45 -0700
+2b6b247188aa9a04966306360982403a20f6c4a6|Fix typo|Wed, 9 May 2012 20:14:26 -0700|Thu, 10 May 2012 06:26:45 -0700
+d84820346c5f000024fdc790cc8f754f15561d4c|Merge pull request #42 from bodepd/network_refactor|Wed, 9 May 2012 22:55:01 -0700|Wed, 9 May 2012 22:55:01 -0700
+3916873f8165b4fc68e98d0f65e5b89615658062|Refactor network code|Tue, 8 May 2012 01:09:48 -0700|Tue, 8 May 2012 01:09:48 -0700
+26f2d89f3d2c7b7420495d95da788ea098d363b2|Merge pull request #41 from bodepd/update_libvirt_type|Tue, 8 May 2012 01:08:20 -0700|Tue, 8 May 2012 01:08:20 -0700
+935ae8af9cbcba9c395f4c0a28357f384241d101|Ensure that libvirt type can be overridden|Tue, 8 May 2012 01:07:45 -0700|Tue, 8 May 2012 01:07:45 -0700
+c7dc5ffa26cf5f29f7433ffc8773f63448c4ac3a|Merge pull request #40 from bodepd/verbose|Tue, 8 May 2012 01:05:08 -0700|Tue, 8 May 2012 01:05:08 -0700
+8a10508cfe42db60ed5ceb3291d43f61041da78c|Ensure that verbose can be set for nova|Tue, 8 May 2012 01:03:58 -0700|Tue, 8 May 2012 01:03:58 -0700
+e8ac61d4f3426763dcf264bfb3c09736319941d3|Merge pull request #39 from bodepd/controller_bind_host|Tue, 8 May 2012 01:01:41 -0700|Tue, 8 May 2012 01:01:41 -0700
+525b3fbf7976a709ff84846b55a0696eb470a11d|Update bindhost to 0.0.0.0|Tue, 8 May 2012 01:00:56 -0700|Tue, 8 May 2012 01:00:56 -0700
+f586f13dec3ab985cbeaf17c6ce9fc26ce79f12a|Merge pull request #38 from bodepd/openrc|Tue, 8 May 2012 00:58:43 -0700|Tue, 8 May 2012 00:58:43 -0700
+6004ceae3f1497d3de7699b43c7e70f43ae4dda4|Add openstack::auth_file class|Tue, 8 May 2012 00:57:20 -0700|Tue, 8 May 2012 00:57:20 -0700
+9f45813e50f22c5f8e72eec8176d9f0ea257e610|Merge pull request #37 from bodepd/ensure_vncproxy_is_running|Tue, 1 May 2012 18:31:46 -0700|Tue, 1 May 2012 18:31:46 -0700
+af5e539742c9344c7fd6cae7eac4ed973073cd2a|Ensure vncproxy is enabled.|Tue, 1 May 2012 18:27:11 -0700|Tue, 1 May 2012 18:27:11 -0700
+252e71051c16788f16128f5ae475ba74d2910e04|Merge pull request #36 from branan/cidr|Tue, 1 May 2012 16:47:59 -0700|Tue, 1 May 2012 16:47:59 -0700
+386860cdd807a9daef3326a9e0bc7e14a7fc3302|Fi controller.pp for cidr|Tue, 1 May 2012 16:46:12 -0700|Tue, 1 May 2012 16:46:12 -0700
+6a30dac9ae8c8449556d49a5f7cb5c97f40e29ec|Merge pull request #35 from branan/cidr|Tue, 1 May 2012 16:45:15 -0700|Tue, 1 May 2012 16:45:15 -0700
+705817dab6c969275bd2687b419eb6eac013ae14|Remove avaiable_ips from nova-vm-net now that we have CIDR|Tue, 1 May 2012 16:19:59 -0700|Tue, 1 May 2012 16:19:59 -0700
+1c2b87f0197053c3a05ffbae68e16c2aa99f6742|Merge pull request #34 from branan/master|Tue, 1 May 2012 13:16:53 -0700|Tue, 1 May 2012 13:16:53 -0700
+84ea5503d836a3c81e07334e4f58f8cd79110d87|README cleanups/fixes|Tue, 1 May 2012 10:59:49 -0700|Tue, 1 May 2012 10:59:49 -0700
+91f22b48b427b219463e117b76e2e5918fad5ee6|Merge pull request #33 from bodepd/rewrite|Mon, 30 Apr 2012 17:35:14 -0700|Mon, 30 Apr 2012 17:35:14 -0700
+3f1f6a9eea005322c4dbec379c6e95258090f19f|Update to use master of everything|Mon, 30 Apr 2012 17:33:44 -0700|Mon, 30 Apr 2012 17:33:44 -0700
+4d76d701c92d75a340f481a32055dd3243852d08|Total rewrite of the openstack project|Mon, 30 Apr 2012 17:31:29 -0700|Mon, 30 Apr 2012 17:31:29 -0700
+350385b51875143ab2c9169ef4905ebafca064e0|Merge pull request #32 from bodepd/dev|Sun, 22 Apr 2012 23:23:49 -0700|Sun, 22 Apr 2012 23:23:49 -0700
+af2e047638ce0f302ccad87a431f2dc21c5a7eb5|Add horizon submodule|Sun, 22 Apr 2012 23:21:48 -0700|Sun, 22 Apr 2012 23:21:48 -0700
+b7caf7de911090747c44103b960cf4bd4a16fd27|Merge pull request #31 from bodepd/dev|Thu, 19 Apr 2012 16:10:04 -0700|Thu, 19 Apr 2012 16:10:04 -0700
+5909ef5bad5736ec524b85de8c8e3d6d4ae0c7b3|update submodules|Thu, 19 Apr 2012 16:09:02 -0700|Thu, 19 Apr 2012 16:09:02 -0700
+834e8d9cc26cf205aebb9a2754eea2ffa3852925|update mysql commt|Thu, 19 Apr 2012 15:58:50 -0700|Thu, 19 Apr 2012 15:58:50 -0700
+6527b4b73d52bd9be66d77e46a75d6a03fb63ba0|update keystone submodule|Thu, 19 Apr 2012 15:56:38 -0700|Thu, 19 Apr 2012 15:56:38 -0700
+6a751c66e465075101e4075c9ee6098f7d34a002|update glance commit|Thu, 19 Apr 2012 15:54:50 -0700|Thu, 19 Apr 2012 15:54:50 -0700
+c12794fbaf8895a1cc7a25347f762eb0adab80cf|Merge pull request #30 from bodepd/dev|Tue, 10 Apr 2012 00:15:43 -0700|Tue, 10 Apr 2012 00:15:43 -0700
+0068436fd382b940580c23b87ac584ab947ca626|Update submodules|Tue, 10 Apr 2012 00:14:16 -0700|Tue, 10 Apr 2012 00:14:16 -0700
+ff8e338e1f36e2315e455916ef4732ad1bc15a35|Merge pull request #29 from bodepd/dev|Sun, 8 Apr 2012 22:20:35 -0700|Sun, 8 Apr 2012 22:20:35 -0700
+80c454f8af18e4b4592ac62aa1d34e6d5aba1dff|Fix repo for xinetd|Sun, 8 Apr 2012 22:19:45 -0700|Sun, 8 Apr 2012 22:19:45 -0700
+5732055f7b9394e35bb0e3f4b52ae8c92e13131b|Merge pull request #28 from bodepd/dev|Sun, 8 Apr 2012 22:18:56 -0700|Sun, 8 Apr 2012 22:18:56 -0700
+65b2ea1ad4461134354b7dfed98cd6f9c45060e9|Fix submodule typo|Sun, 8 Apr 2012 22:18:13 -0700|Sun, 8 Apr 2012 22:18:13 -0700
+8ac3254f8d08de85f7ad887fee8248db8837d83a|Merge pull request #27 from bodepd/dev|Sun, 8 Apr 2012 22:17:27 -0700|Sun, 8 Apr 2012 22:17:27 -0700
+760be6bafe407cb632c729f74c9369dcb33bd926|Update typo in gitmodule file|Sun, 8 Apr 2012 22:16:11 -0700|Sun, 8 Apr 2012 22:16:11 -0700
+60e17f377578958c2e9a29743530eedf4b1dbc31|Merge pull request #26 from bodepd/dev|Sun, 8 Apr 2012 22:14:26 -0700|Sun, 8 Apr 2012 22:14:26 -0700
+c0aa104b0f625ee0d24b62f7535f413e0b4a5de4|Update mysql to use my latest version|Sun, 8 Apr 2012 22:12:15 -0700|Sun, 8 Apr 2012 22:12:15 -0700
+ec7b23e774c431f898b27f0a81444d3c9aa72c7d|Update commits|Sun, 8 Apr 2012 21:58:27 -0700|Sun, 8 Apr 2012 21:58:27 -0700
+8ab52203e1cd78eb75b0102b35703d45ee48a9d3|Updates all repos to point at master|Sun, 8 Apr 2012 21:41:09 -0700|Sun, 8 Apr 2012 21:41:09 -0700
+42bfb3470bd456d0546d4cb2ab33b2c2a6e77ac6|Removed glance and nova tests|Sun, 8 Apr 2012 21:30:17 -0700|Sun, 8 Apr 2012 21:30:17 -0700
+f4e8ce85ade86bb6998f476eb423fc7adc6e8f6d|Merge pull request #25 from bodepd/dev|Sun, 8 Apr 2012 19:37:26 -0700|Sun, 8 Apr 2012 19:37:26 -0700
+322f8771fe808b9b4014a8b7540cc88c74f7277f|update modules|Sun, 8 Apr 2012 19:33:03 -0700|Sun, 8 Apr 2012 19:33:03 -0700
+8d5930d42e45c98e53bec9f9f8490a8e296aae37|Update vagrant provision scripts|Sun, 8 Apr 2012 19:32:40 -0700|Sun, 8 Apr 2012 19:32:40 -0700
+9483fc73bd30ac4441aec737a84ea3126fd0a0f9|Updated submodule to point at latest version|Sun, 8 Apr 2012 19:23:14 -0700|Sun, 8 Apr 2012 19:25:38 -0700
+d7e7a82d11949d778e592826d8db28e2adbad907|Merge pull request #24 from bodepd/diablo|Tue, 4 Oct 2011 10:47:36 -0700|Tue, 4 Oct 2011 10:47:36 -0700
+a0421e9e336d0b9de7092b20212e9005717ff31e|(maint) update README|Tue, 4 Oct 2011 10:45:21 -0700|Tue, 4 Oct 2011 10:45:21 -0700
+773d785f7303ed8dac05f4f52de649261ee95082|(#9782) Allow deprecated auth|Tue, 4 Oct 2011 09:36:41 -0700|Tue, 4 Oct 2011 09:36:41 -0700
+ce458af070283697fda4bedf1b883b86e605159a|update to latest version of glance.|Mon, 3 Oct 2011 22:29:01 -0700|Mon, 3 Oct 2011 22:29:01 -0700
+6a11f9ced1bce0de3900ac47fad0526c17dd8fa8|(#9874) Add openstack diablo ppa|Mon, 3 Oct 2011 21:47:17 -0700|Mon, 3 Oct 2011 21:47:17 -0700
+b9a45d8727aaea7864f9dbc273e31fdaa89b8a65|(#9871) update nova submodule|Mon, 3 Oct 2011 21:40:50 -0700|Mon, 3 Oct 2011 21:46:05 -0700
+99a8c7dc02dedae3a8970e767ba4db10efda2f1a|Incremented nova module|Tue, 16 Aug 2011 08:35:53 +1000|Tue, 16 Aug 2011 08:35:53 +1000
+5f6eff0d4161f923604a68ef5aaf9ce794e83cd1|Merge pull request #22 from bodepd/update_commit_ids|Thu, 28 Jul 2011 22:43:20 -0700|Thu, 28 Jul 2011 22:43:20 -0700
+ee370f55bdc1b196d8bd6a977f30a00a6a409a46|Merge pull request #18 from bryanwb/master|Thu, 28 Jul 2011 22:42:59 -0700|Thu, 28 Jul 2011 22:42:59 -0700
+6935d065031ef4ffc68f37667b70d58a8f12f193|Update commit ids to latest version.|Thu, 28 Jul 2011 22:38:10 -0700|Thu, 28 Jul 2011 22:38:10 -0700
+7267b908d9de3882efceaf0177107ddee2ff95ad|ignore files in graph dir|Thu, 28 Jul 2011 22:19:52 -0700|Thu, 28 Jul 2011 22:19:52 -0700
+2de72719aec9d8182a2dd8f888e51e48b5c4f143|committing graphs dir.|Thu, 28 Jul 2011 22:18:55 -0700|Thu, 28 Jul 2011 22:18:55 -0700
+bff80d64d86e83c97fda7d25f5a0f13db8244c2e|Merge pull request #19 from bodepd/updated_commit_ids|Wed, 13 Jul 2011 00:23:38 -0700|Wed, 13 Jul 2011 00:23:38 -0700
+c984a57a0afe6e40b52430ad9ddf78a26a9452a9|updated rabbitmq commit id.|Wed, 13 Jul 2011 00:19:16 -0700|Wed, 13 Jul 2011 00:19:16 -0700
+d74c907d88b58203bcb54dca88d7c030e6e5b30c|updated commit id for nova.|Wed, 13 Jul 2011 00:16:09 -0700|Wed, 13 Jul 2011 00:16:09 -0700
+17ec07c7f79fd177c462884cc0e9ddc7df925371|fix puppetlabs-nova module to correct name nova|Wed, 13 Jul 2011 08:11:15 +0200|Wed, 13 Jul 2011 08:11:15 +0200
+4e0cfb9cb2a56cbdb3f1c4c5fda96d98a45d665c|add special notes for installing puppet 2.6.8 on ubuntu 11.04|Wed, 13 Jul 2011 08:08:45 +0200|Wed, 13 Jul 2011 08:08:45 +0200
+aca3fee4c9749ebb358407fcc2ffbb6b3c08ead0|added graphs directory.|Tue, 12 Jul 2011 13:35:20 -0700|Tue, 12 Jul 2011 13:35:20 -0700
+bf9191b4d776ffdbc1d2966cd0d0ba772ff57ed9|not ignoring graphs directory|Tue, 12 Jul 2011 13:32:03 -0700|Tue, 12 Jul 2011 13:32:03 -0700
+ca4a217a673d03f09b1a68e49b45c3af3f5626d0|Updating rake and vagrant file.|Tue, 12 Jul 2011 13:20:13 -0700|Tue, 12 Jul 2011 13:20:13 -0700
+ee1094abca894a1470f35f547476444a3112ea84|Merge branch 'master' of github.com:puppetlabs/puppetlabs-openstack|Tue, 12 Jul 2011 13:18:52 -0700|Tue, 12 Jul 2011 13:18:52 -0700
+b2abf13a4a537642fe27a77187e8d87e3a440c13|Checked in .gitignore to allow an images dir|Thu, 30 Jun 2011 16:31:46 -0700|Thu, 30 Jun 2011 16:31:46 -0700
+fa44b157720c1c84335c9f732a08280e1b5f010b|updated Rakefile|Thu, 30 Jun 2011 16:29:14 -0700|Thu, 30 Jun 2011 16:29:14 -0700
+ff63ce2bbeeb7ef06a41a419c257780869a2c13f|Merge pull request #9 from bodepd/feature/master/add_build_files|Thu, 30 Jun 2011 13:17:38 -0700|Thu, 30 Jun 2011 13:17:38 -0700
+44dfe179f58a0b5b491ec81346c27094eeb29d21|updated vagrant build utilities:|Thu, 30 Jun 2011 13:12:18 -0700|Thu, 30 Jun 2011 13:16:01 -0700
+fb4809a0686721f2a199b7f43bcfca3aa5a76b5a|split tests out into nova and glance tests.|Tue, 28 Jun 2011 06:42:03 -0700|Thu, 30 Jun 2011 13:16:01 -0700
+1f0495a0daa4d70f961c7d58207d44c30d8908cf|updated image service.|Tue, 28 Jun 2011 06:41:39 -0700|Thu, 30 Jun 2011 13:16:01 -0700
+604b59141723babacb4789efaa9d36593eb3b31d|ignore graphs.|Tue, 28 Jun 2011 06:40:56 -0700|Thu, 30 Jun 2011 13:16:01 -0700
+32f5441ecec2f9cdf532f81796829ed1f9574b1d|Merge pull request #8 from bodepd/commit_update|Fri, 24 Jun 2011 17:41:46 -0700|Fri, 24 Jun 2011 17:41:46 -0700
+7cc29e35525c1bac95feb4037521d29303d9e504|updated nova commit id.|Fri, 24 Jun 2011 17:39:53 -0700|Fri, 24 Jun 2011 17:39:53 -0700
+0d949f53eca879d84ebe3851b15b1296ceb875c7|Merge pull request #7 from bodepd/update|Fri, 24 Jun 2011 16:24:15 -0700|Fri, 24 Jun 2011 16:24:15 -0700
+b94c5f92092361f1fb13b96ab23bcf8825577140|updating my vagrant file, manifests and scripts|Fri, 24 Jun 2011 16:20:57 -0700|Fri, 24 Jun 2011 16:20:57 -0700
+4da89a34e99aa3bcde5e8cb6c36cf2f97b30ed43|updated submodules and site.pp|Fri, 24 Jun 2011 15:43:42 -0700|Fri, 24 Jun 2011 15:43:42 -0700
+e04cc31ddea37a5f8933440062266bc85eb0c219|updated to latest version of create_resources.|Fri, 24 Jun 2011 10:15:25 -0700|Fri, 24 Jun 2011 10:15:25 -0700
+55307d04b8db53445c8033c0e4c94740a6bc1b99|updated commit id for mysql.|Thu, 23 Jun 2011 16:48:39 -0700|Thu, 23 Jun 2011 16:48:39 -0700
+8b1756a61ed839e1cec1f9f4c10bfdcd3824edb3|added glance params back|Thu, 23 Jun 2011 16:31:03 -0700|Thu, 23 Jun 2011 16:31:03 -0700
+21f6232b7857ca63920722029b990873f8ccf246|updated nova commit id.|Thu, 23 Jun 2011 16:27:39 -0700|Thu, 23 Jun 2011 16:27:39 -0700
+f1519fb4d0ce13594fb6e6339faaeb2f6b277a32|Merge remote branch 'origin/master'|Thu, 23 Jun 2011 16:11:59 -0700|Thu, 23 Jun 2011 16:11:59 -0700
+1dee68007130cb1beb88265fd626905efba52137|updated commit id for create_resources.|Thu, 23 Jun 2011 16:08:26 -0700|Thu, 23 Jun 2011 16:08:26 -0700
+ebd8007748b805cb48cf9b967d1f844665640f52|Merge pull request #6 from bodepd/fixed_commit_id|Thu, 23 Jun 2011 15:13:13 -0700|Thu, 23 Jun 2011 15:13:13 -0700
+d73fdebb3bab96d646a1873db257a76a96159a70|updated git submodule to correct URL.|Thu, 23 Jun 2011 15:11:58 -0700|Thu, 23 Jun 2011 15:11:58 -0700
+d4371df149c7c47aba3c197bc9f72abf1ddc09f2|Merge pull request #4 from bodepd/updated_test_commits|Thu, 23 Jun 2011 14:26:39 -0700|Thu, 23 Jun 2011 14:26:39 -0700
+e095d5e6bcf962f7adb70829b154e9cb6f3bf2b9|Merge pull request #5 from bodepd/feauture/initial_multi_node_manifests|Thu, 23 Jun 2011 14:26:08 -0700|Thu, 23 Jun 2011 14:26:08 -0700
+b3f664ac5c8a2a10742669b72ac934fdffbd005e|Added my additional test manifests|Thu, 23 Jun 2011 13:21:46 -0700|Thu, 23 Jun 2011 13:21:46 -0700
+fe431433117966e31f3cb12ad2a14251b121fc00|added create_resources as a submodule.|Thu, 23 Jun 2011 10:34:17 -0700|Thu, 23 Jun 2011 10:34:17 -0700
+75851ad65a768ffbf2789eb059c41972412072cb|Added stuff related to my testing of multi-node|Wed, 22 Jun 2011 19:09:43 -0700|Wed, 22 Jun 2011 19:09:43 -0700
+076a3f3ae03706280a488ef9d46de78fa5e3fccc|updated commit ids|Wed, 22 Jun 2011 19:09:22 -0700|Wed, 22 Jun 2011 19:09:22 -0700
+10b2af8833dfdcb485a1c4357c5ec17fd1ca8206|Merge pull request #3 from jamtur01/5bf56863063172088911df87f95704c7dabda046|Wed, 22 Jun 2011 09:31:37 -0700|Wed, 22 Jun 2011 09:31:37 -0700
+5bf56863063172088911df87f95704c7dabda046|Added edits to README based on Dan's comments.|Wed, 22 Jun 2011 09:28:54 -0700|Wed, 22 Jun 2011 09:28:54 -0700
+935fd3ef67414bd052509aea72b3db4595357681|updated commit ids.|Tue, 21 Jun 2011 14:10:20 -0700|Tue, 21 Jun 2011 14:10:20 -0700
+394526549f13a307de67009d5778972b151bac93|Added basic README updates.|Tue, 21 Jun 2011 13:53:17 -0700|Tue, 21 Jun 2011 13:53:17 -0700
+b739538b330a0660567741449cb1d2984077534e|Added vagrant testing specific files.|Tue, 21 Jun 2011 10:40:42 -0700|Tue, 21 Jun 2011 10:40:42 -0700
+5a812a1559004cbdfffd9ef37bda026d211fcbfa|Merge branch 'master' of github.com:puppetlabs/puppetlabs-openstack|Tue, 21 Jun 2011 09:10:22 -0700|Tue, 21 Jun 2011 09:10:22 -0700
+d6b579985b17b0ca42323e6bab14c75f860a2abd|updated gitignore and commit ids for submodules.|Tue, 21 Jun 2011 09:09:26 -0700|Tue, 21 Jun 2011 09:09:26 -0700
+711e8cbec4115dc40f58716217ab5be8dc52ba56|Merge pull request #1 from jamtur01/master|Tue, 21 Jun 2011 08:57:04 -0700|Tue, 21 Jun 2011 08:57:04 -0700
+b46f0b9acbcd200252722829c61d690747d277ab|Added some more stuff to the test script.|Tue, 21 Jun 2011 00:17:40 -0700|Tue, 21 Jun 2011 00:17:40 -0700
+3ac4dc51bf771b5ca661b20a74e57a449b1a2766|moved nova all test to manifest.|Sat, 18 Jun 2011 23:54:29 -0700|Sat, 18 Jun 2011 23:54:29 -0700
+7af1df98d45abb76361669719ac8c2f997933e6b|updated rabbitmq commit id.|Sat, 18 Jun 2011 23:42:55 -0700|Sat, 18 Jun 2011 23:42:55 -0700
+8fd04c8adb37c4a54314090fafed36c307454dfb|Fixed bug in test script.|Sat, 18 Jun 2011 23:23:07 -0700|Sat, 18 Jun 2011 23:23:07 -0700
+aa7a9fccb9ea609d467b7d092a4a5466b7d7deb5|updated nova commit id again.|Sat, 18 Jun 2011 23:22:48 -0700|Sat, 18 Jun 2011 23:22:48 -0700
+177cfc6443ca08cf038936b7ec7373adee89f382|updated nova commit id.|Sat, 18 Jun 2011 12:39:12 -0700|Sat, 18 Jun 2011 12:39:12 -0700
+b66311a12a7ac3b00c02f4912238f1ca23475c8f|updated tests and notes for single node install.|Sat, 18 Jun 2011 12:32:50 -0700|Sat, 18 Jun 2011 12:32:50 -0700
+f4b9cf30c1678645a259943d4880f6927d74f07b|update commit ids for nova and mysql|Fri, 17 Jun 2011 23:44:56 -0700|Fri, 17 Jun 2011 23:44:56 -0700
+39a0a2866a63aeaab54151b43a033c3dea21fdd8|added some notes that explain how to install nova|Fri, 17 Jun 2011 23:44:35 -0700|Fri, 17 Jun 2011 23:44:35 -0700
+f6684b01be96eb21992577862ffa9ac4533b3ae0|Added initial README.|Thu, 16 Jun 2011 21:12:21 -0700|Thu, 16 Jun 2011 21:12:21 -0700
+41be5df8393447a8e4e30d82684f8928c35e3b02|updated submodules.|Thu, 16 Jun 2011 21:10:25 -0700|Thu, 16 Jun 2011 21:10:25 -0700
+598828c6151313e2792e566dc9cfa5a9f88a7ac3|committing initial git submodules|Thu, 16 Jun 2011 20:20:49 -0700|Thu, 16 Jun 2011 20:20:49 -0700

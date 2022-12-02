@@ -7,7 +7,7 @@ import json
 url1 = 'https://api.github.com/orgs/Mirantis/repos'
 f1 = open('./Mirantis_repos/Mirantis_repos_extraction', "w", encoding='utf-8')
 request_gitapi = Request(url1, headers={
-                             "authorization": "#githubapitoken"})
+                             "authorization": "Bearer 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"})
 url = urlopen(request_gitapi)
 data = json.load(url)
 f1.write( "id"+ ", "+"name"+", "+"full_name"+", "+ "private"+ ", "+"fork"+ ", "+ "language" + "\n" )

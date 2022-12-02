@@ -29,7 +29,7 @@ def extract_repos(Organization):
         language.append(x["language"])
         url_reposlanguages = 'https://api.github.com/repos/'+str(x["full_name"])+'/languages'
         request_gitapi_reposlanguages = Request(url_reposlanguages, headers={
-                             "authorization": "githubapittoken "})
+                             "authorization": "Bearer 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"})
         data1 = json.load(urlopen(request_gitapi_reposlanguages))
         if 'Puppet' in data1.keys():
             puppet_percentage.append(100*(data1['Puppet']/sum(data1.values())))
