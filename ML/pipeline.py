@@ -30,5 +30,6 @@ f = open("result.txt", "w")
 to_process = ['IST_MIR.csv','IST_MOZ.csv','IST_OST.csv','IST_WIK.csv']
 for line in to_process:
 	p = process_data(line)
+	f.write(line)
 	f.write(p)
 	f.write('\n')
