@@ -26,29 +26,9 @@ def process_data(path):
 
 	return classification_report(y_test,y_pred)
 
-# test = process_data('IST_MIR.csv')
-
 f = open("result.txt", "w")
-#dataframe_mir = process_data('IST_MIR.csv')
-#dataframe_moz = process_data('IST_MOZ.csv')
-#dataframe_ost = process_data('IST_OST.csv')
-#dataframe_wik = process_data('IST_WIK.csv')
 to_process = ['IST_MIR.csv','IST_MOZ.csv','IST_OST.csv','IST_WIK.csv']
-
 for line in to_process:
 	p = process_data(line)
 	f.write(p)
 	f.write('\n')
-
-#print('///////////////////////////////////////////////')
-#print('Mirantis')
-#print(dataframe_mir)
-#print('///////////////////////////////////////////////')
-#print(dataframe_moz)
-#print('Mozilla')
-#print('///////////////////////////////////////////////')
-#print(dataframe_ost)
-#print('Ost')
-#print('///////////////////////////////////////////////')
-#print(dataframe_wik)
-#print('wiki')
