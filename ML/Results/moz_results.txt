@@ -1,0 +1,110 @@
+IST_WIK.csv
+              precision    recall  f1-score   support
+
+           0       0.56      0.56      0.56        16
+           1       0.50      0.50      0.50        14
+
+    accuracy                           0.53        30
+   macro avg       0.53      0.53      0.53        30
+weighted avg       0.53      0.53      0.53        30
+
+ROC-AUC :0.53125
+IST_WIK.csv
+              precision    recall  f1-score   support
+
+           0       0.56      0.56      0.56        16
+           1       0.50      0.50      0.50        14
+
+    accuracy                           0.53        30
+   macro avg       0.53      0.53      0.53        30
+weighted avg       0.53      0.53      0.53        30
+
+ROC-AUC :0.53125
+IST_WIK.csv
+              precision    recall  f1-score   support
+
+           0       0.56      0.56      0.56        16
+           1       0.50      0.50      0.50        14
+
+    accuracy                           0.53        30
+   macro avg       0.53      0.53      0.53        30
+weighted avg       0.53      0.53      0.53        30
+
+ROC-AUC :0.53125
+IST_WIK.csv
+              precision    recall  f1-score   support
+
+           0       0.56      0.56      0.56        16
+           1       0.50      0.50      0.50        14
+
+    accuracy                           0.53        30
+   macro avg       0.53      0.53      0.53        30
+weighted avg       0.53      0.53      0.53        30
+
+ROC-AUC :0.53125
+IST_WIK.csv
+              precision    recall  f1-score   support
+
+           0       0.56      0.56      0.56        16
+           1       0.50      0.50      0.50        14
+
+    accuracy                           0.53        30
+   macro avg       0.53      0.53      0.53        30
+weighted avg       0.53      0.53      0.53        30
+
+ROC-AUC :0.53125
+IST_WIK.csv
+              precision    recall  f1-score   support
+
+           0       0.56      0.56      0.56        16
+           1       0.50      0.50      0.50        14
+
+    accuracy                           0.53        30
+   macro avg       0.53      0.53      0.53        30
+weighted avg       0.53      0.53      0.53        30
+
+ROC-AUC :0.53125
+IST_WIK.csv
+              precision    recall  f1-score   support
+
+           0       0.56      0.56      0.56        16
+           1       0.50      0.50      0.50        14
+
+    accuracy                           0.53        30
+   macro avg       0.53      0.53      0.53        30
+weighted avg       0.53      0.53      0.53        30
+
+ROC-AUC :0.53125
+IST_WIK.csv
+              precision    recall  f1-score   support
+
+           0       0.56      0.56      0.56        16
+           1       0.50      0.50      0.50        14
+
+    accuracy                           0.53        30
+   macro avg       0.53      0.53      0.53        30
+weighted avg       0.53      0.53      0.53        30
+
+ROC-AUC :0.53125
+IST_WIK.csv
+              precision    recall  f1-score   support
+
+           0       0.56      0.56      0.56        16
+           1       0.50      0.50      0.50        14
+
+    accuracy                           0.53        30
+   macro avg       0.53      0.53      0.53        30
+weighted avg       0.53      0.53      0.53        30
+
+ROC-AUC :0.53125
+IST_WIK.csv
+              precision    recall  f1-score   support
+
+           0       0.56      0.56      0.56        16
+           1       0.50      0.50      0.50        14
+
+    accuracy                           0.53        30
+   macro avg       0.53      0.53      0.53        30
+weighted avg       0.53      0.53      0.53        30
+
+ROC-AUC :0.53125
