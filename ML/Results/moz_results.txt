@@ -1,110 +1,110 @@
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.56      0.56      0.56        16
-           1       0.50      0.50      0.50        14
+           0       0.83      0.83      0.83        12
+           1       0.89      0.89      0.89        18
 
-    accuracy                           0.53        30
-   macro avg       0.53      0.53      0.53        30
-weighted avg       0.53      0.53      0.53        30
+    accuracy                           0.87        30
+   macro avg       0.86      0.86      0.86        30
+weighted avg       0.87      0.87      0.87        30
 
-ROC-AUC :0.53125
+ROC-AUC :0.8611111111111112
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.56      0.56      0.56        16
-           1       0.50      0.50      0.50        14
+           0       0.83      0.83      0.83        12
+           1       0.89      0.89      0.89        18
 
-    accuracy                           0.53        30
-   macro avg       0.53      0.53      0.53        30
-weighted avg       0.53      0.53      0.53        30
+    accuracy                           0.87        30
+   macro avg       0.86      0.86      0.86        30
+weighted avg       0.87      0.87      0.87        30
 
-ROC-AUC :0.53125
+ROC-AUC :0.8611111111111112
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.56      0.56      0.56        16
-           1       0.50      0.50      0.50        14
+           0       0.83      0.83      0.83        12
+           1       0.89      0.89      0.89        18
 
-    accuracy                           0.53        30
-   macro avg       0.53      0.53      0.53        30
-weighted avg       0.53      0.53      0.53        30
+    accuracy                           0.87        30
+   macro avg       0.86      0.86      0.86        30
+weighted avg       0.87      0.87      0.87        30
 
-ROC-AUC :0.53125
+ROC-AUC :0.8611111111111112
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.56      0.56      0.56        16
-           1       0.50      0.50      0.50        14
+           0       0.83      0.83      0.83        12
+           1       0.89      0.89      0.89        18
 
-    accuracy                           0.53        30
-   macro avg       0.53      0.53      0.53        30
-weighted avg       0.53      0.53      0.53        30
+    accuracy                           0.87        30
+   macro avg       0.86      0.86      0.86        30
+weighted avg       0.87      0.87      0.87        30
 
-ROC-AUC :0.53125
+ROC-AUC :0.8611111111111112
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.56      0.56      0.56        16
-           1       0.50      0.50      0.50        14
+           0       0.83      0.83      0.83        12
+           1       0.89      0.89      0.89        18
 
-    accuracy                           0.53        30
-   macro avg       0.53      0.53      0.53        30
-weighted avg       0.53      0.53      0.53        30
+    accuracy                           0.87        30
+   macro avg       0.86      0.86      0.86        30
+weighted avg       0.87      0.87      0.87        30
 
-ROC-AUC :0.53125
+ROC-AUC :0.8611111111111112
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.56      0.56      0.56        16
-           1       0.50      0.50      0.50        14
+           0       0.83      0.83      0.83        12
+           1       0.89      0.89      0.89        18
 
-    accuracy                           0.53        30
-   macro avg       0.53      0.53      0.53        30
-weighted avg       0.53      0.53      0.53        30
+    accuracy                           0.87        30
+   macro avg       0.86      0.86      0.86        30
+weighted avg       0.87      0.87      0.87        30
 
-ROC-AUC :0.53125
+ROC-AUC :0.8611111111111112
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.56      0.56      0.56        16
-           1       0.50      0.50      0.50        14
+           0       0.83      0.83      0.83        12
+           1       0.89      0.89      0.89        18
 
-    accuracy                           0.53        30
-   macro avg       0.53      0.53      0.53        30
-weighted avg       0.53      0.53      0.53        30
+    accuracy                           0.87        30
+   macro avg       0.86      0.86      0.86        30
+weighted avg       0.87      0.87      0.87        30
 
-ROC-AUC :0.53125
+ROC-AUC :0.8611111111111112
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.56      0.56      0.56        16
-           1       0.50      0.50      0.50        14
+           0       0.83      0.83      0.83        12
+           1       0.89      0.89      0.89        18
 
-    accuracy                           0.53        30
-   macro avg       0.53      0.53      0.53        30
-weighted avg       0.53      0.53      0.53        30
+    accuracy                           0.87        30
+   macro avg       0.86      0.86      0.86        30
+weighted avg       0.87      0.87      0.87        30
 
-ROC-AUC :0.53125
+ROC-AUC :0.8611111111111112
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.56      0.56      0.56        16
-           1       0.50      0.50      0.50        14
+           0       0.83      0.83      0.83        12
+           1       0.89      0.89      0.89        18
 
-    accuracy                           0.53        30
-   macro avg       0.53      0.53      0.53        30
-weighted avg       0.53      0.53      0.53        30
+    accuracy                           0.87        30
+   macro avg       0.86      0.86      0.86        30
+weighted avg       0.87      0.87      0.87        30
 
-ROC-AUC :0.53125
+ROC-AUC :0.8611111111111112
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.56      0.56      0.56        16
-           1       0.50      0.50      0.50        14
+           0       0.83      0.83      0.83        12
+           1       0.89      0.89      0.89        18
 
-    accuracy                           0.53        30
-   macro avg       0.53      0.53      0.53        30
-weighted avg       0.53      0.53      0.53        30
+    accuracy                           0.87        30
+   macro avg       0.86      0.86      0.86        30
+weighted avg       0.87      0.87      0.87        30
 
-ROC-AUC :0.53125
+ROC-AUC :0.8611111111111112

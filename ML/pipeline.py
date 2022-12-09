@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report,  roc_auc_score
-
+from sklearn.decomposition import PCA
 
 
 def process_data(path):
@@ -16,15 +16,26 @@ def process_data(path):
 	y = dataset.iloc[:, 12].values
 	
 	X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.1)
+
 	scaler = StandardScaler()
 	scaler.fit(X_train)
+
 	X_train = scaler.transform(X_train)
 	X_test = scaler.transform(X_test)
+
+	if path == 'IST_MIR.csv' or path == 'IST_MOZ.csv':
+		pca = PCA(n_components=1)
+	else:
+		pca = PCA(n_components=2)
+
+	pca.fit(X_train)
+	X_train_PCA = pca.transform(X_train)
+	X_test_PCA = pca.transform(X_test)
 	classifier = KNeighborsClassifier(n_neighbors=3)
-	classifier.fit(X_train,y_train)
-	y_pred = classifier.predict(X_test)
-	metrics = classification_report(y_test,y_pred)
-	roc = roc_auc_score(y_test,y_pred)
+	classifier.fit(X_train_PCA, y_train)
+	y_pred = classifier.predict(X_test_PCA)
+	metrics = classification_report(y_test, y_pred)
+	roc = roc_auc_score(y_test, y_pred)
 
 	return metrics, roc
 
