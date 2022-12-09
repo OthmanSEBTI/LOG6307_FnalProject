@@ -1,110 +1,110 @@
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.83      0.83      0.83        12
-           1       0.89      0.89      0.89        18
+           0       0.60      0.64      0.62        14
+           1       0.67      0.62      0.65        16
 
-    accuracy                           0.87        30
-   macro avg       0.86      0.86      0.86        30
-weighted avg       0.87      0.87      0.87        30
+    accuracy                           0.63        30
+   macro avg       0.63      0.63      0.63        30
+weighted avg       0.64      0.63      0.63        30
 
-ROC-AUC :0.8611111111111112
+ROC-AUC :0.6339285714285714
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.83      0.83      0.83        12
-           1       0.89      0.89      0.89        18
+           0       0.60      0.64      0.62        14
+           1       0.67      0.62      0.65        16
 
-    accuracy                           0.87        30
-   macro avg       0.86      0.86      0.86        30
-weighted avg       0.87      0.87      0.87        30
+    accuracy                           0.63        30
+   macro avg       0.63      0.63      0.63        30
+weighted avg       0.64      0.63      0.63        30
 
-ROC-AUC :0.8611111111111112
+ROC-AUC :0.6339285714285714
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.83      0.83      0.83        12
-           1       0.89      0.89      0.89        18
+           0       0.60      0.64      0.62        14
+           1       0.67      0.62      0.65        16
 
-    accuracy                           0.87        30
-   macro avg       0.86      0.86      0.86        30
-weighted avg       0.87      0.87      0.87        30
+    accuracy                           0.63        30
+   macro avg       0.63      0.63      0.63        30
+weighted avg       0.64      0.63      0.63        30
 
-ROC-AUC :0.8611111111111112
+ROC-AUC :0.6339285714285714
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.83      0.83      0.83        12
-           1       0.89      0.89      0.89        18
+           0       0.60      0.64      0.62        14
+           1       0.67      0.62      0.65        16
 
-    accuracy                           0.87        30
-   macro avg       0.86      0.86      0.86        30
-weighted avg       0.87      0.87      0.87        30
+    accuracy                           0.63        30
+   macro avg       0.63      0.63      0.63        30
+weighted avg       0.64      0.63      0.63        30
 
-ROC-AUC :0.8611111111111112
+ROC-AUC :0.6339285714285714
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.83      0.83      0.83        12
-           1       0.89      0.89      0.89        18
+           0       0.60      0.64      0.62        14
+           1       0.67      0.62      0.65        16
 
-    accuracy                           0.87        30
-   macro avg       0.86      0.86      0.86        30
-weighted avg       0.87      0.87      0.87        30
+    accuracy                           0.63        30
+   macro avg       0.63      0.63      0.63        30
+weighted avg       0.64      0.63      0.63        30
 
-ROC-AUC :0.8611111111111112
+ROC-AUC :0.6339285714285714
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.83      0.83      0.83        12
-           1       0.89      0.89      0.89        18
+           0       0.60      0.64      0.62        14
+           1       0.67      0.62      0.65        16
 
-    accuracy                           0.87        30
-   macro avg       0.86      0.86      0.86        30
-weighted avg       0.87      0.87      0.87        30
+    accuracy                           0.63        30
+   macro avg       0.63      0.63      0.63        30
+weighted avg       0.64      0.63      0.63        30
 
-ROC-AUC :0.8611111111111112
+ROC-AUC :0.6339285714285714
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.83      0.83      0.83        12
-           1       0.89      0.89      0.89        18
+           0       0.60      0.64      0.62        14
+           1       0.67      0.62      0.65        16
 
-    accuracy                           0.87        30
-   macro avg       0.86      0.86      0.86        30
-weighted avg       0.87      0.87      0.87        30
+    accuracy                           0.63        30
+   macro avg       0.63      0.63      0.63        30
+weighted avg       0.64      0.63      0.63        30
 
-ROC-AUC :0.8611111111111112
+ROC-AUC :0.6339285714285714
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.83      0.83      0.83        12
-           1       0.89      0.89      0.89        18
+           0       0.60      0.64      0.62        14
+           1       0.67      0.62      0.65        16
 
-    accuracy                           0.87        30
-   macro avg       0.86      0.86      0.86        30
-weighted avg       0.87      0.87      0.87        30
+    accuracy                           0.63        30
+   macro avg       0.63      0.63      0.63        30
+weighted avg       0.64      0.63      0.63        30
 
-ROC-AUC :0.8611111111111112
+ROC-AUC :0.6339285714285714
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.83      0.83      0.83        12
-           1       0.89      0.89      0.89        18
+           0       0.60      0.64      0.62        14
+           1       0.67      0.62      0.65        16
 
-    accuracy                           0.87        30
-   macro avg       0.86      0.86      0.86        30
-weighted avg       0.87      0.87      0.87        30
+    accuracy                           0.63        30
+   macro avg       0.63      0.63      0.63        30
+weighted avg       0.64      0.63      0.63        30
 
-ROC-AUC :0.8611111111111112
+ROC-AUC :0.6339285714285714
 IST_WIK.csv
               precision    recall  f1-score   support
 
-           0       0.83      0.83      0.83        12
-           1       0.89      0.89      0.89        18
+           0       0.60      0.64      0.62        14
+           1       0.67      0.62      0.65        16
 
-    accuracy                           0.87        30
-   macro avg       0.86      0.86      0.86        30
-weighted avg       0.87      0.87      0.87        30
+    accuracy                           0.63        30
+   macro avg       0.63      0.63      0.63        30
+weighted avg       0.64      0.63      0.63        30
 
-ROC-AUC :0.8611111111111112
+ROC-AUC :0.6339285714285714

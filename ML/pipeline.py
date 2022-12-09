@@ -25,15 +25,15 @@ def process_data(path):
 
 	if path == 'IST_MIR.csv' or path == 'IST_MOZ.csv':
 		pca = PCA(n_components=1)
-	else:
+	elif path == 'IST_OST.csv' or path == 'IST_WIK.csv':
 		pca = PCA(n_components=2)
 
 	pca.fit(X_train)
 	X_train_PCA = pca.transform(X_train)
 	X_test_PCA = pca.transform(X_test)
-	classifier = KNeighborsClassifier(n_neighbors=3)
-	classifier.fit(X_train_PCA, y_train)
-	y_pred = classifier.predict(X_test_PCA)
+	nclassifier = KNeighborsClassifier(n_neighbors=3)
+	nclassifier.fit(X_train_PCA, y_train)
+	y_pred = nclassifier.predict(X_test_PCA)
 	metrics = classification_report(y_test, y_pred)
 	roc = roc_auc_score(y_test, y_pred)
 
