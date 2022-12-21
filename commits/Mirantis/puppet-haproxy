@@ -1,0 +1,12 @@
+802ba51113fae827cec858562c71953f4269e4d5|Merge pull request #10 from rtyler/chicken-dinner|Sun, 8 Jul 2012 21:52:20 -0700|Sun, 8 Jul 2012 21:52:20 -0700
+c409a0953552107f4ad4c6535392071980d9e33b|Fix some, but by no means all, of puppet-lint's complaining|Sun, 8 Jul 2012 21:38:34 -0700|Sun, 8 Jul 2012 21:38:50 -0700
+f9e56b6d4308da2b298b6b616313ecc553a5b6dc|Properly handle both Arrays and Strings passed as balancer member options|Sun, 8 Jul 2012 21:33:13 -0700|Sun, 8 Jul 2012 21:38:49 -0700
+eb482ec09f20a6d3a1ec6539bf65167478284a04|Add puppet-lint to the Rakefile|Sun, 8 Jul 2012 21:11:02 -0700|Sun, 8 Jul 2012 21:38:49 -0700
+e75b807f8571cff4bae145dd4c37773fb16a694f|Merge pull request #8 from rtyler/chicken-dinner|Sun, 8 Jul 2012 21:12:05 -0700|Sun, 8 Jul 2012 21:12:05 -0700
+1bb2ef6b72a4e0f0cb22a6c9348a1c9c0b56ac54|Add a Hacking section to the README|Sun, 8 Jul 2012 20:58:44 -0700|Sun, 8 Jul 2012 20:58:44 -0700
+83bfb1f1553f69047366192ae562b082772a3712|Rename the README for fancy GitHub formatting|Sun, 8 Jul 2012 20:54:55 -0700|Sun, 8 Jul 2012 20:54:55 -0700
+52e16b0bebe4455ae3154f561f75ecaa3c67fce6|Add the puppet-concat module as a submodule for tests|Sun, 8 Jul 2012 20:54:08 -0700|Sun, 8 Jul 2012 20:54:08 -0700
+580e831fbb7ba60cc0206661a8cfe263613c2b5e|Commit spec tests for the haproxy module|Wed, 9 May 2012 16:38:43 -0700|Wed, 9 May 2012 16:38:43 -0700
+01d46be262154b76ffd794fadf0d43deeb425fa6|Use array in config class default|Wed, 9 May 2012 16:36:40 -0700|Wed, 9 May 2012 16:36:40 -0700
+98aaa48b6759c05a9e7bb1cab3d6f178658bc450|Ensure hasrestart parameter with haproxy service|Wed, 9 May 2012 16:35:51 -0700|Wed, 9 May 2012 16:35:51 -0700
+c4799e59b9d9891e6c296c554a11814f14a5abfc|Initial Commit|Mon, 7 May 2012 14:26:21 -0700|Mon, 7 May 2012 14:26:21 -0700

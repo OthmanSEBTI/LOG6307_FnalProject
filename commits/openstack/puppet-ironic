@@ -1,0 +1,1078 @@
+6fd748956f0d44584cc38df1886ca7b3b9e96fdd|Add support for [agent] command_wait_* options|Sun, 27 Nov 2022 02:29:19 +0900|Sun, 27 Nov 2022 02:35:24 +0900
+1929c31aacf2aa5adc05a36e75fcdd1951942c4d|Remove logic for CentOS < 9|Mon, 21 Nov 2022 14:08:28 +0900|Mon, 21 Nov 2022 14:08:28 +0900
+747468f97c621a155faf59c3604324f0d6609d59|Update master for stable/zed|Thu, 20 Oct 2022 11:05:41 +0000|Thu, 20 Oct 2022 11:05:41 +0000
+0d764220e87fe38f38dd04c25030379b6e05b637|Prepare Zed RC1|Wed, 5 Oct 2022 18:17:28 +0900|Wed, 5 Oct 2022 18:17:28 +0900
+6f50d93cf842f57fb76a4323559a099ce06209cd|Merge "pxe: Allow disabling http server"|Wed, 7 Sep 2022 19:59:25 +0000|Wed, 7 Sep 2022 19:59:25 +0000
+940b9c9f610560b5ff0e74013dc2f3ee66023578|Merge "pxe: Validate apache resources"|Wed, 7 Sep 2022 19:59:23 +0000|Wed, 7 Sep 2022 19:59:23 +0000
+d4627d40212ba0a16d7cb90a45063ccceca3b516|pxe: Add option to determine status of dnsmasq tftp server|Tue, 6 Sep 2022 20:44:56 +0900|Tue, 6 Sep 2022 22:19:54 +0900
+449150fd050ec44208551516e0dbccdefe0e2681|Add manage_service parameter|Fri, 2 Sep 2022 00:57:01 +0900|Tue, 6 Sep 2022 21:59:41 +0900
+084c0e54a39f77d8ef8bedba4a8903d2076559b0|pxe: Allow disabling http server|Tue, 6 Sep 2022 21:00:43 +0900|Tue, 6 Sep 2022 21:12:27 +0900
+a1dc86bd3ee0a397738406cc1f9ac59120f35f8e|pxe: Validate apache resources|Tue, 6 Sep 2022 21:09:58 +0900|Tue, 6 Sep 2022 21:12:03 +0900
+4761d637b094153cda43b61f213e724198d115d0|Enable memcached in acceptance tests|Wed, 31 Aug 2022 00:57:53 +0900|Wed, 31 Aug 2022 00:57:53 +0900
+2504f817b05ba090b8a3ef40c912482fd6d2cb3d|Use standard parameter description format for wsgi::apache|Sun, 28 Aug 2022 00:39:22 +0900|Sun, 28 Aug 2022 00:39:22 +0900
+692ccfd713e9d39c5fe41dd29230a66d9ed7b08a|Merge "Add Apache WSGI logging parameters for pipe/syslog"|Fri, 26 Aug 2022 18:21:51 +0000|Fri, 26 Aug 2022 18:21:51 +0000
+a9898d4ca3ab2a46a250b305daf64e0d337bec8b|Merge "Cap upper version of puppetlabs-apache"|Fri, 26 Aug 2022 18:06:12 +0000|Fri, 26 Aug 2022 18:06:12 +0000
+62043acf72fdf0854d327dd692ed55644fbf24c3|Add Apache WSGI logging parameters for pipe/syslog|Fri, 26 Aug 2022 15:56:30 +0900|Fri, 26 Aug 2022 17:41:59 +0900
+49f6efcb11f47efa062ff640ec44e5f1e1ad63c2|Cap upper version of puppetlabs-apache|Fri, 26 Aug 2022 11:25:53 +0900|Fri, 26 Aug 2022 11:26:08 +0900
+c4c5372851105ed8c3805d60f177fc32daf195b3|Remove wrong TODO comment|Thu, 25 Aug 2022 10:33:04 +0900|Thu, 25 Aug 2022 10:37:18 +0900
+3213f8e2dfdec4b5c2f981aa986d7ab520c56549|Merge "Fix type validation error with puppetlabs-apache 8.0.0"|Mon, 15 Aug 2022 16:10:42 +0000|Mon, 15 Aug 2022 16:10:42 +0000
+fbc55f821dd668da6d4ea91c0b796cb913846ddd|Fix type validation error with puppetlabs-apache 8.0.0|Mon, 15 Aug 2022 02:25:20 +0900|Mon, 15 Aug 2022 02:26:27 +0900
+e08428441a650989189f68cabed73f1bcf72b94f|Merge "Remove unused items from platform_params"|Thu, 11 Aug 2022 17:27:25 +0000|Thu, 11 Aug 2022 17:27:25 +0000
+eb8e5b7cfa2c54596c2087b557f7f3f87a8a52d2|Remove unused items from platform_params|Fri, 12 Aug 2022 01:37:55 +0900|Fri, 12 Aug 2022 01:37:55 +0900
+a50b560971eb07abc0cfaa23e740b3bc14d1a397|Merge "Adapt to new type validation in puppetlabs-apache"|Wed, 10 Aug 2022 18:15:53 +0000|Wed, 10 Aug 2022 18:15:53 +0000
+6f2acf9dd5cada96bdcaee07e52f12b0b73c57dd|Remove unused puppetlabs-concat from dependencies|Wed, 10 Aug 2022 10:20:05 +0900|Wed, 10 Aug 2022 10:22:06 +0900
+a71c00892c35a0332078024a7d532f7ce2b80f26|Merge "conductor: Support tuning of heartbeats"|Thu, 4 Aug 2022 09:05:12 +0000|Thu, 4 Aug 2022 09:05:12 +0000
+11c3e1acad2db20ce9e2a959eba6211bef1e17b3|Adapt to new type validation in puppetlabs-apache|Tue, 2 Aug 2022 12:05:12 +0900|Tue, 2 Aug 2022 20:33:02 +0900
+d62aaa3a53b7b77d2922e7fd6d4202c43f2f3453|Merge "Debian/Ubuntu: Validate inspector in acceptance test"|Mon, 1 Aug 2022 10:40:58 +0000|Mon, 1 Aug 2022 10:40:58 +0000
+05a1a039609a5f686a025bbbe96afe6e65bc5b68|conductor: Support tuning of heartbeats|Tue, 19 Jul 2022 18:05:31 +0900|Mon, 1 Aug 2022 18:27:43 +0900
+df934502622fe834f03316af02d926fa232e558d|Merge "Get rid of unnecessary ensure_resource"|Mon, 1 Aug 2022 09:24:23 +0000|Mon, 1 Aug 2022 09:24:23 +0000
+36a824202e5cb802ce437b643a2c3f7d5b8cdb8e|Add deploy_callback_timeout parameter|Tue, 26 Jul 2022 17:04:06 +0200|Wed, 27 Jul 2022 15:57:35 +0000
+e8d678c46529525ef275c8d7448523a8f8417da1|Revert "CentOS 9: Disable unit tests dependent on puppet-postgresql"|Sun, 24 Jul 2022 00:35:38 +0900|Sun, 24 Jul 2022 00:36:22 +0900
+dc470d82372474b91f600d202970d31a39224a7e|Debian/Ubuntu: Validate inspector in acceptance test|Sun, 3 Jul 2022 02:17:39 +0900|Sat, 16 Jul 2022 06:35:01 +0900
+dccea77dddf6cc65c909ba65cdb9149aad68c195|Merge "Add acceptance tests for config management resources"|Fri, 15 Jul 2022 19:36:52 +0000|Fri, 15 Jul 2022 19:36:52 +0000
+f3693d3e881218c2853f37a0d0f253a097fe7056|Fix wrong test description|Fri, 15 Jul 2022 11:44:50 +0900|Fri, 15 Jul 2022 11:44:50 +0900
+f018d2aadebe4340a14d2cc1eb2163d398ee730a|Get rid of unnecessary ensure_resource|Thu, 2 Jun 2022 09:29:56 +0900|Wed, 13 Jul 2022 10:38:31 +0900
+bdf6b66ae147b4098b929a0b9a75da28c44ebf77|Merge "Debian/Ubuntu: The staging driver package is not available"|Mon, 11 Jul 2022 09:21:08 +0000|Mon, 11 Jul 2022 09:21:08 +0000
+c0d821cc06214a195468be3720757ec335563673|Merge "Ubuntu: Use ipxe.efi instead of snponly.efi in Focal"|Mon, 11 Jul 2022 09:21:06 +0000|Mon, 11 Jul 2022 09:21:06 +0000
+694123f01d4c999b3987c60221a34d56076a44fa|Merge "Debian/Ubuntu: Fix wrong source path to copy efi file"|Mon, 11 Jul 2022 08:31:48 +0000|Mon, 11 Jul 2022 08:31:48 +0000
+c9d42b14eb9a2427ce2571ca9d55d11ceb0e3e38|Add acceptance tests for config management resources|Sat, 9 Jul 2022 21:18:37 +0900|Sun, 10 Jul 2022 12:40:01 +0900
+4e7226020a2b68fc7d7dfead4048358652e5bee3|Merge "Debian/Ubuntu: Do not use the ironic-inspector-dnsmasq service"|Thu, 7 Jul 2022 09:40:38 +0000|Thu, 7 Jul 2022 09:40:38 +0000
+123ad82f7ed6285cdb43a17453b32a16568c4059|Merge "Debian/Ubuntu: Fix installation of pxelinux.0 and syslinux files"|Thu, 7 Jul 2022 09:34:18 +0000|Thu, 7 Jul 2022 09:34:18 +0000
+9b0ab00b5011b0b78532c915816eab6647408337|Merge "inspector: Use config file installed by the package"|Wed, 6 Jul 2022 16:41:48 +0000|Wed, 6 Jul 2022 16:41:48 +0000
+19b9ee4083e26160a39874b5f35b5d4942160dcb|Merge "Debian/Ubuntu: Use tftpd-hpa instead of tftpd"|Wed, 6 Jul 2022 16:41:43 +0000|Wed, 6 Jul 2022 16:41:43 +0000
+dabcabf8852891b2fa74b94f8d83e6eec62c6207|Merge "Remove redundant check of ironic-inspector package"|Wed, 6 Jul 2022 16:41:40 +0000|Wed, 6 Jul 2022 16:41:40 +0000
+663ebff977da9076615471a49c1bbd63ee267836|Merge "Expose headers option of apache::vhost"|Wed, 6 Jul 2022 16:08:44 +0000|Wed, 6 Jul 2022 16:08:44 +0000
+a92e08ecc243fab588b813eda06a218d7495b172|Debian/Ubuntu: The staging driver package is not available|Sun, 3 Jul 2022 22:42:46 +0900|Mon, 4 Jul 2022 03:10:50 +0900
+e905d9585e3920f0835c8e1adf06bd63952f4e20|Ubuntu: Use ipxe.efi instead of snponly.efi in Focal|Mon, 4 Jul 2022 02:25:50 +0900|Mon, 4 Jul 2022 03:10:46 +0900
+38c3def176eef386466f5c276f4f5067947257ba|Debian/Ubuntu: Fix wrong source path to copy efi file|Mon, 4 Jul 2022 01:25:48 +0900|Mon, 4 Jul 2022 02:30:48 +0900
+0d75b5366385e06c64138e49f2ea408cfc987006|Debian/Ubuntu: Do not use the ironic-inspector-dnsmasq service|Sun, 3 Jul 2022 22:38:02 +0900|Mon, 4 Jul 2022 00:54:23 +0900
+b780aca6499a7504ef72195eb4243801d53ea5aa|Debian/Ubuntu: Fix installation of pxelinux.0 and syslinux files|Sun, 3 Jul 2022 22:21:14 +0900|Mon, 4 Jul 2022 00:54:19 +0900
+5fe5a0737f822584e76b62913397776cc7ec954f|inspector: Use config file installed by the package|Sun, 3 Jul 2022 22:32:42 +0900|Sun, 3 Jul 2022 22:34:29 +0900
+80307bece658a7bc6897cf5a57ca4eab3fa466cd|Debian/Ubuntu: Use tftpd-hpa instead of tftpd|Sun, 3 Jul 2022 02:58:17 +0900|Sun, 3 Jul 2022 22:30:34 +0900
+cfaf84837c5908463891fef422a78fd1c9e1f59c|Remove redundant check of ironic-inspector package|Sun, 3 Jul 2022 02:06:40 +0900|Sun, 3 Jul 2022 02:07:45 +0900
+1467a91e4faa14fd19e25785db39d4180141b77a|Expose headers option of apache::vhost|Thu, 30 Jun 2022 10:29:08 +0900|Thu, 30 Jun 2022 11:03:34 +0900
+4863a485cd7405f6bca9011a9694dd385d170049|Copy shim and grub efi binaries to tftp root|Tue, 17 May 2022 17:35:27 +1200|Sat, 25 Jun 2022 02:47:38 +0000
+8672adf57a0fb748e40d0364f734ce57153a8079|Do not show diffs of image files|Fri, 24 Jun 2022 01:35:29 +0900|Thu, 23 Jun 2022 16:43:52 +0000
+05ada3d17f9ed4f910b86dab8561e7ffac6f0627|Merge "Remove deprecated ironic::drivers::pxe::pxe_append_params"|Mon, 20 Jun 2022 20:00:26 +0000|Mon, 20 Jun 2022 20:00:26 +0000
+0c26669f2695cdc346bf150594526877f6f68573|Merge "conductor: Clean up inspect_timeout"|Mon, 20 Jun 2022 20:00:23 +0000|Mon, 20 Jun 2022 20:00:23 +0000
+ad92b770315982cc58a808087927121ba99f04c2|Merge "conductor: Remove configdrive_use_swift"|Mon, 20 Jun 2022 19:31:28 +0000|Mon, 20 Jun 2022 19:31:28 +0000
+024b60d1a599877a87bbb8fccac3b07b094fd510|Merge "conductor: Remove deprecated api_url"|Mon, 20 Jun 2022 19:31:26 +0000|Mon, 20 Jun 2022 19:31:26 +0000
+610ad76445603a5c430997fcfa774f86b547721c|Merge "Remove deprecated ironic::pxe::enable_ppc64le"|Mon, 20 Jun 2022 19:26:36 +0000|Mon, 20 Jun 2022 19:26:36 +0000
+531ee79aeda0db432b5f48e07b29049817b242a4|conductor: Clean up inspect_timeout|Sun, 19 Jun 2022 22:28:15 +0900|Mon, 20 Jun 2022 08:08:25 +0900
+37b2d997a8d022a96c31c3f224a16a4d5f6a342a|conductor: Remove configdrive_use_swift|Sun, 19 Jun 2022 22:25:06 +0900|Mon, 20 Jun 2022 08:06:31 +0900
+1b9c0360f49b16a170d774267e05a77d0ecf9b48|Remove deprecated ironic::drivers::pxe::pxe_append_params|Sun, 19 Jun 2022 22:33:10 +0900|Sun, 19 Jun 2022 22:33:41 +0900
+818b8ce8310f01d525eb949ab1739ed4a122f6b1|conductor: Remove deprecated api_url|Sun, 19 Jun 2022 22:21:56 +0900|Sun, 19 Jun 2022 22:23:24 +0900
+bb8eadfa3cbefb2ec4f33b79b94f6d2d685040ce|Remove deprecated ironic::pxe::enable_ppc64le|Sun, 19 Jun 2022 22:16:47 +0900|Sun, 19 Jun 2022 22:18:17 +0900
+a455ce650cbd2be178e20697884a6d4fd4ce4292|Fix typos in parameter descriptions, comments and tests|Fri, 17 Jun 2022 18:55:18 +0530|Fri, 17 Jun 2022 18:55:52 +0530
+4564c08992a4b9ee5d08e1eda9bea779ae09c37b|Merge "Refactor unit tests of ironic::pxe"|Mon, 13 Jun 2022 19:46:49 +0000|Mon, 13 Jun 2022 19:46:49 +0000
+68483e6d8d3ccc638a41e946092f78c7840e6e6d|Merge "Use native implementation to add listen for apache vhost"|Fri, 10 Jun 2022 11:55:29 +0000|Fri, 10 Jun 2022 11:55:29 +0000
+aab3ad2630034e0478aefc23588166b7678eb077|Refactor unit tests of ironic::pxe|Thu, 2 Jun 2022 08:47:47 +0900|Thu, 2 Jun 2022 10:42:11 +0900
+a612ff0b670b5d0514785c38658b4865cf84216f|Use native implementation to add listen for apache vhost|Thu, 2 Jun 2022 09:45:06 +0900|Thu, 2 Jun 2022 09:45:35 +0900
+74b999f28d99bbeff43c2461cbb488fe9102c1e2|Remove support for CentOS 8 Stream|Wed, 1 Jun 2022 13:46:38 +0900|Wed, 1 Jun 2022 13:46:56 +0900
+c317250f967016edf908feaafc9bf79629c7604f|apache+mod_wsgi: Disable SSL by default|Fri, 6 May 2022 20:47:58 +0900|Fri, 6 May 2022 20:48:35 +0900
+5c2b59e46c0b800361a67fec138e46e4602c7556|Merge "Remove deprecated parameters to override endpoint url"|Fri, 22 Apr 2022 16:21:40 +0000|Fri, 22 Apr 2022 16:21:40 +0000
+2a0d0df13a094dd16e0710d58e659d9cb6e42501|Remove deprecated parameters to override endpoint url|Thu, 21 Apr 2022 13:37:59 +0900|Thu, 21 Apr 2022 15:22:01 +0900
+7135cf3f0cdeeab582ba62d3e23c53d92faec660|Remove deprecated ipxe_enable parameter|Thu, 21 Apr 2022 13:44:57 +0900|Thu, 21 Apr 2022 13:44:57 +0900
+98c9b5c81bb7a16f542c95c083166bc17b03f1a6|Inspector: Fix missing log-facility when tftp protocol is used|Thu, 14 Apr 2022 09:20:47 +0900|Thu, 14 Apr 2022 09:21:21 +0900
+69ca2766c4806a6d11c3dec12859e86d26749b1b|Update master for stable/yoga|Tue, 5 Apr 2022 09:11:07 +0000|Tue, 5 Apr 2022 09:11:07 +0000
+58f113cba14ffb94094521a7ef6d5fde6fceb055|setuptools: Disable auto discovery|Tue, 29 Mar 2022 10:39:01 +0200|Tue, 29 Mar 2022 10:39:09 +0200
+32b71d347c57ecff110e670176c6cf0fc5da69d4|Merge "Add support for [glance] swift_account_prefix"|Sat, 12 Mar 2022 06:01:26 +0000|Sat, 12 Mar 2022 06:01:26 +0000
+6828e0c7d4321511e5f8c7b958de37974f461875|Prepare Yoga RC1|Sat, 12 Mar 2022 00:39:45 +0900|Sat, 12 Mar 2022 00:40:02 +0900
+cd74ca4f312ee1c52415ce1a0489ced5c4129c95|Add support for [glance] swift_account_prefix|Wed, 9 Feb 2022 18:06:34 +0900|Fri, 11 Mar 2022 22:44:22 +0900
+d703dd602f140adbbbfe6991b501bedbb10952bb|Merge "Allow customizing log output of dnsmasq services"|Fri, 11 Mar 2022 12:44:56 +0000|Fri, 11 Mar 2022 12:44:56 +0000
+f50270d83e6b0f576e10333ebe0976831a133343|Merge "Globally support system scope credentials"|Fri, 11 Mar 2022 12:44:53 +0000|Fri, 11 Mar 2022 12:44:53 +0000
+f0f6163f43c6fb32a984e9d5b62430ede9f41b33|Allow customizing log output of dnsmasq services|Thu, 10 Mar 2022 10:11:28 +0900|Thu, 10 Mar 2022 01:18:35 +0000
+c018b746154d470fe9b9f3fa7c2b52bc5b380c3e|remove unicode literal from code|Tue, 8 Mar 2022 09:13:45 +0900|Tue, 8 Mar 2022 09:13:45 +0900
+69df6cf15222c9df77a6706d0d6450d03940ef07|Globally support system scope credentials|Fri, 4 Mar 2022 01:04:54 +0900|Fri, 4 Mar 2022 01:20:44 +0900
+b9528eff307b68f301b32796541b91dbfad72b8c|Prepare Yoga M3|Thu, 24 Feb 2022 16:13:08 +0800|Thu, 24 Feb 2022 16:13:08 +0800
+0d9aaa05fd0ae726344519ef4bc28f16c4bdb591|Merge "Add CentOS/RHEL 9 to supported operating systems"|Wed, 23 Feb 2022 11:18:32 +0000|Wed, 23 Feb 2022 11:18:32 +0000
+bfffd4aa162f65cef879af95209afc9cfc26a5a8|Merge "Revert "ironic upgrade: change ownership for ironic-dbsync.log""|Tue, 22 Feb 2022 17:02:46 +0000|Tue, 22 Feb 2022 17:02:46 +0000
+f2230ce6b017b89a8982c3800e5c2e5367eae346|Add CentOS/RHEL 9 to supported operating systems|Wed, 23 Feb 2022 01:18:24 +0900|Wed, 23 Feb 2022 01:18:24 +0900
+8a6ff1a880a496a607033e5e526b8325b2c0f425|Merge "Avoid hard-coding OS user/group in each manifest"|Tue, 22 Feb 2022 15:15:28 +0000|Tue, 22 Feb 2022 15:15:28 +0000
+31a2a62c53b1854896b4ad426a40e23121b4ad11|Revert "ironic upgrade: change ownership for ironic-dbsync.log"|Sun, 20 Feb 2022 19:48:46 +0900|Sun, 20 Feb 2022 19:49:18 +0900
+ba7391775d858c939ebfab541fa13a999c05335f|Avoid hard-coding OS user/group in each manifest|Sun, 20 Feb 2022 19:47:38 +0900|Sun, 20 Feb 2022 19:47:38 +0900
+88473bece8a05050e04de93d8e1259182ba4a8b7|Merge "CentOS 9: Fix unit tests for ironic::pxe"|Sun, 20 Feb 2022 10:09:58 +0000|Sun, 20 Feb 2022 10:09:58 +0000
+798df81020970ffa335d9925ce903be18ff336e4|Merge "CentOS 9: Disable unit tests dependent on puppet-postgresql"|Fri, 18 Feb 2022 04:42:12 +0000|Fri, 18 Feb 2022 04:42:12 +0000
+37ac047e9dd504ec8295842e2c802d0579d1bba0|json_rpc: accept system scope credential|Fri, 18 Feb 2022 01:12:35 +0900|Fri, 18 Feb 2022 01:48:10 +0900
+e992425e01f0d9f4b52324d9f370ff5b19781d2f|Add support for [json_rpc] allowed_roles|Fri, 18 Feb 2022 01:05:03 +0900|Fri, 18 Feb 2022 01:48:07 +0900
+cb6f61aebc017c89c6b66dd83cb399a80d9e2d06|CentOS 9: Fix unit tests for ironic::pxe|Wed, 16 Feb 2022 01:34:36 +0900|Wed, 16 Feb 2022 01:46:52 +0900
+f4a4d65822f08dd8977a50cd3e50178ec0960c91|CentOS 9: Disable unit tests dependent on puppet-postgresql|Wed, 16 Feb 2022 00:10:13 +0900|Wed, 16 Feb 2022 00:24:00 +0900
+d31ab7212085afd02e470cf7033cd22330a06cfc|Merge "Inspector: Clean up deprecated database parameters"|Tue, 15 Feb 2022 10:53:24 +0000|Tue, 15 Feb 2022 10:53:24 +0000
+0a3af34213e472e9c439adef86a9ba78c4f98abf|ironic_config: Deprecate transfomers|Sat, 12 Feb 2022 23:45:31 +0900|Sat, 12 Feb 2022 23:56:21 +0900
+fb064ecb914fb145c79ec742c5308ec5f53ef6dd|Deprecate ironic::glance::swift_account_project_name|Sat, 12 Feb 2022 23:50:05 +0900|Sat, 12 Feb 2022 23:55:12 +0900
+9bb6803655ef9ad3d0a7bcd70d46f6d282b065c4|Inspector: Clean up deprecated database parameters|Tue, 8 Feb 2022 22:46:53 +0900|Tue, 8 Feb 2022 22:47:26 +0900
+41b1408e48accdd1356059fff88f424a118de56a|Remove deprecated amqp_allow_insecure_clients|Tue, 8 Feb 2022 22:08:52 +0900|Tue, 8 Feb 2022 13:13:51 +0000
+cd9bf2b47311586006dcba8921d9f002f5417030|Merge "Clean up deprecated database parameters"|Mon, 7 Feb 2022 18:13:52 +0000|Mon, 7 Feb 2022 18:13:52 +0000
+f27dd22cbdc4876f35d0db557adb3b376d9abd5a|Clean up deprecated database parameters|Mon, 7 Feb 2022 12:07:12 +0900|Mon, 7 Feb 2022 12:07:29 +0900
+9f34e8b03e1f8d5bdc97f30f27e4b86f9f136b4e|Simplify definition to ensure keystone resource creation|Mon, 7 Feb 2022 00:10:37 +0900|Mon, 7 Feb 2022 00:10:37 +0900
+815d8ea91328b885f815701a7105c582ecd39783|Merge "Accept system scope credential for Nova API request"|Fri, 28 Jan 2022 12:09:42 +0000|Fri, 28 Jan 2022 12:09:42 +0000
+dced5acef53fcc6d1e485a8229bdfd48932bd128|Merge "Accept system scope credential for Inspector API request"|Fri, 28 Jan 2022 11:39:10 +0000|Fri, 28 Jan 2022 11:39:10 +0000
+193498c953663a9fa0092db24895e4792cfa5d33|Accept system scope credential for Inspector API request|Tue, 25 Jan 2022 16:51:42 +0900|Wed, 26 Jan 2022 14:40:31 +0000
+d1f63388d418b01b742c7b1838346a20b67f85cf|inspector: Remove deprecated ironic/swift parameters|Tue, 25 Jan 2022 19:21:49 +0900|Tue, 25 Jan 2022 19:23:52 +0900
+bb714ff15aff24476a512279e2f59b379197eb21|Accept system scope credential for Nova API request|Tue, 25 Jan 2022 16:41:38 +0900|Tue, 25 Jan 2022 19:08:31 +0900
+f017521d9342671a418dabed949cbc950da253a8|Merge "Do not test details of oslo::db"|Fri, 21 Jan 2022 21:50:34 +0000|Fri, 21 Jan 2022 21:50:34 +0000
+aa79901ac4b4c3eba29b50edf58cd90f5b80cd58|Merge "Avoid testing details of oslo::messaging(::*)"|Fri, 21 Jan 2022 21:50:31 +0000|Fri, 21 Jan 2022 21:50:31 +0000
+c569db03580702b0e5b3fcf2e4b984b079093ad1|Do not test details of oslo::db|Fri, 21 Jan 2022 12:44:40 +0900|Fri, 21 Jan 2022 21:41:06 +0900
+07c5036fe326fb4fb993328f9939dd8e7227ab46|Avoid testing details of oslo::messaging(::*)|Fri, 21 Jan 2022 09:15:20 +0900|Fri, 21 Jan 2022 21:39:48 +0900
+300a2626b9d271e770d3c9df3ed34e9b806e48fa|Inspector: Add support for [swift] delete_after|Thu, 6 Jan 2022 21:04:04 +0900|Sun, 16 Jan 2022 02:03:10 +0000
+a44fa9b8d172dc6a13c8cf9bcf1262d96c26cd40|Fix dependency to purge default vhost config|Tue, 11 Jan 2022 18:45:03 +0900|Tue, 11 Jan 2022 18:45:03 +0900
+04a4354a3f79a9a7044f195d2042347157aff85c|Merge "Deprecate *_network_name parameters"|Mon, 10 Jan 2022 21:14:18 +0000|Mon, 10 Jan 2022 21:14:18 +0000
+52898fc97e1383acdd4fbf23d727eed2aa0bc467|Merge "Add support for [disk_utils] parameters"|Mon, 10 Jan 2022 21:14:15 +0000|Mon, 10 Jan 2022 21:14:15 +0000
+388ea1be0789d16865afaaf7ff21fab99500d080|Deprecate *_network_name parameters|Sun, 9 Jan 2022 21:52:03 +0900|Sun, 9 Jan 2022 21:52:59 +0900
+ba8ff2980f4d8858f35fc2560be8592db17fa45d|Add support for [disk_utils] parameters|Sun, 9 Jan 2022 14:57:32 +0900|Sun, 9 Jan 2022 21:34:51 +0900
+a29ec09d28feaa8673cbdb9dccd98b71a0810269|Merge "Remove redundant defaults in ironic::inspector::ironic"|Sat, 8 Jan 2022 01:01:07 +0000|Sat, 8 Jan 2022 01:01:07 +0000
+b32397ce51aed373e29cc4b4fc34caef99af91fe|Merge "Support arbitrary configurations of inspector.conf"|Sat, 8 Jan 2022 00:04:34 +0000|Sat, 8 Jan 2022 00:04:34 +0000
+c1421b5297cd8bb3eef2dcca7cb382e512806000|Prepare Yoga M2|Wed, 1 Dec 2021 14:42:52 +0800|Fri, 7 Jan 2022 14:19:54 +0000
+3efbc7533f62300c5e8eec2228ac116eea259946|Remove redundant defaults in ironic::inspector::ironic|Thu, 6 Jan 2022 21:05:55 +0900|Thu, 6 Jan 2022 21:05:55 +0900
+12c1944b3d4a1eb363402c0fc3244fd19a7ccb92|Support arbitrary configurations of inspector.conf|Thu, 6 Jan 2022 11:12:20 +0900|Thu, 6 Jan 2022 14:38:02 +0900
+a0989c05383e8b95961f554369c1dd68f73222e5|Ensure ironic packages are installed before configuring apache|Tue, 4 Jan 2022 21:25:46 +0900|Tue, 4 Jan 2022 21:43:25 +0900
+3304f0d084c2baf2cedabdb35063fc392b0a0702|Merge "Accept system scope credentials for Keystone API request"|Mon, 3 Jan 2022 08:27:14 +0000|Mon, 3 Jan 2022 08:27:14 +0000
+ea108af06b5150713684194613618e551d4ff99c|Merge "Load libraries in a single place"|Thu, 30 Dec 2021 20:49:27 +0000|Thu, 30 Dec 2021 20:49:27 +0000
+7417ab6f47ac8e0f1147281b0900e08d1ea424bc|Load libraries in a single place|Mon, 27 Dec 2021 10:39:10 +0900|Mon, 27 Dec 2021 10:39:10 +0900
+f1aefe228afeab456cbe547e79217870ed4a321b|Deprecate ironic::pxe::enable_ppc64le|Tue, 21 Dec 2021 11:04:50 +1300|Thu, 23 Dec 2021 09:17:40 +0000
+feea417befb1b03b4dd15b05c6203ab63d6e093c|Add support for [conductor] bootloader|Fri, 10 Dec 2021 13:12:08 +0900|Tue, 14 Dec 2021 08:27:04 +0900
+e59a538bda20968b90b64cfce151fc8449412d24|Add support for [conductor] soft_power_off_timeout|Fri, 10 Dec 2021 11:02:12 +0900|Fri, 10 Dec 2021 11:04:04 +0900
+e5679fa003f37a2d275a96827240e997a2fdedf5|Clean up direct dependencies on puppetlabs-apache|Wed, 8 Dec 2021 22:21:42 +0900|Wed, 8 Dec 2021 22:21:42 +0900
+a57504784c576640c33ca3d180373d67b5626edd|Merge "Remove bifrost support"|Wed, 8 Dec 2021 04:10:33 +0000|Wed, 8 Dec 2021 04:10:33 +0000
+fd9169e368cc84370cdb9730653f7d9a892f3cc6|Merge "Add missing puppetlabs-concat to dependencies"|Tue, 7 Dec 2021 23:31:46 +0000|Tue, 7 Dec 2021 23:31:46 +0000
+751838773792c057930f25e47991147fc36f7946|Merge "Fix invalid dependencies"|Tue, 7 Dec 2021 20:01:25 +0000|Tue, 7 Dec 2021 20:01:25 +0000
+de842c88b64004ee132276ca62909955226cc69c|Add missing puppetlabs-concat to dependencies|Thu, 2 Dec 2021 21:27:35 +0900|Thu, 2 Dec 2021 21:28:52 +0900
+f47dc524aabea62d3a3ae2cbc32e0574d528b690|Remove bifrost support|Thu, 2 Dec 2021 20:57:11 +0900|Thu, 2 Dec 2021 20:59:14 +0900
+51ea0c95eabe8dd15493dd719b8ee34079ef3bb1|Fix name of iPXE efi bootrom|Mon, 29 Nov 2021 18:43:05 +0100|Tue, 30 Nov 2021 11:48:32 +0100
+2757d7d333b010576b7366553bbb3765ed514052|Accept system scope credentials for Keystone API request|Thu, 25 Nov 2021 23:13:01 +0900|Thu, 25 Nov 2021 23:17:34 +0900
+4b27c00256ab393aa7c2a4353407d1ac7bd41a1e|Fix invalid dependencies|Thu, 25 Nov 2021 22:58:59 +0900|Thu, 25 Nov 2021 22:59:26 +0900
+7a6c766c85bd5507111d32157a454c933098c06f|Merge "Avoid usage of custom os_package_type fact"|Mon, 8 Nov 2021 11:56:24 +0000|Mon, 8 Nov 2021 11:56:24 +0000
+b0a998ee7507c6321414d2559c5b925a7604686e|Avoid usage of custom os_package_type fact|Thu, 4 Nov 2021 22:19:35 +0900|Thu, 4 Nov 2021 22:19:35 +0900
+4a7dabc2427d655531052ea56825fadad27371ae|Merge "Prepare to update default of <service>::wsgi::apache::ssl"|Wed, 3 Nov 2021 22:56:59 +0000|Wed, 3 Nov 2021 22:56:59 +0000
+c9f61ba25cfcb7dcce3df77208663c9d4f19d35b|Merge "Add support for MultiStrOpt (inspector)"|Wed, 3 Nov 2021 17:52:24 +0000|Wed, 3 Nov 2021 17:52:24 +0000
+dca54992d7011d0e1558de03fa380a5a48ad0bd0|Prepare to update default of <service>::wsgi::apache::ssl|Wed, 3 Nov 2021 20:54:47 +0900|Wed, 3 Nov 2021 20:54:47 +0900
+648b77c9840ba362ad7b48bd05396f27bd509c33|Merge "Bump puppetlabs-inifile"|Tue, 2 Nov 2021 18:29:02 +0000|Tue, 2 Nov 2021 18:29:02 +0000
+97c75c540f75ec524fbf00c9b0bc0b7c62228b4a|Bump puppetlabs-inifile|Tue, 2 Nov 2021 13:03:32 +0900|Tue, 2 Nov 2021 13:03:32 +0900
+ecdeb8f36575675998e1d3e77fba53fb5ee87e50|Add support for MultiStrOpt (inspector)|Tue, 2 Nov 2021 09:05:25 +0900|Tue, 2 Nov 2021 09:06:53 +0900
+91e865d5bb14b819ec2a2b86634f11e617380dbb|Merge "Add support for [pxe] loader_file_paths and dir/file_permission"|Mon, 1 Nov 2021 17:59:39 +0000|Mon, 1 Nov 2021 17:59:39 +0000
+4177473707d8d7000e0c13f7bfa145035cc64989|Merge "Add support for [DEFAULT] image_download_concurrency"|Mon, 1 Nov 2021 17:59:35 +0000|Mon, 1 Nov 2021 17:59:35 +0000
+c2f210592422f229c9cd5b9340c5659a7673d600|Merge "inspector: Add support for [DEFAULT] api_max_limit"|Mon, 1 Nov 2021 17:09:08 +0000|Mon, 1 Nov 2021 17:09:08 +0000
+75e3171ed3b890041bc61b010dad27157ae7647e|Add support for [pxe] loader_file_paths and dir/file_permission|Sat, 30 Oct 2021 09:22:35 +0900|Sat, 30 Oct 2021 11:58:44 +0900
+fd7102cfba13514d07780ac52629e0a202fdff07|inspector: Add support for [DEFAULT] api_max_limit|Sat, 30 Oct 2021 10:41:17 +0900|Sat, 30 Oct 2021 10:43:01 +0900
+ab8f8baa4a690feec8c7cc8f53eca03f7225c874|Add support for [DEFAULT] my_ipv6|Sat, 30 Oct 2021 10:28:20 +0900|Sat, 30 Oct 2021 10:28:20 +0900
+e83eb3126065e1f722feecdb080c75aa3e84fac6|Add support for [DEFAULT] image_download_concurrency|Sat, 30 Oct 2021 10:24:20 +0900|Sat, 30 Oct 2021 10:24:20 +0900
+889fc86298faf21b8c132be1e52ffcc96e491e1a|Clean up parameter/resource to manage api-paste.ini|Fri, 15 Oct 2021 11:27:00 +0900|Fri, 15 Oct 2021 11:28:22 +0900
+930e183d0876d50f12a27a923a9d4cdf0f9edf05|Bump version for the start of Yoga|Mon, 11 Oct 2021 11:31:45 +0900|Mon, 11 Oct 2021 11:31:45 +0900
+6ed125f30de251a6e9ea89f8c1a2f480dc6c5280|Merge "pxe: Create tftp_root directory before starting dnsmasq"|Fri, 8 Oct 2021 00:00:24 +0000|Fri, 8 Oct 2021 00:00:24 +0000
+59461cac4655b3af02deab7cb97fb71e368111b1|Update master for stable/xena|Thu, 7 Oct 2021 08:24:05 +0000|Thu, 7 Oct 2021 08:24:05 +0000
+46bff5456a39f346d3911a73b2434955eadf7b26|pxe: Create tftp_root directory before starting dnsmasq|Thu, 7 Oct 2021 16:35:14 +0900|Thu, 7 Oct 2021 16:36:37 +0900
+f2dd0d3cc50fb1fdfc0dd9df8bb16c0d6429e5be|Support use of dnsmasq as tftp service|Wed, 23 Jun 2021 07:56:24 -0700|Mon, 4 Oct 2021 15:17:41 +0000
+c5e8504355dfa2b69e4f481bffcf7eb828ea8dfe|Merge "Make usage of keystone::resource::service_identity consistent"|Sat, 2 Oct 2021 13:42:43 +0000|Sat, 2 Oct 2021 13:42:43 +0000
+db754a7d7d98790bd76d9fe08ca72bfc00046175|Add information technology in the setup.cfg|Fri, 1 Oct 2021 06:54:49 +0800|Fri, 1 Oct 2021 06:54:49 +0800
+ff788bc6367afd3d4b37563a64c9e9f66f387271|Add license information in the setup.cfg|Thu, 30 Sep 2021 16:48:13 +0800|Thu, 30 Sep 2021 16:48:13 +0800
+c43a6d42bd7d3bdfb62f0f5929291b26405ba46d|Delete useless code for setup.py|Thu, 30 Sep 2021 13:38:33 +0800|Thu, 30 Sep 2021 13:38:33 +0800
+de672ed967f1254ee0a950808911b373e53bb26a|Make usage of keystone::resource::service_identity consistent|Mon, 27 Sep 2021 22:14:41 +0900|Thu, 30 Sep 2021 10:00:54 +0900
+464e5c8d6d42b52b3fb3f6ce5b5e78315506f21b|Merge "Stop configuring install_command in tox."|Wed, 29 Sep 2021 12:03:43 +0000|Wed, 29 Sep 2021 12:03:43 +0000
+0a3af6291cfa4beefcfa5e33b1981ecb4a64e8d9|Merge "Fix pbr>=2.0.0 for setup.py"|Wed, 29 Sep 2021 09:08:58 +0000|Wed, 29 Sep 2021 09:08:58 +0000
+9b3c5b801b251fd8aeb7c0df6e7ff4cfedf40b4e|Stop configuring install_command in tox.|Wed, 29 Sep 2021 18:01:35 +0900|Wed, 29 Sep 2021 18:03:53 +0900
+81556881084e4063954b23718bfcd77cefe585ef|Fix pbr>=2.0.0 for setup.py|Wed, 29 Sep 2021 16:37:10 +0800|Wed, 29 Sep 2021 16:37:10 +0800
+b95e9a4aeb07e07896eb4e94ea94fd38187ad596|Update openstackdocstheme to the latest version|Wed, 29 Sep 2021 16:06:50 +0800|Wed, 29 Sep 2021 16:06:50 +0800
+dcb82a4bff56e3c293747b5a5f1133b9ab2818a6|Merge "Update reno to the latest version"|Tue, 28 Sep 2021 10:31:07 +0000|Tue, 28 Sep 2021 10:31:07 +0000
+f96801b70a72c770f103159282f74f0499ea3b6b|Merge "Do not test detail of keystone::resource::service_identity"|Tue, 28 Sep 2021 10:31:06 +0000|Tue, 28 Sep 2021 10:31:06 +0000
+ba39bf3d9c1a038e794085e6e0c49c9fc40f1236|Merge "Skip dependency on keystone endpoint of endpoint is not configured"|Tue, 28 Sep 2021 10:31:04 +0000|Tue, 28 Sep 2021 10:31:04 +0000
+1392801ea8d8216f0625a2d1f1e1ed35251cb1bd|Update reno to the latest version|Tue, 28 Sep 2021 17:14:35 +0800|Tue, 28 Sep 2021 17:14:35 +0800
+affcb980a9b36e39347408f259b7fdcddac9b608|Merge "Rename pxe_append_params"|Mon, 27 Sep 2021 13:31:44 +0000|Mon, 27 Sep 2021 13:31:44 +0000
+074b7fce7c9b132a10456cbc8a78e31045661b9b|Do not test detail of keystone::resource::service_identity|Mon, 27 Sep 2021 21:38:41 +0900|Mon, 27 Sep 2021 22:18:58 +0900
+827d3fe1485701336ff578b1c6a6c09854767014|Skip dependency on keystone endpoint of endpoint is not configured|Mon, 27 Sep 2021 21:39:59 +0900|Mon, 27 Sep 2021 21:40:26 +0900
+98894d98c2c1006aa8f787d67a6b9d543b2f511d|Merge "Fix unit tests incompatible with puppetlab-stdlib 8.0.0"|Thu, 23 Sep 2021 18:18:27 +0000|Thu, 23 Sep 2021 18:18:27 +0000
+4fa9f61485dcd5ae3ed9461bc4a877c3bafd7a31|Fix unit tests incompatible with puppetlab-stdlib 8.0.0|Fri, 24 Sep 2021 00:26:45 +0900|Fri, 24 Sep 2021 00:26:45 +0900
+4c990c7da829835a640b85b51aceff90846193f7|Fix stdlib version in metadata|Thu, 23 Sep 2021 19:44:22 +0800|Thu, 23 Sep 2021 19:44:22 +0800
+541157fe290e6b9ce6923e968692e6cf23eb7109|Rename pxe_append_params|Wed, 22 Sep 2021 22:44:47 +0900|Wed, 22 Sep 2021 22:44:47 +0900
+4b790c23b0a627324f23e8f8e7567ea6d1ae6a79|Merge "Allow purging policy files"|Mon, 20 Sep 2021 08:30:26 +0000|Mon, 20 Sep 2021 08:30:26 +0000
+eb26414d5e7c481061c1c36aadb8431b9ba95258|Merge "inspector: Add support for healthcheck middleware"|Mon, 20 Sep 2021 08:30:25 +0000|Mon, 20 Sep 2021 08:30:25 +0000
+6ab4dfe25db01c1cf90a0062fb3fd2c453331c67|inspector: Add support for healthcheck middleware|Fri, 17 Sep 2021 19:35:04 +0900|Fri, 17 Sep 2021 19:35:04 +0900
+e8a35dd55a48805f292efba166467fb10cb6b7b6|Prepare Xena RC1|Fri, 17 Sep 2021 17:36:09 +0800|Fri, 17 Sep 2021 17:36:09 +0800
+3ca41898ca3d278012937b94674fb47bacb7d3f2|Merge "inspector dnsmasq: make sequential-ip configurable"|Wed, 15 Sep 2021 17:53:58 +0000|Wed, 15 Sep 2021 17:53:58 +0000
+8129e85eac73521127f908b1f8f8a7ab10b0278b|Add watch_log_file option|Tue, 14 Sep 2021 16:02:09 +0800|Tue, 14 Sep 2021 16:02:09 +0800
+84504f310345c709ebdc33cc582155b9fe2b7f5b|Merge "Prepare Xena M3"|Thu, 9 Sep 2021 16:16:17 +0000|Thu, 9 Sep 2021 16:16:17 +0000
+77996ea30dbceb86685a98478705f9636ac7e94e|Merge "Remove default hardware type override"|Tue, 7 Sep 2021 16:34:30 +0000|Tue, 7 Sep 2021 16:34:30 +0000
+a4c67d99419da0b55ad1f3a305273b8c43fa0e4f|Merge "Accept string value for enabled_hardware_types"|Tue, 7 Sep 2021 16:34:29 +0000|Tue, 7 Sep 2021 16:34:29 +0000
+1d88995dfeb4bc99272f4bef9d2112ac5d3d81f5|Merge "json_rpc: Fix the default project_name"|Tue, 7 Sep 2021 16:30:07 +0000|Tue, 7 Sep 2021 16:30:07 +0000
+1993e8f81743259104aef3525140e076c20b08bb|Prepare Xena M3|Mon, 6 Sep 2021 15:32:08 +0800|Mon, 6 Sep 2021 15:32:08 +0800
+ff5f16600a3627dce52e84b9ecf2ddefa00e516d|Allow purging policy files|Sat, 4 Sep 2021 22:08:28 +0900|Sun, 5 Sep 2021 01:21:34 +0900
+17eb103f4a63575c68d5139924ebb13c865bb546|Merge "Do not test authtoken parameters directly"|Fri, 3 Sep 2021 09:32:29 +0000|Fri, 3 Sep 2021 09:32:29 +0000
+777bcbc7d3e8c646e2a4b904d69366c2234d0453|Merge "Use a 'params' hash for authtoken parameters"|Fri, 3 Sep 2021 09:32:28 +0000|Fri, 3 Sep 2021 09:32:28 +0000
+9efa9c818ce4b1a694b9b4e2fd63fab587693c4a|Merge "Remove unnecessary workaround for missing ipmitool dependency"|Thu, 2 Sep 2021 18:28:10 +0000|Thu, 2 Sep 2021 18:28:10 +0000
+4f67b341eef9f0a84afefdbe63133c3449d2e1eb|inspector dnsmasq: make sequential-ip configurable|Fri, 27 Aug 2021 18:21:49 +0200|Sat, 28 Aug 2021 08:53:36 +0900
+0c396db86ce9c2fd4c84fb927fa79578fa374af9|json_rpc: Fix the default project_name|Fri, 27 Aug 2021 23:57:15 +0900|Sat, 28 Aug 2021 00:07:50 +0900
+3cabf75eb6eb43a4ba04d42d75985e9fab058d22|Do not test authtoken parameters directly|Thu, 26 Aug 2021 21:04:20 +0900|Fri, 27 Aug 2021 15:05:47 +0900
+40e185a17019abaaf1b29e4f7937571607efb95b|Use a 'params' hash for authtoken parameters|Fri, 27 Aug 2021 14:42:11 +0900|Fri, 27 Aug 2021 14:42:39 +0900
+263afe8e6b8b22549ac8aafd5b4ca3e85d5ad512|Remove default hardware type override|Thu, 26 Aug 2021 16:36:59 -0700|Fri, 27 Aug 2021 12:59:25 +0900
+f761d8dc1e2b669ef2b52751514ca6099ab9621f|Accept string value for enabled_hardware_types|Fri, 27 Aug 2021 12:57:49 +0900|Fri, 27 Aug 2021 12:57:49 +0900
+5ac602f851c4c6014d1fe1f451836040d73a610d|Remove unnecessary workaround for missing ipmitool dependency|Fri, 27 Aug 2021 12:53:10 +0900|Fri, 27 Aug 2021 12:54:17 +0900
+78f7e9efb78df73b703263d8dd238a0f614c604a|Deprecate bifrost support|Thu, 26 Aug 2021 16:19:13 -0700|Thu, 26 Aug 2021 16:19:13 -0700
+e4cc88ec8d5d46868c234f4538164f3a9da29216|Merge "Ensure tftp root directory is created"|Mon, 23 Aug 2021 17:18:36 +0000|Mon, 23 Aug 2021 17:18:36 +0000
+01124971611486a8cc255bd8cde6423a8c44f427|Ensure tftp root directory is created|Sun, 22 Aug 2021 21:49:36 +0900|Sun, 22 Aug 2021 21:58:23 +0900
+9e2422cc4ee8168ba64b68f8a33010c166beeb12|Expose sync_power_state_workers|Fri, 20 Aug 2021 10:21:46 +0200|Fri, 20 Aug 2021 10:21:46 +0200
+faf7f538649147e7ae9efc4a0e67b587473fa111|Merge "Deprecate invalid ironic_api_paste_ini"|Thu, 19 Aug 2021 22:13:26 +0000|Thu, 19 Aug 2021 22:13:26 +0000
+2dfba43f8a37a3a67822645e23131f559dcde214|Merge "Fix the wrong function name"|Wed, 18 Aug 2021 03:38:18 +0000|Wed, 18 Aug 2021 03:38:18 +0000
+3252b483fce5bb9ebf416ea53b5d9524b4387464|Support Puppet 7|Mon, 16 Aug 2021 18:02:47 +0900|Mon, 16 Aug 2021 18:02:47 +0900
+cc96b3afa9bd904944c7e4b2eb8a6762fdb7f93c|Fix the wrong function name|Thu, 12 Aug 2021 23:54:51 +0900|Thu, 12 Aug 2021 23:59:39 +0900
+7f88e87fe814dbf7cb7152461a2d923a0eb80bee|Deprecate invalid ironic_api_paste_ini|Wed, 11 Aug 2021 12:41:35 +0900|Wed, 11 Aug 2021 14:47:26 +0900
+5eba05ee112568e44ae147e7c450bf4a4e124998|Merge "Add support for policy settings of ironic-inspector"|Fri, 6 Aug 2021 09:59:03 +0000|Fri, 6 Aug 2021 09:59:03 +0000
+da503fd5ceabb5bd466e45f1da51442ef66d8ce7|Fix ppc64le support to coexist with PXE preference|Wed, 4 Aug 2021 19:36:15 -0700|Thu, 5 Aug 2021 22:59:25 +0900
+1e45c9952043e14b19c7a546d62dce95331e6123|Add support for policy settings of ironic-inspector|Thu, 5 Aug 2021 10:47:51 +0900|Thu, 5 Aug 2021 10:53:21 +0900
+7e28c784c430d785f915562c0a7cca4ead7ced8a|Merge "Make ipxe bootfile name configurable"|Thu, 29 Jul 2021 15:16:02 +0000|Thu, 29 Jul 2021 15:16:02 +0000
+0ef5303d0511eb27f078b4082e36c23e04bbe9c8|Add separate manifest for configuring json-rpc|Wed, 28 Jul 2021 10:56:41 +0530|Wed, 28 Jul 2021 16:41:38 +0530
+d99a51d17b7ae254d03225dd763f56cd90465bcb|Make ipxe bootfile name configurable|Wed, 21 Jul 2021 08:28:33 +0900|Tue, 27 Jul 2021 23:07:37 +0900
+314a9e52d4b2651690a0791e89d984378d9045ad|Prepare Xena M2|Mon, 26 Jul 2021 19:03:47 +0800|Mon, 26 Jul 2021 23:10:37 +0000
+3f97e5b164363ce37049358a162255e84e52e2b1|Merge "Fix usage of ironic::pxe::common"|Mon, 26 Jul 2021 18:58:49 +0000|Mon, 26 Jul 2021 18:58:49 +0000
+71fdc86c27529434f959ffb2b11bff0be009b733|Merge "Fix incorrect handling/update about deprecated parameters"|Mon, 26 Jul 2021 13:50:33 +0000|Mon, 26 Jul 2021 13:50:33 +0000
+c21b1e8db6ece50f19c09b38ead3f7d5ec84249c|Fix usage of ironic::pxe::common|Fri, 23 Jul 2021 01:37:55 +0900|Fri, 23 Jul 2021 01:37:55 +0900
+b307c40f353d6f8e965e9c9d52382fe7b0145043|Fix incorrect handling/update about deprecated parameters|Fri, 23 Jul 2021 01:12:04 +0900|Fri, 23 Jul 2021 01:16:55 +0900
+0f4a5263a7f4264f6148e8c04f32992b0b07e1a5|Add support for MultiStrOpt|Tue, 13 Jul 2021 17:47:11 +0900|Tue, 13 Jul 2021 18:17:12 +0900
+1904baa3cc39d5fbf87b5ba30f36b93b3a552a90|Merge "Clean up ipxe support"|Fri, 2 Jul 2021 12:28:52 +0000|Fri, 2 Jul 2021 12:28:52 +0000
+e010e8377e912897a24e3da77127fb765309c8de|Merge "Do not test detail of oslo::cors"|Thu, 1 Jul 2021 14:01:11 +0000|Thu, 1 Jul 2021 14:01:11 +0000
+3570d4c7ff615cb971395ddc6721180748ffc514|Do not test detail of oslo::cors|Thu, 1 Jul 2021 17:55:04 +0900|Thu, 1 Jul 2021 17:55:04 +0900
+3864e15998b5b1eec7d2b1b4911add9bb899fdb8|Clean up ipxe support|Wed, 23 Jun 2021 08:32:56 -0700|Wed, 30 Jun 2021 11:01:11 -0700
+95f2f81e026fb38836f8c6b7af9b8135758384b7|Drop Fedora support|Sat, 12 Jun 2021 23:31:55 +0900|Mon, 14 Jun 2021 17:13:09 +0900
+12bc9b1d5efc6f4c1dc365d45e84529bf3f7059d|Merge "Set fixture paths for unit tests"|Wed, 2 Jun 2021 23:53:28 +0000|Wed, 2 Jun 2021 23:53:28 +0000
+cbca433a2c24b581fec944a9389f2c8decd3b30c|Set fixture paths for unit tests|Wed, 2 Jun 2021 14:01:25 +0900|Wed, 2 Jun 2021 14:01:30 +0900
+4a4dd6a8071423d31dde16f0d12a24c48b55cddf|Prepare Xena M1|Thu, 27 May 2021 15:50:27 +0800|Thu, 27 May 2021 15:50:27 +0800
+a1ffa29631f9f8c41fe0bdb72ad73494cfcdb029|Get rid of the $pyvers variable|Fri, 21 May 2021 11:37:13 +0200|Fri, 21 May 2021 11:37:13 +0200
+006fda732d61110c1ef2b968745b3a769d54b0c9|Merge "Use validate_legacy to validae parameter types."|Mon, 17 May 2021 21:02:41 +0000|Mon, 17 May 2021 21:02:41 +0000
+623491d3f9c10b35c33c99e9ce49ebde59db0ff3|Merge "We shouldn't set pxe/ipxe_enabled in ironic config"|Thu, 13 May 2021 03:52:35 +0000|Thu, 13 May 2021 03:52:35 +0000
+0d667c939161ffd6f1dcb9653c1290901a16c4f4|Merge "Add support for audit middleware options"|Wed, 12 May 2021 18:19:26 +0000|Wed, 12 May 2021 18:19:26 +0000
+dff9107e63c70b8525ae598d15856be96893a060|Merge "Removing deprecated max_time_interval"|Tue, 11 May 2021 21:40:46 +0000|Tue, 11 May 2021 21:40:46 +0000
+2680f9ea1dd5511ab0ec27582a271a457c62967e|Removing deprecated max_time_interval|Mon, 10 May 2021 18:28:29 -0400|Tue, 11 May 2021 10:16:35 +0000
+bb1982a2a43ba1ddd71072ec2a728774172f9409|setup.cfg: Replace dashes with underscores|Tue, 11 May 2021 18:30:01 +0900|Tue, 11 May 2021 09:56:40 +0000
+cb788a3068f548d027eba447d97625939dedc0c4|Fix lint errors with the latest lint packages|Tue, 11 May 2021 18:08:45 +0900|Tue, 11 May 2021 18:08:45 +0900
+5daa9edd96eebde8b6866f362006fae46df27f6a|We shouldn't set pxe/ipxe_enabled in ironic config|Tue, 4 May 2021 11:31:22 -0400|Thu, 6 May 2021 08:38:50 -0400
+8120c766b4e5b8167e19de5f2e34309802a5bc64|Add support for audit middleware options|Wed, 5 May 2021 09:49:12 +0900|Wed, 5 May 2021 15:43:06 +0900
+c7966378a036a58018ec0c1155ee6b58f52a49ca|Use validate_legacy to validae parameter types.|Tue, 4 May 2021 17:11:09 +0900|Tue, 4 May 2021 17:11:09 +0900
+ada04652a7c96212747873ea51373f270f45f469|Bump version for the start of Xena|Thu, 29 Apr 2021 09:38:14 +0800|Thu, 29 Apr 2021 09:38:14 +0800
+a7f8367465d61d32e81584615b13a7b78d2a0f37|Fix a typo in file header|Wed, 21 Apr 2021 01:08:28 +0900|Wed, 21 Apr 2021 01:08:28 +0900
+48d9187a7d996d0e50228bc229b76bebc9a9e768|Merge "Bump dependency in metadata.json"|Tue, 13 Apr 2021 11:08:50 +0000|Tue, 13 Apr 2021 11:08:50 +0000
+4281b33774735fcf6a3160a3c75f75dadd285708|Bump dependency in metadata.json|Thu, 8 Apr 2021 20:59:34 +0200|Thu, 8 Apr 2021 20:59:34 +0200
+bddcf2c7c9e87ef3bff2a2902ed1d2a7152b8b21|Merge "Allow to configure policy_dirs"|Tue, 6 Apr 2021 09:37:16 +0000|Tue, 6 Apr 2021 09:37:16 +0000
+a4c8ff273ad9d845dce9891f9c7ecb33fe3ac2b4|Allow to configure policy_dirs|Thu, 1 Apr 2021 23:04:03 +0200|Thu, 1 Apr 2021 23:04:03 +0200
+553c53299d5cefcec5b5774e44c50a89c224f1d5|Update master for stable/wallaby|Thu, 1 Apr 2021 09:21:18 +0000|Thu, 1 Apr 2021 09:21:18 +0000
+bbceaa7bfc9e00ce1a1174b3d5a54bea5ab45ca9|Merge "metadata.json: debian 11"|Tue, 30 Mar 2021 16:27:40 +0000|Tue, 30 Mar 2021 16:27:40 +0000
+2f98ab8bb262d64ccef215094959a8c793e695b7|Update sphinx to the latest version|Sat, 27 Mar 2021 15:31:57 +0800|Sat, 27 Mar 2021 15:31:57 +0800
+eb459312bae84bc55da284d4210a08f42fa605db|Prepare Wallaby RC1|Fri, 26 Mar 2021 11:24:16 +0800|Fri, 26 Mar 2021 06:50:01 +0000
+93fbc88b21cb5378e0eac4189eae5471d8aaabb8|Merge "Add support for healthcheck middleware options"|Fri, 26 Mar 2021 06:40:37 +0000|Fri, 26 Mar 2021 06:40:37 +0000
+ff2d29764e99827d871dcef2cf00c9d066b83366|metadata.json: debian 11|Thu, 25 Mar 2021 21:38:30 +0100|Thu, 25 Mar 2021 21:38:30 +0100
+d8674f4af071baaca36944726e7500262e14b539|Merge "Add support for oslo_policy/enforce_new_defaults"|Wed, 24 Mar 2021 16:57:13 +0000|Wed, 24 Mar 2021 16:57:13 +0000
+f83af35e66bc428dd536dc3239c96196ad9d9207|Add support for oslo_policy/enforce_new_defaults|Wed, 24 Mar 2021 16:39:55 +0900|Wed, 24 Mar 2021 16:39:55 +0900
+8a7d8516fd8b94159fbe66b905cc805aab14c5fb|Update supported Ubuntu version to Focal|Tue, 23 Mar 2021 21:36:19 +0900|Tue, 23 Mar 2021 21:36:19 +0900
+3b4a1e5a90032deb9fa0a6317c330d0d11eedff3|Merge "Add support for the oslo_policy/enforce_scope parameter"|Mon, 22 Mar 2021 11:09:55 +0000|Mon, 22 Mar 2021 11:09:55 +0000
+d2cbbcd23cb34f02f142cfb2d6096e619336b7c9|Bump requirement of puppetlabs-apache|Thu, 18 Mar 2021 22:31:31 +0900|Thu, 18 Mar 2021 22:31:31 +0900
+dfe8cd47835e00cc6c0cdb13a91be1a2675bdd05|Add support for the oslo_policy/enforce_scope parameter|Tue, 16 Mar 2021 17:20:26 +0900|Tue, 16 Mar 2021 17:20:26 +0900
+bc8a77cd68e9054bf79475fc358321ce90819e52|Add support for healthcheck middleware options|Mon, 1 Feb 2021 17:35:48 +0900|Mon, 15 Mar 2021 11:58:22 +0900
+78bd0aee930d1d9d10f93d9a6a27e2aaf0540696|Prepare Wallaby M3|Fri, 12 Mar 2021 14:35:44 +0800|Fri, 12 Mar 2021 14:35:44 +0800
+c68470678a2684d4b47c4a5058f98e17ce12046b|Prepare Wallaby M2|Tue, 19 Jan 2021 11:19:35 +0800|Tue, 19 Jan 2021 11:19:35 +0800
+51f25d4ec4fece0779b652c2f2905adc25d7c8a3|Merge "Use yaml instead of json for policy file"|Fri, 15 Jan 2021 15:23:13 +0000|Fri, 15 Jan 2021 15:23:13 +0000
+fe99e90a2d98b55bf83b57f3c3249ff9b0448cc1|Refactor logic to determine syslinux_path|Wed, 13 Jan 2021 23:01:32 +0900|Wed, 13 Jan 2021 23:11:03 +0900
+d7c60692ab199b8bf070d3eac0754d2f9a82d9d8|Use yaml instead of json for policy file|Tue, 29 Dec 2020 16:10:06 +0900|Thu, 7 Jan 2021 23:10:35 +0000
+eff29bb202aa4c019a10f0882e13cb1e77caec9e|Increase upper constraint of puppetlabs-xinetd|Wed, 6 Jan 2021 17:21:45 +1100|Wed, 6 Jan 2021 17:24:41 +1100
+9d60cbfade6eb8d7cab2bf68077c568d5ca9b8df|Prepare Wallaby M1|Fri, 4 Dec 2020 13:31:37 +0800|Fri, 4 Dec 2020 13:31:37 +0800
+60eb6d732dc62e2e753626da0eed955aeaf79099|Allow db sync timeouts to be configurable|Mon, 23 Nov 2020 09:27:52 +0800|Wed, 25 Nov 2020 09:19:08 +0800
+8d64eeea0bef054fc0740514e590d8885a508d4a|Replace deprecated UPPER_CONSTRAINTS_FILE variable|Wed, 11 Nov 2020 09:08:35 +0800|Wed, 11 Nov 2020 09:08:35 +0800
+5db296a748752750e9bbada51d7a8901ccdbf0de|Deprecate allow_insecure_clients option|Mon, 2 Nov 2020 14:42:03 +0800|Mon, 2 Nov 2020 15:25:45 +0800
+c4e866066c133f6e1935432536e056d901104502|Fix outdated files|Wed, 28 Oct 2020 10:40:09 +0800|Wed, 28 Oct 2020 10:40:09 +0800
+bf7f374ddb666023c47383bf84c4ee84a9edac62|Merge "Support more parameters for ipmi driver"|Tue, 27 Oct 2020 14:54:05 +0000|Tue, 27 Oct 2020 14:54:05 +0000
+be7303f17921387a7863fb483c44df0d92c431c7|Merge "Add support for the firmware update feature in redfish driver"|Tue, 27 Oct 2020 11:03:46 +0000|Tue, 27 Oct 2020 11:03:46 +0000
+88a28c93197bb57fabbc16df3354f3a5bb395ecf|Remove the wrongly placed release note file|Tue, 27 Oct 2020 01:02:47 +0900|Tue, 27 Oct 2020 01:08:38 +0900
+31af7a6db97af593fef3ac2288280d26460637f1|Support more parameters for ipmi driver|Mon, 26 Oct 2020 21:02:59 +0900|Mon, 26 Oct 2020 21:02:59 +0900
+4de96545792b6ed6375ca7ce07b58f617a0f0e0b|Add support for the firmware update feature in redfish driver|Mon, 26 Oct 2020 20:54:09 +0900|Mon, 26 Oct 2020 20:54:09 +0900
+02d0fea8296b59236a9d0d93ebdec8c9467dd8eb|Fix the misplaced release note file|Thu, 22 Oct 2020 08:56:18 +0900|Thu, 22 Oct 2020 08:56:18 +0900
+d769542669f63c497933d8c785280760b74b7140|Merge "Deprecate database options from the base class"|Wed, 21 Oct 2020 13:49:50 +0000|Wed, 21 Oct 2020 13:49:50 +0000
+de4f7d513842b59a3dd3edcd5e18b7dca216aa67|Deprecate database options from the base class|Tue, 20 Oct 2020 11:51:41 +0900|Wed, 21 Oct 2020 03:59:18 +0000
+07d61e47b539824a52abc5b7e01b7d0d78fa579f|Merge "Add support for the keystone_authtoken/service_type parameter"|Mon, 19 Oct 2020 10:33:53 +0000|Mon, 19 Oct 2020 10:33:53 +0000
+f17339fb7d5e16102cebd5cf2d41b3ea084ec3d1|Add support for the keystone_authtoken/service_type parameter|Mon, 19 Oct 2020 12:40:58 +0900|Mon, 19 Oct 2020 12:40:58 +0900
+8c962ee7ebed56a6ef0c246a0d35050824af0c99|Bump version for the start of Wallaby|Thu, 15 Oct 2020 09:42:49 +0800|Thu, 15 Oct 2020 09:42:49 +0800
+ef29d243b017dccb9f051da6f0eea6dfdc476864|Merge "Cleanup codes for CentOS/RHEL7"|Mon, 12 Oct 2020 12:29:48 +0000|Mon, 12 Oct 2020 12:29:48 +0000
+9287f651fd60153156071cab1eb8e26d304d265d|Include deps class in unit test for sync|Mon, 12 Oct 2020 10:46:40 +0800|Mon, 12 Oct 2020 10:46:40 +0800
+b4bd932e4eda997c367bd9c2e14c721d69dad4c5|Include deps class in unit test for postgresql|Sat, 10 Oct 2020 09:31:12 +0800|Sat, 10 Oct 2020 09:31:12 +0800
+162218ee6fed4797a7aa21f4f8cdda9907cbe0e5|Merge "Update master for stable/victoria"|Fri, 9 Oct 2020 07:27:36 +0000|Fri, 9 Oct 2020 07:27:36 +0000
+5eb74574887e8788d62489dcb5a1da1de4f98a85|Include deps class in unit test for mysql|Fri, 9 Oct 2020 09:59:55 +0800|Fri, 9 Oct 2020 11:08:37 +0800
+742aaf5c3157720fd338060c6e1a471883ba238a|Cleanup codes for CentOS/RHEL7|Fri, 9 Oct 2020 09:06:16 +0900|Fri, 9 Oct 2020 09:16:10 +0900
+383f7dd4aec1fcb91c61abeb7c135db7aa5c34dc|Update master for stable/victoria|Thu, 8 Oct 2020 14:40:52 +0000|Thu, 8 Oct 2020 14:40:52 +0000
+82a5587266d5b0d5234791dae043576429692c9e|Prepare Victoria RC1|Thu, 24 Sep 2020 10:48:54 +0800|Thu, 24 Sep 2020 10:48:54 +0800
+482dfeb23d9c4a28e6ab1e7ddb47f7560a9fdc86|Set openstackdocs_auto_name to use 'project' as name|Wed, 16 Sep 2020 11:05:05 +0800|Wed, 16 Sep 2020 11:05:05 +0800
+5555fa55301f38ca881951e0ee8b59c03332cd15|Fix broken dependency.|Fri, 11 Sep 2020 11:19:48 +0200|Fri, 11 Sep 2020 11:19:48 +0200
+1f9318e43d84b5ffd43e41c794f39983060cf2de|Merge "Add Puppet Litmus"|Thu, 10 Sep 2020 02:34:40 +0000|Thu, 10 Sep 2020 02:34:40 +0000
+b642dae5bf3ab2882f1246df2919219e4b5c6257|Prepare Victoria M3|Tue, 8 Sep 2020 09:18:03 +0800|Tue, 8 Sep 2020 09:18:03 +0800
+4992454a399b81abc301eaa220ca33eeafebdc26|Add Puppet Litmus|Mon, 31 Aug 2020 21:26:32 +0200|Mon, 31 Aug 2020 21:26:32 +0200
+fd96e8132ee5f2938fbf5f9154e3ecb54a827be2|Merge "Use openstack_spec_helper from zuul checkout"|Mon, 31 Aug 2020 15:29:27 +0000|Mon, 31 Aug 2020 15:29:27 +0000
+0d6bbc44a051ebffb0c3d99573e34b123daa0853|Do not validate database_connection format|Mon, 31 Aug 2020 17:49:21 +0900|Mon, 31 Aug 2020 17:49:21 +0900
+e1951ebe8c1cb8f5bfb6a20dccb7cbcc8712201d|Use openstack_spec_helper from zuul checkout|Sun, 30 Aug 2020 22:57:45 +0200|Sun, 30 Aug 2020 22:57:45 +0200
+841f27fc03fb0d9f351352d7284fc51902233d0a|Add mysql_enable_ndb option|Wed, 26 Aug 2020 11:53:17 +0800|Wed, 26 Aug 2020 11:55:59 +0800
+3f682aa5dd34afaebf5599f5e1e504dd83b9f2ae|Expose vhost_custom_fragment|Tue, 11 Aug 2020 11:03:38 -0400|Wed, 12 Aug 2020 09:49:11 -0400
+d14329a54cff93efc39e36ffae89e24fce769133|Merge "Use common class to manage apache service in beaker job"|Mon, 10 Aug 2020 17:27:35 +0000|Mon, 10 Aug 2020 17:27:35 +0000
+68e5e3d70ba8103ec546eacea7b3b15b6621983a|Use common class to manage apache service in beaker job|Fri, 7 Aug 2020 09:40:45 +0900|Fri, 7 Aug 2020 09:40:45 +0900
+cc7c2753669b316ab22a9505ea93edb2abb40983|Support more parameters of Redfish driver|Wed, 5 Aug 2020 08:55:55 +0900|Wed, 5 Aug 2020 09:30:37 +0900
+ae62e3be12f10a71f7d4e49e062f7782fb4ccb65|Prepare Victoria M2|Thu, 30 Jul 2020 13:35:28 +0800|Thu, 30 Jul 2020 13:35:28 +0800
+b79368ec09565d8950d0e06105b124e8323b5b55|Allow enabling debug output of IPMI commands|Tue, 28 Jul 2020 11:36:57 +0900|Tue, 28 Jul 2020 11:43:37 +0900
+9322ac289e8ae5c20a551a2ef9825b287f7a695f|Change to relative includes|Mon, 13 Jul 2020 21:21:22 +0200|Mon, 13 Jul 2020 21:21:22 +0200
+dbe9e4c996758ad25e52cc7687744ae5e0c15f9e|Add support for the interface parameter in authtoken middleware|Wed, 8 Jul 2020 13:01:39 +0900|Wed, 8 Jul 2020 13:01:39 +0900
+b54403f0980f0bc86240218695824e1ed9a74b37|Prepare Victoria M1|Fri, 19 Jun 2020 10:38:55 +0800|Fri, 19 Jun 2020 10:38:55 +0800
+c661dfee35568e60f7b6efb96b8cab68df8ab380|Switch to newer openstackdocstheme and reno versions|Tue, 2 Jun 2020 14:40:20 +0200|Tue, 2 Jun 2020 14:40:20 +0200
+18cfe4b0f4c18b351e1e7df73f4f148294ef1aeb|Update Puppet requirement to >= 6.0.0|Sat, 30 May 2020 09:50:05 +0200|Sat, 30 May 2020 09:50:05 +0200
+21556d88bae98e020795d4f24db8bae058f475a5|Remove unnecessary puppet-rabbitmq from dependencies|Tue, 26 May 2020 22:07:28 +0900|Tue, 26 May 2020 22:07:28 +0900
+655d389ba42c97cc7f2e1c3172592e12bfc165e7|Merge "Remove password hash generation in each puppet modules"|Wed, 20 May 2020 04:46:38 +0000|Wed, 20 May 2020 04:46:38 +0000
+33057eb12dbfed90c0d6fc0188f8ab799982132b|Remove password hash generation in each puppet modules|Tue, 19 May 2020 20:06:56 +0900|Tue, 19 May 2020 20:57:01 +0900
+8ffd004dd2b4c4bb30ca8e475e30aee4d189e1dc|Bump version for the start of Victoria|Thu, 14 May 2020 12:24:27 -0600|Thu, 14 May 2020 12:26:25 -0600
+e820f97ac147392815ed77b79fb9c2d6305012b4|Merge "[ussuri][goal] Add CONTRIBUTING.rst"|Tue, 12 May 2020 12:44:24 +0000|Tue, 12 May 2020 12:44:24 +0000
+3e4b0a088df8f9016026f558889f800cb4922846|Bump reno to 2.5.0|Tue, 12 May 2020 10:50:06 +0800|Tue, 12 May 2020 10:50:06 +0800
+99a43d90f6372220f459c27e7257c0a038d64343|Merge "Add CentOS8 to nodesets"|Mon, 11 May 2020 22:41:07 +0000|Mon, 11 May 2020 22:41:07 +0000
+e36842d48ef0763453d854c369273b1fa0ce166a|[ussuri][goal] Add CONTRIBUTING.rst|Sun, 10 May 2020 22:39:37 +0200|Sun, 10 May 2020 22:39:37 +0200
+ede867e007a958114fcd1524a4680245e6a3edbb|Add CentOS8 to nodesets|Sun, 10 May 2020 21:46:05 +0900|Sun, 10 May 2020 21:46:05 +0900
+1160b1c0b51a8da58c8e75b1911b4d19f1457f0e|Merge "Rename inspect_timeout to inspect_wait_timeout"|Mon, 4 May 2020 19:05:39 +0000|Mon, 4 May 2020 19:05:39 +0000
+abc768d2f4170225270b0949cba0112dc141c81f|Merge "Replace deprecated configdrive_use_swift"|Mon, 4 May 2020 15:20:10 +0000|Mon, 4 May 2020 15:20:10 +0000
+18101bbc89d7e810c37daace5873bc984157b7db|Merge "Use anchor to require necessary packages"|Mon, 4 May 2020 01:34:47 +0000|Mon, 4 May 2020 01:34:47 +0000
+ad7c0c49de29d12075cc9c7d76e1f7aeb52db031|Merge "Runs on Debian 10."|Mon, 4 May 2020 01:33:22 +0000|Mon, 4 May 2020 01:33:22 +0000
+e6a9f2ecf6846aa9fba6612bf0be54c7ddb95b0e|Merge "Refactor management of ironic-inspector-dnsmasq package"|Mon, 4 May 2020 01:33:21 +0000|Mon, 4 May 2020 01:33:21 +0000
+2e1a3d0647154b26e9688257d9b961cb7d5d7057|Use anchor to require necessary packages|Mon, 4 May 2020 01:53:07 +0900|Mon, 4 May 2020 03:04:16 +0900
+931527f01f082bcc6f60f20cb38413800cbbf348|Runs on Debian 10.|Sat, 2 May 2020 22:40:45 +0200|Sat, 2 May 2020 22:40:45 +0200
+19851a4d625712b3bf3c8252161c2a858fece941|Rename inspect_timeout to inspect_wait_timeout|Fri, 1 May 2020 22:53:19 +0900|Sat, 2 May 2020 00:11:28 +0900
+73d39c09c11399a04f270f1c41fb12ac6225a417|Replace deprecated configdrive_use_swift|Fri, 1 May 2020 19:03:08 +0900|Sat, 2 May 2020 00:11:28 +0900
+f81e13cbfbd453f0e8c569ad718025da4ef5d59b|Bump openstackdocstheme to 1.30.0|Thu, 30 Apr 2020 15:28:37 +0800|Thu, 30 Apr 2020 15:28:37 +0800
+ae48810911030cc510db95df82ddb638f65cb604|Refactor management of ironic-inspector-dnsmasq package|Thu, 30 Apr 2020 01:17:23 +0900|Thu, 30 Apr 2020 06:07:08 +0000
+b9e75fc9b35fba59a3c147af0be9460db006b0b1|Fix rabbitmq version in metadata|Thu, 30 Apr 2020 14:04:44 +0800|Thu, 30 Apr 2020 14:04:44 +0800
+b5ee7a482d6cf6134a2c33cb852f28b0a060dd83|Change rpsec to rspec|Thu, 30 Apr 2020 13:24:45 +0800|Thu, 30 Apr 2020 13:24:45 +0800
+b1ea700ba8a842125576f6882312a9ba50511916|Explicitly install inspector-dnsmasq package|Wed, 29 Apr 2020 12:13:17 +0530|Wed, 29 Apr 2020 12:16:50 +0530
+7524a9d02ff953ba417ceb2f6745dbd0aaf79c3c|Update master for stable/ussuri|Tue, 28 Apr 2020 14:53:12 +0000|Tue, 28 Apr 2020 14:53:12 +0000
+6105147f3d6c16eeb406d63596cca47dcc118fb3|Merge "Prepare Ussuri RC1"|Sat, 25 Apr 2020 13:19:19 +0000|Sat, 25 Apr 2020 13:19:19 +0000
+337a1476febcb6ffdee44368b2eba614f55f9ea9|Merge "agent: support command_timeout and max_command_attempts"|Sat, 25 Apr 2020 13:19:18 +0000|Sat, 25 Apr 2020 13:19:18 +0000
+d934b6bccaa3bdbe2d4eb0c0e5e3e5d201c3df2b|agent: support command_timeout and max_command_attempts|Fri, 24 Apr 2020 13:46:07 +0200|Fri, 24 Apr 2020 13:47:29 +0200
+a01451dd1403ce5032ab4654a35bf7402fb0b154|Prepare Ussuri RC1|Fri, 24 Apr 2020 14:23:10 +0800|Fri, 24 Apr 2020 14:23:10 +0800
+271907c7d63157738f2d43dc2c7b47ddafb9de67|port_physnet_cidr_map support|Wed, 22 Apr 2020 18:16:01 +0200|Wed, 22 Apr 2020 19:29:02 +0200
+ca47ba7c7f96172723c2a7d00a469986b302694f|Allow alternative source files for /tftpboot/ipxe.efi|Tue, 21 Apr 2020 13:59:07 +1200|Tue, 21 Apr 2020 23:12:04 +0000
+06547f81a971df7620fb4b0402cd92960e4fd93d|Add region_name parameter to ironic::drivers::inspector|Sat, 18 Apr 2020 22:23:30 +0900|Sat, 18 Apr 2020 22:26:09 +0900
+fc1b216dc7537153993402fcbf5127a7d592fc60|Merge "Add new classes to define keystone credentials for inspector"|Fri, 17 Apr 2020 13:22:49 +0000|Fri, 17 Apr 2020 13:22:49 +0000
+762804b38e65ac5ccfa4e6254180f47641242e83|Add new classes to define keystone credentials for inspector|Mon, 13 Apr 2020 21:53:15 +0900|Thu, 16 Apr 2020 09:53:00 +0900
+596abc9587f18b222918a8e413c97fcc1f3affeb|Add ironic::neutron::dhcpv6_stateful_address_count|Wed, 15 Apr 2020 16:03:18 +0200|Wed, 15 Apr 2020 16:28:52 +0200
+6305426f17e4904f0657418581a038cdde9fa0b2|Merge "Deprecate ironic::conductor::api_url"|Tue, 14 Apr 2020 17:23:15 +0000|Tue, 14 Apr 2020 17:23:15 +0000
+47789ecbd3ad3ec05dbcc96dc5497bfbdbc4d935|Merge "Add region_name to ironic::service_catalog"|Tue, 14 Apr 2020 10:46:42 +0000|Tue, 14 Apr 2020 10:46:42 +0000
+305964417d6e3de26bf4582a0ecac77294c40a9e|Deprecate ironic::conductor::api_url|Mon, 13 Apr 2020 21:35:30 +0900|Tue, 14 Apr 2020 08:03:13 +0900
+01a4ef49a4d2cff318bd0d95aeafbea0da9623d4|Prepare Ussuri M3 again|Tue, 14 Apr 2020 00:00:56 +0900|Tue, 14 Apr 2020 00:00:56 +0900
+b205caf9afeb26110950704505abfbd019c1a45a|Resolve duplicated requirement names in metadata|Mon, 13 Apr 2020 22:50:35 +0900|Mon, 13 Apr 2020 22:50:40 +0900
+820d7317311e519a2e2272d4e62f8f8b9ab4949a|Add region_name to ironic::service_catalog|Mon, 13 Apr 2020 14:55:00 +0900|Mon, 13 Apr 2020 16:22:54 +0900
+c658f478b3b63117a8c4e5730588fc2d15a1b1c1|Merge "Add ironic::nova class"|Mon, 13 Apr 2020 06:16:11 +0000|Mon, 13 Apr 2020 06:16:11 +0000
+b3a86860f184fcbf6b43ede739ac99c1e82f0545|Merge "Deprecate ironic::conductor::max_time_interval"|Mon, 13 Apr 2020 05:18:58 +0000|Mon, 13 Apr 2020 05:18:58 +0000
+edfe3e546009dec4c6c5bdcfbb4d5902eaed82c9|Add region_name parameter for service authentication|Sun, 12 Apr 2020 21:51:54 +0900|Sun, 12 Apr 2020 15:30:10 +0000
+106ef76ac1d800729e7dbb7c830dc3f01a673bc3|Add ironic::nova class|Sun, 12 Apr 2020 22:21:38 +0900|Sun, 12 Apr 2020 22:21:38 +0900
+64351b1d9967d167f8542cb6f8a2ee5978e8ddaa|Deprecate ironic::conductor::max_time_interval|Sun, 12 Apr 2020 21:40:54 +0900|Sun, 12 Apr 2020 21:40:54 +0900
+e2b577a201d990da0ddc193cff7bde06cad9d905|Prepare Ussuri M3|Tue, 7 Apr 2020 09:21:16 +0800|Tue, 7 Apr 2020 09:21:16 +0800
+e3a8200dcfc2fb17b2f21e302f575cff515ab0c2|Merge "Expect python3 client/lib package in CentOS8"|Tue, 31 Mar 2020 22:18:02 +0000|Tue, 31 Mar 2020 22:18:02 +0000
+9960e70a19e79c834eda936a1eb8d87e2daf5e1d|Merge "Add CentOS 8 and Puppet 6 in metadata"|Tue, 31 Mar 2020 14:39:37 +0000|Tue, 31 Mar 2020 14:39:38 +0000
+7020695920fbf1bd2b39ac7c6f4a9e489c312b41|Expect python3 client/lib package in CentOS8|Tue, 31 Mar 2020 16:37:51 +0900|Tue, 31 Mar 2020 18:52:09 +0900
+13aea55e8b010519c7740080bd460d95329b9815|Update mysql module to <11.0.0|Mon, 30 Mar 2020 10:02:32 +0200|Mon, 30 Mar 2020 10:02:32 +0200
+faefa12cc13392da6664adb2e752c75c43d58e1a|Add CentOS 8 and Puppet 6 in metadata|Mon, 30 Mar 2020 09:24:55 +0200|Mon, 30 Mar 2020 07:47:45 +0000
+7e24be3e857ceeb4b7316b1c85b3e2f45dce0419|Deprecate min_pool_size option|Wed, 25 Mar 2020 14:53:41 +0800|Wed, 25 Mar 2020 14:53:41 +0800
+a76f3b21de91514e7c2d18f246811f39cefa4e13|Remove idle_timeout option|Mon, 23 Mar 2020 14:45:48 +0800|Mon, 23 Mar 2020 14:45:48 +0800
+a4c5cb2133d5bb9a7bcaa36b00429c1b931efc96|[ussuri][goal] Cleanup for python 2.7 drop|Sat, 15 Feb 2020 19:11:29 -0600|Sat, 15 Feb 2020 19:14:01 -0600
+5b7e1cc6d9fad0f01cb63ec3b6d5e223de3bf830|Prepare Ussuri M2|Thu, 13 Feb 2020 14:21:29 +0800|Thu, 13 Feb 2020 14:21:29 +0800
+a9da71c39df8fdd3ce88c677291fea04a20c4f90|Customize roles assigned to ironic user|Sat, 18 Jan 2020 21:07:42 +0900|Mon, 20 Jan 2020 18:56:14 +0900
+2ff5722e199aee4d6064af4bc37d32d5a8b6b3c7|Fix stdlib version in metadata|Wed, 11 Dec 2019 11:53:03 +0800|Wed, 11 Dec 2019 11:53:03 +0800
+55f0b1c899073381b09d62bfd225c71d794217c2|Prepare Ussuri M1|Tue, 10 Dec 2019 14:24:48 +0800|Tue, 10 Dec 2019 14:24:48 +0800
+5e6151be978144ea108b93084241ae669dfe3807|Convert all class usage to relative names|Sun, 8 Dec 2019 23:08:32 +0100|Sun, 8 Dec 2019 23:08:32 +0100
+99f407cb334ce95a84413ddf3a607e2befdcdba1|Merge "Configure parameters for managed in-band inspection"|Tue, 26 Nov 2019 15:44:01 +0000|Tue, 26 Nov 2019 15:44:01 +0000
+f8fa738c986a9238c7b589d9cff45c9cea46caf6|Added 'ironic/ironic_url','swift/container' to manifests/inspector.pp|Tue, 22 Oct 2019 13:34:47 +0200|Wed, 13 Nov 2019 11:24:41 +0100
+b7f0988c0c019d1ab09bb3d0c9343b96574069fb|Configure parameters for managed in-band inspection|Tue, 5 Nov 2019 13:17:13 +0100|Tue, 5 Nov 2019 13:21:25 +0100
+6deffc3188222be306c21b845f994e2f701a0cd0|Fix rabbitmq dependency|Tue, 29 Oct 2019 09:31:04 +0800|Tue, 29 Oct 2019 09:31:04 +0800
+3af894300266428ba3daa243d579680f583c7e96|Use client architecture and set bootfile-url for DHCPv6 in inspector|Thu, 17 Oct 2019 20:15:54 -0400|Thu, 17 Oct 2019 22:02:07 -0400
+7256dcdfbf9156c53f8648ea809331dbfda01791|Update master for stable/train|Fri, 4 Oct 2019 13:28:02 +0000|Fri, 4 Oct 2019 13:28:02 +0000
+e157ffd63be71c076a0ee55c6a2887934b6ca152|Merge "Wrap ipv6 addresses in inspector-ipxe template"|Tue, 1 Oct 2019 13:48:51 +0000|Tue, 1 Oct 2019 13:48:51 +0000
+265a2a7d47b1ff1bd275661e69c50aba6a1d62a3|Merge "Fix Inspector dnsmasq config for IPv6"|Mon, 30 Sep 2019 21:52:14 +0000|Mon, 30 Sep 2019 21:52:14 +0000
+0e8a483e354016e4113938a1c60bb0fbf3d6de03|[pxe]/ip_version param in ironic::drivers::pxe|Sat, 28 Sep 2019 01:34:17 +0200|Sat, 28 Sep 2019 01:35:31 +0200
+3044c0984daef7be9cb4451785a51c79b20fd4ab|Wrap ipv6 addresses in inspector-ipxe template|Fri, 27 Sep 2019 01:06:20 +0200|Fri, 27 Sep 2019 23:08:17 +0200
+15eedd0c4c04a322c16e66aa8e75c8c93c017036|Fix Inspector dnsmasq config for IPv6|Thu, 19 Sep 2019 09:02:16 +0200|Fri, 27 Sep 2019 20:20:13 +0200
+b0c9b9ffae84eaf397bd95a6bd88062b9d28bae2|Merge "Update the constraints url"|Fri, 27 Sep 2019 04:08:02 +0000|Fri, 27 Sep 2019 04:08:02 +0000
+00ab5faf16112301aa38d7ed83efde520b679589|Merge "Prepare Train RC1"|Fri, 27 Sep 2019 03:27:16 +0000|Fri, 27 Sep 2019 03:27:16 +0000
+03550bc8c8d05583e76c335c465684cec6d55093|Add support to set option:mtu in inspector dnsmasq|Thu, 26 Sep 2019 13:40:08 +0200|Thu, 26 Sep 2019 13:49:56 +0200
+9f573a3067c1a5571e5473ec997604d6f11e44a5|Update the constraints url|Thu, 26 Sep 2019 11:31:12 +0800|Thu, 26 Sep 2019 11:31:42 +0800
+fbfdb4eb1bfe863c8b0b70897347a9da5c6aee7a|Prepare Train RC1|Wed, 25 Sep 2019 13:45:43 +0800|Wed, 25 Sep 2019 13:45:43 +0800
+b70efb17dec39679a08808010e8f3eb0716fc572|Merge "Add support for boot_retry_timeout and boot_retry_check_interval"|Tue, 24 Sep 2019 06:53:07 +0000|Tue, 24 Sep 2019 06:53:07 +0000
+0d6830732fe76c9247dbb58703899e43dd523481|Support configuring [conductor]allow_provisioning_in_maintenance|Mon, 23 Sep 2019 16:10:05 +0200|Mon, 23 Sep 2019 16:10:05 +0200
+7b80d037e2460947a85667953abb5f316c1e1f0d|Add support for boot_retry_timeout and boot_retry_check_interval|Mon, 23 Sep 2019 15:38:24 +0200|Mon, 23 Sep 2019 15:39:03 +0200
+fea866601ad2f96608d226f8bfc8e200fad125aa|Prepare Train M4|Thu, 5 Sep 2019 09:04:49 +0800|Thu, 5 Sep 2019 09:04:49 +0800
+486e62796ec2d6d2dcc2221f3e37ae5bfdb41549|Introduce the new rabbit_heartbeat_in_pthread option|Wed, 21 Aug 2019 14:21:01 +0800|Wed, 21 Aug 2019 14:23:42 +0800
+3c1fcfd2dcac12ccc6312d6e61f7c13c6e9a878e|Remove deprecated pki related options|Thu, 15 Aug 2019 11:51:37 +0800|Thu, 15 Aug 2019 11:51:37 +0800
+eed54981442d4999a9c06760045c4d20e3f6ab45|Bump the openstackdocstheme extension to 1.20|Tue, 13 Aug 2019 11:29:07 +0800|Tue, 13 Aug 2019 11:29:07 +0800
+fb8e19deb88c4e244dded10d660f9aa81792c54b|Train deprecations and removals|Fri, 9 Aug 2019 09:57:58 +0200|Fri, 9 Aug 2019 11:51:40 +0200
+e9220c8ee330905e12a079edb45411952ff21125|Add support for configuring {deploy,rescue}_{kernel,ramdisk}|Fri, 9 Aug 2019 09:36:55 +0200|Fri, 9 Aug 2019 09:36:55 +0200
+eb9f7146f3d4c6eb4f6f41a3a474e57693f5fce8|Sync Sphinx requirement|Wed, 7 Aug 2019 09:10:09 +0800|Wed, 7 Aug 2019 09:10:09 +0800
+a8c4a2275d283ea7b9bfea61a06996c4ae5f6c02|Prepare Train M3|Wed, 24 Jul 2019 16:19:36 +0800|Wed, 24 Jul 2019 16:19:36 +0800
+cd37458f67f33f8424fdb3bbeab2a4c58f915ad5|Manage oslo_middleware/max_request_body_size|Thu, 4 Jul 2019 11:34:43 +0800|Thu, 4 Jul 2019 11:36:44 +0800
+e7516d3dc8d9cdd101538b222c19aa562e931fc0|Do not use deprecated wsgi_script_source|Wed, 3 Jul 2019 19:26:50 +0530|Wed, 3 Jul 2019 19:49:46 +0530
+ef3faad04a615288920f72514d782f8b7e462e00|Prepare Train M2|Wed, 5 Jun 2019 09:40:19 +0800|Mon, 10 Jun 2019 10:03:35 +0800
+50d0bf3efa8d28f870f6f7494bcf3b7e9ee2f08e|Merge "Add openstackclient installation to the client class"|Fri, 17 May 2019 21:22:13 +0000|Fri, 17 May 2019 21:22:13 +0000
+81c2117d50ee0b4fb1580708860bddc7b98eb428|Merge "Convert ipv6 netmask to prefix in dnsmasq.conf"|Fri, 17 May 2019 21:06:41 +0000|Fri, 17 May 2019 21:06:41 +0000
+650a1e5465362f6d2df7c4ca1fe76a8c5cf6acc9|Add openstackclient installation to the client class|Thu, 16 May 2019 09:52:24 +0800|Fri, 17 May 2019 16:31:18 +0800
+7b6b097d8ac8ebaf3058484ef0c3d5b464fbdc1a|Convert ipv6 netmask to prefix in dnsmasq.conf|Mon, 13 May 2019 19:20:05 +0200|Thu, 16 May 2019 14:46:30 +0200
+aadb6975a922330f102620e5bff39a2dc1093fad|Merge "Add rcp_transport parameter for conductor"|Thu, 16 May 2019 10:00:13 +0000|Thu, 16 May 2019 10:00:13 +0000
+1e588cab277a216724755e11ed90e405c7e952f6|Add rcp_transport parameter for conductor|Tue, 14 May 2019 14:16:07 +0200|Wed, 15 May 2019 17:10:20 +0200
+39115e63c25d82e2050a1c7bf787393d89a0393d|Remove ironic::inspector::debug|Fri, 10 May 2019 16:32:34 +0200|Fri, 10 May 2019 16:32:34 +0200
+b50b6a085a1464d92a7f7b6cac8db5584f3809ca|Deprecate idle_timeout option|Sun, 28 Apr 2019 15:00:10 +0800|Mon, 29 Apr 2019 08:51:56 +0800
+7b1fa88641b3a1e440fde7a6519bfe3776fa71f9|Merge "Move to opendev"|Wed, 24 Apr 2019 08:12:26 +0000|Wed, 24 Apr 2019 08:12:26 +0000
+01c74aef27bee9ed2fab1d728afc1ad3199f0aa7|Merge "Expose service_token_roles params"|Wed, 24 Apr 2019 08:12:25 +0000|Wed, 24 Apr 2019 08:12:25 +0000
+f5c5a20f8f296ba2b6767bdc90d961ed45191d33|Move to opendev|Wed, 24 Apr 2019 14:54:01 +0800|Wed, 24 Apr 2019 14:54:01 +0800
+29451f9f05b8e1ee98fe1a8c1355359b99b2b19a|Expose service_token_roles params|Wed, 31 Oct 2018 14:12:20 +0100|Mon, 22 Apr 2019 17:12:10 -0600
+d38cd7c3d0f19afe992027a34776b63b00366236|Move to opendev|Sun, 21 Apr 2019 14:44:48 +0800|Mon, 22 Apr 2019 08:54:01 +0800
+457c4a29c6f98c37ca7e23949bcd09fb933047fd|Fix Repository|Sun, 21 Apr 2019 12:59:09 +0800|Sun, 21 Apr 2019 12:59:09 +0800
+7fa2ca5ace896d9c88240e213f03136034277e6c|Replace git.openstack.org with opendev.org/openstack|Sun, 21 Apr 2019 11:50:29 +0800|Sun, 21 Apr 2019 11:50:29 +0800
+ccf8d7eb6e5126cfdd8ffbaddd2d9c4889e7d598|OpenDev Migration Patch|Fri, 19 Apr 2019 19:48:23 +0000|Fri, 19 Apr 2019 19:48:23 +0000
+0202bc4d909179be26f0c0610c1adbb62f444093|Add Beaker-Rspec to the table of contents|Wed, 17 Apr 2019 09:42:44 +0800|Wed, 17 Apr 2019 09:42:44 +0800
+cd31a20c236802f943aaac5210d1436c7e8e8ff1|Also copy ldlinux.c32|Wed, 3 Apr 2019 17:00:33 +1100|Wed, 3 Apr 2019 21:31:21 +0000
+057ceb093894fc750ea02bdf86d765cbd50898d9|Bump version for the start of Train|Mon, 25 Mar 2019 07:25:24 -0600|Mon, 25 Mar 2019 07:26:34 -0600
+f241b0b0bc2ef729e7dbd8786badeb04f5685194|Update master for stable/stein|Fri, 22 Mar 2019 16:49:03 +0000|Fri, 22 Mar 2019 16:49:03 +0000
+73848385c3aa195f45fcf8461de518ef81fac1d0|Merge "Replace vcsrepo with git_resource"|Thu, 21 Mar 2019 02:49:01 +0000|Thu, 21 Mar 2019 02:49:01 +0000
+639f42d8392de1b89e379a3d88adf8a68a5c96fc|Merge "Add default_python_interpreter parameter to ansible manifest"|Tue, 19 Mar 2019 16:55:14 +0000|Tue, 19 Mar 2019 16:55:14 +0000
+1b55f884a3f500b3cb925980bc0ca6e994f66b87|Add default_python_interpreter parameter to ansible manifest|Mon, 18 Mar 2019 16:02:22 +0100|Mon, 18 Mar 2019 16:02:22 +0100
+f61b4eb761058b2be8ba4857426d1123561a7a52|Prepare Stein RC1|Mon, 18 Mar 2019 10:38:14 +0800|Mon, 18 Mar 2019 10:38:14 +0800
+5c82a0241a0c06ae2e73e2e57f0a2d4a5af6755e|Merge "Add support for classless-static-routes in inspector dnsmasq"|Wed, 13 Mar 2019 14:26:00 +0000|Wed, 13 Mar 2019 14:26:00 +0000
+c192ee40ac7c9244ef98b70d9f16cf86aad69779|Add support for classless-static-routes in inspector dnsmasq|Tue, 12 Mar 2019 17:02:57 +0100|Tue, 12 Mar 2019 18:27:39 +0100
+8b97a6901f81a0bd2da77694852736241e7230f0|Add log_file parameter|Tue, 12 Mar 2019 10:37:38 +0800|Tue, 12 Mar 2019 13:26:47 +0800
+95364eff50c36db012a4a969987d79c392d79e16|Prepare Stein M3|Wed, 6 Mar 2019 14:55:44 +0800|Wed, 6 Mar 2019 14:55:44 +0800
+dcb77fbc217402dc20ea5fdaff05f7f6a4613009|Replace vcsrepo with git_resource|Fri, 22 Feb 2019 10:46:13 -0700|Tue, 26 Feb 2019 21:51:37 +0000
+3bedda7cf14ee6b47f1d797d0822b4e3a1694e97|Merge "Use validate_legacy"|Mon, 25 Feb 2019 19:15:27 +0000|Mon, 25 Feb 2019 19:15:27 +0000
+cd9863daa3175b93b61f7f7c9ec47ad0796d4ca8|Merge "Change keystone v2.0 url to v3"|Mon, 25 Feb 2019 16:44:08 +0000|Mon, 25 Feb 2019 16:44:08 +0000
+f053ec8213d7e6c830f58bf91ac0da38c3cb1215|Merge "Add release note about Ubuntu py3 upgrade"|Mon, 25 Feb 2019 14:29:43 +0000|Mon, 25 Feb 2019 14:29:43 +0000
+a4055215c6da92068f78c5f46cdfd65ea1e81a36|Change keystone v2.0 url to v3|Sun, 24 Feb 2019 13:08:16 +0100|Sun, 24 Feb 2019 13:08:16 +0100
+41dadb2fe74056111c743d374afd0f560873d99e|Add release note about Ubuntu py3 upgrade|Sun, 24 Feb 2019 00:03:41 +0100|Sun, 24 Feb 2019 00:03:41 +0100
+b1a827b3407a40d0cd2f8be0857b774e7d42a82a|Use validate_legacy|Sat, 23 Feb 2019 12:23:33 +0100|Sat, 23 Feb 2019 17:01:51 +0100
+dd3f372f3b3b460ccefba2cae08423bea38b5ada|Service_token_roles_required missing in the server config file|Fri, 15 Feb 2019 10:03:05 +0800|Fri, 15 Feb 2019 10:03:05 +0800
+8af6deb6f37efa31f77cabbfae432f3903198b5e|Change wiki to docs|Wed, 13 Feb 2019 10:31:06 +0800|Wed, 13 Feb 2019 10:31:06 +0800
+2e79ab4308c4afd3258c5fa40c05ff8a27345161|Merge "Use puppet 4 compatible mysql functions"|Mon, 11 Feb 2019 22:47:30 +0000|Mon, 11 Feb 2019 22:47:30 +0000
+13156df4c9f173cbfbeb5d3036de86002ac22067|Use puppet 4 compatible mysql functions|Fri, 8 Feb 2019 12:13:37 +0100|Fri, 8 Feb 2019 12:13:37 +0100
+16c5a3457328284ea3887bde6ab2fd45f42dc617|Remove Ubuntu Xenial from metadata.json|Fri, 8 Feb 2019 11:29:22 +0100|Fri, 8 Feb 2019 11:29:22 +0100
+b7d5ee6c784db7e4a5b203564a29c1bfa022cb6c|Expose the versioned_notifications_topics param|Fri, 1 Feb 2019 16:24:33 +0100|Fri, 1 Feb 2019 16:27:16 +0100
+c75951530105ee90bf8245aaaf2444ac33ff1ae2|Merge "Fix lint issue"|Sun, 27 Jan 2019 04:15:22 +0000|Sun, 27 Jan 2019 04:15:22 +0000
+0a7fadd9d3dd519eb436bf78864ee083520c1c60|Fix unit test failed|Fri, 25 Jan 2019 14:52:54 +0800|Fri, 25 Jan 2019 17:20:23 +0800
+d71be8e1e2b09c1663990b7b162c9e481807892b|Fix lint issue|Fri, 25 Jan 2019 12:23:44 +0800|Fri, 25 Jan 2019 12:23:44 +0800
+309e673095227473b3ceba964ef408d94e504041|Merge "Inherit pyvers from openstacklib::defaults"|Sat, 19 Jan 2019 01:44:25 +0000|Sat, 19 Jan 2019 01:44:25 +0000
+5c750f7bb87c3d6151517c5e9efbe0b3cad0a169|Merge "Remove redundantly tested code"|Fri, 18 Jan 2019 20:25:52 +0000|Fri, 18 Jan 2019 20:25:52 +0000
+586a61df0b5002350f504dac389bbe77efbdd278|Inherit pyvers from openstacklib::defaults|Thu, 17 Jan 2019 21:38:20 +0100|Fri, 18 Jan 2019 11:55:49 +0100
+4352d42f34f020e0f1e2ca922a04487536e4ae7b|Remove redundantly tested code|Fri, 18 Jan 2019 10:37:10 +0100|Fri, 18 Jan 2019 10:37:10 +0100
+08f179925627d92c6992a42989f31bdc8d987f94|Merge "Expose executor_thread_pool_size"|Thu, 17 Jan 2019 12:13:52 +0000|Thu, 17 Jan 2019 12:13:52 +0000
+b1d4930dcc4929e24dc08a36c33c24d2dae71170|Modify puppet version 4 to 5|Tue, 15 Jan 2019 10:11:18 +0800|Tue, 15 Jan 2019 10:11:18 +0800
+7467ab834fa541ae3a27979ab82c601188c95432|Expose executor_thread_pool_size|Mon, 14 Jan 2019 17:28:19 +0100|Mon, 14 Jan 2019 17:40:38 +0100
+706b86de5177afb150584796b0b97744d9caf877|Prepare Stein M2|Thu, 10 Jan 2019 09:24:04 +0800|Thu, 10 Jan 2019 09:24:04 +0800
+204935198cfdc3231cd6cf5ee3f75f84d8e57fb1|Add rabbitmq dependency|Tue, 25 Dec 2018 15:16:36 +0800|Tue, 25 Dec 2018 15:16:36 +0800
+0141ece4194544c0bc8a62909e4cf4e1a2e451ce|Fix editorial problem|Mon, 24 Dec 2018 14:02:28 +0800|Mon, 24 Dec 2018 14:02:28 +0800
+a3638e0d4e219996575769d8cafee08e4c8505e3|Merge "Fix vcsrepo version in metadata"|Fri, 21 Dec 2018 05:06:55 +0000|Fri, 21 Dec 2018 05:06:55 +0000
+a721b5a0876ea48e872255df153ccdeb0d96ce20|Fix vcsrepo version in metadata|Fri, 21 Dec 2018 09:26:55 +0800|Fri, 21 Dec 2018 09:30:22 +0800
+78d55242d648adfaca2f90f35cdfd529e813f09f|Fix lint|Tue, 18 Dec 2018 11:02:21 +0100|Tue, 18 Dec 2018 11:02:21 +0100
+9667e22cd938f9fa9730368afc60bc5ad91e9471|Merge "Remove deprecated logging"|Fri, 14 Dec 2018 05:30:59 +0000|Fri, 14 Dec 2018 05:30:59 +0000
+ac3107e7c9d3c65f5400bce2a4dd7bb1a8b6fa78|Cleanup documentation|Thu, 13 Dec 2018 17:10:01 +0800|Thu, 13 Dec 2018 17:10:01 +0800
+19036bf75c2785d9bc333b219b4c9317b79a94cd|Remove deprecated logging|Thu, 29 Nov 2018 10:33:28 +0100|Thu, 6 Dec 2018 13:58:55 +0100
+9616dceda7dc89fa614efeb45fec9ce5dc90c24b|Merge "Remove auth_uri"|Tue, 4 Dec 2018 13:19:45 +0000|Tue, 4 Dec 2018 13:19:45 +0000
+6174264f937bd993832812070efdc8d6dd0a6245|Change openstack-dev to openstack-discuss|Sun, 2 Dec 2018 18:19:58 +0100|Sun, 2 Dec 2018 18:19:58 +0100
+032eb6cd4ac94d019e438acd63ba8141a9041efb|Remove auth_uri|Thu, 29 Nov 2018 00:03:29 +0100|Fri, 30 Nov 2018 13:56:34 +0100
+d41875954dda966f26316fdecce28e7f079c9ad0|Deprecate pki related options|Thu, 22 Nov 2018 11:31:57 +0800|Fri, 23 Nov 2018 10:22:49 +0800
+07ed82e319bafd325fd2e47fd1a48836cec61124|Add transport_url to ironic-inspector|Mon, 19 Nov 2018 11:27:48 +0530|Mon, 19 Nov 2018 16:10:25 +0530
+c4e5aa2152225aafdb8b48f84b0d7021d103f5cb|Prepare Stein M1|Tue, 13 Nov 2018 14:53:21 +0800|Tue, 13 Nov 2018 14:54:19 +0800
+7a4919ee18567472af3df3de3f9acc801b9aa912|Merge "Adjust syslinux_path for Fedora and RedHat > 7"|Tue, 13 Nov 2018 04:41:46 +0000|Tue, 13 Nov 2018 04:41:46 +0000
+cc5bcf858af42a6bceb5eff5586781b2b8549664|Adjust syslinux_path for Fedora and RedHat > 7|Mon, 12 Nov 2018 10:12:55 +0530|Mon, 12 Nov 2018 13:40:25 +0530
+269e3454d22d7eee19dfc63934f7e51008120879|Merge "Convert spec testing to rspec-puppet-facts"|Mon, 12 Nov 2018 05:35:19 +0000|Mon, 12 Nov 2018 05:35:19 +0000
+0dd10d1b32f10670aaded1ab13e3b18858a13d84|Fix stdlib version in metadata|Fri, 9 Nov 2018 14:56:39 +0800|Fri, 9 Nov 2018 14:56:39 +0800
+77521e235fdff47ced439e77aa9b73e3f3da2e2b|Convert spec testing to rspec-puppet-facts|Thu, 8 Nov 2018 11:25:21 +0100|Thu, 8 Nov 2018 11:25:21 +0100
+0af07a54661f6a4046c154f3ca664f13ecd2c195|For ironic-pxe use syslinux-tftpboot package instead of syslinux|Mon, 5 Nov 2018 21:00:33 -0500|Mon, 5 Nov 2018 22:09:12 -0500
+efac53e38853803d5c72b16bb94fb1e8e63ade31|Merge "Install python3-ironicclient in Fedora or RedHat > 7"|Wed, 31 Oct 2018 00:37:08 +0000|Wed, 31 Oct 2018 00:37:08 +0000
+919c6ca49fa38d37f7b6676930b800da70c68494|Install python3-ironicclient in Fedora or RedHat > 7|Sat, 27 Oct 2018 00:00:00 +0530|Tue, 30 Oct 2018 16:32:13 +0530
+524b391f24d01a05638293ae4eb8d4c414f2e93b|Expose dnsmasq_pxe_filter/purge_dhcp_hostsdir opt|Thu, 25 Oct 2018 16:50:30 +0200|Thu, 25 Oct 2018 17:28:41 +0200
+4e11e3fe4e0e62d5cde64c883160eb5af1f7f368|Fix rabbitmq README and examples|Sun, 21 Oct 2018 16:53:51 +0200|Sun, 21 Oct 2018 16:58:41 +0200
+c0c8164c926099e021aa0f6c50f3be651dcc8d6d|Update min tox version to 2.0|Tue, 16 Oct 2018 11:40:17 +0800|Tue, 16 Oct 2018 11:40:17 +0800
+3cc57f123a02d32e8edc0dea65bd04e3159e66eb|Dissuade .gitignore references to personal tools|Mon, 8 Oct 2018 11:39:24 +0800|Mon, 8 Oct 2018 11:39:24 +0800
+2d6617ad785a530c8c24d5923261268de915f280|Merge "Add missing endpoint_override params"|Tue, 25 Sep 2018 13:43:37 +0000|Tue, 25 Sep 2018 13:43:37 +0000
+845b4e12bed28887330e0ea45c752db24aa3cf64|Merge "Configure image_download_source and force_raw_images"|Wed, 19 Sep 2018 23:50:24 +0000|Wed, 19 Sep 2018 23:50:24 +0000
+7a4fb04a42604230b42ca1fec2a8a749d43e92e2|Add missing endpoint_override params|Tue, 18 Sep 2018 14:10:23 +0200|Tue, 18 Sep 2018 14:10:23 +0200
+b9415d8f83940f042bdf15c09fff36d1a359270b|Provide more useful fail message|Thu, 13 Sep 2018 20:09:44 -0400|Thu, 13 Sep 2018 20:37:49 -0400
+38480756d7f84cd30f6df0549851398440aa0547|Expose the endpoint_override parameter|Wed, 12 Sep 2018 17:43:25 +0200|Wed, 12 Sep 2018 17:52:48 +0200
+2897bb29676e44dbebab8437d629d30f84488650|Configure image_download_source and force_raw_images|Mon, 10 Sep 2018 18:53:58 +0200|Tue, 11 Sep 2018 10:56:10 -0600
+29d2aa95d539f1c4cd3f21421491d13199644624|Merge "Add the missing 'Table of Contents' in README"|Sat, 8 Sep 2018 14:34:30 +0000|Sat, 8 Sep 2018 14:34:30 +0000
+44ad813ee69970191b9dd5d4be278bde88ec48ec|Remove ironic inspector dnsmasq bind-interfaces setting|Tue, 4 Sep 2018 16:29:16 -0400|Fri, 7 Sep 2018 10:10:20 +0200
+624c7135cb110785264455494a64076c5640d38e|Merge "Expose the notification_level paramenter"|Sun, 2 Sep 2018 21:49:34 +0000|Sun, 2 Sep 2018 21:49:35 +0000
+4519c6f887f9b8cb5351ce4eabbfb33bb96f9abf|Merge "Add tests for oslo_messaging_notifications"|Sun, 2 Sep 2018 20:50:54 +0000|Sun, 2 Sep 2018 20:50:54 +0000
+e9e6589eb01a473c2446aca79a7136e11e1be257|Merge "Bump version for the start of Stein"|Fri, 31 Aug 2018 22:30:09 +0000|Fri, 31 Aug 2018 22:30:09 +0000
+e4d1ed630db72332037933bc54aa4d23a6b3297d|switch documentation job to new PTI|Fri, 31 Aug 2018 08:24:38 -0400|Fri, 31 Aug 2018 08:24:38 -0400
+2d687579665247a79c3d8aa515b4d84c6ccf2810|import zuul job settings from project-config|Fri, 31 Aug 2018 08:18:33 -0400|Fri, 31 Aug 2018 08:18:33 -0400
+f37d8f6ab92f17cb96b88ce488dc574fce735944|Add tests for oslo_messaging_notifications|Fri, 31 Aug 2018 11:16:19 +0200|Fri, 31 Aug 2018 11:16:19 +0200
+2b21213595f792fa86d1e805f2ba7556acd18939|Bump version for the start of Stein|Thu, 30 Aug 2018 12:08:29 -0600|Thu, 30 Aug 2018 12:09:44 -0600
+27bf3a0591d50f70642954b3b19613131bbedeee|Expose the notification_level paramenter|Thu, 30 Aug 2018 13:58:05 +0200|Thu, 30 Aug 2018 16:35:44 +0200
+2177fc1bd6f3eb17d53cc5565c8ed1b0b06bc6c8|Add the missing 'Table of Contents' in README|Mon, 27 Aug 2018 23:05:43 +0800|Mon, 27 Aug 2018 23:06:26 +0800
+7f0e56d3055c4672bae242edae59ff3c98c79c8c|Merge "Correct default number of threads"|Fri, 24 Aug 2018 15:22:36 +0000|Fri, 24 Aug 2018 15:22:36 +0000
+3e773e3361502cf7cbb530285d359a7191d1e8b7|Update reno for stable/rocky|Mon, 20 Aug 2018 18:36:51 +0000|Mon, 20 Aug 2018 18:36:51 +0000
+037cd2cb5d332ba178d78390a3f5bcd75ce1e9e3|Correct default number of threads|Mon, 13 Aug 2018 12:37:16 -0700|Thu, 16 Aug 2018 15:08:04 -0700
+707af572599b10010ddc30c9f706c1214e37fcb6|Remove PE requirement from metadata.json|Thu, 16 Aug 2018 23:19:58 +0200|Thu, 16 Aug 2018 23:19:58 +0200
+516b4e99e356a3225ab674ef042544dfa3484dbb|Prepare Rocky RC1|Tue, 14 Aug 2018 08:56:16 -0600|Tue, 14 Aug 2018 08:57:26 -0600
+197349ec83dc6dc4b088b78f775d986a74b3e70e|Merge "Changes for Rocky cycle deprecations"|Tue, 14 Aug 2018 14:43:52 +0000|Tue, 14 Aug 2018 14:43:52 +0000
+f505d6fc8b84bf576ac03dcb8a5f6fd5a34ff1d4|Make providers use auth_url for authentication|Fri, 3 Aug 2018 12:01:58 +0200|Fri, 3 Aug 2018 12:01:58 +0200
+387fffa1979417c46063ed3aed8ef166acd6dcaa|Merge "Support ironic::conductor::default_boot_mode parameter"|Mon, 30 Jul 2018 21:20:46 +0000|Mon, 30 Jul 2018 21:20:46 +0000
+fb6abbd06c7ba5f2ab836f0c03953855d7bbdaae|Changes for Rocky cycle deprecations|Mon, 30 Jul 2018 14:12:24 +0200|Mon, 30 Jul 2018 20:30:36 +0200
+a14f9ec73fcc0d910f122389859013965551dbbb|Support ironic::conductor::default_boot_mode parameter|Mon, 30 Jul 2018 13:59:45 +0200|Mon, 30 Jul 2018 13:59:45 +0200
+bca7eb56502aadc258d41eaa728308370b4800a1|Support ironic::conductor::conductor_group parameter|Mon, 30 Jul 2018 13:52:47 +0200|Mon, 30 Jul 2018 13:52:47 +0200
+66abab1969903f35280b10161a3db4d83b0189c4|Remove the unnecessary _|Wed, 25 Jul 2018 11:26:26 +0800|Wed, 25 Jul 2018 11:26:51 +0800
+c9d9c659151e0eae539c6914382ec0ea44b1b3d3|Prepare Rocky M3|Tue, 24 Jul 2018 10:17:04 -0600|Tue, 24 Jul 2018 10:18:45 -0600
+e47e101f6a13ed2aa6455ffc0ac56b302e1fe87a|Merge "modulesync: sync and add nodepool-bionic for beaker"|Mon, 23 Jul 2018 17:50:52 +0000|Mon, 23 Jul 2018 17:50:52 +0000
+f6666f1923b029e7e9677160e2a0a3ca1a06ed73|Merge "Fix OS versions in metadata"|Mon, 23 Jul 2018 09:43:56 +0000|Mon, 23 Jul 2018 09:43:56 +0000
+0e2dfb94e5365d07122287698d4e7e74ad288794|Add the project source code repository in README|Fri, 20 Jul 2018 15:33:08 +0800|Fri, 20 Jul 2018 15:34:12 +0800
+ac3cf439b5fcdda91929d1df0b53ee8487dd7e11|Fix OS versions in metadata|Thu, 19 Jul 2018 09:43:09 +0700|Thu, 19 Jul 2018 09:43:52 +0700
+03a6a52a1818286525d525b115f5f01fbdfe3ab5|Merge "Notify apache for ironic api in wsgi"|Wed, 18 Jul 2018 19:43:04 +0000|Wed, 18 Jul 2018 19:43:04 +0000
+f228df442c2a2740f4614be881aeca896ad71b87|modulesync: sync and add nodepool-bionic for beaker|Wed, 18 Jul 2018 16:18:24 +0200|Wed, 18 Jul 2018 16:18:24 +0200
+3f905ff7a55a597da4f52edc763c071a813ba721|Notify apache for ironic api in wsgi|Tue, 17 Jul 2018 18:43:57 +0200|Tue, 17 Jul 2018 20:25:25 +0200
+d8195a7371f0d8d6268a209f133d78b83d0d3943|Fix inifile version in metadata|Mon, 16 Jul 2018 14:59:25 +0800|Mon, 16 Jul 2018 14:59:25 +0800
+e887095302d3df05516dfe32fe28711d210fba85|Expose oslo messaging notification parameters|Wed, 11 Jul 2018 18:00:47 +0200|Thu, 12 Jul 2018 15:04:26 +0200
+f7924968d3574de0b56df317b868d548bf1a4987|Merge "Add support for configuring ppc64le nodes"|Mon, 9 Jul 2018 14:35:20 +0000|Mon, 9 Jul 2018 14:35:21 +0000
+54bb5b7950980fce02b79639ebc2b69f973747a6|Fix apache version in metadata|Mon, 9 Jul 2018 15:01:05 +0700|Mon, 9 Jul 2018 15:02:10 +0700
+75477a9754ffeb4580624b6c5d8edb00ef9b033e|Add support for configuring ppc64le nodes|Tue, 16 Jan 2018 15:43:11 +1100|Sat, 7 Jul 2018 17:51:19 +1000
+b52c09b11e42811fd1af07751f0321a06fc42fa6|Expose power_failure_recovery_interval|Tue, 3 Jul 2018 16:43:39 +0200|Tue, 3 Jul 2018 16:58:19 +0200
+5310a06d4611ede31980e08cf1662ef1beaaad6f|Expose power sync parameters|Tue, 3 Jul 2018 16:48:36 +0200|Tue, 3 Jul 2018 16:51:47 +0200
+0d0fbabd6a2de5c8a2a1610574a793efda767e75|Debian release is 9 in metadata|Mon, 2 Jul 2018 13:50:54 +0800|Mon, 2 Jul 2018 13:50:54 +0800
+d04996c9d32b1d5c408120c424eb2c5e866043f0|Deprecate and unset the enabled_drivers option|Wed, 27 Jun 2018 17:20:14 +0200|Wed, 27 Jun 2018 17:41:37 +0200
+b77a2d5ab1bf946637b37847eb2cc17ce6ec97b8|Merge "add release note link in readme"|Sat, 23 Jun 2018 10:35:56 +0000|Sat, 23 Jun 2018 10:35:56 +0000
+1a2d5b5e60b313dd011edaa2a47df60bf23d3f39|add release note link in readme|Thu, 21 Jun 2018 14:42:10 +0000|Thu, 21 Jun 2018 14:42:40 +0000
+d0a2a316bf4f0db3bb17fa1a5b40cc88ce259c92|Add tripleo jobs|Tue, 19 Jun 2018 13:38:52 -0600|Tue, 19 Jun 2018 13:59:44 -0600
+1c54716aa0350b01d92ab9335fb741549b1f91c5|Merge "Adds the configuration of bios interfaces"|Fri, 15 Jun 2018 16:06:41 +0000|Fri, 15 Jun 2018 16:06:41 +0000
+56616c819ca964513559bd3e2300dcdc6d943643|Fix annotations|Fri, 15 Jun 2018 15:07:37 +0800|Fri, 15 Jun 2018 15:07:37 +0800
+c9907ac8741a3e1d619d5425e8de8109e2b64de8|Adds the configuration of bios interfaces|Thu, 14 Jun 2018 15:56:34 +0200|Fri, 15 Jun 2018 08:40:21 +0200
+2ad919015906102043118a81e0df4ccf9d857f7a|Remove deprecated parameters|Tue, 12 Jun 2018 21:38:58 +0200|Wed, 13 Jun 2018 13:45:27 +0200
+f2005af615fa19c3d2ad002fec41eb2959edb0f8|fix tox python3 overrides|Fri, 8 Jun 2018 14:23:32 +0800|Fri, 8 Jun 2018 14:23:32 +0800
+156961baffb481aa8a716ed2216ed85a673055e7|Prepare a new Rocky release|Tue, 5 Jun 2018 09:43:25 -0700|Tue, 5 Jun 2018 09:45:26 -0700
+bcdde5439d6771609745a23c6fd80bc3670f25c2|Merge "Replace port 35357 with 5000"|Sat, 26 May 2018 11:37:04 +0000|Sat, 26 May 2018 11:37:04 +0000
+31dd4df0c21ee272b7182a33d072bf4f28a40d54|Remove deprecated rabbit params|Thu, 24 May 2018 10:14:22 +0800|Thu, 24 May 2018 14:13:58 +0800
+39c790de6da67beda8884a3392ee5f44eed1fcca|Add support for db_max_retries param|Wed, 23 May 2018 15:45:35 +0800|Wed, 23 May 2018 15:45:35 +0800
+aca09199979cae3fdf1ec921b6dca4d0e5156c07|Add pool_timeout option|Wed, 23 May 2018 15:29:46 +0800|Wed, 23 May 2018 15:30:38 +0800
+4ad193f9f2d6072d3bc770dba087c6578f2f2125|Replace port 35357 with 5000|Sun, 13 May 2018 00:49:29 +0800|Sun, 13 May 2018 00:49:44 +0800
+9be8befb75ed387ac1d025cc1dd34699770f4e4a|neat: missing : in $::os_service_default|Fri, 11 May 2018 14:02:39 +0800|Fri, 11 May 2018 14:02:39 +0800
+6699a8225991ef2f052126a79b5c7e6e022e927c|Debian is using Python 3|Wed, 9 May 2018 09:52:22 +0200|Wed, 9 May 2018 11:54:02 +0200
+06c01b006dfadc91cb502d51ced3b6e9d3422642|Fix app.wsgi path in Debian|Fri, 4 May 2018 10:15:19 +0200|Fri, 4 May 2018 10:15:19 +0200
+f1aac46ba7aa26b4f2baf5da210dadda94aa39fe|fix error url|Sun, 29 Apr 2018 09:08:04 +0800|Wed, 2 May 2018 01:37:57 +0000
+31ec442fc22de59235d06125a997171fb9268b3f|Merge "Missing deps for unit test of config.pp"|Mon, 23 Apr 2018 14:40:22 +0000|Mon, 23 Apr 2018 14:40:22 +0000
+03701d553273232c83878a3ed07d04883d606fc4|Prepare Rocky M1|Thu, 19 Apr 2018 08:54:37 -0600|Thu, 19 Apr 2018 08:56:34 -0600
+8c413d28350d5fcfea6a5477ce9b51e9b786325e|Missing deps for unit test of config.pp|Thu, 19 Apr 2018 13:47:39 +0800|Thu, 19 Apr 2018 13:47:39 +0800
+1a7eacdab5411fc31b1e894120b5c110816af9b2|Merge "Update .gitignore"|Wed, 18 Apr 2018 00:52:22 +0000|Wed, 18 Apr 2018 00:52:22 +0000
+054d0debef8a1c5e2c4d6eb219eceed5a2a8af7c|Merge "Debian is using python3-ironicclient"|Fri, 13 Apr 2018 03:59:36 +0000|Fri, 13 Apr 2018 03:59:36 +0000
+798a165ad6f2b9b3faa05367b820e9d9b57a6c00|Debian is using python3-ironicclient|Thu, 12 Apr 2018 11:09:47 +0800|Thu, 12 Apr 2018 13:33:18 +0800
+8738d2f6f27e604e026b9144ede964bfd7b41261|Update .gitignore|Wed, 11 Apr 2018 08:43:43 +0800|Wed, 11 Apr 2018 08:55:20 +0800
+4b6e556d89660901392a5626e6da359d9561063b|Deprecate auth_uri option|Thu, 5 Apr 2018 10:54:06 +0800|Thu, 5 Apr 2018 10:54:06 +0800
+0f3ff5e94818f0689ff5b5fe11f0fa01916c127b|Deprecate auth_uri option|Tue, 3 Apr 2018 16:55:02 +0800|Tue, 3 Apr 2018 16:55:02 +0800
+975499ba031cc8334edfcbffc50d0a696ff649ef|Remove deprecated keystone authtoken revocation_cache_time option|Tue, 27 Mar 2018 10:33:24 +0800|Tue, 27 Mar 2018 10:33:24 +0800
+714a30aaf3a94115669fa02bcc33280c229d77ac|Merge "fix a typp in documentation"|Fri, 23 Mar 2018 10:54:37 +0000|Fri, 23 Mar 2018 10:54:37 +0000
+def2e5cacab991109112dacc3be4c4008abd8453|fix a typp in documentation|Fri, 23 Mar 2018 06:47:29 +0800|Fri, 23 Mar 2018 08:14:26 +0800
+78740fe6fa8eac3793c30fc0067dcc09608eb80f|Add support for configuring rescue mode|Thu, 22 Mar 2018 12:36:55 +0100|Thu, 22 Mar 2018 12:36:55 +0100
+697124993155119f68ec77a1d87b7d91f3c825df|oslo middleware: check puppet resource instead of actual config in spec|Wed, 21 Mar 2018 11:22:17 +0800|Wed, 21 Mar 2018 11:22:17 +0800
+c84ebccf7677de807c4f728efc139c1e9b2d79f0|Merge "Switch acceptance test to use integration classes"|Fri, 16 Mar 2018 17:06:26 +0000|Fri, 16 Mar 2018 17:06:26 +0000
+fdf2bbde11969e65d9a17e61a4e8c533e51dec4e|Merge "inspector: allow configuring always_store_ramdisk_logs"|Fri, 16 Mar 2018 11:36:25 +0000|Fri, 16 Mar 2018 11:36:25 +0000
+7b8823a20dd8561e8d76e70ea52d0401e81a72ad|Merge "inspector: configure "dnsmasq" DHCP filter"|Fri, 16 Mar 2018 01:48:44 +0000|Fri, 16 Mar 2018 01:48:44 +0000
+76e4a89922164803ba8d1d51dd076ec54d2db7e5|inspector: configure "dnsmasq" DHCP filter|Wed, 29 Nov 2017 17:08:59 +0100|Thu, 15 Mar 2018 14:52:09 +0100
+731b563675778d85f871625dd9bb5c43dd477d44|inspector: allow configuring always_store_ramdisk_logs|Thu, 15 Mar 2018 14:49:13 +0100|Thu, 15 Mar 2018 14:50:09 +0100
+410945fe5a9b1c2427ef679e91409a3fd0564dec|Switch acceptance test to use integration classes|Thu, 15 Mar 2018 09:31:30 +0800|Thu, 15 Mar 2018 09:44:22 +0800
+1f694ff1a42282b62c2330ea7f1e6b421ec43f51|Add 'openstack-db' tag to db-sync Exec resource|Mon, 12 Mar 2018 16:33:08 +0800|Wed, 14 Mar 2018 08:30:22 +0800
+fbd8c08e5e2f6bb8128829d632579c4005858350|Follow the new PTI for document build|Wed, 28 Feb 2018 14:42:11 +0800|Wed, 28 Feb 2018 14:42:11 +0800
+40219e543f77d2cca31f2a1311a93a70e03360bf|Update reno for stable/queens|Tue, 20 Feb 2018 22:14:08 +0000|Tue, 20 Feb 2018 22:14:08 +0000
+0a36e13e8d65cd533a228cb042ce15c1e344f26e|Prepare for official Queens release|Mon, 19 Feb 2018 12:37:52 -0500|Mon, 19 Feb 2018 12:40:26 -0500
+4f1de31adc25f7823e27e7512b1c35efbd730248|Load puppet-openstack_spec_helper locally during tests|Mon, 12 Feb 2018 10:53:36 +0800|Mon, 12 Feb 2018 10:53:36 +0800
+61a4bb876064f19786a1af59d9f358c16912a115|Add kombu_failover_strategy option|Fri, 9 Feb 2018 14:38:17 +0800|Fri, 9 Feb 2018 14:38:17 +0800
+239ed50a5ebb7de461fada1dbfd5e4a74feec68a|Zuul: Remove project name|Wed, 24 Jan 2018 16:42:50 -0800|Fri, 2 Feb 2018 18:21:36 +0000
+93b8afe76e0d3ae1a34b881b0b429ab6e338fde0|Update keystone Auth_url|Mon, 29 Jan 2018 13:51:21 +1100|Wed, 31 Jan 2018 13:11:46 +1100
+dd2b63c6f6336a870dd39756ef3d9e0224f96b45|online_data_migrations: allow passing command line params to migrations|Fri, 19 Jan 2018 15:08:50 +0100|Fri, 19 Jan 2018 15:26:22 +0100
+f72793c5ad5e4bfc3476ad753535970d420f1ceb|Merge "Remove pinned versions from test-requirements.txt"|Wed, 17 Jan 2018 14:04:15 +0000|Wed, 17 Jan 2018 14:04:15 +0000
+2369e912da2787120e3ee6d5fb20a46c86c98790|Prepare for Queens Milestone 3|Tue, 16 Jan 2018 15:51:10 -0800|Tue, 16 Jan 2018 15:53:17 -0800
+9c651b49ba736e484cee296a84c446ac460c7000|Remove pinned versions from test-requirements.txt|Tue, 16 Jan 2018 12:29:45 +0800|Tue, 16 Jan 2018 12:29:45 +0800
+339735f25ddb035957f0c2f8a16e3f6aa82f6665|Add use_journal option for logging configuration|Mon, 15 Jan 2018 15:51:46 +0800|Mon, 15 Jan 2018 15:51:46 +0800
+c547a02bddac2c8acba703ffa64de22b8c743d69|Add group to policy management|Wed, 10 Jan 2018 14:09:22 -0800|Thu, 11 Jan 2018 16:08:36 +0000
+2058c38a45f0ead07cac9563ddb75100467ba795|Merge "Run puppet-openstack-beaker-jobs"|Sun, 24 Dec 2017 03:18:47 +0000|Sun, 24 Dec 2017 03:18:47 +0000
+42cfde04e687de10693f6b01791634f34b0e611a|Run puppet-openstack-beaker-jobs|Thu, 21 Dec 2017 18:56:56 -0800|Thu, 21 Dec 2017 18:56:56 -0800
+ca56d8237a70506965e287a3f411705ada2e6da2|ansible: allow configuring default_* configuration parameters|Thu, 21 Dec 2017 15:29:18 +0100|Thu, 21 Dec 2017 15:30:58 +0100
+3d1bea18009e9ff95dc95ceb16da54b4062b020e|Merge "Add an option to specify the tftp bind host IP"|Fri, 15 Dec 2017 17:43:40 +0000|Fri, 15 Dec 2017 17:43:40 +0000
+c0122b74946aaaa03d6d9fc65e02c191ad4c681d|Add an option to specify the tftp bind host IP|Fri, 15 Dec 2017 11:57:49 +0000|Fri, 15 Dec 2017 13:49:00 +0000
+02cb222edb3dc837e3183a853a64ab5975a42301|Merge "Make ironic::drivers::ansible actually install required packages"|Fri, 8 Dec 2017 19:07:59 +0000|Fri, 8 Dec 2017 19:07:59 +0000
+2dae296b457912cbc26eb9b3cb0eef53c78fcd92|Make ironic::drivers::ansible actually install required packages|Thu, 7 Dec 2017 15:32:26 +0100|Fri, 8 Dec 2017 17:13:15 +0100
+18d90c9a110ce64a634309d45af4f4dd771d5afb|Expose swift_container and swift_endpoint_url in ironic::glance|Thu, 7 Dec 2017 16:52:44 +0100|Thu, 7 Dec 2017 16:52:44 +0100
+e4fcf84bdfd4f1b675aa85e30e88a37eb11bf4aa|Merge "Use ipmi/command_retry_timeout instead of retry_timeout"|Sat, 2 Dec 2017 08:51:53 +0000|Sat, 2 Dec 2017 08:51:53 +0000
+6183b17fc387ac1eb9e1bf41cf9d2dc83f5bcb7b|Use ipmi/command_retry_timeout instead of retry_timeout|Fri, 24 Nov 2017 12:25:34 +0100|Fri, 1 Dec 2017 16:22:43 +0100
+6446d6363d1dde9ad132a6972e647d0fd6ccf88c|Merge "Add ironic::drivers::staging to install ironic-staging-drivers"|Wed, 29 Nov 2017 06:13:26 +0000|Wed, 29 Nov 2017 06:13:26 +0000
+2001fc4826ee9c972a0854ee0d19dd4a29c6b6c9|Merge "Add ironic::drivers::ansible to configure the ansible deploy interface"|Wed, 29 Nov 2017 03:52:54 +0000|Wed, 29 Nov 2017 03:52:54 +0000
+13ecf509c3183b895b12a49d96cf1164f250cd68|Prepare for Queens Milestone 2|Tue, 28 Nov 2017 16:14:20 -0700|Tue, 28 Nov 2017 16:18:22 -0700
+4f5f10e38f3a2e3deacc2cb5cce0ed19fa4462cb|Merge "Support setting the default_resource_class option"|Tue, 28 Nov 2017 05:51:09 +0000|Tue, 28 Nov 2017 05:51:09 +0000
+7cb857b21dba987b204f3a84fd0f71fb11237c81|Expose use_json logging option|Mon, 27 Nov 2017 14:49:18 +0200|Mon, 27 Nov 2017 14:49:18 +0200
+907e5b96137f7a4dd104effec904e5450faefd49|Support setting the default_resource_class option|Mon, 27 Nov 2017 12:11:32 +0100|Mon, 27 Nov 2017 12:11:32 +0100
+2b88d9219eb75c1bec1dd3301c147c562bde0834|Add ironic::drivers::staging to install ironic-staging-drivers|Fri, 24 Nov 2017 13:23:14 +0100|Fri, 24 Nov 2017 13:23:14 +0100
+7a8ed2c60ec456138335a915f081327b7b4fac87|Add ironic::drivers::ansible to configure the ansible deploy interface|Thu, 23 Nov 2017 15:55:08 +0100|Thu, 23 Nov 2017 17:08:02 +0100
+b6ecd21a67a877802cfd1cb758bc907e837b2d56|Allow setting inspector timeout value|Mon, 20 Nov 2017 21:55:48 +0100|Wed, 22 Nov 2017 09:48:01 +0100
+179690bb93d6924517d7b22706e2b004ca4fab75|ironic upgrade: change ownership for ironic-dbsync.log|Mon, 6 Nov 2017 17:52:02 +0100|Tue, 7 Nov 2017 13:55:43 +0100
+74465e117d14a00aa891d4059d30f5a5657964d6|Merge "Switch to Zuul v3 testing"|Wed, 1 Nov 2017 07:12:56 +0000|Wed, 1 Nov 2017 07:12:56 +0000
+f4cf0aa7b6dec9694bbaba2c79522e0c521b391d|Add Puppet package to bindep, for module build|Fri, 27 Oct 2017 13:13:16 -0700|Fri, 27 Oct 2017 13:13:16 -0700
+0c5a9bda134c3700d67f241efa99e7204edc0105|Switch to Zuul v3 testing|Wed, 25 Oct 2017 17:35:19 +0800|Wed, 25 Oct 2017 17:35:29 +0800
+156fefb5293a2cd8104fae0109da0853372f9943|Merge "Conditionalize syslinux requirement"|Wed, 25 Oct 2017 01:34:01 +0000|Wed, 25 Oct 2017 01:34:01 +0000
+3c41398138a789754ab2652595edf79cdc75c172|Conditionalize syslinux requirement|Fri, 13 Oct 2017 10:14:35 -0400|Mon, 23 Oct 2017 12:01:29 -0400
+516107376678dfba18a43f34be35800b3fee7be6|add parameter to overwrite/add wsgi process options|Mon, 23 Oct 2017 13:56:27 +0800|Mon, 23 Oct 2017 14:02:19 +0800
+45da0fa6a711252ca8d95f335bcd1bd90c738219|Merge "Adding support for UEFI client arch type 11 (EFI aarch64)"|Fri, 20 Oct 2017 01:51:24 +0000|Fri, 20 Oct 2017 01:51:24 +0000
+4f25360807ce1f0451a9950d4de2ab1c3bd376cb|Merge "Turn on DHCP logging in ironic-inspector when debug is true"|Fri, 20 Oct 2017 01:23:05 +0000|Fri, 20 Oct 2017 01:23:05 +0000
+910ea1cd030c56e0d798192cd83e7452909fdc8a|Prepare for Queens Milestone 1|Tue, 17 Oct 2017 14:26:32 -0600|Wed, 18 Oct 2017 01:53:11 +0000
+21290f24b8e28a1df96aa1253e969321332bdd8e|Adding support for UEFI client arch type 11 (EFI aarch64)|Fri, 13 Oct 2017 10:26:25 -0400|Tue, 17 Oct 2017 11:31:13 -0400
+c9951abf87ccdcc9e68dded729b544008b4522b8|Turn on DHCP logging in ironic-inspector when debug is true|Tue, 17 Oct 2017 12:35:30 +0200|Tue, 17 Oct 2017 12:35:30 +0200
+b02d9c3056ea9bc5381d33e3fdeb19deafde85a8|apache wsgi: Exchange defaults for workers and threads|Fri, 13 Oct 2017 08:38:38 +0300|Fri, 13 Oct 2017 10:02:34 +0300
+ff5bc391826322b4ae649dc9e00320000c93b538|Merge "Configure *_domain_name to Default by default"|Sun, 8 Oct 2017 16:17:09 +0000|Sun, 8 Oct 2017 16:17:09 +0000
+1cb7ba0a5fe76d6a4cc5bcca91b712be4b1a13ce|Merge "Accept empty strings for log_dir"|Fri, 6 Oct 2017 21:24:05 +0000|Fri, 6 Oct 2017 21:24:05 +0000
+9381f9722bccd99d5ac8c42b7119898a9e0f5a48|Configure *_domain_name to Default by default|Fri, 6 Oct 2017 10:22:54 -0400|Fri, 6 Oct 2017 10:23:03 -0400
+dbc4f7ad2a58fd518ec7276ea27fb7b895a6aeae|Accept empty strings for log_dir|Fri, 6 Oct 2017 13:00:16 +0300|Fri, 6 Oct 2017 16:56:46 +0300
+5a71880b54533a049adb9f203a241a22b123dd62|Allow setting log files for apache vhost|Fri, 6 Oct 2017 14:23:59 +0300|Fri, 6 Oct 2017 16:47:09 +0300
+c00a1b88ba8e55e7a78e830410e5999106a69c2b|Increase Ironic inspector dnsmasq lease time|Wed, 4 Oct 2017 09:42:23 -0400|Wed, 4 Oct 2017 14:14:30 -0400
+3aaf2d06f0e784b7fd5b99c15a1bd6a625b98c29|Update to the latest address in README|Thu, 21 Sep 2017 11:54:02 +0800|Thu, 21 Sep 2017 11:54:02 +0800
+4991d4dd2cbcf44352b1370a4122277aecd0116a|Merge "Remove support for already removed SSH drivers"|Thu, 21 Sep 2017 00:02:36 +0000|Thu, 21 Sep 2017 00:02:36 +0000
+34e1915e070efebda0369dc8fbc22bab088c7261|Merge "Removed deprecated support for setting IPMI credentials"|Thu, 21 Sep 2017 00:02:33 +0000|Thu, 21 Sep 2017 00:02:34 +0000
+53eaebc928211267765e81f616f2a92dda44c4a8|Update openstackdocstheme to latest version|Tue, 19 Sep 2017 20:42:51 +0800|Wed, 20 Sep 2017 10:54:46 +0800
+98cda9d19325b0703a30a11dd7059d6ee036d0d5|Remove support for already removed SSH drivers|Tue, 19 Sep 2017 14:17:20 +0200|Tue, 19 Sep 2017 14:17:20 +0200
+d86a38c7efa968c23e9342791ef77988f899ac66|Removed deprecated support for setting IPMI credentials|Tue, 19 Sep 2017 14:09:00 +0200|Tue, 19 Sep 2017 14:09:26 +0200
+100f4341d9fe8af8c825a0e749b899ac7f576ceb|Deprecate revocation_cache_time option|Thu, 14 Sep 2017 11:34:54 +0800|Thu, 14 Sep 2017 11:34:54 +0800
+9d7d8e7042b23832e6dc973cfd06e758ea2129e2|Fixes for Ironic-inspector introspection when client using UEFI|Thu, 31 Aug 2017 14:07:55 -0400|Thu, 31 Aug 2017 16:50:26 -0400
+8bd013443309ec6a6027cb060ea701e222a18ff0|Use Python to compute release notes version|Wed, 30 Aug 2017 13:43:51 -0700|Wed, 30 Aug 2017 13:43:51 -0700
+d7f099d2787828a201abdf57fe8ba61f1967147b|Merge "Update reno>=2.5.0"|Fri, 25 Aug 2017 19:29:01 +0000|Fri, 25 Aug 2017 19:29:01 +0000
+2d4d9adc27777c307d334944aef6a9f2f7c8e90e|Merge "Update versions for Queens cycle"|Fri, 25 Aug 2017 15:46:03 +0000|Fri, 25 Aug 2017 15:46:03 +0000
+10f4908f673f7e7e1ee9acb5e0797670948ead31|Update versions for Queens cycle|Thu, 24 Aug 2017 13:06:05 -0600|Thu, 24 Aug 2017 13:07:13 -0600
+c24dcfb5a582b69d6a2176e834c52ea4c53c439e|Update reno for stable/pike|Thu, 24 Aug 2017 14:00:44 +0000|Thu, 24 Aug 2017 14:00:44 +0000
+aadbcf5ae7c6c4a96efbf8323a0b175932653e55|Prepare for official Pike release|Mon, 21 Aug 2017 15:58:44 -0600|Mon, 21 Aug 2017 15:59:50 -0600
+f038c928dd22c1c01786157321be4a4492d3a419|Update reno>=2.5.0|Mon, 21 Aug 2017 11:20:05 +0800|Mon, 21 Aug 2017 11:20:05 +0800
+71ee4e42be06d361857433d038715261b52ae04d|Explicitly set inspector dhcp timeout to 2 minutes|Thu, 17 Aug 2017 10:38:21 +0100|Thu, 17 Aug 2017 10:41:59 +0100
+bf5a8ee3fc68ff5a608e1bfbf2c1fef09b16490b|Add a class to run the db online_data_migrations|Wed, 2 Aug 2017 15:29:15 +0200|Wed, 9 Aug 2017 02:40:43 +0000
+68b9e7286412723b9fada1de9c7b006814304322|Stop using SSH drivers in tests, they were removed from ironic|Tue, 8 Aug 2017 12:18:01 +0200|Tue, 8 Aug 2017 12:18:01 +0200
+da730a5b1f35aa00e9c045aba8019fd1038eeaa5|Merge "Update openstackdocstheme>=1.16.0"|Sat, 5 Aug 2017 04:53:56 +0000|Sat, 5 Aug 2017 04:53:56 +0000
+f339ca4df4fe7b0765dd9395e3026cc71a98417f|Bump modules to next minor with -dev|Fri, 4 Aug 2017 13:36:15 -0600|Fri, 4 Aug 2017 13:37:50 -0600
+ac397c545a321eee33ce8faa84de64582b1a79ca|Fix unit test for ironic::client class|Thu, 3 Aug 2017 10:02:34 +0800|Thu, 3 Aug 2017 10:02:34 +0800
+2265e3c02d9078fadb0dabedc981515efc51a98e|Update openstackdocstheme>=1.16.0|Mon, 31 Jul 2017 11:02:05 +0800|Mon, 31 Jul 2017 11:02:05 +0800
+7f382e8e97f4b20b41de906075c79b65c1794623|Deprecate oslo.messaging rpc_backend option parameter|Thu, 27 Jul 2017 09:00:05 -0400|Thu, 27 Jul 2017 09:00:05 -0400
+4a27e03c206314ef7d6d05b870c7ceebc0c05c06|Drop -dev version for Pike M3|Tue, 25 Jul 2017 08:12:57 -0600|Tue, 25 Jul 2017 08:14:14 -0600
+514d7d465c96f6045720d7bcf1267302a73a158a|Merge "Stop including ironic::pxe from ironic::inspector"|Thu, 20 Jul 2017 08:18:38 +0000|Thu, 20 Jul 2017 08:18:38 +0000
+84a4c0117f5e31f4184fa2d11de0e7e47aaea6fa|Support configuring enabled and default storage interface(s)|Wed, 19 Jul 2017 17:22:55 +0200|Wed, 19 Jul 2017 17:22:55 +0200
+e6dc73d822e0ee30b851ce624ef9ff81abe23f13|Stop including ironic::pxe from ironic::inspector|Mon, 10 Apr 2017 12:04:54 +0200|Tue, 18 Jul 2017 11:23:41 -0600
+e15b0fdb8db65df79ccada4443ef0f2283d7e364|Merge "Update URLs in documents according to document migration"|Tue, 18 Jul 2017 10:49:42 +0000|Tue, 18 Jul 2017 10:49:42 +0000
+650e6a8e6bfb44750897da09a8e077496f80ac57|Update URLs in documents according to document migration|Fri, 14 Jul 2017 08:52:18 +0800|Fri, 14 Jul 2017 08:52:18 +0800
+e99158e33afdba1e6eb6dbf31175b1c6c1e237d0|Fix unit tests|Thu, 13 Jul 2017 15:29:16 -0600|Thu, 13 Jul 2017 15:29:16 -0600
+99ead94c135d85025d820029a8661fe196c96e47|Merge "Fix dependency references"|Tue, 11 Jul 2017 07:43:47 +0000|Tue, 11 Jul 2017 07:43:47 +0000
+90b78634df653eb3f7ab095ed1b3ef30297e4088|Fix dependency references|Mon, 10 Jul 2017 16:35:47 +0800|Mon, 10 Jul 2017 16:35:47 +0800
+706446fc9e40d3716dd4d4daf1098d3c6f363cae|Change author in setup.cfg|Tue, 4 Jul 2017 18:27:53 +0530|Tue, 4 Jul 2017 18:28:31 +0530
+bffd1900543bdf09d2b3069e3e849a500285ab4f|Fix openstackdocstheme|Sun, 2 Jul 2017 14:19:19 +0800|Sun, 2 Jul 2017 14:19:19 +0800
+7c6158959f0b098004f55ab1832fb5b2130c4783|Switch from oslosphinx to openstackdocstheme|Mon, 26 Jun 2017 10:03:08 +0800|Mon, 26 Jun 2017 10:03:08 +0800
+b1bbc916db81d802c32e581cd15f72c46c04c226|Merge "Add manifest ironic::cinder for configuring access to the volume service"|Tue, 13 Jun 2017 03:34:54 +0000|Tue, 13 Jun 2017 03:34:54 +0000
+20e2f660693345d370e8fef5e6dc943ee042c5ed|Add environment variable|Mon, 12 Jun 2017 15:54:16 +0800|Mon, 12 Jun 2017 15:54:16 +0800
+0fa87aeaedaf16824298506247e54cf57755050f|Merge "Add CORS support to ironic::inspector"|Sun, 11 Jun 2017 21:25:05 +0000|Sun, 11 Jun 2017 21:25:05 +0000
+c5a5729063673df66223eba9a4c3d706f4ce03c1|Add CORS support to ironic::inspector|Tue, 6 Jun 2017 11:13:44 -0400|Fri, 9 Jun 2017 14:11:27 -0400
+0430a78f8a60bb9540280446685c39e56ddbfe68|Add manifest ironic::cinder for configuring access to the volume service|Fri, 9 Jun 2017 16:48:12 +0200|Fri, 9 Jun 2017 17:03:34 +0200
+17c3e50be95447f0e60e3452e9fcef7faa350b35|Bump version for Pike M3 Dev|Thu, 8 Jun 2017 15:30:57 -0600|Thu, 8 Jun 2017 15:33:02 -0600
+315a163e5b685d760f05174d063313ee700bccea|Update global requirements|Thu, 8 Jun 2017 11:52:39 +0800|Thu, 8 Jun 2017 11:52:39 +0800
+c5d183308eb59bc3e6a41528e74b3f91a91501c4|Drop -dev in preparation for Pike M2|Thu, 1 Jun 2017 08:53:02 -0600|Thu, 1 Jun 2017 08:54:10 -0600
+87a9e523723c0707a56341e9a7f7542bb4ec9567|Merge "Add parameter add_ports in ironic-inspector"|Mon, 29 May 2017 20:44:55 +0000|Mon, 29 May 2017 20:44:55 +0000
+93ac5b6825ddc6c8020f72bcaacbe4e812617d7a|Fix unit test|Thu, 25 May 2017 11:28:07 +0800|Fri, 26 May 2017 08:33:09 +0800
+3b4214d1407f9c72077316156e4de230918e7726|oslo policy: check puppet resource instead of actual config in spec|Tue, 23 May 2017 15:08:08 +0800|Tue, 23 May 2017 15:08:08 +0800
+3fbc3701e394ed8ac944fa6f06747593b84fe60d|Merge "Change owner of inspector.conf to ironic-inspector"|Fri, 19 May 2017 19:41:38 +0000|Fri, 19 May 2017 19:41:38 +0000
+0ca7ce70b7c55f291863dc4179fafb986166f847|Change owner of inspector.conf to ironic-inspector|Wed, 17 May 2017 15:01:20 +0200|Wed, 17 May 2017 17:00:56 +0200
+e36254ad6dfcc6b7ffaf120ca021de5c4192dea7|Update tox configuration|Wed, 17 May 2017 08:26:04 -0600|Wed, 17 May 2017 08:26:13 -0600
+670cd7d353f57b2068731d53d9d315408e93c5eb|Remove useless annotation admin_password|Tue, 16 May 2017 15:09:22 +0800|Tue, 16 May 2017 15:09:22 +0800
+1bf55a9f36e1ab876f487b26f2d93e7186f8eeaf|Add parameter add_ports in ironic-inspector|Wed, 26 Apr 2017 11:31:36 +0800|Thu, 11 May 2017 09:36:25 +0800
+6071888f14b668195dc4404ec4176e284fb03c57|Make kernel and ramdisk filename configurable|Thu, 27 Apr 2017 08:57:10 +0800|Fri, 5 May 2017 09:31:26 +0800
+fc2adf7fb8700769dca6fba3c9d650761cb5be2d|Add support of ironic-inspector-client|Tue, 25 Apr 2017 16:36:11 +0800|Tue, 25 Apr 2017 16:40:29 +0800
+804bb619d585a38e1a3912953c8a9f18a5022187|Support configuring the Redfish driver|Mon, 24 Apr 2017 13:42:09 +0200|Mon, 24 Apr 2017 13:54:41 +0200
+3559d1940c1eaa827cb30ec14cb20d0ddd1dc0de|Bump modules to next minor with -dev|Fri, 21 Apr 2017 17:21:43 -0600|Fri, 21 Apr 2017 17:23:01 -0600
+bf00e679016b60b421a9af353dd09dcaef514926|Fix user in sync.pp|Tue, 18 Apr 2017 15:05:34 +0800|Tue, 18 Apr 2017 15:45:22 +0800
+f3ec8361fca7aaf18e9277f7bc40fee10f490adc|oslo db: check puppet resource instead of actual config in spec|Mon, 10 Apr 2017 19:24:37 +0800|Mon, 10 Apr 2017 19:24:37 +0800
+8eda27f410c8f7f703884c3851280d36f4a494a0|Drop -dev for release prep|Wed, 5 Apr 2017 10:36:13 -0600|Wed, 5 Apr 2017 10:44:55 -0600
+65186a41ddc285a2099c696a0ffc03990522a217|Clean up deprecated items supposed to be removed in Ocata and Pike|Fri, 17 Mar 2017 10:46:42 +0100|Mon, 3 Apr 2017 14:00:59 +0200
+82fcd162b5772c8403b33f880055286fa679ae88|Merge "Allow to set port_setup_delay ironic::conductor param"|Wed, 29 Mar 2017 09:25:48 +0000|Wed, 29 Mar 2017 09:25:48 +0000
+b3185cc67df1a7b375b4b1809b172e9d48ffe5e1|Merge "oslo log: check puppet resource instead of actual config in spec"|Wed, 29 Mar 2017 02:44:50 +0000|Wed, 29 Mar 2017 02:44:50 +0000
+666dd2b1c27b0782d0e3e81abc9597fcee8e909b|Merge "Add ability to translate swift account project name to UUID"|Wed, 29 Mar 2017 01:43:46 +0000|Wed, 29 Mar 2017 01:43:46 +0000
+7f7418bcf803c9e77c5ceb2b970ed29001df3492|oslo log: check puppet resource instead of actual config in spec|Tue, 28 Mar 2017 18:05:39 +0300|Tue, 28 Mar 2017 18:07:10 +0300
+507d3877138a4fc1696e35734a860459962b61d7|Allow to set port_setup_delay ironic::conductor param|Tue, 28 Mar 2017 17:21:52 +0300|Tue, 28 Mar 2017 14:56:24 +0000
+ebfc5779651462cf9fb2d4857b7870cd68090839|Password should be secured|Tue, 28 Mar 2017 17:24:11 +0800|Tue, 28 Mar 2017 17:24:11 +0800
+5736ebba4cb2c7782ce1a1cd9112f754080bf8a6|Add ability to translate swift account project name to UUID|Sat, 25 Mar 2017 00:58:01 +0200|Tue, 28 Mar 2017 10:04:19 +0300
+36dd4c1b6ff780a56ad8a879cb6a9926a22fb4ea|Merge "Add ability to translate net name to UUID"|Mon, 27 Mar 2017 11:03:19 +0000|Mon, 27 Mar 2017 11:03:19 +0000
+8a80e6fb46c87cc799ec572e83ee31c39c91afd4|Add ability to translate net name to UUID|Thu, 23 Mar 2017 12:11:37 +0200|Mon, 27 Mar 2017 10:45:11 +0300
+565b060fcdb6d3165722271aba5525f36ffcdb98|Merge "Restart dnsmasq when config changes"|Thu, 23 Mar 2017 23:50:33 +0000|Thu, 23 Mar 2017 23:50:33 +0000
+ff48eb8f73100e409789546c21a2bc415dbb56c5|Restart dnsmasq when config changes|Thu, 23 Mar 2017 11:16:22 +0000|Thu, 23 Mar 2017 11:16:22 +0000
+0d9ea1c0d65459164b33a19024d7f570ac54646b|Update test-requirements.txt|Thu, 23 Mar 2017 14:44:29 +0800|Thu, 23 Mar 2017 14:44:29 +0800
+40ce146986c11709470f8a5e213293f3bba481e5|Fix lint issue|Wed, 22 Mar 2017 16:09:03 +0800|Wed, 22 Mar 2017 16:09:03 +0800
+3b47f7f07b93984852b986cb980b5cd9186e1ea2|Deprecate ironic::drivers::ssh as *_ssh drivers will be removed soon|Fri, 17 Mar 2017 10:36:42 +0100|Fri, 17 Mar 2017 11:25:45 +0100
+afac29a623e20161cef56e09d4ebcd87786e0e47|Remove deprecated options for ironic::drivers::pxe|Thu, 16 Mar 2017 22:06:04 +0800|Thu, 16 Mar 2017 22:08:01 +0800
+a78fd6cae9041284d7d2287e01c810cfbe99c496|Merge "Add deps to all that is needed"|Wed, 15 Mar 2017 20:49:54 +0000|Wed, 15 Mar 2017 20:49:54 +0000
+083c6ba683a60d9f044cc13636b8e2905fecdc9a|Merge "Add separate manifest for configuring access from ironic to inspector"|Wed, 15 Mar 2017 20:49:48 +0000|Wed, 15 Mar 2017 20:49:48 +0000
+3123054cb3df43081d457f230c2108ac4874fb97|Merge "Add separate manifest for configuring access to the service catalog"|Wed, 15 Mar 2017 20:49:42 +0000|Wed, 15 Mar 2017 20:49:42 +0000
+a3ca538547169674e05b74cda6e0fd12104b76c4|Add separate manifest for configuring access to the service catalog|Tue, 14 Mar 2017 15:43:02 +0100|Wed, 15 Mar 2017 16:25:56 +0100
+09cb07a7c918c8120e42d4af1ea278058a8e71f0|Add separate manifest for configuring access from ironic to inspector|Tue, 14 Mar 2017 16:16:28 +0100|Wed, 15 Mar 2017 16:24:08 +0100
+4ba3568a59fb27e90fb6cae6ab6f5fed9775309e|Merge "Add domain parameters to switch, neutron and glance auth modules"|Wed, 15 Mar 2017 10:07:43 +0000|Wed, 15 Mar 2017 10:07:43 +0000
+dc9e1c170b12a416f2214af011a2d9a382e00016|Add deps to all that is needed|Wed, 15 Mar 2017 17:39:42 +0800|Wed, 15 Mar 2017 17:39:42 +0800
+3cff64247465270158bf5093ccec4d375e08f842|Support new driver configuration options|Wed, 1 Feb 2017 15:41:21 +0100|Tue, 14 Mar 2017 19:39:09 +0100
+f60b27493ae85babc19b35961e57189ba32eb23d|Add domain parameters to switch, neutron and glance auth modules|Tue, 14 Mar 2017 16:39:07 +0100|Tue, 14 Mar 2017 16:42:15 +0100
+d3589fc52595b776141161add8edfa0488cae187|Merge "Deprecate 'dnsmasq_ip_range' replaced by 'dnsmasq_ip_subnets'"|Tue, 14 Mar 2017 11:56:04 +0000|Tue, 14 Mar 2017 11:56:04 +0000
+90f862ce25842367e5065e4fd588933dc6784eed|Deprecate 'dnsmasq_ip_range' replaced by 'dnsmasq_ip_subnets'|Thu, 2 Mar 2017 21:34:51 +0100|Mon, 13 Mar 2017 16:22:35 +0100
+14bf230d7991e8ce95727c9dd2afb1057cb61d07|Fix typo|Mon, 13 Mar 2017 20:14:54 +0800|Mon, 13 Mar 2017 20:14:54 +0800
+a8983125f86e2c6ac0034ef5ee1d76963926b290|rabbitmq SSL: check puppet resource instead of config in spec tests|Fri, 10 Mar 2017 13:47:48 +0200|Fri, 10 Mar 2017 14:23:24 +0200
+2571db744d68b8aba4f14b88c203096446db88d7|Fix typos in release notes|Thu, 9 Mar 2017 17:33:28 +0200|Thu, 9 Mar 2017 17:33:28 +0200
+30ee1f425b2a467ed1b14318c62f2ad5108fdfb3|Add keystone domain parameters for swift config group in ironic-inspector|Thu, 9 Mar 2017 14:25:05 +0200|Thu, 9 Mar 2017 14:28:51 +0200
+b57b665e1d36707e1be12f04a49e1337ff355315|Add keystone domain parameters for ironic config group in ironic-inspector|Thu, 9 Mar 2017 14:19:28 +0200|Thu, 9 Mar 2017 14:28:06 +0200
+a1fcf3fbecd01ee41391873066401fb7185acab2|Merge "Fix puppet version for requirements in metadata"|Wed, 8 Mar 2017 19:09:12 +0000|Wed, 8 Mar 2017 19:09:12 +0000
+c8da6fa5d66dc36975a23a10ecf2859f2badb89a|Prepare Pike metadata|Tue, 7 Mar 2017 14:39:56 -0700|Tue, 7 Mar 2017 15:33:58 -0700
+9763047067ad8f574a8c2c01dc35a19d5ec8dae0|Merge "Install ironic-common in pxe module if not defined"|Fri, 3 Mar 2017 02:05:20 +0000|Fri, 3 Mar 2017 02:05:20 +0000
+9673aabd4f0e56e1bdbe44128be37e7088f7ec38|Install ironic-common in pxe module if not defined|Mon, 20 Feb 2017 13:31:35 -0500|Wed, 1 Mar 2017 14:24:15 -0500
+df41fa3e7adfd9434ce40405cf497c92f19be59c|Remove rpc_backend check for amqp|Wed, 1 Mar 2017 15:46:22 +0800|Wed, 1 Mar 2017 15:46:22 +0800
+9041a3af23dff4685ae2d3ba13277c741e5b2056|Multiple DHCP Subnets for Ironic Inspector|Wed, 22 Feb 2017 01:58:44 +0100|Wed, 22 Feb 2017 13:21:08 +0100
+66bdf453c77278c61db9aa5bd62519f3f6400451|Merge "Add separate manifest for configuring access to neutron"|Thu, 9 Feb 2017 08:50:20 +0000|Thu, 9 Feb 2017 08:50:20 +0000
+bf128460363966da618990f4e0b4e28682c9bb3c|Merge "Add separate manifest for configuring access to swift"|Wed, 8 Feb 2017 16:38:59 +0000|Wed, 8 Feb 2017 16:38:59 +0000
+8605f3fd13b68cac6a7f66dbdef186d915c58564|Update reno for stable/ocata|Wed, 8 Feb 2017 11:04:02 +0000|Wed, 8 Feb 2017 11:04:02 +0000
+57e997515bd545659f0e25346e38748911e1a246|Add separate manifest for configuring access to swift|Tue, 7 Feb 2017 17:06:23 +0100|Wed, 8 Feb 2017 09:49:46 +0100
+15d216c6b94fdfafda5211ebcd3728424b68dddc|Move glance paremeters related to temporary URLs to ironic::glance|Tue, 7 Feb 2017 16:49:51 +0100|Tue, 7 Feb 2017 16:49:51 +0100
+ee74484b3aedcda52521440d7b75bf39f33635a1|Add separate manifest for configuring access to neutron|Fri, 3 Feb 2017 17:08:45 +0100|Tue, 7 Feb 2017 10:52:17 +0100
+a71d896cfcf359746a92eeca9fd536e2de8dbdb9|Merge "Add separate manifest for configuring access to glance"|Tue, 7 Feb 2017 01:28:41 +0000|Tue, 7 Feb 2017 01:28:41 +0000
+c995ec4840beb8a4aff7cc53f13c7c4089b0a2e2|Add separate manifest for configuring access to glance|Thu, 2 Feb 2017 15:29:39 +0100|Mon, 6 Feb 2017 12:25:48 +0100
+2597485d24335f0e81939d10c778554af54224f3|Prepare ocata-rc1 release|Fri, 3 Feb 2017 16:21:52 -0700|Fri, 3 Feb 2017 16:23:17 -0700
+c8ad960a4cb5608bbaf3f5c7cfb1c75b50a0f849|Deprecate inspector::enable_setting_ipmi_credentials|Tue, 31 Jan 2017 14:16:43 +0100|Tue, 31 Jan 2017 14:17:23 +0100
+d991f285e8554828e29353393253ff4a04077bfb|Add ironic::drivers::interfaces class|Thu, 16 Jun 2016 11:40:46 +0300|Wed, 25 Jan 2017 11:25:19 +0200
+a5df3074b3ed2444ffe186376ab9f6572b1ba2ff|Merge "Add oslo::db to dependency chain"|Mon, 23 Jan 2017 19:29:21 +0000|Mon, 23 Jan 2017 19:29:21 +0000
+70e2f98c127878eec474fae4d90f33b33a4954e3|Merge "Configure ironic-inspector parameters related to node discovery"|Mon, 23 Jan 2017 12:50:36 +0000|Mon, 23 Jan 2017 12:50:36 +0000
+35c1e050c74113fb94b0a1bd5367484c870d8f1f|Add oslo::db to dependency chain|Sun, 22 Jan 2017 21:44:35 +0800|Sun, 22 Jan 2017 21:44:35 +0800
+6663a514e1dc5c3a4ef364ee895a721eb4044284|Merge "Fix deprecated cleaning_network_uuid and provisioning_network_uuid"|Fri, 20 Jan 2017 23:23:38 +0000|Fri, 20 Jan 2017 23:23:38 +0000
+95c5da5ae8d0e72ea0d197594db37f2b3f9efd20|Fix deprecated cleaning_network_uuid and provisioning_network_uuid|Fri, 20 Jan 2017 15:43:00 +0100|Fri, 20 Jan 2017 16:45:07 +0100
+12cbf53aeb2decf1b8ed5c38116456d90f6a9503|Configure ironic-inspector parameters related to node discovery|Fri, 20 Jan 2017 14:14:17 +0100|Fri, 20 Jan 2017 14:30:39 +0100
+1dd91560d604839d5aee727878b37a989fc67b8d|Fix typo in ironic_api_paste_ini_spec.rb|Fri, 20 Jan 2017 06:10:26 +0000|Fri, 20 Jan 2017 06:10:40 +0000
+ab50e555119de0cc64833ccea9ffbce5d17c461e|Prepare 10.2.0 release|Fri, 13 Jan 2017 17:29:31 -0700|Fri, 13 Jan 2017 17:31:27 -0700
+69192ac296067778beae33891b591de93cc21d69|Allow python-memcache install from authtoken class|Wed, 11 Jan 2017 17:51:37 -0500|Wed, 11 Jan 2017 17:55:27 -0500
+bc5b85357b2f6ac643d2124ea358e327c90ff979|Deprecate signing_dir option|Wed, 28 Dec 2016 14:07:47 +0800|Tue, 3 Jan 2017 09:39:20 +0800
+a293a8643fffaebab0d3a5bb6b27197fb2540f4a|Pin reno version to reno>=0.1.1,!=2.0.0|Thu, 22 Dec 2016 15:15:00 +0400|Thu, 22 Dec 2016 11:25:43 +0000
+c82488ee9ba2343432fbdf69f34c31bb1b8ced6e|Add customization for wsgi process display name|Wed, 21 Dec 2016 14:00:10 +0800|Wed, 21 Dec 2016 14:01:07 +0800
+a6f7d3b7aec9879d2a4ccd448dc9f5d067e6a4d9|tftp: listen to both IPv4 and IPv6|Wed, 14 Dec 2016 22:49:29 +0000|Wed, 14 Dec 2016 22:53:09 +0000
+633b6822f5b86753807ea263db3cd73c260badc0|Prepare 10.1.0 release|Fri, 9 Dec 2016 09:34:05 -0700|Fri, 9 Dec 2016 09:34:45 -0700
+80902ed623ba4fee0c3955585ed0e3f36b441443|Merge "Fix the case statement"|Fri, 9 Dec 2016 09:02:58 +0000|Fri, 9 Dec 2016 09:02:58 +0000
+0e5d29e9eaf791bd53aa3e584d6ffcdd48ce652d|Merge "Deprecate disabling UEFI support for inspection"|Fri, 9 Dec 2016 08:58:46 +0000|Fri, 9 Dec 2016 08:58:46 +0000
+0afdc9eaf6d00d05693d55d805023ac537eb8b9b|Fix the case statement|Thu, 8 Dec 2016 10:55:35 +0800|Thu, 8 Dec 2016 10:55:35 +0800
+10a08090fda214153ee584e66c2c251c9b902cb2|Deprecate disabling UEFI support for inspection|Fri, 2 Dec 2016 17:29:21 +0100|Wed, 7 Dec 2016 13:21:31 +0100
+6cfed073dcfa451e5e54ee3219b58c5ce6d2e787|Deprecate cleaning_network_uuid and provisioning_network_uuid|Fri, 2 Dec 2016 17:00:50 +0100|Mon, 5 Dec 2016 10:48:03 +0100
+1632578e695f62103026d27627e4e935f4b9a96d|Fix spec test for sync|Thu, 1 Dec 2016 16:52:44 +0800|Thu, 1 Dec 2016 16:52:44 +0800
+ede4e733ac1b778809d1eb40f1cbbf6cac985fb5|Update transport_url test codes|Wed, 30 Nov 2016 14:45:31 +0800|Wed, 30 Nov 2016 14:45:31 +0800
+02c2f5bc8b67958a46854bb130e8cd762f53bd59|Show team and repo badges on README|Fri, 25 Nov 2016 17:06:43 +0100|Fri, 25 Nov 2016 17:23:02 +0100
+500b14730a7d147d580a20b93226c4efad134f44|Merge "Finish converting to rspec-puppet-facts"|Wed, 23 Nov 2016 15:57:39 +0000|Wed, 23 Nov 2016 15:57:39 +0000
+ca26a6bbc8a660666d57365b1c461563634fc330|Finish converting to rspec-puppet-facts|Tue, 22 Nov 2016 16:11:28 +0200|Tue, 22 Nov 2016 16:28:15 +0200
+8b5b630c3ceb3e508e7ea4ab43fbf549b00dc8fa|Remove old authtoken options|Sun, 6 Nov 2016 13:54:53 -0300|Tue, 22 Nov 2016 00:38:06 -0300
+9b0aa85594282aca8b61d47b5782a19dc62940e4|Merge "Prepare 10.0.0 release"|Thu, 17 Nov 2016 19:37:42 +0000|Thu, 17 Nov 2016 19:37:42 +0000
+de80a44b1607539a8aca7884411e3ab70aa09e7a|Prepare 10.0.0 release|Mon, 14 Nov 2016 16:39:18 -0700|Mon, 14 Nov 2016 16:40:12 -0700
+17634d7969fae2cfa9ef524e634d6318daa02ebb|Adding detect_boot_mode option|Fri, 11 Nov 2016 10:09:30 -0500|Mon, 14 Nov 2016 06:32:35 -0500
+0bada7856c3ccfd102e5a35082e43d7108459822|Merge "Deprecate rabbitmq connection parameters"|Thu, 10 Nov 2016 15:07:50 +0000|Thu, 10 Nov 2016 15:07:50 +0000
+be101ecbb7052887ba79ec503a99952615e7d4fc|Deprecate rabbitmq connection parameters|Tue, 8 Nov 2016 12:49:41 -0700|Wed, 9 Nov 2016 07:48:26 -0700
+77c06e6a2025d64650ba38ae5e2198f090872d0a|Fix common options position in params.pp|Tue, 8 Nov 2016 10:09:26 +0800|Wed, 9 Nov 2016 08:32:21 +0800
+9f6c630a6e10210ccfc5d2d72ada8b8e93558a9b|Fix puppet version for requirements in metadata|Thu, 3 Nov 2016 10:28:07 +0800|Mon, 7 Nov 2016 16:11:02 +0800
+54097080e3a975c464f45ba43bb0b2a42641d50c|Add enable_proxy_headers_parsing option|Fri, 28 Oct 2016 20:11:21 +0800|Fri, 28 Oct 2016 20:11:21 +0800
+e8d5c7b88701bfeead848c36f307cc64a671668e|Merge "Remove verbose"|Tue, 25 Oct 2016 19:29:03 +0000|Tue, 25 Oct 2016 19:29:03 +0000
+1467ac82ab7ac4c0dc0038b15076ac47106f982a|Remove verbose|Tue, 27 Sep 2016 23:07:03 -0300|Mon, 24 Oct 2016 20:15:42 +0000
+806d5a15693f7a0ce0cd379e7af81275bf334982|Remove "dhcp" command from the iPXE script|Thu, 20 Oct 2016 14:45:55 +0200|Thu, 20 Oct 2016 18:05:51 +0200
+bdba53db767cedd6d9254a7f1f3290cb6dd86cbe|Release 9.4.1 (newton)|Tue, 18 Oct 2016 21:44:24 -0400|Tue, 18 Oct 2016 21:44:24 -0400
+5a44afdd021b2c5dc091f6ad2760a050e5d2c829|Allow configuring default_boot_option|Thu, 13 Oct 2016 14:00:29 +0200|Thu, 13 Oct 2016 14:02:34 +0200
+18cc687589b6e35ef4bc31a7121ecec2fe9e4466|Fix documentation for log_dir parameter|Mon, 10 Oct 2016 16:53:59 +0300|Mon, 10 Oct 2016 16:56:16 +0300
+3157440992035f9174b6a4dbdeef6fe05f63f6a0|Merge "start ironic-(api|inspector) after Keystone_endpoint"|Mon, 10 Oct 2016 10:26:09 +0000|Mon, 10 Oct 2016 10:26:09 +0000
+2e4c586a6d93f0fd08142cf88a8549fa4801f9da|start ironic-(api|inspector) after Keystone_endpoint|Fri, 7 Oct 2016 11:19:58 -0400|Fri, 7 Oct 2016 11:20:54 -0400
+d5d026a0164337211609b5008d0e11f79bf0a594|Change worker defaults to ::os_workers|Fri, 7 Oct 2016 15:44:18 +0300|Fri, 7 Oct 2016 15:52:35 +0300
+934ff54898e02b53357b8811e3c89ef6b7546378|Enable release notes translation|Thu, 6 Oct 2016 20:45:56 +0200|Thu, 6 Oct 2016 20:45:56 +0200
+bdaa3c0760b4c25c22eaae89e1d34a39486235db|Merge "[inspector] create a separate database configuration for ironic-inspector"|Tue, 4 Oct 2016 20:14:03 +0000|Tue, 4 Oct 2016 20:14:03 +0000
+ac03904702ebf183330490f9926d18c4317b6d75|[inspector] create a separate database configuration for ironic-inspector|Fri, 12 Feb 2016 18:32:27 +0100|Tue, 4 Oct 2016 13:27:27 +0200
+65c28a7e67848d3b6ee0eb8f2a533c0276f7993e|Changed the home-page to point Openstack Puppet Homepage|Tue, 4 Oct 2016 10:15:07 +0530|Tue, 4 Oct 2016 10:15:07 +0530
+c45455c6b3d533a94fb8d5d28c4c92370d831a61|Move rspec-puppet-facts to spec helper|Fri, 30 Sep 2016 13:20:53 -0600|Fri, 30 Sep 2016 13:20:56 -0600
+1b5bfc808f5255760367b8f637702b47df11f016|Merge "Added retries for db_sync"|Thu, 29 Sep 2016 21:00:35 +0000|Thu, 29 Sep 2016 21:00:35 +0000
+887c4de5f1f0e08e3bc1250f868a93dae2a17ff0|Merge "Remove unnecesary spaces in log messages."|Thu, 29 Sep 2016 18:43:47 +0000|Thu, 29 Sep 2016 18:43:47 +0000
+a2cfc7e7778ab2dc8316d613fd014a664940609d|Added retries for db_sync|Thu, 29 Sep 2016 12:28:16 +0530|Thu, 29 Sep 2016 12:28:55 +0530
+27651d4b62a1be4e6db4a4eec30cf657de0fdb7f|Update reno for stable/newton|Tue, 27 Sep 2016 12:38:34 -0400|Tue, 27 Sep 2016 11:03:54 -0600
+b979667b1acbc604a13f69294c87a5babf8d7bd6|Remove unnecesary spaces in log messages.|Mon, 26 Sep 2016 09:39:39 +0200|Tue, 27 Sep 2016 17:23:37 +0200
+461f4486b43ff7a3785983c8dfa483dfbea7452b|Puppet OpenStack Newton RC2|Mon, 26 Sep 2016 07:31:18 -0600|Mon, 26 Sep 2016 07:32:27 -0600
+da589acf11fc73a9f7174a42ffb2ab85371b630c|Merge "Add hooks for external install & svc management"|Wed, 21 Sep 2016 04:24:24 +0000|Wed, 21 Sep 2016 04:24:24 +0000
+d289b67d14653daf515c64b255fbf2126d5bf57c|Merge "Fix puppet-lint before upgrading gem"|Mon, 19 Sep 2016 17:23:22 +0000|Mon, 19 Sep 2016 17:23:22 +0000
+9fe25f3a23bbb5cbcc839868471d688fc446e873|Add hooks for external install & svc management|Tue, 13 Sep 2016 16:17:10 +0000|Sat, 17 Sep 2016 17:11:05 -0600
+d7724c729aeed330cf325b32fdd1a1b8b55a42e9|Merge "Prepare 9.3.0 (newton rc1)"|Sat, 17 Sep 2016 07:36:25 +0000|Sat, 17 Sep 2016 07:40:20 +0000
+b353ff9b4f60b6f8d4017a9bff469bd681f1ce63|Prepare 9.3.0 (newton rc1)|Fri, 16 Sep 2016 11:40:28 -0400|Fri, 16 Sep 2016 11:40:28 -0400
+3c90605aec261fa117b4971d73a36a44530dad68|Ironic PXE support - corect paths and permissions|Fri, 16 Sep 2016 13:37:37 +0200|Fri, 16 Sep 2016 17:11:13 +0200
+003d656de0340a0b4e1bef87877d9523486c848b|Ironic pxe support, Don't manage tftpd-hpa service|Thu, 15 Sep 2016 13:15:12 -0600|Thu, 15 Sep 2016 13:16:58 -0600
+88656e9d44405eb2fb3b4957378c2e799d294baf|Fix puppet-lint before upgrading gem|Wed, 14 Sep 2016 11:24:51 +0200|Wed, 14 Sep 2016 11:26:16 +0200
+66817defef97b7859001fe6b919e1d424b2bbf97|Allow storing config drives in Swift instead of the database|Mon, 12 Sep 2016 13:13:21 +0200|Mon, 12 Sep 2016 13:29:00 +0200
+28d598677b284e330fae30bc83ffaaade057cd1e|Merge "Allow configuring Glance to use Swift tempurls"|Sat, 10 Sep 2016 05:31:43 +0000|Sat, 10 Sep 2016 05:31:43 +0000
+d14c611c4bbc979911e6ced0cbdc55e44a3a7fa9|Merge "Add ironic::drivers::agent manifest"|Mon, 5 Sep 2016 14:04:57 +0000|Mon, 5 Sep 2016 14:04:57 +0000
+5a60bb6d0b71da4f07ada97dbd022323766434b4|Allow configuring Glance to use Swift tempurls|Sat, 3 Sep 2016 11:09:08 +0200|Mon, 5 Sep 2016 13:41:05 +0200
+3e970e44915383bb5daf4ad4a05c48d5ef2af578|Merge "Introduce ironic::pxe class"|Fri, 2 Sep 2016 15:55:41 +0000|Fri, 2 Sep 2016 15:55:41 +0000
+730df0a37b571cf94ef26d1c6b680253e407d9c6|Add ironic::drivers::agent manifest|Mon, 29 Aug 2016 12:58:31 +0200|Fri, 2 Sep 2016 12:29:38 +0200
+7b74836af5c620b94a072a55c34cad1b77cdb147|Support configuration and dependencies for iLO and Drac drivers|Tue, 23 Aug 2016 18:03:49 +0200|Fri, 2 Sep 2016 12:27:20 +0200
+87175f835009d731fd66b7c008ad7e177794ba1d|Merge "Move parameters from ironic::drivers::deploy to ironic::conductor"|Thu, 1 Sep 2016 16:18:25 +0000|Thu, 1 Sep 2016 16:18:25 +0000
+0376a5f55d8741139eaba9407e3863c7aabca4fc|Introduce ironic::pxe class|Thu, 11 Aug 2016 16:44:07 +0200|Tue, 30 Aug 2016 16:42:15 +0200
+f96b696a6e09b21aecf592cda1b3439713a5f6d1|Move enabled_drivers to ironic::conductor manifest|Mon, 29 Aug 2016 16:11:32 +0200|Tue, 30 Aug 2016 10:27:00 +0200
+3ef3fb14198c3bba01c2ffc0d4fab1742a4671a7|Move parameters from ironic::drivers::deploy to ironic::conductor|Fri, 26 Aug 2016 12:08:53 +0200|Tue, 30 Aug 2016 09:21:26 +0200
+b5d2769041fc6787d88e34331b09701c285131a2|Clean up ironic::drivers::pxe|Fri, 26 Aug 2016 14:37:18 +0200|Fri, 26 Aug 2016 18:53:01 +0200
+04dbd09b5ec99ba9745212f86801e8d3a0d49c4c|Merge "Prepare 9.2.0 (newton b3)"|Fri, 26 Aug 2016 15:37:19 +0000|Fri, 26 Aug 2016 15:37:19 +0000
+2b2e70a33add4f177692b1b97500f9e01b4ca8fd|Prepare 9.2.0 (newton b3)|Fri, 26 Aug 2016 09:54:50 -0400|Fri, 26 Aug 2016 09:54:50 -0400
+c07444ebfb02c61f3f712373e1b2978a7dd34dc1|Support ironic-lib package and orchestrate Ironic upgrade|Thu, 25 Aug 2016 12:09:57 -0400|Thu, 25 Aug 2016 15:43:20 -0400
+43c57a002668641c5a3fa492e99230323f4bdd93|Merge "Configure cleaning parameters"|Wed, 24 Aug 2016 14:43:37 +0000|Wed, 24 Aug 2016 14:43:37 +0000
+c403458a7451469b227867962df5817b74315d45|Configure cleaning parameters|Tue, 23 Aug 2016 12:22:16 +0200|Wed, 24 Aug 2016 13:03:17 +0200
+dd03027fa16ced7e7af220ab41c30fc79f82f390|Merge "Configure keystone authtoken options"|Tue, 23 Aug 2016 14:14:23 +0000|Tue, 23 Aug 2016 14:14:23 +0000
+17a49854785b0de88c09409c4ea0aa0edb71f9a4|Allow to set provisioning_network_uuid|Mon, 13 Jun 2016 12:11:47 +0300|Mon, 22 Aug 2016 11:12:01 +0300
+eef5b11679e1c0e96a782f51f5e0c8aa6abfb3bd|Configure keystone authtoken options|Fri, 22 Jul 2016 16:08:07 +0300|Thu, 18 Aug 2016 13:43:10 +0300
+d9a7a53115242e3a4a0842f53be9e44600c32c89|conductor: add api_url parameter|Mon, 15 Aug 2016 16:13:13 -0400|Mon, 15 Aug 2016 16:13:13 -0400
+180dcd35187313657a721f3255624fd83e323195|Merge "Add log directory to .gitignore"|Mon, 15 Aug 2016 14:00:12 +0000|Mon, 15 Aug 2016 14:00:12 +0000
+beabe9a1e8e296739c9e006380d05bb83dd0f721|Merge "Move other-requirements.txt to bindep.txt"|Sat, 13 Aug 2016 00:46:18 +0000|Sat, 13 Aug 2016 00:46:18 +0000
+56d81e0a3297f9a62702c35d27ed620a5e52cc17|Move other-requirements.txt to bindep.txt|Fri, 12 Aug 2016 21:07:32 +0200|Fri, 12 Aug 2016 21:07:32 +0200
+eb4bea55fa35e11158054b1d8f4976fef0f6bb98|Add log directory to .gitignore|Fri, 12 Aug 2016 10:26:52 +0200|Fri, 12 Aug 2016 10:26:52 +0200
+4b243d49923b95a4cce010b7f4a4af9dcca93131|Add CORS settings|Fri, 12 Aug 2016 10:05:30 +0200|Fri, 12 Aug 2016 10:10:22 +0200
+7b139119003b7001280c72a5ea5b432e430ac8ff|Allow to configure [ssh] section in ironic config|Tue, 26 Jul 2016 11:21:43 -0400|Wed, 27 Jul 2016 10:38:56 -0400
+f7264d59826a573c9a0f5df6eff95f9ecf418449|Make ironic-inspector's listen_address configurable|Sun, 17 Jul 2016 15:43:47 +0300|Mon, 18 Jul 2016 16:57:12 +0300
+270b0cb7c77127e964468bbc39ec51c681b41ab8|[inspection] allow to configure HTTP port|Thu, 14 Jul 2016 13:48:35 +0200|Thu, 14 Jul 2016 14:19:35 +0200
+7526bfa4faf8b0b3762c22a71b52e2cd13db1193|Include openstacklib defaults manifest.|Thu, 7 Jul 2016 12:00:58 +0200|Fri, 8 Jul 2016 10:08:56 +0200
+44885ec20e01d024cb1b7d5e6c8c745e1be3a02e|Prepare 9.1.0 (newton-2)|Thu, 7 Jul 2016 09:08:15 -0400|Thu, 7 Jul 2016 09:08:20 -0400
+ba3cec42fabdea3efc2f71eb918172d33d57e237|Merge "Add memcached_servers for keystone authtoken"|Fri, 1 Jul 2016 10:36:49 +0000|Fri, 1 Jul 2016 10:36:49 +0000
+95d0af7ec87399f89a0628b415fe8b7a819afa17|Add memcached_servers for keystone authtoken|Thu, 30 Jun 2016 12:43:53 -0600|Thu, 30 Jun 2016 15:15:07 -0600
+49ff189b7b4f2ed99f7f7f3c97d67039259a4ec5|Remove 12.04 and add 16.04 to metadata|Wed, 29 Jun 2016 21:23:20 -0300|Thu, 30 Jun 2016 12:17:37 +0000
+d81740b4aabdb3a59556db23194306ddc9b80a14|Remove mitaka release prelude note|Tue, 28 Jun 2016 15:08:21 -0400|Tue, 28 Jun 2016 15:08:27 -0400
+b4339b55cef101d13d1889d30bb79a94304f0d0e|Allow to configure cleaning_network_uuid|Mon, 13 Jun 2016 12:06:19 +0300|Thu, 16 Jun 2016 10:31:10 +0300
+f58917ea161bec621f8709d9284ba0da5b71148a|Allow to configure swift_account|Wed, 15 Jun 2016 13:00:43 +0300|Wed, 15 Jun 2016 13:01:10 +0300
+5109bf74612d5234e87c6a80040c82a79454460e|stop managing /etc/ironic and ironic.conf|Mon, 13 Jun 2016 12:21:50 -0400|Mon, 13 Jun 2016 12:21:50 -0400
+76efd1bd10f81e8b603b8657e4d7a5a43564ee74|Merge "Add nodepool-xenial.yml file"|Fri, 10 Jun 2016 20:56:24 +0000|Fri, 10 Jun 2016 20:56:24 +0000
+ff5af5e1a251a58a35ea273dc16be99f3aeb6518|Add nodepool-xenial.yml file|Fri, 10 Jun 2016 13:31:24 -0400|Fri, 10 Jun 2016 13:31:29 -0400
+f21260370ff6f28b8d5034b239458f1eb0c98daa|Change default service_name to 'ironic'|Tue, 7 Jun 2016 18:06:50 -0500|Thu, 9 Jun 2016 13:09:00 +0000
+31fae45a7b532ef16afaa3bec50d3e281967f2d2|Merge "Test multiple operating systems for policy"|Wed, 8 Jun 2016 15:49:27 +0000|Wed, 8 Jun 2016 15:49:27 +0000
+33729b34403150b5b669e0db9e0c8331f03b14d3|Add purge_config option|Wed, 8 Jun 2016 10:53:04 +0800|Wed, 8 Jun 2016 10:53:04 +0800
+78e2426e2c2bf294fa7888e88edc91fd014e56e0|Test multiple operating systems for policy|Sat, 4 Jun 2016 00:14:47 +0800|Wed, 8 Jun 2016 08:51:37 +0800
+00bd863046b91f6a0f21d622793ea6ef71274569|Merge "Remove deprecated keystone::auth options"|Sat, 4 Jun 2016 01:59:24 +0000|Sat, 4 Jun 2016 01:59:24 +0000
+25ffcf459064f724bbc140c72e625be88081d9b2|Merge "Prepare 9.0.0 release"|Fri, 3 Jun 2016 16:34:14 +0000|Fri, 3 Jun 2016 16:34:14 +0000
+b41134644a1a1b0f5a476c909f6fa7418475712d|Merge "Change wiki to docs"|Fri, 3 Jun 2016 14:53:12 +0000|Fri, 3 Jun 2016 14:53:12 +0000
+dc33a29c442c47e22e860bb400e3c5a8b00650ad|Cleanup README|Fri, 3 Jun 2016 12:35:12 +0300|Fri, 3 Jun 2016 12:35:30 +0300
+14448a4c419e26132980c851f1c36043e899000a|Remove deprecated keystone::auth options|Fri, 3 Jun 2016 01:39:03 -0300|Fri, 3 Jun 2016 01:44:48 -0300
+0591131fa805be4a3838f6b5ba1275b12b53ec56|Change wiki to docs|Thu, 2 Jun 2016 22:39:19 -0300|Thu, 2 Jun 2016 23:09:23 -0300
+815ee7edb4103a520e023da64a51e27d7539d4d9|Prepare 9.0.0 release|Thu, 2 Jun 2016 18:33:26 -0400|Thu, 2 Jun 2016 18:41:37 -0400
+9ecbe382814684fd1020c1d16bba2d043c92348b|[inspector] Update authentication parameters|Tue, 31 May 2016 21:14:02 +0200|Wed, 1 Jun 2016 15:31:22 +0200
+f09ef1dc2efa46d309591b24ce4c7d8cfa9e03ce|Add transport_url parameter for oslo.messaging|Fri, 27 May 2016 12:25:02 -0400|Fri, 27 May 2016 12:25:02 -0400
+8c1002c65ca46c4d77ff68662b1fbbe5188d19a4|Fix unit test for latest puppet|Thu, 26 May 2016 17:16:12 +0300|Thu, 26 May 2016 17:16:46 +0300
+3bcb5866686b9502aceeac80a3e8c83a94bfe4df|Adapt ironic tests for a new concat version|Tue, 24 May 2016 15:15:44 -0300|Tue, 24 May 2016 15:22:59 -0300
+f21fe608e079689655784ce6fd1f205943cc7fd4|Add other-requirements.txt for bindep|Thu, 19 May 2016 19:06:30 +0200|Thu, 19 May 2016 19:06:45 +0200
+727c96ed6a089ae047b663b232603592eec7a18e|Merge "Add public_endpoint parameter"|Thu, 19 May 2016 09:23:42 +0000|Thu, 19 May 2016 09:23:42 +0000
+f7b1ed08577affd20b4d3cf045b2cbf37c3291a4|Deprecate verbose option in logging|Wed, 18 May 2016 00:07:17 -0300|Wed, 18 May 2016 00:08:41 -0300
+a19554a6f210ab0f7d6665240cd1bb55fcb3b30d|Merge "Revert "Revert "allow to configure my_ip parameter"""|Tue, 17 May 2016 22:22:53 +0000|Tue, 17 May 2016 22:22:53 +0000
+bf6842e525f6b98324d2e31b5be6ef85012a90dd|Add public_endpoint parameter|Tue, 17 May 2016 15:59:55 +0300|Tue, 17 May 2016 13:38:04 +0000
+bfccfa1160771887c8c88d713f4e48ac9cb60640|Merge "Introduce support for oslo.messaging amqp driver configuration"|Mon, 16 May 2016 15:03:41 +0000|Mon, 16 May 2016 15:03:41 +0000
+735c139416fc14d2fcce0e4347058a39c2f5f5c8|Revert "Revert "allow to configure my_ip parameter""|Fri, 13 May 2016 14:12:12 +0000|Mon, 16 May 2016 15:37:48 +0200
+6dd206cdc3eba598b391505846d02512db91c02e|Merge "Revert "allow to configure my_ip parameter""|Fri, 13 May 2016 14:08:41 +0000|Fri, 13 May 2016 14:08:41 +0000
+1077bf2c5370fc1187bdd0e659928b6cd1c2d248|Introduce support for oslo.messaging amqp driver configuration|Wed, 11 May 2016 16:26:26 -0400|Fri, 13 May 2016 08:13:32 -0400
+5c4d023a7734ac7ed18ac8d15a702b47be5cc6ea|Revert "allow to configure my_ip parameter"|Fri, 13 May 2016 11:30:35 +0000|Fri, 13 May 2016 11:31:09 +0000
+e3c2ae631c4108bfb01e1f696d38a5881f9ef513|Merge "Implement ironic::drivers::deploy class"|Fri, 13 May 2016 10:04:04 +0000|Fri, 13 May 2016 10:04:04 +0000
+50fed86586a8519d99bcf8769303423809e1245e|Merge "allow to configure my_ip parameter"|Thu, 12 May 2016 21:32:20 +0000|Thu, 12 May 2016 21:32:20 +0000
+d494834733e32dfd87f145932f763670e472946b|Merge "Add support for the oslo db_max_retries parameter"|Thu, 12 May 2016 19:32:02 +0000|Thu, 12 May 2016 19:32:02 +0000
+ff55034d089784c657385bd4a386a6132203c88d|Implement ironic::drivers::deploy class|Wed, 11 May 2016 15:45:24 -0400|Thu, 12 May 2016 14:44:43 -0400
+05d474c3b219af82dcdfab7bb6bd2a6c0e6cdbcc|allow to configure my_ip parameter|Wed, 11 May 2016 17:34:46 -0400|Wed, 11 May 2016 17:34:46 -0400
+8caebca29177778804bf88ae06d198524c3f54ea|Fix markdown format typo|Wed, 11 May 2016 00:01:31 +0800|Wed, 11 May 2016 00:01:31 +0800
+79691a6d40046a9488bbc373535506a3fba33a31|Add support for the oslo db_max_retries parameter|Tue, 10 May 2016 21:02:24 +0800|Tue, 10 May 2016 21:22:23 +0800
+ba159e362dc76456397ec7b5dcf1bdae6f5fd915|Use oslo module for policy configuration|Fri, 6 May 2016 14:48:51 +0800|Fri, 6 May 2016 14:48:51 +0800
+3b801043542f99cf295d8c5114950da28c35b006|Merge "iPXE: retry on failure during introspection"|Tue, 3 May 2016 16:10:58 +0000|Tue, 3 May 2016 16:10:58 +0000
+17407fb9ef80ca2a6241cd3f6fa72d47fb97ebb8|Test multiple operating systems for db|Sat, 30 Apr 2016 10:41:36 +0800|Sat, 30 Apr 2016 10:42:26 +0800
+9d56010c8cfad98e6b5cc7bc097f3c148428de68|iPXE: retry on failure during introspection|Tue, 26 Apr 2016 14:45:45 -0400|Fri, 29 Apr 2016 19:39:54 -0400
+a632be23fdca526e88b2508eb722a94025244206|Switch ironic to use puppet-oslo module|Wed, 13 Apr 2016 17:10:04 +0300|Thu, 28 Apr 2016 11:00:14 +0300
+ff87e2519c5dcfa84b28fc7f51db9bdfc12ddb88|Add Unit Tests for Ironic-config type|Wed, 27 Apr 2016 13:01:04 -0700|Wed, 27 Apr 2016 13:31:11 -0700
+76cb4f73e08fe17bf781355c87cfa87771ff9b40|install ipmitool on ubuntu if driver enabled|Wed, 20 Apr 2016 22:26:19 -0400|Wed, 20 Apr 2016 22:28:03 -0400
+d0e53354b938fcb8188bffd3bcdeffcfa42a3d0e|Totally drop Qpid support|Mon, 18 Apr 2016 14:07:47 +0300|Mon, 18 Apr 2016 14:08:10 +0300
+516bb6cc2bcad5682e360b6ff0c84b4a5ce81c42|Copy iPXE ROMs into /tftpboot|Wed, 6 Apr 2016 19:09:16 +0100|Mon, 11 Apr 2016 09:16:40 +0100
+a7e66a34a43cc7d8d4ebb30d805374cd081df294|Allow chainloading of Inspector ramdisk over UEFI|Wed, 6 Apr 2016 17:43:15 +0100|Fri, 8 Apr 2016 17:25:37 +0100
+7dc6e9f9e3cea6309eba88aa87b35548ffe3a977|Expose an option to enable/disable cleaning|Thu, 7 Apr 2016 15:14:27 +0200|Thu, 7 Apr 2016 15:14:29 +0200
+b94bbf24af5555a94871ed2ed9e44ef31014f118|Revert "Allow chainloading of Inspector ramdisk over UEFI"|Wed, 6 Apr 2016 16:27:27 +0000|Wed, 6 Apr 2016 17:40:14 +0100
+724be15c88c1e915150c2b6a5681367bb2b22127|Merge "expose pxe/pxe_bootfile_name"|Thu, 31 Mar 2016 22:10:41 +0000|Thu, 31 Mar 2016 22:10:42 +0000
+056696e6935ac7e502d077313ad4e0dc069d2db6|Merge "Don't back up ipxe boot image files"|Thu, 31 Mar 2016 11:50:38 +0000|Thu, 31 Mar 2016 11:50:38 +0000
+f52194740f49d999664d0ca71371ddf28d2d5d75|Don't back up ipxe boot image files|Wed, 30 Mar 2016 18:23:20 +0000|Wed, 30 Mar 2016 20:37:43 +0000
+e28d585b493428506f04e632d80ff5b1d93ec704|Gemfile: rely on puppet-openstack_spec_helper for dependencies|Tue, 29 Mar 2016 21:36:28 -0400|Wed, 30 Mar 2016 16:36:29 -0400
+235f294d9508a00b405ede37a8fbc21374453cd3|acceptance: run ironic services after rabbitmq resources|Wed, 30 Mar 2016 16:35:07 -0400|Wed, 30 Mar 2016 16:35:07 -0400
+96a8eec98ccdd90865c473dce69a08959d6ff242|expose pxe/pxe_bootfile_name|Wed, 30 Mar 2016 09:06:46 -0400|Wed, 30 Mar 2016 10:07:11 -0400
+51e0ac559383538db0c011e245fd3f3e93ef5b45|expose the ipxe_enabled parameter|Wed, 23 Mar 2016 16:31:17 -0400|Tue, 29 Mar 2016 10:04:36 -0400
+212b97f0940b79946cea885a176ee22785849bb3|Merge "Allow chainloading of Inspector ramdisk over UEFI"|Tue, 29 Mar 2016 09:41:44 +0000|Tue, 29 Mar 2016 09:41:44 +0000
+2c06e0b5e0506388c714b10e4c36994ed0baeb7e|Import release notes from stable/mitaka|Thu, 24 Mar 2016 19:02:13 -0400|Thu, 24 Mar 2016 19:03:30 -0400
+16dc996694df42ce244c232180d99c9e2a80d67a|Release 8.0.0|Wed, 23 Mar 2016 14:43:59 -0400|Wed, 23 Mar 2016 16:07:20 -0400
+527917904019cea89d2568f14299714a7d0fec98|Allow chainloading of Inspector ramdisk over UEFI|Thu, 4 Feb 2016 12:12:44 +0000|Wed, 23 Mar 2016 12:02:44 +0000
+e76ff289fe6e99498d4fa20de2ba219e7fc43a68|Merge "add ipxe_timeout parameter to ironic::drivers::pxe"|Mon, 21 Mar 2016 20:32:26 +0000|Mon, 21 Mar 2016 20:32:26 +0000
+4de0c4be20be7469a160441ea2cfdc61c7ae2074|add ipxe_timeout parameter to ironic::drivers::pxe|Fri, 18 Mar 2016 16:24:01 -0400|Fri, 18 Mar 2016 16:33:06 -0400
+04a484ac1afd17abcf4a8141bde40a0743d0ac42|releasenotes: add notes for Mitaka cycle|Thu, 17 Mar 2016 13:51:04 -0400|Thu, 17 Mar 2016 13:51:04 -0400
+6514eb100c12aac9c995a3ecb27cfc6d9586d884|Merge "Add basic structure for ReNo"|Tue, 15 Mar 2016 19:45:29 +0000|Tue, 15 Mar 2016 19:45:29 +0000
+144905ae145b360536e28a12487ad8ce6a5a1bcc|Merge "[inspector] create a separate class for configuring logging"|Tue, 15 Mar 2016 19:30:22 +0000|Tue, 15 Mar 2016 19:30:22 +0000
+58d98b61e4c152bcfc82834f2191861a1fa14e19|Add basic structure for ReNo|Sun, 13 Mar 2016 18:59:25 -0400|Mon, 14 Mar 2016 08:30:13 -0400
+794d9c1a84f68bdfb27d13adaa8ec62d686d7549|[inspector] create a separate class for configuring logging|Fri, 26 Feb 2016 15:47:30 +0100|Wed, 9 Mar 2016 14:02:38 +0100
+dfff2af1472146bf220929d9993ae30b24d269c2|[inspector] use dnsmasq dhcp-sequential-ip flag in dnsmasq.conf|Tue, 1 Mar 2016 15:11:50 +0100|Tue, 1 Mar 2016 15:11:50 +0100
+77974fd8385bd03c03efbfcad4b3bc6b32cc5652|Change Baremetal to Bare Metal to be consistent with Ironic.|Fri, 19 Feb 2016 14:14:21 +0000|Fri, 19 Feb 2016 14:14:50 +0000
+7c450d5f1c312e1b4ec6f622a603b59efce22951|Merge "[inspector] allow sending random kernel arguments to the IPA"|Wed, 17 Feb 2016 13:36:54 +0000|Wed, 17 Feb 2016 13:36:55 +0000
+8f24cd3a02f23d59607593dbd212fd7ef9acd997|Merge "Add api_paste type/provider for Ironic"|Tue, 16 Feb 2016 14:33:07 +0000|Tue, 16 Feb 2016 14:33:07 +0000
+5704275b694435ba3fda4e8bd2516e00344ff2d0|[inspector] allow sending random kernel arguments to the IPA|Tue, 16 Feb 2016 13:31:28 +0100|Tue, 16 Feb 2016 15:07:17 +0100
+a70ee4fb7e56dc1d8a34063366463df0a6504454|Add api_paste type/provider for Ironic|Fri, 5 Feb 2016 12:36:01 +0800|Tue, 16 Feb 2016 09:23:11 +0800
+63297266547ebc50369eef73970894af8d4f805a|Merge "Use uppercase 'S' in word "OpenStack""|Wed, 10 Feb 2016 23:48:18 +0000|Wed, 10 Feb 2016 23:48:18 +0000
+d258a9169b328cce0841a9b972e3af18eba942d3|[inspector] allow changing list of processing hooks|Tue, 9 Feb 2016 11:53:59 +0100|Wed, 10 Feb 2016 10:29:15 +0100
+6a358b2c939baca9b7291257a15047f892e07052|Use uppercase 'S' in word "OpenStack"|Thu, 4 Feb 2016 18:23:32 +0530|Thu, 4 Feb 2016 18:27:23 +0530
+375c81681f257b64501b95920d18013f66792f1a|Fix ironic_init spec tests|Mon, 25 Jan 2016 18:28:01 -0800|Mon, 25 Jan 2016 18:28:01 -0800
+4dd2bff699dad3a29dddd778cf3e9a940e44a935|Fix duplicate parameters and drop mock|Fri, 22 Jan 2016 17:09:14 -0700|Sat, 23 Jan 2016 09:42:57 -0700
+df772a1c606afcaf8e0d515ee413e36e38d0f28d|Use puppet-openstack_spec_helper for Rakefile & spec_helper_acceptance|Mon, 18 Jan 2016 09:11:21 -0500|Mon, 18 Jan 2016 09:11:21 -0500
+e5022881763d1bbb8ee7997e22771b3293bd06a3|Add rspec-puppet-facts to the spec_helper|Wed, 6 Jan 2016 21:28:16 -0700|Thu, 14 Jan 2016 20:28:51 +0300
+fc36b718f928f497f2639efd459fe35834827063|Use identity_uri and auth_uri by default|Thu, 31 Dec 2015 09:37:29 -0500|Fri, 8 Jan 2016 10:53:15 -0500
+82842360e5be0012b240b7796e83f2820ae88128|Merge "Implement WSGI support for Ironic API"|Fri, 8 Jan 2016 00:52:56 +0000|Fri, 8 Jan 2016 00:52:56 +0000
+1b101b8cd0e0dace6067baa2e28155069134a3bd|Merge "Enable changing list of inspection collectors"|Thu, 7 Jan 2016 21:43:11 +0000|Thu, 7 Jan 2016 21:43:11 +0000
+2af5037a07ba6ab734b28c19e5fd6ce3e207d3d7|Implement WSGI support for Ironic API|Mon, 4 Jan 2016 16:39:25 -0500|Thu, 7 Jan 2016 15:05:04 -0500
+8ff1b22c5fc38cbfd7390c66c5fcfed94b0cd7e5|Merge "Allow to configure api_workers"|Thu, 7 Jan 2016 19:48:26 +0000|Thu, 7 Jan 2016 19:48:26 +0000
+58733046467c5500747ae6e187419b04a22de942|Merge "Add uefi_pxe_config_template parameter"|Wed, 6 Jan 2016 16:36:39 +0000|Wed, 6 Jan 2016 16:36:39 +0000
+3654632762e7f274b31d17e587485999adf3e166|Allow to configure api_workers|Sat, 2 Jan 2016 07:51:01 -0500|Wed, 6 Jan 2016 10:53:36 -0500
+271da81d458ecb92c17a613b354e73e6c06f8ff6|Enable changing list of inspection collectors|Mon, 4 Jan 2016 13:13:58 +0100|Wed, 6 Jan 2016 12:54:19 +0100
+401a1e144975821d7223a07ff804934968fe4bc6|Merge "Add ironic::keystone::auth_inspector"|Tue, 5 Jan 2016 17:44:07 +0000|Tue, 5 Jan 2016 17:44:07 +0000
+8ce321ae46d76f0cf93e951f5ab716484534cbee|Add uefi_pxe_config_template parameter|Mon, 4 Jan 2016 16:10:31 +0000|Tue, 5 Jan 2016 15:54:16 +0000
+739a22f4219a9eb230b89cff634330ef139d14b0|Add ironic::keystone::auth_inspector|Fri, 4 Dec 2015 08:24:37 -0500|Mon, 4 Jan 2016 15:56:45 -0500
+81b70e55e293ff269b0601483d2f8a4583bcde97|Remove duplicate rabbit_virtual_host|Mon, 4 Jan 2016 13:24:40 +0000|Mon, 4 Jan 2016 13:26:41 +0000
+efaf9daa1bf967927a37188525482c847be45015|Do not use notify for db-sync from main init class|Thu, 24 Dec 2015 14:01:41 +0300|Thu, 24 Dec 2015 11:34:08 +0000
+1777e6c0316b6643d27e2e7efcc2bd5b26c01bd4|Make Keystone_endpoint match service by name/type|Mon, 21 Dec 2015 20:10:34 +0100|Tue, 22 Dec 2015 18:07:28 +0100
+12e15ba21a296ac9778754ff3db6187a9c503045|Add uefi_pxe_bootfile_name parameter|Thu, 17 Dec 2015 10:39:35 -0500|Thu, 17 Dec 2015 10:39:35 -0500
+2c8397256728024860fa9f9a2018b4b5f0d21f15|Merge "Support of PyMySQL driver for MySQL backend"|Thu, 10 Dec 2015 17:43:57 +0000|Thu, 10 Dec 2015 17:43:57 +0000
+5e9044ade7feb52255186e7b4c697a21394a490e|Merge "[inspector] Specify SELinux type context for tftp dir"|Thu, 10 Dec 2015 17:26:57 +0000|Thu, 10 Dec 2015 17:26:57 +0000
+9f3ccc154f0cfe5adfbc0d870635da6be5ec3d3f|Merge "Remove unused cluster_id parameter"|Thu, 10 Dec 2015 02:40:52 +0000|Thu, 10 Dec 2015 02:40:52 +0000
+27200f7ef0765a7d30f42f659f8871b20a037575|Fix typo in CHANGELOG file|Wed, 9 Dec 2015 16:27:08 +0300|Wed, 9 Dec 2015 16:27:28 +0300
+62eeed05093434d5ee3ac269b99ff21b6c8a4301|Remove unused cluster_id parameter|Mon, 7 Dec 2015 19:40:22 -0700|Mon, 7 Dec 2015 22:50:52 -0700
+3b26d37308dc479c1c44f5ecd0291fe52ed4a5ce|Merge "Remove qpid messaging support"|Tue, 8 Dec 2015 03:04:02 +0000|Tue, 8 Dec 2015 03:04:02 +0000
+52cf1ca6c1e0c38a1a1616d45d630f2efd6e46e6|Remove qpid messaging support|Thu, 3 Dec 2015 19:57:38 +0300|Mon, 7 Dec 2015 20:35:06 +0300
+74a7e8b961dcfc5356fadc004e070d6e90b2daa1|Merge "Remove references to puppet-openstack from README"|Mon, 7 Dec 2015 16:15:25 +0000|Mon, 7 Dec 2015 16:15:25 +0000
+7295160b34ef0b894d4cc8da59542a8014ab6be5|Support of PyMySQL driver for MySQL backend|Mon, 16 Nov 2015 18:15:34 +0100|Thu, 3 Dec 2015 10:14:25 +0100
+d9611fab1c512fe7f5771472d0cfba825c39c4d8|[inspector] Specify SELinux type context for tftp dir|Thu, 12 Nov 2015 09:08:46 -0500|Wed, 2 Dec 2015 13:12:00 -0500
+ed22b3c1b1f7772306c34400e9b3c46217ef6e03|Merge "Ironic $::os_service_default for db and logging"|Mon, 30 Nov 2015 20:28:34 +0000|Mon, 30 Nov 2015 20:28:34 +0000
+7c8bdccc037957a927e8a0b7ec6871df725a3e14|Checkout openstack-integration from master|Thu, 26 Nov 2015 11:22:24 +0100|Thu, 26 Nov 2015 11:22:24 +0100
+a7d945f624f03ddbda17c523ff0bf6d63e919887|release: prepare 7.0.0 (liberty)|Wed, 25 Nov 2015 16:05:57 +0100|Wed, 25 Nov 2015 16:05:57 +0100
+4fbee7da578c7eb88e3642442e553c6ddbfa8fc9|Ironic $::os_service_default for db and logging|Tue, 24 Nov 2015 12:01:54 +0000|Wed, 25 Nov 2015 13:50:46 +0000
+cf565754a1237817b7728639e0bf30c9293772f7|Merge "Add BOOTIF=${mac} to the inspector iPXE template"|Wed, 25 Nov 2015 11:14:57 +0000|Wed, 25 Nov 2015 11:14:57 +0000
+2586788e89b04e9d99f561399006a9eb04af9a41|Remove references to puppet-openstack from README|Sat, 21 Nov 2015 18:17:34 +0000|Sun, 22 Nov 2015 16:30:02 +0000
+8d9730a593d0141dad80f511488c66583af8fc55|Add BOOTIF=${mac} to the inspector iPXE template|Thu, 19 Nov 2015 15:57:14 +0100|Thu, 19 Nov 2015 15:58:09 +0100
+5f9c8fc38485e9d974a889de7ea7cbbb1c51fa3c|Acceptance: use common bits from puppet-openstack-integration|Wed, 18 Nov 2015 17:59:03 +0100|Wed, 18 Nov 2015 17:59:03 +0100
+9d018baa5e415c6fb5dfb225313ae84faa82de5f|Remove class_parameter_defaults puppet-lint check|Thu, 12 Nov 2015 12:37:29 +0100|Thu, 12 Nov 2015 12:37:29 +0100
+2b4d27afa03c9ea71db2dc8a5f13503e95e941f7|Bump UCA and RDO to Liberty GA|Wed, 4 Nov 2015 10:12:28 -0500|Wed, 4 Nov 2015 10:12:28 -0500
+26c33c38a5fe17e3eff3327e6fe72f29361350f3|Merge "Change section name for AMQP rabbit parameters"|Wed, 28 Oct 2015 08:28:22 +0000|Wed, 28 Oct 2015 08:28:22 +0000
+b268514f7d676a0fb2c8358fac9f8a82557f34c5|Merge "Change section name for AMQP qpid parameters"|Sun, 25 Oct 2015 10:17:15 +0000|Sun, 25 Oct 2015 10:17:15 +0000
+cfdaced52a1d17fc229215bef787d88c95d1fa57|Change section name for AMQP rabbit parameters|Wed, 21 Oct 2015 20:15:35 +0300|Wed, 21 Oct 2015 20:16:01 +0300
+a563f31477e2dd95c6adc662d70f75927b447b5e|Update rspec tests for keystone|Wed, 21 Oct 2015 16:45:13 +0300|Wed, 21 Oct 2015 16:45:45 +0300
+090b50a5168edbede89778ae9d6d0a50e5d606f0|Change section name for AMQP qpid parameters|Wed, 21 Oct 2015 15:55:59 +0300|Wed, 21 Oct 2015 15:56:27 +0300
+0eb1f5841a2f670b17a6e75b8a6258474aede49f|Merge "db: Use postgresql lib class for psycopg package"|Wed, 21 Oct 2015 11:19:00 +0000|Wed, 21 Oct 2015 11:19:00 +0000
+098d998a9dd126ad0c19679c1234bc71517e071f|db: Use postgresql lib class for psycopg package|Tue, 20 Oct 2015 16:29:04 +0200|Tue, 20 Oct 2015 16:29:04 +0200
+e7c61668433b78a2831090c50c4afa6481a90e2d|Merge "Prepare 6.1.0 release"|Tue, 20 Oct 2015 13:23:44 +0000|Tue, 20 Oct 2015 13:23:44 +0000
+062f24a4f3abdc981f5eaede2bde26c024c780c8|Merge "Introduce ironic::db class"|Mon, 19 Oct 2015 23:45:24 +0000|Mon, 19 Oct 2015 23:45:24 +0000
+7ebf5145bfe565aaafce0ff17967969a1aeefb8c|Prepare 6.1.0 release|Thu, 15 Oct 2015 06:18:26 -0400|Mon, 19 Oct 2015 15:18:01 -0400
+93018353468db291aa79b30656df85cfe4dee554|Merge "Simplify rpc_backend parameter"|Thu, 15 Oct 2015 08:19:27 +0000|Thu, 15 Oct 2015 08:19:27 +0000
+d26ba53da9bf80886191d38982dcad9a4325f034|Introduce ironic::db class|Mon, 3 Aug 2015 11:11:16 +0200|Mon, 12 Oct 2015 15:14:32 +0200
+50ec0e11608930f5286ee0913d1cd6fde8bf8a55|Merge "Put all the logging related parameters to the logging class"|Mon, 12 Oct 2015 12:16:54 +0000|Mon, 12 Oct 2015 12:16:54 +0000
+1dec28363987473132ba767b2ad2edd9ccd54a90|Merge "Try to use zuul-cloner to prepare fixtures"|Sat, 10 Oct 2015 02:39:24 +0000|Sat, 10 Oct 2015 02:39:24 +0000
+8724c8f4a27e3e30fbae1e3dd1edfb573ffb652d|Simplify rpc_backend parameter|Fri, 9 Oct 2015 18:44:16 +0200|Fri, 9 Oct 2015 18:48:10 +0200
+faba2b9163c0e894d262bc26ed37e85f536c8f45|Try to use zuul-cloner to prepare fixtures|Thu, 8 Oct 2015 14:38:07 -0700|Thu, 8 Oct 2015 14:58:58 -0700
+0358830fa758847788e1b5aa0452cfb5725135ea|Add ironic-inspector support|Tue, 15 Sep 2015 11:13:38 -0400|Tue, 6 Oct 2015 09:17:41 -0400
+0900e0e10c959273adb4ee83f185696b632d8c82|Fix RSpec 3.x syntax|Thu, 1 Oct 2015 11:37:45 +0200|Thu, 1 Oct 2015 11:37:45 +0200
+40ca41aecd3893f9e632a11948d849207913de6a|Put all the logging related parameters to the logging class|Thu, 1 Oct 2015 09:14:17 +0200|Thu, 1 Oct 2015 09:14:17 +0200
+9c976a61d0ac9c7bbf2521c89ea9a01f9c4a0d63|Merge "Allow customization of db sync command line"|Thu, 24 Sep 2015 00:46:48 +0000|Thu, 24 Sep 2015 00:46:48 +0000
+3f3388f13f7bd99702992549d333c447e3ef057d|Merge "Add support for identity_uri."|Wed, 23 Sep 2015 23:47:17 +0000|Wed, 23 Sep 2015 23:47:17 +0000
+d3bfb42df7fa5a59d9870331be2e0ab12120b796|Bump RDO packages to tested repos|Tue, 22 Sep 2015 13:47:09 -0400|Tue, 22 Sep 2015 13:47:09 -0400
+b28cafe7183ddae7963f1436d5271bb8025c02f9|Allow customization of db sync command line|Tue, 8 Sep 2015 13:44:00 +0300|Mon, 21 Sep 2015 17:21:49 +0300
+490699ff66e26d4291c3460813170d69fa1556f5|Add support for identity_uri.|Mon, 14 Sep 2015 10:20:57 -0400|Mon, 14 Sep 2015 13:30:39 -0400
+557afd41e14671f409215261ccc879818c952a4c|Merge "acceptance: bump to Liberty"|Fri, 11 Sep 2015 10:24:57 +0000|Fri, 11 Sep 2015 10:24:57 +0000
+163509c05405b6d18292824beab241b70e11cc2d|acceptance: bump to Liberty|Thu, 10 Sep 2015 12:13:16 -0400|Thu, 10 Sep 2015 12:14:28 -0400
+883f4872202c9719d15075954b615375cc06cd18|Fix rspec 3.x syntax|Thu, 10 Sep 2015 12:06:15 +0200|Thu, 10 Sep 2015 12:06:49 +0200
+7f09ae46c15fe5fd97e39b85e7cdb63a83283c37|Merge "Put configuration files under configurable folder"|Thu, 27 Aug 2015 20:08:14 +0000|Thu, 27 Aug 2015 20:08:14 +0000
+5baf8d135ccf858df8a918461c730272f1f609d9|Put configuration files under configurable folder|Fri, 21 Aug 2015 10:48:28 +0000|Mon, 24 Aug 2015 18:48:47 +0000
+74e33ba9d539aec855036c3852d878641d803716|Merge "Reflect provider change in puppet-openstacklib"|Fri, 21 Aug 2015 20:39:48 +0000|Fri, 21 Aug 2015 20:39:48 +0000
+88556408022efa47a755339438a43ed15927c570|Merge "Initial msync run for all Puppet OpenStack modules"|Thu, 20 Aug 2015 01:13:36 +0000|Thu, 20 Aug 2015 01:13:36 +0000
+bb1bab5b2832b433111fde3dc574ebb8ff37e804|Reflect provider change in puppet-openstacklib|Thu, 6 Aug 2015 13:05:49 +0200|Wed, 19 Aug 2015 11:02:55 +0200
+a9717c4129383f1a84c1f38df83d9d8fee07feb8|Merge "acceptance: install openstack-selinux on redhat plateforms"|Tue, 18 Aug 2015 13:08:06 +0000|Tue, 18 Aug 2015 13:08:06 +0000
+db4b6afb7ab95118a1a2ee437672286b98048809|acceptance: enable debug & verbosity for OpenStack logs|Sun, 16 Aug 2015 09:50:01 -0400|Sun, 16 Aug 2015 09:50:01 -0400
+36cbfc0bccb8b8b110b98ff5c4bc19cbbc2bea65|acceptance: install openstack-selinux on redhat plateforms|Fri, 14 Aug 2015 17:24:36 -0400|Fri, 14 Aug 2015 17:24:36 -0400
+6a29e260bb5428cfdb63d371d5ee6febfe8605e7|Merge "Fixed the comment for port in ironic api.pp"|Fri, 14 Aug 2015 07:56:27 +0000|Fri, 14 Aug 2015 07:56:27 +0000
+69fa70013893a323a7cf62bc57963bd7a86bab04|Rely on autorequire for config resource ordering|Wed, 12 Aug 2015 10:36:13 +0200|Wed, 12 Aug 2015 19:07:12 +0200
+93c68b626f3b9c6d4d04ebba2250defef3e0cc12|Fixed the comment for port in ironic api.pp|Wed, 12 Aug 2015 11:31:08 +0800|Wed, 12 Aug 2015 11:33:17 +0800
+005d532a4f14f32603ecc6050e607380131be79b|Merge "Use openstack/ namespace for fixtures modules"|Tue, 11 Aug 2015 17:13:34 +0000|Tue, 11 Aug 2015 17:13:34 +0000
+e309ca66b3360db0008c899c55bc50c5888a095a|Use openstack/ namespace for fixtures modules|Tue, 11 Aug 2015 14:52:30 +0200|Tue, 11 Aug 2015 14:52:30 +0200
+558215949344dd476b00280e56aa799b4a1d7e59|Merge "Creation of ironic::db::sync"|Fri, 7 Aug 2015 19:10:30 +0000|Fri, 7 Aug 2015 19:10:30 +0000
+5e258816b20d226ab10f693e1edd920154310992|Initial msync run for all Puppet OpenStack modules|Tue, 4 Aug 2015 11:38:45 -0700|Thu, 6 Aug 2015 20:39:29 +0200
+5099c089882f49747cb151cd58e3cd00483dbd48|Merge "Update README.md for Ironic"|Thu, 6 Aug 2015 16:17:16 +0000|Thu, 6 Aug 2015 16:17:16 +0000
+d9a9a977fc271d1cb982686d4b7b816cff5edb6f|Merge "Add bifrost manifest"|Tue, 4 Aug 2015 18:11:04 +0000|Tue, 4 Aug 2015 18:11:04 +0000
+95eeb73c4c3cb54c337cf20f369c79ddbe2823a9|Add bifrost manifest|Wed, 15 Jul 2015 07:39:05 +0000|Tue, 4 Aug 2015 17:12:43 +0200
+e986414cc7e72ba30e0dd0fdf3a248612456c12f|Update README.md for Ironic|Fri, 31 Jul 2015 13:28:00 +0300|Fri, 31 Jul 2015 13:30:32 +0300
+48bf5c3adf0b3145c5c4e3332ab0d76bf2b6a3a3|Creation of ironic::db::sync|Mon, 29 Jun 2015 15:15:09 +0200|Thu, 23 Jul 2015 10:15:55 +0200
+49dc0e100f3a9a8d68fddc38133002977c9e2f3c|Add tag to package and service resources|Wed, 22 Jul 2015 11:13:55 +0200|Wed, 22 Jul 2015 20:27:38 +0200
+4ad6a50a4bcba6ea4c5719a58572409fdaad7ab6|Add ironic::config class|Mon, 20 Jul 2015 09:57:21 +0200|Mon, 20 Jul 2015 11:57:58 +0200
+19aa067e1d7a4a4cd81a576454e2759b769e52f0|Merge "Allow customization of force_power_state_during_sync"|Tue, 14 Jul 2015 18:21:40 +0000|Tue, 14 Jul 2015 18:21:40 +0000
+071aae6b00fefa2c2ff03534639b2f4a062ca7dd|Prepare 6.0.0 release|Thu, 9 Jul 2015 08:41:46 -0400|Thu, 9 Jul 2015 08:41:53 -0400
+886a9c0aa2c8ac6167e2d95a60c55bbd6977f82b|Fix git clone for locally running tests|Wed, 8 Jul 2015 11:40:45 -0700|Wed, 8 Jul 2015 11:56:36 -0700
+a440277c650f00e5c11d4b05b4ed13ce487ee49b|Merge "keystone/auth: make service description configurable"|Wed, 8 Jul 2015 16:20:44 +0000|Wed, 8 Jul 2015 16:20:44 +0000
+e3ba6ee11e7ddd5f4866b6153012557158a84917|Use module install script for acceptance tests|Tue, 7 Jul 2015 13:52:08 -0700|Tue, 7 Jul 2015 13:53:10 -0700
+4ef5ff1f4dea22c6a5a8b2c6573df11029f15f27|Use beaker-puppet_install_helper to install puppet|Tue, 7 Jul 2015 13:51:43 -0700|Tue, 7 Jul 2015 13:52:49 -0700
+3d0ad7e4802536990430d38fbb555f4653a429a3|Correct `puppet module list` check in beaker|Tue, 7 Jul 2015 13:48:25 -0700|Tue, 7 Jul 2015 13:48:25 -0700
+8700c82533ea638bfff3bea9177f25f9940a09bb|Allow customization of force_power_state_during_sync|Tue, 30 Jun 2015 13:13:50 +0200|Wed, 1 Jul 2015 15:12:37 +0200
+bde2b7cab24ea9242c600f38b75e8d6084874537|Update README.md for project namespace change|Mon, 22 Jun 2015 13:36:02 +0800|Sun, 28 Jun 2015 20:24:33 +0800
+b2575d903cba310147a9b57abf781a418e3cd3ae|Remove Release Notes section from README|Fri, 26 Jun 2015 14:41:17 -0700|Fri, 26 Jun 2015 15:22:17 -0700
+45c6ec17044057eec990a37acefa9613ec784555|lint: Fix lint issues (missing documentation for define types)|Thu, 25 Jun 2015 11:34:06 +0200|Thu, 25 Jun 2015 11:34:06 +0200
+960baa08d5c3d351ae40b86408fbf4612e5903f5|keystone/auth: make service description configurable|Fri, 22 May 2015 10:39:36 -0700|Thu, 25 Jun 2015 08:44:30 +0000
+00ed9a00ab0ccb9795b109fe3fc0c1dba82b0343|Fix Beaker CI according recent puppetlabs-rabbitmq change.|Wed, 24 Jun 2015 19:09:33 +0200|Thu, 25 Jun 2015 00:00:41 +0200
+e6b6062fcdcda04f54b5a95d695164a9424bc56e|Merge "Introduce public_url, internal_url and admin_url"|Tue, 16 Jun 2015 23:54:50 +0000|Tue, 16 Jun 2015 23:54:50 +0000
+5ff56c39f20bfb6e5d44dab74822da013c5b29b8|Merge "Update spec_helper_acceptance for project renames"|Mon, 15 Jun 2015 23:48:44 +0000|Mon, 15 Jun 2015 23:48:44 +0000
+b3a0032cf762ea11c7ef34a4987c96558cb60ab7|Update spec_helper_acceptance for project renames|Fri, 12 Jun 2015 17:36:18 -0700|Fri, 12 Jun 2015 17:36:18 -0700
+1e4c59f22a423aabb5608e18ba9cf3299c07a46f|Update .gitreview file for project rename|Fri, 12 Jun 2015 22:41:19 +0000|Fri, 12 Jun 2015 23:12:30 +0000
+ff4b7226557f580a29ded42b1942f16986d00c56|Introduce public_url, internal_url and admin_url|Thu, 11 Jun 2015 15:55:28 -0400|Thu, 11 Jun 2015 16:49:56 -0400
+7dde9ec4777746038c60012f8121b04a9246009b|Merge "Move rabbit/kombu settings to oslo_messaging_rabbit section"|Tue, 9 Jun 2015 17:11:23 +0000|Tue, 9 Jun 2015 17:11:23 +0000
+ff63db99996b052e57aff648adbbdd13ac459a08|Merge "db: Add postgresql support"|Tue, 9 Jun 2015 00:35:57 +0000|Tue, 9 Jun 2015 00:35:57 +0000
+34ffde4902a010c20ac2d2db22aa3645a69990ea|Unpin beaker-rspec|Mon, 8 Jun 2015 13:53:13 -0700|Mon, 8 Jun 2015 13:53:44 -0700
+af76d786f6ed87ce17b768b5f7d47e9bfa7eb4a4|Move rabbit/kombu settings to oslo_messaging_rabbit section|Tue, 14 Apr 2015 22:07:54 +0200|Mon, 8 Jun 2015 17:27:35 +0000
+4a81b07a062dbf7a7a9ba9b4f1c72ae61421b1e2|db: Add postgresql support|Fri, 22 May 2015 10:41:38 -0700|Fri, 22 May 2015 10:41:38 -0700
+78e0dc117ee77275f40dcda8dd060f1d6ca06499|Bring Redhat support to acceptance tests|Thu, 14 May 2015 14:09:40 -0400|Thu, 14 May 2015 14:36:55 -0400
+fc6b14d838b135924e010b7aa35a7a7de889c690|Beaker: install APT repo with openstack_extras|Thu, 14 May 2015 14:07:16 -0400|Thu, 14 May 2015 14:07:16 -0400
+0c859d8fc9a2fc790f20013e8668f520e01ef3a2|Beaker tests|Wed, 29 Apr 2015 13:51:51 -0400|Mon, 4 May 2015 15:28:18 -0400
+9e3a449a996bbf713d00560ec3d08bb7670fae65|Run dbsync as root and don't manage /etc/ironic & ironic.conf ownership|Fri, 1 May 2015 18:26:53 -0400|Mon, 4 May 2015 15:26:28 -0400
+16e35b28edb5cdf8dd8c78a752dd2c4d9a45f189|Fix spec tests for RSpec 3.x and Puppet 4.x|Tue, 28 Apr 2015 14:09:29 +0200|Tue, 28 Apr 2015 14:09:29 +0200
+0957f83d549b9c7a51ec34e9e8089b6625c0dad1|Bump rspec-puppet to 2.1.0|Wed, 22 Apr 2015 23:52:11 -0400|Wed, 22 Apr 2015 23:52:11 -0400
+96d1a1c0f08abb9787b9002706efd2ef9a94fa4f|Merge "MySQL: change default MySQL collate to utf8_general_ci"|Wed, 22 Apr 2015 14:46:45 +0000|Wed, 22 Apr 2015 14:46:45 +0000
+6e07d11c7a4dc6026341f75fd9124daf9a425f5a|MySQL: change default MySQL collate to utf8_general_ci|Tue, 21 Apr 2015 13:10:21 -0400|Tue, 21 Apr 2015 18:59:02 -0400
+dcd26f4d8c85e6a607c9d86ccb9991213ce03c2f|Merge "Fix rabbitmq support"|Mon, 30 Mar 2015 18:49:05 +0000|Mon, 30 Mar 2015 18:49:05 +0000
+952bed761bbf967e9298c4bbe6baca613b67af2d|Tag all Ironic packages|Sat, 28 Mar 2015 19:43:07 +0100|Sat, 28 Mar 2015 19:43:07 +0100
+2b73d57d212af46cbc400dea21e2f918a4d2495c|Fix rabbitmq support|Mon, 23 Feb 2015 15:00:31 +0100|Wed, 25 Mar 2015 08:47:43 +0100
+f1ca7eb98a959c6de8365913b3bd0624b85fc1e7|spec: updates for rspec-puppet 2.x and rspec 3.x|Fri, 20 Mar 2015 14:55:51 +0100|Tue, 24 Mar 2015 17:34:33 +0000
+1b44b7d826813a4628683754091774d945223ac2|Add Puppet 4.x lint checks|Fri, 20 Mar 2015 14:50:10 +0100|Fri, 20 Mar 2015 17:15:32 +0100
+ed805386c3276ff18a121e328b7781ee6673c0e5|Fix metadata.json lint issues|Fri, 20 Mar 2015 14:42:38 +0100|Fri, 20 Mar 2015 15:02:11 +0100
+036fb80b8dcf8aa62a0e52c0d2c5f0aad51eb3a4|Make user creation optional when creating service.|Fri, 20 Mar 2015 14:35:32 +0100|Fri, 20 Mar 2015 14:35:32 +0100
+d8db1bb8eec2758aef360a133541ab36469da7b0|Adds ability to override service name for service catalog|Fri, 20 Mar 2015 14:01:23 +0100|Fri, 20 Mar 2015 14:02:37 +0100
+e959e047595a116a34a3ed9d5b2020c32447e6d3|Expose enabled_drivers|Fri, 13 Feb 2015 21:07:35 -0500|Mon, 9 Mar 2015 14:57:24 -0400
+6733465482dc092486ee7d9227e9068fee506d6b|spec: pin rspec-puppet to 1.0.1|Tue, 3 Feb 2015 15:32:20 +0100|Tue, 3 Feb 2015 15:32:20 +0100
+2edcdcfbcc02e868982f2158d13a75037f8c702e|Merge "Fix Ironic modules so services properly run in Juno"|Mon, 26 Jan 2015 20:06:57 +0000|Mon, 26 Jan 2015 20:06:57 +0000
+7f5d4ed6940b5ee2371af02f1b8b09da7d3f0bfc|Fix Ironic modules so services properly run in Juno|Tue, 23 Dec 2014 08:21:27 -0500|Thu, 22 Jan 2015 17:10:39 -0500
+9aab12eab342b313881de6af9cd0d4e7c7dcdcd6|fixtures: Unpin puppetlabs-mysql module|Tue, 30 Dec 2014 19:44:20 +0100|Tue, 30 Dec 2014 19:44:20 +0100
+a34629f956c97fb99fd1a9fc74127db970d53e12|Refactorise Keystone resources management|Fri, 21 Nov 2014 10:28:40 -0500|Fri, 21 Nov 2014 10:28:40 -0500
+e6a2055fdc1ace2dee40ccd15523a091f85374e9|Merge "policy.json: Allow one to manage them from the puppet module"|Fri, 14 Nov 2014 16:56:21 +0000|Fri, 14 Nov 2014 16:56:21 +0000
+a8b26db75a67966085b6ae9c4a3c9fc03785a1db|policy.json: Allow one to manage them from the puppet module|Fri, 26 Sep 2014 19:06:18 -0400|Mon, 10 Nov 2014 15:06:03 -0500
+80f6900a92d0c5c873e5396131a67963d106e864|Switch to metadata.json for Puppet forge releases|Sat, 27 Sep 2014 11:34:03 +0200|Wed, 22 Oct 2014 15:53:25 +0200
+1c50fa5c9b4e53c7e80ca97b634f3e3d42a5711f|Update stdlib dependency to 4.x|Mon, 22 Sep 2014 15:04:44 -0700|Mon, 22 Sep 2014 15:19:25 -0700
+08f8dc5865859b8ff5144699966db154fe26018a|Migrate mysql backend to use openstacklib::db::mysql|Thu, 31 Jul 2014 11:51:11 -0700|Tue, 12 Aug 2014 11:21:18 -0700
+9ed545a0d8e2b216df636c7780335a8fc98f0602|Merge "Hide secrets from puppet logs"|Tue, 29 Jul 2014 22:50:01 +0000|Tue, 29 Jul 2014 22:50:01 +0000
+b32027728cadbba29013c8e514bdef00cc962573|Merge "Add arguments for configuring Keystone credentials"|Wed, 23 Jul 2014 10:16:06 +0000|Wed, 23 Jul 2014 10:16:06 +0000
+8012b9538fc9f58adae1cad9f8c03519695021b3|Hide secrets from puppet logs|Sat, 12 Jul 2014 02:27:54 +0200|Tue, 22 Jul 2014 13:10:18 +0000
+f8184a7846fcbfcc8e2603744f8da8fb11018af9|Add arguments for configuring Keystone credentials|Fri, 11 Jul 2014 09:56:10 +0200|Fri, 11 Jul 2014 10:21:29 +0200
+f95e82c4983eb26c21dfe22f32ae8dae3cdd497d|Remove circular dependency|Thu, 10 Jul 2014 15:46:11 +0200|Thu, 10 Jul 2014 16:14:05 +0200
+8b99c2c1d88f3cc5dcd4d50478e2322f61f1a260|Make Modulefile summary and description consistent|Wed, 2 Jul 2014 13:55:55 -0400|Thu, 3 Jul 2014 17:06:36 -0400
+4dc53fd12b5005f4878d844203d7683eb4d37746|Normalize Gemfile & pin tests to rspec < 2.99|Fri, 20 Jun 2014 07:56:59 -0400|Fri, 20 Jun 2014 09:15:22 -0400
+a9198897af8a989c0e63507bfc2487531e42f01e|Update contributors link according stackforge migration|Sat, 22 Feb 2014 15:01:47 +0100|Sat, 22 Feb 2014 15:02:50 +0100
+addd562b9d39b005f37df33cc7585969537fd5de|Fix readme typo|Fri, 21 Feb 2014 13:55:59 +0100|Fri, 21 Feb 2014 13:56:15 +0100
+36bf440a987e835b119395227507705d8699eab2|Merge "Ensure database backend package is installed"|Mon, 23 Dec 2013 19:55:47 +0000|Mon, 23 Dec 2013 19:55:47 +0000
+b631095d75504161fa8267a67a4ebd6133f3c6dd|Merge "Attempt to apply common rspec style"|Mon, 23 Dec 2013 19:55:41 +0000|Mon, 23 Dec 2013 19:55:41 +0000
+a4c9cdeb384260b2483eb3d522f367ef8cf9fdc4|Merge "Use database_ prefix for database parameters"|Mon, 23 Dec 2013 19:55:37 +0000|Mon, 23 Dec 2013 19:55:37 +0000
+ee298ab6ebf7a76f14b2f6332119e88b5d854c2d|Remove use of deprecated include_class matcher|Mon, 23 Dec 2013 02:19:41 -0500|Mon, 23 Dec 2013 02:23:48 -0500
+ba4df161b18c54fee96dbad1bc26045aab19c4f5|Ensure database backend package is installed|Wed, 4 Dec 2013 22:09:34 -0500|Mon, 23 Dec 2013 02:17:20 -0500
+cf0165bad6981296c90b28da47b0f7bf838e3a87|Attempt to apply common rspec style|Wed, 4 Dec 2013 21:48:32 -0500|Sun, 22 Dec 2013 23:18:48 -0500
+fc71256766707e96f249e5a3de6c06bdf2d8156d|Use database_ prefix for database parameters|Wed, 4 Dec 2013 21:30:48 -0500|Sun, 22 Dec 2013 23:17:13 -0500
+fb4eb2b6aef4470ad8638500685705858d4e4f80|Delete travis QA service|Thu, 5 Dec 2013 12:08:43 +0100|Mon, 9 Dec 2013 21:53:41 +0000
+ddf485b9b35b7527a9596e4649125d74f2461c65|Add Modulefile|Wed, 4 Dec 2013 21:54:00 -0500|Wed, 4 Dec 2013 21:54:00 -0500
+1e4d0bfead64767b90006fe7bddfc1d931fffa75|Rename nova by ironic|Mon, 2 Dec 2013 10:06:50 +0100|Mon, 2 Dec 2013 10:07:06 +0100
+38711e7910910592144516192df658ef41f5b1b8|Travis: Fix travis config typo|Mon, 2 Dec 2013 01:42:00 +0100|Mon, 2 Dec 2013 01:42:00 +0100
+5e268ff4bd436635ed799f9c733f8038d5c4c490|Fix travis config (launch rspec)|Mon, 2 Dec 2013 01:22:57 +0100|Mon, 2 Dec 2013 01:22:57 +0100
+b9f53100964b93849018c69f8040a13d01890d2f|Fix Readme|Sun, 1 Dec 2013 15:52:42 +0100|Sun, 1 Dec 2013 15:52:42 +0100
+c308fc3101520d5ddc5a8ff61d7e9d79d113b653|Update README for travis-ci|Sun, 1 Dec 2013 15:50:16 +0100|Sun, 1 Dec 2013 15:50:16 +0100
+1cc8b9d75757c5484ca089e7b159443c11d20f52|Add travis.yml|Sun, 1 Dec 2013 15:46:31 +0100|Sun, 1 Dec 2013 15:46:31 +0100
+f5c924daf828c35c3f81da96132fa0d887fc10c2|Init support|Sun, 1 Dec 2013 02:36:28 +0100|Sun, 1 Dec 2013 02:36:28 +0100
+0359371efc6ffcfd2211853de362bbe4efd3ee21|fixtures: fix spec tests|Sat, 30 Nov 2013 13:48:14 +0100|Sat, 30 Nov 2013 13:48:14 +0100
+1f87e7db086debedae55352ceb35dbe45c6c013c|Add gitignore file|Sat, 30 Nov 2013 02:24:45 +0100|Sat, 30 Nov 2013 02:24:45 +0100
+d042a22d4c26a9587be26dc728d6ec7dffe77945|Update Readme|Sat, 30 Nov 2013 02:22:11 +0100|Sat, 30 Nov 2013 02:22:11 +0100
+70771736b8ebf0237d7cb2d2b9cc675e482a35ca|Add stackforge support|Sat, 30 Nov 2013 01:42:44 +0100|Sat, 30 Nov 2013 01:42:44 +0100
+65faf63162c842c6e4c3eefff49cd0d2ee9ce5f6|API, Conductor, Drivers, Specs|Fri, 29 Nov 2013 21:58:27 +0100|Sat, 30 Nov 2013 01:08:04 +0100
+21fe9fd4c794d29bd67fab86932418ae4dc6c772|Small improvements|Fri, 29 Nov 2013 05:38:33 +0100|Fri, 29 Nov 2013 05:38:50 +0100
+78386ee756a3ea8bbb89174c7d850bd7e5ffd575|Update readme s/nova/ironic|Thu, 28 Nov 2013 18:01:22 +0100|Thu, 28 Nov 2013 18:01:22 +0100
+4b349bc5d7038ef9047427b9c2766a7a576a1ef9|update readme|Tue, 26 Nov 2013 17:53:56 +0100|Tue, 26 Nov 2013 17:54:46 +0100
+99ec6a778a8065edb2a8d13e9c8ee5fd41291623|params: fix osfamily RedHat|Tue, 26 Nov 2013 17:27:07 +0100|Tue, 26 Nov 2013 17:37:18 +0100
+6f3e70d24f295199fcc78f2ed27007a593bc1180|params: cosmetics (s/if/case)|Tue, 26 Nov 2013 17:26:07 +0100|Tue, 26 Nov 2013 17:26:07 +0100
+02cf11fe19d901b78697bcec06e4e8b6c387ab0f|spec: fix default keystone type for ironic|Tue, 26 Nov 2013 17:22:39 +0100|Tue, 26 Nov 2013 17:22:39 +0100
+ef20d2fb60bebbab9b1021c185bd1e346870d5cc|Add missing fixtures file|Tue, 26 Nov 2013 17:21:27 +0100|Tue, 26 Nov 2013 17:21:27 +0100
+a185248e99af86943896e5ae81a1c708ffc03ce9|Update README with WIP|Mon, 25 Nov 2013 21:01:46 +0100|Mon, 25 Nov 2013 21:01:46 +0100
+e5b4e458ab4c404ec3f1783589b543b6e7ed5e28|First commit with basic manifests|Mon, 25 Nov 2013 20:59:48 +0100|Mon, 25 Nov 2013 20:59:48 +0100
+0f0092dc0fc185bc0f6506687389331ada990410|Update README.md|Mon, 25 Nov 2013 18:20:04 +0100|Mon, 25 Nov 2013 18:20:04 +0100
+75329f9977c3e18c39be2c47637589dc88784602|Update README.md|Mon, 25 Nov 2013 18:19:49 +0100|Mon, 25 Nov 2013 18:19:49 +0100
+5071905110893e770e5991c8e7a0ed6cfec2e2bf|Initial commit|Mon, 25 Nov 2013 09:18:57 -0800|Mon, 25 Nov 2013 09:18:57 -0800

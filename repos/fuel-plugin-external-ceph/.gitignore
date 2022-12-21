@@ -1,0 +1,17 @@
+.tox
+.build
+*.pyc
+*.swo
+*.swp
+*.rpm
+.tmp
+.librarian
+*.lock
+
+apache
+apt
+ceph
+concat
+inifile
+stdlib
+

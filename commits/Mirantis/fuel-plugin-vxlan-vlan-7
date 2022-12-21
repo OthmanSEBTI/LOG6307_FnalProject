@@ -1,0 +1,26 @@
+4a9e8855fcd032f3051d9f4713ba86cf028fb1b0|Merge pull request #10 from oleksiialeksieiev/master|Tue, 2 May 2017 14:05:43 -0500|Tue, 2 May 2017 14:05:43 -0500
+2f8b37585a0a76203b609a1a96c6b7b97b322638|Updating metadata.yaml. MOS9 is supported now.|Mon, 1 May 2017 15:47:44 -0700|Mon, 1 May 2017 15:47:44 -0700
+886291c0ed78744f3d92a48d75da9dc1bf9dc96b|Merge pull request #9 from mitroko/master|Thu, 20 Oct 2016 13:12:09 -0500|Thu, 20 Oct 2016 13:12:09 -0500
+291ed2da1424f11c398cc1a89de61a9df88f0f31|Fix for bug in selector. Default setting should not be quoted.|Wed, 19 Oct 2016 15:04:20 +0300|Wed, 19 Oct 2016 15:08:39 +0300
+6c19cb349df58709af5a8ffefbbbe578bcf37d42|Merge pull request #8 from mitroko/master|Mon, 19 Sep 2016 11:07:50 -0500|Mon, 19 Sep 2016 11:07:50 -0500
+7474e01e4c9bbb06e4395d0da8ef1d8b102961e4|Fixing ml2 plugin ini path for liberty-8.0|Mon, 19 Sep 2016 17:10:20 +0300|Mon, 19 Sep 2016 17:10:20 +0300
+1fc92ce585da2d7b7556fefadce216147c11a450|Merge branch 'master' of ssh://github.com/mitroko/fuel-plugin-vxlan-vlan-7|Wed, 14 Sep 2016 18:22:24 +0300|Wed, 14 Sep 2016 18:22:24 +0300
+ac034be11faac369530556f4cf17447428d7083e|Updating README.md. MOS9 supported now.|Wed, 14 Sep 2016 13:01:43 +0300|Wed, 14 Sep 2016 18:20:22 +0300
+eac1bdbf1370d338b40261bbdc795271f37d4d3e|Updating README.md. MOS9 supported now.|Wed, 14 Sep 2016 13:01:43 +0300|Wed, 14 Sep 2016 13:01:43 +0300
+05aedf5402bc7a9a85eb503ef35748d0d9a3b303|Merge pull request #7 from mitroko/ml2_conf_path_fix|Fri, 19 Aug 2016 10:49:11 -0500|Fri, 19 Aug 2016 10:49:11 -0500
+c8116ea1078c3cca87963cd007ea3d2519ad48a1|Merge pull request #6 from mitroko/MOS9_template|Fri, 19 Aug 2016 10:48:18 -0500|Fri, 19 Aug 2016 10:48:18 -0500
+b752855af29deadbbb27265c350ec6ead7398b60|Merge pull request #4 from mitroko/lint_fix|Fri, 19 Aug 2016 10:47:29 -0500|Fri, 19 Aug 2016 10:47:29 -0500
+3fa2cbe4236843e0ad1c892fc10afa81fb0d9b84|Fixing path for ini_subsetting resource|Fri, 19 Aug 2016 18:41:16 +0300|Fri, 19 Aug 2016 18:41:16 +0300
+dd915fc8b5001f661ffa8780905f7e4d8bd7e7dc|MOS9 template|Fri, 19 Aug 2016 18:37:42 +0300|Fri, 19 Aug 2016 18:37:42 +0300
+02a6e31edbc122eb52590750e1d4708cbd0ab13d|Services names fix.|Fri, 19 Aug 2016 13:37:48 +0300|Fri, 19 Aug 2016 13:37:48 +0300
+8a8a318d5316dd52b0d774e0ed4fd6cc98a1b9fb|Puppet lint checks|Thu, 18 Aug 2016 15:02:10 +0300|Thu, 18 Aug 2016 15:02:10 +0300
+4b3ec0c18ff475fba9a412d725cb5da65896d52a|Merge pull request #3 from mitroko/DVR_template|Tue, 16 Aug 2016 10:33:41 -0500|Tue, 16 Aug 2016 10:33:41 -0500
+b9f7b9b37e4e2ddf03d55e93b68a15e8e3d4abe7|DVR template|Tue, 16 Aug 2016 18:01:23 +0300|Tue, 16 Aug 2016 18:01:23 +0300
+8063d35cf75035113809b93ad901ec77103977ee|Merge pull request #2 from mitroko/fix_metadata|Tue, 16 Aug 2016 09:23:58 -0500|Tue, 16 Aug 2016 09:23:58 -0500
+3a958d45ad9023e21478bb505d2b38d83c35d4e8|Metadata extraction fix|Tue, 16 Aug 2016 15:02:29 +0300|Tue, 16 Aug 2016 15:02:29 +0300
+dc5a700a93e40bcf7b8d512f0ffa057ee6aa14e4|Merge pull request #1 from mitroko/refactoring_1|Mon, 15 Aug 2016 11:48:27 -0500|Mon, 15 Aug 2016 11:48:27 -0500
+342d6b996405760f7f86d5a522b0440c85271982|Merge branch 'refactoring_1' of ssh://github.com/mitroko/fuel-plugin-vxlan-vlan-7 into refactoring_1|Mon, 15 Aug 2016 19:03:51 +0300|Mon, 15 Aug 2016 19:03:51 +0300
+7745a7227499b6190ffc30962652aa3c02936d36|Refactoring #1|Mon, 15 Aug 2016 18:37:51 +0300|Mon, 15 Aug 2016 19:00:57 +0300
+1167e277b8db91ecfd2764a2105c562c9f979945|Refactoring #1|Mon, 15 Aug 2016 18:37:51 +0300|Mon, 15 Aug 2016 18:48:13 +0300
+bbe4a4ce8883da2246d8fe07e415a7504ebf1fdc|Update README.md|Tue, 12 Apr 2016 12:18:33 +0300|Tue, 12 Apr 2016 12:18:33 +0300
+f26d7716d2e399c48f33bb044725ba077353be46|first commit|Mon, 11 Apr 2016 16:10:38 +0300|Mon, 11 Apr 2016 16:10:38 +0300

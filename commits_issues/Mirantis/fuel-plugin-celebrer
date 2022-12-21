@@ -1,0 +1,2 @@
+,sha,message,files,issues
+22,399591e67206504d7c53e2088a767ee36ef2ef6a,Merge pull request #1 from degorenko/patch-1,['deployment_scripts/puppet/manifests/server.pp'],['#1']

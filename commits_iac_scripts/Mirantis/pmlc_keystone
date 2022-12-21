@@ -1,0 +1,3 @@
+,sha,message,files
+0,1503555c4dfd380e432e7b18cc6b1830953d0663,Add SSL options for admin and public endpoint,"['manifests/config.pp', 'manifests/init.pp', 'manifests/params.pp', 'templates/keystone.conf.erb']"
+1,43efd9d2ca2d64a0a1bf5de59b7bfdd2f5e1d5dc,Initial commit,"['.fixtures.yml', '.gitignore', 'Gemfile', 'Modulefile', 'README.md', 'Rakefile', 'manifests/config.pp', 'manifests/init.pp', 'manifests/install.pp', 'manifests/params.pp', 'manifests/service.pp', 'spec/spec_helper.rb', 'templates/keystone.conf.erb', 'tests/init.pp']"

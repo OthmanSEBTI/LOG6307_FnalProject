@@ -1,0 +1,10 @@
+,sha,message,files
+0,2b531a7d972e80471d86aca1e39ed219613f3633,Fix install task order,['deployment_tasks.yaml']
+1,e6f34c6af5377c1c08110a6bdf73b6b0aa4ed5ca,Add 10.0 support,"['deployment_tasks.yaml', 'metadata.yaml']"
+2,8ce0461251cd44edbb4a319d023df89d65f53b0d,Switch to deployment_tasks.yaml,"['deployment_tasks.yaml', 'metadata.yaml', 'tasks.yaml']"
+3,af9c1a89098955ebe87eb46b0533f6659b42875c,Add 9.0 releases,['metadata.yaml']
+4,9ea66a9c967158e2b316a3c830b85c64188a68d4,Add current 9.0 master support,['metadata.yaml']
+5,d6b15e4aeb2864cb9e0281c89980d49f0e7594f1,Update description for etckeeper plugin,['metadata.yaml']
+6,98936c686c3b906ff3a72bd2d9c50416c24627de,Add userguide and fix commit task,"['.gitignore', 'README.md', 'deployment_scripts/etckeeper_commit.pp', 'doc/Makefile', 'doc/source/_static/7.0-settings.png', 'doc/source/_static/8.0-settings.png', 'doc/source/_static/deployment-success.png', 'doc/source/conf.py', 'doc/source/guide.rst', 'doc/source/index.rst', 'doc/source/installation.rst', 'doc/source/overview.rst']"
+7,64db1974602c2743a8140f6e5a488f401240b0f8,Fix release string for 8.0,['metadata.yaml']
+8,d0f70097fcb56a268de60cefeec8273d639b2fa9,Create etckeeper plugin,"['.gitignore', 'LICENSE', 'README.md', 'deployment_scripts/etckeeper_commit.pp', 'deployment_scripts/etckeeper_configure.pp', 'deployment_scripts/etckeeper_install.pp', 'deployment_tasks.yaml', 'environment_config.yaml', 'metadata.yaml', 'network_roles.yaml', 'pre_build_hook', 'repositories/centos/.gitkeep', 'repositories/ubuntu/.gitkeep', 'tasks.yaml', 'volumes.yaml']"

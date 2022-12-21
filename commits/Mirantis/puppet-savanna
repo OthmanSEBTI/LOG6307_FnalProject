@@ -1,0 +1,7 @@
+d7eb65ff8bd70f3e6e5c2af921844c86e49d49ee|manifest v 0.1 based on nova manifests from puppetlabs|Wed, 28 Aug 2013 11:04:01 +0300|Wed, 28 Aug 2013 11:04:01 +0300
+61df4b0b1f55c813a8b7b6dc9efc4c1023862e83|Use command 'echo' instead of 'sed'|Tue, 20 Aug 2013 19:37:00 +0400|Tue, 20 Aug 2013 19:37:00 +0400
+be3d74dd016888f0d6fcee71afabcd6833ec4f6f|Added spec files for Savanna-into-virtualenv|Fri, 16 Aug 2013 15:59:18 +0300|Fri, 16 Aug 2013 15:59:18 +0300
+b9312dbdf8595a5879ea74129a33bfb2ff6ddb60|Edit scripts as it needs for Fuel|Thu, 15 Aug 2013 15:55:13 +0400|Thu, 15 Aug 2013 15:55:13 +0400
+8d6026533b81f8788ab34b485036dc0475259bdd|Edit command 'sed' for database config|Wed, 7 Aug 2013 13:44:56 +0400|Wed, 7 Aug 2013 13:44:56 +0400
+bc8b766e3c1ceeb1499a6095d76245a9869451eb|Basic structure, preparing environment, Savanna installation, database|Tue, 6 Aug 2013 19:20:27 +0400|Tue, 6 Aug 2013 19:20:27 +0400
+021f3596d30e953c06d5fe1e61d92fa81ece784a|Initial commit|Tue, 30 Jul 2013 01:20:17 -0700|Tue, 30 Jul 2013 01:20:17 -0700

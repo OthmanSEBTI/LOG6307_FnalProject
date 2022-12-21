@@ -1,0 +1,548 @@
+28fdb633b6a638b51b0ccbc08a03af78fef8fb30|Release new version 0.18.4|Thu, 17 Aug 2017 14:52:16 +0200|Thu, 17 Aug 2017 14:52:16 +0200
+e98da4b8682b86a87b52a151810ec0a76d7051d1|Bump Standards-Version to 4.0.1|Thu, 17 Aug 2017 14:51:38 +0200|Thu, 17 Aug 2017 14:51:38 +0200
+5d02459e9a1a9119812380cb5779bbb59063c651|tap: avoid deep inspection of scripts by dropping file(1)'s `--keep-going` option|Wed, 2 Aug 2017 15:57:26 +0200|Wed, 2 Aug 2017 16:03:53 +0200
+c6c8c0246f57f18e36fbc47350cf37b4e964ba56|puppet: workspace cleanup plugin depends on further plugins|Thu, 20 Jul 2017 22:42:08 +0200|Fri, 21 Jul 2017 00:06:18 +0200
+a3b8324ad22fed201a9eb00c1109736e0bddf31a|spelling fix|Thu, 13 Jul 2017 21:45:51 +0200|Thu, 13 Jul 2017 21:45:51 +0200
+2f939f25dfa0914801fe88398fcee594c8676ff2|puppet: further changes to work with recent puppet versions|Wed, 31 May 2017 11:59:28 +0200|Wed, 31 May 2017 12:43:41 +0200
+2061ac0166d638bbcb4ae3585b328dddbfad28ab|puppet: rework apt-get/apt-key handling to work with recent puppet versions|Wed, 31 May 2017 11:31:54 +0200|Wed, 31 May 2017 12:42:07 +0200
+a9ab3f46ef8715c8a73e5d98827ae5320071b29e|puppet: ensure that jenkins + jenkins-debian-glue packages are installed and only then report a successful run|Wed, 31 May 2017 11:30:25 +0200|Wed, 31 May 2017 11:30:25 +0200
+b4b82aea10023643f668bb6ba690d4a0be8742fa|Release new version 0.18.3|Thu, 27 Apr 2017 18:31:23 +0200|Thu, 27 Apr 2017 18:31:23 +0200
+12e873dca3334017878480ba0871abb11c122af9|Further regression fixes for commit 8fe677820fae2 WRT dpkg-buildpackage options|Thu, 27 Apr 2017 17:25:29 +0200|Thu, 27 Apr 2017 17:39:29 +0200
+066a1c0e4d708b36481ae5c0815854530d7010bb|puppet: no longer run wget with --no-check-certificate|Wed, 12 Apr 2017 17:27:40 +0200|Wed, 12 Apr 2017 17:53:47 +0200
+5a7d041202ca2962d8667b986ebc6023270e2ce6|puppet: switch from jenkins-ci.org to jenkins.io|Wed, 12 Apr 2017 17:24:03 +0200|Wed, 12 Apr 2017 17:24:03 +0200
+d210c1406a13171ad9ba16a09cf0dcf08fb0594a|Fix regression from commit 8fe677820fae2 to apply safe dpkg-buildpackage defaults|Wed, 22 Mar 2017 22:37:05 +0100|Thu, 23 Mar 2017 13:41:14 +0100
+b7075523e4c3c258000bee10ba039509ea18515e|build-and-provide-package: fix trunk_release if SKIP_REPREPRO_WRAPPER|Mon, 13 Mar 2017 09:43:08 +0100|Tue, 14 Mar 2017 16:53:36 +0100
+a7b350e6afc3209d5e81d4879ee8ad18fcdc0d65|scripts: SIGKILL cannot be trapped|Fri, 10 Mar 2017 17:12:02 +0100|Fri, 10 Mar 2017 17:15:47 +0100
+42a7ea8f947db0b1bbe877635a3a64029225f584|Support skipping reprepro wrapper via SKIP_REPREPRO_WRAPPER|Fri, 10 Mar 2017 17:10:32 +0100|Fri, 10 Mar 2017 17:10:32 +0100
+16ec0f39237e36a588edd0ce619f3defcbb3442e|Support SKIP_SOURCE_REMOVAL to not remove source package in binary only package builds|Fri, 24 Feb 2017 16:43:33 +0100|Fri, 24 Feb 2017 16:45:28 +0100
+6cd165a2ea10a7becb57f18fe33108c29e73b3e5|deployment: fail if we don't have a FQDN to avoid runtime errors later on|Wed, 8 Feb 2017 15:56:49 +0100|Wed, 8 Feb 2017 15:59:44 +0100
+7daf7366f81b0fcedcd5aef281c7f9f1ce3d78fe|Release new version 0.18.2|Tue, 24 Jan 2017 22:13:57 +0100|Tue, 24 Jan 2017 22:13:57 +0100
+8fe677820fae2a195e2dccace10b19edde8dc200|Don't override filter regexs|Wed, 30 Nov 2016 19:58:57 -0500|Wed, 30 Nov 2016 19:58:57 -0500
+bfd5b1f7da3f2043b092b7807ad76325db29b907|Release new version 0.18.1|Fri, 18 Nov 2016 11:30:06 +0100|Fri, 18 Nov 2016 11:30:06 +0100
+f59be8919f0bd51d0e580b5b5c03575bc4b91564|Bump debhelper compat version to v9|Fri, 18 Nov 2016 11:29:31 +0100|Fri, 18 Nov 2016 11:29:37 +0100
+5673a28e4e7e9bdb9db1d8c56d108c7981b3f2e0|Don't fail when hitting .buildinfo files in reprepro's incoming stage|Thu, 17 Nov 2016 01:24:05 +0100|Thu, 17 Nov 2016 01:25:03 +0100
+e6373df6db82389a1a5bfa4017caa9a3efb284d5|Include .buildinfo files in list of artifact files|Thu, 17 Nov 2016 00:28:53 +0100|Thu, 17 Nov 2016 00:28:53 +0100
+798fdf6cd8fcc1692c5b41a409d518d13a255e5d|build-and-provide-package: enable builtin support for eatmydata in pbuilder|Mon, 7 Nov 2016 23:48:03 +0100|Mon, 7 Nov 2016 23:48:03 +0100
+ab3f255abaac8dd3b347d06b118e7bc03bdeeec7|puppet: warn users of automated installations regarding missing jenkins plugin dependencies|Fri, 14 Oct 2016 16:20:55 +0200|Fri, 14 Oct 2016 16:23:03 +0200
+cbd5c0984e7b3784ab059eb5185dbb2d91278ce3|puppet: ensure display-url-api plugin is installed|Fri, 14 Oct 2016 15:46:23 +0200|Fri, 14 Oct 2016 16:22:52 +0200
+9221f9c8ef206108daf67a1f36a374ef667e4a76|generate-svn-snapshot: avoid mergeWithUpstream failure with recent subversion versions|Fri, 14 Oct 2016 15:34:15 +0200|Fri, 14 Oct 2016 15:34:15 +0200
+94ea6334e41168c30479f490863e3c4888da7cfb|build-and-provide-package: make sure to remove pbuilderrc|Mon, 3 Oct 2016 10:43:50 +0100|Mon, 10 Oct 2016 21:34:31 +0200
+986fe7f49d6150f450e3375e6f6f41679a8b8913|build-and-provide-package: use mktemp rather than PID for directory name|Mon, 3 Oct 2016 09:50:57 +0100|Mon, 10 Oct 2016 21:34:31 +0200
+8d13d2c3c9ff327f956315d603b7279dfbdac7e1|build-and-provide-package: don't create freight dirs unnecessarily|Mon, 3 Oct 2016 09:50:54 +0100|Mon, 10 Oct 2016 21:34:31 +0200
+5cf12e58b18117b1ba692e21d7276829e6ab91d2|build-and-provide-package: fix a typo wrt freight|Mon, 3 Oct 2016 09:50:50 +0100|Mon, 10 Oct 2016 21:34:31 +0200
+02a8ec4d02ff2c432a9ff8f1c24cf25cbf828f9d|jdg-debc: works for foreign architecture packages|Mon, 3 Oct 2016 09:50:37 +0100|Mon, 10 Oct 2016 21:34:31 +0200
+fef7d5ab0a2ad79f50b15f711a0cc3dbbd4ee200|Release new version 0.18.0|Tue, 4 Oct 2016 14:20:42 +0200|Tue, 4 Oct 2016 14:20:42 +0200
+0f436f220cd2b474ccd222bde755a5ec2f2be490|Bump Standards-Version to 3.9.8|Tue, 4 Oct 2016 14:20:02 +0200|Tue, 4 Oct 2016 14:20:02 +0200
+737e4e950ae4b0e5a44de0d0e8f30f448f339f46|generate-git-snapshot: do not fail with branch specifier being a commit ID|Tue, 4 Oct 2016 14:13:50 +0200|Tue, 4 Oct 2016 14:13:50 +0200
+59e1a99c797c1cb7bf6ae44d8504bdf7ab0d9a11|Avoid dpkg-architecture usage for identifying host architecture|Tue, 4 Oct 2016 13:56:37 +0200|Tue, 4 Oct 2016 13:56:37 +0200
+6561c543db6e0d22485f0ae787378c7d003dda6d|take into account .udebs in remove_packages()|Wed, 28 Sep 2016 16:25:40 +0200|Wed, 28 Sep 2016 16:25:40 +0200
+16f0ba5565435e12cb211c686bd5a49cb073252e|Adjust runtime detection to properly work with LXC hosts|Tue, 16 Aug 2016 20:14:15 +0200|Tue, 16 Aug 2016 20:14:15 +0200
+96fe9fe79d5231cac7b2771ca4743542ebe4bbfc|puppet: install antisamy-markup-formatter plugin for HTML markup support|Wed, 10 Aug 2016 12:36:35 +0200|Wed, 10 Aug 2016 12:36:35 +0200
+db599984f8cad35a230aed4138d849d26c396838|puppet: update dependencies for git, ws-cleanup + ssh-agent Jenkins plugins|Wed, 10 Aug 2016 11:39:37 +0200|Wed, 10 Aug 2016 11:39:37 +0200
+09a78f2e1647475fea871f99f714e0680b4b7657|generate-git-snapshot: support DCH_CHANGELOG_FILE to change path for git-dch|Thu, 21 Apr 2016 17:28:59 +0200|Mon, 25 Apr 2016 09:36:53 +0200
+c1e13b9c3c6644e0bba89568874468cb78a7f016|Adding SKIP_MISSING_BINARY_REMOVAL to prevent removal of binary packages not belonging to the currently built source package.|Fri, 22 Apr 2016 11:32:52 +0000|Sun, 24 Apr 2016 18:32:08 +0000
+f9b1fc84d1d4010f8bc472abe2ea0df66c954550|puppet: update list of Jenkis plugins to satisfy dependencies|Mon, 4 Apr 2016 14:31:41 +0200|Mon, 4 Apr 2016 14:31:41 +0200
+e890efc47100b2078e662a6eeb3d356c9d5b945c|Release new version 0.17.0|Mon, 14 Mar 2016 21:33:51 +0100|Mon, 14 Mar 2016 21:33:51 +0100
+8e81ada5d8e12ae9c6d7873b19c22e0effdbb4a0|Bump Standards-Version to 3.9.7|Mon, 14 Mar 2016 21:33:39 +0100|Mon, 14 Mar 2016 21:33:39 +0100
+12a45c56275be23541b3509706146ee349acdd37|Vcs-Git header: replace git with more secure https version|Mon, 14 Mar 2016 21:32:46 +0100|Mon, 14 Mar 2016 21:32:46 +0100
+a490dbbe27d2888a7881252d905b149e269673ae|Fix permissions of keyring.gpg in D20releaserepo.|Sat, 12 Mar 2016 18:15:46 +0100|Sat, 12 Mar 2016 18:15:46 +0100
+d3a0dc30528f90b12a80277a84bac0a5aa661eb8|puppet: end sources.list snippets with newlines.|Mon, 8 Feb 2016 14:51:02 +0100|Tue, 9 Feb 2016 13:13:22 +0100
+5a6c4d6e8e243bc8d1c9263430898f077f9dae80|Support choosing distribution/codename via $RELEASE_DISTRIBUTION|Mon, 8 Feb 2016 20:15:49 +0100|Mon, 8 Feb 2016 20:29:50 +0100
+8c422f079d7cc08738c7d3c758aa68f1fec4dbe9|build-and-provide-package: support RELEASE_REPOSITORIES|Mon, 8 Feb 2016 17:39:46 +0100|Mon, 8 Feb 2016 17:39:46 +0100
+ea83f076e511256823413fc59f687e3b42d6d53e|Support usage of a reprepro wrapper script via REPREPRO_CMD|Wed, 13 Jan 2016 10:39:33 +0100|Wed, 13 Jan 2016 10:39:33 +0100
+f33c054279985fe737cc584aa905aa3c05eca490|Update copyright information (hello 2016)|Thu, 7 Jan 2016 13:46:46 +0100|Thu, 7 Jan 2016 13:46:46 +0100
+aba7d289beee587812b59742b4de9ab3647e53a4|Release new version 0.16.0|Thu, 7 Jan 2016 11:13:47 +0100|Thu, 7 Jan 2016 11:13:47 +0100
+0d872a2840e7ffbd4a41c3463559531f1a519582|pbuilder-hookdir/C10shell: support pbuilder >=0.216|Fri, 25 Dec 2015 20:43:57 +0100|Fri, 25 Dec 2015 20:43:57 +0100
+2614b2069a1996a3517167dd761abe4a624d05f9|reprepro: processincoming doesn't handle --ignore=surprisingbinary yet|Mon, 21 Dec 2015 11:35:37 +0100|Mon, 21 Dec 2015 11:35:37 +0100
+d00f953edb760ea0bb3e8cc11f951faedc37a189|reprepro: use --ignore=surprisingbinary to support automatic debug symbols|Mon, 21 Dec 2015 11:11:30 +0100|Mon, 21 Dec 2015 11:14:58 +0100
+b07e12182e2014415c227672c88b0267f2e85400|Fix TAP format pep8_tap output|Wed, 18 Nov 2015 14:25:04 +0100|Wed, 18 Nov 2015 14:25:04 +0100
+4f81b3e45d1f07e8e8d52c6d5df51a98fb22a1ea|Support skipping cowbuilder updates via SKIP_COWBUILDER_UPDATE=true|Wed, 28 Oct 2015 10:40:41 +0100|Wed, 28 Oct 2015 10:40:41 +0100
+59a317113ce2093dc13cc3f1feca9698e1a8db52|Add an option for enforcing Git commit in package version|Mon, 28 Sep 2015 18:32:53 +0200|Tue, 29 Sep 2015 00:02:07 +0200
+1e15d10262ea1179d2483e887d19a4609f9324a8|Allow customization of generated timestamp in package version|Mon, 28 Sep 2015 18:28:52 +0200|Mon, 28 Sep 2015 18:28:52 +0200
+49d2a4d520d3f045e7b93305aafbac5e51bcc0a4|Release new version 0.15.2|Thu, 17 Sep 2015 11:42:02 +0200|Thu, 17 Sep 2015 11:42:02 +0200
+6d02e564958fb800e20ddcea7fbef81a5ac204f1|generate-git-snapshot: support git-buildpackage >=0.6.24|Thu, 17 Sep 2015 11:38:03 +0200|Thu, 17 Sep 2015 11:38:03 +0200
+3e4e665e1d0bddc94f71a93568d5c60093f07e64|Release new version 0.15.1|Thu, 10 Sep 2015 22:15:12 +0200|Thu, 10 Sep 2015 22:15:12 +0200
+08710a4878b31e3e67e8f1c0f250027b8add849b|B20autopkgtest: fix order of adt-run tests on command line|Thu, 10 Sep 2015 21:58:35 +0200|Thu, 10 Sep 2015 22:13:31 +0200
+254809ca05da4586abde986bc6158ccc3a1073bd|tap_tool_dispatcher: fix command line handling for file-list|Fri, 4 Sep 2015 17:12:28 +0200|Fri, 4 Sep 2015 17:12:28 +0200
+8aa6aab2ae056ec7f9fbe63b394987297dadbcf1|tap_tool_dispatcher: support BASE_BIN to control location of *_tap scripts|Fri, 4 Sep 2015 15:09:45 +0200|Fri, 4 Sep 2015 16:23:28 +0200
+129b2265b7404e5748b050969ba4010477213c30|tap_tool_dispatcher: add --file-list option|Fri, 4 Sep 2015 15:07:08 +0200|Fri, 4 Sep 2015 16:22:47 +0200
+d86a214db05416a3780de0f048dc6c1dcbae5c02|Release new version 0.15.0|Fri, 28 Aug 2015 16:19:49 +0200|Fri, 28 Aug 2015 16:19:49 +0200
+89d3400a2d8e655b8a58d9851ccc09e5af47e0d2|Update informational message regarding sub-directory checkout for Git (Closes #107)|Fri, 28 Aug 2015 15:42:49 +0200|Fri, 28 Aug 2015 15:42:49 +0200
+fdd0c850090805792e9604eb46b41dc7ba1494ae|Use debian-archive-keyring when building for recent Debian on Ubuntu (Closes #130)|Thu, 20 Aug 2015 13:56:12 +0200|Fri, 28 Aug 2015 15:28:17 +0200
+469a1ed79fa6192b0d8f76331c0d05b2f6f501e3|Ensure that eatmydata version on host is recent enough|Fri, 28 Aug 2015 15:12:40 +0200|Fri, 28 Aug 2015 15:12:40 +0200
+a1cba38ff73dda3ec6d6d1ad326f886a4381d4f8|Rename global REPOSITORY to DEFAULT_REPOSITORY to support overwriting it on demand (Closes #94)|Fri, 28 Aug 2015 14:24:13 +0200|Fri, 28 Aug 2015 14:47:48 +0200
+220f87ed1822268e2f4c29d957a03982dacf7207|Support eatmydata (automatically enabled if host + distribution needs match) + ccache|Fri, 28 Aug 2015 11:13:06 +0200|Fri, 28 Aug 2015 12:04:56 +0200
+d243f8f565cf96b8479e3502b6de8c4a560d9482|Release new version 0.14.2|Thu, 27 Aug 2015 23:29:51 +0200|Thu, 27 Aug 2015 23:29:51 +0200
+a410fbb9b0923f2b05a15f023abbad09f1682a2d|Drop /var/cache/pbuilder/build from default bindmounts|Thu, 27 Aug 2015 22:55:01 +0200|Thu, 27 Aug 2015 22:55:01 +0200
+a12c01db631aa8522635eb8a3b8b6ca39fbf7786|Explicitly set umask to avoid running into cowbuilder bug #531885|Thu, 27 Aug 2015 10:01:41 +0200|Thu, 27 Aug 2015 10:01:41 +0200
+10fc68862c955d7602910e034278c23d92aab04d|Release new version 0.14.1|Mon, 24 Aug 2015 22:08:45 +0200|Mon, 24 Aug 2015 22:08:45 +0200
+f7235ed37e8c019dc6845b7c5fddd4ccc392785a|libperl-critic-perl in Depends is unneeded, Recommends is enough|Mon, 24 Aug 2015 22:07:54 +0200|Mon, 24 Aug 2015 22:07:54 +0200
+9bb89c85e820a11b6cd187090842cb65f7f76c84|Replace my business mail address with my debian.org one|Mon, 24 Aug 2015 22:03:38 +0200|Mon, 24 Aug 2015 22:03:38 +0200
+4b6063572a075ac06f6b326286535b89279b4ee0|tap_tool_dispatcher: fix path for checkbashism_tap check|Mon, 24 Aug 2015 18:36:55 +0200|Mon, 24 Aug 2015 18:36:55 +0200
+740c8b969cb27015e3c021c52a8c65faf5ed064d|Do not skip dist_and_arch_settings in PROVIDE_ONLY mode|Mon, 24 Aug 2015 18:05:38 +0200|Mon, 24 Aug 2015 18:05:38 +0200
+38b3c1ce1d797c6ca64d738866ae3ee47b8ea3ca|The package is named libperl-critic-perl, not perlcritic|Mon, 24 Aug 2015 16:02:35 +0200|Mon, 24 Aug 2015 16:04:01 +0200
+e5a39b432d50c20543be36a68e3e2f867992df14|tap_tool_dispatcher: keep existing behaviour by not removing empty directories|Mon, 24 Aug 2015 15:16:03 +0200|Mon, 24 Aug 2015 15:18:40 +0200
+1862af3c22e39493c8ac3b04dc2f7c515cc956ec|Drop jenkins-debian-glue-buildenv-* from Provides|Mon, 24 Aug 2015 10:33:59 +0200|Mon, 24 Aug 2015 10:34:00 +0200
+4025da34b28ed6ac0d6b55905f5376ec32c129fe|Support parallel from moreutils as alternative to GNU parallel|Mon, 24 Aug 2015 10:22:42 +0200|Mon, 24 Aug 2015 10:22:44 +0200
+d41454919976d4a6053703d4dda8a0322e297299|Conflict with old jenkins-debian-glue-buildenv-* to fix upgrade issues|Mon, 24 Aug 2015 10:21:32 +0200|Mon, 24 Aug 2015 10:21:37 +0200
+3da4c8a85a9e3afd45ac8ae391c425b2b21aaf8a|Support disabling specific tap tool checks (Closes #132)|Sat, 22 Aug 2015 15:03:46 +0200|Sat, 22 Aug 2015 15:20:43 +0200
+b9b7c13255ef064ee23df8a2e72fed84e26d049b|Get rid of cowbuilder environment if creating it failed|Fri, 21 Aug 2015 10:32:54 +0200|Sat, 22 Aug 2015 14:18:30 +0200
+21255fe5a68d1475cdd3b48ea0f53e8dc6085912|Release new version 0.14.0|Sat, 22 Aug 2015 13:00:30 +0200|Sat, 22 Aug 2015 13:00:30 +0200
+e9e533c2ce4a448b5351795095b50ccc1ba64984|Get rid of mount bind for autopkgtest (Closes #123)|Wed, 19 Aug 2015 00:31:54 +0200|Sat, 22 Aug 2015 12:49:15 +0200
+0aebca1938381c7596b76b21645f4e2a70b33ce5|Get rid of generate-reprepro-codename lockfile|Sat, 22 Aug 2015 12:48:26 +0200|Sat, 22 Aug 2015 12:49:11 +0200
+1a1102caea4896506986d2d597f384e6d87e28df|Update debian/copyright|Sat, 22 Aug 2015 12:37:53 +0200|Sat, 22 Aug 2015 12:37:53 +0200
+8e8842219b4437da2e4081d9009d32768f4ff790|Reduce number of binary packages (Closes #131)|Sat, 22 Aug 2015 09:41:25 +0200|Sat, 22 Aug 2015 12:36:09 +0200
+6446c02eafa6de43bfe0779f1a861e2ef5af450b|Use /var/run/lock/ for cowbuilder lockfiles to fix permission issues|Sat, 22 Aug 2015 12:22:37 +0200|Sat, 22 Aug 2015 12:22:37 +0200
+9c37df2e10b0649672ea09fd07760f248dcce46d|Improve parallel build support to not fail with concurrent update operations|Tue, 18 Aug 2015 17:35:25 +0200|Tue, 18 Aug 2015 22:59:11 +0200
+026ace2075a6d16312b76e4313fcf5119f28fa1d|B20autopkgtest: do not fail build when skipping tests|Mon, 27 Jul 2015 16:49:36 +0200|Mon, 27 Jul 2015 17:19:30 +0200
+ee9d99c46b859116c30a14b3aad886cf66587d3c|Support muting command printing in shell scripts|Mon, 27 Jul 2015 13:30:56 +0200|Mon, 27 Jul 2015 13:57:26 +0200
+f70b5fb5b4fc9acd886ddbd071136aad312886e7|Get rid of unreferenced files in release process|Thu, 23 Jul 2015 23:58:45 +0200|Fri, 24 Jul 2015 17:23:26 +0200
+0e0dacd43f478c63852991400f5d586fd85c65c2|Add override option USE_ORIG_VERSION to keep the changelog version|Wed, 22 Jul 2015 11:08:57 +0200|Thu, 23 Jul 2015 12:35:45 +0200
+d27c6c66ac2423881bc520b8ef1066411fd7c453|tap: add shellcheck support|Mon, 20 Jul 2015 17:47:37 +0200|Mon, 20 Jul 2015 18:10:48 +0200
+a00c865af889ddccd307d1617c85b248ce666610|Use adt-run's --output-dir option if available|Fri, 17 Jul 2015 00:45:08 +0200|Fri, 17 Jul 2015 00:45:08 +0200
+108abe27851cc9ffc50a93bba12573e770e1ca69|build-and-provide-package: be more specific when selecting *.dsc + *.changes|Tue, 30 Jun 2015 17:43:18 +0200|Tue, 30 Jun 2015 17:47:17 +0200
+3d79c4583f635bccc277f209ceae1fae8393d9cb|Support execution of external autopkgtests via ADT=external + ADT_RUNNER=...|Tue, 30 Jun 2015 17:33:40 +0200|Tue, 30 Jun 2015 17:45:27 +0200
+b9c9cfdab47a3afa10d7d4a4b6377dc3bea3057f|Add pbuilder USENETWORK=yes option also to cowbuilder_run|Thu, 4 Jun 2015 11:09:08 +0200|Thu, 4 Jun 2015 11:09:08 +0200
+7183519853c7dbce86af530044eba2904b563968|Release new version 0.13.0|Wed, 3 Jun 2015 15:17:36 +0200|Wed, 3 Jun 2015 15:17:36 +0200
+d0c30f2a8462000b04b84a8bac743bf28c5c4ba2|Support listing Debian package content via new script jdg-debc (Closes #119)|Wed, 3 Jun 2015 13:58:38 +0200|Wed, 3 Jun 2015 14:12:58 +0200
+ca53ec493e54ba32f0d180768cf61d8a431d5e60|generate-git-snapshot: support overwriting DBP_EXTRA_OPTS + adjust coding style|Wed, 3 Jun 2015 13:52:44 +0200|Wed, 3 Jun 2015 13:52:44 +0200
+9cf2086ec2bbbe59222db50d63992e70c6e169e9|Add a per-package way to set USENETWORK=yes to pbuilderrc|Wed, 3 Jun 2015 06:44:15 +0200|Wed, 3 Jun 2015 06:44:15 +0200
+5cb9bd6396e0f50ca1fc2b2e8b7f765fb843970a|Add git format deb pkgs support thanks to Daniel Reurich for Devuan|Mon, 1 Jun 2015 06:52:16 +0200|Mon, 1 Jun 2015 06:52:16 +0200
+7dd71333e3121cf15f2b5dfdea3eb08ced19ae56|generate-svn-snapshot: don't try to sign snapshot build during release builds|Mon, 4 May 2015 16:25:06 +0200|Mon, 4 May 2015 16:25:06 +0200
+c50e9f0e0c8f531f476f8d5e4fd31bdd27a26d03|generate-svn-snapshot: use UNRELEASED for snapshots builds|Fri, 24 Apr 2015 19:09:49 +0200|Fri, 24 Apr 2015 19:30:12 +0200
+ba809b21f5f2d7b4e0aa5dbd4ec1b6f39ddf83c0|generate-svn-snapshot: support $SBP_OPTS to control svn-buildpackage behaviour + add -nc to its default options|Fri, 24 Apr 2015 19:01:18 +0200|Fri, 24 Apr 2015 19:30:08 +0200
+26fee0c937c8de6a41a35d021d961beff9b7a037|generate-svn-snapshot: always generate changes file|Fri, 24 Apr 2015 18:52:05 +0200|Fri, 24 Apr 2015 18:54:12 +0200
+5b7c490ccd26c618f27d95bad538d3805aa2233a|generate-svn-snapshot: execute `svn upgrade` only with svn >=1.7|Fri, 24 Apr 2015 11:34:52 +0200|Fri, 24 Apr 2015 11:36:16 +0200
+34094e54f83204c6d1b3e50d81e093d095bae3c3|fix 9e42ce57180f5b7 missing $|Mon, 20 Apr 2015 18:05:19 +0200|Mon, 20 Apr 2015 18:05:58 +0200
+9e42ce57180f5b7e4cac21b2e8dbe0b75a23f715|add option to skip packages from validate|Wed, 15 Apr 2015 15:41:22 +0200|Wed, 15 Apr 2015 15:41:22 +0200
+92ee917fe516ac1f31b90ff0c861c6412496d7f8|add --version-remove-epoch option|Wed, 15 Apr 2015 15:02:22 +0200|Wed, 15 Apr 2015 15:07:45 +0200
+17c3778ffc33e557339e120b9b7cd7d2e07fd9ea|generate-git-snapshot: replace distribution dashes in version|Mon, 13 Apr 2015 21:16:02 +0200|Mon, 13 Apr 2015 21:16:02 +0200
+6eac9a8ae515bdff67d056a9295608ec0925348b|Release new version 0.12.0|Thu, 9 Apr 2015 12:04:24 +0200|Thu, 9 Apr 2015 12:04:24 +0200
+d9cc2bcca2386f6db97460c5ef74a589f0341017|Support ADJUST_DISTRIBUTION_ONTHEFLY to set distribution in binary builds|Thu, 9 Apr 2015 11:48:39 +0200|Thu, 9 Apr 2015 11:52:23 +0200
+6ef2570c04bf683ad355c19a0492a4a999f12e7d|Enable COMPONENTS workaround for Ubuntu cowdancer issue only when building *for* (not *on*) Ubuntu|Thu, 9 Apr 2015 11:32:00 +0200|Thu, 9 Apr 2015 11:32:00 +0200
+74712fff730bfcf280e4259f62441935eb6e5f3e|Support signing source packages via $KEY_ID|Wed, 8 Apr 2015 13:08:54 +0200|Wed, 8 Apr 2015 16:43:53 +0200
+3dd4a1330c92a0b01adff01cc013ab1594ebcaaa|Support overwriting DEBBUILDOPTS + new variable FORCE_BINARY_ONLY|Wed, 8 Apr 2015 10:19:22 +0200|Wed, 8 Apr 2015 16:43:53 +0200
+f3381b516d98cd13e544f46456c8940780b89481|Improve and finalize foreign arch build support via qemu-debootstrap|Wed, 8 Apr 2015 09:57:10 +0200|Wed, 8 Apr 2015 16:43:53 +0200
+060e22706d69ab56ac4db127306f9d1bcda433f6|Added support for binary only build and qemu foreign arch build|Wed, 8 Apr 2015 03:51:51 +0000|Wed, 8 Apr 2015 16:43:53 +0200
+ef89da8bc498a350a47dfd313d035dce2c15adfe|Do not remove packages when running through dput wrapper|Wed, 8 Apr 2015 16:03:32 +0200|Wed, 8 Apr 2015 16:04:23 +0200
+fa728cf152ec7532e9bfac9664f0f655bee6915e|added support for uploading using dput|Sat, 14 Mar 2015 02:34:19 +0200|Sat, 14 Mar 2015 02:34:19 +0200
+b52fc1a56e85c2f05a7a9d757b4c2b32360f05d7|piuparts_wrapper: support setting tmpdir directory|Wed, 18 Feb 2015 15:34:45 +0100|Wed, 18 Feb 2015 15:37:47 +0100
+3498d6c49378f097a396f79ef4bfb3574b5da0e1|generate-svn-snapshot: always call svn upgrade|Fri, 13 Feb 2015 16:31:10 +0100|Fri, 13 Feb 2015 20:10:55 +0100
+9228e31f3d560051a0f0d61a1cc43fb516291f6a|Merge pull request #109 from bmiklautz/dch_restriction|Wed, 21 Jan 2015 23:10:55 +0100|Wed, 21 Jan 2015 23:10:55 +0100
+c30028151537d5a6b37ca35da5e99a1d4f60f9bd|generate-git-snapshot: add DCH_LOG_RESTRICTION|Wed, 21 Jan 2015 22:31:21 +0100|Wed, 21 Jan 2015 22:31:21 +0100
+7e2484ac78664e1901869f02b0e79e81ca9cf682|generate-git-snapshot: combine dch opts|Wed, 21 Jan 2015 12:43:54 +0100|Wed, 21 Jan 2015 12:43:54 +0100
+1f8d499a07302dc1d695cb1ec27987aa73b7c02e|generate-git-snapshot: fix typo|Wed, 21 Jan 2015 00:59:13 +0100|Wed, 21 Jan 2015 00:59:13 +0100
+e4e2f7b4008a350cb09acd8d0ea0e7bdae084525|adtsummary_tap: support output of recent versions of autopkgtest|Thu, 8 Jan 2015 17:48:40 +0100|Thu, 8 Jan 2015 17:50:38 +0100
+e2ec2ec344544b4add40318aca5ea45ecd60fe02|generate-reprepro-codenam: avoid endless loop on wrong usage|Thu, 18 Dec 2014 23:51:11 +0100|Thu, 18 Dec 2014 23:51:11 +0100
+9eb6edb6da7778fde723f1ac853cdaf0a2c4995f|piuparts_tap: check for broken symlinks + installation errors, provide options to skip checks|Tue, 4 Nov 2014 12:24:09 +0100|Tue, 4 Nov 2014 12:26:20 +0100
+14d27304fc0dfca71d07618128bcb6768a031fc8|Release new version 0.11.0|Mon, 20 Oct 2014 10:13:23 +0200|Mon, 20 Oct 2014 10:13:23 +0200
+4404d28c4e0aea1b1be276c8fbeb25d5f4a5cab0|Bump Standards-Version to 3.9.6|Mon, 20 Oct 2014 10:13:13 +0200|Mon, 20 Oct 2014 10:13:13 +0200
+f9b9c84da218b83ee953afd5d86a22ce29b41977|build-and-provide-package: support setting custom reprepro options via REPREPRO_OPTS|Fri, 17 Oct 2014 21:49:19 +0200|Fri, 17 Oct 2014 21:49:19 +0200
+bad7831bedc60cc16c79f61b7b10f644fad2cd0c|build-and-provide-package: drop unused base_version handling|Tue, 16 Sep 2014 13:21:38 +0200|Tue, 16 Sep 2014 13:21:38 +0200
+cbaabac80620609b53ba6e820426c4d61d3adfcc|Merge branch 'patch-2' of https://github.com/sathieu/jenkins-debian-glue|Tue, 16 Sep 2014 12:37:28 +0200|Tue, 16 Sep 2014 12:37:28 +0200
+30fd6bb112159b6f2e36959806f791f279539f43|Gerrit support: assume *-source job gets triggered with full gerrit params|Fri, 12 Sep 2014 11:27:26 +0200|Fri, 12 Sep 2014 11:29:59 +0200
+2934b08fbc54f6459fd93c4d666f861665f61081|Ensure correct version comparison|Thu, 28 Aug 2014 13:37:11 +0200|Thu, 28 Aug 2014 13:37:11 +0200
+4c5d644275d42857a1bafa870a77b4ec5e78e6ba|puppet: support Google Computer Engine|Tue, 26 Aug 2014 21:35:38 -0700|Tue, 26 Aug 2014 21:35:38 -0700
+b0acd6c520f0ae49579f55ce63221879c29cf164|Support Gerrit integration without direct connection to Gerrit events|Mon, 11 Aug 2014 17:17:26 +0200|Tue, 12 Aug 2014 09:47:00 +0200
+017756fb40bad4f7fdd15a22e2a96b2a0d5ae721|generate-git-snapshot: support $SKIP_BRANCH_AND_TAG_HANDLING and detect Gerrit pushes|Wed, 2 Jul 2014 15:55:06 +0200|Thu, 3 Jul 2014 11:45:53 +0200
+ad174b4df0b3b295096e217628f96e3290bb35ac|build-and-provide-package: fix broken SKIP_BINARY_REMOVAL test|Mon, 30 Jun 2014 16:21:22 +0200|Mon, 30 Jun 2014 16:21:22 +0200
+6b282e0f92f3ae92ed821de02462a24624c69e31|build-and-provide-package: support skipping binary removal via SKIP_BINARY_REMOVAL=true|Wed, 25 Jun 2014 12:56:40 +0200|Wed, 25 Jun 2014 12:56:40 +0200
+98632ac74ce5c9d82a3051777f1b1a3f58258974|Bring .mailmap up2date, incl. usage instructions|Sat, 14 Jun 2014 15:32:53 +0200|Sat, 14 Jun 2014 15:33:11 +0200
+73593abb715ddfc71900f76d16c465b4db75a3e4|checkbashism_tap: ignore non-shell-script files|Thu, 5 Jun 2014 10:23:32 +0200|Thu, 5 Jun 2014 10:23:32 +0200
+a1f32a8ac70477b489ff61da412008c396d9ee83|Release new version 0.10.0|Wed, 4 Jun 2014 16:56:54 +0200|Wed, 4 Jun 2014 16:56:54 +0200
+b756c647a6e1a85942fc5e6f29800c2966110beb|Clarify Depends/Recommends of jenkins-debian-glue-buildenv-taptools|Wed, 4 Jun 2014 16:54:06 +0200|Wed, 4 Jun 2014 16:55:04 +0200
+cea18308725b8e6ac3b8de8bd0d750463fd25f17|pep8_tap: further fix for encoding issue with ruby1.8|Wed, 4 Jun 2014 16:36:02 +0200|Wed, 4 Jun 2014 16:36:02 +0200
+a1f0576d475ae5168a5f665342ed64c67f03cb56|Fix script name of pep8_tap|Wed, 4 Jun 2014 16:31:31 +0200|Wed, 4 Jun 2014 16:31:36 +0200
+5d33d21b17ac832a2869d8b36370e1a294e0c7cb|pep8_tap: don't reenable default-disabled checkers|Wed, 4 Jun 2014 15:53:03 +0200|Wed, 4 Jun 2014 15:53:03 +0200
+0767dd554caa34d9b5ca6ebe4112d494c8f8dcd9|pep8_tap: adjust Encoding handling for ruby1.8|Wed, 4 Jun 2014 10:10:39 +0200|Wed, 4 Jun 2014 10:10:39 +0200
+99353c1140e10bc76a9851bccca0670555e2ddbb|jenkins-debian-glue-buildenv-taptools: it's libperl-critic-perl, not perlcritic|Wed, 4 Jun 2014 09:58:49 +0200|Wed, 4 Jun 2014 09:58:49 +0200
+f9a139d8408c7aff4b2ed2a7b3c9f4dd71d156f6|tap_tool_dispatcher: run all tools in parallel|Wed, 4 Jun 2014 02:37:57 +0200|Wed, 4 Jun 2014 09:46:28 +0200
+870f61aa1898c9b0b769b96af20ae5e04ae5d8a1|pep8_tap: ignore non-Python files|Wed, 4 Jun 2014 02:36:50 +0200|Wed, 4 Jun 2014 02:36:50 +0200
+5dc4fe00fcd1172fd04a1a5115ff6e6f1ae394d8|pep8_tap: Fix crash with invalid encoded source data|Wed, 4 Jun 2014 02:22:11 +0200|Wed, 4 Jun 2014 02:22:11 +0200
+325f1dd832900d2b43da18d7b155000f21e2c5db|pep8_tap: fix counter|Wed, 4 Jun 2014 01:26:41 +0200|Wed, 4 Jun 2014 01:26:41 +0200
+e4172eabbc990d0ffdfbfd00e4585049fdbb6d32|generate-git-snapshot: fail if git-dch doesn't support --distribution but $DIST is set|Mon, 2 Jun 2014 17:52:44 +0200|Mon, 2 Jun 2014 17:52:44 +0200
+f9cfb58fdb1f8246943e2c539bad39919054b845|Recommends pep8 >= 1.4.6~ as we depend on its '--format' option|Mon, 2 Jun 2014 17:17:35 +0200|Mon, 2 Jun 2014 17:24:16 +0200
+1f796f0602888c63897075f8b2d7df2c017b3ea2|pep8_tap: improve formatting|Sat, 31 May 2014 00:56:48 +0200|Sat, 31 May 2014 00:56:48 +0200
+22ac5fa32ce6b7d8d1e4ae28c30bbdb4f1b783ca|Install pep8_tap tool|Wed, 28 May 2014 17:20:55 +0200|Wed, 28 May 2014 17:20:55 +0200
+cfdec26252f7b2cb8af827421017817867d31e51|Allow overriding the source package dist|Tue, 27 May 2014 17:48:30 +0200|Wed, 28 May 2014 11:16:24 +0200
+ed2b47af605bd5b28bef751c691a96b5dd5dffa9|New script pep8_tap to check python code via pep8|Tue, 27 May 2014 10:26:57 +0200|Tue, 27 May 2014 10:27:35 +0200
+14b7884a1c0c731c7e91b09652215e013321e050|Release new version 0.9.0|Fri, 16 May 2014 12:57:04 +0200|Fri, 16 May 2014 12:58:54 +0200
+ac5dd5b4c024544417679f096124f79195fd3f8a|Bump Dependency on openjdk-6-jre-headless to openjdk-7-jre-headless|Fri, 16 May 2014 12:56:23 +0200|Fri, 16 May 2014 12:56:25 +0200
+578bb8d846e67369c5a6d7a982c0904aa372132a|puppet: Enable "Raw HTML" option and move systemMessage into View|Fri, 16 May 2014 12:42:06 +0200|Fri, 16 May 2014 12:42:06 +0200
+757c0ccacd87260dff3c534b634a736fff257867|Adjust Recommends for REPOSITORY_EXTRA feature + minor style improvements|Fri, 16 May 2014 11:20:01 +0200|Fri, 16 May 2014 11:20:40 +0200
+402015707af9e536b8fb10188c2fd97c1ce2e3be|lintian-junit-report: do not use "--" as option separator|Wed, 14 May 2014 12:09:27 +0200|Wed, 14 May 2014 12:09:27 +0200
+0a4191cfaab8fa086f20d6aef793cc4db69c358d|Allow adding extra repositories for resolving dependencies|Tue, 13 May 2014 14:53:43 +0400|Tue, 13 May 2014 14:53:43 +0400
+36cca6030a35af27b85bc885d99efd8039a5db33|Support skipping adt tests by setting ADT=skip|Thu, 27 Mar 2014 11:43:56 +0100|Thu, 27 Mar 2014 11:52:06 +0100
+4c329b39082899d87ad8a61df9cba587ec78b02c|Don't use --git-export-dir|Tue, 25 Mar 2014 16:13:51 +0100|Tue, 25 Mar 2014 16:13:51 +0100
+b37d3109a048e618bb601eb20682b75fb67a723b|generate-reprepro-codename: Accept origin and suite as command line arguments.|Fri, 21 Mar 2014 16:05:34 +0100|Fri, 21 Mar 2014 16:23:38 +0100
+811aef7a5735a810dacaeca8814a386745fef516|debian/copyright: fix Upstream-Name header|Wed, 19 Mar 2014 12:16:08 +0100|Wed, 19 Mar 2014 12:16:08 +0100
+dbdea39252f04fb56eaad5b2791d6c131e0c19ba|generate-git-snapshot: Support PRE_DCH_HOOK variable for custom scripts|Mon, 3 Mar 2014 09:32:26 +0100|Mon, 3 Mar 2014 09:36:14 +0100
+a9ab5cc8d652b0fc13bf0db5d9f60b3f6c93d1ad|No need to source /etc/jenkins/debian-glue twice in the same script|Sat, 1 Mar 2014 00:00:09 +0100|Sat, 1 Mar 2014 00:00:09 +0100
+e116dbbc8c871aa99039d1d9bb70a05f244e3451|puppet: allow DIST + ARCH in sudo configuration|Fri, 21 Feb 2014 08:45:36 +0100|Fri, 21 Feb 2014 08:45:36 +0100
+29611c66efea02935c472f302ddd6983c3e4d14a|Empty 'distribution' and 'architecture' env vars now do not break script when calling cowbuilder.|Thu, 20 Feb 2014 13:15:41 -0500|Thu, 20 Feb 2014 13:15:58 -0500
+08248d685fc90df16f2082b693dc56547e6644be|Pass DIST and ARCH to cowbuilder call|Wed, 19 Feb 2014 10:15:06 +0100|Wed, 19 Feb 2014 10:15:06 +0100
+e52d270c663a2d5c1fd94c7e99055537105a2663|Release new version 0.8.1|Fri, 14 Feb 2014 10:58:57 +0100|Fri, 14 Feb 2014 10:59:24 +0100
+2d5dc4f7f30fe8f964ae94081bcd3d2708e95e6d|Revert "build-and-provide-package: use -b for package builds that shouldn't include sources" [Closes: #88]|Fri, 14 Feb 2014 10:50:27 +0100|Fri, 14 Feb 2014 10:51:13 +0100
+5e199f537acbe18bcd5ed45be70cbc76abb949c8|LICENSE: update copyright information for 2014|Wed, 12 Feb 2014 22:23:30 +0100|Wed, 12 Feb 2014 22:23:30 +0100
+b081829cefd6dd00ced770dce436f382d721bc0f|generate-reprepro-codename: Make architectures and (udeb) components configable.|Wed, 12 Feb 2014 13:19:55 +0100|Wed, 12 Feb 2014 19:22:21 +0100
+da91c8aa2d89113ebea38c9fc85f71855c64f145|Release new version 0.8.0|Mon, 3 Feb 2014 16:28:40 +0100|Mon, 3 Feb 2014 16:28:40 +0100
+c98acbf1c01173df69fa99ee79e69c9393a55585|Bump Standards-Version to 3.9.5|Mon, 3 Feb 2014 14:50:51 +0100|Mon, 3 Feb 2014 14:50:51 +0100
+e1f97033f750833916f65403ed728b1b3b388977|Merge remote-tracking branch 'origin/pr/83'|Thu, 30 Jan 2014 12:38:09 +0100|Thu, 30 Jan 2014 12:38:09 +0100
+649c70812e9ff22a0bb55f4719dff31d0c2e1e72|build-and-provide-package: use -b for package builds that shouldn't include sources|Wed, 29 Jan 2014 17:26:00 +0100|Wed, 29 Jan 2014 17:26:00 +0100
+8da4508451128049d961e0f7de5a03e23ca3d770|puppet: install timestamper plugin|Thu, 23 Jan 2014 15:26:19 +0100|Thu, 23 Jan 2014 15:26:21 +0100
+534e76109716299da01a9c208586f91850590eed|puppet: install ttf-dejavu package to fix java headless issue|Thu, 23 Jan 2014 09:56:11 +0100|Thu, 23 Jan 2014 09:56:11 +0100
+b1e42c18e61a2a702a5318464870d13147e5b8a0|Make it possible to verify our own reprepro repositories by providing a pubkey.|Fri, 10 Jan 2014 10:48:00 +0100|Wed, 15 Jan 2014 11:05:13 +0100
+4ab1301ba1420828f9bd9db03df7da0678f6a6e4|Dynamically parse list of components from Release file|Thu, 9 Jan 2014 14:15:09 +0100|Thu, 9 Jan 2014 14:21:00 +0100
+4fa841e2ca60ddc99a88138704471ac21596c066|The given $REPOS variable may also point to a suite, not only a codename|Thu, 9 Jan 2014 14:12:11 +0100|Thu, 9 Jan 2014 14:21:00 +0100
+be40e3c0d8f6ccd620b1dcc2fb57c8e9b4720d82|Don't include sources in sources.list, they're not needed for building|Thu, 9 Jan 2014 12:49:04 +0100|Thu, 9 Jan 2014 14:20:55 +0100
+b231c3ec046ecc6effd32a7da94fd1995fed5bee|generate-reprepro-codename: lock access to conf/distributions|Tue, 17 Dec 2013 19:13:04 +0100|Tue, 17 Dec 2013 19:26:43 +0100
+a7e01d3c682b8e7402df5eeb8deae5848569e64a|generate-*-snapshot: provide user friendly error message if debian/changelog is missing|Thu, 21 Nov 2013 17:17:02 +0100|Thu, 21 Nov 2013 17:18:17 +0100
+ced37f643a812780110c6d6ec04cdd6037b7ca18|Add fakeroot to Depends|Thu, 21 Nov 2013 16:30:08 +0100|Thu, 21 Nov 2013 16:30:08 +0100
+21a4d4c5a891a0fd076b0960196c3f8ab5adc736|Provide simple gateway service between GitHub + (internal) Jenkins system|Fri, 8 Feb 2013 13:52:18 +0100|Tue, 19 Nov 2013 22:56:02 +0100
+a68c8c89ac1c14c881e076e030af1aeb79cd3e3a|jjb: adjust lintian call for binary job + make repository_checker dynamic|Tue, 19 Nov 2013 22:37:58 +0100|Tue, 19 Nov 2013 22:43:07 +0100
+e19a25e098bd7268490534517e827a692f64fa69|freight: support sudo for creating directories/conffile, extend config, quote all variables|Thu, 14 Nov 2013 12:03:39 +0100|Thu, 14 Nov 2013 17:57:37 +0100
+cbe7f6f5f63fdd85a2fe8c7ef66b4aa3fa1224ec|Provide yaml setup files for usage with jenkins-job-builder|Thu, 14 Nov 2013 12:03:22 +0100|Thu, 14 Nov 2013 17:55:32 +0100
+f618f4d35a88efd1d3529217c49df5892899aecd|Rework new gbp.conf handling|Fri, 8 Nov 2013 09:21:40 +0100|Fri, 8 Nov 2013 09:28:16 +0100
+003fe994e59b2fd65f4842430dd8510a7f289728|build-and-provide-package: get rid of dependency on dcmd|Wed, 6 Nov 2013 12:50:00 +0100|Fri, 8 Nov 2013 09:08:31 +0100
+9d5366f9db76c567f502a65edbdbbbdfcf87d81d|Allow debian-glue to read gbp.conf|Thu, 7 Nov 2013 22:38:17 +0100|Thu, 7 Nov 2013 22:43:35 +0100
+14f3559a1a6c60cf0130700426bba7c5935c7ae2|Lock access to conf/incoming file|Mon, 4 Nov 2013 16:11:05 +0100|Mon, 4 Nov 2013 18:07:54 +0100
+6bf804a9b965993ddef4ec5a45257c3b7d602ace|piuparts_wrapper: only expand scriptsdir when it is set|Mon, 4 Nov 2013 16:58:28 +0100|Mon, 4 Nov 2013 16:58:28 +0100
+68f0960daeb2535d4d0077e33708df1e6d3e73df|generate-reprepro-codename: refer to /etc/jenkins/debian_glue|Tue, 29 Oct 2013 08:16:23 +0100|Tue, 29 Oct 2013 08:16:25 +0100
+fad2b2301dcfc3aef6695205287bcba63e725c7a|Release new version 0.7.1|Thu, 24 Oct 2013 13:43:13 +0200|Thu, 24 Oct 2013 13:43:13 +0200
+7588e3e225812e817f9ec40197fa7883d7bf335b|Add jenkins-debian-glue-buildenv-git to Recommends|Thu, 24 Oct 2013 13:42:19 +0200|Thu, 24 Oct 2013 13:42:19 +0200
+80057b07f926359222f7a2988a32da82fa71541c|Drop jenkins-debian-glue-repoenv package + add dependency on "reprepro | freight" to jenkins-debian-glue|Thu, 24 Oct 2013 13:19:52 +0200|Thu, 24 Oct 2013 13:23:26 +0200
+5d8b8b5139ce7971e17129682bc501e1eb816d26|Release new version 0.7.0|Wed, 23 Oct 2013 21:55:15 +0200|Wed, 23 Oct 2013 22:04:03 +0200
+acd1257b5f63ed9e44fc762da4fda2cfe814b0d1|Drop trailing dot in package descriptions of jenkins-debian-glue-{repoenv,buildenv}|Wed, 23 Oct 2013 22:02:42 +0200|Wed, 23 Oct 2013 22:03:33 +0200
+f02f0e1a08765643511f00c574dff29470201162|Add jenkins-debian-glue-repoenv to Recommends and default installation list|Wed, 23 Oct 2013 19:50:22 +0200|Wed, 23 Oct 2013 19:50:22 +0200
+6be63b74fab41013905b242b0833d6f94050ea25|wrap-and-sort debian/control file|Wed, 23 Oct 2013 19:44:20 +0200|Wed, 23 Oct 2013 19:44:21 +0200
+68578ef8e19057906687e8e6b3b4ef5ab6580d1d|puppet: install scm-api plugin, required for git plugin|Wed, 23 Oct 2013 19:23:55 +0200|Wed, 23 Oct 2013 19:29:34 +0200
+9069452fa57eecd4585a52d7c4442d8bf8e717d5|Merge branch 'master' of https://github.com/bmiklautz/jenkins-debian-glue|Wed, 23 Oct 2013 17:44:08 +0200|Wed, 23 Oct 2013 17:44:08 +0200
+8893a6f0be0a1a00a8ec1cc09e190e38c6634f66|Added a virtual package for repo only slaves|Wed, 23 Oct 2013 15:58:54 +0200|Wed, 23 Oct 2013 16:17:15 +0200
+9d3a3d4d8d36106c056d7ab9b35165bfa89ceec7|Make sure to also support linux-any as valid Architecture field|Tue, 22 Oct 2013 10:25:55 +0200|Tue, 22 Oct 2013 10:25:55 +0200
+08b9a5d969bd696c5711df97dd2b85a32653f0b0|piuparts_wrapper: unset scripts dir when non existent|Mon, 21 Oct 2013 21:08:18 +0200|Mon, 21 Oct 2013 21:47:53 +0200
+841b4b2afa1a109cd9dcbee3411966f1f99892ed|piuparts_wrapper: quote scriptsdir in piuparts cmd|Mon, 21 Oct 2013 21:46:08 +0200|Mon, 21 Oct 2013 21:47:46 +0200
+c8e9f9f3d47397ca4ca6bec9dd6c37f8c3ce4bc7|Merge branch 'feature/marking-tests-as-skipped' of https://github.com/lkslawek/jenkins-debian-glue|Mon, 14 Oct 2013 15:35:02 +0200|Mon, 14 Oct 2013 15:35:02 +0200
+8978528079f5f025f7a5d3760b4cfb99cdfe6b4d|Merge branch 'feature/git_mailmap' of https://github.com/lkslawek/jenkins-debian-glue|Mon, 14 Oct 2013 15:32:21 +0200|Mon, 14 Oct 2013 15:32:21 +0200
+ab0354584311fb93e4d3dfe5498b8ddc2e143055|generate-*-snapshot: provide hint if the 'source' directory hasn't been configured|Mon, 14 Oct 2013 15:15:39 +0200|Mon, 14 Oct 2013 15:18:38 +0200
+fd1ce1f1ccbab59c659bdc19ac92d38fa2e6c997|puppet: support forcing plugin installation allowing us to install latest git-client plugin|Tue, 8 Oct 2013 12:21:27 +0200|Tue, 8 Oct 2013 12:25:53 +0200
+c73c341fcd447deab0d7c8759fd635be178b7de8|puppet: install git-client plugin explicitely in version 1.1.2|Tue, 8 Oct 2013 09:35:46 +0200|Tue, 8 Oct 2013 11:42:11 +0200
+f10fddae8d01c72ce5cc533ff12740ec741e1544|Create .mailmap|Fri, 27 Sep 2013 01:07:31 +0200|Fri, 27 Sep 2013 01:07:31 +0200
+b6d83d690d58d60e2fcf39e249502c8c180ad088|lintian-junit-report: Support for marking tests skipped|Thu, 5 Sep 2013 00:00:13 +0200|Fri, 27 Sep 2013 00:00:11 +0200
+a4bb3b1105e6a48cb1249729bc56b4eececc78cb|lintian-junit-report: Use REXML to generate XML output|Wed, 4 Sep 2013 23:22:27 +0200|Thu, 26 Sep 2013 23:10:37 +0200
+5d465bf537f38a083de61d6ff1815c9044cef352|build-and-provide-package: Look only for the "real" debian/control file|Thu, 26 Sep 2013 12:38:57 +0200|Thu, 26 Sep 2013 12:38:57 +0200
+d759c0d7816b6c879ede4fb5caf328c005dc668d|Remove *_source.changes file generated by dpkg-buildpackage in *-source job [Closes: #67]|Thu, 26 Sep 2013 09:37:31 +0200|Thu, 26 Sep 2013 10:11:50 +0200
+63d6c47ce5708f7ea58aed4c8dcb99df3a623469|Rework generate-git-snapshot to make sure quilt can't break the build|Mon, 23 Sep 2013 10:05:00 +0200|Wed, 25 Sep 2013 12:23:00 +0200
+8d10e82c56b4406e9608de86ec7a560a453759df|Add execute permissions to D10-man-db|Fri, 20 Sep 2013 17:18:46 +0200|Fri, 20 Sep 2013 17:18:46 +0200
+600499e15acf556e5ef39d42f76f99972c5383b9|Speed up pbuilder: disable building of manual pages with a hook script|Fri, 20 Sep 2013 16:19:09 +0200|Fri, 20 Sep 2013 16:19:09 +0200
+7ab545ac6d0acd3cea170b349d8f0413dbc39aad|Merge remote-tracking branch 'remotes/origin/pr/63'|Thu, 19 Sep 2013 09:38:37 +0200|Thu, 19 Sep 2013 09:38:37 +0200
+346a19b6a656dac68df4231b8e446768bc424bdd|Merge branch 'force-trusted-repos' of https://github.com/efine/jenkins-debian-glue|Thu, 19 Sep 2013 09:17:22 +0200|Thu, 19 Sep 2013 09:17:22 +0200
+321b1490fc3ee07593f6214fece0212df9e015cc|Force local apt repos to be trusted|Wed, 18 Sep 2013 16:38:04 -0400|Wed, 18 Sep 2013 16:38:04 -0400
+ac7d6080e030af4931af8d7c6c0419a23db65fca|Add support for user-defined BINDMOUNTs|Wed, 18 Sep 2013 16:33:40 -0400|Wed, 18 Sep 2013 16:33:40 -0400
+ee33f721e4b5ab91c0f45be694dbb9116d67b975|lintian-junit-report: Fix reported total time for TCs|Wed, 4 Sep 2013 17:07:02 +0200|Wed, 4 Sep 2013 17:07:02 +0200
+6667cda8eee57c03d23dfb3e2077cc877c307a28|lintian-junit-report: Split lintian output between test cases|Wed, 4 Sep 2013 17:06:58 +0200|Wed, 4 Sep 2013 17:06:58 +0200
+af173af52c7f99628baa8fea8e7b17636373a7cc|lintian-junit-report: Name test cases after lintian tags|Wed, 4 Sep 2013 17:06:53 +0200|Wed, 4 Sep 2013 17:06:53 +0200
+c491fd8f7321deaaabfface4dcace2694f8fc8a1|lintian-junit-report: Simplify matching error/warning lines|Wed, 4 Sep 2013 17:06:50 +0200|Wed, 4 Sep 2013 17:06:50 +0200
+536c2a4bdafaa6b1ec467b28a53b02da44ad86ee|lintian-junit-report: Convert output to XML after parsing|Wed, 4 Sep 2013 17:06:45 +0200|Wed, 4 Sep 2013 17:06:45 +0200
+fe363dd26b07a5bfe6a67cd1f1e2cc6c8f2beef8|lintian-junit-report: quote XML strings|Wed, 4 Sep 2013 11:22:31 +0100|Wed, 4 Sep 2013 12:48:22 +0200
+3b12d4617e20e6af510fcdd7246778f18a8af0d5|Make lintian-junit-report ruby 1.8 safe|Wed, 4 Sep 2013 12:39:56 +0200|Wed, 4 Sep 2013 12:41:44 +0200
+6d197ddc135b1cc7a5b5ec426e642aeb77e979ed|Support POST_BUILD_HOOK at the end of the build process|Wed, 4 Sep 2013 11:41:25 +0200|Wed, 4 Sep 2013 11:41:46 +0200
+7a974f4f5f8bc222b2eed6fd70c3e0466b98e896|lintian-junit-report: Accept multiple file arguments|Tue, 3 Sep 2013 19:56:44 +0200|Tue, 3 Sep 2013 20:14:37 +0200
+21b8527d3a65b50ce1421e242732527995f9c4d6|lintian-junit-report: Allow passing options to lintian|Tue, 3 Sep 2013 19:56:37 +0200|Tue, 3 Sep 2013 20:14:10 +0200
+976acb9fa319db0a89462f06b837c4f1e4512f6e|Adjust debian/docs for README rename|Tue, 20 Aug 2013 14:45:20 +0200|Tue, 20 Aug 2013 14:45:20 +0200
+8cac20f2e9a9761666bcbc0993a60025cf8a025f|Provide basic project information via README.md|Tue, 20 Aug 2013 10:44:32 +0200|Tue, 20 Aug 2013 10:44:32 +0200
+105fa476dce7312dcbd33e74e33efd88265ea7a7|PRE_SOURCE_HOOK handling in generate-*-snapshot scripts: match behaviour and do not test if file exits|Tue, 20 Aug 2013 10:07:33 +0200|Tue, 20 Aug 2013 10:37:30 +0200
+e5225b17a01713b2f7a06764e5d7186f1d996367|piuparts_wrapper: support setting custom debootstrap options via $DEBOOTSTRAP_OPTIONS|Mon, 19 Aug 2013 17:23:44 +0200|Mon, 19 Aug 2013 17:25:38 +0200
+1237b99d1d18942f3a38c43ce5e430148c7cf7d6|Support providing a custom pbuilder configuration file via PBUILDER_CONFIG|Mon, 12 Aug 2013 13:00:02 +0200|Mon, 12 Aug 2013 21:53:50 +0200
+bdc0a0d47a1996ae657ad6975f9132cee5f3ede9|remove-reprepro-codename: support REPREPRO_OPTS and directly exit if codename does not exist|Tue, 6 Aug 2013 17:45:18 +0200|Tue, 6 Aug 2013 17:45:18 +0200
+723e5dbddc79f363e43f57c240bc63bb0218c0ff|remove-reprepro-codename: check that reprepro configuration file exists|Tue, 6 Aug 2013 17:42:58 +0200|Tue, 6 Aug 2013 17:42:58 +0200
+123fed8a2ef7f32aa49c5e8846da65d307b9e8a3|remove-reprepro-codename: run reprepro's clearvanished with --delete option|Tue, 6 Aug 2013 17:19:15 +0200|Tue, 6 Aug 2013 17:19:15 +0200
+5930014a1d894a0e2e89da3d9e5af897f96733c8|Support keeping the build environment via DEB_KEEP_BUILD_ENV|Wed, 3 Jul 2013 15:02:11 +0200|Tue, 6 Aug 2013 17:14:59 +0200
+73ccc32c4b02ab57d537e5c4bd35bf2a7d0fb533|New script remove-reprepro-codename|Tue, 6 Aug 2013 17:08:43 +0200|Tue, 6 Aug 2013 17:08:44 +0200
+512eb3787540bef463f238bde81856ae19ee5815|generate-git-snapshot: explicitely check for beginning of line when retrieving version information|Tue, 6 Aug 2013 12:25:39 +0200|Tue, 6 Aug 2013 12:25:39 +0200
+d1e90b2cc79051667c945e2771aa5f72cc5f7847|piuparts_wrapper: make sure we have the sbin directories in our PATH|Tue, 2 Jul 2013 13:46:28 +0200|Tue, 2 Jul 2013 13:47:35 +0200
+9ac44d16a71ac6d3e7e920fca46fa3a41553f79b|cd to workspace in generate-git-snapshot when running dpkg-source|Tue, 18 Jun 2013 10:36:18 -0400|Tue, 18 Jun 2013 10:36:18 -0400
+f7998d18b9a16a073d3c7d74119bb9cc15a7a920|Release new version 0.6.0|Mon, 10 Jun 2013 23:41:55 +0200|Mon, 10 Jun 2013 23:50:54 +0200
+1cb24b36e6f27f24e144580afa72c07e893ae9be|piuparts_wrapper: run with --scriptsdir=/etc/piuparts/scripts/ by default|Mon, 10 Jun 2013 18:27:21 +0200|Mon, 10 Jun 2013 18:27:21 +0200
+1f7226d56284dbc1f6c7f329100b6944efe0393a|jenkins_debian_glue.pp: update CopyArtifact configuration|Mon, 10 Jun 2013 15:32:38 +0200|Mon, 10 Jun 2013 15:32:38 +0200
+bd6d573a3bc0f2b90763e4a47e760c15349244d3|piuparts_tap: explicitely set Encoding::UTF_8 for Ruby 1.9|Mon, 10 Jun 2013 15:28:52 +0200|Mon, 10 Jun 2013 15:29:43 +0200
+db1bb37595b32727e3bb43f312a9e5d15ce8825d|jenkins_debian_glue.pp: depend on default-jre-headless package|Mon, 10 Jun 2013 12:12:01 +0200|Mon, 10 Jun 2013 12:15:04 +0200
+5d849586c93034bc0489549b19f9457d13afbbb5|puppet/apply.sh: limit amount of retries for wget-ing EC2 info to 3|Mon, 10 Jun 2013 11:40:28 +0200|Mon, 10 Jun 2013 11:40:30 +0200
+7a573b84e647edc4ff796e122a315ffb484875bd|build-and-provide-package: do not fail if REMOVE_FROM_RELEASE is unset|Tue, 28 May 2013 10:47:45 +0200|Tue, 28 May 2013 10:47:45 +0200
+55709c29c32fd020b6a95d85a6b90387c8f17b02|build-and-provide-package: new variable SKIP_PACKAGE_FROM_REMOVAL to skip specific packages from removal [Closes #50]|Thu, 23 May 2013 18:52:42 +0200|Thu, 23 May 2013 19:02:31 +0200
+1f211d53fe3bd2ae389325d94ff3192868306d6c|generate-git-snapshot: use --git-ignore-branch as default build option for gbp [Closes #47]|Thu, 23 May 2013 17:53:58 +0200|Thu, 23 May 2013 18:15:37 +0200
+694b92693d6f2499858bcc1c5050ceaf37f788f9|generate-*-snapshot: do not fail if PRE_SOURCE_HOOK is unset|Thu, 23 May 2013 18:10:50 +0200|Thu, 23 May 2013 18:10:54 +0200
+fedc8560b3136bfd45285966112c5b02d49aa7f7|Ship examples/debian_glue as /etc/jenkins/debian_glue default configuration file [Closes: #49]|Thu, 23 May 2013 17:36:46 +0200|Thu, 23 May 2013 17:38:26 +0200
+00d1e859a29a67b8ba1826b184584fc77608122b|generate-reprepro-codename: do not fail build if chown of reprepro conf fails [Closes #53]|Thu, 23 May 2013 17:28:59 +0200|Thu, 23 May 2013 17:30:02 +0200
+1a9f18490a568e80593c4b1a6c99b264badf40c1|Merge remote-tracking branch 'origin/pr/56'|Thu, 23 May 2013 17:24:27 +0200|Thu, 23 May 2013 17:24:27 +0200
+b1e859691c93418a4e2dfe129488b27d284a2fe3|Merge remote-tracking branch 'origin/pr/48'|Thu, 23 May 2013 17:09:40 +0200|Thu, 23 May 2013 17:09:40 +0200
+afdb551725f7c8d6c6980fd7d2f7e53db9e66b83|Merge remote-tracking branch 'origin/pr/51'|Thu, 23 May 2013 17:07:31 +0200|Thu, 23 May 2013 17:07:31 +0200
+ede0fb05a9d91f8d0f6d05dad63ad7d73c0ceba4|generate-git-snapshot: force switching back to previous branch|Mon, 13 May 2013 11:59:03 +0200|Mon, 13 May 2013 11:59:03 +0200
+d98f4405d85a0e1ea1cb3a233c23ae5ecb3273b4|Change timestamp format used in version string|Wed, 6 Mar 2013 11:51:41 +0100|Fri, 10 May 2013 13:30:25 +0200
+7a0a78bc5fc48e97cd09af8519d80bfb7b41882c|Merge pull request #52 from credativ/bugfix/dpkg-source-not-ignoring-git|Wed, 8 May 2013 01:54:46 -0700|Wed, 8 May 2013 01:54:46 -0700
+586207ebecb12104d71d71e2486d3fe293364731|Bugfix: Make dpkg-source ignore .git in more cases|Wed, 20 Mar 2013 11:39:21 +0100|Wed, 20 Mar 2013 11:39:21 +0100
+2a8b22e1873a2f74a8c6849522ba8d042aad5baf|Allow removal of packages from releases|Wed, 20 Mar 2013 11:08:45 +0100|Wed, 20 Mar 2013 11:08:45 +0100
+35e87f93d8de10e5636c818c9407b1734c09e990|puppet: do not install xunit plugin by default|Thu, 7 Mar 2013 12:57:14 +0100|Thu, 7 Mar 2013 13:03:27 +0100
+521e0cf747e09e7226bde260591eaea99035f532|Add the management of a PRE_SOURCE_HOOK variable. If set, the script pointed by PRE_SOURCE_HOOK will be executed before the .dsc creation|Thu, 7 Mar 2013 12:21:42 +0100|Thu, 7 Mar 2013 12:21:42 +0100
+b4e73e0c3c518178bc3cad082450976dfbeafe45|puppet: use wget instead of curl as fallback for public IP retrieval|Wed, 6 Mar 2013 16:40:09 +0100|Wed, 6 Mar 2013 16:40:09 +0100
+b098b7c6a3d383a70ef3080ad49733a3fa629020|puppet: allow DEB_* environment variables in sudo configuration|Wed, 6 Mar 2013 16:39:03 +0100|Wed, 6 Mar 2013 16:39:03 +0100
+6faa90dad1c537033fd642fabfa7faf8fe8d0e4b|use a more sensible default for DEBEMAIL|Tue, 19 Feb 2013 17:00:51 -0500|Wed, 6 Mar 2013 11:53:42 +0100
+fdb9b22d1a8f9435c9bea07f3d4d935685674d7a|Depend on subversion-tools (<= 1.6.18dfsg-1) *or* svn2cl|Wed, 6 Mar 2013 11:48:43 +0100|Wed, 6 Mar 2013 11:49:54 +0100
+749522111f7661d3c39a08459ea6db03fc767076|puppet: install git-client plugin by default|Mon, 25 Feb 2013 23:19:02 +0100|Mon, 25 Feb 2013 23:19:02 +0100
+2cf556390f276ca82bc35e48cae6d00946c30256|Use release repo for all builds with same release parameter.|Sun, 10 Feb 2013 23:08:16 +0400|Mon, 11 Feb 2013 11:36:02 +0400
+b75a45ea2432f5043035d04d46bb9fd332ebb385|puppet/apply.sh: provide fallback for EC2 IP retrieval|Tue, 5 Feb 2013 16:54:40 +0100|Tue, 5 Feb 2013 16:54:40 +0100
+8f33c0c1b9252b54f24e1edb71917bbe7cdd2347|generate-reprepro-codename: drop AlsoAcceptFor default setting|Tue, 5 Feb 2013 15:24:52 +0100|Tue, 5 Feb 2013 15:24:52 +0100
+83e779a526648d2818247f266e45bc73d18334bf|generate-reprepro-codename: drop default DebIndices/DscIndices settings|Tue, 5 Feb 2013 15:20:58 +0100|Tue, 5 Feb 2013 15:20:58 +0100
+6e8f6dfb024441d0ee0852ee3aab05cfbed440fa|invoke 'reprepro include' cmdline with --ignore=uploaders|Tue, 5 Feb 2013 14:56:38 +0100|Tue, 5 Feb 2013 14:56:38 +0100
+0cb419d1906a10d1f17f2763105b0ead07ec0313|Release new version 0.5.0|Tue, 5 Feb 2013 14:20:10 +0100|Tue, 5 Feb 2013 14:22:19 +0100
+b690dbbcde5af99efaf6a9fba79f4769eeeba1b3|Bump Standards-Version to 3.9.4|Tue, 5 Feb 2013 14:18:13 +0100|Tue, 5 Feb 2013 14:18:13 +0100
+6b1e196309ae7765609ea62db7b8087c1549ee64|Provide configuration example for REPOSITORY in default config|Tue, 5 Feb 2013 13:30:31 +0100|Tue, 5 Feb 2013 13:31:20 +0100
+e240dccf4fc86e696369bb9900f3f48194091782|Support configuration of release repository via $RELEASE_REPOSITORY|Tue, 5 Feb 2013 11:21:31 +0100|Tue, 5 Feb 2013 13:30:37 +0100
+f26c7821a562199f9d494c4c1c8a9be654df3ebe|Merge branch 'sts/freight_support' of https://github.com/sts/jenkins-debian-glue|Mon, 4 Feb 2013 11:53:52 +0100|Mon, 4 Feb 2013 11:53:52 +0100
+8abadb7b5446b4292545613d28fd4c5a5b817150|Add UDebComponents. Needed by some packages.|Sun, 3 Feb 2013 21:08:41 +0400|Sun, 3 Feb 2013 21:08:41 +0400
+42cb68ced55b6c1559082be1a4a8e4b8cbc4076e|Adding freight support to build-and-provide-package|Wed, 30 Jan 2013 13:38:09 +0100|Wed, 30 Jan 2013 13:38:09 +0100
+747fda36a64914ab37e464ab58fd1017dcbeaa6d|generate-git-snapshot: prepend "origin" when checking out a $branch|Wed, 16 Jan 2013 14:28:14 +0100|Wed, 16 Jan 2013 17:28:13 +0100
+95a35fe16f32917a2182b5330eec1be081206890|support autopkgtest|Wed, 9 Jan 2013 16:04:47 +0100|Mon, 14 Jan 2013 19:10:24 +0100
+f5852adacceabebff771d7e2e6976b1065a972eb|Update copyright information in LICENSE file|Mon, 14 Jan 2013 19:00:04 +0100|Mon, 14 Jan 2013 19:00:04 +0100
+7f556307d28d52a08e744a74e1eae4eb1886d1fd|refactor generate-git-snapshot|Mon, 14 Jan 2013 18:03:26 +0100|Mon, 14 Jan 2013 18:11:28 +0100
+1418a32df29f6c20c2fd45b589e80049a033c9df|generate-git-snapshot: support $branch as alternative to $tag|Wed, 9 Jan 2013 16:16:50 +0100|Wed, 9 Jan 2013 16:16:50 +0100
+85a82503596975804fd82cb8e1ddd7bef6c740c9|generate-git-snapshot: make sure we're building the requested version via dpkg-source|Wed, 9 Jan 2013 16:10:31 +0100|Wed, 9 Jan 2013 16:10:31 +0100
+75be3a914a5945eebc19248aba0a39570b130c6c|Merge pull request #32 from nexeck/pr/checkout_jenkins_branch|Wed, 9 Jan 2013 07:08:16 -0800|Wed, 9 Jan 2013 07:08:16 -0800
+bd87c782e7ce1b3c7315ebc7a4541033b904d8dd|Do not checkout HEAD, checkout the Branch that is given in jenkins|Sat, 5 Jan 2013 12:01:48 +0100|Mon, 7 Jan 2013 17:55:07 +0100
+b56f16b1ae9b340a980f1270b01c0d39e06e56e3|tap_tool_dispatcher: use .tap suffix for output files|Wed, 19 Dec 2012 00:59:40 +0100|Wed, 19 Dec 2012 00:59:40 +0100
+e814cfe8250fe2f35f430050add2733a9a17ea90|tap_tool_dispatcher: ignore .git directory as well|Wed, 19 Dec 2012 00:58:27 +0100|Wed, 19 Dec 2012 00:58:27 +0100
+11fd8dbdee9ce43c632a413de20bf662b379385d|Drop "possible bashism" from source/git/post-receive|Wed, 19 Dec 2012 00:34:52 +0100|Wed, 19 Dec 2012 00:36:23 +0100
+ea7394447dd0baea21ee500adb78136135859fdd|replace signal numbers in trap with their according signal names|Wed, 19 Dec 2012 00:19:17 +0100|Wed, 19 Dec 2012 00:19:17 +0100
+015b2fbc991807342f72b6dad1607a2317abc053|Added a variable to also allow one to overwrite the git-buildpackage options. If variable not set it just falls back to the original options.|Tue, 11 Dec 2012 12:45:08 -0600|Tue, 11 Dec 2012 12:45:08 -0600
+09cfda3b70d3af114a12f12e85dfebe51eeef9cc|Depends of sudo or sudo-ldap|Fri, 23 Nov 2012 20:57:55 -0800|Fri, 23 Nov 2012 20:57:55 -0800
+f6a3ab9490f33c7a8f31af65281417f21123f37a|generate-git-snapshot: use dpkg-source's -I switch without any arguments|Sun, 28 Oct 2012 14:27:57 +0100|Sun, 28 Oct 2012 14:59:48 +0100
+de10cec4542cdeaa7444c9f215c2a2c3ac5c1179|git post-receive hook: provide curl usage example|Fri, 19 Oct 2012 11:23:00 +0200|Fri, 19 Oct 2012 11:23:00 +0200
+fd81e826308ba50b9feefce3e4bb9853cb96ffc4|git post-receive hook: use $server variable instead of jenkins.grml.org|Fri, 19 Oct 2012 11:14:16 +0200|Fri, 19 Oct 2012 11:14:16 +0200
+00dc44dddfa26c3ad464854b7515e069e1d9aa8c|piuparts_wrapper: use --skip-logrotatefiles-test if available|Mon, 24 Sep 2012 15:46:16 +0200|Mon, 24 Sep 2012 15:46:19 +0200
+c92a6464beaa3685f6ff08ee46125a506998a477|Release new version 0.4.0|Fri, 31 Aug 2012 15:12:08 +0200|Fri, 31 Aug 2012 15:12:08 +0200
+647ebb021e1b3651f93d054cc6af92a39a796834|puppet: provide jenkins-debian-glue-piuparts Jenkins job|Fri, 31 Aug 2012 13:21:01 +0200|Fri, 31 Aug 2012 15:04:01 +0200
+cd2bcf95a404d106f6d56c7c93af5e0974a9050b|puppet: provide description in *-source and *-binaries job, including how to access the repos|Fri, 31 Aug 2012 13:20:10 +0200|Fri, 31 Aug 2012 15:03:22 +0200
+b2c0c830a51881f5ddbec62f15dcc3e36e54155c|puppet: deploy TAP Jenkins plugin|Fri, 31 Aug 2012 11:49:10 +0200|Fri, 31 Aug 2012 14:29:17 +0200
+b8cf4a546beb90d579d036f070c87cd4486cd8dc|puppet: enable piuparts, debootstrap + piuparts_wrapper in /etc/sudoers.d/jenkins|Fri, 31 Aug 2012 11:31:51 +0200|Fri, 31 Aug 2012 14:29:17 +0200
+67bdc6e33b76a328e1a064d5c16580e2e7025117|puppet: deploy jenkins-debian-glue-buildenv-taptools + jenkins-debian-glue-buildenv-piuparts|Fri, 31 Aug 2012 11:31:21 +0200|Fri, 31 Aug 2012 14:29:17 +0200
+714c019e485a814bc9bb6457f4eeca9da16fa6ce|puppet's apply.sh: use ";" as separator in sed cmdline as hash string might contain "/"|Fri, 31 Aug 2012 11:30:28 +0200|Fri, 31 Aug 2012 14:29:17 +0200
+87bb207f2146fa9d48493c691d834040d728e3a5|Initial piuparts support with new package jenkins-debian-glue-buildenv-piuparts|Fri, 31 Aug 2012 07:45:45 +0200|Fri, 31 Aug 2012 14:29:14 +0200
+abc1949300a44b93eca68314c7db122a27fc1224|New package jenkins-debian-glue-buildenv-taptools|Tue, 28 Aug 2012 07:50:37 +0200|Fri, 31 Aug 2012 11:39:11 +0200
+3872b18068fc3b1365651312d67cab68794a2044|Do not fail if SKIP_DCH is unset; use 'true' for checking for SKIP_DCH; inform user about it|Fri, 31 Aug 2012 07:50:58 +0200|Fri, 31 Aug 2012 07:56:34 +0200
+201ec1e378302391f360ff84e04de6efd124482f|generate-git-snapshot: Allow skipping of git-dch|Thu, 30 Aug 2012 17:17:42 +0200|Thu, 30 Aug 2012 17:17:42 +0200
+8959b892f6c37ef5c9c9c6a6eded7f403fc23de6|Release new version 0.3.0|Tue, 21 Aug 2012 20:46:10 +0200|Tue, 21 Aug 2012 20:46:10 +0200
+69e67304534670fb2b584c2500b56afee21cb6b4|puppet: build master branch in jenkins-debian-glue-source|Tue, 21 Aug 2012 20:22:56 +0200|Tue, 21 Aug 2012 20:22:58 +0200
+0f874511ffb1647c871d32b0da70fbe29771ab9d|incoming repos: use release name as Default|Tue, 21 Aug 2012 15:47:39 +0200|Tue, 21 Aug 2012 15:47:41 +0200
+daecb078d7442e50c63ad8d37aee267e1904508d|Drop sudo wrappers for release repositories|Tue, 21 Aug 2012 15:45:14 +0200|Tue, 21 Aug 2012 15:45:16 +0200
+76e101f18a9de071a351f4998ad3952d07da3b2d|incoming repos: allow all kinds of distributions listed in packages enter the repos|Tue, 21 Aug 2012 13:42:02 +0200|Tue, 21 Aug 2012 14:10:55 +0200
+465be62ac1e84bc212c1fd1e2ba3f66c48dbe2e3|run reprepro's processincoming cmdline also with --ignore=wrongdistribution + --waitforlock option|Tue, 21 Aug 2012 13:40:27 +0200|Tue, 21 Aug 2012 14:10:55 +0200
+65dbf08cfdc1d85f739158af94437280c007522c|Do not modify debian/changelog if building from a tag|Tue, 21 Aug 2012 01:09:17 +0200|Tue, 21 Aug 2012 14:00:50 +0200
+3b1e6041429d0f789113bfce106a2a206163c098|repository_checker: support --validate-incoming|Mon, 20 Aug 2012 17:59:59 +0200|Mon, 20 Aug 2012 18:00:00 +0200
+e9015573d04945ba7b5f932c7c1d046dc4e012d4|Use seed for password hashing|Mon, 20 Aug 2012 00:02:08 +0200|Mon, 20 Aug 2012 12:04:45 +0200
+2a13a53be4262a274258cf9529348b8a07f85689|Drop img/ (provided through website now)|Sun, 19 Aug 2012 23:47:38 +0200|Sun, 19 Aug 2012 23:47:38 +0200
+ff725348ab2464d4fe2acb3b1a59f9d3970d54fe|README: drop docs, point to http://jenkins-debian-glue.org/|Sun, 19 Aug 2012 00:20:40 +0200|Sun, 19 Aug 2012 00:20:40 +0200
+377d53a87a66581e0e9ae81163fe5f407cc07daa|Add support for JUnit reports via lintian in automated deployment|Sat, 18 Aug 2012 18:40:56 +0200|Sat, 18 Aug 2012 18:44:46 +0200
+f85d9b4661fbc8455c9fc30d0417c9241f672349|deployment: ship /var/lib/jenkins/config.xml and user jenkins-debian-glue with custom password|Sat, 18 Aug 2012 16:52:16 +0200|Sat, 18 Aug 2012 17:29:23 +0200
+ae9b2a7f59a5f63a71a7a8545fee831786ff87bc|Release new version 0.2.0|Sat, 18 Aug 2012 13:45:22 +0200|Sat, 18 Aug 2012 13:45:22 +0200
+33b41953c1d37a6f18f379e4ebee90ffff3aa0c0|Puppet deployment script: support EC2 by returning its public IP address|Sat, 18 Aug 2012 13:02:43 +0200|Sat, 18 Aug 2012 13:02:43 +0200
+af494a8471e737cdc66217672a19993bfdeeda25|Adjust path of puppet file for master branch|Sat, 18 Aug 2012 11:10:01 +0200|Sat, 18 Aug 2012 11:10:01 +0200
+6b43ea6a53105e1559b5c5763bfea5672be40378|Initial deployment script + puppet recipe for automatic installation|Fri, 17 Aug 2012 00:12:39 +0200|Sat, 18 Aug 2012 11:07:25 +0200
+0c907e08c693c2e8dd39ced1645a9fd57e3898a6|docs: mention the "Delete workspace before build starts" option for the binary job|Fri, 17 Aug 2012 14:59:24 +0200|Fri, 17 Aug 2012 14:59:24 +0200
+c27e896c130185f7ece47040daedab3133331304|Add official Ubuntu support|Fri, 17 Aug 2012 14:41:30 +0200|Fri, 17 Aug 2012 14:43:39 +0200
+c37a20a72ee747dd6c52666d2b02209e44553911|Install repository_checker in jenkins-debian-glue package|Fri, 17 Aug 2012 00:14:20 +0200|Fri, 17 Aug 2012 00:14:20 +0200
+f6550e9c936e0641fce1a1affa91602398867eed|New script repository_checker|Tue, 14 Aug 2012 03:02:25 +0200|Thu, 16 Aug 2012 22:45:22 +0200
+101fb3b62440d7e65233dde7dbb44c9edabdf604|Source /etc/jenkins/debian_glue in generate-*-snapshot|Thu, 16 Aug 2012 21:57:21 +0200|Thu, 16 Aug 2012 21:57:24 +0200
+79037379055b7acc29ad302980a2f14d01f9f792|Invoke all generate-reprepro-codename commands through $SUDO_CMD|Thu, 16 Aug 2012 21:21:06 +0200|Thu, 16 Aug 2012 21:21:06 +0200
+456305ed224a6e56ac2ff09ca0bda24df8b9186a|Call generate-reprepro-codename in reprepro_wrapper + update README accordingly|Thu, 16 Aug 2012 20:59:05 +0200|Thu, 16 Aug 2012 20:59:05 +0200
+1bcac3d5ffc0f2f4670c079af624390640a31672|Document COWBUILDER_BASE and COWBUILDER_DIST|Thu, 16 Aug 2012 19:21:11 +0200|Thu, 16 Aug 2012 19:33:59 +0200
+96f3cb617e0b9b427c4786d2a970a655c5e92ba8|Support overriding cowbuilder's base.cow via COWBUILDER_BASE and refactor code|Thu, 16 Aug 2012 18:19:15 +0200|Thu, 16 Aug 2012 19:33:45 +0200
+a12b28a7fe972ea43f78950b78cb146314b6ab27|Always include $distribution in cow base name [closes #17]|Thu, 16 Aug 2012 17:04:08 +0200|Thu, 16 Aug 2012 17:13:33 +0200
+24ad13fa51bb2f4d26c3ff83688734b8bd29243f|Drop $sources support and default with $BASE_PATH to $WORKSPACE|Thu, 16 Aug 2012 13:24:35 +0200|Thu, 16 Aug 2012 13:33:21 +0200
+f68b0febfb890ad30b58ebb2bc5b15c7b51218b7|Drop userContent support|Thu, 16 Aug 2012 13:19:01 +0200|Thu, 16 Aug 2012 13:19:01 +0200
+a00449e9656009ab2191027f4e2be07c597eaa1f|Enable cowbuilder_run() for all architectures|Tue, 14 Aug 2012 17:32:32 +0200|Tue, 14 Aug 2012 17:32:33 +0200
+de561109856a2ddffc3e876868e45637b950edb4|remove_missing_binary_packages: make check for missing package match whole words|Tue, 14 Aug 2012 00:24:04 +0200|Tue, 14 Aug 2012 00:25:11 +0200
+0c2a33e711d7e2f1cb093dcce32f7b7843de3f85|Limit package removal of binary packages to .deb files only|Mon, 13 Aug 2012 23:30:51 +0200|Mon, 13 Aug 2012 23:30:54 +0200
+57ba7e0aed2eee89cf02a6c08821a7015abb89a2|Set ARCH/BASE/DIST in dist_and_arch_settings() also for PROVIDE_ONLY runs|Mon, 13 Aug 2012 23:12:34 +0200|Mon, 13 Aug 2012 23:13:58 +0200
+672aa369c9d57a92c88b1d968e8b6023cbb1bb19|Also remove source package from REPOS|Mon, 13 Aug 2012 09:36:34 +0200|Mon, 13 Aug 2012 23:13:27 +0200
+043002d32ac1581fb46872f870d53f70b5e722a6|Execute wrap-and-sort with -a option to wrap all {Build-,}Depends|Mon, 13 Aug 2012 19:32:01 +0200|Mon, 13 Aug 2012 19:32:01 +0200
+3e55f3e394d6f2386bcf608386010b3de5bab23e|debian package description: fix typo|Mon, 13 Aug 2012 19:30:58 +0200|Mon, 13 Aug 2012 19:30:58 +0200
+20ef6f3d799f6d7003b5f734a65eeff78f491240|Apply wrap-and-sort on Debian package|Mon, 13 Aug 2012 19:22:55 +0200|Mon, 13 Aug 2012 19:22:55 +0200
+f1448994e6806e4168e7a770a525fffc8f94befd|arch:all packages don't need ${shlibs:Depends}|Mon, 13 Aug 2012 19:17:42 +0200|Mon, 13 Aug 2012 19:17:42 +0200
+8279e905800a8a84e6ea3333bcc9308e19f8a883|Drop the deprecated scripts generate-local-repository + include-in-repos|Mon, 13 Aug 2012 18:23:46 +0200|Mon, 13 Aug 2012 18:28:00 +0200
+9c52b4b4c94e1e6b4e262f646bfc97a369825305|README: minor syntax fixes and rewordings|Mon, 13 Aug 2012 18:17:35 +0200|Mon, 13 Aug 2012 18:17:35 +0200
+dd3c1db6ca9161d9122a0f4b751734d6630566d8|Adjust identify_sourcefile to not mention ArtifactDeployer any longer|Mon, 13 Aug 2012 18:06:25 +0200|Mon, 13 Aug 2012 18:08:45 +0200
+0f3b985bd84de6b92bf545d2c5d0e8235722f251|Update documentation to clarify best practices, current development + cover some FAQs, closes #9|Mon, 13 Aug 2012 15:11:01 +0200|Mon, 13 Aug 2012 18:08:02 +0200
+d236f1a7ef63ac4e7fa9d20d37c636cc1d460275|Do not use Grml-specific defaults for DEBEMAIL and generate-local-repository's Release file|Mon, 13 Aug 2012 11:31:16 +0200|Mon, 13 Aug 2012 11:31:16 +0200
+c29ab60d62f4847c5d17690f70c23171bf30f7a4|README: hardcode image URLs to fix 404 for images on Github :(|Mon, 13 Aug 2012 11:17:25 +0200|Mon, 13 Aug 2012 11:17:31 +0200
+3a0cf54929fb7fcc533d6beeea3d1e273797a65d|README: modify path for images to hopefully work on Github|Mon, 13 Aug 2012 11:14:44 +0200|Mon, 13 Aug 2012 11:14:44 +0200
+c2f883589757796e08ea81f29aaa1917f3b588d6|Document how to find console output of Jenkins jobs|Mon, 13 Aug 2012 10:45:54 +0200|Mon, 13 Aug 2012 11:11:40 +0200
+aaa129856e902616af7a133c2ac0ce11a7fcea47|Fix README about DCH_OPTS and DCH_EXTRA_OPTS|Sun, 12 Aug 2012 16:44:57 +0200|Sun, 12 Aug 2012 16:44:57 +0200
+fc8638fb2094a2d48c3917df6efcee89dc2b2adf|git-buildpackage refuse to operate on a single git commit, too|Sun, 12 Aug 2012 14:40:13 +0200|Sun, 12 Aug 2012 14:40:13 +0200
+a271c48c3fdadb8f147a5fb1a16ec2c40b97c6e0|Do not execute dist_and_arch_settings() if PROVIDE_ONLY is set|Fri, 10 Aug 2012 23:21:42 +0200|Fri, 10 Aug 2012 23:21:44 +0200
+3a304b16063fdeb9093e0fff429e0c1f7d3471c1|create_local_branch: make check for remotes/origin/$BRANCH more explicit|Fri, 10 Aug 2012 00:34:19 +0200|Fri, 10 Aug 2012 00:40:39 +0200
+d1b43a74c549c0942c36a5ffd2b1852d762a1d23|include-in-repos: allow overwriting $BASE_DIR, default to working directory|Wed, 1 Aug 2012 15:03:20 +0200|Wed, 1 Aug 2012 15:03:51 +0200
+14e8b79ee4b98fa50c1b540dc77991616fb7ea86|README: mention Debian packages|Tue, 31 Jul 2012 13:57:27 +0200|Tue, 31 Jul 2012 13:57:27 +0200
+9fdd9fd01cce8335eebec6a5513ad577b741bbab|Check out temporary branch based on GIT_COMMIT to make git-dch happy|Tue, 31 Jul 2012 13:25:12 +0200|Tue, 31 Jul 2012 13:34:19 +0200
+08936651ce3ceef7e5e76f81eb7341ccedda40ff|Remove a stray newline in README.org.|Mon, 30 Jul 2012 12:18:03 +0200|Tue, 31 Jul 2012 11:24:20 +0200
+f1f3d78bebadc64c78dac4df3077fef23dc8c4e6|README: update list of Known TODOs|Mon, 30 Jul 2012 10:00:01 +0200|Mon, 30 Jul 2012 10:00:01 +0200
+00ccf25fe70178ef85f0e596611cff85361db154|README: update list of contributors|Mon, 30 Jul 2012 09:58:43 +0200|Mon, 30 Jul 2012 09:58:43 +0200
+8a8c98cd607c1e1b2547933afaebe73cf1b9c2d1|Reset current directory in identify_build_type|Sun, 29 Jul 2012 17:48:35 +0200|Sun, 29 Jul 2012 17:48:35 +0200
+757ce4a3f55cf12764d5f84e1ec39c2afceeb219|Add a workaround for SOURCE_PACKAGE|Sun, 29 Jul 2012 17:46:46 +0200|Sun, 29 Jul 2012 17:46:46 +0200
+6f21ae0b197ff5cd0940f3b8c07e40ed4ef4f313|Remove duplicate signal from trap call.|Sun, 29 Jul 2012 13:50:12 +0200|Sun, 29 Jul 2012 13:50:12 +0200
+06be70cca898b914bc7d52f57c8dab518acef146|Update svn setup instructions.|Sun, 29 Jul 2012 13:39:30 +0200|Sun, 29 Jul 2012 13:39:30 +0200
+2593cc8c28b11baf2f3159ee5a67440b14240278|trigger_jenkins: support sending tags to a release dashboard + iterate over all modified projects|Fri, 27 Jul 2012 22:35:27 +0200|Fri, 27 Jul 2012 22:36:41 +0200
+f6954ba16aed9cfd460bbe19e9e23fb14abfb218|Release new version 0.1.1|Thu, 26 Jul 2012 14:10:22 +0200|Thu, 26 Jul 2012 14:10:22 +0200
+644aef6e84c0b12eb7c71b8568f578855a8b9581|generate-git-snapshot: use plain dch if handling UNRELEASED version|Thu, 26 Jul 2012 12:54:02 +0200|Thu, 26 Jul 2012 12:54:02 +0200
+e35e50ecfff35703d3961199e96aa2217e113510|generate-git-snapshot: do not checkout branch but always $GIT_COMMIT|Thu, 26 Jul 2012 11:45:20 +0200|Thu, 26 Jul 2012 11:45:20 +0200
+8092cc509f5bdb4e58b3090c2be91a293622cd8c|generation-git-snapshot: use git-dch's auto mode as default|Thu, 26 Jul 2012 01:22:16 +0200|Thu, 26 Jul 2012 01:22:16 +0200
+8efffcd44ae1c3bfa8a06760d9b99166a99cad20|First release 0.1.0|Wed, 25 Jul 2012 17:33:19 +0200|Wed, 25 Jul 2012 17:33:37 +0200
+8595b75f480bc87dcd4ee65353402bf3f8366858|Bump Standards-Version to 3.9.3|Wed, 25 Jul 2012 17:21:40 +0200|Wed, 25 Jul 2012 17:22:54 +0200
+1b9b6c43683a03f1f9eb3a64c8c30558801aefad|Make all shell scripts bash ones|Wed, 25 Jul 2012 17:06:42 +0200|Wed, 25 Jul 2012 17:10:56 +0200
+cce10fb043676ab3b38d450bd4d2192af438c631|Display jenkins-debian-glue version in script output|Wed, 25 Jul 2012 17:02:57 +0200|Wed, 25 Jul 2012 17:10:53 +0200
+5968914b7009333e1f02200fd6b76e535e1662f4|fabfile: adjust regex to match all jenkins-debian-glue packages|Wed, 25 Jul 2012 16:58:57 +0200|Wed, 25 Jul 2012 17:04:32 +0200
+ff936409535df1f6621cb6da46ca956cf3ffbf50|fabfile: add further jenkins slaves|Wed, 25 Jul 2012 16:51:39 +0200|Wed, 25 Jul 2012 17:04:32 +0200
+fae2428bf40a7271e81ddb550bd66e8412b9180c|Do not hardcode "sid" as default for cowbuilder dist, support setting COWBUILDER_DIST [Closes #8]|Wed, 25 Jul 2012 16:36:34 +0200|Wed, 25 Jul 2012 17:04:28 +0200
+400e00302033f787eb426b716716bbf9a868f2d8|use binary-only build if specified arch doesn't match $MAIN_ARCHITECTURE and/or architecture of host|Wed, 25 Jul 2012 15:57:29 +0200|Wed, 25 Jul 2012 16:15:02 +0200
+6daeb712c7fd54b341c16c61a7af37513f9d5eed|generate-git-snapshot: check out common branches so git-buildpackage can work with them|Wed, 25 Jul 2012 13:42:04 +0200|Wed, 25 Jul 2012 13:42:15 +0200
+07d18893d56b29215c532765dee4267d25ef2993|generate-git-snapshot: do not increase package version if building for UNRELEASED|Wed, 25 Jul 2012 13:40:44 +0200|Wed, 25 Jul 2012 13:40:44 +0200
+1a7be5f345a9bd97db6f6ac14b598df08ae2f5f8|Merge pull request #7 from zeha/patch-1|Tue, 19 Jun 2012 10:53:56 -0700|Tue, 19 Jun 2012 10:53:56 -0700
+7f3ede545f1c50942571fe577ca7a76d13925ab9|Add missing reprepro dependency|Tue, 19 Jun 2012 11:48:58 +0300|Tue, 19 Jun 2012 11:48:58 +0300
+874a0a07615ad0d8bcb34eb1e5841d9cc8c28040|Skip removal when SKIP_REMOVAL is set also in remove_missing_binary_packages step|Tue, 21 Feb 2012 01:16:04 +0100|Tue, 21 Feb 2012 01:16:04 +0100
+6eb82f0d7709e762daad6a3a3992d652b2d636dc|Support skipping removal of packages via SKIP_REMOVAL|Tue, 21 Feb 2012 01:04:50 +0100|Tue, 21 Feb 2012 01:04:50 +0100
+25c8869bf5e53241276b1890d698882c0653a8bf|generate-git-snapshot: new versioning schema, including timestamp|Sun, 19 Feb 2012 12:51:52 +0100|Sun, 19 Feb 2012 12:51:52 +0100
+9d24064a04707f5116fe14a139c69375ae85be74|generate-git-snapshot: skip git-buildpackage step via IGNORE_GIT_BUILDPACKAGE|Sat, 18 Feb 2012 22:11:09 +0100|Sat, 18 Feb 2012 22:11:11 +0100
+d46103e9c5e954c59a65153c22287885507b0e54|Makefile: provide uninstall target, closes #6|Wed, 15 Feb 2012 13:14:46 +0100|Wed, 15 Feb 2012 13:15:47 +0100
+05b8fd1164a3c50358fa006977f6adf33c67f447|build-and-provide-package: make sure release variable is not set to '${release}'|Mon, 13 Feb 2012 15:29:16 +0100|Mon, 13 Feb 2012 15:29:21 +0100
+8f859e19ef8e1961d920451b9ca18f6b4933bf27|fabfile: run clean after building package; add jenkins-slave4 host|Wed, 8 Feb 2012 15:07:23 +0100|Wed, 8 Feb 2012 15:41:53 +0100
+2df2e874c40fb6229bd3de447fe78642d2a3d792|identify_package_name: support *-repos for Jenkins job names|Wed, 8 Feb 2012 15:05:52 +0100|Wed, 8 Feb 2012 15:41:51 +0100
+390271038a1b3d3a51492bced1616f223436318c|trunk_release: support skipping inclusion of packages in $TRUNK_RELEASE via IGNORE_RELEASE_TRUNK|Wed, 8 Feb 2012 10:56:11 +0100|Wed, 8 Feb 2012 12:03:40 +0100
+9247871839f8b50f80c179a9e26b00d353ba8b22|build-and-provide-package: support PROVIDE_ONLY and BUILD_ONLY, drop REMOTE_REPOS|Wed, 1 Feb 2012 00:40:04 +0100|Wed, 1 Feb 2012 16:35:14 +0100
+ca5989e07a774b65094b2fdde2b7418d6191d839|Provide lintian-junit-report through separate jenkins-debian-glue-buildenv-lintian package|Tue, 31 Jan 2012 16:37:58 +0100|Tue, 31 Jan 2012 16:48:55 +0100
+442b5d71cc0ca2773690bd9bddfe81b1a4fb4861|Fabric: install all Debian packages + add jenkins-slave3|Tue, 31 Jan 2012 16:08:00 +0100|Tue, 31 Jan 2012 16:08:00 +0100
+3fbc57f09e3ed2133c7a33819f0f1ea8c1722c6f|Provide debian/jenkins-debian-glue.install to install files|Thu, 19 Jan 2012 16:04:19 +0100|Thu, 19 Jan 2012 16:36:18 +0100
+e00041ec303abd65322a1c3118b0cef30cafabad|generate-git-snapshot: always use dpkg-source to build the source package|Thu, 19 Jan 2012 15:30:54 +0100|Thu, 19 Jan 2012 16:36:18 +0100
+f713735d80146849a84779a04529c3ae919f6901|build-and-provide-package: rework package removal for arch-all packages|Thu, 19 Jan 2012 15:27:38 +0100|Thu, 19 Jan 2012 16:36:18 +0100
+a23bfae6a3464094fb06c027093d4b9005f20cc2|build-and-provide-package: use -sa as default build option|Thu, 19 Jan 2012 15:25:58 +0100|Thu, 19 Jan 2012 16:36:18 +0100
+e5ab37cb3892af3032d867a10f2bfae6cd970685|build-and-provide-package: use 'Error' in error message causing build exit|Thu, 19 Jan 2012 15:25:23 +0100|Thu, 19 Jan 2012 16:36:18 +0100
+d17d40756219a1d3971a8f06758b745aa6d0c234|build-and-provide-package: display date and runtime information|Thu, 19 Jan 2012 15:24:47 +0100|Thu, 19 Jan 2012 16:36:15 +0100
+1badb62d41d723044f14e51b1a9755a86cb321d8|generate-git-snapshot: ignore .git files when building via dpkg-source|Wed, 18 Jan 2012 16:40:49 +0100|Wed, 18 Jan 2012 16:40:49 +0100
+44c390c98fe931024ee247bda7e168649c633b89|generate-git-snapshot: run git-buildpackage with --git-verbose option|Wed, 18 Jan 2012 16:39:56 +0100|Wed, 18 Jan 2012 16:39:56 +0100
+f2bbc0ff553a0efeacca84320ef6fdfd721b3dd9|Provide virtual packages jenkins-debian-glue-buildenv-{git,svn,slave}|Sat, 19 Nov 2011 01:23:33 +0100|Wed, 18 Jan 2012 16:20:02 +0100
+6272ffd3d411c8261087297517497444c279fd97|generate-git-snapshot: use dpkg-parsechangelog instead of parsechangelog|Wed, 18 Jan 2012 14:54:19 +0100|Wed, 18 Jan 2012 14:54:24 +0100
+ed897db23281214040cd74a4fe8f7d82b5068a88|generate-svn-snapshot: improve layout of generated changelog|Mon, 9 Jan 2012 18:45:36 +0100|Mon, 9 Jan 2012 18:45:36 +0100
+5d4f5ef3ec367bf2f61c1ccb408bfeadece74e0a|Update copyright information|Mon, 9 Jan 2012 18:07:29 +0100|Mon, 9 Jan 2012 18:07:29 +0100
+a89265d49cbbe56b5b15d8dde967a4b64e7b52fa|Include lintian-junit-report in README|Mon, 9 Jan 2012 18:04:38 +0100|Mon, 9 Jan 2012 18:04:38 +0100
+21d70c6412781ee89ecd27e3a27701844c24014d|scripts/lintian-junit-report: make usage test ruby-ish (thanks ch)|Thu, 5 Jan 2012 20:22:56 +0100|Thu, 5 Jan 2012 20:22:56 +0100
+1e618eb3d43c955571c481859e1c51e945adf4d2|lintian-junit-report: adjust encoding after storing plaintext file|Thu, 5 Jan 2012 16:50:41 +0100|Thu, 5 Jan 2012 16:50:41 +0100
+155afe8ce77a155412e6f7eeed5e1903a2189647|lintian-junit-report: adjust regex to not fail on lines with multiple ":"|Thu, 5 Jan 2012 16:31:12 +0100|Thu, 5 Jan 2012 16:31:12 +0100
+43e62bdaa56f6b0510f5a521591db16e42591a7d|Add lintian-junit-report for running lintian checks in Jenkins|Wed, 4 Jan 2012 14:25:32 +0100|Thu, 5 Jan 2012 15:52:58 +0100
+b0a4ab433cf13dfa1d693bb0151228f6707ecbd9|generate-svn-snapshot: run svn-buildpackage in subshell and move files to orig dir|Thu, 29 Dec 2011 13:13:57 +0100|Thu, 29 Dec 2011 13:13:57 +0100
+473bfa06f334069487ed2663371818c5b4fda52c|use architecture specific reprepro removal command for non-arch-all packages|Thu, 15 Dec 2011 23:50:32 +0100|Thu, 15 Dec 2011 23:52:40 +0100
+ba4a640361861bce3c312163014ce671145c4e3f|Rework git branch handling|Sun, 27 Nov 2011 21:07:53 +0100|Fri, 9 Dec 2011 22:59:09 +0100
+16f98e527c88225fb09bb45d2f8db9de6f190266|invoke processincoming with explicit changes file to avoid race conditions|Thu, 1 Dec 2011 12:57:44 +0100|Thu, 1 Dec 2011 12:57:45 +0100
+12aa7c4a012ff3a692b60dff907ec01ea53fcc19|use separate release directory for release builds|Thu, 1 Dec 2011 12:56:09 +0100|Thu, 1 Dec 2011 12:56:11 +0100
+9dfd5303661b20d9e340980183a0019f9d144599|run full builds by default to simplify sources handling|Thu, 1 Dec 2011 12:49:27 +0100|Thu, 1 Dec 2011 12:49:27 +0100
+f2d04a569654c3e271709cc701aa49bea6d3161e|generate-git-snapshot: pull changes in branch_checkout()|Thu, 1 Dec 2011 12:46:46 +0100|Thu, 1 Dec 2011 12:46:46 +0100
+79a05d05b8f38a3959e36a388351709147da46d9|generate-git-snapshot: drop origin/ if present|Sat, 26 Nov 2011 10:59:00 +0100|Sat, 26 Nov 2011 10:59:00 +0100
+1a347c1fb5447cd27bb29ed80c6ed56a15320514|generate-git-snapshot: do not check out master branch if that branch does not exist|Sat, 26 Nov 2011 09:50:46 +0100|Sat, 26 Nov 2011 09:50:48 +0100
+7b3c49ed049424d1f6c1173ee07949e1408e7bb0|provide deployment script using fabric|Thu, 24 Nov 2011 02:45:02 +0100|Thu, 24 Nov 2011 02:46:17 +0100
+a392ccc01a2ac54a561d28d6c210d3b2959153b0|align svn-buildpackage mergeWithUpstream feature with $branch handling|Thu, 24 Nov 2011 02:40:59 +0100|Thu, 24 Nov 2011 02:46:08 +0100
+64c693eb4c0fab57c369f8286fee3e3d20c950fe|Add support for svn-buildpackages mergeWithUpstream|Wed, 23 Nov 2011 22:14:36 +0100|Thu, 24 Nov 2011 00:35:09 +0100
+71e5ba16892a151c85110611b42188338b6f05e9|generate-git-snapshot: make sure all files are up2date through running "git pull"|Thu, 24 Nov 2011 00:29:06 +0100|Thu, 24 Nov 2011 00:32:19 +0100
+8fda5aaf24d662a243a5d856f09a4ecce103f3d2|align and integrate code for tag based builds in git and use it as soon as $tag is set|Thu, 24 Nov 2011 00:15:09 +0100|Thu, 24 Nov 2011 00:15:20 +0100
+7edb115b86d024b5ea2dd88d56564a3c261cf07d|Allow generating source in git from tags|Wed, 23 Nov 2011 14:13:30 +0100|Wed, 23 Nov 2011 23:56:23 +0100
+cfb65f6e9d9bad1220c48f776e70a3b8d39fa8b9|doc: mention known installations driven by jenkins-debian-glue|Wed, 23 Nov 2011 00:13:28 +0100|Wed, 23 Nov 2011 00:14:19 +0100
+97b4e6ec2718dbad44eed58b1af69f8403d9f856|provide documentation how to use chroots for building non-Debian stuff|Wed, 23 Nov 2011 00:12:56 +0100|Wed, 23 Nov 2011 00:12:56 +0100
+cf989c881b82d41525a16e2c8e3f9057c7e11d67|fix usage of $distribution|Tue, 22 Nov 2011 16:33:08 +0100|Tue, 22 Nov 2011 16:33:08 +0100
+3596f3c3e78a474b25ad758db2dcd139cc31f38f|initial slave stuff|Tue, 22 Nov 2011 16:20:58 +0100|Tue, 22 Nov 2011 16:24:24 +0100
+2c9dabee786c62a4b676adf9452c4a3e799928df|remove binaries directory after files have been moved|Sat, 19 Nov 2011 12:51:59 +0100|Tue, 22 Nov 2011 16:24:08 +0100
+f7f3acc6f7ef7bf7db03b6b94d67d1272dfaaee2|minor formating fixes and provide Vim modelines in all scripts|Mon, 21 Nov 2011 23:51:50 +0100|Mon, 21 Nov 2011 23:53:08 +0100
+ce8f2579084c9fdd3be0130cb3caae12320efee3|support multi-distribution setup|Mon, 21 Nov 2011 23:48:56 +0100|Mon, 21 Nov 2011 23:48:56 +0100
+0957cfaa67c64f28d6d036a38aaeca1349cc4545|generate-git-snapshot: make sure we switch to upper directory in subshell to avoid failing runs|Mon, 21 Nov 2011 12:31:32 +0100|Mon, 21 Nov 2011 12:31:33 +0100
+c7edd530b5386f313a50aa4251d6c03ca89c732f|generate-git-snapshot: make sure to revert to original debian/changelog to avoid merge conflicts|Mon, 21 Nov 2011 12:06:38 +0100|Mon, 21 Nov 2011 12:09:20 +0100
+772ff4c92395ee3f26901afdbc9e5cc2478703a6|provide commit hook setup for subversion|Mon, 21 Nov 2011 11:30:51 +0100|Mon, 21 Nov 2011 11:30:51 +0100
+673a3daedbe00c4a0e278b4614eaa70cb76e6ca2|make sure $control_file is used only if found in tar file|Mon, 21 Nov 2011 10:55:15 +0100|Mon, 21 Nov 2011 10:55:17 +0100
+acb37fdd1e46efaf91de1f6dc13d379c9f9e3595|generate-svn-snapshot: include timestamp in version string and switch order of svn revision + build number|Fri, 18 Nov 2011 14:51:46 +0100|Fri, 18 Nov 2011 14:51:47 +0100
+f3d94c57324e33de40a66b191d22117e1820642d|NOTES.org: provide python-jenkins installation instructions|Fri, 18 Nov 2011 00:54:27 +0100|Fri, 18 Nov 2011 00:54:27 +0100
+cd33ee594f105d7b00d9df98d456f82d778e1acd|Transfer NOTES to .org format|Fri, 18 Nov 2011 00:40:11 +0100|Fri, 18 Nov 2011 00:40:11 +0100
+81dc1a76d3fda49ea6f09e64c03fd3f6a1d30ab4|Drop python-jenkins from NOTES (no Debian package available)|Fri, 18 Nov 2011 00:38:12 +0100|Fri, 18 Nov 2011 00:38:12 +0100
+b00626746cdbbb571122238443576ccb3c664a84|Add license information and contributors to README|Fri, 18 Nov 2011 00:26:31 +0100|Fri, 18 Nov 2011 00:26:31 +0100
+e0370a459009b5ed59083f2e854171d09a723a3f|improve and extend documentation (setup, configuration, jenkins plugins, FAQ,...)|Tue, 8 Nov 2011 17:56:40 +0100|Thu, 17 Nov 2011 15:24:45 +0100
+071e080c85eb45661881b8e3ca0d808066313035|improve user message when  is used or source package can't be found|Thu, 17 Nov 2011 13:51:27 +0100|Thu, 17 Nov 2011 14:15:59 +0100
+9cc04d9b2be565c092b07a38206ff05665599bbd|move all scripts to scripts/ directory|Thu, 17 Nov 2011 02:59:12 +0100|Thu, 17 Nov 2011 14:15:59 +0100
+9fb6c29730cae6d61fe0f1ced48b2be801655760|replace HUDSON_HOME with JENKINS_HOME|Thu, 17 Nov 2011 02:57:24 +0100|Thu, 17 Nov 2011 14:15:59 +0100
+6cc9121af428da085a0d6383a1dc84877b22b58f|use sudo only when running with $SUDO_CMD|Thu, 17 Nov 2011 02:12:28 +0100|Thu, 17 Nov 2011 14:15:48 +0100
+0b30afa47d55ab2a4405b4977dda56ba5e69f6fd|build-and-provide-package: set PATH so /usr/sbin is available for jenkins user|Thu, 17 Nov 2011 01:04:25 +0100|Thu, 17 Nov 2011 01:04:25 +0100
+e696d16a24405852e1e761f389d0c797d2e07257|generate-git-snapshot: fall back to auto mode if identifying latest tag/merge fails + use master branch|Thu, 17 Nov 2011 00:04:10 +0100|Thu, 17 Nov 2011 00:04:46 +0100
+9b49bf14dac879d32262daf42ba3af7ac18fb916|use buildd variant when creating new cowbuilder environments|Wed, 16 Nov 2011 13:49:40 +0100|Wed, 16 Nov 2011 13:49:40 +0100
+d6d580c2933f416a213e9fdcbf1f7f1f05115957|get rid of all files (not directories though) in workspace before starting build|Mon, 14 Nov 2011 17:03:10 +0100|Mon, 14 Nov 2011 18:40:03 +0100
+a5e2994a23b889ffa9866bb7c6ce1cb42183ec57|support multi arch builds for mixed architecture all and any binary builds|Sun, 13 Nov 2011 22:33:39 +0100|Mon, 14 Nov 2011 18:40:03 +0100
+3c32f12d506b361f165532483421b59de203e6cc|redesign build workflow and support TRUNK_RELEASE|Sun, 13 Nov 2011 22:33:17 +0100|Mon, 14 Nov 2011 18:39:59 +0100
+9d27a4fdf14da1e82e50168e547efee840aeb13c|generate-git-snapshot: support debian/gbp.conf and debian/upstream branching|Sun, 13 Nov 2011 16:36:47 +0100|Sun, 13 Nov 2011 16:36:47 +0100
+9ecc00e568aeeb9a0426dffbc284c00c247c3301|build-and-provide-package: rework arch specific build stuff|Fri, 11 Nov 2011 00:17:11 +0100|Fri, 11 Nov 2011 01:21:32 +0100
+c12235f29da4a861798ab5488dfb48abc71a52e7|generate-svn-snapshot: provide hints for user if running svn2cl fails|Thu, 10 Nov 2011 14:20:10 +0100|Thu, 10 Nov 2011 14:23:34 +0100
+ba297fe31135d65bdd63cbe851f3f48e8e347dc3|generate-{git,svn}-snapshot: get rid of existing files in Jenkin's userContent|Thu, 10 Nov 2011 14:14:23 +0100|Thu, 10 Nov 2011 14:16:16 +0100
+fc3d0f11ab9ac564c2d0de63156b727d5c06a985|simplify version number increasing and always just append "+0"|Thu, 10 Nov 2011 02:54:31 +0100|Thu, 10 Nov 2011 12:53:44 +0100
+e0f9f51f9bd33c6364aa586b404d5da8a0413c01|generate-git-snapshot: use HEAD when asking for git rev-list|Thu, 10 Nov 2011 12:53:04 +0100|Thu, 10 Nov 2011 12:53:06 +0100
+20a89cb29b89d341396683f7dd6b547c16ae9a16|build-and-provide-package: implement release build workflow|Wed, 9 Nov 2011 00:59:54 +0100|Wed, 9 Nov 2011 22:54:47 +0100
+fbfbd8e48fe506aeffffb50f3583c615460f753d|assume host architecture if $architecture is not set|Wed, 9 Nov 2011 16:33:38 +0100|Wed, 9 Nov 2011 16:33:38 +0100
+8112f034c8932804bbe4f4dc4414591d4dd61668|build-and-provide-package: support $REPOSITORY for setting repository directory|Sat, 5 Nov 2011 15:00:48 +0100|Tue, 8 Nov 2011 19:49:31 +0100
+9908cea8dddb42af99ae30da8b7e2b171a028023|use environment variable REPOS instead of command line argument|Tue, 8 Nov 2011 19:41:35 +0100|Tue, 8 Nov 2011 19:41:35 +0100
+9f74d5a4b30692e7075f9847cc8ee6b852f92e66|identify source package name for handling different flavors of job names|Tue, 8 Nov 2011 19:24:02 +0100|Tue, 8 Nov 2011 19:24:04 +0100
+21fe6f886ca33d37a3b167c397035f37dc32f097|build-and-provide-package: use detected architecture instead of environment variable for changes files|Tue, 8 Nov 2011 18:43:03 +0100|Tue, 8 Nov 2011 18:58:27 +0100
+cca4bdd9f0561e9b4002407909aa6d73d2f013b2|build-and-provide-package: create or update base cowbuilder|Sat, 5 Nov 2011 10:57:28 +0100|Tue, 8 Nov 2011 18:58:27 +0100
+b22cc2b601e86f83f41216c55458e4e707ff093f|make sure we can configure /srv/repository/conf/distributions|Tue, 8 Nov 2011 18:57:31 +0100|Tue, 8 Nov 2011 18:57:31 +0100
+8f3c465b1a9b86caaaaae785940f796840162c6f|update gpg usage instructions|Tue, 8 Nov 2011 18:57:16 +0100|Tue, 8 Nov 2011 18:57:16 +0100
+34c12bd99620c6940a2882a013bd34340446f7eb|explicitely check if REMOTE_REPOS is set to true to avoid warning message|Tue, 8 Nov 2011 18:25:14 +0100|Tue, 8 Nov 2011 18:25:16 +0100
+04324f075a1308da32f02c3e8d93bebd4b66cb5d|be more verbose about gpg key setup|Tue, 8 Nov 2011 18:24:34 +0100|Tue, 8 Nov 2011 18:24:34 +0100
+d4a2cc1e183d07f06e9cc1f65e5a79067a83e841|generate-reprepro-codename: support setting repository directory via REPOSITORY|Tue, 8 Nov 2011 18:22:05 +0100|Tue, 8 Nov 2011 18:22:05 +0100
+0cd39e98f44dd934885b80adc8df8586515a8669|generate-svn-snapshot: fix svn build id for unreleased builds|Tue, 8 Nov 2011 12:02:34 +0100|Tue, 8 Nov 2011 12:02:34 +0100
+20d6b3507024362d7a5b73b2d1c035c434fbd951|generate-svn-snapshot: adjust sed command to reduce changelog to just the first line of the commit message|Thu, 3 Nov 2011 16:39:06 +0100|Thu, 3 Nov 2011 16:39:06 +0100
+adf88c58bae49fa9e6a680fd44c8f57313d9720b|generate-git-snapshot: resolve possible symlink before reverting debian/changelog|Mon, 10 Oct 2011 18:08:30 +0200|Mon, 10 Oct 2011 18:08:30 +0200
+97e92c8ed10b39e5a42022d098b12183f135c376|build-and-provide-package: use --ignore=wrongdistribution for inclusion in reprepro|Tue, 4 Oct 2011 14:16:00 +0200|Tue, 4 Oct 2011 14:16:02 +0200
+8f84925d4603e7b38a5606810f56f7307559076f|build-and-provide-package: if includedsc fails rerun with -S and -P being set|Thu, 15 Sep 2011 21:24:14 +0200|Thu, 15 Sep 2011 21:24:54 +0200
+aa16721c6596807681fbcf06f449ab0fc0898e81|generate-svn-snapshot: run timeout under if to catch set -e and fix sed usage|Thu, 15 Sep 2011 18:28:09 +0200|Thu, 15 Sep 2011 18:28:09 +0200
+748f1307e9d5c2b8292ae832203b2a388cb36a76|generate-svn-snapshot: use timeout of 15 seconds if svn2cl didn't work|Thu, 15 Sep 2011 18:08:18 +0200|Thu, 15 Sep 2011 18:08:20 +0200
+7c35106bbfad11071a220629d5afa2f1d6681ee4|generate-svn-snapshot: check for existence of debian/changelog before requesting its commit history|Mon, 5 Sep 2011 19:11:02 +0200|Mon, 5 Sep 2011 19:11:02 +0200
+de8afdb453ffa472e1523ad43b3649122d141632|generate-svn-snapshot: build snapshot for everything but tags/*|Mon, 29 Aug 2011 14:07:44 +0200|Mon, 29 Aug 2011 14:07:44 +0200
+84b6c1387eef0cf3e789d925cb32f93046208840|generate-svn-snapshot: do not error out on unset $branch environment variable|Thu, 25 Aug 2011 17:19:20 +0200|Thu, 25 Aug 2011 17:19:20 +0200
+33b0f8da07e16e66e50c10434b39ea0c5fd9ad04|generate-svn-snapshot: use $SVN_REVISION for building version number|Thu, 25 Aug 2011 02:31:28 +0200|Thu, 25 Aug 2011 02:35:28 +0200
+838dfff3d6f40b69f0526a5580515c16509a2798|generate-svn-snapshot: if distribution is UNRELEASED do not raise version number.|Mon, 22 Aug 2011 22:11:06 +0200|Thu, 25 Aug 2011 02:35:28 +0200
+c0b1838742567df4dd6cb22e7414843b9337f9b5|increase-version-number: support "+" inside version string.|Mon, 22 Aug 2011 18:54:56 +0200|Thu, 25 Aug 2011 02:35:28 +0200
+803b9dd42109b6776419bfb7b11b9ca50a9e26f2|Support disabling local reprepro setup via REMOTE_REPOS.|Mon, 22 Aug 2011 16:42:52 +0200|Thu, 25 Aug 2011 02:35:24 +0200
+0e9bfee6565ba2f788afd1acf8a0e9c49af6498d|build-and-provide-package: do not use binary package only to avoid failures on multi-arch packages|Mon, 22 Aug 2011 13:40:40 +0200|Mon, 22 Aug 2011 13:40:40 +0200
+5b63b5309635537b47b85c21c36edaa1573de499|Support /etc/jenkins/debian_glue for setting key id for reprepro.|Sun, 21 Aug 2011 21:34:36 +0200|Sun, 21 Aug 2011 21:55:02 +0200
+99032be0c972df6dc57c45b70164301dbcc4221d|build-and-provide-package: use $WORKSPACE/binaries/ for buildresult, remove files of previous runs and handle missing packages.|Sun, 21 Aug 2011 21:22:03 +0200|Sun, 21 Aug 2011 21:54:59 +0200
+76f5ec841c1f3419e843f28178a47f107e472aac|generate-svn-snapshot: do not modify packages when building tags/* versions.|Sun, 21 Aug 2011 21:15:17 +0200|Sun, 21 Aug 2011 21:15:17 +0200
+15935890cf9d1cecdd4e86bf002e785bc6d784bb|build-and-provide-package: adjust check for distribution for setting base.cow for cowbuilder and be verbose if it is unset.|Sat, 20 Aug 2011 16:27:46 +0200|Sat, 20 Aug 2011 16:27:46 +0200
+ff509d6cc77fe858120dd83e351c2a25b966b0df|generate-svn-snapshot: Support setting branch argument.|Sat, 20 Aug 2011 16:22:26 +0200|Sat, 20 Aug 2011 16:22:26 +0200
+a115a588ee019623eee43cd0ca05d35abde8bf9f|build-and-provide: Support setting distribution via environment variable.|Fri, 12 Aug 2011 22:07:15 +0200|Sat, 13 Aug 2011 00:00:58 +0200
+c12358ea19c96d3f22e0d039eea155bd463f044f|generate-git-snapshot: The git-dch parameter is named -N.|Fri, 12 Aug 2011 19:52:53 +0200|Fri, 12 Aug 2011 22:48:56 +0200
+b6787f0b9c51b2115aa81cf5d9eda19511f2e184|generate-git-snapshot: properly support overriding git-dch options and provide $distribution in non-auto mode as well.|Fri, 12 Aug 2011 13:23:42 +0200|Fri, 12 Aug 2011 14:57:58 +0200
+35f96bef43bb840fa79204a2f2b47f9cc451154e|Add NOTES file (with hints regarding jenkins.rb).|Fri, 12 Aug 2011 14:46:48 +0200|Fri, 12 Aug 2011 14:47:30 +0200
+8fd5dc8fe8a3f11df3b0a86fe1428681b921a816|Make Debian package a native one.|Fri, 12 Aug 2011 14:13:02 +0200|Fri, 12 Aug 2011 14:18:10 +0200
+78646e92fb706d5dab4b544297a19c639cac1d96|Update debian/copyright WRT MIT license.|Fri, 12 Aug 2011 14:12:38 +0200|Fri, 12 Aug 2011 14:12:38 +0200
+6c0a479d5950c51a00c3c9d026855f9c0261d02a|License jenkins-debian-glue under MIT terms.|Fri, 12 Aug 2011 13:44:42 +0200|Fri, 12 Aug 2011 13:44:45 +0200
+67eed15adaba0cccd46c96f2aa7b5349fbd7a516|Merge branch 'master' of https://github.com/formorer/jenkins-debian-glue into pull-request-1|Fri, 12 Aug 2011 13:09:53 +0200|Fri, 12 Aug 2011 13:09:53 +0200
+66aab0760aa6cbe75831b27c161368142d3e1866|Add missing -n switch|Fri, 12 Aug 2011 12:25:41 +0200|Fri, 12 Aug 2011 12:25:41 +0200
+1c9429bfe513a752f2fdb11c7eaa5c7c4b74083b|generate-git-snapshot: make sure calculated version number is not older than last release.|Fri, 12 Aug 2011 12:04:30 +0200|Fri, 12 Aug 2011 12:04:32 +0200
+2d001f7a98992ca61478692ee46e5de4283aff38|Add distribution support for source packages.|Fri, 12 Aug 2011 10:11:17 +0200|Fri, 12 Aug 2011 10:11:17 +0200
+de73aa3a31a586f03de86525439d7d63f8ebc194|README.org: slightly improve documentation regarding increase-version-number.|Fri, 12 Aug 2011 10:04:30 +0200|Fri, 12 Aug 2011 10:04:30 +0200
+a0bba34f8bc1250e4f17e71193b5cdb33755ab2c|generate-svn-snapshot: use svn info for retrieving latest change in debian/changelog.|Fri, 12 Aug 2011 09:56:20 +0200|Fri, 12 Aug 2011 09:56:32 +0200
+3e1c39b8ca3cf2a68e5ef992b5122e19dbcd6e34|increase-version-number: handle version numbers with single digit as last version number part accordingly.|Fri, 12 Aug 2011 09:52:11 +0200|Fri, 12 Aug 2011 09:52:13 +0200
+158ad0b9389e9423fb49fbcb787fb558be8129b7|New script increase-version-number to raise version number for usage in a new snapshot number.|Fri, 12 Aug 2011 09:41:42 +0200|Fri, 12 Aug 2011 09:43:29 +0200
+b02d614845db8f1b3c68717c6438d97d9b570e4a|generate-svn-snapshot: handle leading zeros in last digit.|Fri, 12 Aug 2011 09:20:06 +0200|Fri, 12 Aug 2011 09:20:06 +0200
+a3f6e02aae66ba8178d1685c81766dd2709514d7|generate-svn-snapshot: handle multi digit version numbers in primary version number.|Fri, 12 Aug 2011 09:14:57 +0200|Fri, 12 Aug 2011 09:14:57 +0200
+16880c4b3a007c3375003065546c49c89253ba51|generate-svn-snapshot: handle single digit version numbers.|Fri, 12 Aug 2011 09:09:16 +0200|Fri, 12 Aug 2011 09:09:16 +0200
+e7b722bbfe9e79e5565cc45ac8145b76c2d8f72b|generate-svn-snapshot: be quiet when checking for Debian version number.|Fri, 12 Aug 2011 09:01:12 +0200|Fri, 12 Aug 2011 09:01:12 +0200
+fe4741333383f9a10832d5655278073eb53c4b31|generate-git-snapshot: use git-buildpackage by default and fall back to dpkg-source.|Wed, 10 Aug 2011 22:40:48 +0200|Wed, 10 Aug 2011 22:40:50 +0200
+a6d88f95f121553a42f3a057d6bb988528a6a3cd|generate-svn-snapshot: revert debian/changelog before leaving the script.|Wed, 10 Aug 2011 17:07:36 +0200|Wed, 10 Aug 2011 17:07:37 +0200
+c3bc77f637c6fa851ea8d3fe052f52db09438adc|Install generate-svn-snapshot in Makefile and Debian package.|Wed, 10 Aug 2011 13:44:49 +0200|Wed, 10 Aug 2011 13:44:49 +0200
+bd071f944d3d0e225dbd6f4f817e7fe3d7450d35|New script generate-svn-snapshot.|Wed, 10 Aug 2011 13:18:32 +0200|Wed, 10 Aug 2011 13:21:05 +0200
+475ca8281e6901d3d6bd2fdf4c7e96367ec7d5bb|git hook: adjust file name information in header.|Mon, 8 Aug 2011 13:33:40 +0200|Mon, 8 Aug 2011 13:33:40 +0200
+b406a096805b8c3406798df811b588d92d078771|build-and-provide-package: include arch: all package in all architectures.|Mon, 8 Aug 2011 12:13:32 +0200|Mon, 8 Aug 2011 12:13:32 +0200
+aa8a09bca11de8b18b115fe88ebd6388800ff7d4|generate-git-snapshot: if dpkg-source does not work, try git-buildpackage instead.|Mon, 8 Aug 2011 11:41:41 +0200|Mon, 8 Aug 2011 11:41:41 +0200
+8b0ac7b5ae50e823cfd6a038cd575c6dc67a23b6|Rename git post-receive hook and fix syntax error.|Mon, 8 Aug 2011 11:39:46 +0200|Mon, 8 Aug 2011 11:39:46 +0200
+a8e1b020b2796288bb82a40a7578a8ff142731fe|Add git post-receive-email hook.|Sat, 6 Aug 2011 15:53:10 +0200|Sat, 6 Aug 2011 15:53:10 +0200
+e113619fa5e056471d2aeb985b2185228028f374|Support arch: all packages.|Sat, 6 Aug 2011 13:51:59 +0200|Sat, 6 Aug 2011 13:52:11 +0200
+a34610068dbc08745c810ea415fa65f43249555c|New scripts, initial debian/ packaging, initial documentation.|Fri, 5 Aug 2011 18:39:15 +0200|Sat, 6 Aug 2011 13:09:15 +0200
+8778bd0a76531533335c5e2ac0b783e89745b237|Initial checkin.|Fri, 5 Aug 2011 01:02:54 +0200|Fri, 5 Aug 2011 01:02:54 +0200

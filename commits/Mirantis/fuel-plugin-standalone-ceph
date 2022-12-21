@@ -1,0 +1,38 @@
+e4c9e3d7e1221c28802facd7c622aa42b71c4441|Merge pull request #7 from noskovao/master|Mon, 7 Nov 2016 12:49:37 +0300|Mon, 7 Nov 2016 12:49:37 +0300
+c9e0c2ddc3a4d24b4b51dd75ecc81fb973374b97|add ssl part2|Thu, 3 Nov 2016 18:50:27 +0300|Thu, 3 Nov 2016 18:53:39 +0300
+9a04177de5bcd7944ed95ba0b088c35d4e9d0d66|Merge pull request #6 from achekunov/SSL|Thu, 3 Nov 2016 18:37:23 +0300|Thu, 3 Nov 2016 18:37:23 +0300
+14b8305f54588485f04777674ff28663042ee352|add ssl part1|Thu, 3 Nov 2016 16:20:43 +0300|Thu, 3 Nov 2016 17:05:48 +0300
+c64e18db0d66b65dbfbff2d7e8ef4b42ac69fb5a|Merge pull request #5 from dnikishov/master|Tue, 23 Aug 2016 16:37:02 +0300|Tue, 23 Aug 2016 16:37:02 +0300
+b9ffe45ea9a804476de303ce7bb9a1027ec970b5|Updated readme|Tue, 23 Aug 2016 13:20:06 +0000|Tue, 23 Aug 2016 13:32:41 +0000
+921a840df477e70f6a74e54fd893f987dbe33379|Merge pull request #3 from dnikishov/master|Tue, 23 Aug 2016 14:47:41 +0300|Tue, 23 Aug 2016 14:47:41 +0300
+e2939edb7c4821f0cb1e135a889039c6e0e4a1ab|Deployment of Ceph cluster without controller nodes|Tue, 23 Aug 2016 11:43:03 +0000|Tue, 23 Aug 2016 11:43:03 +0000
+a12a127a8ce01c0b9b9eff9b8090bb01ba98ec84|Primry-cluster task should require ceph-mon-firewall|Sat, 13 Aug 2016 14:08:44 +0300|Sat, 13 Aug 2016 14:08:44 +0300
+167732c6c2dac07fae9b3322486899213a9b2149|Plugin refactored to support MOS 9.0|Mon, 8 Aug 2016 12:32:21 +0300|Tue, 9 Aug 2016 14:18:43 +0300
+956894594478ee00d99f8d5de60bd098709fa78a|Merge pull request #2 from dnikishov/8.0-fixes|Mon, 18 Jul 2016 13:06:57 -0500|Mon, 18 Jul 2016 13:06:57 -0500
+547dac9c2e9397fccc9ce2ae99f4f67144a4267c|Fixes for radosgw and haproxy stats|Mon, 18 Jul 2016 11:48:52 +0300|Mon, 18 Jul 2016 11:48:52 +0300
+eb3e1c3ce3dd4c9dfe8dc5786da4935984a5f6e7|Merge pull request #1 from gleb108/master|Fri, 1 Jul 2016 11:00:02 -0500|Fri, 1 Jul 2016 11:00:02 -0500
+76ca7d8d96e5e85655700d1edd0bf33c5c1e4587|SSL path error is fixed|Thu, 30 Jun 2016 17:32:03 +0300|Thu, 30 Jun 2016 17:32:03 +0300
+0c515b7e46907d8a0bd1cf9c9a8bdd657ebe7b74|Change keystone URL in openrc|Thu, 16 Jun 2016 15:14:24 +0300|Thu, 16 Jun 2016 15:14:24 +0300
+d3237e04da42b010480f57654b7a392e10529ec3|Modify deployment tasks according Fuel 8 roles|Thu, 16 Jun 2016 12:54:31 +0300|Thu, 16 Jun 2016 12:54:31 +0300
+35d662c78f2af9c4fca1cfadd4be93aff50b5d3c|Adopt metadata for Fuel 8.0|Wed, 15 Jun 2016 10:51:32 +0300|Wed, 15 Jun 2016 10:51:32 +0300
+f798b0b693c5f2ab0c619a0dd326da1c3cc48760|Updated README file|Tue, 22 Dec 2015 10:37:35 +0300|Tue, 22 Dec 2015 10:45:56 +0300
+418bc66218d4e7a4bf2342aa84c549014603b916|Monitor task shoud have group|Mon, 23 Nov 2015 17:58:08 +0300|Tue, 22 Dec 2015 10:45:56 +0300
+d0a26e93c4d097b91de5ef6e91e6138e49548e16|Add default route|Tue, 17 Nov 2015 02:40:05 -0800|Tue, 22 Dec 2015 10:45:56 +0300
+47ba315c8cb88715972ea87cfa6ca5d3048ff5ea|Set of imprevements|Thu, 19 Nov 2015 13:18:29 +0300|Tue, 22 Dec 2015 10:45:29 +0300
+abc3dada786b5008b02dcb5a6ef7764dfb96c828|Cosmetic changes|Fri, 30 Oct 2015 10:30:03 +0300|Mon, 2 Nov 2015 19:11:37 +0400
+20c592d7a43b5a6dd81019295c6a9cb7ba15d7ed|Removed Ceph module from plugin.|Fri, 23 Oct 2015 18:47:50 +0300|Mon, 2 Nov 2015 18:10:46 +0300
+27007b323048146a54296547a4d83a356607d9a5|Fix for ceph deploy package order|Wed, 28 Oct 2015 18:53:59 +0300|Fri, 30 Oct 2015 10:58:08 +0400
+d6b800ab595a7319188623a967e973ef90a49d94|Added Ceph keys generation for keystone revocation|Wed, 28 Oct 2015 18:53:08 +0300|Fri, 30 Oct 2015 10:57:31 +0400
+edc4e9cfc394eb3254b60c42c572b11d8017341d|Fixes for deployment stability|Wed, 28 Oct 2015 15:03:07 +0300|Fri, 30 Oct 2015 10:56:17 +0400
+9841df2d1a112081ff0b2a8eb7e29a54c3fe55c0|Added rados gw on ceph mons|Tue, 20 Oct 2015 13:20:37 +0300|Fri, 23 Oct 2015 18:38:48 +0300
+d435dc66f0a16ceb220478557ab3f2d3e99531e4|Version 1.0.0|Fri, 16 Oct 2015 11:22:26 +0000|Thu, 22 Oct 2015 11:01:43 +0300
+05823821af95f83e84ab285ce7c9310de5bc4730|Fix deployment ordering issue for standalone-ceph-mon role|Thu, 15 Oct 2015 13:47:01 +0000|Thu, 22 Oct 2015 11:01:43 +0300
+65fbf9aea1f588a51c6893d4dee51c0ccaa04e25|Another fix for isolation support|Thu, 15 Oct 2015 12:26:35 +0000|Thu, 22 Oct 2015 11:01:43 +0300
+0db6d6e05d458981742ff63989b03b1eea829a83|Fix issues introduced in isolation commit|Thu, 15 Oct 2015 11:52:12 +0000|Thu, 22 Oct 2015 11:01:43 +0300
+9f5d1c1560d54ed4d6365bb54b2928e830a2613c|Add isolation from other plugins|Thu, 15 Oct 2015 11:35:29 +0000|Thu, 22 Oct 2015 11:01:43 +0300
+8ac6dd8ae97e9356d3cf526b4a7dd56fc0d0c323|Development snapshot|Thu, 15 Oct 2015 09:00:39 +0000|Thu, 22 Oct 2015 11:01:43 +0300
+79d6a8039b89232cf9b2bdfe7f1c4a7a4d9f36f1|Development snapshot (deployment graph configuration is correct)|Wed, 14 Oct 2015 08:28:34 +0000|Thu, 22 Oct 2015 11:01:43 +0300
+17c76e48b0494931f02c44eb238e1c614c73f227|rados gateway override task was added|Tue, 13 Oct 2015 08:52:44 +0000|Thu, 22 Oct 2015 11:01:43 +0300
+00436b74cf645d1bed717b6e3ac01cf13c93e465|detached-ceph-mon role was added|Mon, 12 Oct 2015 14:51:03 +0000|Thu, 22 Oct 2015 11:01:43 +0300
+0c07722398be9b7dc64eaf54e993c4c304ca3d65|Initial commit|Mon, 12 Oct 2015 07:51:07 +0000|Thu, 22 Oct 2015 11:01:43 +0300
+c4a80f111fa1309b209bdc083c23925fbfe12eff|Initial empty repository|Mon, 19 Oct 2015 17:42:47 +0400|Mon, 19 Oct 2015 17:42:47 +0400

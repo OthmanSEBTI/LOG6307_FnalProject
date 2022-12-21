@@ -1,0 +1,5 @@
+45c6d0fcb21c6b3f1912a3e6e77b43e02a20c9ff|Include keepalived::variables in keepalived::instance. Add require on keepalived::install.|Thu, 14 Jun 2012 22:59:45 +0200|Thu, 14 Jun 2012 22:59:45 +0200
+b51fc203edab19e93b6b8e0b5971d55a048adb23|Add .gitignore|Fri, 8 Jun 2012 03:54:50 +0200|Fri, 8 Jun 2012 03:54:50 +0200
+dfb0abad3742823b6b684a5b19ee15f04293c9cc|Add example for keepalived::instance|Fri, 8 Jun 2012 03:52:10 +0200|Fri, 8 Jun 2012 03:52:10 +0200
+7cf808b400d3a9281683002be65d9715afb6df19|Add module dependencies|Fri, 8 Jun 2012 03:29:57 +0200|Fri, 8 Jun 2012 03:29:57 +0200
+8ebdb943fec9d3380479c05de09ffeb6db2dcd6a|Initial commit|Fri, 8 Jun 2012 03:18:06 +0200|Fri, 8 Jun 2012 03:18:06 +0200

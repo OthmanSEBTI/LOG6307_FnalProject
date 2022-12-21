@@ -1,0 +1,480 @@
+9a846178b11358eda5585007908d3973f61f90e5|Update master for stable/zed|Thu, 20 Oct 2022 11:14:03 +0000|Thu, 20 Oct 2022 11:14:03 +0000
+feb79d61d3b05d9150ab6bd7a2301ae58f16a007|Prepare Zed RC1|Wed, 5 Oct 2022 13:09:35 +0900|Wed, 5 Oct 2022 13:09:35 +0900
+10202ad22f70cbdf00401ff065f857edb500cc57|vs_config: Fix broken idempotency with nil/empty value|Wed, 24 Aug 2022 01:14:17 +0900|Wed, 24 Aug 2022 08:56:32 +0900
+b66ab255fb09b5ef10a56f7beaa9d2b10706cd8b|Merge "Use kmod module from voxpupil"|Mon, 1 Aug 2022 16:07:18 +0000|Mon, 1 Aug 2022 16:07:18 +0000
+92c551f33efb53bcc2a447bada75560b70c6603e|Merge "Remove unused ovs_dkms_package_name"|Mon, 1 Aug 2022 16:07:16 +0000|Mon, 1 Aug 2022 16:07:16 +0000
+0dabc235ad32e53906ab99273af9fd0d2814a984|Merge "Add support for other_config:vhost-postcopy-support"|Mon, 1 Aug 2022 16:07:14 +0000|Mon, 1 Aug 2022 16:07:14 +0000
+0cb8438f861537d95e80169d1d60dfe2bfd8e492|Merge "Allow configuring PMD Auto Load Balancing"|Mon, 1 Aug 2022 16:07:11 +0000|Mon, 1 Aug 2022 16:07:11 +0000
+da254076b8d1d99b3910fdb5e5b16171cc06b000|Merge "Ensure boolean values"|Mon, 1 Aug 2022 16:07:09 +0000|Mon, 1 Aug 2022 16:07:09 +0000
+942d874cb8724108851ecaa3cc80d194da0862d0|Merge "vs_bridge: Support customizing mac table size"|Mon, 1 Aug 2022 08:49:57 +0000|Mon, 1 Aug 2022 08:49:57 +0000
+6e3e778f4cdc40246eb954d27bb2af8c063cc7e5|Merge "CentOS/RHEL: Fix missing external_ids"|Mon, 1 Aug 2022 08:43:54 +0000|Mon, 1 Aug 2022 08:43:54 +0000
+365865c9fec3097c950917aefe6c79f600eb4463|Use kmod module from voxpupil|Sat, 30 Jul 2022 23:27:34 +0900|Sat, 30 Jul 2022 23:27:34 +0900
+e9e6e3020376886235b2d5cafb472a2b289e7fc1|Merge "Re-enable scenario 003 integration job"|Fri, 29 Jul 2022 15:03:27 +0000|Fri, 29 Jul 2022 15:03:27 +0000
+28031fa70052a93d505d5239f8fb6a348386d8cc|Add support for other_config:vhost-postcopy-support|Fri, 29 Jul 2022 08:30:36 +0900|Fri, 29 Jul 2022 08:32:37 +0900
+9d5c61630a53192000b68d3548b6c0c64dae8baf|Allow configuring PMD Auto Load Balancing|Thu, 28 Jul 2022 09:29:55 +0900|Fri, 29 Jul 2022 08:17:50 +0900
+d46e4588870a33d5c3b1bc4288f5049b9dc44dcb|Remove unused ovs_dkms_package_name|Thu, 28 Jul 2022 21:43:53 +0900|Thu, 28 Jul 2022 21:46:28 +0900
+0dd46d61652afe1e3492ea50bdb208b0d84b7c92|Ensure boolean values|Thu, 28 Jul 2022 09:35:34 +0900|Thu, 28 Jul 2022 09:35:34 +0900
+867b10bde98dea48595988109430e5e53b535a1a|vs_bridge: Support customizing mac table size|Sat, 16 Jul 2022 22:30:33 +0900|Sun, 24 Jul 2022 07:53:33 +0900
+9477398cab6481ae949b522427e5001074ffcdce|CentOS/RHEL: Fix missing external_ids|Thu, 27 Jan 2022 19:16:33 +0900|Sun, 24 Jul 2022 07:48:45 +0900
+4300436b62a822205ff1d60a56053ae5cbb29fd5|Re-enable scenario 003 integration job|Sun, 17 Jul 2022 11:08:23 +0900|Sun, 17 Jul 2022 11:08:23 +0900
+b70e038fe526972af73d99fe9f3574bed7a31119|Remove usage of $::os_service_default|Wed, 13 Jul 2022 22:57:43 +0900|Wed, 13 Jul 2022 22:57:43 +0900
+f68f987557afebc43a74af9e5390f72de2faac82|Fix typos in parameter description and test|Mon, 27 Jun 2022 17:18:33 +0530|Mon, 27 Jun 2022 17:19:11 +0530
+c3babed1a22d8a6cf046d91c3e03aa8b99a8700f|Merge "Enable scenario 005 integration job"|Mon, 20 Jun 2022 18:56:28 +0000|Mon, 20 Jun 2022 18:56:28 +0000
+9cc95cb07dedeefedd462a8d7b40b55f46646d4c|Merge "Remove redundant implementation / warning"|Tue, 14 Jun 2022 02:25:06 +0000|Tue, 14 Jun 2022 02:25:06 +0000
+dd7c84fab21ee841a3b24aac788a44758e5132c9|Remove redundant implementation / warning|Mon, 6 Jun 2022 21:24:33 +0900|Mon, 6 Jun 2022 21:25:05 +0900
+bde509f8ad2cb69155bbc01a5d81bc4526054e14|dpdk: TSO support|Mon, 6 Jun 2022 17:03:26 +0900|Mon, 6 Jun 2022 17:06:09 +0900
+dd5e07d679f106804d7b83e06d18aa5f5fc753c9|Enable scenario 005 integration job|Mon, 6 Jun 2022 14:01:14 +0900|Mon, 6 Jun 2022 14:03:18 +0900
+f00108b8ca66f7b2df0d91ab2c1df6df6fa4f8e0|Remove support for CentOS 8 Stream|Wed, 1 Jun 2022 14:07:13 +0900|Wed, 1 Jun 2022 14:07:13 +0900
+8101f92cfaab65af942e1ef9f6aacb23bf983372|Merge "dpdk: Create port and bridge after openvswitch service is configured"|Tue, 19 Apr 2022 22:54:25 +0000|Tue, 19 Apr 2022 22:54:25 +0000
+241169515643c880ea59e7ad5ac5035d5f428f24|dpdk: Create port and bridge after openvswitch service is configured|Tue, 19 Apr 2022 10:20:30 +0900|Tue, 19 Apr 2022 10:21:55 +0900
+55af0b29fb075cf4eb1e3dccde8f0b3c73906fc4|Remove remaining parameter for Dynamic Kernel Module Support|Tue, 19 Apr 2022 10:13:07 +0900|Tue, 19 Apr 2022 10:13:44 +0900
+60caea755bfb204f50cfaaaedec94042fe3c7a09|Update master for stable/yoga|Tue, 5 Apr 2022 09:16:28 +0000|Tue, 5 Apr 2022 09:16:28 +0000
+a70e92a8c66b17a2045bf6af4d5b3daf900759ab|setuptools: Disable auto discovery|Tue, 29 Mar 2022 09:11:39 +0200|Tue, 29 Mar 2022 11:19:25 +0000
+d57362f6ccf05bd9add85140571d9595f604ad55|Merge "Ensure other_config:emc-insert-inv-prob is unset"|Fri, 25 Mar 2022 18:28:27 +0000|Fri, 25 Mar 2022 18:28:27 +0000
+910bbae8701b9d0e1b0199d5162e10339d0d17bf|Remove incomplete remaining lint mark|Thu, 24 Mar 2022 14:39:38 +0900|Thu, 24 Mar 2022 14:47:22 +0900
+1545c55ca5a4018b90fe95c45c966670fc4808e2|Ensure other_config:emc-insert-inv-prob is unset|Thu, 24 Mar 2022 14:31:50 +0900|Thu, 24 Mar 2022 14:31:50 +0900
+ae037fb69209120311b6aeff83778b68aa1c9688|Prepare Yoga RC1|Sat, 12 Mar 2022 00:35:12 +0900|Sat, 12 Mar 2022 02:54:56 +0000
+e260e264d0a581fd8d533b9993d7f953a055f49a|Merge "Assert the exec resource to restart ovs service"|Fri, 11 Mar 2022 16:14:51 +0000|Fri, 11 Mar 2022 16:14:51 +0000
+c44fcea3e8c1baa90928b11ee31a367b1e8374d4|Merge "remove unicode literal from code"|Tue, 8 Mar 2022 01:02:23 +0000|Tue, 8 Mar 2022 01:02:23 +0000
+7d93671e9999f44bcf70ad78e7ed05e747e5534b|Merge "Deprecate usage of Dynamic Kernel Module Support"|Tue, 8 Mar 2022 01:02:20 +0000|Tue, 8 Mar 2022 01:02:20 +0000
+e9f994907a1e59bf05704e68641fb907455a02e5|Merge "Remove logic for Debian Wheezy (7.0)"|Tue, 8 Mar 2022 01:02:18 +0000|Tue, 8 Mar 2022 01:02:18 +0000
+24edba4773df89266c403cf69b2c4c3d5563c19c|remove unicode literal from code|Tue, 8 Mar 2022 09:26:59 +0900|Tue, 8 Mar 2022 09:26:59 +0900
+3ff72b5736d94ff32535ab345df4cb588c95286f|Deprecate usage of Dynamic Kernel Module Support|Sun, 27 Feb 2022 22:43:47 +0900|Sun, 27 Feb 2022 22:43:47 +0900
+144b4645c1c404f17c1ab26edd53a77b87059c7c|Remove logic for Debian Wheezy (7.0)|Sun, 27 Feb 2022 22:38:26 +0900|Sun, 27 Feb 2022 22:38:26 +0900
+81d04e892fcc213d9e022ecf7f71816f6e76fc92|Prepare Yoga M3|Thu, 24 Feb 2022 16:13:08 +0800|Sun, 27 Feb 2022 13:23:51 +0000
+501ac3708575121d2ea6b1fb9d10391e43cd87fb|Add CentOS/RHEL 9 to supported operating systems|Wed, 23 Feb 2022 01:38:34 +0900|Wed, 23 Feb 2022 01:38:34 +0900
+54267cf05e25da7f97c57dc25e276f82ea35aa87|Exclude scenario003|Fri, 4 Feb 2022 18:25:25 +0900|Fri, 4 Feb 2022 18:25:25 +0900
+8fcd7596e4b0f45a5bf999285d4477aa858b783b|vs_bridge: Fix missing external_ids after initial creation|Tue, 25 Jan 2022 02:42:40 +0900|Tue, 25 Jan 2022 08:51:54 +0900
+0785d6cbb33c890d38e85d2323b7a285f41c45bf|Assert the exec resource to restart ovs service|Thu, 13 Jan 2022 01:22:26 +0900|Thu, 13 Jan 2022 13:56:55 +0900
+4924354d5194504ba30438956b9222db199076b8|Merge "Add support for other_config:dpdk-socket-limit"|Fri, 7 Jan 2022 23:42:31 +0000|Fri, 7 Jan 2022 23:42:31 +0000
+3ebae506d80f6e1259071cf4a0bc0e9ab4bc9cec|Merge "Accept array for dpdk-socket-mem"|Fri, 7 Jan 2022 23:42:29 +0000|Fri, 7 Jan 2022 23:42:29 +0000
+001f0ab51fb12c79612bca4858a6b6f9687d7e90|Merge "vs_config: Accept integer and boolean for value"|Fri, 7 Jan 2022 23:31:48 +0000|Fri, 7 Jan 2022 23:31:48 +0000
+5de2fde05eb33cb714822807b1ff4c33ccfcb99a|Prepare Yoga M2|Wed, 1 Dec 2021 14:42:53 +0800|Fri, 7 Jan 2022 14:24:47 +0000
+7b91c5ebd7628df687ebc0996604ec93ca596c76|Add support for other_config:dpdk-socket-limit|Wed, 5 Jan 2022 23:49:32 +0900|Thu, 6 Jan 2022 00:00:49 +0900
+5a009f686fbe48c7503a9148dc5dfb4650713d94|Accept array for dpdk-socket-mem|Wed, 5 Jan 2022 23:54:48 +0900|Thu, 6 Jan 2022 00:00:35 +0900
+becab37c5e39add1e682fca18a0f6a4378b55ab4|vs_config: Accept integer and boolean for value|Mon, 3 Jan 2022 12:22:39 +0900|Wed, 5 Jan 2022 22:58:44 +0900
+1d5398ae56b636857150811e4c65237b0615f2b3|Merge "Ensure hardware offload is disabled"|Thu, 30 Dec 2021 22:16:41 +0000|Thu, 30 Dec 2021 22:16:41 +0000
+84f621d4bed036a1050c046f31ace92f4b92de6a|Merge "Use undef instead of $::os_service_default"|Thu, 30 Dec 2021 22:16:39 +0000|Thu, 30 Dec 2021 22:16:39 +0000
+c801c6e97be5054c696da727a9d36bd42142b0cc|Ensure hardware offload is disabled|Tue, 28 Dec 2021 13:31:43 +0900|Tue, 28 Dec 2021 17:29:52 +0900
+fb9a08d9726b79d2dcca34dab00150a1b62ef529|Use undef instead of $::os_service_default|Tue, 28 Dec 2021 13:25:48 +0900|Tue, 28 Dec 2021 13:27:14 +0900
+41f864f2e15a6294fb260ed9f81b859a5e61441f|Remove deprecated ovs::dpdk::driver_type|Tue, 28 Dec 2021 13:12:24 +0900|Tue, 28 Dec 2021 13:12:57 +0900
+1fe71cf5e359c8f83f11b2673620be822423bf47|Do not use service resource to restart openvswitch service|Thu, 14 Oct 2021 17:28:41 +0900|Mon, 18 Oct 2021 08:36:52 +0900
+f94ebb98afd9d78e11befc85869e37ad682cb59b|Bump version for the start of Yoga|Mon, 11 Oct 2021 11:59:26 +0900|Mon, 11 Oct 2021 11:59:26 +0900
+c27a8e98ba77bc222f36ce690b650b142359c71f|Update master for stable/xena|Thu, 7 Oct 2021 08:30:00 +0000|Thu, 7 Oct 2021 08:30:00 +0000
+2bbcb10ffa848c2491126b161050de923bd3ffa3|Add information technology in the setup.cfg|Fri, 1 Oct 2021 06:54:50 +0800|Fri, 1 Oct 2021 06:54:50 +0800
+70d9173e23bee83a3f06aff6481c699329670c3f|Add license information in the setup.cfg|Thu, 30 Sep 2021 16:48:14 +0800|Thu, 30 Sep 2021 16:48:14 +0800
+fb14eb3b023ca9a1e3fb6af05e92899d457c52be|Delete useless code for setup.py|Thu, 30 Sep 2021 13:38:33 +0800|Thu, 30 Sep 2021 13:38:33 +0800
+627f7738088f29a77cc0374f488c91ec25ec3354|Stop configuring install_command in tox.|Wed, 29 Sep 2021 18:22:06 +0900|Wed, 29 Sep 2021 18:22:06 +0900
+b2d37fd747c6fcde331dd3868dc4f045eb982a4a|Merge "Fix pbr>=2.0.0 for setup.py"|Wed, 29 Sep 2021 09:12:22 +0000|Wed, 29 Sep 2021 09:12:22 +0000
+3331f24d0a3b8f4a97c03f0eaf0c9dfeecb1b797|Fix pbr>=2.0.0 for setup.py|Wed, 29 Sep 2021 16:37:10 +0800|Wed, 29 Sep 2021 16:37:10 +0800
+896f41b9d584bfbb35563a21bc91e762ac0cb0a0|Update openstackdocstheme to the latest version|Wed, 29 Sep 2021 16:06:51 +0800|Wed, 29 Sep 2021 16:06:51 +0800
+5ce535f3d4b48e05ae512a0780f6298dcb4c32e7|Update reno to the latest version|Tue, 28 Sep 2021 17:14:35 +0800|Tue, 28 Sep 2021 17:14:35 +0800
+6818044c25cdd6599677f17355f1c82b80e9ef08|Fix stdlib version in metadata|Thu, 23 Sep 2021 19:44:23 +0800|Thu, 23 Sep 2021 19:44:23 +0800
+4522db353fedbb09065f4d7d8590cb3a4072000c|Prepare Xena RC1|Fri, 17 Sep 2021 17:36:10 +0800|Fri, 17 Sep 2021 17:36:10 +0800
+3c71c8941a6a52dd4b60df709faa3f9858c37242|Prepare Xena M3|Mon, 6 Sep 2021 15:32:08 +0800|Mon, 6 Sep 2021 15:32:08 +0800
+96dd49f1ae979d479ccb69b8e5f5dccd030cf7ff|Apply vs_config after openvswitch service is started|Mon, 23 Aug 2021 13:43:01 +0900|Mon, 23 Aug 2021 13:43:32 +0900
+31f24497f890a8c8036c6f5f93fcc7e9da3441ef|Support Puppet 7|Mon, 16 Aug 2021 18:16:43 +0900|Mon, 16 Aug 2021 18:16:43 +0900
+dd6b57baf07b6a9d40c4d949db78dffeb9091e51|Prepare Xena M2|Mon, 26 Jul 2021 19:03:48 +0800|Mon, 26 Jul 2021 19:03:48 +0800
+1879accbb6bd559caa96bf95ea9220b56dc7597a|Merge "Remove a provider for CentOS/RHEL 6"|Mon, 28 Jun 2021 10:26:56 +0000|Mon, 28 Jun 2021 10:26:56 +0000
+f54ecdef2da18d919507dd5cd1d386817d26c4c3|Drop Fedora support|Sat, 12 Jun 2021 15:14:54 +0800|Sat, 12 Jun 2021 15:15:30 +0800
+026a15143a03781a72ba106234321f444d1e6488|Merge "Fix default of vswitch::provider in RedHat OS"|Fri, 11 Jun 2021 10:32:56 +0000|Fri, 11 Jun 2021 10:32:56 +0000
+99ab87be9c101a06320035a52457b682334d7145|Remove a provider for CentOS/RHEL 6|Wed, 9 Jun 2021 18:27:07 +0900|Wed, 9 Jun 2021 18:28:55 +0900
+961eed828cdc4fb78b28a13fd6b3fbdbfdca474f|Fix default of vswitch::provider in RedHat OS|Wed, 9 Jun 2021 14:59:17 +0900|Wed, 9 Jun 2021 14:59:17 +0900
+9fce00d892f6f6f1949ca5d337c7d22978290e49|Merge "Set fixture paths for unit tests"|Wed, 2 Jun 2021 23:41:52 +0000|Wed, 2 Jun 2021 23:41:52 +0000
+c6d27c16f956cfec075d478a4c32f989f58ca819|Set fixture paths for unit tests|Wed, 2 Jun 2021 14:35:44 +0900|Wed, 2 Jun 2021 14:35:48 +0900
+06719f1ba9498dfbd29dabd9436263c05b02e1f5|Add puppetlabs-stdlib to dependencies|Mon, 31 May 2021 15:50:33 +0200|Tue, 1 Jun 2021 07:24:07 +0000
+f52b53006d5207f0bdec422e9b826f3da309fe53|Prepare Xena M1|Thu, 27 May 2021 15:50:28 +0800|Thu, 27 May 2021 15:50:28 +0800
+e4fc423170f189670f1c5ee025d79d9bfba97875|setup.cfg: Replace dashes with underscores|Tue, 11 May 2021 18:42:49 +0900|Tue, 11 May 2021 18:42:49 +0900
+89958078db855d4b442587d4defcdeda71e8f037|Bump version for the start of Xena|Thu, 29 Apr 2021 09:38:15 +0800|Thu, 29 Apr 2021 09:38:15 +0800
+a16a047b45f066f6f28ba37e2ca1e17428ef87f2|Merge "Support arbitary vsiwtch configurations"|Tue, 27 Apr 2021 10:44:21 +0000|Tue, 27 Apr 2021 10:44:21 +0000
+b26f4153ae34c7be3477c4cb7c99eac54461820f|Merge "Do not restart ovs when updating other_config:emc-insert-inv-prob"|Tue, 27 Apr 2021 10:42:02 +0000|Tue, 27 Apr 2021 10:42:02 +0000
+c782ad90879b430af4dd2f27871ebbd8b7905a38|Merge "Remove old workaround to check service status in Ubuntu"|Tue, 27 Apr 2021 07:15:25 +0000|Tue, 27 Apr 2021 07:15:25 +0000
+b91243937e53d23970cddb19b9883be3773b5fb0|Drop support for FreeBSD and Solaris|Sun, 25 Apr 2021 21:51:44 +0900|Sun, 25 Apr 2021 21:51:44 +0900
+1f63cee543d725e4a7d6de7f2f3eda235c85b564|Remove old workaround to check service status in Ubuntu|Sun, 25 Apr 2021 21:47:44 +0900|Sun, 25 Apr 2021 21:47:44 +0900
+ca08c12b942b712d80b93f7fbf62d26f2bbbc347|Merge "Add missing openstacklib to dependencies"|Mon, 5 Apr 2021 21:35:33 +0000|Mon, 5 Apr 2021 21:35:33 +0000
+8a0d377dad14636243f1547fba7e4694ac03becc|Update master for stable/wallaby|Thu, 1 Apr 2021 09:38:50 +0000|Thu, 1 Apr 2021 09:38:50 +0000
+675cdecba21fe16394b7eccf5188f3958afa3fe9|Add missing openstacklib to dependencies|Wed, 31 Mar 2021 17:28:27 +0900|Wed, 31 Mar 2021 17:53:37 +0900
+0077e6bb76b4aae6ae8fed8a5a223464ac8bb0ec|Update sphinx to the latest version|Sat, 27 Mar 2021 15:31:58 +0800|Sat, 27 Mar 2021 15:31:58 +0800
+b8bb798fad9d4d9e7afc24fd3931ddc352fb08a9|Prepare Wallaby RC1|Fri, 26 Mar 2021 11:24:17 +0800|Fri, 26 Mar 2021 11:24:17 +0800
+27844698a8cd2171c7ea6826e3388ddff3f4a690|metadata.json: debian 11|Thu, 25 Mar 2021 16:15:25 +0100|Thu, 25 Mar 2021 16:15:45 +0100
+ab3595ecc54b836e6ed878f3a1e22a56b69bb811|Merge "Add support for the hw-offload option in dpdk"|Thu, 25 Mar 2021 02:43:43 +0000|Thu, 25 Mar 2021 02:43:43 +0000
+9fd0804f79255b3525fd2e3d7f09b19d849e9fc4|Merge "Add support for vlan_limit option"|Thu, 25 Mar 2021 02:43:39 +0000|Thu, 25 Mar 2021 02:43:39 +0000
+12dfa0037898d20e5ad6e8f65725b39dc6463b8c|Update supported Ubuntu version to Focal|Tue, 23 Mar 2021 21:45:44 +0900|Tue, 23 Mar 2021 21:45:44 +0900
+71d591a753403152c480f8460db3f44271884410|Support arbitary vsiwtch configurations|Fri, 12 Mar 2021 15:50:50 +0900|Fri, 12 Mar 2021 18:25:30 +0900
+95230113b2f54fd8fc398f802349fbae6e5b4691|Do not restart ovs when updating other_config:emc-insert-inv-prob|Fri, 12 Mar 2021 15:59:37 +0900|Fri, 12 Mar 2021 17:57:54 +0900
+14f870ca5a46433fbec761bb94f5097846ef2719|Prepare Wallaby M3|Fri, 12 Mar 2021 14:35:44 +0800|Fri, 12 Mar 2021 14:35:44 +0800
+0d026451bdf436c1ec0135393ada653a63b9ce76|Add support for the hw-offload option in dpdk|Thu, 11 Mar 2021 00:04:35 +0900|Thu, 11 Mar 2021 10:53:47 +0900
+4887f4ccd6e1031c3f4cc8fdbc17b77b4eecda0b|Add support for vlan_limit option|Wed, 10 Mar 2021 23:37:31 +0900|Wed, 10 Mar 2021 23:54:12 +0900
+352a0d3ad5de0a11a7a100140fbdc58ef98d30bc|Prepare Wallaby M2|Tue, 19 Jan 2021 11:19:35 +0800|Tue, 19 Jan 2021 11:19:35 +0800
+926fcc64ebb9655512db4ffcf509c27967f0f85a|Prepare Wallaby M1|Fri, 4 Dec 2020 13:31:38 +0800|Fri, 4 Dec 2020 13:31:38 +0800
+d6eccf07bfc4c6a520a153a2ce118ee8a2d1f20c|Replace deprecated UPPER_CONSTRAINTS_FILE variable|Wed, 11 Nov 2020 09:08:36 +0800|Wed, 11 Nov 2020 09:08:36 +0800
+8c3dad989df87f61e5c3b26482fd23b04f1ba24b|Fix outdated files|Wed, 28 Oct 2020 10:40:09 +0800|Wed, 28 Oct 2020 10:40:09 +0800
+f3cef83e6d7b973e068ff5d2f18f7bcf4a23542f|Bump version for the start of Wallaby|Thu, 15 Oct 2020 09:42:50 +0800|Thu, 15 Oct 2020 09:42:50 +0800
+612f393a09ad3522b297fb289413417f1adbc677|Update master for stable/victoria|Thu, 8 Oct 2020 14:48:44 +0000|Thu, 8 Oct 2020 14:48:44 +0000
+24d814e1836deceb9c97232b5bcc8b3583b1c0a1|Prepare Victoria RC1|Thu, 24 Sep 2020 10:48:55 +0800|Thu, 24 Sep 2020 10:48:55 +0800
+8f2ee0d5ff00a4081846a6ea426958eaa56eda1c|Merge "Add Puppet Litmus"|Wed, 16 Sep 2020 22:12:04 +0000|Wed, 16 Sep 2020 22:12:04 +0000
+00383b40fac72f5538cae2b2ef59e01a130dc776|Set openstackdocs_auto_name to use 'project' as name|Wed, 16 Sep 2020 11:05:05 +0800|Wed, 16 Sep 2020 11:05:05 +0800
+e1a7353395a1998826d5744096e37c1b787a59d1|Add Puppet Litmus|Mon, 31 Aug 2020 22:04:15 +0200|Mon, 14 Sep 2020 23:42:42 +0200
+b4dcd67c9b728354c1658344d768c67668659598|Prepare Victoria M3|Tue, 8 Sep 2020 09:18:03 +0800|Tue, 8 Sep 2020 09:18:03 +0800
+5c975ae14c5dde0a33788fbd6e4d40269f17150b|Use openstack_spec_helper from zuul checkout|Sun, 30 Aug 2020 23:07:57 +0200|Sun, 30 Aug 2020 23:07:57 +0200
+81549d46fe7e7ea44b000329f028af6678676350|Prepare Victoria M2|Thu, 30 Jul 2020 13:35:29 +0800|Thu, 30 Jul 2020 13:35:29 +0800
+3f7d68f87bc656d4dea3e0b117e4523b4ddf953e|Prepare Victoria M1|Fri, 19 Jun 2020 10:38:55 +0800|Fri, 19 Jun 2020 10:38:55 +0800
+9f5ded7b94f9940079f3a630eaa1006e1b90ff9e|Merge "Remove compatibility codes for Puppet 3.x"|Thu, 4 Jun 2020 20:02:01 +0000|Thu, 4 Jun 2020 20:02:01 +0000
+265b3947b766c855bed223a0f48d62a18c1288b7|Remove compatibility codes for Puppet 3.x|Thu, 4 Jun 2020 22:06:55 +0900|Thu, 4 Jun 2020 22:06:55 +0900
+36aafcce92e589ff78d6906f6e077410c22f8e17|Switch to newer openstackdocstheme and reno versions|Tue, 2 Jun 2020 15:04:16 +0200|Tue, 2 Jun 2020 15:04:16 +0200
+bbd8ad9fe8cdc9750eef33635afafc3d011cadd8|Update Puppet requirement to >= 6.0.0|Sat, 30 May 2020 09:59:42 +0200|Sat, 30 May 2020 09:59:42 +0200
+681f9e77c36f5c26c7f266e046759e3ec15336c3|Bump version for the start of Victoria|Thu, 14 May 2020 12:24:28 -0600|Thu, 14 May 2020 12:28:27 -0600
+34d032a932ec5052b1fa7f2edbb63be8d4e2c40e|Merge "[ussuri][goal] Add CONTRIBUTING.rst"|Wed, 13 May 2020 07:09:29 +0000|Wed, 13 May 2020 07:09:29 +0000
+6318948b0594bc8ae1f41239f514f8459e060712|Bump reno to 2.5.0|Tue, 12 May 2020 10:50:07 +0800|Tue, 12 May 2020 10:50:07 +0800
+31b7721a1e720b994dbd5b406c283934cd828c12|[ussuri][goal] Add CONTRIBUTING.rst|Sun, 10 May 2020 22:55:19 +0200|Sun, 10 May 2020 22:55:19 +0200
+f7c13e404a825c2f96b19295505a551c28d62430|Add CentOS8 to nodesets|Sun, 10 May 2020 21:51:50 +0900|Sun, 10 May 2020 21:51:50 +0900
+d0686cd35089796b8791d83dc84603bea5e66ddd|Bump openstackdocstheme to 1.30.0|Thu, 30 Apr 2020 15:28:38 +0800|Thu, 30 Apr 2020 15:28:38 +0800
+12f53c088e1fc2d21a4800a7feca5d63bd92f75b|Change rpsec to rspec|Thu, 30 Apr 2020 13:24:46 +0800|Thu, 30 Apr 2020 13:24:46 +0800
+6b13653144f3e75c76692864fef21069a107127b|Update master for stable/ussuri|Tue, 28 Apr 2020 15:00:53 +0000|Tue, 28 Apr 2020 15:00:53 +0000
+5a72262494f8007c28fdd4a442d6f5c54cf89af4|Prepare Ussuri RC1|Fri, 24 Apr 2020 14:23:10 +0800|Fri, 24 Apr 2020 14:23:10 +0800
+13c0f527615bf0a3dfddd716637b2d1f50f661e1|Prepare Ussuri M3 again|Tue, 14 Apr 2020 00:14:18 +0900|Tue, 14 Apr 2020 00:14:18 +0900
+3d875d4f4cfcbea47afb52c11ab7bb1ad94bed77|Resolve duplicated requirement names in metadata|Mon, 13 Apr 2020 23:08:41 +0900|Mon, 13 Apr 2020 23:08:41 +0900
+7a8b173967b32ee0fded3137076d9f2347b14f2f|Prepare Ussuri M3|Tue, 7 Apr 2020 09:21:16 +0800|Tue, 7 Apr 2020 09:21:16 +0800
+06ed0056d0d9ecc2ac24499c4997f41a9dd7387d|Add RHEL/CentOS 8 and Puppet 6 in metadata|Mon, 30 Mar 2020 09:40:42 +0200|Mon, 30 Mar 2020 07:54:13 +0000
+edab7b1b6d18a506397349ec42c058d1f0603574|[ussuri][goal] Cleanup for python 2.7 drop|Sat, 15 Feb 2020 20:56:38 -0600|Sat, 15 Feb 2020 20:57:30 -0600
+f39729ce5ae54e9df62b45d3e2d1151f97179c4c|Prepare Ussuri M2|Thu, 13 Feb 2020 14:22:23 +0800|Thu, 13 Feb 2020 14:22:23 +0800
+a706002d83b367fa236280ae3270b377f63a2f19|Prepare Ussuri M1|Tue, 10 Dec 2019 14:24:49 +0800|Tue, 10 Dec 2019 14:24:49 +0800
+b90b698aa862132a04cc7765ec74c6af5e1e2d5c|Convert all class usage to relative names|Sun, 8 Dec 2019 23:25:14 +0100|Sun, 8 Dec 2019 23:25:14 +0100
+ff7a32cd0e3e5b515b59da37142e42605c0992d7|Update the constraints url|Thu, 31 Oct 2019 14:06:43 +0800|Thu, 31 Oct 2019 14:06:43 +0800
+342ce7bc84d36b9b8c31fd1fb3893637cb7cf356|Update master for stable/train|Fri, 4 Oct 2019 13:39:29 +0000|Fri, 4 Oct 2019 13:39:29 +0000
+b734f1417b1884ae650f663a7510e8005d917290|Prepare Train RC1|Wed, 25 Sep 2019 13:45:44 +0800|Wed, 25 Sep 2019 13:45:44 +0800
+51fb18b9b620a9eb55393e71fb9a522836d3c02a|Prepare Train M4|Thu, 5 Sep 2019 09:04:50 +0800|Thu, 5 Sep 2019 09:04:50 +0800
+dd5360e9fd569dfa85ebe7b1e81b7902ec67c242|Bump the openstackdocstheme extension to 1.20|Tue, 13 Aug 2019 11:29:08 +0800|Tue, 13 Aug 2019 11:29:08 +0800
+44b66ca9038538c981c474333d682eed467ba6c9|Sync Sphinx requirement|Wed, 7 Aug 2019 09:10:10 +0800|Wed, 7 Aug 2019 09:10:10 +0800
+9c2bdb245bd2aaad1e0e4ded6e340d8aece386de|Prepare Train M3|Wed, 24 Jul 2019 16:19:42 +0800|Wed, 24 Jul 2019 16:19:42 +0800
+c0ec164e184a2747a531bb26b03e6a5b507c4e9f|Prepare Train M2|Wed, 5 Jun 2019 09:40:24 +0800|Mon, 10 Jun 2019 10:06:51 +0800
+b843944420614ffe254ad34ecd02da8db5df4ae2|Merge "OVS Revalidator and handler threads config"|Tue, 21 May 2019 16:55:09 +0000|Tue, 21 May 2019 16:55:09 +0000
+ca1d9162a59da97a57c4d6f14b2cee1152c17fa8|Merge "Add version_requirement for kmod in metadata.json"|Tue, 21 May 2019 14:30:04 +0000|Tue, 21 May 2019 14:30:04 +0000
+8a96357166355e70979dac5fa171c5cdd82fc2a4|Add version_requirement for kmod in metadata.json|Tue, 21 May 2019 11:52:24 +0200|Tue, 21 May 2019 11:52:24 +0200
+6bc5b206e72409baf6dc9883d0e4789a7155bbb0|OVS Revalidator and handler threads config|Mon, 8 Apr 2019 13:20:49 +0530|Tue, 14 May 2019 15:47:05 +0530
+a2e392627b6bd89b1b7dbc3c7868081f0e359e8c|Move to opendev|Sun, 21 Apr 2019 14:44:50 +0800|Sun, 21 Apr 2019 14:44:50 +0800
+699e3e6591142690376d5efa7dcfe060dda451d0|Fix Repository|Sun, 21 Apr 2019 12:59:11 +0800|Sun, 21 Apr 2019 12:59:11 +0800
+fb70514f61c09e14ec103d70a5c094490e875ce5|OpenDev Migration Patch|Fri, 19 Apr 2019 19:34:07 +0000|Fri, 19 Apr 2019 19:34:07 +0000
+74e612250f3ed33956ded81bee637554d8514063|Add TODO to the table of contents|Wed, 17 Apr 2019 13:59:56 +0800|Wed, 17 Apr 2019 13:59:56 +0800
+a61a0f915b25153ce46501e75d377e2fedd3d6f4|Add table of contents|Wed, 17 Apr 2019 10:18:14 +0800|Wed, 17 Apr 2019 10:18:14 +0800
+97eb675dcc41578d1c52aff558533c49c4a925b4|Provide option to disable EMC in puppet-vswitch|Wed, 27 Mar 2019 05:45:35 +0530|Fri, 29 Mar 2019 07:06:55 +0530
+d9a54416f9575b853287941546d6a45ae9cdbf51|Fix test facts for alternative OSs|Thu, 28 Mar 2019 09:22:36 -0600|Thu, 28 Mar 2019 09:22:36 -0600
+68cf40b7c4d427ad72ee860f82450e8c9a862e90|Bump version for the start of Train|Mon, 25 Mar 2019 07:25:24 -0600|Mon, 25 Mar 2019 07:28:06 -0600
+7c330c378d5196a190b9d7fe045e64f6f82b1a23|Update master for stable/stein|Fri, 22 Mar 2019 16:55:44 +0000|Fri, 22 Mar 2019 16:55:44 +0000
+1613f68c3ad7ea24b6112317818f5e2df1b1dfd4|Prepare Stein RC1|Mon, 18 Mar 2019 10:38:17 +0800|Mon, 18 Mar 2019 10:38:17 +0800
+8e91d1c6acba804fc3a5523a22e60a92bacb1ecb|Merge "Prepare Stein M3"|Fri, 8 Mar 2019 18:11:07 +0000|Fri, 8 Mar 2019 18:11:07 +0000
+4850763f19b66ece045c06050e53c3f9df486fd7|Remove Ubuntu Xenial from metadata.json|Thu, 7 Mar 2019 09:08:53 +0800|Thu, 7 Mar 2019 09:08:53 +0800
+e2d486735a503b8e59f1cb15e635dc13efc68e9d|Prepare Stein M3|Wed, 6 Mar 2019 14:55:50 +0800|Wed, 6 Mar 2019 14:55:50 +0800
+98fbd0d8336eee1a476023a10d6615bf9174ff9e|Modify puppet version 4 to 5|Tue, 15 Jan 2019 10:11:20 +0800|Tue, 15 Jan 2019 10:11:20 +0800
+86c0f49ecc95140d8726588bda359c5843b2d2a9|Merge "Prepare Stein M2"|Fri, 11 Jan 2019 03:09:29 +0000|Fri, 11 Jan 2019 03:09:30 +0000
+457f0cfe47a1735df43ede9222882f6052cf5ab5|Prepare Stein M2|Thu, 10 Jan 2019 09:24:04 +0800|Thu, 10 Jan 2019 09:24:04 +0800
+86d1d582ce15c0b5ddb27cb320e15a4dedffc77a|Revert "Fix lint"|Wed, 9 Jan 2019 16:32:09 +0000|Wed, 9 Jan 2019 18:04:59 +0100
+eeadacfdd96130a8cba87b897d3e9b2ce96dcb02|Fix lint|Tue, 18 Dec 2018 11:18:26 +0100|Tue, 18 Dec 2018 11:18:26 +0100
+07b900301f5c0a379a055f8a0331dba16071f7ad|Change openstack-dev to openstack-discuss|Sun, 2 Dec 2018 18:20:49 +0100|Sun, 2 Dec 2018 18:20:49 +0100
+f616a6d214f4df58a56f3ebd8db7d3a987633f27|Prepare Stein M1|Tue, 13 Nov 2018 14:53:27 +0800|Tue, 13 Nov 2018 14:53:27 +0800
+197d3eae3162d92b51943f81e8b856fa1125ab96|Update min tox version to 2.0|Tue, 16 Oct 2018 11:40:19 +0800|Tue, 16 Oct 2018 11:40:19 +0800
+437aa79ed37aca22e9e469cd7ed621110d0e9bf1|Dissuade .gitignore references to personal tools|Mon, 8 Oct 2018 11:39:25 +0800|Mon, 8 Oct 2018 11:39:25 +0800
+b8bc6f99ff69327ea968dceb35d89064a5999eae|Merge "Bump version for the start of Stein"|Fri, 31 Aug 2018 21:37:07 +0000|Fri, 31 Aug 2018 21:37:07 +0000
+1ac9af1edbd12cab56a3dd6267590dbcb2aec300|switch documentation job to new PTI|Fri, 31 Aug 2018 08:24:48 -0400|Fri, 31 Aug 2018 08:24:48 -0400
+38cccf840d7f6c686bb0c8bf04de90e713d4815a|import zuul job settings from project-config|Fri, 31 Aug 2018 08:24:09 -0400|Fri, 31 Aug 2018 08:24:09 -0400
+e735c5012a5e9846952b4c8627a15971dc10fefd|Bump version for the start of Stein|Thu, 30 Aug 2018 12:08:30 -0600|Thu, 30 Aug 2018 12:11:29 -0600
+b6dab2e9bb08401507d95715734f5841663ae055|Fix the undefined method 'chomp' for nil:NilClass error seen with ovs 2.10|Tue, 28 Aug 2018 14:02:13 +0530|Tue, 28 Aug 2018 14:25:25 +0530
+350322b14934b31a21754faf5b4a61a83d2119e1|Update reno for stable/rocky|Mon, 20 Aug 2018 18:44:23 +0000|Mon, 20 Aug 2018 18:44:23 +0000
+04c7404018f90ac4f76d50f28182d2b77678e3b5|Remove PE requirement from metadata.json|Thu, 16 Aug 2018 23:30:08 +0200|Thu, 16 Aug 2018 23:30:16 +0200
+ed0e13c8867efceb51dfeece719c1c0dce98fbaf|Prepare Rocky RC1|Tue, 14 Aug 2018 08:56:17 -0600|Tue, 14 Aug 2018 08:59:06 -0600
+193269e13bdfa4e0fb21b3fb298fd93191edf0db|Add the 'Development' and 'Contributors' in README|Sat, 28 Jul 2018 15:09:10 +0000|Sat, 28 Jul 2018 15:16:46 +0000
+646c0c68e22a2274918ce3190cdf2f3eb36f2daa|Correct the wrong urls for Repository and Release Notes|Sat, 28 Jul 2018 07:44:48 +0000|Sat, 28 Jul 2018 07:46:02 +0000
+996d551c7d9b7657764c0af947bb23809b0bdbd6|Prepare Rocky M3|Tue, 24 Jul 2018 10:17:05 -0600|Tue, 24 Jul 2018 10:20:28 -0600
+0d0da6621a958367e23b05e876734cfc4534b319|Merge "modulesync: sync and add nodepool-bionic for beaker"|Mon, 23 Jul 2018 20:45:41 +0000|Mon, 23 Jul 2018 20:45:41 +0000
+26ee36a48cff95fa6ebcb308c2c11c6766f79691|Merge "Add the project source code repository in README"|Mon, 23 Jul 2018 12:47:25 +0000|Mon, 23 Jul 2018 12:47:25 +0000
+a545a444d7f6b8226530e37bd77a05fb769c4a23|modulesync: sync and add nodepool-bionic for beaker|Wed, 18 Jul 2018 16:20:39 +0200|Mon, 23 Jul 2018 12:27:26 +0000
+d58781c660c2cc631e5d6685135b809a8a8f1677|Add the project source code repository in README|Fri, 20 Jul 2018 22:56:40 +0800|Fri, 20 Jul 2018 22:57:59 +0800
+b35900af6444adfc211328e74e7004630bfc31b2|Fix OS versions in metadata|Thu, 19 Jul 2018 09:35:36 +0700|Thu, 19 Jul 2018 09:35:36 +0700
+14d29a655cb58816f34f018723a31c754c239041|Merge "Add release note link in README"|Mon, 2 Jul 2018 23:43:56 +0000|Mon, 2 Jul 2018 23:43:56 +0000
+d465c00d8ed972140af24ba2af434c28b13cd3db|Debian release is 9 in metadata|Mon, 2 Jul 2018 14:08:14 +0800|Mon, 2 Jul 2018 14:08:14 +0800
+130a7279ad7d7a8dabf4b31381b88a7aefbce116|Add release note link in README|Wed, 27 Jun 2018 22:56:21 +0800|Wed, 27 Jun 2018 22:57:16 +0800
+0d1de5ad69b5719d7a2e9440de443ace26f246fa|fix tox python3 overrides|Fri, 8 Jun 2018 14:23:33 +0800|Fri, 8 Jun 2018 14:23:33 +0800
+2835e9b8044405224776636215754e2fbcda9c9c|Prepare a new Rocky release|Tue, 5 Jun 2018 09:43:25 -0700|Tue, 5 Jun 2018 09:47:51 -0700
+df78b576159930a087325a704e2ca1b53266a89f|Prepare Rocky M1|Thu, 19 Apr 2018 08:54:37 -0600|Thu, 19 Apr 2018 08:58:19 -0600
+39261cdc97f7178643129d1418351b2e9f2c36ac|Update .gitignore|Wed, 11 Apr 2018 08:43:46 +0800|Wed, 11 Apr 2018 08:55:41 +0800
+c270f3a6995641c1aef9e5966693628d231d17c0|Merge "Remvoved OvS2.5 specific changes as it is no longer required"|Mon, 5 Mar 2018 10:20:23 +0000|Mon, 5 Mar 2018 10:20:24 +0000
+d11b4c519c07957b387fe06ed86366a34f0a39fc|Follow the new PTI for document build|Wed, 28 Feb 2018 14:42:13 +0800|Wed, 28 Feb 2018 14:42:13 +0800
+2e8d11273df61067fea4ffdcd0f0b2cede1ead7f|Update reno for stable/queens|Wed, 21 Feb 2018 00:18:28 +0000|Wed, 21 Feb 2018 00:18:28 +0000
+7f7f588a06130d966b1e0b8cea8de10121d112fd|Prepare for official Queens release|Mon, 19 Feb 2018 12:37:53 -0500|Mon, 19 Feb 2018 12:44:11 -0500
+3d91514806a1bb32aa2ac0fed90ced23162ccc32|Remvoved OvS2.5 specific changes as it is no longer required|Wed, 6 Dec 2017 17:20:58 +0530|Tue, 13 Feb 2018 11:24:25 +0530
+a0e0131129811f53a6cb1b044154040585e296ef|Load puppet-openstack_spec_helper locally during tests|Mon, 12 Feb 2018 10:53:40 +0800|Mon, 12 Feb 2018 10:53:40 +0800
+146cdb1e8e7d6d455c23e8b9b0e0f603cd7c5a6f|Merge "Zuul: Remove project name"|Fri, 2 Feb 2018 17:16:19 +0000|Fri, 2 Feb 2018 17:16:19 +0000
+86e8bfe576e94b321cfc19f859b3cabe20674e9c|Zuul: Remove project name|Wed, 24 Jan 2018 16:57:31 -0800|Fri, 2 Feb 2018 06:50:06 -0800
+43c0bea952e3e184bed4aad3b2b2fbadd6390334|Zuul: Remove project name|Mon, 29 Jan 2018 03:02:48 +0800|Mon, 29 Jan 2018 03:02:48 +0800
+2c74666058470d22565b0e52fba1d74001162ae1|Merge "Remove pinned versions from test-requirements.txt"|Wed, 17 Jan 2018 13:58:56 +0000|Wed, 17 Jan 2018 13:58:56 +0000
+40eef6d41c359c6cd1b98cc5b20fea6a7f107fd9|Prepare for Queens Milestone 3|Tue, 16 Jan 2018 15:51:10 -0800|Wed, 17 Jan 2018 05:40:56 +0000
+ed57fb5a463257e26f24a7da84e7098bc7e29195|Remove pinned versions from test-requirements.txt|Tue, 16 Jan 2018 12:29:50 +0800|Tue, 16 Jan 2018 12:29:50 +0800
+6e3d77e9e48c37f17383756a9c480f061f743909|Adds SSL custom type/provider|Tue, 2 Jan 2018 17:15:14 -0500|Tue, 9 Jan 2018 18:18:22 -0500
+8a49f0963a59b8860a1d86d60517a5b1cb62b98e|Fix markdown format typo|Thu, 28 Dec 2017 11:53:24 +0800|Thu, 28 Dec 2017 11:53:24 +0800
+b7a82722fcb67ab9827e2b2083361440ba0c32c6|Run puppet-openstack-beaker-jobs|Thu, 21 Dec 2017 19:00:34 -0800|Thu, 21 Dec 2017 19:00:34 -0800
+f3b7c9d2f0b4bf9dcf26e13ea2ef4fe32e348eb5|Prepare for Queens Milestone 2|Tue, 28 Nov 2017 16:14:20 -0700|Tue, 28 Nov 2017 16:19:41 -0700
+e5efa3ca1e95648284e0ead97fe959e356f16396|Merge "Switch to Zuul v3 testing"|Thu, 2 Nov 2017 04:18:35 +0000|Thu, 2 Nov 2017 04:18:35 +0000
+c391190d4a30f1a9d38d077e6f5117c6524e1928|Merge "Prepare for Queens Milestone 1"|Sat, 28 Oct 2017 02:55:06 +0000|Sat, 28 Oct 2017 02:55:06 +0000
+2eec7706d61a8d3ba5d21d1fac717fcf18564d63|Add Puppet package to bindep, for module build|Fri, 27 Oct 2017 13:17:08 -0700|Fri, 27 Oct 2017 13:17:08 -0700
+fc452b71711d05ce76c4f46102245e3e47ea086d|Switch to Zuul v3 testing|Thu, 26 Oct 2017 08:47:20 +0800|Thu, 26 Oct 2017 08:47:20 +0800
+c7079b8e929de6aa639494bd7cb4ddaf3451e1da|Prepare for Queens Milestone 1|Tue, 17 Oct 2017 14:26:33 -0600|Wed, 18 Oct 2017 01:53:02 +0000
+ff502f781ef7bf688cf18c526da428e4f8324cdf|Merge "add support for ovs hw-offload"|Wed, 27 Sep 2017 23:36:00 +0000|Wed, 27 Sep 2017 23:36:00 +0000
+0da18826895522e3c5513dbfb1dca25e6bb9df8a|add support for ovs hw-offload|Mon, 11 Sep 2017 12:56:21 +0300|Wed, 27 Sep 2017 22:18:12 +0300
+6bc750cc56b22bd2b6b4514c9deb595e19a5c9dc|Update to the latest address in README|Thu, 21 Sep 2017 12:36:22 +0800|Thu, 21 Sep 2017 12:36:22 +0800
+17f47a87b41f3f118dae92883c0690b9eeba6f0f|Update openstackdocstheme to latest version|Tue, 19 Sep 2017 21:00:06 +0800|Wed, 20 Sep 2017 11:13:18 +0800
+aedfc5985ab4f1ccc615998a992489705f220c90|Use Python to compute release notes version|Wed, 30 Aug 2017 13:49:30 -0700|Wed, 30 Aug 2017 13:49:30 -0700
+0ccdebec2145199e562d29dbc637a188acb2566d|Merge "Update versions for Queens cycle"|Fri, 25 Aug 2017 23:05:47 +0000|Fri, 25 Aug 2017 23:05:47 +0000
+8a87639309be953260e17db457404da1e6e23acb|Merge "Update reno>=2.5.0"|Fri, 25 Aug 2017 23:05:42 +0000|Fri, 25 Aug 2017 23:05:42 +0000
+f1dc7ab2c079016db615413bfc1f10a02c0ca92f|Update versions for Queens cycle|Thu, 24 Aug 2017 13:06:05 -0600|Thu, 24 Aug 2017 13:08:31 -0600
+265d088284173a2202413440ab1bb50f5a6b3172|Update reno for stable/pike|Thu, 24 Aug 2017 14:02:07 +0000|Thu, 24 Aug 2017 14:02:07 +0000
+d4b010db56d9a350ff48cb3b2721df3aefd4df0a|Prepare for official Pike release|Mon, 21 Aug 2017 15:58:44 -0600|Mon, 21 Aug 2017 16:01:07 -0600
+b8a11fca4d79dd306904bfcf0bdc38e23f5c6ef7|Update reno>=2.5.0|Mon, 21 Aug 2017 11:22:13 +0800|Mon, 21 Aug 2017 11:22:13 +0800
+8cc3b6949e1917f42ba0f1d34687a1cde1d38f7a|Merge "Update openstackdocstheme>=1.16.0"|Sat, 5 Aug 2017 07:34:09 +0000|Sat, 5 Aug 2017 07:34:09 +0000
+090cab9395340afe1eb8bd95eb57453bd199766f|Bump modules to next minor with -dev|Fri, 4 Aug 2017 13:36:15 -0600|Fri, 4 Aug 2017 13:39:04 -0600
+8b0098dc33246bf44f5dce243e4ce9fe56fd3b92|Update openstackdocstheme>=1.16.0|Mon, 31 Jul 2017 11:04:39 +0800|Mon, 31 Jul 2017 11:04:39 +0800
+1961ac7a0029342d17c22f019706544ee9106aa5|Drop -dev version for Pike M3|Tue, 25 Jul 2017 08:12:57 -0600|Tue, 25 Jul 2017 08:15:35 -0600
+b8fde850f6ff26c4e08615f176ed33b105ad235a|Merge "Update URLs in documents according to document migration"|Sat, 22 Jul 2017 02:59:06 +0000|Sat, 22 Jul 2017 02:59:06 +0000
+fe1372dc77bf6cf3e58ec38f910d66e59ccd9b70|Merge "Adds fact for uuid of OVS"|Sat, 22 Jul 2017 02:59:00 +0000|Sat, 22 Jul 2017 02:59:00 +0000
+00de2cb906d3bbd5d235d34a5c52c0ca8e9f5541|Adds fact for uuid of OVS|Thu, 13 Jul 2017 22:06:36 -0400|Tue, 18 Jul 2017 13:58:23 -0400
+6a3f97485fb20fd4f22c205ffdf397f521b52a7b|Merge "Enable dpdk after setting all other dpdk parameters"|Tue, 18 Jul 2017 02:12:44 +0000|Tue, 18 Jul 2017 02:12:44 +0000
+c751135c680b91680480835b5f1225c833f9e633|Enable dpdk after setting all other dpdk parameters|Fri, 14 Jul 2017 04:25:35 -0400|Mon, 17 Jul 2017 03:46:35 -0400
+3a7ac82ca323e745dc4657c518896eba6d8a27cd|Update URLs in documents according to document migration|Fri, 14 Jul 2017 08:55:02 +0800|Fri, 14 Jul 2017 08:55:02 +0800
+b260bab30f8380dc4936df541dfdcf503620dfbf|Merge "Change author in setup.cfg"|Wed, 12 Jul 2017 15:10:19 +0000|Wed, 12 Jul 2017 15:10:19 +0000
+e020f116702297ec1195050180a2e8e7e6a7c1fc|Change author in setup.cfg|Tue, 4 Jul 2017 18:25:39 +0530|Tue, 4 Jul 2017 18:26:18 +0530
+bb69ea259e13ff68d90c79b4220da0e127627340|Fix openstackdocstheme|Sun, 2 Jul 2017 14:30:37 +0800|Sun, 2 Jul 2017 14:30:37 +0800
+b121d6124e6c41056c40c46f3bd3e8d14760d357|Switch from oslosphinx to openstackdocstheme|Mon, 26 Jun 2017 10:13:25 +0800|Mon, 26 Jun 2017 10:13:25 +0800
+5ccaf50009b9df71eb9c41a295ada4037597824e|Trivial fix style in document|Thu, 22 Jun 2017 17:25:31 +0700|Thu, 22 Jun 2017 17:25:31 +0700
+677415b7d30784071a9ade2af2aded549ffd1e46|Added test case for the function range_to_mask()|Wed, 14 Jun 2017 06:02:39 -0400|Wed, 14 Jun 2017 07:11:31 -0400
+3b07864bfd72a4a1a6ad6df1ad06eaac240955cc|Merge "Define a function for range to mask conversion"|Tue, 13 Jun 2017 05:42:50 +0000|Tue, 13 Jun 2017 05:42:50 +0000
+4134b9080c5ed92432882e25be7772d2e8b0c81e|Define a function for range to mask conversion|Wed, 22 Mar 2017 10:18:02 -0400|Mon, 12 Jun 2017 07:32:21 -0400
+50e90eb9a5879edb476c0f23d80d3279ceafd9ee|Add environment variable|Mon, 12 Jun 2017 16:15:37 +0800|Mon, 12 Jun 2017 16:15:37 +0800
+a50b381f9b39f6e0fffdd9289ae024a5731f1ae1|Merge "Bump version for Pike M3 Dev"|Fri, 9 Jun 2017 09:33:15 +0000|Fri, 9 Jun 2017 09:33:15 +0000
+f1aad51b36809e2f9a9b11e0b0bc2efd4f2fd487|Bump version for Pike M3 Dev|Thu, 8 Jun 2017 15:30:57 -0600|Thu, 8 Jun 2017 15:34:22 -0600
+4368338d70f0d40f3550a8b30020cb2a596fb9a6|Update global requirements|Thu, 8 Jun 2017 14:03:00 +0800|Thu, 8 Jun 2017 14:03:00 +0800
+8a3479db80ae1c4fc0c22c7ff733ad193e63a0fb|check if /proc/bus/pci/devices is available|Fri, 2 Jun 2017 14:58:56 +0200|Sat, 3 Jun 2017 08:12:24 +0200
+ee4b10535131582d883101b8c63c8ef7252d0259|Drop -dev in preparation for Pike M2|Thu, 1 Jun 2017 08:53:02 -0600|Thu, 1 Jun 2017 08:55:29 -0600
+a8203f2769456bbdfcf2968d8dd4c1231a083079|Update tox configuration|Wed, 17 May 2017 09:51:09 -0600|Wed, 17 May 2017 09:51:12 -0600
+74bac67ae376875592496fcd0f01e81e5efdd5ef|Added parameter validation for socket_mem parameter|Wed, 10 May 2017 16:39:43 -0400|Wed, 10 May 2017 20:33:27 -0400
+4f621646df3cd77b90c31300d2c3838ea3e93902|Merge "ovsdb_service_name is not defined for all os'es"|Tue, 2 May 2017 16:13:22 +0000|Tue, 2 May 2017 16:13:22 +0000
+9c583a5b20229da699555ebb5d4826202c53704e|ovsdb_service_name is not defined for all os'es|Thu, 27 Apr 2017 17:14:04 +0200|Fri, 28 Apr 2017 08:06:01 +0200
+f937d1ff7ca36a8af42b42bca44da4d372d34dbb|add ovs_status for debian|Thu, 27 Apr 2017 17:10:56 +0200|Fri, 28 Apr 2017 08:02:05 +0200
+98dc319971b0097737fae0d70ce09dfb9049c74d|Bump modules to next minor with -dev|Fri, 21 Apr 2017 17:21:44 -0600|Fri, 21 Apr 2017 17:24:39 -0600
+4c9b3050aebff8f7a3acd826feeb785de6e27664|Drop -dev for release prep|Wed, 5 Apr 2017 10:36:14 -0600|Wed, 5 Apr 2017 10:46:31 -0600
+b58bd4844a0f1a30ccae9ae8cd4cb85ed4a7fee2|OVS2.6 changes for DPDK|Fri, 10 Feb 2017 13:29:11 +0530|Tue, 4 Apr 2017 08:59:50 -0400
+084093c8e143c317c70a58d79d96e5d6d4bd97e3|Update test-requirements.txt|Thu, 23 Mar 2017 14:56:14 +0800|Thu, 23 Mar 2017 14:56:27 +0800
+3f41e2e7749d7855a27734b8967d213469033615|Prepare Pike metadata|Tue, 7 Mar 2017 14:39:57 -0700|Tue, 7 Mar 2017 15:35:14 -0700
+b4039a58d9bac5b94b061827327e30f1615e4778|Remove deprecated parameter 'core_list'|Wed, 15 Feb 2017 14:33:19 +0530|Wed, 15 Feb 2017 15:06:36 +0530
+b3ea36da688c646eac88c7f4ee9a103349f915ca|Update reno for stable/ocata|Wed, 8 Feb 2017 11:04:56 +0000|Wed, 8 Feb 2017 11:04:56 +0000
+e08a995069106b4e66e7d08623730f186d8a4f6c|Prepare ocata-rc1 release|Fri, 3 Feb 2017 16:21:53 -0700|Fri, 3 Feb 2017 16:24:36 -0700
+ee3e211489695bef06ef83bf1cf4cfacf2a706cd|Merge "Add interface_type parameter"|Fri, 3 Feb 2017 01:04:23 +0000|Fri, 3 Feb 2017 01:04:23 +0000
+a9f30a2cc4cfad0e543e39cd82f7fd89acf37c40|Prepare 6.2.1 release|Thu, 26 Jan 2017 13:23:25 -0700|Thu, 26 Jan 2017 13:24:18 -0700
+026f64ade478a8f3e45a9af61a2239d9ff59acc9|Add fail_mode parameter to OVS Ports|Tue, 17 Jan 2017 05:20:46 -0500|Tue, 17 Jan 2017 07:41:42 -0500
+8aa83e626571ca3fea97e83b660f611bc07aa739|Pin reno version to reno>=0.1.1,!=2.0.0|Thu, 22 Dec 2016 15:34:18 +0400|Thu, 22 Dec 2016 15:37:31 +0400
+ad654fa0ffb94573ee65f50cca524efd8c4059b7|Merge "Add dependency to openvswitch service for adding DPDK_OPTIONS"|Tue, 20 Dec 2016 09:20:31 +0000|Tue, 20 Dec 2016 09:20:31 +0000
+8383404ab8a513b39efc625b7a46ffbb61b18c8e|Add dependency to openvswitch service for adding DPDK_OPTIONS|Mon, 12 Dec 2016 18:27:47 +0530|Mon, 19 Dec 2016 11:21:22 +0530
+77e0b061de8fffb9cfb9385d2af771496d942e70|Configure DPDK options to isolate PMD cores and ovs process cores|Wed, 14 Dec 2016 06:04:38 -0500|Sun, 18 Dec 2016 06:15:05 +0000
+16db56f39130c0b268a12b0d58f6ae666d650aa9|Add interface_type parameter|Wed, 6 Aug 2014 12:12:21 +0200|Fri, 16 Dec 2016 16:14:43 +0000
+b797ae79a0d86b91a17d3b25e13dc43745f3540f|Fix ovs test for xenial|Fri, 16 Dec 2016 08:53:16 -0700|Fri, 16 Dec 2016 09:14:06 -0700
+5fdc306b6c00407420669450e9314b8c69fafe62|Prepare 6.1.0 release|Fri, 9 Dec 2016 09:34:05 -0700|Fri, 9 Dec 2016 17:24:26 +0000
+0b1ea47ed23f55c5df6ed30c58eadfc9eb82a1eb|rework service and fix service for debian jessie|Sun, 29 May 2016 13:52:49 +0200|Wed, 30 Nov 2016 23:26:36 -0700
+3bf8dbb121f13680d6bab72aca9ca836d95d7e90|Show team and repo badges on README|Fri, 25 Nov 2016 17:11:12 +0100|Fri, 25 Nov 2016 17:43:44 +0100
+6c9ed3a8b525b339921548192bbffe26dc9176ab|Prepare 6.0.0 release|Mon, 14 Nov 2016 16:39:19 -0700|Wed, 16 Nov 2016 22:36:44 +0000
+7957f1854e4ef4df965a5e2194e9234f350a2974|Merge "Switch to rspec-puppet-facts"|Sat, 8 Oct 2016 14:57:21 +0000|Sat, 8 Oct 2016 14:57:21 +0000
+39744e94db1ff96a1355a2083403193272a1f224|Enable release notes translation|Thu, 6 Oct 2016 20:48:26 +0200|Thu, 6 Oct 2016 20:48:26 +0200
+2242336c3831cf3bc6a1328f4522ec77cc5ff36b|Switch to rspec-puppet-facts|Wed, 5 Oct 2016 17:13:28 -0600|Wed, 5 Oct 2016 17:13:28 -0600
+ab17a8c0286528ff4689b6d01580e7127a3830b3|Changed the home-page to point Openstack Puppet Homepage|Tue, 4 Oct 2016 11:23:44 +0530|Tue, 4 Oct 2016 11:24:16 +0530
+28b8b342abf34bbc7ad3990d6b4cf35603fae61a|Move rspec-puppet-facts to spec helper|Fri, 30 Sep 2016 13:34:25 -0600|Fri, 30 Sep 2016 13:34:29 -0600
+af5424ad96f15d81136d078beddd7fbce615730e|Update reno for stable/newton|Tue, 27 Sep 2016 12:42:22 -0400|Tue, 27 Sep 2016 10:57:34 -0600
+3f5e1fb3e4bb8aa7b7362ddadf9fa18230f5bbf3|Puppet OpenStack Newton RC2|Mon, 26 Sep 2016 07:31:19 -0600|Mon, 26 Sep 2016 13:58:08 +0000
+e5684e5ac7f213b96d0fbc9e4efa6730730a5cbf|Release 5.3.0 (newton rc1)|Fri, 16 Sep 2016 11:44:06 -0400|Fri, 16 Sep 2016 11:44:06 -0400
+f799361d50ff3afc9559a67e0c37da3b84fc5451|Added leading zeros to the pci address set by facter|Fri, 9 Sep 2016 13:23:19 +0530|Fri, 9 Sep 2016 13:23:19 +0530
+4db3bb17caec3e2290f8e54a5ce9196b7cf2e50b|Release 5.2.1|Thu, 1 Sep 2016 08:47:32 -0400|Thu, 1 Sep 2016 08:48:01 -0400
+27f41adab7d37bd5b39665130a2b61a0e60c3a64|Fix metadata.json|Mon, 29 Aug 2016 15:11:24 -0400|Mon, 29 Aug 2016 15:11:24 -0400
+fb6445971b60e719752bbc1ee9961fea8d348a58|Prepare 5.2.0 (newton b3)|Fri, 26 Aug 2016 09:59:14 -0400|Fri, 26 Aug 2016 10:21:26 -0400
+6778092961b0974f5dc3d9772ebec0815149205a|Merge "Move other-requirements.txt to bindep.txt"|Sat, 13 Aug 2016 22:18:36 +0000|Sat, 13 Aug 2016 22:18:36 +0000
+e52e71c634e90b8331dfedd5519193b1a7c66355|Move other-requirements.txt to bindep.txt|Fri, 12 Aug 2016 21:13:12 +0200|Fri, 12 Aug 2016 21:13:12 +0200
+56b2aaa9310be1abd4b311ceac12e02e2b51f0d5|Modify the OVS DPDK package name to openvswitch|Fri, 5 Aug 2016 11:54:07 +0530|Fri, 5 Aug 2016 16:46:49 +0530
+94a9e3966e1147109526a963eeba0210b6b78a03|Add DPDK driver modprobe for loading modules on reboot|Tue, 26 Jul 2016 21:26:33 +0530|Sat, 30 Jul 2016 10:49:59 +0530
+0f93b8926e61fc46bd420303cf1529fb3c8b25e6|Provide pci whitelist for the DPDK_OPTIONS for ovs|Fri, 15 Jul 2016 15:07:23 +0530|Thu, 21 Jul 2016 20:43:25 +0530
+f1c5e34409e34a66284340b4f61ec77f01f5436f|OVS DPDK package support with basic options|Mon, 11 Jul 2016 18:29:30 +0530|Fri, 15 Jul 2016 19:28:20 +0530
+a4b436b1aa8b0324ea91ca1bd984e210b6b9cf61|Include openstacklib defaults manifest.|Thu, 7 Jul 2016 12:01:26 +0200|Fri, 8 Jul 2016 10:50:37 +0200
+78032ea0b7416c4092231bc9d104a1cd8dba8bb1|Prepare 5.1.0 (newton-2)|Thu, 7 Jul 2016 09:14:08 -0400|Thu, 7 Jul 2016 09:14:25 -0400
+4c161a5b3f2ee924ef90f56da81f7f408eb33dc1|Remove mitaka release prelude note|Tue, 28 Jun 2016 15:10:08 -0400|Tue, 28 Jun 2016 15:10:13 -0400
+01aa050b641932ae8c7c9743a454eeb306d929bf|Add nodepool-xenial.yml file|Fri, 10 Jun 2016 13:34:05 -0400|Fri, 10 Jun 2016 13:34:11 -0400
+9f2b56cfa822ee3a4fbe8c5e9e0df9a46e8cd76c|Prepare 5.0.0 release|Thu, 2 Jun 2016 18:38:59 -0400|Thu, 2 Jun 2016 18:43:52 -0400
+0a62f9f51fa5826f1497e57e25a930d968502690|Merge "Add check status command for Ubuntu 16.04"|Thu, 26 May 2016 15:51:00 +0000|Thu, 26 May 2016 15:51:00 +0000
+32f5c29a970c17fea2f5d643c861d7a3c83cac4a|reno: show mitaka release notes|Wed, 25 May 2016 19:21:46 -0400|Wed, 25 May 2016 19:21:46 -0400
+83ad1e5aa539b545bc546eca577499cd06477b6e|Add check status command for Ubuntu 16.04|Tue, 24 May 2016 16:32:57 +0300|Wed, 25 May 2016 16:26:06 +0300
+a14015f489ebb8ab0420879e8f48f360ab3104cb|Add other-requirements.txt for bindep|Thu, 19 May 2016 19:17:13 +0200|Thu, 19 May 2016 19:17:26 +0200
+f4d19a7a07eb71034f92d283b598f753fc5ec560|set dkms_ensure to False by default|Mon, 2 May 2016 12:19:16 -0400|Mon, 2 May 2016 12:19:16 -0400
+dab2f37b2b2fc48b74fcbcc70f753b4338e006ad|add missing dev keyword to ip link command|Mon, 4 Apr 2016 17:03:55 +0200|Mon, 4 Apr 2016 17:04:06 +0200
+32fb6fe31056fd89512d2f40523234e7404e63d5|Gemfile: rely on puppet-openstack_spec_helper for dependencies|Wed, 30 Mar 2016 12:27:31 -0400|Wed, 30 Mar 2016 12:27:31 -0400
+2059a77127590d13b88de051827efbb18307f995|Release 4.0.0|Wed, 23 Mar 2016 14:44:13 -0400|Wed, 23 Mar 2016 14:50:57 -0400
+b988c7684a97f7dd14862f089c5cb4e5e565e4a4|Merge "Add Solaris support"|Wed, 23 Mar 2016 16:18:20 +0000|Wed, 23 Mar 2016 16:18:20 +0000
+1794f54fbe4d61e74c61f5d46636745a9792ec5b|Add Solaris support|Tue, 22 Mar 2016 12:56:59 -0600|Tue, 22 Mar 2016 12:56:59 -0600
+8a2428327b1bcd2ae9753761099a9d5dcae2afcb|Merge "Added custom type vs_config and OVS provider for it"|Tue, 22 Mar 2016 12:53:45 +0000|Tue, 22 Mar 2016 12:53:45 +0000
+7d1ff4325e7df735f0108860b846fdd08cdbfd6b|Added custom type vs_config and OVS provider for it|Mon, 29 Feb 2016 11:40:12 +0000|Tue, 22 Mar 2016 09:05:06 +0000
+5d6eb1436b9e38572c45beec8e8a1132108cec87|releasenotes: add notes for Mitaka cycle|Fri, 18 Mar 2016 12:26:59 -0400|Fri, 18 Mar 2016 14:14:09 -0400
+bec7a21324f5e099f124a5e33b09135d6e7581c6|Merge "Complete ovs_port fix for Ubuntu"|Wed, 16 Mar 2016 16:53:04 +0000|Wed, 16 Mar 2016 16:53:04 +0000
+b760a21ae40f010f5bb4f2a7e8de38f5ab263fdf|Merge "Add basic structure for ReNo"|Mon, 14 Mar 2016 15:20:56 +0000|Mon, 14 Mar 2016 15:20:56 +0000
+138dd292c308f180bb300136e439d60202ace214|Complete ovs_port fix for Ubuntu|Mon, 14 Mar 2016 14:37:04 +0100|Mon, 14 Mar 2016 14:37:04 +0100
+1e48a8c2a5dec8e6ff5871980dd4cf8c399cf8f5|Add basic structure for ReNo|Sun, 13 Mar 2016 19:00:58 -0400|Mon, 14 Mar 2016 08:36:45 -0400
+bd3b2af4e9648fdebee1538ca6b33c4f092e2158|Fix vs_port provider for Red Hat platforms|Fri, 11 Mar 2016 16:57:56 +0100|Fri, 11 Mar 2016 16:57:56 +0100
+3ebeb07188038a7306a6520a3ff4621da8f90eda|Merge "Fix ovs status command"|Tue, 23 Feb 2016 12:20:53 +0000|Tue, 23 Feb 2016 12:20:53 +0000
+f4785cc8f3d0a7d2c8548435bf912a5a900e670d|Remove duplicate loading of constants|Tue, 16 Feb 2016 13:27:44 -0800|Wed, 17 Feb 2016 13:48:12 -0800
+231e5ca7d7e3c60972b6504abaa7ed98b8f88edd|Condition if ovs is not already installed|Sun, 31 Jan 2016 19:05:07 +0100|Mon, 1 Feb 2016 07:58:12 +0000
+b27b55b42a14e4e5499d81d668147b8f0ab89855|Fix ovs status command|Fri, 8 May 2015 11:58:00 -0400|Fri, 29 Jan 2016 11:30:35 -0700
+989e6a96d5352018285c6ed1f7265eb1892d7be3|Merge "Fix kernel module filename for OVS versions"|Fri, 29 Jan 2016 14:44:46 +0000|Fri, 29 Jan 2016 14:44:46 +0000
+36f873661038e6260b01235986ddeb011d07cb78|Merge "Fix vs_port usage in Red Hat distros"|Thu, 28 Jan 2016 20:39:46 +0000|Thu, 28 Jan 2016 20:39:46 +0000
+1b310a53189898e3690bc2d8f00aafd6c87959d2|Merge "Add VLAN related parameters"|Thu, 28 Jan 2016 20:39:29 +0000|Thu, 28 Jan 2016 20:39:29 +0000
+61be5ada07f3d63a4841948daf1efbe51daf9c82|Merge "Suppport for bonded interfaces"|Thu, 28 Jan 2016 20:39:07 +0000|Thu, 28 Jan 2016 20:39:07 +0000
+9c991e1188a494809d7ac1b7f8d7a009f0490910|Fix kernel module filename for OVS versions|Fri, 8 May 2015 11:57:27 -0400|Thu, 28 Jan 2016 12:30:17 -0800
+eb1677526ceaa97b98b7b85e23b3a6b95b5eaf2f|Fix vs_port usage in Red Hat distros|Wed, 27 Jan 2016 18:48:09 +0100|Wed, 27 Jan 2016 18:48:09 +0100
+ed721dad2b6bb86e3114135dcdef671c35660a1b|drop mock dependency|Fri, 22 Jan 2016 10:13:45 -0500|Fri, 22 Jan 2016 10:13:45 -0500
+373c13ec382b14ccc0cdd76eb851532fdba257e4|Use puppet-openstack_spec_helper for Rakefile & spec_helper_acceptance|Mon, 18 Jan 2016 09:11:36 -0500|Tue, 19 Jan 2016 22:38:44 -0500
+50be7f51f72feef79cfad287b3280a43048e77e5|Add rspec-puppet-facts to the spec_helper|Wed, 6 Jan 2016 21:29:03 -0700|Sun, 17 Jan 2016 10:32:43 +0000
+e60454cdb8aab7b570fb9bdb36f8fdf3606274a9|Try to use zuul-cloner to prepare fixtures|Sun, 17 Jan 2016 13:31:14 +0300|Sun, 17 Jan 2016 13:31:14 +0300
+f39a4ca961ac1353b48c60d2c27aebba8ae1b2da|Remove duplicate loading of constants|Thu, 7 Jan 2016 15:07:47 -0800|Thu, 7 Jan 2016 15:11:43 -0800
+150567e501e800fdf8575d20a42e8efaf5840475|Merge "Set NAME as well as DEVICE in ifcfg-*"|Thu, 17 Dec 2015 19:54:14 +0000|Thu, 17 Dec 2015 19:54:14 +0000
+d3924b0d4d7fe53ec29e11250d9ef597dba8f8c7|Checkout openstack-integration from master|Thu, 26 Nov 2015 14:32:21 +0100|Thu, 26 Nov 2015 14:32:21 +0100
+c374840910c823f7669cf2e1229c7df7192ae880|release: prepare 3.0.0 (liberty)|Wed, 25 Nov 2015 23:54:48 +0100|Thu, 26 Nov 2015 10:24:34 +0100
+ae87d9b0f8f7dbba9151312fb5205e89caf61109|Acceptance: use common bits from puppet-openstack-integration|Thu, 19 Nov 2015 11:45:12 +0100|Thu, 19 Nov 2015 11:45:12 +0100
+804d9cba5cd0d380b7f3393f0663471bf4a90e8c|Merge "Explicitly say that ovs_redhat parent is ovs"|Sat, 14 Nov 2015 13:34:47 +0000|Sat, 14 Nov 2015 13:34:47 +0000
+8049b281fef2ac709eb71006d5ab833721b190e9|Remove class_parameter_defaults puppet-lint check|Thu, 12 Nov 2015 12:53:21 +0100|Thu, 12 Nov 2015 12:53:21 +0100
+8ce195f3763176460dad66b57ca2027c2658e140|Bump RDO to Liberty GA|Wed, 4 Nov 2015 10:22:46 -0500|Wed, 4 Nov 2015 10:22:47 -0500
+4d92141aa360ed7bfc2d4f8e3e1da175a6d6c240|Set NAME as well as DEVICE in ifcfg-*|Tue, 3 Nov 2015 20:59:19 +0100|Tue, 3 Nov 2015 21:02:49 +0100
+49b84bf9afc092928d981cd68118bec1a2ed8050|Prepare 2.1.0 release|Thu, 15 Oct 2015 08:47:21 -0400|Mon, 19 Oct 2015 15:29:27 -0400
+378364a3aea6d9c2b6610db334a8e06b7104a8a8|Merge "Support for FreeBSD"|Thu, 24 Sep 2015 01:51:07 +0000|Thu, 24 Sep 2015 01:51:07 +0000
+55637faa6f0c4cfd070e52a1b80c7d55fbea7241|Support for FreeBSD|Sat, 13 Jun 2015 22:08:46 +0300|Thu, 17 Sep 2015 17:32:33 +0300
+7edbb3249294241db05316b34c31e9cce01cf9ee|Explicitly say that ovs_redhat parent is ovs|Mon, 8 Jun 2015 15:57:53 +0200|Mon, 14 Sep 2015 16:05:48 +0200
+934d053cb90624256df2a5468e9783d016e9f270|Fix RSpec 3.x syntax|Mon, 14 Sep 2015 12:25:04 +0200|Mon, 14 Sep 2015 12:26:26 +0200
+a0cc00d98e833dd905aaa291dd2bd1fa443d8455|Add require ovs_redhat.rb to ovs_redhat_el6.rb|Thu, 3 Sep 2015 16:10:54 -0500|Thu, 3 Sep 2015 16:13:29 -0500
+49354c402f6a097bf25f8eccec325a76fe57b71e|Initial msync run for all Puppet OpenStack modules|Tue, 4 Aug 2015 11:52:01 -0700|Tue, 18 Aug 2015 14:23:40 +0200
+c22bfc509562ad95425382ccd7416e91ea70a779|acceptance: bump to Liberty release|Tue, 4 Aug 2015 20:37:55 -0400|Tue, 4 Aug 2015 22:57:10 -0400
+b3d2f93dc076256a58f2d30b474ab32028c76390|Prepare 2.0.0 release|Thu, 9 Jul 2015 10:36:34 -0400|Thu, 9 Jul 2015 11:44:20 -0400
+e73073a120d833958d22925a1badbc1ccdc0f15a|Fix git clone for locally running tests|Wed, 8 Jul 2015 11:40:45 -0700|Wed, 8 Jul 2015 11:57:05 -0700
+9a56a307e877fb94e919fbe7a5a5f843737840fd|Use module install script for acceptance tests|Tue, 7 Jul 2015 14:22:54 -0700|Tue, 7 Jul 2015 14:22:54 -0700
+012ed899fecac87a95cd25c3bd54a079e6b3507d|Use beaker-puppet_install_helper to install puppet|Tue, 7 Jul 2015 14:22:18 -0700|Tue, 7 Jul 2015 14:22:48 -0700
+754e12d2dd1ebcaa26f24d3aa2565424f3f5ff83|Correct `puppet module list` check in beaker|Tue, 7 Jul 2015 14:20:44 -0700|Tue, 7 Jul 2015 14:20:44 -0700
+45495bb44f99ac3d999daad2734c2b9ddf8953d2|acceptance: install RDO repo the right way|Fri, 26 Jun 2015 15:53:34 -0400|Fri, 26 Jun 2015 15:53:34 -0400
+b000ded1b45d48059efc629b9cdf064bbe153f18|Release 1.1.0 - Juno|Wed, 17 Jun 2015 11:31:16 -0700|Wed, 17 Jun 2015 11:31:16 -0700
+b44a76c6c11f58d4d8a64fc6eec283528d5bb6d6|Merge "Update spec_helper_acceptance for project renames"|Mon, 15 Jun 2015 23:46:16 +0000|Mon, 15 Jun 2015 23:46:16 +0000
+b250aae1560e881c2a935efb8861df00fb8e12da|Update spec_helper_acceptance for project renames|Fri, 12 Jun 2015 17:36:20 -0700|Fri, 12 Jun 2015 17:36:20 -0700
+70239fb8414f4322b22bdc9fb36accfeacf49795|Update .gitreview file for project rename|Fri, 12 Jun 2015 22:41:20 +0000|Fri, 12 Jun 2015 23:12:30 +0000
+c40dc3aa2148eba0ddde188f8b802e6d265ffbe8|Unpin beaker-rspec|Mon, 8 Jun 2015 13:49:06 -0700|Mon, 8 Jun 2015 13:49:23 -0700
+58fa67b42da40e9cadc8f6c49ab046ff86ebe3c4|Merge "Bring Redhat support to acceptance tests"|Mon, 8 Jun 2015 16:38:53 +0000|Mon, 8 Jun 2015 16:38:53 +0000
+f9be6156e75ae6000b6266be9d99210161494ec9|Bring Redhat support to acceptance tests|Fri, 15 May 2015 13:17:40 -0400|Sat, 16 May 2015 08:03:03 -0700
+8bdf36261b7f25ac0f0af84804d102db0ba51007|make dkms on Debian/Ubuntu optional, add tests|Fri, 30 Jan 2015 14:13:36 +0100|Tue, 12 May 2015 03:36:48 +0000
+58e807a42cf62890405c51d85a0f84b196faed60|Beaker tests|Tue, 28 Apr 2015 09:33:46 -0400|Mon, 4 May 2015 22:11:34 -0400
+9b9636b6f5150b1ef432c5a228ef860f72b984ab|Bump rspec-puppet to 2.1.0|Thu, 23 Apr 2015 00:02:21 -0400|Thu, 23 Apr 2015 00:02:21 -0400
+5079b23938aa2d98dea86e89c05194fd3deb3a29|Add puppet-lint-param-docs plugin|Fri, 17 Apr 2015 12:18:44 +0200|Fri, 17 Apr 2015 13:32:18 +0200
+e895b0d641e8e1e519f4087e58a77550b13ad86d|spec: updates for rspec-puppet 2.x and rspec 3.x|Fri, 17 Apr 2015 12:09:43 +0200|Fri, 17 Apr 2015 13:30:04 +0200
+da6eaa1d3ad0adea95efc9c3fc6b63423feb4b29|Add Puppet 4.x lint checks|Fri, 17 Apr 2015 11:54:35 +0200|Fri, 17 Apr 2015 11:54:35 +0200
+7d83f160ccae89c8cd6ffded4a37ebcf39b13798|Fix metadata.json lint issues|Fri, 17 Apr 2015 11:43:47 +0200|Fri, 17 Apr 2015 11:44:15 +0200
+ba94decdbf03c5f6b410ea2790a8c28284e29a17|Add VLAN related parameters|Mon, 29 Sep 2014 23:12:25 +0200|Thu, 26 Mar 2015 21:34:13 +0100
+035ef34f7cafed6720a84e2e8c4e9113343e18aa|Suppport for bonded interfaces|Mon, 29 Sep 2014 18:26:18 +0200|Thu, 26 Mar 2015 20:47:11 +0100
+331726326a275da158a62cafdd49fb961a71d3e2|spec: pin rspec-puppet to 1.0.1|Tue, 3 Feb 2015 15:32:21 +0100|Tue, 3 Feb 2015 15:32:21 +0100
+fd49af3de8ab156e9680d42b6309c79d4e68e9cb|Adds filtering for BONDING (LACP)|Mon, 8 Dec 2014 15:39:04 +1100|Mon, 8 Dec 2014 22:33:13 +1100
+a36332da0ddb9d419e1d3f9d170058284b144f06|Merge "Release 1.0.0 - Juno"|Mon, 24 Nov 2014 20:08:26 +0000|Mon, 24 Nov 2014 20:08:26 +0000
+b3fdd245a59b36fbc943bed481ac26c6f987845a|Release 1.0.0 - Juno|Sat, 22 Nov 2014 18:40:38 -0800|Sun, 23 Nov 2014 19:43:39 -0800
+fab186f37b8729401913f765ce22d401a2ef3485|Fixed issue with vlan on redhat provider|Tue, 18 Nov 2014 17:01:40 +1100|Tue, 18 Nov 2014 17:01:40 +1100
+51fd30c22b79d927fb0329e6e2b58fe67217ecee|Switch to metadata.json for Puppet forge releases|Wed, 24 Sep 2014 15:26:29 +1000|Wed, 22 Oct 2014 15:48:12 +0200
+17b62e56e07eeed25fd2aaef278a16c97155a115|Refacfored a more suitable ovs_redhat provider|Wed, 21 May 2014 10:13:00 +1000|Mon, 1 Sep 2014 14:46:18 +1000
+b7a15fc68c1c8e1e463c7d9e60a80f8c805fc11a|Allow non-word characters in vs_bridge external_ids|Wed, 2 Jul 2014 10:56:39 -0700|Wed, 2 Jul 2014 11:11:23 -0700
+4fce711b3e2e2d539e5bcf80cfb4f677466f5092|Merge "Normalize Gemfile & pin tests to rspec < 2.99"|Fri, 20 Jun 2014 17:46:26 +0000|Fri, 20 Jun 2014 17:46:26 +0000
+035184439c26a2c9613b2c9b647ed557f3be53f7|Normalize Gemfile & pin tests to rspec < 2.99|Fri, 20 Jun 2014 07:58:56 -0400|Fri, 20 Jun 2014 09:16:51 -0400
+8f4047e017179b1c7f0008bb0b57f3b7cad80a76|Fixed ovs provider|Tue, 20 May 2014 17:07:45 +1000|Tue, 20 May 2014 17:24:21 +1000
+49dbaff15e8f017dbe365ebf08eb505472b695a1|Release 0.3.0|Mon, 5 May 2014 20:49:17 -0700|Mon, 5 May 2014 20:49:38 -0700
+a20f6355f048d2cb6206222b2d045b41ac875db4|Fixed gate by Updating Gemfile to pin Rake to 10.1.1|Mon, 24 Mar 2014 15:39:35 -0700|Mon, 24 Mar 2014 15:39:47 -0700
+11090e13d1fd3c366fc60bc09e5af5ec363c3f2e|Fix openvswitch-switch status command on Ubuntu platform|Fri, 7 Mar 2014 10:59:57 +0100|Fri, 7 Mar 2014 11:06:50 +0100
+ee22d40de009e0c5b141e7f248c6532403a3795e|Remove Gemfile.lock and ignore it|Mon, 23 Dec 2013 19:17:27 +0100|Mon, 23 Dec 2013 19:17:51 +0100
+065fadb2d33857cd31f293677de56d18793e1412|Merge "fix: properly pass the sleep parameter"|Fri, 20 Dec 2013 22:45:10 +0000|Fri, 20 Dec 2013 22:45:10 +0000
+b642b844db6d7df1ced6f11abd641a0982e06363|Remove unused code/fix misplaced private|Mon, 16 Dec 2013 16:44:55 -0600|Mon, 16 Dec 2013 16:44:55 -0600
+25afbfe58867fb39266a8862cfd6a3f8f38a9564|fix: properly pass the sleep parameter|Fri, 13 Dec 2013 13:46:53 +0100|Fri, 13 Dec 2013 14:27:49 +0100
+d48c51b660862d43f76a1697c44ad35969c6f82a|Release 0.2.0.|Fri, 6 Dec 2013 09:57:20 -0800|Fri, 6 Dec 2013 09:58:28 -0800
+34694cbb60ba173f788de52a10e850c6a1d728f7|Update repo for stackforge migration|Fri, 25 Oct 2013 13:54:09 +0200|Fri, 25 Oct 2013 15:34:14 +0200
+06fd1ea9a7dbe5f5d236c5256b1de2db147e3bb2|Merge pull request #1 from gildub/keep-ip|Tue, 24 Sep 2013 14:09:17 -0700|Tue, 24 Sep 2013 14:09:17 -0700
+827d3d1363492c451b3e4ff120f454623df28b14|added a comment for datapath_id section|Mon, 23 Sep 2013 11:59:32 +1000|Mon, 23 Sep 2013 11:59:32 +1000
+3853c47d50445695ee45d775b875b94bc790d179|Missing \n for onboot flag and a couple of cosmetics|Mon, 23 Sep 2013 11:54:22 +1000|Mon, 23 Sep 2013 11:54:22 +1000
+16929bc8a9975eac69b28d55e18cd120826ed2ed|Missing quote for datapath_id column name|Mon, 23 Sep 2013 11:48:57 +1000|Mon, 23 Sep 2013 11:48:57 +1000
+1de0970c9dc5f1586a866052b8ccd29a034b6727|Fixed bridge config file with: Datapath/mac address DHCP Interface Added onboot stanza|Mon, 23 Sep 2013 11:34:55 +1000|Mon, 23 Sep 2013 11:34:55 +1000
+5e350338634a356d9c9bdcae3478a6a9a6162cef|commenting broken datapath_id|Fri, 20 Sep 2013 18:25:15 +1000|Fri, 20 Sep 2013 18:25:15 +1000
+8872212e87c37814b14dfdbd2add58acf0597073|moved bridge name to correct context param|Fri, 20 Sep 2013 18:19:35 +1000|Fri, 20 Sep 2013 18:19:35 +1000
+886e14f42ec935fff52fba5ea6d6fd6d709bc8be|ovs-vsctl get needs 2 arguments|Fri, 20 Sep 2013 18:15:11 +1000|Fri, 20 Sep 2013 18:15:11 +1000
+bcb19c3c5c23a2687cd70cc4ec12c2ed64964b5e|uncommented bridge mac address to not be dynamic|Fri, 20 Sep 2013 18:04:25 +1000|Fri, 20 Sep 2013 18:04:25 +1000
+69da3a25af85a2ef73c1efd94dd8344f79c6085c|fixed bridge Device name|Fri, 20 Sep 2013 18:00:05 +1000|Fri, 20 Sep 2013 18:00:05 +1000
+439ffcae5d8565f90ce19d5f58ad3d611527d42e|rename method to create bridge file|Fri, 20 Sep 2013 17:53:41 +1000|Fri, 20 Sep 2013 17:53:41 +1000
+1df5a18aebbd12eee47a859a58003943eb88631a|moving bridge_file creation to vs_port for now|Fri, 20 Sep 2013 17:34:58 +1000|Fri, 20 Sep 2013 17:34:58 +1000
+6f5f8c6b97c5a9af86ed67a62d44d41c3e66b23f|fixed wrong file name argument for search method|Fri, 20 Sep 2013 17:09:22 +1000|Fri, 20 Sep 2013 17:09:22 +1000
+76658e56dcd4fc7a9f23c244efe6adacf449331b|reversed to normal file manipulation remove File.Open blocks|Fri, 20 Sep 2013 16:55:39 +1000|Fri, 20 Sep 2013 16:55:39 +1000
+f2c69e4b7088f47e25e134924930d384b91cbb66|puppet nightmare!|Fri, 20 Sep 2013 16:50:50 +1000|Fri, 20 Sep 2013 16:50:50 +1000
+d55c395c989ec1738ae855bb960744c10a233374|remove extra end|Fri, 20 Sep 2013 16:45:01 +1000|Fri, 20 Sep 2013 16:45:01 +1000
+4923055ae7f08ad3ba83037a50c89eb74b352b79|Not using Puppet Boolean for now|Fri, 20 Sep 2013 16:43:20 +1000|Fri, 20 Sep 2013 16:43:20 +1000
+dd5c2d26079d2ed1ecea7d6b14a01db789b0fa1d|using keep_ip as a puppet::Boolean|Fri, 20 Sep 2013 16:33:28 +1000|Fri, 20 Sep 2013 16:33:28 +1000
+9edcea10b056e2564b72044860f4b5204637ece5|removed bracket|Fri, 20 Sep 2013 16:25:13 +1000|Fri, 20 Sep 2013 16:25:13 +1000
+81a4502af7be0230ba1637d00d10104dcdc9ecf9|issue with File/String conversion|Fri, 20 Sep 2013 16:22:08 +1000|Fri, 20 Sep 2013 16:22:08 +1000
+d7276edfcc00e3589592e7a879128b4ca0e7f8f9|fixe wrong bridge param|Fri, 20 Sep 2013 16:14:11 +1000|Fri, 20 Sep 2013 16:14:11 +1000
+023d1973eb2ecd3a045b2f43ccbb645a8b5b62fc|changed sleep parameter|Fri, 20 Sep 2013 16:07:14 +1000|Fri, 20 Sep 2013 16:07:14 +1000
+17f7da7ac9d2ba9d88d3ef5cfb58864c4a8234af|sleep_time is Fixnum|Fri, 20 Sep 2013 15:58:21 +1000|Fri, 20 Sep 2013 15:58:21 +1000
+d9ff4826e137e1b99a798a875ca7c9d834d0c83f|fixed vs_bridge provider for ovs_redhat|Fri, 20 Sep 2013 15:55:20 +1000|Fri, 20 Sep 2013 15:55:20 +1000
+a7122a1a564194d4a9cb572bb61e97a01dedbbe5|adjusted default values|Fri, 20 Sep 2013 15:51:41 +1000|Fri, 20 Sep 2013 15:51:41 +1000
+a766fac8a91b3dc08cca0dbb7c8cc1b441f2434c|commented out mac address resiliency|Fri, 20 Sep 2013 15:35:43 +1000|Fri, 20 Sep 2013 15:35:43 +1000
+02cbd775942bc3969bb3f6532791afe1d542453b|fixed provider parameter|Fri, 20 Sep 2013 15:25:05 +1000|Fri, 20 Sep 2013 15:25:05 +1000
+9b18fde41afb00612355cf19406b4cf55ec557db|fixed bridge mac address capture to make it resilient|Fri, 20 Sep 2013 12:24:13 +1000|Fri, 20 Sep 2013 12:24:13 +1000
+4c44153f8e2c07fb73ac9eaaa1e28682608a14f2|restored initial ovs (before fork) and added ovs_redhat instead added timer handling dhcp cases|Fri, 20 Sep 2013 11:40:37 +1000|Fri, 20 Sep 2013 11:40:37 +1000
+07b19e809fdf8232a89c22f620f2acc9b96b3efb|Added keep_ip flag for provider to move physical_interface IP to the bridge port|Tue, 17 Sep 2013 16:52:03 +1000|Tue, 17 Sep 2013 16:52:03 +1000
+71631027e47c006c57f208fbf814b2d55ad3daaa|Make sure that created bridges are brought up|Mon, 15 Jul 2013 21:09:12 -0500|Mon, 15 Jul 2013 21:09:12 -0500
+6e6b9462695e383423462d1321b1c0865524a408|Use optional_commands for Puppet 2.6 compatibility|Wed, 8 May 2013 11:41:52 -0500|Tue, 14 May 2013 15:02:09 -0500
+46c78b05cc8959ec54b19b67edfc7bc89f0df0cc|Merge pull request #2 from bodepd/redhat_fix|Fri, 19 Apr 2013 17:28:43 -0700|Fri, 19 Apr 2013 17:28:43 -0700
+4ea22d1a4624736a2601851dd8a29dc571c94ccb|remove facts|Fri, 19 Apr 2013 15:42:32 -0700|Fri, 19 Apr 2013 15:44:13 -0700
+78ce5b0dbf8dc82c5a61113a1a16c029bf01c32b|change params var to title|Fri, 19 Apr 2013 15:19:31 -0700|Fri, 19 Apr 2013 15:20:46 -0700
+4abe598774f1a8708c47f2d5039adb10ce7288c0|include ovs::params|Fri, 19 Apr 2013 15:05:38 -0700|Fri, 19 Apr 2013 15:05:38 -0700
+75d0fbe037c313fbeead43af94a99d2651a80ae5|enable basic testing|Fri, 19 Apr 2013 14:34:05 -0700|Fri, 19 Apr 2013 14:34:05 -0700
+9ef62597c88476a4634f32fc2084f84edf2e084c|refactor of ovs module|Fri, 19 Apr 2013 14:32:56 -0700|Fri, 19 Apr 2013 14:32:56 -0700
+202165861721c34000adb5674be22652cd87a50b|Merge pull request #1 from bodepd/folsom|Tue, 16 Apr 2013 12:22:43 -0700|Tue, 16 Apr 2013 12:22:43 -0700
+bc722598e3f329e1958676151f5cb2d1235677bb|update file|Thu, 28 Mar 2013 21:56:42 -0700|Thu, 28 Mar 2013 21:56:42 -0700
+405c3020f6a7b8edf396116fbc7fd629f1ba8f35|fixed datapath-dkms from being rebuilt on every puppet run|Tue, 19 Feb 2013 17:04:37 +0000|Tue, 19 Feb 2013 17:04:37 +0000
+8271d1fd1947b4cd5e9ee05754a2be2d4503cd7a|Added source credit|Wed, 16 Jan 2013 21:39:48 -0800|Wed, 16 Jan 2013 21:39:48 -0800
+8a64ef2df85dc37bea2531108d7a221284d9413d|Added LICENSE file|Wed, 16 Jan 2013 21:39:20 -0800|Wed, 16 Jan 2013 21:39:20 -0800
+27879836f237a30e947ab0a85e84844d2d7f5a27|Update Modulefile|Wed, 16 Jan 2013 21:37:04 -0800|Wed, 16 Jan 2013 21:37:04 -0800
+076c53ba7a3d782025592f21ed73b3d5e4d840b3|Bring dkms rebuild out into its own task, as it doesn't run reliably during the install step; save its output; change deps around; sort package ensure for kernel headers|Tue, 15 Jan 2013 08:39:41 -0800|Tue, 15 Jan 2013 08:39:41 -0800
+8504928bc358c7082fa6b7a79f7295ce38e303e3|Make the OVS module build require the current headers for the kernel - will still screw up on kernel upgrades, but better than before|Tue, 15 Jan 2013 06:39:27 -0800|Tue, 15 Jan 2013 06:39:27 -0800
+be49bd301f6649950d9cc5bb08ee68a293d7058a|fix broken test for for running OVS daemon|Tue, 15 Jan 2013 03:15:14 -0800|Tue, 15 Jan 2013 03:18:31 -0800
+ccef47d8cfbcc87b68203fdca24a23da52dcfbfe|Another attempt at fixing the switch dependencies - ports and bridges cannot be classes, and Vs_* deps in place for vswitch rather than the wrappers|Tue, 15 Jan 2013 01:41:01 -0800|Tue, 15 Jan 2013 01:41:01 -0800
+649de2b128b9554f487a312cdccfc78fda0f144e|vs_port / bridge don't like spaceships - move to the wrapper scripts assuming that in the future they will wrap other switches properly|Mon, 14 Jan 2013 22:52:53 -0800|Mon, 14 Jan 2013 22:52:53 -0800
+0e8cd105f4bd232ef1b6a7ed629ef52221137312|Ensure vswitch is up and running before modifying it|Mon, 14 Jan 2013 05:39:15 -0800|Mon, 14 Jan 2013 05:39:15 -0800
+786f2facd545ec74b84a0a6a8b51d35ab33e6592|Merge pull request #4 from bodepd/remove_ensure_resource|Sat, 10 Nov 2012 00:30:23 -0800|Sat, 10 Nov 2012 00:30:23 -0800
+f121b7d9d1e4f6ee07f8526247558eedfb4e7d57|remove ensure_resource|Wed, 7 Nov 2012 00:22:03 -0800|Wed, 7 Nov 2012 00:22:03 -0800
+f8c46fec2079e30c1f9708b175571a2a58926b9e|Bump to 0.1.0 and prepare for the forge|Fri, 2 Nov 2012 21:58:54 +0100|Fri, 2 Nov 2012 21:58:54 +0100
+f535d376d6f2ec4f2f74139c9b2881d7c206e47d|Give credits to Dan also|Fri, 2 Nov 2012 21:58:10 +0100|Fri, 2 Nov 2012 21:58:10 +0100
+54155cb90a2235fd3690f4e51ddca8d41ab9bae0|Merge pull request #3 from GDvalle/master|Sat, 20 Oct 2012 01:25:46 -0700|Sat, 20 Oct 2012 01:25:46 -0700
+f2c6d3b19430cba50d5e8a343f0c80b39bfe19bc|Confine to existence of /proc/modules, not kernel.|Wed, 17 Oct 2012 16:37:09 -0500|Wed, 17 Oct 2012 16:37:09 -0500
+48281cb8deb6469d6aa0ac7d2a35cf4ac8f86427|Move get_modules inside setcode|Wed, 17 Oct 2012 12:45:44 -0500|Wed, 17 Oct 2012 12:45:44 -0500
+ecdcfe6b8b44fcb924072cd4837edaaf7d859f5d|Only read /proc/modules if it exists.  Confine the fact to Linux kernels.|Wed, 17 Oct 2012 12:33:21 -0500|Wed, 17 Oct 2012 12:33:21 -0500
+d0697f09bc6a361a9daf90042b054d2f0265eec2|Merge pull request #2 from bodepd/master|Sat, 13 Oct 2012 09:01:18 -0700|Sat, 13 Oct 2012 09:01:18 -0700
+8135a23269605d2571a47e8a60a8dddc4605e569|one more '|Sat, 13 Oct 2012 00:17:29 -0700|Sat, 13 Oct 2012 00:17:29 -0700
+6a2b33ae732d771de13ada1eff5d40dc91114ddc|remove ' from Modulefile|Sat, 13 Oct 2012 00:09:57 -0700|Sat, 13 Oct 2012 00:09:57 -0700
+928f57046f35586073759a84a26e2d07984cd411|Merge pull request #1 from bodepd/folsom|Fri, 12 Oct 2012 11:00:41 -0700|Fri, 12 Oct 2012 11:00:41 -0700
+7f8c898e9c8151588d82d00afd6b21115320ba43|Sync external_ids from create|Fri, 12 Oct 2012 10:27:52 -0700|Fri, 12 Oct 2012 10:27:52 -0700
+e58877d037e8995fa4d87acce77821f7e0dc71ff|Switch to use 2 space indentation|Fri, 12 Oct 2012 10:27:22 -0700|Fri, 12 Oct 2012 10:27:22 -0700
+14af145ca06b51bd3c1782e918ade368ef7a59d2|Add auto require vs_bridge to vs_port|Fri, 12 Oct 2012 10:25:44 -0700|Fri, 12 Oct 2012 10:25:44 -0700
+9a4423f52af59fd6214bcc24304f164612c28b8a|Refactor vswitch::ovs|Fri, 12 Oct 2012 10:24:23 -0700|Fri, 12 Oct 2012 10:24:23 -0700
+d6bfb409acabfa8ea6794d72cefd93f4414121f6|Remove trailing space|Thu, 11 Oct 2012 22:41:05 -0700|Thu, 11 Oct 2012 22:41:05 -0700
+bf6feebc91c82b4939599bf3ca3a08e106ca6ee7|Add dep to packages install before service.|Thu, 11 Oct 2012 22:40:43 -0700|Thu, 11 Oct 2012 22:40:43 -0700
+640f49697a3d8fb4a616de02ce7a278ee96ff3f4|change spacing to 2 space|Thu, 11 Oct 2012 22:40:04 -0700|Thu, 11 Oct 2012 22:40:04 -0700
+82d2c10b479662bc69ba2721b038a369ce21ee76|Use a empty hash if list_br is nil|Sat, 6 Oct 2012 22:18:11 +0000|Sat, 6 Oct 2012 22:18:11 +0000
+50c5f99b743f2e9d163580224b1e4b5627a2eb1e|Fix up status command|Sat, 6 Oct 2012 21:57:41 +0000|Sat, 6 Oct 2012 21:57:41 +0000
+f823c2de3de3ea3667ab82113da7fd05c0cf57c3|Fix up services and facts|Sat, 6 Oct 2012 21:54:24 +0000|Sat, 6 Oct 2012 21:54:24 +0000
+51522bd1b79e4f0786c724712d924eaf928750df|Code originally from OS Quantum|Sat, 6 Oct 2012 21:44:02 +0000|Sat, 6 Oct 2012 21:44:02 +0000
+c48bc510a370e3dc55e5bbbd1273ce79437b0bb0|Ensure that VSCTL exists and make it more robust|Sat, 6 Oct 2012 21:32:54 +0000|Sat, 6 Oct 2012 21:32:54 +0000
+65461ecaa718abc8e7d0ecfb2c315f3f751c4a06|Make it provider ish|Sat, 6 Oct 2012 22:12:33 +0200|Sat, 6 Oct 2012 22:12:33 +0200
+f5e682df785872a3901cac2d1b723d778c90a3fd|Permanently fix support for External IDs|Sat, 6 Oct 2012 21:28:31 +0200|Sat, 6 Oct 2012 21:28:31 +0200
+34a0a2b62900e24cdec4a06e277dddca00fa85ce|Make external_ids actually work|Sat, 6 Oct 2012 21:00:00 +0200|Sat, 6 Oct 2012 21:00:00 +0200
+59d11d4207fc2c0bf28c06ae1fb981ecc274d34b|Add support for external ids|Sat, 6 Oct 2012 19:58:10 +0200|Sat, 6 Oct 2012 19:58:10 +0200
+eb07d77499ea7325fed37b3d14565f43664f78e1|Add supoort for 'External Identities' for bridges|Sat, 6 Oct 2012 17:11:13 +0200|Sat, 6 Oct 2012 17:11:13 +0200
+ef034bcd09acc555865f2b8a3f80d195a6e5cde2|Module file|Sat, 6 Oct 2012 14:23:30 +0200|Sat, 6 Oct 2012 14:23:30 +0200
+52429e521bfa86991b172c56caccd93d1fe82ef3|README..|Fri, 5 Oct 2012 14:52:54 +0200|Fri, 5 Oct 2012 14:52:54 +0200
+a9f197398dededb519e77945e3d5408231c26627|Missing destroy on port|Fri, 5 Oct 2012 14:43:56 +0200|Fri, 5 Oct 2012 14:43:56 +0200
+3c6de783e7cebacb942613466ecd2772ae5a2d0f|Fix vsctl to ovs-vsctl and manifests correction|Fri, 5 Oct 2012 14:42:33 +0200|Fri, 5 Oct 2012 14:42:33 +0200
+89d5326154663caf6f0549cdac98c063dc324a1a|Add types, providers for OVS and some manifests|Fri, 5 Oct 2012 14:30:46 +0200|Fri, 5 Oct 2012 14:30:46 +0200
+13a1a922bb66563dcd264d431a1cd8afc636c05d|Initial commit|Fri, 5 Oct 2012 10:24:15 +0200|Fri, 5 Oct 2012 10:24:15 +0200

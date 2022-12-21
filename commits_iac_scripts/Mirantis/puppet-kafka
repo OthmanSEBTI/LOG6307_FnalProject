@@ -1,0 +1,44 @@
+,sha,message,files
+0,24b04f4f87be4e3b22cdacb2e7f3bf10a0040374,Change broker id assignment from fqdn to hostname.  TODO: Make this configurable in the future,['manifests/server.pp']
+1,961d55efa3895c7ed88e209a1df4fe4af6a72f0a,Add the ability to create base directories for the log dirs,['manifests/server.pp']
+2,158483d607508938fed07164533b6f6fd818ff09,Actually use the $kafka_enabled variable,['manifests/server.pp']
+3,f35faca971d0a7691667154ca24afc4f11bcf3c6,"Change all references of kafka-server to kafka, since that is what the package is named",['manifests/server.pp']
+4,a4f9e80a928269d5268b884bd9d82b927a34b46e,"Change file locations to /opt, since that is where we install kafka.  Create symlink from /etc/kafka to /opt/kafka for ease of use, though",['manifests/server.pp']
+5,12bd1948d52ab0257890c0da37eb4d50e248fc21,"We don't have a separate kafka-server package, so we don't need to ensure a new package",['manifests/server.pp']
+6,49afdd01355fda6679f39ee7a66188a6a99e4c5a,"There is no specific kafka-common package, so just use the kafka package",['manifests/init.pp']
+7,b75128da275503c9523e7ec718e2003c8106da63,Puppetize systemd override for Kafka LimitNOFILE,"['manifests/defaults.pp', 'manifests/server.pp', 'templates/kafka.default.erb', 'templates/kafka.systemd.override.conf.erb']"
+8,6167fe8221c0fd3d14f9639ffc0af48a7b52f403,Add param for auto.leader.rebalance.enable,"['manifests/defaults.pp', 'manifests/server.pp', 'templates/server.properties.erb']"
+9,306aa069d200d33b176e0900d4596efdb9ade405,List ReplicaManager JMX Kafka metrics individually,['manifests/server/jmxtrans.pp']
+10,ba99cba34dfc1a34c25eccabd3a95c08f36863e2,Update JMX metrics names for Kafka 0.8.2+,['manifests/server/jmxtrans.pp']
+11,dc805f546fdba2dde6fffc7cd5a88b822693377c,Use bucketType 'g' for all Kafka jmxtrans metrics sent to statsd,['manifests/server/jmxtrans.pp']
+12,bd3c5454fdd4932d11f9a80fcf7abc2aefd67d56,Set bucketType for gauge metrics for statsd usage,['manifests/server/jmxtrans.pp']
+13,a4c6e32989d7148d73aa91cb2baea4b8938d75f9,Send jvm stats to statsd as well,['manifests/server/jmxtrans.pp']
+14,de24c49f405716a53fc58338bb894796a1cc486b,Add statsd parameters to kafka::server::jmxtrans,['manifests/server/jmxtrans.pp']
+16,a33e529a3f204bd7998b42fcb093f54ab557b0d3,Add option for extra classpath entries,"['manifests/defaults.pp', 'manifests/server.pp', 'templates/kafka.default.erb']"
+17,266aca07bd9ea01b0473adfcded1b7105e3ea4ab,server::jmxtrans: add namespacing option,['manifests/server/jmxtrans.pp']
+18,ce9af14d97d2c7b58114283e7771c1945d6f6e26,Add java_opts option,"['manifests/defaults.pp', 'manifests/server.pp', 'templates/kafka.default.erb']"
+20,890d5eeb57c703a9f08a7456005f0d55fb44a2fc,Update for kafka 0.8.1.1-2 packaging,"['TODO.md', 'manifests/client.pp', 'manifests/init.pp', 'manifests/mirror.pp', 'manifests/server.pp', 'templates/producer.properties.erb']"
+21,a94ac84a9447004ceab2e45de37678508200b25b,Add $java_home and $num_partitions parameters,"['manifests/defaults.pp', 'manifests/server.pp', 'templates/kafka.default.erb', 'templates/server.properties.erb']"
+22,5cb33f04819a41653ec48becdc3817ef57cdf582,Small fixups,"['manifests/server.pp', 'templates/server.properties.erb']"
+23,c986741e51c9adb9ac9228cdb7e3252588720254,Parameterize zookeeper.session.timeout.ms,"['manifests/defaults.pp', 'manifests/mirror/consumer.pp', 'manifests/server.pp', 'templates/consumer.properties.erb', 'templates/server.properties.erb']"
+24,7efacaeac49c1ab8227d4cecfd2a6606873c8819,Parameterize jvm_performance_opts in order to modify GC settings,"['manifests/defaults.pp', 'manifests/server.pp', 'templates/kafka.default.erb']"
+25,70b4e9206d4b18436402e0fbbdd2c0b082b88ae2,Allow specifying default replication factor,"['manifests/server.pp', 'templates/server.properties.erb']"
+26,72f63f2366eae370d28808a6b284f5f65a021736,Set num.io.threads to configuration default,"['manifests/defaults.pp', 'manifests/server.pp']"
+27,98bc81d81eb3c687e187e182861ed1a94b6daad9,Change default num.network.threads and num.io.threads,"['manifests/defaults.pp', 'manifests/server.pp']"
+28,5145dee364f2184f5fe5bd66c1f3993a062591c2,Default for log.flush.interval.ms has changed to 3000,['manifests/defaults.pp']
+30,e907aa2865f7d57b66d4a273b888415086ad2048,Parameterizing 4 more replica server settings,"['manifests/defaults.pp', 'manifests/server.pp', 'templates/server.properties.erb']"
+31,b35bc1771686a6e939e075c94c33e6d447675987,Adding more Kafka network request stats to jmxtrans monitoring,['manifests/server/jmxtrans.pp']
+32,e18f734ec0446c7f2f1221f3b97e1edaddcaded8,Parameterizing num.replica.fetchers and replica.fetch.max.bytes,"['manifests/defaults.pp', 'manifests/server.pp', 'templates/server.properties.erb']"
+33,f7b6606c617a53a47bce46a755da12fe87a114cb,Adding parameterization for open file descriptor ulimit,"['manifests/defaults.pp', 'manifests/server.pp', 'templates/kafka.default.erb']"
+35,67f419ae97f05ea6d1741980c246554d703fb6d8,Using more frequent run_interval and log_level of info for jmxtrans,['manifests/server/jmxtrans.pp']
+37,5b54f7660201f8a3b7febfb46cadc8048033540b,Adding auto_create_topics_enable parameter,"['manifests/defaults.pp', 'manifests/server.pp', 'templates/server.properties.erb']"
+41,c695ab6ffbb30eea5300e8d279c167a486bd20f5,Being consistent with ISRExpands capitalization in jmxtrans resultAlias,['manifests/server/jmxtrans.pp']
+42,6323ba41f910110da191d58449351f407d914ce6,Cleaning up kafka::server::jmxtrans and adding some more metrics,['manifests/server/jmxtrans.pp']
+43,8e1cf81e66813d53c05ccd9c5840137cfa7ea544,Fixing up Kafka object queries.  Many MBeans had to include escaped double quotes.,['manifests/server/jmxtrans.pp']
+44,7b39da613d910b5f8e4f8ed21c787941d5e4ed8c,Adding kafka::server::jmxtrans support for jmxtrans Kafka broker metrics,['manifests/server/jmxtrans.pp']
+45,e713546f60be95b8946e089964013bb2afc4ac6e,Refactoring kafka::server and adding kafka::mirror support.,"['README.md', 'TODO.md', 'manifests/defaults.pp', 'manifests/init.pp', 'manifests/mirror.pp', 'manifests/mirror/consumer.pp', 'manifests/server.pp', 'templates/kafka-mirror.default.erb', 'templates/producer.properties.erb', 'templates/server.properties.erb', 'tests/kafka.pp', 'tests/server.pp']"
+46,8526276c14d3a801298628f3abe42e34ceadbf43,"Supporting arbitrary Kafka metrics_properties, rather than only the Kafka CSV metrics reporter.","['manifests/defaults.pp', 'manifests/server.pp', 'templates/server.properties.erb']"
+47,f3a41e27cf0bbd57b129469c0e617cc214367d65,Matching kafka.default.erb with updated /etc/default/kafka in latest 0.8 deb.,"['manifests/defaults.pp', 'manifests/server.pp', 'templates/kafka.default.erb']"
+49,b24bcb72a5a4063803b985ccc9f86af35bdcf716,Updating comments for $zookeeper_chroot.  Supporting array for $log_dir,"['manifests/defaults.pp', 'manifests/init.pp', 'manifests/server.pp', 'templates/server.properties.erb']"
+50,ee8667d98f4bf0beba135535619f3236cefcb1c2,Adding custom Zookeeper chroot support.,"['README.md', 'manifests/defaults.pp', 'manifests/init.pp', 'manifests/server.pp', 'templates/consumer.properties.erb', 'templates/server.properties.erb']"
+56,b36f7d38c303e636954ab9d05194c4088c771808,Initial commit of Kafka Puppet module for Apache Kafka 0.8,"['README.md', 'TODO.md', 'manifests/defaults.pp', 'manifests/init.pp', 'manifests/server.pp', 'templates/consumer.properties.erb', 'templates/kafka.default.erb', 'templates/log4j.properties.erb', 'templates/producer.properties.erb', 'templates/server.properties.erb', 'tests/Makefile', 'tests/kafka.pp', 'tests/server.pp']"

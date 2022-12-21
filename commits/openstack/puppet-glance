@@ -1,0 +1,1287 @@
+8455905b3b9776eec06fac9daa5754a8b5529cfc|Merge "Remove parameters for native ssl support"|Wed, 30 Nov 2022 06:49:09 +0000|Wed, 30 Nov 2022 06:49:09 +0000
+493c8289005ccdb62461746b5fb00edab19b38cd|Remove parameters for native ssl support|Mon, 28 Nov 2022 18:30:26 +0900|Tue, 29 Nov 2022 01:16:59 +0000
+1c0d3e01812a97678a9be97fc7d4be717ce18e81|Assert db purge cron job|Mon, 28 Nov 2022 15:38:01 +0900|Mon, 28 Nov 2022 15:38:01 +0900
+ee6ef7d49635bb54b73c75c12e57886b38228172|Update master for stable/zed|Thu, 20 Oct 2022 11:03:56 +0000|Thu, 20 Oct 2022 11:03:56 +0000
+4cd3aa64ed79491d23e6f30e58770fdc23481bfa|Prepare Zed RC1|Wed, 5 Oct 2022 18:14:02 +0900|Wed, 5 Oct 2022 18:14:02 +0900
+08e02b1521ef2d1d115ca1a0b878ae8017b06417|Merge "Install python-ceph/rbd before starting glance services"|Mon, 12 Sep 2022 17:32:10 +0000|Mon, 12 Sep 2022 17:32:10 +0000
+b3327ff10ed5edcb1974455cad5b87c58481fbea|Install python-ceph/rbd before starting glance services|Mon, 24 May 2021 22:44:30 +0900|Fri, 9 Sep 2022 14:48:06 +0900
+0176638d47165b670824d1eee053caac9228d218|Merge "Deprecate support for [DEFAULT] cache_prefetcher_interval"|Thu, 8 Sep 2022 14:32:26 +0000|Thu, 8 Sep 2022 14:32:26 +0000
+1def180655db6fcb74c03e573caf43c9e2f697ed|Merge "Stop testing image creation by openstack CLI"|Wed, 7 Sep 2022 18:11:28 +0000|Wed, 7 Sep 2022 18:11:28 +0000
+a441e594e9c9191491ff8d3c48ad35cac23942eb|Merge "Ensure glance-api is listening the expected tcp port"|Wed, 7 Sep 2022 18:11:26 +0000|Wed, 7 Sep 2022 18:11:26 +0000
+89857141d1e3ecb90ee18d61bcdd3af6003de878|Deprecate support for [DEFAULT] cache_prefetcher_interval|Wed, 7 Sep 2022 23:45:15 +0900|Thu, 8 Sep 2022 01:22:57 +0900
+fafd4c8c573201da13ca9ffe3ab5a5a0389db527|Stop testing image creation by openstack CLI|Wed, 7 Sep 2022 01:20:00 +0900|Wed, 7 Sep 2022 01:20:00 +0900
+2332b90de2fc3db2e718735f429a04928d3f0eb0|Ensure glance-api is listening the expected tcp port|Wed, 7 Sep 2022 01:17:35 +0900|Wed, 7 Sep 2022 01:18:16 +0900
+4478a256d862413aeb64a16ee98f399bc9dc9fd7|Merge "Add new option for api: public_endpoint"|Mon, 5 Sep 2022 19:30:23 +0000|Mon, 5 Sep 2022 19:30:23 +0000
+b192dd5253b96f8351625e6c4c8e72c7b66b851b|Merge "Enable memcached in acceptance tests"|Thu, 1 Sep 2022 09:26:00 +0000|Thu, 1 Sep 2022 09:26:00 +0000
+d1f4dfdee9f7b5ec0c0593e6531aaec2f45bbedc|Enable memcached in acceptance tests|Wed, 31 Aug 2022 00:54:38 +0900|Tue, 30 Aug 2022 15:56:29 +0000
+dd07fa723c550255bcf28955aba36eb0c6a329bc|Merge "Fix dependency to purge default vhost config"|Mon, 29 Aug 2022 20:05:36 +0000|Mon, 29 Aug 2022 20:05:36 +0000
+44b2311a4aea9b18c55498879bf673619fe465e2|Merge "Remove redundant class inclusion"|Mon, 29 Aug 2022 19:59:56 +0000|Mon, 29 Aug 2022 19:59:56 +0000
+709b83b390a747beb55b08c6cf3477a5ca231264|Add new option for api: public_endpoint|Mon, 22 Aug 2022 15:35:07 +0200|Mon, 29 Aug 2022 14:02:09 +0000
+f1bf1ab360d2025c0081cc51092ac466483c3946|Fix dependency to purge default vhost config|Sat, 27 Aug 2022 12:34:21 +0900|Sat, 27 Aug 2022 03:37:47 +0000
+b1a6e9c61e7ab196ed7fbce91f8203729c8a7af3|Use standard parameter description format for wsgi::apache|Sat, 27 Aug 2022 12:27:45 +0900|Sat, 27 Aug 2022 12:37:31 +0900
+ab56cfb33a6d3d03ed0ea45daf2826c3d05638d8|Remove redundant class inclusion|Sat, 27 Aug 2022 12:33:01 +0900|Sat, 27 Aug 2022 12:36:13 +0900
+33f273f41610fe567b5f59458903af8eaa8607c3|apache::vhost::priority should be Integer|Sat, 27 Aug 2022 12:29:42 +0900|Sat, 27 Aug 2022 12:31:06 +0900
+adfef397986060ca4f2d7bf6bb58b09384512295|README: Replace deprecated config with current config|Mon, 22 Aug 2022 14:36:32 +0200|Mon, 22 Aug 2022 14:38:12 +0200
+ae3a220d66ab37544dc7059f50170654da64236f|Merge "Remove deprecated keymgr_* parameters"|Wed, 17 Aug 2022 09:40:31 +0000|Wed, 17 Aug 2022 09:40:31 +0000
+aab1eb990e90b10bb8a2ee80a8bb73a0a3252f0f|Merge "Remove deprecated glance::os_region_name"|Tue, 16 Aug 2022 21:59:52 +0000|Tue, 16 Aug 2022 21:59:52 +0000
+3aa1e7697d408043259e67f588ed94ce22b8b51c|Remove deprecated keymgr_* parameters|Tue, 16 Aug 2022 22:51:38 +0900|Tue, 16 Aug 2022 15:40:18 +0000
+b91d905887031d144ea86ddac446efe139dfb29d|Remove deprecated glance::os_region_name|Tue, 16 Aug 2022 22:41:02 +0900|Wed, 17 Aug 2022 00:39:59 +0900
+e18968ed1b213f73bb0e900d08485f82bbc88c7d|Remove deprecated rabbit_notification_exchange parameter|Tue, 16 Aug 2022 22:33:44 +0900|Tue, 16 Aug 2022 22:35:22 +0900
+3c2418605278a4de5828dd0e2ca374346795f11a|Remove unused items from platform_params|Fri, 12 Aug 2022 01:36:38 +0900|Fri, 12 Aug 2022 01:36:38 +0900
+23584e89becb3920287c8dc2effb2d76c666f623|Adapt to new type validation in puppetlabs-apache|Tue, 2 Aug 2022 23:18:27 +0900|Tue, 2 Aug 2022 23:18:32 +0900
+09699ef632bfd7eaf3c4a0995f99f653087d2f34|Merge "Revert "CentOS 9: Disable unit tests dependent on puppet-postgresql""|Mon, 25 Jul 2022 20:08:16 +0000|Mon, 25 Jul 2022 20:08:16 +0000
+aa26ba8089026771035d5a8ecf8ab91c5abee6b6|Merge "Add support for running glance-api by httpd+mod_wsgi"|Mon, 25 Jul 2022 20:08:14 +0000|Mon, 25 Jul 2022 20:08:14 +0000
+add08e3d57aeace8692f448b6e7e697d4b11e905|Revert "CentOS 9: Disable unit tests dependent on puppet-postgresql"|Sun, 24 Jul 2022 00:30:09 +0900|Sun, 24 Jul 2022 00:36:47 +0900
+47b92f3294a88f889794273f87272380a86e758b|Merge "Add support for [paste_deploy] config_file"|Fri, 15 Jul 2022 20:06:02 +0000|Fri, 15 Jul 2022 20:06:02 +0000
+188caa864ed351b070aee37327edda05fbe5f705|Fix wrong test description|Fri, 15 Jul 2022 11:41:52 +0900|Fri, 15 Jul 2022 11:41:52 +0900
+53eefc2d951a16577c1385a452b9f3ad989d69c5|Add support for running glance-api by httpd+mod_wsgi|Wed, 10 Nov 2021 22:35:37 +0900|Fri, 15 Jul 2022 10:33:39 +0900
+fa5fcb4ab5f861003be7409fdcf71c94120d0b5e|Add support for [paste_deploy] config_file|Wed, 6 Jul 2022 02:00:43 +0900|Thu, 14 Jul 2022 13:47:13 +0000
+40f1de01274ff38016edc1cb05f545fc4a4edd3f|Merge "Add support for rootwrap.conf"|Mon, 11 Jul 2022 23:37:18 +0000|Mon, 11 Jul 2022 23:37:18 +0000
+cf5597b9e409192af5e4ebe0abd6f2dcb0cc62e7|Merge "Extend coverage of config acceptance tests"|Mon, 11 Jul 2022 23:37:17 +0000|Mon, 11 Jul 2022 23:37:17 +0000
+1473037e7f4d162caceb9c3928c39efc99f48cd7|Add support for rootwrap.conf|Sat, 9 Jul 2022 12:09:25 +0900|Mon, 11 Jul 2022 14:22:58 +0000
+a002cad4d3d327a900961c87515967aa53cb8cfa|Extend coverage of config acceptance tests|Sat, 9 Jul 2022 11:57:57 +0900|Sun, 10 Jul 2022 12:49:25 +0900
+1bd9dfddcbdb1431858be8770348572674938cff|glance::api: minimize parameters passed during unit tests|Sat, 2 Jul 2022 12:16:25 +0900|Sat, 2 Jul 2022 18:03:15 +0900
+6f61ecd9c5b030817d0255fd8fd485722f9556f4|Configure the oslo.concurrency lock_path|Fri, 1 Jul 2022 10:42:00 -0700|Fri, 1 Jul 2022 21:47:45 -0700
+b9a25eba8cdd5ac117981618eab22cf05b86b6e2|Merge "Deprecate support for [glance_store] filesystem_store_* options"|Wed, 22 Jun 2022 21:17:15 +0000|Wed, 22 Jun 2022 21:17:15 +0000
+b578c7ba4e50ef5638ad581f16d211d54dd36c75|Merge "Fix duplicate resources"|Wed, 22 Jun 2022 21:05:12 +0000|Wed, 22 Jun 2022 21:05:12 +0000
+0e6fd040e51dec569ff64078109de2248b49b0ed|Deprecate support for [glance_store] filesystem_store_* options|Wed, 22 Jun 2022 14:23:44 +0900|Wed, 22 Jun 2022 15:11:55 +0000
+d0899bb9569bbe597d414c5a984991ca6ff15ac1|Merge "Add support for reserved backend options"|Wed, 22 Jun 2022 11:58:20 +0000|Wed, 22 Jun 2022 11:58:20 +0000
+0495848983374b52ac2fa394e0ceb416cf2fac36|Fix duplicate resources|Wed, 22 Jun 2022 13:55:41 +0900|Wed, 22 Jun 2022 14:08:08 +0900
+3f78de48bd2ae77ab8f815cd0e0dafc79d03cb75|Merge "Add sleep in cache cron jobs"|Mon, 20 Jun 2022 20:08:50 +0000|Mon, 20 Jun 2022 20:08:50 +0000
+d82df7aeddac0bdaaa2e687e5950ad9ccfa98001|Add support for reserved backend options|Mon, 20 Jun 2022 23:40:15 +0900|Tue, 21 Jun 2022 01:50:16 +0900
+21c95657eff96c17e4a87c123589e01c2fbeb059|Add sleep in cache cron jobs|Mon, 20 Jun 2022 20:12:13 +0900|Mon, 20 Jun 2022 22:26:06 +0900
+bc29b3b98fc3d247df7325aa2606c37810b44c0b|Merge "Fix typos in parameter descriptions"|Fri, 17 Jun 2022 20:03:25 +0000|Fri, 17 Jun 2022 20:03:25 +0000
+499a898468c4b22fbe16eae3216ac0293c91f275|Fix typos in parameter descriptions|Fri, 17 Jun 2022 15:40:45 +0530|Fri, 17 Jun 2022 16:17:30 +0000
+abe6f06acb475f7236b631c09534623551967216|Fix typo in spec test|Fri, 17 Jun 2022 15:43:28 +0530|Fri, 17 Jun 2022 15:43:28 +0530
+daa8abd50a6c7a2681889bcb2bb4666ad87f8322|Remove support for CentOS 8 Stream|Wed, 1 Jun 2022 13:44:40 +0900|Wed, 1 Jun 2022 13:44:40 +0900
+27a2efbd0478b2cd497513c2aeb901c4c0d4750f|Remove handling of 'u' prefix|Wed, 18 May 2022 10:49:40 +0900|Wed, 18 May 2022 10:49:40 +0900
+5d977c750acf5276ce7fb7772436e9e74c2be001|Ensure [DEFAULT] show_multiple_locations is cleared|Mon, 25 Apr 2022 18:26:29 +0900|Mon, 25 Apr 2022 18:26:29 +0900
+20fc020415608190c9ac14fd65f0a9cf2f3b57c0|Update master for stable/yoga|Tue, 5 Apr 2022 09:10:13 +0000|Tue, 5 Apr 2022 09:10:13 +0000
+2948b4597f632f3bd95e945d3b6ce5b114ee3796|setuptools: Disable auto discovery|Tue, 29 Mar 2022 10:38:19 +0200|Tue, 29 Mar 2022 10:38:27 +0200
+2a2f349d8a1f0426f77bdbea6c70a316b4c3daa0|Deprecate parameters for native ssl support|Mon, 21 Mar 2022 23:54:44 +0900|Tue, 22 Mar 2022 17:17:00 +0000
+c91d71879fc836e12a5a5c755d7c449ca2d8195a|Prepare Yoga RC1|Fri, 11 Mar 2022 21:46:50 +0900|Sun, 13 Mar 2022 10:22:29 +0000
+627dfd3318c7179fcfe5685655f4df04f192a65a|Merge "Deprecate usage of authtoken parameters in providers"|Sat, 12 Mar 2022 05:31:02 +0000|Sat, 12 Mar 2022 05:31:02 +0000
+7983d7672040b599d0cfd7a1b00a69c552e4a89b|Merge "Create a separate spec file for the base glance class"|Fri, 11 Mar 2022 13:21:34 +0000|Fri, 11 Mar 2022 13:21:34 +0000
+4487313da1948930164c500e7e6f31b5989a9abf|remove unicode literal from code|Tue, 8 Mar 2022 09:11:01 +0900|Tue, 8 Mar 2022 09:11:01 +0900
+5dd2f27a7e2d4ce4a2eea7124400d91705284dcc|Create a separate spec file for the base glance class|Fri, 4 Mar 2022 22:05:06 +0900|Fri, 4 Mar 2022 23:44:37 +0900
+900dc1aed6bf5fd80ec2903524fb1ff5c6107659|Prepare Yoga M3|Thu, 24 Feb 2022 16:13:08 +0800|Sun, 27 Feb 2022 13:19:36 +0000
+a38593fd162de05230f2c272f0ad81075729312c|Add CentOS/RHEL 9 to supported operating systems|Wed, 23 Feb 2022 01:14:07 +0900|Wed, 23 Feb 2022 01:14:07 +0900
+5708a373dbeab6847847560c6eacea3769bf2253|Merge "Avoid hard-coding OS user/group in each manifest"|Mon, 21 Feb 2022 18:15:28 +0000|Mon, 21 Feb 2022 18:15:28 +0000
+17cc71c509b6b35a3cc1474c854f41d37cf6bba2|Deprecate usage of authtoken parameters in providers|Mon, 21 Feb 2022 23:52:40 +0900|Tue, 22 Feb 2022 00:16:54 +0900
+36a459a0aa8a08f0f78450803a5905506fd4c463|Merge "Ensure auth_endpoint is reset"|Sun, 20 Feb 2022 19:20:39 +0000|Sun, 20 Feb 2022 19:20:39 +0000
+8deb04fca28e2fb477c5d74990a141508aca6dee|Avoid hard-coding OS user/group in each manifest|Sun, 20 Feb 2022 19:28:48 +0900|Sun, 20 Feb 2022 19:53:45 +0900
+14fdd891fec39eac0c59cfacd33a4f4bc56d32e2|Ensure auth_endpoint is reset|Fri, 18 Feb 2022 22:58:56 +0900|Sun, 20 Feb 2022 12:21:07 +0900
+ae04e3ac34b152087f37d96836e2042c64c6d36d|CentOS 9: Disable unit tests dependent on puppet-postgresql|Wed, 16 Feb 2022 00:07:56 +0900|Wed, 16 Feb 2022 00:22:09 +0900
+ecf7d6620e730932bd1ba5da0e1f08afb311b131|Merge "TripleO jobs: Replace CentOS 8 jobs by CentOS 9 jobs"|Tue, 15 Feb 2022 07:57:54 +0000|Tue, 15 Feb 2022 07:57:54 +0000
+743cd0378257203b645afa4f5c7236e85e849a0a|Merge "Support more file backend parameters"|Tue, 15 Feb 2022 02:43:23 +0000|Tue, 15 Feb 2022 02:43:23 +0000
+aaa352a3af310b184a3959da408ab5e9e7230eb2|Support more file backend parameters|Sun, 13 Feb 2022 00:57:03 +0900|Sun, 13 Feb 2022 01:28:44 +0900
+31aa89a047af97ad827c92dd30d4f8f7a88d10c7|Merge "Disallow sheepdog backend"|Thu, 10 Feb 2022 20:35:32 +0000|Thu, 10 Feb 2022 20:35:32 +0000
+a37cdd923e0ae6eb22c616ef8c8c4c92376762a1|Disallow sheepdog backend|Thu, 10 Feb 2022 13:29:04 +0900|Thu, 10 Feb 2022 13:29:04 +0900
+749e9ebd17c280cd3b1594550c9015fb226a3cc7|TripleO jobs: Replace CentOS 8 jobs by CentOS 9 jobs|Wed, 9 Feb 2022 22:44:01 +0900|Wed, 9 Feb 2022 22:44:01 +0900
+a221b7291830a1cbcf80523070ea2a1638842e31|Simplify definition to ensure keystone resource creation|Mon, 7 Feb 2022 00:05:14 +0900|Mon, 7 Feb 2022 00:05:14 +0900
+9112b1af86436b147072e274abd3dcf24a6a2fe6|Clean up deprecated database parameters|Mon, 31 Jan 2022 19:07:11 +0900|Mon, 31 Jan 2022 21:04:11 +0900
+733df71e868c8a765ac2253d3d0d337d7fb7305e|Merge "Use Anchor instead of specific service resource"|Fri, 28 Jan 2022 02:53:45 +0000|Fri, 28 Jan 2022 02:53:45 +0000
+5a95c9a5f2c7ea2ed7be3f3c74bf2600a65ddfca|Swift: Add support for swift_store_retry_get_count|Thu, 27 Jan 2022 21:33:18 +0900|Thu, 27 Jan 2022 21:33:18 +0900
+b2584fc7812a7f7d89ea876a8ae0b9b7a4af6adf|Use Anchor instead of specific service resource|Thu, 27 Jan 2022 09:07:59 +0900|Thu, 27 Jan 2022 09:07:59 +0900
+137ab3c0b6a9960251f2cfb1b0d581b4bc5d6842|Merge "Use anchor to require swift services"|Tue, 25 Jan 2022 03:07:39 +0000|Tue, 25 Jan 2022 03:07:39 +0000
+4b4d7d9a5a9a1654dd9b59891f934cfac75501a0|Use anchor to require swift services|Mon, 24 Jan 2022 09:47:23 +0900|Mon, 24 Jan 2022 09:47:41 +0900
+3162065b1dda18c166a8aac5e8f03b3a64ad3345|Add missing 'openstack' tag to python3-ceph package|Mon, 17 Jan 2022 08:52:24 +0900|Mon, 17 Jan 2022 18:46:32 +0900
+24b8c76e192660bdbd2b1a190d09aa341c0339e4|barbican_service_user: Accept system scope credential|Sat, 8 Jan 2022 12:29:16 +0900|Wed, 12 Jan 2022 04:42:18 +0000
+da1bde38a2bd4c5b09828de12305eab87145088e|Merge "api: Deprecate ineffective scrub_time"|Mon, 10 Jan 2022 20:47:39 +0000|Mon, 10 Jan 2022 20:47:39 +0000
+bd6fb8f1756b004aa66af389810cd7200603c2d3|api: Deprecate ineffective scrub_time|Mon, 10 Jan 2022 01:08:58 +0900|Mon, 10 Jan 2022 13:41:21 +0900
+467193413dbc10771d54d99cd92b74b4c049186f|Merge "Accept system scope credentials for Keystone API request"|Sat, 8 Jan 2022 07:39:33 +0000|Sat, 8 Jan 2022 07:39:33 +0000
+4e918a748b1fa1ac164258d9d6d82eb1f1fcfa2c|Merge "key_manager: Add service user options for Barbican key manager"|Sat, 8 Jan 2022 00:04:01 +0000|Sat, 8 Jan 2022 00:04:01 +0000
+246bc15bdd59c003053e767e835bfc1032e58414|Merge "Remove usage of custom os_package_type fact"|Fri, 7 Jan 2022 21:06:03 +0000|Fri, 7 Jan 2022 21:06:03 +0000
+b6b3e3aedf8a3b68fec79f51c3574d27d9652dd6|Prepare Yoga M2|Wed, 1 Dec 2021 14:42:52 +0800|Fri, 7 Jan 2022 14:18:57 +0000
+e9a898f2f0c90b7386c81aa267c9bc6d5e11fcd4|key_manager: Add service user options for Barbican key manager|Thu, 6 Jan 2022 13:42:49 +0900|Fri, 7 Jan 2022 08:28:56 +0900
+27db72f4a0c5c75c3342ac0a718797c1be0eb987|Accept system scope credentials for Keystone API request|Thu, 25 Nov 2021 20:49:33 +0900|Thu, 6 Jan 2022 18:00:46 +0900
+f03bc7079bdc9282d831db55dd8da244c4468e72|Remove usage of custom os_package_type fact|Wed, 5 Jan 2022 22:02:40 +0900|Wed, 5 Jan 2022 22:31:08 +0900
+935a76140ece055db19f0d6105bc43d67331327e|Merge "Enable DB purge cron job after database is initialized"|Thu, 30 Dec 2021 22:40:36 +0000|Thu, 30 Dec 2021 22:40:36 +0000
+66bc8a9884eb2b05c76edb0dd52ab804bc7c7f62|Merge "Re-add support for S3 backend"|Thu, 30 Dec 2021 22:40:34 +0000|Thu, 30 Dec 2021 22:40:34 +0000
+edbb70aacc702bd703cf24e89433392e1901fa1b|Merge "Load libraries in a single place"|Thu, 30 Dec 2021 13:21:45 +0000|Thu, 30 Dec 2021 13:21:45 +0000
+a3a8c94430950dfd02aa677c7f6975d5ea9f8c5f|Enable DB purge cron job after database is initialized|Mon, 27 Dec 2021 22:26:22 +0900|Tue, 28 Dec 2021 02:46:44 +0000
+40315729bc455bfb3dee4abde09e0d8556d96984|Re-add support for S3 backend|Tue, 21 Dec 2021 21:45:58 +0900|Mon, 27 Dec 2021 02:52:19 +0000
+49c562d390ee1ace75a0a5614c7b47419914dfc6|Load libraries in a single place|Mon, 27 Dec 2021 10:36:51 +0900|Mon, 27 Dec 2021 10:37:07 +0900
+c65ce3396b809044c26131017c0c61434dda1169|Merge "Avoid testing details of puppet-oslo"|Wed, 22 Dec 2021 21:03:10 +0000|Wed, 22 Dec 2021 21:03:10 +0000
+6d3f9676adfbdf9bc5455bbe1acd1f3bded36ae1|Merge "Deprecate the invalid messaging parameter"|Wed, 22 Dec 2021 21:03:08 +0000|Wed, 22 Dec 2021 21:03:08 +0000
+00912b7db6baabee5708867db675e41ce8e3579f|Avoid testing details of puppet-oslo|Wed, 22 Dec 2021 09:26:09 +0900|Wed, 22 Dec 2021 13:27:31 +0900
+8bb784d524b90b9d9b69a89b1b39762ea669745b|Deprecate the invalid messaging parameter|Wed, 22 Dec 2021 09:36:47 +0900|Wed, 22 Dec 2021 10:11:09 +0900
+f3754c8c1f3484a11bc358cea12441bd00c76d6a|Deprecate service validation for glance-api|Mon, 13 Dec 2021 23:25:29 +0900|Tue, 14 Dec 2021 08:12:32 +0900
+3a2899ddfb97d7cc90dc9aba5f88ee98814c270f|Fix wrong class used in unit tests|Tue, 14 Dec 2021 08:11:35 +0900|Tue, 14 Dec 2021 08:11:35 +0900
+e832ed406968a726a9655f53d2562377cb27b622|Merge "glance_image: Refactor property setters"|Wed, 8 Dec 2021 03:30:04 +0000|Wed, 8 Dec 2021 03:30:04 +0000
+7b5b91897985e8f374fae5fdf8226bb9d2e1aaa6|Merge "glance_image: Add support for project_id/name"|Wed, 8 Dec 2021 03:25:52 +0000|Wed, 8 Dec 2021 03:25:52 +0000
+8750d79490b33fb95aa4d9bb63c2860dbdab92ba|Merge "glance_image: Fix handling of image_tag"|Wed, 8 Dec 2021 03:17:29 +0000|Wed, 8 Dec 2021 03:17:29 +0000
+92545bb362ee90dd9ee53c014010b050a7902751|Fix missing dependency about policy config|Mon, 29 Nov 2021 09:35:24 +0900|Mon, 29 Nov 2021 09:36:02 +0900
+1d2fe7caee81496e40e67579ba714cb7de7374b2|glance_image: Refactor property setters|Thu, 25 Nov 2021 13:36:31 +0900|Thu, 25 Nov 2021 18:45:50 +0900
+983f6199d4c9406cbb8cea37187a1a95fa9afd2e|glance_image: Add support for project_id/name|Wed, 24 Nov 2021 23:18:19 +0900|Thu, 25 Nov 2021 18:45:46 +0900
+6488c46733216ea4679ab8a29394b82f6c04180f|glance_image: Fix handling of image_tag|Thu, 25 Nov 2021 08:12:28 +0900|Thu, 25 Nov 2021 08:54:22 +0900
+e90fd4423ea6e71bba94c74c30a388793095db30|Remove the unused glance-config-file tag from deps|Wed, 24 Nov 2021 08:52:21 +0900|Wed, 24 Nov 2021 09:53:49 +0900
+91fab28c1c85971c7f07df7176fe472af5c6e22b|Merge "Add missing parameter descriptions"|Fri, 12 Nov 2021 23:04:18 +0000|Fri, 12 Nov 2021 23:04:18 +0000
+6927139f6a1aff2083e1c86d6ecde5b64fa391c6|Merge "Add support of keystone unified limits from glance to use quotas"|Fri, 12 Nov 2021 18:57:13 +0000|Fri, 12 Nov 2021 18:57:13 +0000
+9284589fbe99ab4003379f7b6f18c9c70b4f76a1|Add missing parameter descriptions|Fri, 12 Nov 2021 21:36:20 +0900|Fri, 12 Nov 2021 21:36:50 +0900
+26cd418b605b04ee3392f00a5ced414222356378|Add support of keystone unified limits from glance to use quotas|Tue, 5 Oct 2021 16:48:00 +0530|Fri, 12 Nov 2021 17:25:57 +0900
+d40184a77c19c9564eba28c9e5d9a552b5671793|Do not manage the glance-api service when manage_service is disabled|Wed, 10 Nov 2021 22:37:36 +0900|Wed, 10 Nov 2021 22:37:36 +0900
+6ff5e9e8e3d21b42f7fcf1f2e9a55a38ecf1e729|Avoid usage of custom os_package_type fact|Thu, 4 Nov 2021 22:24:07 +0900|Thu, 4 Nov 2021 22:25:51 +0900
+ede045fe6bb80df4452b2804a016f6077c213dcc|Bump puppetlabs-inifile|Tue, 2 Nov 2021 13:02:07 +0900|Tue, 2 Nov 2021 13:02:07 +0900
+16d60d2f12e136ece361bb7e56c4fc17475ca696|Merge "Swift backend: the key parameter should be secret"|Thu, 21 Oct 2021 21:06:09 +0000|Thu, 21 Oct 2021 21:06:09 +0000
+4a481929887d88f019467d11fb7c19d8d9311e3e|Swift backend: the key parameter should be secret|Wed, 20 Oct 2021 13:59:46 +0900|Wed, 20 Oct 2021 16:20:21 +0900
+8a70cf5dea0f64ce03a7a3cbc6f4a90552c4b08a|Swift backend: Use Keystone v3 API by default|Wed, 20 Oct 2021 12:09:50 +0900|Wed, 20 Oct 2021 12:16:10 +0900
+53b75099d019f161ca65b9066532cb256fd3e174|Allow customizing separator for api-paste.ini|Fri, 15 Oct 2021 09:01:52 +0900|Fri, 15 Oct 2021 12:04:41 +0900
+bdbd2c16eadaa2b436bde841ed4b2ea36624b5a0|Bump version for the start of Yoga|Mon, 11 Oct 2021 11:22:53 +0900|Mon, 11 Oct 2021 11:22:53 +0900
+6c982a868d31299b4160ac041ce197e6f1ce1eef|Update master for stable/xena|Thu, 7 Oct 2021 08:22:33 +0000|Thu, 7 Oct 2021 08:22:33 +0000
+a07bd457126227af27c30fe4d86823cb626050e8|Add support for more quota parameters|Tue, 5 Oct 2021 21:25:29 +0900|Tue, 5 Oct 2021 21:48:00 +0900
+caa5264b8e3e9998025d464fdb3e3d222f48ff1e|Add information technology in the setup.cfg|Fri, 1 Oct 2021 06:54:49 +0800|Fri, 1 Oct 2021 06:54:49 +0800
+e83cceb0a0443bcbed0d5fa31f46e9513f740f05|Add license information in the setup.cfg|Thu, 30 Sep 2021 16:48:13 +0800|Thu, 30 Sep 2021 16:48:13 +0800
+3de5347ac67722109d1c6f3ea5e0e3580878b5d7|Delete useless code for setup.py|Thu, 30 Sep 2021 13:38:33 +0800|Thu, 30 Sep 2021 13:38:33 +0800
+77d17759dbe1d28933b0c30681b57680d43570ec|Merge "Stop configuring install_command in tox."|Wed, 29 Sep 2021 12:02:36 +0000|Wed, 29 Sep 2021 12:02:36 +0000
+68bb01b314f567b2d266031f1663ac79aa2ee69f|Merge "Fix pbr>=2.0.0 for setup.py"|Wed, 29 Sep 2021 09:09:12 +0000|Wed, 29 Sep 2021 09:09:12 +0000
+ce6b3b1b545a0128e1852f51c097a7df6e22ac04|Stop configuring install_command in tox.|Wed, 29 Sep 2021 18:00:25 +0900|Wed, 29 Sep 2021 18:05:26 +0900
+3915627955842538e1d0490b76696837c30330bb|Fix pbr>=2.0.0 for setup.py|Wed, 29 Sep 2021 16:37:10 +0800|Wed, 29 Sep 2021 16:37:10 +0800
+67798152c9305d80b5e4210496046668917d32e8|Update openstackdocstheme to the latest version|Wed, 29 Sep 2021 16:06:50 +0800|Wed, 29 Sep 2021 16:06:50 +0800
+b503ae5f574e250e730795971b7620875f0ff94a|Fix using python3-ceph in Debian...|Tue, 28 Sep 2021 11:55:41 +0200|Tue, 28 Sep 2021 11:55:41 +0200
+f353eb937a1e738b92216836ef3d814eb722950f|Update reno to the latest version|Tue, 28 Sep 2021 17:14:35 +0800|Tue, 28 Sep 2021 17:14:35 +0800
+ff4eaa7c8945f60ce3f4598356cda871420902a9|Merge "Do not test detail of keystone::resource::service_identity"|Mon, 27 Sep 2021 11:26:31 +0000|Mon, 27 Sep 2021 11:26:31 +0000
+4e873d66f6c39df0e40c42dc7419c6de9e0692f8|Do not test detail of keystone::resource::service_identity|Mon, 27 Sep 2021 08:51:57 +0900|Mon, 27 Sep 2021 09:18:26 +0900
+91543bcfee31597112cf6c85442d2cd38fabeff3|Fix stdlib version in metadata|Thu, 23 Sep 2021 19:44:22 +0800|Thu, 23 Sep 2021 19:44:22 +0800
+288ec5bfed5ba7efd7beb04601be0dc7e2c9d9bb|Prepare Xena RC1|Fri, 17 Sep 2021 17:36:09 +0800|Fri, 17 Sep 2021 17:36:09 +0800
+3dd0c3018fc5f363cc3f3d69936d60def65c06c1|Add watch_log_file option|Tue, 14 Sep 2021 16:02:08 +0800|Tue, 14 Sep 2021 16:02:08 +0800
+5ad476e20a669e616cc56736e5000a028caa190e|Merge "Remove ineffective create_resources with an empty definition"|Tue, 14 Sep 2021 04:29:02 +0000|Tue, 14 Sep 2021 04:29:02 +0000
+42b00f06d202c8805524cc7910e9516e4f7d3410|Merge "Allow purging policy files"|Mon, 13 Sep 2021 21:43:48 +0000|Mon, 13 Sep 2021 21:43:48 +0000
+7bb7e34ae53edf5c080935c0647395dd3d09abcf|Merge "Cinder store: Add support for domain_name parameters"|Mon, 13 Sep 2021 20:09:14 +0000|Mon, 13 Sep 2021 20:09:14 +0000
+f50ecbc0756f936e26bf3290f0aa9493bd8e0e9b|Merge "Prepare Xena M3"|Thu, 9 Sep 2021 16:15:55 +0000|Thu, 9 Sep 2021 16:15:55 +0000
+4656cbe6f43c94dd66a590a504dab8d899a3cc95|Prepare Xena M3|Mon, 6 Sep 2021 15:32:07 +0800|Mon, 6 Sep 2021 15:32:07 +0800
+e57bb37768472a8e758b00500844d8486770c418|Cinder store: Add support for domain_name parameters|Fri, 3 Sep 2021 22:22:46 +0900|Sun, 5 Sep 2021 00:42:11 +0900
+bcbcdb1860a389b603adcf93d7692dd772b0c3c0|Allow purging policy files|Sat, 4 Sep 2021 21:52:49 +0900|Sun, 5 Sep 2021 00:28:01 +0900
+a915d3b3d517d83631ff06cc5491b9562a7744a8|Remove ineffective create_resources with an empty definition|Fri, 3 Sep 2021 22:26:23 +0900|Fri, 3 Sep 2021 22:27:51 +0900
+92e99c071696eebdd63ed3ab066f7c226fb8b9f0|Do not test authtoken parameters directly|Thu, 26 Aug 2021 21:54:10 +0900|Fri, 27 Aug 2021 06:30:22 +0900
+658788fd873a6af7edf5f3dd064201e82a968d58|Use a 'params' hash for authtoken parameters|Thu, 26 Aug 2021 21:52:30 +0900|Thu, 26 Aug 2021 22:21:42 +0900
+ef245de8704392e61e7b9d730554595a6a7d429f|Fix wrong parameter name in deprecation warning|Mon, 23 Aug 2021 08:44:04 +0900|Mon, 23 Aug 2021 08:44:04 +0900
+4df18248ab0eb8ef600b8f6b3a15730f91c21d3f|Support Puppet 7|Mon, 16 Aug 2021 18:00:55 +0900|Mon, 16 Aug 2021 18:00:55 +0900
+8e456949f1dc97d48abb6b70ed14e43f20759a86|Prepare Xena M2|Mon, 26 Jul 2021 19:03:46 +0800|Mon, 26 Jul 2021 19:03:46 +0800
+8321aa6d26ece18fb254b373bcfc3c3eaf75a9fa|Merge "Add support for [cors] options"|Sun, 4 Jul 2021 21:56:43 +0000|Sun, 4 Jul 2021 21:56:43 +0000
+44b350e5ce055300c18e65987305f1ad322e25ff|Add support for [cors] options|Thu, 1 Jul 2021 18:25:18 +0900|Thu, 1 Jul 2021 18:37:53 +0900
+83fcadd3bc1b1d114f83dc0154c62eb5eed495b1|Drop Fedora support|Sat, 12 Jun 2021 23:29:09 +0900|Sat, 12 Jun 2021 23:29:09 +0900
+36915d7d8fbb3aee59d7c85c5f9ce40d9835f51e|Merge "Set fixture paths for unit tests"|Thu, 3 Jun 2021 00:47:45 +0000|Thu, 3 Jun 2021 00:47:45 +0000
+a556783d37a98c6fe02cfd1357f9ff607b32e263|Set fixture paths for unit tests|Wed, 2 Jun 2021 13:57:49 +0900|Wed, 2 Jun 2021 14:07:17 +0900
+78cb64a9fe2757b6f0df72801234d5f96415bb1c|Prepare Xena M1|Thu, 27 May 2021 15:50:27 +0800|Fri, 28 May 2021 02:45:25 +0000
+99068f6a172364e7415676134bdd95e3efc10a2c|Merge "Get rid of the $pyvers variable"|Thu, 27 May 2021 15:07:47 +0000|Thu, 27 May 2021 15:07:47 +0000
+28de7383cf9fb9de4b43597ada762a79fceb46b6|Get rid of the $pyvers variable|Fri, 21 May 2021 11:15:11 +0200|Fri, 21 May 2021 11:15:11 +0200
+07d0fa7ab8f1a44e044ea2796f126c463cf59765|TripleO: Reduce tempest test scope|Fri, 14 May 2021 11:34:57 +0900|Fri, 14 May 2021 11:34:57 +0900
+76d1c5bff9aee80216f3ccaca1bddc062c010410|Merge "Swift backend: Add the swift_store_service_type parameter"|Wed, 12 May 2021 05:38:03 +0000|Wed, 12 May 2021 05:38:03 +0000
+225673e9ac15392e06a47e3013a1105b411ebd24|Merge "Create independent classes for key managers"|Wed, 12 May 2021 05:17:19 +0000|Wed, 12 May 2021 05:17:19 +0000
+d9ea96a3f9124dd1c8fc8fd8ab48189b3eace72b|Merge "Add support for MultiStrOpt"|Tue, 11 May 2021 22:12:24 +0000|Tue, 11 May 2021 22:12:24 +0000
+a956fcc5e3db9734297bc04721a372fd335c1b8e|setup.cfg: Replace dashes with underscores|Tue, 11 May 2021 18:27:49 +0900|Tue, 11 May 2021 18:27:49 +0900
+0dcab2950dd57c02fcb0d9864341dcb2f2b736e3|Swift backend: Add the swift_store_service_type parameter|Fri, 7 May 2021 20:41:46 +0900|Tue, 11 May 2021 08:25:30 +0900
+bc7651fa5f7d622616c8634a55c9339306583c23|Create independent classes for key managers|Sat, 23 Jan 2021 11:29:22 +0900|Sat, 8 May 2021 23:33:19 +0900
+10872d13eb3e30636b0b22f2b813a0a18c875728|Add support for MultiStrOpt|Thu, 6 May 2021 21:11:14 +0900|Sat, 8 May 2021 12:02:31 +0900
+43ebdd5a9a0b8c5f0b58816523eb94b5caf5eab7|Bump version for the start of Xena|Thu, 29 Apr 2021 09:38:14 +0800|Thu, 29 Apr 2021 09:38:14 +0800
+7579e8b50cd4fbfc86f5f1f7330a3024a1086342|Merge "Add support for http backend"|Tue, 27 Apr 2021 11:15:55 +0000|Tue, 27 Apr 2021 11:15:55 +0000
+dd731f5d600ac15c1e74068cb267e5421ddd53c5|Add support for healthcheck middleware options|Tue, 20 Apr 2021 23:48:46 +0900|Wed, 21 Apr 2021 01:02:09 +0900
+4f39c259d2e6b8cca29034c1b99c426ccba331c2|Merge "Add new parameter required for secure RBAC configuration"|Fri, 16 Apr 2021 17:35:03 +0000|Fri, 16 Apr 2021 17:35:03 +0000
+0e3a6b2699f41bb884b198677a95c12549042637|Merge "Add support for glance_api_uwsgi_config in Debian"|Thu, 15 Apr 2021 18:54:40 +0000|Thu, 15 Apr 2021 18:54:40 +0000
+d70db19b04cd60c8e0b56a0e919f0a88706a07af|Merge "Drop the tripleo-puppet-undercloud job"|Wed, 14 Apr 2021 17:45:14 +0000|Wed, 14 Apr 2021 17:45:14 +0000
+fdb2c555fd25feaecf9c3ef34f543948db99bb3a|Add new parameter required for secure RBAC configuration|Mon, 29 Mar 2021 06:04:47 +0000|Wed, 14 Apr 2021 01:31:03 +0000
+309d005037b67350b68b49b88aadad34aaeed0c2|Merge "Bump dependency in metadata.json"|Tue, 13 Apr 2021 11:04:49 +0000|Tue, 13 Apr 2021 11:04:49 +0000
+36e09b4bb26fc949de6875585ff6db07fc242d0b|Add support for glance_api_uwsgi_config in Debian|Wed, 7 Apr 2021 19:54:05 +0200|Fri, 9 Apr 2021 23:43:59 +0200
+380c1d97d05b0356cf4a6689edc8fe38bc48f9d3|Bump dependency in metadata.json|Thu, 8 Apr 2021 20:57:48 +0200|Thu, 8 Apr 2021 20:57:48 +0200
+2a60d53d93bb54894a2864e9b816358179e22a26|Merge "Allow to configure policy_dirs"|Tue, 6 Apr 2021 09:49:46 +0000|Tue, 6 Apr 2021 09:49:46 +0000
+8b716c9f8851dc480a3f7cc97956dfd687d04c12|Merge "metadata.json: debian 11"|Mon, 5 Apr 2021 21:34:59 +0000|Mon, 5 Apr 2021 21:34:59 +0000
+027f296e659657a9472b78733d7d321518dad861|Allow to configure policy_dirs|Thu, 1 Apr 2021 22:54:21 +0200|Thu, 1 Apr 2021 22:54:21 +0200
+33991cc7fc6dfd91b5e46b212aadcbba4238113a|metadata.json: debian 11|Thu, 1 Apr 2021 22:52:24 +0200|Thu, 1 Apr 2021 22:52:24 +0200
+36b651362762c2ae45fedbeded04498a91c13da8|Update master for stable/wallaby|Thu, 1 Apr 2021 09:16:57 +0000|Thu, 1 Apr 2021 09:16:57 +0000
+8a6cf5e3af5bae145ee39c14984d5ff6fcc41597|Update sphinx to the latest version|Sat, 27 Mar 2021 15:31:57 +0800|Sat, 27 Mar 2021 15:31:57 +0800
+32924904569eac0c16ff077fc74671d5567ace9e|Prepare Wallaby RC1|Fri, 26 Mar 2021 11:24:16 +0800|Fri, 26 Mar 2021 06:44:39 +0000
+117d80aea89583f2c577cc5c522fa5db25ee2537|Merge "Clean up remaining items for glance-registry"|Fri, 26 Mar 2021 06:44:08 +0000|Fri, 26 Mar 2021 06:44:08 +0000
+cde8b60b7a46b414be40df1f4b4e93e36f76e9b8|Drop the tripleo-puppet-undercloud job|Fri, 26 Mar 2021 15:27:10 +0900|Fri, 26 Mar 2021 15:37:08 +0900
+dae4e123f4dd5c0cd5d894d774e765f889e5e151|Merge "Add support for oslo_policy/enforce_new_defaults"|Fri, 26 Mar 2021 04:39:57 +0000|Fri, 26 Mar 2021 04:39:57 +0000
+3381c5e82caae658cfa9f68b297cf2e2281bf190|Add support for oslo_policy/enforce_new_defaults|Wed, 24 Mar 2021 16:34:13 +0900|Wed, 24 Mar 2021 16:34:13 +0900
+718cf77d0af2bca124d64a00bf07da96ca59c280|Update supported Ubuntu version to Focal|Wed, 24 Mar 2021 09:01:31 +0900|Wed, 24 Mar 2021 09:01:31 +0900
+09866fbe25dc0d4e7635dc507b57402fc7f4afba|Merge "Add support for the oslo_policy/enforce_scope parameter"|Mon, 22 Mar 2021 17:10:09 +0000|Mon, 22 Mar 2021 17:10:09 +0000
+2ae1115e4285d44d96386425f5d052df4c01ea7f|Clean up remaining items for glance-registry|Mon, 15 Feb 2021 23:05:00 +0900|Wed, 17 Mar 2021 07:41:23 +0900
+d05a5760c780dc6ca72fa0cb010ea31fc8d1e265|Add new conf parameter required for distribute image import|Tue, 16 Mar 2021 17:45:24 +0530|Tue, 16 Mar 2021 18:07:34 +0530
+c0a7f7d8914263b010ba889edd2a532d59f8d75d|Add support for the oslo_policy/enforce_scope parameter|Tue, 16 Mar 2021 12:30:33 +0900|Tue, 16 Mar 2021 12:42:58 +0900
+a6c51c3232a192ec79485202eaced1cc07599bf1|Prepare Wallaby M3|Fri, 12 Mar 2021 14:35:43 +0800|Fri, 12 Mar 2021 14:35:43 +0800
+d4f94e1a03d6138f1b56852b43298b464221243a|Merge "Use multistore modules in the example manifest"|Thu, 4 Mar 2021 09:03:27 +0000|Thu, 4 Mar 2021 09:03:27 +0000
+f5caccd20e95c782c67b1572da170843ae0bed05|Merge "Filter out direct_url from image properties"|Tue, 23 Feb 2021 20:54:00 +0000|Tue, 23 Feb 2021 20:54:00 +0000
+5773bc77eaea05f6babb6febe6c2b45e625e265e|Add support for http backend|Fri, 20 Nov 2020 00:18:04 +0900|Tue, 23 Feb 2021 07:15:12 +0000
+582c37520d4e5d54cf3a9bb6aff6ad25b5fbae27|Use multistore modules in the example manifest|Sun, 31 Jan 2021 22:33:57 +0900|Mon, 15 Feb 2021 10:49:26 +0000
+46e9319d8e012d2df6b7d8f85f59315db6e95ff2|Add config parameter for cinder mounting needs|Tue, 2 Feb 2021 07:20:27 -0500|Mon, 15 Feb 2021 10:37:22 +0000
+2e5e78de0ed028bd43130347a387391d13e3b0b9|Filter out direct_url from image properties|Fri, 12 Feb 2021 17:13:58 +0900|Fri, 12 Feb 2021 17:27:17 +0900
+579191620672ce7fb8d8cba15b27eb26b79f3b7a|Ignore stores image property|Fri, 12 Feb 2021 17:19:55 +0900|Fri, 12 Feb 2021 17:25:11 +0900
+9f99b918f19ddef66015f3377d7d39cd228de6ce|Prepare Wallaby M2|Tue, 19 Jan 2021 11:19:34 +0800|Tue, 19 Jan 2021 11:19:34 +0800
+0c3fcfbd0bd0983e36ccccafb555eaaf3c6698b7|Merge "Use yaml instead of json for policy file"|Thu, 14 Jan 2021 21:56:42 +0000|Thu, 14 Jan 2021 21:56:42 +0000
+18b21aea40647007b8885424defab6d99ed02d17|Use yaml instead of json for policy file|Tue, 29 Dec 2020 16:01:54 +0900|Thu, 7 Jan 2021 23:20:48 +0000
+9a1acfc99b57ed1f7f2bb2fcf1c9d632f12e6399|Merge "cinder backend: password should be secret"|Mon, 4 Jan 2021 17:29:08 +0000|Mon, 4 Jan 2021 17:29:08 +0000
+ceaf8017f33c00aadeb6b3f0fe648728f23d2cec|Merge "Add cinder volume type for multiple cinder stores"|Mon, 4 Jan 2021 17:22:02 +0000|Mon, 4 Jan 2021 17:22:02 +0000
+7f1729e9aebc20d892baaf4678221bcc24135853|Deprecate the swift_store_config_file parameter|Tue, 22 Dec 2020 08:06:34 +0900|Tue, 22 Dec 2020 10:39:49 +0900
+26e26d115d04f6208f316932f18a9b57bde4867d|Use glance-swift.conf by default|Tue, 22 Dec 2020 01:10:39 +0900|Tue, 22 Dec 2020 01:20:27 +0900
+3a9ae92204091bfb4a16e7d342667a945df9a263|cinder backend: password should be secret|Mon, 21 Dec 2020 21:02:27 +0900|Mon, 21 Dec 2020 21:04:54 +0900
+28fafd2f0ccada0600a7d4428c37f3bfde525346|Add cinder volume type for multiple cinder stores|Wed, 9 Dec 2020 06:50:41 +0000|Mon, 21 Dec 2020 11:59:26 +0000
+73d1c92a4108a25591cca432d8cd5d8e2e65479a|Prepare Wallaby M1|Fri, 4 Dec 2020 13:31:37 +0800|Fri, 4 Dec 2020 13:31:37 +0800
+83f9db704cdc09633d07d363cb85a648cc1b37d4|Allow db sync timeouts to be configurable|Mon, 23 Nov 2020 09:27:52 +0800|Mon, 23 Nov 2020 09:27:52 +0800
+5ade08894bc3956c3cce8796619bb304debe01f2|Merge "Build containers for single consumer job"|Mon, 16 Nov 2020 18:47:19 +0000|Mon, 16 Nov 2020 18:47:19 +0000
+962d3216b59809432ed21527aa0953ae660a7f0f|Replace deprecated UPPER_CONSTRAINTS_FILE variable|Wed, 11 Nov 2020 09:08:35 +0800|Wed, 11 Nov 2020 09:08:35 +0800
+bb5bae19517ef4ad9925288c038a188429aaef6e|Build containers for single consumer job|Thu, 29 Oct 2020 12:48:25 -0400|Fri, 6 Nov 2020 14:39:44 +0000
+e971c562de6134b54a41fc968490dea4bca26221|Fix outdated files|Wed, 28 Oct 2020 10:40:09 +0800|Wed, 28 Oct 2020 10:40:09 +0800
+10f14f29b10d3cb427e74ef2ad2c45be1ae97842|Deprecate database options from the glance::api class|Tue, 20 Oct 2020 13:00:16 +0900|Wed, 21 Oct 2020 09:44:55 +0900
+b6416bcf7359b9685aeaae213ca0e70bdbe513cf|Merge "Add support for the keystone_authtoken/service_type parameter"|Mon, 19 Oct 2020 10:38:35 +0000|Mon, 19 Oct 2020 10:38:35 +0000
+9b20e4d55d8efcab35fd6eeb3289f93c3da6ca2b|Merge "Simplfy logic to generate list opts"|Mon, 19 Oct 2020 07:33:45 +0000|Mon, 19 Oct 2020 07:33:45 +0000
+a608dfee418a0addefd617de9414389e94da201e|Add support for the keystone_authtoken/service_type parameter|Mon, 19 Oct 2020 09:38:07 +0900|Mon, 19 Oct 2020 09:38:07 +0900
+d49a985ea770a0ba5166dfdde00d6d9104af31d6|Bump version for the start of Wallaby|Thu, 15 Oct 2020 09:42:49 +0800|Thu, 15 Oct 2020 09:42:49 +0800
+02ad7e079a970757f2b3aa192e775079e9a517cc|Merge "Add support for image_format/container_formats"|Tue, 13 Oct 2020 17:24:43 +0000|Tue, 13 Oct 2020 17:24:43 +0000
+4af7ebd6bc9d96680f2b8eaf239d051c67bb30d9|Simplfy logic to generate list opts|Mon, 12 Oct 2020 19:21:00 +0900|Mon, 12 Oct 2020 19:21:00 +0900
+e49a829eca8d2ff0b5ba587d8b1eeadc7e0aab3e|Add support for image_format/container_formats|Mon, 12 Oct 2020 14:58:26 +0900|Mon, 12 Oct 2020 16:57:17 +0900
+12d1d0490d7991ceb9f9be516b273e96f6d7e066|Include deps class in unit test for sync|Mon, 12 Oct 2020 10:46:40 +0800|Mon, 12 Oct 2020 10:46:40 +0800
+359f90ecadbff0989446434f2d2d779a605dd27c|Merge "Update comment to fix lint"|Sat, 10 Oct 2020 06:50:51 +0000|Sat, 10 Oct 2020 06:50:51 +0000
+eb68ea97df74dd878d3e4c15eb7737c125b50b06|Include deps class in unit test for postgresql|Sat, 10 Oct 2020 09:31:12 +0800|Sat, 10 Oct 2020 09:31:12 +0800
+84eab4507c8acf065def0e6037fe48285bfeb52b|Merge "Update master for stable/victoria"|Fri, 9 Oct 2020 07:31:52 +0000|Fri, 9 Oct 2020 07:31:52 +0000
+7040e483013d3701f5585b263c058d151165e638|Include deps class in unit test for mysql|Fri, 9 Oct 2020 09:59:55 +0800|Fri, 9 Oct 2020 10:26:50 +0800
+f6b4d6bec391343b1fbee3cf06fe9a1e0d3b2fcd|Update master for stable/victoria|Thu, 8 Oct 2020 14:39:21 +0000|Thu, 8 Oct 2020 14:39:21 +0000
+97add646a1eb015e6dd8d3f56145f82d848d3c04|Prepare a new release for victoria cut off|Tue, 6 Oct 2020 20:50:07 +0900|Tue, 6 Oct 2020 20:50:19 +0900
+de74ce47e35f18796759c5edbd5d0ec43306a24b|Prepare Victoria GA|Mon, 5 Oct 2020 19:27:31 +0900|Mon, 5 Oct 2020 23:03:40 +0000
+a7ed6f03098b1537f15f12299f586688e6e240d4|Follow redirects in glance_image provider|Fri, 2 Oct 2020 12:01:04 +0200|Mon, 5 Oct 2020 23:03:11 +0000
+9a0c0c48c1e1864eb99be83844d6dbbe65717c47|Update comment to fix lint|Mon, 5 Oct 2020 08:02:10 -0600|Mon, 5 Oct 2020 08:02:57 -0600
+da9e1a7f4eeb907be212b0c1ac87b625dad2bea6|Add sparse image upload configuration parameters|Thu, 10 Sep 2020 09:59:28 +0000|Fri, 25 Sep 2020 23:33:48 +0000
+424891f43d1a9fe2788fea66a030e13cb19fa670|Prepare Victoria RC1|Thu, 24 Sep 2020 10:48:54 +0800|Thu, 24 Sep 2020 10:48:54 +0800
+46dd854a1107c2c50ccfd34ddff7c6c44794c7af|Set openstackdocs_auto_name to use 'project' as name|Wed, 16 Sep 2020 11:05:05 +0800|Wed, 16 Sep 2020 11:05:05 +0800
+99de3903d18dc845e56fc634444d05783e108cc0|Merge "Add support for image_format/disk_fomats configuration"|Thu, 10 Sep 2020 19:18:56 +0000|Thu, 10 Sep 2020 19:18:56 +0000
+b8abd6a28700f493cc820f69a80a37d557bab402|Merge "Add Puppet Litmus"|Thu, 10 Sep 2020 02:14:55 +0000|Thu, 10 Sep 2020 02:14:55 +0000
+9222da4bbb83027e3c5280486efda6f91c37f26f|Add support for image_format/disk_fomats configuration|Wed, 2 Sep 2020 12:27:29 +0200|Wed, 9 Sep 2020 17:32:54 +0200
+301435b0634cfa8fe6f178d89d021fdfbbbbb796|Prepare Victoria M3|Tue, 8 Sep 2020 09:18:03 +0800|Tue, 8 Sep 2020 09:18:03 +0800
+58f3f8adc0e87a40e0a7f979a6d9bafd959e0aa8|Add Puppet Litmus|Mon, 31 Aug 2020 21:20:51 +0200|Mon, 31 Aug 2020 21:20:51 +0200
+d96daf92569551701155bc87a79ce314a48b48f2|Merge "Do not validate database_connection format"|Mon, 31 Aug 2020 15:37:03 +0000|Mon, 31 Aug 2020 15:37:03 +0000
+ca95c196cc0bf1862fe5096f977414f1625112d8|Use openstack_spec_helper from zuul checkout|Sun, 30 Aug 2020 22:55:50 +0200|Sun, 30 Aug 2020 22:55:50 +0200
+4c943fb458559691021a6a7e8f989e3cc429df85|Do not validate database_connection format|Mon, 31 Aug 2020 00:05:56 +0900|Mon, 31 Aug 2020 00:05:56 +0900
+d6cbc7b83a215c7f56ed873ccabb29a6cf714c1c|Merge "Add mysql_enable_ndb option"|Sat, 29 Aug 2020 07:32:08 +0000|Sat, 29 Aug 2020 07:32:08 +0000
+de7a28ecd313c6a68bf92ab4f2f5aae82dd4eaab|Merge "Ignore onwer_specifed.* properties in images"|Fri, 28 Aug 2020 20:31:16 +0000|Fri, 28 Aug 2020 20:31:16 +0000
+494a4baaa81f2b524e2cad0e02d127ff0657ae63|Merge "Use common class to manage apache service in beaker job"|Fri, 28 Aug 2020 16:48:35 +0000|Fri, 28 Aug 2020 16:48:35 +0000
+15d4c5915351fdaa32aec0eb47616eaf824251f7|Ignore onwer_specifed.* properties in images|Thu, 27 Aug 2020 11:57:23 +0900|Fri, 28 Aug 2020 01:37:09 +0900
+3260dcd2c5d8a5b2231fa1904a86f54f44a8affd|Use common class to manage apache service in beaker job|Thu, 27 Aug 2020 22:43:49 +0900|Thu, 27 Aug 2020 22:44:04 +0900
+8a44e06a309414a945b264ca4b2b743656f9c2e8|Add mysql_enable_ndb option|Wed, 26 Aug 2020 11:53:17 +0800|Wed, 26 Aug 2020 11:55:52 +0800
+43f08226c3917b6aa5244880546040c8dbf66ab3|Add support for db purge cron jobs|Mon, 17 Aug 2020 17:05:39 +0900|Mon, 17 Aug 2020 19:40:48 +0900
+789065b481dee2c058d1951a201c1680df563539|Merge "Prepare Victoria M2"|Thu, 30 Jul 2020 14:02:22 +0000|Thu, 30 Jul 2020 14:02:22 +0000
+4bfdfcebe6269273c7a16d8f95772e58d3749607|Prepare Victoria M2|Thu, 30 Jul 2020 13:35:28 +0800|Thu, 30 Jul 2020 13:35:28 +0800
+cc4408b5abcb014e19dd4ebe983cc89835f6cfa9|Deprecate glance::api::enable_v2_api|Tue, 28 Jul 2020 19:26:01 +0900|Tue, 28 Jul 2020 19:41:10 +0900
+11599ba429459a9a192c1b7dfcf8ecf1fedc6ab3|Remove support for glance-registry service|Tue, 28 Jul 2020 16:47:40 +0900|Tue, 28 Jul 2020 19:41:10 +0900
+f919b6012f4a788dc19dba1a1adfa1672615a194|Change to relative include|Mon, 13 Jul 2020 21:19:42 +0200|Mon, 13 Jul 2020 21:19:42 +0200
+0b973b4648dd0f5cc74ae70588a1e37f7636a0af|Add support for the interface parameter in authtoken middleware|Wed, 8 Jul 2020 11:02:47 +0900|Wed, 8 Jul 2020 11:19:04 +0900
+bdc4f9cf2a64be441c19ffc53120c147954cbde6|Prepare Victoria M1|Fri, 19 Jun 2020 10:38:54 +0800|Fri, 19 Jun 2020 10:38:54 +0800
+9d340581b15c9b3c20d7f37f820041881177dd77|Add swift buffer-on-upload options for swift multibackend|Tue, 16 Jun 2020 09:56:00 +1000|Tue, 16 Jun 2020 10:17:04 +1000
+89861ab17a992f14524dbe0aee00050119f5d025|Switch to newer openstackdocstheme and reno versions|Tue, 2 Jun 2020 14:38:13 +0200|Tue, 2 Jun 2020 14:38:16 +0200
+d4d1552af984f02bf6c40b054c624f4e020da061|Update Puppet requirement to >= 6.0.0|Sat, 30 May 2020 09:48:08 +0200|Sat, 30 May 2020 09:48:08 +0200
+a2abca4eed22d38b6b39e092a4be41ce69f0eb2f|Merge "Remove unnecessary puppet-rabbitmq from dependencies"|Tue, 26 May 2020 20:03:04 +0000|Tue, 26 May 2020 20:03:04 +0000
+af358b2fa8b954488a96b5e96c3d11987e767ffd|Remove unnecessary puppet-rabbitmq from dependencies|Tue, 26 May 2020 22:06:00 +0900|Tue, 26 May 2020 22:06:00 +0900
+7c20af67fc70d14df4e098fcfb8ec68b63151fe0|Deprecate enable_v1_api parameter|Sun, 24 May 2020 10:39:51 +0900|Sun, 24 May 2020 10:39:51 +0900
+3f4cf78b6752405f45dc9126dd33ab301aae7132|Merge "Remove remaining os_region_name"|Fri, 22 May 2020 21:01:30 +0000|Fri, 22 May 2020 21:01:30 +0000
+24ee288b85d376c96746f1f0864bfb0344cf5b19|Add cache prefetcher interval configuration option|Thu, 21 May 2020 10:32:40 +0530|Fri, 22 May 2020 05:41:57 +0000
+ccadb53ef17489aec9f3a017026c8f94427c9ceb|Remove remaining os_region_name|Thu, 21 May 2020 21:46:15 +0900|Thu, 21 May 2020 21:49:06 +0900
+8e4c57b6a30d0b8c40c117835c1cf62a7ecdf2a7|Merge "Remove password hash generation in each puppet modules"|Wed, 20 May 2020 05:31:04 +0000|Wed, 20 May 2020 05:31:04 +0000
+1015639de821e544be80f4543921be542a7528e8|Remove password hash generation in each puppet modules|Tue, 19 May 2020 19:50:28 +0900|Tue, 19 May 2020 19:51:09 +0900
+ba217271cbca527a05ad607580b434fa838f0440|Bump version for the start of Victoria|Thu, 14 May 2020 12:24:27 -0600|Thu, 14 May 2020 12:25:54 -0600
+0ca3551c1c28ecd7d862f42c3bfa63513911bf9c|Merge "[ussuri][goal] Add CONTRIBUTING.rst"|Tue, 12 May 2020 12:44:12 +0000|Tue, 12 May 2020 12:44:12 +0000
+192e5c76a903cc59f241465f4b66cef8bee8afe3|Bump reno to 2.5.0|Tue, 12 May 2020 10:50:06 +0800|Tue, 12 May 2020 10:50:06 +0800
+efcf0746b17c53c6d4c31dd81302d5bc2eba7a39|[ussuri][goal] Add CONTRIBUTING.rst|Sun, 10 May 2020 22:37:02 +0200|Sun, 10 May 2020 22:37:02 +0200
+8c845636dbcd5ae531b30feac1cd8f560adb9b71|Add CentOS8 to nodesets|Sun, 10 May 2020 21:44:49 +0900|Sun, 10 May 2020 21:44:49 +0900
+b052771b1915891d69faa1be543c312dcf7cc9a2|Merge "Use anchor to require necessary packages/services"|Mon, 4 May 2020 02:05:32 +0000|Mon, 4 May 2020 02:05:32 +0000
+10a9cbe4d757519b76b0af8a320f24b1f4b29784|Use anchor to require necessary packages/services|Mon, 4 May 2020 01:40:47 +0900|Mon, 4 May 2020 02:15:52 +0900
+b749bf41ae64f17234abf023bd956f9fc1a13c41|Runs on Debian 10.|Sat, 2 May 2020 22:37:50 +0200|Sat, 2 May 2020 22:37:50 +0200
+2c5c10352ccbf6ff317d5d98b0ca1dca4e39783c|Bump openstackdocstheme to 1.30.0|Thu, 30 Apr 2020 15:28:37 +0800|Thu, 30 Apr 2020 15:28:37 +0800
+126bfd75091d72c9aeb0b7a43a9e5537c052f577|Fix rabbitmq version in metadata|Thu, 30 Apr 2020 14:04:44 +0800|Thu, 30 Apr 2020 14:04:44 +0800
+a8884d24a13e0c3befb960225bdb9f6ecc40a7e4|Change rpsec to rspec|Thu, 30 Apr 2020 13:24:45 +0800|Thu, 30 Apr 2020 13:24:45 +0800
+56fd00fe5afb338d49cdbbea1f5332a41483b77b|Update master for stable/ussuri|Tue, 28 Apr 2020 14:51:39 +0000|Tue, 28 Apr 2020 14:51:39 +0000
+e9f63508551b1e1bc07702be481e3a9ded9483b9|Prepare Ussuri RC1|Fri, 24 Apr 2020 14:23:09 +0800|Fri, 24 Apr 2020 14:23:09 +0800
+066f45758d974bb6343c0b92583c8185ef588823|Fix broken Puppet::Provider::Glance|Tue, 14 Apr 2020 17:20:19 +0900|Wed, 15 Apr 2020 12:53:40 +0900
+dbdabfca1828a2d66972aa973b96c5025b2f2ec3|Prepare Ussuri M3 again|Mon, 13 Apr 2020 23:59:19 +0900|Mon, 13 Apr 2020 23:59:19 +0900
+4d50eb6df7d4c49e25fb43dbb2d3a226f69e5cb0|Resolve duplicated requirement names in metadata|Mon, 13 Apr 2020 22:46:46 +0900|Mon, 13 Apr 2020 22:46:46 +0900
+9e82f598ad86d99a5bc356ba5c118a52a1d5d9bc|Add cinder_os_region_name parameters for cinder backend|Sun, 12 Apr 2020 23:41:45 +0900|Mon, 13 Apr 2020 08:07:25 +0900
+5d2acead72c28910c7712b49bb90ff5f441a79e9|Add parameters for multipath connection in cinder backend|Thu, 9 Apr 2020 08:23:38 +0900|Thu, 9 Apr 2020 08:23:38 +0900
+d721b59f3346050f281fb8ffc1c3f05f5b502987|Merge "Cleanup os_region_name in cinder backend"|Wed, 8 Apr 2020 19:55:36 +0000|Wed, 8 Apr 2020 19:55:36 +0000
+dfe861fe404c8b9157f86b4c548d4229313d9d96|Cleanup os_region_name in cinder backend|Wed, 8 Apr 2020 20:54:32 +0900|Wed, 8 Apr 2020 21:03:50 +0900
+a6fe5b99d58a9dd28795976b3870b6388a0d7147|Prepare Ussuri M3|Tue, 7 Apr 2020 09:21:16 +0800|Tue, 7 Apr 2020 09:21:16 +0800
+3c13bd36bbb47aa0f19da8144fabd5b32c419323|Merge "Make tempest scope more strict"|Fri, 3 Apr 2020 16:00:42 +0000|Fri, 3 Apr 2020 16:00:42 +0000
+7d9a316523d1a05eacb11f96cb3d954d68885d52|Make tempest scope more strict|Thu, 2 Apr 2020 20:39:57 +0900|Thu, 2 Apr 2020 20:47:50 +0900
+e6d89a6355dbdd51b6400cf98748d2e07b7a77fc|Drop compatibility for el6|Wed, 1 Apr 2020 08:26:44 +0900|Thu, 2 Apr 2020 10:02:27 +0900
+b3a0da5ba0cb4c9f3af34a43fae1421c31a3b814|Merge "Expect python3 client package in CentOS8"|Wed, 1 Apr 2020 15:40:14 +0000|Wed, 1 Apr 2020 15:40:14 +0000
+5bd1ee6bc749a0fd804f34fcedcd3d354b5ef2f1|Expect python3 client package in CentOS8|Tue, 31 Mar 2020 16:31:14 +0900|Wed, 1 Apr 2020 10:28:15 +0900
+135155aacd21b059b426d9bcc7779ea55f9cc5bd|Merge "Add CentOS 8 and Puppet 6 in metadata"|Tue, 31 Mar 2020 14:39:41 +0000|Tue, 31 Mar 2020 14:39:41 +0000
+fd264855a759e590aead6ec52c6f524e61070930|Update mysql module to <11.0.0|Mon, 30 Mar 2020 10:01:24 +0200|Mon, 30 Mar 2020 10:01:24 +0200
+86f871d8a3a7af94d0e8b794a98bf061ac1eff92|Add CentOS 8 and Puppet 6 in metadata|Mon, 30 Mar 2020 09:22:10 +0200|Mon, 30 Mar 2020 07:46:31 +0000
+ca939e97322c0ea9bdf5d10566f18308fcb2334a|Deprecate min_pool_size option|Wed, 25 Mar 2020 14:53:40 +0800|Wed, 25 Mar 2020 14:53:40 +0800
+16d279e21e66b842d58a05a138ee9a4c48688f59|Remove idle_timeout option|Mon, 23 Mar 2020 14:45:48 +0800|Mon, 23 Mar 2020 14:45:48 +0800
+1e628f88405d56f3be1d1b8e337f1a82f57be8f1|Use centos-8 standalone puppet parent|Fri, 13 Mar 2020 14:11:46 +0530|Fri, 13 Mar 2020 14:14:00 +0530
+cb4f6517af376cedc99bea7e942b41515abe2848|Merge "[ussuri][goal] Cleanup for python 2.7 drop"|Tue, 18 Feb 2020 05:02:23 +0000|Tue, 18 Feb 2020 05:02:23 +0000
+95fdf1425fa1421b515b59be058e1b93b30c9847|Merge "Deprecate glance::registry"|Sun, 16 Feb 2020 22:34:38 +0000|Sun, 16 Feb 2020 22:34:38 +0000
+04a80d4eeaa55b29955beb7a14044bdfa44d2552|[ussuri][goal] Cleanup for python 2.7 drop|Sat, 15 Feb 2020 18:58:14 -0600|Sat, 15 Feb 2020 18:59:14 -0600
+c2b8c6df2937a67cba47c388799e97bc965048fb|Prepare Ussuri M2|Thu, 13 Feb 2020 14:21:29 +0800|Thu, 13 Feb 2020 14:21:29 +0800
+2c0a176b3541d0c4e1b833fc8ed69018c47043bd|Deprecate glance::registry|Tue, 11 Feb 2020 23:44:07 +0900|Wed, 12 Feb 2020 03:55:13 +0000
+c97e42f67d1bff59237fe76f4dbb4d29aa0bc874|Deprecate glance::api::show_multiple_locations|Sat, 8 Feb 2020 19:57:23 +0900|Sat, 8 Feb 2020 20:09:03 +0900
+4fcdad5ddf2fceff6b8b88dcb639c513be70f88a|Deprecate glance api parameters related to glance registry|Sat, 8 Feb 2020 19:49:54 +0900|Sat, 8 Feb 2020 19:51:23 +0900
+252bcdbc4eca3290d4f809ad34e711287e707ad3|Fix stdlib version in metadata|Wed, 11 Dec 2019 11:53:03 +0800|Wed, 11 Dec 2019 11:53:03 +0800
+33008b20093aae176f089f97e5478dd061f4da97|Prepare Ussuri M1|Tue, 10 Dec 2019 14:24:48 +0800|Tue, 10 Dec 2019 14:24:48 +0800
+ed9298e9968369453e770240dc847899ee32e9e4|Convert all class usage to relative names|Sun, 8 Dec 2019 23:06:03 +0100|Sun, 8 Dec 2019 23:06:03 +0100
+63f183e7d65445eea43cd5f3ca4243d232247082|Fix rabbitmq dependency|Tue, 29 Oct 2019 09:31:04 +0800|Tue, 29 Oct 2019 09:31:04 +0800
+effbd13fd7479ebf4cfc643b66f4a9cc4d6e3d4d|Merge "Update the method of configuring glance backends"|Wed, 23 Oct 2019 23:16:38 +0000|Wed, 23 Oct 2019 23:16:38 +0000
+c1db0eee3fc235a84329b97986334b04a37af681|Merge "Update the constraints url"|Wed, 16 Oct 2019 22:09:52 +0000|Wed, 16 Oct 2019 22:09:52 +0000
+fd02761c6e634100ce4583c88a092f2958742ae7|Update the method of configuring glance backends|Fri, 11 Oct 2019 05:58:47 -0700|Wed, 16 Oct 2019 14:46:39 -0700
+13653589788c6ebe4f0d129968161216fd53f161|Fix properties in glance_image provider for osc >= 4.0.0|Wed, 9 Oct 2019 19:27:32 +0530|Wed, 9 Oct 2019 21:48:47 +0530
+a2915d3891b2cf3c973cd775fad2bb02e2628a26|Update master for stable/train|Fri, 4 Oct 2019 13:25:27 +0000|Fri, 4 Oct 2019 13:25:27 +0000
+809ce20cbc36e55379f19dfb2897a2aba6603453|Update the constraints url|Thu, 26 Sep 2019 11:40:36 +0800|Thu, 26 Sep 2019 11:41:49 +0800
+dbcdeb33839ff15d2d6c7d8fd0eb9b74da5d61ea|Prepare Train RC1|Wed, 25 Sep 2019 13:45:43 +0800|Wed, 25 Sep 2019 13:45:43 +0800
+5bf2fa317bb4e5cee5aafdafcb10d99926a84743|Merge "Add support to configure service_token_roles in authtoken middleware"|Mon, 23 Sep 2019 09:48:33 +0000|Mon, 23 Sep 2019 09:48:33 +0000
+df5ad970cd92aa5729e8b5379b4c0454bda3ac7e|Add support to configure service_token_roles in authtoken middleware|Sat, 21 Sep 2019 09:54:37 +0900|Sat, 21 Sep 2019 10:21:02 +0900
+81228aa60a7c26b217fe13a3fcd3c13e940ff6c4|Prepare Train M4|Thu, 5 Sep 2019 09:04:49 +0800|Thu, 5 Sep 2019 09:04:49 +0800
+f55d5f0cc3ac6e2517faf2fd07137efc74ada7d6|Introduce the new rabbit_heartbeat_in_pthread option|Wed, 21 Aug 2019 14:21:01 +0800|Wed, 21 Aug 2019 14:23:32 +0800
+e82d93c1c0c0696fc1644a3b16cc1817b0f585a9|Remove deprecated pki related options|Thu, 15 Aug 2019 11:51:36 +0800|Thu, 15 Aug 2019 11:51:36 +0800
+17fee69289fe607718b96bcc6e94ed0a6d14d06b|Bump the openstackdocstheme extension to 1.20|Tue, 13 Aug 2019 11:29:06 +0800|Tue, 13 Aug 2019 11:29:06 +0800
+22eab9f31ca7c6fc11a8b50a8e0f92574764f4c6|Sync Sphinx requirement|Wed, 7 Aug 2019 09:10:08 +0800|Wed, 7 Aug 2019 09:10:08 +0800
+dc00f683d7239269136f62f4dc562f6cca3787f7|Prepare Train M3|Wed, 24 Jul 2019 16:19:34 +0800|Wed, 24 Jul 2019 16:19:34 +0800
+643f342304f6ed704202f065a9794e397d12e5b9|Manage oslo_middleware/max_request_body_size|Thu, 4 Jul 2019 11:34:42 +0800|Thu, 4 Jul 2019 11:36:14 +0800
+c5a4e73193fa63403036d54deb78891051871509|Prepare Train M2|Wed, 5 Jun 2019 09:40:17 +0800|Mon, 10 Jun 2019 10:02:49 +0800
+35acf8c9ee39a5d3ac8323c9bb9baecc99243ae0|Merge "Add configuration options for the image cache"|Tue, 21 May 2019 02:11:02 +0000|Tue, 21 May 2019 02:11:02 +0000
+c8ce009bcdaa9072bce772e8852c9bf876237a77|Add configuration options for the image cache|Fri, 10 May 2019 10:12:37 +0530|Mon, 20 May 2019 11:43:25 +0530
+757d987e509ad5a6b32f3904d4ee6504325238c3|Fix client spec test|Mon, 20 May 2019 11:03:19 +0800|Mon, 20 May 2019 11:03:19 +0800
+a6c77dc3818b0d638468c4630049de6bd8d90013|Port puppet-glance-tripleo-standalone to os_tempest|Thu, 2 May 2019 09:09:23 +0000|Thu, 2 May 2019 09:09:39 +0000
+677a307b06e6ba0b65e2874cb1fd916d7f3f4daf|Deprecate idle_timeout option|Sun, 28 Apr 2019 15:00:08 +0800|Mon, 29 Apr 2019 11:59:29 +0800
+84605be4b9029b395678a4af81c6418369d77258|Move to opendev|Sun, 21 Apr 2019 14:44:48 +0800|Sun, 21 Apr 2019 14:44:48 +0800
+d1d3a9b5e94abd9d45cddf3c6da836be08d9e259|Fix Repository|Sun, 21 Apr 2019 12:59:08 +0800|Sun, 21 Apr 2019 12:59:08 +0800
+0203872a6d00e29736d4bfcd87a9401cab2ab657|Replace git.openstack.org with opendev.org/openstack|Sun, 21 Apr 2019 11:50:28 +0800|Sun, 21 Apr 2019 11:51:33 +0800
+b0fce0fe5b9de8ad53785b4031c843fd2de44588|OpenDev Migration Patch|Fri, 19 Apr 2019 19:48:34 +0000|Fri, 19 Apr 2019 19:48:34 +0000
+a8ff4f76ef4c2a0281719b4403a4b5c6e3afb0d2|Add Beaker-Rspec to the table of contents|Wed, 17 Apr 2019 09:42:43 +0800|Wed, 17 Apr 2019 09:42:43 +0800
+b4744fdbb17a2cbba1a81052ce45727c94302219|Bump version for the start of Train|Mon, 25 Mar 2019 07:25:24 -0600|Mon, 25 Mar 2019 07:26:16 -0600
+6fbd972aadcb7cd39af0a6a1c5b38895829b52d7|Update master for stable/stein|Fri, 22 Mar 2019 16:47:40 +0000|Fri, 22 Mar 2019 16:47:40 +0000
+ff4e17360eaca2ceba974fefaf4ca80352989d05|Prepare Stein RC1|Mon, 18 Mar 2019 10:38:13 +0800|Mon, 18 Mar 2019 10:38:13 +0800
+b701ebd71fec2feb7754e00f32c2df6da42af7b1|Prepare Stein M3|Wed, 6 Mar 2019 14:55:43 +0800|Wed, 6 Mar 2019 14:55:43 +0800
+49a7a72d740789885843f69012f8983f4c1c5ca5|Merge "Change keystone v2.0 url to v3"|Mon, 25 Feb 2019 19:38:17 +0000|Mon, 25 Feb 2019 19:38:17 +0000
+fcfaeb6acdf5388800d3930c33c297acc6809fd4|Merge "Add release note about Ubuntu py3 upgrade"|Mon, 25 Feb 2019 19:20:04 +0000|Mon, 25 Feb 2019 19:20:04 +0000
+c0fabacc57136e1f09a4e8362719a7df343a4eef|Merge "Use validate_legacy"|Mon, 25 Feb 2019 19:20:03 +0000|Mon, 25 Feb 2019 19:20:03 +0000
+97c5ff3874fc2cf59eacd0f2fdd87f898747b400|Change keystone v2.0 url to v3|Sun, 24 Feb 2019 13:01:33 +0100|Sun, 24 Feb 2019 13:01:33 +0100
+039801c23feb8cb718b7ff3add470d1202bfb843|Add release note about Ubuntu py3 upgrade|Sat, 23 Feb 2019 23:59:18 +0100|Sat, 23 Feb 2019 23:16:53 +0000
+4b558f6f007f3f0ee01150a55962f750876bef13|Use validate_legacy|Sat, 23 Feb 2019 11:57:34 +0100|Sat, 23 Feb 2019 17:19:29 +0100
+ec00aca117476cc985a5cf36cccb9ac0b60ca0dd|Service_token_roles_required missing in the server config file|Fri, 15 Feb 2019 10:03:02 +0800|Fri, 15 Feb 2019 10:03:02 +0800
+b9f8ccc025196b568f8985f411e1b6a594082ff0|Change wiki to docs|Wed, 13 Feb 2019 10:31:05 +0800|Wed, 13 Feb 2019 10:31:05 +0800
+a3cd8c2d9e4386a384afd9d58b5ef4892677d6d1|Merge "Use puppet 4 compatible mysql functions"|Mon, 11 Feb 2019 23:10:24 +0000|Mon, 11 Feb 2019 23:10:24 +0000
+5d737a25e7016e98ac49ddd700f2d6043e7c94f4|Merge "Remove Ubuntu Xenial from metadata.json"|Mon, 11 Feb 2019 22:56:46 +0000|Mon, 11 Feb 2019 22:56:46 +0000
+9b9d5ae57ef44f858734a834da8acd32cf32d5e8|Use puppet 4 compatible mysql functions|Fri, 8 Feb 2019 12:08:47 +0100|Fri, 8 Feb 2019 12:08:47 +0100
+2d8f2f4ebc09274d7f8d661704165a7299666882|Remove Ubuntu Xenial from metadata.json|Fri, 8 Feb 2019 11:26:53 +0100|Fri, 8 Feb 2019 11:26:53 +0100
+1daac1805f8b20d4f3f263985e0aad466b9677f6|Install python rbd package on Ubuntu|Thu, 7 Feb 2019 10:48:56 +0100|Thu, 7 Feb 2019 10:48:56 +0100
+e51177e29604d6b2c0b21469c7fb4b3c079c801b|Add missing glance parameter required for cinder store|Tue, 22 Jan 2019 16:23:48 +0530|Mon, 4 Feb 2019 11:13:51 +0000
+b9ba7bf362b599626b39a6fb452f6dadef5faa5b|Fix openstackclient spec test|Mon, 4 Feb 2019 10:22:20 +0100|Mon, 4 Feb 2019 10:22:20 +0100
+d713ef559557ec44c72036d9722c773137d484e6|Merge "Inherit pyvers from openstacklib::defaults"|Sat, 26 Jan 2019 00:46:14 +0000|Sat, 26 Jan 2019 00:46:14 +0000
+5cc9d67e34ccc5e5723cc5ca9437c0509d33caef|Inherit pyvers from openstacklib::defaults|Fri, 11 Jan 2019 13:18:20 +0000|Fri, 25 Jan 2019 15:54:47 +0000
+b23e9f645d35e71f4bd566c8167cbe32cb1fc2bf|Fix lint issue|Fri, 25 Jan 2019 12:23:43 +0800|Fri, 25 Jan 2019 12:23:43 +0800
+0128c46d49c36902d5326b7cd29d4b9d1c6ef108|Merge "Remove redundantly tested code"|Sat, 19 Jan 2019 01:31:34 +0000|Sat, 19 Jan 2019 01:31:34 +0000
+56ab978e15f5cf81632ad986a30224bbe361f594|Merge "Add missing glance cinder store settings"|Fri, 18 Jan 2019 13:17:11 +0000|Fri, 18 Jan 2019 13:17:11 +0000
+c2ffa65dbc92af4c3bbb9b66ba90d1aebf6622aa|Remove redundantly tested code|Fri, 18 Jan 2019 10:28:07 +0100|Fri, 18 Jan 2019 10:30:55 +0100
+eeb1ba2e841ccacdb2e46e9f51d2f6b339c654e7|Modify puppet version 4 to 5|Tue, 15 Jan 2019 10:11:18 +0800|Tue, 15 Jan 2019 10:11:18 +0800
+57f5853a4e64c6064b0d8aada6362bdf8bcb9290|Add missing glance cinder store settings|Fri, 21 Dec 2018 12:53:04 +0530|Fri, 11 Jan 2019 07:02:54 +0000
+7d5d18cf2b0792964c67d73f4989ab70262353c9|Merge "Prepare Stein M2"|Fri, 11 Jan 2019 03:16:24 +0000|Fri, 11 Jan 2019 03:16:25 +0000
+f838425348f17e60de19f0eda2054ebd717047f1|Prepare Stein M2|Thu, 10 Jan 2019 09:24:04 +0800|Thu, 10 Jan 2019 09:24:04 +0800
+674d8ba9537284b221c0b0b793bd6d698454fe43|Enable image inject metadata properties & user roles to be ignored|Wed, 19 Dec 2018 14:23:36 +0530|Tue, 8 Jan 2019 12:43:24 +0530
+f09800121b7f3220eb9760df14c21818f9a2f591|Remove deprecated logging|Thu, 29 Nov 2018 10:19:15 +0100|Sat, 5 Jan 2019 22:12:27 +0100
+d74f80bdc251ac5ed4658e5e12af57a5b58ce1c6|Merge "Install python3-rbd in Fedora and RedHat > 7"|Fri, 28 Dec 2018 00:27:09 +0000|Fri, 28 Dec 2018 00:27:09 +0000
+546ff1931e081be1eb4a1daa39d7184c55953154|Add rabbitmq dependency|Tue, 25 Dec 2018 15:16:35 +0800|Tue, 25 Dec 2018 15:16:35 +0800
+1e54620f136aab6fb91e773c215d2204f8bc3e65|Fix editorial problem|Mon, 24 Dec 2018 14:02:27 +0800|Mon, 24 Dec 2018 14:02:27 +0800
+eb778f42763fb17748519369ec0713b55a09a662|Install python3-rbd in Fedora and RedHat > 7|Fri, 21 Dec 2018 22:39:19 +0530|Fri, 21 Dec 2018 22:39:22 +0530
+d07c62fe8f1ada2fb17278bdae00f7a3e9107999|Cleanup documentation|Thu, 13 Dec 2018 17:10:01 +0800|Thu, 13 Dec 2018 17:11:07 +0800
+35cd87302f06c9dd9da1e7c94fb64ce945c05039|Fix module structure|Wed, 12 Dec 2018 11:32:28 +0100|Wed, 12 Dec 2018 11:32:28 +0100
+091c01b7b8698975de77ccc5b22e2581cbcf64b8|Enable image import conversion & image output format|Tue, 4 Dec 2018 08:53:18 +0000|Mon, 10 Dec 2018 13:41:53 +0530
+79c0a51dd6b8e1c13bd2d4d367faad9971a83d34|Merge "Deprecate pki related options"|Thu, 6 Dec 2018 05:33:24 +0000|Thu, 6 Dec 2018 05:33:24 +0000
+db606d2c493e38359528902e2aede23bf31304be|Merge "Fix lint"|Thu, 6 Dec 2018 04:10:13 +0000|Thu, 6 Dec 2018 04:10:13 +0000
+f8692c4d7c47b5065676f2d6b95b1aedac096d4c|Deprecate pki related options|Thu, 22 Nov 2018 11:31:56 +0800|Thu, 6 Dec 2018 08:35:28 +0800
+f9599167b25c4ccca3bf277abf3755d74bc21e4b|Merge "Remove auth_uri"|Wed, 5 Dec 2018 21:57:44 +0000|Wed, 5 Dec 2018 21:57:44 +0000
+1b4a2ef8f3a38b699dd2dd31f8c53343eeee4412|Fix lint|Wed, 5 Dec 2018 08:41:41 +0800|Wed, 5 Dec 2018 08:41:41 +0800
+402c369d2827e2618745870fe2c5fe04762f8e23|Merge "Update python packaging version for RHEL8"|Mon, 3 Dec 2018 19:03:46 +0000|Mon, 3 Dec 2018 19:03:46 +0000
+3006496fa22adcfd1534539eb8a6be6d431a9a89|Change openstack-dev to openstack-discuss|Sun, 2 Dec 2018 18:19:47 +0100|Sun, 2 Dec 2018 18:19:47 +0100
+779162c884a040c4da7891d57abc62716a073dde|Remove auth_uri|Thu, 29 Nov 2018 00:12:07 +0100|Thu, 29 Nov 2018 00:12:07 +0100
+1928f276b8ef2f4e6cdab6548e067279ba554f90|Update python packaging version for RHEL8|Mon, 26 Nov 2018 13:23:55 -0700|Tue, 27 Nov 2018 07:57:39 -0700
+7af1fa25d4d14ddb717863e60689d01b58b4477b|Merge "Added tag property for glance_image provider class"|Thu, 15 Nov 2018 03:34:48 +0000|Thu, 15 Nov 2018 03:34:48 +0000
+896f4cebbd835ceaf6dfab7b69e050aca32b1cec|Added tag property for glance_image provider class|Wed, 12 Sep 2018 11:46:21 +0000|Wed, 14 Nov 2018 13:51:11 +0000
+68e5cf57857c0e617250f8b0f23905e6ba3ece89|Prepare Stein M1|Tue, 13 Nov 2018 14:53:20 +0800|Tue, 13 Nov 2018 14:53:20 +0800
+632e69b8524b6002358521bc2a0e498a9ccf9de0|Merge "Convert spec testgin to rspec-puppet-facts"|Mon, 12 Nov 2018 05:39:36 +0000|Mon, 12 Nov 2018 05:39:36 +0000
+d5b2fbd714295aef4c2cedf722973f457f50826e|Fix stdlib version in metadata|Fri, 9 Nov 2018 14:56:38 +0800|Fri, 9 Nov 2018 14:56:38 +0800
+2620754820e91c47c8ccf98109e7e7e1ce9f6503|Convert spec testgin to rspec-puppet-facts|Thu, 8 Nov 2018 10:53:06 +0100|Thu, 8 Nov 2018 13:42:37 +0100
+2a36e93afa01f4078695683d7b6f11be4389ca12|Add puppet-glance-tripleo-standalone job|Fri, 12 Oct 2018 12:58:38 +0530|Fri, 2 Nov 2018 12:39:45 +0000
+5717748d5789bcd12ca764d7d86e0c6a566dfce6|Merge "Add ability to configure filesystem metadata related parameters"|Wed, 24 Oct 2018 23:31:15 +0000|Wed, 24 Oct 2018 23:31:15 +0000
+03780e1ae7964a7bfd470ce9b1f578a80c5dc7b2|Merge "Fix rabbitmq README"|Tue, 23 Oct 2018 16:47:29 +0000|Tue, 23 Oct 2018 16:47:29 +0000
+32de32b3182cd95f410ba6e100fc231d3fa7ff78|Fix rabbitmq README|Sun, 21 Oct 2018 16:34:21 +0200|Sun, 21 Oct 2018 16:34:21 +0200
+377daf6fc2fe1beca86a1ac2e9507803a99dbe29|Run tripleo standalone job|Wed, 10 Oct 2018 10:07:05 +0200|Sat, 20 Oct 2018 15:55:30 +0530
+98fe69e6cccf816de8f74980e7a6286e469d4ce3|Update min tox version to 2.0|Tue, 16 Oct 2018 11:40:17 +0800|Tue, 16 Oct 2018 11:40:17 +0800
+6276e3b9c7b2b3f5a29224605f0911f2923ab065|Dissuade .gitignore references to personal tools|Mon, 8 Oct 2018 11:39:23 +0800|Mon, 8 Oct 2018 11:39:23 +0800
+a14d727430dff011c51ab62e807a6c1c072fdc67|Adjust glance packages name for Fedora|Tue, 25 Sep 2018 21:57:54 +0530|Thu, 27 Sep 2018 09:13:37 +0000
+61d9870df8cff96ab498ff9693bca4be2efad266|Merge "Add the missing 'Table of Contents'"|Sat, 8 Sep 2018 14:36:25 +0000|Sat, 8 Sep 2018 14:36:25 +0000
+70a154de95c0cdc6568424364ce502d010fa3f97|Merge "switch documentation job to new PTI"|Sat, 1 Sep 2018 08:47:14 +0000|Sat, 1 Sep 2018 08:47:14 +0000
+b331222803945ca7895fc3bba0b2b8acf81ec905|Merge "Bump version for the start of Stein"|Fri, 31 Aug 2018 21:40:28 +0000|Fri, 31 Aug 2018 21:40:28 +0000
+dcab5dbc9b5dd591ab85c4271bd88d9c849a00ff|switch documentation job to new PTI|Fri, 31 Aug 2018 08:24:36 -0400|Fri, 31 Aug 2018 08:24:36 -0400
+0a6128338c5a059739730354a71cbaedefeac4c8|import zuul job settings from project-config|Fri, 31 Aug 2018 08:17:35 -0400|Fri, 31 Aug 2018 08:17:35 -0400
+3e28d2458bbe905c62d6af55d48796e8c5a72d76|Bump version for the start of Stein|Thu, 30 Aug 2018 12:08:29 -0600|Thu, 30 Aug 2018 12:09:25 -0600
+e321413b7a8016fb1ac04220cfc24d0433f3701a|Add the missing 'Table of Contents'|Mon, 27 Aug 2018 14:26:52 +0000|Mon, 27 Aug 2018 14:26:52 +0000
+d41caa0340b0200195847670012c51b54b1fcc97|Update reno for stable/rocky|Mon, 20 Aug 2018 18:35:08 +0000|Mon, 20 Aug 2018 18:35:08 +0000
+55f4ef05cf3231762aa38fd53947ca641a373f48|Remove PE requirement from metadata.json|Thu, 16 Aug 2018 23:17:29 +0200|Thu, 16 Aug 2018 23:17:29 +0200
+7a6e865e7fca5956c4ace19aa963c0ef133bd219|Merge "Configure access_key and secret_key as secret"|Thu, 16 Aug 2018 15:51:46 +0000|Thu, 16 Aug 2018 15:51:46 +0000
+5af9d8765cbf87b049e9ecad60762b4c7ce4dae0|Configure access_key and secret_key as secret|Wed, 8 Aug 2018 21:09:52 +0800|Thu, 16 Aug 2018 09:20:41 +0000
+0c702c8ac3272855fed8ed650a642488649a1efd|Merge "Fix properties for glance_image provider"|Thu, 16 Aug 2018 08:01:10 +0000|Thu, 16 Aug 2018 08:01:10 +0000
+f0137bfc9440a1cb39774e3734a7f9d793354e5e|Fix properties for glance_image provider|Wed, 15 Aug 2018 13:26:35 +0200|Wed, 15 Aug 2018 12:57:17 -0600
+b4e54e51c8090b7eb52a9a9d26d964157a3a6966|Prepare Rocky RC1|Tue, 14 Aug 2018 08:56:16 -0600|Tue, 14 Aug 2018 08:57:07 -0600
+a65de83e2c947ca4478442ac8b24595f41eff063|Reorganize that 'Release Notes' in README|Sat, 28 Jul 2018 14:38:51 +0000|Sat, 28 Jul 2018 14:39:21 +0000
+d130500037398b90ff5d1c43b79fd43ac6e1f6ba|Merge "Remove the unnecessary _"|Tue, 24 Jul 2018 22:57:02 +0000|Tue, 24 Jul 2018 22:57:02 +0000
+591872206bcc201b6b54f2d8cd1fad30dde644ca|Merge "Prepare Rocky M3"|Tue, 24 Jul 2018 21:01:04 +0000|Tue, 24 Jul 2018 21:01:04 +0000
+82951f0d83841b0a4c63bc13f9baeed3781ef619|Merge "Fix OS versions in metadata"|Tue, 24 Jul 2018 21:01:03 +0000|Tue, 24 Jul 2018 21:01:03 +0000
+07764267cb46d80845f592c7b435560bf6325177|Prepare Rocky M3|Tue, 24 Jul 2018 10:17:04 -0600|Tue, 24 Jul 2018 10:18:23 -0600
+8c56aa711017c1b3d05ef57d5499f81f8f29f321|Remove the unnecessary _|Wed, 25 Jul 2018 00:10:18 +0800|Wed, 25 Jul 2018 00:10:40 +0800
+5441658c0d32653439f5779a5011bbd37c96992b|Fix OS versions in metadata|Mon, 23 Jul 2018 12:02:32 +0800|Mon, 23 Jul 2018 12:58:25 +0000
+749a07541bf45b94ec0f1be52331980f45f1c207|Add ability to configure filesystem metadata related parameters|Thu, 12 Jul 2018 15:50:23 +0530|Fri, 20 Jul 2018 14:52:00 +0000
+b4c52e1574a1ff1344a111b122938c376da52a49|Add the project source code repository in README|Fri, 20 Jul 2018 14:59:53 +0800|Fri, 20 Jul 2018 14:59:53 +0800
+f3420eb49356d42cb0b7ddcaf44dd40a19a496a6|modulesync: sync and add nodepool-bionic for beaker|Wed, 18 Jul 2018 16:17:54 +0200|Wed, 18 Jul 2018 16:17:54 +0200
+3f194fcc6cce6056f322de61d73f6255dfe0dc99|Fix inifile version in metadata|Mon, 16 Jul 2018 14:59:25 +0800|Mon, 16 Jul 2018 14:59:25 +0800
+4f5667170fdfae9d6fdaff0b120b2e44eb9dcf0f|Merge "Update glance packages name for Fedora"|Tue, 3 Jul 2018 20:11:55 +0000|Tue, 3 Jul 2018 20:11:55 +0000
+efa0f486bd80db3ec9316768e83bc77606e5f04c|Debian release is 9 in metadata|Mon, 2 Jul 2018 13:48:00 +0800|Mon, 2 Jul 2018 13:48:00 +0800
+41ba598c87d575d0f7a2947518709e62623c7a02|Add release note link in README|Wed, 27 Jun 2018 22:03:17 +0800|Wed, 27 Jun 2018 22:04:01 +0800
+d3e1dd5529c990b34ba40767a7a1a3ab64652f94|Update glance packages name for Fedora|Mon, 25 Jun 2018 17:52:59 +0530|Tue, 26 Jun 2018 12:11:20 +0530
+b61ba344eef2d54db25ed06e7bc76be6222473d2|Add tripleo jobs|Tue, 19 Jun 2018 13:40:10 -0600|Tue, 19 Jun 2018 14:00:09 -0600
+f39316441a1bf92d34d00022d83b1e8dadfce2ef|Fix annotations|Fri, 15 Jun 2018 15:07:37 +0800|Fri, 15 Jun 2018 15:07:37 +0800
+8706e22568aef061ecbc552d387965a0a4bd7412|fix tox python3 overrides|Fri, 8 Jun 2018 14:23:32 +0800|Fri, 8 Jun 2018 14:23:32 +0800
+3a466a58ee42fdab71e22e10fc0256a2103a4d09|Prepare a new Rocky release|Tue, 5 Jun 2018 09:43:25 -0700|Tue, 5 Jun 2018 09:44:52 -0700
+0568bb858b32ed6d998ad4d0e9aa277760f263a0|Merge "Replace port 35357 with 5000"|Wed, 30 May 2018 05:20:42 +0000|Wed, 30 May 2018 05:20:42 +0000
+95a1ef188aa735b8c554b86d1f1c1e38fc7b4736|Merge "Remove deprecated parameters"|Wed, 23 May 2018 22:50:26 +0000|Wed, 23 May 2018 22:50:26 +0000
+4700a450beece8fa009ea78b15c88792ab018c5f|Remove deprecated parameters|Mon, 21 May 2018 23:56:15 +0200|Tue, 22 May 2018 14:59:22 +0200
+9d20663364f13de1482623631b20c9d3670ddeab|Fix auth_uri introduced bug|Tue, 22 May 2018 00:17:31 +0200|Tue, 22 May 2018 12:24:27 +0200
+71447a4993eb63ed5a9071e73c93a9291afa4f89|Fix syntax for setting enabled_import_methods|Mon, 14 May 2018 16:22:29 -0400|Mon, 14 May 2018 20:05:34 -0400
+774a89ce0c1c37cb64548e83447cfc6c6218cc6d|Replace port 35357 with 5000|Sun, 13 May 2018 00:35:02 +0800|Sun, 13 May 2018 00:35:56 +0800
+a4325bd80f23d6018618db5a50187ab6766553d2|neat: missing : in $::os_service_default|Fri, 11 May 2018 14:02:39 +0800|Fri, 11 May 2018 14:02:39 +0800
+e223cc5d6bdd732fc9a93943fab99f7c2a42b041|Add ability to configure enabled_import_methods|Thu, 10 May 2018 11:49:40 -0400|Thu, 10 May 2018 12:48:39 -0400
+09d61bf2988942e22f6d40a410ead7f58671cb25|Merge "Revert "Update the cirros version to "0.4.0"""|Fri, 4 May 2018 22:15:21 +0000|Fri, 4 May 2018 22:15:21 +0000
+61f53e428be4c7ff5f273a1ba9492c26b1a2b0ad|Revert "Update the cirros version to "0.4.0""|Thu, 3 May 2018 17:12:09 +0000|Thu, 3 May 2018 17:12:09 +0000
+761b90937d39cace5147ae373b869ccf1902da12|Add node_staging_uri parameter|Wed, 2 May 2018 18:27:00 +0530|Thu, 3 May 2018 07:22:19 +0000
+3a09d6f040232982714d98dc809aafdc89c31b23|Merge "fix a typo: s/allowd/allowed/"|Sun, 29 Apr 2018 17:50:58 +0000|Sun, 29 Apr 2018 17:50:58 +0000
+fd1e9b020480d5f5ec40c5ec337528c9490296e4|Merge "Missing deps for unit test of config.pp"|Mon, 23 Apr 2018 16:47:36 +0000|Mon, 23 Apr 2018 16:47:36 +0000
+010fc167648740237410c0175b6612646fc13f0a|Prepare Rocky M1|Thu, 19 Apr 2018 08:54:37 -0600|Thu, 19 Apr 2018 08:56:14 -0600
+d168469792ce8d01d5667916877c5b41b776f6ff|fix a typo: s/allowd/allowed/|Thu, 19 Apr 2018 10:51:58 +0000|Thu, 19 Apr 2018 10:52:31 +0000
+afcf0df1ff4fcb27b9e1d904952cc13cab0cfb40|Missing deps for unit test of config.pp|Thu, 19 Apr 2018 13:43:52 +0800|Thu, 19 Apr 2018 13:44:14 +0800
+89a2840a86f32031d9f566fb06793d343529028f|Merge "Update .gitignore"|Wed, 18 Apr 2018 00:39:37 +0000|Wed, 18 Apr 2018 00:39:37 +0000
+82740483da6410568c42f2bf9c1ec82a01ba7d16|Merge "Add proxy support to glance_image resource"|Fri, 13 Apr 2018 16:22:52 +0000|Fri, 13 Apr 2018 16:22:52 +0000
+698727dacd4697472e7d5606b409983dececbf9a|Merge "Deprecate auth_uri option"|Fri, 13 Apr 2018 16:22:51 +0000|Fri, 13 Apr 2018 16:22:51 +0000
+2a6ef17d54128391257f6175c6c6e117e6327652|Update .gitignore|Wed, 11 Apr 2018 08:43:43 +0800|Wed, 11 Apr 2018 08:55:16 +0800
+82c31a1bb4ad09a57cdd3ca74eddf84024927868|Merge "Debian is using Python 3"|Tue, 10 Apr 2018 16:29:29 +0000|Tue, 10 Apr 2018 16:29:29 +0000
+e47ddb327bb2d207871233963cdaed0b89456914|Debian is using Python 3|Fri, 6 Apr 2018 23:14:51 +0200|Tue, 10 Apr 2018 11:49:45 +0200
+3e32686fb20b9825e4bcb574e42b9d375e101eba|Merge "Remove useless code for sync.pp"|Mon, 9 Apr 2018 18:23:31 +0000|Mon, 9 Apr 2018 18:23:31 +0000
+68b574908bd210ccf668849367af365df20d7861|Merge "Update LICENSE"|Mon, 9 Apr 2018 14:27:53 +0000|Mon, 9 Apr 2018 14:27:53 +0000
+75708dbf107d50746413d4362b1493975258ce71|Remove useless code for sync.pp|Sun, 8 Apr 2018 09:08:19 +0800|Sun, 8 Apr 2018 09:10:41 +0800
+3b10807121238b6c14dbf3a5f326a428b0287f99|Update LICENSE|Fri, 6 Apr 2018 10:18:55 +0800|Fri, 6 Apr 2018 20:14:22 +0800
+6b0c3d4855720d381bcc054c39379100fdf0de6f|Deprecate auth_uri option|Tue, 3 Apr 2018 16:55:00 +0800|Thu, 5 Apr 2018 10:09:05 +0800
+8a275afc76503538e1c920ef6734c7fa01a85341|Add proxy support to glance_image resource|Wed, 4 Apr 2018 15:49:59 +0200|Wed, 4 Apr 2018 22:51:14 +0200
+fc54130aae2be78b87e46ef1439b037495d160f3|Fix README to use api and registry classes|Wed, 4 Apr 2018 11:57:02 +0200|Wed, 4 Apr 2018 11:58:40 +0200
+80c58df27693b1a364cb7c43dd2bad5f1c132adc|Merge "Remove deprecated keystone authtoken revocation_cache_time option"|Wed, 28 Mar 2018 18:26:07 +0000|Wed, 28 Mar 2018 18:26:07 +0000
+95b91f45c168a89465ab031dad3a93d4e150dfaa|Merge "Add pool_timeout option"|Tue, 27 Mar 2018 09:46:03 +0000|Tue, 27 Mar 2018 09:46:03 +0000
+f7771d8ff65924faad4e5914f0db2171db251793|Remove deprecated keystone authtoken revocation_cache_time option|Tue, 27 Mar 2018 10:33:25 +0800|Tue, 27 Mar 2018 10:33:25 +0800
+6768a28a451a2f369d8601d45948cf0d72f6b356|Merge "Switch acceptance test to use integration classes"|Thu, 22 Mar 2018 21:16:03 +0000|Thu, 22 Mar 2018 21:16:03 +0000
+7b4078bdd9e65f1c030a1f285a27044f3976023c|Add pool_timeout option|Thu, 22 Mar 2018 11:09:50 +0800|Thu, 22 Mar 2018 11:09:50 +0800
+68c7a4d71498ecf4ac97daeb322dc37348dff98c|oslo middleware: check puppet resource instead of actual config in spec|Wed, 21 Mar 2018 11:15:33 +0800|Wed, 21 Mar 2018 11:15:33 +0800
+4f0a7b1b6392ef09452ad11e7911070c47d673b4|Switch acceptance test to use integration classes|Wed, 21 Mar 2018 09:26:32 +0800|Wed, 21 Mar 2018 09:26:58 +0800
+e3b9d19cbf318a7b9f9d356894d2264544dd93fe|Add 'openstack-db' tag to db-sync Exec resource|Mon, 12 Mar 2018 16:33:07 +0800|Mon, 12 Mar 2018 16:33:07 +0800
+2a40ecfbfbdfa41907114f166d01c439b1ac8e28|Merge "Update mysql connection in doc"|Mon, 12 Mar 2018 01:43:42 +0000|Mon, 12 Mar 2018 01:43:42 +0000
+c03f5d5fca0dfed156158c4ca640922025dcffdf|Merge "Follow the new PTI for document build"|Mon, 5 Mar 2018 09:50:37 +0000|Mon, 5 Mar 2018 09:50:37 +0000
+81e58c5d11e2697b0b8f7352244af370668e9018|Update mysql connection in doc|Mon, 5 Mar 2018 12:37:56 +0800|Mon, 5 Mar 2018 13:11:53 +0800
+11da64640548e04ec0c891ec2bffb09fd92b8d7c|Follow the new PTI for document build|Wed, 28 Feb 2018 14:42:10 +0800|Wed, 28 Feb 2018 14:42:10 +0800
+0dd6b72ef542825d5aa1d221754095c908b2551a|Update mysql connection in doc|Sun, 25 Feb 2018 15:55:17 +0000|Sun, 25 Feb 2018 15:55:44 +0000
+7e7743bbfc187b31fc25aa8fb8c56f23d3d6b913|Update reno for stable/queens|Tue, 20 Feb 2018 22:12:30 +0000|Tue, 20 Feb 2018 22:12:30 +0000
+2bf53faf1e30a0312e422680f031f9abaa7270d1|Prepare for official Queens release|Mon, 19 Feb 2018 12:37:52 -0500|Mon, 19 Feb 2018 12:39:36 -0500
+fa6d8c7529f93749efb0baa67610929f183c8a4a|Merge "Add kombu_failover_strategy option"|Tue, 13 Feb 2018 23:17:54 +0000|Tue, 13 Feb 2018 23:17:54 +0000
+bd5c1efa05f388fce466184ad75b9451957ac9e6|Load puppet-openstack_spec_helper locally during tests|Mon, 12 Feb 2018 10:53:35 +0800|Mon, 12 Feb 2018 10:53:35 +0800
+5e12d373339c76b9c0c0e24d854770693a999b1d|Add kombu_failover_strategy option|Fri, 9 Feb 2018 14:30:58 +0800|Sun, 11 Feb 2018 11:05:28 +0800
+1f7a5323fee750947c41eb9dfdc19a047f17a78e|Remove deprecated sync_db options|Thu, 8 Feb 2018 15:45:43 +0800|Thu, 8 Feb 2018 15:45:43 +0800
+2268c0544e412f58e85855369a4a781b3aa53fcc|Merge "Zuul: Remove project name"|Thu, 1 Feb 2018 06:51:41 +0000|Thu, 1 Feb 2018 06:51:41 +0000
+761dea7ada83dc553b929d62fc4e3d3af73adda5|Zuul: Remove project name|Wed, 24 Jan 2018 17:02:45 -0800|Wed, 31 Jan 2018 19:52:57 -0800
+7c57f734a08df0f7f19c5cf536f25a95a2d6e05c|Zuul: Remove project name|Mon, 29 Jan 2018 02:24:25 +0800|Mon, 29 Jan 2018 02:24:25 +0800
+801dee599ff0e9c313df6e4dbfb19385e94590a0|Merge "Fix the glance api version warning"|Tue, 23 Jan 2018 14:33:50 +0000|Tue, 23 Jan 2018 14:33:50 +0000
+1aa35cec90a82b246225ff1384fa8bb160baead5|Merge "Prepare for Queens Milestone 3"|Wed, 17 Jan 2018 14:12:56 +0000|Wed, 17 Jan 2018 14:12:56 +0000
+a13c9431a062e71d1bcbab4ffa09b1a831cd2865|Prepare for Queens Milestone 3|Tue, 16 Jan 2018 15:51:09 -0800|Wed, 17 Jan 2018 13:48:44 +0000
+40aab381fc90d837685f50752fe612c913b4a8da|Fix the glance api version warning|Wed, 17 Jan 2018 14:01:09 +0800|Wed, 17 Jan 2018 14:02:58 +0800
+85c9d66c79abbea405a6a67e06f815bf1ff31a13|Remove pinned versions from test-requirements.txt|Tue, 16 Jan 2018 12:29:44 +0800|Tue, 16 Jan 2018 12:54:41 +0800
+939a58346ebffa780c99ca94b4b282a8f594d25a|Add use_journal option for logging configuration|Mon, 15 Jan 2018 15:45:52 +0800|Mon, 15 Jan 2018 15:45:52 +0800
+3bc17a62f95cd01f6f399221bf024c01cdabcad9|Add group to policy management|Wed, 10 Jan 2018 14:08:44 -0800|Fri, 12 Jan 2018 03:27:09 +0000
+58566a032b3b4c9a95cf50e883b1ce98ad0b503b|Update the cirros version to "0.4.0"|Thu, 4 Jan 2018 10:40:34 +0800|Thu, 4 Jan 2018 10:40:34 +0800
+db1f3be675f5a5b1e98caa1a1502bb475d0c4c17|Run puppet-openstack-beaker-jobs|Thu, 21 Dec 2017 18:56:07 -0800|Thu, 21 Dec 2017 18:56:07 -0800
+9d5c6a43ee1d8c8cd08fc2f21c7276e4a4172bef|Add parameters for Barbican for image signing|Wed, 29 Nov 2017 23:22:51 -0500|Thu, 30 Nov 2017 15:14:00 -0500
+26c38c1bd2982f7273554308bd23469542718edc|Prepare for Queens Milestone 2|Tue, 28 Nov 2017 16:14:20 -0700|Tue, 28 Nov 2017 16:18:07 -0700
+03dd353f348105e5431ee6d637af026230f43f23|Expose use_json logging option|Mon, 27 Nov 2017 14:42:27 +0200|Mon, 27 Nov 2017 14:42:27 +0200
+8b84f1c59ad020da7921b976e4c02e653d29472c|Merge "Switch to Zuul v3 testing"|Tue, 14 Nov 2017 21:11:55 +0000|Tue, 14 Nov 2017 21:11:55 +0000
+f00dcac0e834ef313bf83566d6518c250123cab5|Merge "Fix Puppet syntax in glance_image example"|Tue, 14 Nov 2017 00:54:13 +0000|Tue, 14 Nov 2017 00:54:13 +0000
+fc1a4bc954e03a072ed92c10fb094749f667ff6d|Bump metadata|Mon, 13 Nov 2017 12:03:30 -0700|Mon, 13 Nov 2017 12:03:30 -0700
+1dfc82831a2f7114680419ded0a5c11dcb232946|Fix metadata for queens-1|Mon, 13 Nov 2017 09:51:20 -0700|Mon, 13 Nov 2017 09:51:20 -0700
+cea9d14b083a0245a094198e1378629a98d79ea8|Merge "Add swift_store_large_object_chunk_size parameter"|Thu, 2 Nov 2017 18:55:03 +0000|Thu, 2 Nov 2017 18:55:03 +0000
+ac460a8b7ef96f5e6619c0eabc56500fcb3e0429|Update the cirros version to "0.3.5"|Tue, 31 Oct 2017 15:57:15 +0800|Tue, 31 Oct 2017 15:57:15 +0800
+d69363e26330e8fe1c5a2b0c5323ac5dc03b0af1|Switch to Zuul v3 testing|Wed, 25 Oct 2017 17:25:58 +0800|Tue, 31 Oct 2017 15:17:30 +0800
+5a4c86c1eadc33a8c922d6116b18d00028b92396|Merge "Add image_member_quota to Glance API configuration"|Tue, 31 Oct 2017 03:31:34 +0000|Tue, 31 Oct 2017 03:31:34 +0000
+72984f9f12c5408e0391f9cbc30cf861feb914fa|Add image_member_quota to Glance API configuration|Thu, 19 Oct 2017 16:30:34 +0200|Mon, 30 Oct 2017 17:39:07 +0000
+08cc9752c5ab80a2b6854e9fca6af225eb93cfab|Add Puppet package to bindep, for module build|Fri, 27 Oct 2017 13:12:30 -0700|Mon, 30 Oct 2017 15:09:12 +0000
+7ca105a6843cc68e194838cf97072e79ba570f7b|switch beaker tests to use Keystone V3|Thu, 19 Oct 2017 09:08:44 +0800|Mon, 30 Oct 2017 00:13:38 +0000
+7fa183bd58d3704358e2d58bbb4736a69b861f92|Fix Puppet syntax in glance_image example|Mon, 23 Oct 2017 16:01:55 +0100|Mon, 23 Oct 2017 16:01:55 +0100
+2ce1ddfd83361d51228720ff1116020a98b5e949|Add swift_store_large_object_chunk_size parameter|Wed, 18 Oct 2017 16:45:50 +0200|Wed, 18 Oct 2017 17:03:19 +0200
+2ae39c293c19a2dae7d72fabb87b34df7f0aea74|Prepare for Queens Milestone 1|Tue, 17 Oct 2017 14:26:32 -0600|Wed, 18 Oct 2017 01:52:40 +0000
+fc6fd4b50c38a2a09c991875791c0c0a12c7d066|Use Keystone v3 credentials|Tue, 10 Oct 2017 10:08:00 +0530|Wed, 11 Oct 2017 17:21:50 +0000
+63709c22f0b85730eb981f6a6f3d0f4fda1cc421|Accept empty strings for log_file|Mon, 9 Oct 2017 04:31:30 +0000|Mon, 9 Oct 2017 04:34:52 +0000
+30c3db36c28657eb5327a55eba835a2870a3e082|Merge "Configure *_domain_name to Default by default"|Sun, 8 Oct 2017 16:49:59 +0000|Sun, 8 Oct 2017 16:49:59 +0000
+384891ba49cd548d5e6325c45dd05b9441ed1851|Configure *_domain_name to Default by default|Fri, 6 Oct 2017 09:50:29 -0400|Fri, 6 Oct 2017 09:57:30 -0400
+72ed4084c01eb1fc16286fe2af7e8023cdb90807|Accept empty strings for log_dir|Fri, 6 Oct 2017 13:00:14 +0300|Fri, 6 Oct 2017 13:00:14 +0300
+3927224fa01cd73a11e25f32508704c76c14903b|Merge "Fix outdated links and document spelling error"|Wed, 27 Sep 2017 21:08:30 +0000|Wed, 27 Sep 2017 21:08:30 +0000
+a5b84faf7f684efccf899652295eaffc4686854a|Merge "Drop Glare service from puppet-glance"|Fri, 22 Sep 2017 03:23:50 +0000|Fri, 22 Sep 2017 03:23:50 +0000
+860c2f981510d2030e94dea7b139fa24511ef519|Merge "Deprecate revocation_cache_time option"|Thu, 21 Sep 2017 00:03:25 +0000|Thu, 21 Sep 2017 00:03:25 +0000
+33738cfac75c688241839f8d3bd5a89c8d2f8e3a|Merge "fix comment about registry configuration"|Thu, 21 Sep 2017 00:03:19 +0000|Thu, 21 Sep 2017 00:03:19 +0000
+1123f79809090a4ae699720c3965bb4e6ee5b289|Drop Glare service from puppet-glance|Mon, 13 Mar 2017 12:51:44 +0400|Wed, 20 Sep 2017 20:31:08 +0000
+5712faf7f3971d48009f30ed95ab24d776c0adb1|fix comment about registry configuration|Wed, 20 Sep 2017 16:15:00 +0200|Wed, 20 Sep 2017 16:15:00 +0200
+012651d8440d49026272dd79cb6d40711423b2ed|Update openstackdocstheme to latest version|Tue, 19 Sep 2017 21:36:19 +0800|Wed, 20 Sep 2017 10:52:09 +0800
+f6c26dc5b355ff23e8772871d7682d7e0eac6c82|Fix outdated links and document spelling error|Mon, 18 Sep 2017 16:53:08 +0800|Mon, 18 Sep 2017 17:03:55 +0800
+9ce30c3f55cc2e1b035a2358446b5134a9286d64|Deprecate revocation_cache_time option|Thu, 14 Sep 2017 11:25:40 +0800|Thu, 14 Sep 2017 11:25:40 +0800
+bc215ee0c9ebed989576ad63badf80dd1258acfd|Use Python to compute release notes version|Wed, 30 Aug 2017 13:42:40 -0700|Wed, 30 Aug 2017 13:42:40 -0700
+68206290dcbecac61a1376d0c50f81e7ce3c191e|Merge "Update versions for Queens cycle"|Fri, 25 Aug 2017 17:45:57 +0000|Fri, 25 Aug 2017 17:45:57 +0000
+7aa19ab731fa5f7617f4d9cb1451e030b9bdfd8b|Merge "Update reno>=2.5.0"|Fri, 25 Aug 2017 17:45:36 +0000|Fri, 25 Aug 2017 17:45:36 +0000
+b97e09ad332af8f5241f2fedb7c34e5f0a7c2aaa|Update versions for Queens cycle|Thu, 24 Aug 2017 13:06:05 -0600|Thu, 24 Aug 2017 13:06:57 -0600
+a3421ae1f9a83a15c63191044bafd1e872945951|Update reno for stable/pike|Thu, 24 Aug 2017 14:00:24 +0000|Thu, 24 Aug 2017 14:00:24 +0000
+02ab90f67d62a7d79f16873ba531b5224c73613a|Merge "No longer escape IPv6 ip addresses"|Wed, 23 Aug 2017 21:12:33 +0000|Wed, 23 Aug 2017 21:12:33 +0000
+500f5cb73a564da1675222a823b975077eec262b|No longer escape IPv6 ip addresses|Thu, 17 Aug 2017 17:07:28 +0100|Wed, 23 Aug 2017 17:13:13 +0100
+93b158e6566e513859ed182a3acb089e78c35c39|Prepare for official Pike release|Mon, 21 Aug 2017 15:58:44 -0600|Mon, 21 Aug 2017 15:59:34 -0600
+132f424d9097e0cc1276fb5401501129693873eb|Update reno>=2.5.0|Mon, 21 Aug 2017 11:19:39 +0800|Mon, 21 Aug 2017 11:19:39 +0800
+851ee9d6e1b93ba56114458359b2fe542cfd2f51|Merge "Update openstackdocstheme>=1.16.0"|Sat, 5 Aug 2017 04:53:35 +0000|Sat, 5 Aug 2017 04:53:35 +0000
+6127f49dcd344568db03b3f5e7bfdeeff2799e9d|Bump modules to next minor with -dev|Fri, 4 Aug 2017 13:36:15 -0600|Fri, 4 Aug 2017 13:37:34 -0600
+e692b10f1ac36f55c963ddc1180cc5ebcf084758|Update openstackdocstheme>=1.16.0|Mon, 31 Jul 2017 11:01:37 +0800|Mon, 31 Jul 2017 11:01:37 +0800
+4182ef6065bd75b8cc19874de646b2eee22aa1f6|Drop -dev version for Pike M3|Tue, 25 Jul 2017 08:12:57 -0600|Tue, 25 Jul 2017 08:13:58 -0600
+57664c22aebaf18b1d632994d63b304031455ec4|Merge "Update URLs in documents according to document migration"|Sat, 22 Jul 2017 03:25:16 +0000|Sat, 22 Jul 2017 03:25:16 +0000
+302415b5c271ecb13919136df9bb5a2e1e623e88|Fix unit tests|Fri, 14 Jul 2017 10:28:53 +0800|Sat, 15 Jul 2017 12:41:01 +0800
+c4c5da130f883dae20133aa38bc542fcb2b80f46|Update URLs in documents according to document migration|Fri, 14 Jul 2017 08:51:41 +0800|Fri, 14 Jul 2017 08:51:41 +0800
+0adfc3d49533a2a359383e846eaa8ca8d4a0b97a|Remove deprecated keystone authtoken signing_dir option|Fri, 7 Jul 2017 09:58:53 +0800|Fri, 7 Jul 2017 10:08:12 +0800
+6e79149c34b19fe766b72e49cbac6a644416b713|Merge "Fix openstackdocstheme"|Tue, 4 Jul 2017 13:13:44 +0000|Tue, 4 Jul 2017 13:13:44 +0000
+74c709ae1a80eaaf77593708e4070a5f4dee5cff|Merge "Correcting author"|Tue, 4 Jul 2017 04:52:23 +0000|Tue, 4 Jul 2017 04:52:23 +0000
+a35cb0ac8c24ecf306205a6a2686cfc795e581df|Fix openstackdocstheme|Sun, 2 Jul 2017 14:17:47 +0800|Sun, 2 Jul 2017 14:17:47 +0800
+da18fdb771d3d6f5988ec899147c6e91939d6752|Switch from oslosphinx to openstackdocstheme|Mon, 26 Jun 2017 10:01:01 +0800|Mon, 26 Jun 2017 10:01:01 +0800
+9ee64a0b0713dc401ce11ec4deb77dd6ed1e46f9|Trivial fix style in documents|Mon, 19 Jun 2017 11:35:42 +0700|Mon, 19 Jun 2017 11:39:54 +0700
+bde0ecc5a7dd5d5d8c4031f7d910cb087cdf3bbf|Correcting author|Fri, 16 Jun 2017 14:55:03 +0700|Mon, 19 Jun 2017 00:57:25 +0000
+dea0beff1afe24b79429d952334fa7aaa3df5d0a|Fix parsing of image properties|Tue, 13 Jun 2017 15:30:11 +0000|Tue, 13 Jun 2017 15:35:50 +0000
+08cbeacf55eb762ee21f9bf110f948a5021b62f1|Add environment variable|Mon, 12 Jun 2017 15:52:24 +0800|Mon, 12 Jun 2017 15:52:24 +0800
+7941ba0f9e27e080ceef38930a255d562d86fa4d|Merge "Bump version for Pike M3 Dev"|Fri, 9 Jun 2017 09:26:21 +0000|Fri, 9 Jun 2017 09:26:21 +0000
+a11b9faa372785c24500012e338153654dca15b9|Bump version for Pike M3 Dev|Thu, 8 Jun 2017 15:30:57 -0600|Thu, 8 Jun 2017 15:32:45 -0600
+4940185f2802492dafc22c1e9beb93fdadca9032|Update global requirements|Thu, 8 Jun 2017 11:49:34 +0800|Thu, 8 Jun 2017 11:49:34 +0800
+36065118063ead286f7aae6c8989f4985a7ab630|Drop -dev in preparation for Pike M2|Thu, 1 Jun 2017 08:53:02 -0600|Thu, 1 Jun 2017 08:53:55 -0600
+11babea0d15c4a2ac83282bb0cc10bcec83c180b|Fix unit test|Thu, 25 May 2017 11:14:54 +0800|Fri, 26 May 2017 08:30:57 +0800
+524db15a0af0e76d8117d9c30c7011f6547371b3|oslo policy: check puppet resource instead of actual config in spec|Tue, 23 May 2017 14:19:27 +0800|Tue, 23 May 2017 14:19:27 +0800
+1d7f3d7b0585b373ac7424641b6ca5a37be8434e|Align Stars, Fix CI|Wed, 17 May 2017 08:24:29 -0600|Thu, 18 May 2017 20:15:03 +0000
+b01ba77e9a27de4e9a323b8802a32fddbb9efdac|Merge "Set debug to true"|Mon, 8 May 2017 09:15:34 +0000|Mon, 8 May 2017 09:15:34 +0000
+a9c000a679051f35ff16ff31d35cb2d2b788bc69|Set debug to true|Fri, 5 May 2017 15:15:46 +0800|Fri, 5 May 2017 15:15:46 +0800
+4aef3d93a5ef3607c19a177fbc34edadc226ca80|Add parameter to manage packages in rbd backend|Wed, 26 Apr 2017 17:21:16 +0200|Wed, 26 Apr 2017 17:23:44 +0200
+53d268aa8ba0576302cf47fa406e746c0f541941|Bump modules to next minor with -dev|Fri, 21 Apr 2017 17:21:43 -0600|Fri, 21 Apr 2017 17:22:44 -0600
+efe9727528603d90bed56b3b472f8bcb00377683|Add support for db_max_retries param|Tue, 18 Apr 2017 09:01:45 +0800|Tue, 18 Apr 2017 11:05:31 +0800
+45bd308020b7a2a5ace23c0df39b0c8b156d2375|oslo db: check puppet resource instead of actual config in spec|Sun, 9 Apr 2017 12:17:45 +0800|Sun, 9 Apr 2017 14:54:07 +0800
+97a16cc066f63345484cc7562bbaf6bc064a0cae|Drop -dev for release prep|Wed, 5 Apr 2017 10:36:13 -0600|Wed, 5 Apr 2017 10:44:32 -0600
+b42c78d8534d0d4bddb89c330fbbd269e731746a|Merge "Password should be secured"|Wed, 29 Mar 2017 01:43:32 +0000|Wed, 29 Mar 2017 01:43:32 +0000
+f9cb037517ab79f5051a74f7f663a3e65d78d7dc|Password should be secured|Tue, 28 Mar 2017 17:11:27 +0800|Tue, 28 Mar 2017 17:11:27 +0800
+f880bdaacee01a2ac986e4fadd16c5c8d3ace55b|Update test-requirements.txt|Thu, 23 Mar 2017 14:42:07 +0800|Thu, 23 Mar 2017 14:42:07 +0800
+bdd52684d67d9ee30f51606ac64b64b82f581c69|Load Glance DB metadefs|Mon, 20 Mar 2017 11:12:25 +0100|Mon, 20 Mar 2017 14:04:08 +0100
+8061a018a6ba3fcab5d067b7c506b78515b9af60|oslo log: check puppet resource instead of actual config in spec|Mon, 13 Mar 2017 19:02:04 +0200|Thu, 16 Mar 2017 11:09:52 +0200
+400daa15b77449c5ea4149008994cbb2d5956929|Fix typo|Mon, 13 Mar 2017 20:12:17 +0800|Mon, 13 Mar 2017 20:12:17 +0800
+a37f9c81ee2f1de5e50f5bc690efabfed45c3491|rabbitmq SSL: check puppet resource instead of actual config|Fri, 10 Mar 2017 13:47:48 +0200|Fri, 10 Mar 2017 16:47:01 +0000
+2cd9666d5914a084bec844c0568c88fb1bc3e626|acceptance: remove Glare testing|Fri, 10 Mar 2017 09:28:13 -0500|Fri, 10 Mar 2017 09:28:13 -0500
+5ebf8b96cadac76672476384df68e55c764c4bbd|Prepare Pike metadata|Tue, 7 Mar 2017 14:39:56 -0700|Tue, 7 Mar 2017 15:33:43 -0700
+ebbac230d19ca50658fbd8d05eae08fa6186e1b6|Add more settings to glance-api|Tue, 6 Dec 2016 11:01:25 +0100|Thu, 23 Feb 2017 10:40:23 -0700
+37eab64f9c0b7bdb389f8acbd7d12fa047fd8b62|Update reno for stable/ocata|Wed, 8 Feb 2017 11:03:50 +0000|Wed, 8 Feb 2017 11:03:50 +0000
+672c0b6560f95f4d20787490ef4624737a8bf812|Prepare ocata-rc1 release|Fri, 3 Feb 2017 16:21:52 -0700|Fri, 3 Feb 2017 16:23:02 -0700
+4570df5d79b3136c086a6eba7873db0b391929e1|Add control_exchange and rpc_response_timeout options|Sat, 28 Jan 2017 13:52:04 +0800|Sat, 28 Jan 2017 13:52:04 +0800
+31ca15b03792f49dea0de25c58acaf36a0164e8e|Add oslo::db to dependency chain|Sun, 22 Jan 2017 21:40:05 +0800|Sun, 22 Jan 2017 21:40:05 +0800
+d66fa430194d77884d648ecc19b6c35bdff1dfa8|Add ploop to supported disk formats|Wed, 18 Jan 2017 13:24:29 +0000|Wed, 18 Jan 2017 13:24:29 +0000
+2a57b21e77bb27e75ad3ccb7b8a1d2fee98b04e0|Prepare 10.2.0 release|Fri, 13 Jan 2017 17:29:31 -0700|Fri, 13 Jan 2017 17:31:13 -0700
+a964f9f925c2cf28536370502a7414b1bec98975|Allow python-memcache install from authtoken class|Wed, 11 Jan 2017 11:42:45 -0500|Wed, 11 Jan 2017 11:44:55 -0500
+e014854e624ad453dec17e44f35ca8772abc488f|Merge "Don't use copy from but download the image locally"|Thu, 5 Jan 2017 14:52:16 +0000|Thu, 5 Jan 2017 14:52:16 +0000
+07a7b66bae9f75514fb3fe8f1b67d515005f06af|Don't pass glance-registry.conf in every sync_db|Thu, 8 Dec 2016 11:46:34 +0100|Wed, 4 Jan 2017 14:43:09 +0000
+b5e0ce81b14b42c74f250a2179765f2fe647a26d|Don't use copy from but download the image locally|Thu, 15 Dec 2016 15:55:47 +0100|Wed, 4 Jan 2017 10:06:20 +0100
+e6a6df773bdde714e10c9f43c53c03d7e045bcef|Deprecate signing_dir option|Wed, 28 Dec 2016 09:02:42 +0800|Wed, 28 Dec 2016 09:03:30 +0800
+59e6152fcb3e2418c1a948bbfb1e87e92f12d1ac|Pin reno version to reno>=0.1.1,!=2.0.0|Thu, 22 Dec 2016 15:15:00 +0400|Thu, 22 Dec 2016 11:25:08 +0000
+3c9a2a8611b0adf896e66d518b82c65341b5a4ce|Add oslo_messaging_notifications transport_url|Wed, 14 Dec 2016 09:57:31 -0700|Wed, 14 Dec 2016 09:57:31 -0700
+77d8f0f46cc11bbb71ef46a2e5404e34544af610|Prepare 10.1.0 release|Fri, 9 Dec 2016 09:34:05 -0700|Fri, 9 Dec 2016 09:34:32 -0700
+465cd11025a9fb2df098dfbbd79051d5e168a472|Move sync_db parameter to glance::api|Wed, 7 Dec 2016 16:02:28 +0100|Wed, 7 Dec 2016 16:07:27 +0100
+e2a267aabe3fef90dafc98cef6ffc21b23ce133b|Merge "Allow to choose which Glance API to enable"|Wed, 7 Dec 2016 14:48:09 +0000|Wed, 7 Dec 2016 14:48:09 +0000
+d9fe9380d6571f72ff8479d0317c89443fb67f06|Allow to choose which Glance API to enable|Tue, 6 Dec 2016 16:50:37 +0100|Tue, 6 Dec 2016 16:51:35 +0100
+5b044addf7316bf1617e4c4d4b73fc259cef0dff|neat: missing : in $::os_service_default|Tue, 6 Dec 2016 10:52:04 +0100|Tue, 6 Dec 2016 10:53:34 +0100
+634b182f5567dd6d238c60400be05eb4028d8933|Fix spec tset for sync|Thu, 1 Dec 2016 16:27:42 +0800|Thu, 1 Dec 2016 16:27:42 +0800
+866cd4e99d2b80ab9335d073cdff4901e1b43058|Merge "Show team and repo badges on README"|Fri, 25 Nov 2016 17:48:10 +0000|Fri, 25 Nov 2016 17:48:11 +0000
+08e3b4f287d1711ebec0d5a9454ede89181df018|Show team and repo badges on README|Fri, 25 Nov 2016 17:10:53 +0100|Fri, 25 Nov 2016 17:42:11 +0100
+54f6ba25f765bb3a9070e07c814262184538b769|Add deps to authtoken|Thu, 24 Nov 2016 11:58:21 +0800|Thu, 24 Nov 2016 11:58:21 +0800
+f958cb6d7cb302e5f4a3f5a5f2653bb0cf435d3a|Merge "Remove old authtoken options"|Sat, 19 Nov 2016 01:05:50 +0000|Sat, 19 Nov 2016 01:05:50 +0000
+ddfd2150b9cb55964bd961dcecfb802ae9299dc1|Remove old authtoken options|Sat, 5 Nov 2016 23:22:10 -0300|Tue, 15 Nov 2016 23:40:36 -0300
+d4bcd17b656278e71663e313e2547bd6585758d9|Prepare 10.0.0 release|Mon, 14 Nov 2016 16:39:18 -0700|Mon, 14 Nov 2016 16:39:56 -0700
+a86e4149949304cdc5d233adc3d39687135b329f|Merge "Deprecate rabbitmq connection parameters"|Wed, 9 Nov 2016 09:37:30 +0000|Wed, 9 Nov 2016 09:51:56 +0000
+1b123d9be52295af54a29146268be7a94ea12f85|Deprecate rabbitmq connection parameters|Tue, 8 Nov 2016 12:43:44 -0700|Tue, 8 Nov 2016 12:43:44 -0700
+800dcf4d4aa39d1d57faca58d8cb4ff22fca2eb2|Fix puppet version for requirements in metadata|Thu, 3 Nov 2016 10:28:06 +0800|Thu, 3 Nov 2016 12:01:30 +0800
+390da635a7276958ae9ca627aeecf6a9119c8862|Merge "Add test for policy"|Fri, 28 Oct 2016 11:14:14 +0000|Fri, 28 Oct 2016 11:14:14 +0000
+f7daa47f548ec30a61b6bc6faa45c9596931bac9|Add test for policy|Thu, 27 Oct 2016 23:36:44 +0800|Fri, 28 Oct 2016 00:25:02 +0800
+8684c85d12f77f92fb4627ed740a058d04ca78bc|Remove verbose|Tue, 27 Sep 2016 20:33:00 -0300|Tue, 25 Oct 2016 20:01:14 -0300
+88713c96f7e3e8eb40f600e85f3586ee7eed3f42|Fix documentation for log_dir parameter|Mon, 10 Oct 2016 16:33:43 +0300|Tue, 18 Oct 2016 17:23:55 +0300
+33f96d71ed61bf326b76045e4108a7e772df7f0c|Ensure that swiftclient is installed|Mon, 10 Oct 2016 16:15:15 -0700|Fri, 14 Oct 2016 13:06:31 -0700
+74e52d294ce73bd2b0b6e58e9d70642d7933f3eb|Change worker defaults to ::os_workers|Tue, 4 Oct 2016 20:42:38 +0300|Fri, 7 Oct 2016 11:53:48 +0300
+f4df279c4a3b5b5b3ff36aa870c15f916c9e625a|Enable release notes translation|Thu, 6 Oct 2016 20:45:25 +0200|Thu, 6 Oct 2016 20:45:25 +0200
+975d7ab3393c26e81e2d3ee16d9bdc867de49d40|Changed the home-page to point Openstack Puppet Homepage|Tue, 4 Oct 2016 10:07:18 +0530|Tue, 4 Oct 2016 10:07:18 +0530
+3468d0fa212fd9ed340ae4262aa440d37afdd22e|Move rspec-puppet-facts to spec helper|Fri, 30 Sep 2016 13:18:25 -0600|Fri, 30 Sep 2016 13:18:28 -0600
+0fc2099d127b3a5d459f5591f4380d110cc92e4c|Added retries for db_sync|Thu, 29 Sep 2016 12:11:05 +0530|Thu, 29 Sep 2016 12:45:55 +0530
+5d98b75ea13c3b134f8f6dcf74f85e559072709d|Update reno for stable/newton|Tue, 27 Sep 2016 12:37:37 -0400|Tue, 27 Sep 2016 11:06:32 -0600
+3aa4b0b9a365c6581ea77cdb65620373cc9413ed|Merge "Puppet OpenStack Newton RC2"|Tue, 27 Sep 2016 05:57:27 +0000|Tue, 27 Sep 2016 05:57:27 +0000
+2a08e200b475b947c9dbf42ac2eaf4a2d1a9018b|Puppet OpenStack Newton RC2|Mon, 26 Sep 2016 07:31:18 -0600|Mon, 26 Sep 2016 07:32:14 -0600
+77e18dae1e1582645092f77b5d5560036e1718a1|Remove unnecesary spaces in log messages.|Mon, 26 Sep 2016 09:36:33 +0200|Mon, 26 Sep 2016 09:36:57 +0200
+372fb933208dc21b3be7cf3efa877047f856ea45|Merge "Fix puppet-lint before upgrading gem"|Wed, 21 Sep 2016 04:32:29 +0000|Wed, 21 Sep 2016 04:32:29 +0000
+08cf354dbcaf289e2fa693a379a870286d91e8e4|Merge "Add options for taskflow_executor & conversion"|Tue, 20 Sep 2016 09:57:49 +0000|Tue, 20 Sep 2016 09:57:49 +0000
+a2cacecd11dfe2d764771777a50a626af1c22c8d|Add options for taskflow_executor & conversion|Fri, 16 Sep 2016 16:50:33 +0200|Mon, 19 Sep 2016 16:01:45 +0200
+3963d27ef403aad74ca9550e9830e3e43efa3df6|Fix puppet-lint before upgrading gem|Wed, 14 Sep 2016 13:20:04 +0200|Fri, 16 Sep 2016 19:13:44 +0200
+3676f7b48683be442d8c5c850d702df5751b72bb|Prepare 9.3.0 (newton rc1)|Fri, 16 Sep 2016 11:39:55 -0400|Fri, 16 Sep 2016 11:39:55 -0400
+ffa154c77a179797a04807ad8d13e56aca3001f0|Update log_file documentation|Thu, 8 Sep 2016 17:52:32 -0600|Thu, 8 Sep 2016 17:52:59 -0600
+d4402fa8d4647e82f2467f85cffd1a4258e76333|Merge "Move Glance to new authtoken scheme"|Mon, 29 Aug 2016 17:44:59 +0000|Mon, 29 Aug 2016 17:44:59 +0000
+96aa59d31c6b15c9869701a42d651a7512a9b0a1|Prepare 9.2.0 (newton b3)|Fri, 26 Aug 2016 09:54:19 -0400|Fri, 26 Aug 2016 09:54:19 -0400
+4999af99ebfc39b24d2895b23217ffba24c6b994|Move other-requirements.txt to bindep.txt|Fri, 12 Aug 2016 21:06:29 +0200|Fri, 12 Aug 2016 21:06:29 +0200
+1e09e553edf091f53b3bbfe667630adc236cf223|Move Glance to new authtoken scheme|Fri, 29 Jul 2016 13:12:29 +0300|Fri, 5 Aug 2016 13:46:22 +0300
+804afb9c3ebe888e65e6ded5d13d32e6da780ae3|Fix typo in values for disk_format|Wed, 20 Jul 2016 17:03:21 +0300|Wed, 20 Jul 2016 17:40:18 +0300
+d84c42f7e2b31e8c8965c23257dc61101cb3260f|Add option to enable Glance's SSL middleware|Wed, 13 Jul 2016 11:38:28 +0300|Wed, 13 Jul 2016 12:07:40 +0300
+08519a992b87f0e5a8fa49ff12db247c6763f61f|Merge "Deprecate auth_region option for Glare"|Tue, 12 Jul 2016 09:40:11 +0000|Tue, 12 Jul 2016 09:40:11 +0000
+e5fedfaa30a09869ed13b1882c0b6031adf7e57a|Deprecate auth_region option for Glare|Mon, 11 Jul 2016 14:31:29 +0300|Mon, 11 Jul 2016 14:32:36 +0300
+5a83a8d56d7e51936bd9650ea130814c2f065702|Include openstacklib defaults manifest.|Thu, 7 Jul 2016 12:00:55 +0200|Fri, 8 Jul 2016 08:56:03 +0000
+e2c322095a3f89e19582aee3f6c0352209f589cf|Prepare 9.1.0 (newton-2)|Thu, 7 Jul 2016 09:07:42 -0400|Thu, 7 Jul 2016 09:07:48 -0400
+ef27233788d9244fbe979331db36906d67e6b32c|Deprecate auth_region option|Tue, 5 Jul 2016 16:59:37 +0800|Tue, 5 Jul 2016 16:59:37 +0800
+272e1df0ce141790125b3d42716c9e8bcac18298|Remove 12.04 and add 16.04 to metadata|Wed, 29 Jun 2016 22:09:02 -0300|Wed, 29 Jun 2016 22:09:02 -0300
+57c5f9917ae60337ef53d39f83fa950cd15e60e3|Remove mitaka release prelude note|Tue, 28 Jun 2016 15:07:47 -0400|Tue, 28 Jun 2016 15:07:53 -0400
+18b010975cec2eafe807759b42a5814a83664083|Add hooks for external install & svc management|Wed, 8 Jun 2016 12:40:15 +0000|Fri, 17 Jun 2016 13:17:34 +0000
+a2acbc7110f01b33c6e4ae6ac690f3a39ea2be63|Merge "Switch $service_name to 'glance' for keystone"|Wed, 15 Jun 2016 03:09:27 +0000|Wed, 15 Jun 2016 03:09:28 +0000
+44bf1232a50f69ff62955fc7c1c8ab48e04bc7ff|Switch $service_name to 'glance' for keystone|Fri, 20 May 2016 17:33:22 -0400|Fri, 10 Jun 2016 19:02:21 +0000
+f562023d2e4de3b9475cab4d45b8e0e1312ba014|Add nodepool-xenial.yml file|Fri, 10 Jun 2016 13:30:52 -0400|Fri, 10 Jun 2016 13:30:58 -0400
+20a186b8d9451ed8b1a450e0e891d1fb30db39d7|Merge "Provide consisent default name for service_identity resource"|Thu, 9 Jun 2016 11:36:49 +0000|Thu, 9 Jun 2016 11:36:49 +0000
+f2855769b3352fc5f7c9f509ea60f1b0bc379a4e|Provide consisent default name for service_identity resource|Wed, 8 Jun 2016 07:57:35 +0300|Thu, 9 Jun 2016 07:46:08 +0300
+92d9ac9368b91d09a38f0cb42962ebab47e0684f|Fix Keystone integration documentation|Tue, 7 Jun 2016 18:16:28 -0400|Tue, 7 Jun 2016 18:37:20 -0400
+0600f741792e09123aabd241003cbe35ae7ff3a9|fix comment of database to connect to|Mon, 6 Jun 2016 21:38:07 +0200|Mon, 6 Jun 2016 21:38:07 +0200
+7651c49cac81b772e138d265ab33ee3447bebd9f|Merge "Remove deprecated keystone::auth options"|Sat, 4 Jun 2016 21:30:56 +0000|Sat, 4 Jun 2016 21:30:56 +0000
+41abdbdf893f9f0eb15c6e6341405884fe5ec1c4|Merge "Prepare 9.0.0 release"|Fri, 3 Jun 2016 16:46:04 +0000|Fri, 3 Jun 2016 16:46:04 +0000
+2481120369ec9f24ce47c6e3afdb73c70171e26f|Merge "Change wiki to docs"|Fri, 3 Jun 2016 14:18:19 +0000|Fri, 3 Jun 2016 14:18:19 +0000
+9b4096145b37bbf3806e483cf34bc41455cfff3a|Cleanup README|Fri, 3 Jun 2016 12:45:18 +0300|Fri, 3 Jun 2016 12:45:38 +0300
+1c1dd86ed78f6a6b76ab1b040716c111fa1532ec|Remove deprecated keystone::auth options|Fri, 3 Jun 2016 01:10:35 -0300|Fri, 3 Jun 2016 04:36:22 +0000
+35bdf06429ad8dcff344aa811c3ba7080ad1edf8|Change wiki to docs|Thu, 2 Jun 2016 22:35:07 -0300|Thu, 2 Jun 2016 23:05:48 -0300
+ad28f8e5216c541e027f3decf75a7a512c582a99|Prepare 9.0.0 release|Thu, 2 Jun 2016 18:33:21 -0400|Thu, 2 Jun 2016 18:41:03 -0400
+e42fe7b004db7bf8fa97ec2ff3be9aa4c17dba16|Merge "Correction configuration due with the new parameters"|Thu, 26 May 2016 14:29:34 +0000|Thu, 26 May 2016 14:29:34 +0000
+dbb86cf076cbb0a4df96444d9dd8445e6ca28204|Correction configuration due with the new parameters|Wed, 25 May 2016 13:20:05 +0300|Thu, 26 May 2016 15:00:37 +0300
+3079b7caaebedbbe64e19c934bd54a9d29e6d0b8|Add option id to glance_image|Wed, 25 May 2016 09:26:27 +0000|Wed, 25 May 2016 09:26:27 +0000
+13281189b2553d805b6b2acbcc19e69e917bf4d0|Add other-requirements.txt for bindep|Thu, 19 May 2016 19:04:47 +0200|Thu, 19 May 2016 22:09:16 +0000
+cf604fc6a67d15cd0630231040bff47e00ac8996|Deprecate verbose option in logging|Wed, 18 May 2016 01:11:25 -0300|Wed, 18 May 2016 01:12:46 -0300
+283e33c00b5a4c48ee9bfb90e28a94d87b592cc1|Add support for db_max_retries param|Mon, 9 May 2016 18:01:31 +0200|Thu, 12 May 2016 20:40:35 +0000
+0cf9a7ae60afb4c98cbe7f2e1bb1777816f51c79|acceptance: ignore CLI warnings|Wed, 11 May 2016 12:25:39 -0600|Wed, 11 May 2016 12:29:42 -0600
+d70f4c54342b4bdb71a5cb6e4ea2637e0917ddf6|Remove docs duplication for notification_driver|Wed, 20 Apr 2016 19:41:38 +0300|Wed, 20 Apr 2016 19:41:38 +0300
+af8da24358ee944109b9702204b2b3ba13f8415c|Totally drop Qpid support|Mon, 18 Apr 2016 14:15:05 +0300|Mon, 18 Apr 2016 14:15:28 +0300
+e648bb58304fcdd253a88dee45027feeaba2d6ad|Merge "Configure oslo related parameters using puppet-oslo module"|Fri, 15 Apr 2016 20:46:20 +0000|Fri, 15 Apr 2016 20:46:20 +0000
+48c2ec493ae45b7ba68fb34ddf383dec8e0bf711|Merge "Use oslo module for messaging (rabbit) configuration"|Thu, 14 Apr 2016 19:44:17 +0000|Thu, 14 Apr 2016 19:44:17 +0000
+558fa4d212ff2c1c84ffb88c261a7288026fe46d|Configure oslo related parameters using puppet-oslo module|Mon, 11 Apr 2016 19:39:55 +0300|Thu, 14 Apr 2016 14:20:18 +0300
+63cbebc02e828d0b7a5ed529e0862550ff269e59|Merge "Fix the purge_config option for api and registry"|Wed, 13 Apr 2016 10:59:58 +0000|Wed, 13 Apr 2016 10:59:58 +0000
+51c2793738813c0385b08a810e9c54efcda1a739|Use oslo module for messaging (rabbit) configuration|Tue, 29 Mar 2016 19:16:36 +0300|Wed, 13 Apr 2016 13:29:23 +0300
+aa2c4c9213f47be21f0cffd866daf5914a1c92d5|Fix the purge_config option for api and registry|Thu, 7 Apr 2016 14:38:00 -0600|Tue, 12 Apr 2016 11:33:56 -0600
+109cda8b248cdd0de08d9b1d584f4433bf8cf1ce|Fix image list in glance_image provider|Fri, 8 Apr 2016 18:41:54 +0200|Fri, 8 Apr 2016 19:27:00 +0000
+31c15aefd4c38e48d0b3eb4c8bb7b5b45f995834|acceptance: drop dependency cycles tests|Fri, 8 Apr 2016 15:24:42 -0400|Fri, 8 Apr 2016 15:24:42 -0400
+5d6e42356efb79e62bf3f1f464a444be39b2dca4|Merge "Switch glance to os_service_default facts"|Thu, 7 Apr 2016 14:11:53 +0000|Thu, 7 Apr 2016 14:11:53 +0000
+e6f19c9553b0d579aef93bb933ef7f86048674d7|Release notes for glance_image updates|Wed, 6 Apr 2016 12:12:24 -0600|Wed, 6 Apr 2016 12:12:24 -0600
+037545fb3e87b208931fa4931637c580876ca5d6|Switch glance to os_service_default facts|Thu, 31 Mar 2016 12:20:23 +0300|Wed, 6 Apr 2016 18:56:34 +0300
+ecfcaa526475f1867ff99d30e8f35e53f0532431|Merge "Add ability to set properties with glance_image"|Tue, 5 Apr 2016 11:51:17 +0000|Tue, 5 Apr 2016 11:51:17 +0000
+d0957fb622a0f5f4f6e038aa22d87ee61a2f1ad2|Add ability to set properties with glance_image|Tue, 29 Mar 2016 15:34:42 +0300|Mon, 4 Apr 2016 14:57:25 -0600
+4923d0441cd20377434ecd0fe1d889ed5a3ee9b5|Merge "Implement ability to pass CA bundle certificate for vCenter server"|Mon, 4 Apr 2016 13:18:20 +0000|Mon, 4 Apr 2016 13:18:20 +0000
+a1fbd1a42cbd02a7dcf892fb7904dc012f7134b5|Implement ability to pass CA bundle certificate for vCenter server|Fri, 1 Apr 2016 16:41:20 +0300|Mon, 4 Apr 2016 07:34:25 +0000
+006c32a38faab5b3e16f9834a07ca5dd8ba4daf2|Add options to set swift auth domains|Fri, 1 Apr 2016 13:29:24 -0400|Fri, 1 Apr 2016 14:16:12 -0400
+a7b78a33e15d9e042bd82cb4eb9f8d2df20477a0|Gemfile: rely on puppet-openstack_spec_helper for dependencies|Tue, 29 Mar 2016 21:36:10 -0400|Tue, 29 Mar 2016 21:36:10 -0400
+035d1e6c718d155b889fe3cc9ca976ac508a3f5c|Merge "Add posibility to configure Glance backend settings for Glare service"|Mon, 28 Mar 2016 21:07:33 +0000|Mon, 28 Mar 2016 21:07:33 +0000
+ea0c4d5b515ae0d4810afefd63deb234ed0e762a|Add posibility to configure Glance backend settings for Glare service|Fri, 25 Mar 2016 21:03:49 +0300|Mon, 28 Mar 2016 16:18:13 +0300
+5628f7cb6987c10ff41f5aebc7560ce4b5a6b594|Import release notes from stable/mitaka|Thu, 24 Mar 2016 19:02:11 -0400|Thu, 24 Mar 2016 19:03:10 -0400
+3941da05fcc32e6dd302af037c932dcd77088954|Merge "Add missed glare_config options for glance::config class"|Thu, 24 Mar 2016 21:19:19 +0000|Thu, 24 Mar 2016 21:19:20 +0000
+a2fe12405e941309e3e7a0ace1b19455fb8dd22e|Add missed glare_config options for glance::config class|Wed, 23 Mar 2016 14:53:25 +0300|Thu, 24 Mar 2016 13:49:06 +0300
+9407ebd6532207e0363ccbe6d48235a39b2a40eb|Merge "Configure endpoint for Glance Glare"|Thu, 24 Mar 2016 00:11:40 +0000|Thu, 24 Mar 2016 00:11:40 +0000
+6a748cee54b34fbf5ced9ef7ce60f060c7cf6575|Release 8.0.0|Wed, 23 Mar 2016 14:43:56 -0400|Wed, 23 Mar 2016 16:07:06 -0400
+e0b34f450d197ea8fc9616ebe9664c3223228bfb|Configure endpoint for Glance Glare|Wed, 23 Mar 2016 21:14:28 +0300|Wed, 23 Mar 2016 21:16:18 +0300
+da8a3aa022b5f44783589b3b1762dccba2610d87|Add Glance Glare API service|Wed, 16 Mar 2016 18:46:32 +0300|Tue, 22 Mar 2016 18:50:29 +0300
+ee7fbcf37c8895ad72fce0cfb4871e6230b7646d|Merge "Update stores option's example value"|Mon, 21 Mar 2016 15:57:24 +0000|Mon, 21 Mar 2016 15:57:25 +0000
+5eacf1c039461259337133ef7cd632add143f416|Update stores option's example value|Fri, 18 Mar 2016 07:57:22 +0800|Fri, 18 Mar 2016 11:23:20 +0800
+d68f25114e2eb245e338cf653265548fd8c89f6b|releasenotes: add notes for Mitaka cycle|Wed, 16 Mar 2016 17:02:52 -0400|Thu, 17 Mar 2016 13:55:45 -0400
+7695d6deb25ca61df0191aad79739771d9effa5f|Add basic structure for ReNo|Sun, 13 Mar 2016 18:58:58 -0400|Mon, 14 Mar 2016 08:28:13 -0400
+fbf285e95d6ec858fed02dffe62f9b4b56aaa342|Merge "api: allow ssl communications with registry"|Thu, 10 Mar 2016 14:35:19 +0000|Thu, 10 Mar 2016 14:35:20 +0000
+7bf43b2b13a04b64c1f812a25eecf2d93e81092f|api: allow ssl communications with registry|Wed, 9 Mar 2016 13:20:25 -0500|Wed, 9 Mar 2016 13:23:07 -0500
+7d1c73ba0a3433e9c8643756373a3364a5355a7f|spec: Add Unit Tests for glance paste_ini types/providers|Wed, 9 Mar 2016 14:47:48 +0300|Wed, 9 Mar 2016 14:47:48 +0300
+bf7765f66da9e63a12b32e91908fea89fa9c8131|Merge "Remove POSIX users, groups, and file modes."|Wed, 9 Mar 2016 00:03:31 +0000|Wed, 9 Mar 2016 00:03:32 +0000
+6a3240c06e51655873f56eb0f179d9b019ed134f|Merge "Add glance multi/single store declaration examples"|Wed, 9 Mar 2016 00:00:05 +0000|Wed, 9 Mar 2016 00:00:05 +0000
+ef344c3d40063a9c91939f0e56bf58715d077ac4|Add glance multi/single store declaration examples|Tue, 8 Mar 2016 17:31:59 +0000|Tue, 8 Mar 2016 17:37:12 +0000
+637f986252dc8be244b25bf37744ce89c9be613b|Remove POSIX users, groups, and file modes.|Tue, 11 Aug 2015 08:28:45 -0600|Tue, 8 Mar 2016 15:48:10 +0200
+22231b2d667aa62288fb5a77ce704f7a3d0b3dc4|Implement multiple store configuration|Sat, 7 Nov 2015 04:12:00 +0000|Sat, 5 Mar 2016 00:32:39 +0000
+cda71192de9be99b8b68fa592a63c263ff38f48f|Switch glance to rspec-puppet-facts|Thu, 18 Feb 2016 22:58:47 -0700|Mon, 29 Feb 2016 16:33:46 -0700
+624f522e7156bcdd103a19177be4881e12ff9d49|Supports IPv6 in registry_host|Mon, 29 Feb 2016 12:55:22 -0500|Mon, 29 Feb 2016 12:57:49 -0500
+b3160011aaf47b6361fa020a1b69352394c99e13|Use http protocol by default in auth_address for Swift backend|Fri, 26 Feb 2016 16:05:04 +0300|Fri, 26 Feb 2016 16:10:45 +0300
+dff967ad98f774d153f63d32630cab75f4daf832|Remove unused keystone::python reference|Mon, 22 Feb 2016 21:08:49 -0700|Mon, 22 Feb 2016 21:08:49 -0700
+a1680f1693bf8541c12631bd583ed9413ecda249|docs: Update README.md to point to new Beaker URL|Thu, 4 Feb 2016 22:38:55 -0800|Thu, 4 Feb 2016 22:42:28 -0800
+c8b7d3319b00fe6cc72f3963f5f618bc176d18b4|Use glance-swift conf for swift backend|Tue, 2 Feb 2016 17:26:25 +0300|Tue, 2 Feb 2016 17:34:33 +0300
+7e2e1162d0466f6094e695e87fdba390c95cc6a2|Add support for min ram and min disk|Tue, 2 Jun 2015 16:33:05 +0200|Mon, 25 Jan 2016 17:54:41 -0800
+28bcf83e1463d4dc7585fcecf8689feda08f5c5b|drop mock dependency|Fri, 22 Jan 2016 09:39:26 -0500|Fri, 22 Jan 2016 09:39:26 -0500
+67bd15682e318167e8b2e0f720b97b62806e7026|Use puppet-openstack_spec_helper for Rakefile & spec_helper_acceptance|Mon, 18 Jan 2016 09:11:17 -0500|Mon, 18 Jan 2016 09:11:17 -0500
+b2aa99e0b895d2269c9c04e554a95ab902242157|Merge "Use openstack spec helper for spec defaults"|Sat, 16 Jan 2016 18:09:24 +0000|Sat, 16 Jan 2016 18:09:24 +0000
+1f8cacb7367e756966c377953abdcd557da97d7d|Merge "Add memcached_servers parameter"|Thu, 14 Jan 2016 19:55:04 +0000|Thu, 14 Jan 2016 19:55:04 +0000
+258b1905da379391eff6fd9c2dec03cf5a2f37bb|Use openstack spec helper for spec defaults|Thu, 14 Jan 2016 21:03:55 +0300|Thu, 14 Jan 2016 21:04:15 +0300
+f444097a7177bf1a2f6329444202b03b9bfd7042|Add memcached_servers parameter|Tue, 12 Jan 2016 19:07:01 +0800|Thu, 14 Jan 2016 02:45:19 +0800
+e58c73f9c6e3ec53961690df90f3d207d73c1e48|Merge "Update to pull in rspec-puppet-facts"|Wed, 13 Jan 2016 13:13:21 +0000|Wed, 13 Jan 2016 13:13:21 +0000
+a3bccf6363e493bd11bf5dc7ae7e0da0fd985daf|Merge "Create glance::cache::logging class"|Tue, 12 Jan 2016 15:11:24 +0000|Tue, 12 Jan 2016 15:11:24 +0000
+429c256ebc4ba916ae42dae6454e591503515614|Merge "Fix Swift store configuration"|Mon, 11 Jan 2016 13:52:46 +0000|Mon, 11 Jan 2016 13:52:46 +0000
+72fbeed3dce4c16bb5214e68445ca26ee3d4100d|Create glance::cache::logging class|Wed, 21 Oct 2015 15:50:28 +0200|Mon, 11 Jan 2016 16:10:16 +0300
+c324788ff680f1020b960be95c31a09eab8d18e0|Fix Swift store configuration|Fri, 8 Jan 2016 23:07:58 +0000|Sat, 9 Jan 2016 00:03:19 +0000
+81333fce40a79dd672170281747b7a516ad77fb1|Add rabbit_ha_queues option|Fri, 21 Aug 2015 15:46:41 +0800|Thu, 7 Jan 2016 08:57:52 +0000
+c9f7cbc8b59f460691317378fc429b79527c3d6c|Update to pull in rspec-puppet-facts|Wed, 6 Jan 2016 21:28:07 -0700|Wed, 6 Jan 2016 21:28:07 -0700
+aa3be4910522c45fcd09360ea8725c803eafbe2a|Merge "Default service_name to 'Image Service'"|Tue, 5 Jan 2016 17:58:05 +0000|Tue, 5 Jan 2016 17:58:06 +0000
+aea8027cbd4eb5f228cc76e8022a7c61476ae80c|Merge "Use identity_uri and auth_uri by default"|Tue, 5 Jan 2016 17:51:56 +0000|Tue, 5 Jan 2016 17:51:56 +0000
+17101434e1927a6cb2a71ccc9010f8debeb16ce7|Set os_region_name to $::os_service_default and drop warning|Sun, 3 Jan 2016 10:47:47 -0500|Sun, 3 Jan 2016 10:47:47 -0500
+148253cd27c9d7008ca133d11df641a29cb0e767|Use identity_uri and auth_uri by default|Wed, 30 Dec 2015 15:46:13 -0500|Sat, 2 Jan 2016 08:57:56 -0500
+80faf9a017dd7f4169867fbdae021866e4e3d5b6|Default service_name to 'Image Service'|Thu, 24 Dec 2015 14:22:25 +0100|Thu, 24 Dec 2015 16:52:10 +0100
+5917ed6fb80d331ba84d96ece805cbf99e854f11|Set auth_region to $::os_service_default and drop warning|Wed, 23 Dec 2015 23:06:15 +0100|Wed, 23 Dec 2015 23:06:15 +0100
+8e506f0167cf28234c5018ec9b3d11cfbd1a1e56|Merge "Add more settings to glance-api"|Wed, 23 Dec 2015 10:10:03 +0000|Wed, 23 Dec 2015 10:10:03 +0000
+0e829314391d22c30b419dae46034f9ea015e5d0|Fix unit tests failing against puppet 4.3.x|Tue, 22 Dec 2015 16:54:56 +0100|Tue, 22 Dec 2015 20:20:03 +0000
+866af363f35d45dd4aac1c0280bece68214297ac|Make Keystone_endpoint match service by name/type|Mon, 21 Dec 2015 16:06:38 +0100|Tue, 22 Dec 2015 18:06:57 +0100
+8b4b305bc86759a25c10502cce25f7c43728ba2b|Add more settings to glance-api|Mon, 21 Dec 2015 17:28:43 +1100|Tue, 22 Dec 2015 21:05:16 +1100
+d59acd22113d661191355778004f35a874523ac9|Merge "Preparation for default endpoint names rename"|Wed, 16 Dec 2015 05:48:39 +0000|Wed, 16 Dec 2015 05:48:39 +0000
+c3b685ba0dfd4a0ac78642844d9c16e5f472a78f|Merge "Let openstacklib manage openstackclient"|Thu, 10 Dec 2015 18:30:48 +0000|Thu, 10 Dec 2015 18:30:48 +0000
+144622fd30eaf8c65036d14ee333423ef6af4522|Preparation for default endpoint names rename|Wed, 14 Oct 2015 15:39:13 +0200|Wed, 9 Dec 2015 14:28:58 +0100
+938e7679e63a047715e51e836d6b640b775053b9|add more settings to glance api, registry, rabbitmq|Mon, 19 Oct 2015 18:07:43 +0300|Wed, 9 Dec 2015 11:51:27 +0200
+e7a46046133541dfa191caf1796f855664f8506d|Let openstacklib manage openstackclient|Thu, 3 Dec 2015 21:02:37 -0700|Tue, 8 Dec 2015 15:33:15 +0000
+118d6b58241f630c9a3b10f4070e964c18e63402|Merge "Remove qpid messaging support"|Tue, 8 Dec 2015 03:00:35 +0000|Tue, 8 Dec 2015 03:00:35 +0000
+0902c3dccdf416666d69b72dfe9df2c62c48a274|Merge "Support of PyMySQL driver for MySQL backend"|Mon, 7 Dec 2015 23:46:20 +0000|Mon, 7 Dec 2015 23:46:20 +0000
+72749e7a1d85ce6c3014d57e8060948342b820f5|Merge "Introduce glance::db class"|Mon, 7 Dec 2015 23:45:49 +0000|Mon, 7 Dec 2015 23:45:49 +0000
+dd53e39b11ed87e48593c28a80c4590f924c3e28|Remove qpid messaging support|Thu, 3 Dec 2015 19:35:57 +0300|Mon, 7 Dec 2015 20:30:10 +0300
+be5006e8dc3372d8c6c0e50acab9839d00db08c6|Merge "Remove references to puppet-openstack from README"|Mon, 7 Dec 2015 17:26:13 +0000|Mon, 7 Dec 2015 17:26:13 +0000
+c720e789259f9466d292db071d36a77f61071a3e|Remove unused cluster_id parameter|Sun, 6 Dec 2015 23:06:21 -0700|Sun, 6 Dec 2015 23:06:46 -0700
+f923a169e3202806f8673cec56d42610b71cb70a|Merge "Stop collecting glance services by name"|Thu, 3 Dec 2015 12:51:09 +0000|Thu, 3 Dec 2015 12:51:09 +0000
+b6a9a2fd93bb6943432ccf222ac1d8eb79f2f95a|Support of PyMySQL driver for MySQL backend|Wed, 18 Nov 2015 16:40:03 +0300|Thu, 3 Dec 2015 13:04:57 +0300
+d6d4ddbe8f15ecb4a32ca4de1e93bde7f3941ef5|Introduce glance::db class|Wed, 21 Oct 2015 13:07:42 +0300|Tue, 1 Dec 2015 19:12:34 +0300
+c8a13e0e6609308053b8121706937c76f2d0983a|Merge "Correct db sync for backwards compatibility"|Mon, 30 Nov 2015 20:27:44 +0000|Mon, 30 Nov 2015 20:27:44 +0000
+79a35c43aa00ffc2d0b5b85f36a3a1f8e899fabf|Merge "Update Glance Swift backend configuration"|Thu, 26 Nov 2015 15:25:27 +0000|Thu, 26 Nov 2015 15:25:27 +0000
+0e5ca8f1d7dcfe7011e8fba92337aec92896fe33|Checkout openstack-integration from master|Thu, 26 Nov 2015 11:12:21 +0100|Thu, 26 Nov 2015 11:12:21 +0100
+0f384787e3603f5a02c9905ba3696aef31a69552|release: prepare 7.0.0 (liberty)|Wed, 25 Nov 2015 11:38:06 +0100|Wed, 25 Nov 2015 11:51:22 +0100
+da26542fbbdcf93e454f3c91313c7c2f778f63d0|Fix unit tests against Puppet 4.3.0|Tue, 24 Nov 2015 10:02:50 +0100|Tue, 24 Nov 2015 10:05:01 +0100
+ee32828f45d647d4ec350160f6caf118598d2de0|Remove references to puppet-openstack from README|Sat, 21 Nov 2015 18:14:53 +0000|Sun, 22 Nov 2015 16:29:35 +0000
+acd95e6a3aa33245f54bcac1229880cd36100116| Add support of os_service_default fact in glance spec|Wed, 21 Oct 2015 12:54:54 +0300|Fri, 20 Nov 2015 12:53:35 +0000
+a530adfc7951b08e88c6b6716f99f1459ea8fed9|Stop collecting glance services by name|Fri, 30 Oct 2015 16:52:35 -0800|Thu, 19 Nov 2015 11:19:37 -0900
+166af71b1f21b186fe7bc90f186ea24c3e7d1507|Correct db sync for backwards compatibility|Thu, 19 Nov 2015 16:31:13 +0000|Thu, 19 Nov 2015 16:31:13 +0000
+5b7b2b3c838081e52f357121b3107309e89c1394|Acceptance: use common bits from puppet-openstack-integration|Wed, 18 Nov 2015 17:55:02 +0100|Wed, 18 Nov 2015 17:56:47 +0100
+c0bfee4922aadceb37d82e983a6204089032704f|Merge "Allow customization of db sync command line"|Wed, 18 Nov 2015 01:17:35 +0000|Wed, 18 Nov 2015 01:17:35 +0000
+09fec793da629e4d7c18265149a8347c0a293ff7|Update Glance Swift backend configuration|Mon, 16 Nov 2015 19:22:54 +0300|Mon, 16 Nov 2015 20:38:59 +0300
+3ed8a877a37b91e743bc3eae734b38ce1d4e65c3|Merge "Make sure Facter is only executed on agent"|Mon, 16 Nov 2015 14:20:19 +0000|Mon, 16 Nov 2015 14:20:19 +0000
+b011f425911294527b1724e952cc2c438c55ef13|Make sure Facter is only executed on agent|Tue, 10 Nov 2015 13:51:21 -0800|Thu, 12 Nov 2015 14:59:21 -0800
+817efcaf29ed96dfcef3ca58971a01b1c6ba4f91|Remove class_parameter_defaults puppet-lint check|Thu, 12 Nov 2015 12:34:07 +0100|Thu, 12 Nov 2015 12:34:07 +0100
+9babb26d31bc25477bb5223bc749901064ff57bb|Allow customization of db sync command line|Mon, 2 Nov 2015 22:04:35 +0000|Wed, 11 Nov 2015 15:15:27 +0000
+7eb99159757cab1350bc4686d6949affe0ed8507|Bump UCA and RDO to Liberty GA|Wed, 4 Nov 2015 10:04:35 -0500|Wed, 4 Nov 2015 10:04:35 -0500
+fc59a7a77786739084f9b517a631ccb1280e42ef|Merge "Try to use zuul-cloner to prepare fixtures"|Tue, 3 Nov 2015 18:16:47 +0000|Tue, 3 Nov 2015 18:16:47 +0000
+050a23bcd9495e7781191045e06124382f4c2ef1|Try to use zuul-cloner to prepare fixtures|Thu, 22 Oct 2015 19:42:17 +0300|Thu, 22 Oct 2015 19:43:25 +0300
+8a3981a43ab8fe05a3ced713613984fb68053079|Change section name for AMQP rabbit parameters|Wed, 21 Oct 2015 20:00:16 +0300|Wed, 21 Oct 2015 20:01:22 +0300
+62959150b1097e1520f49e701444d93b833b1d47|Change section name for AMQP qpid parameters|Wed, 21 Oct 2015 14:14:16 +0300|Wed, 21 Oct 2015 14:14:45 +0300
+604556667fcfb78a8ac0b6c3971fd8d9051a75b3|Prepare 6.1.0 release|Thu, 15 Oct 2015 09:29:17 -0400|Mon, 19 Oct 2015 14:59:40 -0400
+3ffcc382d0ed3e3cd441830d59965dd62a2be7e0|Merge "Remove deprecated mysql_module"|Thu, 15 Oct 2015 08:27:58 +0000|Thu, 15 Oct 2015 08:27:58 +0000
+26cbd53d991b4bbfcae1f354ab5cc16908185a3e|Remove deprecated mysql_module|Mon, 12 Oct 2015 19:50:39 -0600|Mon, 12 Oct 2015 19:51:48 -0600
+d6ad1f504eda3f1f0e0613ece9392dd8f78bf7b5|Merge "Put all the logging related parameters to the logging class"|Mon, 12 Oct 2015 12:16:12 +0000|Mon, 12 Oct 2015 12:16:12 +0000
+f55cebf7b64c03ff098db8c516d70b0119fc0266|Try to use zuul-cloner to prepare fixtures|Thu, 8 Oct 2015 14:37:41 -0700|Thu, 8 Oct 2015 14:51:07 -0700
+57009efc4a916b01a51ad4815f5ca74c3f094f47|file backend: do not inherit from glance::api|Fri, 2 Oct 2015 12:59:38 -0400|Fri, 2 Oct 2015 17:15:18 -0400
+db15ccd864f05c1ca46bb66ba805b86cb01b2b48|Merge "Add S3 backend configuration for glance"|Fri, 2 Oct 2015 07:58:06 +0000|Fri, 2 Oct 2015 07:58:06 +0000
+3231e353206da1efd27cc65302114c861f2cdb45|Put all the logging related parameters to the logging class|Fri, 25 Sep 2015 12:33:51 +0200|Thu, 1 Oct 2015 10:18:55 +0200
+594f56477feed634902b61d49385af8af704667f|Add S3 backend configuration for glance|Mon, 21 Sep 2015 10:18:42 -0600|Wed, 23 Sep 2015 20:44:40 -0600
+e5f3e1358aec833398660b4194cfe074786b5f7c|Bump RDO packages to tested repos|Tue, 22 Sep 2015 13:47:08 -0400|Tue, 22 Sep 2015 13:47:08 -0400
+03e1e00cbd2f33f937a1a2919e3c444f67fa0731|Merge "Initial msync run for all Puppet OpenStack modules"|Mon, 21 Sep 2015 10:45:05 +0000|Mon, 21 Sep 2015 10:45:05 +0000
+2993b223bb75f44734b34a58fca87a052a511e9e|Merge "Require at least 4.2.0 of stdlib"|Mon, 21 Sep 2015 10:19:07 +0000|Mon, 21 Sep 2015 10:19:07 +0000
+7147ba03233c110f3e7302aaa5d80fc1213ade8b|glance_image: hardcode os-image-api-version to 1|Fri, 18 Sep 2015 13:27:43 -0400|Fri, 18 Sep 2015 15:54:36 -0400
+de99b85614df9bbbe19214a21b584620cba43631|Require at least 4.2.0 of stdlib|Wed, 16 Sep 2015 11:35:33 +1000|Wed, 16 Sep 2015 11:35:33 +1000
+ed1425897f6e02871e0682347e2de01c84e24bf4|Merge "Update CHANGELOG.md and other files"|Mon, 14 Sep 2015 02:44:30 +0000|Mon, 14 Sep 2015 02:44:30 +0000
+1a6a0b916265d5c5e71d749d65f0adc4ca868b85|Merge "Creation of glance::db::sync"|Fri, 11 Sep 2015 14:42:00 +0000|Fri, 11 Sep 2015 14:42:00 +0000
+a5cee560b4dc10f0a9732d27898d3659f245232b|Merge "acceptance: switch RDO to CBS repositories"|Fri, 11 Sep 2015 12:03:00 +0000|Fri, 11 Sep 2015 12:03:00 +0000
+ef5652f1f8d11f9bbbce18106e08f284ea35415d|acceptance: switch RDO to CBS repositories|Thu, 10 Sep 2015 12:13:16 -0400|Thu, 10 Sep 2015 12:13:16 -0400
+0860b66fdc88c5a169e0e3886960a7e15f665c48|Fix rspec 3.x syntax|Thu, 10 Sep 2015 11:01:37 +0200|Thu, 10 Sep 2015 11:03:00 +0200
+bce0eac01c193f565e1b915c9002725800b9a069|Autorequire correct package based on the distro|Tue, 8 Sep 2015 13:00:53 -0400|Wed, 9 Sep 2015 12:37:30 +0200
+f20357a7cf8b4adebdfed894205b6f0f99487784|Merge " Add rados_connect_timeout parameter in glance config"|Tue, 8 Sep 2015 12:51:21 +0000|Tue, 8 Sep 2015 12:51:21 +0000
+bb43c57e4f4278352cebaf01c1d568f492605831|Merge "Reflect provider change in puppet-openstacklib"|Tue, 8 Sep 2015 11:25:00 +0000|Tue, 8 Sep 2015 11:25:00 +0000
+9c9dd6c1c3a36329a6783a45a5a10f827ec79b7c|Merge "Rely on autorequire for config resource ordering"|Tue, 8 Sep 2015 11:22:16 +0000|Tue, 8 Sep 2015 11:22:16 +0000
+48a7164021c8e4e85e5f6409896c45ee25f42218|Creation of glance::db::sync|Mon, 29 Jun 2015 13:12:27 +0200|Tue, 8 Sep 2015 10:46:21 +0200
+6ea3194989334a9d479e6e4eacb174161bdf9800|Initial msync run for all Puppet OpenStack modules|Tue, 4 Aug 2015 11:37:19 -0700|Fri, 4 Sep 2015 21:16:12 +0000
+2b4fee8c0d8fcbdf9b34c8ec87d4df635e4da3cb|acceptance: bump trusty packaging to trusty-proposed/liberty|Wed, 2 Sep 2015 14:29:48 -0400|Wed, 2 Sep 2015 21:11:21 +0000
+35c1701ba8817ace08f882a670d3d7152544d133|Merge "Add an ability to manage use_stderr parameter"|Tue, 1 Sep 2015 18:55:28 +0000|Tue, 1 Sep 2015 18:55:28 +0000
+323162d6c97ff0608decb4bbcc16800907807b7f| Add rados_connect_timeout parameter in glance config|Mon, 31 Aug 2015 14:00:54 +0300|Tue, 1 Sep 2015 08:19:40 +0300
+afa0ed8122a95aba44c6d23e3a7307c579f36e98|Make sure Glance_image is executed after Keystone_endpoint|Mon, 24 Aug 2015 21:55:37 -0400|Mon, 31 Aug 2015 16:34:13 -0400
+8db8143c89ddb830dc4377b66a6362a89b2d5cfb|Reflect provider change in puppet-openstacklib|Thu, 6 Aug 2015 13:03:01 +0200|Wed, 19 Aug 2015 12:42:38 +0200
+d769137e386052d801046e81e1e40a0744352213|Rely on autorequire for config resource ordering|Wed, 12 Aug 2015 11:48:20 +0200|Wed, 19 Aug 2015 12:41:16 +0200
+9989505da6a8eff4c606fc191de01f6d672e9046|Update CHANGELOG.md and other files|Sat, 15 Aug 2015 10:52:12 +0800|Sat, 15 Aug 2015 19:51:04 +0800
+4e8e53bff3818c7cfda3317426281d8f6c4ea295|Merge "acceptance: bump to Liberty release"|Fri, 14 Aug 2015 21:23:05 +0000|Fri, 14 Aug 2015 21:23:05 +0000
+1f4a545247049eebff60d7946fe3f648fce583b6|Add an ability to manage use_stderr parameter|Fri, 7 Aug 2015 15:44:19 +0300|Fri, 14 Aug 2015 18:43:52 +0000
+92912b93d43a82b5a99959381bfe246afcda0c3b|Merge "solve duplicate declaration issue for python-openstackclient"|Fri, 14 Aug 2015 13:09:41 +0000|Fri, 14 Aug 2015 13:09:41 +0000
+7128d96ddea449596f345dd7222b055417e70f3a|solve duplicate declaration issue for python-openstackclient|Wed, 12 Aug 2015 08:21:31 +0200|Thu, 13 Aug 2015 19:03:37 +0200
+ed81166320fa3c62b5bb85dfb5e91780b787dd77|Append openstacklib/lib to load path for type|Tue, 11 Aug 2015 17:48:33 -0700|Tue, 11 Aug 2015 17:48:33 -0700
+4bbdb70dbf83c585030f55bdf6e9d4f61a833cb0|Merge "Add ability to specify number of workers for glance-registry service"|Tue, 11 Aug 2015 22:50:20 +0000|Tue, 11 Aug 2015 22:50:20 +0000
+a2334ac2027a584f813c028c206774ee281e0ece|Merge "Use openstack/ namespace for fixtures modules"|Tue, 11 Aug 2015 16:31:07 +0000|Tue, 11 Aug 2015 16:31:07 +0000
+20e6ac73b90559ace753d210ea25ade1e8632684|Use openstack/ namespace for fixtures modules|Tue, 11 Aug 2015 14:49:55 +0200|Tue, 11 Aug 2015 14:49:55 +0200
+77f5141cf3c5ac73c84c51cb0bd5971abf8b4f7d|Add ability to specify number of workers for glance-registry service|Mon, 10 Aug 2015 18:48:39 +0300|Tue, 11 Aug 2015 12:38:44 +0300
+578252b06658f0b6936595ea4b6e4e5557166153|Merge "Use OpenstackClient for glance_image auth"|Fri, 7 Aug 2015 17:47:21 +0000|Fri, 7 Aug 2015 17:47:22 +0000
+c91884124b38dd9ae4f4181be45ebac69441778c|acceptance: bump to Liberty release|Tue, 4 Aug 2015 20:29:49 -0400|Tue, 4 Aug 2015 20:29:49 -0400
+8b8723d1b697079b082e6387392a3ee8ba76ff12|Update README.md for Glance|Fri, 31 Jul 2015 12:56:31 +0300|Fri, 31 Jul 2015 17:13:11 +0300
+cc75eaad20f2e227bc64dc63c898b005edb02129|Merge "Add swift_store_region parameter to glance::backend::swift"|Wed, 29 Jul 2015 18:18:39 +0000|Wed, 29 Jul 2015 18:18:39 +0000
+3458416af1ae14c27e57f599b320054a54d3f49e|Add swift_store_region parameter to glance::backend::swift|Mon, 6 Jul 2015 12:47:21 +0200|Thu, 23 Jul 2015 16:44:32 -0500
+92180ae9a13c9c48f4f1bec7a0805e02b768fb51|Add tag to package and service resources|Wed, 22 Jul 2015 10:14:50 +0200|Wed, 22 Jul 2015 20:05:30 +0200
+d09db618b6601045a743297ea0334160ec58eff1|Merge "fix module install reference"|Tue, 14 Jul 2015 20:19:17 +0000|Tue, 14 Jul 2015 20:19:17 +0000
+dc2fae0b7ebfd360498fb06070c4a9c744d8f088|fix module install reference|Wed, 8 Jul 2015 19:12:31 -0600|Mon, 13 Jul 2015 19:43:35 -0600
+fd35553989270216b34f8b1a050d637c83e8d056|Merge "Add support for RabbitMQ connection heartbeat"|Mon, 13 Jul 2015 16:21:10 +0000|Mon, 13 Jul 2015 16:21:10 +0000
+7c03b0b80ae6e23bc01725532c24b2a23dec40c9|Merge "Prepare 6.0.0 release"|Thu, 9 Jul 2015 16:58:22 +0000|Thu, 9 Jul 2015 16:58:22 +0000
+8d36b83c50e02a5d8378f539db731c17fa3c0413|Prepare 6.0.0 release|Wed, 8 Jul 2015 19:20:32 -0400|Wed, 8 Jul 2015 19:20:32 -0400
+0bb7577f7e4189495a148ca91f4f92c118e499e7|Fix git clone for locally running tests|Wed, 8 Jul 2015 11:40:45 -0700|Wed, 8 Jul 2015 11:56:25 -0700
+87d02193440496dce00248f89abe323655df36de|Merge "Fix section names for parameters"|Wed, 8 Jul 2015 16:05:10 +0000|Wed, 8 Jul 2015 16:05:10 +0000
+f13dd0ec89697de6669187284668434cd0e44487|Correct `puppet module list` check in beaker|Tue, 7 Jul 2015 13:34:21 -0700|Tue, 7 Jul 2015 13:58:01 -0700
+2ef0788e036bb1144b5a4b23d5c18de62ce28ada|Use module install script for acceptance tests|Tue, 7 Jul 2015 13:30:34 -0700|Tue, 7 Jul 2015 13:57:57 -0700
+8e4068031037e60646525c37de512c0ffe4443a7|Add support for RabbitMQ connection heartbeat|Mon, 22 Jun 2015 14:32:06 -0600|Tue, 7 Jul 2015 11:27:25 -0600
+05b0969c4d61a61a30b46fe5132f087fcab45967|Fix section names for parameters|Tue, 23 Jun 2015 19:43:29 +0300|Thu, 2 Jul 2015 18:43:25 +0300
+646a6cd15f2c358c6fde25dbb795615f45913d96|Use beaker-puppet_install_helper to install puppet|Tue, 30 Jun 2015 16:51:46 -0400|Tue, 30 Jun 2015 16:51:46 -0400
+39b58df7a8bde6fa3645e77965ce1380def32c99|Use OpenstackClient for glance_image auth|Fri, 10 Apr 2015 14:24:32 -0700|Mon, 29 Jun 2015 17:35:23 -0700
+a56c42fe59a65da729e5497fd83b9c430a197714|acceptance: install latest openstack-selinux|Mon, 29 Jun 2015 14:22:56 -0400|Mon, 29 Jun 2015 14:22:56 -0400
+4edba3f71e845b8e7e2af021d96ca9bc8a195e90|Update README.md for project namespace change|Mon, 22 Jun 2015 15:12:02 +0800|Sun, 28 Jun 2015 20:55:41 +0800
+41016d84ebf041c82580636637dc7653b19c2ffd|Merge "Split release notes into a CHANGELOG.md file"|Sun, 28 Jun 2015 18:49:46 +0000|Sun, 28 Jun 2015 18:49:46 +0000
+d0b89d242acabd288adf0910232e33673f703cde|Split release notes into a CHANGELOG.md file|Fri, 26 Jun 2015 13:14:13 -0700|Fri, 26 Jun 2015 13:42:05 -0700
+07a2b225922b02538773a3a3393b639ef2173d92|acceptance: install RDO repo the right way|Fri, 26 Jun 2015 15:20:07 -0400|Fri, 26 Jun 2015 15:20:07 -0400
+93f79bb56d7e761c1728beb050b661760683dbd6|Add acceptance test for glance image|Wed, 13 May 2015 17:32:19 -0700|Mon, 22 Jun 2015 17:19:15 -0700
+378523be4329f8f7d8bf5940143a7f45d57eb935|Revert "glance provider: pick os_region_name from DEFAULT"|Mon, 22 Jun 2015 17:17:14 -0700|Mon, 22 Jun 2015 17:18:12 -0700
+370af254e417e2ee19d5a67605a589626de8cba1|Unpin beaker-rspec|Mon, 8 Jun 2015 13:42:16 -0700|Thu, 18 Jun 2015 10:55:26 -0700
+6affc4341b12b272bc3b82fc338d86bee37bf806|Release 5.1.0 - Juno|Wed, 17 Jun 2015 13:59:05 -0400|Wed, 17 Jun 2015 14:20:16 -0400
+344aaa68cbfa24ef8217460b5ce45ed6b5dbafa5|Merge "Revert "Revert "Move rabbit/kombu settings to oslo_messaging_rabbit section"""|Wed, 17 Jun 2015 14:22:18 +0000|Wed, 17 Jun 2015 14:22:18 +0000
+b27dc358684a9851babbd8e5c51cc8870bf21f83|Merge "Introduce public_url, internal_url and admin_url"|Wed, 17 Jun 2015 00:10:00 +0000|Wed, 17 Jun 2015 00:10:01 +0000
+8fc6667c1ac586012993bba1ee86aec457613b30|Merge "Update spec_helper_acceptance for project renames"|Mon, 15 Jun 2015 23:47:27 +0000|Mon, 15 Jun 2015 23:47:27 +0000
+c17afb139f608a00aeea920f240c9eadb41a6ee1|Update spec_helper_acceptance for project renames|Fri, 12 Jun 2015 17:36:18 -0700|Fri, 12 Jun 2015 17:36:18 -0700
+7fc2ba21a7ee8cc81826f2bcc74f0a7fa5b6687e|Update .gitreview file for project rename|Fri, 12 Jun 2015 22:41:19 +0000|Fri, 12 Jun 2015 23:12:30 +0000
+1225528086c6e0e5aa96984865746b22c66a874a|Introduce public_url, internal_url and admin_url|Thu, 11 Jun 2015 15:03:52 -0400|Thu, 11 Jun 2015 16:49:10 -0400
+88b74f869aed0c3fd2fb4b27e0f3956991399414|Merge "The package python-ceph no longer exists in el7, use python-rbd."|Wed, 10 Jun 2015 18:56:11 +0000|Wed, 10 Jun 2015 18:56:11 +0000
+c71644d9eb2372fb7b736125d0673fa24bafc052|Correct password parameter for glance::api|Mon, 8 Jun 2015 13:32:27 -0700|Mon, 8 Jun 2015 13:40:50 -0700
+59310353b09e44d92a74ecca5bf9ee1e46ea0d97|Rename class_spec.rb to basic_glance_spec.rb|Wed, 13 May 2015 15:32:03 -0700|Mon, 8 Jun 2015 13:40:49 -0700
+104829144f24eaaa38374f2a0a664b3b739a234c|Bring Redhat support to acceptance tests|Tue, 12 May 2015 00:12:04 -0400|Mon, 8 Jun 2015 13:40:33 -0700
+d4563e25e753459f887eda0e007813d89dfbf664|Beaker: install APT repo with openstack_extras|Mon, 11 May 2015 16:05:12 -0400|Mon, 8 Jun 2015 13:14:16 -0700
+ef19c5584da92084c0c804392d6e0c3ac92c2ab9|The package python-ceph no longer exists in el7, use python-rbd.|Wed, 3 Jun 2015 18:53:09 -0400|Mon, 8 Jun 2015 14:35:52 -0400
+199d90ec6c26c06b2c84016b6ec3b44775b1d631|Merge "Add more details on running tests to the readme"|Sun, 7 Jun 2015 14:39:14 +0000|Sun, 7 Jun 2015 14:39:14 +0000
+e39a6bf022a7221c0557f66214106d2bcc6b9017|Merge "Fix ubuntu vagrant box nodesets"|Sun, 7 Jun 2015 14:38:31 +0000|Sun, 7 Jun 2015 14:38:31 +0000
+611045f2137f7ba14e639a73ee2f70870de31876|Add endpoint type parameter|Wed, 13 May 2015 18:27:33 +0300|Tue, 26 May 2015 10:14:42 +0000
+b8383e497ef555b98abc4367130f966f4b51e763|Add more details on running tests to the readme|Mon, 11 May 2015 13:53:00 -0700|Mon, 11 May 2015 13:53:00 -0700
+ffc5c0c00bde7ad225fc38112175a1946b31f53b|Fix ubuntu vagrant box nodesets|Mon, 11 May 2015 13:52:25 -0700|Mon, 11 May 2015 13:52:25 -0700
+c76d39605ff311eaba6ca226ac7dac19f86279ed|Decouple sync_db from manage_service and enabled|Wed, 6 May 2015 13:29:19 +0200|Mon, 11 May 2015 14:57:30 +0200
+0db42a6a60bd4952f795d61ea26ed299e8c35bc8|Merge "Fix spec tests for RSpec 3.x and Puppet 4.x"|Tue, 28 Apr 2015 19:44:01 +0000|Tue, 28 Apr 2015 19:44:01 +0000
+1d388344661b056c45e79e3c189f82db6ed0d69b|make service description configurable|Mon, 27 Apr 2015 17:05:39 -0700|Tue, 28 Apr 2015 09:31:17 -0700
+60de7b77df0d3705e7b18cf346651d3922b47e3d|Fix spec tests for RSpec 3.x and Puppet 4.x|Tue, 28 Apr 2015 03:10:07 +0200|Tue, 28 Apr 2015 10:51:56 +0200
+b76fbcbea34b510191964cc3ed6a4c8e6f2acbfe|glance provider: pick os_region_name from DEFAULT|Fri, 24 Apr 2015 15:31:14 -0400|Fri, 24 Apr 2015 16:13:55 -0400
+9f345f97d12af09685c86fb236c3bf44273b10d6|Bump rspec-puppet to 2.1.0|Wed, 22 Apr 2015 23:47:53 -0400|Wed, 22 Apr 2015 23:47:53 -0400
+15e08072566e7c05abeff9c73079fc16f1b9cb8f|Merge "Revert "Revert "Fix os_region_name in provider"""|Wed, 22 Apr 2015 15:48:20 +0000|Wed, 22 Apr 2015 15:48:20 +0000
+5609850a577050aa7a6692e41bbd3abc5cd1fed7|Merge "Revert "Fix os_region_name in provider""|Wed, 22 Apr 2015 15:47:29 +0000|Wed, 22 Apr 2015 15:47:29 +0000
+b803a9a983bfd09c40e94bcb8a5ca10348af38ae|Merge "Revert "Move rabbit/kombu settings to oslo_messaging_rabbit section""|Wed, 22 Apr 2015 15:43:50 +0000|Wed, 22 Apr 2015 15:43:50 +0000
+a758389de6e6b22a20a716905f55df973b11bef9|Merge "MySQL: change default MySQL collate to utf8_general_ci"|Wed, 22 Apr 2015 04:00:30 +0000|Wed, 22 Apr 2015 04:00:30 +0000
+2f614cf9fd15a5348ac11eb617e63883598f0497|MySQL: change default MySQL collate to utf8_general_ci|Tue, 21 Apr 2015 13:08:15 -0400|Tue, 21 Apr 2015 18:53:13 -0400
+79d307044a3b2189278fdcb230625a6eae282d27|Beaker tests|Thu, 16 Apr 2015 20:22:58 -0400|Mon, 20 Apr 2015 17:44:38 -0400
+eaddd54d8ac87571a01046b5da7dbca33f3b3a59|Merge "Synchronize LICENSE file with OpenStack projects"|Mon, 20 Apr 2015 14:26:32 +0000|Mon, 20 Apr 2015 14:26:33 +0000
+aa19066721a8efe5ddc545a7a9b36c8f6a65cccc|Synchronize LICENSE file with OpenStack projects|Tue, 14 Apr 2015 16:58:10 -0400|Mon, 20 Apr 2015 09:05:59 -0400
+62c42a5f6122d146f8c4e292c878cdd3e958a85f|Revert "Revert "Fix os_region_name in provider""|Fri, 17 Apr 2015 17:42:55 -0700|Fri, 17 Apr 2015 17:43:49 -0700
+e2301958e9dd4086fb6f5689499e5bb39e87e208|Revert "Fix os_region_name in provider"|Sat, 18 Apr 2015 00:42:07 +0000|Fri, 17 Apr 2015 17:42:37 -0700
+c0feafd0e9705870349b6b75ef1727ddd6b81035|Merge "Revert "Separate api and registry packages for Red Hat""|Fri, 17 Apr 2015 18:48:10 +0000|Fri, 17 Apr 2015 18:48:10 +0000
+268370457c118e62b93990cea31066c477ab0dbc|Revert "Revert "Move rabbit/kombu settings to oslo_messaging_rabbit section""|Fri, 17 Apr 2015 10:14:14 -0700|Fri, 17 Apr 2015 10:14:38 -0700
+d302170d260f4e6585fedc1b4709c953d0491c56|Revert "Move rabbit/kombu settings to oslo_messaging_rabbit section"|Fri, 17 Apr 2015 17:13:52 +0000|Fri, 17 Apr 2015 17:13:52 +0000
+876e857b29970081737e47d4a9ffe63d9776b73e|Revert "Separate api and registry packages for Red Hat"|Fri, 17 Apr 2015 13:37:04 +0000|Fri, 17 Apr 2015 13:37:04 +0000
+354ae692a502a6089f4f82b3b58ee2aaa42443a2|Fix os_region_name in provider|Thu, 16 Apr 2015 18:29:09 +0200|Thu, 16 Apr 2015 18:39:08 +0200
+3f07c87f888e8770ca85e976688c25c0c6a90e9d|Merge "Change location to be a param, not a property"|Thu, 16 Apr 2015 14:00:28 +0000|Thu, 16 Apr 2015 14:00:28 +0000
+9c1b0a90d93913548dbada13076cac1470cc5993|Merge "Separate api and registry packages for Red Hat"|Thu, 16 Apr 2015 08:51:01 +0000|Thu, 16 Apr 2015 08:51:01 +0000
+c49cf8dbaacd7810572f69b0e45982703626dc64|Pin puppetlabs-concat to 1.2.1 in fixtures|Wed, 15 Apr 2015 15:25:52 -0700|Wed, 15 Apr 2015 15:25:52 -0700
+25ad0bfbbc86fe959ff4855027b3c6060aac1d22|Merge "Move rabbit/kombu settings to oslo_messaging_rabbit section"|Tue, 14 Apr 2015 18:40:24 +0000|Tue, 14 Apr 2015 18:40:24 +0000
+1d0a8ba83dfa0b4970b1b40259f45e3dd77ea543|Change location to be a param, not a property|Fri, 10 Apr 2015 14:28:25 -0700|Fri, 10 Apr 2015 15:18:34 -0700
+5f15e05704b2e549b8fab1c643a6ee743a0e92f4|Separate api and registry packages for Red Hat|Fri, 10 Apr 2015 16:23:50 +0200|Fri, 10 Apr 2015 18:07:12 +0200
+067ba2150a6c0ce4669bbbaf7e5aa8a09922df3e|Merge "Fix API/Registry ensure for Ubuntu"|Fri, 10 Apr 2015 15:26:20 +0000|Fri, 10 Apr 2015 15:26:20 +0000
+81a9c1acb1072a7b2c9a143b78ca90c29fc8abb6|Fix API/Registry ensure for Ubuntu|Thu, 26 Mar 2015 11:13:07 -0600|Fri, 10 Apr 2015 08:29:43 -0600
+ab054853e18da72cc2eeb544d67eef743e389b5c|Create a sync_db boolean for Glance.|Sat, 4 Apr 2015 15:33:39 +0200|Tue, 7 Apr 2015 11:52:26 +0200
+e6e8f6a56231409028ff1e7cdcd44781ca37d5b0|Move rabbit/kombu settings to oslo_messaging_rabbit section|Wed, 1 Apr 2015 07:06:19 -0700|Thu, 2 Apr 2015 22:54:42 -0600
+101ca5b088f3aec5d70c567f29dfdfa5609524ab|Move rbd related options into glance_store section|Thu, 26 Mar 2015 14:48:46 +0800|Thu, 26 Mar 2015 14:48:46 +0800
+0eed538b35d636f38bec93bf9d3cefa6803efae8|Merge "Fix catalog compilation when not configuring endpoint"|Thu, 19 Mar 2015 23:29:32 +0000|Thu, 19 Mar 2015 23:29:32 +0000
+ec48075eca6b02424aa6c1cb8a4618a3c8e05fd9|api: change default pipeline|Wed, 11 Mar 2015 10:44:17 -0400|Tue, 17 Mar 2015 15:45:46 -0400
+2c9b22a668546d412e8c0d2e1035a3850a0bb441|Merge "Add $notification_driver parameter to notify::rabbitmq"|Mon, 16 Mar 2015 08:17:55 +0000|Mon, 16 Mar 2015 08:17:55 +0000
+7aa1e3ecf99a0ea1dd308665cfee4f1ecec3d945|Merge "Command parameter to sync the correct Database"|Fri, 13 Mar 2015 16:23:50 +0000|Fri, 13 Mar 2015 16:23:50 +0000
+9be4c24d98176304a823d14817b74faef02310f4|Add $notification_driver parameter to notify::rabbitmq|Wed, 4 Mar 2015 15:33:12 +0100|Thu, 12 Mar 2015 09:45:40 +0100
+ee0549f15dd6b9442b559ca363b934b60588b7e2|Fix catalog compilation when not configuring endpoint|Wed, 18 Feb 2015 14:14:17 +0000|Wed, 11 Mar 2015 21:33:39 +0100
+c114412c3688b9c3807ab167de99b69361ae6f19|Merge "spec: updates for rspec-puppet 2.x and rspec 3.x"|Wed, 11 Mar 2015 17:12:02 +0000|Wed, 11 Mar 2015 17:12:02 +0000
+39a7cdde5ceaf754eb65fd4f35eb25073546ea14|Merge "Fix lint issues (doc, metadata, manifests)"|Wed, 11 Mar 2015 17:08:22 +0000|Wed, 11 Mar 2015 17:08:22 +0000
+9f44421ceb54f970986fd96d2e66faccba1909ec|Support identity_uri in provider|Tue, 3 Mar 2015 16:42:09 +0100|Tue, 3 Mar 2015 16:42:09 +0100
+dbe297b0566024504ac19244fff6c3168f4cb9f5|spec: updates for rspec-puppet 2.x and rspec 3.x|Wed, 25 Feb 2015 05:37:44 +0100|Wed, 25 Feb 2015 05:37:44 +0100
+c51c22770d2f371d7135300378e7bc14eb3fa193|Command parameter to sync the correct Database|Mon, 23 Feb 2015 13:06:35 +0100|Mon, 23 Feb 2015 13:06:35 +0100
+0d834093814b3d184eff36b2835530a847ee6421|Fix lint issues (doc, metadata, manifests)|Mon, 23 Feb 2015 01:29:11 +0100|Mon, 23 Feb 2015 01:29:11 +0100
+9a4568c3610d96ab0fe8543b133b317aca801b76|Merge "Add Puppet 4.x lint checks"|Thu, 12 Feb 2015 16:28:56 +0000|Thu, 12 Feb 2015 16:28:56 +0000
+4ccd0981a135ef2ec1edec8d9e002cbf64f0dcd8|Merge "Add openstack tag to glance packages"|Mon, 9 Feb 2015 21:17:17 +0000|Mon, 9 Feb 2015 21:17:17 +0000
+237f7d9b44bce45aab1f8f95de03b0c44d403119|Merge "Correct docs on format for glance::policy data"|Mon, 9 Feb 2015 21:15:13 +0000|Mon, 9 Feb 2015 21:15:13 +0000
+d72e768a10bdc6602017c004f21578c0f61efd41|Add Puppet 4.x lint checks|Mon, 9 Feb 2015 16:48:42 +0000|Mon, 9 Feb 2015 17:02:48 +0000
+2dff962a6505b890654f8a258638e746194ad35e|Support identity_uri|Mon, 2 Feb 2015 15:40:09 -0700|Thu, 5 Feb 2015 15:20:26 +0000
+cbf332618494548df8f6a6eab59e808ff034f8ec|Add openstack tag to glance packages|Fri, 30 Jan 2015 18:57:13 -0700|Thu, 5 Feb 2015 15:20:18 +0000
+553d098745bdbe4d22fba7eef6978444fee258fe|Merge "Makes kombu_ssl_* parameters optional when rabbit_use_ssl => true"|Wed, 4 Feb 2015 13:28:34 +0000|Wed, 4 Feb 2015 13:28:34 +0000
+eed2801f238fd4c518a552dd0e055b812903f54f|spec: pin rspec-puppet to 1.0.1|Tue, 3 Feb 2015 15:32:20 +0100|Tue, 3 Feb 2015 15:32:20 +0100
+15b0a7dc825b1182f9e0e35c109ed7a6aaa51fd7|Makes kombu_ssl_* parameters optional when rabbit_use_ssl => true|Mon, 2 Feb 2015 13:36:00 +0100|Mon, 2 Feb 2015 13:36:54 +0100
+0a246c01c54dae3416193c51b5f2307d9c895f9b|Merge "fixtures: Unpin puppetlabs-mysql module"|Thu, 22 Jan 2015 03:42:28 +0000|Thu, 22 Jan 2015 03:42:28 +0000
+121a74f45fe81a3777e5b13a0a9704984dc4df35|Merge "Switch to TLSv1 as SSLv3 is considered insecure and is disabled by default"|Mon, 12 Jan 2015 23:42:10 +0000|Mon, 12 Jan 2015 23:42:10 +0000
+ad5bb3d76b98b847bac5ed2467a46173343a1264|Correct docs on format for glance::policy data|Mon, 12 Jan 2015 15:27:20 -0700|Mon, 12 Jan 2015 15:27:20 -0700
+2b64d1b838db9e43f8fb28648317518e0662c11b|fixtures: Unpin puppetlabs-mysql module|Tue, 30 Dec 2014 19:01:24 +0100|Mon, 12 Jan 2015 20:22:13 +0100
+592503bef1196d69c0e44efca3bea19104c3862b|Switch to TLSv1 as SSLv3 is considered insecure and is disabled by default|Fri, 2 Jan 2015 20:17:29 +0100|Mon, 12 Jan 2015 16:42:01 +0000
+30d215a7843823ae47f9926ab64aa1ba5f81ebd1|Merge "Allow overriding ensure for glance-registry"|Mon, 12 Jan 2015 12:29:35 +0000|Mon, 12 Jan 2015 12:29:35 +0000
+2dae7deda32cf48a65448bc1cf43977e2142deb9|Merge "Migrate postgresql backend to use openstacklib::db::postgresql"|Sun, 11 Jan 2015 23:55:57 +0000|Sun, 11 Jan 2015 23:55:57 +0000
+9befc700a1b086b6f81fbb959a4c7520e83be5ad|Allow overriding ensure for glance-registry|Wed, 7 Jan 2015 13:45:50 +0000|Wed, 7 Jan 2015 13:53:23 +0000
+81f58412602466db083c29ca5a768761590a7a0e|Fix typo|Wed, 7 Jan 2015 08:00:37 -0500|Wed, 7 Jan 2015 08:00:59 -0500
+7857c67e242712b7c7230d25c3f16438a48b414c|Migrate postgresql backend to use openstacklib::db::postgresql|Tue, 30 Dec 2014 19:05:14 +0100|Tue, 30 Dec 2014 19:05:14 +0100
+d16b5b0e06e44d7276f3501385046c4b0adf1ada|Merge "Fix is_public munge"|Mon, 29 Dec 2014 11:12:53 +0000|Mon, 29 Dec 2014 11:12:53 +0000
+390cd7787ef2911688e125252c6dfb2f02eca303|Merge "Service Validation for Glance-API"|Tue, 23 Dec 2014 03:37:35 +0000|Tue, 23 Dec 2014 03:37:35 +0000
+06182be5f78e2eb5616511e90948011f818b8f0c|Fix is_public munge|Fri, 19 Dec 2014 00:51:52 +0100|Fri, 19 Dec 2014 00:51:52 +0100
+2fa0df1e3ba95511449800c6df6dbb1e1fb01d5e|Service Validation for Glance-API|Fri, 21 Nov 2014 11:25:31 -0500|Mon, 8 Dec 2014 18:43:09 -0500
+8a89b31ec639e245d1882eeeb1bde439c96aab7e|Merge "Fix spelling of OpenStack"|Mon, 8 Dec 2014 13:56:18 +0000|Mon, 8 Dec 2014 13:56:18 +0000
+ddece842ec0df2f6f545525ad288174e46fc7079|Merge "Correctly munge glance_image is_public property"|Mon, 8 Dec 2014 12:15:33 +0000|Mon, 8 Dec 2014 12:15:33 +0000
+26dac12bb54a7966f9a2f08a9cb3569a2b6822e9|Fix spelling of OpenStack|Mon, 8 Dec 2014 08:33:47 +0100|Mon, 8 Dec 2014 08:33:47 +0100
+df07c15bdb17ccf5f4617bd8976eae072e991d34|Merge "Refactorise Keystone resources management"|Wed, 3 Dec 2014 22:23:23 +0000|Wed, 3 Dec 2014 22:23:24 +0000
+031609b57284cf13877ce727c2e4672831a3dbe2|Correctly munge glance_image is_public property|Thu, 27 Nov 2014 21:49:28 +0100|Thu, 27 Nov 2014 21:49:28 +0100
+99eea1138f28f8e20654a25f820af87e6441dafe|Merge "Remove deprecated parameters"|Wed, 26 Nov 2014 08:02:52 +0000|Wed, 26 Nov 2014 08:02:52 +0000
+e16f86e37c742e121bd329370537d245efa1477b|Remove deprecated parameters|Tue, 25 Nov 2014 13:50:46 -0500|Tue, 25 Nov 2014 13:50:46 -0500
+a243f89a52f7dd2dc16b36d1c9b79ec1616c6596|Merge "Release 5.0.0 - Juno"|Mon, 24 Nov 2014 15:41:36 +0000|Mon, 24 Nov 2014 15:41:36 +0000
+24d5c3425f6016e9eb6447a4041a7419eada3d31|Merge "Update [glance_store] section in glance config for Juno"|Sat, 22 Nov 2014 15:19:12 +0000|Sat, 22 Nov 2014 15:19:12 +0000
+feb9cdfe9bdaeded5a7e89c25200d429e8adaac5|Release 5.0.0 - Juno|Fri, 21 Nov 2014 10:13:44 -0800|Fri, 21 Nov 2014 10:47:52 -0800
+ac5c2bcf66f78ce5506585335e50a9f107c31c6a|Refactorise Keystone resources management|Wed, 19 Nov 2014 23:29:36 -0500|Wed, 19 Nov 2014 23:31:42 -0500
+908a62b2b932d833baef368c9c56499a23355e75|Update [glance_store] section in glance config for Juno|Tue, 28 Oct 2014 17:37:46 -0400|Fri, 14 Nov 2014 19:30:39 +0100
+916a90ebdc3e9fafe956b12dcaa0e0ce3e7e3f04|Merge "Let image upload happen after configuration is applied"|Thu, 13 Nov 2014 19:29:13 +0000|Thu, 13 Nov 2014 19:29:13 +0000
+e90ea396267f960ec3379e36e42600078548de67|policy.pp : Fix duplicate ressource issue openstacklib::policy|Mon, 10 Nov 2014 14:19:13 -0500|Mon, 10 Nov 2014 14:19:13 -0500
+a03acf54bf3163fc068196a6d4d62a5605ab4965|Merge "Fix glance_image for local images"|Mon, 10 Nov 2014 14:33:16 +0000|Mon, 10 Nov 2014 14:33:16 +0000
+fa5c362f0fb279003aaeb5927c6e312e0d128ec8|Let image upload happen after configuration is applied|Wed, 1 Oct 2014 02:28:08 +0200|Sun, 9 Nov 2014 16:19:03 +0100
+a33a9d6250064bb5238a34aa49212f9e4ba4e2fd|Merge "policy.json: Allow one to manage them from the puppet module"|Sun, 9 Nov 2014 11:26:49 +0000|Sun, 9 Nov 2014 11:26:49 +0000
+90bf62341d0adceb9c5dbb3520c46286fbaccee7|Fix glance_image for local images|Wed, 5 Nov 2014 11:06:47 +0100|Wed, 5 Nov 2014 11:06:47 +0100
+fced3226c25701fc940bf3fc997366fb9c3ba44c|Merge "Add support vSphere Datastore backend for Glance"|Sun, 2 Nov 2014 17:46:26 +0000|Sun, 2 Nov 2014 17:46:26 +0000
+400b7755768c9a93a5a301a94e1e3213f1d50660|Merge "Add parameter to set os_region_name in glance config"|Sun, 2 Nov 2014 17:22:21 +0000|Sun, 2 Nov 2014 17:22:22 +0000
+a97bf994798530cd3ae939044c062410f9bf87a6|Add parameter to set os_region_name in glance config|Sun, 26 Oct 2014 14:46:17 -0700|Fri, 31 Oct 2014 16:23:19 -0700
+c90a83595396dda9e89b2a695ab2bd6c441e0bf5|policy.json: Allow one to manage them from the puppet module|Fri, 26 Sep 2014 19:03:16 -0400|Wed, 22 Oct 2014 11:08:41 -0400
+7d8e7339e6638ed8c3ceffa180d1e4f269603431|Switch to metadata.json for Puppet forge releases|Sat, 27 Sep 2014 11:30:26 +0200|Wed, 22 Oct 2014 15:53:48 +0200
+bb8e5301ed9c7edc4bd5ff4e18dd5a30f3abc943|Add support vSphere Datastore backend for Glance|Mon, 6 Oct 2014 16:26:33 +0400|Thu, 9 Oct 2014 19:10:34 +0400
+abd028a5f6b0e5e139cb53678482299b8c55b0d3|Run the `glance` CLI tool with appropriate region name|Wed, 1 Oct 2014 01:34:57 +0200|Thu, 9 Oct 2014 16:27:37 +0200
+f377c0229c006b02f43a14be4979553e983cb98e|Update deprecated Glance CLI|Wed, 1 Oct 2014 11:44:21 -0400|Wed, 1 Oct 2014 18:27:17 +0200
+3c074d708c8980c47e83a80b1a4359189a1332b1|Merge "New parameter for swift backend"|Mon, 29 Sep 2014 05:13:38 +0000|Mon, 29 Sep 2014 05:13:38 +0000
+09c71e607604e22832714628d5ea645df47fe165|Merge "Add manage_service feature"|Mon, 29 Sep 2014 04:25:09 +0000|Mon, 29 Sep 2014 04:25:09 +0000
+0940a45a88c8c1b45ea4de599fdc33c1f8097563|Merge "add command_options to glance::cache::[cleaner|pruner]"|Mon, 29 Sep 2014 04:19:06 +0000|Mon, 29 Sep 2014 04:19:06 +0000
+baa47b4bbad03ef2316c1b80a2f512749a6f022a|New parameter for swift backend|Thu, 25 Sep 2014 17:12:21 -0700|Thu, 25 Sep 2014 17:31:41 -0700
+b8a59c770654ad30868239773725c803c61e3a7b|add command_options to glance::cache::[cleaner|pruner]|Mon, 22 Sep 2014 10:38:29 +0200|Tue, 23 Sep 2014 08:17:29 +0200
+0cb9b37f939bede2f6aaef975c0820e33ce60460|Update stdlib dependency to 4.x|Mon, 22 Sep 2014 15:30:39 -0700|Mon, 22 Sep 2014 15:30:39 -0700
+da217a13f5f3b1123a16566d7a3c2e69360b432b|Add manage_service feature|Mon, 25 Aug 2014 15:15:55 +0200|Wed, 17 Sep 2014 14:30:37 +0200
+246842f13cd06aeb0ce07959ff892f21749a340f|Make user creation optional when creating service.|Fri, 22 Aug 2014 15:38:36 +0300|Thu, 11 Sep 2014 12:22:47 +0300
+78042d76c0854e16a55aaf05c03696d4d422e3c5|Merge "Add $package_ensure to glance::backend::rbd"|Thu, 4 Sep 2014 15:47:46 +0000|Thu, 4 Sep 2014 15:47:46 +0000
+0c9d0600956556948c90172177316048c279b520|Merge "Adds ability to override service name for service catalog"|Wed, 3 Sep 2014 22:17:34 +0000|Wed, 3 Sep 2014 22:17:34 +0000
+1f27e17ea0cdde36d096d476875930c48f51c311|Adds ability to override service name for service catalog|Wed, 13 Aug 2014 09:03:36 -0600|Wed, 3 Sep 2014 09:06:03 -0600
+6d1c8b9e3d329caeec2712a2aea7f9d21d4c7a01|Merge "Migrate mysql backend to use openstacklib::db::mysql"|Wed, 3 Sep 2014 03:27:17 +0000|Wed, 3 Sep 2014 03:27:17 +0000
+b90915292290c8f84e7bc022680079e7ce78ebf7|Add $package_ensure to glance::backend::rbd|Tue, 2 Sep 2014 11:11:37 +1200|Tue, 2 Sep 2014 20:15:16 +1200
+dbcb82fa36024d94e27e72f294c243470785f03c|Migrate mysql backend to use openstacklib::db::mysql|Fri, 11 Jul 2014 10:35:50 -0700|Thu, 14 Aug 2014 08:45:41 -0700
+a432119ff65142c9570ba0c664bd774819b54643|Merge "Hide secrets from puppet logs"|Mon, 4 Aug 2014 17:00:18 +0000|Mon, 4 Aug 2014 17:00:18 +0000
+82f4a55342ca8aa28e81161acb2ca6bd9e31a6a6|Merge "Use 2.2 as the default mysql_module"|Tue, 29 Jul 2014 23:10:40 +0000|Tue, 29 Jul 2014 23:10:40 +0000
+0f1bfd62d444face7a21eabf08d6f56b2426ce40|Merge "Set dep from glance cron jobs to api package"|Fri, 18 Jul 2014 16:34:10 +0000|Fri, 18 Jul 2014 16:34:10 +0000
+d620ff6b1cb82971ef40a3717b8fdc0b9fd9d425|Set dep from glance cron jobs to api package|Thu, 17 Jul 2014 13:26:37 -0700|Thu, 17 Jul 2014 13:28:14 -0700
+c3a25eac47bb6ae34bcd86a75e713d49ace40789|Use 2.2 as the default mysql_module|Wed, 16 Jul 2014 18:43:48 +0530|Wed, 16 Jul 2014 18:45:39 +0530
+a0c5c271effa0d613a0436646bf240ef9be27d2b|Hide secrets from puppet logs|Wed, 11 Jun 2014 10:36:39 +0200|Sat, 12 Jul 2014 02:42:13 +0200
+6eee231cf4fd6581d1bfbdaaddc736cc087b93ab|Merge "Normalize Gemfile & pin tests to rspec < 2.99"|Wed, 9 Jul 2014 19:11:39 +0000|Wed, 9 Jul 2014 19:11:39 +0000
+bdcbad7830b39dbef96db3ea10baa17d4922e5d6|Make Modulefile summary and description consistent|Wed, 2 Jul 2014 13:53:31 -0400|Thu, 3 Jul 2014 17:05:59 -0400
+49917bc22a0c04f51aab899ff04ac0ce71298906|Merge "Fix test regression: each statement isn't correctly used here."|Thu, 26 Jun 2014 12:12:26 +0000|Thu, 26 Jun 2014 12:12:26 +0000
+7f439210b1197efc55ec148074a598b1cb1e3816|Glance registry protocol should be configurable|Tue, 17 Jun 2014 11:59:39 +0800|Tue, 24 Jun 2014 10:50:43 +0800
+6e38374e16276619161f7bddd185155493c5d908|Normalize Gemfile & pin tests to rspec < 2.99|Fri, 20 Jun 2014 07:56:01 -0400|Fri, 20 Jun 2014 09:14:49 -0400
+3bf6ea5b3e21a72230cbadf4c8722850f6389bfe|Merge "Fix could not find user glance on ensure files"|Tue, 27 May 2014 17:52:08 +0000|Tue, 27 May 2014 17:52:08 +0000
+bc324e40ec6c962a36a811a0a8aeccced869a1c1|Fix test regression: each statement isn't correctly used here.|Wed, 21 May 2014 00:28:55 +0200|Wed, 21 May 2014 02:57:59 +0200
+c891ed9ef2cd472becec178ad54cda0727cad6f1|Fail when ssl parameters are missing and rabbit_use_ssl is set to true|Thu, 15 May 2014 16:01:09 -0400|Fri, 16 May 2014 12:22:11 -0400
+7f49ebc23a213c75b64fba9216e1316fc1eb80d8|Fix could not find user glance on ensure files|Fri, 16 May 2014 15:29:36 +0200|Fri, 16 May 2014 16:09:24 +0200
+8156a87cd04943904258d572e47838d0c346654f|Deprecate old SQL parameters|Thu, 8 May 2014 15:25:06 +0200|Thu, 8 May 2014 15:25:06 +0200
+5eb145b1c55ea33f2c027ac1dcac417261ccbd61|api: add image_cache_dir parameter|Thu, 8 May 2014 00:05:30 +0200|Wed, 7 May 2014 22:27:36 +0000
+cb0daf02d7a991be642e62294912d93b036c6a5a|Merge "Fixes wrong values in get_glance_image_attrs"|Mon, 5 May 2014 19:42:02 +0000|Mon, 5 May 2014 19:42:02 +0000
+f3bbfd9efcc2436d6ed4beca87d62168bb109453|Merge "4.0.0 - 2014.1.0 - Icehouse Release"|Mon, 5 May 2014 18:55:51 +0000|Mon, 5 May 2014 18:55:51 +0000
+d40f3d8622378c08aa89a557b75cfa7d5a0525cb|Add multiple rabbit hosts support|Thu, 24 Apr 2014 10:50:43 +0300|Mon, 5 May 2014 09:28:27 +0300
+0adbbcf9f44367cb840c8786b05c35c63d7d2f41|Fixes wrong values in get_glance_image_attrs|Sun, 4 May 2014 10:14:17 -0600|Sun, 4 May 2014 10:14:17 -0600
+f6c865a05536e21641b620fcda72ac249e25cd53|Merge "Fixed the Glance add_image parser for new client"|Thu, 1 May 2014 18:05:06 +0000|Thu, 1 May 2014 18:05:06 +0000
+dafc60c5dfe9914c37ddb89f03ba2a029b1ba7c3|4.0.0 - 2014.1.0 - Icehouse Release|Thu, 1 May 2014 10:18:28 -0700|Thu, 1 May 2014 10:48:18 -0700
+d8d951f328e241586d3531a8a02dde2388046a47|Fixed the Glance add_image parser for new client|Tue, 29 Apr 2014 11:47:16 -0700|Wed, 30 Apr 2014 09:13:06 -0700
+f8fb89023262986f9f53f2080809a29817c9499a|fix rspec tests in backend::rbd and notify::qpid|Fri, 25 Apr 2014 23:52:33 +0200|Wed, 30 Apr 2014 06:16:37 +0000
+4b680dd60f6de77361dcd53ab54480c53b990fb8|Merge "add kombu_ssl parameters to notify::rabbitmq"|Tue, 29 Apr 2014 16:18:21 +0000|Tue, 29 Apr 2014 16:18:21 +0000
+353a8cf11f1f125dde308e6bb004e4c5a873af70|add kombu_ssl parameters to notify::rabbitmq|Thu, 24 Apr 2014 11:26:51 +0200|Fri, 25 Apr 2014 23:14:08 +0200
+394661ec4acdadcf2989fadea6444e45cf7611a8|support separate registry/api packages|Tue, 1 Apr 2014 15:59:29 +0200|Tue, 15 Apr 2014 21:50:35 +0200
+e61e47d664e4d18e849bc7c3d5f40f452397d0f4|Merge "Add known_stores option in class glance::api"|Tue, 15 Apr 2014 13:13:28 +0000|Tue, 15 Apr 2014 13:13:28 +0000
+e08774a2815fa596627cbb1057232ec8a6cce0d4|Add known_stores option in class glance::api|Tue, 10 Dec 2013 13:56:34 +0800|Fri, 11 Apr 2014 15:32:23 +0800
+15b41da00842dbe9a3bf196bd80dec4887dbb98f|Merge "replaced deprecated parameter notifier_strategy"|Mon, 7 Apr 2014 19:23:42 +0000|Mon, 7 Apr 2014 19:23:42 +0000
+91d7acfe820c800fabc8db0555500fd73cdd3e98|Merge "Introduce glance:config to manage custom options"|Mon, 7 Apr 2014 14:22:24 +0000|Mon, 7 Apr 2014 14:22:24 +0000
+13b832ddf26a2ba4defcf051a0e20940df71cdcd|replaced deprecated parameter notifier_strategy|Fri, 4 Apr 2014 13:13:26 +0200|Fri, 4 Apr 2014 13:13:26 +0200
+11f5e87a0fe9f9adefcc2b814c4d26950f7dd760|Introduce glance:config to manage custom options|Thu, 3 Apr 2014 18:11:55 +0800|Thu, 3 Apr 2014 18:11:55 +0800
+5dd84047646f95f78d9646e01871f294d07ed532|deprecate show_image_direct_url in glance::rbd|Tue, 1 Apr 2014 16:31:35 +0200|Wed, 2 Apr 2014 20:26:26 +0200
+dba437e8afbe33d969eb4703a4cf2bd4b6629739|Change mysql default charset to utf8|Mon, 31 Mar 2014 22:09:30 -0700|Mon, 31 Mar 2014 22:09:30 -0700
+3fc1cc41cb02a0f3bd8cf6e615fee1503c9b3cf8|Merge "Updated to match semver and release notes."|Fri, 28 Mar 2014 21:50:48 +0000|Fri, 28 Mar 2014 21:50:48 +0000
+dfa1102219e000fd949920f1b11390e7143f0d08|Merge "Added copy-on-write cloning of images to volumes."|Thu, 27 Mar 2014 14:02:52 +0000|Thu, 27 Mar 2014 14:02:52 +0000
+d66bdb0ff35aa0fa49133de2fb110bb6494a6eaa|Updated to match semver and release notes.|Fri, 21 Mar 2014 15:55:41 -0700|Wed, 26 Mar 2014 14:14:25 -0700
+3393e27b57a70b44bde3668872d3e2c620d60dbf|Merge "Update glance_image provider with API v2"|Wed, 26 Mar 2014 12:42:54 +0000|Wed, 26 Mar 2014 12:42:54 +0000
+779496ecad57d07d67649689df2278effd584fb9|Added copy-on-write cloning of images to volumes.|Tue, 25 Mar 2014 12:36:45 -0700|Tue, 25 Mar 2014 12:36:45 -0700
+a33e9cb82d4dc6f3e84a881ee4612fa2f346ef65|Fixed gate by Updating Gemfile to pin Rake to 10.1.1|Mon, 24 Mar 2014 15:31:42 -0700|Mon, 24 Mar 2014 15:31:55 -0700
+4aa86af2fcb4fc0742c3c0c5fc3c842416730eda|Add support for puppetlabs-mysql 2.2|Tue, 18 Feb 2014 01:45:00 +1100|Sat, 22 Mar 2014 02:12:28 +1100
+6c870fd847dd1c724ca6b34d5c0e214a522e3436|Merge "set ssl options for glance-registry"|Thu, 20 Mar 2014 17:25:46 +0000|Thu, 20 Mar 2014 17:25:46 +0000
+e866507782dfc8c279f230a0b5223dd121a76277|set ssl options for glance-api|Fri, 7 Mar 2014 10:09:41 +0100|Wed, 19 Mar 2014 08:16:46 +0100
+5182c5cd782e408192932a30ac03a21676ba7ba2|set ssl options for glance-registry|Fri, 7 Mar 2014 10:33:41 +0100|Wed, 19 Mar 2014 08:11:39 +0100
+cea9f69ad5c8e9dc2331f50841787cb139e786c5|Update glance_image provider with API v2|Mon, 20 Jan 2014 04:44:40 +0100|Mon, 17 Mar 2014 11:06:32 +0000
+833c3845a28a169399bafe0c8dd4c492da993b7d|add parameter for endpoint protocols|Thu, 6 Mar 2014 16:12:51 +0100|Wed, 12 Mar 2014 06:28:09 +0000
+31ced7533455c4a6e155702d73a1ef9c5475627d|Merge "Add ability to purge config"|Mon, 10 Mar 2014 15:57:51 +0000|Mon, 10 Mar 2014 15:57:51 +0000
+c629376782efbc55bcf882543fa5801ddf5f1cfb|Add ability to purge config|Sun, 23 Feb 2014 17:30:58 +1100|Sun, 23 Feb 2014 18:28:55 +1100
+1d5a298f4110842d71860c8f9fda722914dbba73|Add log_dir param. by default and allow users to disable it|Thu, 20 Feb 2014 13:31:58 +0100|Thu, 20 Feb 2014 13:55:46 +0100
+da192ec225f5a4b10c127103d7e1757dec954d31|Merge "Use remove_warnings from puppet-keystone"|Wed, 19 Feb 2014 15:06:29 +0000|Wed, 19 Feb 2014 15:06:29 +0000
+9bc8d08681d6fdf1bbe682625ea9500118f21e3b|Use remove_warnings from puppet-keystone|Thu, 23 Jan 2014 16:37:40 +0100|Wed, 12 Feb 2014 10:50:27 +0100
+715216c3dc313243ff566e380758cd495950988f|Add availability to configure show_image_direct_url|Tue, 28 Jan 2014 19:28:46 +0100|Mon, 3 Feb 2014 10:23:46 +0100
+30fd048fc8ced1392ca45bae51685ea2a5edfdf6|Make sure swift backend in-file documentation matches actual code.|Wed, 8 Jan 2014 15:10:50 -0500|Wed, 8 Jan 2014 15:16:23 -0500
+114bcc1386928c157a0ddb046ccd791e2ddb0cba|Merge "Add Gemfile.lock to gitignore"|Sun, 29 Dec 2013 07:06:28 +0000|Sun, 29 Dec 2013 07:06:28 +0000
+cdeb5a4f83a233179bd1c612b9e40ce9bb943e6b|Merge "Remove use of deprecated include_class matcher"|Mon, 23 Dec 2013 19:49:03 +0000|Mon, 23 Dec 2013 19:49:03 +0000
+f7c1dfd824d5f85963427ea3f25b4cac8e9cb38d|Add Gemfile.lock to gitignore|Mon, 23 Dec 2013 19:02:37 +0100|Mon, 23 Dec 2013 19:06:49 +0100
+cfcf186ae2464d5adea4dd97221f5039f12a2f92|Remove use of deprecated include_class matcher|Mon, 23 Dec 2013 02:29:27 -0500|Mon, 23 Dec 2013 02:30:14 -0500
+2208119f8dfe64a0ae3acab6f64d614394dc0587|Using contain_class instead of include_class|Tue, 17 Dec 2013 21:59:44 -0600|Tue, 17 Dec 2013 21:59:44 -0600
+eb7c33bb1f04acde5e55cfee37fa900af0f3bf5f|Add Cinder backend to image store|Thu, 28 Nov 2013 18:21:05 +0100|Tue, 3 Dec 2013 13:29:51 +0100
+5557c224f37c22b058c951d7494448981cb484a2|Replace qpid_host with qpid_hostname|Wed, 13 Nov 2013 14:02:14 +0100|Wed, 20 Nov 2013 10:38:09 +0100
+3c0558188a0673018f5856d1aec4e88b1cc0a2e9|Add parameter qpid_protocol to notify::qpid so ssl can be enabled.|Thu, 14 Nov 2013 15:03:20 -0500|Thu, 14 Nov 2013 15:04:12 -0500
+cabf6d6b6cedf71629bd8c9379959b63440adb78|Ensure keystone endpoint set before service starts|Wed, 30 Oct 2013 15:45:21 +1100|Tue, 5 Nov 2013 18:02:40 +0800
+93ebf43ea46bf6a8caa305bb35c14dfe6ebb4dee|Preparing for 2.2.0 release.|Mon, 7 Oct 2013 12:00:28 -0700|Mon, 7 Oct 2013 12:01:07 -0700
+d0834a23aa5a019f4d9dd5003961e65052495ef3|Merge "Documentation fix for admin_address"|Tue, 24 Sep 2013 17:35:35 +0000|Tue, 24 Sep 2013 17:35:35 +0000
+e7241533eaefb12e20331ab23465d17667405f99|Merge "Fix puppet-lint issue with documentation"|Tue, 24 Sep 2013 17:34:06 +0000|Tue, 24 Sep 2013 17:34:06 +0000
+d3a0c45609ac910d1e7dc5029a45a4ab051e80f7|Pin postgresql to 2.5.|Tue, 24 Sep 2013 09:41:29 -0700|Tue, 24 Sep 2013 09:42:37 -0700
+b7960d5b1658a895ddbdaba7129b95744079c5e0|Documentation fix for admin_address|Fri, 20 Sep 2013 21:11:52 -0400|Fri, 20 Sep 2013 21:11:52 -0400
+2718557e41babad6feae50c15f6268fc0379ef58|Fix puppet-lint issue with documentation|Fri, 20 Sep 2013 19:48:11 -0400|Fri, 20 Sep 2013 19:48:34 -0400
+9c1d02dffa275f60f80386d5a8e1ed74b0f54029|Merge "Update glance::backend::rbd options"|Wed, 18 Sep 2013 06:55:45 +0000|Wed, 18 Sep 2013 06:55:45 +0000
+6dc226bbde6a3fffb5be200df0801ff3e91ceecf|Update glance::backend::rbd options|Thu, 5 Sep 2013 16:50:56 +0800|Sun, 8 Sep 2013 14:03:07 +0800
+e2fef179c13faf0a4ac6d1a512701cb873ede355|Update glance::notify::rabbitmq options|Thu, 5 Sep 2013 12:04:00 +0800|Fri, 6 Sep 2013 09:12:53 +0800
+a1b2406c9c27cc169967244228457c0056904b39|Merge "Add syslog support to the glance module"|Tue, 3 Sep 2013 14:10:54 +0000|Tue, 3 Sep 2013 14:10:54 +0000
+3fe2895a712bd466aa381579a30add889322864c|Change keystone tenant and user default|Fri, 30 Aug 2013 17:57:04 -0700|Fri, 30 Aug 2013 18:09:23 -0700
+c96750897c113ed19104e46883c276b22789bdc7|Fail puppet-lint on warnings|Wed, 28 Aug 2013 14:16:59 -0400|Wed, 28 Aug 2013 14:16:59 -0400
+7672c8b8fa9836f151cbc386140054cb2fbf54be|Remove non-implemented glance::scrubber|Wed, 28 Aug 2013 14:12:32 -0400|Wed, 28 Aug 2013 14:12:32 -0400
+a79c1916813087f720946d0e153d9558d9f0a828|Add syslog support to the glance module|Wed, 28 Aug 2013 10:16:16 +0200|Wed, 28 Aug 2013 14:40:43 +0200
+adcb347abd13bde8e0e3803e2d99597965f8f395|Add default auth_uri setting for auth token.|Thu, 8 Aug 2013 17:16:42 -0400|Tue, 27 Aug 2013 15:45:11 -0400
+3d3c342bb386fec99863456ceee1e1a8a197591d|Clean all warnings for puppet-lint gate|Tue, 13 Aug 2013 10:26:45 +0200|Tue, 13 Aug 2013 10:27:18 +0200
+f2ffec82af9a39dc3f7f0dc2c2c90eb35e2b5d22|Disable 80chars/class_parameter_defaults checks|Mon, 12 Aug 2013 16:46:14 -0400|Mon, 12 Aug 2013 17:48:28 -0400
+93d02bb11524f24a88e6c311123e9f2234681f84|Include iso as supported disk_format|Mon, 12 Aug 2013 11:40:29 -0400|Mon, 12 Aug 2013 11:41:12 -0400
+86868bd15c803e25e249133df91c4e0dcfb2938a|Fix some puppet lint warnings.|Fri, 9 Aug 2013 16:44:47 +0000|Fri, 9 Aug 2013 16:44:47 +0000
+9a09177d888ff2b60044edf8e75a5d99538fe2d0|Puppet Forge release 2.1.0|Wed, 7 Aug 2013 10:12:42 -0700|Wed, 7 Aug 2013 17:59:30 -0700
+3fb580a4f316aaf6cc3a1e20063207886b8b0c01|Fix lint failures|Wed, 7 Aug 2013 16:38:18 -0700|Wed, 7 Aug 2013 16:39:14 -0700
+8c1b2b26fbd87f45f5d44230950ee12bfd161923|Update modulefile and fixtures to use puppetlabs/inifile|Wed, 7 Aug 2013 11:37:57 -0700|Wed, 7 Aug 2013 11:39:16 -0700
+dc503dacbb2a6c5901477cee1fbcf4a10a1d04e8|Fix the glance_image type example so that it can actually be used.|Thu, 1 Aug 2013 00:19:58 -0700|Thu, 1 Aug 2013 00:19:58 -0700
+71ef2e44083e1ecdcd886133e568a61955d4b025|Merge "Add glance-cache-cleaner and glance-cache-pruner"|Thu, 1 Aug 2013 05:45:55 +0000|Thu, 1 Aug 2013 05:45:55 +0000
+c38d00ab06d807f0dcbb0b767e801b6730ef4990|Merge "Update allowed_hosts conditional statement"|Thu, 1 Aug 2013 05:08:49 +0000|Thu, 1 Aug 2013 05:08:49 +0000
+aee08d0cbbf3f8c13040dbf6abc652f678b88f37|Update allowed_hosts conditional statement|Tue, 30 Jul 2013 19:04:34 +0800|Thu, 1 Aug 2013 12:11:41 +0800
+986dfaa3c0b615e040ebd32c956ab325ae493086|Remove --silient-upload option, which is invalid|Mon, 29 Jul 2013 09:29:57 -0400|Mon, 29 Jul 2013 13:57:18 -0400
+7da1f3bf2d03403768367375996eb3e0551a3f77|Add glance-cache-cleaner and glance-cache-pruner|Tue, 23 Jul 2013 16:19:48 -0400|Wed, 24 Jul 2013 18:11:29 -0400
+67790ef1d485917652d899bab2679e1a4d54e88e|Pin rabbit and mysql to major version for fixtures|Wed, 24 Jul 2013 14:01:18 -0700|Wed, 24 Jul 2013 14:33:31 -0700
+1121d7dccdc9e01437732496e6d6b0c589774753|Remove Unnecessary mysql::server Dependency|Thu, 18 Jul 2013 22:14:33 +0000|Thu, 18 Jul 2013 22:14:47 +0000
+479afbd6da636e4fd63ac45651b4524b3516ed6a|Merge "Add support for rbd in glance"|Tue, 16 Jul 2013 20:43:21 +0000|Tue, 16 Jul 2013 20:43:21 +0000
+850bca13c71e069dfca7dff3b633ca7f746ead61|Glance provider should retry once when service is not ready|Tue, 9 Jul 2013 00:23:43 -0700|Tue, 9 Jul 2013 00:26:26 -0700
+bf195330726434c18456e9d6e975d54afac0eb6a|Add support for rbd in glance|Fri, 5 Jul 2013 08:19:29 +0200|Mon, 8 Jul 2013 15:01:10 +0200
+3a0003f9bbf4699202efce511e719dd4f8df3b44|Merge "Configure glance-cache.conf with file backend"|Sat, 6 Jul 2013 21:55:24 +0000|Sat, 6 Jul 2013 21:55:24 +0000
+2467c4f74ba34d9c1b7648b0caf54d2dda83afe7|Merge "Configure glance-cache.conf with swift backend"|Sat, 6 Jul 2013 21:55:09 +0000|Sat, 6 Jul 2013 21:55:09 +0000
+f2313ce6affbd235a898536bf2e51b0330b70e8f|Merge "Do not initialize version_control for database"|Sat, 6 Jul 2013 01:08:57 +0000|Sat, 6 Jul 2013 01:08:57 +0000
+fe39edd577ee9f281853e6e59dd6c212652f495e|Configure glance-cache.conf with file backend|Tue, 2 Jul 2013 19:19:09 -0400|Tue, 2 Jul 2013 19:30:07 -0400
+95dd566b9ba5bc1ccc532f501c720e083801ffb2|Configure glance-cache.conf with swift backend|Tue, 2 Jul 2013 19:28:49 -0400|Tue, 2 Jul 2013 19:29:49 -0400
+d5567e6aef204f405e50c0a61068a41ea0470f01|Various Puppet lint fixes|Mon, 1 Jul 2013 17:24:57 -0400|Mon, 1 Jul 2013 17:34:19 -0400
+ca13c19b8a245d87c34488fbc4014688b5d18636|Do not initialize version_control for database|Mon, 1 Jul 2013 00:18:57 -0400|Mon, 1 Jul 2013 00:27:56 -0400
+ffbe1c566f86786b542ac5abfd23e1d86b7f94c5|Merge "Allow blank keystone flavor in glance configs"|Tue, 25 Jun 2013 07:24:53 +0000|Tue, 25 Jun 2013 07:24:53 +0000
+d265f87c77d5d02fb3f2e76188d32fa80f8c7a96|Puppet Forge release 2.0.0|Mon, 24 Jun 2013 21:17:16 -0700|Mon, 24 Jun 2013 21:17:16 -0700
+53d2b7eeb6dab921af5d2cbc050cbdc087f39c7c|glance::client was not installing the correct package|Thu, 20 Jun 2013 10:20:22 -0700|Thu, 20 Jun 2013 10:22:27 -0700
+a633d9f59ab1cd612d4f6508c33618acc6e54935|Allow blank keystone flavor in glance configs|Mon, 17 Jun 2013 01:07:28 +0000|Tue, 18 Jun 2013 09:59:42 +0930
+ebb78d8d016132075d9c66d54debec4c59dd6474|fix api.pp and registry.pp to work with postgresql|Mon, 17 Jun 2013 20:31:06 +0200|Mon, 17 Jun 2013 20:31:06 +0200
+b144d4e6c5082f7061c59c7179ddc17ef6dc15ab|Fix misnamed protocol param in glance-api.conf|Thu, 13 Jun 2013 19:38:16 -0400|Fri, 14 Jun 2013 10:56:57 -0400
+bf4fe406aa20f6b0987d13d6492179bf7e86b30a|Check if auth_admin_prefix is defined|Thu, 13 Jun 2013 00:38:07 +0000|Fri, 14 Jun 2013 09:35:18 +0930
+dc98e9bb585078c743d1d2f9d5ac920f55d1c72c|Add support for auth_admin_prefix in glance|Tue, 11 Jun 2013 11:28:53 +0200|Tue, 11 Jun 2013 17:26:28 +0200
+202a27b66aa0bf9303c25dcd33f9c1d7636d1b17|Prepare repository for a Puppet Forge release|Mon, 27 May 2013 12:40:37 -0700|Fri, 7 Jun 2013 15:58:56 -0700
+1028e92f81f92b36f678a1b0acb3cd06788cd97a|Add missing glance::params include in client|Wed, 5 Jun 2013 13:19:54 -0400|Wed, 5 Jun 2013 13:19:54 -0400
+94f25c83da22a7c432f8d04c6095dc2eccf205bf|Merge "Use boolean instead of string"|Wed, 29 May 2013 05:42:09 +0000|Wed, 29 May 2013 05:42:09 +0000
+500eca909378a256098e569cfe261f4a4779987b|Merge "Capitalize boolean values in config files"|Wed, 22 May 2013 18:22:44 +0000|Wed, 22 May 2013 18:22:44 +0000
+bc3893a7a5805f4d6f012fcad43553b0566aec07|Add puppet-lint to Gemfile|Tue, 21 May 2013 19:37:02 -0400|Tue, 21 May 2013 19:37:02 -0400
+f126d462abe771b873165f2c9566531e44c1aa90|Capitalize boolean values in config files|Tue, 21 May 2013 19:30:22 -0400|Tue, 21 May 2013 19:30:22 -0400
+b04232aecb04616e6738cd30405e08b6c895d953|Use boolean instead of string|Thu, 9 May 2013 23:12:33 -0400|Thu, 9 May 2013 23:12:33 -0400
+44a82aa06a265e74cc2a3a9db65c0de979070416|Replace deprecated :rubygems source|Thu, 2 May 2013 16:25:57 -0400|Thu, 2 May 2013 16:27:19 -0400
+3ade42f65e2a7049d02eb1028ac39234055145e4|Allow paste deploy flavor to be passed for glance api|Fri, 26 Apr 2013 05:48:39 -0400|Fri, 26 Apr 2013 05:51:59 -0400
+1598196ae7898174b5f30e70293320f3c1a67598|Add glance::db::postgresql class.|Tue, 23 Apr 2013 12:09:49 -0400|Tue, 23 Apr 2013 12:58:39 -0400
+ce05af0ea81efdff7c18cefb7451456f2403937c|update README|Tue, 16 Apr 2013 17:51:07 -0700|Tue, 16 Apr 2013 17:51:07 -0700
+0919451cafe7e5c3d6703386bcb7589acec8747f|Merge "Add swift_store_auth_version to swift backend."|Fri, 12 Apr 2013 02:51:36 +0000|Fri, 12 Apr 2013 02:51:36 +0000
+5dbcb47c50737600e341b4083bfdd5f7636dc8e4|Add swift_store_auth_version to swift backend.|Thu, 4 Apr 2013 18:23:05 -0400|Thu, 11 Apr 2013 11:30:41 -0400
+b857918b2c2120610c43d9de4b0a9f63c267699a|Add gitreview|Wed, 10 Apr 2013 13:39:05 -0700|Wed, 10 Apr 2013 13:39:23 -0700
+d3eab8dfff7f7709d384da52f549a9174782078d|Update fixtures location to use stackforge.|Wed, 10 Apr 2013 14:55:57 -0400|Wed, 10 Apr 2013 14:55:57 -0400
+3ce02dbd69cc3827e80455568901e7bb030f137d|Make swift backend not enherit glance::api.|Thu, 4 Apr 2013 18:26:28 -0400|Thu, 4 Apr 2013 18:26:28 -0400
+1cf25907ebeb5163a9562d9eaaacfdf2714e5853|Merge pull request #75 from bodepd/1_1_0|Tue, 19 Mar 2013 10:30:41 -0700|Tue, 19 Mar 2013 10:30:41 -0700
+b14a29d87c2ed44082c5ebdd27437bfe908db06c|release 1.1.0|Tue, 19 Mar 2013 10:29:16 -0700|Tue, 19 Mar 2013 10:29:16 -0700
+913d3cc62771e92c30331beef76dd7e16ccd191d|Merge pull request #68 from bodepd/move_file_path_to_class|Sun, 10 Mar 2013 22:33:34 -0700|Sun, 10 Mar 2013 22:33:34 -0700
+a4c91d204d6e3ee4cce23bb41b5722dfba26554b|Merge pull request #73 from bodepd/add_2_6_support|Tue, 5 Mar 2013 14:59:34 -0800|Tue, 5 Mar 2013 14:59:34 -0800
+806325be4e8c5a6565ad594017d357d55b9a13ab|update travis file to add 2.6 and 3.1 support|Tue, 5 Mar 2013 14:03:17 -0800|Tue, 5 Mar 2013 14:16:37 -0800
+7cbd4bbf8c6e896bac53467a8102539272f06664|changes required to support purging|Fri, 11 Jan 2013 16:07:21 -0800|Mon, 4 Mar 2013 16:03:58 -0800
+f7ac383869196224f417bb43310b11a80dd0c77a|Merge pull request #72 from bodepd/update_travis_no_2_6|Sun, 3 Mar 2013 20:15:01 -0800|Sun, 3 Mar 2013 20:15:01 -0800
+7f0ddd2c55485cf569bf0d21748b43828000695e|remove 2.6 support for travis file|Sun, 3 Mar 2013 20:05:25 -0800|Sun, 3 Mar 2013 20:05:25 -0800
+71292d1eea1acbd27dbf3a363435b20035c545db|Merge pull request #71 from bodepd/rewrite_glance|Wed, 20 Feb 2013 14:22:26 -0800|Wed, 20 Feb 2013 14:22:26 -0800
+9a766567742a1f8e92f033fdeffd449c58cb11e6|refactor of glance_image|Wed, 20 Feb 2013 14:16:03 -0800|Wed, 20 Feb 2013 14:16:03 -0800
+5cefdae1e488fc473bd1e40d6acf26b0895657c5|Merge pull request #70 from bodepd/fix_image_name|Fri, 15 Feb 2013 16:04:21 -0800|Fri, 15 Feb 2013 16:04:21 -0800
+cc86b4592d52613e040986a4605fd090be050e60|do not add quotes to image name|Fri, 15 Feb 2013 16:02:04 -0800|Fri, 15 Feb 2013 16:02:04 -0800
+c677f76583ffac6245889c0d6728fc00cf57b200|Merge pull request #66 from fcharlier/fc/fix_endpoint|Wed, 13 Feb 2013 20:40:40 -0800|Wed, 13 Feb 2013 20:40:40 -0800
+3edac516cec6bd4fa1554bfb25a9381157a6bfdc|Add ruby19 and puppet3 to travis matrix|Sat, 9 Feb 2013 02:28:49 -0800|Sat, 9 Feb 2013 02:28:49 -0800
+e267f684474fa7cb1cd5496cd451707e3ae63b09|Update README.md|Wed, 2 Jan 2013 11:44:56 -0800|Wed, 2 Jan 2013 11:44:56 -0800
+39d8f079b8e7eea0f175edf55cb7b68547d19217|Merge pull request #67 from bodepd/readme_format_update|Wed, 2 Jan 2013 11:43:55 -0800|Wed, 2 Jan 2013 11:43:55 -0800
+f0aa282c39d5bbbb9c6071c26afb28e96aac4bdb|reformat readme|Wed, 2 Jan 2013 11:42:25 -0800|Wed, 2 Jan 2013 11:42:25 -0800
+e223f7ef9e0b0eb921d2abe9c1e559d17ce12e3f|Merge pull request #65 from eglynn/glance_api_sql_connection_config|Tue, 18 Dec 2012 10:13:05 -0800|Tue, 18 Dec 2012 10:13:05 -0800
+ab7f830524fdbc2d00e697a1b5c54ee7edf0a688|And don't forget to update the tests !|Tue, 18 Dec 2012 17:25:05 +0100|Tue, 18 Dec 2012 17:25:05 +0100
+51dc02d14580747b360bfdba2e3f8f9219134ac3|Glance's Keystone endpoint does not need the '/v1'|Tue, 18 Dec 2012 16:57:27 +0100|Tue, 18 Dec 2012 16:57:27 +0100
+b08af59f34c49daf20ee6a668a6eb5ef22851da7|site.pp overrides sql_connection for glance-api.conf also|Tue, 18 Dec 2012 14:01:47 +0000|Tue, 18 Dec 2012 15:22:45 +0000
+6f16dc953aaaf4cc8fb29289549e6ca2e899ea65|Merge pull request #62 from derekhiggins/https_endpoint|Wed, 21 Nov 2012 18:57:50 -0800|Wed, 21 Nov 2012 18:57:50 -0800
+68f7aecfeb85c5e875bdee2aef7118c4424c408f|Adding the ability to specify https for the public endpoint|Wed, 21 Nov 2012 12:53:12 -0500|Wed, 21 Nov 2012 23:10:18 +0000
+124b88181e5860c67992c7c5d5038eb3130c628d|Merge pull request #60 from aimonb/master|Sun, 11 Nov 2012 20:05:33 -0800|Sun, 11 Nov 2012 20:05:33 -0800
+567bf0863e4648c1727a756aad6ce90ee947e7f0|Move from parsing glance-api-paste.ini to glance-api.conf|Sun, 11 Nov 2012 14:11:26 -0800|Sun, 11 Nov 2012 14:11:26 -0800
+b7359fef471047671be5a9e3a897616cea2b91db|Merge pull request #58 from aimonb/master|Wed, 7 Nov 2012 08:52:36 -0800|Wed, 7 Nov 2012 08:52:36 -0800
+7f73e9fe810d7cc5750f0e477aef9da5893f1daf|Fic syntax error|Wed, 7 Nov 2012 02:21:45 -0800|Wed, 7 Nov 2012 02:21:45 -0800
+3342b54638c1e251b4141087c68488752d69995d|Release 1.0.0|Fri, 2 Nov 2012 12:38:15 -0700|Fri, 2 Nov 2012 12:38:15 -0700
+936da9c1e910adc1e3594bfce8a59c9ecc4cfdc6|Merge pull request #56 from bodepd/doc_updates|Wed, 31 Oct 2012 16:08:55 -0700|Wed, 31 Oct 2012 16:08:55 -0700
+4fc1af75bde5f6f1720d3fd01d844317f9c5a615|update passwords from test script|Wed, 31 Oct 2012 16:03:43 -0700|Wed, 31 Oct 2012 16:03:43 -0700
+a9f0d034c6ded9c7e188d7cd3859408efeb73cbe|update docs|Wed, 31 Oct 2012 16:03:06 -0700|Wed, 31 Oct 2012 16:03:06 -0700
+879dfa3a8eff2868e8cb1b92fa32037518c7a6a5|switch single.pp to site.pp|Wed, 31 Oct 2012 16:02:34 -0700|Wed, 31 Oct 2012 16:02:34 -0700
+5892728c2e6eac4bac54538d81f1d0e09f33ff20|Merge pull request #55 from bodepd/remove_auth_url|Wed, 31 Oct 2012 11:37:19 -0700|Wed, 31 Oct 2012 11:37:19 -0700
+6c77769c8e75167b2d57c0a5e69d0d011497fcb8|remove auth_url param|Wed, 31 Oct 2012 10:39:12 -0700|Wed, 31 Oct 2012 10:39:12 -0700
+adc2b9319b7e8623761ffdd7cadfbfcf7a41bcbf|Merge pull request #54 from bodepd/create_resource_fixtures|Fri, 26 Oct 2012 12:17:17 -0700|Fri, 26 Oct 2012 12:17:17 -0700
+f7b905a6391698f97cf81d3b0f59d3331958c979|Add create_resource to fixures|Fri, 26 Oct 2012 12:14:48 -0700|Fri, 26 Oct 2012 12:14:48 -0700
+2828cec5de3f0ebc347e92937f97e6c68e0065fd|fix test failures.|Fri, 26 Oct 2012 12:12:10 -0700|Fri, 26 Oct 2012 12:12:10 -0700
+43a83bd2cdb6560f52643a15604506b951f2cd1b|Merge pull request #50 from bodepd/folsom_master|Thu, 25 Oct 2012 13:37:53 -0700|Thu, 25 Oct 2012 13:37:53 -0700
+47537dbbc4d377549e65476c61c2eb6c7c3c29e8|Multi-region support|Tue, 16 Oct 2012 05:40:07 +0000|Thu, 25 Oct 2012 13:36:17 -0700
+b726c9f99a03411f67ec9b79a4d7fa4f169e62eb|Merge pull request #51 from bodepd/folsom|Tue, 23 Oct 2012 17:53:07 -0700|Tue, 23 Oct 2012 17:53:07 -0700
+c767a104471a7265b042cc970ad236071100880d|Merge remote-tracking branch 'origin/master' into HEAD|Tue, 23 Oct 2012 17:45:36 -0700|Tue, 23 Oct 2012 17:45:36 -0700
+4dd34a8f9094ff65ce31be2a7a801ed800c0f595|Merge pull request #49 from bodepd/update_travis|Tue, 23 Oct 2012 11:43:28 -0700|Tue, 23 Oct 2012 11:43:28 -0700
+fd2595393ae515dc607011d5ab7696a11be5a50c|Add more branches|Tue, 23 Oct 2012 11:38:01 -0700|Tue, 23 Oct 2012 11:38:01 -0700
+55537eb30db7cc850fbe1eca728177d1f978201a|Merge pull request #46 from bodepd/folsom|Mon, 15 Oct 2012 15:09:39 -0700|Mon, 15 Oct 2012 15:09:39 -0700
+7a924030416f912db81ec24037e9800d200dc103|removed accidentally commited file|Mon, 15 Oct 2012 14:37:28 -0700|Mon, 15 Oct 2012 14:37:28 -0700
+b3190b143ec85554ee14605984dc160048f05661|remove conflicting notify dep from resource|Sun, 14 Oct 2012 17:56:17 -0700|Sun, 14 Oct 2012 17:56:17 -0700
+c4a051e99c1594fdfd1479aee1722697ba39b2fa|style change|Sun, 14 Oct 2012 12:38:26 -0700|Sun, 14 Oct 2012 12:38:26 -0700
+15b2fa4727c2eb46bee2cff29ba1b468cc76b9a8|fix auth_url|Sun, 14 Oct 2012 12:38:12 -0700|Sun, 14 Oct 2012 12:38:12 -0700
+549852f023188f591726c6811e790dc117866840|use mysql::python|Sun, 14 Oct 2012 12:37:45 -0700|Sun, 14 Oct 2012 12:37:45 -0700
+4d0bc45d2adcb51235ead1c57afb5904f15c1176|add gitignore|Sun, 14 Oct 2012 12:37:06 -0700|Sun, 14 Oct 2012 12:37:06 -0700
+7c396acd667cfe4a6dcfe9f0973529d035225982|remove password defaults|Sun, 14 Oct 2012 12:36:13 -0700|Sun, 14 Oct 2012 12:36:13 -0700
+e6216be659ee6cfdb26dadcd5df21c381c56189d|fix unit tests|Sun, 14 Oct 2012 00:23:20 -0700|Sun, 14 Oct 2012 00:23:20 -0700
+74b15ec273fb458de8410abb65e60ff65da6820b|fix backends|Sun, 14 Oct 2012 00:23:09 -0700|Sun, 14 Oct 2012 00:23:09 -0700
+648085d2a415fbae8b2727e3de2ce7ab5550b550|Make deps optional|Sun, 14 Oct 2012 00:22:39 -0700|Sun, 14 Oct 2012 00:22:39 -0700
+b48809849510f835f8176d338c4101d3ca014d75|remove auth_uri|Sun, 14 Oct 2012 00:21:49 -0700|Sun, 14 Oct 2012 00:21:49 -0700
+e5b9298c809926e5d085a68639f41c600839bcff|update fixtures|Sun, 14 Oct 2012 00:21:28 -0700|Sun, 14 Oct 2012 00:21:28 -0700
+4cd8cf36a3a29255a57f53a91fb9e0c57777cca8|switch log_verbose,log_debug to debug,verbose|Sun, 14 Oct 2012 00:20:47 -0700|Sun, 14 Oct 2012 00:21:14 -0700
+c1a5a1e9195596d473b5c3f2dd3420482abae06d|remove deprecated code|Sun, 14 Oct 2012 00:19:01 -0700|Sun, 14 Oct 2012 00:19:01 -0700
+ee38ea961e0affd632445f4b83225178718217ed|Properly load parent provider from another module|Wed, 10 Oct 2012 12:59:45 -0700|Wed, 10 Oct 2012 12:59:45 -0700
+98770e6080288e958a4ef569c10855547ad71e16|Merge pull request #45 from bodepd/release|Mon, 8 Oct 2012 13:40:18 -0700|Mon, 8 Oct 2012 13:40:18 -0700
+0d3e69472917ff8cf92dcfff1f5037d78e977ed8|Release 0.2.0|Mon, 8 Oct 2012 13:38:21 -0700|Mon, 8 Oct 2012 13:38:21 -0700
+fa8b2f5dd58110c5754cbc2d1fe497936787d73b|Add registry keystone params|Wed, 3 Oct 2012 22:09:36 -0700|Wed, 3 Oct 2012 22:09:36 -0700
+eb6ff6f18b92cf779b57272729a97bcb648fce6b|Add python-mysqldb code|Wed, 3 Oct 2012 22:09:26 -0700|Wed, 3 Oct 2012 22:09:26 -0700
+c15243b82dff794747ffde28e42443ad85f19947|Make glance::db::mysql dependent on mysql::server|Wed, 3 Oct 2012 22:08:36 -0700|Wed, 3 Oct 2012 22:08:36 -0700
+845ef55ead4c0331bd2a944df3a17d40b1c0dfd5|Modify keystone auth|Wed, 3 Oct 2012 22:07:46 -0700|Wed, 3 Oct 2012 22:07:46 -0700
+c1002462b65039dfb7e5dc6c1173eb9c3bc86be4|Switch config file owner to glance group|Wed, 3 Oct 2012 22:06:43 -0700|Wed, 3 Oct 2012 22:06:43 -0700
+78136fd9150715a7e6b6e254b9aee423ca1a3ef7|Add db params to api service|Wed, 3 Oct 2012 22:06:20 -0700|Wed, 3 Oct 2012 22:06:20 -0700
+db7de69bd5e0fd304ea9d845184dec6f97a10962|Convert to ini file management|Wed, 3 Oct 2012 22:04:00 -0700|Wed, 3 Oct 2012 22:04:00 -0700
+915f3381300f288c740ceeee1f4422f125edeb2b|Merge pull request #44 from bodepd/apacheify|Thu, 23 Aug 2012 14:58:53 -0700|Thu, 23 Aug 2012 14:58:53 -0700
+5654b5f6cbb9fe3bf2a557c53778002afc9a02d5|Add Apache LICENSE FILE|Thu, 23 Aug 2012 14:57:14 -0700|Thu, 23 Aug 2012 14:57:14 -0700
+84831ca893faa9f017545fdaf1f912aaf85d07e3|Merge pull request #43 from Mirantis/customizable-auth-url|Tue, 21 Aug 2012 22:46:41 -0700|Tue, 21 Aug 2012 22:46:41 -0700
+0f98eb07ba60f0728af1b717c2b31288c7c1406d|Customizable auth_url, not hardwired to 127.0.0.1|Tue, 21 Aug 2012 12:39:23 -0700|Tue, 21 Aug 2012 17:53:20 -0700
+947b8c3b26f32ad82aeebdf82ad258958bc93f96|Merge pull request #42 from jtopjian/jtopjian-glance_image|Wed, 8 Aug 2012 11:32:40 -0700|Wed, 8 Aug 2012 11:32:40 -0700
+69ffc7424eda819f704c1027ce2b2b6bfcce8974|Slight changes.|Sat, 4 Aug 2012 12:38:29 -0600|Sat, 4 Aug 2012 12:38:29 -0600
+242a424561b893f0feba435c13d52aa0d7246978|First attempt at creating a glance_image type|Sat, 4 Aug 2012 02:36:48 -0600|Sat, 4 Aug 2012 02:46:37 -0600
+9071ed1743a3d65f014e50fa519e7970c390eda8|Merge pull request #41 from bodepd/allow_enabled|Mon, 18 Jun 2012 10:36:51 -0700|Mon, 18 Jun 2012 10:36:51 -0700
+1fb892afd70783b4bf35816839cb8b5b5629745b|Add enabled parameter to glance services.|Mon, 18 Jun 2012 10:14:53 -0700|Mon, 18 Jun 2012 10:14:53 -0700
+68606f6773c153c82e8f4e39d3ba9a3eb90afe06|Merge pull request #39 from branan/use_spechelper_gem|Fri, 8 Jun 2012 13:40:36 -0700|Fri, 8 Jun 2012 13:40:36 -0700
+f6d5813236d2d65dee15adff855c175b3e60f2e4|Merge pull request #40 from branan/module_dependencies|Thu, 7 Jun 2012 15:55:57 -0700|Thu, 7 Jun 2012 15:55:57 -0700
+3e423c4c0313cf8fc5da39422e516922f95b5684|Update modulefile for initial release; add initial changelog|Thu, 7 Jun 2012 14:03:16 -0700|Thu, 7 Jun 2012 14:03:55 -0700
+ecc5a2d605fbc8363ad56c3ad5662d1ee962c957|Switch to using the puppetlabs_spec_helper gem for common files instead of duplicating code|Thu, 31 May 2012 15:04:22 -0700|Thu, 31 May 2012 15:33:11 -0700
+959e52773bda3e19c23be165000f82c2d05b0745|Merge pull request #38 from branan/enable_ci|Tue, 29 May 2012 10:01:59 -0700|Tue, 29 May 2012 10:01:59 -0700
+0b0bf5adcdc4b05f5cc7af64125906957695d221|Add files for CI support|Tue, 29 May 2012 09:50:13 -0700|Tue, 29 May 2012 09:50:13 -0700
+ea532aa278eba47d51208740702eb36bc722ac5b|Merge pull request #37 from jmchilton/mysql_improvements|Wed, 16 May 2012 10:23:57 -0700|Wed, 16 May 2012 10:23:57 -0700
+a7dedf197a24bf8a3fad00d1d1f58eede2f43057|Allow override of mysql charset & small whitespace fixes and spec improvements to test this change.|Wed, 16 May 2012 10:04:29 -0500|Wed, 16 May 2012 10:04:29 -0500
+cbd1a0d43f8de038277c21fd89e29aaa4f37465c|Change require => mysql::server to mysql::config so the mysql is fully configured before glance database is created.|Wed, 16 May 2012 10:00:13 -0500|Wed, 16 May 2012 10:00:13 -0500
+14c2f4c9dd628e1091bb8b3a4e4b1d1ff4d59163|Adding initial spec for glance::db::mysql|Wed, 16 May 2012 09:54:49 -0500|Wed, 16 May 2012 09:54:49 -0500
+264456ee7ebb9c4da6e05834ab846f964c72e341|Merge pull request #36 from branan/fix_old_puppet|Tue, 8 May 2012 15:15:21 -0700|Tue, 8 May 2012 15:15:21 -0700
+87740b26ae6c70c41a04fe78649948bcf4c615a7|fix old puppet|Tue, 8 May 2012 15:05:46 -0700|Tue, 8 May 2012 15:08:01 -0700
+03a6a8642e55262631ec2fe71d801fb96aacee72|Merge pull request #35 from bodepd/fix_concat_spec_tests|Tue, 8 May 2012 15:02:16 -0700|Tue, 8 May 2012 15:02:16 -0700
+685a9f0683c452114467b81adb18ad8c4df53f07|Merge pull request #34 from branan/14221_forge_release|Tue, 8 May 2012 14:41:46 -0700|Tue, 8 May 2012 14:41:46 -0700
+38622827fed6aeb7bd478db39b439c4b7046b587|This commit fixes spec test failures that were caused by using RI's version of the concat module.|Tue, 8 May 2012 14:38:55 -0700|Tue, 8 May 2012 14:38:55 -0700
+ac1c791fed7d66dbc4542c843b47552ce34adc9c|Merge pull request #33 from jmchilton/endpoint_optional|Fri, 4 May 2012 18:21:01 -0700|Fri, 4 May 2012 18:21:01 -0700
+e5e79cfcacfa9bf7092d57cc1a3839e3023fd36a|(#14221) Cleanup the readme a bit|Fri, 4 May 2012 12:25:38 -0700|Fri, 4 May 2012 12:25:38 -0700
+8e2de5d1937141fbc80bbd40cd4a19677e7c9db7|(#14221) add initial Modulefile to prep for forge release|Thu, 3 May 2012 14:09:53 -0700|Fri, 4 May 2012 11:45:59 -0700
+db28c354cae699c1e3fa2855c90d6a36c6962f3b|Fix default boolean value for configure_endpoint.|Thu, 3 May 2012 16:21:26 -0500|Thu, 3 May 2012 16:21:26 -0500
+f1df5e64d1cffb9bd351baf2a9cedc792083929e|Make endpoint configuration in glance::keystone::auth optional in case not using templated catalog file for defining endpoints. (keystone_endpoint type seems to assume always using SQL driver.)|Thu, 3 May 2012 16:19:32 -0500|Thu, 3 May 2012 16:19:32 -0500
+232c66be298d40dc2d8122cd041039628cd7d0fd|Merge pull request #32 from jmchilton/client-module|Thu, 3 May 2012 10:48:39 -0700|Thu, 3 May 2012 10:48:39 -0700
+9d8a1fb56d44611431f35c19215bf3edee7988c7|Specify glance client package name in params.pp.|Thu, 3 May 2012 10:36:15 -0500|Thu, 3 May 2012 10:36:15 -0500
+7f08fd42071c4a9f6fa766c0923923dc0c74ac9d|Create configuration class for glance client, mirroring puppetlabs nova::client to some degree.|Thu, 3 May 2012 10:24:41 -0500|Thu, 3 May 2012 10:24:41 -0500
+ee7eb63b223245626f10caf930e1dea3e07cd871|Merge pull request #31 from bodepd/dev|Fri, 27 Apr 2012 14:55:54 -0700|Fri, 27 Apr 2012 14:55:54 -0700
+b454b902cf44357e624b44e8ba345b039d0de369|Refactor of glance::keystone::auth|Fri, 27 Apr 2012 12:10:13 -0700|Fri, 27 Apr 2012 13:36:54 -0700
+8c551a97b02efdba53d5dc19713ce14e8b115cce|Merge pull request #30 from bodepd/dev|Mon, 23 Apr 2012 22:29:05 -0700|Mon, 23 Apr 2012 22:29:05 -0700
+622143771b45b71c8f325a03eafa9d113403872a|Update glance tenant|Mon, 23 Apr 2012 13:46:35 -0700|Mon, 23 Apr 2012 13:46:35 -0700
+384ff2a73584f20b8daca277e3d824510da01251|Set registry mysql connection|Mon, 23 Apr 2012 00:53:22 -0700|Mon, 23 Apr 2012 00:53:22 -0700
+8de1261f96a05741a5b89bfeff10975fbc844f12|Update glance example|Mon, 23 Apr 2012 00:26:11 -0700|Mon, 23 Apr 2012 00:26:11 -0700
+52aae65a4ca8a6ca9c717c99bac9c2a7dcc147d5|Move mysql code to db::mysql|Sun, 22 Apr 2012 23:51:48 -0700|Sun, 22 Apr 2012 23:54:42 -0700
+827b302824c4dd8a9b3fbee30227cf973c925b66|Merge pull request #29 from bodepd/dev|Wed, 18 Apr 2012 08:03:42 -0700|Wed, 18 Apr 2012 08:03:42 -0700
+cc9fe8ce8474d2240ff8a937ad297b751b028802|Fix backend config resource|Tue, 17 Apr 2012 14:30:30 -0700|Tue, 17 Apr 2012 15:18:15 -0700
+cb60a379728d11cba90a99f22b2165788302f130|Require python keystone|Tue, 17 Apr 2012 11:31:04 -0700|Tue, 17 Apr 2012 11:32:02 -0700
+19dd25b1aec825c1adf79b5a88641d22951baaa4|Merge pull request #28 from bodepd/dev|Tue, 17 Apr 2012 11:24:06 -0700|Tue, 17 Apr 2012 11:24:06 -0700
+e38e09d3edb59237fca7a90db14a4a12154c789e|Ensure that glance requires a backend|Tue, 17 Apr 2012 11:15:32 -0700|Tue, 17 Apr 2012 11:15:32 -0700
+2a148cb5e70dd27fefbb43f2d42f752e28b76acf|Merge pull request #27 from derekhiggins/glance-manage-as-glance|Mon, 16 Apr 2012 18:54:07 -0700|Mon, 16 Apr 2012 18:54:07 -0700
+5debef3b98dddd166127cdee30f4beb17681dcbf|Run glance-manage db_sync as glance|Mon, 16 Apr 2012 21:38:42 +0100|Mon, 16 Apr 2012 21:38:42 +0100
+ce412b1b8af8b1f073b5cb5a75cee109fc336aac|Merge pull request #26 from bodepd/dev|Fri, 13 Apr 2012 13:30:50 -0700|Fri, 13 Apr 2012 13:30:50 -0700
+edaf2053b5aa40e60b861ba0d2772ca446bb3b64|Only changes to the database should trigger db_sync|Thu, 12 Apr 2012 23:12:31 -0700|Thu, 12 Apr 2012 23:12:31 -0700
+0f751551db10e2fefc4b9d2c6748abb8fb31c601|Make the db_sync command different per distro|Thu, 12 Apr 2012 15:21:59 -0700|Thu, 12 Apr 2012 15:21:59 -0700
+c73c4a8fcf488e71810efec56a7aeea32fe4605b|Do not start services until glance user_role exists|Thu, 12 Apr 2012 14:25:04 -0700|Thu, 12 Apr 2012 14:25:04 -0700
+47ee87f17c42b60d8bc100dd09c7b65abddb9994|DB sync should also require db privs|Thu, 12 Apr 2012 14:13:43 -0700|Thu, 12 Apr 2012 14:13:43 -0700
+736bdb2f5cb438eb8de4e9f146be094bba6ecd83|Merge pull request #25 from bodepd/dev|Thu, 12 Apr 2012 12:55:54 -0700|Thu, 12 Apr 2012 12:55:54 -0700
+4b95b9dae7d39034e5046c982b628ea05e4d99c0|Perform explicit db migrations|Thu, 12 Apr 2012 12:39:29 -0700|Thu, 12 Apr 2012 12:52:26 -0700
+8776a013316d011d95679217931c0e095bf6bdc8|Merge pull request #24 from bodepd/dev|Wed, 11 Apr 2012 19:59:01 -0700|Wed, 11 Apr 2012 19:59:01 -0700
+52cbb6f59bb285984d0e0869f026f98bc1d71f70|Make repo setup code Debian specific|Wed, 11 Apr 2012 17:20:17 -0700|Wed, 11 Apr 2012 17:20:17 -0700
+08cbc784271cf846f3746921af003c9e010feb29|Merge pull request #23 from bodepd/dev|Tue, 10 Apr 2012 21:33:16 -0700|Tue, 10 Apr 2012 21:33:16 -0700
+ffec6ab6b4d382e7a7f466f89fd3d55d50377975|Update script for loading glance images|Tue, 10 Apr 2012 17:09:04 -0700|Tue, 10 Apr 2012 17:09:04 -0700
+e1529167d77d82eae8d6410e5cc18a20945a2feb|Update glance service definitions|Tue, 10 Apr 2012 09:25:51 -0700|Tue, 10 Apr 2012 09:25:51 -0700
+e0a8affee28b2df30e26f62a053b1a13cb775b80|Merge pull request #22 from bodepd/dev|Mon, 9 Apr 2012 23:39:05 -0700|Mon, 9 Apr 2012 23:39:05 -0700
+ace411f92f5860cd30e3f9af30aa49b1fe137f9f|Require mysql::python|Mon, 9 Apr 2012 10:12:27 -0700|Mon, 9 Apr 2012 10:12:27 -0700
+ceb41af5fc21a8f7c16a5d74c997c54057086ae2|Remove explicit management of python-migrate|Mon, 9 Apr 2012 10:11:25 -0700|Mon, 9 Apr 2012 10:11:25 -0700
+cdfc5a48f4621a47ca722145496b652c9a07d580|Remove unused admin_token|Mon, 9 Apr 2012 10:11:01 -0700|Mon, 9 Apr 2012 10:11:01 -0700
+616b32d617c0bfb88006a53b3988e34ee63e045a|Update keystone tenant name|Mon, 9 Apr 2012 08:52:07 -0700|Mon, 9 Apr 2012 08:52:07 -0700
+a84a072a0e27d96e3a7eeb43413386984b581e53|Merge pull request #21 from bodepd/dev|Sun, 8 Apr 2012 21:51:17 -0700|Sun, 8 Apr 2012 21:51:17 -0700
+cfc951664aa2fdd1ae5850224e644fcc8c99a7a3|Add test code for glance with mysql backend|Fri, 6 Apr 2012 16:15:58 -0700|Fri, 6 Apr 2012 23:24:45 -0700
+1180bffdb1aadd5cd58d9c653fcd3e3c30f8bb39|Merge pull request #20 from bodepd/dev|Thu, 5 Apr 2012 14:00:07 -0700|Thu, 5 Apr 2012 14:00:07 -0700
+a2512fcff1252fa258371625b101783e4865c861|Remove ref to deprecated keystone::sqlite|Thu, 5 Apr 2012 13:46:30 -0700|Thu, 5 Apr 2012 13:46:30 -0700
+fdbf846d153688d514a18d3c516a6798eb1fe9e6|Refactor api-ini config files|Thu, 5 Apr 2012 09:27:04 -0700|Thu, 5 Apr 2012 09:28:55 -0700
+9b0c1c375780001be3c87946a995e2bdbd08f61b|Merge pull request #19 from bodepd/dev|Thu, 5 Apr 2012 09:00:36 -0700|Thu, 5 Apr 2012 09:00:36 -0700
+a7a96af75ee346908f1b6677f20d3f446b04e365|Fix broken tests|Tue, 3 Apr 2012 10:03:08 -0700|Tue, 3 Apr 2012 10:03:08 -0700
+151493f294684eadfd36bc4789a75f4459833ac2|Remove backend class|Tue, 3 Apr 2012 10:00:44 -0700|Tue, 3 Apr 2012 10:00:44 -0700
+d9ce5e87e37bb8125d138ed1e101c14c63d03d8a|Merge pull request #18 from bodepd/dev|Tue, 3 Apr 2012 08:28:36 -0700|Tue, 3 Apr 2012 08:28:36 -0700
+6a550b51b281a6422463dbdc8848ea705ba211d9|Add integration test code|Mon, 2 Apr 2012 08:36:56 -0700|Mon, 2 Apr 2012 08:51:53 -0700
+2e4350915b754deb652abb6cf3d45e4ff71b8f12|Remove dependency from glance::api to concat::setup|Sat, 31 Mar 2012 16:33:25 -0700|Sat, 31 Mar 2012 16:33:25 -0700
+6bd7dc6592b5ea53c363a5ae9e4824245c5a50f8|Namespace glance apu fragments to avoid duplicates|Sat, 31 Mar 2012 16:27:23 -0700|Sat, 31 Mar 2012 16:27:23 -0700
+bcf95f281963d5393e1aeba354d029370d72b806|Refactor example based on fragment reafactor|Sat, 31 Mar 2012 16:15:47 -0700|Sat, 31 Mar 2012 16:20:57 -0700
+e17b49b64729cbdd521ff2c21aac51f770884a44|Refactor glance-api.conf erb file|Sat, 31 Mar 2012 16:11:20 -0700|Sat, 31 Mar 2012 16:11:20 -0700
+0a400dcc6a973a539d9ba3a83ccc0bd1cc7bd383|Add rspec tests|Sat, 31 Mar 2012 16:09:29 -0700|Sat, 31 Mar 2012 16:09:29 -0700
+98027b54709207e7a46080a8eb9d94cfef29bdfd|Remove service parameters|Sat, 31 Mar 2012 16:08:36 -0700|Sat, 31 Mar 2012 16:08:36 -0700
+2ec7af015071b849fcfc05c4ef01038d2cb63806|Refactor glance::api to use fragments|Sat, 31 Mar 2012 16:06:26 -0700|Sat, 31 Mar 2012 16:06:26 -0700
+6c29550dcb3cbeb7dfe37871ece1d2a7b20a8e05|Split api.conf file into fragments|Sat, 31 Mar 2012 16:01:42 -0700|Sat, 31 Mar 2012 16:01:42 -0700
+e9361dbaa60d6572569ec453c7a12ecada3f74f4|Merge pull request #17 from bodepd/dev|Fri, 30 Mar 2012 20:51:40 -0700|Fri, 30 Mar 2012 20:51:40 -0700
+1a15b76eda37f9d194f0aec01187ec45174f7397|Ensure repo stage is applied before main stage|Fri, 30 Mar 2012 20:50:05 -0700|Fri, 30 Mar 2012 20:50:05 -0700
+d1e33cc81f07ac9d5c8d433da0dccad6651ef764|Add code to use latest ppas|Fri, 30 Mar 2012 09:53:21 -0700|Fri, 30 Mar 2012 09:54:44 -0700
+ba5b0b0fbdc7935f8df4a8256cd4e611ce20cfec|Merge pull request #16 from bodepd/dev|Fri, 30 Mar 2012 01:46:57 -0700|Fri, 30 Mar 2012 01:46:57 -0700
+132278a5d96a3c3bf1618bc88751cecd292b4b95|Add test script|Thu, 29 Mar 2012 16:45:40 -0700|Thu, 29 Mar 2012 16:45:40 -0700
+9db052933a76fd4dc2fb4dd05df6d0006b58f4a1|Update example site.pp|Thu, 29 Mar 2012 16:45:27 -0700|Thu, 29 Mar 2012 16:45:27 -0700
+a5ac23272d86c2026b192956990e0e244b567242|Refactor config files for essex|Thu, 29 Mar 2012 16:44:59 -0700|Thu, 29 Mar 2012 16:44:59 -0700
+dd5fb3ea91ecc310d67b55dce7b31418ffed6515|Add code for db and host_access|Thu, 29 Mar 2012 16:43:23 -0700|Thu, 29 Mar 2012 16:43:23 -0700
+7708359f04cdbdb0b40d1c98fcb74d049c6445d7|Merge pull request #15 from bodepd/dev|Wed, 21 Mar 2012 23:14:50 -0700|Wed, 21 Mar 2012 23:14:50 -0700
+29d18c442e988a46ea447a046089d1e65004b90c|Merge pull request #1 from derekhiggins/dev|Wed, 21 Mar 2012 15:10:39 -0700|Wed, 21 Mar 2012 15:10:39 -0700
+f6a9d5c22c3aaa2b7e721da04e3647fa81a10b1b|fix typo|Wed, 21 Mar 2012 14:52:49 +0000|Wed, 21 Mar 2012 15:01:48 +0000
+2054c76ee4d8f89c859bdc1f3254ab6873974b9b|update spec test to set osfaily|Mon, 19 Mar 2012 22:57:23 -0700|Mon, 19 Mar 2012 22:57:23 -0700
+7c6d5405fd4008ad7e39c1baf0fa5d80b624bb98|Add python migrate dependency|Mon, 19 Mar 2012 22:54:43 -0700|Mon, 19 Mar 2012 22:54:43 -0700
+0d205ba2e22a06f5497b419a3ac3bf68d7553c44|Add an example file|Fri, 16 Mar 2012 22:46:40 -0700|Sun, 18 Mar 2012 12:04:26 -0700
+2167074954618a4e1ea306f61c3b84e18ce88930|Add fedora support for glance|Fri, 16 Mar 2012 22:27:20 -0700|Sun, 18 Mar 2012 11:57:04 -0700
+682db69b82c32e328748932d08158d728bd2bdff|Merge pull request #14 from bodepd/master|Fri, 16 Mar 2012 11:08:28 -0700|Fri, 16 Mar 2012 11:08:28 -0700
+ec1120e2e2d59302929fcab6945f10a760a4c046|Update the README|Tue, 13 Mar 2012 15:23:29 -0700|Tue, 13 Mar 2012 15:23:29 -0700
+0b1fc546fb5976c24800a1b9b85969d34cbd3298|Update unit test to reflect mode change|Tue, 13 Mar 2012 15:21:35 -0700|Tue, 13 Mar 2012 15:21:35 -0700
+33913effb1b1bd58900ccd826daa77ced67639cf|Add rdoc to glance::api|Wed, 11 Jan 2012 11:42:04 -0800|Tue, 13 Mar 2012 15:20:12 -0700
+9879e760a77aa8b52acec6ea9c4d7cd99844f317|Add README|Wed, 11 Jan 2012 11:41:43 -0800|Tue, 13 Mar 2012 15:20:12 -0700
+c273426619a3b2b560bbaa2638ffd6006c54ffdf|Style update|Wed, 4 Jan 2012 11:40:28 -0800|Tue, 13 Mar 2012 15:20:12 -0700
+43f2c731dd83cd48dcb62ab70dfed1bfaf0724b5|Merge pull request #13 from bodepd/add_missing_dollar|Tue, 13 Mar 2012 15:19:21 -0700|Tue, 13 Mar 2012 15:19:21 -0700
+972fefaea64771cdbc173434fc8b251b089df805|Rafactor glance api to merge defaults|Tue, 13 Mar 2012 15:09:58 -0700|Tue, 13 Mar 2012 15:09:58 -0700
+7ba954f324d77da9803882fe5f4cbe91f13d7eb0|Add $ to glance package_ensure|Tue, 13 Mar 2012 15:08:56 -0700|Tue, 13 Mar 2012 15:08:56 -0700
+c8fe8b083fa26760114bae5cc77bb28e889deb8b|Merge pull request #10 from bodepd/11692_manifest_rspec_tests|Tue, 3 Jan 2012 11:36:01 -0800|Tue, 3 Jan 2012 11:36:01 -0800
+e1a92cf3c38dd0c2dde5b8e6a7433085c0eb589e|Merge pull request #9 from bodepd/11693_add_package_ensure_param|Tue, 3 Jan 2012 11:35:04 -0800|Tue, 3 Jan 2012 11:35:04 -0800
+4d06c905f3938acc8e8025ea4eaf2981dce7bf61|Merge pull request #8 from bodepd/11694_fix_bind_host_param|Tue, 3 Jan 2012 11:30:59 -0800|Tue, 3 Jan 2012 11:30:59 -0800
+4fa5d3f046a59a5928f005a0225ab3ccf4f5c512|(#11692) Add unit tests|Mon, 2 Jan 2012 15:01:50 -0800|Tue, 3 Jan 2012 11:27:43 -0800
+2bf87bcc2fbd4d7163b592e80659147ee2210227|(#11693) Add package_ensure param to glance class|Mon, 2 Jan 2012 14:59:14 -0800|Tue, 3 Jan 2012 11:24:43 -0800
+80bdf4475a32c05d48035fc98416aa25efcb2c1e|(#11694) Add bind host to template|Mon, 2 Jan 2012 15:00:13 -0800|Tue, 3 Jan 2012 11:20:40 -0800
+f8b922582dbd6bf22eda39f1281cf9f5685dc236|Merge pull request #6 from cblument/issue/master/additional_config_bug|Wed, 17 Aug 2011 15:40:35 -0700|Wed, 17 Aug 2011 15:40:35 -0700
+b538bbecd42742558ea01ab2a22152d7e88c4b08|fix described in https://bugs.launchpad.net/glance/+bug/827034|Wed, 17 Aug 2011 22:30:08 +0000|Wed, 17 Aug 2011 22:30:08 +0000
+8df3d6552bf1b0abf9f3b61d0419e99348e24edf|Updated glance-registry.conf in accordance with https://bugs.launchpad.net/glance/+bug/814981|Tue, 16 Aug 2011 16:08:57 -0700|Tue, 16 Aug 2011 16:08:57 -0700
+7b1666f37867fad0a3dede03d9b8e261480579d6|Updated glance-api.conf in accordance with https://bugs.launchpad.net/glance/+bug/814981|Tue, 16 Aug 2011 16:08:14 -0700|Tue, 16 Aug 2011 16:08:14 -0700
+ba246b2d408fe9c985e7169b83a12bae1a789cf1|Merge pull request #4 from gandelman-a/master|Tue, 21 Jun 2011 12:48:50 -0700|Tue, 21 Jun 2011 12:48:50 -0700
+0f9c5030eec816de8280feb9094f1e5a9fa69329|Set verbose + debug false by default|Tue, 21 Jun 2011 12:31:12 -0700|Tue, 21 Jun 2011 12:31:12 -0700
+16a544c083677c09792a0863fb8c5455195b6755|Modify class parameters, templates and tests for logging options avoiding use of 'debug'|Tue, 21 Jun 2011 12:19:20 -0700|Tue, 21 Jun 2011 12:19:20 -0700
+0883495bb333e158fd38d3e111ec146fd88f7863|Merge pull request #3 from jamtur01/master|Mon, 20 Jun 2011 23:26:12 -0700|Mon, 20 Jun 2011 23:26:12 -0700
+2bea1c2fb4581a7cb64b3c2c1bd5b692d1891306|Edited Glance registry template to add log option.|Mon, 20 Jun 2011 23:21:45 -0700|Mon, 20 Jun 2011 23:21:45 -0700
+062c02ff7155a2768d20823b33cde70212e68f62|Merge pull request #2 from bodepd/issue/master/fixes|Thu, 16 Jun 2011 21:02:50 -0700|Thu, 16 Jun 2011 21:02:50 -0700
+5e48e4a97429d38047b76afe706352c418c5bbc5|added hasrestart, hasstatus to services.|Thu, 16 Jun 2011 20:58:59 -0700|Thu, 16 Jun 2011 20:58:59 -0700
+86147633a33789b5f6c7af049a502bbdf4855bb3|Added missing comma|Thu, 16 Jun 2011 20:51:02 -0700|Thu, 16 Jun 2011 20:51:02 -0700
+a9b06dd20a6afd60fea642fe4b348fcc26db0980|Merge pull request #1 from cblument/master|Thu, 16 Jun 2011 14:57:07 -0700|Thu, 16 Jun 2011 14:57:07 -0700
+bdde53d8cf34186c859f0f14ee24027bc74be18c|Making the sql_connection a variable|Thu, 16 Jun 2011 16:47:06 -0500|Thu, 16 Jun 2011 16:47:06 -0500
+e8a6e3df49b8c4f8b217e5a471bc50a1b94b49a0|Fixing the filename for the default sql_connection|Thu, 16 Jun 2011 16:45:08 -0500|Thu, 16 Jun 2011 16:45:08 -0500
+70c652874dc5e7c390759e96aee4c91e37105d40|initial commit for glance.|Tue, 14 Jun 2011 17:55:48 -0700|Tue, 14 Jun 2011 17:55:48 -0700

@@ -1,0 +1,394 @@
+245434e3ddc01ad0af069a711c6c31e59369e365|RELEASE version 0.9.0 version|Thu, 7 Feb 2019 22:39:14 +0100|Thu, 7 Feb 2019 22:40:17 +0100
+c7c04a2124e3eecf6e840109ae45149aed2a1569|Update year in __copyright__|Thu, 7 Feb 2019 22:38:23 +0100|Thu, 7 Feb 2019 22:38:23 +0100
+07944388da6512b6ece0909d8035f2677b76fb5b|Simplify conditional statement|Thu, 7 Feb 2019 17:01:12 +0100|Thu, 7 Feb 2019 17:01:12 +0100
+c7af5e67eea51344429621de6af7b36e6cbfad9d|Add support for custom Bird reconfigure per service|Mon, 14 Jan 2019 16:53:02 +0100|Thu, 7 Feb 2019 16:49:40 +0100
+61993e7d2cc8c11009cda7104100b1f9893b1f67|Ensure correct variable name in Bird configuration|Sun, 30 Sep 2018 22:51:26 +0200|Sun, 30 Sep 2018 23:23:40 +0200
+c9c5257be79986438e10b2ddcd5c9aaca1134dbf|Make docstring more clear|Fri, 21 Sep 2018 22:01:16 +0200|Fri, 21 Sep 2018 22:01:16 +0200
+558a61c88a2e3f9113cd0b42c8b4c0d92b4cbd62|Simplify return code from a function|Wed, 23 May 2018 13:07:57 +0200|Wed, 23 May 2018 13:07:57 +0200
+25c85fd0fca96ef0b12a3c47404ccd5ff207992a|Add docopt in the requires-dist|Wed, 23 May 2018 13:01:28 +0200|Wed, 23 May 2018 13:01:28 +0200
+d6dd741fd5262c59f8dcfb097e4c6f8a1814f951|More clear log message|Sun, 11 Mar 2018 16:39:21 +0100|Sun, 11 Mar 2018 16:39:21 +0100
+40453325c299cd0fdc34648f92ace9fefb302fae|Report information about the lock|Sat, 10 Mar 2018 23:55:11 +0100|Sat, 10 Mar 2018 23:55:11 +0100
+8b8e60f4389179a1ea4a415e0c85eb9e552c0479|Fix typo in nagios check|Sat, 10 Mar 2018 22:32:09 +0100|Sat, 10 Mar 2018 22:32:09 +0100
+210bcee0809bdefd71c9df1b5d63144a843f399c|PEP257 compatible docstring for nagios check|Sat, 10 Mar 2018 22:31:19 +0100|Sat, 10 Mar 2018 22:31:19 +0100
+f5b5b18e476a7f06351234f0fd2357cadba20a16|PEP257 compatible docstring for nagios check|Sat, 10 Mar 2018 10:57:59 +0100|Sat, 10 Mar 2018 10:57:59 +0100
+ba9b81cf711fe6a38d61c498916c9c894259c6e5|Log stack-trace when a thread dies|Fri, 9 Mar 2018 16:18:52 +0100|Fri, 9 Mar 2018 16:18:52 +0100
+97f48193f929eeeb21ac045a990898f24ac335cb|Change the log severity to critical|Fri, 9 Mar 2018 16:18:22 +0100|Fri, 9 Mar 2018 16:18:22 +0100
+df55a6cebf3bd0b04c1605ba24d89c06696e7019|Call super in ServiceCheckDiedError|Thu, 8 Mar 2018 11:37:12 +0100|Thu, 8 Mar 2018 11:37:12 +0100
+781e53640608f161a1529a1184c23f6531c02d8a|Rename exception ServiceCheckDied to ServiceCheckDiedError|Thu, 8 Mar 2018 11:36:33 +0100|Thu, 8 Mar 2018 11:36:33 +0100
+a3ba7cd012e6a575d57c869a2fc9896c097ef5fa|Exit main program when a thread dies|Wed, 7 Mar 2018 22:55:51 +0100|Thu, 8 Mar 2018 09:34:17 +0100
+89facf0b2d81f1c201dd4645f2dd62c4f0e95036|Update Copyright|Tue, 6 Mar 2018 08:48:37 +0100|Tue, 6 Mar 2018 08:48:37 +0100
+eebd29b8814b06030516915281cc330e350454a7|Update docstring/comment|Tue, 6 Mar 2018 08:47:32 +0100|Tue, 6 Mar 2018 08:47:32 +0100
+cf88e8429269f43257cce563d710de69a5afdd92|Remove unnecessary coding config|Mon, 5 Mar 2018 23:12:59 +0100|Mon, 5 Mar 2018 23:12:59 +0100
+c6918a02cbe788e55205d9fe62d3edc693d440ab|Add Maximilian Wilhelm to AUTHORS|Mon, 5 Mar 2018 23:11:41 +0100|Mon, 5 Mar 2018 23:11:41 +0100
+55065eeb3dcc5b7d0d09ca6a8da4c57b7defb8f5|Switch to integer for some default values|Mon, 5 Mar 2018 22:49:06 +0100|Mon, 5 Mar 2018 22:49:06 +0100
+fd66afb1d11e671f86748e60740531812d1dde3f|Simplify loading default configuration|Mon, 5 Mar 2018 17:43:25 +0100|Mon, 5 Mar 2018 22:17:39 +0100
+991a5f9cd02ce989fe811844b1ca8464ce4f16cf|Add support for delaying the 1st check|Sat, 3 Mar 2018 01:13:49 +0100|Sat, 3 Mar 2018 12:05:41 +0100
+6f985c18d5f61f88afec409a76454a60e59ce69a|Fix typo in README|Thu, 22 Feb 2018 11:00:37 +0100|Thu, 22 Feb 2018 11:00:37 +0100
+9ed504d6917b5af03b388855a0357c7b9b984199|Rephrase a sentence|Sat, 10 Feb 2018 22:00:43 +0100|Sat, 10 Feb 2018 22:00:43 +0100
+904720cf87d7ae0fd92ab718ea76da119a498497|Remove the dependencies to daemon and lockfile|Sat, 10 Feb 2018 15:10:53 +0100|Sat, 10 Feb 2018 15:10:53 +0100
+d3dff22c8bdf379fdc505c28ec8863e8105a7b15|Disable pylint warnings|Sat, 10 Feb 2018 14:32:46 +0100|Sat, 10 Feb 2018 14:33:17 +0100
+663413f4b3963a9b3f18c158295fa6619b8c9f37|Merge pull request #15 from BarbarossaTM/debian|Thu, 8 Feb 2018 13:53:51 +0100|Thu, 8 Feb 2018 13:53:51 +0100
+20204f16f58e186878c60b1ddaf59f110c9b7e72|Add configuration for building Debian packages.|Wed, 7 Feb 2018 22:18:07 +0100|Wed, 7 Feb 2018 22:41:28 +0100
+ec954da511e03e62833070c8d5465a16e2b6da16|Remove unused method _update_status|Thu, 14 Dec 2017 14:02:13 +0100|Thu, 14 Dec 2017 14:02:13 +0100
+031d6ef6a417cd7d8ae9623bb25ad4fd0d2960c5|RELEASE 0.8.1 version|Wed, 29 Nov 2017 16:47:19 +0100|Wed, 29 Nov 2017 16:47:54 +0100
+1a4a0324e2e7387924ec467a6f59a1aacf14c067|Make the JSON formatted logs more compatible with syslog|Wed, 29 Nov 2017 16:25:40 +0100|Wed, 29 Nov 2017 16:46:42 +0100
+cdf7c1853bc92a1efafe603bb3cd832bf175d2c8|RELEASE 0.8.0 version|Tue, 28 Nov 2017 22:42:06 +0100|Tue, 28 Nov 2017 22:42:54 +0100
+5bc1df0e75b40472a35b572adfbec74b12d84f83|Fix a typo in README|Tue, 28 Nov 2017 16:54:22 +0100|Tue, 28 Nov 2017 16:54:22 +0100
+0f1b9d3febeb593853533a0768cc8dccfe2c4490|Remove trailing whitespace character|Sun, 5 Nov 2017 07:52:11 +0100|Sun, 5 Nov 2017 07:52:11 +0100
+5b172850de757f2df4a14a1af52050b721eab5e4|Add Carlo Rengo in the contributers list|Sun, 5 Nov 2017 07:51:10 +0100|Sun, 5 Nov 2017 07:51:10 +0100
+bfbb16834cd7cc11cd5fdcfe9e05bff3b37ac722|Merge pull request #14 from sevencastles/patch-1|Sun, 5 Nov 2017 07:47:01 +0100|Sun, 5 Nov 2017 07:47:01 +0100
+4f9e036daefcd5ff942d77e3bfa9277eaec4112a|Grammar fixes to improve readability|Sat, 4 Nov 2017 17:36:58 +0100|Sat, 4 Nov 2017 17:36:58 +0100
+3d720c776e76bef6080fc5c40617e38cc1d6d3b6|Remove unnecessary sub-classing|Thu, 26 Oct 2017 23:31:20 +0200|Thu, 26 Oct 2017 23:31:20 +0200
+53e315e2344049082b989c687113341fe9730ba2|Remove unnecessary pylint config|Mon, 9 Oct 2017 09:58:46 +0200|Mon, 9 Oct 2017 09:58:46 +0200
+8b1d9f30348f5b35909e7ff6487ed0b2fc7225b4|Dynamically set width in log formatter|Mon, 9 Oct 2017 09:49:18 +0200|Mon, 9 Oct 2017 09:49:18 +0200
+e196dce7adfb65ae549700ed3ce3aa74aa53ea8c|Fix typo in comment|Sun, 30 Jul 2017 19:10:27 +0200|Sun, 30 Jul 2017 19:10:27 +0200
+844441d7acc09127883c2ac6b734c34709c24b63|Print a more meaningful message|Sat, 29 Jul 2017 19:08:15 +0200|Sat, 29 Jul 2017 19:08:15 +0200
+88ec5f7b4ff63a03f508ab0c333e35cae6d1700f|Catch the case where pid is higher than allowed|Sat, 29 Jul 2017 19:06:11 +0200|Sat, 29 Jul 2017 19:06:11 +0200
+f0dfadb2a7f2fa60287d67883ebc8b403985ad72|Rephrase some docstrings|Mon, 24 Jul 2017 17:41:30 +0200|Mon, 24 Jul 2017 18:59:30 +0200
+545a6c7d5ef559cc4e18821f8cee2d80c0017ef5|Remove from local_run.sh redundant settings|Sun, 23 Jul 2017 22:30:00 +0200|Sun, 23 Jul 2017 22:30:00 +0200
+2c41a19503ef9acb54f15028a5c7eead8df42a90|Refuse to start if one IP address is used by multiple service checks|Sun, 23 Jul 2017 22:15:04 +0200|Sun, 23 Jul 2017 22:15:04 +0200
+6b185baec33651da443e7eff140af355b9587bd1|MAJOR: Drop support for daemonization|Sun, 23 Jul 2017 21:41:15 +0200|Sun, 23 Jul 2017 21:52:09 +0200
+b0758548ce412ec68b4ffcd03d4687ee02017764|Make docstrings compatible with EP257|Sat, 10 Jun 2017 12:47:37 +0200|Sat, 10 Jun 2017 12:47:37 +0200
+4fb99e2377b1cee0fc7d78129f5f1dc42fb4d02f|RELEASE 0.7.4 version|Wed, 3 May 2017 09:03:01 +0200|Wed, 3 May 2017 09:03:43 +0200
+1c16fcb1cdaf48e03597923a657dd43dd8cf111d|Update copyright|Wed, 3 May 2017 09:02:30 +0200|Wed, 3 May 2017 09:02:30 +0200
+0cfe291c85049f1c67aca7c49acd6f46a943b954|Make sure we return the prefix length|Wed, 3 May 2017 07:40:58 +0200|Wed, 3 May 2017 07:40:58 +0200
+70293833cec220a0d74268411ac80c0a9ecb929d|Add a 2nd IPv6 service check|Thu, 27 Apr 2017 22:51:30 +0200|Thu, 27 Apr 2017 22:55:59 +0200
+7328c943e2199c82bdd7971e5ee3d5c2115ccd01|Reorder functions in utils module|Thu, 27 Apr 2017 22:49:54 +0200|Thu, 27 Apr 2017 22:55:59 +0200
+9afd14b24c125c216d639cda5f0fe498c67fb98e|Refactor the way we check our bird settings|Wed, 26 Apr 2017 19:30:23 +0200|Thu, 27 Apr 2017 22:55:59 +0200
+23025fefb62cf63eb89ce4510847b6fd8ab7e11e|Move the check for a directory to sanity check function|Wed, 26 Apr 2017 13:27:39 +0200|Thu, 27 Apr 2017 22:55:59 +0200
+ea8958982cb0d7dba1db8c9a0fc8476d9ba758c3|Fail sanity check when config file and dir don't exist|Wed, 26 Apr 2017 13:14:48 +0200|Thu, 27 Apr 2017 22:55:59 +0200
+149f2875e7514037b3d0eab5d279dc6e6c81b4fa|Fix incorrect format for enumerated list in README|Thu, 16 Mar 2017 00:08:30 +0100|Thu, 16 Mar 2017 00:10:52 +0100
+60593f0cbacc835a70e1b31143f1b8762f6b3dcc|Merge pull request #10 from shaneramey/master|Thu, 9 Mar 2017 20:46:35 +0100|Thu, 9 Mar 2017 20:46:35 +0100
+1b2bc1f15e8713919565f5a174468087932da52a|fix typo reqeusts->requests (issue #9)|Thu, 9 Mar 2017 11:31:59 -0800|Thu, 9 Mar 2017 11:31:59 -0800
+28e8646a8ca520949f126705dd8a4b6c6dfaabe5|Mention that IPv6 or v4 is disabled for our software|Mon, 30 Jan 2017 10:37:41 +0100|Mon, 30 Jan 2017 10:37:41 +0100
+319fc832cdae2cf8c7ba53ac93e10b33201cc6a4|Fix type in on_disabled setting|Sun, 29 Jan 2017 21:30:09 +0100|Sun, 29 Jan 2017 21:30:09 +0100
+3a1c174e15cf8906a67196bf42a841f1ecb9b1c9|Add puppet module|Wed, 11 Jan 2017 21:52:09 +0100|Wed, 11 Jan 2017 21:52:09 +0100
+affbc739e0857165695b83d33d84982e05429168|Mention that parent directories for log and pifile files must be present|Wed, 11 Jan 2017 01:08:28 +0100|Wed, 11 Jan 2017 01:08:28 +0100
+6743ffc81feb8274fd8e8568cb2b239f4876981b|RELEASE 0.7.3 version|Wed, 11 Jan 2017 00:59:56 +0100|Wed, 11 Jan 2017 01:00:49 +0100
+4c92079dd5dabe00b330dcd9047bc81b1355b6b3|Refuse to start when parent directory of pidfile is missing|Wed, 11 Jan 2017 00:51:10 +0100|Wed, 11 Jan 2017 00:51:10 +0100
+8c801c23bfcf9a5711d66f53e5bc3c0a6d78c68a|Turn on bird6_keep_changes in example config|Wed, 11 Jan 2017 00:37:28 +0100|Wed, 11 Jan 2017 00:37:28 +0100
+0f15c2dbd2d2974f8655a6aa4f338686eaeca7b8|Make local.sh to create directories under var/lib|Wed, 11 Jan 2017 00:34:16 +0100|Wed, 11 Jan 2017 00:34:16 +0100
+2dbbd01c58616a5b15cdd63193dc90d2203d88bd|Remove the logic, which creates parent directories|Wed, 11 Jan 2017 00:20:53 +0100|Wed, 11 Jan 2017 00:20:53 +0100
+e406face7976dc37f6a840cbf07ae1b7f8860824|Add Returns and Returns section in docstring|Tue, 10 Jan 2017 15:56:34 +0100|Tue, 10 Jan 2017 15:56:34 +0100
+5e0f712008a60bc26f18c9ed8d75918908122b68|Update example configuration|Tue, 10 Jan 2017 15:55:42 +0100|Tue, 10 Jan 2017 15:55:42 +0100
+64c7e8327a0727b904809bf74edd2425f877a5e7|RELEASE 0.7.2 version|Tue, 10 Jan 2017 14:39:53 +0100|Tue, 10 Jan 2017 14:40:40 +0100
+ea12110965289bc28ed17fb86ab4f6633cf95e26|Add empty line for proper parsing|Tue, 10 Jan 2017 14:37:39 +0100|Tue, 10 Jan 2017 14:37:39 +0100
+6f4d2c61000da532d6f33b7dc65b25b412065964|Create anycast-prefixes.conf configuration|Tue, 10 Jan 2017 13:56:45 +0100|Tue, 10 Jan 2017 14:35:30 +0100
+90ac78b75de462e1e0cdf3c8fda0fe0214dc767f|PEP257 compatible docstring|Tue, 10 Jan 2017 10:55:54 +0100|Tue, 10 Jan 2017 10:55:54 +0100
+055597bbbbcf3666b6430bbe1511187fd0a5a7c8|Use os.path.join to build the file path|Tue, 10 Jan 2017 10:54:41 +0100|Tue, 10 Jan 2017 10:54:41 +0100
+7b08f4222de3c9e1dcc7593924a0ecc18e9cb73f|Better handling of symbolic links for bird config|Tue, 10 Jan 2017 10:44:53 +0100|Tue, 10 Jan 2017 10:44:53 +0100
+f8eaa3f8a3ec7277f07dcbc87db8887b3b2cc41f|Make docstrings compatible with EP257|Tue, 10 Jan 2017 10:41:46 +0100|Tue, 10 Jan 2017 10:41:46 +0100
+50cf3b7476b0dd8b777e721b52de1e3c9497970a|Add ipv4 setting in the configuration generated by local.sh|Sun, 8 Jan 2017 13:06:47 +0100|Sun, 8 Jan 2017 13:06:47 +0100
+677c60aa2fa5bc1b37eadde46a971bddbd030fe5|Tiny updates on README|Sun, 8 Jan 2017 13:06:14 +0100|Sun, 8 Jan 2017 13:06:14 +0100
+0aa42784dd7ceb894482d8f0cb10e96d0bd1dabe|RELEASE 0.7.1 version|Sat, 7 Jan 2017 17:47:42 +0100|Sat, 7 Jan 2017 17:48:48 +0100
+86bf981a5120f0c01efedacff5bdf5012181baa1|Update local_run.sh with latest config|Sat, 7 Jan 2017 17:44:18 +0100|Sat, 7 Jan 2017 17:44:18 +0100
+fa1c6decc4dcb3c096446e3ee2d8ef96c46f85ae|Don't handle bird configuration in local_run.sh|Sat, 7 Jan 2017 17:00:15 +0100|Sat, 7 Jan 2017 17:07:25 +0100
+988fc93800fdcde421d8c2c0331f56a718135b20|Allow floating numbers for check_[timeout,interval]|Sat, 7 Jan 2017 16:58:34 +0100|Sat, 7 Jan 2017 16:58:34 +0100
+f9f19af1a18b9700324971bac8ec90e089c3dae5|Instruct Systemd to restart daemon upon failure|Sat, 7 Jan 2017 15:16:43 +0100|Sat, 7 Jan 2017 15:16:43 +0100
+297a79f76e41739da75d0c1bb37a289fcac170b3|Use standard path rather our custom one|Sat, 7 Jan 2017 15:14:36 +0100|Sat, 7 Jan 2017 15:14:36 +0100
+de9b763e0bdd072f2037b1fc8d01e421b0cacb9f|Mention that prefix length is optional|Tue, 3 Jan 2017 12:33:48 +0100|Tue, 3 Jan 2017 12:33:48 +0100
+7b002b81436e81a06abe26be842ff5b1ad62fbfc|Fetch the correct parameter name|Tue, 3 Jan 2017 12:27:36 +0100|Tue, 3 Jan 2017 12:27:36 +0100
+a69382d301f268fc16c7021328b252798c3785fc|Return boolean value instead of a string|Tue, 3 Jan 2017 12:20:23 +0100|Tue, 3 Jan 2017 12:24:01 +0100
+a2e0dacfbd2b4956fc17cdfa0c96c17b045dfeb5|Update example anycast-healthchecker.conf|Thu, 15 Dec 2016 21:51:54 +0100|Thu, 15 Dec 2016 21:51:54 +0100
+c45031d8e799e88a3339b961b2839016bbb28842|RELEASE 0.7.0 version|Thu, 15 Dec 2016 17:12:42 +0100|Thu, 15 Dec 2016 17:14:06 +0100
+d3a2ec2c5b9f2b7e89f55cb1c228f1e6eb7a447c|Drop 3.4 version of python for the local_run|Thu, 15 Dec 2016 16:25:11 +0100|Thu, 15 Dec 2016 16:25:11 +0100
+4131ac54520e36da8cd0412c0fd3cd4942e95abf|Rephrase usage of CLI|Thu, 15 Dec 2016 16:24:41 +0100|Thu, 15 Dec 2016 16:24:41 +0100
+1c45ff06b2d6c8b2feb2aaa5b39ee5466cd8065e|MAJOR: Add support for IPv6|Sat, 3 Dec 2016 01:02:12 +0100|Thu, 15 Dec 2016 16:24:25 +0100
+e0b02a181c2d7ef7f6035a6baa5dcfb44d25d6cb|RELEASE 0.6.3 version|Sun, 6 Nov 2016 19:29:17 +0100|Sun, 6 Nov 2016 19:29:53 +0100
+980b902d48425ccd31761476e4c18e8128659a4a|Add a note for bird_conf setting|Sun, 6 Nov 2016 19:27:23 +0100|Sun, 6 Nov 2016 19:27:23 +0100
+f4c36d16dc4b356cb5b2cbd12fc1c04c03a33f94|Keep a history of changes for bird configuration|Sun, 6 Nov 2016 19:08:44 +0100|Sun, 6 Nov 2016 19:18:42 +0100
+8fd58154d2112a0fe90cd389b43d990b3d653829|Add support for specifying a single service check|Sat, 5 Nov 2016 09:52:49 +0100|Sat, 5 Nov 2016 10:16:12 +0100
+005f203df9f4af72df92910592be8c2da6de4ab4|RELEASE 0.6.2 version|Sun, 16 Oct 2016 09:45:35 +0200|Sun, 16 Oct 2016 09:46:19 +0200
+5302201bdc8ccfdaa687e46278ab049baab6b8c3|Remove die parameter from get_ip_prefixes_from_bird|Sun, 16 Oct 2016 09:31:27 +0200|Sun, 16 Oct 2016 09:31:27 +0200
+14551150f5114d503e723ca841e207e8491800b8|Remove unnecessary call to rstrip function|Sun, 16 Oct 2016 00:59:15 +0200|Sun, 16 Oct 2016 00:59:15 +0200
+0fbd6cb94c56a05e9dc8856be432fbae105b8ea9|Use ConfigParser method to fetch configuration|Sun, 16 Oct 2016 00:37:32 +0200|Sun, 16 Oct 2016 00:37:32 +0200
+66b9c2503963d408519f720439150c30fa761589|Don't exit when there aren't any service checks|Sat, 15 Oct 2016 22:21:38 +0200|Sat, 15 Oct 2016 23:13:35 +0200
+c462f9a2a2b35e6022fd735728303575c1ef0948|Make the use of format consistent in multi-line|Sat, 15 Oct 2016 22:13:56 +0200|Sat, 15 Oct 2016 22:14:42 +0200
+1df4104aa5250caa77845ce55b145f3e981c7cbb|Add support for removing IP-Prefixes without a check|Sat, 15 Oct 2016 11:33:09 +0200|Sat, 15 Oct 2016 11:51:53 +0200
+e06248c1ca6bd261ece113eea9ca3489ba3ac244|Move functions to utils module|Thu, 13 Oct 2016 22:25:28 +0200|Sat, 15 Oct 2016 11:27:39 +0200
+f30425a4f5d90c11dad68acf11af7e01517688f5|Use double quotes silence error with bash 4.4 version|Sun, 25 Sep 2016 23:30:53 +0200|Sun, 25 Sep 2016 23:30:53 +0200
+8bdfc46c4b182774e5af8c5757a91b7d56e525ee|RELEASE 0.6.1 version|Sun, 11 Sep 2016 10:15:29 +0200|Sun, 11 Sep 2016 10:16:32 +0200
+8c63caa236a0f9ba401cfe8803bb74cb5b74d22c|Include IP address and prefix length in JSON blob|Sun, 11 Sep 2016 10:08:40 +0200|Sun, 11 Sep 2016 10:08:40 +0200
+7b3c02b24cd25bab8f5aecc40c7eb73fd991e0c6|RELEASE 0.6.0 version|Wed, 22 Jun 2016 17:11:58 -0700|Wed, 22 Jun 2016 17:12:42 -0700
+ca1a284fe077974dcb3976fe75ee43ea535af2b0|Rephrase sentences and fix typos in README|Mon, 20 Jun 2016 05:55:57 -0700|Mon, 20 Jun 2016 05:57:28 -0700
+68e50c1bf961960f0107f9b5faaff51741d231db|Restructure documentation about settings in README|Sun, 19 Jun 2016 13:26:54 +0200|Sun, 19 Jun 2016 13:26:54 +0200
+2e7c15f7b7a79afc5f5317800c05bf0c700ac7c7|Add option to disable the IP assignment check|Sun, 19 Jun 2016 11:00:47 +0200|Sun, 19 Jun 2016 11:00:47 +0200
+09660dafcaf9ea246b9194c2635a38ee97608de7|Simplify sanity check on configuration|Sun, 19 Jun 2016 07:33:14 +0200|Sun, 19 Jun 2016 07:33:14 +0200
+c2d52a62173ae429cd04431a914ec1ee9dd63394|Log stderr and stdout of check cmd when it fails|Fri, 17 Jun 2016 11:34:08 +0200|Fri, 17 Jun 2016 11:34:08 +0200
+2957357390b989e19be2a2e43d86a079219fb53c|Rephrase some comments|Fri, 17 Jun 2016 11:33:09 +0200|Fri, 17 Jun 2016 11:33:09 +0200
+965f693235b01a066f144bf39139aa55f8e434b9|Add Documentation option in the Systemd unit file|Thu, 16 Jun 2016 14:20:01 +0200|Thu, 16 Jun 2016 14:20:01 +0200
+3c0407adb2971cf1d59448a8774d7bdd39bc7aaf|RELEASE 0.5.10 version|Wed, 15 Jun 2016 22:23:07 +0200|Wed, 15 Jun 2016 22:24:16 +0200
+9cbbeaff455c49b35670c248ffe5dbe39dba3a72|Set more accurate sleep time to avoid interval drifting|Sun, 22 May 2016 23:56:50 +0200|Mon, 23 May 2016 00:01:18 +0200
+e561861d74c724b3ff354670fd44e378cdcafeba|Add contrib dir and move files there.|Sun, 22 May 2016 11:32:17 +0200|Sun, 22 May 2016 11:32:17 +0200
+85daa8e8d5e1133bf674312f9a26146a17a2de8c|RELEASE 0.5.9 version|Sat, 21 May 2016 18:14:46 +0200|Sat, 21 May 2016 18:15:54 +0200
+4d85cfeb3fa12e75e22351b49ad17237f146cdae|Remove inaccurate note from README|Sat, 21 May 2016 18:09:25 +0200|Sat, 21 May 2016 18:09:25 +0200
+508369522fc48e0d177a169affe27af3e275689d|Catch the case where check_cmd can't be killed|Sat, 21 May 2016 17:32:17 +0200|Sat, 21 May 2016 18:04:18 +0200
+319d6f757aa914b13b4821b59ab33159b9ebf18e|Skip string formatting operation|Sat, 21 May 2016 16:08:01 +0200|Sat, 21 May 2016 16:08:01 +0200
+049bb4f82eefbd88d0add23e0a095235878211d9|RELEASE 0.5.8 version|Sun, 15 May 2016 14:44:30 +0200|Sun, 15 May 2016 14:45:18 +0200
+ef019880f02ed6d2f2528b609df9aa2bb235190b|Put keywords in 1 line|Sun, 15 May 2016 14:11:01 +0200|Sun, 15 May 2016 14:11:01 +0200
+deb7f479ec9812ee18b22323f776b6d21dad76e6|Remove empty line|Sun, 15 May 2016 14:01:29 +0200|Sun, 15 May 2016 14:01:29 +0200
+74ea818e7d0ec450bb15523a9a3124a07737fea4|Work around intermittent ValueErrors|Sat, 14 May 2016 22:17:54 +0200|Sun, 15 May 2016 13:57:00 +0200
+4fa664d1b0a27ed7c017fbd643c120262fef600f|Add more keywords in setup.cfg|Mon, 25 Apr 2016 09:19:34 +0200|Mon, 25 Apr 2016 09:19:34 +0200
+97a1d656e39a8d578208464e51ae2623d571cdf6|RELEASE 0.5.7 version|Wed, 20 Apr 2016 11:31:40 +0200|Wed, 20 Apr 2016 11:32:34 +0200
+9376da8d97ca7690be1c577b265143fb86ef26a5|Change the order of logging a message|Wed, 20 Apr 2016 11:28:45 +0200|Wed, 20 Apr 2016 11:29:48 +0200
+2e650d738985a35cb73cabd96994e0cc4e9af3e9|Update bird config when IP isn't assigned to lo|Wed, 20 Apr 2016 10:50:47 +0200|Wed, 20 Apr 2016 11:20:41 +0200
+83333dd74b47b2a6d85d6717c1839bf7fe8900ca|Update installation instructions|Mon, 11 Apr 2016 19:04:27 +0200|Mon, 11 Apr 2016 19:04:27 +0200
+af8f35a970bb6095810b0ca8e729dff907f33ea2|Update setup.cfg|Mon, 11 Apr 2016 14:23:19 +0200|Mon, 11 Apr 2016 14:23:19 +0200
+660c6772bfee26ceee9412bfe7d1281b881482e4|Make pylint happy|Tue, 5 Apr 2016 22:17:43 +0200|Tue, 5 Apr 2016 22:24:16 +0200
+423a0fffc42d01b28a6145cc23911d5fde0dc5a9|RELEASE 0.5.6 version|Tue, 1 Mar 2016 17:13:21 +0100|Tue, 1 Mar 2016 17:14:16 +0100
+1135f4acb7d1196288b3c1b4ec4c5e159a09d30d|Add 'status' key in the JSON blob|Mon, 29 Feb 2016 20:12:17 +0100|Mon, 29 Feb 2016 20:17:10 +0100
+de25c5acb727b3a24dfe546b21e0d53f686a10c5|Fix line break before binary operator|Mon, 29 Feb 2016 20:11:52 +0100|Mon, 29 Feb 2016 20:17:10 +0100
+4317141f1dc0d782890984eb5125ef9ef5edcb75|Rewrite docstring of LoggerExt class|Mon, 29 Feb 2016 20:08:05 +0100|Mon, 29 Feb 2016 20:17:10 +0100
+150bc58a1b45bbafa3d9a9fbffe899ba27e451eb|Another set of docstring updates|Sat, 6 Feb 2016 10:12:22 +0100|Sat, 6 Feb 2016 10:15:17 +0100
+4538eb3b311d3faecd168461e1850e5b382dfd99|Update TODO|Fri, 29 Jan 2016 13:22:49 +0100|Fri, 29 Jan 2016 13:22:49 +0100
+fffa6e497ae8bf2b4d5f948c7ba5c3255e63e3b7|Update docstrings and comments|Mon, 25 Jan 2016 22:05:52 +0100|Mon, 25 Jan 2016 22:05:52 +0100
+3ae577ac65ea9f6875a1d27cc408f3ceebf461d4|Use a more proper name for a variable|Mon, 25 Jan 2016 22:04:37 +0100|Mon, 25 Jan 2016 22:04:37 +0100
+ce518a8a41821d969a710768f5f074f1a24c3454|Remove unused reference from README|Mon, 25 Jan 2016 22:00:37 +0100|Mon, 25 Jan 2016 22:00:37 +0100
+02c5b9fc089179588dc3bc885b06d702de0b5739|Update copyright|Sat, 16 Jan 2016 10:18:14 +0100|Sat, 16 Jan 2016 10:18:14 +0100
+b0a0445eee47e1bbe07196620213f5f6a824794f|RELEASE 0.5.5 version|Tue, 12 Jan 2016 23:52:58 +0100|Tue, 12 Jan 2016 23:54:15 +0100
+535d28f0261edb15428424388984b173a97d2af1|Update TODO.rst|Sun, 27 Dec 2015 13:24:24 +0200|Sun, 27 Dec 2015 13:24:24 +0200
+8d53c449e74b0e3b3a8b1e4faf63aa10c7d6a13f|Enforce HTTP keep-alive on requests|Wed, 23 Dec 2015 11:24:45 +0100|Wed, 23 Dec 2015 11:24:45 +0100
+c126b54b6f922e3aca232f863b91bd73149ed512|RELEASE 0.5.4 version|Sat, 19 Dec 2015 14:39:58 +0100|Sat, 19 Dec 2015 14:40:45 +0100
+14b35e1be85bb787f64afa550cf3a65a32424320|Fix an indentation issue|Sat, 19 Dec 2015 13:52:05 +0100|Sat, 19 Dec 2015 13:54:29 +0100
+a2387249568eda14a7769c89f4b5655f87bb4bad|Fix a crash with python-daemon>=2.1|Sat, 19 Dec 2015 13:40:26 +0100|Sat, 19 Dec 2015 13:49:25 +0100
+2818bc71f85c6cb34739fb5abf70be212aa40154|RELEASE 0.5.3 version|Wed, 16 Dec 2015 11:58:22 +0100|Wed, 16 Dec 2015 11:59:05 +0100
+43b1b30934e7edb0d88b1b7993c97e1643d066dd|Use lowercase for the status when is in transition|Wed, 16 Dec 2015 11:45:03 +0100|Wed, 16 Dec 2015 11:45:03 +0100
+a7cbec67ca40864b6728b2a624a85403981f8a2f|Change log level when IP isn't assigned to lo|Wed, 16 Dec 2015 11:35:53 +0100|Wed, 16 Dec 2015 11:35:53 +0100
+2deab5de05dec7f1a90e16459cfd1a4a9cb7bff4|Do not send JSON blob for debug messages|Wed, 16 Dec 2015 11:28:44 +0100|Wed, 16 Dec 2015 11:28:44 +0100
+a6f2965c5ea95a5177ac88c5c52b54e64e02d197|Log only failures when sending JSON blobs|Wed, 16 Dec 2015 11:28:01 +0100|Wed, 16 Dec 2015 11:28:01 +0100
+f58803814c44a3557646ed807240dfb989939da9|Reorder the message about zero IP prefixes|Mon, 14 Dec 2015 14:33:46 +0100|Mon, 14 Dec 2015 14:33:46 +0100
+fa373f7a196f6768218ce00bf4231fc99abbd1e9|Include the process ID in the header|Mon, 14 Dec 2015 14:16:38 +0100|Mon, 14 Dec 2015 14:16:38 +0100
+d9bbb261c0111d1061bc576ed7d2583c9d268e50|RELEASE 0.5.2 version|Sun, 13 Dec 2015 14:41:18 +0100|Sun, 13 Dec 2015 14:41:59 +0100
+5dae73d41120ffaae0f5469ce8f74cada5dc78a5|Update TODO|Sun, 13 Dec 2015 14:39:14 +0100|Sun, 13 Dec 2015 14:39:14 +0100
+47bc5e6861c1455e25140699c2cb09f28c744a6d|Use lowercase everywhere to simplify log parsing|Sun, 13 Dec 2015 14:34:05 +0100|Sun, 13 Dec 2015 14:34:05 +0100
+0964ceb3ff2dd37d9fe15801956d44cad3088d4d|Print also the frame stuck|Sun, 13 Dec 2015 14:22:02 +0100|Sun, 13 Dec 2015 14:22:02 +0100
+c8a3c9bb642964d2aa38c58b7170b7d502b23034|Remove newline character from the error output|Sun, 13 Dec 2015 14:20:51 +0100|Sun, 13 Dec 2015 14:20:51 +0100
+9a81377225203400604608d580c18e7de73c9348|Implement a more atomic way to update bird conf|Sun, 13 Dec 2015 13:58:47 +0100|Sun, 13 Dec 2015 13:58:47 +0100
+217e3c50f2c7b1c54bc70bbbcd978943fe726514|Disable pylint warnings for too-many-arguments|Sat, 12 Dec 2015 10:50:38 +0100|Sat, 12 Dec 2015 10:50:38 +0100
+ff3509076d37cf15c3db1869f982d9a7065eae5f|Store anycast-prefixes.conf under /var/lib/|Sat, 12 Dec 2015 00:01:55 +0100|Sat, 12 Dec 2015 00:01:55 +0100
+70bb3061a595c176cfec334dc3aa68cd915ecb64|RELEASE 0.5.1 version|Fri, 4 Dec 2015 12:00:52 +0100|Fri, 4 Dec 2015 12:01:56 +0100
+70c8dbb962f5ba21271118d277b1f5524743a9de|Add a module docstring|Fri, 4 Dec 2015 12:00:34 +0100|Fri, 4 Dec 2015 12:00:34 +0100
+cf51f21305ca19ced9b293a0615cead5178b382a|Add a warning when all IP prefixes are removed|Fri, 4 Dec 2015 11:19:01 +0100|Fri, 4 Dec 2015 11:21:19 +0100
+735eb54fa0687ac60866ed12fa1a3a85d03f72d2|Shorten some lines to make pylint happy|Fri, 4 Dec 2015 11:18:16 +0100|Fri, 4 Dec 2015 11:18:16 +0100
+12166487cdcf1ecf3d498da2a8297d9c33fedff4|Add module and classes docstrings|Fri, 4 Dec 2015 10:52:55 +0100|Fri, 4 Dec 2015 10:52:55 +0100
+cf4664a14b7709d8af84b47a852280b9474dfaf0|Add support of populating JSON structure|Fri, 4 Dec 2015 10:22:14 +0100|Fri, 4 Dec 2015 10:22:14 +0100
+7d6bc02a29f080288522a280c1fed94d91ff9195|Rename variable for shorting the length of a line|Fri, 4 Dec 2015 10:21:09 +0100|Fri, 4 Dec 2015 10:21:09 +0100
+d20e984738b1b7701b385a3b14e356f59f7588bf|Make possible to disable the sending of JSON blobs|Fri, 4 Dec 2015 10:15:23 +0100|Fri, 4 Dec 2015 10:15:23 +0100
+646ea8f860dd18560b9f059da7bb84e7755cc199|Disable pylint warning attribute-defined-outside-init|Fri, 4 Dec 2015 10:11:12 +0100|Fri, 4 Dec 2015 10:11:12 +0100
+b8f981bf886ff64ffd83047bf217051c269b26de|Remove the JSON blob from the log messages|Thu, 3 Dec 2015 22:39:41 +0100|Thu, 3 Dec 2015 22:39:41 +0100
+662a6f6f30826a24361bc7f49f80bf8ea06984d3|Wait a bit before starting again the daemon.|Thu, 3 Dec 2015 22:31:52 +0100|Thu, 3 Dec 2015 22:31:52 +0100
+319db87323be98bb3b40f2b88cdeade366f30a49|Add docstring for a function|Thu, 3 Dec 2015 22:31:06 +0100|Thu, 3 Dec 2015 22:31:06 +0100
+ad54f9ed84c06effee47b52ab7f49f428a8d9050|Remove string interpolation within logging calls|Thu, 3 Dec 2015 22:03:42 +0100|Thu, 3 Dec 2015 22:03:42 +0100
+f60f900213d6c11a132fd0f9ef36c79e154807a7|Add version of the daemon in the JSON blob|Thu, 3 Dec 2015 22:03:03 +0100|Thu, 3 Dec 2015 22:03:03 +0100
+8e90f2509f8e5ea0749cfc15a961fcd319e9cd47|Rename a variable for shorting the length of lines|Thu, 3 Dec 2015 21:33:16 +0100|Thu, 3 Dec 2015 21:33:16 +0100
+cc7be7fba702ee2912927365720177392ed37f6b|Add requests module in requirements.txt|Thu, 3 Dec 2015 11:29:12 +0100|Thu, 3 Dec 2015 11:29:12 +0100
+6d35f453215407e302165f5b05de8b64d3e0a0d4|RELEASE 0.5.0 version|Thu, 3 Dec 2015 11:25:32 +0100|Thu, 3 Dec 2015 11:27:14 +0100
+7a80c41747c528e928bcf7f20f8002139af3b6de|Add support for JSON logging to a remote point|Wed, 25 Nov 2015 21:59:11 +0100|Thu, 3 Dec 2015 11:13:09 +0100
+97f2bccb995d99987fed1cf56f9edaeee76b7e61|RELEASE 0.4.5 version|Thu, 26 Nov 2015 14:05:38 +0100|Thu, 26 Nov 2015 14:06:38 +0100
+c6730a4d4dd59002910bf7c19607555b52cc8550|Catch the error on bird reload due to missing cmd|Wed, 25 Nov 2015 22:27:17 +0100|Wed, 25 Nov 2015 22:27:17 +0100
+97d8ebc6e221b7d15bfd0abc3c5d2bf8ca90658c|Remove unnecessary call to close()|Wed, 25 Nov 2015 22:01:05 +0100|Wed, 25 Nov 2015 22:01:05 +0100
+2a2224cde6c6a93fb558c01f7dddf25b6caaf032|RELEASE 0.4.4 version|Sun, 22 Nov 2015 15:20:58 +0100|Sun, 22 Nov 2015 15:22:18 +0100
+0a020543491d60efdb84bb861137b9775ce1842b|Update docstring of ip_prefixes_check()|Sun, 22 Nov 2015 14:58:22 +0100|Sun, 22 Nov 2015 14:58:22 +0100
+44852dbf4290a8a9e3b64b1f6a7739286b7e2948|Remove import of an unused exception|Sat, 21 Nov 2015 22:09:37 +0100|Sat, 21 Nov 2015 22:09:37 +0100
+ad8842415b8b61ef3e8645b96c0b7d4b0b8a0977|Change the way we handle IP prefixes without check|Sat, 21 Nov 2015 21:57:27 +0100|Sat, 21 Nov 2015 22:07:28 +0100
+c11b889f40afe49785734daae726c9ed81b1f14c|Add Ralf Ertzinger in the contributers list|Fri, 20 Nov 2015 09:47:18 +0100|Fri, 20 Nov 2015 09:47:18 +0100
+b232957518eeaba5e8de9e39569878e876db4c22|Merge branch 'readmerework'|Fri, 20 Nov 2015 09:43:42 +0100|Fri, 20 Nov 2015 09:43:42 +0100
+a4bf1ed0a2b6b0e05cfe3dfd902a7407bdd55e11|Add some corrections in README|Fri, 20 Nov 2015 09:42:17 +0100|Fri, 20 Nov 2015 09:42:17 +0100
+8eaf3ed90ea184963799bdcb7997b2393f9f13f0|Merge pull request #2 from Lalufu/readmerework|Thu, 19 Nov 2015 22:40:26 +0100|Thu, 19 Nov 2015 22:40:26 +0100
+b93a620a3018d7edbd6957044b6e94cacc07701b|Rewrite routing protcol overview|Thu, 19 Nov 2015 20:27:04 +0100|Thu, 19 Nov 2015 20:27:04 +0100
+9e07e8e02ec429101bb52a8d92a66e7492fe0e96|Add contributers section|Mon, 16 Nov 2015 15:18:52 +0100|Mon, 16 Nov 2015 15:18:52 +0100
+d8d272336e82189f0c4376ba53ed21a940c70a92|RELEASE 0.4.3 version|Mon, 16 Nov 2015 14:51:40 +0100|Mon, 16 Nov 2015 14:52:50 +0100
+3ddc1a5298a81f26c65c5672f46d510f7d040113|Fix a regression introduced by 168f9aab|Mon, 16 Nov 2015 14:45:20 +0100|Mon, 16 Nov 2015 14:45:20 +0100
+6013d846837cd30b4fe21e4bc3e376b14b49362e|RELEASE 0.4.2 version|Mon, 16 Nov 2015 13:46:11 +0100|Mon, 16 Nov 2015 13:47:01 +0100
+168f9aab5df1d5d08c1b806be1b9cddaedce38cd|Change the way threads pass operations|Thu, 12 Nov 2015 10:41:20 +0100|Thu, 12 Nov 2015 10:41:20 +0100
+eae4621876b804fd050071696f0016c071e107a3|Fix a regression introduced by 37aa574b1159|Thu, 12 Nov 2015 09:52:24 +0100|Thu, 12 Nov 2015 10:03:58 +0100
+37aa574b1159551ed8f57da6f303679eb591cdc3|Simplify the update of bird configuration|Wed, 11 Nov 2015 21:19:52 +0100|Wed, 11 Nov 2015 21:19:52 +0100
+a79fbf9faae29491cacb79ba73c5b4be78bce101|Call anycast-healthchecker from the virtualenvironment|Wed, 11 Nov 2015 21:07:15 +0100|Wed, 11 Nov 2015 21:09:38 +0100
+fd60a3c99438196599b8fae7a401eecd9c5eaa1e|Remove unnecessary catch of Empty exception|Wed, 11 Nov 2015 20:55:19 +0100|Wed, 11 Nov 2015 21:09:38 +0100
+2f9bd04d1229d53f60e3cd68fc30179846535114|Remove unnecessary block on threads|Wed, 11 Nov 2015 20:36:38 +0100|Wed, 11 Nov 2015 20:43:47 +0100
+3a9b282d2e010413481cc4a555e150e1dfbd71d8|Modify README based on the feedback received|Mon, 9 Nov 2015 21:38:18 +0100|Mon, 9 Nov 2015 21:38:18 +0100
+b47251fa2345f2b4522b0bf331d0a65b8360866b|ServiceCheck: simplify code by removing superfluous lines|Thu, 5 Nov 2015 22:12:08 +0100|Thu, 5 Nov 2015 22:12:08 +0100
+7e183c2f70e18fe9f0940dc682788035775df183|switch to split from shlex|Thu, 5 Nov 2015 21:50:19 +0100|Thu, 5 Nov 2015 21:50:19 +0100
+8741b9f24a33286aba1e4e6d3db5a0c56303192b|Merge branch 'ndemou-master'|Thu, 5 Nov 2015 20:48:34 +0100|Thu, 5 Nov 2015 20:48:34 +0100
+bbcbfebfcedf4474629065316d836cb119e1f7b4|tiny changes on modifications from @ndemou.|Thu, 5 Nov 2015 20:47:10 +0100|Thu, 5 Nov 2015 20:47:10 +0100
+7b8528e55b8bcb870db3c3454eff0ec7f275c72f|Merge pull request #1 from ndemou/nd-intro-minor|Tue, 3 Nov 2015 14:31:35 +0200|Tue, 3 Nov 2015 14:31:35 +0200
+8e48e84013936153315b1f9703b75aa04f99aa56|New Introduction + minor spelling, grammar syntax|Tue, 3 Nov 2015 14:30:51 +0200|Tue, 3 Nov 2015 14:30:51 +0200
+e75b37e60ddea8f8d61e83317ec94fde8a66f1aa|More clear and simple introduction|Tue, 3 Nov 2015 13:10:12 +0200|Tue, 3 Nov 2015 13:10:12 +0200
+ef169947515c4d75a85288340ac81c44a8b5858a|RELEASE 0.4.1 version|Mon, 2 Nov 2015 10:38:31 +0100|Mon, 2 Nov 2015 10:40:19 +0100
+368a669f3bbc6eed8a0af5f27551fcd173ff2ff0|mention the use of virtualenvwrapper tool in Testing section|Mon, 2 Nov 2015 10:33:40 +0100|Mon, 2 Nov 2015 10:33:40 +0100
+64d97cd29f8d4e5c37585750d88d013789a7c352|another set of small updates on README|Fri, 30 Oct 2015 10:28:34 +0100|Fri, 30 Oct 2015 10:28:34 +0100
+0b39d1d494961357a45571d78ed0e92dd7d0e70b|fix broken reference in README|Thu, 29 Oct 2015 21:33:19 +0100|Thu, 29 Oct 2015 21:33:19 +0100
+163fd6387dadef189d2ed9a4c1a840f21e06d1f0|several changes on README|Thu, 29 Oct 2015 16:12:58 +0100|Thu, 29 Oct 2015 16:12:58 +0100
+b22db1ff63d242f2c8fddbf156d1e348189fd861|fix typo in README|Wed, 28 Oct 2015 18:23:18 +0100|Wed, 28 Oct 2015 18:23:18 +0100
+9f436be7829333085b58ad67a245cca202cbbf40|use correct statement to include images|Wed, 28 Oct 2015 12:19:41 +0100|Wed, 28 Oct 2015 12:19:41 +0100
+06fb28582ee7511e1f30f409ae2d4a9baa0ea6f7|add drawings to illustrate how anycasted traffic is routed|Wed, 28 Oct 2015 12:16:19 +0100|Wed, 28 Oct 2015 12:16:19 +0100
+04942950471263ba6ad8c93892bb05d126e355d9|tiny fixes in README|Wed, 28 Oct 2015 10:39:51 +0100|Wed, 28 Oct 2015 10:39:51 +0100
+a5b7fc0e0d3b47bc837794c2f3b083e36b0f010a|local_run: get only the list of IPv4 addresses|Tue, 27 Oct 2015 21:33:17 +0100|Tue, 27 Oct 2015 21:33:17 +0100
+12a3c297e9e17c30231269fe269041b6ffed0008|tiny fixes on README|Tue, 27 Oct 2015 19:50:39 +0100|Tue, 27 Oct 2015 19:50:39 +0100
+462393ea438dc3369ec35fc1f1bc07bb61be49a9|fix typos in README|Tue, 27 Oct 2015 14:05:56 +0100|Tue, 27 Oct 2015 14:05:56 +0100
+d7eb4fb69d2ad11f2a00a73997bd95ca614ee589|add details in README on how someone can test the software|Tue, 27 Oct 2015 14:03:58 +0100|Tue, 27 Oct 2015 14:03:58 +0100
+2b2d0208d2a34a1185c18d4304bd293c636919f0|fix typo in README|Tue, 27 Oct 2015 14:03:47 +0100|Tue, 27 Oct 2015 14:03:47 +0100
+c2d34b0accb4dc65a235d7e762798f2d2431fb84|local_run: report if bird is running|Tue, 27 Oct 2015 13:35:19 +0100|Tue, 27 Oct 2015 13:35:19 +0100
+78aae54bf84e95cb5e1134b694bacefad8b9b1f2|several clean ups on local_run|Tue, 27 Oct 2015 10:06:48 +0100|Tue, 27 Oct 2015 10:19:13 +0100
+0106fd1ebe16455a5f5c7639941dcc8482eeaea3|RELEASE 0.4.0 version|Mon, 26 Oct 2015 22:35:12 +0100|Mon, 26 Oct 2015 22:36:14 +0100
+f39c6e71320940e84acdee17466720468b5d04f5|ServiceCheck: rearrange the check of IPs in lo interface|Mon, 26 Oct 2015 22:23:49 +0100|Mon, 26 Oct 2015 22:23:49 +0100
+793570d5673417c3ea27224dde61df119416b921|correct the directory path which contains the service checks|Mon, 26 Oct 2015 22:19:25 +0100|Mon, 26 Oct 2015 22:19:25 +0100
+c4fe5abffafff298f748a6119c69cc6fa1caacf8|add/remove items from README|Mon, 26 Oct 2015 19:35:07 +0100|Mon, 26 Oct 2015 19:35:07 +0100
+553eeb24268d4bd03e932c0de5005f415fcb8376|remove OPTIONS variable as its settings aren't supported anymore|Mon, 26 Oct 2015 19:23:04 +0100|Mon, 26 Oct 2015 19:23:04 +0100
+f5b52a913bb1f9dc61e960ce20f4ae8c970e383f|change path of the daemon|Mon, 26 Oct 2015 19:22:36 +0100|Mon, 26 Oct 2015 19:22:36 +0100
+f730b0bc0bbbef303b1a56294f797eea55f68d04|change the default directory location for services check configs|Mon, 26 Oct 2015 19:19:00 +0100|Mon, 26 Oct 2015 19:19:00 +0100
+956b2179954780dffb5695ce094600761efc5504|another set of updates on README|Mon, 26 Oct 2015 14:44:19 +0100|Mon, 26 Oct 2015 14:44:19 +0100
+e3a3786783ac645741a9c574ca071a211535a365|fix for real the typos in README|Mon, 26 Oct 2015 13:22:57 +0100|Mon, 26 Oct 2015 13:22:57 +0100
+db82d1ba9727036e2e56a0d240949b4347ea6357|fix typos in README|Mon, 26 Oct 2015 13:22:13 +0100|Mon, 26 Oct 2015 13:22:13 +0100
+06332cfd53500e2cc44814ec88a8e0781957b3b0|some tiny updates on README|Mon, 26 Oct 2015 13:21:16 +0100|Mon, 26 Oct 2015 13:21:16 +0100
+50b8971b6f7be2e448d4ba66d663e1c3e1e59147|add support for bird_reconfigure_cmd|Mon, 26 Oct 2015 11:47:43 +0100|Mon, 26 Oct 2015 11:47:43 +0100
+8a5d92a47d6914097ad1a53002a6ac415a59c726|reStructured text is fun:-(|Sun, 25 Oct 2015 23:16:47 +0100|Sun, 25 Oct 2015 23:16:47 +0100
+e19afd52eea9d0ce6b678f61ae95c2ba322cfa00|Revert "align left the parameter names"|Sun, 25 Oct 2015 23:16:00 +0100|Sun, 25 Oct 2015 23:16:00 +0100
+0f0db2021bba9c43558a54afa597854a228f6759|align left the parameter names|Sun, 25 Oct 2015 23:14:36 +0100|Sun, 25 Oct 2015 23:14:36 +0100
+0af0b2f45c63c463080eeddf36acfb4a5c73fd48|small corrections on README|Sun, 25 Oct 2015 23:11:40 +0100|Sun, 25 Oct 2015 23:11:40 +0100
+6da14b620951488ddce33739f4350b4b35c9e540|update diagram about RIB in bird|Sun, 25 Oct 2015 23:00:02 +0100|Sun, 25 Oct 2015 23:00:02 +0100
+8d8cf1a6b797ec66b41af77a4bb3524f5f422580|update diagram about RIB in bird|Sun, 25 Oct 2015 22:54:00 +0100|Sun, 25 Oct 2015 22:54:00 +0100
+3e3fe45ca7cc1ad1079778279869fe7351c71815|add proper description/examples/configution|Fri, 23 Oct 2015 23:39:14 +0200|Sun, 25 Oct 2015 22:42:41 +0100
+fff0ec49eb6b6d4723e544ab9dfe9a26efe496b5|add example and working bird configuration|Fri, 23 Oct 2015 23:15:21 +0200|Fri, 23 Oct 2015 23:15:21 +0200
+6ce6eb25530386587f3b72ae1147929ebc39399f|use a more reasonable default value for log_backups option|Fri, 23 Oct 2015 23:09:55 +0200|Fri, 23 Oct 2015 23:09:55 +0200
+a4d8060cc5b67dafad896077dea762fcfd7de0ef|ServiceCheck: remove unnecessary check for wrong value for on_disabled option|Fri, 23 Oct 2015 22:42:02 +0200|Fri, 23 Oct 2015 22:42:02 +0200
+81802aa330c747e16cfc7198cb3dbbecfbbd9be1|ServiceCheck: updates on docstrings/comments|Fri, 23 Oct 2015 22:39:31 +0200|Fri, 23 Oct 2015 22:39:31 +0200
+c455b6404be86c8984b19ac6c37d21ab14f93a19|HealthChecker: docstrings/comment updates|Fri, 23 Oct 2015 22:20:51 +0200|Fri, 23 Oct 2015 22:20:51 +0200
+428c7f6332bd6385693abf64b54a8d293f87c6a4|add an item to TODO|Fri, 23 Oct 2015 22:14:13 +0200|Fri, 23 Oct 2015 22:14:13 +0200
+2378d2167facc7d45869affcdf96684966cbc9cd|more useful logging on startup|Fri, 23 Oct 2015 20:52:42 +0200|Fri, 23 Oct 2015 20:52:42 +0200
+143ac05d874e4c088d564cad9291d22c182bc844|make pylint happy by shorten length of lines|Fri, 23 Oct 2015 16:17:38 +0200|Fri, 23 Oct 2015 16:17:38 +0200
+e4b90ca819f3c4f49c67a59b1eb6bb8171133ea0|remove items from TODO list|Fri, 23 Oct 2015 16:06:44 +0200|Fri, 23 Oct 2015 16:06:44 +0200
+8da15a24c2f6a1c765d6c05e4fe892f02218427a|include an example anycast-healthchecker.conf file|Fri, 23 Oct 2015 16:04:27 +0200|Fri, 23 Oct 2015 16:05:05 +0200
+a197475f8c498bd54f997326c0b15a084455b2e0|healthchecker: remove unnecessary import of re module|Fri, 23 Oct 2015 15:56:51 +0200|Fri, 23 Oct 2015 15:56:51 +0200
+3951da031fded09b1f4dc2872a421c581758bda0|remove unnecessary empty line|Fri, 23 Oct 2015 15:49:44 +0200|Fri, 23 Oct 2015 15:49:44 +0200
+e3c95464a2b60eba57d1dd804a94352a7ecbd7ec|healthchecker: use get_ip_prefixes_from_bird to fetch IP prefixes|Fri, 23 Oct 2015 15:46:03 +0200|Fri, 23 Oct 2015 15:46:03 +0200
+8c8fd8275d785a673685ea1723c73f92a578b48e|ServiceCheck: remove unnecessary code|Fri, 23 Oct 2015 15:23:33 +0200|Fri, 23 Oct 2015 15:23:33 +0200
+511542820602e808587c2442076bc5b229b9b5d6|local_run: drop sleep as it isn't needed anymore|Fri, 23 Oct 2015 15:19:23 +0200|Fri, 23 Oct 2015 15:19:23 +0200
+abec67edfd85e726cd5b77935498323c4fae5a41|MAJOR: drop event system as it is not needed anymore|Fri, 23 Oct 2015 15:18:31 +0200|Fri, 23 Oct 2015 15:18:31 +0200
+21c421d82e35028248fdc6f587e3bfe69fdce4e2|local_run: use correct file extension|Fri, 23 Oct 2015 14:23:42 +0200|Fri, 23 Oct 2015 14:23:42 +0200
+088eb526a4fdc89d2adbeb67f405dd35b4510d43|utils: get_ip_prefixes_from_bird returns a list|Fri, 23 Oct 2015 11:38:58 +0200|Fri, 23 Oct 2015 11:38:58 +0200
+d39a558a305f88694b64aca78096738b3a59b655|HealthChecker: docstring updates|Fri, 23 Oct 2015 10:50:02 +0200|Fri, 23 Oct 2015 10:50:02 +0200
+b4cc93c93640a17b71f6ec68a83bcf7a51fafd99|utils: remove unnecessary commented lines|Fri, 23 Oct 2015 10:42:39 +0200|Fri, 23 Oct 2015 10:42:39 +0200
+5926d19041ebf2a6f76f3a15976005d27e96f60e|utils: fix typo in variable name|Fri, 23 Oct 2015 10:42:02 +0200|Fri, 23 Oct 2015 10:42:02 +0200
+f5484a9359ccb4324251f2ddc1f3eeee563c8d0a|utils: docstrings updates|Fri, 23 Oct 2015 10:41:31 +0200|Fri, 23 Oct 2015 10:41:31 +0200
+68a3c87adfcae0359b81192199ff9bde32c60039|BUG: always perform sanity checks|Fri, 23 Oct 2015 10:30:58 +0200|Fri, 23 Oct 2015 10:30:58 +0200
+c469573c4029493d8d09e242d21b0847e0ba6b67|BUG:perform sanity check before we check if daemon is running|Fri, 23 Oct 2015 10:28:39 +0200|Fri, 23 Oct 2015 10:28:39 +0200
+1ab2ffa6f6fe674bfd855cb07c991b8be846fc72|add support for showing configuration|Fri, 23 Oct 2015 10:23:31 +0200|Fri, 23 Oct 2015 10:25:01 +0200
+2fa87ae7cc7c64d56892bb828159f60b1da09375|add items in TODO list|Fri, 23 Oct 2015 08:34:57 +0200|Fri, 23 Oct 2015 08:34:57 +0200
+63c478cc94023a458613908ad1ae7330e11eee2f|remove items from TODO which are completed|Fri, 23 Oct 2015 08:32:14 +0200|Fri, 23 Oct 2015 08:32:14 +0200
+a05466a23e2dba8153187c01d4680b2ebf02efb1|MAJOR:switch to INI files with configparser and docopt for CLI|Fri, 23 Oct 2015 00:23:03 +0200|Fri, 23 Oct 2015 08:30:27 +0200
+c01fe4df59fbd57293be37c3b5344767b5a5da91|add item in TODO|Wed, 21 Oct 2015 10:20:31 +0200|Wed, 21 Oct 2015 10:20:31 +0200
+2e206d2ba47593b53a45a298bc8cdb2f518db94a|use the 'to' option in ip tool to list addresses matching the prefix|Wed, 21 Oct 2015 09:58:38 +0200|Wed, 21 Oct 2015 09:58:38 +0200
+4c2584aea70bbc93ede83a38b50c96fe840eb361|RELEASE 0.3.0 version|Tue, 20 Oct 2015 16:15:03 +0200|Tue, 20 Oct 2015 16:16:14 +0200
+49ae9b4412661d7498dac802a926f43a0ca2b879|no need to close file handler as 'with' statement does it|Tue, 20 Oct 2015 16:11:56 +0200|Tue, 20 Oct 2015 16:11:56 +0200
+687f41dab59fd0b0a378b2b783d7c5054c2f25b7|remove another item from TODO|Tue, 20 Oct 2015 15:11:07 +0200|Tue, 20 Oct 2015 15:11:07 +0200
+4e94204466f09d4a47df9e10012b3d5915ffcf47|one item from TODO is finished|Tue, 20 Oct 2015 15:09:00 +0200|Tue, 20 Oct 2015 15:09:00 +0200
+bbf4c8aa253c6d4480d2ee156df3a685e13e9391|sys.exit can print as well:-)|Tue, 20 Oct 2015 15:07:38 +0200|Tue, 20 Oct 2015 15:07:38 +0200
+dc5593b7b52eb2f14ebb434b70447ddd1db57c3d|remove unused constant|Tue, 20 Oct 2015 15:05:12 +0200|Tue, 20 Oct 2015 15:05:12 +0200
+d5e44ff5102671eef80427301d4e65603a851047|detect the case where Ddummy ip prefix is missing from bird conf|Tue, 20 Oct 2015 15:04:10 +0200|Tue, 20 Oct 2015 15:04:10 +0200
+e2fa60ea4c6bc182f71e137f45e444fd4cd6bfd8|detect prefixes in bird without a configuration|Tue, 20 Oct 2015 14:53:33 +0200|Tue, 20 Oct 2015 14:53:33 +0200
+74c867c54f4267e0b757740f0cac136c05844f48|serviceCheck and healthchecker classes get a config option|Tue, 20 Oct 2015 13:42:09 +0200|Tue, 20 Oct 2015 13:42:09 +0200
+48905f740dcec77ead1acd6d82ded514a15f939b|configuration_check accept a config object rather a dir with conf files|Tue, 20 Oct 2015 13:41:12 +0200|Tue, 20 Oct 2015 13:41:12 +0200
+762755316ad96c8741504589f6077bd4dad08ebb|provide a get_config() to parse json files and return a dict|Tue, 20 Oct 2015 12:38:27 +0200|Tue, 20 Oct 2015 12:38:27 +0200
+96b1a7603af39980c33367077b42f9b41bbc5af1|add get_config_files() to return the absolute path of json files|Tue, 20 Oct 2015 09:52:47 +0200|Tue, 20 Oct 2015 09:52:47 +0200
+617ee02962d5306c50509adcf9110b6f3881fce7|utils:configuration_check:mention the value for invalid types|Tue, 20 Oct 2015 09:32:26 +0200|Tue, 20 Oct 2015 09:32:26 +0200
+9c1f2ee5c713c378fb5797f73948f170b19c29f7|move running function to utils module|Tue, 20 Oct 2015 09:24:50 +0200|Tue, 20 Oct 2015 09:24:50 +0200
+bbac41d3f1e12ba9edeea624f0c07e2d3fab8efc|allocate a pid file after all checks has been passed|Tue, 20 Oct 2015 09:22:26 +0200|Tue, 20 Oct 2015 09:22:26 +0200
+4dd17464c0a140c42948e5b536389f6f7673b23f|refactor configuration_check function|Tue, 20 Oct 2015 09:19:37 +0200|Tue, 20 Oct 2015 09:19:37 +0200
+2224505c31792d54e05e9ae756cfb36852e83934|remove items from TODO which are completed|Mon, 19 Oct 2015 16:09:00 +0200|Mon, 19 Oct 2015 16:09:00 +0200
+33ad6d801ac9fd2a1a8acd8afa58d55ddd62767d|exit if we can't write to bird configuration file|Mon, 19 Oct 2015 15:54:38 +0200|Mon, 19 Oct 2015 15:54:38 +0200
+43d5abf5da38bfbab4ec4edf0ff087225f2334ab|don't print filename as it is mentioned in exception message|Mon, 19 Oct 2015 15:53:39 +0200|Mon, 19 Oct 2015 15:53:39 +0200
+cc6afa7533563dfa1b89993136ab6cedcf354e48|add support for supplying dummy IP prefix in CLI|Mon, 19 Oct 2015 15:43:50 +0200|Mon, 19 Oct 2015 15:47:58 +0200
+ef801252dbc098bdc91637db179789d6da86430a|make sure log files exists before we start|Mon, 19 Oct 2015 15:43:09 +0200|Mon, 19 Oct 2015 15:43:09 +0200
+ac0b2e2e5f36334037426345b9af3c813f968316|add a touch function in utils module|Mon, 19 Oct 2015 15:41:48 +0200|Mon, 19 Oct 2015 15:41:48 +0200
+30ac609e42e692346bd32d2a068ba165554ad02b|introduce utils module with valid_ip_prefix function|Mon, 19 Oct 2015 13:29:32 +0200|Mon, 19 Oct 2015 13:29:32 +0200
+46024e87b2d47b3bb042a7c696d2ad2f2a437e4a|remove unused code from local_run|Sat, 17 Oct 2015 00:20:11 +0200|Sat, 17 Oct 2015 00:20:11 +0200
+b4110c3f336aef86ad87e455bc07766f2752feed|one item from TODO is implemented|Fri, 16 Oct 2015 17:03:18 +0200|Fri, 16 Oct 2015 17:03:18 +0200
+899ce248cbb7c6415fc5e4923e5ce176f959a0ee|add support for version in CLI, print it to log as well|Fri, 16 Oct 2015 15:18:16 +0200|Fri, 16 Oct 2015 15:18:16 +0200
+133d68311ef6f507dc2f545bc65346c9bdf0c8f2|update TODO|Fri, 16 Oct 2015 13:29:42 +0200|Fri, 16 Oct 2015 13:29:42 +0200
+1f2c0c2877b5bb5a485e8432e7b8c039d15a131f|RELEASE 0.2.2 version|Tue, 13 Oct 2015 14:22:05 +0200|Tue, 13 Oct 2015 14:23:23 +0200
+ca14b28a362ea7f18c2db67c0a3d39abcf9ec7bd|proper shebang|Tue, 13 Oct 2015 14:20:40 +0200|Tue, 13 Oct 2015 14:20:40 +0200
+c9f5e59fc564407066ac44c36d4e35e6329445ab|RELEASE 0.2.1 version|Tue, 13 Oct 2015 14:08:08 +0200|Tue, 13 Oct 2015 14:09:44 +0200
+22e06e6dcd8d6cb044f184ec4e924409fcf126e5|polish some log messages, no code changes|Tue, 13 Oct 2015 13:09:50 +0200|Tue, 13 Oct 2015 13:09:50 +0200
+b8f63ade2f0d0b04a88278f34075edf06b119337|reset always counters for states to zero when state is in transition|Tue, 13 Oct 2015 12:49:47 +0200|Tue, 13 Oct 2015 12:49:47 +0200
+00a0a18af1c9b84aa98d9e4094e85123a614f2c5|more updates on local_run|Tue, 13 Oct 2015 12:49:22 +0200|Tue, 13 Oct 2015 12:49:22 +0200
+44a115f4d8b425013a3e11e905fd7b9f6d3c06cf|updates on TODO|Tue, 13 Oct 2015 11:31:48 +0200|Tue, 13 Oct 2015 11:31:48 +0200
+1c75a05f19de5da687e4607ca9fc9686d49747e7|permission changes|Tue, 13 Oct 2015 11:28:28 +0200|Tue, 13 Oct 2015 11:28:28 +0200
+9316ae1ed50b5b516a549a9227376c3fcdd04804|use birdc rather birdcl to reconfigure bird|Tue, 13 Oct 2015 11:07:33 +0200|Tue, 13 Oct 2015 11:07:33 +0200
+5d9884cf1bde48209c1d306b8760ed4e02a08b98|adjust interval in service checks|Tue, 13 Oct 2015 10:58:37 +0200|Tue, 13 Oct 2015 10:58:37 +0200
+61c993052af595ed205da8f17ac07b4d7c1bc310|updates on local_run|Tue, 13 Oct 2015 10:32:13 +0200|Tue, 13 Oct 2015 10:32:13 +0200
+2cea0f20c5d99eb0b7b1bb865cf0e411b46e81e2|updates on local_run|Tue, 13 Oct 2015 10:28:12 +0200|Tue, 13 Oct 2015 10:28:12 +0200
+40786c5c04f01dc791a5016898c60acc5571c04a|local_run assign IPs and install bird configuration|Tue, 13 Oct 2015 10:12:16 +0200|Tue, 13 Oct 2015 10:12:16 +0200
+f1deacd68c65670e7a8e985d673e0aafaffdb473|some updates on local_run|Tue, 13 Oct 2015 00:41:33 +0200|Tue, 13 Oct 2015 00:41:33 +0200
+5c929fb093929201947386493c60a095f344f23f|exit when parsing bird configuration results to an empty list of IP prefixes|Tue, 13 Oct 2015 00:36:03 +0200|Tue, 13 Oct 2015 00:36:03 +0200
+ea61cc6b586ddc5b213dc42d9e56edf306d451fd|a script to run the daemon on a development node|Mon, 12 Oct 2015 23:39:01 +0200|Mon, 12 Oct 2015 23:39:01 +0200
+f5438c016ec769e96f37d66160f8c1f6405e5034|update AUTHORS|Mon, 12 Oct 2015 23:38:47 +0200|Mon, 12 Oct 2015 23:38:47 +0200
+9b7abceb962ca131d50111a9961562071e355669|proper handling of invalid data on pid file|Mon, 12 Oct 2015 16:50:07 +0200|Mon, 12 Oct 2015 16:50:07 +0200
+c8012d5a5fdaaf43840262bff56f0c91c212f988|update TODO|Mon, 12 Oct 2015 15:25:16 +0200|Mon, 12 Oct 2015 15:25:16 +0200
+3b7e6727b63e0d3172add12dc6cd613d4446a6f8|update TODO|Mon, 12 Oct 2015 15:11:34 +0200|Mon, 12 Oct 2015 15:11:34 +0200
+1506a8aa0d398fd80230d0ca153cbcea17fe7004|add Systemd unit file|Mon, 12 Oct 2015 14:29:36 +0200|Mon, 12 Oct 2015 14:29:36 +0200
+cd7326739d02a5c36991b8757e69de526495a789|more updates on TODO|Mon, 12 Oct 2015 14:29:21 +0200|Mon, 12 Oct 2015 14:29:21 +0200
+f1d0dc23f4b7685ce134bfc22a6f49896db42f56|update TODO|Mon, 12 Oct 2015 14:26:20 +0200|Mon, 12 Oct 2015 14:26:20 +0200
+e2b58ac91c4771d40ca155f8752d3fb3ca44c71a|add TODO file|Mon, 12 Oct 2015 14:21:13 +0200|Mon, 12 Oct 2015 14:21:13 +0200
+99df5b3ca02e9d0458ef42e944b27a9a4b651bd4|proper RST|Mon, 12 Oct 2015 12:55:08 +0200|Mon, 12 Oct 2015 12:55:08 +0200
+946ce33a77f23536d0fcaabc8933ebbb189a6ce2|add a proper README file|Mon, 12 Oct 2015 12:53:09 +0200|Mon, 12 Oct 2015 12:53:09 +0200
+44df598318d794618754bac08245e45b2bafe9f3|replace domain in an example conf|Mon, 12 Oct 2015 11:35:35 +0200|Mon, 12 Oct 2015 11:35:35 +0200
+e055e105f06f7697c7710f43a7d3d3f203127c81|use gmail mail address|Mon, 12 Oct 2015 11:34:56 +0200|Mon, 12 Oct 2015 11:34:56 +0200
+d2744a87d2832fe5d3c25ee0edd8d1539cca0a67|remove old readme|Mon, 12 Oct 2015 11:32:51 +0200|Mon, 12 Oct 2015 11:32:51 +0200
+c86aba9739909413ee566c179c26ead3a6aa4fa1|better catch of IPs in bird config|Thu, 24 Sep 2015 00:11:06 +0200|Thu, 24 Sep 2015 00:11:06 +0200
+1714543ae70abef80929aa6ede4af4f39e110aaa|include license to __init__|Mon, 13 Jul 2015 00:22:13 +0200|Mon, 13 Jul 2015 00:22:13 +0200
+e0aca232cb386ca15eabb8567950cc25ffb5105c|change License to Apache v2.0|Mon, 13 Jul 2015 00:21:10 +0200|Mon, 13 Jul 2015 00:21:10 +0200
+5ab9a421fc19ac11f1b5bd07198ca2481246e092|RELEASE 0.2.0 version|Sun, 12 Jul 2015 00:09:35 +0200|Sun, 12 Jul 2015 00:10:19 +0200
+a2b91435d65faa85aa37970268bc14dc719db8dd|add some useful info in __init__|Sun, 12 Jul 2015 00:08:31 +0200|Sun, 12 Jul 2015 00:08:31 +0200
+1eb34db7178c3d2fb51420bad4a68e9c37136353|servicecheck.py: less versbose warning|Sat, 11 Jul 2015 23:46:49 +0200|Sun, 12 Jul 2015 00:00:07 +0200
+bfc68a97a3aa23e8ea11c94bf37cbbc4f46a29fe|servicecheck.py: check if we hare received stop signal before perform IP check|Sat, 11 Jul 2015 23:45:13 +0200|Sun, 12 Jul 2015 00:00:06 +0200
+986006b0730527f43861d516fed5555b8328d0e1|ServiceCheck.py: check was unnecessarily executed twice|Sat, 11 Jul 2015 23:41:26 +0200|Sun, 12 Jul 2015 00:00:06 +0200
+c8c398ed7715c3fc6caade48ef7ea153ceb3f641|main.py: call configuration checking|Sat, 11 Jul 2015 23:40:37 +0200|Sun, 12 Jul 2015 00:00:06 +0200
+767ac90ba94829b25f68764c47dd68573d3a192d|add requirements file|Sat, 11 Jul 2015 23:40:05 +0200|Sun, 12 Jul 2015 00:00:06 +0200
+aeb25da3b94f50a2fe2c85e2db771842ec580cee|add a function to perform a sanity check on the configuration|Sat, 11 Jul 2015 23:39:30 +0200|Sun, 12 Jul 2015 00:00:06 +0200
+02f69d6ab3dd1f32d4b9f435bc74b37c6292b92e|servicecheck: Tiny rewrite of comment|Thu, 26 Feb 2015 00:02:48 +0100|Thu, 26 Feb 2015 00:02:48 +0100
+325da39732c27f4f6da64c65026dc0810528411e|servicecheck: Renamed previou_state to check_state|Thu, 26 Feb 2015 00:01:52 +0100|Thu, 26 Feb 2015 00:01:52 +0100
+c13e2ab61a7e9e3d05b14be3fbd20657228a9707|Fixed argument name collision|Sat, 31 Jan 2015 22:24:59 +0100|Sat, 31 Jan 2015 22:25:31 +0100
+1a0eb22523bd454c972a4a47a614d9658c8b30eb|Fixed typo|Sat, 31 Jan 2015 22:24:16 +0100|Sat, 31 Jan 2015 22:24:16 +0100
+4e843a563699850eb1bbdaf0f06b5c180b92adaa|Made configurable the rotation policy for log files|Fri, 23 Jan 2015 21:24:03 +0100|Fri, 23 Jan 2015 21:24:03 +0100
+acd893cf916652f7b91f7459d13f962a2cea7bc6|_update_bird_prefix_conf(): Doc string update|Thu, 22 Jan 2015 19:51:16 +0100|Thu, 22 Jan 2015 19:51:16 +0100
+362f255305c1a55fa2949a491c5a2791000c16ed|Report valid values for on_disabled setting|Thu, 18 Dec 2014 13:43:02 +0100|Thu, 18 Dec 2014 13:43:34 +0100
+8f2b9720da93243d2359e823857581fa569b3dbf|Update ChangeLog|Thu, 18 Dec 2014 13:42:48 +0100|Thu, 18 Dec 2014 13:42:48 +0100
+cb99585c6b42a022abce1f26fc8c84b1a283240c|Tiny change on the comment we place on BIRD config file|Tue, 16 Dec 2014 13:20:34 +0100|Tue, 16 Dec 2014 13:20:34 +0100
+e7e15b6c34b1ca62980dc69012959be6c2a948f2|More docstrings and comment updates|Tue, 16 Dec 2014 13:04:30 +0100|Tue, 16 Dec 2014 13:04:30 +0100
+3f95d08d2f460e6a8beaa7d284428573174cdb99|Tiny docstring update|Tue, 16 Dec 2014 12:45:36 +0100|Tue, 16 Dec 2014 12:45:36 +0100
+af9bedd2f14f45105cb218bac96d73732d92386b|More pythonic way of loading module|Tue, 16 Dec 2014 12:44:49 +0100|Tue, 16 Dec 2014 12:44:49 +0100
+d0e6094499a1b1b5b24ed8a2f041dfffce22de9a|Spread logic from main.py to individual module files|Tue, 16 Dec 2014 00:38:34 +0100|Tue, 16 Dec 2014 00:38:34 +0100
+193f174838d1bcfa24e7851095914691a975f84e|Update docstrings and add some comments|Mon, 15 Dec 2014 15:23:02 +0100|Mon, 15 Dec 2014 15:23:02 +0100
+fd73d3dd42028631a6320c66180ea2d5ea68393e|Handle misconfiguration better|Mon, 15 Dec 2014 14:58:26 +0100|Mon, 15 Dec 2014 14:58:26 +0100
+a5ad3566f767e8c1db46af255e9b8c69ddd6cd76|More PEP8 friendly indentation|Sun, 14 Dec 2014 14:47:10 +0100|Sun, 14 Dec 2014 14:47:10 +0100
+2ad4e56764af1a7aa8c663a5d4b171393951704d|Tiny refactoring|Sun, 14 Dec 2014 09:59:44 +0100|Sun, 14 Dec 2014 09:59:44 +0100
+7754dec0cd293956060046fd4cf434f97f4879e7|print on stdout and on stderr loggers that we are daemonized|Sun, 14 Dec 2014 09:55:49 +0100|Sun, 14 Dec 2014 09:55:49 +0100
+ac7ac1fa77b14882addd8211705308e3f3ac368f|added pylint filtering|Sun, 14 Dec 2014 09:55:01 +0100|Sun, 14 Dec 2014 09:55:01 +0100
+fce4958ffca462f9a02629bac6bd4f77272f7e09|set umask to 022 to avoid write access for others on log files|Sat, 13 Dec 2014 22:07:59 +0100|Sat, 13 Dec 2014 22:07:59 +0100
+a32719e87fad21c43ce0b2da8eaa23abf2a46109|Cosmetic change: Report check duration earlier|Sat, 6 Dec 2014 22:51:31 +0100|Sat, 6 Dec 2014 22:51:31 +0100
+03b1ff5bff2f6cf8f2c3bfbcfc8d5a321ee9a1eb|Updated ChangeLog|Sun, 30 Nov 2014 22:36:22 +0100|Sun, 30 Nov 2014 22:36:22 +0100
+8c5e1958183cead78a1e3d2b5128b46cca3901f9|fixed path README|Sun, 30 Nov 2014 22:35:52 +0100|Sun, 30 Nov 2014 22:35:52 +0100
+8b6a908f17ef78b21caf8ac803260b7ac2f27a0d|added git push --tags step in README|Sun, 30 Nov 2014 22:28:46 +0100|Sun, 30 Nov 2014 22:28:46 +0100
+b6ecf81fadbaee5fb0b9c47e57f279081f654350|Added (finally)  some text in README|Sun, 30 Nov 2014 22:27:11 +0100|Sun, 30 Nov 2014 22:27:11 +0100
+293a50f2f5a7fc22b91f0e65b5d2ea511ead79a8|Renamed variable is_updated -> bird_updated|Sun, 30 Nov 2014 21:51:05 +0100|Sun, 30 Nov 2014 21:51:05 +0100
+8a93249e4d9f4a782a386ce2d1dde1db6bfb2527|another small doc  update|Sun, 30 Nov 2014 21:50:47 +0100|Sun, 30 Nov 2014 21:50:47 +0100
+3b451df31ffb486b1c5400b0f8247378a406696c|Various small docstrings updates|Sun, 30 Nov 2014 13:50:01 +0100|Sun, 30 Nov 2014 13:50:01 +0100
+31e1d3d2a08f2e8d0d315e06194a93badd7915c3|Rewrote ServiceCheck class docstring and changed log severity to error|Sun, 30 Nov 2014 13:08:07 +0100|Sun, 30 Nov 2014 13:08:07 +0100
+d606ce1fb45451f476473ab78d70ba4b4f4dbb66|Fixed indentation issue and rewrote message when IP-PREFIX is configured|Sun, 30 Nov 2014 12:51:56 +0100|Sun, 30 Nov 2014 12:51:56 +0100
+bf6687e30e8ab93d8ed9b0b7a2aecb0c49a90042|Catch the case where conf says check disabled but value for on_disabled is wrong|Sun, 30 Nov 2014 12:50:20 +0100|Sun, 30 Nov 2014 12:50:20 +0100
+69b48b2cb367ef9f147e2b55b6a499e3fbb7ec8b|Changelog updated|Fri, 7 Nov 2014 11:22:53 +0100|Fri, 7 Nov 2014 11:22:53 +0100
+03c03117c84ca1db5cdb58c20116f18b80f850cd|Better handling of errors when we reload bird|Fri, 7 Nov 2014 11:17:44 +0100|Fri, 7 Nov 2014 11:17:44 +0100
+fb69a9b8a4c0086d741836868198339c912da5d6|Fixed typos|Fri, 7 Nov 2014 09:47:56 +0100|Fri, 7 Nov 2014 09:47:56 +0100
+3d668e3205c042422d684fffd90605082df7bb8b|Changelog updated|Thu, 6 Nov 2014 14:20:52 +0100|Thu, 6 Nov 2014 14:20:52 +0100
+a1a218501414c4cbbd8dec22fbb41d4c8e6614cd|Added program name in the header of bird configuration|Thu, 6 Nov 2014 14:03:18 +0100|Thu, 6 Nov 2014 14:03:18 +0100
+22a26411845f818494f063d1839f71c8ad0af050|Detect if IP-PREFIX is assigned to loopback interface|Thu, 6 Nov 2014 13:57:58 +0100|Thu, 6 Nov 2014 13:57:58 +0100
+43efd159043b74691e4d040c43433156a9665972|changelog|Tue, 28 Oct 2014 00:07:26 +0100|Tue, 28 Oct 2014 00:07:26 +0100
+6fd172040c605276cdd118776f343121395a772e|mpla|Tue, 28 Oct 2014 00:05:43 +0100|Tue, 28 Oct 2014 00:05:43 +0100
+5d574f51987da59bd0ced8ab046dd59d1b515502|Constant name is configurable, sysconfig file|Mon, 27 Oct 2014 23:50:07 +0100|Mon, 27 Oct 2014 23:52:04 +0100
+f38f2b103c5312cab17d6a90cc4752efec574d6f|Cosmetic change|Mon, 27 Oct 2014 23:16:21 +0100|Mon, 27 Oct 2014 23:16:21 +0100
+8e7acf96f855ece7b2b0537a277279f83eeeb355|removed unused script|Mon, 27 Oct 2014 23:13:55 +0100|Mon, 27 Oct 2014 23:13:55 +0100
+24cb6bee68524add32a2cc0eb13ff79894fd0037|mpla|Mon, 27 Oct 2014 22:39:47 +0100|Mon, 27 Oct 2014 22:40:34 +0100
+0cfa6b7cae77f5aeaeebdffb632452fd03252dd2|mpla|Mon, 27 Oct 2014 22:13:06 +0100|Mon, 27 Oct 2014 22:13:06 +0100
+c8b3ee064f79f146f0fe17c1f7eb8f9db587b05b|trying to make it to build|Mon, 27 Oct 2014 16:50:39 +0100|Mon, 27 Oct 2014 16:50:39 +0100
+13908a03e681886669070f1da7f57d78f4e9b864|Initial|Mon, 27 Oct 2014 16:39:52 +0100|Mon, 27 Oct 2014 16:39:52 +0100

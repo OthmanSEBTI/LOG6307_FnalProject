@@ -1,0 +1,10 @@
+[submodule "puppet/modules/kafka"]
+	path = puppet/modules/kafka
+	url = https://gerrit.wikimedia.org/r/operations/puppet/kafka
+[submodule "puppet/modules/cdh4"]
+	path = puppet/modules/cdh4
+	url = https://gerrit.wikimedia.org/r/operations/puppet/cdh4
+
+[submodule "puppet/modules/zookeeper"]
+	path = puppet/modules/zookeeper
+	url = https://gerrit.wikimedia.org/r/operations/puppet/zookeeper

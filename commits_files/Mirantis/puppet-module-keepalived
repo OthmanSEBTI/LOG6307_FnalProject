@@ -1,0 +1,6 @@
+,sha,message,files
+0,45c6d0fcb21c6b3f1912a3e6e77b43e02a20c9ff,Include keepalived::variables in keepalived::instance. Add require on keepalived::install.,['manifests/instance.pp']
+1,b51fc203edab19e93b6b8e0b5971d55a048adb23,Add .gitignore,['.gitignore']
+2,dfb0abad3742823b6b684a5b19ee15f04293c9cc,Add example for keepalived::instance,['README']
+3,7cf808b400d3a9281683002be65d9715afb6df19,Add module dependencies,['Modulefile']
+4,8ebdb943fec9d3380479c05de09ffeb6db2dcd6a,Initial commit,"['LICENSE', 'Modulefile', 'README', 'manifests/config.pp', 'manifests/init.pp', 'manifests/install.pp', 'manifests/instance.pp', 'manifests/service.pp', 'manifests/variables.pp', 'spec/spec_helper.rb', 'templates/global_config.erb', 'templates/keepalived_instance.erb', 'tests/init.pp']"

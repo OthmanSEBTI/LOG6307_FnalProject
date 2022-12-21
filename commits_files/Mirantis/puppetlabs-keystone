@@ -1,0 +1,153 @@
+,sha,message,files
+0,d8ee1b9c836f328bb8a35dde1e30237f10e3e0f7,Merge branch 'configurable-backend',"['manifests/init.pp', 'templates/footer.erb']"
+1,83a3099b938f2e2639f6cc6d7b90d118e41e55c8,Merge branch 'change-endpoint-url',['lib/puppet/provider/keystone_endpoint/keystone.rb']
+2,0033b3a44afa9ff1d9eb70488cc27f7150229db7,Backend driver configurable (not hard-wired KVS).,"['manifests/init.pp', 'templates/footer.erb']"
+3,b5901af2050513e5d95a8dbce2dc3ca3a20fa11d,"Keystone can change public_,internal_,admin_url for an endpoint",['lib/puppet/provider/keystone_endpoint/keystone.rb']
+4,799d0e97ecfe39161d0b1632a46ffca78025677d,Keystone not necessarily bound to 127.0.0.1,['lib/puppet/provider/keystone.rb']
+5,387756b12c22bafdb4c381d7f21bece9dcfced5b,Merge pull request #54 from aimonb/master,['lib/puppet/provider/keystone.rb']
+6,a9c2ce7c5cc44c1ee2e31d7b983d21064d4e66cd,Merge pull request #55 from derekhiggins/dev,"['lib/puppet/provider/keystone_endpoint/keystone.rb', 'lib/puppet/provider/keystone_role/keystone.rb', 'lib/puppet/provider/keystone_service/keystone.rb', 'lib/puppet/provider/keystone_tenant/keystone.rb', 'lib/puppet/provider/keystone_user/keystone.rb', 'lib/puppet/provider/keystone_user_role/keystone.rb']"
+7,de7ab2dbe8ff38d5789f0a1a23664c6f54a62341,Prevent prefetch of keystone providers,"['lib/puppet/provider/keystone_endpoint/keystone.rb', 'lib/puppet/provider/keystone_role/keystone.rb', 'lib/puppet/provider/keystone_service/keystone.rb', 'lib/puppet/provider/keystone_tenant/keystone.rb', 'lib/puppet/provider/keystone_user/keystone.rb', 'lib/puppet/provider/keystone_user_role/keystone.rb']"
+8,2605c0b15052f90547211e163a3c7c66fa50f4ee,Support multiline field values in get_keystone_object cli call outputs.,['lib/puppet/provider/keystone.rb']
+9,618eaae6c239bdb1bb65266a8b287ebc9f2d7da2,Merge pull request #49 from fcharlier/faster_role_prefetching,"['lib/puppet/provider/keystone.rb', 'lib/puppet/provider/keystone_user_role/keystone.rb']"
+10,ac395af2b1ee6f41cef4da11f17242d7fb7abacf,Merge pull request #52 from etiennep/master,"['README.markdown', 'manifests/config/postgresql.pp', 'manifests/db/postgresql.pp']"
+11,57f3767a819d44e02bf2b5325ce20db598063174,Merge pull request #53 from bodepd/enabled_param,"['manifests/init.pp', 'spec/classes/keystone_spec.rb']"
+12,2152ea3c23007949aa2ed62ffa7c8174e88945ed,Added enabled parameter to keystone class,"['manifests/init.pp', 'spec/classes/keystone_spec.rb']"
+13,bb4ae417af2964935b94f108d8b18dbe51af796f,Added more missing postgresql instructions.,['README.markdown']
+14,9c26cb3f591e5b8fbd358d6404d3167bc8b639d3,Added postgresql section.,['README.markdown']
+15,568c74ab6481d96f7f003c68d80a136233101715,Added postgresql support.,"['manifests/config/postgresql.pp', 'manifests/db/postgresql.pp']"
+16,6a9c2195b5e94f2abfb0732101d3d9a3b2f67d8b,Merge pull request #50 from branan/fix_desc_for_forge,"['lib/puppet/provider/keystone_endpoint/keystone.rb', 'lib/puppet/provider/keystone_role/keystone.rb', 'lib/puppet/provider/keystone_service/keystone.rb', 'lib/puppet/provider/keystone_tenant/keystone.rb', 'lib/puppet/provider/keystone_user/keystone.rb', 'lib/puppet/provider/keystone_user_role/keystone.rb', 'lib/puppet/type/keystone_endpoint.rb', 'lib/puppet/type/keystone_role.rb', 'lib/puppet/type/keystone_service.rb', 'lib/puppet/type/keystone_user.rb', 'lib/puppet/type/keystone_user_role.rb']"
+17,a273f8a0289d7187c12344a6d9a07a0a3bcda332,Fix publishing issue with forge by removing extra carriage returns,"['lib/puppet/provider/keystone_endpoint/keystone.rb', 'lib/puppet/provider/keystone_role/keystone.rb', 'lib/puppet/provider/keystone_service/keystone.rb', 'lib/puppet/provider/keystone_tenant/keystone.rb', 'lib/puppet/provider/keystone_user/keystone.rb', 'lib/puppet/provider/keystone_user_role/keystone.rb', 'lib/puppet/type/keystone_endpoint.rb', 'lib/puppet/type/keystone_role.rb', 'lib/puppet/type/keystone_service.rb', 'lib/puppet/type/keystone_user.rb', 'lib/puppet/type/keystone_user_role.rb']"
+18,157fbc7aa885719e6d97bcc40da65a7ad9a2953e,Improve roles caching speed.,"['lib/puppet/provider/keystone.rb', 'lib/puppet/provider/keystone_user_role/keystone.rb']"
+19,96a2c1a06efaace480903fcd7427081770cc4dd7,Merge pull request #47 from branan/use_spechelper_gem,"['.fixtures.yml', '.gemfile', 'Rakefile', 'spec/spec_helper.rb']"
+20,96aa40ed5f052908364bdd80fe681df068edec78,Merge pull request #45 from bodepd/nil_pointer_provider_fixes,"['lib/puppet/provider/keystone.rb', 'lib/puppet/provider/keystone_user_role/keystone.rb']"
+21,7c283488a9853e9ea408981b9c2cf42feb4033a5,Support keystone versions that do not return column headers,"['lib/puppet/provider/keystone.rb', 'lib/puppet/provider/keystone_user_role/keystone.rb']"
+22,bf39c3384ee716333155fb60d87fe0e729e70e21,Merge pull request #48 from bodepd/fix_auth_defaults,"['manifests/client/authtoken.pp', 'spec/defines/keystone_client_authtoken_spec.rb']"
+23,471c6754c5c3a504199540518bf1590ab8864bda,Correct keystone client connection defaults,"['manifests/client/authtoken.pp', 'spec/defines/keystone_client_authtoken_spec.rb']"
+24,182959754abdfec8352cc6753a8e267f5a97637f,Update module for the puppetlabs_spec_helper gem,"['.fixtures.yml', '.gemfile', 'Rakefile', 'spec/spec_helper.rb']"
+25,90507334c8164761665870e103a83d28550dfda4,Merge pull request #46 from fcharlier/client_requires_python_libs,"['manifests/client/authtoken.pp', 'spec/defines/keystone_client_authtoken_spec.rb']"
+26,1cbff27cce528b661d176e9cfc5e344f5a24a775,keystone::client::authtoken depends on keystone::python,"['manifests/client/authtoken.pp', 'spec/defines/keystone_client_authtoken_spec.rb']"
+27,7e95c7ad2f2081e23f096ac483e7dccfd49307dc,Merge pull request #44 from josecastroleon/master,"['manifests/roles/admin.pp', 'spec/classes/keystone_roles_admin_spec.rb']"
+28,0af5597b8626b3e2499ac15c6b405d8aae8b1a57,Small fix unit tests for keystone roles admin,['spec/classes/keystone_roles_admin_spec.rb']
+29,90b0359211b5e28ced0393821c7b9e25aa0c413c,Added admin parameter in unit tests for keystone roles admin,['spec/classes/keystone_roles_admin_spec.rb']
+30,7834f139f5c11cb403acd380157f61fceca2df2f,Specify default admin user parameter,['manifests/roles/admin.pp']
+31,d0e77033f159073eb546c2dec017679d04dd9715,Added extra parameter for specifying another admin account,['manifests/roles/admin.pp']
+32,e248d4cf878471eeba1188f2875f2953f0645e6c,Merge pull request #43 from SilverSurfer972/patch-1,['README.markdown']
+33,df229dcebfdbcfe83945c1c567d085e1753423da,replaced admin_token used in example instead of service_token,['README.markdown']
+34,f9297ec60fa07cd5246d8f2a6e4a4e0310d56792,Merge pull request #42 from jmchilton/mysql_improvements,"['manifests/db/mysql.pp', 'spec/classes/keystone_db_mysql_spec.rb']"
+35,96bd60ed06008b0df01579ad214571b8fd9f8004,Allow override of mysql charset.,"['manifests/db/mysql.pp', 'spec/classes/keystone_db_mysql_spec.rb']"
+36,990522b8d8074cee9a6e828c899918d30f306c1b,Depend on mysql::config instead of mysql::server in order to allow mysql to fully configured before creating database.,"['manifests/db/mysql.pp', 'spec/classes/keystone_db_mysql_spec.rb']"
+37,6b5682288ae41f0cb0aeffbd733a8d10aa0a673e,Merge pull request #40 from branan/fix_older_puppets,['manifests/python.pp']
+38,3e23f8bf4703a1461f9cfd6a244d99508fe2f3fa,Fix old puppet,['manifests/python.pp']
+39,c2e569ae8cfae52e2cfad8b86d959bf2c01da41c,Merge pull request #39 from bodepd/fix_spec_failures,"['spec/classes/keystone_spec.rb', 'spec/defines/keystone_client_authtoken_spec.rb']"
+40,9348251d0c5452e04d517b6d65074161aa14bd40,Update spec tests to work with ri's version of concat,"['spec/classes/keystone_spec.rb', 'spec/defines/keystone_client_authtoken_spec.rb']"
+41,91612c69e196236698a2e7f99d6284f836c88ed2,Merge pull request #38 from branan/14221_forge_release,['Modulefile']
+42,5f42a65e59a1d6f6680f857edd9f67fdf24e0ac5,Merge pull request #37 from jmchilton/client_config,"['manifests/params.pp', 'manifests/python.pp', 'spec/classes/keystone_python_spec.rb']"
+43,1471f42ac89e1ee3c59644cf7ce71959b47311fa,(#14221) add Modulefile for initial forge release,['Modulefile']
+44,2244b0523cce23947d8d73b4d0ad256903091569,Refactoring keystone::python to inherit from keystone::params.,['manifests/python.pp']
+45,8d9d901d67e6bd2b51a84e3218b22fdfc417e45e,Enhanced configurability for python client configuration.,"['manifests/params.pp', 'manifests/python.pp', 'spec/classes/keystone_python_spec.rb']"
+46,71a92939b95e658c7dbdfcd6afa84d193ac973ea,Merge pull request #36 from bodepd/dev,['spec/defines/keystone_client_authtoken_spec.rb']
+47,289363a1e8210c79bb01bc68bed6a94e880ec4c0,Rename incorrectly names spec file,['spec/defines/keystone_client_authtoken_spec.rb']
+48,9ed23a7135f05204824f35744393d11fe077d359,Merge pull request #35 from bodepd/dev,"['manifests/roles/admin.pp', 'spec/classes/keystone_roles_admin_spec.rb']"
+49,684645491b90494c6d815cb626816e50b069a284,Make email a required class parameter,"['manifests/roles/admin.pp', 'spec/classes/keystone_roles_admin_spec.rb']"
+50,ae370e738a299da7d501c05064f58c896cbad99a,Merge pull request #34 from jtopjian/master,['manifests/roles/admin.pp']
+51,34b6a4a3d926c087d68fbc9d155dbcdf43d9f740,Made the Keystone admin tenant a parameter that defaults to 'openstack',['manifests/roles/admin.pp']
+52,b3bbca1cefe5754b743ec7c168f10a2a463dd8b9,Changed 'openstack' tenant to 'admin' tenant so service catalog is returned when admin user is authenticated,['manifests/roles/admin.pp']
+53,8917a64aac236ea91e9b0ac0b7a854f62419199d,Merge pull request #32 from bodepd/dev,"['manifests/endpoint.pp', 'spec/classes/keystone_endpoint_spec.rb']"
+54,ae94aac426d62f036317eec9438ad5fe79569151,Merge pull request #33 from bodepd/simplify_keystone_test,['spec/unit/provider/keystone_spec.rb']
+55,8960fa47c9a6c59f9f5775b0f44ba75fd4bbe5f0,Simplify keystone provider test,['spec/unit/provider/keystone_spec.rb']
+56,9477c1ac784ff20a86ee9ad67faed01e0865c668,Refactor keystone endpoint class,"['manifests/endpoint.pp', 'spec/classes/keystone_endpoint_spec.rb']"
+57,7d0b16df7c20386d9c36dabb7bb9f79a219f4cb4,Merge pull request #31 from fcharlier/mysql_other_host,"['manifests/db/mysql.pp', 'manifests/init.pp', 'spec/classes/keystone_db_mysql_spec.rb', 'spec/classes/keystone_spec.rb']"
+58,64e77ac38f82934b855101d498af51cfe6f3cf85,Update to use keystone::db::mysql::host_access,"['manifests/db/mysql.pp', 'manifests/mysql/host_access.pp']"
+59,9c1114999a27cf0d400214ab82dafecc17f6da23,Restart keystone service after a db_sync.,"['manifests/init.pp', 'spec/classes/keystone_spec.rb']"
+60,edd3212669e2c6204f7fbf333be642503333cb16,Update tests after mysql db refactoring,"['spec/classes/keystone_db_mysql_spec.rb', 'spec/classes/keystone_spec.rb']"
+61,dbf3dd3402f70e112d6e263fe3415a02b57669f7,Package (re)installation should trigger db_sync,['manifests/init.pp']
+62,18c611bd76ee1d59a2118334239840404e469ee5,Allow the database to be on another host,"['manifests/db/mysql.pp', 'manifests/init.pp', 'manifests/mysql/host_access.pp']"
+63,d4cb2ae2a090c920461372e5aebc92dedf6d1bbe,Merge pull request #30 from bodepd/dev,"['examples/site.pp', 'manifests/config/ldap.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp', 'manifests/mysql/access.pp', 'spec/classes/keystone_db_mysql_spec.rb']"
+64,7f1e5f320f3152b6f5eb2e49b0ae7df62df8d883,Remove ppa,['examples/site.pp']
+65,944c5bb786674b406ed82e7efc0a3371fa25cb8c,Update keystone::mysql name in test,['spec/classes/keystone_db_mysql_spec.rb']
+66,7bb023227a7ba10e18f9a5fd89f6be72ca494f75,Move keystone::ldap to keystone::config::ldap,['manifests/config/ldap.pp']
+67,8d21eb9121a5adff2d411138fac001880e0a370b,Move mysql to db::mysql,"['examples/site.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp', 'manifests/mysql/access.pp']"
+68,1db236dbb18c690bdd52ba1986aa7b74448782f6,Merge pull request #29 from bodepd/dev,['manifests/client/authtoken.pp']
+69,95297ed9aeadf8de027b61986138728c4ee256ba,Add placeholder for keystone caching in client::authtoken,['manifests/client/authtoken.pp']
+70,279ea539cb2c31bed81596a2ebbb6741a77f240f,Merge pull request #28 from bodepd/dev,"['manifests/client/authtoken.pp', 'spec/defines/keystone_client_authtoken_spec.pp', 'templates/client/authtoken.conf.erb']"
+71,7fc44548f2e0f837eaebb863cf168beda865cf19,Add define for managing authtoken fragments.,"['manifests/client/authtoken.pp', 'spec/defines/keystone_client_authtoken_spec.pp', 'templates/client/authtoken.conf.erb']"
+72,d7fc223a7b4113d0d0e45ba16f3daedc8b1e5c70,Merge pull request #27 from bodepd/dev,"['examples/site.pp', 'lib/puppet/provider/keystone.rb', 'spec/spec_helper.rb', 'spec/unit/provider/keystone_spec.rb']"
+73,166fc556b0141472e6562387f5362c22a2634843,Fix dep cycle,['examples/site.pp']
+74,81260a3bde035f5984df29da7f1c3f5ae01b35e8,Improve error handling when keystone is not configured,"['lib/puppet/provider/keystone.rb', 'spec/spec_helper.rb', 'spec/unit/provider/keystone_spec.rb']"
+75,1cac5d00018061d77103e1597a4cad3b486b61a0,Merge pull request #26 from bodepd/dev,"['manifests/python.pp', 'spec/classes/keystone_python_spec.rb']"
+76,0682df64b9cdd8f723fafc7fb0452a7b4e479bde,Add class to install python libs for keystone,"['manifests/python.pp', 'spec/classes/keystone_python_spec.rb']"
+77,cd2046371cf7c85f40023a0b6b596f333b6afe19,Merge pull request #25 from derekhiggins/keystone-manage-dep,['manifests/mysql.pp']
+78,70967aac35109a99df1223835b9a22e7a6bf9a24,keystone-manage requires the config file to be present,['manifests/mysql.pp']
+79,14c2deb3268d1efb577c308c2b5c5ed09cc1e157,Merge pull request #24 from etiennep/master,['lib/puppet/provider/keystone_user_role/keystone.rb']
+80,f9c007fb140aacee7b3dcdecb83ff6277e14aff4,Merge pull request #23 from fcharlier/debianification,"['manifests/init.pp', 'manifests/params.pp']"
+81,9a74a4dbb983544bf17a6ab35dd9188c47178224,Removed leftover debug statement that was breaking addition of multiple roles to a user@tenant.,['lib/puppet/provider/keystone_user_role/keystone.rb']
+82,23a9a0c8e58d5e49b86a95fc9d5a278dc414233f,User/group must be system user/group,['manifests/init.pp']
+83,a3e9aa9a324ba700b080865f190da6de11964ab5,Upstart is not useable on Debian,['manifests/params.pp']
+84,e343d206b3f1b56b97507f9fab6ba814def10c76,Merge pull request #22 from bodepd/dev,['lib/puppet/provider/keystone.rb']
+85,b21d46e4c0ff193fe531c7d4a7b70d15b3f14c69,Make keystone error handling and retry mode robust,['lib/puppet/provider/keystone.rb']
+86,b5b2688fe9cf451a140a2d16cd44a5af8a4224fd,Merge pull request #21 from bodepd/dev,"['manifests/init.pp', 'manifests/params.pp']"
+87,cdfc53324da9fefb03b9ec009aab88b4571ed37a,Specify per platform service name,"['manifests/init.pp', 'manifests/params.pp']"
+88,4efd1a773dd3da5afc4fd4d064d74d0546535dec,Merge pull request #20 from bodepd/dev,"['examples/site.pp', 'lib/puppet/provider/keystone_endpoint/keystone.rb', 'lib/puppet/provider/keystone_role/keystone.rb', 'lib/puppet/provider/keystone_service/keystone.rb', 'lib/puppet/provider/keystone_tenant/keystone.rb', 'lib/puppet/provider/keystone_user/keystone.rb', 'lib/puppet/provider/keystone_user_role/keystone.rb', 'lib/puppet/type/keystone_user_role.rb', 'manifests/init.pp', 'manifests/params.pp']"
+89,5e9491c39e5ce22f82641809b3e6e56e95d5e32a,Only setup ppas when osfamily is Debian,['examples/site.pp']
+90,d160633e4de7052588fe50c258e18bb890060dca,Specify Debian and Redhat package names,"['manifests/init.pp', 'manifests/params.pp']"
+91,eb5449f002fdba493d9ae22fbccd5ca51a5d0911,User_role should require role,['lib/puppet/type/keystone_user_role.rb']
+92,6d6ff6d765c6aa46e23a5e54cedc70134fa033e6,Implement prefetching for keystone,"['lib/puppet/provider/keystone_endpoint/keystone.rb', 'lib/puppet/provider/keystone_role/keystone.rb', 'lib/puppet/provider/keystone_service/keystone.rb', 'lib/puppet/provider/keystone_tenant/keystone.rb', 'lib/puppet/provider/keystone_user/keystone.rb', 'lib/puppet/provider/keystone_user_role/keystone.rb']"
+93,5b5c1e25d297ba096bae8cc031ffe051be0c14d6,Merge pull request #19 from bodepd/dev,['lib/puppet/type/keystone_user.rb']
+94,75467c0f4467d78cfc1ec2e4554d53746f7ccb5b,Ensure that keystone_users require keystone service,['lib/puppet/type/keystone_user.rb']
+95,3f7105d4dfc51a8a76b2fcd86c071df8b35500dc,Merge pull request #18 from bodepd/dev,"['lib/puppet/provider/keystone_endpoint/keystone.rb', 'lib/puppet/provider/keystone_user/keystone.rb', 'lib/puppet/type/keystone_endpoint.rb', 'lib/puppet/type/keystone_role.rb', 'lib/puppet/type/keystone_service.rb', 'lib/puppet/type/keystone_tenant.rb', 'lib/puppet/type/keystone_user.rb', 'lib/puppet/type/keystone_user_role.rb', 'manifests/endpoint.pp', 'manifests/init.pp', 'manifests/mysql.pp', 'manifests/roles/admin.pp']"
+96,c4e48367c01601ee21c8afc250a447ba4d799268,Capitalize regionOne,['lib/puppet/type/keystone_endpoint.rb']
+97,d44c2c0355418cb327d99eeaee472e313449b6e4,Specify autorequires for keystone types,"['lib/puppet/provider/keystone_endpoint/keystone.rb', 'lib/puppet/type/keystone_endpoint.rb', 'lib/puppet/type/keystone_role.rb', 'lib/puppet/type/keystone_service.rb', 'lib/puppet/type/keystone_tenant.rb', 'lib/puppet/type/keystone_user.rb', 'lib/puppet/type/keystone_user_role.rb', 'manifests/roles/admin.pp']"
+98,f28bdcde83f7e0ab4965aa4988a817e48328037f,Do not lookup name for 'None' default tenant,['lib/puppet/provider/keystone_user/keystone.rb']
+99,a6ebb1170abf3cb56d97ee4e111ed5af4f679e87,Ensure that correct endpoint is used when retrieving service,['lib/puppet/provider/keystone_endpoint/keystone.rb']
+100,b2747cfd8d170bef5868f13f19a1b0327cf8ac91,Add keystone::endpoint class,['manifests/endpoint.pp']
+101,3ce47660edcac264ee2f97de4dc6529e00c89a73,Ensure that Mysql is installed before service is started.,['manifests/mysql.pp']
+102,f06483a9f7a1d0c8934f493aac8afd31e99c4efc,Make sql the default catalog type,['manifests/init.pp']
+103,ff3e37c9f47122dd26b6c8e72c879126ca8251a4,Merge pull request #16 from bodepd/dev,['lib/puppet/provider/keystone_user/keystone.rb']
+104,762d02e86f1fe4a6e424e29830c095cba9a73333,Update retrieve method for keystone_user's tenant property,['lib/puppet/provider/keystone_user/keystone.rb']
+105,86b5d780bd41c6508a202c97cf9fd1b0b0e58d28,Merge pull request #15 from bodepd/dev,"['manifests/config.pp', 'manifests/dev/install.pp', 'manifests/init.pp', 'manifests/ldap.pp', 'manifests/mysql.pp', 'manifests/params.pp', 'manifests/repo/trunk.pp', 'manifests/roles/admin.pp']"
+106,fa7e3a87fce17719b7cb07f42fee613456f2feae,Add inline docs and comments,"['manifests/config.pp', 'manifests/dev/install.pp', 'manifests/init.pp', 'manifests/ldap.pp', 'manifests/mysql.pp', 'manifests/params.pp', 'manifests/repo/trunk.pp', 'manifests/roles/admin.pp']"
+107,2bd6f621f5c8a8ce74291d63e469947e2ebd2508,Merge pull request #14 from bodepd/dev,"['README', 'README.markdown', 'examples/site.pp', 'lib/puppet/provider/keystone_endpoint/keystone.rb', 'manifests/init.pp', 'manifests/mysql.pp', 'manifests/mysql/access.pp', 'spec/classes/keystone_mysql_spec.rb', 'spec/classes/keystone_spec.rb', 'spec/spec_helper.rb', 'templates/keystone.conf.erb', 'templates/mysql.erb']"
+108,db87ebe0ffc8f6e8a6684a55b03649dfdb4f1e4e,Merge pull request #1 from sorenh/master,['lib/puppet/provider/keystone_endpoint/keystone.rb']
+109,31efbcf933dd7a52f24314aa470c6e16c771b87d,Use admin token from keystone config,['lib/puppet/provider/keystone_endpoint/keystone.rb']
+110,25dde1bf3ef252fd20173681c964e0f7d08957ff,Fix Mysql support,"['examples/site.pp', 'manifests/mysql.pp', 'manifests/mysql/access.pp']"
+111,92e4e11d5dd053ae14364ccabe9775b83a4aee11,Fix sql section name for keystone.conf template,['templates/mysql.erb']
+112,0a57276b4928f25e25958d1a159c808229e7120c,Extend keystone example,['examples/site.pp']
+113,81647d6b352e72b06b055f57f133d4ae43e5cc4a,Improve spec test coverage,"['spec/classes/keystone_mysql_spec.rb', 'spec/classes/keystone_spec.rb', 'spec/spec_helper.rb']"
+114,f63c1c586474326cc6df6e13562e37a0688a64a7,fixen broken dependency,['manifests/mysql.pp']
+115,1545f08151545226082667c5c7f467afd042e61a,Remove keystone.conf.erb,['templates/keystone.conf.erb']
+116,dcdb188abc1ff9a9f8143d00dc71c263d891f426,Remove python-migrate dependency,['manifests/init.pp']
+117,353158751ff0b06241123b9875819c1512e7295b,Update README,"['README', 'README.markdown']"
+118,546bb6e92e6c81d676c7ad2148318e3e5f1f79a9,Merge pull request #7 from bodepd/dev,"['examples/site.pp', 'manifests/config.pp', 'manifests/config/mysql.pp', 'manifests/config/sqlite.pp', 'manifests/init.pp', 'manifests/ldap.pp', 'manifests/mysql.pp', 'manifests/params.pp', 'manifests/sqlite.pp', 'templates/mysql.erb']"
+119,b9c9d6a8dd9958ff224bb5a71dc779277b325405,Remove reference to deprecated keystone::sqlite class,['examples/site.pp']
+120,ce68b4362adc111b220acf5419d9fc02946e9042,Include concat::setup from keystone,"['examples/site.pp', 'manifests/init.pp']"
+121,86cf9e4974bc09d496b29d67775d4928ca2a5a8d,Minor style updates,"['manifests/init.pp', 'manifests/ldap.pp', 'manifests/params.pp']"
+122,08a4eceb27790cd2e1ce4d6c9b6fae681b0d255e,Remove unused keystone params,['manifests/init.pp']
+123,0a1ee2981f52e0aca373210be1a42d183a17ae25,Remove unused filename param from keystone::config,['manifests/config.pp']
+124,85ba2ffd61645f5cf6e607ab32d072471e149438,set default database password,['manifests/mysql.pp']
+125,fa4c75dc642c1a5edbcd9921a146a50c121acb4b,Move sqlite and mysql config into a config namespace,"['examples/site.pp', 'manifests/config/mysql.pp', 'manifests/config/sqlite.pp', 'manifests/mysql.pp', 'manifests/sqlite.pp', 'templates/mysql.erb']"
+126,d4c8de9ccc95840957b9024722527804974bccb4,Merge pull request #6 from bodepd/dev,['lib/puppet/provider/keystone_user/keystone.rb']
+127,0ce236a11d5d3029cd836383b01a680b87295631,Add tenant lookup code for user creation,['lib/puppet/provider/keystone_user/keystone.rb']
+128,ca283f7f176f6280752e731aadc031475b18a72d,Merge pull request #5 from bodepd/dev,['manifests/config.pp']
+129,8a1d8079dddb9b7c23d82ffe974d3e519236e1d5,Prefix keystone fragments,['manifests/config.pp']
+130,6bffb7800d1ddd655722d2b25e7f06f75cafd7d6,Merge pull request #4 from bodepd/dev,['lib/puppet/provider/keystone_user_role/keystone.rb']
+131,f7cd7c1d35f6c7fb8f4de0cbc35d29dc24fa9b32,Stop caching user/tenant/role lookups in user_role,['lib/puppet/provider/keystone_user_role/keystone.rb']
+132,ad5b63fbbfd46f7d8efe28e9d114d166345e5ce2,Merge pull request #3 from bodepd/dev,"['examples/site.pp', 'manifests/init.pp', 'manifests/mysql.pp']"
+133,cbde40e0ac030a55d1c3ebc3c1b213259cdcf587,Update repo stage to come before main stage,"['examples/site.pp', 'manifests/init.pp', 'manifests/mysql.pp']"
+134,c8628dd69f50aedb5b7d82ebad9ed2b030c7dc24,Merge pull request #2 from bodepd/dev,"['README', 'examples/auth_config.pp', 'examples/site.pp', 'ext/keystone_test.rb', 'lib/puppet/provider/.keystone_manage.rb.swp', 'lib/puppet/provider/keystone.rb', 'lib/puppet/provider/keystone_endpoint/keystone.rb', 'lib/puppet/provider/keystone_manage.rb', 'lib/puppet/provider/keystone_role/keystone.rb', 'lib/puppet/provider/keystone_role/keystone_manage.rb', 'lib/puppet/provider/keystone_service/keystone.rb', 'lib/puppet/provider/keystone_tenant/keystone.rb', 'lib/puppet/provider/keystone_tenant/keystone_manage.rb', 'lib/puppet/provider/keystone_user/keystone.rb', 'lib/puppet/provider/keystone_user/keystone_manage.rb', 'lib/puppet/provider/keystone_user_role/keystone.rb', 'lib/puppet/type/keystone_endpoint.rb', 'lib/puppet/type/keystone_role.rb', 'lib/puppet/type/keystone_service.rb', 'lib/puppet/type/keystone_tenant.rb', 'lib/puppet/type/keystone_user.rb', 'lib/puppet/type/keystone_user_role.rb', 'manifests/config.pp', 'manifests/init.pp', 'manifests/ldap.pp', 'manifests/mysql.pp', 'manifests/params.pp', 'manifests/repo/trunk.pp', 'manifests/roles/admin.pp', 'manifests/sqlite.pp', 'templates/DEFAULT.erb', 'templates/footer.erb', 'templates/identity.erb', 'templates/ldap.erb', 'templates/sql.erb', 'templates/sql_catalog.erb', 'templates/template_catalog.erb']"
+135,cb120bda09b56953025ea44aee9005c4c20dd972,Keystone provider should try again when can't connect,['lib/puppet/provider/keystone.rb']
+136,d9cab6c0222572bcbf5d6e5e9a5b41efa1054d41,Update README,['README']
+137,75302166f56b99c24fb548ee3e459033463528af,Add example manifest for installing keystone,"['examples/auth_config.pp', 'examples/site.pp']"
+138,a22cb5d689519d1eb0cecafdf5d6624221183ef0,Add test code,['ext/keystone_test.rb']
+139,b4bf55f2bf9e9a0441b3145142df64144b0e77fb,Add trunk repo,['manifests/repo/trunk.pp']
+140,2ba0cbdfdab636678979a958b04d5d0b6cef89be,Add admin role,['manifests/roles/admin.pp']
+141,f9894420de570d7f88aea820adc1f1284a33dd33,Add puppet manifests to support fragments,"['manifests/db.pp', 'manifests/init.pp', 'manifests/ldap.pp', 'manifests/mysql.pp', 'manifests/params.pp', 'manifests/sqlite.pp']"
+142,b4493112d91d5f8233004844c9179e8da7a2222a,Create fragments for managing keystone.conf,"['manifests/config.pp', 'templates/DEFAULT.erb', 'templates/footer.erb', 'templates/identity.erb', 'templates/ldap.erb', 'templates/sql.erb', 'templates/sql_catalog.erb', 'templates/template_catalog.erb']"
+143,ccb37d4ee5b49f3ef0fc804c75b528d743a8a588,Completely overhaul keystone types and providers,"['lib/puppet/provider/.keystone_manage.rb.swp', 'lib/puppet/provider/keystone.rb', 'lib/puppet/provider/keystone_endpoint/keystone.rb', 'lib/puppet/provider/keystone_manage.rb', 'lib/puppet/provider/keystone_role/keystone.rb', 'lib/puppet/provider/keystone_role/keystone_manage.rb', 'lib/puppet/provider/keystone_service/keystone.rb', 'lib/puppet/provider/keystone_tenant/keystone.rb', 'lib/puppet/provider/keystone_tenant/keystone_manage.rb', 'lib/puppet/provider/keystone_user/keystone.rb', 'lib/puppet/provider/keystone_user/keystone_manage.rb', 'lib/puppet/provider/keystone_user_role/keystone.rb', 'lib/puppet/type/keystone_endpoint.rb', 'lib/puppet/type/keystone_role.rb', 'lib/puppet/type/keystone_service.rb', 'lib/puppet/type/keystone_tenant.rb', 'lib/puppet/type/keystone_user.rb', 'lib/puppet/type/keystone_user_role.rb']"
+144,b5f32c2220dc72a353bf6b36c8503761ca4d4879,Add support for mysql,"['manifests/db.pp', 'manifests/init.pp']"
+145,191589ba792845b4e2c8edff011ee998c40083b7,Explicitly define keystone user and group,['manifests/init.pp']
+146,9442c0ac833281eaa077c76e03a98d930ce66d69,Remove commented out code,['manifests/init.pp']
+147,8738448a5d119b2addfb9136be99e05d67c6a1dc,Merge pull request #1 from bodepd/add_site_pp_as_fixture,"['spec/fixtures/manifests/site.pp', 'spec/spec_helper.rb']"
+148,ec0517b30c2735d7134916d0122ef19bc3ba0ec6,Add empty manifest file in fixtures,"['spec/fixtures/manifests/site.pp', 'spec/spec_helper.rb']"
+149,f14788624b939dac5416a65990cd16041ee9bebf,Add documentation about current status to README,['README']
+150,edfeeca410a871f9e6f0ebaf6fa015acec565f07,Add manifest to manage dev environment for keystone,['manifests/dev/install.pp']
+151,2c6a1b75e7cd237e1c73d3f8dc3bc142abf2710b,saving my work (not even the initial commit),"['README', 'Rakefile', 'lib/puppet/provider/.keystone_manage.rb.swp', 'lib/puppet/provider/keystone_manage.rb', 'lib/puppet/provider/keystone_role/keystone_manage.rb', 'lib/puppet/provider/keystone_tenant/keystone_manage.rb', 'lib/puppet/provider/keystone_user/keystone_manage.rb', 'lib/puppet/type/keystone_role.rb', 'lib/puppet/type/keystone_tenant.rb', 'lib/puppet/type/keystone_user.rb', 'manifests/init.pp', 'spec/classes/keystone_spec.rb', 'spec/spec.opts', 'spec/spec_helper.rb', 'templates/initial_data.sh.erb', 'templates/keystone.conf.erb']"

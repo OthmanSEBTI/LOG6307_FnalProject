@@ -1,0 +1,474 @@
+d8f34a50812eaaf590c61a2c5b9a082b1b5caf47|Merge "Add fence_watchdog (sbd) stonith agent"|Tue, 29 Nov 2022 18:42:48 +0000|Tue, 29 Nov 2022 18:42:48 +0000
+397fbfd47097260ed75bd34d4e23b8cac335a43f|Add fence_watchdog (sbd) stonith agent|Mon, 31 Oct 2022 13:44:43 +0100|Fri, 25 Nov 2022 16:34:53 +0100
+31e7487642b0a229217632467592877e78a5eb1e|Merge "Update master for stable/1.5.x"|Fri, 18 Nov 2022 11:43:15 +0000|Fri, 18 Nov 2022 11:43:15 +0000
+099af1d0dabdb2ddab203eb66136619ab3647db0|Expose run_arping to control IP collisions detection|Wed, 7 Sep 2022 08:26:18 +0200|Thu, 17 Nov 2022 10:25:12 +0000
+a0a0fc2fa8872dc60284b31161def2b128ba8966|Avoid pick_default to detect promoted_max|Thu, 3 Nov 2022 16:16:40 +0900|Thu, 3 Nov 2022 16:23:06 +0900
+eb3ae25859a991dd56321019e521cf6fe7e8e0f6|Update master for stable/1.5.x|Wed, 2 Nov 2022 16:19:32 +0000|Wed, 2 Nov 2022 16:19:32 +0000
+c332d43db6b81d44f56a5a4a67d9988df763b4de|bundle: Refactor handling of masters/promoted_max|Sat, 7 May 2022 01:45:57 +0900|Wed, 2 Nov 2022 01:31:39 +0000
+cf2cfcb1e94e97a548d036ffc366df935b78be94|Disable setuptools auto discovery|Tue, 1 Nov 2022 00:51:12 +0530|Wed, 2 Nov 2022 09:13:15 +0900
+4332e628ea2f627b78ef1635f6a6cd2d7c96c3f7|Bump metadata for tripleo zed release|Mon, 31 Oct 2022 11:18:00 +0530|Mon, 31 Oct 2022 13:40:49 +0000
+e0a869c4bb6f2351b1a85417d62062e1cfc4eaab|Merge "Replace hiera by lookup"|Thu, 21 Apr 2022 04:31:11 +0000|Thu, 21 Apr 2022 04:31:11 +0000
+8b88f000bc2afa7801740a484fbade67926fcd5b|Replace hiera by lookup|Tue, 19 Apr 2022 23:02:42 +0900|Tue, 19 Apr 2022 23:02:42 +0900
+f003a5385e879a05e812131b3bb36ecaca6fb268|Add 'Release Notes' in README|Sun, 29 Jul 2018 14:24:42 +0000|Mon, 18 Apr 2022 16:42:21 +0900
+91eb91aad371e8cea94d4fed3527224b48a262b5|Bump metadata 1.4.0 for tripleo release|Wed, 6 Apr 2022 13:01:18 +0300|Wed, 6 Apr 2022 15:31:10 +0000
+e0fa810d23a564cfb3a840268693d63e6ee7994a|Do not install fence-agent packages in base manifests|Sat, 22 Jan 2022 22:54:03 +0900|Mon, 24 Jan 2022 13:24:15 +0900
+34bf907131041d3f11c6d1ace407651b550afbd1|Fix duplicate declaration of package resource|Sat, 22 Jan 2022 22:45:19 +0900|Sat, 22 Jan 2022 22:49:05 +0900
+9f2e6f10a4883041cc3a086ee85be807af6bd4a0|Only install required/supported fence agents|Wed, 22 Dec 2021 15:45:40 +0530|Thu, 23 Dec 2021 08:15:37 +0900
+81c84d56e800b5ce5dfa5f46d4f599b1cf4d8287|Merge "Fix idempotency regex during scale-up check"|Wed, 10 Nov 2021 23:30:07 +0000|Wed, 10 Nov 2021 23:30:07 +0000
+a9a89ec6909ff5c06de6d11e52a346be3e31709b|Merge "Replace the deprecated is_ipv6_address function"|Wed, 10 Nov 2021 23:30:05 +0000|Wed, 10 Nov 2021 23:30:05 +0000
+e3df586ef75605cf3a047591921fcbfd94419ec8|Fix idempotency regex during scale-up check|Tue, 9 Nov 2021 11:26:13 +0100|Tue, 9 Nov 2021 11:26:13 +0100
+d3a119e9e1ef8af57e8aa781122a4e1b3892c655|Make sure we wait for the cluster before setting resource_default_op|Thu, 21 Oct 2021 16:55:13 +0200|Thu, 21 Oct 2021 16:55:13 +0200
+fff6e02ff41fffdb85b386eae5ee48a97f72d0c0|Bump tag for release|Wed, 13 Oct 2021 09:43:55 -0600|Wed, 13 Oct 2021 09:43:55 -0600
+c08236d8c70fd8ff5030727749e3b807e2f42dff|Replace the deprecated is_ipv6_address function|Wed, 13 Oct 2021 20:30:15 +0900|Wed, 13 Oct 2021 20:33:49 +0900
+1cd0951df0ed588918194122e5273956ec756232|Merge "Make sure we test for Promoted when looking for constraints"|Mon, 6 Sep 2021 17:50:47 +0000|Mon, 6 Sep 2021 17:50:47 +0000
+99ac026c6db33a2519c0dd47ea57ca143892e758|Make sure we test for Promoted when looking for constraints|Fri, 3 Sep 2021 11:38:02 +0200|Fri, 3 Sep 2021 14:19:32 +0200
+bc4cc7899cb0530b74315a025496a1a8f86cb8d3|Support fence_kubevirt apiversion parameter|Fri, 3 Sep 2021 13:37:09 +0200|Fri, 3 Sep 2021 13:37:09 +0200
+744f3b78aa4c3eaa3796af459a7ed2c44af941e9|Add support for fence_kubevirt fencing agent|Wed, 1 Sep 2021 12:40:00 +0200|Wed, 1 Sep 2021 14:44:24 +0200
+4399c3a8340598e17ac177acac22399a2e906fa5|Fix up cluster_setup_extras usage|Thu, 12 Aug 2021 10:34:01 +0200|Thu, 12 Aug 2021 08:40:35 +0000
+bb5e14d4fa889ac15a420aef617b2e79620ed56d|Merge "Remove old workarounds for broken crm_diff"|Wed, 11 Aug 2021 10:28:26 +0000|Wed, 11 Aug 2021 10:28:26 +0000
+90be0f9e65399a80cdd4907e757a8274cd381df4|Merge "setup.cfg: Replace dashes with underscores"|Mon, 9 Aug 2021 19:52:56 +0000|Mon, 9 Aug 2021 19:52:56 +0000
+a126b0669dacd89b36bc4287af50a2904b772c25|Merge "Fix where long_description_content_type is placed"|Mon, 9 Aug 2021 19:52:55 +0000|Mon, 9 Aug 2021 19:52:55 +0000
+606d58caa3fb9d3b456f52e09ab2da4841eb5994|Remove old workarounds for broken crm_diff|Fri, 30 Jul 2021 15:06:34 +0200|Sat, 31 Jul 2021 13:18:34 +0200
+d513c631da7ad95644f27bd8f6909d9944fac3a3|Increase the scaleup/startup tries|Tue, 27 Jul 2021 08:51:53 +0200|Fri, 30 Jul 2021 14:57:36 +0200
+531283ecea579bf0576bd515770d9cf6513e48c7|Fix spec tests using the deprecated pacemaker_restart_resource? function|Fri, 30 Jul 2021 14:47:28 +0200|Fri, 30 Jul 2021 14:52:17 +0200
+b0ea31ae9a4860e0b8d9d80150c2e69962eadaed|Update metadata to match released tag|Wed, 2 Jun 2021 17:57:40 +0200|Wed, 2 Jun 2021 17:58:58 +0200
+8edbd644f039b55971c5bc6ac907cef19ef068f2|setup.cfg: Replace dashes with underscores|Tue, 11 May 2021 20:44:29 +0900|Tue, 11 May 2021 20:44:29 +0900
+dc2ae869dc2aca53f3441e7c2b0d42155e06f59f|Fix where long_description_content_type is placed|Tue, 11 May 2021 20:44:06 +0900|Tue, 11 May 2021 20:44:06 +0900
+6e272bf9ec7082a9cb935c6dfa53b2eff0ef5e74|Make pcs resource config/show work depending on the installed pcs version|Mon, 22 Feb 2021 21:33:10 +0100|Tue, 23 Feb 2021 12:28:56 +0100
+2f4b6fafcb265c81072d072f4fac489f24c647dd|Add fence_crosslink support|Mon, 30 Nov 2020 11:54:26 +0100|Mon, 30 Nov 2020 11:54:44 +0100
+40d91a06a03e6e283cde747d80ad57e23bff6cb5|Fix reconnect_interval on remotes with pcs 0.10|Wed, 25 Nov 2020 19:05:04 +0100|Fri, 27 Nov 2020 07:50:18 +0000
+17c56e0b03c25a8ef3bd9cd0f7ad8fee9d9ca0ec|Add building containers to standalone job|Thu, 26 Nov 2020 17:59:25 +0200|Thu, 26 Nov 2020 17:59:54 +0200
+af5df04b61078758fccb02735643b51b51a45680|pcs resource show and pcs stonith show are deprecated|Mon, 19 Oct 2020 17:54:38 +0200|Fri, 6 Nov 2020 19:44:52 +0100
+942aed4fb293d209036932a084610b9804b1358e|Update master for stable/1.1.x|Mon, 5 Oct 2020 15:02:11 +0000|Mon, 5 Oct 2020 15:02:11 +0000
+af9f15aed1d8ca3dc5dcc8deee2f999c1b17da81|Update metadata for a release|Fri, 2 Oct 2020 07:29:45 -0600|Fri, 2 Oct 2020 07:29:45 -0600
+441e0c406bb3af17c668a5579a9b1a43f3cf77cd|Fix pcs 0.10 detection for 8-stream|Thu, 1 Oct 2020 14:41:47 -0600|Thu, 1 Oct 2020 14:41:47 -0600
+b3596d187d81e06e4539dede7a1fa0b63ebd7cef|Add disable-http-filter option|Thu, 10 Sep 2020 21:59:21 +0100|Thu, 10 Sep 2020 21:59:21 +0100
+b501c08640f16725207615184e57c6b4f3f33fb7|Convert all class usage to relative names|Sun, 8 Dec 2019 23:18:50 +0100|Tue, 1 Sep 2020 14:44:22 +0200
+a53120f8873181244b76d55c65679c8d32986520|Add tripleo-standalone sc4 job|Fri, 31 Jul 2020 20:22:03 +0530|Fri, 31 Jul 2020 20:23:41 +0530
+a6d00ddcfa96f5477a8c1bd07ff5ff3634fb11bc|Merge "Revert "Make sure we pass cluster_setup_extras when using pcs 0.10""|Fri, 31 Jul 2020 14:46:11 +0000|Fri, 31 Jul 2020 14:46:11 +0000
+a385603e4bb8ec13cd079a75da0c8e1224194b84|Revert "Make sure we pass cluster_setup_extras when using pcs 0.10"|Fri, 31 Jul 2020 14:02:17 +0000|Fri, 31 Jul 2020 14:02:17 +0000
+7291a1cac52011b0287edb442405d4d2eebe0b73|Merge "Make sure we pass cluster_setup_extras when using pcs 0.10"|Thu, 30 Jul 2020 14:23:33 +0000|Thu, 30 Jul 2020 14:23:33 +0000
+2d9751314ca03074443449b07a05fc74f998cb37|Merge "Fix up upgrade coordination around authkey"|Thu, 30 Jul 2020 14:18:19 +0000|Thu, 30 Jul 2020 14:18:19 +0000
+115c346dc14141fee5013f675da458933b26b5c6|Merge "Do not create stonith location constraint when there is a single node"|Thu, 30 Jul 2020 14:03:59 +0000|Thu, 30 Jul 2020 14:03:59 +0000
+034102e9b9871397880d65eeced363f906e9a9e7|Fix up upgrade coordination around authkey|Wed, 15 Jul 2020 14:55:40 +0200|Thu, 23 Jul 2020 08:20:13 +0200
+b7af3b650923df80e067e5545108d9cfe4c89f83|Retry calling backup_cib()|Tue, 21 Jul 2020 10:07:23 +0200|Thu, 23 Jul 2020 08:14:19 +0200
+7a82bae8111ea29362ea63f174cd91b83db68430|Do not create stonith location constraint when there is a single node|Fri, 17 Jul 2020 10:01:00 +0200|Thu, 23 Jul 2020 08:11:41 +0200
+1bb2fe70b1e09dfb04ada5286d86d8d08de48f53|Fix typo in CRMDIFF_BIN|Fri, 17 Jul 2020 10:02:22 +0200|Fri, 17 Jul 2020 10:02:22 +0200
+3cbc4daa10e0861f3c2611f06a5895d9c162a212|Make sure we pass cluster_setup_extras when using pcs 0.10|Wed, 8 Jul 2020 11:15:25 +0200|Wed, 8 Jul 2020 11:15:25 +0200
+bb6709c19aefcd7f20614cafe24439265c7adb42|Add support for promoted-max meta attribute|Wed, 17 Jun 2020 17:50:29 +0200|Thu, 18 Jun 2020 21:19:01 +0200
+5ab1505d24b1426944c481a7485ada53089c3311|Switch to newer openstackdocstheme and reno versions|Wed, 3 Jun 2020 20:29:59 +0200|Wed, 3 Jun 2020 20:31:07 +0200
+9f3f5c7f739a9f2a33cae9e5a520ca34d8870dd0|Update Puppet requirement to >= 6.0.0|Sat, 30 May 2020 10:00:25 +0200|Sat, 30 May 2020 10:00:25 +0200
+d5681e4ecf25ab23c5a98eab7cb05bcad19352fe|Prepare for 1.0.0 release|Wed, 20 May 2020 15:47:45 +0200|Wed, 20 May 2020 15:48:15 +0200
+d501b27616cec68ce1b35dd5345ebb220e73d3c3|Merge "Remove support for CentOS6/RHEL6"|Tue, 28 Apr 2020 13:08:44 +0000|Tue, 28 Apr 2020 13:08:44 +0000
+7ffeda62b0d2340fed7eee7a4951286fdad03f37|Remove "warning: previous definition of" warnings|Fri, 24 Apr 2020 10:17:24 +0200|Fri, 24 Apr 2020 17:50:45 +0200
+4cff368605a71bd5a49a43595fa6214b9fa177ec|Resolve duplicated requirement names in metadata|Mon, 13 Apr 2020 22:59:42 +0900|Mon, 13 Apr 2020 22:59:53 +0900
+d7472b5ef4dcdf887e1b8fbf000b2f10210eb909|Try and reauthenticate if pcsd status $::hostname fails|Tue, 31 Mar 2020 18:13:27 +0200|Tue, 7 Apr 2020 12:24:34 +0200
+01f9a6912cbb62b77f92fd7cac8682674cb68390|Remove support for CentOS6/RHEL6|Tue, 7 Apr 2020 19:06:32 +0900|Tue, 7 Apr 2020 19:19:05 +0900
+1c79e4d61f6c4106a90f12a172c8145c87d0f9aa|Fix CI for new centos8 + puppet6|Tue, 7 Apr 2020 11:32:10 +0200|Tue, 7 Apr 2020 11:32:10 +0200
+9c5b583e1dea4f12ec858e572aa3947a3da9ac50|Merge "Add CentOS 8 and Puppet 6 in metadata"|Tue, 31 Mar 2020 22:06:48 +0000|Tue, 31 Mar 2020 22:06:48 +0000
+4dd277f84904e7ed4ebb60a4ba0895b99b5233b9|Add CentOS 8 and Puppet 6 in metadata|Mon, 30 Mar 2020 09:33:36 +0200|Mon, 30 Mar 2020 07:51:13 +0000
+987489a97b5eb083199a432098b8176e7a185d4d|Fix os version test|Sun, 29 Mar 2020 16:33:03 +0200|Sun, 29 Mar 2020 16:33:03 +0200
+56a11120019d7925ba318c978c8e80cfd490ac7a|Update os variables|Mon, 23 Mar 2020 16:47:10 -0600|Mon, 23 Mar 2020 17:10:51 -0600
+e1f66f226a696f02d58784832235d2663c39887e|order pcmk_remote after Exec['wait-for-settle']|Thu, 12 Mar 2020 08:55:09 +0100|Thu, 12 Mar 2020 09:25:20 +0100
+dcc14c8537efb5e75b201cbe5048d9d42c0021d1|Make pacemaker_resource serializable|Tue, 10 Mar 2020 11:28:12 +0100|Tue, 10 Mar 2020 11:28:12 +0100
+2b6d519180db96c9a76457e5ac4fbce1bcf9ec87|Add force parameter for all pcmk_ types|Wed, 19 Feb 2020 21:04:18 +0100|Fri, 21 Feb 2020 17:02:40 +0100
+83d23b3f345be2fa6beb63306bdbb4fabb490808|Fix params in pcmk remote|Mon, 3 Feb 2020 08:50:42 +0100|Mon, 3 Feb 2020 11:03:38 +0100
+d0968da94726dd807fdb24c5c90922e622d526fd|Merge "Allow to disable the scaleup logic via a parameter"|Mon, 23 Dec 2019 20:37:00 +0000|Mon, 23 Dec 2019 20:37:00 +0000
+d118e0b9950f0e6b945aa2595c06ab189583b83e|Allow to disable the scaleup logic via a parameter|Fri, 20 Dec 2019 19:41:29 +0100|Mon, 23 Dec 2019 09:17:49 +0100
+54cb9a465ca9450a07a3c4f255adb3b80730a214|Improve scaleup debug logic|Fri, 20 Dec 2019 19:31:06 +0100|Fri, 20 Dec 2019 19:31:53 +0100
+80dcc19695f84819aec46fb3a600eca2bd90861e|Merge "Add support to configure pcsd bind address"|Tue, 17 Dec 2019 21:32:56 +0000|Tue, 17 Dec 2019 21:32:56 +0000
+6138c5b9f35b1bddc1ee17c08372b7bde85c264d|Add support to configure pcsd bind address|Mon, 9 Dec 2019 12:02:15 +0900|Tue, 17 Dec 2019 10:14:02 +0900
+635aee9afd4010507498020ab6ea54e4430913e6|Fix missing deep_compare for fence_redfish|Tue, 3 Dec 2019 20:50:13 +0100|Wed, 4 Dec 2019 08:18:09 +0000
+b6174b3642d266b390ac94bd948dfdafed605f13|Merge "Allow updating stonith levels"|Mon, 18 Nov 2019 22:49:43 +0000|Mon, 18 Nov 2019 22:49:43 +0000
+dd0b43fc3c90b98c746094579677be3d8844cfb5|Allow updating stonith levels|Tue, 12 Nov 2019 10:12:45 +0100|Fri, 15 Nov 2019 07:31:21 +0100
+74969a6ce523aef0b0126c18520b7f51990fbb1b|Add a more clear error message when we fail to backup cib|Wed, 6 Nov 2019 21:23:11 +0100|Tue, 12 Nov 2019 14:40:47 +0000
+0ebd0344a701ee83bc80b3d3bbf1b3f456bcde55|Pin a bunch of gems so that centos 7 with old ruby still works|Fri, 8 Nov 2019 11:34:58 +0100|Tue, 12 Nov 2019 12:29:19 +0100
+018023ab72f5898da4de548c9a8f1ca47dc7b079|Prepare for new release 0.8.0|Thu, 17 Oct 2019 16:56:45 +0200|Thu, 17 Oct 2019 16:57:27 +0200
+a09f5dd75bb0ee0605b013b2c604dd64e259e948|Merge "Update the constraints url"|Fri, 27 Sep 2019 02:08:07 +0000|Fri, 27 Sep 2019 02:08:07 +0000
+603de5cc1c0019b139b2d8b1a9776d3c68c74a06|Update the constraints url|Thu, 26 Sep 2019 10:14:43 +0800|Thu, 26 Sep 2019 10:16:51 +0800
+9beb316c7342305717b4a320f894f791e7ba7bda|Add support for pcmk resource op defaults|Tue, 11 Jun 2019 16:42:34 +0200|Wed, 25 Sep 2019 22:29:56 +0200
+447cef0ad8891e89495fef7a9be5e2152b07edfa|Silence useless facter errors when calling crm_node|Mon, 23 Sep 2019 10:32:38 +0200|Mon, 23 Sep 2019 10:32:38 +0200
+6b8f272c53e73dd9e56f9c00d50628165047f888|Merge "Extend deep_compare to stonith resources"|Thu, 12 Sep 2019 16:17:31 +0000|Thu, 12 Sep 2019 16:17:31 +0000
+0389f99f4373309f58bb335e2032ab55c5aa2e30|Extend deep_compare to stonith resources|Fri, 30 Aug 2019 11:25:57 +0200|Wed, 11 Sep 2019 08:09:44 +0200
+f0ae4bf0c09a3cb6505c8232ec8dbd3aa9a1900d|Merge "Fix typos in doc"|Wed, 4 Sep 2019 15:35:36 +0000|Wed, 4 Sep 2019 15:35:36 +0000
+8b30131ef70007a050f9f1aafd7cb695bae7a72a|pcs 0.10: authenticate nodes before adding them to the cluster|Tue, 6 Aug 2019 22:02:52 +0200|Wed, 7 Aug 2019 09:53:18 +0200
+519c28b163cef8ef21e83d7c177c0936de55e183|Support for SBD (watchdog only)|Mon, 3 Jun 2019 14:17:55 +0200|Fri, 2 Aug 2019 16:40:48 +0000
+ffbed58789fbf290817d68ca24b931098661bac0|Pin rspec-puppet-facts if older ruby|Fri, 2 Aug 2019 10:21:09 -0600|Fri, 2 Aug 2019 10:36:38 -0600
+4c06196391b83fa706d9e2ead63bf9ac79aeb30d|Merge "Scale up logic with extra IP addresses for pcs 0.10"|Fri, 19 Jul 2019 12:44:57 +0000|Fri, 19 Jul 2019 12:44:57 +0000
+d719a5f5b4f722397649f939b2fe5910e1a8654e|Merge "Support upcoming forcing of tls priorities"|Wed, 17 Jul 2019 16:18:12 +0000|Wed, 17 Jul 2019 16:18:12 +0000
+685a1c8a9580dc1776b5623eb61cf25ac76db380|Support upcoming forcing of tls priorities|Wed, 10 Jul 2019 20:37:31 +0200|Wed, 17 Jul 2019 16:53:47 +0200
+d0b394d8f64d779c4866386f11f2c4c48f299ce5|Scale up logic with extra IP addresses for pcs 0.10|Tue, 16 Jul 2019 13:27:56 +0200|Wed, 17 Jul 2019 15:18:41 +0200
+7ddbe0860e7544d1d66fb727a4465045f224c741|Force to use markdown to prevent pypi issue|Mon, 1 Jul 2019 20:44:26 +0200|Mon, 1 Jul 2019 20:44:38 +0200
+658f4ee6d982169191531bd0daf6ef8e08f06ddc|Redirect stderr to stdout in push_cib() and backup_cib()|Wed, 12 Jun 2019 17:07:21 +0200|Wed, 12 Jun 2019 17:07:21 +0200
+fde568564d43c78bf2828d3c981d5cc685fb3369|Add new pcs 0.10 compatible remote addition implementation|Thu, 23 May 2019 07:51:40 +0200|Fri, 31 May 2019 07:44:55 +0200
+0c5d69921dc61510109a5c53bbd963e6567f306c|Introduce a pcs_without_push function|Thu, 23 May 2019 07:43:09 +0200|Thu, 23 May 2019 07:43:09 +0200
+c03a507462ffec2f053f2e56754b04560138412b|pcs 0.10 clone resources changed parameters|Tue, 21 May 2019 16:49:15 +0200|Thu, 23 May 2019 07:39:26 +0200
+a8921297aea2a139511af7e7f0c3f817fed783d1|Merge "Do not avoid same node with INFINITY score"|Thu, 16 May 2019 09:21:46 +0000|Thu, 16 May 2019 09:21:46 +0000
+57f65b89191e39cb9add8187fcbff118830d570e|Do not avoid same node with INFINITY score|Wed, 15 May 2019 10:05:49 +0200|Wed, 15 May 2019 11:21:56 +0200
+c6b01cc601878d81403282fd985d2f9606f34704|Merge "Update mailinglist from dev to discuss"|Thu, 25 Apr 2019 15:04:46 +0000|Thu, 25 Apr 2019 15:04:46 +0000
+0bfb86a0c070e1d7773e6e481e3875ec9d7c2808|OpenDev Migration Patch|Fri, 19 Apr 2019 19:44:59 +0000|Fri, 19 Apr 2019 19:44:59 +0000
+487c8f12bb61da10d42354afebe57fe7c9958bdb|Update master for stable/0.7.x|Sun, 24 Mar 2019 23:07:42 +0000|Sun, 24 Mar 2019 23:07:42 +0000
+5f796950743d421adba6fe4205e42c594f9e74f2|Release 0.7.2|Fri, 22 Mar 2019 10:23:23 +0800|Fri, 22 Mar 2019 10:31:18 +0800
+5deba125b1ffea45999c4cb6b7836e515d4806fd|Make the redfish stonith agent a manual agent and add two workaround|Thu, 14 Feb 2019 10:48:37 +0100|Thu, 14 Feb 2019 11:02:04 +0100
+bc7b4728961c6b1f083b6e0bd05980129a6e0d98|Add fence-redfish support|Mon, 11 Feb 2019 11:11:57 +0100|Mon, 11 Feb 2019 11:13:33 +0100
+306b0e001a948654624aa79f76807b9a80ee84c3|Initial support for properties managed by pcs 0.10|Tue, 18 Dec 2018 21:47:58 +0100|Thu, 31 Jan 2019 17:32:03 +0100
+c7b21ee0cbe0c48c678c6b4c63bcf314fb9a4f32|Initial pcs 0.10 support|Tue, 18 Dec 2018 10:39:55 +0100|Wed, 30 Jan 2019 12:28:18 +0100
+584d47831478b3118446e0129ae73f80928b9292|Merge "Modify puppet version 4 to 5"|Tue, 22 Jan 2019 18:12:28 +0000|Tue, 22 Jan 2019 18:12:28 +0000
+065963a0af9c475e45850863c7e498088db3f3f3|Merge "Deprecate include_class"|Tue, 22 Jan 2019 18:12:28 +0000|Tue, 22 Jan 2019 18:12:28 +0000
+002b848d4c406e4c26cad3bf9c730b6c9f86b7aa|Modify puppet version 4 to 5|Tue, 15 Jan 2019 10:18:17 +0800|Tue, 15 Jan 2019 10:18:17 +0800
+93482ade19c2f79bb172768cb2f4f93f10279d0b|Add cluster_members_addr parameter to specify ip addresses used in cluster setup|Tue, 18 Dec 2018 18:41:57 +0100|Sat, 22 Dec 2018 16:31:22 +0100
+7b55ac38ecd2b7bfcdf43578511df54b20d775da|Fix up ordering of remote authkeys and a couple of pcs commands|Tue, 11 Dec 2018 11:25:18 +0100|Tue, 11 Dec 2018 17:35:58 +0100
+814d6ad7e98e61a7d6a2c045ac7fa184fbae14cb|Update mailinglist from dev to discuss|Tue, 4 Dec 2018 09:49:57 +0800|Wed, 5 Dec 2018 09:46:00 +0800
+7a6fef3cd5cfc05dd96ff412898a1d3b36f460ed|Merge "Fix stdlib version in metadata"|Tue, 4 Dec 2018 01:50:38 +0000|Tue, 4 Dec 2018 01:50:38 +0000
+6632d50f540628bef588dfc57ee9b9c143bfc24d|Match node properties more strictly|Thu, 29 Nov 2018 12:52:43 +0100|Fri, 30 Nov 2018 16:24:49 +0100
+5800e93e176c5c4365f933b5883e7bf2db7a5ac5|Remove unneeded spec testing file|Sat, 24 Nov 2018 15:39:13 +0100|Fri, 30 Nov 2018 08:07:38 +0100
+c2aa846f02f227d7adef31e5e1de067efe558d5d|Deprecate include_class|Tue, 27 Nov 2018 14:22:45 +0800|Tue, 27 Nov 2018 14:23:06 +0800
+b2744d3046175742a387c90b0bbf0848467f0193|Fix container_backend customizability|Thu, 15 Nov 2018 18:05:39 +0100|Thu, 15 Nov 2018 18:05:39 +0100
+220e6403583613f07f13fb77481e14bf87a373b2|Merge "Improve deep_compare detection"|Mon, 12 Nov 2018 14:06:23 +0000|Mon, 12 Nov 2018 14:06:23 +0000
+2fb9ce4c0f3a539c2b3375f3e2120f634de3e277|Fix stdlib version in metadata|Fri, 9 Nov 2018 14:56:41 +0800|Fri, 9 Nov 2018 14:56:41 +0800
+fafb72f48866ed8c15a199111860eaadbed72aab|Skip some tests for Ubuntu 18.04 and puppet 4.8.|Wed, 7 Nov 2018 17:44:24 +0100|Thu, 8 Nov 2018 12:20:55 +0100
+90033be6533218efd93182c3dcf6c883b03c95d3|Improve deep_compare detection|Fri, 26 Oct 2018 15:37:17 +0200|Sun, 4 Nov 2018 19:24:07 +0100
+b7c38e2cf3551dee072a5ed49a5164b1fff7f10e|Merge "Update min tox version to 2.0"|Mon, 29 Oct 2018 17:26:59 +0000|Mon, 29 Oct 2018 17:26:59 +0000
+ce81a99d087317c18a0a37d4ec66f13f425f547e|Merge "Add 'Development' in README"|Mon, 22 Oct 2018 15:08:17 +0000|Mon, 22 Oct 2018 15:08:17 +0000
+a31971d6ff5a0685844018bdee3a22a17e02a3ab|Update min tox version to 2.0|Tue, 16 Oct 2018 11:40:18 +0800|Tue, 16 Oct 2018 11:40:18 +0800
+ece92d13af45a2f40fe58f1ee2a236e70b3fa9f2|Fix reconnect_interval parameter|Wed, 10 Oct 2018 12:43:27 +0200|Wed, 10 Oct 2018 12:43:27 +0200
+9a4bc2d3582b519953dff7caa1e1c0e32dc6731c|Dissuade .gitignore references to personal tools|Mon, 8 Oct 2018 11:47:08 +0800|Mon, 8 Oct 2018 11:47:08 +0800
+e65b6cceab07a64c516c5d9eed7f6c4a3bfe7c99|Merge "Also consider podman containers when running facter"|Thu, 4 Oct 2018 07:23:09 +0000|Thu, 4 Oct 2018 07:23:09 +0000
+286197f2bd72154b060e87d861f956316f666af8|Merge "Rely on path for CLI calls when possible"|Wed, 3 Oct 2018 23:50:05 +0000|Wed, 3 Oct 2018 23:50:05 +0000
+48bb89e22c695b491992ddf4acdd0c971bb0bd2d|Also consider podman containers when running facter|Wed, 3 Oct 2018 16:24:11 +0200|Wed, 3 Oct 2018 16:24:11 +0200
+3a8b9a797df5866b971b98ad85d3baf2d2391d84|Merge "Update overriden to overridden"|Tue, 2 Oct 2018 03:16:17 +0000|Tue, 2 Oct 2018 03:16:17 +0000
+1320c3883e6f5599581efbf02c96e2ecae854d18|Rely on path for CLI calls when possible|Mon, 24 Sep 2018 14:43:07 -0400|Wed, 26 Sep 2018 15:16:08 +0200
+4d5799c7cec796b52a558ce89b099b5f44558c63|Fix typos in doc|Sun, 23 Sep 2018 01:40:20 +0800|Sun, 23 Sep 2018 01:41:17 +0800
+cbcf2b397977ac1b5f91c591b401f4416d29c029|Remove the duplicated "the"|Sun, 10 Jun 2018 18:11:35 -0400|Tue, 18 Sep 2018 00:24:51 +0000
+1cc8417a20873eb1a13101eae6c9f4bbe9847744|Update overriden to overridden|Wed, 30 May 2018 06:03:23 -0400|Tue, 18 Sep 2018 00:24:43 +0000
+7a73e8d37683bce8c7558b99a46901969205fede|Fix container_backend issues on update|Fri, 14 Sep 2018 14:45:23 +0200|Fri, 14 Sep 2018 14:45:23 +0200
+b9c2c963ff33de8e653d7745a0b4a7c4630c1fac|Merge "Abstract container backend"|Wed, 12 Sep 2018 21:18:23 +0000|Wed, 12 Sep 2018 21:18:23 +0000
+ecd3c1fc5f57feb010fbcb427c685390610d9e09|switch documentation job to new PTI|Wed, 29 Aug 2018 10:05:43 -0400|Wed, 29 Aug 2018 10:05:43 -0400
+123646b90c772972bfb1a4fcfa29d2c3d27536ee|import zuul job settings from project-config|Wed, 29 Aug 2018 10:01:53 -0400|Wed, 29 Aug 2018 10:01:53 -0400
+a451c3d90f30d8571e553a343d52bd524a1d75d0|Add 'Development' in README|Sun, 5 Aug 2018 05:59:01 +0000|Thu, 23 Aug 2018 01:31:52 +0000
+e400b7b82a54c36ec306a71e8db0fddbcc06788f|Abstract container backend|Sun, 22 Jul 2018 19:38:17 +0200|Wed, 22 Aug 2018 08:50:07 +0200
+533dad0a7f9460fdaaec1e2a408c89a515796d1a|Remove PE requirement from metadata.json|Thu, 16 Aug 2018 23:31:33 +0200|Thu, 16 Aug 2018 23:31:40 +0200
+530ba96cca94fb6dc1ba296b2f1b1e89ee36b9b2|Merge "Deep_compare fix with location constraints and better debugging"|Tue, 7 Aug 2018 21:06:09 +0000|Tue, 7 Aug 2018 21:06:09 +0000
+205191e771acd5bc2f9b97952bd539c8d24a95d9|Deep_compare fix with location constraints and better debugging|Sat, 4 Aug 2018 16:35:30 +0200|Mon, 6 Aug 2018 14:34:29 +0200
+cd20731d969f482415f945ba11d72381d78cac06|Initial support for adding cluster nodes to an existing cluster|Thu, 10 May 2018 11:29:55 +0200|Fri, 3 Aug 2018 13:09:12 +0000
+b11f579a5fe84dcf6e4c56d2f13ab8b9e4f37061|Merge "Add the project source code repository in README"|Thu, 2 Aug 2018 20:02:36 +0000|Thu, 2 Aug 2018 20:02:36 +0000
+8d09c3f5cec9751c6adbb3b81a8f7f9f4078020a|Remove the pcmk_is_remote fact|Wed, 18 Jul 2018 09:50:45 +0200|Mon, 30 Jul 2018 20:39:51 +0000
+a82e35575c4360bcb508cffc493abd4baa567711|Pin net-telnet to 0.1.1|Mon, 30 Jul 2018 21:32:03 +0200|Mon, 30 Jul 2018 20:39:00 +0000
+8b2c01440bf868ec19eb7e52922b15fa0b37e16e|Add the project source code repository in README|Fri, 27 Jul 2018 00:24:32 +0800|Fri, 27 Jul 2018 00:25:18 +0800
+9fe625a5718e71e35dd282d6b64f4c4045263813|Fix rspec test on ubuntu os.|Tue, 24 Jul 2018 13:01:21 +0200|Tue, 24 Jul 2018 13:05:02 +0200
+af2aff805861fe8b307005232246cde94010dbd4|Merge "Fix OS versions in metadata"|Mon, 23 Jul 2018 22:30:25 +0000|Mon, 23 Jul 2018 22:30:25 +0000
+ddfe526edb74697239c4760bfd4bc9c3c8201c3c|Merge "Revert "Initial support for adding cluster nodes to an existing cluster""|Mon, 23 Jul 2018 21:05:57 +0000|Mon, 23 Jul 2018 21:05:57 +0000
+475f65f5ac7ba380197f80eeb563e11f3620464f|Revert "Initial support for adding cluster nodes to an existing cluster"|Mon, 23 Jul 2018 20:03:30 +0000|Mon, 23 Jul 2018 20:06:06 +0000
+fed50f5ae7bf668d3d48853202ce265b13f2131f|Merge "Initial support for adding cluster nodes to an existing cluster"|Mon, 23 Jul 2018 16:55:44 +0000|Mon, 23 Jul 2018 16:55:44 +0000
+966943a79e11eccac5ec0868836239c55e3845dc|Do not call crm_node -n when running in a container|Wed, 18 Jul 2018 07:44:00 +0200|Wed, 18 Jul 2018 09:45:44 +0200
+9c9c36b0d5e55a915d859f56e04df330cd39e106|Fix OS versions in metadata|Mon, 16 Jul 2018 15:49:07 +0700|Mon, 16 Jul 2018 09:06:31 +0000
+03391e07ea608aedb0716d392c169d13273694e1|Initial support for adding cluster nodes to an existing cluster|Thu, 10 May 2018 11:29:55 +0200|Fri, 13 Jul 2018 14:09:28 +0200
+d465e25f4bb3038edd04e7a6375572989cd028a5|Use crm_diff for pcmk resource deep_compare|Mon, 11 Jun 2018 21:09:59 +0200|Tue, 10 Jul 2018 18:24:18 +0200
+4b14fe1e94c2b560afe7ddeaeb07c591bafdf171|Introduce a function to verify for fixed crm_diff|Mon, 11 Jun 2018 18:45:43 +0200|Mon, 9 Jul 2018 09:24:09 +0200
+2ff444e2b630f3cb3b1f1d66879389c35a0e3f8e|Merge "fix tox python3 overrides"|Tue, 12 Jun 2018 15:24:03 +0000|Tue, 12 Jun 2018 15:24:03 +0000
+8695d6f0f41afac0cb4188f65ffb56de3438734a|Fix a small race window when setting up pcmk remotes|Sat, 19 May 2018 12:13:53 +0200|Mon, 11 Jun 2018 16:59:05 +0200
+354d2db3b9776b63be44cfd4d3730b424967f307|fix tox python3 overrides|Fri, 8 Jun 2018 14:23:33 +0800|Fri, 8 Jun 2018 14:23:33 +0800
+c0fb9aebc8bfde8234ed964ddcf906f043bd020c|fix error url|Sat, 28 Apr 2018 20:14:48 +0800|Sat, 28 Apr 2018 20:15:43 +0800
+fee47ee9af3d38834c33bec31694f4be6b0c4396|Merge "Move the tests around so pcmk_resource_has_changed? does not get triggered"|Mon, 23 Apr 2018 21:15:53 +0000|Mon, 23 Apr 2018 21:15:53 +0000
+2bdb6f17f04e55f5948da5ec6200e0b81ac528b7|Move the tests around so pcmk_resource_has_changed? does not get triggered|Mon, 23 Apr 2018 16:18:53 +0200|Mon, 23 Apr 2018 16:19:14 +0200
+99b7eb09b7b679e680c07c7f8116bf182f521816|Fix missing pass-through of cluster_auth_enabled parameter|Wed, 18 Apr 2018 14:32:44 +0200|Wed, 18 Apr 2018 14:36:41 +0200
+44ef58ff994cfa345e04000c3db07da0bc0d95d6|Detect when a bundle or a resource needs updating|Mon, 9 Apr 2018 22:10:43 +0200|Wed, 11 Apr 2018 07:53:12 +0200
+8df2e01421c74076cc27714a3aedaa85735e1393|Add a deep_compare option in bundles and resources|Mon, 9 Apr 2018 08:56:35 +0200|Wed, 11 Apr 2018 07:53:12 +0200
+da4673ffbeb43c426639b2a4982d6f80557c8d6a|Introduce some new functions in pcmk_common|Fri, 6 Apr 2018 13:40:29 +0200|Wed, 11 Apr 2018 07:53:12 +0200
+77ba1048096314a59666cf649e680aeca6944d90|Work around ruby 2.5 dropping Dir::Tmpname.make_tmpname|Fri, 6 Apr 2018 21:58:49 +0200|Tue, 10 Apr 2018 18:13:40 +0200
+ec5e694df09a905b1ce07617f58c2afb3be1b072|Wrap the logic for creating resource and location_rule in its own function|Fri, 6 Apr 2018 08:11:29 +0200|Tue, 10 Apr 2018 18:13:40 +0200
+52e85b0b5f4d430e6f9647b65c4af13ef6126c84|Change resource/location exists return code and store their return codes in a class instance variable|Thu, 5 Apr 2018 22:31:14 +0200|Tue, 10 Apr 2018 18:13:40 +0200
+6388e3fbbe924cf48af2834f8a256afa7dd4c438|Move location_rule build to a common function|Thu, 5 Apr 2018 21:08:07 +0200|Tue, 10 Apr 2018 18:13:40 +0200
+80667cc860eba7c39533538e6148bb4e877275a7|Add serverspec to Gemfile|Fri, 6 Apr 2018 10:05:26 +0200|Tue, 10 Apr 2018 08:05:46 +0200
+c3e09a6572b46a5a04ad75255c7564e52a9679ce|Wrap pcs command generation into their own functions|Sat, 31 Mar 2018 09:49:01 +0200|Tue, 10 Apr 2018 08:05:40 +0200
+24d465a9be81d3eccb368cd0ac0b0791df4f0437|Wrap the cib file deletion commands in a function|Sat, 31 Mar 2018 09:04:06 +0200|Tue, 10 Apr 2018 08:05:31 +0200
+faf5d4f944f50448c5edc1bf56ab31d1551713ea|Drop ubuntu 14.04 from spec tests|Wed, 4 Apr 2018 10:45:32 +0200|Wed, 4 Apr 2018 11:56:45 +0200
+b9837d7bdf005d0f86edbc9bef060ae74fab0cc3|Merge "Allow meta_params and op_params on resource::ip"|Wed, 28 Mar 2018 17:27:00 +0000|Wed, 28 Mar 2018 17:27:00 +0000
+faa731ba6c8ad2a12db72eddb1bd1f463861f92e|Fix up error code path|Wed, 28 Mar 2018 11:27:56 +0200|Wed, 28 Mar 2018 11:27:56 +0200
+bde4061048651bbfeff81660153666efeac57b70|Allow meta_params and op_params on resource::ip|Thu, 15 Mar 2018 08:15:34 +0100|Tue, 20 Mar 2018 17:49:02 +0100
+0a994c89f3327417186aa4107a29c1243dc1e78a|Merge "Follow the new PTI for document build"|Mon, 5 Mar 2018 09:06:03 +0000|Mon, 5 Mar 2018 09:06:03 +0000
+23bcc5feb728f3957cb1dfa5f52fc5456e7b405b|Merge "Add .tox/ to .gitignore"|Mon, 5 Mar 2018 09:06:03 +0000|Mon, 5 Mar 2018 09:06:03 +0000
+2d2d8779e13f6d0ef342fe628cfc6f75b4000975|Merge "Add a pcsd_debug option"|Thu, 1 Mar 2018 22:07:50 +0000|Thu, 1 Mar 2018 22:07:50 +0000
+2d24201e726bc67bdad2f6cf09fcdff767790a34|Follow the new PTI for document build|Wed, 28 Feb 2018 14:42:12 +0800|Wed, 28 Feb 2018 17:00:45 +0800
+63016fa99553267d46e981f11dc532b9a7c8de92|Add .tox/ to .gitignore|Thu, 22 Feb 2018 15:07:59 +0700|Thu, 22 Feb 2018 15:09:29 +0700
+256d592a271c0ad1e271a1db60ba6ee52b947b63|Add a pcsd_debug option|Wed, 21 Feb 2018 21:03:29 +0100|Wed, 21 Feb 2018 22:26:46 +0100
+e136cf4c65c0eade3734a90b7ec0a8bb09a85e76|Release 0.7.1|Wed, 21 Feb 2018 10:45:36 -0800|Wed, 21 Feb 2018 10:45:36 -0800
+02107fdc99bd76947595d458dfba2fa90a31099c|Merge "Zuul: Remove project name"|Thu, 1 Feb 2018 15:34:56 +0000|Thu, 1 Feb 2018 15:34:56 +0000
+3dee4f8d1e6199b303aa9e824bad1c9ae4a40854|Zuul: Remove project name|Wed, 24 Jan 2018 16:53:52 -0800|Wed, 31 Jan 2018 21:53:49 -0800
+246c51b3fa273b65338dbc680a9ee2d393457819|Zuul: Remove project name|Mon, 29 Jan 2018 02:53:16 +0800|Mon, 29 Jan 2018 02:53:16 +0800
+04710b967d7c71345105a9a03ff34de08979a3ad|Remove RH1 OVB jobs from configuration|Wed, 24 Jan 2018 17:02:45 +0200|Wed, 24 Jan 2018 17:03:09 +0200
+bbb62a776e4d2d9a49a29cd694152679729b0ee2|Remove pinned versions from test-requirements.txt|Tue, 16 Jan 2018 12:29:49 +0800|Tue, 16 Jan 2018 12:29:49 +0800
+3f79e3fd201d8ea85fb8eaa0e0b64a52cd15d7c7|Fix up fence_compute with latest keystone v3 changes|Wed, 29 Nov 2017 15:29:48 +0100|Wed, 29 Nov 2017 15:29:48 +0100
+9201cbd32a4b4455ef46c6ab3598be8595768772|zuul: run ovb-ha-oooq|Wed, 15 Nov 2017 19:23:42 -0800|Wed, 15 Nov 2017 19:23:42 -0800
+b782adc382a8e112082e437a7b47752aa58c66bb|Merge "Use resource collectors for ordering in stonith manifests"|Wed, 8 Nov 2017 13:53:19 +0000|Wed, 8 Nov 2017 13:53:19 +0000
+8bab46845f67995b0f67afcdb6f860b88a91d351|Merge "Allow multiple stonith declarations in one manifest"|Wed, 8 Nov 2017 13:50:46 +0000|Wed, 8 Nov 2017 13:50:46 +0000
+67aa1b130498b30911a29028f175401a38adc557|Merge "Switch to Zuul v3 testing"|Wed, 1 Nov 2017 04:53:17 +0000|Wed, 1 Nov 2017 04:53:17 +0000
+b21823aa86f80511b63fdd59533b7a7077c8ac56|Prepare 0.7.0|Mon, 30 Oct 2017 09:53:48 -0700|Mon, 30 Oct 2017 09:53:48 -0700
+1e92b12b9581c0aba6e705f91d724852f58ff8c6|Add Puppet package to bindep, for module build|Mon, 30 Oct 2017 09:53:00 -0700|Mon, 30 Oct 2017 09:53:00 -0700
+ea26e7f2793f8a587016f1d1241b80562f18c095|Switch to Zuul v3 testing|Thu, 26 Oct 2017 08:39:35 +0800|Thu, 26 Oct 2017 08:39:44 +0800
+9ca9f9979e96f1396d70df5809a99c435b932ea2|Use resource collectors for ordering in stonith manifests|Mon, 23 Oct 2017 14:07:12 +0200|Wed, 25 Oct 2017 08:35:16 +0200
+9f899c5686b243586d04ed01327cc05bb6704d99|Allow multiple stonith declarations in one manifest|Mon, 23 Oct 2017 12:38:32 +0200|Wed, 25 Oct 2017 08:35:16 +0200
+9a46ecd1e71aa44566a642cc10dd311ffad22166|Pin jwt to 1.5.6 and rubocop to 0.50.0|Mon, 23 Oct 2017 14:24:24 +0200|Mon, 23 Oct 2017 17:00:13 +0200
+44d3226f1b473636b1f320121c4bad7f1c91fd15|Merge "Revert "Allow more than one order rule between two resources.""|Sun, 15 Oct 2017 17:21:09 +0000|Sun, 15 Oct 2017 17:21:09 +0000
+5d98d82967e138d8b2bf8b7cb5205377b9d00fa5|Revert "Allow more than one order rule between two resources."|Sun, 15 Oct 2017 11:15:26 +0000|Sun, 15 Oct 2017 11:15:26 +0000
+ebef43cadf09f622637b4286a1cb8771b58bca21|Implement stonith levels resource|Fri, 29 Sep 2017 22:36:25 +0200|Thu, 12 Oct 2017 11:01:30 +0200
+48c85997938c0f7ff72f1dc2d25ab307d691bab6|Merge "Allow more than one order rule between two resources."|Mon, 9 Oct 2017 14:20:31 +0000|Mon, 9 Oct 2017 14:20:31 +0000
+b783c35eb9116d28c0471b2b1cd87d715303cbe6|Merge "Add fence_compute stonith manifest"|Fri, 6 Oct 2017 21:47:33 +0000|Fri, 6 Oct 2017 21:47:33 +0000
+4131dcee8dbd5f763a8a890a8577da411c6efbd3|Allow more than one order rule between two resources.|Fri, 6 Oct 2017 18:20:49 +0100|Fri, 6 Oct 2017 18:41:52 +0100
+abcbfca87b1a9eef5e740a1add871755c817ddf6|Add fence_compute stonith manifest|Sun, 24 Sep 2017 09:32:31 +0200|Fri, 6 Oct 2017 08:40:52 +0200
+3a7b5bc44db4cab928c9df00572b56b42e150dd6|Merge "Add autogenerated fence-amt manifest"|Thu, 5 Oct 2017 22:36:56 +0000|Thu, 5 Oct 2017 22:36:56 +0000
+8f855457d6fdbc2ffeac4b3495fa604b389d59e7|Merge "Allow empty pcmk_host_list"|Wed, 4 Oct 2017 22:48:52 +0000|Wed, 4 Oct 2017 22:48:52 +0000
+cf21db05d0e476eb347d1e74058ca1fda5868004|Allow empty pcmk_host_list|Sun, 24 Sep 2017 08:45:44 +0200|Sat, 30 Sep 2017 14:57:50 +0200
+782f4a1a5fd3b626099c0ad3a7184e1bc7620d1b|Add autogenerated fence-amt manifest|Fri, 29 Sep 2017 19:58:05 +0200|Fri, 29 Sep 2017 19:58:05 +0200
+4a5e1df0c9ed0afd4f17fbc358ba5d2d513d25c6|Fix constraint::order when constraint_params is undef|Fri, 29 Sep 2017 19:46:55 +0200|Fri, 29 Sep 2017 19:46:55 +0200
+a4aa655a3f2e07031becac7c6ac3a116ab79e607|Add meta attribute support to stonith manifests|Wed, 27 Sep 2017 18:32:09 +0200|Wed, 27 Sep 2017 18:46:10 +0200
+d0584c54754b765282023f57a67d4554c1b23258|Generate fence_ironic automatically|Mon, 25 Sep 2017 20:46:21 +0200|Wed, 27 Sep 2017 09:29:21 +0200
+de68119a1aa1c799dfef0a9c5fda027f58b5b838|Fix resource defaults class|Fri, 22 Sep 2017 12:01:55 +0200|Sat, 23 Sep 2017 15:51:02 +0200
+1721dd71bb79e6c82334d7b05e0af0a12e554d0e|Fix up package relationship in generated stonith manifests|Thu, 21 Sep 2017 20:51:20 +0200|Thu, 21 Sep 2017 20:51:20 +0200
+957947c22dfb37cd0151d5e175ec44a03746e47f|Merge "Switch the stonith_agent_generator to pcmk_stonith provider"|Thu, 21 Sep 2017 14:15:32 +0000|Thu, 21 Sep 2017 14:15:32 +0000
+3c49eac9188bfe27e25022beea3053ed5695e00b|Merge "Add pcmk_stonith provider"|Thu, 21 Sep 2017 08:42:27 +0000|Thu, 21 Sep 2017 08:42:27 +0000
+1f65df2e010cd2b8742d63d0ca338a85dce6d858|Merge "Fix brokenness when changing the value of an existing property"|Thu, 21 Sep 2017 08:26:34 +0000|Thu, 21 Sep 2017 08:26:34 +0000
+1c56377c8ecfe65c24f5d7fba93a917254eca7e6|Switch the stonith_agent_generator to pcmk_stonith provider|Mon, 18 Sep 2017 13:06:08 +0200|Thu, 21 Sep 2017 08:29:34 +0200
+375ff165036d0b529b79876b273cc66566811d62|Add pcmk_stonith provider|Sun, 17 Sep 2017 10:01:33 +0200|Thu, 21 Sep 2017 08:29:34 +0200
+d952513d4180705002dae9901db3af00cfb4f05a|Fix pacemaker remote 'Illegal relationship operand..' errors|Wed, 20 Sep 2017 22:57:57 +0200|Wed, 20 Sep 2017 23:34:11 +0200
+6c50831a77ece3abd1638118273ff2806421823e|Merge "Update openstackdocstheme to latest version"|Wed, 20 Sep 2017 13:12:29 +0000|Wed, 20 Sep 2017 13:12:29 +0000
+1dfa46637996aed304bc710c71ca8b309dfdacbe|Update openstackdocstheme to latest version|Tue, 19 Sep 2017 21:52:32 +0800|Wed, 20 Sep 2017 11:03:13 +0800
+a2e9675cda2e9152569ce4ab0f69484c03fc7c93|Parse pcs auth output with all pcs versions|Tue, 19 Sep 2017 16:05:27 +0200|Tue, 19 Sep 2017 16:05:27 +0200
+a1c06f000779941cc998df71a8ed2f8157ad6d21|Fix brokenness when changing the value of an existing property|Fri, 15 Sep 2017 16:48:56 +0200|Fri, 15 Sep 2017 16:48:56 +0200
+cb9682aed334a539fe8381e2e8ec785c80775ee5|Use ensure_resources to install pacemaker package|Tue, 12 Sep 2017 11:06:24 -0600|Tue, 12 Sep 2017 11:25:33 -0600
+246b53446a0cf8761db3ba5ab4906644584845bf|Use Python to compute release notes version|Wed, 30 Aug 2017 13:47:04 -0700|Wed, 30 Aug 2017 13:47:04 -0700
+ae04f101fe0dee8ba5cdcbdb51f45432c104f67c|Update reno>=2.5.0|Mon, 21 Aug 2017 11:21:20 +0800|Mon, 21 Aug 2017 11:21:20 +0800
+e0f9c4253abce26de340a8c8256c87f5c9f27e02|Merge "Update URLs in documents according to document migration"|Mon, 7 Aug 2017 18:17:16 +0000|Mon, 7 Aug 2017 18:17:16 +0000
+9bbcffbffe2d629b224320ec73014870d908a5aa|Merge "Update openstackdocstheme>=1.16.0"|Fri, 4 Aug 2017 22:42:05 +0000|Fri, 4 Aug 2017 22:42:05 +0000
+790c37f6b5b9e776c13a6ecea38b4b96dab88d8c|Switch requires for wait-for-settle into resource collectors|Tue, 1 Aug 2017 11:51:35 +0300|Thu, 3 Aug 2017 15:21:32 +0000
+d0f421d342e5280c1af991304851f6d40a145870|Pin puppet-stdlib to 4.16.0|Thu, 3 Aug 2017 08:56:36 -0600|Thu, 3 Aug 2017 08:56:36 -0600
+70be80782570d071fa33e8b35dcf3b9f05b7fc48|Update openstackdocstheme>=1.16.0|Mon, 31 Jul 2017 11:03:39 +0800|Mon, 31 Jul 2017 11:03:39 +0800
+c1a197654443dad8d1c59a6bd1c3dab10e946542|Update URLs in documents according to document migration|Fri, 14 Jul 2017 08:54:04 +0800|Fri, 14 Jul 2017 08:54:04 +0800
+c44548c6e51cc4991ef3a1acd325e89122db0a69|Fix openstackdocstheme|Sun, 2 Jul 2017 14:25:18 +0800|Sun, 2 Jul 2017 14:25:18 +0800
+52e296600e01259018b173cf981f5d3ede457da8|Switch from oslosphinx to openstackdocstheme|Mon, 26 Jun 2017 10:10:06 +0800|Mon, 26 Jun 2017 10:10:06 +0800
+f04b14fe45ae5c9ec352c71dce445781b7ccf85a|HA: update bundle creation to be compatible with newest pcs|Thu, 22 Jun 2017 06:01:11 -0400|Thu, 22 Jun 2017 06:01:11 -0400
+77156f37e220979ccadc66caa7b511388c7b8026|Merge "Fix bundle location_rule constraints"|Tue, 13 Jun 2017 03:27:45 +0000|Tue, 13 Jun 2017 03:27:45 +0000
+04d627826f6c5fcbaf02356f927f9112ab64dbb1|Add environment variable|Mon, 12 Jun 2017 16:03:16 +0800|Mon, 12 Jun 2017 16:03:16 +0800
+59cddb79025040fad1b0860540a89d0c17a756bc|Fix bundle location_rule constraints|Fri, 9 Jun 2017 21:14:36 +0200|Fri, 9 Jun 2017 21:17:37 +0200
+4b2c5aabefb5e9cc6df643b1a28e8f11f8efe099|Update global requirements|Thu, 8 Jun 2017 13:51:23 +0800|Thu, 8 Jun 2017 13:51:23 +0800
+4cebf88c2a7183e86595a59e10ed1a5ef3c651ed|Add a release note for the newly introduced bundle support|Sat, 3 Jun 2017 09:38:15 +0200|Sat, 3 Jun 2017 09:38:15 +0200
+50ce8e89d9b2742d520832ab4e4ad03ab3091cc8|Merge "Initial bundle resource support"|Fri, 2 Jun 2017 14:16:45 +0000|Fri, 2 Jun 2017 14:16:45 +0000
+3b3804a620907ff5cd3a065d027db72e463dc358|Update reno for stable/0.6.x|Wed, 31 May 2017 09:27:47 +0000|Wed, 31 May 2017 09:27:47 +0000
+05cb65f467153315ce7c0957feba5b0b26dda80b|Release 0.6.0|Wed, 24 May 2017 10:12:57 -0400|Wed, 24 May 2017 14:38:15 +0000
+d3a5dacf08c8140ed9dacb92dc9084aac751ae70|Update tox configuration|Wed, 24 May 2017 10:29:43 -0400|Wed, 24 May 2017 10:37:58 -0400
+de9d1996492a96bca29cb649dfc3353fb52e08f3|Add retries for pcs cluster setup|Tue, 23 May 2017 17:08:25 +0200|Tue, 23 May 2017 17:13:55 +0200
+7d0093b0e1ba47f3f3c36b8bf25626f9fd927cdf|Initial bundle resource support|Tue, 16 May 2017 10:11:54 +0200|Tue, 23 May 2017 16:22:23 +0200
+8b102c106c2401c2dba25e56fd63c14be085976f|Merge "Add support for Pacemaker Remote to stonith drivers."|Wed, 17 May 2017 21:02:44 +0000|Wed, 17 May 2017 21:02:44 +0000
+aa42b5dc30c2007ba3d518675c6f20d7f36148e5|Add support for Pacemaker Remote to stonith drivers.|Tue, 25 Apr 2017 17:43:48 +0100|Mon, 8 May 2017 20:55:28 +0100
+7403757dc6a29916c3907612c34b8f7b2557c347|Add verify_on_create for remote resources|Sat, 6 May 2017 17:36:25 +0200|Mon, 8 May 2017 08:12:25 +0200
+5134f1fd654515c77547f47129459dd20bdeeb28|Fix up race when setting a property|Thu, 4 May 2017 20:29:11 +0200|Thu, 4 May 2017 20:29:11 +0200
+90813886250711daca67f316b06418f4bde0f299|Fix a typo in ipv6 addrlabel|Wed, 3 May 2017 12:28:40 +0200|Wed, 3 May 2017 12:31:56 +0200
+0c2e23375cd27d43cdcb81c058a370874ff4d5cf|Add support for ipv6_addrlabel with IPaddr2 RA|Wed, 26 Apr 2017 19:14:34 +0200|Fri, 28 Apr 2017 08:21:18 +0200
+076360732ac2b5cfb487fd24a0e4e4fb6260ed00|Fix potential cluster setup race|Thu, 30 Mar 2017 15:40:24 +0200|Mon, 3 Apr 2017 10:49:42 +0200
+56ef1e2dc9c472af71044bf28ba950c96f1dace9|Update test-requirements.txt|Thu, 23 Mar 2017 14:52:07 +0800|Thu, 23 Mar 2017 14:52:07 +0800
+c1c2031c847298be36039dbd3e9031cd0cb35af2|Fixes for race condition when adding primitives without OCF present|Tue, 16 Aug 2016 13:16:05 -0500|Thu, 23 Feb 2017 17:45:07 +0000
+fe4d448938b602a91ada9c66b14a76d38e740f12|Remove spurious CIB backup files|Wed, 22 Feb 2017 14:59:56 +0100|Thu, 23 Feb 2017 00:25:00 +0100
+b135ebbfebee29f4b39cee347fb1feb618d3648e|Add rspec tests for stonith fences|Tue, 17 Jan 2017 09:04:24 -0700|Mon, 13 Feb 2017 18:42:42 +0000
+4552c9fe247f5645d16ba1807caa86b16a4b6d06|Disable the deprecation warnings as errors for puppet-syntax|Mon, 13 Feb 2017 11:58:05 +0800|Mon, 13 Feb 2017 12:26:55 +0800
+d639da88b34d834b76d8dbe7f6662cb6d6d388d7|Prepare for 0.5.0 release|Wed, 8 Feb 2017 09:08:52 -0700|Wed, 8 Feb 2017 09:08:52 -0700
+28020de0fb5699104057eed7a96d106bc396c9a2|Do not apply the cib via --config when pcs does not support diffing|Tue, 24 Jan 2017 16:38:58 +0100|Tue, 24 Jan 2017 16:44:49 +0100
+1a57f584b4aa38f10b07e1ce4b0134df7d8e6546|Merge "Add a pacemaker remote resource"|Tue, 24 Jan 2017 15:28:11 +0000|Tue, 24 Jan 2017 15:28:11 +0000
+3fb19a34067bf85b73772e73d805770d359b19bd|Merge "Add tries and try_sleep to ::pacemaker::stonith"|Tue, 24 Jan 2017 13:27:41 +0000|Tue, 24 Jan 2017 13:27:41 +0000
+3d0222d2c90b3d07c4bf31e355347c2690773002|Add a pacemaker remote resource|Mon, 23 Jan 2017 16:08:26 +0100|Mon, 23 Jan 2017 22:52:56 +0100
+d7f4f9a08ae6f685058e78075060ee03c5de7cf1|Add tries and try_sleep to ::pacemaker::stonith|Thu, 19 Jan 2017 10:01:06 +0100|Thu, 19 Jan 2017 10:01:34 +0100
+1ac5c78c48d198abd2ce15e0f955d568d6439336|Merge "Add support for fence_ironic fencing agent."|Thu, 19 Jan 2017 01:40:29 +0000|Thu, 19 Jan 2017 01:40:29 +0000
+47cc3c11dee89aeef4de79df62fbf42a637fbd6e|Merge "Add a remote class for pacemaker-remote"|Wed, 18 Jan 2017 21:37:10 +0000|Wed, 18 Jan 2017 21:37:10 +0000
+37b7b437f1c4c92fbfcdd7fec6280185e7541424|Add support for fence_ironic fencing agent.|Mon, 24 Oct 2016 20:53:58 +0100|Wed, 18 Jan 2017 13:30:18 +0000
+40c5ce56121bccb3cc6f98567bf2b64af7019d74|Add a remote class for pacemaker-remote|Wed, 11 Jan 2017 00:31:19 +0100|Tue, 17 Jan 2017 19:42:18 +0100
+5b2d789111c45af723df13fc649c471fea4aa6df|Merge "Add support for non-standard ports to fence_ipmilan."|Tue, 17 Jan 2017 17:07:47 +0000|Tue, 17 Jan 2017 17:07:47 +0000
+6af6bc624d189f54a3bcca37979d6c08b1fc1e0d|Use --config when pushing the CIB in the non diff-against case|Tue, 17 Jan 2017 10:58:47 +0100|Tue, 17 Jan 2017 11:32:14 +0100
+b01145b72372fd7f15296b60ddf4386405a298ac|Add support for non-standard ports to fence_ipmilan.|Mon, 16 Jan 2017 19:48:55 +0000|Tue, 17 Jan 2017 10:00:07 +0000
+5c7a0ce460fc6427eb25c04038b5ba7a829611a6|Add tries/try_sleep to the constraint classes|Tue, 10 Jan 2017 19:52:00 +0100|Wed, 11 Jan 2017 19:14:58 +0100
+99e21a5243455bd420ff1e7569989178831387f7|Add a constraint::order class|Mon, 9 Jan 2017 13:05:14 +0100|Wed, 11 Jan 2017 19:14:36 +0100
+ac332aef78187457089c0a4dab6e1d7c984216a9|Do not operate on the live CIB with pcs commands|Mon, 9 Jan 2017 12:39:26 +0100|Tue, 10 Jan 2017 19:37:12 +0100
+a945058ea4363978fcc4c6ba9a7b7e29c4a104d8|Move cluster properties implementation to ruby|Mon, 9 Jan 2017 12:34:33 +0100|Tue, 10 Jan 2017 19:36:35 +0100
+6c705ce667c2a6820f178283d56db074fa637bee|Move all pcs() function to a common file for increased re-use|Mon, 9 Jan 2017 12:29:28 +0100|Tue, 10 Jan 2017 19:34:54 +0100
+63de2923ebc23e754a62b7fa6b08cca07cf04874|Add a pcmk_common file with some helper routines|Mon, 9 Jan 2017 11:59:54 +0100|Tue, 10 Jan 2017 19:34:32 +0100
+e78e08c9a409d7300b97b707837d3c9fd1841671|Pin nokogiri module to 1.6.0|Fri, 6 Jan 2017 10:59:43 +0100|Fri, 6 Jan 2017 11:02:12 +0100
+b4e3b88ba9a428bc0d691f61e530670a29cdaa0c|Relax requires when creating resources on remote nodes|Wed, 7 Dec 2016 22:09:47 +0100|Thu, 15 Dec 2016 16:58:50 +0100
+9eb4361b6a4e2ce54ee899d16d4c32f604bc0839|Merge "fix dependencies definition for firewall module"|Fri, 9 Dec 2016 08:26:38 +0000|Fri, 9 Dec 2016 08:26:38 +0000
+28bd84bb28abc152198bde0e34f77e5437b0ab03|Merge "Add minimal location rule support to resource creation"|Fri, 9 Dec 2016 08:26:33 +0000|Fri, 9 Dec 2016 08:26:33 +0000
+1506407ae2484e6a411a217d41173c3e679cdb20|Merge "Remove useless etc-pacemaker-authkey -> pcsd dependency"|Fri, 9 Dec 2016 08:26:22 +0000|Fri, 9 Dec 2016 08:26:22 +0000
+129e7489f75ee8729bd2d6ee46956aace1a377f4|fix dependencies definition for firewall module|Thu, 8 Dec 2016 17:25:37 +0300|Thu, 8 Dec 2016 17:34:00 +0300
+145464e14bbdb369f1e02c29c9a746d583aac0d6|Add minimal location rule support to resource creation|Fri, 2 Dec 2016 16:36:12 +0100|Sat, 3 Dec 2016 17:13:40 +0100
+1e2560f5b7fd6e4ef1d9b02b5cb2e8bfe676555a|Prep 0.4.0 tag|Tue, 8 Nov 2016 09:04:54 -0700|Tue, 8 Nov 2016 09:04:54 -0700
+f0d2b2a53c1ead499125f6983b17e24df71556b5|Remove redundant 'the'|Fri, 21 Oct 2016 17:29:38 +0700|Mon, 24 Oct 2016 00:50:26 +0000
+4ea11b8f2cdfda0c64fd2bc8b9adf4c9b9147c07|Merge "Changed the home-page to point Openstack Puppet Homepage"|Fri, 7 Oct 2016 16:16:57 +0000|Fri, 7 Oct 2016 16:16:57 +0000
+c8544e8fc3a3f9369916e2848a3e3ed2c206c569|Merge "Pin beaker to < 3.0.0"|Fri, 7 Oct 2016 15:55:11 +0000|Fri, 7 Oct 2016 15:55:11 +0000
+aef5e0691520dd38b502506d27a4dc89ba1d8356|Enable release notes translation|Thu, 6 Oct 2016 20:47:45 +0200|Thu, 6 Oct 2016 20:47:45 +0200
+7dc183f093280245c824a1a9508dc3c603fb1689|Changed the home-page to point Openstack Puppet Homepage|Tue, 4 Oct 2016 12:56:21 +0530|Thu, 6 Oct 2016 18:13:39 +0000
+4f73403c187468a10bf7c2969adae284d463f469|Pin beaker to < 3.0.0|Thu, 6 Oct 2016 12:11:12 -0600|Thu, 6 Oct 2016 12:12:19 -0600
+907a4174114765cece959269144b9857295ce54d|Remove useless etc-pacemaker-authkey -> pcsd dependency|Mon, 3 Oct 2016 23:44:05 +0200|Mon, 3 Oct 2016 23:44:05 +0200
+87968ef1e717a33dd959ed089978b1abe9ca3e74|Move other-requirements.txt to bindep.txt|Fri, 12 Aug 2016 21:11:30 +0200|Mon, 15 Aug 2016 21:35:38 +0000
+61d594b813aa59154215c6c3f3a41bfc7613c4d3|Fix CI puppet-lint and type issues|Sat, 13 Aug 2016 13:41:17 -0600|Mon, 15 Aug 2016 15:34:40 -0600
+aae8e179d69335e924f37824192f889b23c69168|Merge "Removing ignoring the action parameter in the agent_generator.rb so that the manifests for the fencing scripts will have the parameter available to them."|Tue, 2 Aug 2016 15:40:58 +0000|Tue, 2 Aug 2016 15:40:58 +0000
+e483cc0b8e290d761dbf1903097f9f1599e4262b|Remove 12.04 from metadata|Wed, 29 Jun 2016 22:44:34 -0300|Wed, 29 Jun 2016 22:44:34 -0300
+0bd90c271139270180f698f5359e1e60bad5b06e|CI: specinfra, xenial, lint, puppet bug.|Wed, 22 Jun 2016 16:28:57 +0200|Fri, 24 Jun 2016 18:07:24 +0200
+5c6b52be1fa9f6b0821d79b7d81d72b50081ac0a|Removing ignoring the action parameter in the agent_generator.rb so that the manifests for the fencing scripts will have the parameter available to them.|Tue, 21 Jun 2016 16:28:25 +0000|Tue, 21 Jun 2016 18:04:53 +0000
+bc0b91c43a03fb7079e76199e3c8f6da96589caf|Update metadata name|Wed, 8 Jun 2016 11:57:15 -0300|Wed, 8 Jun 2016 11:57:26 -0300
+475b7ebcd03afe9a7aa391194f75aec22d0521cf|Pacemaker misc fixes|Tue, 31 May 2016 03:04:25 +0300|Tue, 31 May 2016 11:58:45 +0300
+102f55f039aa975c4bff933c7e872061e40934d0|Add other-requirements.txt for bindep|Thu, 19 May 2016 19:10:55 +0200|Thu, 26 May 2016 19:13:03 +0000
+4d2e554f687f525ad54c0b0c41a610aa68f50e4d|Merge with fuel-infra/puppet-pacemaker|Fri, 1 Apr 2016 05:04:39 +0300|Wed, 25 May 2016 11:22:22 +0200
+3cfaf36e2f60755168743392b934c3e33d4ff01d|Colocation constraint always has master role.|Mon, 23 May 2016 10:56:40 +0200|Mon, 23 May 2016 13:25:10 +0200
+3f1c3e849a8fa5d0643cd5b7ea3ed41a16b43065|contraint/base: add resource tag on execs|Mon, 9 May 2016 15:38:28 -0400|Mon, 9 May 2016 15:39:20 -0400
+f62805f678f6fd8a260118279f6e0dbb05bff3d1|Revert revert "Basic beaker one node test."|Wed, 17 Feb 2016 17:28:27 +0100|Mon, 21 Mar 2016 15:48:32 +0100
+a237447a80750e725ff90fdaefe34987641e87a4|Revert "Basic beaker one node test."|Wed, 16 Mar 2016 22:51:35 +0000|Wed, 16 Mar 2016 22:51:35 +0000
+8d2f1dfa87d49ffafaeccacb057416f03c829415|Basic beaker one node test.|Wed, 17 Feb 2016 17:28:27 +0100|Wed, 16 Mar 2016 18:02:14 +0100
+399b1fb04ea9b1203ed033e065d68cabdb48ddb6|Fixes for lint compliance and working specs.|Tue, 16 Feb 2016 14:06:21 +0100|Fri, 19 Feb 2016 12:30:22 +0100
+02d533f47753581f521ad97bbdb288674602d2fe|Merge pull request #76 from sathlan/feature/add_basic_test|Fri, 12 Feb 2016 12:29:46 -0500|Fri, 12 Feb 2016 12:29:46 -0500
+abadcb94be9529a4ccdc2375d2b562980bfdb7a2|Adding basic rspec tests to the module.|Fri, 12 Feb 2016 18:23:02 +0100|Fri, 12 Feb 2016 18:23:02 +0100
+f29f623c0d99eff1754fbbbf3578f66c40b8d898|Merge pull request #75 from sathlan/fix/metadata_broken|Thu, 11 Feb 2016 07:58:50 -0500|Thu, 11 Feb 2016 07:58:50 -0500
+b92bd0253bee6ecbd8018ae8bccaac7555427ba0|Fix metadata.|Thu, 11 Feb 2016 13:56:30 +0100|Thu, 11 Feb 2016 13:56:30 +0100
+89bdd49b2e68ebedcb74bbb18b67bba8dba068e8|Merge pull request #74 from sathlan/feature/puppet-openstack-cookiecutter|Thu, 11 Feb 2016 07:51:29 -0500|Thu, 11 Feb 2016 07:51:29 -0500
+cbe449241c5f8d2ae5ddfde9ca4f10304564df36|Add puppet-openstack-cookiecutter files.|Thu, 11 Feb 2016 13:00:02 +0100|Thu, 11 Feb 2016 13:08:02 +0100
+a47eb66e5a8c930036bc26091fcdc5156eba900f|Merge pull request #73 from JAORMX/fix_property|Fri, 5 Feb 2016 23:52:11 +0100|Fri, 5 Feb 2016 23:52:11 +0100
+aa4bc300877a8fd98e6932c277e19ef8c6dbaf63|Fix invalid boolean check for properties' values|Fri, 5 Feb 2016 16:57:04 +0200|Fri, 5 Feb 2016 16:57:04 +0200
+973d35a918cf6051a917e96165eaae6dbed6690a|Merge pull request #71 from mbaldessari/property_suport|Thu, 4 Feb 2016 16:32:51 +0100|Thu, 4 Feb 2016 16:32:51 +0100
+f4b87d118582fe2338ad83d91ea1d6343360afe6|Initial pcs property support|Tue, 26 Jan 2016 10:17:54 -0500|Thu, 4 Feb 2016 16:10:07 +0100
+00d99b66931d520af202b94d0a2fe3b43f11d8ee|Merge pull request #70 from sathlan/rhbz/1298716|Fri, 15 Jan 2016 11:32:06 -0500|Fri, 15 Jan 2016 11:32:06 -0500
+4ae9fabb3ff50dfc95a5f6b415e9e914a6ae8b00|Resource constraint with colon in the name (IPv6)|Fri, 15 Jan 2016 17:04:46 +0100|Fri, 15 Jan 2016 17:04:46 +0100
+e9a8f0d048c1bbc86a4bb1ee81417da3afe6673e|Merge pull request #69 from gildub/ipv6/resource_ipaddr2|Mon, 21 Dec 2015 10:06:14 +0100|Mon, 21 Dec 2015 10:06:14 +0100
+1950b26946d12cb224bb82a39c9c77db0ea9feb7|Merge pull request #68 from gildub/ip6tables|Thu, 17 Dec 2015 10:43:43 -0500|Thu, 17 Dec 2015 10:43:43 -0500
+01c6000db5040055372021ad5a3231840ccb8bba|The colons in IPv6 addresses causing title issues|Thu, 17 Dec 2015 18:13:30 +1100|Thu, 17 Dec 2015 18:13:30 +1100
+04fd6c145f719ec42e8660e476a03f97376164c2|Added FW rules for IPv6|Mon, 14 Dec 2015 17:17:35 +1100|Mon, 14 Dec 2015 17:17:35 +1100
+e23cbb084bf48c414c189f45a3761c57ba8375d1|Merge pull request #63 from cwolferh/remote_authkey|Wed, 4 Nov 2015 10:16:09 -0500|Wed, 4 Nov 2015 10:16:09 -0500
+1ccd9a0dafe9631c7dcc8c4402350dacd3f03e24|Merge pull request #62 from sepulworld/zmw/adding_master_slave_constraint_option_check|Tue, 3 Nov 2015 08:59:55 -0800|Tue, 3 Nov 2015 08:59:55 -0800
+27a5ec99e1917356dd8496d46dbb7ad40a733974|adding support for master role constraints|Thu, 3 Sep 2015 13:47:57 -0700|Tue, 20 Oct 2015 21:19:41 -0700
+023580239ac495fc20bd4a393a36051ab49ac9fa|Ability to set authkey for pacemaker-remote.|Thu, 15 Oct 2015 20:08:24 -0400|Thu, 15 Oct 2015 20:08:24 -0400
+733c1088ccfa24739929af7a8612ff0ade46bc6f|Merge pull request #60 from redhat-openstack/corosync_flexibility|Wed, 23 Sep 2015 14:01:22 -0400|Wed, 23 Sep 2015 14:01:22 -0400
+124056af6c6191e4d8dc87a6024a8cad35bb4f8a|Allow one to specify some corosync parameters|Tue, 18 Aug 2015 15:36:28 +0200|Wed, 23 Sep 2015 13:35:00 +0200
+9fad1c824f814e1248367108f1c9d1c4b13697eb|Merge pull request #59 from redhat-openstack/add_rrp_support|Wed, 9 Sep 2015 12:19:59 -0700|Wed, 9 Sep 2015 12:19:59 -0700
+69e914e3c6d6c65866c3e087f97b0816c1af78c6|Merge pull request #61 from jistr/pcmk_resource_default|Tue, 1 Sep 2015 09:46:12 -0700|Tue, 1 Sep 2015 09:46:12 -0700
+a2c8705a72703dbf9401d780fcc335723a131373|Support setting pacemaker resource defaults|Mon, 31 Aug 2015 15:27:02 +0200|Tue, 1 Sep 2015 11:45:44 +0200
+77f937cc8155fe173a900b773c764c2315fcc54f|Add support for Redundant Ring Protocol (RRP)|Tue, 18 Aug 2015 14:39:59 +0200|Wed, 19 Aug 2015 13:00:55 +0200
+1fa8e5591ab606a7be3bae32df088f6cec26d3c0|Merge pull request #55 from jguiditta/constraint_params|Thu, 2 Jul 2015 12:46:33 -0700|Thu, 2 Jul 2015 12:46:33 -0700
+fcbb8112a977289ecd24e8cc23998dbcefe9bf27|Add constraint_params support.|Thu, 2 Jul 2015 09:11:34 -0400|Thu, 2 Jul 2015 09:11:34 -0400
+ce8eb8cf1a51fb163eeef393b5cdda93e2dc428f|Merge pull request #54 from cwolferh/pcs_resource_create_with_verify|Wed, 24 Jun 2015 14:29:20 -0400|Wed, 24 Jun 2015 14:29:20 -0400
+a74ea9a07fb679c7bf4bcf0cbb468078993fd43a|Add $verify_on_create ability for all resources.|Fri, 19 Jun 2015 20:45:37 -0400|Mon, 22 Jun 2015 15:47:08 -0400
+6f529ff1ce8d86b74a76b4b0f6eff3eacbfa8d39|Merge pull request #53 from cwolferh/new_world_readme|Thu, 18 Jun 2015 14:49:31 -0400|Thu, 18 Jun 2015 14:49:31 -0400
+ae8c514ecc22bd34e97c4b3e6c513028b68245fa|Update README for new pcmk_resource usage.|Tue, 16 Jun 2015 20:19:10 -0400|Tue, 16 Jun 2015 22:41:01 -0400
+337f9c139b705135b4f65e72748b4c706323b695|Merge pull request #52 from jistr/fence-agents|Fri, 12 Jun 2015 14:42:57 -0700|Fri, 12 Jun 2015 14:42:57 -0700
+f62e67f3b48857822ab214bbf2bb704b18ce34af|Add retry logic into fence agent manifests|Fri, 12 Jun 2015 18:31:51 +0200|Fri, 12 Jun 2015 18:31:51 +0200
+021c273357da3cab541f13b2938c6097174b3582|Merge pull request #50 from jistr/fence-agents|Thu, 11 Jun 2015 10:44:36 -0400|Thu, 11 Jun 2015 10:44:36 -0400
+8f40e62acf78e4df54321f875eb86289288c7d9b|Wrap fence_xvm boolean checks in str2bool|Wed, 10 Jun 2015 11:09:34 +0200|Wed, 10 Jun 2015 11:09:34 +0200
+7311e5f3a7faa4c7eecdac6e74f94111cd40d37a|Avoid using colons in stonith resource names|Wed, 3 Jun 2015 13:04:23 +0200|Mon, 8 Jun 2015 13:36:11 +0200
+38fe2f724fe5b9f9b036d1ec33bb2b3c005f5dcc|Change fence agents from classes to defined types|Tue, 2 Jun 2015 17:02:20 +0200|Mon, 8 Jun 2015 13:36:10 +0200
+37fe18a1e5e17d31bd31100c0c780ecf320b324f|Add features from stonith::xvm to stonith::fence_xvm|Thu, 28 May 2015 14:00:53 +0200|Mon, 8 Jun 2015 13:36:06 +0200
+07ad3712de4601bd0724c1681e58b033bcb7872d|Generate the new fence_xvm manifest|Thu, 28 May 2015 13:35:49 +0200|Thu, 28 May 2015 13:35:49 +0200
+46507aa22b10479b65fd8e8fc5a7b6967b51ec78|Fix and reformat the fence agent generator|Thu, 28 May 2015 11:28:27 +0200|Thu, 28 May 2015 11:41:25 +0200
+47c85172fedcf452acd004cc880a565e4a326c73|Merge pull request #49 from jistr/fence-agents-separation|Tue, 26 May 2015 11:01:41 -0700|Tue, 26 May 2015 11:01:41 -0700
+4d6f29a921651a33177e433f1e3de17a38ac628a|Consistent naming of fence agent manifests|Tue, 26 May 2015 10:54:15 +0200|Tue, 26 May 2015 15:04:37 +0200
+44c9e46ba9d8db1e70f42b915786876ea635dbf3|Merge pull request #48 from Spredzy/fix/47|Thu, 14 May 2015 11:48:53 -0400|Thu, 14 May 2015 11:48:53 -0400
+c884b7202014387c153b3eb584eec78c9ddec375|Add $master_params parameter to ocf resource|Thu, 14 May 2015 08:29:58 +0200|Thu, 14 May 2015 08:29:58 +0200
+3d289654d442413bf217ac3488d5c1eaa8baf0ce|Merge pull request #46 from cwolferh/pcmk_resource_improvements_with_sleep|Wed, 13 May 2015 16:08:39 -0400|Wed, 13 May 2015 16:08:39 -0400
+2d2b8adfc1cc4f2469bed1a39e32ae493b2d3282|Add params tries, try_sleep, post_success_sleep|Tue, 12 May 2015 23:00:08 -0400|Tue, 12 May 2015 23:00:08 -0400
+59fe631609de3543cbb9082f631ea0a5a118a472|Updates to pcmk_resource and related manifests.|Fri, 1 May 2015 19:46:43 -0400|Tue, 5 May 2015 01:11:21 -0400
+52acfd9c31e0801cedf970929851d4bece5cf79b|Merge pull request #33 from disconn3ct/master|Fri, 7 Nov 2014 18:52:38 -0500|Fri, 7 Nov 2014 18:52:38 -0500
+2bd18523965c1b721837141b64f2aa7f31e3a99c|Merge pull request #38 from RedHatEMEA/master|Fri, 7 Nov 2014 18:52:09 -0500|Fri, 7 Nov 2014 18:52:09 -0500
+f570bca0b1dec88ef2aa0c0b1a6ec369e174df48|Merge pull request #39 from cwolferh/constraint_exec_retry|Fri, 7 Nov 2014 18:49:22 -0500|Fri, 7 Nov 2014 18:49:22 -0500
+d03ff98b31b9c7d6d214f72b8099b25677cdf09a|add retry capability for pacemaker::constraint::base|Fri, 7 Nov 2014 17:42:20 -0500|Fri, 7 Nov 2014 21:56:16 -0500
+c64dc8a8492981a0ff3a9d8b2f597bafa5be34a6|Remove inheritance from pacemaker::stonith of pacemaker::corosync|Tue, 30 Sep 2014 09:09:35 +0000|Tue, 30 Sep 2014 09:09:35 +0000
+e8c50396fe3dbc6f03d5a6bde4366036d437852d|Merge pull request #37 from jistr/fence_agents_generation|Fri, 5 Sep 2014 10:22:14 -0400|Fri, 5 Sep 2014 10:22:14 -0400
+1e052ddf4b1b47d3518e58e371a5de10aa68f60a|XML sources and generated agent manifests|Thu, 4 Sep 2014 16:57:05 +0200|Fri, 5 Sep 2014 11:08:56 +0200
+6757daf0c0df76c508ffb79b423e82c138d564f0|Agent manifest batch generation scripts|Thu, 4 Sep 2014 16:19:54 +0200|Fri, 5 Sep 2014 11:08:55 +0200
+101168917ec7d5c80e9aee5fcd86dd420ae9c5c8|Generator of fence agent manifests|Thu, 4 Sep 2014 14:45:01 +0200|Thu, 4 Sep 2014 14:58:17 +0200
+56bbb3580bb7fa62bf57c2ed7a30b938e42b8cc3|Merge pull request #35 from enovance/proper_password|Tue, 2 Sep 2014 10:32:51 -0400|Tue, 2 Sep 2014 10:32:51 -0400
+1e94dc23a162cabbadb9e98d1c4fc48c75f8b39c|pacemaker/corosync: Parametrize timeout values|Tue, 19 Aug 2014 11:50:17 -0400|Tue, 19 Aug 2014 11:50:17 -0400
+5d91343c80f65b64be604f4a61558ff408c0f863|pacemaker/corosync: Grab correct hacluster password|Tue, 19 Aug 2014 09:47:11 -0400|Tue, 19 Aug 2014 09:47:11 -0400
+55706c118b197b3f2c29035690ba85e644e0339a|Fix route resource ID|Fri, 1 Aug 2014 10:59:09 -0400|Fri, 1 Aug 2014 10:59:09 -0400
+0ed9ee8a29c0f27e86727d415b39d2715332df7d|Merge pull request #32 from mangelajo/master|Mon, 21 Jul 2014 08:41:37 -0400|Mon, 21 Jul 2014 08:41:37 -0400
+7bb7a949fecef0f35e464d4611ba8de2158b9a05|Add pacemaker ocf resources support.|Thu, 17 Jul 2014 14:34:05 +0200|Thu, 17 Jul 2014 17:22:56 +0200
+a23a4e81c2a191aad5bcc16076030b32df90c6b9|Merge pull request #31 from enovance/manage-timeout|Tue, 8 Jul 2014 04:44:50 -0400|Tue, 8 Jul 2014 04:44:50 -0400
+a2949b62b5308e0edaa3063295ddb2b78fa975eb|corosync: add parameter for settle waiting|Tue, 1 Jul 2014 10:48:53 +0200|Tue, 1 Jul 2014 13:59:13 +0200
+c0b65a3704086c9808897beca006ea70e10752ce|Merge pull request #30 from enovance/manage-fw|Mon, 30 Jun 2014 11:02:46 -0400|Mon, 30 Jun 2014 11:02:46 -0400
+46ce1f3ead531f7289d65091d6b7edc91998a014|Manage IPtables rules as an option|Mon, 30 Jun 2014 14:56:32 +0200|Mon, 30 Jun 2014 14:56:32 +0200
+2aa760c3497840ad2474f15737846e2ad95c54e5|Merge pull request #28 from jeckersb/monitor_params|Tue, 24 Jun 2014 15:50:49 -0400|Tue, 24 Jun 2014 15:50:49 -0400
+7e304243b5bd2dced5f54d5146ecc58d0b5a51f1|Add monitor_params property to pcmk_resource|Mon, 23 Jun 2014 11:14:25 -0400|Tue, 24 Jun 2014 15:47:34 -0400
+fc9ef90dca8a20ae2a52cdb34507f3c5d1c60124|Merge pull request #27 from cwolferh/pcsd_service_needs_to_start|Wed, 11 Jun 2014 08:17:29 -0400|Wed, 11 Jun 2014 08:17:29 -0400
+3b2e6abfe66c2afe35ff3f841d7f4ed98aaabd38|pcsd must be started before pcs cluster auth|Wed, 11 Jun 2014 05:53:37 -0400|Wed, 11 Jun 2014 05:53:37 -0400
+d32cec6927b9a8ee49ef878224dd673910e01c37|Merge pull request #26 from cwolferh/fence_xvm_default_pcmk_host_list|Mon, 9 Jun 2014 22:32:51 -0400|Mon, 9 Jun 2014 22:32:51 -0400
+32debed512b1c3f76be44a6695600e25eac7f3c3|add fence-agents(-all) package dep|Tue, 10 Jun 2014 01:50:22 -0400|Tue, 10 Jun 2014 01:50:22 -0400
+ffaea9170892cce6a7a39c030901cec0df91fcf1|reasonable default pcmk_host_list for fence_xvm|Tue, 10 Jun 2014 01:06:20 -0400|Tue, 10 Jun 2014 01:06:20 -0400
+1102d9861d8a63cc1577bc97a4415b9ff7488038|Merge pull request #24 from jguiditta/systemd|Thu, 5 Jun 2014 19:53:25 -0400|Thu, 5 Jun 2014 19:53:25 -0400
+6be1148081c7756eefd57ed3aa8eb3d67fd586b3|Update to support managing services with systemd.|Thu, 5 Jun 2014 11:12:22 -0400|Thu, 5 Jun 2014 19:49:21 -0400
+8fd371344bf031a55e9aaf28d8b0d547e27ebea1|Merge pull request #25 from cwolferh/adapt_to_new_pacemaker|Thu, 5 Jun 2014 19:47:22 -0400|Thu, 5 Jun 2014 19:47:22 -0400
+7cd4c5b2fd01bfed107858aa735ce944329681d6|cluster setup that works with el7|Thu, 5 Jun 2014 17:38:38 -0400|Thu, 5 Jun 2014 23:20:40 -0400
+14049f367bf16ec8f0ae07a184eb526d13089b7a|Merge pull request #23 from cwolferh/rm_dep_on_cman|Wed, 4 Jun 2014 14:38:26 -0400|Wed, 4 Jun 2014 14:38:26 -0400
+ec4e574eabc8be0974632ed580cde5d943ddeee7|no cman for el7|Fri, 30 May 2014 00:22:38 -0400|Fri, 30 May 2014 00:22:38 -0400
+92df7c4118442034e5777a7717425c85c17ea669|updating module file to 0.2.0 for release|Thu, 1 May 2014 09:43:04 -0400|Thu, 1 May 2014 09:43:04 -0400
+1e487ccc59386a8171f8ac9b35c049e697492f6f|Merge pull request #22 from scarby/master|Thu, 1 May 2014 09:40:50 -0400|Thu, 1 May 2014 09:40:50 -0400
+a8f9c49c9a9f268205e29e794b04819c3fb1e09c|added route resource management|Thu, 1 May 2014 14:35:30 +0100|Thu, 1 May 2014 14:35:30 +0100
+21950c9b5e619a3cb02f01f66cd4cb33d209a690|Merge pull request #21 from cwolferh/fs_resource_add_options|Wed, 9 Apr 2014 12:00:49 -0400|Wed, 9 Apr 2014 12:00:49 -0400
+8c94bc6d4b4e562d6476509f2c598d27eaf97d9c|expose filesystem mount options to the filesystem resource|Wed, 9 Apr 2014 06:24:57 -0400|Wed, 9 Apr 2014 06:24:57 -0400
+dd832b77b2c90d5ad08319483e2bd471373bc375|Merge pull request #20 from cwolferh/fs_resource_add_clone|Fri, 28 Mar 2014 10:39:10 -0400|Fri, 28 Mar 2014 10:39:10 -0400
+962351545bf56af5809bd6954bf940f60f8a5740|allow the fileystem resource to be cloneable|Wed, 26 Mar 2014 06:03:59 -0400|Wed, 26 Mar 2014 06:03:59 -0400
+781499494dc3a5e5d00c84c273201bebaff9f2bf|Merge pull request #19 from khorsmann/patch-1|Mon, 17 Mar 2014 10:10:31 -0400|Mon, 17 Mar 2014 10:10:31 -0400
+7fd498ca707750f7da1dc70e62ef59b0921c78bf|Update stonith.pp|Mon, 17 Mar 2014 14:52:37 +0100|Mon, 17 Mar 2014 14:52:37 +0100
+7c5c22fdf0da911ab1709056f41573687cc8a9c1|Merge pull request #15 from cwolferh/fence_xvm_firewall_rules|Thu, 13 Mar 2014 20:06:04 -0400|Thu, 13 Mar 2014 20:06:04 -0400
+d666385ee3b1aa05ec901bdfb75ce99ff553fa41|Merge pull request #16 from cwolferh/ipmilan_updates|Thu, 13 Mar 2014 20:05:20 -0400|Thu, 13 Mar 2014 20:05:20 -0400
+0dd816a703bb16e0d67a32422a771e7aad2e155c|Update impilan fencing, follow the pattern of fence_xvm.|Wed, 12 Mar 2014 00:56:43 -0400|Wed, 12 Mar 2014 17:10:46 -0400
+73e254380999f9907731d4bf4ece71f40a44dbac|add fence_xvm firewall rules|Fri, 7 Mar 2014 19:44:42 -0500|Fri, 7 Mar 2014 19:44:42 -0500
+6ddbe717aa5f9c9fee33c8d09b6742bf8f19e6e7|Merge pull request #14 from cwolferh/fence_xvm|Fri, 7 Mar 2014 10:48:13 -0500|Fri, 7 Mar 2014 10:48:13 -0500
+9271159ce51aa501a3e0c714082fd16a91d689dd|Merge pull request #13 from jguiditta/service_config|Fri, 7 Mar 2014 10:47:52 -0500|Fri, 7 Mar 2014 10:47:52 -0500
+05a2f6d0f63453f04c7a10df4a169f63b165fb93|Merge pull request #12 from jguiditta/wait-for-settle|Fri, 7 Mar 2014 10:47:36 -0500|Fri, 7 Mar 2014 10:47:36 -0500
+3270fb2b21ed3d80c98a0ac41969066470292a04|fence_xvm updates|Wed, 5 Mar 2014 03:00:05 -0500|Wed, 5 Mar 2014 22:47:33 -0500
+089ca461f0fad17db28f774bbf6fb1692a6ddacc|Make sure the cluster is ready before adding resources.|Wed, 5 Mar 2014 15:10:49 -0500|Wed, 5 Mar 2014 15:10:49 -0500
+36d0da850c28ad0bb7ed078e1e17350c24ee01e2|Add management of the pacemaker service.|Wed, 5 Mar 2014 15:06:58 -0500|Wed, 5 Mar 2014 15:06:58 -0500
+8e964aa8a00067e90329cef2e7f9b7b131f22aea|adding clone functionality to the lsb and mysql resources|Thu, 27 Feb 2014 15:19:26 -0500|Thu, 27 Feb 2014 15:19:50 -0500
+94fa7dc7f129a9baf6511e7b56c45c9c3e8822d1|Merge pull request #11 from cwolferh/add_puppet_debug_for_all_pcs_cmds|Fri, 21 Feb 2014 08:20:47 -0500|Fri, 21 Feb 2014 08:20:47 -0500
+60347b6b3d4acbad9f0c77d2e622dcb127ecb460|add Puppet.debug statements|Fri, 21 Feb 2014 01:36:18 -0500|Fri, 21 Feb 2014 01:36:18 -0500
+dd5a3c7f297517bc99d482f574ba38149b9e4808|moving colocation constraint support into the puppet provider|Thu, 13 Feb 2014 23:36:39 -0500|Thu, 13 Feb 2014 23:36:39 -0500
+9009883ef38531ee2850561a052062e7dcaffec7|updating constraint location support|Thu, 13 Feb 2014 21:42:32 -0500|Thu, 13 Feb 2014 21:42:32 -0500
+a5b72c01cf1eafc81b6696f9d8fd65de40ee3efb|adding update functionality for resource_params and interval|Sat, 1 Feb 2014 22:16:28 -0500|Sat, 1 Feb 2014 22:16:28 -0500
+5e6690dc22dcbf891aa6c3caaab589b6c852bca4|moving the resource base to a provider so that properties can be updated|Wed, 22 Jan 2014 13:06:40 -0500|Wed, 22 Jan 2014 13:06:40 -0500
+f9e900d56dfcac936a8e207962a95338f0812df9|adding an additional parameters option for mysql resource|Wed, 15 Jan 2014 09:23:16 -0500|Wed, 15 Jan 2014 09:23:16 -0500
+1da0a6c1639399d23139a20da78e66dfc3f5ec35|turning the resource classes into defines so they can be used multiple times for multiple of the same resource|Fri, 10 Jan 2014 15:26:27 -0500|Fri, 10 Jan 2014 15:26:36 -0500
+992608e9b5689bfe9ee2960915f987da901be80f|Merge pull request #6 from CSC-IT-Center-for-Science/constraints|Mon, 9 Dec 2013 07:48:57 -0800|Mon, 9 Dec 2013 07:48:57 -0800
+4d721d556bd2dde4a5ca5a235025bf2fb5eeb81c|Added basic support for adding colocation, location and order constraints using pcs.|Thu, 5 Dec 2013 13:06:31 +0200|Thu, 5 Dec 2013 13:06:31 +0200
+0b16aea22c8a03ddadf42837bcf0990355f961ff|Merge pull request #5 from cwolferh/quickfix_2|Sun, 20 Oct 2013 17:28:46 -0700|Sun, 20 Oct 2013 17:28:46 -0700
+9259442721ec3a1c0e98e7682795aea6f79f44f6|bugfix, needed opening paren.|Fri, 18 Oct 2013 23:48:40 -0400|Sun, 20 Oct 2013 16:28:59 -0400
+fdc7ce4d01ac1f8ffc756fd7dda92299a9376c4b|adding some comments and tests|Fri, 18 Oct 2013 16:27:41 -0400|Fri, 18 Oct 2013 16:27:41 -0400
+b21198b7a80eb942192665bc239c4c09d69b2a17|updating modulefile for release to puppet forge|Fri, 18 Oct 2013 16:16:30 -0400|Fri, 18 Oct 2013 16:17:29 -0400
+ce03b6e7f2f906346342ee1408a570e654b6b799|adding qpid resource|Fri, 18 Oct 2013 15:39:02 -0400|Fri, 18 Oct 2013 16:14:24 -0400
+3219121acf73f59bf8a7858d69a8e770b9dd673c|adding clone option, fixing group option|Thu, 17 Oct 2013 16:07:10 -0400|Thu, 17 Oct 2013 16:07:10 -0400
+265db289dcf3004a04a4e9b291a3ef9736e901fa|refactoring resources to have a base define|Thu, 17 Oct 2013 09:58:20 -0400|Thu, 17 Oct 2013 15:31:18 -0400
+4d20ef0734062f8b792dcad59ede824211bea278|Merge pull request #3 from cwolferh/more_stuff|Fri, 4 Oct 2013 11:50:19 -0700|Fri, 4 Oct 2013 11:50:19 -0700
+a82fbcadbcf5f6413397c28ffabc787568e8d8c2|Change default param for nic or group to empty string|Fri, 4 Oct 2013 14:41:33 -0400|Fri, 4 Oct 2013 14:41:33 -0400
+deb09424643250b5fc9140136c41d13051e6a4b3|typo fix|Thu, 3 Oct 2013 19:05:33 -0400|Thu, 3 Oct 2013 19:05:33 -0400
+09459570852145266bf47709ee27b71b01ac7182|resources are added to groups upon creation|Thu, 3 Oct 2013 09:39:14 -0400|Thu, 3 Oct 2013 09:39:14 -0400
+1dcd1a79bd525c1111bb05d8d572e4dbfc1ffdbe|wrong quotes on the ip nic option|Wed, 2 Oct 2013 15:06:57 -0400|Wed, 2 Oct 2013 15:06:57 -0400
+e2ab8574bd5436eacd0538a1e9055accdef678b2|adding a nic option to the ip resource and fixing comma syntax in mysql|Wed, 2 Oct 2013 14:23:40 -0400|Wed, 2 Oct 2013 14:23:59 -0400
+78e9482347d5f760d621c2919a2d0169ad157b15|Merge pull request #1 from cwolferh/the_stuff|Wed, 2 Oct 2013 06:11:17 -0700|Wed, 2 Oct 2013 06:11:17 -0700
+ed4594be496d95c26e97451a38d1db47e9747432|update condition to add a resource to resource group|Wed, 2 Oct 2013 02:13:28 -0400|Wed, 2 Oct 2013 02:13:28 -0400
+cd7a636ab461d21568a4043fe1acde9d0d80247d|adding fence_xvm support|Tue, 1 Oct 2013 17:08:11 -0400|Tue, 1 Oct 2013 21:59:57 -0400
+4269f195d4f3d883d96e8d5af135d439cf85fadc|updating tests, readme and Modulefile release for mysql resource|Tue, 1 Oct 2013 16:35:11 -0400|Tue, 1 Oct 2013 16:35:11 -0400
+ba182dd2813de49d89469392a552a9cb8956510c|adding mysql resource handling|Tue, 1 Oct 2013 14:52:30 -0400|Tue, 1 Oct 2013 16:26:57 -0400
+b8341743533469f068943d2c25783ca72053636e|syntax fix in the group resource handling|Tue, 1 Oct 2013 13:24:38 -0400|Tue, 1 Oct 2013 13:24:38 -0400
+3034e5f61030fc2ea08d2797e1f47d2e56d0693a|updating puppetforge modulefile to push changes|Thu, 19 Sep 2013 16:19:05 -0400|Thu, 19 Sep 2013 16:23:17 -0400
+4dce91627547e59d3301a62e9e99e9cb7559f34c|updating tests and README|Thu, 19 Sep 2013 16:11:26 -0400|Thu, 19 Sep 2013 16:11:26 -0400
+fcacc25d85b82e840cc7f2732aa0f2f08a4bef23|adding filesystem resource and resource group support|Thu, 19 Sep 2013 16:03:20 -0400|Thu, 19 Sep 2013 16:03:20 -0400
+3cfe9c24fe0ce094035acb943d924b25673cb133|prepping for puppet forge submission|Thu, 12 Sep 2013 11:40:39 -0400|Thu, 12 Sep 2013 14:51:35 -0400
+ef59b0a151348cf905eec8385194383921612713|cleaning out some old unneeded puppet resources|Tue, 3 Sep 2013 11:48:56 -0400|Tue, 3 Sep 2013 11:48:56 -0400
+00a17951ee0edbc881518d694edd7220178dd361|adding ipmi stonith support|Thu, 22 Aug 2013 09:25:43 -0400|Thu, 22 Aug 2013 10:20:20 -0400
+4d1f3ca649c1fc1d2e1eb1ec7c2f158e4a9ed606|updating README|Tue, 20 Aug 2013 10:41:20 -0400|Tue, 20 Aug 2013 10:41:20 -0400
+259c746ef3379c04a278e00d08ae72f6652d5a02|aliging cluster creation and basic resources to use pcs for all managment|Tue, 20 Aug 2013 10:36:12 -0400|Tue, 20 Aug 2013 10:36:12 -0400
+a6f7118d38741d39376d5bfeaabc43a904b30900|removing ccs|Thu, 8 Aug 2013 08:42:06 -0400|Thu, 8 Aug 2013 08:42:06 -0400
+2d96beba35a58f0da3a01ef8b3e592563d833ed3|removing sysconfig/cman|Tue, 6 Aug 2013 14:00:32 -0400|Tue, 6 Aug 2013 14:00:32 -0400
+3f321228facfb5e963a189890dcf668b41b1046b|remove corosync/service.d/pcmk from the module|Tue, 6 Aug 2013 13:57:12 -0400|Tue, 6 Aug 2013 13:57:12 -0400
+200266f5b213448e8667e97fe044229faa59521a|adding a puppet resource to disable rgmanager|Fri, 22 Mar 2013 13:45:51 -0400|Fri, 22 Mar 2013 13:45:51 -0400
+0c008bc3b5793c2d4a9c487ca04a9f9d4482de65|adding lsb resource|Fri, 22 Mar 2013 09:32:40 -0400|Fri, 22 Mar 2013 09:41:30 -0400
+3c8d4d13db28eb822ab33372634685d5e4f9f9f7|renaming crm to resources|Fri, 22 Mar 2013 09:32:24 -0400|Fri, 22 Mar 2013 09:41:30 -0400
+df8b69a05ca314e6fe4543ab2b3b9749a337bb14|updating to use pcs instead of crm|Tue, 22 Jan 2013 17:10:45 -0500|Fri, 22 Mar 2013 09:41:24 -0400
+44ae8dbf536ac54b0fb6419f51dec37900ed9652|adding firewall rule, fixing dependencies|Fri, 1 Feb 2013 22:03:34 -0500|Tue, 12 Feb 2013 22:09:05 -0500
+fc9c7cddcb6855928dc2ed1a02eec391f4c9896a|adding corosync pacemaker definition|Fri, 8 Feb 2013 14:32:14 -0500|Tue, 12 Feb 2013 21:30:39 -0500
+0d84997790f0f1d732f81084c166718b270cb92d|fixing resource dependancies|Thu, 17 Jan 2013 15:36:06 -0500|Thu, 17 Jan 2013 15:36:06 -0500
+ae33b7bc1db201f865b3ea835a7fd75eb8d45846|adding hasstatus to my services|Thu, 17 Jan 2013 11:35:36 -0500|Thu, 17 Jan 2013 11:35:36 -0500
+8899efd28dc6487f20696b4cf3288884743e56d7|updating dependancy on cman and status check for cman|Thu, 17 Jan 2013 11:20:39 -0500|Thu, 17 Jan 2013 11:20:57 -0500
+6f5b6034721e4076cc32ed0089beae14da99cee9|adding require for resources to have pacemaker running|Mon, 14 Jan 2013 12:07:58 -0500|Mon, 14 Jan 2013 12:13:06 -0500
+abef631b88d46a4cb49c1cda5c89fe938b45ba71|using ccs tool to configure, adding ipmi support|Mon, 7 Jan 2013 17:00:32 -0500|Mon, 14 Jan 2013 12:01:25 -0500
+1b72dfebedb8155f3bde416101b1780823e37245|Initial Commit|Mon, 14 Jan 2013 11:49:48 -0500|Mon, 14 Jan 2013 12:01:19 -0500

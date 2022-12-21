@@ -1,0 +1,69 @@
+{
+    "author": "Puppet Labs and OpenStack Contributors",
+    "dependencies": [
+        {
+            "name": "puppetlabs/apache",
+            "version_requirement": ">=5.0.0 <9.0.0"
+        },
+        {
+            "name": "puppetlabs/inifile",
+            "version_requirement": ">=2.0.0 <6.0.0"
+        },
+        {
+            "name": "puppetlabs/mysql",
+            "version_requirement": ">=6.0.0 <14.0.0"
+        },
+        {
+            "name": "puppetlabs/stdlib",
+            "version_requirement": ">=5.0.0 <9.0.0"
+        },
+        {
+            "name": "puppet/rabbitmq",
+            "version_requirement": ">=2.0.2 <13.0.0"
+        },
+        {
+            "name": "puppetlabs/postgresql",
+            "version_requirement": ">=6.4.0 <9.0.0"
+        }
+    ],
+    "description": "Puppet module library to expose common functionality between OpenStack modules.",
+    "issues_url": "https://bugs.launchpad.net/puppet-openstacklib",
+    "license": "Apache-2.0",
+    "name": "openstack-openstacklib",
+    "operatingsystem_support": [
+        {
+            "operatingsystem": "Debian",
+            "operatingsystemrelease": [
+                "11"
+            ]
+        },
+        {
+            "operatingsystem": "RedHat",
+            "operatingsystemrelease": [
+                "9"
+            ]
+        },
+        {
+            "operatingsystem": "CentOS",
+            "operatingsystemrelease": [
+                "9"
+            ]
+        },
+        {
+            "operatingsystem": "Ubuntu",
+            "operatingsystemrelease": [
+                "20.04"
+            ]
+        }
+    ],
+    "project_page": "https://launchpad.net/puppet-openstacklib",
+    "requirements": [
+        {
+            "name": "puppet",
+            "version_requirement": ">= 6.0.0 < 8.0.0"
+        }
+    ],
+    "source": "https://opendev.org/openstack/puppet-openstacklib.git",
+    "summary": "Puppet OpenStack Libraries",
+    "version": "21.0.0"
+}

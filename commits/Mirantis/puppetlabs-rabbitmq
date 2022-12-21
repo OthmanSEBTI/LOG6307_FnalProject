@@ -1,0 +1,91 @@
+70ec167b59c99e89c02430525234110743974aab|Cluster support|Mon, 20 Aug 2012 18:38:22 -0700|Tue, 21 Aug 2012 17:25:59 -0700
+55c14a2fcf371bc58c46d77a5379274abff0e951|Merge pull request #25 from vjanelle/master|Thu, 2 Aug 2012 16:43:35 -0700|Thu, 2 Aug 2012 16:43:35 -0700
+c20d9df4386c0e982b6bcc0c80d7cdf73c11d84c|RSpec tests for rabbitmq::repo::rhel|Thu, 2 Aug 2012 16:30:55 -0700|Thu, 2 Aug 2012 16:30:55 -0700
+37e4bb73348ce052a3a8c8116029367389bf70f8|Merge branch '2.0.x'|Tue, 31 Jul 2012 07:24:00 -0700|Tue, 31 Jul 2012 07:24:00 -0700
+c4c01894cdc5cb245d22189167734bd72d2159fe|Update Modulefile, CHANGELOG for 2.0.2 release|Tue, 31 Jul 2012 07:20:10 -0700|Tue, 31 Jul 2012 07:20:10 -0700
+3b18449cfdba2a45c750c5232d429981d360438a|Adding RPM/RHEL support|Mon, 30 Jul 2012 02:18:52 +0000|Mon, 30 Jul 2012 02:18:52 +0000
+d5b71f7528093fac48543d29b147d999766998c2|Merge pull request #24 from branan/fix_rspec_211|Mon, 16 Jul 2012 10:37:46 -0700|Mon, 16 Jul 2012 10:37:46 -0700
+90169be8d5dbcf34e4c028422b3b4682f6a56f74|fix negative tests on rspec 2.11|Fri, 13 Jul 2012 14:14:09 -0700|Fri, 13 Jul 2012 14:14:09 -0700
+f1bc7189b3d209989ad9c7ea5c819954eef20d72|Merge pull request #23 from bodepd/style_update|Mon, 18 Jun 2012 15:50:57 -0700|Mon, 18 Jun 2012 15:50:57 -0700
+3a13a014ee6a49c1e3a0c3a34ca9f8383ac0f92c|Align various arrows|Mon, 18 Jun 2012 14:04:43 -0700|Mon, 18 Jun 2012 14:04:43 -0700
+b0c04fd44201eb528fdb3b825fe24329a0bbadb2|Merge pull request #22 from rhyselsmore/patch-1|Mon, 11 Jun 2012 07:38:39 -0700|Mon, 11 Jun 2012 07:38:39 -0700
+89add870b7c4f65121a6f8546323217f2a4e6c3b|Updated the requirements to also include puppetlabs-stdlib due to the validate_re function|Mon, 11 Jun 2012 17:53:46 +1000|Mon, 11 Jun 2012 17:53:46 +1000
+7ca49f24331f7086d9165f97fa68784f27351d55|Merge pull request #21 from branan/use_spechelper_gem|Fri, 8 Jun 2012 14:38:00 -0700|Fri, 8 Jun 2012 14:38:00 -0700
+1c4f0921d3261e607383080c036385366dd4a843|Switch from duplicated files to using the puppetlabs_spec_helper gem for common tasks|Thu, 31 May 2012 14:26:56 -0700|Fri, 8 Jun 2012 14:34:37 -0700
+9e377abb1869a22e9fee95e450097224e15c4eae|Merge pull request #18 from jmchilton/allow-specify-bind-address|Thu, 7 Jun 2012 11:13:55 -0700|Thu, 7 Jun 2012 11:13:55 -0700
+cbb7014b6d0b50edf7c5d2b1970cca675c088553|Rearrange spec order for clarity.|Wed, 9 May 2012 10:19:32 -0500|Tue, 29 May 2012 08:24:58 -0500
+555f7aa19848e74120ddff3193347e20fc9ec9e6|First round of specs written, tests the functionality I am purposing in this branch and a smattering of other things as sweetener.|Wed, 9 May 2012 10:16:16 -0500|Tue, 29 May 2012 08:24:58 -0500
+72f64f1620aeac1c188e1a3ec5bd55385d5aa13c|More updates to rspec setup to enable rspec-puppet testing: add empty site.pp fixture, add module fixtures directory to .gitignore, updates to spec_helper.rb based on same file puppetlabs-nova.|Wed, 9 May 2012 10:15:13 -0500|Tue, 29 May 2012 08:24:55 -0500
+6a2509b42e3cc37382cfa9b3012aa11b638ae137|Allow for specification of ip address for rabbitmq to bind to.|Tue, 8 May 2012 23:28:25 -0500|Tue, 29 May 2012 08:17:41 -0500
+99cde62537c0b1c8a4d289adc633d7495ba82fd4|Merge pull request #20 from branan/update_module_layout|Fri, 25 May 2012 14:36:01 -0700|Fri, 25 May 2012 14:36:01 -0700
+7047de70720ee0316cc25007f0fd4733da31707d|Update new modulefile template|Fri, 25 May 2012 12:46:23 -0700|Fri, 25 May 2012 14:16:01 -0700
+358db163f435845b8354812888163fce347cde37|Merge pull request #17 from branan/travisci|Tue, 8 May 2012 23:08:33 -0700|Tue, 8 May 2012 23:08:33 -0700
+9c52231415722021050105b06aac485f8d7fdcaa|Add configuration for Travis CI|Tue, 8 May 2012 10:21:53 -0700|Tue, 8 May 2012 11:05:57 -0700
+2724e12edb188f832f4ef06eb04ec34b8cabc534|Merge pull request #16 from branan/modulefile_typo|Fri, 4 May 2012 13:27:47 -0700|Fri, 4 May 2012 13:27:47 -0700
+c9e974b314ca99919fc9ad0330e3b48bda4885b9|Update dependency versions to be a bit more modern|Fri, 4 May 2012 11:28:16 -0700|Fri, 4 May 2012 11:28:16 -0700
+4777e4fb16ac269e9a940fd409568c632f113e23|Make README an explicit markdown file|Thu, 3 May 2012 17:01:10 -0700|Thu, 3 May 2012 17:01:10 -0700
+7816bb64b47bd6c5c128fdf1cbd951f55647c88b|Cleanup the README|Thu, 3 May 2012 16:55:09 -0700|Thu, 3 May 2012 17:00:42 -0700
+07b990aaa06c638f07d70d3433c4b7f6b0da66dd|Change stdlib dependency to something real|Thu, 3 May 2012 16:35:29 -0700|Thu, 3 May 2012 16:35:29 -0700
+65b7076c22ab3c74fbd2c43ae89e17a176583915|Fix a typo in the modulefile. Update version since 2.0.0 was already tagged|Thu, 3 May 2012 16:31:03 -0700|Thu, 3 May 2012 16:31:03 -0700
+44b72f70a9c13f8374fe3ca1f6165afd335be66d|Merge pull request #15 from branan/14221_forge_update|Thu, 3 May 2012 15:53:54 -0700|Thu, 3 May 2012 15:53:54 -0700
+ba0415681b62825441b9bcf8d84af723b86e2c52|(#14221) Update CHANGELOG for 2.0.0 forge release|Thu, 3 May 2012 15:17:27 -0700|Thu, 3 May 2012 15:22:58 -0700
+b319299529aae344d9a3a3f38f31cb2e5ec8a682|Remove dependency on unused module|Thu, 3 May 2012 15:22:37 -0700|Thu, 3 May 2012 15:22:58 -0700
+57fe77731b5bc09c1dbd8410e40d8324f0142897|Merge pull request #13 from gergnz/master|Sun, 8 Apr 2012 21:37:58 -0700|Sun, 8 Apr 2012 21:37:58 -0700
+db2023776f60e94977e0b639e84645e557168d00|Merge pull request #14 from bodepd/dev|Sun, 8 Apr 2012 21:36:00 -0700|Sun, 8 Apr 2012 21:36:00 -0700
+a12915dd4a6bb91294246040c0f2e12215974548|Updates to rabbitmq apt repo|Sun, 18 Mar 2012 13:16:45 -0700|Sun, 18 Mar 2012 17:18:27 -0700
+7f7c1cf912a8049d1d8049941a59298fc4338387|change to explicitly enabled plugins only|Mon, 9 Jan 2012 22:24:42 +1100|Mon, 9 Jan 2012 22:24:42 +1100
+6bc81b09cd3c7045fc0cdc0e2b12c58efd10863d|tested support for 2.7.1 plugins and updated documentation|Mon, 9 Jan 2012 22:21:09 +1100|Mon, 9 Jan 2012 22:21:09 +1100
+eb206443efba2ef58898f1d86058ce8ead7aac72|this should be able to control plugins|Mon, 9 Jan 2012 20:11:26 +1100|Mon, 9 Jan 2012 20:11:26 +1100
+c16d0eafa688621160d218c3eeec2d7f85655ec6|framework for 2.7.1 support|Mon, 9 Jan 2012 07:38:48 +1100|Mon, 9 Jan 2012 07:38:48 +1100
+126dbdbb0193ee89a1d3218030acda35017917c5|Merge pull request #11 from bodepd/style_update|Mon, 24 Oct 2011 10:30:05 -0700|Mon, 24 Oct 2011 10:30:05 -0700
+929bfbf641335eb88bb1a780d44507696cca5820|(#10242) Update Style|Mon, 24 Oct 2011 09:02:43 -0700|Mon, 24 Oct 2011 09:02:43 -0700
+0bd6838a5f874646bc45c17cca77fd6e7ee39f01|Merge pull request #8 from tswicegood/upgrade-to-2.6|Sun, 23 Oct 2011 23:55:09 -0700|Sun, 23 Oct 2011 23:55:09 -0700
+cd3bda9ede6ab0edc13d770538dbc0e27c02d601|extract method to remove duplication|Fri, 2 Sep 2011 14:03:56 -0500|Fri, 2 Sep 2011 14:07:17 -0500
+47e9c787bb8d2947315887449d51874588b57671|Update the way a user is made an admin|Fri, 2 Sep 2011 14:00:12 -0500|Fri, 2 Sep 2011 14:07:16 -0500
+23da950acbb0f4c0913edb094b1ce10cec76c898|Add basic support for new style admin users|Fri, 2 Sep 2011 13:52:46 -0500|Fri, 2 Sep 2011 13:57:36 -0500
+875ab949067998332f3cc5961b7d0e8fa51d312d|Merge pull request #6 from nanliu/master|Thu, 7 Jul 2011 08:12:39 -0700|Thu, 7 Jul 2011 08:12:39 -0700
+2e41d75d6c682928118954b5194c91b7ea09555f|Updated provider to use posix.|Thu, 7 Jul 2011 00:19:10 -0700|Thu, 7 Jul 2011 00:19:10 -0700
+33e700ace25cc47ab2ae957fead8a4aa1db4f3fa|Cleanup of whitespace and comments.|Thu, 7 Jul 2011 00:16:31 -0700|Thu, 7 Jul 2011 00:16:31 -0700
+65163cb52924c9a822794b7c96b28de7bfc3c223|Merge pull request #5 from bodepd/issue/master/improvide_rabbitmqctl_failure_messages|Tue, 21 Jun 2011 14:09:09 -0700|Tue, 21 Jun 2011 14:09:09 -0700
+227e4c78db43950b02bc1c2463213dcd94796490|improved error message for unsupported rabbitmqctl.|Tue, 21 Jun 2011 14:06:04 -0700|Tue, 21 Jun 2011 14:06:04 -0700
+2233fc1459a1fcf4778450c7226cdbd731352341|Merge pull request #4 from bodepd/feature/master/autorequire_service|Sat, 18 Jun 2011 23:41:55 -0700|Sat, 18 Jun 2011 23:41:55 -0700
+854941e1c62189c9d509d87e7100e4590c9f056c|user vhost and perm require serivice is started.|Sat, 18 Jun 2011 23:31:13 -0700|Sat, 18 Jun 2011 23:31:13 -0700
+b804bd1ca334b34437abb7ad38535e3bae2ccf1d|moved README to txt|Tue, 14 Jun 2011 22:58:31 -0700|Tue, 14 Jun 2011 22:58:31 -0700
+8457cd65c15738125f239f3e69e647e0c8600734|Release 2.0.0rc1|Tue, 14 Jun 2011 22:55:17 -0700|Tue, 14 Jun 2011 22:55:17 -0700
+224c613ecc53422a99c27dfc13538940d403537a|Merge pull request #3 from bodepd/feature/master/bug_fixes|Tue, 14 Jun 2011 22:42:49 -0700|Tue, 14 Jun 2011 22:42:49 -0700
+a0abda012eb05b0bfae2cd84d05e73955b6cb0e7|documentation updates|Tue, 14 Jun 2011 22:25:16 -0700|Tue, 14 Jun 2011 22:29:23 -0700
+ae7c56686f7ad9e4098b928818dd57bdcbff468c|updated smoke tests|Tue, 14 Jun 2011 22:25:04 -0700|Tue, 14 Jun 2011 22:29:23 -0700
+a49ca50ec1202c87374e69dc213e9ca7d15a185e|moved rabbitmq to rabbitmq::serer|Tue, 14 Jun 2011 22:24:26 -0700|Tue, 14 Jun 2011 22:29:16 -0700
+aea09dfaa12645f0dd595d1789e0d26a7bd009e6|catch missing password in type validate block|Tue, 14 Jun 2011 22:23:30 -0700|Tue, 14 Jun 2011 22:23:30 -0700
+c0621ced1a95087edd10c6d62fa475d4eab8a5d7|Fixed issues related to passing ensurable block:|Tue, 14 Jun 2011 22:21:45 -0700|Tue, 14 Jun 2011 22:21:45 -0700
+627334d99f059f735398447512625c7c6d795846|Merge pull request #2 from bodepd/feature/master/native_type_refactor|Tue, 14 Jun 2011 13:45:30 -0700|Tue, 14 Jun 2011 13:45:30 -0700
+499b5430d3845604f6b2a38147cbbd49fe946767|Re-factored code.|Tue, 14 Jun 2011 13:43:54 -0700|Tue, 14 Jun 2011 13:43:54 -0700
+9498c366d0cfacb5a5c4bc020f0248f4a675ef9d|default ensure to :present.|Tue, 14 Jun 2011 13:42:41 -0700|Tue, 14 Jun 2011 13:42:41 -0700
+86f3d775805b64e13a50f21a08fe869bc6078f46|updated README and TODO.|Tue, 14 Jun 2011 11:19:31 -0700|Tue, 14 Jun 2011 11:19:31 -0700
+6e3f4482ac32766ad580d6bc80a7658797a66148|updated user permission tests.|Tue, 14 Jun 2011 11:18:38 -0700|Tue, 14 Jun 2011 11:18:38 -0700
+6fc206cca76b8f7649d7b3cffe2b42d50d414ebb|switched permissions to properties.|Tue, 14 Jun 2011 11:18:15 -0700|Tue, 14 Jun 2011 11:18:15 -0700
+a2ec64f5c2e594a404fabf87ae738676dc6ad88f|implemented rabbit_user_permissions auto-requires|Tue, 14 Jun 2011 09:44:45 -0700|Tue, 14 Jun 2011 09:44:45 -0700
+df0388a7f523e5736ab869ca85adbc482ead2467|Added admin property for rabbitmq_user.|Mon, 13 Jun 2011 17:22:54 -0700|Mon, 13 Jun 2011 17:22:54 -0700
+1dae808b85a7f6dcc571ff16efc2d719fb8ccfc4|Merge pull request #1 from bodepd/feature/master/dans_refactor|Mon, 6 Jun 2011 08:33:37 -0700|Mon, 6 Jun 2011 08:33:37 -0700
+1383935af0517adb5be7e3a92218442a61064f02|changed service to default to rabbitmq-server.|Mon, 6 Jun 2011 08:23:59 -0700|Mon, 6 Jun 2011 08:27:50 -0700
+09250217086c5708ff471313061072cd3ee9c4ab|changed service to default to rabbitmq-server.|Mon, 6 Jun 2011 08:23:59 -0700|Mon, 6 Jun 2011 08:23:59 -0700
+32c80645d68d2d076c8f2fb89e36305f350d3cbd|checked in gitignore, apache license and todo list|Mon, 6 Jun 2011 08:23:38 -0700|Mon, 6 Jun 2011 08:23:38 -0700
+4a1a328e7c72b6494c9c911bf79a28ad795027fe|updated smoke tests|Mon, 6 Jun 2011 08:22:45 -0700|Mon, 6 Jun 2011 08:22:45 -0700
+2480693a2ff44e7e80c16c19f3567ec9fee35e1f|Added native types - rabbitmq_user - rabbitmq_vhost - rabbitmq_user_permissions|Mon, 6 Jun 2011 08:21:54 -0700|Mon, 6 Jun 2011 08:21:54 -0700
+26372891f5259b8cfa977638d2af89799fe730ed|Added manifest for setting up repo.|Sun, 5 Jun 2011 20:59:10 -0700|Sun, 5 Jun 2011 20:59:10 -0700
+5a0715db2656e563f88a01f94c88d4c43e8d8d6d|Added environment config file.|Sun, 5 Jun 2011 20:57:17 -0700|Sun, 5 Jun 2011 20:57:17 -0700
+7a2dc227aa902e03220ea5e4f55adb728512da0d|re-factored rabbitmq modules - expanded class params for rabbitmq class - made stomp feature optional - configuration option to remove default guest user - using new validate funcitons from stdlib - moved most params to init.pp - got rid of params class - made stomp config optional|Sun, 5 Jun 2011 20:55:50 -0700|Sun, 5 Jun 2011 20:55:50 -0700
+7fc9de13ce41410255ff8de376a6ca9a93e7961e|cleaned up unnecessary module files.|Sun, 5 Jun 2011 20:49:17 -0700|Sun, 5 Jun 2011 20:49:17 -0700
+d4246708401e2183cf08634987d88140cd1f56ec|Merge branch 'jeff/rabbitmq-2.4.1'|Fri, 8 Apr 2011 13:05:59 -0400|Fri, 8 Apr 2011 13:05:59 -0400
+57875b1615809797ed62139a672459fea34f0d7c|Add support for RabbitMQ 2.4.1|Fri, 8 Apr 2011 13:04:21 -0400|Fri, 8 Apr 2011 13:04:21 -0400
+58b75caa37464e409dffc212bab12ca1640115f0|Add release 1.0.3  Initial release to the forge.|Thu, 24 Mar 2011 11:14:20 -0700|Thu, 24 Mar 2011 11:14:20 -0700
+869aaabe84bf5ff737d21669a88527f61d8e2efc|Whitespace only change to tests|Tue, 22 Mar 2011 16:32:09 -0700|Tue, 22 Mar 2011 16:32:09 -0700
+ff4a3a65dfd182983d995c4dac533fd7128b4a1e|Update version to 1.0.2|Tue, 22 Mar 2011 16:15:46 -0700|Tue, 22 Mar 2011 16:15:46 -0700
+9a3ff8bbc98004cab2a357dcb98a89a891e735aa|Whitespace only fix again.  Argh.|Tue, 22 Mar 2011 16:14:56 -0700|Tue, 22 Mar 2011 16:14:56 -0700
+25b21ccf5dc7ffaaf0a051d425ab616f5c9c2db9|Update version to 1.0.1|Tue, 22 Mar 2011 16:12:38 -0700|Tue, 22 Mar 2011 16:12:38 -0700
+f7d472f59979288d64d6a6ad278ff9dec9ca6ce1|Whitespace only fix|Tue, 22 Mar 2011 16:11:48 -0700|Tue, 22 Mar 2011 16:11:48 -0700
+5994453dde4ae9d8582e7058fa03f4e741e91591|Add 1.0.0 version.|Tue, 22 Mar 2011 16:01:57 -0700|Tue, 22 Mar 2011 16:01:57 -0700
+1deb2c5da861d789e8726b8141f41edd01953b2d|Add rabbitmq::service class|Tue, 22 Mar 2011 15:44:36 -0700|Tue, 22 Mar 2011 15:44:36 -0700
+689cdce35909d89a55a0b6b004d4a1345020322e|Add RabbitMQ Plugin Support|Tue, 22 Mar 2011 15:22:21 -0700|Tue, 22 Mar 2011 15:22:21 -0700
+f6b8fddb3c58e829610e1214ff426b3a763375d6|Add rabbitmq service class.|Tue, 22 Mar 2011 10:39:23 -0700|Tue, 22 Mar 2011 10:39:23 -0700
+32b76f3ea04884c9952ba91ff3792e1ab379553c|Initial commit|Mon, 21 Mar 2011 20:47:45 -0700|Mon, 21 Mar 2011 20:47:45 -0700

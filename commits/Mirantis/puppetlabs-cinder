@@ -1,0 +1,34 @@
+1712c47dd29b69b98b6add39d092650bc783e1a2|Merge pull request #12 from derekhiggins/targets-conf|Tue, 13 Nov 2012 23:23:04 -0800|Tue, 13 Nov 2012 23:23:04 -0800
+c4f4a30922fd1ad702ade8d11a5ced0c13c45a88|Include /etc/cinder/volumes/ in tgt targets.conf|Thu, 8 Nov 2012 09:40:12 -0500|Tue, 13 Nov 2012 12:54:47 +0000
+bd9853a2bfe9488cbace8d944a1f6416374ef249|Merge pull request #11 from bodepd/redhat_support|Mon, 5 Nov 2012 22:40:10 -0800|Mon, 5 Nov 2012 22:40:10 -0800
+4a94945884a1b8a2bd7eb0f31350841fc704e65b|Add Redhat support|Mon, 5 Nov 2012 22:36:58 -0800|Mon, 5 Nov 2012 22:36:58 -0800
+070497be7ea99234ce335ba8b0cf11ecd7f6b28f|Merge branch 'master' of github.com:puppetlabs/puppetlabs-cinder|Fri, 2 Nov 2012 12:58:25 -0700|Fri, 2 Nov 2012 12:58:25 -0700
+49ed486b8d7f330c1a478de58052baa663dd5616|Release 1.0.1|Fri, 2 Nov 2012 12:57:35 -0700|Fri, 2 Nov 2012 12:57:35 -0700
+546278a62649f8a4fd6ee4f373f5cecb8d0a019b|Release 1.0.0|Fri, 2 Nov 2012 12:53:54 -0700|Fri, 2 Nov 2012 12:54:09 -0700
+d42598691c11a59374789127249300446c51f5f0|Merge pull request #9 from bodepd/add_client|Fri, 2 Nov 2012 10:13:38 -0700|Fri, 2 Nov 2012 10:13:38 -0700
+704400f0db2928c181541601dcc7de076f127941|add cinder client|Fri, 2 Nov 2012 10:12:35 -0700|Fri, 2 Nov 2012 10:12:35 -0700
+fb153e9e31fd2e1dbc1bd73c1f1b3a630fa9a8cb|Merge pull request #8 from bodepd/add_spec_tests|Mon, 29 Oct 2012 13:00:39 -0700|Mon, 29 Oct 2012 13:00:39 -0700
+8f57c59b67f57d456e4a485d17155610b7e27cee|add travisci support|Mon, 29 Oct 2012 12:58:32 -0700|Mon, 29 Oct 2012 12:58:32 -0700
+ec7731455447675efcd3e7c2ed1b8329a3f6b5c0|Add basic spec tests|Mon, 29 Oct 2012 12:57:57 -0700|Mon, 29 Oct 2012 12:58:03 -0700
+d5f081ba58eafa3a983beb746c227d243265ebfd|set volume package dep to title|Mon, 29 Oct 2012 12:55:56 -0700|Mon, 29 Oct 2012 12:55:56 -0700
+ac334c1f9daff245a17e82d59dea35d017030936|catch unsupported osfamily|Mon, 29 Oct 2012 12:55:31 -0700|Mon, 29 Oct 2012 12:55:31 -0700
+104baec9eaf2c1f82d1662edf7f5bae80575cdd7|set default verbose to False|Mon, 29 Oct 2012 12:54:54 -0700|Mon, 29 Oct 2012 12:54:54 -0700
+8b07e8a11110f3dfff161ca3e61874a0aa86aed4|update Modulefile|Mon, 29 Oct 2012 12:54:20 -0700|Mon, 29 Oct 2012 12:54:20 -0700
+1ab53029648acc982633ac428e58ed4ec3321d86|Merge pull request #7 from bodepd/remove_tail_comma|Sun, 28 Oct 2012 21:35:00 -0700|Sun, 28 Oct 2012 21:35:00 -0700
+9c716d68c59729090192b341798fa737de4280ea|remove trailing class param comma|Sun, 28 Oct 2012 21:31:45 -0700|Sun, 28 Oct 2012 21:31:45 -0700
+5435b9e580ff5e650fdcf4bcd221f3ea3db34ef2|Merge pull request #6 from bodepd/setup_test_volume|Thu, 25 Oct 2012 17:43:56 -0700|Thu, 25 Oct 2012 17:43:56 -0700
+e67394639e8868b7c2263ec9269df0bb7ab730e2|add test class|Thu, 25 Oct 2012 17:42:46 -0700|Thu, 25 Oct 2012 17:42:46 -0700
+e166885f5f75ca9396eca1a217620d7952da6c41|Merge pull request #5 from bodepd/dev_issue|Thu, 25 Oct 2012 17:13:06 -0700|Thu, 25 Oct 2012 17:13:06 -0700
+630cdb7aa4274f117202654bd435bb4ebf22fa1d|ensure scheduler starts after db sync|Thu, 25 Oct 2012 17:10:28 -0700|Thu, 25 Oct 2012 17:10:28 -0700
+45b49fad2d59c38dbdc15382efe6885f519f895b|Merge pull request #4 from jtopjian/folsom|Thu, 25 Oct 2012 14:18:53 -0700|Thu, 25 Oct 2012 14:18:53 -0700
+0f53d7dd28730f32698cacb2a7c8bfd899f186d5|Re-adding Modulefile|Thu, 25 Oct 2012 15:13:50 -0600|Thu, 25 Oct 2012 15:13:50 -0600
+66b820cd27d1e97925f72d6b5a5a12ed9a3d77c7|Removed Modulefile for puppetlabs repo|Thu, 25 Oct 2012 14:51:01 -0600|Thu, 25 Oct 2012 14:51:01 -0600
+3b32b881f519a8c67218ed7df85c6ed3a5cec8b8|iscsi_ip_address is required|Wed, 24 Oct 2012 15:16:54 -0600|Wed, 24 Oct 2012 15:16:54 -0600
+36c44e19241e1f5ae3b64c9d58858ead480a01e1|tgt config file is now included in cinder-volume package.|Wed, 24 Oct 2012 14:39:23 -0600|Wed, 24 Oct 2012 14:39:23 -0600
+07e1bc6000c7d052d2957e159b5d55042c0206b7|Multi-region support|Tue, 16 Oct 2012 05:44:03 +0000|Tue, 16 Oct 2012 05:44:03 +0000
+81428cc005972672eef0a9573ca78284a8e99931|changed vg name, added tgt configuration|Mon, 15 Oct 2012 06:58:28 +0000|Mon, 15 Oct 2012 06:58:28 +0000
+cca0a69bc1a58090651ff3b53d1e5559446b444a|Add a modulefile|Sat, 13 Oct 2012 00:13:32 -0700|Sat, 13 Oct 2012 00:13:32 -0700
+14a96dc17f40cab400680b068c3582da9051efb8|update cinder for folsome|Thu, 11 Oct 2012 02:11:23 -0700|Thu, 11 Oct 2012 02:11:23 -0700
+f59c361f9ed8680e41501a1057607271ec185582|Added ini_setting file notification|Wed, 12 Sep 2012 04:53:16 +0000|Wed, 12 Sep 2012 04:53:16 +0000
+58e387284ee2c497f35a26a7ec19dfd85a45a7db|changes|Mon, 10 Sep 2012 06:04:34 +0000|Mon, 10 Sep 2012 06:04:34 +0000
+eb60ddbfeb0ed769561cf83a2872dde299d1e85d|Initial commit of new configuration|Sun, 9 Sep 2012 22:24:59 +0000|Sun, 9 Sep 2012 22:24:59 +0000

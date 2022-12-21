@@ -1,0 +1,229 @@
+,sha,message,files
+4,eaffe6118fd56e46343ce6c93b84a00fe7b8db68,Merge pull request #137 from aimonb/master,['manifests/controller.pp']
+5,c21ce0d07cb44038b42bcb2eb0694f1dd50d2e9a,add nova-volume class.,['manifests/controller.pp']
+6,601d623b7b41f4c612d18e567aec089d832d9af1,Merge pull request #135 from aimonb/master,"['manifests/nova/controller.pp', 'spec/classes/openstack_compute_spec.rb', 'spec/classes/openstack_controller_spec.rb']"
+7,2d4b7fbccf6fb13c087382dc89003f0b0a03eccc,FIX: add missing arg. ADD: tests,['manifests/controller.pp']
+8,0a967ea68a4f7eac139550b3d877cd0c0f0add5a,Merge pull request #130 from bodepd/aimon_specs,"['manifests/controller.pp', 'manifests/nova/controller.pp', 'spec/classes/openstack_compute_spec.rb', 'spec/classes/openstack_controller_spec.rb']"
+11,d48424b655ebd3d1212910d17a0ae6100e31520d,Merge pull request #129 from aimonb/rabbit_virtual_host,"['manifests/compute.pp', 'manifests/controller.pp', 'manifests/nova/controller.pp', 'spec/fixtures/manifests/site.pp']"
+12,b0e290682c87a43e5dea216f36e723377ae5ff2c,Merge pull request #128 from aimonb/optional_horizon,"['manifests/all.pp', 'manifests/controller.pp']"
+13,426236831fe3ba03c14e83be53905af94b15949a,Fixed bad variable name,"['manifests/compute.pp', 'spec/fixtures/manifests/site.pp']"
+14,e9d544721d00a1be346d0d16ebf7c56b8533dab3,typo,['manifests/controller.pp']
+15,2283204d0ce8eac236b46117b31978e19f2b0b05,typo,['manifests/controller.pp']
+16,7d45133d37442e1bfee2666665203142f949d676,Make Horiuzon installation optional,"['manifests/all.pp', 'manifests/controller.pp']"
+17,9b052cd5fe53745e32ba5f21e6645f68fc8bce91,revert optional horizon for separate pull requests,['manifests/controller.pp']
+18,843a2e0aef58dd2789852715fa9a73a76e6db130,Add rabbit_virtual_host support to openstack controller module .. feature exists in puppetlabs-nova already. Also Made installation of Horizon optional.,['manifests/compute.pp']
+19,0a31e07d9ef2c36eca0be4ffc845c0b1b50411d2,Add rabbit_virtual_host support to openstack controller module .. feature exists in puppetlabs-nova already. Also Made installation of Horizon optional.,"['manifests/compute.pp', 'manifests/controller.pp', 'manifests/nova/controller.pp']"
+20,02fc41294e67292b40d3a8c4f855fefd3b95aa96,update version,['Modulefile']
+21,ac6eba3551d95a7f496fcfa41b8aa5c41c73fb8b,1.0.3,['Modulefile']
+22,cee96ad5e2813f3ea425b62b4e9c1adbecb20132,1.0.2,['Modulefile']
+23,8ddf2a26ae8e2ebbeeba2d1e07770d1d8b8eca6f,update to use quantum,['Modulefile']
+24,d3c56c89f9255f0d064d48e96ac266071f299df1,removed quantum as a dep.,['Modulefile']
+25,f322255e30d058eca061bd7c1c0b392103f6a336,update module dep,['Modulefile']
+26,5416498f2be0bb56ac6e04bc23447fb01d044593,Relase 1.0.0,"['CHANGELOG', 'Modulefile']"
+27,0921350a667cb63a6f3989869941f3651ca0709b,Merge pull request #122 from bodepd/folsom_quantum_updates,"['manifests/all.pp', 'manifests/compute.pp', 'manifests/controller.pp', 'manifests/nova/controller.pp', 'spec/classes/openstack_controller_spec.rb']"
+29,6f76b4f9794af32ab27125cf6fbd44710858cdac,quantum updates,"['manifests/all.pp', 'manifests/compute.pp', 'manifests/controller.pp', 'manifests/nova/controller.pp']"
+30,bf7230912acfb48ccbd631da135829685853c79b,Merge pull request #121 from bodepd/fix_quantum,['manifests/nova/controller.pp']
+31,cf70688b4f2a08e4d468d86cf3b3a4c3a220b993,Fix typo,['manifests/nova/controller.pp']
+32,e760b5dc86f490a468e1a85823f0bba502f05641,Merge pull request #120 from bodepd/work,"['.fixtures.yml', 'manifests/all.pp', 'manifests/compute.pp', 'manifests/nova/controller.pp', 'templates/test_nova.sh.erb']"
+34,d1054c68dd9dbe7bfdb1c3bee87aa0b5de4105f6,"Add quantum to compute, all and controller","['manifests/all.pp', 'manifests/compute.pp', 'manifests/nova/controller.pp']"
+35,69eeea34d33c07b749454b06e3e8a390c1dbac07,Add vswitch as testing sep,['.fixtures.yml']
+36,7a68dbab2d0777f226a9ecc06ecd8a64c7574981,Merge pull request #119 from bodepd/fix_folsom_spec_tests,"['.fixtures.yml', '.gitignore', 'manifests/all.pp', 'manifests/compute.pp', 'manifests/controller.pp', 'manifests/db/mysql.pp', 'manifests/keystone.pp', 'manifests/nova/controller.pp', 'spec/classes/openstack_compute_spec.rb', 'spec/classes/openstack_controller_spec.rb']"
+37,69adc83390f6662d05bd16edc1cdce087674dba7,update fixtures.,['.fixtures.yml']
+38,728bbb6bb8b4fd3d45c3c8881d03115666098c38,remove trailing comma,['manifests/nova/controller.pp']
+40,33f0fc17360a4a57c9392aa2bcd945e50dd72ad7,fail explicitly for unsupported db types,['manifests/all.pp']
+41,8da819bcf250844e3551f140bf14412d29bee546,fix minor compute issues,['manifests/compute.pp']
+42,c8a15dfc747db9989db969cbd82f5d2463150a6a,fix vncproxy_host,['manifests/all.pp']
+43,49e64884db4d86fdf4c9662abdcbc9f32940e0fc,change controller params,"['manifests/all.pp', 'manifests/controller.pp']"
+44,6126c743b9c7981a3b4aae3515294af2d4af9c90,style updates,"['manifests/db/mysql.pp', 'manifests/keystone.pp']"
+46,60c55597ba8f6d540e6d57eb48419d73878cce01,update fixtures,['.fixtures.yml']
+47,d746a8619091ee918dc4123685ba24ddc8200315,Merge pull request #116 from bodepd/update_repos,"['examples/site.pp', 'manifests/all.pp', 'other_repos.yaml']"
+48,77262213df1b64a9e8db985e64737640b1c6b7ba,remove ref to invalid variable,['manifests/all.pp']
+49,d3645fecd171ff58bbfe305378fcf38a2a3291fb,update other repos for folsom,"['examples/site.pp', 'other_repos.yaml']"
+50,15edab1cbdb1cc58e0f0a823e67198366e8ecf0d,Merge pull request #114 from bodepd/fix_cinder,"['manifests/all.pp', 'manifests/compute.pp', 'manifests/controller.pp', 'manifests/keystone.pp', 'manifests/nova/controller.pp']"
+51,ecf1033c9e6aed711d37f37078edb394c4be0d9f,update cinder def in compute,['manifests/compute.pp']
+52,6b5fce498cf09941aa6441d8d0d79700c56422f2,Merge pull request #113 from puppetlabs/folsom,"['.fixtures.yml', 'README.md', 'manifests/all.pp', 'manifests/auth_file.pp', 'manifests/cinder.pp', 'manifests/compute.pp', 'manifests/controller.pp', 'manifests/db/mysql.pp', 'manifests/glance.pp', 'manifests/horizon.pp', 'manifests/keystone.pp', 'manifests/nova/controller.pp', 'manifests/test_file.pp', 'spec/classes/openstack_compute_spec.rb', 'spec/classes/openstack_controller_spec.rb', 'templates/test_nova.sh.erb', 'tests/all.pp', 'tests/cloudcontroller.pp', 'tests/compute.pp']"
+53,5b293a1970e01bf7191732e0b8c42b15d4639d0d,do not use other class param values as default,"['manifests/compute.pp', 'manifests/controller.pp']"
+54,5463abbdf161519ac916b1135ee56ae5351ad3bc,remove defaults for controller passwords,['manifests/controller.pp']
+55,da518f627c10c70545163cc8c45b6132a05f7e8f,remove unused compute params,['manifests/compute.pp']
+56,94f5b516a607dde056d2a456e863c837128697c4,refactor all.pp,['manifests/all.pp']
+57,7e9d20669b441ac0ba4a9cd47b2ae855cfbd7daf,reorganize class params for controller,['manifests/controller.pp']
+58,89002ebfc5d61640fe1d380d74c9c102a297f87b,add vnc_enabled flag,['manifests/controller.pp']
+59,7254a339e31a37fe1e424d6267e693e85e2e29a0,style updates,['manifests/compute.pp']
+60,7f969c591853ac2b31dd705cdf816edff93b5bd4,Add live migration support,['manifests/compute.pp']
+61,ea22f02ab3b1cd9b6141d01221137c1d00d86e10,stop exporting resources.,"['manifests/compute.pp', 'manifests/controller.pp', 'manifests/nova/controller.pp']"
+62,867b783b8a20a71466dc72c5be12cc195cb47814,Add cinder config to nova::compute,"['manifests/compute.pp', 'manifests/controller.pp']"
+63,69e48a2ed27a619fee267f5963be23fd1404d2eb,re-add nova-network support,"['manifests/compute.pp', 'manifests/controller.pp', 'manifests/nova/controller.pp']"
+64,7bba3d59a010129741de6d3cfe78f86c73cfade5,Add support for setting regions.,"['manifests/controller.pp', 'manifests/keystone.pp']"
+65,31a0ade2afebd6a3255da19d3b167381617a078f,Merge pull request #111 from bodepd/folsom,"['.travis.yml', 'CHANGELOG', 'Modulefile']"
+66,4acdc9a9fa66aa253d35e84bb396d4e36a9cdf49,Merge remote-tracking branch 'origin/master' into HEAD,"['.travis.yml', 'CHANGELOG', 'Modulefile']"
+67,240a58f81e33e2f15be8df5c0faddd6f890cebd9,Merge pull request #110 from bodepd/essex,['.travis.yml']
+68,b3a2cbebd45231c340ad9ce0835273b2b4169a2a,Add travis file,['.travis.yml']
+69,eb4df1274173d6ad1f181c50c055feadfd847bf8,Merge pull request #109 from bodepd/folsom,"['.fixtures.yml', 'README.md', 'manifests/all.pp', 'manifests/auth_file.pp', 'manifests/cinder.pp', 'manifests/compute.pp', 'manifests/controller.pp', 'manifests/db/mysql.pp', 'manifests/glance.pp', 'manifests/horizon.pp', 'manifests/keystone.pp', 'manifests/nova/controller.pp', 'manifests/test_file.pp', 'spec/classes/openstack_compute_spec.rb', 'spec/classes/openstack_controller_spec.rb', 'templates/test_nova.sh.erb', 'tests/all.pp', 'tests/cloudcontroller.pp', 'tests/compute.pp']"
+70,f001bfa157cb12753dc240fd68d014a86d80629c,removed trailing whitespace.,"['manifests/controller.pp', 'manifests/nova/controller.pp']"
+71,52871a35954221542bbb0d3ec959233ab8cfc33a,add inifile repo as a testing dep,['.fixtures.yml']
+72,03546bc90c0058c3654280a189aa455a10b0e5b0,nova-network work. cinder and quantum logic,"['manifests/auth_file.pp', 'manifests/controller.pp', 'manifests/db/mysql.pp', 'manifests/nova/controller.pp']"
+73,6b84c12fa7e6cd457447e93ef787e12b27133b4a,update params,['manifests/glance.pp']
+74,346e51d9a92c2748afad1aeade781caf9d4bb873,"update log_debug,log_verbose to debug,verbose","['manifests/glance.pp', 'spec/classes/openstack_controller_spec.rb']"
+75,c9e1ed4f9a9261bb7c3d1f81af511dab6562541e,Change log_verbose and log_debug to verbose and debug,['manifests/keystone.pp']
+76,07d66ad8093d059ef2738d384d33b655d076dc3e,Removed unused network configs,['manifests/compute.pp']
+77,d8747ed6e7152a77ef3827b22031aa2d9ded0eb3,update test file to work with quantum,"['manifests/test_file.pp', 'templates/test_nova.sh.erb']"
+78,8200961537f14c3d035e8a6a656f07390e8cabed,set root_password,['manifests/db/mysql.pp']
+79,c612934570ccc9988622486620ce4b46be080189,replaced nova::nework with quantum.,"['manifests/compute.pp', 'manifests/controller.pp', 'manifests/db/mysql.pp', 'manifests/keystone.pp', 'manifests/nova/controller.pp']"
+80,cca646e76d1b996a854aa78acbce7131730cf087,class params cannot be dep on other class params,['manifests/keystone.pp']
+81,0ee00d71130643433468ab1d04e9310d80aab148,Add cinder support,"['manifests/cinder.pp', 'manifests/compute.pp', 'manifests/controller.pp', 'manifests/db/mysql.pp', 'manifests/keystone.pp']"
+82,49173c6f403f254065ce21545389afffd1a96b3a,total refactor of openstack::compute,['manifests/compute.pp']
+84,eaf3d80f0f9dde38f1e79dfc70d406283bd37993,remove some class param default chains,"['manifests/controller.pp', 'manifests/glance.pp', 'manifests/keystone.pp']"
+85,f06d4d9f29845c8bcc943bbc94a11ae6e6fbe1f7,add keystone_host to the controller,['manifests/nova/controller.pp']
+86,c51463d66826311d008ab68ada4d44e51f511f2a,remove openstack::nova::compute,['manifests/nova/compute.pp']
+87,1a62606836d1969b5ccc25e73b783afc5d2d0a94,shorten names of keystone db class params,"['manifests/controller.pp', 'manifests/keystone.pp']"
+88,fd305d2bb71248b92e74cb9ce9b7e934d777eeed,change public_address back to controller_node,['manifests/auth_file.pp']
+89,e1392b36eef839f5e437db8bbada959ec19dbc1e,Set defaults in openstack::all class,['manifests/all.pp']
+90,16cedd9642e8cf20c85c72137ddfadcb17b4d204,Remove unused public controller node.,['manifests/auth_file.pp']
+91,d85d6f23fac71c97853354e5010ef641859edecf,Remove auth_file,"['manifests/all.pp', 'manifests/controller.pp']"
+92,c1600bcab5d370bf6727dedf041f7cc926656dfe,Update default for keystone admin_address,['manifests/keystone.pp']
+93,92c80bd8ff0a3cd8a79377a2c298677fdabdef7b,Update class parameter documentation,"['manifests/all.pp', 'manifests/compute.pp', 'manifests/controller.pp', 'manifests/db/mysql.pp', 'manifests/glance.pp', 'manifests/horizon.pp', 'manifests/keystone.pp', 'manifests/test_file.pp']"
+94,45eccb2a186339e52c4f6a32aad1149b103b0759,Refactor parameter defaults,['manifests/controller.pp']
+95,f6085946b93ff317687930179081fa961bf4ef2d,Add conditional dependency,['manifests/controller.pp']
+96,67a317b82bb8cc81445ef34262ced845b1f66afa,change exported_resources param to export_resources,['manifests/controller.pp']
+97,c8895dcee34a4d180a76abd1098727431d48cc4e,Add openstack::compute,['manifests/compute.pp']
+98,f1e8a37300d5250efa39e1e99743471ac145ad7f,Support passive mysql servers,['manifests/db/mysql.pp']
+99,bcb75dda9ef590616c8d5f7126920f44d4dc9486,Add configuration for cache_server setting in horizon.,['manifests/horizon.pp']
+100,1a8a61aaa21185d13be628be738ef432a0bca6bf,Support enabled for keystone,['manifests/keystone.pp']
+101,c6dd87ec37e33f7e0b2dd91b4b9c87549cdf48a5,Always configure network,['manifests/nova/compute.pp']
+102,bb96698ab3688fc5a2ed656dce3012d9145de777,unset default for public_interface,['manifests/nova/compute.pp']
+103,afafbd355fac0d57e01f28f1c31e01dec06b15fa,Always create nova class,['manifests/nova/compute.pp']
+104,4e2684090fbddb2705af43fd2fca04b2ecb8a9c6,Pass enabled flag to nova::vncproxy,['manifests/nova/controller.pp']
+105,7f16726e57551eb8a7b8069e98f5e3ebe9e78666,Remove collection code from openstack::nova::compute,['manifests/nova/compute.pp']
+106,90a7a67becd4a03da45a643e7f7fb45984968a8b,Fix bug in variable naming,['manifests/nova/compute.pp']
+108,0f7f03284c8603e94b0d29548666c7106999b558,Further edits,"['manifests/controller.pp', 'manifests/nova/compute.pp', 'manifests/nova/controller.pp']"
+109,55f7f2b01c4c4cefcfe66e70c2cdbdfff273baad,Further edits.,"['manifests/all.pp', 'manifests/auth_file.pp', 'manifests/compute.pp', 'manifests/controller.pp', 'manifests/db/mysql.pp', 'manifests/glance.pp', 'manifests/horizon.pp', 'manifests/keystone.pp', 'manifests/nova/compute.pp', 'manifests/nova/controller.pp', 'tests/compute.pp']"
+110,1e95338230adccef6b660a5f56a3e863037e3b85,temporary commit.,"['manifests/all.pp', 'manifests/auth_file.pp', 'manifests/controller.pp', 'manifests/db/mysql.pp', 'manifests/glance.pp', 'manifests/horizon.pp', 'manifests/keystone.pp', 'manifests/nova/compute.pp', 'manifests/nova/controller.pp', 'manifests/test_file.pp']"
+111,7acaad1c54e3faeb22134c11066e75ae540e3d95,Began putting params in individual manifests instead of a single params.pp file.,"['manifests/all.pp', 'manifests/compute.pp', 'manifests/controller.pp', 'manifests/db/mysql.pp', 'manifests/glance.pp', 'manifests/horizon.pp', 'manifests/keystone.pp', 'manifests/nova/compute.pp', 'manifests/nova/controller.pp', 'manifests/params.pp', 'tests/all.pp', 'tests/cloudcontroller.pp', 'tests/compute.pp']"
+112,89beb232e4942a933f899f1f5ee1416d40d60123,Beginning cleanup/refactor of puppetlabs-openstack.,"['README.md', 'manifests/all.pp', 'manifests/auth_file.pp', 'manifests/compute.pp', 'manifests/controller.pp', 'manifests/db/mysql.pp', 'manifests/glance.pp', 'manifests/horizon.pp', 'manifests/keystone.pp', 'manifests/nova/compute.pp', 'manifests/nova/controller.pp', 'manifests/params.pp', 'tests/all.pp', 'tests/cloudcontroller.pp', 'tests/compute.pp']"
+113,9c72fa0d25828a918beb0593bab6ae6c0b42da09,Merge pull request #105 from bodepd/release,"['CHANGELOG', 'Modulefile']"
+114,10f1541b82e23d9ef1e1a7f92a04c3020a61618a,0.2.0 release,"['CHANGELOG', 'Modulefile']"
+115,63e7a19fbd49f487aa2a7d28fc61f4cd45763473,Merge pull request #104 from bodepd/folsom,"['manifests/all.pp', 'manifests/controller.pp', 'manifests/swift/proxy.pp', 'manifests/swift/storage-node.pp']"
+116,445363560de65f0ce94f0cd99ca89abc2dd47fad,Merge pull request #100 from jtopjian/jtopjian-essex_swift,"['manifests/swift/proxy.pp', 'manifests/swift/storage-node.pp']"
+117,472dafd2140984814fc150d71707d3c366d5238d,Added swift manifests,"['manifests/swift/proxy.pp', 'manifests/swift/storage-node.pp']"
+118,bcb76de993f1d48c6ec750c15ca770fcf4c8e462,Merge pull request #99 from jtopjian/jtopjian-essex_mods,"['manifests/all.pp', 'manifests/controller.pp']"
+119,97d719f7e6946c9413549cdb6c9b2482dad4c728,Keystone admin tenant and mysql root password,"['manifests/all.pp', 'manifests/controller.pp']"
+120,8abed24b08a4fe54e722da704e77b6ab25aaae23,Merge pull request #97 from acidprime/update_keystone_bind_host,['manifests/all.pp']
+121,45534e2daf558285c0e3bc28cf6a0a387f96a993,Update keystone bind_host value to 0.0.0.0,['manifests/all.pp']
+122,ea4343d3815b34bfe86a39e4095f50935f2aae9b,Merge pull request #95 from bodepd/update_xinetd_url,['other_repos.yaml']
+123,4957cc3f432c6996cc3a76d8dc16e26f4ffbde3a,Update xinetd url to use puppetlabs version,['other_repos.yaml']
+124,af02603774efb9986826b118c1bdf8e3ccced5d9,Merge pull request #93 from dizz/patch-3,['examples/site.pp']
+125,6771da8117d35ad6656b5f46803151712a9a197b,vnc_enabled should be a literal boolean value,['examples/site.pp']
+126,20ac464cebd16e456957541b4900dd14020138ef,Merge pull request #91 from branan/multi_host_default,['examples/site.pp']
+127,7f08cca49b28e260b46716c394300ac56543bf3e,Merge pull request #92 from fcharlier/horizon_mandatory_param,"['manifests/all.pp', 'manifests/controller.pp']"
+128,4ddc4bc1b45ba5e24c88bb4a6a6f20e19b9bec78,Add the secret_key parameter to the Horizon class,"['manifests/all.pp', 'manifests/controller.pp']"
+129,a580de87a73d63c3601014e44393300b65eb94af,(#15205) Enable multihost by default in the example,['examples/site.pp']
+131,a7f966073fd8b9798da84969226b72d21b47683c,Merge pull request #88 from branan/cleanups_for_testing,['examples/site.pp']
+132,0dce2b866c8d6ff445caa44e2c416866258d44a0,Merge pull request #89 from sorenh/public_address_endpoints,['manifests/all.pp']
+133,1d7c391c849094b422ac998e84006515f8ba107d,Make public urls use public_address in all-in-one,['manifests/all.pp']
+134,b453c95ae587deb66606bfada678258dcf352907,Enable floating IP on all-in-one setup,['examples/site.pp']
+135,bcde88e987e151c08c8c89214cff6416b0308594,Merge pull request #87 from dizz/patch-2,['examples/site.pp']
+136,ca379e003cab8784c9b1a089ce59475df40db6bb,$verbose should not be quoted,['examples/site.pp']
+137,5ed02b01ea09f2cdf5c1eed5a59f5fcecce8d4dd,Merge pull request #86 from dizz/patch-1,['examples/site.pp']
+138,36986a127b03295ad32c8cd99516ffe29b9ce81a,$auto_assign_floating_ip needs to be a boolean and not string,['examples/site.pp']
+139,a128c60f42da1924e2655e092eb5e213af244e1a,Merge pull request #85 from branan/fix_rabbit_host,['manifests/controller.pp']
+140,b611ed76e96587858551f535d4b37b476ae7870a,Fix rabbitmq connection when not exporting resources,['manifests/controller.pp']
+142,b077b6c98956215de44bfeedcdad3b5a0162d359,Merge pull request #83 from bodepd/ship_better_test,"['examples/site.pp', 'files/nova_test.sh', 'manifests/test_file.pp', 'templates/test_nova.sh.erb']"
+143,0ca48ee8320481c41a587f1ffc54ab183b08a954,Add template to create test file,"['examples/site.pp', 'files/nova_test.sh', 'manifests/test_file.pp', 'templates/test_nova.sh.erb']"
+144,e8c32c56a610740d7aecba4b723460f402144e16,Merge pull request #82 from bodepd/enable_params,['manifests/controller.pp']
+145,aa2b981aeaea9ebb209174df6ede609ad662447f,Add enabled parameter to nova::controller,['manifests/controller.pp']
+146,327c3741793440e2dd038fbc64c8cb1ca3e79bd1,Merge pull request #78 from hswong3i/multi_host,['manifests/compute.pp']
+147,4fde7caa0c6983810f69b3d70bdf8bdf28f41a18,Merge pull request #79 from hswong3i/auto_assign_floating_ip,"['examples/site.pp', 'manifests/all.pp', 'manifests/controller.pp']"
+150,772168c1a0c9651ba7875cbfb914a1711c78641d,Also disable send_arp_for_ha when multi_host is false.,['manifests/compute.pp']
+151,b8c7b9a5563b2c681f58b9deae700411bb0f2ec5,Add optional auto_assign_floating_ip parameter.,"['examples/site.pp', 'manifests/all.pp', 'manifests/controller.pp']"
+152,cb4ea70d8fe3b2881548f03bb7bf57bbc81a64d1,"Add missing send_arp_for_ha for multi_host mode, reference from devstack.",['manifests/compute.pp']
+154,79ba57a1e2e0fb282492bd9ad914b4045982ac2c,Merge pull request #75 from hswong3i/public_interface,['examples/site.pp']
+155,40ae6bdd25fed9a259c5960c440d22be1cbf0cdf,Merge pull request #76 from hswong3i/nova_user_password,"['examples/site.pp', 'manifests/compute.pp']"
+157,69e46afb418dafe39930c93608d5d1936592b671,compute.pp's admin_password should sync with $nova_user_password of controller.pp.,"['examples/site.pp', 'manifests/compute.pp']"
+158,83d38ec8a444feff4f32254fa95a832a7718ba59,Add missing  for openstack_compute.,['examples/site.pp']
+167,e5c6153ee151f8627cf61a7be8d1b8e4727c0134,Merge pull request #69 from sbadia/master,['examples/site.pp']
+168,5687d79bb03fe686b4efa27bd82703361acddd1e,Typo fixed_network_range,['examples/site.pp']
+169,9e03db71d534b17e5215063b2c3650b2650cdb32,Merge pull request #64 from robertstarmer/master,['manifests/controller.pp']
+170,f172bdbd0bac4a7c88251e956fec68e048ad1904,Merge pull request #68 from branan/less_strict_dependencies,['Modulefile']
+171,54193adae43a8691e6ce16576ac7d3bb82f49875,Use >= for all module dependencies,['Modulefile']
+172,5ac1b2804e96b85cc6b325c7279da33bdaa67eca,Merge pull request #67 from branan/fix_modulefile_typo,['Modulefile']
+173,bbd719a9af2dbffa3e42d251aebfe37d71c4fd6b,spell mysql correctly,['Modulefile']
+176,fba5fdf45ef7e13370ce4e5a3b085fca3c6862ec,"reversed nova_test.sh updates, fixed misspelling in controller.pp; added parameters needed to enable additional horizon services","['files/nova_test.sh', 'manifests/controller.pp']"
+179,e6c36084809a08f584efe15916e0c1494a62390b,updates based on pull request,['manifests/controller.pp']
+180,73c1ac6a97ef1a7d215fc6342b85a7d6460394c6,"updated nova_test.sh to include floating IP and security_groups, and controller.pp to support a change in the horizon module (more horizon services)","['files/nova_test.sh', 'manifests/controller.pp']"
+185,c19ebbf425f065b1cf98d4c7ac4198e973e46209,Merge pull request #61 from bodepd/dev,['manifests/controller.pp']
+186,0ee4c8b1f7f0374f07f50a077541a9bdff8f5658,Style update,['manifests/controller.pp']
+187,75a64bb0676af55c0c75fff526e30e47643455b6,Merge pull request #60 from bodepd/compute_example,['examples/site.pp']
+188,13295cb720837b130596055f0396d40b9b852818,Clean up openstack::compute example manifest,['examples/site.pp']
+189,7eeabae8bb9da35b4dacd6fd6c704eb43764d2e6,Merge pull request #59 from bodepd/remove_extra_commas,['examples/site.pp']
+190,a749027801ca1a6c2790b64b08b578dfc8a3fd60,Fix syntax errors,['examples/site.pp']
+191,c682091619121c03c7fd19ac88563df1a5641df5,Merge pull request #57 from bodepd/site_pp_refactor,['examples/site.pp']
+192,cfc99e1506e8d69b523bc7d26aac70516fda9fa6,Improvements to example site.pp,['examples/site.pp']
+193,af91598557c728e8c31e74df7c8ed8aaf3ce7f7e,Merge pull request #56 from bodepd/upate_password_param_names,['manifests/controller.pp']
+194,270973611e2c21703c00313c63345a7ab98be113,Update service user param names,['manifests/controller.pp']
+195,45b68d9a179a0633039db7875d6dc37e32a102f9,Merge pull request #55 from branan/forge_release,"['CHANGELOG', 'Modulefile']"
+196,bff71aac1a638a9af56396530b7ecb7b6e49dea8,Merge pull request #53 from branan/write_spec_tests,"['.fixtures.yml', 'Rakefile', 'spec/classes/openstack_compute_spec.rb', 'spec/fixtures/manifests/site.pp', 'spec/spec_helper.rb']"
+197,9e9a01c3166408bf23d3b4969c25d9205858247a,Add modulefile and changelog for initial forge release,"['CHANGELOG', 'Modulefile']"
+198,708892a248d8253e6d55fe9d2da6df3c42ce8c97,Merge pull request #54 from bodepd/openstack,"['examples/site.pp', 'manifests/all.pp']"
+199,8b9c670ed8925616a014e3d0b566fa11798e0edf,update examples/site.pp,['examples/site.pp']
+200,eb84da4e5966376b51f0e86916a84dba1b6e9390,Add inline documentation.,['manifests/all.pp']
+201,498473097eb6171c6a62c3e6f5cbba43117190cf,Change admin_user_password to admin_password,['manifests/all.pp']
+202,6d50c3f83948e1e46bbd23962e2c8c5ca08a4404,Write spec test for openstack::compute,"['.fixtures.yml', 'Rakefile', 'spec/classes/openstack_compute_spec.rb', 'spec/fixtures/manifests/site.pp', 'spec/spec_helper.rb']"
+203,d6bf2709e74a0abf2bcc0ab4953643774a88e2c9,Merge pull request #52 from bodepd/allow_vg_overrides_in_all,['manifests/all.pp']
+204,4f5d06396cd2a332d273edb05e5b3f4ab2ff8fb4,Allow nova volume vg name to be overridden in openstack::all,['manifests/all.pp']
+205,7eab1160d730c3efea8b78ae6642df3566bcf66e,Merge pull request #51 from bodepd/volume_support_for_compute,['manifests/compute.pp']
+206,5eab169ec10655f8c35e06f265d177323663b7c0,Add volume management option for compute nodes,['manifests/compute.pp']
+207,0a67b507cd9a9b6c2043fa220579f5016b1b2506,Merge pull request #50 from bodepd/minor_changes,['manifests/all.pp']
+208,6e8f566cde37657b651ef96c4e50e19645b07cab,Change fixed_range default to /24,['manifests/all.pp']
+209,13f0c78b0cf3b62ce74bd8ee2107faba97c204a7,Add nova::volume:iscsi class to nova::all,['manifests/all.pp']
+210,83eccdfa7dea5830136f85cdcb87abfbbbc2b1e2,Ensure that verbose is set for nova class,['manifests/all.pp']
+211,db70dbea0214bd4236fe00cbd5dbfa2d7a4e8f32,Change verbose default to false,['manifests/all.pp']
+212,a335d0bc393f398fe99250bba683022fe2f968d9,Merge pull request #49 from craigtracey/master,['other_repos.yaml']
+213,d519815a863bc2aa7422354846f61791f200edac,Adding puppet-sysctl to other_repos.yaml,['other_repos.yaml']
+216,424d96f3e0706586863f26eb4abdce8327fcb507,Merge pull request #47 from craigtracey/master,"['Rakefile', 'other_repos.yaml']"
+217,a7e2cd5283480db5421153c3404969100d336342,Add example usage of modulepath,['other_repos.yaml']
+218,af66ddc422dd05f7d35a70d01503db29cc2e6a57,Update repos file to support alternative modulepath support,['other_repos.yaml']
+220,efeff768bf9f4f1304231c3a90e5ef1092619231,Merge pull request #46 from bodepd/update_repo_paths,['other_repos.yaml']
+221,53642fb79cccbd7974a34954e4b9ae289945be5d,Update repo paths,['other_repos.yaml']
+222,b9420823cae421ac0c797299f3d5a0cc39f2e89d,Merge pull request #45 from bodepd/dev,"['LICENSE', 'manifests/compute.pp', 'manifests/controller.pp', 'spec/classes/openstack_all_spec.rb', 'spec/classes/openstack_compute_spec.rb', 'spec/classes/openstack_controller_spec.rb', 'spec/spec_helper.rb']"
+224,6c6439a459dd8317eb21ccfde48ea93eb3f3b417,Add LICENSE and inline documentation.,"['LICENSE', 'manifests/compute.pp', 'manifests/controller.pp']"
+225,63a8901181e49477df00c6c984febc50505f6b25,Merge pull request #44 from bodepd/dev,['manifests/compute.pp']
+226,1c6c46fddbe92298ffad727d24468060db213b9c,"Revert ""Use rabbit_host parameter""",['manifests/compute.pp']
+227,9e6b2156fd99bf19dfed4323c5537f7de76c0098,Merge pull request #43 from sorenh/master,"['manifests/compute.pp', 'manifests/controller.pp']"
+228,3e419bc834751bc2625a7ff2df2d986a62dcb363,Use rabbit_host parameter,['manifests/compute.pp']
+229,f19f225f25a4c27bca0e119470e643f7949b0187,Remove network_host parameter,['manifests/compute.pp']
+230,2b6b247188aa9a04966306360982403a20f6c4a6,Fix typo,['manifests/controller.pp']
+231,d84820346c5f000024fdc790cc8f754f15561d4c,Merge pull request #42 from bodepd/network_refactor,"['manifests/all.pp', 'manifests/compute.pp', 'manifests/controller.pp']"
+232,3916873f8165b4fc68e98d0f65e5b89615658062,Refactor network code,"['manifests/all.pp', 'manifests/compute.pp', 'manifests/controller.pp']"
+233,26f2d89f3d2c7b7420495d95da788ea098d363b2,Merge pull request #41 from bodepd/update_libvirt_type,"['manifests/all.pp', 'manifests/compute.pp']"
+234,935ae8af9cbcba9c395f4c0a28357f384241d101,Ensure that libvirt type can be overridden,"['manifests/all.pp', 'manifests/compute.pp']"
+235,c7dc5ffa26cf5f29f7433ffc8773f63448c4ac3a,Merge pull request #40 from bodepd/verbose,"['manifests/compute.pp', 'manifests/controller.pp']"
+236,8a10508cfe42db60ed5ceb3291d43f61041da78c,Ensure that verbose can be set for nova,"['manifests/compute.pp', 'manifests/controller.pp']"
+237,e8ac61d4f3426763dcf264bfb3c09736319941d3,Merge pull request #39 from bodepd/controller_bind_host,['manifests/controller.pp']
+238,525b3fbf7976a709ff84846b55a0696eb470a11d,Update bindhost to 0.0.0.0,['manifests/controller.pp']
+239,f586f13dec3ab985cbeaf17c6ce9fc26ce79f12a,Merge pull request #38 from bodepd/openrc,"['files/nova_test.sh', 'manifests/auth_file.pp']"
+240,6004ceae3f1497d3de7699b43c7e70f43ae4dda4,Add openstack::auth_file class,"['files/nova_test.sh', 'manifests/auth_file.pp']"
+241,9f45813e50f22c5f8e72eec8176d9f0ea257e610,Merge pull request #37 from bodepd/ensure_vncproxy_is_running,['manifests/all.pp']
+242,af5e539742c9344c7fd6cae7eac4ed973073cd2a,Ensure vncproxy is enabled.,['manifests/all.pp']
+243,252e71051c16788f16128f5ae475ba74d2910e04,Merge pull request #36 from branan/cidr,['manifests/controller.pp']
+244,386860cdd807a9daef3326a9e0bc7e14a7fc3302,Fi controller.pp for cidr,['manifests/controller.pp']
+245,6a30dac9ae8c8449556d49a5f7cb5c97f40e29ec,Merge pull request #35 from branan/cidr,['manifests/all.pp']
+246,705817dab6c969275bd2687b419eb6eac013ae14,Remove avaiable_ips from nova-vm-net now that we have CIDR,['manifests/all.pp']
+249,91f22b48b427b219463e117b76e2e5918fad5ee6,Merge pull request #33 from bodepd/rewrite,"['.gitignore', '.gitmodules', 'NOTES', 'README', 'README.dev.md', 'README.md', 'Rakefile', 'Vagrantfile', 'examples/site.pp', 'files/nova_test.sh', 'manifests/all.pp', 'manifests/compute.pp', 'manifests/controller.pp', 'manifests/hosts.pp', 'manifests/site.pp', 'manifests/split.pp', 'modules/apt', 'modules/concat', 'modules/glance', 'modules/horizon', 'modules/keystone', 'modules/memcached', 'modules/mysql', 'modules/nova', 'modules/rabbitmq', 'modules/rsync', 'modules/ssh', 'modules/stdlib', 'modules/swift', 'modules/vcsrepo', 'modules/xinetd', 'other_repos.yaml', 'scripts/blank.sh', 'scripts/install-pe-master.sh', 'scripts/run-all.sh', 'scripts/run-compute.sh', 'scripts/run-controller.sh', 'scripts/run-db.sh', 'scripts/run-glance.sh', 'scripts/run-master.sh', 'scripts/run-rabbitmq.sh', 'scripts/run-swift-all.sh', 'scripts/run-swift-multi.sh', 'scripts/run.sh']"
+250,3f1f6a9eea005322c4dbec379c6e95258090f19f,Update to use master of everything,['other_repos.yaml']
+251,4d76d701c92d75a340f481a32055dd3243852d08,Total rewrite of the openstack project,"['.gitignore', '.gitmodules', 'NOTES', 'README', 'README.dev.md', 'README.md', 'Rakefile', 'Vagrantfile', 'examples/site.pp', 'files/nova_test.sh', 'manifests/all.pp', 'manifests/compute.pp', 'manifests/controller.pp', 'manifests/hosts.pp', 'manifests/site.pp', 'manifests/split.pp', 'modules/apt', 'modules/concat', 'modules/glance', 'modules/horizon', 'modules/keystone', 'modules/memcached', 'modules/mysql', 'modules/nova', 'modules/rabbitmq', 'modules/rsync', 'modules/ssh', 'modules/stdlib', 'modules/swift', 'modules/vcsrepo', 'modules/xinetd', 'other_repos.yaml', 'scripts/blank.sh', 'scripts/install-pe-master.sh', 'scripts/run-all.sh', 'scripts/run-compute.sh', 'scripts/run-controller.sh', 'scripts/run-db.sh', 'scripts/run-glance.sh', 'scripts/run-master.sh', 'scripts/run-rabbitmq.sh', 'scripts/run-swift-all.sh', 'scripts/run-swift-multi.sh', 'scripts/run.sh']"
+272,f4e8ce85ade86bb6998f476eb423fc7adc6e8f6d,Merge pull request #25 from bodepd/dev,"['.gitmodules', 'modules/apt', 'modules/concat', 'modules/create_resources', 'modules/glance', 'modules/keystone', 'modules/memcached', 'modules/mysql', 'modules/nova', 'modules/openstack/manifests/repo/diablo.pp', 'modules/rabbitmq', 'modules/rsync', 'modules/ssh', 'modules/stdlib', 'modules/swift', 'modules/vcsrepo', 'modules/xinetd', 'scripts/blank.sh', 'scripts/install-pe-master.sh', 'scripts/run-master.sh', 'scripts/run-swift-all.sh', 'scripts/run-swift-multi.sh']"
+273,322f8771fe808b9b4014a8b7540cc88c74f7277f,update modules,"['.gitmodules', 'modules/openstack/manifests/repo/diablo.pp', 'modules/vcsrepo']"
+276,d7e7a82d11949d778e592826d8db28e2adbad907,Merge pull request #24 from bodepd/diablo,"['README', 'manifests/hosts.pp', 'modules/glance', 'modules/nova', 'modules/openstack/manifests/repo/diablo.pp', 'scripts/run.sh']"
+280,6a11f9ced1bce0de3900ac47fad0526c17dd8fa8,(#9874) Add openstack diablo ppa,"['manifests/hosts.pp', 'modules/openstack/manifests/repo/diablo.pp', 'scripts/run.sh']"
+292,4e0cfb9cb2a56cbdb3f1c4c5fda96d98a45d665c,add special notes for installing puppet 2.6.8 on ubuntu 11.04,"['README', 'modules/nova', 'modules/puppetlabs-nova', 'modules/rabbitmq']"
+299,ff63ce2bbeeb7ef06a41a419c257780869a2c13f,Merge pull request #9 from bodepd/feature/master/add_build_files,"['.gitignore', 'Rakefile', 'Vagrantfile', 'ext/glance.sh', 'ext/nova.sh', 'manifests/site.pp']"
+302,1f0495a0daa4d70f961c7d58207d44c30d8908cf,updated image service.,['manifests/site.pp']
+306,0d949f53eca879d84ebe3851b15b1296ceb875c7,Merge pull request #7 from bodepd/update,"['Vagrantfile', 'manifests/site.pp', 'modules/create_resources', 'modules/mysql', 'modules/nova', 'scripts/run.sh']"
+307,b94c5f92092361f1fb13b96ab23bcf8825577140,"updating my vagrant file, manifests and scripts","['Vagrantfile', 'manifests/site.pp', 'scripts/run.sh']"
+308,4da89a34e99aa3bcde5e8cb6c36cf2f97b30ed43,updated submodules and site.pp,"['manifests/site.pp', 'modules/mysql', 'modules/nova']"
+311,8b1756a61ed839e1cec1f9f4c10bfdcd3824edb3,added glance params back,['manifests/site.pp']
+318,e095d5e6bcf962f7adb70829b154e9cb6f3bf2b9,Merge pull request #5 from bodepd/feauture/initial_multi_node_manifests,"['.gitmodules', 'Vagrantfile', 'manifests/all.pp', 'manifests/hosts.pp', 'manifests/site.pp', 'manifests/split.pp', 'modules/create_resources', 'modules/mysql', 'modules/nova', 'modules/stdlib', 'scripts/run-all.sh', 'scripts/run-compute.sh', 'scripts/run-controller.sh', 'scripts/run-db.sh', 'scripts/run-glance.sh', 'scripts/run-rabbitmq.sh', 'scripts/run.sh']"
+319,b3f664ac5c8a2a10742669b72ac934fdffbd005e,Added my additional test manifests,"['manifests/hosts.pp', 'manifests/site.pp']"
+321,75851ad65a768ffbf2789eb059c41972412072cb,Added stuff related to my testing of multi-node,"['Vagrantfile', 'manifests/all.pp', 'manifests/hosts.pp', 'manifests/split.pp', 'scripts/run-all.sh', 'scripts/run-compute.sh', 'scripts/run-controller.sh', 'scripts/run-db.sh', 'scripts/run-glance.sh', 'scripts/run-rabbitmq.sh', 'scripts/run.sh']"
+327,b739538b330a0660567741449cb1d2984077534e,Added vagrant testing specific files.,"['Vagrantfile', 'manifests/all.pp', 'manifests/hosts.pp']"
+332,3ac4dc51bf771b5ca661b20a74e57a449b1a2766,moved nova all test to manifest.,['manifests/all.pp']

@@ -1,0 +1,1244 @@
+c17989e647120e15afec2730fa216b36e51de348|Merge "Remove logic for old swift-ring-builder"|Tue, 29 Nov 2022 18:52:11 +0000|Tue, 29 Nov 2022 18:52:11 +0000
+9808684b5a4dd033328870482b7ad0acde61fa6d|Merge "Remove logic for CentOS < 9"|Fri, 25 Nov 2022 15:59:01 +0000|Fri, 25 Nov 2022 15:59:01 +0000
+c743d3ee2605c44d27df721061f5596efec33d43|Merge "Ubuntu: Disable acceptance tests with swiftinit service provider"|Fri, 25 Nov 2022 15:58:59 +0000|Fri, 25 Nov 2022 15:58:59 +0000
+f80eddfb4fb388fcf4752519289d3aee51f9a252|Merge "Ensure consistent IPv6 address format"|Fri, 25 Nov 2022 15:58:57 +0000|Fri, 25 Nov 2022 15:58:57 +0000
+8ac0db49280b7c4451bff6a3e66c13d43a167b12|Remove logic for old swift-ring-builder|Thu, 24 Nov 2022 02:11:01 +0900|Thu, 24 Nov 2022 04:23:03 +0900
+a8ef5f69060adda86433ff2de4c761a0f86f68c3|Format IPv6 address for ring device|Tue, 22 Nov 2022 11:13:16 +0900|Tue, 22 Nov 2022 14:52:42 +0900
+249f466f94441ae554478467949378d81b034f89|Ensure consistent IPv6 address format|Mon, 21 Nov 2022 13:55:47 +0900|Tue, 22 Nov 2022 14:44:48 +0900
+de018ad7d4523a0cf9853910f77a9f4c6a832abe|Ubuntu: Disable acceptance tests with swiftinit service provider|Mon, 21 Nov 2022 16:30:27 +0900|Mon, 21 Nov 2022 17:42:43 +0900
+be26baa863c473ae139deb0587a37fa0a97dc2d5|Remove logic for CentOS < 9|Mon, 21 Nov 2022 14:04:41 +0900|Mon, 21 Nov 2022 05:06:44 +0000
+0dcd3afa091821d608f6a9f5aa8ae17157085e12|Merge "Restrict access to the mount base directory"|Tue, 8 Nov 2022 12:07:23 +0000|Tue, 8 Nov 2022 12:07:23 +0000
+6021ccdc393481ecc3d0443a7fd95aad01a3221f|Merge "Prohibit write to the mount directory"|Fri, 4 Nov 2022 12:30:32 +0000|Fri, 4 Nov 2022 12:30:32 +0000
+2161ec46e9cff440baaca2182f155450caba02ea|Update master for stable/zed|Thu, 20 Oct 2022 11:12:19 +0000|Thu, 20 Oct 2022 11:12:19 +0000
+911919e5a5fca9bd1f8fe67f66aad51cf899822b|Restrict access to the mount base directory|Thu, 20 Oct 2022 11:08:56 +0900|Thu, 20 Oct 2022 04:09:02 +0000
+41ca173193d1ef91d6367b4cf9ee0039019b672b|Prohibit write to the mount directory|Thu, 20 Oct 2022 10:28:12 +0900|Thu, 20 Oct 2022 11:33:57 +0900
+b39a938a62e33dacc59f0ec16c77231fd5f306ad|Prepare Zed RC1|Wed, 5 Oct 2022 18:33:38 +0900|Wed, 5 Oct 2022 18:33:38 +0900
+7e821025b2c171991eb93dd88a1e68ca2e66d74f|authtoken: Remove deprecated auth_plugin|Thu, 29 Sep 2022 09:09:30 +0900|Thu, 29 Sep 2022 09:10:27 +0900
+febcd8fa4494d6dda73753fa4346f78a95644541|Merge "Manage internal-client.conf in acceptance tests"|Wed, 7 Sep 2022 19:57:43 +0000|Wed, 7 Sep 2022 19:57:43 +0000
+5f0df7edbf6c68eec327ce8cbc057076de5eca28|Merge "CentOS: Use consistent host parameters instead of hard-codes"|Wed, 7 Sep 2022 19:57:41 +0000|Wed, 7 Sep 2022 19:57:41 +0000
+b22daabdc25e81502a304318eb50408a9e2eb5a8|Merge "authtoken: Accept array for service_token_roles"|Wed, 7 Sep 2022 19:57:39 +0000|Wed, 7 Sep 2022 19:57:39 +0000
+2bec34f3fc64bb84c04751bd8dcd3e0f87d2b1fe|Merge "bulk: Support more tunable options"|Wed, 7 Sep 2022 19:57:37 +0000|Wed, 7 Sep 2022 19:57:37 +0000
+968b8e16830d0530aec2d378648a528a3b403b0e|Merge "bulk: Remove redundant hard-coded defaults"|Wed, 7 Sep 2022 19:57:35 +0000|Wed, 7 Sep 2022 19:57:35 +0000
+d9d27dcb261c58215446526192f677d9ed8ec537|Merge "ratelimit: Support options for container access ratelimit"|Wed, 7 Sep 2022 19:57:33 +0000|Wed, 7 Sep 2022 19:57:33 +0000
+f33cc00dfa6683ac6d3320e1040a9ff5ec69f863|Merge "ratelimit: Remove redundant hard-coded defaults"|Wed, 7 Sep 2022 19:57:31 +0000|Wed, 7 Sep 2022 19:57:31 +0000
+d6e12d98c5432663e209f81e345358c211fe4322|Merge "Remove redundant hard-codes from all"|Wed, 7 Sep 2022 19:57:29 +0000|Wed, 7 Sep 2022 19:57:29 +0000
+8dffab3a2c82e4cd7aac12fef1b6123d8ee50027|Merge "ceilometer: Remove deprecated auth_uri"|Wed, 7 Sep 2022 19:57:28 +0000|Wed, 7 Sep 2022 19:57:28 +0000
+b9f988952f8d6b4a0c86b6de3c0f0a823fbf9e9a|Merge "s3: Remove the unused/deprecated ensure parameter"|Wed, 7 Sep 2022 19:57:26 +0000|Wed, 7 Sep 2022 19:57:26 +0000
+9b143da1a81b8d10bb981c3f1650c95630213490|Merge "authtoken: Remove deprecated signing_dir"|Wed, 7 Sep 2022 19:57:24 +0000|Wed, 7 Sep 2022 19:57:24 +0000
+202afa1834f8aa8090d8d6c99b9bc6b17c6c53ff|Manage internal-client.conf in acceptance tests|Tue, 6 Sep 2022 00:32:17 +0900|Tue, 6 Sep 2022 02:49:59 +0900
+d3dce7e81acdb1aaf02daa2d7fc5f8d09f4695d8|CentOS: Use consistent host parameters instead of hard-codes|Tue, 6 Sep 2022 00:31:12 +0900|Tue, 6 Sep 2022 02:49:47 +0900
+2391c0062a3b0761e02bd714a10753dc5d8db4c3|authtoken: Accept array for service_token_roles|Mon, 5 Sep 2022 09:26:07 +0900|Mon, 5 Sep 2022 09:26:40 +0900
+e94bbf51b43a071d99293c4d885ead7784859788|bulk: Support more tunable options|Mon, 5 Sep 2022 00:26:15 +0900|Mon, 5 Sep 2022 00:36:17 +0900
+10aef4e2bac6911dfebb23c7e04220ac704e140f|bulk: Remove redundant hard-coded defaults|Mon, 5 Sep 2022 00:23:25 +0900|Mon, 5 Sep 2022 00:35:49 +0900
+9686d3e41b660c2301ffc490e43237c72de226ff|ratelimit: Support options for container access ratelimit|Mon, 5 Sep 2022 00:16:37 +0900|Mon, 5 Sep 2022 00:17:47 +0900
+12bb9f0cfe78528d8d52261d535cbfeee6888d0b|ratelimit: Remove redundant hard-coded defaults|Mon, 5 Sep 2022 00:07:43 +0900|Mon, 5 Sep 2022 00:17:47 +0900
+ce43aca13dba1c8126fb8b65f7956580e7bb0a1e|Remove redundant hard-codes from all|Sun, 4 Sep 2022 20:09:47 +0900|Sun, 4 Sep 2022 20:09:47 +0900
+28d45eab6b1682d11b2dfbbb4e2eb058fccf87b7|ceilometer: Remove deprecated auth_uri|Sun, 4 Sep 2022 20:00:51 +0900|Sun, 4 Sep 2022 20:01:57 +0900
+818f185e445e972f98711212b1562ac00f16cf84|authtoken: Remove deprecated signing_dir|Sun, 4 Sep 2022 17:15:29 +0900|Sun, 4 Sep 2022 17:18:54 +0900
+0e2e25e667da40bf46d749525cfd4493626a9d9a|s3: Remove the unused/deprecated ensure parameter|Sun, 4 Sep 2022 17:18:01 +0900|Sun, 4 Sep 2022 17:18:01 +0900
+c9cfdf78567b6bb1b3e30498c884a7b69f35d9a2|slo: Remove deprecated min_segment_size|Sun, 4 Sep 2022 17:09:38 +0900|Sun, 4 Sep 2022 17:12:03 +0900
+e6ceaf6d51d2cdd6edc1d51e979e29e8ba51baa4|Merge "Remove remaining hard-code of username in each manifest"|Fri, 26 Aug 2022 17:53:44 +0000|Fri, 26 Aug 2022 17:53:44 +0000
+4710a586613fb9b860d673d8597c5bea31130f1f|Merge "Fix type validation warning for storage policy rings"|Thu, 25 Aug 2022 07:39:07 +0000|Thu, 25 Aug 2022 07:39:07 +0000
+7cd5360a5f028f1d2f5da2de5b0b5bb45e0430d8|Remove remaining hard-code of username in each manifest|Thu, 25 Aug 2022 11:18:06 +0900|Thu, 25 Aug 2022 11:18:23 +0900
+48fc395d6ff14e287528192ee60b0aff05845600|Merge "Fail if pipeline does not include the proper server"|Tue, 23 Aug 2022 07:56:48 +0000|Tue, 23 Aug 2022 07:56:48 +0000
+e28307f5a5e6ee1eb545e1d5cc5d249fee3eb1e4|Merge "Multiple rsync modules"|Tue, 23 Aug 2022 07:49:53 +0000|Tue, 23 Aug 2022 07:49:53 +0000
+56f59a5ed3d6b09b11335523ae2d553d60db43c6|Merge "Create a separate class for [swift-constraints] options"|Tue, 23 Aug 2022 07:49:51 +0000|Tue, 23 Aug 2022 07:49:51 +0000
+28bbebfa841164cc6baf2456b9aa805247f52916|Merge "Reduce hard-coded defaults of object-expirer.conf"|Tue, 23 Aug 2022 07:45:41 +0000|Tue, 23 Aug 2022 07:45:41 +0000
+3f10ac6dad9a2246203941171dc65a4eed2ad1ca|Merge "Do not hard-code default of [swift-constraints] max_header_size"|Tue, 23 Aug 2022 07:42:52 +0000|Tue, 23 Aug 2022 07:42:52 +0000
+0445d4ed0ba871629dc9867db3cb11787c20abec|Merge "Add fundamental middlewares to proxy-server pipeline"|Mon, 22 Aug 2022 17:26:31 +0000|Mon, 22 Aug 2022 17:26:31 +0000
+7d220dd93468815f88c95c67b2d45d95152f8cae|Create a separate class for [swift-constraints] options|Mon, 22 Aug 2022 16:52:51 +0900|Mon, 22 Aug 2022 23:55:56 +0900
+428d620c7f43d59bdedea2060ec4f4430919c5ef|Reduce hard-coded defaults of object-expirer.conf|Mon, 22 Aug 2022 21:32:20 +0900|Mon, 22 Aug 2022 21:32:20 +0900
+5a82bf2e6a287b53b62173cb5b1c188042abc111|Multiple rsync modules|Mon, 22 Aug 2022 10:23:26 +0200|Mon, 22 Aug 2022 21:08:22 +0900
+11b193cab8f880f1b73c57208646a889979e6fd8|Fix type validation warning for storage policy rings|Mon, 22 Aug 2022 17:11:34 +0900|Mon, 22 Aug 2022 19:37:40 +0900
+7d1956eadcfabd1b28dba40b8659956463d5b767|Do not hard-code default of [swift-constraints] max_header_size|Mon, 22 Aug 2022 16:25:14 +0900|Mon, 22 Aug 2022 16:25:14 +0900
+eb15c310d6cd2ce3c03ed6677b3bf001ed6df3cc|Add fundamental middlewares to proxy-server pipeline|Mon, 22 Aug 2022 15:15:53 +0900|Mon, 22 Aug 2022 15:55:48 +0900
+0cce118d52ee30ba1cbc76ec33e425febc8b51d5|Ensure swift_hash_path_prefix/suffix are cleared|Mon, 22 Aug 2022 11:36:41 +0900|Mon, 22 Aug 2022 13:54:12 +0900
+9b9e43f0382313df8d2c4d8f3c0cfb339496c19a|Fail if pipeline does not include the proper server|Mon, 18 Jul 2022 12:05:18 +0900|Sat, 20 Aug 2022 01:03:28 +0900
+839ccc7f20ceeaa60965409ea59e6cc2c280e6ec|Merge "Use ini provider to manage storage config files"|Thu, 18 Aug 2022 23:42:34 +0000|Thu, 18 Aug 2022 23:42:34 +0000
+b64771a2c4f96ba374cfcdc1413870aae32f368f|Merge "Support customizing internal-client.conf"|Thu, 18 Aug 2022 23:13:35 +0000|Thu, 18 Aug 2022 23:13:35 +0000
+f5011c83ebbe379d0d4b141944f42adc0c3e765f|Merge "Remove logic for Puppet < 4.3"|Tue, 16 Aug 2022 18:50:39 +0000|Tue, 16 Aug 2022 18:50:39 +0000
+453b1a97311dfa9b3fc186e13af037e2ce27b117|Use ini provider to manage storage config files|Fri, 8 Jul 2022 10:40:03 +0900|Tue, 16 Aug 2022 11:27:03 +0900
+efcef86de7ba859197aecd791b3b390a220a66d8|Support customizing internal-client.conf|Mon, 18 Jul 2022 11:47:09 +0900|Tue, 16 Aug 2022 11:26:43 +0900
+5705d49a9597e74bc16f2ac94d9f2c15b4c3d261|Remove logic for Puppet < 4.3|Tue, 16 Aug 2022 01:26:38 +0900|Tue, 16 Aug 2022 01:26:38 +0900
+dd88f5625d25f8c6c32cf3146ae2d6fbbf3010c9|Merge "Restart proxy-server when ceilometermiddleware is updated."|Fri, 12 Aug 2022 08:47:11 +0000|Fri, 12 Aug 2022 08:47:11 +0000
+67454cf7ff499c7c11b0a0ae8d1563dcc904f2ed|Support more [oslo_messaging_rabbit] parameters|Tue, 9 Aug 2022 17:49:30 +0900|Tue, 9 Aug 2022 20:35:56 +0900
+224184aad0248defad8e86e856107d5fea9ab2bc|Merge "Use the root user to generate ring builder files"|Mon, 1 Aug 2022 13:25:25 +0000|Mon, 1 Aug 2022 13:25:25 +0000
+f561f50d902b032fac00e3c35696c02d8d3c75bf|Merge "Use p-o-i manifest to deploy memcached"|Mon, 1 Aug 2022 11:08:23 +0000|Mon, 1 Aug 2022 11:08:23 +0000
+bcc867acd2a243729562d2d28630fe8ceab2e039|Merge "swiftinit: Remove support for upstrart"|Mon, 1 Aug 2022 11:08:21 +0000|Mon, 1 Aug 2022 11:08:21 +0000
+0b2ab8214f7b81cf90076508e78c6d897c1617d3|Merge "Remove deprecated swift::test_file"|Mon, 1 Aug 2022 11:08:19 +0000|Mon, 1 Aug 2022 11:08:19 +0000
+cc7c96120d07e63697961cefe1b0b9851235a278|Merge "Remove unnecessary group assignment"|Mon, 1 Aug 2022 11:08:17 +0000|Mon, 1 Aug 2022 11:08:17 +0000
+4284a090bbb33f8772d156dfd7ce94cfbaebd48b|Merge "Deprecate support for swauth"|Mon, 1 Aug 2022 11:01:29 +0000|Mon, 1 Aug 2022 11:01:29 +0000
+0439bd22d6d0aeeeb2092d2056162e8c89cf5c4b|Use p-o-i manifest to deploy memcached|Fri, 8 Jul 2022 13:25:05 +0900|Mon, 1 Aug 2022 18:45:07 +0900
+971b1291007646ae466ab6ef2a93fddbfa101e33|Merge "Remove warning about old incoming/outcoming chmod"|Mon, 1 Aug 2022 09:41:09 +0000|Mon, 1 Aug 2022 09:41:09 +0000
+da35b74523b0623af6ffb66d23e49db10b4ab539|Merge "Fix deprecation warning by validate_legacy"|Mon, 1 Aug 2022 09:41:06 +0000|Mon, 1 Aug 2022 09:41:06 +0000
+0adeebce9432f8d4fd15328bdf0476191bfbcde0|Merge "Rename acceptance spec files to explain order"|Mon, 1 Aug 2022 09:09:19 +0000|Mon, 1 Aug 2022 09:09:19 +0000
+1a92de5c8966ff7a457240dcfd7f46e59cb51caf|Merge "Use $::os_service_default instead of undef"|Mon, 1 Aug 2022 09:09:17 +0000|Mon, 1 Aug 2022 09:09:17 +0000
+effad6c4a7cd9cf9ad6c20db13887cf4bf78aa3b|Merge "proxy: Reduce hard-coded default values"|Mon, 1 Aug 2022 09:09:08 +0000|Mon, 1 Aug 2022 09:09:08 +0000
+77e850340c60708ba8f31bfc0b58ba7706e6a82b|proxy: Reduce hard-coded default values|Mon, 18 Jul 2022 12:02:57 +0900|Mon, 18 Jul 2022 19:51:13 +0900
+93b2eb187e58aa8910ea2eab5baf642483927e2d|Use $::os_service_default instead of undef|Mon, 18 Jul 2022 11:51:26 +0900|Mon, 18 Jul 2022 12:49:56 +0900
+44fdeb5f11b3c72b389c5fb49251356368ad4f9f|Bump upper version of puppet-memcached|Fri, 15 Jul 2022 23:24:06 +0900|Fri, 15 Jul 2022 23:24:06 +0900
+68c875beb1056038fb1bc0df61c9e7812cf758b0|Fix wrong test description|Fri, 15 Jul 2022 11:55:05 +0900|Fri, 15 Jul 2022 11:55:05 +0900
+f3276488e84b37f42671e202aee38e2f5eb8085c|Rename acceptance spec files to explain order|Sun, 10 Jul 2022 13:26:09 +0900|Sun, 10 Jul 2022 13:26:44 +0900
+4be2336843bf293d44bf8aa9bf9a5b5af583797c|Fix deprecation warning by validate_legacy|Fri, 8 Jul 2022 14:14:57 +0900|Fri, 8 Jul 2022 14:21:23 +0900
+15054948ed77b0ce92e2eaa88cf21a41e6f0ce98|Remove warning about old incoming/outcoming chmod|Fri, 8 Jul 2022 01:02:05 +0900|Fri, 8 Jul 2022 01:02:05 +0900
+d443048fae953e03e4a9db53d5b5f518e6a17d2f|Use the root user to generate ring builder files|Mon, 4 Jul 2022 10:10:02 +0900|Mon, 4 Jul 2022 10:11:55 +0900
+0eda2a0a50e57d3183ef4d70ee6ce9d257d59bb3|Deprecate support for swauth|Mon, 4 Jul 2022 09:57:52 +0900|Mon, 4 Jul 2022 09:58:34 +0900
+c69f9fb6dd3670a6d3472d3ebd980883a54c49b1|Restart proxy-server when ceilometermiddleware is updated.|Mon, 4 Jul 2022 02:02:14 +0900|Mon, 4 Jul 2022 02:02:14 +0900
+152587fd2a1d0c0bc7ad67585fe2ecdd6abde995|Remove unnecessary group assignment|Mon, 4 Jul 2022 01:55:22 +0900|Mon, 4 Jul 2022 01:55:22 +0900
+e004e4627384f2141e2b1a1178496725117315b8|Remove deprecated allow_versions|Tue, 28 Jun 2022 22:38:42 +0900|Tue, 28 Jun 2022 22:40:26 +0900
+1414bd7d85f0efddc96ba3c0b2355fada2943a8e|Remove deprecated swift::test_file|Tue, 28 Jun 2022 22:34:34 +0900|Tue, 28 Jun 2022 22:35:27 +0900
+41b842c7de7d75239b505d7e7de59cb57c63e099|swiftinit: Remove support for upstrart|Tue, 28 Jun 2022 22:25:36 +0900|Tue, 28 Jun 2022 22:26:29 +0900
+718155cc227c0da39f8c1951a9aa276a0b57719f|Merge "Fix outdated constraint of puppet-rsync and puppet-xinetd"|Tue, 28 Jun 2022 13:13:11 +0000|Tue, 28 Jun 2022 13:13:11 +0000
+ecd42a3bdaba121e72f18a00334af157fbde4fae|Merge "Fix typos in parameter descriptions and tests"|Tue, 28 Jun 2022 12:41:55 +0000|Tue, 28 Jun 2022 12:41:55 +0000
+9c16a7d6053fe83c4b05a86c38f048c77d304329|Merge "Fix typo in swiftinit service type"|Mon, 27 Jun 2022 16:55:01 +0000|Mon, 27 Jun 2022 16:55:01 +0000
+4d937a4a025067851e030afa9e36c5064a694df4|Fix typos in parameter descriptions and tests|Mon, 27 Jun 2022 16:56:49 +0530|Mon, 27 Jun 2022 13:39:37 +0000
+9fcfcb2f2a7c5b9923f30264e28cfeaf4ead28b1|Fix typo in swiftinit service type|Mon, 27 Jun 2022 17:04:54 +0530|Mon, 27 Jun 2022 17:04:54 +0530
+814ec2de3617bde1a0423e39ef1ee987c2acc415|Fix typo in parameter name|Mon, 27 Jun 2022 16:59:48 +0530|Mon, 27 Jun 2022 17:03:04 +0530
+a6ed2f5e207c1bc87d1e3ccc28bff5dfd36eed8b|Fix outdated constraint of puppet-rsync and puppet-xinetd|Sun, 26 Jun 2022 09:16:41 +0900|Sun, 26 Jun 2022 09:22:39 +0900
+b4c9ec059e1eb3b62e7e5c0bc4982f76efef76ef|Merge "Remove support for CentOS 8 Stream"|Wed, 1 Jun 2022 05:43:54 +0000|Wed, 1 Jun 2022 05:43:54 +0000
+fc7ffe1d452bfff6428c4a47f06cd785dc3c187d|Remove support for CentOS 8 Stream|Wed, 1 Jun 2022 14:02:06 +0900|Wed, 1 Jun 2022 14:02:06 +0900
+414e2d6719dcbc20df8474249143cba60cda5f2d|Merge "Improve test coverage of swift::storage::disk"|Tue, 31 May 2022 14:46:40 +0000|Tue, 31 May 2022 14:46:40 +0000
+58db6b4ba6d5d70c4ff30334874d7587997e8b4f|Merge "Allow single alias in swift_storage_policy provider"|Tue, 24 May 2022 10:55:15 +0000|Tue, 24 May 2022 10:55:15 +0000
+7f96ac35d4d9c0f71b11a61fe5192e0b2d7536b6|Improve test coverage of swift::storage::disk|Sun, 22 May 2022 23:57:51 +0900|Tue, 24 May 2022 10:46:56 +0900
+a6a2451e46281ad32d7f83bb260bcaa21a7f1a8e|Merge "Skip creating files/directories created by packages"|Mon, 23 May 2022 17:39:59 +0000|Mon, 23 May 2022 17:39:59 +0000
+0461df0c09f878ae318764296d9a7a40504206bf|Skip creating files/directories created by packages|Thu, 19 May 2022 16:09:38 +0900|Thu, 19 May 2022 16:09:38 +0900
+1a1264b435d7dd42850a1ea358e6872af886be2c|Merge "Revert "Avoid duplicate package swift.""|Tue, 17 May 2022 18:16:21 +0000|Tue, 17 May 2022 18:16:21 +0000
+19fa1ca37f45def065a2e07fe5fe426370c29630|Allow single alias in swift_storage_policy provider|Wed, 13 Jan 2021 18:46:41 +0100|Sun, 15 May 2022 23:41:05 +0000
+b0c9ae29ab415ecb739b8d1a92dacfde999e983b|Revert "Avoid duplicate package swift."|Wed, 11 May 2022 00:56:52 +0900|Wed, 11 May 2022 00:58:15 +0900
+12ce6b7631fa4b73f3ad530c5131f14a3d81d504|dispersion: auth_key should be secret|Mon, 25 Apr 2022 18:51:52 +0900|Mon, 25 Apr 2022 18:52:09 +0900
+17a720091af75dc421fa57c3b0412802cb9ae6b2|Merge "Ensure cache parameters are cleared"|Mon, 11 Apr 2022 20:44:14 +0000|Mon, 11 Apr 2022 20:44:14 +0000
+afc84ae1ed79fb2749572ed2faaa8b4cf73ad26d|Ensure cache parameters are cleared|Wed, 6 Apr 2022 10:37:58 +0900|Wed, 6 Apr 2022 11:04:57 +0900
+2b267638886d174664431bc9c83e9acde80d3261|container-reconciler: Do not hard-code default values|Wed, 6 Apr 2022 10:52:49 +0900|Wed, 6 Apr 2022 10:52:49 +0900
+22ba349a775f95305619552d48672f293e6e833a|Update master for stable/yoga|Tue, 5 Apr 2022 09:15:22 +0000|Tue, 5 Apr 2022 09:15:22 +0000
+4e983c272085dab457e6d6352ecd0fa2f66f67a3|setuptools: Disable auto discovery|Tue, 29 Mar 2022 10:42:05 +0200|Tue, 29 Mar 2022 10:42:13 +0200
+b95ee61f57ebb39089fb8ac04b8ee01d032b84d1|Prepare Yoga RC1|Sat, 12 Mar 2022 00:37:15 +0900|Sat, 12 Mar 2022 00:37:15 +0900
+663d94b4497b830a1882334d960101aa037c8871|remove unicode literal from code|Tue, 8 Mar 2022 09:24:26 +0900|Tue, 8 Mar 2022 09:24:26 +0900
+4d86b7762a60c14afa0aa167c57018516de031a9|Merge "Deprecate swift::test_file"|Thu, 3 Mar 2022 12:23:56 +0000|Thu, 3 Mar 2022 12:23:56 +0000
+496260a6346e66741c45297a06382a3ee6a7925f|Prepare Yoga M3|Thu, 24 Feb 2022 16:13:08 +0800|Sun, 27 Feb 2022 13:21:24 +0000
+55999bc79779ee66abdc3f208f37dea2bf94ee48|Merge "Add CentOS/RHEL 9 to supported operating systems"|Thu, 24 Feb 2022 15:28:10 +0000|Thu, 24 Feb 2022 15:28:10 +0000
+625f0c44c075333597cfdcd9e051d0fe91b8f383|Merge "Avoid hard-coding OS user/group in each manifest"|Tue, 22 Feb 2022 17:33:28 +0000|Tue, 22 Feb 2022 17:33:28 +0000
+61c2193cd032f175adcd49a6ac79e5d095b14337|Merge "Add support for container sharder"|Tue, 22 Feb 2022 17:33:25 +0000|Tue, 22 Feb 2022 17:33:25 +0000
+39e5f5847ae97d61b8da6432d1023b37ddf1e410|Add CentOS/RHEL 9 to supported operating systems|Wed, 23 Feb 2022 01:35:38 +0900|Wed, 23 Feb 2022 01:35:38 +0900
+f781eb9e34501b651d3f2069fc8848e7cacef679|Avoid hard-coding OS user/group in each manifest|Mon, 21 Feb 2022 02:07:06 +0900|Tue, 22 Feb 2022 01:09:15 +0900
+dd3a5bbf0dfd98fe9bf27e130a317640a1621bf5|Deprecate swift::test_file|Mon, 21 Feb 2022 02:28:05 +0900|Mon, 21 Feb 2022 02:30:04 +0900
+a42ed4509f6d12fca15f4db886c300bd1bf9ceba|TripleO jobs: Replace CentOS 8 jobs by CentOS 9 jobs|Wed, 9 Feb 2022 22:55:55 +0900|Thu, 10 Feb 2022 15:41:27 +0000
+7e86bb55caefa824a252d590b66b9984ffb974d7|TripleO: Enable container build in standalone job|Fri, 11 Feb 2022 00:40:00 +0900|Fri, 11 Feb 2022 00:40:00 +0900
+bb483f0e28fab60b10bba5b03246029d8bd7041c|Add support for container sharder|Tue, 24 Nov 2020 16:47:56 +0100|Fri, 4 Feb 2022 08:21:21 +0000
+4683fb4f785d3c9528a9e0f50f97d1e3bea9add3|Merge "Loose dependencies about keystone endpoints"|Fri, 28 Jan 2022 11:20:21 +0000|Fri, 28 Jan 2022 11:20:21 +0000
+f82d016350e6e972a11c6f3ad617f34040ca54de|Merge "Accept system scope credentials for Keystone API request"|Wed, 26 Jan 2022 15:08:14 +0000|Wed, 26 Jan 2022 15:08:14 +0000
+ceaf421eb89e58b85d8790a758d4eaafad486c74|Do not hardcode default of [ksm_keymaster] meta_version_to_write|Tue, 25 Jan 2022 21:47:06 +0900|Tue, 25 Jan 2022 21:52:06 +0900
+2f2183e9d634c4d46834472ba221969ca4a88052|Accept system scope credentials for Keystone API request|Tue, 25 Jan 2022 09:58:14 +0900|Tue, 25 Jan 2022 15:20:39 +0900
+2e34d0ce446fd60c72577caa6866c87e8db153d8|Loose dependencies about keystone endpoints|Wed, 24 Nov 2021 18:32:58 +0900|Mon, 24 Jan 2022 09:48:34 +0900
+95c974c27d6e7cc92c8372e238ec9a5c60a6e4e9|Remove redundant dependency|Mon, 24 Jan 2022 00:18:10 +0900|Mon, 24 Jan 2022 00:18:10 +0900
+c465f59e01dfc1beae2dca238bce28946e3a38ed|Merge "Remove usage of custom os_package_type fact"|Fri, 7 Jan 2022 20:23:36 +0000|Fri, 7 Jan 2022 20:23:36 +0000
+a06cf0100a633819e029f04b5b626b542ac76a1a|Prepare Yoga M2|Wed, 1 Dec 2021 14:42:53 +0800|Fri, 7 Jan 2022 14:23:07 +0000
+b5eb197c416fd28a2ecf96ca92e201b1a2cca490|Remove usage of custom os_package_type fact|Wed, 5 Jan 2022 22:22:51 +0900|Wed, 5 Jan 2022 22:39:33 +0900
+5f25f95b1ddf89d8c39dd52772a0270c1845ce47|Merge "Do not hard-code defaults of [filter:slo] parameters"|Thu, 23 Dec 2021 15:14:28 +0000|Thu, 23 Dec 2021 15:14:28 +0000
+10295c459558d6279532358441c5ef2c72e18d40|Merge "Update default value of [filter:slo] max_manifest_size"|Thu, 23 Dec 2021 14:38:34 +0000|Thu, 23 Dec 2021 14:38:34 +0000
+b0552cf9393442e2355ed6dec260e06b77ce43eb|Merge "Add support for parameters of the gatekeeper middleware"|Thu, 23 Dec 2021 10:22:49 +0000|Thu, 23 Dec 2021 10:22:49 +0000
+7e122bd3e997a94d926913784d56fc6882eac2cc|Merge "Support parameters of container_sync middleware"|Thu, 23 Dec 2021 10:22:47 +0000|Thu, 23 Dec 2021 10:22:47 +0000
+be62c2b18f1e57b44713682adfcbf08331843497|Merge "Deprecate the ineffective min_segment_size parameter"|Thu, 23 Dec 2021 10:22:41 +0000|Thu, 23 Dec 2021 10:22:41 +0000
+f6dca1462704c6c7139e244b31c98759df147d1b|Merge "Support more [filter:slo] parameters"|Thu, 23 Dec 2021 10:22:39 +0000|Thu, 23 Dec 2021 10:22:39 +0000
+91176e13d27bd0661662acab321971323f4dc7d5|Merge "Do not hard-code defaults of [filter:dlo] parameters"|Thu, 23 Dec 2021 10:22:37 +0000|Thu, 23 Dec 2021 10:22:37 +0000
+fe4097bca401cff7bc68e248b087735aca227e01|Merge "bulk: Reduce default yield_frequency"|Thu, 23 Dec 2021 10:20:44 +0000|Thu, 23 Dec 2021 10:20:44 +0000
+22537525402b8eb013b3ef1df9a2019ed55bdf1c|Merge "CentOS9: Fix unit tests related to use_xinetd"|Thu, 23 Dec 2021 08:42:32 +0000|Thu, 23 Dec 2021 08:42:32 +0000
+5a7a299a544809eca94ff59a712caffd4184553e|CentOS9: Fix unit tests related to use_xinetd|Wed, 22 Dec 2021 20:47:50 +0900|Thu, 23 Dec 2021 00:03:23 +0900
+29e0bd9c8f153023241149ab349e28d9c979ad16|Merge "s3token: Remove deprecated auth_* parameters"|Tue, 21 Dec 2021 19:11:47 +0000|Tue, 21 Dec 2021 19:11:47 +0000
+b9f4681c1757a004bbb52fa531a998c6541532f5|s3token: Remove deprecated auth_* parameters|Tue, 21 Dec 2021 09:19:15 +0900|Tue, 21 Dec 2021 09:19:45 +0900
+a39af5a7dd205e00072d10f140d0f446413936ca|Support parameters of container_sync middleware|Sun, 19 Dec 2021 23:00:33 +0900|Mon, 20 Dec 2021 16:15:22 +0900
+a9eb3272f074fc464e4567d4f85c2265b1a3e53a|bulk: Reduce default yield_frequency|Mon, 20 Dec 2021 10:21:53 +0900|Mon, 20 Dec 2021 10:24:49 +0900
+85b30c1a2a688b61a055a3161b804a7f9465d1b9|Do not hard-code defaults of [filter:dlo] parameters|Mon, 20 Dec 2021 10:17:56 +0900|Mon, 20 Dec 2021 10:19:55 +0900
+cbf5c60e800438f3781dee0b8563488cad077c23|Do not hard-code defaults of [filter:slo] parameters|Sun, 19 Dec 2021 23:48:58 +0900|Mon, 20 Dec 2021 10:10:12 +0900
+7017388604a1d1be50efb7868be26f6c48f065c2|Update default value of [filter:slo] max_manifest_size|Sun, 19 Dec 2021 23:45:05 +0900|Mon, 20 Dec 2021 08:10:00 +0900
+0ef85fafbb02e9758f7fd480ed5d4c1a73ac6152|Deprecate the ineffective min_segment_size parameter|Sun, 19 Dec 2021 23:36:47 +0900|Mon, 20 Dec 2021 08:09:59 +0900
+ef9ff551315c09025d43418c80505d18bacaf44b|Support more [filter:slo] parameters|Sun, 19 Dec 2021 23:26:00 +0900|Mon, 20 Dec 2021 08:09:35 +0900
+790124110a0de225f96c1f056510f419a4d26e85|Add support for parameters of the gatekeeper middleware|Sun, 19 Dec 2021 23:08:25 +0900|Sun, 19 Dec 2021 23:08:38 +0900
+54c75b9f1f72f927d10edbaab7ddde4934b5e7e5|Add rsync parameters for object server|Tue, 26 May 2020 22:07:30 +1000|Fri, 17 Dec 2021 16:48:32 +1100
+1ef0107008411e214f1625577e8a0866fb77a434|Merge "Fix ignored unit tests"|Wed, 8 Dec 2021 21:52:37 +0000|Wed, 8 Dec 2021 21:52:37 +0000
+d871bd5bedd18c4a798d37c11fecde2377785604|Fix ignored unit tests|Thu, 2 Dec 2021 09:53:12 +0900|Thu, 2 Dec 2021 11:05:08 +0900
+ff0330a998bf23809a46a24ab0b76081f61af30e|Use consistent spelling, OpenStack, instead of Openstack|Fri, 26 Nov 2021 14:54:09 +0900|Fri, 26 Nov 2021 17:04:02 +0900
+a94f4f511fa0bbc3f6abd6d53fef8ea844c18d77|Do not test detail of keystone::resource::service_identity|Fri, 26 Nov 2021 14:26:29 +0900|Fri, 26 Nov 2021 17:04:00 +0900
+a1088139ec254f3e8283a854cc78534abfb6ac08|Deprecate support for the allow_versions parameter|Wed, 10 Nov 2021 16:36:24 +0900|Wed, 10 Nov 2021 16:36:24 +0900
+8e4a6b72f4fa5047fc86d91502f9935e82ef1360|Merge "Bump puppetlabs-inifile"|Tue, 2 Nov 2021 23:26:56 +0000|Tue, 2 Nov 2021 23:26:56 +0000
+2042fd8b885dd5d539b1d37e7eb159a7c2386265|Bump puppetlabs-inifile|Tue, 2 Nov 2021 13:10:19 +0900|Tue, 2 Nov 2021 13:10:19 +0900
+350778570c04db749a61106f173419b25fd7494f|Fix missing argument of builder_file_path|Mon, 1 Nov 2021 16:43:58 +0900|Mon, 1 Nov 2021 16:44:12 +0900
+67e15b44eb160d3d9f75eac5c5cf364b0055b492|Bump version for the start of Yoga|Mon, 11 Oct 2021 11:52:09 +0900|Mon, 11 Oct 2021 12:04:51 +0900
+501c52508664ca7fcdbeef6b99d941df561b4434|Update master for stable/xena|Thu, 7 Oct 2021 08:28:51 +0000|Thu, 7 Oct 2021 08:28:51 +0000
+053a3a2a56723e0ec43d1855ac7615657a4de8f0|Add 'rsync_use_xinetd' as argument to swift::ringserver|Tue, 8 Jun 2021 17:25:31 +0200|Fri, 1 Oct 2021 16:16:19 +0900
+5f57e5521a04ebd08fa68d6d7671528a535c14bb|Fix unit tests incompatible with puppetlab-stdlib 8.0.0|Fri, 1 Oct 2021 16:04:41 +0900|Fri, 1 Oct 2021 16:04:41 +0900
+9d03150ff3f167973477a826b451845e093b524c|Add information technology in the setup.cfg|Fri, 1 Oct 2021 06:54:50 +0800|Fri, 1 Oct 2021 06:54:50 +0800
+9f037d9f90d0e4f8d339c0470609a9afb5ab621e|Add license information in the setup.cfg|Thu, 30 Sep 2021 16:48:13 +0800|Thu, 30 Sep 2021 16:48:13 +0800
+83622b9643354c0f1a9af216c3adbaf67a4a4878|Delete useless code for setup.py|Thu, 30 Sep 2021 13:38:33 +0800|Thu, 30 Sep 2021 13:38:33 +0800
+58c7a19e390f0f0b718bf633ae55d99b358503b1|Stop configuring install_command in tox.|Wed, 29 Sep 2021 18:20:41 +0900|Wed, 29 Sep 2021 18:20:41 +0900
+86127b527e6a0fc9921c551f6c96af933f7c922e|Merge "Fix pbr>=2.0.0 for setup.py"|Wed, 29 Sep 2021 09:11:20 +0000|Wed, 29 Sep 2021 09:11:20 +0000
+82058548c1898d108e243e40cfc48decac655fff|Fix pbr>=2.0.0 for setup.py|Wed, 29 Sep 2021 16:37:10 +0800|Wed, 29 Sep 2021 16:37:10 +0800
+bcf04847dddacf2f74a347965b6385b5bb3fd396|Update openstackdocstheme to the latest version|Wed, 29 Sep 2021 16:06:51 +0800|Wed, 29 Sep 2021 16:06:51 +0800
+1f87a2312c27148276a4bdf1dfb0c8c1be6d099c|Update reno to the latest version|Tue, 28 Sep 2021 17:14:35 +0800|Tue, 28 Sep 2021 17:14:35 +0800
+85aa5593a8a89d2af3879319c2449716d58cf2da|Fix stdlib version in metadata|Thu, 23 Sep 2021 19:44:23 +0800|Thu, 23 Sep 2021 19:44:23 +0800
+de7735d6df12537fb5ba75ca53bbcb0888efbbf7|Prepare Xena RC1|Fri, 17 Sep 2021 17:36:10 +0800|Fri, 17 Sep 2021 17:36:10 +0800
+ffbef544c89bc4733a4d5198af0bb65ccf6bd308|Prepare Xena M3|Mon, 6 Sep 2021 15:32:08 +0800|Mon, 6 Sep 2021 15:32:08 +0800
+0c85c3c9d6b66c888f876ed0de731f5b663d5b5c|Merge "Make service_type configurable"|Fri, 3 Sep 2021 04:35:42 +0000|Fri, 3 Sep 2021 04:35:42 +0000
+969babc71e519442a59c1535a4afec4200e52676|Add system/project reader roles parameters|Tue, 17 Aug 2021 11:31:01 +0200|Mon, 30 Aug 2021 20:26:43 +0900
+ca692407099b281804a177f591d49341797aa42a|Make service_type configurable|Sat, 28 Aug 2021 13:20:22 +0900|Sat, 28 Aug 2021 13:22:41 +0900
+787a87d24fee180f607d965182258072747be65e|Merge "Support Puppet 7"|Mon, 16 Aug 2021 10:20:58 +0000|Mon, 16 Aug 2021 10:20:58 +0000
+04a452dde798df8f5e9834f748dc1335a833d2e8|Support Puppet 7|Mon, 16 Aug 2021 18:14:48 +0900|Mon, 16 Aug 2021 18:14:48 +0900
+3232c2b07fcd5f7e6df6abfe38b137c7444530bd|Merge "Replace deprecated is_array method"|Tue, 10 Aug 2021 08:14:04 +0000|Tue, 10 Aug 2021 08:14:04 +0000
+7d7d8679d6dc249e85ceb90f82d9017414414c0b|Replace deprecated is_array method|Fri, 6 Aug 2021 10:50:15 +0900|Tue, 10 Aug 2021 08:51:43 +0900
+fcd75cfed3ecf23cc5c14d3e1ed582dff6a037f4|Prepare Xena M2|Mon, 26 Jul 2021 19:03:47 +0800|Mon, 26 Jul 2021 19:03:47 +0800
+e210b64e6d04ee1ce46f2266be52106c94f80b3e|Merge "Drop Fedora support"|Mon, 28 Jun 2021 08:59:47 +0000|Mon, 28 Jun 2021 08:59:47 +0000
+c57eedac9da141a178fffdf166152b31bf89051e|Merge "Make it possible to skip parted+mkfs"|Wed, 16 Jun 2021 19:44:21 +0000|Wed, 16 Jun 2021 19:44:21 +0000
+7577eec93cd66575a68ff4abb1d300c8a2fb351b|Make it possible to skip parted+mkfs|Wed, 9 Jun 2021 09:23:59 +0200|Wed, 16 Jun 2021 00:56:18 +0200
+6836151ac045650ecf1d379e1accdb3e49653c5e|Drop Fedora support|Sat, 12 Jun 2021 23:40:02 +0900|Sat, 12 Jun 2021 23:40:02 +0900
+bb20fc25d5876ad6abe0cb90505b90c5df6f46c9|Merge "Get rid of the $pyvers variable"|Wed, 9 Jun 2021 17:59:37 +0000|Wed, 9 Jun 2021 17:59:37 +0000
+3d292c53afcc8d877a4e0a2f0cf9b4f991222d3e|Merge "Set fixture paths for unit tests"|Thu, 3 Jun 2021 01:00:14 +0000|Thu, 3 Jun 2021 01:00:14 +0000
+4eaee6777d27667e31f1ee013971d64a378fb33f|Set fixture paths for unit tests|Wed, 2 Jun 2021 14:24:25 +0900|Wed, 2 Jun 2021 14:24:35 +0900
+5b0745101a9af363e367ef301728541921a5a70d|Get rid of the $pyvers variable|Fri, 21 May 2021 14:12:41 +0200|Thu, 27 May 2021 14:23:35 +0200
+cecfbf9ef5c5996e4a65e8f92a573625732fe6f8|Prepare Xena M1|Thu, 27 May 2021 15:50:28 +0800|Thu, 27 May 2021 15:50:28 +0800
+45cf113bb4d0b6eb47344a8816885d4d746b955d|setup.cfg: Replace dashes with underscores|Tue, 11 May 2021 18:40:41 +0900|Thu, 27 May 2021 00:51:35 +0000
+8e63264d8cff4c045c99be26efe3a43c4a4d5f81|Merge "TripleO: Reduce tempest test scope"|Sat, 22 May 2021 06:13:28 +0000|Sat, 22 May 2021 06:13:28 +0000
+4d929523450102efe7e3fad4ede01a3de2dab9d1|Add a swift_drive_audit_config puppet type|Tue, 11 May 2021 12:51:24 +0200|Wed, 19 May 2021 21:21:53 +0900
+3ccb2cd44ebeecd108fb8ad22f31a75428bea23e|Merge "Add support for swift_{proxy,account,container}_uwsgi_config in Debian"|Tue, 18 May 2021 13:10:21 +0000|Tue, 18 May 2021 13:10:21 +0000
+56c1954629b78921ca9e8347ca7fd77f1d588062|TripleO: Reduce tempest test scope|Fri, 14 May 2021 11:42:03 +0900|Fri, 14 May 2021 11:42:03 +0900
+b79e3c965b9b63b528149bec8fc96c683aaa34bc|Fix lint errors with the latest lint packages|Tue, 11 May 2021 19:03:11 +0900|Tue, 11 May 2021 19:03:11 +0900
+076ee39fb5a62771e2b0bbbe501d1c2ff518cf07|Bump version for the start of Xena|Thu, 29 Apr 2021 09:38:15 +0800|Thu, 29 Apr 2021 09:38:15 +0800
+03db1751de9119d93bed2d0b335b47e1c7f87f37|Merge "Bump dependency in metadata.json"|Tue, 13 Apr 2021 09:38:28 +0000|Tue, 13 Apr 2021 09:38:28 +0000
+51f4ad1cb3dbd534716a589562413e3c5e31ab58|Add support for swift_{proxy,account,container}_uwsgi_config in Debian|Thu, 8 Apr 2021 00:28:23 +0200|Fri, 9 Apr 2021 23:50:00 +0200
+7a9653bcd1aa44b5686c7d991892f1e5ed5bb447|Bump dependency in metadata.json|Thu, 8 Apr 2021 21:08:44 +0200|Thu, 8 Apr 2021 21:08:44 +0200
+f2c00bb393953bbe31f1b58364a5b5cd635efafd|Update master for stable/wallaby|Thu, 1 Apr 2021 09:36:56 +0000|Thu, 1 Apr 2021 09:36:56 +0000
+492702370e78338b2053eda522636446df8e64be|Merge "Drop the tripleo-puppet-undercloud job"|Wed, 31 Mar 2021 02:08:13 +0000|Wed, 31 Mar 2021 02:08:13 +0000
+569eeed68fd266d79aca9bcb6dc38ae3e9f8914b|Merge "This add the cname_lookup middleware for swift proxy."|Tue, 30 Mar 2021 23:56:09 +0000|Tue, 30 Mar 2021 23:56:09 +0000
+9da84b48a79ccb229c008aa51b25afb7f961de0c|Merge "metadata.json: debian 11."|Tue, 30 Mar 2021 16:37:49 +0000|Tue, 30 Mar 2021 16:37:49 +0000
+fe039b7a046c6579049149f725e6899bf230077c|This add the cname_lookup middleware for swift proxy.|Tue, 16 Mar 2021 17:18:55 +0100|Mon, 29 Mar 2021 08:30:23 +0900
+19362dc0bff8ad066748e0d5c65584f1e543b347|Update sphinx to the latest version|Sat, 27 Mar 2021 15:31:57 +0800|Sat, 27 Mar 2021 15:31:57 +0800
+907017f1e6bf757be2bf0fbd97096c416e825e42|Merge "Update the default proxy-server pipeline"|Fri, 26 Mar 2021 11:19:17 +0000|Fri, 26 Mar 2021 11:19:17 +0000
+77f06130e3b769e1d11f6310b077a872c838e35d|Drop the tripleo-puppet-undercloud job|Fri, 26 Mar 2021 15:35:48 +0900|Fri, 26 Mar 2021 15:36:56 +0900
+987d406294a3db4e4aaf757c6ac813855c86e223|Prepare Wallaby RC1|Fri, 26 Mar 2021 11:24:17 +0800|Fri, 26 Mar 2021 11:24:17 +0800
+57e68dac3a26d716a85b1ff2797a4d30f2167dff|metadata.json: debian 11.|Thu, 25 Mar 2021 21:06:40 +0100|Thu, 25 Mar 2021 21:06:40 +0100
+8b42834b9a2347c4a4dff2c5840852d659218dc3|Update supported Ubuntu version to Focal|Tue, 23 Mar 2021 21:43:40 +0900|Tue, 23 Mar 2021 21:43:40 +0900
+ede897b1125d382f2aa886be3e5a74eefdfbaeb1|Fix name of ceilometer middleware package|Thu, 25 Feb 2021 11:44:26 +0100|Fri, 19 Mar 2021 08:06:50 +0900
+35c905e430b494b462a68f57304e70f0938b4952|Do not write /var/log/ceilometer|Tue, 16 Mar 2021 11:48:23 +0100|Tue, 16 Mar 2021 11:48:23 +0100
+e2b35f10a48db86f1c96212fadcc2d0dd8692d50|Prepare Wallaby M3|Fri, 12 Mar 2021 14:35:44 +0800|Fri, 12 Mar 2021 14:35:44 +0800
+0c65a04406a0ae1e01300947188446b257175bb2|Merge "Add support for the listing_formats middleware"|Mon, 1 Mar 2021 16:39:22 +0000|Mon, 1 Mar 2021 16:39:22 +0000
+cfecd7555b2303133ab3e49d1e172fe8c78fcff3|Update the default proxy-server pipeline|Tue, 26 Jan 2021 23:25:36 +0900|Sun, 21 Feb 2021 21:13:16 +0900
+68a8d47cf7a9bd4918397c07731bc33423b235c0|Add support for the listing_formats middleware|Sun, 21 Feb 2021 18:46:13 +0900|Sun, 21 Feb 2021 18:47:23 +0900
+3bcbf44125c5e96c66c55f6cf4dc5017524937f3|Merge "object-expirer: Update the default pipeline"|Thu, 28 Jan 2021 13:15:53 +0000|Thu, 28 Jan 2021 13:15:53 +0000
+35bde997627d20c53cd7f330df050948d8af4809|object-expirer: Update the default pipeline|Tue, 26 Jan 2021 21:08:48 +0900|Wed, 27 Jan 2021 11:12:10 +0900
+023863af52e69faae0e0eca87a52cd47f8ae7377|Remove the leftover of swift3 support|Tue, 26 Jan 2021 23:06:14 +0900|Tue, 26 Jan 2021 23:07:51 +0900
+a57d5fe28a47c52b9137f000d3e923aeee1465a3|Merge "Add TLS options for swift memcached client"|Tue, 26 Jan 2021 11:31:18 +0000|Tue, 26 Jan 2021 11:31:18 +0000
+a0c98dfc901d0b25b56ff4c06fee651245d10eef|Prepare Wallaby M2|Tue, 19 Jan 2021 11:19:35 +0800|Tue, 19 Jan 2021 11:19:35 +0800
+0688c8a576dd71af5a13b1da636de881e9be2224|Add TLS options for swift memcached client|Fri, 8 Jan 2021 14:05:06 +0100|Thu, 14 Jan 2021 13:16:33 +0100
+b153bb414cb42fb039b2678a6d0d6740972d8799|Add missing s3api parameters|Wed, 23 Dec 2020 16:54:17 +0900|Tue, 29 Dec 2020 12:53:26 +0900
+c006f0adb3128b3ac54568fe0322f59ae1386b1e|Add missing parameters for ACL feature of s3api middleware|Tue, 22 Dec 2020 23:51:53 +0900|Tue, 29 Dec 2020 12:53:26 +0900
+cf0fa5d67980c24d67a72912d54a44f640bbdd4f|Add support for the location parameter of s3api middleware|Tue, 22 Dec 2020 23:39:51 +0900|Tue, 29 Dec 2020 12:53:26 +0900
+42d74471dd1f6f4104a3be0218f007566342bedd|Deprecate ineffective swift::proxy::s3api::ensure|Tue, 22 Dec 2020 23:26:52 +0900|Tue, 29 Dec 2020 12:53:08 +0900
+f5c4b00ae5f25166003f50eb675edb346165b30a|Prepare Wallaby M1|Fri, 4 Dec 2020 13:31:38 +0800|Fri, 4 Dec 2020 13:31:38 +0800
+99704cdd7f4c2694b47494767ac95d3ed41b1296|Replace deprecated UPPER_CONSTRAINTS_FILE variable|Wed, 11 Nov 2020 09:08:36 +0800|Wed, 11 Nov 2020 09:08:36 +0800
+ea87e81c49cc81ae472fed07b9d42db574f5b485|Merge "Add content provider jobs for tripleo based jobs"|Mon, 9 Nov 2020 16:28:51 +0000|Mon, 9 Nov 2020 16:28:51 +0000
+ea1bfd8bcc101b8176b8b4381607b7bffe87346d|Merge "Refactor the swift::proxy::tempurl class"|Fri, 30 Oct 2020 23:42:48 +0000|Fri, 30 Oct 2020 23:42:48 +0000
+3e611a649a964754a590b62d72375aa58ee41c59|Add content provider jobs for tripleo based jobs|Thu, 29 Oct 2020 12:42:44 -0400|Thu, 29 Oct 2020 12:43:27 -0400
+34b6189fcce0feebb8f229750693a9e71db4b861|Fix outdated files|Wed, 28 Oct 2020 10:40:09 +0800|Wed, 28 Oct 2020 10:40:09 +0800
+a353ef8c7536f842b7ec7fc144af3ccd2eceeca8|Refactor the swift::proxy::tempurl class|Tue, 27 Oct 2020 08:35:28 +0900|Wed, 28 Oct 2020 01:19:29 +0900
+0d583ffeb86677b8d5690f0b9d454cc3ad941ad5|Merge "Fix the misplaced release note file"|Thu, 22 Oct 2020 14:26:56 +0000|Thu, 22 Oct 2020 14:26:57 +0000
+6e033a14f868cfd01fdc416fae1940663bb9d345|Fix the misplaced release note file|Thu, 22 Oct 2020 09:01:04 +0900|Thu, 22 Oct 2020 09:01:04 +0900
+db4ed2663196693d715377d9e68c1769b2460c8d|Merge "Remove the swift::proxy::swift3 class"|Mon, 19 Oct 2020 17:30:24 +0000|Mon, 19 Oct 2020 17:30:24 +0000
+fb9a9d668fddbd4dc3900487871006a0482b6d9b|Add support for the service_type parameter in authtoken middleware|Mon, 19 Oct 2020 18:46:20 +0900|Mon, 19 Oct 2020 18:46:20 +0900
+d4ec1b631faa00aed2a939dcf2c76217024537ff|Remove the swift::proxy::swift3 class|Mon, 19 Oct 2020 18:41:38 +0900|Mon, 19 Oct 2020 18:42:33 +0900
+009afc806c126417f2f62eacd1c23d32a1be5390|Bump version for the start of Wallaby|Thu, 15 Oct 2020 09:42:49 +0800|Thu, 15 Oct 2020 09:42:49 +0800
+7e9b9f645469206e67205890194599b20642fc9b|Update master for stable/victoria|Thu, 8 Oct 2020 14:47:18 +0000|Thu, 8 Oct 2020 14:47:18 +0000
+adcdf4955e8d2cc9082eb9423148630095f0cca7|Prepare Victoria GA|Mon, 5 Oct 2020 20:08:41 +0900|Mon, 5 Oct 2020 20:08:41 +0900
+1aedfa63c532eda6c1ee15a6d85a3b209c267b12|Merge "Replace deprecated auth_plugin by auth_type"|Fri, 25 Sep 2020 14:11:57 +0000|Fri, 25 Sep 2020 14:11:57 +0000
+5722f7149c678fcb79cf792a9eda53537e080cb8|Replace deprecated auth_plugin by auth_type|Thu, 24 Sep 2020 18:00:21 +0900|Thu, 24 Sep 2020 20:27:59 +0900
+9a4ac85a82fd03a43bacb37360f31e62cf2bfebc|Prepare Victoria RC1|Thu, 24 Sep 2020 10:48:54 +0800|Thu, 24 Sep 2020 10:48:54 +0800
+fb741ed62bc5ed6c96d292b51cab5e39360477ad|Set openstackdocs_auto_name to use 'project' as name|Wed, 16 Sep 2020 11:05:05 +0800|Wed, 16 Sep 2020 11:05:05 +0800
+4d9315ec54eeb5878088cccf37ef12e8dc56ede5|Add proxy config option to set recoverable_node_timeout|Fri, 11 Sep 2020 15:17:58 +0200|Fri, 11 Sep 2020 15:24:21 +0200
+0504cf2dbff1003ecd27744ce2555cda257effc2|Merge "Add Puppet Litmus"|Fri, 11 Sep 2020 02:03:40 +0000|Fri, 11 Sep 2020 02:03:40 +0000
+abf999097864aa6ad8acdbb502dc1f2259865979|Merge "Add a meta_version_to_write parameter"|Tue, 8 Sep 2020 20:12:34 +0000|Tue, 8 Sep 2020 20:12:34 +0000
+60c3f4fac7ce384d04d4f63a4f0f6e64983a0e23|Prepare Victoria M3|Tue, 8 Sep 2020 09:18:03 +0800|Tue, 8 Sep 2020 09:18:03 +0800
+9a33ca74496713f8cb382c5bceebf2fdb79d4203|Add Puppet Litmus|Mon, 31 Aug 2020 21:57:38 +0200|Mon, 31 Aug 2020 21:57:38 +0200
+8e9f7d57573251043df30cf263b2f84a8f727687|Add a meta_version_to_write parameter|Mon, 31 Aug 2020 10:25:26 +0200|Mon, 31 Aug 2020 10:25:26 +0200
+2c3a746d0642d0ad8f00bf098d8c16b07d616112|Use openstack_spec_helper from zuul checkout|Sun, 30 Aug 2020 23:05:46 +0200|Sun, 30 Aug 2020 23:05:46 +0200
+5c68fd9be983494661ac455ac4ce44b1ad50a251|Use common class to manage apache service in beaker job|Thu, 27 Aug 2020 12:07:16 +0900|Thu, 27 Aug 2020 12:58:36 +0900
+d17eae394bde1f66a37003aebe04c49bce1249dd|Prepare Victoria M2|Thu, 30 Jul 2020 13:35:29 +0800|Thu, 30 Jul 2020 13:35:29 +0800
+a09758194acee428f793abb975fdd92affcb2314|Add support for the interface parameter in authtoken middleware|Thu, 16 Jul 2020 00:29:38 +0900|Thu, 16 Jul 2020 01:27:49 +0000
+7a6fa33e77406a7fcc0c28b71eff1fb9b8f1a115|Eliminate remaining class inclusions by absolute names|Thu, 16 Jul 2020 10:26:03 +0900|Thu, 16 Jul 2020 10:27:34 +0900
+c3e8ab9bc04edd38452f5e64cfb64510917ca27d|Use relative name for class inclusion|Thu, 9 Jul 2020 16:01:09 +0900|Thu, 9 Jul 2020 16:01:09 +0900
+fc5d377dd26c9ac3eccdaf197cf9be24dd13f010|Prepare Victoria M1|Fri, 19 Jun 2020 10:38:55 +0800|Fri, 19 Jun 2020 10:38:55 +0800
+d02e1351cef607d76b1744b454cd917093b053a0|Merge "Deprecate the remaining option for Keystone PKI token"|Thu, 11 Jun 2020 16:34:46 +0000|Thu, 11 Jun 2020 16:34:46 +0000
+424b861a57d60cefeeebc2fafaed97484fac261c|Deprecate the remaining option for Keystone PKI token|Tue, 9 Jun 2020 00:26:16 +0900|Mon, 8 Jun 2020 15:41:00 +0000
+91a9151aebdd1a8d3c05f46153de34ef0906ca71|Switch to newer openstackdocstheme and reno versions|Tue, 2 Jun 2020 15:02:43 +0200|Tue, 2 Jun 2020 15:02:43 +0200
+60863cf55ed3134ee67c676ad1a47ce33e3423ac|Update Puppet requirement to >= 6.0.0|Sat, 30 May 2020 09:56:25 +0200|Sat, 30 May 2020 09:56:25 +0200
+ff9608a8c100b0acff7cdf6eeeadcd3d68c4f237|Support to configure rsync max_connections and not use xinetd for rsync|Tue, 19 May 2020 01:22:25 +1000|Wed, 27 May 2020 09:38:55 +1000
+f847dae469f14dfbcb881e2d18102e2bf1b8641f|Merge "Fix disk mount options"|Thu, 21 May 2020 18:38:22 +0000|Thu, 21 May 2020 18:38:22 +0000
+11a18d1079d1168342052c8e57b36d02bb6bc91b|Merge "Add client_timeout parameter for object-server.conf"|Tue, 19 May 2020 23:27:12 +0000|Tue, 19 May 2020 23:27:12 +0000
+fa2b39dd65eb1bb9a25ea0a52f9601eddef4c9eb|Add client_timeout parameter for object-server.conf|Thu, 7 May 2020 16:13:07 +0200|Tue, 19 May 2020 16:50:11 +0200
+3c3a1212b802e9463b22b5941ccac5001056fde4|Fix disk mount options|Thu, 14 May 2020 20:14:37 +0200|Tue, 19 May 2020 16:37:27 +0200
+e74c8d8dbc7625e4f14a7cf14a5f8a670095c0c7|Merge "Bump compatibility versions"|Mon, 18 May 2020 23:06:22 +0000|Mon, 18 May 2020 23:06:22 +0000
+c17ce7a59a39bae25dc7735f6536cda8a56c1279|Bump version for the start of Victoria|Thu, 14 May 2020 12:24:28 -0600|Thu, 14 May 2020 12:28:01 -0600
+930c178873f57b7ce2a16fd58d724ffea56b6bf7|Bump compatibility versions|Thu, 14 May 2020 14:00:47 +1000|Thu, 14 May 2020 14:01:02 +1000
+b753df974b2892352da415438680b06b2dc07513|Merge "Accept integer for port numbers"|Wed, 13 May 2020 18:10:42 +0000|Wed, 13 May 2020 18:10:42 +0000
+78819e33aecd5b99cb0b5da2b1e0642b99315f9f|Merge "Deprecate the default values for password parameters"|Wed, 13 May 2020 18:08:32 +0000|Wed, 13 May 2020 18:08:32 +0000
+f3b60e8dfd39135214308b32608583541b04275a|Merge "Passwords should be secret"|Wed, 13 May 2020 18:08:32 +0000|Wed, 13 May 2020 18:08:32 +0000
+d878817eef3f536ebef6028494ea9806b47bbaf4|Merge "[ussuri][goal] Add CONTRIBUTING.rst"|Wed, 13 May 2020 07:03:41 +0000|Wed, 13 May 2020 07:03:41 +0000
+2df992faf3d2a6c845b6bbe302fb956b77307c50|Deprecate the default values for password parameters|Tue, 12 May 2020 22:27:12 +0900|Wed, 13 May 2020 08:53:14 +0900
+0252254230584d5c07c03c5c8851e4ac761023cb|Merge "Fix incorrect comments about updating region/zone of a device"|Tue, 12 May 2020 09:38:49 +0000|Tue, 12 May 2020 09:38:49 +0000
+de443f28fc95b07d78c1761c3deefce2da916eaa|Passwords should be secret|Tue, 12 May 2020 17:41:59 +0900|Tue, 12 May 2020 17:44:39 +0900
+e98f4bde16ec299a1f7fbe8144fa298d3547f808|Bump reno to 2.5.0|Tue, 12 May 2020 10:50:07 +0800|Tue, 12 May 2020 10:50:07 +0800
+879c3b820ddbe1444ab529b35b67ad5114790470|Merge "Add CentOS8 to nodesets"|Mon, 11 May 2020 22:55:30 +0000|Mon, 11 May 2020 22:55:30 +0000
+27f46ad4ab0945a78b8cac415f47ad804f0ec34e|[ussuri][goal] Add CONTRIBUTING.rst|Sun, 10 May 2020 22:52:57 +0200|Sun, 10 May 2020 22:52:57 +0200
+7f5b8f42201f2631a945bfd10860239ae98f46bf|Add CentOS8 to nodesets|Sun, 10 May 2020 21:50:55 +0900|Sun, 10 May 2020 21:50:55 +0900
+26c8746d7b06192cf2997f94479fab2610f08aa9|Fix incorrect comments about updating region/zone of a device|Sun, 10 May 2020 00:37:40 +0900|Sun, 10 May 2020 00:40:14 +0900
+96d3d3459d47088bcc04f232de9ddc6828711bd1|Accept integer for port numbers|Wed, 6 May 2020 20:28:47 +0900|Sun, 10 May 2020 00:23:01 +0900
+ea1421b4ef4768a0d1662ba6c26311aa3983905c|Merge "Use anchor to require necessary packages"|Mon, 4 May 2020 19:02:11 +0000|Mon, 4 May 2020 19:02:11 +0000
+e6601af816a2c5932f7eccd04a0682e89c675505|Merge "Add more parameters for s3token middleware"|Mon, 4 May 2020 14:35:06 +0000|Mon, 4 May 2020 14:35:06 +0000
+fea199ac7d0a9cacca865ddfaed82e0324b09efc|Merge "Deprecate support for swift3 middlware"|Mon, 4 May 2020 14:32:47 +0000|Mon, 4 May 2020 14:32:47 +0000
+115be330eb70c960bd18977885ed00b6dae3c270|Use anchor to require necessary packages|Mon, 4 May 2020 12:00:45 +0900|Mon, 4 May 2020 12:00:45 +0900
+7481ffaad583d338f94e1f114b42dc46796f315b|Merge "Cleanup deprecated parameters"|Mon, 4 May 2020 02:05:59 +0000|Mon, 4 May 2020 02:05:59 +0000
+3d036d6e76ab81e880efd1644b5f07c07c5d4c3a|Add more parameters for s3token middleware|Sun, 3 May 2020 21:52:46 +1000|Mon, 4 May 2020 11:33:32 +1000
+56b76020af3761481cc3b0bf5bfb2056970d2992|Cleanup deprecated parameters|Mon, 4 May 2020 00:28:52 +0900|Mon, 4 May 2020 03:01:52 +0900
+345cd2ad14e9afae81a1ac9807c3803397e31f97|Runs on Debian 10.|Sat, 2 May 2020 22:54:06 +0200|Sat, 2 May 2020 22:54:06 +0200
+f24fd8c73edb3e6892c68de072861ce7237ad6d8|Deprecate support for swift3 middlware|Tue, 28 Apr 2020 21:27:54 +0900|Sun, 3 May 2020 01:55:22 +0900
+3d054a051f1c6969b87e4f3c479e94d3375a5a23|Bump openstackdocstheme to 1.30.0|Thu, 30 Apr 2020 15:28:37 +0800|Thu, 30 Apr 2020 15:28:37 +0800
+53fa2e738c9dd1f8f8447e6348f78997471f25bc|Change rpsec to rspec|Thu, 30 Apr 2020 13:24:46 +0800|Thu, 30 Apr 2020 13:24:46 +0800
+a74a03cc4746524ba3161c2a18316ea1a96fc7b6|Update master for stable/ussuri|Tue, 28 Apr 2020 14:59:22 +0000|Tue, 28 Apr 2020 14:59:22 +0000
+ca954c17cb26695bb64eddee395f53384952e076|Merge "Add domain_remap middleware support"|Tue, 28 Apr 2020 14:38:57 +0000|Tue, 28 Apr 2020 14:38:58 +0000
+26b821dabbcbfb434d241eb9b733f187612aef62|Merge "Add missing openstacklib to dependencies"|Mon, 27 Apr 2020 17:33:06 +0000|Mon, 27 Apr 2020 17:33:06 +0000
+f68647d4f830f384a9f6a984a8df17070a60963f|Merge "Add etag_quoter middleware support"|Mon, 27 Apr 2020 15:14:23 +0000|Mon, 27 Apr 2020 15:14:23 +0000
+39f11ee6e253ed637aab5d92a5733980e49c94f3|Merge "Support to configure memcache.conf"|Mon, 27 Apr 2020 15:03:49 +0000|Mon, 27 Apr 2020 15:03:49 +0000
+9ab5c6d1706ff9adb79e1e021904d25252c490cc|Merge "Add symlink middleware support"|Sat, 25 Apr 2020 15:30:24 +0000|Sat, 25 Apr 2020 15:30:24 +0000
+773cffbf7d50ca16851f5b0884d2c6c69235e954|Add domain_remap middleware support|Thu, 23 Apr 2020 15:53:35 +1000|Sat, 25 Apr 2020 22:26:59 +0900
+816f722d4e532edf9d6d1d726fd5957326eaec47|Add missing openstacklib to dependencies|Sat, 25 Apr 2020 21:23:45 +0900|Sat, 25 Apr 2020 22:26:59 +0900
+38ebeea216d78ca06be59122055007373362b5bb|Add etag_quoter middleware support|Fri, 24 Apr 2020 11:05:11 +0900|Fri, 24 Apr 2020 16:38:44 +0900
+c88f926c6668509e4aefb54100fa19e055c276ca|Prepare Ussuri RC1|Fri, 24 Apr 2020 14:23:10 +0800|Fri, 24 Apr 2020 14:23:10 +0800
+0a6ac4addcd586f398c1b2dd09b5fa6ef8aacfd2|Support to configure memcache.conf|Fri, 24 Apr 2020 00:04:30 +1000|Fri, 24 Apr 2020 06:54:17 +1000
+05ccc857d8a209f85ffab37a4b504a56d6c7d1f6|Add symlink middleware support|Thu, 23 Apr 2020 15:51:54 +1000|Fri, 24 Apr 2020 00:18:02 +1000
+d9f55bdbd2f01ffb2b3656bfbfcab16bf155de8e|Prepare Ussuri M3 again|Tue, 14 Apr 2020 00:11:35 +0900|Tue, 14 Apr 2020 00:11:35 +0900
+68eba97ee22ec81f189278352fbbe15ed99049c4|Resolve duplicated requirement names in metadata|Mon, 13 Apr 2020 23:05:30 +0900|Mon, 13 Apr 2020 23:05:30 +0900
+113dc0a2021b9789fc17edad7494932b92ae51c9|Prepare Ussuri M3|Tue, 7 Apr 2020 09:21:16 +0800|Tue, 7 Apr 2020 09:21:16 +0800
+5d01be0227cf428493dffdcc0d566d1f623cb19c|Make tempest scope more strict|Thu, 2 Apr 2020 20:50:44 +0900|Thu, 2 Apr 2020 20:50:44 +0900
+eb2fb2fe67698b2e6dcac9d794b63f921c11931b|Merge "Expect python3 client package in CentOS8"|Tue, 31 Mar 2020 17:23:47 +0000|Tue, 31 Mar 2020 17:23:47 +0000
+00290157ac8a37ed84a80143d0134e5a26859824|Expect python3 client package in CentOS8|Tue, 31 Mar 2020 17:10:59 +0900|Tue, 31 Mar 2020 17:11:09 +0900
+5b2177be9b8c0ab59b9efacf94a7dc43a9402781|Add CentOS 8 and Puppet 6 in metadata|Mon, 30 Mar 2020 09:36:55 +0200|Mon, 30 Mar 2020 07:52:48 +0000
+153fe8570bdde73ebead70ba4d45c05cdb9d0ab7|Add missing unit tests for s3api middleware|Mon, 16 Mar 2020 21:34:11 +0900|Thu, 19 Mar 2020 14:56:39 +0900
+887e84523429706541d6d0a8c9727cd4bec27629|Merge "Add max_upload_part_num param"|Thu, 19 Mar 2020 00:16:58 +0000|Thu, 19 Mar 2020 00:16:58 +0000
+294972d8fca90fe851cf68992fcd4c1457fd8886|Add max_upload_part_num param|Thu, 12 Mar 2020 11:09:06 +0100|Wed, 18 Mar 2020 17:50:05 +0100
+1a4731769de8831ee49c1ada54aba58a12a70da3|Merge "Use centos-8 standalone puppet parent"|Fri, 13 Mar 2020 21:39:26 +0000|Fri, 13 Mar 2020 21:39:26 +0000
+aaf7edc758533982be569489a5d083d15516c922|Use centos-8 standalone puppet parent|Fri, 13 Mar 2020 14:19:01 +0530|Fri, 13 Mar 2020 14:20:18 +0530
+3b4e562faf4b098412ceb6fe25b660eea9b22cb7|Add object_server_mb_per_sync|Mon, 9 Mar 2020 14:39:45 +0100|Mon, 9 Mar 2020 21:35:11 +0100
+de7eb6fff1d908e329d2bbd539e645dfc8680b65|Merge "Deprecate swift::proxy::ceilometer::auth_uri"|Sun, 23 Feb 2020 18:32:55 +0000|Sun, 23 Feb 2020 18:32:55 +0000
+158de6f59b16c9a52084d62fb4b0631ce6a77017|Merge "Add region parameters for keystone authentication"|Wed, 19 Feb 2020 22:42:45 +0000|Wed, 19 Feb 2020 22:42:45 +0000
+756a126c9b692e299136da4420c17552b1e8dcc5|Merge "[ussuri][goal] Cleanup for python 2.7 drop"|Tue, 18 Feb 2020 04:28:07 +0000|Tue, 18 Feb 2020 04:28:07 +0000
+1e57622f25b76d1ad19e2310669252ece24c0b9a|Deprecate swift::proxy::ceilometer::auth_uri|Fri, 14 Feb 2020 11:27:31 +0900|Tue, 18 Feb 2020 08:06:04 +0900
+9344031dafb72336ce47c7922651581493f0ea95|Add region parameters for keystone authentication|Tue, 11 Feb 2020 23:58:58 +0900|Tue, 18 Feb 2020 08:04:54 +0900
+b6b458cd59bde37635a1c146e6c76a62505be4e3|Add support for service token parameters|Mon, 17 Feb 2020 07:38:33 +0900|Mon, 17 Feb 2020 07:38:33 +0900
+d9992eea4f5814c15619b43fd3fd4be67fc1bb3e|[ussuri][goal] Cleanup for python 2.7 drop|Sat, 15 Feb 2020 20:51:06 -0600|Sat, 15 Feb 2020 20:52:07 -0600
+48a8fc8ff8d1c024dd4fafcb63fe9c8f41edd61c|Prepare Ussuri M2|Thu, 13 Feb 2020 14:21:29 +0800|Thu, 13 Feb 2020 14:21:29 +0800
+560c3d66ef35d1964b3215744740060bd0a09682|Merge "Add support for swift-recon-cron job"|Fri, 7 Feb 2020 06:05:46 +0000|Fri, 7 Feb 2020 06:05:46 +0000
+e28bb7450a92517fe0112b7d906db6851785a5dd|Merge "Add support for audit middleware"|Thu, 6 Feb 2020 18:37:48 +0000|Thu, 6 Feb 2020 18:37:48 +0000
+cf1dd1ea62020f62bb151ffc3d65bdfd8f22fc25|Add support for swift-recon-cron job|Fri, 15 Nov 2019 13:59:34 +0900|Fri, 31 Jan 2020 16:57:23 +0900
+12b62e289c35af587d6a8d688d5103eb05f35d98|Merge "Allow users to change container-replicator interval value."|Mon, 20 Jan 2020 16:03:46 +0000|Mon, 20 Jan 2020 16:03:46 +0000
+7d46d12b4103355a2bcb69395486631004ffe826|Allow users to change container-replicator interval value.|Thu, 31 Oct 2019 16:50:18 -0400|Sat, 18 Jan 2020 08:18:05 -0500
+57e99ef4544716626361f4c26823514deff31a56|Fix stdlib version in metadata|Wed, 11 Dec 2019 11:53:04 +0800|Wed, 11 Dec 2019 11:53:04 +0800
+f75d53ce1041bf7a6bf2e75b5082975b8c092c4f|Prepare Ussuri M1|Tue, 10 Dec 2019 14:24:49 +0800|Tue, 10 Dec 2019 14:24:49 +0800
+0868b32e799f13229000e3ece8748bfd18eb1b15|Convert all class usage to relative names|Sun, 8 Dec 2019 23:21:35 +0100|Sun, 8 Dec 2019 23:21:35 +0100
+14d1bda0b367d95a081e473666c6e440049e87d2|This add chunk_size related parameters for proxy-server and object-server.|Tue, 19 Nov 2019 17:59:02 +0100|Wed, 20 Nov 2019 09:55:29 +0100
+433cd29da3874cdd8b534c63fbaf25f175e885e1|Merge "Add parameter memcache_max_connections"|Fri, 15 Nov 2019 14:51:45 +0000|Fri, 15 Nov 2019 14:51:45 +0000
+2a6175e2f7b1300ef26e0c12172a53a81cdeb166|Add parameter memcache_max_connections|Fri, 8 Nov 2019 10:58:54 +0100|Wed, 13 Nov 2019 18:11:55 +0100
+7a1851920da7f7491b38308d6303695d381bde8f|Add parameter client_timeout|Fri, 8 Nov 2019 15:57:48 +0100|Fri, 8 Nov 2019 15:57:48 +0100
+57503cb95a178dfaa15b9031062063f6196866b1|Update master for stable/train|Fri, 4 Oct 2019 13:36:42 +0000|Fri, 4 Oct 2019 13:36:42 +0000
+c9bd95b700ffc4bcb1968689741d00d715f7ff5f|Merge "Update the constraints url"|Fri, 27 Sep 2019 07:31:36 +0000|Fri, 27 Sep 2019 07:31:36 +0000
+776bd4120248d0c82d11ae3c9b7900301264a8e8|Update the constraints url|Thu, 26 Sep 2019 10:26:19 +0800|Thu, 26 Sep 2019 10:27:03 +0800
+7fe80715ac36cd5b542b77e78af3679105d6c5bb|Prepare Train RC1|Wed, 25 Sep 2019 13:45:44 +0800|Wed, 25 Sep 2019 13:45:44 +0800
+0abedc03632a898f6a03dda5d496ef14842a9f5c|Prepare Train M4|Thu, 5 Sep 2019 09:04:50 +0800|Thu, 5 Sep 2019 09:04:50 +0800
+2976c7d889cf7bc29a61e4bbf3fba662f08c3840|Add support for audit middleware|Fri, 30 Aug 2019 12:24:22 +0200|Sat, 31 Aug 2019 11:53:15 +0200
+5ac50fe577dadb65c376d93912e9a8a4b43c97e3|Bump the openstackdocstheme extension to 1.20|Tue, 13 Aug 2019 11:29:08 +0800|Tue, 13 Aug 2019 11:29:08 +0800
+573d1ca67ae8ecf60320da97c86343ea09eee65f|Sync Sphinx requirement|Wed, 7 Aug 2019 09:10:09 +0800|Wed, 7 Aug 2019 09:10:09 +0800
+75bdc8189f5f2718671d72ce20f09d4023ebd6e7|Prepare Train M3|Wed, 24 Jul 2019 16:19:41 +0800|Wed, 24 Jul 2019 16:19:41 +0800
+9cec44f7cf5f925364809da15131fc5ed3ad6be6|Merge "Deprecated swift::client_package_ensure"|Wed, 12 Jun 2019 02:31:18 +0000|Wed, 12 Jun 2019 02:31:18 +0000
+38753f433dfd02b28973a9ce9751832217bebfdb|Deprecated swift::client_package_ensure|Sat, 8 Jun 2019 01:35:22 +0200|Mon, 10 Jun 2019 22:31:05 +0200
+575c2d1d81513bd4537911a97e53099f6613db2c|Prepare Train M2|Wed, 5 Jun 2019 09:40:23 +0800|Mon, 10 Jun 2019 10:06:24 +0800
+1041c07684a9d105b0b166c3cda0d1083bc829ba|Consistent project name|Sat, 25 May 2019 01:24:35 +0200|Sat, 25 May 2019 01:24:35 +0200
+1fde777783a737af4c1bc67d035a5d514da35961|Fix client spec test|Mon, 20 May 2019 11:03:21 +0800|Mon, 20 May 2019 11:03:21 +0800
+9208f91a88085faaf93682198722683b0183dd03|Port puppet-swift-tripleo-standalone to os_tempest|Tue, 30 Apr 2019 14:53:25 +0530|Tue, 30 Apr 2019 14:54:14 +0530
+52d08aad6ce04289deb9f1308da2fb1de1399755|Merge "Provide more useful fail message"|Thu, 25 Apr 2019 17:12:47 +0000|Thu, 25 Apr 2019 17:12:47 +0000
+ce1abdd7ec1b33a3d994f086f4ea00702fa0d18d|Move to opendev|Sun, 21 Apr 2019 14:44:49 +0800|Sun, 21 Apr 2019 14:44:49 +0800
+47aef3b075118d1b0e0e9cb031b008d09344e947|Fix Repository|Sun, 21 Apr 2019 12:59:10 +0800|Sun, 21 Apr 2019 12:59:10 +0800
+d78f9cf41a4d3c019be6ef60017b9e8f52ecfa3c|Replace git.openstack.org with opendev.org/openstack|Sun, 21 Apr 2019 11:50:32 +0800|Sun, 21 Apr 2019 11:50:32 +0800
+a0b32ce22a8cc4657a5efbaf64e20fce09241c21|OpenDev Migration Patch|Fri, 19 Apr 2019 19:48:05 +0000|Fri, 19 Apr 2019 19:48:05 +0000
+ca8c7369391639cabcc15ffa6d387f2e329d5c6b|Add Beaker-Rspec to the table of contents|Wed, 17 Apr 2019 09:42:45 +0800|Wed, 17 Apr 2019 09:42:45 +0800
+7ba36593118e9c28f78fbe8bb2b4ffc7f079788b|Bump version for the start of Train|Mon, 25 Mar 2019 07:25:24 -0600|Mon, 25 Mar 2019 07:27:48 -0600
+d21985fd3383222174c5d4fe060d9eb84df1af0e|Update master for stable/stein|Fri, 22 Mar 2019 16:54:25 +0000|Fri, 22 Mar 2019 16:54:25 +0000
+57f1edfa9fd035e3542d2da61db5913adb4eeeaa|Prepare Stein RC1|Mon, 18 Mar 2019 10:38:17 +0800|Mon, 18 Mar 2019 10:38:17 +0800
+d5139012d2e3309740b3c95add54986e839f5854|Prepare Stein M3|Wed, 6 Mar 2019 14:55:49 +0800|Wed, 6 Mar 2019 14:55:49 +0800
+c867856250422655003397375ae817a1a06467d3|Merge "Use validate_legacy"|Wed, 27 Feb 2019 04:35:18 +0000|Wed, 27 Feb 2019 04:35:18 +0000
+ba1ec6d40ca6cdfdac8f234af18aab7fe1e0dc8b|Use validate_legacy|Sat, 23 Feb 2019 22:57:48 +0100|Mon, 25 Feb 2019 22:49:42 +0100
+53bec29e29c6da3c707dc14cf9e901ecfac39e83|Merge "Change keystone v2.0 to v3"|Mon, 25 Feb 2019 19:22:04 +0000|Mon, 25 Feb 2019 19:22:04 +0000
+7366adca84e24c2f731946b1c398d95dafe1f786|Merge "Add release note about Ubuntu py3 upgrade"|Mon, 25 Feb 2019 17:17:32 +0000|Mon, 25 Feb 2019 17:17:32 +0000
+801104f3598ab63082bebd6284a84e51cdc51e78|Change keystone v2.0 to v3|Sun, 24 Feb 2019 13:56:44 +0100|Sun, 24 Feb 2019 13:56:44 +0100
+828b55826da729cf43b2763716d8fc03039e36ac|Add release note about Ubuntu py3 upgrade|Sun, 24 Feb 2019 00:11:26 +0100|Sun, 24 Feb 2019 00:11:26 +0100
+5a6296bc831bf223f408f3b1af8ca9ee77eeefc2|Change wiki to docs|Wed, 13 Feb 2019 10:31:11 +0800|Wed, 13 Feb 2019 10:31:11 +0800
+c4f85be184470113c8f2b4223eb9d3237c7a659a|Merge "Remove Ubuntu Xenial from metadata.json"|Mon, 11 Feb 2019 20:46:49 +0000|Mon, 11 Feb 2019 20:46:49 +0000
+7ae11fb09e704711289d8c2145d2bca8b042be75|Remove Ubuntu Xenial from metadata.json|Fri, 8 Feb 2019 11:38:08 +0100|Fri, 8 Feb 2019 11:38:08 +0100
+bc8dc5179a89562ca8733b58300963c7098dfda8|Inherit pyvers from openstacklib::defaults|Thu, 17 Jan 2019 22:03:44 +0100|Thu, 17 Jan 2019 22:03:44 +0100
+12143624e8f9c0c107a8d729d3da054dd56f155e|Merge "Modify puppet version 4 to 5"|Wed, 16 Jan 2019 19:43:52 +0000|Wed, 16 Jan 2019 19:43:52 +0000
+6b478c73a12e1a8efe83b0b68ed1aab1a6fccd3b|Modify puppet version 4 to 5|Tue, 15 Jan 2019 10:11:19 +0800|Tue, 15 Jan 2019 10:11:19 +0800
+1428c5074c602ee01c3ba639e38c7805700e0c1c|Remove swift::proxy::keystoneauth::admin_token|Mon, 14 Jan 2019 17:18:26 +0100|Mon, 14 Jan 2019 17:19:56 +0100
+2d818c66f62e752b3e5e989b76e590691d1b00e2|Prepare Stein M2|Thu, 10 Jan 2019 09:24:03 +0800|Thu, 10 Jan 2019 09:24:03 +0800
+769e6bdf833418a2edcb78226bb602928f61bafa|Fix editorial problem|Mon, 24 Dec 2018 14:02:32 +0800|Mon, 24 Dec 2018 14:02:32 +0800
+ae1d88a5ef94d49284c559247207a062499fa706|Merge "Fix lint"|Sat, 22 Dec 2018 01:22:17 +0000|Sat, 22 Dec 2018 01:22:17 +0000
+98ee29a683a20a73b5beeeb6b15193ee746e874a|Fix rsync version in metadata|Fri, 21 Dec 2018 09:23:59 +0800|Fri, 21 Dec 2018 09:29:39 +0800
+db9bd4405a84d78fa6eaa4f14f94562c5dcc21c7|Fix lint|Tue, 18 Dec 2018 11:13:19 +0100|Tue, 18 Dec 2018 11:13:19 +0100
+d010df98c66b89557da4fc473b18839c76c2d538|Merge "Deprecate auth_uri in swift::proxy::authtoken"|Mon, 17 Dec 2018 18:43:41 +0000|Mon, 17 Dec 2018 18:43:41 +0000
+85e9bf513b1505e44ae76cb58db6e6fdcbf39cc0|Merge "Fix module structure"|Thu, 13 Dec 2018 02:42:23 +0000|Thu, 13 Dec 2018 02:42:23 +0000
+1da81e1eb081575c8483aab91da1f78805245884|Fix module structure|Wed, 12 Dec 2018 11:49:39 +0100|Wed, 12 Dec 2018 11:49:39 +0100
+6aaf3ab21e81110314dab7531a85739d1ef474c2|Fix lint|Wed, 12 Dec 2018 08:53:11 +0800|Wed, 12 Dec 2018 08:53:11 +0800
+92e707f239222dfe1e7f9d8114f9dbaeaec363c2|Change openstack-dev to openstack-discuss|Sun, 2 Dec 2018 18:20:39 +0100|Sun, 2 Dec 2018 18:20:39 +0100
+d409c7b6c6010708a0e0620e001938d1f1710ba9|Deprecate auth_uri in swift::proxy::authtoken|Fri, 30 Nov 2018 11:31:52 +0100|Fri, 30 Nov 2018 16:48:13 +0100
+2e640cc9e6dba3a5640687ca1cf273144307a5e1|Merge "Change default keymaster api_class to 'barbican'"|Thu, 15 Nov 2018 03:18:04 +0000|Thu, 15 Nov 2018 03:18:04 +0000
+1f8723119ca7db3d2117497d4428b18cc8449df1|Prepare Stein M1|Tue, 13 Nov 2018 14:53:26 +0800|Tue, 13 Nov 2018 14:53:26 +0800
+072bdc5edf53d8cead3fcd739ae36b789c23fa61|Change default keymaster api_class to 'barbican'|Fri, 9 Nov 2018 14:35:39 +0100|Fri, 9 Nov 2018 14:36:23 +0100
+4fc8ec57563f79e0fb9f41bcacf15fe0a57cae1c|Fix stdlib version in metadata|Fri, 9 Nov 2018 14:56:42 +0800|Fri, 9 Nov 2018 14:56:42 +0800
+79f51081ce6f904d52a55a38eedb10fa32a4456a|Merge "Fix default signing_dir for Debian"|Wed, 7 Nov 2018 19:53:34 +0000|Wed, 7 Nov 2018 19:53:34 +0000
+092615ff80c68e79fc88a38d11cbbcfe34159de6|Install python3-swift in Fedora or RedHat > 7|Tue, 6 Nov 2018 17:33:23 +0100|Tue, 6 Nov 2018 17:33:53 +0100
+4d997af2cdebc0a177ce3f6e44933e539064dea3|Fix default signing_dir for Debian|Tue, 23 Oct 2018 10:55:05 +0200|Tue, 6 Nov 2018 14:06:19 +0100
+6a059689a5ebab1695f4af62c2327e4ef49fd9e9|Merge "Remove deprecated rabbit opts in swift::proxy::ceilometer"|Fri, 2 Nov 2018 22:17:21 +0000|Fri, 2 Nov 2018 22:17:21 +0000
+07c9feb8d571632a29e7a0873f286e9e7b04b313|Merge "Add puppet-swift-tripleo-standalone job"|Thu, 25 Oct 2018 17:27:50 +0000|Thu, 25 Oct 2018 17:27:50 +0000
+fb25baeaa99b6fd2bcd9679b4495ab5d0c17770b|Merge "Run tripleo standalone job"|Wed, 24 Oct 2018 18:13:35 +0000|Wed, 24 Oct 2018 18:13:35 +0000
+f2ea89695b990c2a00d7c24bb6fe3cd9b5fd00ad|Add puppet-swift-tripleo-standalone job|Fri, 12 Oct 2018 13:15:18 +0530|Tue, 23 Oct 2018 12:29:18 +0000
+a6e9e39bbed6c8317a21dc47f157e610fff2c0b3|Add parameter max_containers_per_account|Mon, 22 Oct 2018 17:38:35 +0200|Tue, 23 Oct 2018 11:25:34 +0000
+ef46b58da25c3ada23311770a965e3f45da2325c|Remove deprecated rabbit opts in swift::proxy::ceilometer|Sun, 21 Oct 2018 17:40:44 +0200|Sun, 21 Oct 2018 20:03:02 +0200
+82503a419fa7ba66c74a625905a5b70983fa487e|Merge "Update min tox version to 2.0"|Tue, 16 Oct 2018 23:25:05 +0000|Tue, 16 Oct 2018 23:25:05 +0000
+457cf65a5b9685ba3abe64211c703137e9aac2a1|Update min tox version to 2.0|Tue, 16 Oct 2018 11:40:18 +0800|Tue, 16 Oct 2018 11:43:45 +0800
+db15378216a98a6f7d7ed56b75fc7615199f92db|Limit number of default swift server workers|Tue, 9 Oct 2018 10:17:48 +0530|Fri, 12 Oct 2018 17:37:40 +0530
+20f1557a4cb642c59df682bbabcc3adce898fcb4|Run tripleo standalone job|Wed, 10 Oct 2018 10:10:04 +0200|Wed, 10 Oct 2018 10:11:57 +0200
+0104069ab1039cdbebeb661838a17c1060256b1b|Dissuade .gitignore references to personal tools|Mon, 8 Oct 2018 11:39:25 +0800|Mon, 8 Oct 2018 11:39:25 +0800
+31dc95fd151e4cc770b61c7b1af4ec13f8e6096a|Add servers_per_port parameter in object-server|Tue, 18 Sep 2018 12:00:05 +0200|Tue, 18 Sep 2018 15:48:54 +0200
+19634d28a64ca53ab52a69033d5c060351c6f9b4|Provide more useful fail message|Thu, 13 Sep 2018 20:09:44 -0400|Thu, 13 Sep 2018 20:38:27 -0400
+b8a1e3cc5114956ff2797386ce3c719df2555b2c|Merge "Bump version for the start of Stein"|Fri, 31 Aug 2018 21:40:00 +0000|Fri, 31 Aug 2018 21:40:00 +0000
+b7fd6567f59114219fdf3fbb6210e5c4e27adea5|switch documentation job to new PTI|Fri, 31 Aug 2018 08:24:46 -0400|Fri, 31 Aug 2018 08:24:46 -0400
+66be3cd46cbb8c07ec771bcfe9e6042eb0f09daf|import zuul job settings from project-config|Fri, 31 Aug 2018 08:23:12 -0400|Fri, 31 Aug 2018 08:23:12 -0400
+3e1621f96dfc5ad31ce9b8e2a16599548c702792|Bump version for the start of Stein|Thu, 30 Aug 2018 12:08:30 -0600|Thu, 30 Aug 2018 12:11:10 -0600
+51d7ddbdc2bc5ddefe9c78db96e561c08661e07d|Update reno for stable/rocky|Mon, 20 Aug 2018 18:42:48 +0000|Mon, 20 Aug 2018 18:42:48 +0000
+4f69c847d49649d7b4d1bb7d568f6600d23ed5d5|Remove PE requirement from metadata.json|Thu, 16 Aug 2018 23:27:26 +0200|Thu, 16 Aug 2018 23:27:26 +0200
+998716b1d0e49a042a97d01c714788bf39e5f6ff|Prepare Rocky RC1|Tue, 14 Aug 2018 08:56:17 -0600|Tue, 14 Aug 2018 08:58:46 -0600
+17da0fe96c2960cf1ea489675b2e2e06cbad70e6|Merge "Prepare Rocky M3"|Tue, 24 Jul 2018 20:44:10 +0000|Tue, 24 Jul 2018 20:44:10 +0000
+31710b23ca1c5ac9dde9fa69202ee8a3688e2d16|Prepare Rocky M3|Tue, 24 Jul 2018 10:17:05 -0600|Tue, 24 Jul 2018 10:20:06 -0600
+876a210e2f768610039d0cba8949fc99e5b508b0|Remove the unnecessary _|Wed, 18 Jul 2018 15:17:49 -0400|Wed, 18 Jul 2018 15:18:05 -0400
+d6c40398fc2026d587ef3908d5f9c52e06682606|Merge "Add the project source code repository in README"|Mon, 23 Jul 2018 12:45:19 +0000|Mon, 23 Jul 2018 12:45:19 +0000
+37f4dda21191a2dda08b6d5a8b360158b48d39d1|Merge "Fix OS versions in metadata"|Mon, 23 Jul 2018 11:50:33 +0000|Mon, 23 Jul 2018 11:50:33 +0000
+c180fcdd03203af79d88868a27b6995baf929ac4|Add the project source code repository in README|Fri, 20 Jul 2018 22:41:40 +0800|Fri, 20 Jul 2018 22:42:16 +0800
+3cacb7c13fe65f8da655d692eaab02a67d1caa93|Fix OS versions in metadata|Thu, 19 Jul 2018 09:23:37 +0700|Thu, 19 Jul 2018 09:23:37 +0700
+6970fd9670e44bb09ca31c0cc3e2d5b1b1bc990d|modulesync: sync and add nodepool-bionic for beaker|Wed, 18 Jul 2018 16:20:10 +0200|Wed, 18 Jul 2018 16:20:10 +0200
+341051eefe3ba33988445ec9aedee46eaa90e797|Merge "Fix inifile version in metadata"|Mon, 16 Jul 2018 15:54:51 +0000|Mon, 16 Jul 2018 15:54:51 +0000
+9a8e25937a51dfb591285dc637578c240adc3ba2|Fix inifile version in metadata|Mon, 16 Jul 2018 14:59:27 +0800|Mon, 16 Jul 2018 14:59:27 +0800
+287f2113c9eeca5e52a7f794d7248c27f632d6a8|Enable use of splice in object server|Mon, 9 Jul 2018 03:17:18 -0400|Mon, 9 Jul 2018 08:49:04 -0400
+f9a446d3bd65d41e000851e1d27ce5996422cbb8|Debian release is 9 in metadata|Mon, 2 Jul 2018 14:04:36 +0800|Mon, 2 Jul 2018 14:04:36 +0800
+4217842795654b1335bee6bf9dc85a4da8e92ffa|Merge "add release note link in readme"|Mon, 25 Jun 2018 02:26:48 +0000|Mon, 25 Jun 2018 02:26:48 +0000
+f22631a231939a18f1db5ffe614e7acf372f95b8|add release note link in readme|Thu, 21 Jun 2018 14:52:31 +0000|Thu, 21 Jun 2018 14:52:57 +0000
+b35b090cfb18787815dedc0ce8366ff53ea6b14a|Add tripleo jobs|Tue, 19 Jun 2018 13:36:47 -0600|Tue, 19 Jun 2018 13:59:08 -0600
+8b97c6fff0a2f2e906f0359a9c7f3963c318bec9|Merge "Replace port 35357 with 5000"|Mon, 18 Jun 2018 22:59:57 +0000|Mon, 18 Jun 2018 22:59:57 +0000
+051d6ec439708d1bb86e921125c10d1dea81122b|Merge "Add section for container-sharder service"|Fri, 15 Jun 2018 15:35:09 +0000|Fri, 15 Jun 2018 15:35:09 +0000
+6fcd5bd0eefb5e27b69adfbaa027b5db05aace74|Remove extra spaces|Fri, 15 Jun 2018 15:14:41 +0800|Fri, 15 Jun 2018 15:14:41 +0800
+a4e1c840918377c114b7127f029cf88865a24a2f|Add section for container-sharder service|Mon, 11 Jun 2018 10:02:06 +0200|Mon, 11 Jun 2018 10:02:43 +0200
+5ee0559cd9b2f29837a2c666118d8cf0ed5b0cf4|fix tox python3 overrides|Fri, 8 Jun 2018 14:23:33 +0800|Fri, 8 Jun 2018 14:23:33 +0800
+c77abdc9788b653754b90970e5e98129aac0f252|Prepare a new Rocky release|Tue, 5 Jun 2018 09:43:25 -0700|Tue, 5 Jun 2018 09:47:20 -0700
+ecf9394d989fc7cfec7fe99ae39d9e906b6dbb55|Replace port 35357 with 5000|Tue, 29 May 2018 11:47:11 -0400|Tue, 29 May 2018 11:48:08 -0400
+70295a2777cd8f661c4fdcad4ba196955b413558|fix a typo in swift_bench_spec.rb|Wed, 23 May 2018 21:14:38 +0800|Wed, 23 May 2018 21:15:00 +0800
+e7d670b13a687344e483f5018e4847aa25d1c5db|Fix rspec-puppet-facts testing|Thu, 17 May 2018 00:13:44 +0200|Sat, 19 May 2018 14:17:20 +0200
+ca7070a567c4ec3f656fb9e653b5b53dbeb3a510|Configure www_authenticate_uri instead of auth_uri in authtoken|Tue, 15 May 2018 11:46:58 -0500|Wed, 16 May 2018 19:14:47 +0000
+f1eb88967026c65e16a47de9b4522ded437399ac|Merge "Update s3api configuration"|Sat, 5 May 2018 02:20:20 +0000|Sat, 5 May 2018 02:20:20 +0000
+bb93e6a3755b39cb2408d299ee3015ebed819b20|Update s3api configuration|Wed, 23 Aug 2017 18:54:17 -0400|Fri, 4 May 2018 17:54:01 -0400
+25d88e982333eae079723198171fc06b615bf76b|Set log_facility, log_level in obj expirer|Fri, 4 May 2018 14:20:57 -0400|Fri, 4 May 2018 14:20:57 -0400
+ecb052b9e11b23f5f7b0ddbbdb0d9aaf5f5d5be8|Prepare Rocky M1|Thu, 19 Apr 2018 08:54:37 -0600|Thu, 19 Apr 2018 08:57:54 -0600
+d1eb2f159c7198ffc92c2d802f09390c55df1a49|Merge "Update .gitignore"|Wed, 18 Apr 2018 00:57:42 +0000|Wed, 18 Apr 2018 00:57:42 +0000
+09139955cbe02e9e8a150da3909255f9c36c8721|Debian is using python3-swiftclient|Thu, 12 Apr 2018 11:36:09 +0800|Thu, 12 Apr 2018 11:36:09 +0800
+ee3ff43f4453163754a376e597d4f892c47b0b4e|Test multiple operating systems for policy|Thu, 12 Apr 2018 11:33:12 +0800|Thu, 12 Apr 2018 11:34:05 +0800
+a52d6f87073889848c13d1c056c76ccf6e45de01|Update .gitignore|Wed, 11 Apr 2018 08:43:45 +0800|Wed, 11 Apr 2018 08:55:37 +0800
+fc4dbae26113b3d9e6c7842d8c2927b0a638f0d0|Update LICENSE|Fri, 6 Apr 2018 10:18:59 +0800|Fri, 6 Apr 2018 20:15:09 +0800
+93638f369645bc81a2f06f189a86d5e15ffc8716|fix typos in documentation|Fri, 23 Mar 2018 06:03:25 +0800|Fri, 23 Mar 2018 06:03:25 +0800
+a9044c97760ae806dbf46d5d9c2c49ce35286e4d|Follow the new PTI for document build|Wed, 28 Feb 2018 14:42:12 +0800|Wed, 28 Feb 2018 14:42:12 +0800
+4587dc5d0d957f10356fa84ef4b5f50cbc349400|Update reno for stable/queens|Tue, 20 Feb 2018 22:20:19 +0000|Tue, 20 Feb 2018 22:20:19 +0000
+d981ea9dea38ee0417c07d198e33339677ec346e|Prepare for official Queens release|Mon, 19 Feb 2018 12:37:53 -0500|Mon, 19 Feb 2018 12:43:24 -0500
+fe5bb6ec4d759968b4d92a49727a76ce94e2559a|Load puppet-openstack_spec_helper locally during tests|Mon, 12 Feb 2018 10:53:39 +0800|Mon, 12 Feb 2018 10:53:39 +0800
+1616f36bc044eb7ff32efd5f9cb5d29a14a16daa|Merge "Adding barbican configuration to swift"|Thu, 8 Feb 2018 17:15:55 +0000|Thu, 8 Feb 2018 17:15:55 +0000
+c85beff334d527245ca428e47e7411fcdb42937d|Adding barbican configuration to swift|Mon, 4 Dec 2017 16:20:27 -0500|Wed, 7 Feb 2018 12:03:19 -0500
+71c4fee81c0924316335a0bd280b6f5eff5b7920|Zuul: Remove project name|Wed, 24 Jan 2018 16:53:09 -0800|Tue, 6 Feb 2018 21:40:52 +0000
+f95b5bac757eb9567581106bafdee3649189478a|Add facts needed by memcached to avoid failing.|Mon, 5 Feb 2018 16:35:43 -0500|Mon, 5 Feb 2018 18:33:40 -0500
+de58ee918c88034d58f354e6512bed8257daa099|Merge "Remove pinned versions from test-requirements.txt"|Wed, 17 Jan 2018 14:02:26 +0000|Wed, 17 Jan 2018 14:02:26 +0000
+243ee7bfc4ec77a1cd9a82c838d7664a952a9b1f|Prepare for Queens Milestone 3|Tue, 16 Jan 2018 15:51:10 -0800|Tue, 16 Jan 2018 15:55:52 -0800
+4c6fb6d4290198dd96a0f550573048b8a2ba3472|Remove pinned versions from test-requirements.txt|Tue, 16 Jan 2018 12:29:50 +0800|Tue, 16 Jan 2018 12:29:50 +0800
+c6fa9722f882db8db44db802d2611518d55b11f5|Run puppet-openstack-beaker-jobs|Thu, 21 Dec 2017 18:59:45 -0800|Thu, 21 Dec 2017 18:59:45 -0800
+677622dc6da860a15666cbdc1f2847f145877b7c|Prepare for Queens Milestone 2|Tue, 28 Nov 2017 16:14:20 -0700|Tue, 28 Nov 2017 16:19:23 -0700
+5f84cddfb9c637e8f1e1c0d8e657c040b9f9d2b6|Remove unused template for rsyncd.conf|Mon, 27 Nov 2017 15:37:15 +0100|Mon, 27 Nov 2017 15:40:50 +0100
+51474466d9d349bdc36cf0bc1c59081ab5c3b446|Merge "Switch to Zuul v3 testing"|Tue, 14 Nov 2017 18:36:18 +0000|Tue, 14 Nov 2017 18:36:18 +0000
+ce7c8d00718cf4150b36ddfe59b245d10be1d69d|Fix metadata for queens-1|Mon, 13 Nov 2017 09:51:46 -0700|Mon, 13 Nov 2017 09:51:46 -0700
+df262e20ecbe2d94cffd95ae3ab7947fc088436a|Switch to Zuul v3 testing|Thu, 26 Oct 2017 08:43:10 +0800|Mon, 13 Nov 2017 02:40:43 +0000
+2c7ad30ffe12b1a0855a0475ad86b0703cd5a8f2|Add Puppet package to bindep, for module build|Fri, 27 Oct 2017 13:16:23 -0700|Tue, 31 Oct 2017 01:18:46 +0000
+cdc5ebf5913437b68c2744d179b919999bf7809e|Disable SELinux for acceptance tests|Mon, 30 Oct 2017 20:25:39 -0400|Mon, 30 Oct 2017 20:46:06 -0400
+efc5e48c3f496a9ca770a8dc5fda151aaea36b42|Prepare for Queens Milestone 1|Tue, 17 Oct 2017 14:26:32 -0600|Wed, 18 Oct 2017 01:56:02 +0000
+b751869210eb1e1fdb90a1fcfac78a9cc889b58b|Update to the latest address in README|Thu, 21 Sep 2017 12:32:11 +0800|Thu, 21 Sep 2017 12:32:11 +0800
+a1929d76739f5afe7a1fff9ed1d56e60c6981e05|Update openstackdocstheme to latest version|Tue, 19 Sep 2017 21:11:28 +0800|Wed, 20 Sep 2017 11:07:00 +0800
+93f51d749b464222f2d2ef3ffc91f19dfdd95b83|Merge "Use Python to compute release notes version"|Thu, 31 Aug 2017 09:19:31 +0000|Thu, 31 Aug 2017 09:19:31 +0000
+1e1c9fe275eeb2aae1336486a763f0a349a7bb94|Merge "Expose account/container/object worker count"|Thu, 31 Aug 2017 09:19:25 +0000|Thu, 31 Aug 2017 09:19:25 +0000
+e775b2618a31274558f293fc91aa530dbbdc78ba|Use Python to compute release notes version|Wed, 30 Aug 2017 13:48:08 -0700|Wed, 30 Aug 2017 13:48:08 -0700
+d3961785fe7d179035d35f5da4d8a40e7e89d407|Merge "Remove deprecated parameters for keystone::auth"|Sat, 26 Aug 2017 12:46:06 +0000|Sat, 26 Aug 2017 12:46:06 +0000
+e8447d11c6e58b9239a408b5f4cad5523c5b88fc|Merge "Update versions for Queens cycle"|Fri, 25 Aug 2017 20:50:17 +0000|Fri, 25 Aug 2017 20:50:17 +0000
+ec3ac14a1e7564d4ce8b4769c07ae921489c5710|Merge "Update reno>=2.5.0"|Fri, 25 Aug 2017 19:31:19 +0000|Fri, 25 Aug 2017 19:31:19 +0000
+41cf287439c42d913d9ec2a797648d57ed0b99da|Expose account/container/object worker count|Fri, 25 Aug 2017 12:26:39 +0200|Fri, 25 Aug 2017 12:26:39 +0200
+030c994f8b58ac6e309e22d39f9e1e0b94627111|Update versions for Queens cycle|Thu, 24 Aug 2017 13:06:05 -0600|Thu, 24 Aug 2017 13:08:15 -0600
+aaf029cdcb44ff88c12aca04abb09ace531539ed|Update reno for stable/pike|Thu, 24 Aug 2017 14:01:50 +0000|Thu, 24 Aug 2017 14:01:50 +0000
+c90740b753c624bbbca1e1402bd7c0b03f269fcd|Remove deprecated parameters for keystone::auth|Thu, 24 Aug 2017 09:23:24 +0800|Thu, 24 Aug 2017 11:47:23 +0800
+bdd01148d004005fe4fadc182a97a40d5f7f1815|Merge "Prepare for official Pike release"|Wed, 23 Aug 2017 12:17:42 +0000|Wed, 23 Aug 2017 12:17:42 +0000
+1dd1949bb3e3b6c0dbb445c51ab6a35719da7e26|Prepare for official Pike release|Mon, 21 Aug 2017 15:58:44 -0600|Mon, 21 Aug 2017 16:00:51 -0600
+8fd65771101c263a9b4397a4cf9bdd8a14cb1467|Add swift_proxy_config in swift::config|Mon, 21 Aug 2017 15:37:43 +0800|Mon, 21 Aug 2017 15:37:43 +0800
+fbe67bff3fc2269b710085b01d24a7fd0bb5b193|Update reno>=2.5.0|Mon, 21 Aug 2017 11:21:39 +0800|Mon, 21 Aug 2017 11:21:39 +0800
+8aeab42257fbe97bac9ed731d8386addf1505127|Merge "Update openstackdocstheme>=1.16.0"|Sat, 5 Aug 2017 07:00:30 +0000|Sat, 5 Aug 2017 07:00:30 +0000
+95a050e93961328df2dcf13b0ece98019a4d86d9|Bump modules to next minor with -dev|Fri, 4 Aug 2017 13:36:15 -0600|Fri, 4 Aug 2017 13:38:49 -0600
+4bf4c454a9fd1981d490d623fdf334340c315849|Merge "Update resource references for dependencies"|Wed, 2 Aug 2017 21:22:56 +0000|Wed, 2 Aug 2017 21:22:56 +0000
+8686642562ea86cd2f1457ab332ecaad02088130|Update resource references for dependencies|Fri, 14 Jul 2017 15:47:52 +0800|Tue, 1 Aug 2017 16:09:42 -0600
+bd024be18da3159008a0496990376150192e58b4|Merge "Update URLs in documents according to document migration"|Mon, 31 Jul 2017 19:52:21 +0000|Mon, 31 Jul 2017 19:52:21 +0000
+a53e5f73077dcabd8d837d65f5e7543082a5d973|Update openstackdocstheme>=1.16.0|Mon, 31 Jul 2017 11:03:59 +0800|Mon, 31 Jul 2017 11:03:59 +0800
+ccc40c93cfe9155c680da1debef8f2ee53ca017d|Drop -dev version for Pike M3|Tue, 25 Jul 2017 08:12:57 -0600|Tue, 25 Jul 2017 08:15:20 -0600
+86f435a2a56ddc13c361490a45309f11813a27ad|Update URLs in documents according to document migration|Fri, 14 Jul 2017 08:54:27 +0800|Fri, 14 Jul 2017 13:05:37 +0800
+8380976e338783ab006ae9e0f95c5164833919fb|Support to pass external args in parted command|Thu, 13 Jul 2017 16:09:20 +0800|Fri, 14 Jul 2017 11:33:43 +0800
+759f10331a1c0486981f1d880e13c46b60e01fce|Merge "Add Support of mounting devices by UUIDs"|Wed, 12 Jul 2017 03:28:20 +0000|Wed, 12 Jul 2017 03:28:20 +0000
+0eeada75f0568143b0908fd3cf9723388b420910|Merge "Change author in setup.cfg"|Tue, 11 Jul 2017 11:32:47 +0000|Tue, 11 Jul 2017 11:32:47 +0000
+68854cdcfa37a6c5b59dc96f67de99bb067c5f0a|Merge "Add missing Swift object reconstructor service"|Mon, 10 Jul 2017 20:00:29 +0000|Mon, 10 Jul 2017 20:00:29 +0000
+4ba33cdff2925e9dff9510ff2d4e1c9b5e505c4f|Add Support of mounting devices by UUIDs|Wed, 28 Jun 2017 17:31:19 +0800|Mon, 10 Jul 2017 23:06:53 +0800
+93886227ed990d60bf8953c154d03a529c6213c1|Change author in setup.cfg|Tue, 4 Jul 2017 18:19:31 +0530|Tue, 4 Jul 2017 18:20:08 +0530
+64ed45651af99bb71b0522f6a6220288e61fc4d3|Fix openstackdocstheme|Sun, 2 Jul 2017 14:27:05 +0800|Sun, 2 Jul 2017 14:27:05 +0800
+28d2018d0a895fa857336c8aac5d33322c5b52c5|Switch from oslosphinx to openstackdocstheme|Mon, 26 Jun 2017 10:11:25 +0800|Mon, 26 Jun 2017 10:11:25 +0800
+e8f765dcdeed737f2e1b8af1a17c7d6f19b244a0|Tighten file permissions of dispersion.conf|Wed, 21 Jun 2017 18:12:02 +0200|Wed, 21 Jun 2017 18:19:28 +0200
+0e8c75e5267a93a7706d98fd070b0f1aab540a3e|Merge "Enable Swift containersync on Red Hat platform"|Fri, 16 Jun 2017 20:39:06 +0000|Fri, 16 Jun 2017 20:39:06 +0000
+dede1d449473f99c4f929e555a3b65b974ebad4b|Enable Swift containersync on Red Hat platform|Fri, 16 Jun 2017 15:40:12 +0200|Fri, 16 Jun 2017 15:50:31 +0200
+af6fb24845b6f53a047efd1d9c2a80d42b3f8770|Add missing Swift object reconstructor service|Wed, 15 Mar 2017 15:53:46 +0100|Fri, 16 Jun 2017 14:39:17 +0200
+fcb143cda7a80a7b2ae9fef291b7b412c26c7510|Add environment variable|Mon, 12 Jun 2017 16:05:08 +0800|Mon, 12 Jun 2017 16:05:08 +0800
+1007f3bc08c921b04eaa963744c245bbc9500539|Merge "Bump version for Pike M3 Dev"|Fri, 9 Jun 2017 09:31:54 +0000|Fri, 9 Jun 2017 09:31:54 +0000
+f7a85d6d67be14e71fd14a666027a0cb10e4d1e0|Bump version for Pike M3 Dev|Thu, 8 Jun 2017 15:30:57 -0600|Thu, 8 Jun 2017 15:34:06 -0600
+5a7f3534297e90c54408f3f7c4299e9a81633d02|Update global requirements|Thu, 8 Jun 2017 13:56:59 +0800|Thu, 8 Jun 2017 13:56:59 +0800
+4955428bf0fec3aba49adc063cd41ab5923e02fd|Drop -dev in preparation for Pike M2|Thu, 1 Jun 2017 08:53:02 -0600|Thu, 1 Jun 2017 08:55:14 -0600
+28cbb68958311c4bf153544e8439d3ae19c89740|Add support for ignore_projects for ceilometer events|Fri, 12 May 2017 08:30:15 -0400|Thu, 18 May 2017 12:24:18 +0000
+e6aec1f199483865acd01cf8b108ed2b26b22c4a|Update tox configuration|Wed, 17 May 2017 09:46:50 -0600|Wed, 17 May 2017 09:46:53 -0600
+1a22b511fd16f5e1d2eb8b833797c7590f558c64|Use LOCAL2 consistently as default everywhere|Tue, 25 Apr 2017 10:24:21 +0200|Tue, 25 Apr 2017 22:07:15 +0200
+898033be109d61214dd8cdf1d286cc1b6a0707a8|Bump modules to next minor with -dev|Fri, 21 Apr 2017 17:21:44 -0600|Fri, 21 Apr 2017 17:24:17 -0600
+fd80ec5c49a536a98c95f40cb80c84a9c8a46a0e|Drop -dev for release prep|Wed, 5 Apr 2017 10:36:14 -0600|Wed, 5 Apr 2017 10:46:14 -0600
+c64538ef8387128226dedbb51cac6548570d84e3|Fix raising an error on rebalance warnings|Thu, 30 Mar 2017 14:15:28 +0200|Thu, 30 Mar 2017 14:39:04 +0200
+ea50a20ad871b842e9486fbe6194e2be9fa01974|Update test-requirements.txt|Thu, 23 Mar 2017 14:54:23 +0800|Thu, 23 Mar 2017 14:54:23 +0800
+2628d0fae8bdb5c4c7141b842e164a8977b3b0ca|Fix some typos in swift_storage_policy.rb|Fri, 17 Mar 2017 02:53:59 +0000|Fri, 17 Mar 2017 02:55:40 +0000
+2efc06140fda47211c0e5cc387505f60a5a0444f|Issue warning when old Swift ports are used|Wed, 15 Mar 2017 06:58:35 -0600|Wed, 15 Mar 2017 07:47:04 -0600
+7bab8544ff8a03999234f240684ac987bf2a5e0d|create swift user after installing ceilometer package|Fri, 10 Mar 2017 18:36:37 -0500|Sat, 11 Mar 2017 02:53:20 +0000
+1d0ba466e601f17116503eb942a245a8b0e44795|rabbitmq SSL: check puppet resource instead of actual config|Fri, 10 Mar 2017 13:47:48 +0200|Fri, 10 Mar 2017 15:59:09 +0200
+fb9e6dcecccb2593df917e81ea4ec6ac8e6892f0|Replace references to swift.openstack.org|Wed, 8 Mar 2017 09:49:39 -0600|Wed, 8 Mar 2017 09:50:24 -0600
+c635e3e54bd2da07b1e88730aacbf7cf01a69ca5|Prepare Pike metadata|Tue, 7 Mar 2017 14:39:57 -0700|Tue, 7 Mar 2017 15:34:59 -0700
+be6122e9365bf5842567980062a7a5a6341fd46c|Enable SSL options for swift-proxy's ceilometermiddleware notifications|Thu, 23 Feb 2017 14:28:42 +0200|Thu, 23 Feb 2017 15:47:30 +0200
+e2924169900b04b1dd0e363b3517ac9eca834bba|Update reno for stable/ocata|Wed, 8 Feb 2017 11:04:45 +0000|Wed, 8 Feb 2017 11:04:45 +0000
+62dff7dc160eebd6e50e6c77d4a1cca625d5bc01|Prepare ocata-rc1 release|Fri, 3 Feb 2017 16:21:53 -0700|Fri, 3 Feb 2017 16:24:21 -0700
+965fdf4291d5064b80ef3789bf497413825ba7ab|Prepare 10.2.1 release|Thu, 26 Jan 2017 13:23:25 -0700|Thu, 26 Jan 2017 13:24:07 -0700
+bf21e216f8beac92b5d9d357ecefd023e8f92860|Fix typo in swift_keystone_test.rb & swift.rb|Fri, 20 Jan 2017 06:17:26 +0000|Fri, 20 Jan 2017 06:18:42 +0000
+121615cc1f6f1794581e3f3bb609f955b36f5b8c|Change storage worker default to ::os_workers|Wed, 11 Jan 2017 10:28:50 +0100|Wed, 11 Jan 2017 10:31:49 +0100
+afa2874daf81a471c6d1d4353857c9306fd98e53|Pin reno version to reno>=0.1.1,!=2.0.0|Thu, 22 Dec 2016 15:15:00 +0400|Thu, 22 Dec 2016 11:26:47 +0000
+9e6fff22400ababf8fcf791589e91aa70ff4baa0|Prepare 10.1.0 release|Fri, 9 Dec 2016 09:34:05 -0700|Fri, 9 Dec 2016 09:35:31 -0700
+d4922bee39b6ebf33eafe170154943a37a9aba0f|memcache_servers support in object-expirer and container-reconciler|Tue, 27 Sep 2016 17:50:21 +1000|Mon, 5 Dec 2016 15:30:35 +1100
+f8d488133e61f03006e3f1a521ad43cf75ab1c01|Merge "Add swift::storage::loopbacks class"|Thu, 1 Dec 2016 23:14:06 +0000|Thu, 1 Dec 2016 23:14:06 +0000
+2ed840369b19aed0bd5d1c0bb04aca221c4a8c09|Add swift::storage::loopbacks class|Wed, 30 Nov 2016 20:37:57 +0000|Thu, 1 Dec 2016 15:29:00 +0000
+83f105f5395a7259064a0ad5b43efb6309c6c2b2|Secure amqp_url option|Wed, 30 Nov 2016 15:14:50 +0800|Wed, 30 Nov 2016 16:33:32 +0800
+72ae69d4f11645ea9ce1dbfa52650aca4ded9391|Show team and repo badges on README|Fri, 25 Nov 2016 17:08:55 +0100|Fri, 25 Nov 2016 17:32:45 +0100
+63688a14e57282ae97072b406c81d0da2f61965c|Add support for swift storage policies|Wed, 8 Jun 2016 19:24:19 +0000|Tue, 22 Nov 2016 16:17:52 +0000
+1b8869e6ae1085588d8b2b3a893f5587ec6ea255|Pass subscribe and require into service resource|Mon, 21 Nov 2016 09:26:37 -0500|Mon, 21 Nov 2016 23:35:23 +0000
+8b1f4f3acb4b888707c3e01014f88dea18d181ab|Merge "Prepare 10.0.0 release"|Thu, 17 Nov 2016 20:08:52 +0000|Thu, 17 Nov 2016 20:08:52 +0000
+5736f916626884c76adc361a80e1124dad7f332b|Merge "Fix common options position in params.pp"|Tue, 15 Nov 2016 13:03:45 +0000|Tue, 15 Nov 2016 13:03:45 +0000
+c8e878b5258a563ddab2e602d1f5c7f77fa93798|Prepare 10.0.0 release|Mon, 14 Nov 2016 16:39:19 -0700|Mon, 14 Nov 2016 16:40:59 -0700
+1029173a0c13ce82ae345081b55613df8a9709fd|Merge "Remove trailing whitespace"|Thu, 10 Nov 2016 18:07:52 +0000|Thu, 10 Nov 2016 18:07:52 +0000
+9d22a27038c84dfb2a357ebc2b67c637cd69d6c2|Deprecate rabbitmq connection parameters|Tue, 8 Nov 2016 15:32:20 -0700|Tue, 8 Nov 2016 17:16:21 -0700
+26e6da96bdeb15b11d20aeba6a5d7bb2725fb45f|Remove trailing whitespace|Tue, 8 Nov 2016 16:05:45 +0100|Tue, 8 Nov 2016 16:08:13 +0100
+eb2cb392951bd9a9ead9ae2ffe8b00d0e792616e|Fix common options position in params.pp|Tue, 8 Nov 2016 11:33:06 +0800|Tue, 8 Nov 2016 11:33:06 +0800
+22f32f8ea19e7319a070f282546ce99117118de9|Merge "set url_base option in staticweb swift middleware"|Sat, 5 Nov 2016 15:44:57 +0000|Sat, 5 Nov 2016 15:44:58 +0000
+239a8e592cbda00ee1ea55606aedaa313c232713|set url_base option in staticweb swift middleware|Wed, 2 Nov 2016 14:08:27 -0400|Fri, 4 Nov 2016 10:49:20 -0400
+c7b3299808cee4987e135f99c34be1b2bca6f2cc|Merge "Fix puppet version for requirements in metadata"|Fri, 4 Nov 2016 02:00:32 +0000|Fri, 4 Nov 2016 02:00:32 +0000
+3fb02701f33dd7594851b13c5f68bcd527751a05|Add reseller_admin_role config to proxy::keystone|Thu, 3 Nov 2016 09:34:14 -0600|Thu, 3 Nov 2016 09:34:14 -0600
+f76d485eedfd689efe3eb7a3757d8cd091b6021f|Fix puppet version for requirements in metadata|Thu, 3 Nov 2016 10:28:08 +0800|Thu, 3 Nov 2016 12:03:19 +0800
+49a4be72777616f0b721c3779cf29f146311240d|Add nonblocking_notify to Swift proxy ceilometer config|Mon, 31 Oct 2016 23:01:23 +0100|Tue, 1 Nov 2016 12:07:27 +0100
+93ca5cd6c5b241836eba4cdb4ad56c5e2ef41aad|Merge "Change worker defaults to ::os_workers"|Thu, 20 Oct 2016 22:11:21 +0000|Thu, 20 Oct 2016 22:11:21 +0000
+3d8474bc8536eac51333e6d70498eb098d4f526c|Release 9.4.3 (newton)|Tue, 18 Oct 2016 21:41:24 -0400|Tue, 18 Oct 2016 21:41:24 -0400
+d6de6f90fa5ce9b638c20a9b0c50a58a9a2fc24a|Merge "Move swift::client to include from declared class"|Mon, 17 Oct 2016 18:15:15 +0000|Mon, 17 Oct 2016 18:15:15 +0000
+4304c6e7bc71a69bc2e646ce2e0aa59c918aec76|Move swift::client to include from declared class|Fri, 14 Oct 2016 12:58:50 -0700|Fri, 14 Oct 2016 13:02:36 -0700
+af4c987615650a9ebb67826964614eddb9a2667d|swift-concat requires swift-file dependency|Fri, 7 Oct 2016 17:26:47 +0000|Fri, 14 Oct 2016 16:04:39 +0000
+213be0429a5a7de7e715b88577ce976753cbd15d|Change worker defaults to ::os_workers|Thu, 6 Oct 2016 19:50:24 +0300|Mon, 10 Oct 2016 14:46:11 +0300
+ad6a7e4987d68ef8d6870ca472dc3d048e11f509|Merge "Fix markdown format typo"|Mon, 10 Oct 2016 11:16:16 +0000|Mon, 10 Oct 2016 11:25:59 +0000
+905acabee9a44883ab764108f1dc4de49e113d91|Fix markdown format typo|Sat, 8 Oct 2016 10:00:53 +0800|Sat, 8 Oct 2016 10:01:29 +0800
+f8d6c083343cd308da1fc68113b22664d276d011|Set concurrency to 1 for auditor/replicator/updater|Fri, 7 Oct 2016 14:56:37 +0200|Fri, 7 Oct 2016 15:03:40 +0200
+bb40ae3e945170360b3aa95fadc0016fbc1a95c3|Release 9.4.2|Thu, 6 Oct 2016 15:04:17 -0400|Fri, 7 Oct 2016 10:49:26 +0000
+56450c392b3131ae3eee747a7fb46e3b1196a6d0|Enable release notes translation|Thu, 6 Oct 2016 20:48:02 +0200|Thu, 6 Oct 2016 20:48:02 +0200
+7d23cbb9886c840f2aa8f4156f745ce79039c79a|Merge "Replace proxy concat/template with ini provider"|Thu, 6 Oct 2016 18:31:47 +0000|Thu, 6 Oct 2016 18:31:47 +0000
+4744316a6cf2b96430570c8c67830e0133511f87|Merge "Changed the home-page to point Openstack Puppet Homepage"|Wed, 5 Oct 2016 09:33:13 +0000|Thu, 6 Oct 2016 14:30:55 +0000
+60ed2ee79cc9f15db2f86b1f255719f591853fac|Replace proxy concat/template with ini provider|Wed, 28 Sep 2016 18:25:24 +0000|Thu, 6 Oct 2016 10:29:04 -0400
+da39b47dafd791337dc1d5cc8cd339e8259ffc75|proxy/ceilometer: deploy middleware before starting service|Wed, 5 Oct 2016 12:32:15 -0400|Wed, 5 Oct 2016 17:11:38 -0400
+3d304a20fe7c12725552b6ac7e736df9d162ecab|Release 9.4.1|Tue, 4 Oct 2016 11:18:42 -0400|Tue, 4 Oct 2016 11:19:04 -0400
+d1ca793d045d9781bb8a993b3097209397d0b1f6|Changed the home-page to point Openstack Puppet Homepage|Tue, 4 Oct 2016 11:11:13 +0530|Tue, 4 Oct 2016 11:11:13 +0530
+66132ee7e2c31ef39f59035f4f623d0f09d56173|Move rspec-puppet-facts to spec helper|Fri, 30 Sep 2016 13:31:44 -0600|Fri, 30 Sep 2016 13:31:47 -0600
+fbbcd892358d47f5734adcefd5406146a6f33d0e|Fixed swift::proxy::cache requirement on memcached|Thu, 29 Sep 2016 14:08:07 -0600|Thu, 29 Sep 2016 14:10:00 -0600
+5e5aa7fa88d59829c39f0d8024179457354fe82a|Update reno for stable/newton|Tue, 27 Sep 2016 12:41:42 -0400|Tue, 27 Sep 2016 16:58:10 +0000
+05cdc8f877778d7b0e33be2bd8f2f88034f8dd3e|Merge "Puppet OpenStack Newton RC2"|Tue, 27 Sep 2016 02:04:22 +0000|Tue, 27 Sep 2016 02:04:22 +0000
+15beb9802193b7aa284652e78663a9b6a818fb12|Puppet OpenStack Newton RC2|Mon, 26 Sep 2016 07:31:18 -0600|Mon, 26 Sep 2016 07:33:09 -0600
+24a1556a5c05336c3d3bf2b39744c80652867dca|Remove unnecesary spaces in log messages.|Mon, 26 Sep 2016 09:56:54 +0200|Mon, 26 Sep 2016 14:27:16 +0200
+a39f3b37b26547137abc804a12dc5fd4be5a61bd|Merge "Prepare 9.3.0 (newton rc1)"|Sat, 17 Sep 2016 09:23:32 +0000|Sat, 17 Sep 2016 09:23:32 +0000
+82db41dd5fc6856d4dcf81193f0800a425a24f9b|Merge "Remove explicit requires on ceilometer class"|Sat, 17 Sep 2016 04:14:42 +0000|Sat, 17 Sep 2016 04:14:42 +0000
+b0620130994ce7a8b3141b7510150b1dd0237718|Remove explicit requires on ceilometer class|Fri, 16 Sep 2016 18:09:40 -0400|Fri, 16 Sep 2016 18:13:33 -0400
+b4c568d5416b77fd6010d0282dc1871424da11f0|Prepare 9.3.0 (newton rc1)|Fri, 16 Sep 2016 11:42:05 -0400|Fri, 16 Sep 2016 11:42:05 -0400
+4d2dd27e5d8e37012602a71013b18b695e3ab617|Fix puppet-lint before upgrading gem|Wed, 14 Sep 2016 13:33:18 +0200|Thu, 15 Sep 2016 16:30:13 +0200
+10e94f9a07b339754056ae2461355cb2a0661d15|Merge "Fix middleware order of proxy pipeline and add missing modules"|Wed, 7 Sep 2016 01:24:40 +0000|Wed, 7 Sep 2016 01:24:41 +0000
+da01dd7bd0cf15863c39ea5e7e108efea60c27d0|Fix middleware order of proxy pipeline and add missing modules|Tue, 30 Aug 2016 17:33:26 +0200|Thu, 1 Sep 2016 14:51:28 +0200
+411ccbf2241324e698f88b3a66ef51443a9be553|Fix doc typo|Tue, 30 Aug 2016 12:52:46 -0600|Wed, 31 Aug 2016 11:48:27 +0000
+3eb1b82a4d9f8196c1600d1005a5e39310bf2cd6|Prepare 9.2.0 (newton b3)|Fri, 26 Aug 2016 09:56:38 -0400|Fri, 26 Aug 2016 09:56:38 -0400
+0917dd0ed9a3c34c611324145afe8a04360ff017|Merge "Change swift authtoken"|Thu, 25 Aug 2016 22:07:05 +0000|Thu, 25 Aug 2016 22:07:05 +0000
+f5344c16aae6e7ed87b1b3e45b0399810891e202|Merge "Trim useless blank lines in generated config file"|Thu, 25 Aug 2016 22:01:55 +0000|Thu, 25 Aug 2016 22:01:55 +0000
+6608801fd70d48b7f76dc4a0e792c5f3671b56f3|Merge "Add statsd configuration options"|Thu, 25 Aug 2016 17:14:18 +0000|Thu, 25 Aug 2016 17:14:18 +0000
+2d970a2edb8c7fe036327c98878eb229a8e86f31|Trim useless blank lines in generated config file|Tue, 23 Aug 2016 19:02:12 +0200|Thu, 25 Aug 2016 10:24:52 +0200
+a266ab91ed8a15ec6c9706c0affced780663f78d|Change swift authtoken|Thu, 25 Aug 2016 01:11:45 -0300|Thu, 25 Aug 2016 01:22:56 -0300
+f991b40db9beda227d5a63dfeb93baea57ea6b73|Merge "Add log directory to .gitignore"|Thu, 25 Aug 2016 01:36:35 +0000|Thu, 25 Aug 2016 01:36:35 +0000
+658f6589de653514f8881156daddf833a4b20559|Add statsd configuration options|Wed, 24 Aug 2016 12:02:53 -0600|Wed, 24 Aug 2016 12:27:19 -0600
+e2ad11e48e650a5dbf51618d97dc1838d67e53d2|Merge "Add CORS settings"|Wed, 24 Aug 2016 14:43:23 +0000|Wed, 24 Aug 2016 14:43:23 +0000
+212d4aba0ea037a0782caeeadbb8b371323aad72|Add log directory to .gitignore|Tue, 23 Aug 2016 18:54:35 +0200|Tue, 23 Aug 2016 18:54:35 +0200
+623dffa2f738d2145edde3564071930a4765dbfe|Add CORS settings|Tue, 23 Aug 2016 18:51:46 +0200|Tue, 23 Aug 2016 18:52:31 +0200
+60266da085519c39ad43e79a35307db6153bad8c|Move other-requirements.txt to bindep.txt|Fri, 12 Aug 2016 21:12:14 +0200|Fri, 12 Aug 2016 21:12:14 +0200
+0725547767ef8120d72545cb20f82690c7e1d6cb|unit: improve output description for swift ring builder|Fri, 12 Aug 2016 07:40:21 -0400|Fri, 12 Aug 2016 07:40:21 -0400
+dcc8ca54ee1d0a19d68eff5cfacc14f40a46f2ab|Add support for Swift Ring Builder 2.9.1+|Thu, 11 Aug 2016 21:35:54 -0400|Thu, 11 Aug 2016 21:57:41 -0400
+287a714da4e92b138aa56586ef69af04ed2c9bdd|Allow for usage of storage::disk via Hiera|Wed, 3 Aug 2016 23:32:48 +0200|Fri, 5 Aug 2016 13:11:06 +0000
+0bb520569b0ed2a8b986af63dd190d0d80985f90|Deprecate is_admin option from Keystone mw config in Swift proxy|Wed, 20 Jul 2016 22:03:16 +0200|Thu, 21 Jul 2016 16:59:08 +0200
+e8959ee6317ca6af10910f6e4af48419b9ccb528|Fix comment typo|Fri, 15 Jul 2016 09:55:45 -0400|Fri, 15 Jul 2016 09:55:56 -0400
+9bccfe8087dc7eea19628b1c73514e25acb5d807|Merge "Fix xinetd version to match integration"|Tue, 12 Jul 2016 23:33:06 +0000|Tue, 12 Jul 2016 23:33:06 +0000
+a5e15bbf4a40d51ea2914e28e8cfada1d8b17626|Include openstacklib defaults manifest.|Thu, 7 Jul 2016 12:01:08 +0200|Mon, 11 Jul 2016 11:24:57 +0200
+33a705d6a06670af0c9654acd1f24dd9b3a94917|Fix xinetd version to match integration|Fri, 8 Jul 2016 17:35:11 -0300|Fri, 8 Jul 2016 17:37:56 -0300
+089c5a241c424ed6b9eb0c47376d8ba952876890|Prepare 9.1.0 (newton-2)|Thu, 7 Jul 2016 09:09:55 -0400|Thu, 7 Jul 2016 09:10:01 -0400
+76dd587f61c90ff4790deaf6f74ed8b9135f58ea|Remove 12.04 and add 16.04|Wed, 29 Jun 2016 22:54:26 -0300|Wed, 29 Jun 2016 22:54:26 -0300
+d62bfd8f7783595bf285e905d69802cdcf171da4|Remove mitaka release prelude note|Tue, 28 Jun 2016 15:09:42 -0400|Tue, 28 Jun 2016 15:09:48 -0400
+8187b20fe29f1e8d0cd905424fe25db5ed55d307|Merge "Change default service_name to 'swift'"|Tue, 21 Jun 2016 15:34:02 +0000|Tue, 21 Jun 2016 15:34:02 +0000
+d239e198a9410e8b3dc414cc2eb99b49583a3ade|swiftinit provider write file directly|Tue, 14 Jun 2016 16:20:58 -0400|Tue, 14 Jun 2016 17:07:26 -0400
+ce3bd6fd8fee5a534319f578f359d82bb2f1598b|Change default service_name to 'swift'|Tue, 7 Jun 2016 20:54:47 -0500|Tue, 14 Jun 2016 12:58:36 +0000
+d01e3ac0309b54a02eb4f8df3c13e46fa35be776|Add nodepool-xenial.yml file|Fri, 10 Jun 2016 13:33:41 -0400|Fri, 10 Jun 2016 13:33:47 -0400
+fbc530a9d3912ccaaa00df463237d1339e88be52|Merge "Remove deprecated swift_hash_suffix"|Fri, 3 Jun 2016 18:22:19 +0000|Fri, 3 Jun 2016 18:22:19 +0000
+bcd9d028b87c9dd01db30b36585bdc9462452753|Merge "Prepare 9.0.0 release"|Fri, 3 Jun 2016 17:28:59 +0000|Fri, 3 Jun 2016 17:28:59 +0000
+be4dc7e7461b795dd85d4d735e35124668998132|Merge "Change wiki to docs"|Fri, 3 Jun 2016 16:54:57 +0000|Fri, 3 Jun 2016 16:54:57 +0000
+2d84cf4e1696a3d6eb3f9b62a9d7e41df04dc11c|Remove deprecated swift_hash_suffix|Thu, 2 Jun 2016 01:13:09 -0300|Fri, 3 Jun 2016 12:55:02 +0000
+7b5fde7d32fa16c9e32551f29feb0401d8740750|Cleanup README|Fri, 3 Jun 2016 12:34:24 +0300|Fri, 3 Jun 2016 12:34:44 +0300
+231183233523ed313cb6eda4d4604976a447aa8c|Change wiki to docs|Thu, 2 Jun 2016 23:03:33 -0300|Thu, 2 Jun 2016 23:41:11 -0300
+557fdc3c3924616998a2f42a1e5ca0c67b46c137|Prepare 9.0.0 release|Thu, 2 Jun 2016 18:33:43 -0400|Thu, 2 Jun 2016 18:43:26 -0400
+6790b2007c951312886b8f610d34d091a544015b|Merge "Allow to configure container_sync middleware"|Tue, 31 May 2016 13:03:49 +0000|Tue, 31 May 2016 13:03:49 +0000
+ec4db849c8840a9203bdf023c22ff0d208f5a801|Allow to configure container_sync middleware|Mon, 23 May 2016 16:53:23 +0300|Mon, 30 May 2016 16:03:44 +0300
+7dac7b8331d36b826db0d85b8c664575b49c64c6|increase the maximum version of concat|Mon, 30 May 2016 16:02:53 +1000|Mon, 30 May 2016 16:04:18 +1000
+c659733d39c1c3e4739db272645d80e7985e8883|Add hooks for external install & svc management|Tue, 17 May 2016 15:28:00 -0400|Wed, 25 May 2016 08:52:47 -0400
+00193204a7607d0c8f79a9ddf85565153ae26d29|Merge "Add keystone to swift-proxy, use dispersion-report"|Wed, 25 May 2016 02:14:47 +0000|Wed, 25 May 2016 02:14:47 +0000
+056e2579bda523b09f230a3042585f4441223346|Add keystone to swift-proxy, use dispersion-report|Fri, 20 May 2016 17:45:22 -0400|Mon, 23 May 2016 16:44:30 +0000
+a94df7b02a8db29e0f7fadd96ce3538787d236ef|Fix tests for concat 2.1.0|Fri, 20 May 2016 11:07:54 +0200|Mon, 23 May 2016 11:57:56 +0200
+916943d5bb9dc88f94e70c12b7c1514eaecc5ff0|Merge "Swift-ring-builder skip line 'Ring up-to-date..'"|Fri, 20 May 2016 17:11:37 +0000|Fri, 20 May 2016 17:11:37 +0000
+f626aea65d9a2e87df42fd0506df1f6c91e9eb61|Merge "Add other-requirements.txt for bindep"|Fri, 20 May 2016 11:06:44 +0000|Fri, 20 May 2016 11:06:44 +0000
+92b3e6eeb1170b48f73513a0922e2bccf82c46fb|Add other-requirements.txt for bindep|Thu, 19 May 2016 19:16:10 +0200|Thu, 19 May 2016 19:16:29 +0200
+9ecbadab2b505f2f6552bba1f75af8546b153324|Remove verbose|Thu, 19 May 2016 10:07:34 -0300|Thu, 19 May 2016 10:09:44 -0300
+df59fcbb3f12021fc59cf92432a49dd96c054474|Grammar corrections in comment|Tue, 17 May 2016 17:06:48 -0600|Wed, 18 May 2016 15:25:19 +0000
+5323bf83ac38338dd9e2ecd4760a4bf18277bfbb|Swift-ring-builder skip line 'Ring up-to-date..'|Fri, 13 May 2016 16:19:50 -0400|Tue, 17 May 2016 15:59:07 +0000
+9531e4a400af7c6b19a2c84dabc7301a8c75c9a6|Merge "Support xenial with swift-init service provider"|Mon, 16 May 2016 19:22:45 +0000|Mon, 16 May 2016 19:22:46 +0000
+d705401750e648ffce6c40f1a5a494683acdfa69|Support xenial with swift-init service provider|Fri, 13 May 2016 20:13:34 +0000|Mon, 16 May 2016 10:09:43 -0400
+5785a2895ffafcb41496007550134704d705d9bf|Do not use any specific service provider for ubuntu|Fri, 13 May 2016 15:58:41 +0300|Fri, 13 May 2016 18:59:59 +0300
+f569ed0edaa46f986c8a844d6ed0ee41ed86ad8a|Fix up some typos in the proxy manifests|Sun, 1 May 2016 11:45:35 -0700|Sun, 1 May 2016 11:48:13 -0700
+1c91097780139db12977ef5be2c0102fd154e8c7|Replace File with Concat in dependencies|Mon, 18 Apr 2016 17:08:48 +0200|Mon, 18 Apr 2016 17:17:46 +0200
+f726050f99d1450ed41c7a9688f0adff5f3606a2|Merge "Add Unit Tests for Swift_config type"|Thu, 14 Apr 2016 18:05:24 +0000|Thu, 14 Apr 2016 18:05:24 +0000
+80eff15738d177c3b49ecd415c2d5120687ce0be|Fix unit tests failing against Puppet 4.3.0|Thu, 26 Nov 2015 10:02:30 +0100|Tue, 12 Apr 2016 20:24:19 +0200
+a24f850a4b80c3cdd992cc4b3f407819e39367e7|Add Unit Tests for Swift_config type|Tue, 12 Apr 2016 12:44:40 -0500|Tue, 12 Apr 2016 18:09:38 +0000
+6a434381500c0eb1a362d97e8ebaa511f585b5a9|Keystone endpoints should go before the service|Tue, 5 Apr 2016 16:21:45 -0700|Wed, 6 Apr 2016 11:41:37 -0700
+b70f5287db7f70f7a6056e464e0422766b178ac6|Gemfile: rely on puppet-openstack_spec_helper for dependencies|Tue, 29 Mar 2016 21:37:27 -0400|Tue, 29 Mar 2016 21:37:27 -0400
+fe4bb4946fffd835eccae7d0db36068c912af131|Merge "Add rmq credentials to each host in proxy"|Mon, 28 Mar 2016 21:47:14 +0000|Mon, 28 Mar 2016 21:47:14 +0000
+379d9fc5f50e57d10d8248616a79318b4ab8c6cb|Add rmq credentials to each host in proxy|Fri, 25 Mar 2016 11:24:08 +0100|Mon, 28 Mar 2016 17:02:10 +0200
+56d14a6ad3f1568f33dddd6365a67b56d109dd1f|Import release notes from stable/mitaka|Thu, 24 Mar 2016 19:02:22 -0400|Fri, 25 Mar 2016 19:01:55 +0000
+76e1be165778f471060f07078621b4df70741e60|Release 8.0.0|Wed, 23 Mar 2016 14:44:11 -0400|Wed, 23 Mar 2016 16:07:53 -0400
+ed6c23afc074d119027c73ceddf6090ccd02f4be|releasenotes: add notes for Mitaka cycle|Fri, 18 Mar 2016 11:53:17 -0400|Fri, 18 Mar 2016 11:53:17 -0400
+d0cfff2a1e2e47ffbb5c1b3cd2d485f9fa4a7141|Add basic structure for ReNo|Sun, 13 Mar 2016 19:00:37 -0400|Mon, 14 Mar 2016 08:36:00 -0400
+07d9a99f4ec6877d06d3530f421449d4062e8f1f|typos and grammar fixes in the README|Tue, 8 Mar 2016 16:21:42 +1100|Tue, 8 Mar 2016 16:21:42 +1100
+ed5dfad934fa3b2339c0ee426102f4667c39f281|fix rst in README|Mon, 7 Mar 2016 16:04:13 +1100|Mon, 7 Mar 2016 16:15:03 +1100
+bd4f368f6b0652d932ed06191ecdf0f64dbd73f7|Merge "Remove unused keystone::python reference"|Tue, 23 Feb 2016 18:15:18 +0000|Tue, 23 Feb 2016 18:15:18 +0000
+bded649fc234bac569cf16370d74944908a9b080|Remove unused keystone::python reference|Mon, 22 Feb 2016 21:11:18 -0700|Tue, 23 Feb 2016 04:19:22 -0700
+5b839331cdcfc5e12c1381d83aef3bfa77869e87|Use uppercase 'S' in word "OpenStack"|Fri, 5 Feb 2016 12:44:11 +0530|Fri, 5 Feb 2016 12:44:52 +0530
+c41983cd87f9f6cea61e19945985962529dc5aac|Update to swift hash parameters|Mon, 25 Jan 2016 14:57:58 -0700|Tue, 26 Jan 2016 08:18:28 -0700
+4b892bf9dbdf73f5deff651be2920c665dc81f2c|Merge "Grammatical mistake,Changed character from "an" to "a" in below files:"|Thu, 21 Jan 2016 17:10:12 +0000|Thu, 21 Jan 2016 17:10:12 +0000
+665557f485c06c6d9c4f31cd247c08387202e3ac|Make keystone user/role options configurable|Tue, 19 Jan 2016 16:59:01 +0200|Thu, 21 Jan 2016 15:52:52 +0200
+908dca10f288451911d5823ee40a8acc3ed392e1|Use puppet-openstack_spec_helper for Rakefile & spec_helper_acceptance|Mon, 18 Jan 2016 09:11:32 -0500|Tue, 19 Jan 2016 14:36:09 +0000
+aed5a83f2dc728989474aae16e6a2ef43b7aff77|Grammatical mistake,Changed character from "an" to "a" in below files:|Mon, 4 Jan 2016 01:50:44 -0500|Mon, 18 Jan 2016 03:17:20 +0000
+3e9922baab929b77bbed28bf67d40581d444d3d4|Add rspec-puppet-facts to the spec_helper|Wed, 6 Jan 2016 21:28:49 -0700|Sun, 17 Jan 2016 13:26:15 +0300
+56c3aad3ea756d53cc5d65a0c3f446e63c520389|Stop calling ::concat::setup|Mon, 11 Jan 2016 15:35:22 -0500|Mon, 11 Jan 2016 15:35:22 -0500
+2ffbf4527773f94425bde2e9df12a18fe95fef4c|Notify related services on config file change|Thu, 7 Jan 2016 22:46:56 -0500|Thu, 7 Jan 2016 22:46:56 -0500
+dae09340029f1dd87ca32bd8fbd6bb8778a0cd50|Merge "Add support to change meta entry for ring devices"|Thu, 7 Jan 2016 04:35:50 +0000|Thu, 7 Jan 2016 04:35:50 +0000
+318b900706bedb7fba53b72cf0bb434eeeab0bdf|Set mount_check to True by default|Thu, 24 Dec 2015 15:22:01 +0100|Tue, 5 Jan 2016 09:57:24 -0500
+964ec99060c721d042875c41a84d98ed2ded53e7|Merge "Stop calling ::concat::setup"|Tue, 5 Jan 2016 01:31:48 +0000|Tue, 5 Jan 2016 01:31:48 +0000
+24b4b89ab0c503b716c315e9f4ae6c14b9ecdb6d|Merge "Change defaults fro incoming/outgoing chmod (rsync)"|Tue, 5 Jan 2016 00:20:56 +0000|Tue, 5 Jan 2016 00:20:56 +0000
+bfcf7fd1a55a0ae6b5ddb8097edcb3b4fc5f7510|Merge "Require swift package installation before swift user."|Mon, 4 Jan 2016 20:23:09 +0000|Mon, 4 Jan 2016 20:23:09 +0000
+b73516aff617d5b31bf5fbbc9553260fa9bd98a2|Stop calling ::concat::setup|Sun, 3 Jan 2016 13:17:34 -0500|Sun, 3 Jan 2016 13:23:28 -0500
+e52ebb053b62b61bfe26cdf338d71a2f47d2d0e9|Change defaults fro incoming/outgoing chmod (rsync)|Thu, 24 Dec 2015 14:52:39 +0100|Thu, 24 Dec 2015 15:00:48 +0100
+90a3744af9e17d744250b3185e7b67cf104da481|unit tests: make Keystone_endpoint match service by name/type|Mon, 21 Dec 2015 20:45:16 +0100|Tue, 22 Dec 2015 18:12:08 +0100
+e61b1aa48142babfebe7429a8c7d692e3c12af4f|Merge "swiftinit provider check init/systemd file content"|Mon, 21 Dec 2015 08:02:29 +0000|Mon, 21 Dec 2015 08:02:29 +0000
+f3c1832bbbc3b2e16ffb57f37dc83808724e99cb|swiftinit provider check init/systemd file content|Mon, 14 Dec 2015 20:46:36 -0500|Thu, 17 Dec 2015 20:15:09 -0500
+7f7e4c5952fe91825b9e0f66bd9f1f133f98c282|Define ${name}-auditors in storage/generic.pp|Mon, 5 Oct 2015 11:13:06 +0200|Thu, 17 Dec 2015 18:58:23 -0500
+cb5e1f064f1319dcd50d133293565b607072e203|Merge "Create ring builders under swift user"|Thu, 17 Dec 2015 19:35:13 +0000|Thu, 17 Dec 2015 19:35:13 +0000
+67c0f6ed22c441612cf742570385b4e186f05409|Add support to change meta entry for ring devices|Wed, 16 Dec 2015 22:20:23 +0100|Wed, 16 Dec 2015 22:56:56 +0100
+772bba90f179e71e24b2e26511e57be3897cefc8|Merge "Document and example for storage filters use"|Tue, 15 Dec 2015 15:12:54 +0000|Tue, 15 Dec 2015 15:12:54 +0000
+bc2085a2742e825ddac53cefea97161f217c6f8f|Create ring builders under swift user|Fri, 20 Nov 2015 18:00:29 +0200|Tue, 15 Dec 2015 12:48:39 +0200
+b75290b54c2a802ce7a1bec57c1985fcb6da9f99|Require swift package installation before swift user.|Fri, 11 Dec 2015 10:02:16 +0100|Fri, 11 Dec 2015 10:05:46 +0100
+1b3864d211e1844eca4c9078640d05245b192d4c|Document and example for storage filters use|Thu, 10 Dec 2015 17:55:35 -0500|Thu, 10 Dec 2015 18:20:03 -0500
+1dfe3d29a9d2850a23630c317db2c1c68412a015|swift-ring-builder 2.2.2+ output parse fix|Thu, 10 Dec 2015 13:45:42 -0500|Thu, 10 Dec 2015 16:57:00 -0500
+67df8085d0422d5eec43e52c0cd738c43e9b2d3f|Use include for swift::storage::${type}|Wed, 9 Dec 2015 10:13:28 -0500|Wed, 9 Dec 2015 10:25:21 -0500
+c58ed14ef0ae40dd0a3f3b5ba2afc4c42aaeca51|Merge "Remove references to puppet-openstack from README"|Tue, 8 Dec 2015 19:38:06 +0000|Tue, 8 Dec 2015 19:38:06 +0000
+5a7d18975f891c628cdfce798c5c426046203fcb|Manage swift with swiftinit service provider|Tue, 3 Nov 2015 16:35:36 -0500|Mon, 7 Dec 2015 16:00:50 -0500
+b62ed3a5ca4ce2bae45780d4981a5b49fde9f2af|Merge "Update ceilometer proxy template"|Mon, 7 Dec 2015 17:29:36 +0000|Mon, 7 Dec 2015 17:29:36 +0000
+e8ad981eff0f97c24a53197c42caf350627d3c9f|Update ceilometer proxy template|Wed, 18 Nov 2015 18:30:35 +0300|Wed, 2 Dec 2015 18:20:59 +0300
+4e28060dc9b2d83ffef08e56fa22ee5ee9ff4562|Checkout openstack-integration from master|Thu, 26 Nov 2015 14:32:05 +0100|Thu, 26 Nov 2015 14:32:05 +0100
+5ca8b0b75f89e31be24d6ec45dfcb2bb38a93bdb|release: prepare 7.0.0 (liberty)|Thu, 26 Nov 2015 09:36:15 +0100|Thu, 26 Nov 2015 09:36:15 +0100
+981693a1dca909cb3d0e99e1ba9a958fd3c3676e|Remove references to puppet-openstack from README|Sat, 21 Nov 2015 18:27:55 +0000|Sun, 22 Nov 2015 16:31:47 +0000
+6145bf61206381643cdcaaabc285f93d75c0c2e4|Acceptance: use common bits from puppet-openstack-integration|Thu, 19 Nov 2015 11:42:21 +0100|Thu, 19 Nov 2015 11:42:21 +0100
+82b0a90dd9e5c6bc6a5a1156de01fcd1883c5b9c|Merge "Make sure Facter is only executed on agent"|Wed, 18 Nov 2015 12:06:00 +0000|Wed, 18 Nov 2015 12:06:00 +0000
+dbfa88f6840f1af3721280584be968e8fe17967a|Make sure Facter is only executed on agent|Tue, 10 Nov 2015 14:34:12 -0800|Thu, 12 Nov 2015 15:09:58 -0800
+cee9bc8794278e0999d405068952dbecab28b0a5|Remove class_parameter_defaults puppet-lint check|Thu, 12 Nov 2015 12:49:31 +0100|Thu, 12 Nov 2015 12:49:31 +0100
+dd85f270bd25dfcc8f28e7e309d20c7c931c785a|Bump UCA and RDO to Liberty GA|Wed, 4 Nov 2015 10:20:48 -0500|Wed, 4 Nov 2015 10:20:48 -0500
+0a1626363697a623539eed568c46d60fd0a70a94|Remove tenant parameter from keystone_user|Tue, 3 Nov 2015 15:32:15 -0500|Tue, 3 Nov 2015 15:37:49 -0500
+31ab888be253611defb488012a152f20001bbf54|Prepare 6.1.0 release|Thu, 15 Oct 2015 14:42:42 +0200|Wed, 21 Oct 2015 01:57:53 +0000
+91fcf4625f1d0d7b9ba93b1941f4ea4ae983e597|Merge "Add support for swift-object-expirer service"|Mon, 19 Oct 2015 22:36:30 +0000|Mon, 19 Oct 2015 22:36:30 +0000
+68eb6373f0805401384afa05d78da587d6d742c8|Try to use zuul-cloner to prepare fixtures|Thu, 8 Oct 2015 14:39:23 -0700|Fri, 9 Oct 2015 09:16:58 -0700
+d8a8b70547c2ec9bec98db012dc330f78568628d|Add support for swift-object-expirer service|Thu, 10 Sep 2015 15:51:52 +0200|Wed, 30 Sep 2015 10:09:09 +0200
+f1f9a24998d0fe2d62ef436bfc60d1ffa194f862|drop useless comment in authtoken.conf.erb|Mon, 28 Sep 2015 20:22:38 -0400|Tue, 29 Sep 2015 18:41:19 +0000
+c0a1195f53047180c0484b1e3f92d12751f0ba34|Improve File resources idempotency|Mon, 28 Sep 2015 16:51:41 -0400|Tue, 29 Sep 2015 18:40:49 +0000
+981fcaeb53d6108e40330c65ede49c831445f08d|proxy: ceilometer httpd support|Mon, 28 Sep 2015 13:39:58 -0400|Tue, 29 Sep 2015 13:48:00 -0400
+47ac5095b3b145f09cff5472aecb7561e944f8c8|Stop managing file modes|Mon, 28 Sep 2015 12:07:11 -0400|Mon, 28 Sep 2015 12:11:27 -0400
+e1ecd15f7de0fd727435d66190dcb66cfcd597c8|Fix swift.conf / Swift_config ordering|Mon, 28 Sep 2015 11:22:43 -0400|Mon, 28 Sep 2015 11:22:43 -0400
+79b596b817bb10dad505d5f79c6e905576c2f092|Merge "Add support for DLO configuration."|Fri, 25 Sep 2015 13:54:35 +0000|Fri, 25 Sep 2015 13:54:35 +0000
+4ee7b74aed5bc609018ed3937deb3684fb561fd3|Add support for DLO configuration.|Thu, 9 Apr 2015 14:59:51 +0300|Thu, 24 Sep 2015 16:36:21 -0500
+df70d51f16c1f9fe7245ef6f6a44e0db44f9b708|Merge "Warn that object storage parameter mount_check changes next release"|Thu, 24 Sep 2015 20:17:56 +0000|Thu, 24 Sep 2015 20:17:56 +0000
+b3ff1ac9d4fea5a53ce246e1210be83fc7d65916|Warn that object storage parameter mount_check changes next release|Tue, 14 Jul 2015 19:56:34 +0000|Wed, 23 Sep 2015 22:13:42 -0700
+2359924d48b3e0bde4e455bc65e0c1e373e8e965|Merge "provide means to disable log_requests in config templates"|Thu, 24 Sep 2015 00:44:54 +0000|Thu, 24 Sep 2015 00:44:54 +0000
+f34cd0865b337127e6184db8699016bc59906eee|Bump RDO packages to tested repos|Tue, 22 Sep 2015 13:47:11 -0400|Tue, 22 Sep 2015 13:47:11 -0400
+c2bb2fb31ee4c5a23fe4a218f195da2699fdfe06|provide means to disable log_requests in config templates|Fri, 4 Sep 2015 20:39:01 +0200|Sat, 12 Sep 2015 14:30:16 +0200
+96b4f5c7c5c5fd10c0ddee41962531aa5021d906|Merge "Config resources applied after config template"|Fri, 11 Sep 2015 14:09:09 +0000|Fri, 11 Sep 2015 14:09:10 +0000
+6fe1ec4ad6855022c6bc9b0ea85a1ef825b23888|acceptance: switch RDO to CBS repositories|Thu, 10 Sep 2015 12:13:16 -0400|Thu, 10 Sep 2015 21:44:17 +0000
+86851f4a2fab105ec99608ea0bcd024d5c14474b|Fix rspec 3.x syntax|Thu, 10 Sep 2015 12:43:56 +0200|Thu, 10 Sep 2015 12:43:56 +0200
+bbcccfa8014d3280bc1c909b6ab0e46eae12dc4e|Initial msync run for all Puppet OpenStack modules|Tue, 4 Aug 2015 11:53:02 -0700|Sun, 6 Sep 2015 02:05:29 +0200
+c306830644bd17cc11491b7135c8d027e2ff82c0|spec: Enable webmock connect to IPv4 link-local|Sun, 6 Sep 2015 01:35:45 +0200|Sun, 6 Sep 2015 02:04:20 +0200
+554b3a6ec13ad8f613904f7b11241d9764543a69|Merge "Add incoming/outgoing chmod params to storage/all"|Fri, 4 Sep 2015 22:04:13 +0000|Fri, 4 Sep 2015 22:04:13 +0000
+1ba8424df21497561b0f89c2a6617580b65550f7|acceptance: bump trusty packaging to trusty-proposed/liberty|Wed, 2 Sep 2015 14:34:03 -0400|Wed, 2 Sep 2015 21:10:59 +0000
+4c5f53d0d3723256633e858b838c14b46f43685e|Add a blank line to the beginning of each filter|Thu, 23 Jul 2015 17:28:33 -0300|Fri, 28 Aug 2015 16:50:38 -0300
+16d9cc0cd84ae4d249c38760a0a40569ced43216|Add incoming/outgoing chmod params to storage/all|Thu, 27 Aug 2015 09:23:28 -0400|Fri, 28 Aug 2015 09:47:45 -0400
+4e20b735001766365336cab8127423b3df2f090d|Merge "Reflect provider change in puppet-openstacklib"|Fri, 21 Aug 2015 20:52:27 +0000|Fri, 21 Aug 2015 20:52:27 +0000
+8a09d4c33db17de962b33ba1f4798b9e09f50962|Merge "Add tempurl middleware options"|Thu, 20 Aug 2015 14:28:29 +0000|Thu, 20 Aug 2015 14:28:29 +0000
+e6e8c9d8368eb98ea374c623e8e07bbf28d610ed|Reflect provider change in puppet-openstacklib|Thu, 6 Aug 2015 13:06:27 +0200|Wed, 19 Aug 2015 12:00:34 +0200
+c91b4c09415306c02e6fb70090ea6605c83c5675|Merge "Rely on autorequire for config resource ordering"|Tue, 18 Aug 2015 04:37:41 +0000|Tue, 18 Aug 2015 04:37:41 +0000
+8f334ea1df969f450522d74c531343022e412d4a|Merge "acceptance: bump to Liberty release"|Fri, 14 Aug 2015 20:56:57 +0000|Fri, 14 Aug 2015 20:56:57 +0000
+a72e27f83c81316997e3b208f2246708c9573096|Rely on autorequire for config resource ordering|Wed, 12 Aug 2015 11:36:52 +0200|Thu, 13 Aug 2015 09:54:06 +0200
+43bb515ea3893ed5989487aad2f3d9594c91bbc1|Merge "Fix ordering issue related to swift.conf"|Tue, 11 Aug 2015 17:13:15 +0000|Tue, 11 Aug 2015 17:13:15 +0000
+29e110e2f171327a0e3041237addc18e58928692|Use openstack/ namespace for fixtures modules|Tue, 11 Aug 2015 14:57:20 +0200|Tue, 11 Aug 2015 14:57:20 +0200
+cd0e32b2c6cb6e3762ddc3edc8932f778161b482|Fix ordering issue related to swift.conf|Tue, 11 Aug 2015 12:17:22 +0200|Tue, 11 Aug 2015 12:17:22 +0200
+48c4134cebe81c45a8d69911d310c85fc0b29cd3|Merge "Add tempauth middleware options"|Thu, 6 Aug 2015 14:30:54 +0000|Thu, 6 Aug 2015 14:30:54 +0000
+4dfa6e03205aa8055e2522bc96f0633fc17359b9|acceptance: bump to Liberty release|Tue, 4 Aug 2015 20:35:36 -0400|Tue, 4 Aug 2015 20:35:36 -0400
+62ba90a47571653672cdc1f81f3187ac88f8387c|Add tempauth middleware options|Tue, 28 Jul 2015 16:55:48 -0300|Mon, 3 Aug 2015 07:18:55 -0300
+ccccd66b09c3235e36ec3235c6b77e812893f270|Merge "keystone/auth: make service description configurable"|Fri, 31 Jul 2015 22:56:48 +0000|Fri, 31 Jul 2015 22:56:48 +0000
+25a96920f662f43c1c28e99e4636bdbecdca788d|Add tempurl middleware options|Tue, 28 Jul 2015 15:19:02 -0300|Wed, 29 Jul 2015 18:40:42 -0300
+720dd4c30753e33613bfc4758d48c31d6cea77b8|Update Swift README|Thu, 23 Jul 2015 17:37:32 -0300|Tue, 28 Jul 2015 12:02:42 -0300
+56512264bfb43f6671b49a4e07a1930012a1914d|Config resources applied after config template|Thu, 23 Jul 2015 14:23:15 -0300|Mon, 27 Jul 2015 09:13:34 -0300
+da4a0dd2aecd695b22796447e1f9ab742890816d|Add tag to package and service resources|Wed, 22 Jul 2015 17:31:54 +0200|Wed, 22 Jul 2015 23:32:14 +0200
+b12279a790e1a38d689b98b17479f5d78dbe7fb0|Merge "Add swift::config class"|Tue, 21 Jul 2015 15:45:19 +0000|Tue, 21 Jul 2015 15:45:19 +0000
+f69c046fe1a91d0b5280af9924ade93aa333fbe7|Add swift::config class|Mon, 20 Jul 2015 10:13:24 +0200|Mon, 20 Jul 2015 11:58:53 +0200
+c5cbd46e510b6041ace99d3f63f7ff9d0b3fd62e|Merge "fix module install reference"|Tue, 14 Jul 2015 20:19:41 +0000|Tue, 14 Jul 2015 20:19:41 +0000
+ceb69f9dda772e4fe4acce19bed282da7928aaa4|fix module install reference|Wed, 8 Jul 2015 19:12:32 -0600|Mon, 13 Jul 2015 19:43:54 -0600
+851e0530fdca580ec3ea7151f34b6ef8dea08324|Prepare 6.0.0 release|Thu, 9 Jul 2015 10:11:46 -0400|Thu, 9 Jul 2015 10:11:46 -0400
+275fb9b111bbb30148e762afc0798aa891091cf2|Fix git clone for locally running tests|Wed, 8 Jul 2015 11:40:45 -0700|Wed, 8 Jul 2015 11:56:50 -0700
+be2b670a94977df30ab76bd1c7af3e23f6c38c94|Use module install script for acceptance tests|Tue, 7 Jul 2015 14:15:11 -0700|Tue, 7 Jul 2015 14:15:11 -0700
+fbe109d212525b2e209971653e682200ec224b5e|Correct `puppet module list` check in beaker|Tue, 7 Jul 2015 14:14:47 -0700|Tue, 7 Jul 2015 14:14:47 -0700
+0b6d31b5ee888516a2a23db9b5daf5bea8d2d50e|Merge "Add max_header_size field for PKI tokens"|Tue, 7 Jul 2015 05:39:05 +0000|Tue, 7 Jul 2015 05:39:05 +0000
+f37b4ffbd75c7c35cc831dc32f11f73abdf4ec50|Add max_header_size field for PKI tokens|Thu, 2 Jul 2015 19:24:50 +0300|Mon, 6 Jul 2015 16:57:04 +0300
+13c40e8d0dc344b5305a827dcc3966eedfbde937|Use beaker-puppet_install_helper to install puppet|Tue, 30 Jun 2015 16:58:59 -0400|Tue, 30 Jun 2015 16:58:59 -0400
+8d7fa4d5a76defd8d20dfe698b7cedc719292f48|keystone/auth: make service description configurable|Wed, 24 Jun 2015 17:50:44 +0200|Tue, 30 Jun 2015 12:02:43 +0000
+95b4d9d6af62310cdefa37d6ed823101cfcdebee|acceptance: install latest openstack-selinux|Mon, 29 Jun 2015 15:26:06 -0400|Mon, 29 Jun 2015 15:26:06 -0400
+7ef8c53cce54e69739ad24031940f2cbfc3896a6|Update README.md for project namespace change|Mon, 22 Jun 2015 13:30:58 +0800|Sun, 28 Jun 2015 20:30:48 +0800
+c4ca308c26361be7b6a138d9e042ac37c568976a|Split release notes into a CHANGELOG.md file|Fri, 26 Jun 2015 17:48:59 -0700|Fri, 26 Jun 2015 17:48:59 -0700
+9edd4fce3c9c0b1d7af1b2a387a76b713c5b2511|acceptance: install RDO repo the right way|Fri, 26 Jun 2015 15:52:31 -0400|Fri, 26 Jun 2015 15:52:31 -0400
+9b9c27294b73f52a03c4b1dd799b995104a9a993|lint: Fix lint issues (missing documentation for define types)|Fri, 26 Jun 2015 19:52:59 +0200|Fri, 26 Jun 2015 19:52:59 +0200
+3c87fd866236f7d4be5be5e547c8fe7cfa14cef5|Merge "Introduce public_url(_s3), internal_url(_s3) and admin_url(_s3)"|Tue, 23 Jun 2015 15:02:13 +0000|Tue, 23 Jun 2015 15:02:13 +0000
+96208fc8d0072d13140333d8e2dbb6e02d6ff08c|Release 5.1.0 - Juno|Wed, 17 Jun 2015 11:17:33 -0700|Wed, 17 Jun 2015 11:27:04 -0700
+6cf73275fc16681c1f3a2a8b8eaaf3ae8b8dfbe9|Merge "Update spec_helper_acceptance for project renames"|Mon, 15 Jun 2015 23:45:57 +0000|Mon, 15 Jun 2015 23:45:57 +0000
+5323487b783009403a78e3ebe21ae4ecc0cdf5f7|Update spec_helper_acceptance for project renames|Fri, 12 Jun 2015 17:36:19 -0700|Fri, 12 Jun 2015 17:36:19 -0700
+1c655eb5bdeb90f97cd157b846a7202f79216e15|Update .gitreview file for project rename|Fri, 12 Jun 2015 22:41:20 +0000|Fri, 12 Jun 2015 23:12:30 +0000
+f87e43e8a80ebf1e8bf9bb0a50160dfc6d735153|Introduce public_url(_s3), internal_url(_s3) and admin_url(_s3)|Thu, 11 Jun 2015 17:52:18 -0400|Thu, 11 Jun 2015 18:17:28 -0400
+4a6e4cbb3371a7e7ecd1a699b5c89c1a68a8e8e5|Fix spec tests for RSpec 3.x and Puppet 4.x|Wed, 20 May 2015 18:09:58 -0700|Tue, 9 Jun 2015 19:40:49 +0200
+5e814f1b5ff7ef6a8b678cec6c2fb7d29562c7a7|Merge "Unpin beaker-rspec"|Mon, 8 Jun 2015 21:46:58 +0000|Mon, 8 Jun 2015 21:46:58 +0000
+0d8892425ccb6f0ded9da2e46f5a15ee4f92b43a|Unpin beaker-rspec|Mon, 8 Jun 2015 13:47:17 -0700|Mon, 8 Jun 2015 13:47:32 -0700
+3c28a4bbc13ce707d152eb75790e6d5070941002|Beaker: fix tests on Ubuntu|Sun, 7 Jun 2015 11:28:59 -0400|Sun, 7 Jun 2015 11:29:13 -0400
+ef9f9a4194237b3cd00446f42d1b407d203cbfd5|Handle both string and array for memcache param.|Mon, 27 Apr 2015 10:03:31 -0700|Wed, 27 May 2015 20:41:42 +0000
+3ceea9fa89cfe9c26c79146479a97c2519c332f7|Fix concat file mode|Fri, 22 May 2015 11:48:22 +0000|Fri, 22 May 2015 11:46:09 -0700
+d05d97d39ecca61dcd7a1b1fd110758ad56d0de4|Bring Redhat support to acceptance tests|Wed, 13 May 2015 13:20:02 +0200|Fri, 22 May 2015 11:39:10 -0700
+7483eaf336d1fb08e349ffd942c86d6a9078b9ad|Beaker: install APT repo with openstack_extras|Mon, 18 May 2015 12:56:02 +0200|Fri, 22 May 2015 11:38:42 -0700
+49fd248002605b80a51a35d254fdfca0736502e5|mount.pp: fix lint issue|Fri, 22 May 2015 09:51:22 -0700|Fri, 22 May 2015 11:38:13 -0700
+08f61073119f25033bf1bdc7e7c18cade837cc0c|Merge "Added rsyslog logging support to object-server"|Wed, 6 May 2015 17:18:30 +0000|Wed, 6 May 2015 17:18:30 +0000
+59b47a29d15caf16530957857be9f99ce4b0bb2f|Beaker tests|Thu, 30 Apr 2015 17:15:09 -0400|Mon, 4 May 2015 14:22:38 -0400
+c9809f8c92ad686b366ddeac60f93f2df03bf19a|Added rsyslog logging support to object-server|Sun, 3 May 2015 18:15:11 -0600|Sun, 3 May 2015 21:22:12 -0600
+76d98279387a938a245a9f352a6777f5823ceeac|Merge "Removal of SSH Components"|Mon, 27 Apr 2015 12:43:37 +0000|Mon, 27 Apr 2015 12:43:37 +0000
+00d10f1c3ebd8103cf256259397ad74b5af0818a|Removal of SSH Components|Wed, 22 Apr 2015 11:37:31 -0700|Fri, 24 Apr 2015 17:23:53 +0200
+2a0b89dfa7e7ffdc3961c84eea41c68049057cd4|Merge "Remove creation of /home/swift"|Fri, 24 Apr 2015 06:45:49 +0000|Fri, 24 Apr 2015 06:45:49 +0000
+601c18f311cf94976396836679d1c78f71635595|Merge "Bump rspec-puppet to 2.1.0"|Thu, 23 Apr 2015 15:02:53 +0000|Thu, 23 Apr 2015 15:02:53 +0000
+24a08bcf9cf1411602696e9eb67257ef52cc3010|Bump rspec-puppet to 2.1.0|Wed, 22 Apr 2015 23:57:02 -0400|Wed, 22 Apr 2015 23:57:02 -0400
+b0a3d8a298eff338232a7347c09c86f8d0de4f67|Remove creation of /home/swift|Wed, 22 Apr 2015 15:47:59 +0100|Wed, 22 Apr 2015 15:59:22 +0100
+35b386479d20853802bec55bc38521d2894e762e|Merge "Synchronize LICENSE file with OpenStack projects"|Mon, 20 Apr 2015 14:29:10 +0000|Mon, 20 Apr 2015 14:29:10 +0000
+56f1eb501485fef3c793fdfb6118608b142ec3ee|Synchronize LICENSE file with OpenStack projects|Tue, 14 Apr 2015 17:14:33 -0400|Mon, 20 Apr 2015 09:30:24 -0400
+f67877f1fa2dbb33702f61cee3c9df76ba541181|Merge "read_affinity requires affinity sorting_method"|Fri, 17 Apr 2015 15:37:25 +0000|Fri, 17 Apr 2015 15:37:25 +0000
+2737af141ac88a07cda39e402dacb4275792aa8f|Pin puppetlabs-concat to 1.2.1 in fixtures|Wed, 15 Apr 2015 15:42:46 -0700|Wed, 15 Apr 2015 15:42:46 -0700
+cb6aa56b545f0d47a8a89bcd4c903de2ddb21826|Merge "Fix ipv6 support"|Tue, 14 Apr 2015 19:46:51 +0000|Tue, 14 Apr 2015 19:46:51 +0000
+ebb898656777444677584683cc8a0d2ac430eded|Merge "Tag all Swift packages"|Sat, 11 Apr 2015 09:15:19 +0000|Sat, 11 Apr 2015 09:15:19 +0000
+6dc85b0f7918fa295974f7afbb1a6b8a26f8f953|Notify services if swift.conf is modified|Thu, 9 Apr 2015 15:23:01 -0400|Thu, 9 Apr 2015 17:03:07 -0400
+e04486fe46452978839b1c11a67d7fee59697106|read_affinity requires affinity sorting_method|Wed, 8 Apr 2015 17:08:47 -0600|Wed, 8 Apr 2015 17:08:47 -0600
+06addb7b3b58289ae785c5bedc10682f3d959c3a|Fix Rspec 3.x new is_expected.[to|to_not] keywords|Sun, 29 Mar 2015 17:25:49 +0200|Tue, 7 Apr 2015 20:01:19 +0200
+9561ffffa21db52eca95e5682f0bbe6364994fdf|Tag all Swift packages|Sun, 29 Mar 2015 17:02:47 +0200|Tue, 7 Apr 2015 20:00:41 +0200
+b6ba9f09b291252a196d69c3e30b188fe77c2c4a|Fix ipv6 support|Fri, 13 Mar 2015 13:19:32 +0100|Tue, 7 Apr 2015 12:54:14 +0200
+7ad2a10e1fd5f78a6632cf76c8def3ae4559677e|Update ssh module version|Sun, 5 Apr 2015 22:36:07 -0700|Mon, 6 Apr 2015 10:20:48 -0700
+96ad9dd2237d9d9165025fd76e3c4b7f348ea2f1|Merge "Add Puppet 4.x lint checks"|Fri, 27 Mar 2015 12:13:59 +0000|Fri, 27 Mar 2015 12:13:59 +0000
+cc00b5cf5f2af53c1d6561c30db39bc20729908a|Merge "spec: updates for rspec-puppet 2.x and rspec 3.x"|Fri, 27 Mar 2015 00:53:45 +0000|Fri, 27 Mar 2015 00:53:45 +0000
+35ad8ab1a349b7f98f22494a517621dc4ca6b3e5|Merge "Upgrade puppet-lint and fix metadata, parameter and style lint issues"|Fri, 27 Mar 2015 00:53:06 +0000|Fri, 27 Mar 2015 00:53:06 +0000
+1ca74aafa456a7a72a073f3b297e52e975c4d1ff|Merge "Add base `swift` class name to call"|Thu, 26 Mar 2015 14:29:05 +0000|Thu, 26 Mar 2015 14:29:05 +0000
+7a0c615db8a37cec64ceda96909a0743c9ac9161|Add node_timeout parameter for proxy-server.conf|Wed, 25 Mar 2015 13:53:50 -0400|Wed, 25 Mar 2015 13:55:39 -0400
+88541bdef61665c752e31961706f395a53f53506|Add base `swift` class name to call|Mon, 26 Jan 2015 22:40:37 -0800|Wed, 25 Mar 2015 17:10:26 +0000
+dc8657e2038b57b354b7ac622f711c34d241ec4c|Add Puppet 4.x lint checks|Mon, 23 Mar 2015 18:25:34 +0100|Wed, 25 Mar 2015 13:46:00 +0100
+f4cfe8e8e45499df70cf525a21f7e1bbf4419904|spec: updates for rspec-puppet 2.x and rspec 3.x|Mon, 23 Mar 2015 18:23:07 +0100|Tue, 24 Mar 2015 15:22:16 +0100
+77be0932fc7d40a9bdf47c175c8ae5ffcc660f2f|Upgrade puppet-lint and fix metadata, parameter and style lint issues|Mon, 23 Mar 2015 18:11:23 +0100|Tue, 24 Mar 2015 15:18:28 +0100
+15aa71f0015532fbe39b9f399c5bd000ca9b52c7|Remove unused fragment_title variable|Mon, 16 Mar 2015 13:21:54 -0400|Sat, 21 Mar 2015 11:32:39 +0000
+03e7cfd978ba31b8788fe30b81c90a406bae59be|Merge "Adds ability to override service name for service catalog"|Fri, 20 Mar 2015 21:35:34 +0000|Fri, 20 Mar 2015 21:35:34 +0000
+9a45dff83cac05eb419a38b53a36dccf35e4f2b1|Adds ability to override service name for service catalog|Mon, 2 Feb 2015 16:29:42 +0800|Fri, 20 Mar 2015 09:00:57 +0800
+2caba862a8609528f10c975d7a956b246f2ca477|Provide a mean to change the default rsync chmod|Tue, 17 Mar 2015 22:05:53 -0400|Tue, 17 Mar 2015 23:51:01 -0400
+119ff9c3e081281208c9b7da4290e94456b6dfb7|Add support for identity_uri.|Thu, 12 Mar 2015 10:28:23 -0400|Tue, 17 Mar 2015 14:31:19 +0100
+a5c52d2a2d9ff19227fe14460eaa768babd6ec9b|Add missing openstacklib fixture|Mon, 16 Mar 2015 10:42:09 +0100|Mon, 16 Mar 2015 10:42:32 +0100
+128ce97061b4bfdfc5952c5514aed50c431ba248|Use keystonemiddleware instead of client|Thu, 5 Mar 2015 10:35:04 +1100|Thu, 5 Mar 2015 00:54:31 +0000
+0d40df78fe40b002380cb3c58ac22dc6ee8b913f|doc spelling corrections|Thu, 12 Feb 2015 14:25:52 -0700|Thu, 12 Feb 2015 14:28:09 -0700
+60e785776b89bdfd4cd09c4260d0908c4fdf2d4b|Remove non-ASCII characters from puppet doc|Wed, 11 Feb 2015 16:34:39 -0500|Wed, 11 Feb 2015 16:34:39 -0500
+2c61fd3187b2f367aa4738bb8239933aec1ff883|spec: pin rspec-puppet to 1.0.1|Tue, 3 Feb 2015 15:32:20 +0100|Tue, 3 Feb 2015 15:32:20 +0100
+499386a89d2b5059445c887ff383655610f3fcb9|Swift proxy won't start if using proxy:ceilometer|Mon, 26 Jan 2015 22:11:02 -0500|Mon, 26 Jan 2015 22:11:02 -0500
+08d00c3516dc506c23f496d4e23fd6cd7c43350d|Merge "Correct proxy::authtoken docs"|Sun, 11 Jan 2015 23:58:49 +0000|Sun, 11 Jan 2015 23:58:49 +0000
+b8b443416de65f59dfc2dcfa23bfa7222906f55e|Add seed parameter to ringbuilder::rebalance.|Thu, 8 Jan 2015 16:20:04 -0500|Thu, 8 Jan 2015 17:36:24 -0500
+1e1c6041acad135e37ed7e20cfcf2aedf82fbe9a|Correct proxy::authtoken docs|Thu, 8 Jan 2015 16:06:09 -0500|Thu, 8 Jan 2015 16:06:09 -0500
+f9724a50508f1f705a8636c579dad504765a3d77|Merge "Enlarging the scope of ssh module"|Thu, 4 Dec 2014 16:00:02 +0000|Thu, 4 Dec 2014 16:00:02 +0000
+a69a506df089eced9afaa219c00894196448c33e|Merge "Refactorise Keystone resources management"|Wed, 3 Dec 2014 22:27:06 +0000|Wed, 3 Dec 2014 22:27:06 +0000
+e6a225d79b21ab3caebc189da2d1062d57c0f55a|Enlarging the scope of ssh module|Tue, 12 Aug 2014 16:59:04 +0200|Wed, 3 Dec 2014 11:11:18 +0100
+cd3ef0bba3a3de4966d5c766ebfd1ef5ddc2e9ee|Merge "Allow setting reseller_prefix for keystone filter"|Tue, 2 Dec 2014 16:33:56 +0000|Tue, 2 Dec 2014 16:33:56 +0000
+73dd86f8ba0cf140aa2210fadb921ccb87e13c2e|Merge "Add manage_service feature"|Tue, 2 Dec 2014 15:15:16 +0000|Tue, 2 Dec 2014 15:15:16 +0000
+dec842497e5772607624c484db29d67200ce6703|Remove deprecated class|Tue, 25 Nov 2014 15:07:14 -0500|Tue, 25 Nov 2014 15:07:14 -0500
+68a9e8eecba4a280ea1ec18fba67069a8c7dfce4|Release 5.0.0 - Juno|Sat, 22 Nov 2014 16:01:55 -0800|Sun, 23 Nov 2014 19:43:31 -0800
+5ebfa6a73f391410a7b4f2c940396789788f15d1|Refactorise Keystone resources management|Fri, 21 Nov 2014 10:40:13 -0500|Fri, 21 Nov 2014 11:04:35 -0500
+54fdb8474245deebc7f4a04cd74caf061a4e90f2|Fix fixtures.yml for puppetlab/concat|Mon, 17 Nov 2014 19:00:33 +0100|Mon, 17 Nov 2014 19:02:44 +0100
+2193831dd787e9b24382c588dfa49917bcf47262|Merge "Fix s3_token filter configuration for swift-proxy"|Sun, 2 Nov 2014 17:35:27 +0000|Sun, 2 Nov 2014 17:35:27 +0000
+22f09aed4f3c93a0d06ed1884b90dcaede60a6f7|Add manage_service feature|Mon, 22 Sep 2014 15:50:38 +0200|Fri, 31 Oct 2014 15:24:50 +0100
+7b30dbb3979ec1597173608e17b60144eefbeeec|Merge "Allow to customize log_name for services"|Fri, 24 Oct 2014 14:48:07 +0000|Fri, 24 Oct 2014 14:48:07 +0000
+ac6c4dfb597628fa69c7174ad8c3481fc4924f2b|Switch to metadata.json for Puppet forge releases|Sat, 27 Sep 2014 11:39:08 +0200|Wed, 22 Oct 2014 15:52:00 +0200
+2dea09fed575d4133614ce86558a01c615518cc3|Fix s3_token filter configuration for swift-proxy|Wed, 22 Oct 2014 12:51:56 +0300|Wed, 22 Oct 2014 13:02:39 +0300
+a2cae16d316c9e52fdfa7a15b097833c79de22dc|Allow to customize log_name for services|Tue, 14 Oct 2014 17:00:32 +0300|Tue, 14 Oct 2014 21:14:37 +0300
+1591f769bad144948b23c0e4a62537b2a75306c0|Update stdlib dependency to 4.x|Mon, 22 Sep 2014 15:33:35 -0700|Mon, 22 Sep 2014 15:45:41 -0700
+2a845da2944cb0a33e2f411c22be12f866b60a4f|Allow setting reseller_prefix for keystone filter|Fri, 5 Sep 2014 18:42:04 -0400|Fri, 5 Sep 2014 18:44:13 -0400
+3ea00440361ff2452561d2cce808d938e39cce56|Make Modulefile summary and description consistent|Wed, 2 Jul 2014 13:57:37 -0400|Thu, 3 Jul 2014 17:07:55 -0400
+78da999c5a41a8af06ba2b7191fe91ab7419d14d|Normalize Gemfile & pin tests to rspec < 2.99|Fri, 20 Jun 2014 07:58:21 -0400|Fri, 20 Jun 2014 09:16:20 -0400
+c6e0dff2b49183dd6d94d32e80d353172d3365ac|Fix path for restorecon|Fri, 13 Jun 2014 13:42:02 +0200|Fri, 13 Jun 2014 15:52:23 +0200
+6d35b1e8cf41a4c86b9aec7f9d7b5bced93cba7e|Fix boolean that always returned true for selinux fact|Tue, 10 Jun 2014 10:52:18 -0400|Tue, 10 Jun 2014 12:10:45 -0400
+a2c22151461ebc4df1fc407921496d9b74b919c3|Merge "Add swift::proxy::crossdomain class"|Thu, 5 Jun 2014 16:13:40 +0000|Thu, 5 Jun 2014 16:13:40 +0000
+729c5f6e173c01396f2f8b26abb53156028cad8c|Merge "Include swift::params in swift::client"|Wed, 4 Jun 2014 09:04:22 +0000|Wed, 4 Jun 2014 09:04:22 +0000
+9d592f61e4529795d51c481d0a33c86c84c0b6af|Add swift::proxy::crossdomain class|Mon, 2 Jun 2014 16:47:56 +0200|Tue, 3 Jun 2014 16:00:01 +0200
+1b61c7a5786ab0621c153fb3be6baccda84eabc1|Merge "Bump stdlib dependency from >=2.3.0 to >=3.2.0"|Tue, 3 Jun 2014 09:31:21 +0000|Tue, 3 Jun 2014 09:31:21 +0000
+9cc4468cadcaf4b0150f1b894749e27fe86bd79c|Merge "Improve readability of swift::xfs"|Tue, 3 Jun 2014 09:30:07 +0000|Tue, 3 Jun 2014 09:30:07 +0000
+281e111e58161502ff018baf084942365e195342|Improve readability of swift::xfs|Thu, 22 May 2014 09:41:27 -0400|Mon, 2 Jun 2014 10:27:25 -0400
+c299955a679509fba7df5a5c00d73338dfdf087c|Bump stdlib dependency from >=2.3.0 to >=3.2.0|Mon, 2 Jun 2014 10:03:13 -0400|Mon, 2 Jun 2014 10:03:13 -0400
+f7d1385d6990492705ddaa228ffa544ca235913a|Avoid duplication error when ringserver and storage are on the same node|Thu, 29 May 2014 11:49:20 -0400|Fri, 30 May 2014 08:36:12 -0400
+2c6261251cd8e94aa26c0e91003878c25ba90726|Include swift::params in swift::client|Wed, 28 May 2014 17:28:27 -0400|Wed, 28 May 2014 17:53:43 -0400
+29ade00640513355b11895ea50f4afc737c1fdea|Merge "Add dependency so swift config creation succeeds"|Wed, 28 May 2014 13:50:32 +0000|Wed, 28 May 2014 13:50:32 +0000
+612dc058ce3bc819f91cbe40a420abef2af4ffcc|Merge "Fix swift quota filter names"|Wed, 28 May 2014 13:01:21 +0000|Wed, 28 May 2014 13:01:21 +0000
+7b48071297f5b17a086562e271f327d03bc3113b|Merge "Restore selinux context on swift mount"|Wed, 28 May 2014 12:35:44 +0000|Wed, 28 May 2014 12:35:44 +0000
+a20a178c422236e56da94ba4a841d78c37a7fbfe|Fix swift quota filter names|Tue, 27 May 2014 13:17:55 -0400|Tue, 27 May 2014 13:17:55 -0400
+7847848f6a1c6a6e502b8868ad11a25536c5c21e|Add dependency so swift config creation succeeds|Fri, 23 May 2014 16:12:59 -0400|Fri, 23 May 2014 16:14:18 -0400
+9226b03b06ded08a36045147551a72df631aeaa3|Merge "Add swift-ring-builder multi region support"|Wed, 21 May 2014 13:35:16 +0000|Wed, 21 May 2014 13:35:16 +0000
+9ca38e7e442ac8e59bf21c78a43feea5c025501a|Restore selinux context on swift mount|Mon, 19 May 2014 13:25:44 +0200|Mon, 19 May 2014 16:54:21 +0200
+16e4ba101833a41785c2c64ff9907f46dec3264d|Implement rspec function it_raises|Thu, 15 May 2014 14:50:33 -0400|Thu, 15 May 2014 14:51:16 -0400
+bb3007615f2ad7231405dca367d3c8b0ff15a475|Add swift-ring-builder multi region support|Fri, 9 May 2014 13:54:54 -0400|Fri, 9 May 2014 15:45:28 -0400
+9874edd2655e122bf8bd3eedc70e697bc5b83326|4.0.0 - 2013.1.0 - Icehouse Release (Swift 1.13.1)|Thu, 1 May 2014 12:06:22 -0700|Thu, 1 May 2014 12:07:19 -0700
+bcff4639966e39d5b9d15c918be337a257c19a36|Merge "Parameterize the endpoint prefix"|Thu, 17 Apr 2014 12:53:23 +0000|Thu, 17 Apr 2014 12:53:23 +0000
+ed3ba7f889e4100a40403703b5ea0fdeab4d517e|Add read_affinity, write_affinity support to proxy|Tue, 8 Apr 2014 12:54:57 -0400|Wed, 16 Apr 2014 10:23:47 -0400
+e4e0a7346846a9659fd300fb7f5f95bab9537d1b|Parameterize the endpoint prefix|Tue, 8 Apr 2014 10:04:33 -0600|Tue, 8 Apr 2014 10:07:54 -0600
+003838325ae1da0cbf7571cedd6ad75151fd7c03|Merge "Updated to match semver and release notes."|Fri, 28 Mar 2014 03:59:56 +0000|Fri, 28 Mar 2014 03:59:56 +0000
+8395f0606457b51c3be13202a57d29364cb609af|Merge "Fix spurious warning in pipeline check"|Wed, 26 Mar 2014 20:52:42 +0000|Wed, 26 Mar 2014 20:52:42 +0000
+27579e7233a619d707802edaaf8ca68cc73541ae|Fixed gate by Updating Gemfile to pin Rake to 10.1.1|Mon, 24 Mar 2014 15:39:02 -0700|Mon, 24 Mar 2014 15:39:12 -0700
+38603d91fb10423b4baa6843b234ac1958c6f960|Updated to match semver and release notes.|Fri, 21 Mar 2014 16:24:53 -0700|Fri, 21 Mar 2014 16:25:06 -0700
+23119310ace15529cd2f2be841bc7ba36ca713a3|Merge "Add proxyserver gatekeeper middleware"|Fri, 14 Mar 2014 21:04:33 +0000|Fri, 14 Mar 2014 21:04:33 +0000
+e9b69499c943bfbb16c895611ebd4e90c16b377c|Merge "Add swift::proxy::slo class"|Fri, 14 Mar 2014 21:01:23 +0000|Fri, 14 Mar 2014 21:01:23 +0000
+7715e64770a9cd12e9b2334b08f49171e6eac3e9|Merge "Add client_package_ensure parameter and swift::client class"|Fri, 14 Mar 2014 20:50:56 +0000|Fri, 14 Mar 2014 20:50:56 +0000
+01a3a40bcc43ffd492bea87e9b7b143bedccec37|Fix spurious warning in pipeline check|Fri, 7 Mar 2014 02:49:30 -0500|Fri, 7 Mar 2014 02:53:02 -0500
+21f9eff35c91b987803a9241f867b4443def6979|Add client_package_ensure parameter and swift::client class|Wed, 5 Mar 2014 23:57:26 +0100|Thu, 6 Mar 2014 02:09:52 +0100
+4c86d39972b6d2ea198dfd44cac14f4eec0dd664|Fix test files (address is now removed)|Thu, 6 Mar 2014 01:41:57 +0100|Thu, 6 Mar 2014 01:42:58 +0100
+2cce66ef44b011ba695dbc3e1586b2e0b8570666|swift classes need to include swift::params|Wed, 5 Mar 2014 08:55:57 -0800|Wed, 5 Mar 2014 08:58:10 -0800
+162e8f4ceb631f116b3de3702ace79a1dd43a9b6|Merge "Add ability to disable endpoint configuration"|Tue, 4 Mar 2014 11:01:39 +0000|Tue, 4 Mar 2014 11:01:39 +0000
+d0caf589164bb729493637a4c24cb24c83d8ca5e|Support for allow_versions in swift containers|Tue, 25 Feb 2014 17:21:10 +0100|Tue, 25 Feb 2014 17:39:12 +0100
+edd25ce6b30304705f9168e5c091fb2611d9cc7b|Fix deprecation warnings in inline templates|Thu, 20 Feb 2014 13:27:56 -0500|Thu, 20 Feb 2014 13:29:22 -0500
+d8430ea6ad0365c73a709088d723b8accb1e4db1|Merge "Add support for middlewares with hyphens"|Mon, 17 Feb 2014 16:21:15 +0000|Mon, 17 Feb 2014 16:21:15 +0000
+eb5eb1f961e3cc7406a4ed7362f32fd8fe4076df|Add ability to disable endpoint configuration|Tue, 11 Feb 2014 15:46:20 -0500|Wed, 12 Feb 2014 10:45:16 -0500
+d649bac32dc6b80e05a46a9df279c22da0948a09|Merge "Cleanup, Improve coverage of swift::keystone::auth spec tests"|Wed, 12 Feb 2014 08:24:22 +0000|Wed, 12 Feb 2014 08:24:22 +0000
+af45e4200ecc26fc34df2f785b79eb89426bd69b|Add support for middlewares with hyphens|Tue, 11 Feb 2014 11:17:02 -0500|Tue, 11 Feb 2014 11:17:02 -0500
+69f677de0b13d30e6eb9689edd90e4f01c02467c|Add swift::proxy::slo class|Mon, 10 Feb 2014 23:04:24 +0800|Mon, 10 Feb 2014 23:07:24 +0800
+e2c9415a35e4a37d6b791f7a4d1ba8da6ee8decd|Add proxyserver gatekeeper middleware|Mon, 10 Feb 2014 12:02:40 +0800|Mon, 10 Feb 2014 12:13:43 +0800
+eefaf9ca54a71d16181e687b216db9e9930e97df|Fix include_class deprecation warning. Use contain_class instead.|Wed, 5 Feb 2014 22:28:54 -0500|Wed, 5 Feb 2014 22:28:54 -0500
+3936163d412acb395e890327c29c2fe730f801a7|Merge "dispersion: add endpoint_type parameter"|Wed, 5 Feb 2014 13:09:54 +0000|Wed, 5 Feb 2014 13:09:54 +0000
+c26875a010db8c6cbcca57109eb7bcd4238e8e77|Cleanup, Improve coverage of swift::keystone::auth spec tests|Mon, 3 Feb 2014 12:27:54 -0500|Mon, 3 Feb 2014 18:07:33 -0500
+f8fbd8addfe07547666666a8cb2f68f5b1d8aa81|Remove deprecated parameter 'address'|Fri, 31 Jan 2014 15:55:36 -0500|Fri, 31 Jan 2014 15:59:32 -0500
+6aa573e49af596fd31b01b8f88563ef29876e765|dispersion: add endpoint_type parameter|Mon, 27 Jan 2014 22:20:45 +0100|Mon, 27 Jan 2014 22:28:08 +0100
+a5b5e1211fbee62d9587c34e5cea3190046c694f|Allow configuration of admin and internal protocols for keystone endpoint|Fri, 17 Jan 2014 15:35:50 -0500|Fri, 17 Jan 2014 15:38:00 -0500
+449fd78f48cda9ef860f7cd25beda0e40f5a687c|Remove redundant user ownership declaration and ensure spec test coherency|Wed, 8 Jan 2014 17:39:53 -0500|Thu, 9 Jan 2014 11:48:04 -0500
+12131aa3a829f5baf74b28007e581d5550b0207e|Merge "Update gitignore file"|Sun, 29 Dec 2013 07:07:29 +0000|Sun, 29 Dec 2013 07:07:29 +0000
+7e06de1066466890cc1cfc7d6e7bb675fb29d36f|Fix the comment in manifests/storage/disk.pp|Fri, 27 Dec 2013 20:36:37 +0800|Fri, 27 Dec 2013 20:45:34 +0800
+c640a3e1c6ad1551400d77f2df3ce1e9461a182c|Update gitignore file|Mon, 23 Dec 2013 19:13:17 +0100|Mon, 23 Dec 2013 19:13:55 +0100
+5b450c8e256947968e8b44ce66b996297f08e181|Merge "Create swift operator keystone roles"|Fri, 20 Dec 2013 22:43:49 +0000|Fri, 20 Dec 2013 22:43:49 +0000
+af129f0a93009293dba610ee487a41fb15027336|Allow running of proxy and storage on the same node.|Tue, 17 Dec 2013 13:42:38 -0600|Wed, 18 Dec 2013 09:00:39 -0600
+14a2bd8c4fdad27fe708792c8a040c55a7476c56|Create swift operator keystone roles|Tue, 17 Dec 2013 15:27:16 +0400|Tue, 17 Dec 2013 16:32:01 +0400
+2fc0354936bd89889f2e37f92e2a4acb501ca785|Set include_service_catalog to False|Fri, 6 Dec 2013 15:19:16 +0100|Mon, 9 Dec 2013 11:45:20 +0100
+72fa7bf89e6357b09bb596542e80eadcd8ba401c|Fixing remaining typo in the README|Tue, 3 Dec 2013 16:30:50 -0500|Tue, 3 Dec 2013 16:31:22 -0500
+9cc08a5eee1c3b8562ebc9d074010329a65dfea2|Fix a few typos in the README|Tue, 3 Dec 2013 16:09:52 -0500|Tue, 3 Dec 2013 16:12:30 -0500
+c1aee547bc8393b75fabecb930b5dbee6b4111f4|Bugfix: Fix fragment name for Quota middleware|Wed, 27 Nov 2013 16:20:37 +0100|Wed, 27 Nov 2013 16:21:09 +0100
+000d63b65417b9cf73763e1d25eef1a8f3b695a7|Fix auth_token configuration.|Sun, 24 Nov 2013 14:21:56 +0100|Sun, 24 Nov 2013 18:52:48 +0100
+3566f9fa651d8e50a81a3bcb042beb126da46f3d|Fix filter name for puppetdb|Wed, 20 Nov 2013 03:37:58 -0500|Wed, 20 Nov 2013 03:37:58 -0500
+328a805f1a571e37795facaafad58b99d3a1c4f2|Merge "Add Bulk middleware support"|Tue, 19 Nov 2013 22:52:26 +0000|Tue, 19 Nov 2013 22:52:26 +0000
+c7a6239b9b59d846f08217f22cc53206f7ed801f|Add Bulk middleware support|Tue, 29 Oct 2013 16:59:02 +0100|Mon, 18 Nov 2013 21:07:31 +0100
+b20ac7e3b0d028ffd2d38b8721fbe61fa22c0bd3|Merge "Add Quota middlewares support"|Mon, 18 Nov 2013 08:19:44 +0000|Mon, 18 Nov 2013 08:19:44 +0000
+040770582f1d956c34a18bd9f52e42463463503b|Merge "Fix puppet 3.x template variable deprecation warning"|Wed, 6 Nov 2013 07:26:34 +0000|Wed, 6 Nov 2013 07:26:34 +0000
+8dd197a730d740d6407c0aa9572471868d4285c7|Fix puppet 3.x template variable deprecation warning|Fri, 25 Oct 2013 11:43:35 +0800|Fri, 1 Nov 2013 10:57:53 +0800
+4157cb9a4141c071337f7e7c1946f32dd0342945|Add Quota middlewares support|Tue, 29 Oct 2013 16:02:20 +0100|Wed, 30 Oct 2013 16:17:35 +0100
+5e276b9ce34ef7edfa761379325fccb94f9aa34b|Merge "Revert "Fix compatibility with latest puppetlabs-concat""|Wed, 30 Oct 2013 15:09:32 +0000|Wed, 30 Oct 2013 15:09:32 +0000
+e2e39f0edee69874818118a2e2c6941336c8ea93|Revert "Fix compatibility with latest puppetlabs-concat"|Tue, 29 Oct 2013 22:56:31 -0400|Tue, 29 Oct 2013 23:13:47 -0400
+3a16f56b0dce87df7358fe8f38c623a32a0daa38|Pin puppetlabs-concat fixture to 1.0.0|Tue, 29 Oct 2013 22:54:44 -0400|Tue, 29 Oct 2013 22:54:44 -0400
+c9090bf724ee5b0f68cf845dca81af7c1f9d43d7|Merge "Fix compatibility with latest puppetlabs-concat"|Tue, 29 Oct 2013 17:08:53 +0000|Tue, 29 Oct 2013 17:08:53 +0000
+23cc3616cea78b8431181af748a1827add18974f|Fix compatibility with latest puppetlabs-concat|Tue, 29 Oct 2013 11:48:48 -0400|Tue, 29 Oct 2013 11:48:48 -0400
+9e110e8c8e2c9f90967b083458967b11a77873d5|Preparing for 2.2.0 release.|Mon, 7 Oct 2013 15:20:59 -0700|Mon, 7 Oct 2013 15:20:59 -0700
+5a655f8694fe757dbbf120edd2708375144c1621|Merge "Use swift_dispersion_config"|Fri, 20 Sep 2013 07:47:24 +0000|Fri, 20 Sep 2013 07:47:24 +0000
+ba6abfa6c7c3e97f64752eb0972a21cbfe2c998b|Use swift_dispersion_config|Sun, 25 Aug 2013 22:53:44 -0400|Wed, 4 Sep 2013 20:04:44 -0400
+ef8507d287859aa89ba43e2652d87847f25dc131|Merge "Use swift_bench_config"|Wed, 4 Sep 2013 23:55:35 +0000|Wed, 4 Sep 2013 23:55:35 +0000
+49d6801247fd3969de89661a0098c109cac1f755|Use swift_bench_config|Sun, 25 Aug 2013 23:15:18 -0400|Sat, 31 Aug 2013 01:12:35 -0400
+0f7601a3587511b633d0a04ffa24f42f19b3786c|Deprecate classes with hyphens|Wed, 28 Aug 2013 20:19:14 -0400|Wed, 28 Aug 2013 20:19:14 -0400
+943c2f0c6e77e80f01e4116adf25743d0a1d75d8|Merge "Fix puppet-lint warnings about ensure"|Wed, 28 Aug 2013 18:10:27 +0000|Wed, 28 Aug 2013 18:10:27 +0000
+c89e327fb8498d5629a637da3c88b5885c05d70a|Use swift_config to configure swift.conf|Mon, 26 Aug 2013 08:34:45 -0400|Mon, 26 Aug 2013 20:54:06 -0400
+f10bcda7e6ae35d94ac439e99edcd69644c3291e|Revert "Use swift_config"|Mon, 26 Aug 2013 08:11:41 -0400|Mon, 26 Aug 2013 08:12:07 -0400
+d9d0917112a433ac403153a6877d655223433630|Merge "Use swift_config"|Mon, 26 Aug 2013 08:05:28 +0000|Mon, 26 Aug 2013 08:05:28 +0000
+706f23df65caf171f5b8cdebc0ecc8b186b86bb0|Merge "Fix puppet-lint warnings about double quoted string"|Mon, 26 Aug 2013 05:49:42 +0000|Mon, 26 Aug 2013 05:49:42 +0000
+e2ff7b2a7a9f96d41db40bd775796294698b8f88|Fix puppet-lint warning about top-scope variable|Sun, 25 Aug 2013 23:37:54 -0400|Sun, 25 Aug 2013 23:37:54 -0400
+b8a225c9a08ba6ca6029e82948d993d91025a1a5|Fix puppet-lint warnings about double quoted string|Sun, 25 Aug 2013 23:36:02 -0400|Sun, 25 Aug 2013 23:37:19 -0400
+0098067226a9a1593bba49231eaa96c79aec8a08|Fix puppet-lint warnings about ensure|Sun, 25 Aug 2013 23:29:34 -0400|Sun, 25 Aug 2013 23:29:34 -0400
+e7bb58e6ba39d7daeee9069c83451f8898d8a424|Use swift_config|Sun, 25 Aug 2013 23:21:45 -0400|Sun, 25 Aug 2013 23:22:05 -0400
+97a921947b7da83fda8ee6ddaa93e3b2ad09bd1e|Merge "concat module was moved from ripienaar to puppetlabs"|Fri, 16 Aug 2013 18:13:56 +0000|Fri, 16 Aug 2013 18:13:56 +0000
+84d645883b80edb47a984a877505dbd9964840a1|concat module was moved from ripienaar to puppetlabs|Wed, 14 Aug 2013 20:26:26 -0700|Fri, 16 Aug 2013 00:41:26 -0700
+bf34ca881bf53c1ddcdef855a5d23cf8b77dceda|Merge "Improve Proxy Signing Directory Support"|Thu, 15 Aug 2013 17:57:27 +0000|Thu, 15 Aug 2013 17:57:27 +0000
+64ff379fad54c8dcc7764a46123d0fd68123820b|Validate that swift zones are integers.|Mon, 12 Aug 2013 23:19:26 -0700|Tue, 13 Aug 2013 16:19:04 -0700
+418e7c736b430cc4e103a52bef2e7ccafd68bbd6|Disable 80chars/class_parameter_defaults checks|Mon, 12 Aug 2013 16:46:33 -0400|Mon, 12 Aug 2013 17:50:21 -0400
+f71d159c4d423ff6bb4c5562bec370cab8ab9f9f|Improve Proxy Signing Directory Support|Tue, 6 Aug 2013 06:12:43 +0000|Mon, 12 Aug 2013 18:39:15 +0000
+a1a0a89ad198b63b5c941c6a5d636284437005cd|Remove puppetlabs-create_resources dependency.|Fri, 9 Aug 2013 16:51:28 -0700|Fri, 9 Aug 2013 16:54:01 -0700
+a08b743807c05fac5d0e0f80326db822f87804c8|Fixed some spelling errors|Fri, 9 Aug 2013 13:14:02 -0700|Fri, 9 Aug 2013 13:14:02 -0700
+77ba94db567a79d2183ac5bc5d119ce66cb735c3|Update fixtures.yml to use puppetlabs/xinetd|Thu, 8 Aug 2013 18:30:49 -0700|Thu, 8 Aug 2013 18:30:49 -0700
+f8b36489f48b6dbd06e62639658dc1890e301c78|Puppet Forge release 2.1.0|Wed, 7 Aug 2013 09:48:45 -0700|Wed, 7 Aug 2013 18:19:12 -0700
+63c3fc346387ba9ad773a8a48ae54464faba2528|Update modulefile and fixtures to use puppetlabs/inifile|Wed, 7 Aug 2013 16:04:24 -0700|Wed, 7 Aug 2013 16:04:24 -0700
+178f4b18dc32df9f163a968a6a33270c89a32027|Various Puppet lint fixes|Mon, 1 Jul 2013 18:27:13 -0400|Fri, 2 Aug 2013 11:51:57 -0400
+cb2e06556ddfbe8ce5356ab567124f3836e22b4a|Add signing dir|Fri, 26 Jul 2013 14:21:23 -0700|Mon, 29 Jul 2013 07:21:48 -0700
+b4584daaae829b5627b0996e7296b014110dba2a|Add configurable log for proxy-server service|Thu, 13 Jun 2013 18:57:27 +0800|Fri, 26 Jul 2013 04:33:23 +0000
+e41a552afe471155c2d3c3e04588e2772bcd7e4e|Add ini_setting based custom types for configs|Sat, 6 Jul 2013 14:37:38 -0400|Thu, 25 Jul 2013 10:19:30 -0400
+503d3e41c0df21c7263d597ea84ea075b191aef3|Merge "Added the allow_versions flag to enable/disable object versioning in swift object container"|Mon, 22 Jul 2013 15:59:07 +0000|Mon, 22 Jul 2013 15:59:07 +0000
+4d96d896cac155acb87c2fd5e626cdf3585f24a0|Added the allow_versions flag to enable/disable object versioning in swift object container|Fri, 12 Jul 2013 10:36:21 +0200|Fri, 19 Jul 2013 16:40:13 +0200
+6a0e505ee957fa25a124b07f62d44069deb8ae10|Add configurable log for storage server|Tue, 25 Jun 2013 14:48:22 +0800|Thu, 18 Jul 2013 02:33:07 +0000
+c8936fea9b1f70c20dc1bdb192e8a3553ed73708|Use @ notation for ERB template variables|Wed, 17 Jul 2013 14:33:00 -0400|Wed, 17 Jul 2013 14:33:00 -0400
+45cec2d3fbc6910eb9ffc1470317e515e532aead|Add swift::bench to manage swift-bench.conf|Sun, 9 Jun 2013 00:00:48 +0800|Fri, 5 Jul 2013 11:50:27 +0800
+75e29ee2bee6ba98dd910a4160f95930325810f8|Fix Puppet 3.2.x deprecation warnings|Fri, 12 Jul 2013 15:37:42 -0700|Fri, 12 Jul 2013 15:40:02 -0700
+6d6e35d2846072ec633dcb73d0b68cad5a712b33|Remove "v" from mysql dependency version|Tue, 25 Jun 2013 12:46:58 -0400|Tue, 25 Jun 2013 12:46:58 -0400
+ee80f1c7d600d42b3b7a2b5a8534866dee3db86b|Puppet Forge release 2.0.0|Mon, 24 Jun 2013 21:34:52 -0700|Mon, 24 Jun 2013 21:34:52 -0700
+fb293273ea57f1796b46a1dbcbcdfccd3b887462|Unset default signing dir|Mon, 24 Jun 2013 19:43:55 -0700|Mon, 24 Jun 2013 19:57:24 -0700
+d945c1f97906c53eb59fe2a4a9279b1e8397eb89|Prepare repository for a Puppet Forge release|Mon, 27 May 2013 16:16:53 -0700|Tue, 18 Jun 2013 14:41:29 -0700
+c1361de739e0ed9b707fe3a15a6a9234de42ef9d|Add xinetd puppetlabs module as a new dependency|Tue, 18 Jun 2013 20:32:47 +0200|Tue, 18 Jun 2013 20:33:31 +0200
+0d2ceb8d14d8ecc6f404af4ce3424b265a39258f|Merge "Add auth_admin_prefix and custom auth_uri params"|Mon, 17 Jun 2013 04:48:57 +0000|Mon, 17 Jun 2013 04:48:57 +0000
+d339eb4937a66d2e7aa5713baab3f6f97a40299f|Add swift::storage::disk to support disk device.|Wed, 12 Jun 2013 14:14:17 +0800|Wed, 12 Jun 2013 14:14:17 +0800
+b0f48341659fd575f48710d7f429aa9bde81cf90|Fix dependency problem in class swift|Mon, 27 May 2013 15:56:11 +0800|Mon, 10 Jun 2013 18:32:41 +0800
+09a78bfd9d28d8b8f32c2a8ada3e7dc1f63f5b79|Add auth_admin_prefix and custom auth_uri params|Tue, 14 May 2013 17:18:00 +0200|Wed, 5 Jun 2013 20:50:37 +0200
+aac6528f70239de8ac041353c83e3d1ffba2523a|Merge "Customizable allowed_sync_hosts in container-server.conf"|Wed, 5 Jun 2013 04:58:25 +0000|Wed, 5 Jun 2013 04:58:25 +0000
+fad2a8fc40993d25481ff0d6d404e27ee93838df|Merge "Ensure xfsprogs and parted are not already installed"|Mon, 3 Jun 2013 23:06:22 +0000|Mon, 3 Jun 2013 23:06:22 +0000
+003c15703e091cd7df01df17e166a53a88ea32cd|Merge "Use boolean instead of string"|Fri, 31 May 2013 19:28:05 +0000|Fri, 31 May 2013 19:28:05 +0000
+3a0413f7f521d71be0bed3d64ede62c50ab2151e|Customizable allowed_sync_hosts in container-server.conf|Tue, 21 May 2013 14:11:34 +0200|Wed, 29 May 2013 12:39:21 +0200
+ead48deedd6af4161e5fdd5550c4f714a44404bc|Ensure xfsprogs and parted are not already installed|Tue, 21 May 2013 17:05:41 +0200|Thu, 23 May 2013 12:07:22 +0200
+4c990fd8941c4426e7622750b8a65be68a41b482|Merge "Add puppet-lint to Gemfile"|Wed, 22 May 2013 00:25:18 +0000|Wed, 22 May 2013 00:25:18 +0000
+f520d4e548c5c93d9c30e6f2b663b445ecdff394|Add puppet-lint to Gemfile|Tue, 21 May 2013 19:43:34 -0400|Tue, 21 May 2013 19:43:34 -0400
+ee4a9d48599bce332d0d7bdf4f8c0bbb6d9c6f2e|Update swift_ring_builder to support replicator...|Mon, 20 May 2013 15:37:45 -0400|Mon, 20 May 2013 15:46:28 -0400
+c43a47a0ea8eadf6ebf0e61309f59678d072a046|Merge "Use new keystoneclient middleware."|Sun, 19 May 2013 02:27:18 +0000|Sun, 19 May 2013 02:27:18 +0000
+63c550fbcde8c9735c5ff763fcc8d1d22eb0b26d|Merge "Fix swift-ring-builder for swift 1.8"|Sat, 18 May 2013 07:09:28 +0000|Sat, 18 May 2013 07:09:28 +0000
+ff2c6fc3b94575ae37a763535c24e641d3dd7dc0|Fix a typo to define Debian's service provider.|Tue, 14 May 2013 09:36:28 +0200|Tue, 14 May 2013 09:39:02 +0200
+3e4835f340e27ca59e0992f360715fcbadf0da60|Remove swift::params include|Mon, 13 May 2013 13:46:40 -0400|Mon, 13 May 2013 13:50:34 -0400
+163c7b1abc40d1cd4e0de650365ee003c17f0a90|Use boolean instead of string|Thu, 9 May 2013 23:21:06 -0400|Thu, 9 May 2013 23:21:06 -0400
+93f5765bb2cccb717cb26b522dc9a14c123dfd26|Replace deprecated :rubygems source|Thu, 2 May 2013 16:30:34 -0400|Thu, 2 May 2013 16:30:38 -0400
+a9ec8e1c2dfa982542b38a538e5ca518df67f35f|Fix swift-ring-builder for swift 1.8|Mon, 29 Apr 2013 10:32:42 +0200|Thu, 2 May 2013 14:17:26 +0200
+e6591fdd49675ff65c101e20ed29efbe5eb72faa|Use new keystoneclient middleware.|Wed, 1 May 2013 06:12:19 -0400|Wed, 1 May 2013 06:12:19 -0400
+a8f84b5548f5c5b9cc3f03ae1ba82154b8ee722d|Merge "Add the ceilometer middleware"|Wed, 1 May 2013 03:37:56 +0000|Wed, 1 May 2013 03:37:56 +0000
+7ce927d417fbace912d050ae8d0643a138aeb1a3|Merge "Add address params to the swift::keystone::auth"|Wed, 1 May 2013 02:49:40 +0000|Wed, 1 May 2013 02:49:40 +0000
+015be53c81fa59f1ec85d743afbdceea1ad00e0e|Add the ceilometer middleware|Mon, 25 Feb 2013 19:51:59 +0100|Mon, 29 Apr 2013 10:30:33 +0200
+90f58f8f925cffc90271ff7a2c3ad733dc051cef|Start swift support services on Red Hat|Wed, 24 Apr 2013 06:16:59 -0400|Wed, 24 Apr 2013 06:16:59 -0400
+004b8b41488a9658763153a967a1a02bfaa5af8c|Add address params to the swift::keystone::auth|Thu, 18 Apr 2013 12:12:51 +0800|Wed, 24 Apr 2013 16:13:04 +0800
+9a3a0b7c24a3fa9b57957ca85fd3bf3c961dce2b|Merge "Fix warnings in storage/server.pp."|Mon, 22 Apr 2013 11:50:21 +0000|Mon, 22 Apr 2013 11:50:21 +0000
+4d73d3a6cdbddafd4c9c7109878efa5e555742ba|Drop the swift TODO file.|Sat, 20 Apr 2013 22:33:16 -0400|Sat, 20 Apr 2013 22:33:16 -0400
+bdbcf5ca883969a227e3ae3c60a4f0e3b04a04a1|Fix warnings in storage/server.pp.|Sat, 20 Apr 2013 22:29:57 -0400|Sat, 20 Apr 2013 22:29:57 -0400
+9759682213a6cbb09f2b9fa1db5c61550cd6b22e|Set hasstatus => true for proxy services|Fri, 19 Apr 2013 10:03:01 -0400|Fri, 19 Apr 2013 10:07:46 -0400
+3daaef0ea0993878bbe3b593b63d1caf612cce50|Merge "Drop Swift requirement on keystone:python."|Tue, 16 Apr 2013 02:25:12 +0000|Tue, 16 Apr 2013 02:25:12 +0000
+d384093080bdc31dd18364a0d4f1cf753c2290a4|Set config_file_path in storage::node.|Fri, 5 Apr 2013 14:53:14 -0400|Fri, 12 Apr 2013 08:05:48 -0400
+9d7ba981d19e8a4e7a1c422be7083053d1040761|Drop Swift requirement on keystone:python.|Fri, 5 Apr 2013 08:11:40 -0400|Fri, 12 Apr 2013 08:05:00 -0400
+879f310836ba281a3f499570c332a0fd1805e7a6|Merge "Fix swift_ring_builder output parsing."|Thu, 11 Apr 2013 19:34:01 +0000|Thu, 11 Apr 2013 19:34:01 +0000
+58da32e498914020f3c396cb0ff581ad44ad06c5|Merge "Fix swift storage service start on debian"|Thu, 11 Apr 2013 18:25:24 +0000|Thu, 11 Apr 2013 18:25:24 +0000
+9ad39d5fdcb42b25e9b542c2f4acf7ccd5bb789e|Merge "Remove traling / from keystone admin_url endpoint"|Thu, 11 Apr 2013 17:16:20 +0000|Thu, 11 Apr 2013 17:16:20 +0000
+33918e1978067074dd13deda72eb724b8bac83b6|Merge "RHEL/Fedora replicator updates."|Thu, 11 Apr 2013 16:54:06 +0000|Thu, 11 Apr 2013 16:54:06 +0000
+3c741a78d53c68d3982bd10ac900fd1339cc8830|Merge "Update keystone fragment to use egg."|Thu, 11 Apr 2013 16:48:36 +0000|Thu, 11 Apr 2013 16:48:36 +0000
+bee081b5b65e5dd7451eb328af6a01f564712da0|Fix swift_ring_builder output parsing.|Fri, 5 Apr 2013 07:50:04 -0400|Thu, 11 Apr 2013 11:37:38 -0400
+e8a478df5906bbc6158337edc2984c3546820812|Remove traling / from keystone admin_url endpoint|Fri, 22 Feb 2013 16:47:26 +0100|Thu, 11 Apr 2013 16:14:38 +0200
+ab00ec58e26654c6d3904887ad874bcae49aaacd|Update keystone fragment to use egg.|Fri, 5 Apr 2013 07:43:33 -0400|Thu, 11 Apr 2013 10:03:43 -0400
+0dcde3563a54ba33eb20e2a9a1aaa94b3cf05daa|Fix swift storage service start on debian|Mon, 28 Jan 2013 10:22:40 +0100|Thu, 11 Apr 2013 08:50:55 +0200
+adf2b988c4e98121ed24d468d49e17ec518c31bc|Merge "Allow customise log_facility in storage server configuration"|Thu, 11 Apr 2013 06:25:42 +0000|Thu, 11 Apr 2013 06:25:42 +0000
+d1f1e9b8c9132e851cfc4a36ba3ca5e127ddc43e|Merge "Ensure python-swiftclient is installed to use swift-dispersion"|Thu, 11 Apr 2013 05:17:12 +0000|Thu, 11 Apr 2013 05:17:12 +0000
+78b1bf9af48d88466d483450aca31a1ff5159f63|Merge "Allow to have a different internal address and public address"|Wed, 10 Apr 2013 21:57:33 +0000|Wed, 10 Apr 2013 21:57:33 +0000
+37c5f9a8944e15614b78ef2af9c6a81cc077803a|Add gitreview|Wed, 10 Apr 2013 13:36:32 -0700|Wed, 10 Apr 2013 13:36:32 -0700
+6d88ca53095fd4a6f0ea0d2bd3446a7d0e401ac2|release 1.0.0|Tue, 9 Apr 2013 22:50:47 -0700|Wed, 10 Apr 2013 13:26:31 -0700
+0b4a2bb598eaa25a81dc521b94047092593f587a|Update fixtures location to use stackforge.|Wed, 10 Apr 2013 14:57:02 -0400|Wed, 10 Apr 2013 14:57:02 -0400
+66e69975184035a5c069052ef062f267b7c6de9f|Merge "Drop ringbuilder.sh from swift module."|Wed, 10 Apr 2013 15:05:23 +0000|Wed, 10 Apr 2013 15:05:23 +0000
+3fe177d43943414345b1113af59bac8498f92a67|Drop ringbuilder.sh from swift module.|Fri, 5 Apr 2013 07:47:16 -0400|Wed, 10 Apr 2013 10:08:54 -0400
+e437b44d44c0fb584a7071bfa314be3b4e72f11e|Allow to have a different internal address and public address|Mon, 21 Jan 2013 10:30:18 +0100|Wed, 10 Apr 2013 10:03:41 +0200
+45edcd61de69e610225a6492634996eee1c3553c|Ensure python-swiftclient is installed to use swift-dispersion|Thu, 31 Jan 2013 09:53:39 +0100|Wed, 10 Apr 2013 09:56:52 +0200
+b634c440ca92167b0c4c95b66530785354c4d3fb|Allow customise log_facility in storage server configuration|Mon, 25 Feb 2013 14:41:45 +0100|Wed, 10 Apr 2013 09:54:05 +0200
+f849e5d572e797bdbc0aa4a1d325ca7039d9a5f3|Merge "Remove travis test status from README"|Wed, 10 Apr 2013 02:37:59 +0000|Wed, 10 Apr 2013 02:37:59 +0000
+e98b2f4a63df2628446d49c886a157e10cf4f59e|Merge "Add Gemfile"|Tue, 9 Apr 2013 23:52:45 +0000|Tue, 9 Apr 2013 23:52:45 +0000
+dbef1b88628da3f036710ba76c3742c5033532e1|Remove travis test status from README|Tue, 9 Apr 2013 15:44:49 -0700|Tue, 9 Apr 2013 15:44:49 -0700
+73f87303852fb7024bd5a45f7bec1a0d2e51369b|Add Gemfile|Tue, 9 Apr 2013 15:41:54 -0700|Tue, 9 Apr 2013 15:43:20 -0700
+77c17c7d3fc775eab72d51cf387e3d4804410791|RHEL/Fedora replicator updates.|Fri, 5 Apr 2013 14:48:03 -0400|Fri, 5 Apr 2013 14:48:03 -0400
+2510adebc4b5abe554982d6c9db7af6884178841|Merge pull request #97 from bodepd/fix_spec_failures|Thu, 21 Mar 2013 23:16:28 -0700|Thu, 21 Mar 2013 23:16:28 -0700
+0602fb5dfec5a63bb33a3c5bc86e93bbb6042a5f|fix failing tests|Thu, 21 Mar 2013 23:15:10 -0700|Thu, 21 Mar 2013 23:15:10 -0700
+6ec85968a59ea3bff78f00b8349cd67519e5f0f4|Merge pull request #91 from MorrisA/master|Mon, 28 Jan 2013 16:34:40 -0800|Mon, 28 Jan 2013 16:34:40 -0800
+39d1417fbdc443f0c39d051aa37927f1ac8ffdf3|Removed some non-ascii characters that were causing Puppet to fail to build the proxy.|Thu, 24 Jan 2013 08:27:19 -0800|Thu, 24 Jan 2013 08:27:19 -0800
+26c270f1648fbbb3c5c382522a56c69a90ac5978|Merge pull request #83 from enovance/sileht/pr/publicport|Tue, 15 Jan 2013 13:33:45 -0800|Tue, 15 Jan 2013 13:33:45 -0800
+c070835d7af59ffaa2394287753cd81d1eb78f60|Merge pull request #89 from bodepd/refactor_examples|Fri, 11 Jan 2013 15:43:30 -0800|Fri, 11 Jan 2013 15:43:30 -0800
+56cb7b955db7ed4c55185f621529202870cb18e9|refactor of keystone examples|Fri, 11 Jan 2013 15:25:47 -0800|Fri, 11 Jan 2013 15:25:47 -0800
+8c21b3f8d7deb0c400147b9d7b231300c5e81f99|Merge pull request #88 from bodepd/fix_upstart_swift_container_sync|Fri, 11 Jan 2013 14:50:08 -0800|Fri, 11 Jan 2013 14:50:08 -0800
+3d2462bd78d02059cc4d3b82badb9ff8f09f4fed|add upstart symlink|Fri, 11 Jan 2013 14:47:21 -0800|Fri, 11 Jan 2013 14:47:21 -0800
+809a99f08b979c9e9e259cc614ae90a88c2c1db7|Merge pull request #87 from bodepd/remove_log_leading_set|Fri, 11 Jan 2013 14:19:43 -0800|Fri, 11 Jan 2013 14:19:43 -0800
+b5290c4f9bd5c21da00856dcc691842bb2e8e3f6|Remove leading set from config|Fri, 11 Jan 2013 14:12:04 -0800|Fri, 11 Jan 2013 14:12:04 -0800
+685777e2df4b5aae0d81ab0f6c3d88b378ef07d4|Merge pull request #86 from bodepd/swift_testing_file|Fri, 11 Jan 2013 12:21:53 -0800|Fri, 11 Jan 2013 12:21:53 -0800
+a467efdc46edba5932c12c4eb5924ed1ed39c229|level up swift test file|Fri, 11 Jan 2013 12:19:53 -0800|Fri, 11 Jan 2013 12:21:16 -0800
+7584ccf7cc1a2f8898225b23141378651897412b|Merge pull request #84 from bodepd/swift_fix_xfs_mount_device|Mon, 7 Jan 2013 11:14:52 -0800|Mon, 7 Jan 2013 11:14:52 -0800
+b379804ca98549c74a64cc80c1ebc335d29f73e0|fix bug setting device|Mon, 7 Jan 2013 11:07:20 -0800|Mon, 7 Jan 2013 11:07:20 -0800
+0ebf9d6143a4bfe9a6a9eb087124a422188ee799|Update README.md|Wed, 2 Jan 2013 12:09:15 -0800|Wed, 2 Jan 2013 12:09:15 -0800
+4f77fa42ad33a5096f517d0dcd8f281898a93afb|Allow to have a different internal port and public port|Thu, 20 Dec 2012 11:58:10 +0100|Thu, 20 Dec 2012 11:58:10 +0100
+908c82ed6b6fe87f00fb0cd6f75bacb05eedcaca|Merge pull request #74 from fcharlier/fc/dispersion_with_tenant|Wed, 12 Dec 2012 10:32:23 -0800|Wed, 12 Dec 2012 10:32:23 -0800
+63cb9e735d971b9336b9361cb4ab0a1fb1913918|Remove trailing coma for Puppet 2.6 compat.|Wed, 12 Dec 2012 10:35:26 +0100|Wed, 12 Dec 2012 10:35:26 +0100
+f97f8c5412ec86afbdba6b8fe025ca34bd9ec471|Merge pull request #77 from Mirantis/avoid-duplicate-package-swift|Tue, 11 Dec 2012 21:50:09 -0800|Tue, 11 Dec 2012 21:50:09 -0800
+11a841ee995c70f80d68c185727fdfedeb662af9|Merge pull request #78 from Mirantis/create-swift-user|Tue, 11 Dec 2012 21:49:45 -0800|Tue, 11 Dec 2012 21:49:45 -0800
+c12b8214e4469988b1fe018bec4c021716010876|Merge pull request #81 from Mirantis/fix-swauth|Tue, 11 Dec 2012 21:48:40 -0800|Tue, 11 Dec 2012 21:48:40 -0800
+5bee473e28d3566d3feee4ec3ba9da6f50aae5f6|Merge pull request #82 from derekhiggins/s3package|Tue, 11 Dec 2012 21:39:51 -0800|Tue, 11 Dec 2012 21:39:51 -0800
+b110f5f1be7158e600c53f6eb4ddceb981a6cab5|Merge pull request #64 from enovance/folsom-new-middleware|Tue, 11 Dec 2012 21:37:33 -0800|Tue, 11 Dec 2012 21:37:33 -0800
+e6ba75a1618c580e48cb9830898194cdbf38c13e|Setting name of swift3 plugin package|Tue, 11 Dec 2012 18:55:52 -0500|Tue, 11 Dec 2012 19:00:42 -0500
+d1fd4084afd89b7d8102633ab60510056ce95b9b|Fix missing package_ensure in swauth|Wed, 7 Nov 2012 21:36:01 +0400|Tue, 4 Dec 2012 15:58:01 +0400
+e9f9c99fe8e68feb41c40b3b39393450fd8170e1|Merge pull request #73 from derekhiggins/https_endpoint|Mon, 3 Dec 2012 14:42:38 -0800|Mon, 3 Dec 2012 14:42:38 -0800
+52753b950812bb9bdcfd7354a7f9609447266ab9|Create swift user and home directory|Mon, 19 Nov 2012 18:47:03 +0400|Fri, 30 Nov 2012 19:44:17 +0400
+31aa020b0fbfe98772c4271d58ee9e4a62a2166e|Avoid duplicate package swift.|Fri, 2 Nov 2012 17:53:56 +0400|Fri, 30 Nov 2012 19:37:44 +0400
+c7051ff48681966edb6d894ff9bc4f055dc745f7|Merge pull request #75 from rubiojr/s3token-syntax-error|Thu, 22 Nov 2012 10:18:44 -0800|Thu, 22 Nov 2012 10:18:44 -0800
+ec0d743e0145a006f1638df2a2c3c9131fb75f7d|Fix syntax error in s3token manifest|Thu, 22 Nov 2012 18:35:28 +0100|Thu, 22 Nov 2012 18:35:28 +0100
+9cc14a9042cb5b6e8385406451ae9c079930e321|Adding the ability to specify https for the public endpoint|Wed, 21 Nov 2012 12:48:19 -0500|Wed, 21 Nov 2012 23:01:46 +0000
+b885ed74885957fbac8ef47567e870b9ec02f28c|Update swift::keystone::dispersion|Wed, 21 Nov 2012 20:15:53 +0100|Wed, 21 Nov 2012 20:15:53 +0100
+3ac424cc4200fee42622a1c0a4dbe544b10ea365|Add some middlewares (tempurl, staticweb, formpost)|Fri, 16 Nov 2012 15:38:07 +0100|Fri, 16 Nov 2012 19:16:08 +0100
+a6f98ad3e339c9f9390528a7e36393515133d27b|Merge pull request #61 from derekhiggins/jtopjian-puppetlabs-rebase|Thu, 15 Nov 2012 12:59:44 -0800|Thu, 15 Nov 2012 12:59:44 -0800
+995ec33b13374e4bb2fcf85706103ea0373b340a|Fixed tests|Thu, 15 Nov 2012 11:46:05 +0000|Thu, 15 Nov 2012 11:46:05 +0000
+9dc035558c85031e2f3c910f0fe6ec5f1178b65f|Adding the swift client package name to params.pp for RedHat|Tue, 6 Nov 2012 06:52:57 -0500|Tue, 6 Nov 2012 06:52:57 -0500
+d5859165654fc673e02902383c17281584349e51|Added logging support to proxy-server|Thu, 1 Nov 2012 09:28:26 -0600|Thu, 1 Nov 2012 17:48:12 -0600
+020b7723cbbe75fbcae89514a1e1882ae807fb27|Several changes: * `python-swiftclient` is now installed by default. * Fixed swift3. * Fixed s3token. * Recreated authtoken - it used to be configured in the Keystone module. * Created proxy-logging filter|Sun, 28 Oct 2012 18:12:04 -0600|Thu, 1 Nov 2012 17:48:12 -0600
+87ab008565303cf813e4b21ad9da036a43fb144c|Region changes|Sun, 28 Oct 2012 13:28:35 -0600|Thu, 1 Nov 2012 17:48:12 -0600
+f6e3ebb95f7a699d63be1ea3a2a58101c58a4af4|Merge pull request #54 from rubiojr/1.9-compat-fixes|Sun, 28 Oct 2012 18:20:29 -0700|Sun, 28 Oct 2012 18:20:29 -0700
+29e4c80895a33ffcb217c4579e7925f892db5501|Merge pull request #53 from rubiojr/add-missing-services|Sun, 28 Oct 2012 18:19:45 -0700|Sun, 28 Oct 2012 18:19:45 -0700
+38c39957031fb7450fdce00d1f46fe237ef30b9a|Merge pull request #55 from rubiojr/proxy-honor-bind-ip|Sun, 28 Oct 2012 18:19:07 -0700|Sun, 28 Oct 2012 18:19:07 -0700
+58d9d17e5712a4be6e4a2bb4ae0b3f915eeaace7|Merge pull request #56 from rubiojr/xfs-storage-improvements|Sun, 28 Oct 2012 18:18:51 -0700|Sun, 28 Oct 2012 18:18:51 -0700
+3817446c0d0d6498e2fc8b27754821a979292401|Merge pull request #57 from rubiojr/storage-all-improvements|Sun, 28 Oct 2012 18:17:32 -0700|Sun, 28 Oct 2012 18:17:32 -0700
+1a1377a05ef75d5f70ba6186cda3b87e81abc449|Merge pull request #58 from rubiojr/create-cache-dir|Sun, 28 Oct 2012 18:17:15 -0700|Sun, 28 Oct 2012 18:17:15 -0700
+2bb6be25bd1b9740ce8dc29991560d5c0b41fdf8|Create /var/cache/swift directory|Tue, 2 Oct 2012 11:13:45 +0200|Tue, 2 Oct 2012 11:13:45 +0200
+f61af02d035dd52656778cbda05415542d7538ed|Add mount_check param to swift::storage::all (defaults to false)|Wed, 26 Sep 2012 19:13:23 +0200|Wed, 26 Sep 2012 19:13:23 +0200
+0a630c3c9eceba2f0a56f6e8e6e6c3bbf7666d4e|swift::storage::xfs improvements|Wed, 26 Sep 2012 18:37:11 +0200|Wed, 26 Sep 2012 18:37:11 +0200
+a7c92b613883a1becf3a3c28fd9ce727a1f3917d|According to the docs, proxy_local_net_ip is required but not used|Tue, 25 Sep 2012 12:50:27 +0200|Tue, 25 Sep 2012 12:50:27 +0200
+9f176a2df9f76e900e7161a7a5b5b2118381d05d|ruby 1.9 compat fix for spec/defines/swift_storage_server_spec.rb|Mon, 24 Sep 2012 20:43:07 +0200|Mon, 24 Sep 2012 20:43:07 +0200
+b1192564ea0db05febea6ea9cb25350b9ecc1b77|String no longer has '.to_a', fixes compatibility with ruby 1.9,|Mon, 24 Sep 2012 20:07:51 +0200|Mon, 24 Sep 2012 20:07:51 +0200
+5d68f7e260fd710c99cc4fcc30bbe25a9ea51323|Prevent some race conditions by requiring the storage server package|Mon, 24 Sep 2012 15:22:16 +0200|Mon, 24 Sep 2012 15:22:16 +0200
+403a88a05f4327390bf5796657ce2ca9cfca7980|Manage missing Swift storage server services|Thu, 20 Sep 2012 11:10:18 +0200|Thu, 20 Sep 2012 11:10:18 +0200
+05d44d8e784f6d649086504e2d53ff1dde17bd3f|Merge pull request #52 from rubiojr/readme-improvements|Fri, 14 Sep 2012 10:43:56 -0700|Fri, 14 Sep 2012 10:43:56 -0700
+d4b48b1f0e034d0b4d5ebf6f8f59b37aab7856ae|Added some references to required storeconfigs, pluginsync|Fri, 14 Sep 2012 17:05:33 +0200|Fri, 14 Sep 2012 17:05:33 +0200
+5aaa8aeb70f02ce3da5a6d450ea4d550451c0250|Merge pull request #50 from derekhiggins/master|Wed, 22 Aug 2012 17:53:46 -0700|Wed, 22 Aug 2012 17:53:46 -0700
+7034190780838cc1f3fe7303759f99d52e988547|Adding support for ext4 devices|Wed, 22 Aug 2012 15:57:28 +0100|Thu, 23 Aug 2012 00:47:12 +0100
+682c6931dcc0f3a1ee08d583a2d8c824e76c99c4|Merge pull request #48 from derekhiggins/devel|Wed, 22 Aug 2012 05:46:28 -0700|Wed, 22 Aug 2012 05:46:28 -0700
+88c4954f0bf1e734db382e91aca67b9e5b82ffc9|Starting the swift replicator with /usr/bin/swift-init on RedHat|Fri, 17 Aug 2012 15:27:54 +0100|Wed, 22 Aug 2012 12:34:19 +0100
+46a3e31f191e385871a5f58f5c5a5fa197ea5aff|Merge pull request #49 from jtopjian/jtopjian-auth_file|Mon, 20 Aug 2012 21:33:45 -0700|Mon, 20 Aug 2012 21:33:45 -0700
+8524d615e70db59bf94f5749728b7bc64c3b1339|Added manifest to generate swiftrc file|Tue, 21 Aug 2012 02:02:56 +0000|Tue, 21 Aug 2012 02:02:56 +0000
+3fd9ac9b9d7e251475602aaa2cfa2ee05331af7c|Merge pull request #47 from bodepd/node_regex|Tue, 31 Jul 2012 15:22:06 -0700|Tue, 31 Jul 2012 15:22:06 -0700
+90c666326d6c488d90b8b877497a9848da163932|Update node blocks to use regex|Mon, 23 Jul 2012 20:14:21 -0700|Mon, 23 Jul 2012 20:14:21 -0700
+b63a9dbe07fec6d3186bd92af68e49715ee146e9|Merge pull request #46 from bodepd/add_loopback_mnt_param|Mon, 23 Jul 2012 16:32:49 -0700|Mon, 23 Jul 2012 16:32:49 -0700
+bb85c667cc2a7029dfb6c0f270260473327b64b5|Style related updates|Mon, 23 Jul 2012 15:05:21 -0700|Mon, 23 Jul 2012 16:32:24 -0700
+4691b3929d0f079b8152cc5e73496c1ae48237eb|Add spec tests for additional loopback parameter.|Mon, 23 Jul 2012 15:04:14 -0700|Mon, 23 Jul 2012 15:04:14 -0700
+d268fd1d3f1144953e0ffece8e4bd81c7ede6644|Merge pull request #45 from branan/fix_rspec_211|Thu, 12 Jul 2012 16:10:04 -0700|Thu, 12 Jul 2012 16:10:04 -0700
+eef6b12f44800c92c32bb91ab6af2ec65ab71aad|Replace expect..should with expect..to|Thu, 12 Jul 2012 15:24:03 -0700|Thu, 12 Jul 2012 15:24:03 -0700
+1c10f67a37df491241c162c85c30c6162459b623|Merge pull request #44 from branan/puppet_26_compat|Tue, 10 Jul 2012 13:20:52 -0700|Tue, 10 Jul 2012 13:20:52 -0700
+eb02382140d908cab457941b05fb5e24d530f8f6|Remove trailing comma for puppet 2.6 compat|Tue, 10 Jul 2012 11:10:10 -0700|Tue, 10 Jul 2012 11:10:10 -0700
+ffdcaaf803be702699099c6d06311d91618e90c7|Merge pull request #43 from branan/single_replica_example|Fri, 6 Jul 2012 17:37:55 -0700|Fri, 6 Jul 2012 17:37:55 -0700
+337e7f83ab84a68f2a8e8d3297fcfe794c58aaf0|Use a single replica in the all-in-one example|Fri, 6 Jul 2012 14:49:35 -0700|Fri, 6 Jul 2012 15:22:51 -0700
+12b8159941ede46cd3f948b744917eb9d882a22d|Revert "Allow multiple instances of swift::storage::server on one host"|Fri, 6 Jul 2012 14:43:52 -0700|Fri, 6 Jul 2012 14:43:52 -0700
+18417713553995abe9cc76c3e1c211d5a08a3fe5|updated loopback, xfs, and mount to support non-loopback devices|Tue, 26 Jun 2012 16:24:06 -0700|Tue, 26 Jun 2012 16:24:06 -0700
+cfc0730556566319a96062470c403c9236c84546|Merge pull request #40 from fcharlier/fc/rsync_no_chroot|Wed, 20 Jun 2012 12:39:44 -0700|Wed, 20 Jun 2012 12:39:44 -0700
+a5788bae83ffcdb9279bb5f312d28b39ad6fa914|Disable 'use chroot' for rsync::server|Tue, 19 Jun 2012 16:16:24 +0200|Tue, 19 Jun 2012 16:16:24 +0200
+03d39f1663a51eeb96d5029ccc79f34ed195b520|Merge pull request #39 from branan/forge_release|Fri, 15 Jun 2012 12:07:01 -0700|Fri, 15 Jun 2012 12:07:01 -0700
+1b861d283a35d855e88da8fc5dc7f7108fd7d354|Add SSH dependency to Modulefile|Fri, 15 Jun 2012 11:49:18 -0700|Fri, 15 Jun 2012 11:49:18 -0700
+acb17d14979b060c894483aa2743c3b45f525991|Merge pull request #38 from branan/forge_release|Fri, 15 Jun 2012 11:22:28 -0700|Fri, 15 Jun 2012 11:22:28 -0700
+51c14d7879000651dd6677874c9f0fff5538176d|Prepare for initial forge release|Fri, 15 Jun 2012 11:01:36 -0700|Fri, 15 Jun 2012 11:08:08 -0700
+cfa7ff6b4ebf35855cdec7606a68c091488ac71f|Merge pull request #37 from branan/doc_update|Fri, 15 Jun 2012 09:44:37 -0700|Fri, 15 Jun 2012 09:44:37 -0700
+a292b9e796ec26907bbab4e34094e3875155729c|Documentation updates and formatting fixes|Fri, 15 Jun 2012 09:26:10 -0700|Fri, 15 Jun 2012 09:33:42 -0700
+58c9780b7530e35c124611a6cda41fe844c42e44|Merge pull request #35 from branan/fix_all_example|Thu, 14 Jun 2012 17:28:20 -0700|Thu, 14 Jun 2012 17:28:20 -0700
+12d04dc82750efafbcea9df717cce00ac023efb9|Merge pull request #36 from branan/add_node_spec|Thu, 14 Jun 2012 17:22:21 -0700|Thu, 14 Jun 2012 17:22:21 -0700
+8fd2591362f8afe9d6031cb3cdcace68e80d3231|Implement basic spec test for swift::storage::node|Thu, 14 Jun 2012 12:45:30 -0700|Thu, 14 Jun 2012 12:45:30 -0700
+02efd7afe06f029edee3bfcc6395857e1459b3ec|Allow multiple instances of swift::storage::server on one host|Thu, 14 Jun 2012 11:32:48 -0700|Thu, 14 Jun 2012 11:57:58 -0700
+c759ab69fe0c043ffd48bf6c8e8ede6fbacbf354|Fix ring_*_device usage in swift::storage::node|Thu, 14 Jun 2012 11:32:22 -0700|Thu, 14 Jun 2012 11:32:22 -0700
+6b0b2dedafcce25986c0e76724cc68f39fce3edc|Make sure the replicator services are ordered properly|Thu, 14 Jun 2012 11:31:53 -0700|Thu, 14 Jun 2012 11:31:53 -0700
+634e6a7e26eeda698ac38cfa8cc55ab0c416bea5|Merge pull request #34 from bodepd/swift_test_code|Tue, 12 Jun 2012 19:36:01 -0700|Tue, 12 Jun 2012 19:36:01 -0700
+43cd95fb797e35548118a9c1cadccc96ea12d6c3|Merge pull request #33 from bodepd/swift_example_manifest|Tue, 12 Jun 2012 19:35:30 -0700|Tue, 12 Jun 2012 19:35:30 -0700
+bdf67a91aa3049d84607579504f13eb220c85516|Remove invalid keystone test code|Tue, 12 Jun 2012 19:32:16 -0700|Tue, 12 Jun 2012 19:32:16 -0700
+75889ab7fcf214238da4c73d7bfe328251c79182|Add example site.pp|Tue, 12 Jun 2012 19:05:59 -0700|Tue, 12 Jun 2012 19:14:18 -0700
+f0c041eb7d2a51623e5c7bec57ecd6a62bfcaa63|Merge pull request #29 from branan/use_spechelper_gem|Fri, 8 Jun 2012 13:44:36 -0700|Fri, 8 Jun 2012 13:44:36 -0700
+7c1cf9b14f83d2bfa96e8573891ca779436fa936|Merge pull request #31 from fcharlier/dispersion|Wed, 6 Jun 2012 09:01:42 -0700|Wed, 6 Jun 2012 09:01:42 -0700
+8ccb51bddbe8614ad2e4677158f83ae2a4914b3e|Merge pull request #32 from bodepd/allow_multi_devices|Tue, 5 Jun 2012 17:16:53 -0700|Tue, 5 Jun 2012 17:16:53 -0700
+b66f98e25fb2f3a572629b9787d49f468ea1c97d|Move the keystone integration tests to files directory|Tue, 5 Jun 2012 16:53:34 -0700|Tue, 5 Jun 2012 16:53:34 -0700
+09f726c3634a3828aafa492e4914cd6da3835217|Allow multiple devices per endpoint.|Tue, 5 Jun 2012 16:45:47 -0700|Tue, 5 Jun 2012 16:45:47 -0700
+b428438460238e0991332a87ebf5f457fb903737|Merge pull request #26 from fcharlier/replicator_services|Tue, 5 Jun 2012 09:29:54 -0700|Tue, 5 Jun 2012 09:29:54 -0700
+c6c99a452438054054817f00bd99b50655c4600a|Merge pull request #30 from bodepd/middlewares|Tue, 5 Jun 2012 09:22:47 -0700|Tue, 5 Jun 2012 09:22:47 -0700
+2bdc710d66e051471c3409ec073536d918d7e8a6|Add note concerning keystone auth and swift-dispersion tools|Tue, 5 Jun 2012 15:44:23 +0200|Tue, 5 Jun 2012 15:44:23 +0200
+bac1b65de1ed40c9f4b1999e896116ebe26b5da3|Add test for keystone auth|Mon, 4 Jun 2012 22:48:21 -0700|Mon, 4 Jun 2012 22:48:21 -0700
+478c4b994adbfd7f3c0ab4ce39dbad65988c3bb1|Update swift proxy example|Mon, 4 Jun 2012 13:26:21 -0700|Mon, 4 Jun 2012 13:48:01 -0700
+a3d1b08e960530798fc1b0919af62dc05541fe05|Expand supported storage middlewares|Mon, 4 Jun 2012 13:19:51 -0700|Mon, 4 Jun 2012 13:47:57 -0700
+caad4e3732e7bee625e74dfedaccf5d9887fa410|Implement additional proxy middlewares|Mon, 4 Jun 2012 13:18:12 -0700|Mon, 4 Jun 2012 13:47:52 -0700
+d831ec1c45b61f499057a6a40516b74213ddafad|Reimplement keystone pipeline|Mon, 4 Jun 2012 11:59:24 -0700|Mon, 4 Jun 2012 13:47:48 -0700
+18365a7c43b730fecd584a58d6ebdb35ec0241b7|Reimplement concurrency to be per process|Mon, 4 Jun 2012 11:11:16 -0700|Mon, 4 Jun 2012 13:47:43 -0700
+01ecb029cd1a0c7f5306f3a7fb135cb6c23b908c|Implement individual server pipelines|Mon, 4 Jun 2012 11:04:26 -0700|Mon, 4 Jun 2012 13:47:31 -0700
+8c45b3920481b2ab7335fb7289c9180a0abedd28|Add doc for dispersion|Mon, 4 Jun 2012 17:10:10 +0200|Mon, 4 Jun 2012 21:46:18 +0200
+22d2f6128930a7d59b4b5599ead55a9ad0efb98b|Add swift-dispersion configuration|Mon, 4 Jun 2012 16:37:33 +0200|Mon, 4 Jun 2012 21:46:18 +0200
+df7c59ccee70470e89538bc6feae9c3618dccf7f|Update module to use puppetlabs_spec_helper gem|Thu, 31 May 2012 17:06:34 -0700|Thu, 31 May 2012 17:11:07 -0700
+4a0eb9d83628e316492b2b3d31116c16d12c32b4|Merge pull request #28 from bodepd/concat|Tue, 29 May 2012 16:40:35 -0700|Tue, 29 May 2012 16:40:35 -0700
+e16d6637b08b8a9d5c435a73c87580dddfc2d5b4|Merge pull request #27 from bodepd/keystone_auth|Tue, 29 May 2012 16:40:15 -0700|Tue, 29 May 2012 16:40:15 -0700
+6323311c048957e73ac17f8919cee53fb576a49f|Add concat_basedir fact|Tue, 29 May 2012 16:31:21 -0700|Tue, 29 May 2012 16:31:21 -0700
+83b8466eb05218e42ef61ff2faf25e7f8e150d24|Add tests for swift::keystone::auth|Tue, 29 May 2012 13:06:21 -0700|Tue, 29 May 2012 13:06:21 -0700
+ad081d901bce143023c7dee5af1979b1612c463d|Implement creation of user & endpoints for swift|Tue, 15 May 2012 18:13:03 +0200|Tue, 29 May 2012 10:40:34 -0700
+1413a9ed6eec7526844416c9a7889350ff2a048d|Merge pull request #24 from fcharlier/operator_roles|Tue, 29 May 2012 09:25:07 -0700|Tue, 29 May 2012 09:25:07 -0700
+03c805e1b8748922bcb1e6f37f91b6a2c36983dd|Update example for Swift::Ringsync|Wed, 23 May 2012 21:27:19 +0200|Wed, 23 May 2012 21:27:19 +0200
+9514dd250a8c4f0b524ff5fa78c5cf16a629f535|Ensure the replicator services are started|Wed, 23 May 2012 17:16:58 +0200|Wed, 23 May 2012 17:16:58 +0200
+284dd0d092f6e33ef496aed58e95e096d29d5d20|Merge pull request #25 from fcharlier/rsyncmodulename|Tue, 22 May 2012 09:25:18 -0700|Tue, 22 May 2012 09:25:18 -0700
+b394c6df19b60d53cfa2c50cfe75c7b7b78a8348|Fix the rsync modules names|Tue, 22 May 2012 17:18:41 +0200|Tue, 22 May 2012 17:27:34 +0200
+0b397ac492aa9c450c5119f6fa2bab69e1a731a0|Fix operator_roles test after changes in 2304e863|Mon, 21 May 2012 15:05:20 +0200|Mon, 21 May 2012 15:05:20 +0200
+2e671c2afad342d9bda4a35184b5ec999f6243b6|Merge pull request #19 from branan/fix_spec_tests|Mon, 14 May 2012 15:59:23 -0700|Mon, 14 May 2012 15:59:23 -0700
+0b387731cf80b3a9a1cdfa6f9042267d48b75d43|Merge pull request #21 from fcharlier/operator_roles|Mon, 14 May 2012 13:28:16 -0700|Mon, 14 May 2012 13:28:16 -0700
+2304e8631754b99f09114e378e7cb8ba37a4b996|The “operator_roles” list should be coma separated|Mon, 14 May 2012 21:53:43 +0200|Mon, 14 May 2012 21:59:00 +0200
+fa9e0788ffbbe19a27024a682871641020e3431f|Merge pull request #20 from branan/fix_old_puppet|Tue, 8 May 2012 16:13:39 -0700|Tue, 8 May 2012 16:13:39 -0700
+bfa4904234eba5f72994eff794ec8bd4efa92928|Remove some trailing commas|Tue, 8 May 2012 16:06:59 -0700|Tue, 8 May 2012 16:06:59 -0700
+078cef7f9dd03ba7917d215cc03c7fbb4e018335|Change contain_exec path from list to string|Tue, 8 May 2012 15:52:19 -0700|Tue, 8 May 2012 15:52:19 -0700
+0684d1f6cd3a33373f2f71baa55cfd66dcadc1cb|Add concat_basedir fact to tests that validate concat fragments|Tue, 8 May 2012 15:51:51 -0700|Tue, 8 May 2012 15:51:51 -0700
+d64ebe5fba166ca22082ca0fc4d0d4d6c5240c6e|Merge pull request #18 from bodepd/dev|Mon, 23 Apr 2012 22:29:44 -0700|Mon, 23 Apr 2012 22:29:44 -0700
+4a750768cbc6d641bde7ddf249b09e6c89e7a906|Update example file|Sun, 22 Apr 2012 23:34:06 -0700|Sun, 22 Apr 2012 23:34:06 -0700
+8fd3d194314d20caaa8e6ffb65f5f2ab3972fc90|Update examples to use explicit pipelines|Sun, 22 Apr 2012 13:26:46 -0700|Sun, 22 Apr 2012 13:26:46 -0700
+993ed67fd291d24373c843633e5b200fddbbfeb9|Remove inheritance|Sun, 22 Apr 2012 12:12:53 -0700|Sun, 22 Apr 2012 12:12:53 -0700
+047cb81ff3ea5146ac24db3db75bde1ea9d5dcd0|Remove ppa rspec code|Sun, 22 Apr 2012 12:12:07 -0700|Sun, 22 Apr 2012 12:12:07 -0700
+24a01d1bea6a8f05cda04e8c4f47f6daec9cb021|Implement proxy pipline into fragments|Sun, 22 Apr 2012 12:11:27 -0700|Sun, 22 Apr 2012 12:11:27 -0700
+84d59985fc428cc21646f7c3d15b414c95cf6242|Remove ppa config|Sat, 21 Apr 2012 12:55:51 -0700|Sat, 21 Apr 2012 12:55:51 -0700
+59afc07d3bfd677dbdb716a7cecbe4985c9cbf4b|Refactor of swift server configs|Sat, 21 Apr 2012 12:54:17 -0700|Sat, 21 Apr 2012 12:54:17 -0700
+aaf2784c73e59fb4ea4c75aaf21f13c5cd435ff1|Merge pull request #17 from bodepd/dev|Fri, 13 Apr 2012 13:41:59 -0700|Fri, 13 Apr 2012 13:41:59 -0700
+c9389516bace2fa95f89559e962375a6683a698e|Ensure swift hash is rebuilt for every puppet run|Wed, 11 Apr 2012 10:47:53 -0700|Fri, 13 Apr 2012 13:41:12 -0700
+cf78b8343e66078d0c5cb52e0b4885697ff5cb70|Merge pull request #16 from fcharlier/swift_on_debian|Wed, 11 Apr 2012 20:05:54 -0700|Wed, 11 Apr 2012 20:05:54 -0700
+5798be1f04da831bf33f86fc20f4c20182e29058|Merge pull request #15 from bodepd/dev|Tue, 10 Apr 2012 21:36:02 -0700|Tue, 10 Apr 2012 21:36:02 -0700
+184118716438392a326d8c35a8a548ec87e38d3f|Replace ppa code|Tue, 10 Apr 2012 16:29:36 -0700|Tue, 10 Apr 2012 21:35:15 -0700
+0a5a91bb683a1e679bb21a65171761976db62745|Merge pull request #14 from bodepd/dev|Sun, 8 Apr 2012 21:57:52 -0700|Sun, 8 Apr 2012 21:57:52 -0700
+f802df8e5aea46685ba5d7a97b7b31f18aafeae7|Fix dep issue in swift|Fri, 6 Apr 2012 10:55:07 -0700|Fri, 6 Apr 2012 10:55:07 -0700
+0cbd9597611f33e5755a3609b33f75efcb81d527|Upsate trunk for use Ubuntu latest packages|Fri, 6 Apr 2012 10:19:29 -0700|Fri, 6 Apr 2012 10:19:29 -0700
+01b9c7cbd1b9ca04a68c24a455a9024a38ec77a7|Add unit tests for xfs|Fri, 6 Apr 2012 10:18:14 -0700|Fri, 6 Apr 2012 10:18:14 -0700
+c07615d55756abda23645033f9914b47909995d3|Remove patched upstart scripts|Fri, 6 Apr 2012 09:30:30 -0700|Fri, 6 Apr 2012 09:42:48 -0700
+2474649cb868396f10fb63bcfe4395ed01588107|Enforce some dependencies|Thu, 29 Mar 2012 19:38:41 +0200|Thu, 29 Mar 2012 19:48:44 +0200
+dba28ed0a643137e611898c99b46bd3dd0009864|Enable other providers than upstart|Thu, 29 Mar 2012 19:37:51 +0200|Thu, 29 Mar 2012 19:48:44 +0200
+abc89b899af0f0185203423818218f91318a2929|change port 6010 to 6040 due to a conflict in vagrant|Thu, 29 Mar 2012 19:35:39 +0200|Thu, 29 Mar 2012 19:41:18 +0200
+12275e41abd54d5f4bfdacda7b59f1412c1daed1|Add swift trunk ppa|Thu, 22 Mar 2012 22:51:48 -0700|Thu, 22 Mar 2012 23:06:22 -0700
+ff6ec8b8dc16515d94476f464a4091b522dea492|Merge pull request #13 from bodepd/e1f44ff26f6b6bd00f7b33e65c2e5cc0fbbba0d0|Thu, 22 Mar 2012 22:47:36 -0700|Thu, 22 Mar 2012 22:47:36 -0700
+35bc1051a627dff1c12824c983332beb50283b42|Merge pull request #12 from bodepd/master|Wed, 21 Mar 2012 23:19:31 -0700|Wed, 21 Mar 2012 23:19:31 -0700
+e1f44ff26f6b6bd00f7b33e65c2e5cc0fbbba0d0|Merge pull request #1 from derekhiggins/dev|Wed, 21 Mar 2012 15:12:51 -0700|Wed, 21 Mar 2012 15:12:51 -0700
+5377fbc2f2f035eb5e0236ddea7c3a961a657d67|Get service_provider from params file|Wed, 21 Mar 2012 15:53:30 +0000|Wed, 21 Mar 2012 15:58:15 +0000
+cd33a745c5daf0d76c9db1bfc92fd562baad949d|Add fedora support|Tue, 20 Mar 2012 09:30:58 -0700|Tue, 20 Mar 2012 12:55:34 -0700
+94fb333ab9203ea9b89d9873cb15f2afcd728a98|Move generic::upstart to its own file|Sat, 17 Mar 2012 01:42:15 -0700|Sat, 17 Mar 2012 01:42:15 -0700
+a11c1af72657b6fa272ea4837a3579f2fa8c4b30|Update memcache bind address to localhost|Wed, 14 Mar 2012 11:43:44 -0700|Wed, 14 Mar 2012 11:43:44 -0700
+cf34ab0522d7630e70a1a09796b065944f9110ab|Add ring syncing to the multi node example|Wed, 14 Mar 2012 05:47:55 +0000|Wed, 14 Mar 2012 05:47:55 +0000
+6fed9719eda82e30a54c8f379aea2850af660f6d|Add code for ring syncing|Wed, 14 Mar 2012 05:45:17 +0000|Wed, 14 Mar 2012 05:45:17 +0000
+f93ba72fbbddaf8ff8c9c2b2aa7a14e2b0c29a8b|Munge weights to be in the format %.2f|Wed, 14 Mar 2012 05:41:41 +0000|Wed, 14 Mar 2012 05:41:41 +0000
+d7698139fe31016d150bb6c05f43c967bf039ef3|Update spec tests|Tue, 13 Mar 2012 16:42:57 -0700|Tue, 13 Mar 2012 16:42:57 -0700
+f07363b6afbfa07213c2a20732968b9ec4bbe332|Update spec tests|Tue, 13 Mar 2012 16:30:19 -0700|Tue, 13 Mar 2012 16:30:19 -0700
+cb233bd6a17976654dc766587da5cfe43aea733b|Remove rsync service mentions|Tue, 13 Mar 2012 15:36:49 -0700|Tue, 13 Mar 2012 16:06:51 -0700
+6f9e108695dbc0012c2c6ec127ea83aba7348789|Use xinetd for rsync|Tue, 13 Mar 2012 14:49:28 -0700|Tue, 13 Mar 2012 14:49:28 -0700
+41ab9b3cf523fd5ed30d14168f1a805ad58b2751|Merge pull request #11 from bodepd/master|Tue, 13 Mar 2012 13:56:16 -0700|Tue, 13 Mar 2012 13:56:16 -0700
+66b723585649cf98424eafb1d7d96a1b0a20196d|Only fix upstart scripts on Ubuntu.|Tue, 13 Mar 2012 12:14:33 -0700|Tue, 13 Mar 2012 12:14:33 -0700
+75d1aa8ca0b22c6a839e396c3da9d956af0d1e59|Merge pull request #10 from bodepd/master|Tue, 13 Mar 2012 09:42:17 -0700|Tue, 13 Mar 2012 09:42:17 -0700
+b05fe0bb0ba04afc07c4a4578ee085a8ef9c41cf|update ip address to use eth0|Mon, 12 Mar 2012 21:15:33 -0700|Mon, 12 Mar 2012 21:15:33 -0700
+c416f209868fb1ab329f58ef1a9c3df5410433b1|update mispellings of local_net_ip|Mon, 12 Mar 2012 21:05:46 -0700|Mon, 12 Mar 2012 21:14:01 -0700
+1d4c460a6f80d2d515a5404fb894918179b3874d|Merge pull request #9 from bodepd/multi_local_net_swift_proxy|Mon, 12 Mar 2012 20:10:13 -0700|Mon, 12 Mar 2012 20:10:13 -0700
+6a8318535a0a6441c9f8180b57b7e8c50003d817|Add local net ip to swift proxy for multi|Mon, 12 Mar 2012 20:07:25 -0700|Mon, 12 Mar 2012 20:07:25 -0700
+b8b09be2d58884c9d7f661b97202387fe3814e9b|Merge pull request #8 from bodepd/add_saio_local_net_to_proxy_class|Sun, 11 Mar 2012 23:30:59 -0700|Sun, 11 Mar 2012 23:30:59 -0700
+a9cafd8dcdcfd3ba3026f7f286cbdacf73210fa6|Supply missing required param to all in one example|Sun, 11 Mar 2012 23:24:53 -0700|Sun, 11 Mar 2012 23:29:43 -0700
+7f55060309ad7f98e1c1c40f83881bf27109e2d5|Merge pull request #6 from bodepd/master|Mon, 5 Mar 2012 22:06:40 -0800|Mon, 5 Mar 2012 22:06:40 -0800
+2eea26431a16fd2431bd81dfb4f0e7f69d12c60a|Remove proxy files used for testing|Fri, 2 Mar 2012 20:10:45 -0800|Mon, 5 Mar 2012 21:57:10 -0800
+794fc909d1f192235395d23be6f18586f9bc4e78|Add unit tests fr swift::storage::server|Fri, 2 Mar 2012 20:08:47 -0800|Mon, 5 Mar 2012 21:57:10 -0800
+900e061a1115981ed1f7c954dee8183b0f597055|Add inline commments|Fri, 2 Mar 2012 20:08:32 -0800|Mon, 5 Mar 2012 21:57:10 -0800
+4752a3d85f25ba4cfd38ca2bf374deab673b3bbc|Decouple memcached configuration from proxy|Fri, 2 Mar 2012 20:07:56 -0800|Mon, 5 Mar 2012 21:57:10 -0800
+c7caf05c36d130ddbb3d18265c09a4bc1f9b2beb|Make all local net ips required|Fri, 2 Mar 2012 20:06:41 -0800|Mon, 5 Mar 2012 21:56:37 -0800
+0e7cb86dcdfdc619af8cee658cac6c0333f77dde|Update ring creation defaults|Fri, 2 Mar 2012 20:03:36 -0800|Fri, 2 Mar 2012 20:03:53 -0800
+5083e19bc4e1193c8cb00a402935c05e3f730e07|Decouple storage server types from each other|Fri, 2 Mar 2012 20:01:49 -0800|Fri, 2 Mar 2012 20:01:49 -0800
+530ed65ea9c2ef433363694c582e9bb8f1e7f95a|Add modue synlinks to gitignore|Fri, 2 Mar 2012 19:56:33 -0800|Fri, 2 Mar 2012 19:56:33 -0800
+954e6c0357f57822f39a37840dfc5e5b4cf794df|Remove reference to ssh keys|Fri, 2 Mar 2012 10:30:11 -0800|Fri, 2 Mar 2012 10:35:02 -0800
+2dbcf740df8886a4ae53e67e4c8fbb0ead65537d|Add everything needed by travis-ci|Mon, 27 Feb 2012 16:44:45 -0800|Mon, 27 Feb 2012 16:52:49 -0800
+8d4d5ea6b864b6e55b972e3e0ee03dd92d7f5e4f|Merge pull request #5 from bodepd/fix_test|Sun, 26 Feb 2012 21:21:53 -0800|Sun, 26 Feb 2012 21:21:53 -0800
+4acfaeaa9dce0a4dd68a423253936053169e5ad6|Update stoage::xfs tests|Sun, 26 Feb 2012 21:19:13 -0800|Sun, 26 Feb 2012 21:19:13 -0800
+272937ed9c077e779d25734e6aba4668efd1f0f1|Pass correct mount dir to swift::storage::mount|Sun, 26 Feb 2012 21:09:50 -0800|Sun, 26 Feb 2012 21:14:12 -0800
+97d6e20b88b5f538ae28849662a1b5b0880975cd|Merge pull request #4 from bodepd/add_spec_tests|Sun, 26 Feb 2012 20:58:52 -0800|Sun, 26 Feb 2012 20:58:52 -0800
+6705d556cfbabbcbc03e67321618c8b06a5ef8ad|Fix swauth proxy config|Sun, 26 Feb 2012 20:57:51 -0800|Sun, 26 Feb 2012 20:57:51 -0800
+65b6f0a69592e3f214d2c30f42e55b42c36f8e03|Fix milestone and release ppa config|Sun, 26 Feb 2012 20:54:57 -0800|Sun, 26 Feb 2012 20:54:57 -0800
+b569cf6f0ff239bc567b2235f575d94f35966465|Remove extra newlines from swift proxy erb|Sun, 26 Feb 2012 20:53:10 -0800|Sun, 26 Feb 2012 20:53:10 -0800
+4775be3a5f9028eb603ef5680ec23eaa94bb2609|Add rspec-puppet test coverage|Sun, 26 Feb 2012 20:51:17 -0800|Sun, 26 Feb 2012 20:52:27 -0800
+3f35820347600a6aef2e32e407ede704396e7a04|Merge pull request #3 from bodepd/add_integration_test|Tue, 14 Feb 2012 19:24:59 -0800|Tue, 14 Feb 2012 19:24:59 -0800
+405069829ee9cb80db2aa815c49da28f11b049dd|Add swift test script|Tue, 14 Feb 2012 16:43:07 -0800|Tue, 14 Feb 2012 19:24:20 -0800
+3cef45b2cca4043930a30ca329183a6d446d9419|Merge pull request #2 from bodepd/swift_update|Tue, 14 Feb 2012 15:16:44 -0800|Tue, 14 Feb 2012 15:16:44 -0800
+547a96930e4122165367cd99eb518359312cbb44|Add repo class for milestone and release|Tue, 14 Feb 2012 15:06:07 -0800|Tue, 14 Feb 2012 15:06:07 -0800
+e9dfe0f8e57faf0698ce8a8794535a4e641aea56|Improve documentation|Tue, 14 Feb 2012 15:05:35 -0800|Tue, 14 Feb 2012 15:05:35 -0800
+e5a31452b0655b2b5e5515cdf4f35a3089372836|Fix swift::storage device path default|Tue, 14 Feb 2012 15:04:45 -0800|Tue, 14 Feb 2012 15:04:45 -0800
+0955f3cd1c19bdbf853648babd5ae486b0c87506|Add explicit class params for setting storeage ports|Tue, 14 Feb 2012 15:03:49 -0800|Tue, 14 Feb 2012 15:03:49 -0800
+b7713e5a511cd6867f277f6d70988db4faed1142|Merge pull request #1 from bodepd/multi_node_support|Tue, 14 Feb 2012 14:22:34 -0800|Tue, 14 Feb 2012 14:22:34 -0800
+b7a8f0cdeee301d39510f93d9e6d0339bfe38d4b|Improve inline comments|Tue, 14 Feb 2012 14:19:52 -0800|Tue, 14 Feb 2012 14:19:52 -0800
+380ab56cc02f951d01b7d5df6827b95fd36c5ee6|Add ringbuilder role class to proxy role|Tue, 14 Feb 2012 14:19:16 -0800|Tue, 14 Feb 2012 14:19:16 -0800
+6f5cf724e8aa4928fb43bf6f1afb026931095b26|Update ring exported resources|Tue, 14 Feb 2012 14:17:43 -0800|Tue, 14 Feb 2012 14:17:43 -0800
+eded81575ccdb54bf917dc1a78877c885be3f691|Remove swift::storage::device declaration|Tue, 14 Feb 2012 14:16:37 -0800|Tue, 14 Feb 2012 14:16:37 -0800
+31dc69b98565cc9f75ae1680269c004ae45d9758|remove puppetmaster node declaration|Tue, 14 Feb 2012 14:14:23 -0800|Tue, 14 Feb 2012 14:14:23 -0800
+3689cf7a202972158b4972357b91f2568148e3bf|Use node declarations|Tue, 14 Feb 2012 14:11:27 -0800|Tue, 14 Feb 2012 14:13:35 -0800
+44b1c56d74f97b366a5477dc97a7c712690fd7e2|Renamed storage::device to storage::server|Tue, 14 Feb 2012 14:09:01 -0800|Tue, 14 Feb 2012 14:09:01 -0800
+c56bc60bfd7f699807964a542ec9a14d7777c52f|Add custom upstart scripts|Tue, 14 Feb 2012 14:03:25 -0800|Tue, 14 Feb 2012 14:03:25 -0800
+edd9a6b7d05f10f2fd36cdbe9c77b2fe3497cb4a|Clean up swift ringbuilder role|Mon, 13 Feb 2012 17:02:21 -0800|Mon, 13 Feb 2012 17:02:21 -0800
+cc163db0bbf30f731ba089af41b943fb470c7161|Add ringbuilder class to swift proxy role|Mon, 13 Feb 2012 17:00:26 -0800|Mon, 13 Feb 2012 17:00:26 -0800
+d062985219ec99bcce9629abaf49ee8b84c4ddef|Add proxy to apt class|Mon, 13 Feb 2012 16:58:45 -0800|Mon, 13 Feb 2012 16:58:45 -0800
+310ca91b594f8fb79960a38aee73c077d81b17e5|Removed swift::storage::device::* defines|Mon, 13 Feb 2012 16:50:41 -0800|Mon, 13 Feb 2012 16:50:41 -0800
+3cd7bdf27670c54b5fdda0a934be06df754f419e|Add role_puppetmaster class|Mon, 13 Feb 2012 15:43:43 -0800|Mon, 13 Feb 2012 15:43:43 -0800
+5bebb8410363844a18c90a110fc7572e3c1246de|Added code for setting swift_storage_3|Mon, 13 Feb 2012 15:42:55 -0800|Mon, 13 Feb 2012 15:42:55 -0800
+ea7973635b3f67de3f0e3a7c56cc740bd5892eb1|Change swift_local_net_ip address to be a global var|Mon, 13 Feb 2012 15:41:12 -0800|Mon, 13 Feb 2012 15:41:12 -0800
+18d681943e05936b55e36185af9c63e41ee5f01b|Add inline docs to manifests|Mon, 13 Feb 2012 15:39:18 -0800|Mon, 13 Feb 2012 15:39:18 -0800
+7228c5cd95d2edaaa9df20274a15e01374306b87|Create multi-node example|Fri, 27 Jan 2012 22:11:27 -0800|Fri, 27 Jan 2012 22:11:27 -0800
+69ef2c16865bb74b44128e3ffbfc358f1ec0a3ea|Refactor single node example|Fri, 27 Jan 2012 22:11:08 -0800|Fri, 27 Jan 2012 22:11:08 -0800
+b035a32b42be8f238fa95acc455e9938c8f86904|Refactor swift::storage::node to use device defines|Fri, 27 Jan 2012 22:09:31 -0800|Fri, 27 Jan 2012 22:09:31 -0800
+67d53de23ae1774dbfd47fb275d1e1caca3c8486|Remove swift::storage::node from loopback define|Fri, 27 Jan 2012 22:07:28 -0800|Fri, 27 Jan 2012 22:07:28 -0800
+cea6b846dcbb73f8ae159bbd659196ab9f87bfe1|Remove Rsync::Server::Module defaults|Fri, 27 Jan 2012 22:02:50 -0800|Fri, 27 Jan 2012 22:02:50 -0800
+a6fcff35efea5e8bb49b6087fe6b12e6b5412ffa|Add defines for managing devices and rings|Fri, 27 Jan 2012 21:59:50 -0800|Fri, 27 Jan 2012 21:59:50 -0800
+4ff3e18f3a338f9667649f52af1057a5099f799b|Split example manifests into separate files|Mon, 23 Jan 2012 13:12:57 -0800|Mon, 23 Jan 2012 13:12:57 -0800
+01d2a78bc8cde6dd6d1f0faf7cf4e44358eed787|Add validation instructions to README|Mon, 23 Jan 2012 11:40:34 -0800|Mon, 23 Jan 2012 11:46:24 -0800
+8c13cd147f46f90eeedb2604e57a3c614c3d3f97|Fix mispelling of container|Mon, 23 Jan 2012 11:39:03 -0800|Mon, 23 Jan 2012 11:45:36 -0800
+de50a0923b6f7b118b70c095ae7df2f6ba6db476|Update misnamed ringbuilder defines|Mon, 23 Jan 2012 11:37:55 -0800|Mon, 23 Jan 2012 11:45:18 -0800
+b6b13ce1b2149f3f9cf128373e0fa686fd6032c6|Handle case where ring_builder has no rows|Mon, 23 Jan 2012 11:36:26 -0800|Mon, 23 Jan 2012 11:44:54 -0800
+1be67de6d4d7d02a6e898827803d23a750807e4d|Remove accidentally checked in swap file|Mon, 23 Jan 2012 11:03:08 -0800|Mon, 23 Jan 2012 11:44:52 -0800
+9d3bb3c364f1f4416827e7c6647809d201559d86|Refactor README|Mon, 23 Jan 2012 10:58:39 -0800|Mon, 23 Jan 2012 11:44:33 -0800
+ece1d8407f02d57c53c5b57d682b0a1ce085883f|Refactor of example site.pp|Mon, 23 Jan 2012 10:57:19 -0800|Mon, 23 Jan 2012 11:44:22 -0800
+900096f27d4dc4bde2c5db74d556c889fadf7fe9|Remove comma from last define parameter|Mon, 23 Jan 2012 10:53:09 -0800|Mon, 23 Jan 2012 11:44:11 -0800
+d74a7cebaa99f924fe741cc1334f856b3cef6c28|Calls to scope.lookupvar replaced with has_variable?|Mon, 23 Jan 2012 10:50:45 -0800|Mon, 23 Jan 2012 11:43:55 -0800
+917426380e88cbd0ef9a4a254017f8c0180cbd95|Implement ringbuilder|Mon, 23 Jan 2012 10:47:35 -0800|Mon, 23 Jan 2012 11:42:42 -0800
+50eaa8e66dde22489e3f3a9ed3f27254fe0868cd|refactor to markdown|Thu, 19 Jan 2012 19:11:13 -0800|Thu, 19 Jan 2012 19:11:13 -0800
+70282576b2dad59606be6204ed601399b5ca7ce4|Rename README to README.markdown|Thu, 19 Jan 2012 19:03:09 -0800|Thu, 19 Jan 2012 19:03:09 -0800
+47d49e7780156175f86a9bec853453649b9c5de1|Initial commit.|Thu, 19 Jan 2012 18:58:37 -0800|Thu, 19 Jan 2012 18:58:37 -0800

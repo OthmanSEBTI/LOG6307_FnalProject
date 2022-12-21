@@ -1,0 +1,6 @@
+,sha,message,files,issues
+370,b4584dbdfa20f9663eecbf7494086b85bf8e04f5,"Fix for fuel-docs #4, wrong variable name",['modules/fuel_project/manifests/fuel_docs.pp'],['#4']
+371,ff41875b33128bbaecceb4cea85406130abbc6b8,"Fix for fuel-docs #3, ssl_only added, https port open",['modules/fuel_project/manifests/fuel_docs.pp'],['#3']
+372,fc6aeb5134d0ab084717d8a10324568bd2e1ee06,"Fix for fuel-docs #2, ssl issues",['modules/fuel_project/manifests/fuel_docs.pp'],['#2']
+373,e472b4f65af1ef469835849b2399e38225c8831d,Fix for fuel-docs #2,['modules/fuel_project/manifests/fuel_docs.pp'],['#2']
+926,6144b897cfb34a9b712932671f526e09a7d2ae5d,sudo for jenkins user to run ebtables (Close-Bug: #1315863),"['debian/changelog', 'src/modules/system_tests/manifests/init.pp', 'src/modules/system_tests/manifests/params.pp', 'src/modules/system_tests/templates/sudoers.erb']",['#1315863']

@@ -1,0 +1,5 @@
+,sha,message,files,issues
+41,2a1e2ee1ff182d82c236ef4c356e7ed0671d5836,Merge pull request #4 from cdent/git-clone-dir-safety,['puppet/modules/base/files/git_clone.sh'],['#4']
+43,919de746b5f04c2bf71947531d7f9fa00e39171f,Merge pull request #3 from cdent/puppet-os-flexibility,"['puppet/modules/base/manifests/init.pp', 'puppet/modules/user/manifests/create.pp']",['#3']
+44,cd168e6bfc3e745b51233434988ca8bc398b8ef9,Merge pull request #2 from cdent/allow-local-box,"['Vagrantfile', 'config.yaml.sample']",['#2']
+49,329d1d0e38add21d44c5447bead51455f9a448d8,Merge pull request #1 from patux/master,"['config.yaml.sample', 'puppet/modules/base/manifests/init.pp', 'puppet/modules/devstack/files/compute.conf', 'puppet/modules/devstack/files/manager.conf', 'puppet/modules/devstack/manifests/init.pp', 'puppet/modules/devstack/templates/local.erb']",['#1']

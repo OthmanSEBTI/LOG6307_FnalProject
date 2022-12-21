@@ -1,0 +1,27 @@
+40d6e19f3315af6765ae92a58fe04874371c9d0c|cassandra: install openjdk-7-jdk|Thu, 18 Jun 2015 18:19:53 -0700|Thu, 18 Jun 2015 18:19:53 -0700
+c6c3fc7468bd299075330573e8168c567c1436b3|cassandra: ship logback.xml with longer retention periods|Thu, 18 Jun 2015 10:47:55 -0700|Thu, 18 Jun 2015 10:47:55 -0700
+7a93b4d2696e1d02bf6b18fd6b7a8d781afbd276|Increase CMSInitiatingOccupancyFraction from 70 to 78%|Fri, 1 May 2015 08:50:12 -0700|Fri, 1 May 2015 09:04:19 -0700
+c1ae27bd0308200357f7e83f167427a2ebd43352|trim list of Cassandra metrics|Thu, 26 Mar 2015 15:29:37 -0500|Thu, 26 Mar 2015 15:34:02 -0500
+fe345a76ed988c6dbf2d4f54baa4f17d03d5e6cc|send additional metrics to graphite|Tue, 24 Mar 2015 09:52:14 -0500|Tue, 24 Mar 2015 09:58:49 -0500
+65fde188705cb1f3306777a93047723042386690|Don't include a node in its own seeds|Mon, 9 Mar 2015 16:33:48 -0700|Tue, 24 Mar 2015 15:48:17 +0200
+3fdcb03ee514ba32700f04c15502243f20f64278|Enable trickle_fsync by default|Mon, 23 Mar 2015 12:22:14 -0700|Mon, 23 Mar 2015 12:22:14 -0700
+4c9de968a34d0123937ee778db81166f811f5936|disable nightly repairs|Fri, 20 Mar 2015 14:57:15 -0500|Fri, 20 Mar 2015 14:58:55 -0500
+bced31b2a07ebd06ddba5d25ff7533349d4c11ea|overrid-able concurrent_compactors setting|Thu, 19 Mar 2015 10:16:04 -0500|Thu, 19 Mar 2015 10:45:45 -0500
+151c2a1087e5e6e88a53ffd1db5d8982178320a6|Next step on the road to understanding JVM GC dynamics|Wed, 25 Feb 2015 22:22:35 -0800|Wed, 25 Feb 2015 22:22:35 -0800
+fa41d070e62d31b403492572b4cb5645eac75f87|Reduce the pressure on CMS GC to avoid stop-the-world|Tue, 24 Feb 2015 21:09:20 -0800|Wed, 25 Feb 2015 08:00:07 -0800
+5f16b787cfb53e4cc3d3594cef25c9da9eaf4559|Add a daily incremental repair job|Tue, 24 Feb 2015 16:19:03 -0800|Tue, 24 Feb 2015 21:08:06 -0800
+f12df0ee3b3c72093586f49650c76627c2982d2c|cassandra: fix metrics-graphite.jar path|Tue, 24 Feb 2015 12:19:09 +0000|Tue, 24 Feb 2015 12:19:09 +0000
+cfd68f03757868034a0a77f03d182c0a7fb459c5|report cassandra metrics with metrics-graphite|Thu, 19 Feb 2015 18:00:34 +0000|Fri, 20 Feb 2015 11:32:22 +0000
+ed71d79a1fa05b8c940b811a395d042f47300d1a|set permissions on cassandra files|Thu, 19 Feb 2015 15:58:14 +0000|Fri, 20 Feb 2015 10:42:06 +0000
+c165985067a97b022346227256a8618f6073e2ef|Update jamm dependency path for cassandra 2.1.3|Thu, 19 Feb 2015 13:52:24 -0800|Thu, 19 Feb 2015 22:06:47 +0000
+34452828ad2b76cbf17e8c8a1c3e6cbddcf07b24|add extra_classpath argument|Tue, 17 Feb 2015 15:52:44 +0000|Wed, 18 Feb 2015 10:59:18 +0000
+f464e8f8b9a784e41e023ff621fb9e4dac8f714c|update class defaults|Wed, 18 Feb 2015 10:56:38 +0000|Wed, 18 Feb 2015 10:56:40 +0000
+c7d626e57f51405a18f62b80e0d242c59d26d954|fix additional_jvm_opts default|Wed, 18 Feb 2015 10:47:34 +0000|Wed, 18 Feb 2015 10:47:34 +0000
+bf67814299fc3769c8a03090d91573066bd410ab|cassandra: deprecate cassandra::defaults class|Mon, 16 Feb 2015 15:59:15 +0000|Wed, 18 Feb 2015 10:02:51 +0000
+08943021b2e5a39ce48ad369b64fcf9ef0899c45|Remove preheat_kernel_page_cache option|Wed, 11 Feb 2015 21:08:30 -0800|Wed, 11 Feb 2015 21:09:35 -0800
+f04c95c31afee7ecb8927f63e8a2434d8e384a2a|Update for Cassandra 2.1.2|Mon, 9 Feb 2015 01:01:12 -0800|Mon, 9 Feb 2015 08:26:18 -0800
+e6b4c8737bf261b744d65626b7b05d76737224b6|Increase thrift_framed_transport_size_in_mb from 15 to 256m|Mon, 29 Dec 2014 17:24:08 -0800|Mon, 29 Dec 2014 17:24:08 -0800
+a6727f2f96969b0adae0d01162f90f0f89cfbb73|Use Cassandra's datacenter1 default|Tue, 2 Dec 2014 09:17:06 -0800|Tue, 2 Dec 2014 09:17:06 -0800
+d6182892c5f71081306e4a616d012ed8687fb20b|Fix two bugs in cassandra module defaults|Fri, 21 Nov 2014 11:12:28 -0800|Fri, 21 Nov 2014 13:04:46 -0800
+86786f792252b21fdfcc08d321d254c8758f868a|Initial commit of Cassandra puppet module|Wed, 15 Oct 2014 17:29:24 -0400|Tue, 11 Nov 2014 11:56:51 -0500
+226b168ec1e76175672862e0e72b5b5887063ecc|Initial empty repository|Wed, 15 Oct 2014 21:27:38 +0000|Wed, 15 Oct 2014 21:27:38 +0000

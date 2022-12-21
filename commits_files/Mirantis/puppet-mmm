@@ -1,0 +1,42 @@
+,sha,message,files
+0,bf01fdc2d1edc72faef8932880e6b7b294b5a8d9,Complete setup of an MMM cluster.,"['manifests/agent.pp', 'manifests/agent/config.pp', 'manifests/cluster/config.pp', 'manifests/common/config.pp', 'manifests/monitor.pp']"
+1,22bbf9d845cd5ead3b8053bd5d985cc28e57c3f2,Merge branch 'master' of github.com:Tribily/puppet-mmm,['manifests/agent/config.pp']
+2,64151cc9b94770400a8a28ebf0e2070f715736dd,Change from mariadb server to mysql server,['manifests/agent.pp']
+3,d4c4ab0ba98d075b516fe21677fb9b1767e6cb1b,Switch from mariadb module dependency to puppetlabs-mysql module dependency,"['manifests/agent.pp', 'manifests/agent/config.pp']"
+4,16546e521e48ec2607f896ab8eae666806415cde,Merge branches 'master' and 'master' of github.com:Tribily/puppet-mmm,[]
+5,3ee1e9c443e5be5119f8fcda2332d39a5df6e936,Merge pull request #1 from joostfaassen/master,['manifests/agent/config.pp']
+6,8628b5d84483841c2761803f87fe001a83398672,"Added CREATE, ALTER + DROP privileges to writer-user",['manifests/agent/config.pp']
+7,5fa9a93c6994176d59689f592b4ad696690f16f5,New major version,['Modulefile']
+8,a9496477507e40d49b5fd69a4662af72cfbd2781,fixed outlining and syntax fixes,"['manifests/agent/config.pp', 'manifests/common/config.pp', 'manifests/monitor.pp', 'manifests/monitor/config.pp', 'manifests/params.pp']"
+9,cfbfb876556fcf65367df9415791c5755704922f,Adding mmm:params class so that it can be properly used,"['manifests/agent.pp', 'manifests/agent/config.pp', 'manifests/cluster/config.pp', 'manifests/common.pp', 'manifests/monitor.pp', 'manifests/monitor/config.pp']"
+10,c113dd4600ee468e85191e1f450904700b6872af,Make /etc/mysql-mmm more managed..,['manifests/agent.pp']
+11,dae99299c3b9d99d3c88d8ef8f409b79798fc6a2,Merge branches 'master' and 'master' of github.com:Tribily/puppet-mmm,[]
+12,76c4b887f42c6f943b02cd7dda8dfd021c1f7f5e,Apache license plus module file,"['LICENSE', 'Modulefile']"
+13,0c5f9a674a72b4f872423f8577deef42f7f7c3dc,reader users need to be accessed from the localsubnet same with writer users. No point access being granted from the floating virtual ip to the DB,['manifests/agent/config.pp']
+14,16b56d22d8770e4b76600f72a748046879ab6a26,fix assignment of user to password,['manifests/cluster/config.pp']
+15,485e008e0797f5a8b8781c661787007311270cc3,fix mariadb user create define to have unique name,['manifests/agent/config.pp']
+16,44bd16665aa185cd54a47901b4727a22f61ea447,Add support for granting reader rigths on all reader virtual ips,['manifests/agent/config.pp']
+17,46ede320564d8804f579874ca45339a5183afde1,Add reader and writer IPs to agent config so we can grant rights to users properly,"['manifests/agent/config.pp', 'manifests/cluster/config.pp']"
+18,2603205e069da4495272fd3b13cf2aa06ae6fb22,Add package dependencies to service resources,"['manifests/agent/config.pp', 'manifests/monitor/config.pp']"
+19,66f8a832e55c72a8d5da713317b2a1b00605b305,Add package dependencies to service resources,['manifests/monitor/config.pp']
+20,dffe76e4175a475debd6c6abfa8eb8bd499cb5ba,fix ip list generation for puppet2.6 (flattened arrays) and puppet2.7 (unflattened arrays),['templates/mmm_mon.conf.erb']
+21,12ce914618ba117dd9ac2740a490579285b928c4,32 character replication password limit,['README']
+22,f53cb639bd315090465a5245d2730ab108a417c1,Merge branch 'master' of github.com:Tribily/puppet-mmm,"['manifests/agent/config.pp', 'manifests/cluster/config.pp']"
+23,a53a2ffa55489c66b5fcef6411aab128e1596dc6,support puppet 2.6.2 by flattening arrays,"['manifests/cluster/config.pp', 'manifests/common/config.pp', 'manifests/monitor/config.pp', 'templates/mmm_common.conf.erb', 'templates/mmm_mon.conf.erb']"
+24,95f8cccfb68f6d60a9c7a08c0ad72ed33d49a2fd,add sample usage,['README']
+25,c3fa1e6b5b9d73453f9e6271dc9f599d9ee6de79,"* remove debian-sys-maint resource from mmm::agent, it doesn't belong there. * Only create reader_user if it is specified","['manifests/agent/config.pp', 'manifests/cluster/config.pp']"
+26,b4015a84eb98fd5b1d1fc88943c0a9e267dfaf07,remove management of debian-sys-maint as $mariadb::params::debian_sys_maint_pass will not work,['manifests/agent/config.pp']
+27,426bb5becabea6b2bd47778aafa8dfd85b9135f7,add documentation for rest of parameters,['manifests/cluster/config.pp']
+28,600f6cf667e2d2cf039702acbfd0cb45944f1dcf,add params class to mmm config recipe,['manifests/common/config.pp']
+29,cb1c8bd69846a80b9984b74eebc3274329c5dbb4,proper if statement,"['templates/mmm_mon.conf.erb', 'templates/mon-init-d.erb']"
+30,1023c493d577a4091c4a3d77e5c426fc31dd4625,more proper handing of multi-cluster monitoring,"['templates/mmm_mon.conf.erb', 'templates/mon-init-d.erb']"
+31,6846002fa666fb696090d6c352d21160d0154848,Add dependency from service to config files to make sure they are there before attempting to start mmm-agent,['manifests/agent/config.pp']
+32,12dafefc69d4db5a9338eb14cf95ae60efd87a68,Add proper parameter value for debian sys maine account,['manifests/agent/config.pp']
+33,e640d8033894537da418cf0aefbffa25e4f6401d,add $mmm_type as a parameter instead of a variable,['manifests/cluster/config.pp']
+34,58e2e46a17f3907d085d7c45a0760853c03e4c7e,make sure the single cluster config files only get removed if we're actually running single cluster monitors ;),"['manifests/common/config.pp', 'manifests/monitor/config.pp']"
+35,9348b07ee49ba1afca7852a0b27e5e3efd78cce3,Adjust common config file name for single monitor instances,['manifests/common/config.pp']
+36,bdd10eb8878b1875532c17dec64710e4cf366228,Adjustments to properly separate multi-monitor instances from single-monitor instances,"['manifests/monitor/config.pp', 'manifests/params.pp', 'templates/mmm_common.conf.erb', 'templates/mmm_mon.conf.erb']"
+37,6f70b68d1f484f31befbfed3b5b68d149e6bf6f1,Change hyphens to underscores in variable names,"['manifests/agent/config.pp', 'manifests/cluster/config.pp']"
+38,27af65a7eaed872778602e41295d7df463dcf26d,removed $debian-syst-maint-pass from params of config define,['manifests/cluster/config.pp']
+39,a591401954a744145ddfc9897c7c375a6c4be2c3,Ignoring geppetto project file,['.gitignore']
+40,7d2ab7a54cb850a90c9eee2a237597af0335d711,Initial commit of the mysql for mmm module for puppet,"['Modulefile', 'README', 'lib/facter/ipaddresses.rb', 'manifests/agent.pp', 'manifests/agent/config.pp', 'manifests/cluster/config.pp', 'manifests/common.pp', 'manifests/common/config.pp', 'manifests/monitor.pp', 'manifests/monitor/config.pp', 'metadata.json', 'templates/agent-default.erb', 'templates/agent-init-d.erb', 'templates/mmm_agent.conf.erb', 'templates/mmm_common.conf.erb', 'templates/mmm_mon.conf.erb', 'templates/mon-default.erb', 'templates/mon-init-d.erb']"

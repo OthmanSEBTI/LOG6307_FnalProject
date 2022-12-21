@@ -1,0 +1,52 @@
+6cc9a394128c2e067ddea2165cbd20952d42a2b3|Add dashboard|Wed, 27 Jan 2016 03:02:30 +0300|Wed, 27 Jan 2016 03:02:30 +0300
+14fde2371056c44542eb43c690969a62266f51e6|Integrate python client|Mon, 25 Jan 2016 19:42:34 +0300|Mon, 25 Jan 2016 19:42:34 +0300
+7c0abae23e7d56bb8d2a54fc5237fd4ba8220189|Update version|Thu, 21 Jan 2016 20:45:35 +0300|Thu, 21 Jan 2016 20:45:35 +0300
+87856d3b0f630c1fb6b9535fcdafb631e45a7e5b|Update ha.pp|Mon, 18 Jan 2016 16:26:20 +0300|Mon, 18 Jan 2016 16:26:20 +0300
+3ec066f90b0cbb534f7e32ac2018d677907639c7|Update server.pp|Mon, 18 Jan 2016 16:21:27 +0300|Mon, 18 Jan 2016 16:21:27 +0300
+cc7d29a1dcd8d425867d3dbb5edb174001b3f106|Update ha.pp|Mon, 18 Jan 2016 16:14:16 +0300|Mon, 18 Jan 2016 16:14:16 +0300
+2a3084ec282ece2c61c0586f33d3e9f0be2bd7b5|Update ha.pp|Mon, 18 Jan 2016 16:12:15 +0300|Mon, 18 Jan 2016 16:12:15 +0300
+0cd055c21b3c7f08ce7cb92dcec35a2bd2c4213a|Update ha.pp|Mon, 18 Jan 2016 16:10:40 +0300|Mon, 18 Jan 2016 16:10:40 +0300
+9f1079f9f6ab56e6a00bfd193fd9d434ed82d448|Update auth.pp|Mon, 18 Jan 2016 15:56:46 +0300|Mon, 18 Jan 2016 15:56:46 +0300
+f85a0043c0af160d08e01372ad1dabec117cfa34|Update keystone.pp|Mon, 18 Jan 2016 15:56:43 +0300|Mon, 18 Jan 2016 15:56:43 +0300
+fc2f76d3ef4e44a6ad13da9fc61d9a574cba67d8|Fix, change credentials to glance|Mon, 18 Jan 2016 15:56:38 +0300|Mon, 18 Jan 2016 15:56:38 +0300
+bc44920e63f3d75cc0aaaf9fbe1f27df92583da6|Update ha.pp|Mon, 18 Jan 2016 15:44:50 +0300|Mon, 18 Jan 2016 15:44:50 +0300
+b000cf9efae10134258fd519d87f9e8f324eaa91|Merge branch 'master' of github.com:Mirantis/fuel-plugin-celebrer|Mon, 18 Jan 2016 15:42:20 +0300|Mon, 18 Jan 2016 15:42:20 +0300
+7e379e17313b266d281b58317410e8280180e593|Adding HA-proxy supports.|Mon, 18 Jan 2016 15:41:00 +0300|Mon, 18 Jan 2016 15:41:00 +0300
+29ec0475d322c8189a594a7c04b2217745349fd0|Create auth.pp|Mon, 18 Jan 2016 15:23:31 +0300|Mon, 18 Jan 2016 15:23:31 +0300
+412024a20ff4b3c19d9babf69c172293952a6397|Adding keystone supports.|Mon, 18 Jan 2016 15:23:12 +0300|Mon, 18 Jan 2016 15:23:12 +0300
+e0741b1e7bb432160d3475140db88ca1f34a0e6a|Update params.pp|Fri, 15 Jan 2016 20:21:02 +0300|Fri, 15 Jan 2016 20:21:02 +0300
+379d534e0ee9557ef559535974d5fba0cc9dcf93|Update server.pp|Fri, 15 Jan 2016 20:20:04 +0300|Fri, 15 Jan 2016 20:20:04 +0300
+96d848b438916edf2501a1b9afdb0f5d467339b9|Update init.pp|Fri, 15 Jan 2016 20:19:36 +0300|Fri, 15 Jan 2016 20:19:36 +0300
+d4ccf8ffad5205a5c0f349d0755d03081f465e5b|Update db.pp|Fri, 15 Jan 2016 20:18:16 +0300|Fri, 15 Jan 2016 20:18:16 +0300
+a3cfcaafd644a8339ec58e7a54f341a5f3c4b139|Update server.pp|Thu, 14 Jan 2016 21:17:21 +0300|Thu, 14 Jan 2016 21:17:21 +0300
+bd3846717ba76e390570850d66a2ae55169db5ea|Update agent.pp|Thu, 14 Jan 2016 18:23:17 +0300|Thu, 14 Jan 2016 18:23:17 +0300
+399591e67206504d7c53e2088a767ee36ef2ef6a|Merge pull request #1 from degorenko/patch-1|Thu, 14 Jan 2016 18:22:59 +0300|Thu, 14 Jan 2016 18:22:59 +0300
+99a9c8e0dfa2de0d434bd70e341f454d2c75d5c2|Update server.pp|Thu, 14 Jan 2016 18:20:52 +0300|Thu, 14 Jan 2016 18:20:52 +0300
+6fc81818783666215c86c716b82d6da5083201db|Update server.pp|Thu, 14 Jan 2016 01:28:46 +0300|Thu, 14 Jan 2016 01:28:46 +0300
+390efb95c65cd98ddfd077c76a8fd591513eda47|Update server.pp|Thu, 14 Jan 2016 00:07:45 +0300|Thu, 14 Jan 2016 00:07:45 +0300
+0c901506e273f1032134a022fa6a6bad132ff895|Migrate to v2.0.0 FuelPlugin package version|Wed, 13 Jan 2016 22:30:21 +0300|Wed, 13 Jan 2016 22:30:21 +0300
+42f5c769ad20f156797e28190531b790708b14c6|Return to 13 commit|Thu, 24 Dec 2015 04:30:59 +0300|Thu, 24 Dec 2015 04:30:59 +0300
+93f7d9b3e11db6bb7a8398d612a875e3b2bcf727|[Travis CI] Try to fix builds|Thu, 24 Dec 2015 04:29:23 +0300|Thu, 24 Dec 2015 04:29:23 +0300
+d36bfb074578d09f69d8810ff9dde8e2d989750e|Fix typo|Thu, 24 Dec 2015 04:07:03 +0300|Thu, 24 Dec 2015 04:07:03 +0300
+ae148531dcc8bd0dc39169561c9b9ab97c48799e|Fix typo|Thu, 24 Dec 2015 04:05:32 +0300|Thu, 24 Dec 2015 04:05:32 +0300
+7d97e28261813cd673dd9d3e2af30a68632d3579|[Travis CI] Remove sudo requirements|Wed, 23 Dec 2015 23:56:16 +0300|Wed, 23 Dec 2015 23:56:16 +0300
+131479f0c9f4a1a6b80bf0ef3fbb070038e789a6|[Travis CI] Fix method to install APT Packages|Wed, 23 Dec 2015 23:51:30 +0300|Wed, 23 Dec 2015 23:51:30 +0300
+1a4e74a942a15835a957ae5181ba77a0d617a4a1|[Travis CI] Autosetup DNS servers|Wed, 23 Dec 2015 23:46:37 +0300|Wed, 23 Dec 2015 23:46:37 +0300
+f7db932c2276a3b9b1f017d6f0caac041e1f62f5|[Travis CI] Adding update repos|Wed, 23 Dec 2015 23:40:42 +0300|Wed, 23 Dec 2015 23:40:42 +0300
+71f28075e00651d7a7bb558bf2c6ad5eb2c0eda6|[Travis CI] Fix for adding sudo priveleges|Wed, 23 Dec 2015 23:38:04 +0300|Wed, 23 Dec 2015 23:38:04 +0300
+e29448e2446eb2f8bcdf4e6e36913180df1b3c41|[Travis CI] Add sudo priveleges|Wed, 23 Dec 2015 23:35:29 +0300|Wed, 23 Dec 2015 23:35:29 +0300
+195f0c3568841d98a6e690ec317330600f1f4b78|[Travis CI] Fix for plugin builder (implement autoinstall requre packages)|Wed, 23 Dec 2015 23:33:09 +0300|Wed, 23 Dec 2015 23:33:09 +0300
+58d9d2decd7098f534ac3d6522d16f7c992b708b|[Travis CI] Fix for plugin builder (implement autoinstall requre packages)|Wed, 23 Dec 2015 23:30:20 +0300|Wed, 23 Dec 2015 23:30:20 +0300
+04393b2c0d83eab0ce7a47ca12797ff55b23a69b|[Travis CI] Fix for autobuild and publish plugin implementation|Wed, 23 Dec 2015 23:24:03 +0300|Wed, 23 Dec 2015 23:24:03 +0300
+494c9049e317138b8f205827c57a0d6eaafb39ed|Fix typo in filename|Wed, 23 Dec 2015 23:22:05 +0300|Wed, 23 Dec 2015 23:22:05 +0300
+ea54ca926307eabb703f61e5a8ebaf964759f803|[Travis CI] Implement autobuild and publish plugin|Wed, 23 Dec 2015 23:18:49 +0300|Wed, 23 Dec 2015 23:18:49 +0300
+1ddc7488b50420e8cc1c6c8392dcdfab5d37b60e|Temporary remove Drone CI Banner|Wed, 23 Dec 2015 20:41:03 +0300|Wed, 23 Dec 2015 20:41:03 +0300
+bcdf77041746a29512fa686d4b062d5fef2e2b44|[Travis CI] Remove 'fpb --build' implementation|Wed, 23 Dec 2015 20:38:15 +0300|Wed, 23 Dec 2015 20:38:15 +0300
+2cd67c20e92c4ce7a071adb7f1ccb946f6ad0d76|[Travis CI] Implement testing deploy|Wed, 23 Dec 2015 20:29:32 +0300|Wed, 23 Dec 2015 20:29:32 +0300
+e11ec840da3472bb82067ed8e9c284653a0c4590|[Travis CI] Implement validate checking|Wed, 23 Dec 2015 20:26:17 +0300|Wed, 23 Dec 2015 20:26:17 +0300
+a9a35815bc034bf88e8b11161c97ecff9b4033d3|Add Travis CI supporting|Wed, 23 Dec 2015 20:01:17 +0300|Wed, 23 Dec 2015 20:01:45 +0300
+5350b4d13ce10e53af1d307c1486791b48883d5a|Add Travis CI supporting|Wed, 23 Dec 2015 19:54:19 +0300|Wed, 23 Dec 2015 19:54:19 +0300
+142fa3709b67bd1434c1cba470e58945dd0d6082|Add support for Drone CI|Wed, 23 Dec 2015 17:12:22 +0300|Wed, 23 Dec 2015 17:13:08 +0300
+035b1ca2312312950a38ef7b8a69a00cd4ea7ccf|Update package and install procedure|Wed, 23 Dec 2015 17:06:06 +0300|Wed, 23 Dec 2015 17:06:06 +0300
+ef15b82a99ba5d43c5f2793bd3b45fedbe2919d0|Change deployment tasks|Tue, 22 Dec 2015 16:30:12 +0300|Tue, 22 Dec 2015 16:30:12 +0300
+69cd8b7d3fd168db86a1747ea9caea5c919df2d4|Initial version|Tue, 22 Dec 2015 15:35:54 +0300|Tue, 22 Dec 2015 15:35:54 +0300

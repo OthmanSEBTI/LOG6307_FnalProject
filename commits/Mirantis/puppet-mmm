@@ -1,0 +1,41 @@
+bf01fdc2d1edc72faef8932880e6b7b294b5a8d9|Complete setup of an MMM cluster.|Tue, 21 Aug 2012 18:53:32 -0700|Tue, 21 Aug 2012 18:58:22 -0700
+22bbf9d845cd5ead3b8053bd5d985cc28e57c3f2|Merge branch 'master' of github.com:Tribily/puppet-mmm|Fri, 1 Jun 2012 18:00:40 +0800|Fri, 1 Jun 2012 18:00:40 +0800
+64151cc9b94770400a8a28ebf0e2070f715736dd|Change from mariadb server to mysql server|Fri, 1 Jun 2012 17:58:54 +0800|Fri, 1 Jun 2012 17:58:54 +0800
+d4c4ab0ba98d075b516fe21677fb9b1767e6cb1b|Switch from mariadb module dependency to puppetlabs-mysql module dependency|Thu, 10 May 2012 16:23:32 +0800|Thu, 10 May 2012 16:23:32 +0800
+16546e521e48ec2607f896ab8eae666806415cde|Merge branches 'master' and 'master' of github.com:Tribily/puppet-mmm|Wed, 9 May 2012 22:24:59 +0800|Wed, 9 May 2012 22:24:59 +0800
+3ee1e9c443e5be5119f8fcda2332d39a5df6e936|Merge pull request #1 from joostfaassen/master|Wed, 9 May 2012 06:37:07 -0700|Wed, 9 May 2012 06:37:07 -0700
+8628b5d84483841c2761803f87fe001a83398672|Added CREATE, ALTER + DROP privileges to writer-user|Wed, 9 May 2012 15:32:16 +0200|Wed, 9 May 2012 15:32:16 +0200
+5fa9a93c6994176d59689f592b4ad696690f16f5|New major version|Fri, 4 May 2012 00:36:29 +0800|Fri, 4 May 2012 00:36:29 +0800
+a9496477507e40d49b5fd69a4662af72cfbd2781|fixed outlining and syntax fixes|Fri, 4 May 2012 00:36:16 +0800|Fri, 4 May 2012 00:36:16 +0800
+cfbfb876556fcf65367df9415791c5755704922f|Adding mmm:params class so that it can be properly used|Fri, 4 May 2012 00:33:07 +0800|Fri, 4 May 2012 00:35:48 +0800
+c113dd4600ee468e85191e1f450904700b6872af|Make /etc/mysql-mmm more managed..|Tue, 1 May 2012 23:35:22 +0800|Tue, 1 May 2012 23:35:22 +0800
+dae99299c3b9d99d3c88d8ef8f409b79798fc6a2|Merge branches 'master' and 'master' of github.com:Tribily/puppet-mmm|Sun, 26 Feb 2012 13:13:05 +0800|Sun, 26 Feb 2012 13:13:05 +0800
+76c4b887f42c6f943b02cd7dda8dfd021c1f7f5e|Apache license plus module file|Mon, 13 Feb 2012 15:03:44 +0200|Mon, 13 Feb 2012 15:03:44 +0200
+0c5f9a674a72b4f872423f8577deef42f7f7c3dc|reader users need to be accessed from the localsubnet same with writer users. No point access being granted from the floating virtual ip to the DB|Thu, 9 Feb 2012 09:54:35 -0500|Thu, 9 Feb 2012 09:54:35 -0500
+16b56d22d8770e4b76600f72a748046879ab6a26|fix assignment of user to password|Thu, 9 Feb 2012 07:21:15 -0500|Thu, 9 Feb 2012 07:21:15 -0500
+485e008e0797f5a8b8781c661787007311270cc3|fix mariadb user create define to have unique name|Mon, 6 Feb 2012 09:41:43 +0200|Mon, 6 Feb 2012 09:41:43 +0200
+44bd16665aa185cd54a47901b4727a22f61ea447|Add support for granting reader rigths on all reader virtual ips|Mon, 6 Feb 2012 09:38:00 +0200|Mon, 6 Feb 2012 09:38:00 +0200
+46ede320564d8804f579874ca45339a5183afde1|Add reader and writer IPs to agent config so we can grant rights to users properly|Mon, 6 Feb 2012 09:07:45 +0200|Mon, 6 Feb 2012 09:07:45 +0200
+2603205e069da4495272fd3b13cf2aa06ae6fb22|Add package dependencies to service resources|Sun, 5 Feb 2012 16:46:07 +0200|Sun, 5 Feb 2012 16:46:07 +0200
+66f8a832e55c72a8d5da713317b2a1b00605b305|Add package dependencies to service resources|Sun, 5 Feb 2012 16:31:13 +0200|Sun, 5 Feb 2012 16:31:13 +0200
+dffe76e4175a475debd6c6abfa8eb8bd499cb5ba|fix ip list generation for puppet2.6 (flattened arrays) and puppet2.7 (unflattened arrays)|Fri, 3 Feb 2012 19:31:23 -0500|Fri, 3 Feb 2012 19:31:23 -0500
+12ce914618ba117dd9ac2740a490579285b928c4|32 character replication password limit|Thu, 2 Feb 2012 23:42:48 -0500|Thu, 2 Feb 2012 23:42:48 -0500
+f53cb639bd315090465a5245d2730ab108a417c1|Merge branch 'master' of github.com:Tribily/puppet-mmm|Thu, 2 Feb 2012 11:14:06 +1000|Thu, 2 Feb 2012 11:14:06 +1000
+a53a2ffa55489c66b5fcef6411aab128e1596dc6|support puppet 2.6.2 by flattening arrays|Wed, 1 Feb 2012 20:09:37 -0500|Wed, 1 Feb 2012 20:09:37 -0500
+95f8cccfb68f6d60a9c7a08c0ad72ed33d49a2fd|add sample usage|Wed, 1 Feb 2012 20:08:57 -0500|Wed, 1 Feb 2012 20:08:57 -0500
+c3fa1e6b5b9d73453f9e6271dc9f599d9ee6de79|* remove debian-sys-maint resource from mmm::agent, it doesn't belong there. * Only create reader_user if it is specified|Wed, 1 Feb 2012 11:41:19 +0200|Wed, 1 Feb 2012 11:41:19 +0200
+b4015a84eb98fd5b1d1fc88943c0a9e267dfaf07|remove management of debian-sys-maint as $mariadb::params::debian_sys_maint_pass will not work|Tue, 31 Jan 2012 21:55:13 -0500|Tue, 31 Jan 2012 21:55:13 -0500
+426bb5becabea6b2bd47778aafa8dfd85b9135f7|add documentation for rest of parameters|Tue, 31 Jan 2012 21:54:01 -0500|Tue, 31 Jan 2012 21:54:01 -0500
+600f6cf667e2d2cf039702acbfd0cb45944f1dcf|add params class to mmm config recipe|Tue, 20 Dec 2011 22:33:12 +0200|Tue, 20 Dec 2011 22:33:12 +0200
+cb1c8bd69846a80b9984b74eebc3274329c5dbb4|proper if statement|Fri, 16 Dec 2011 02:32:53 +0200|Fri, 16 Dec 2011 02:32:53 +0200
+1023c493d577a4091c4a3d77e5c426fc31dd4625|more proper handing of multi-cluster monitoring|Fri, 16 Dec 2011 02:23:31 +0200|Fri, 16 Dec 2011 02:23:31 +0200
+6846002fa666fb696090d6c352d21160d0154848|Add dependency from service to config files to make sure they are there before attempting to start mmm-agent|Fri, 16 Dec 2011 02:11:13 +0200|Fri, 16 Dec 2011 02:11:13 +0200
+12dafefc69d4db5a9338eb14cf95ae60efd87a68|Add proper parameter value for debian sys maine account|Fri, 16 Dec 2011 02:03:15 +0200|Fri, 16 Dec 2011 02:03:15 +0200
+e640d8033894537da418cf0aefbffa25e4f6401d|add $mmm_type as a parameter instead of a variable|Fri, 16 Dec 2011 01:46:35 +0200|Fri, 16 Dec 2011 01:46:35 +0200
+58e2e46a17f3907d085d7c45a0760853c03e4c7e|make sure the single cluster config files only get removed if we're actually running single cluster monitors ;)|Thu, 15 Dec 2011 23:47:51 +0200|Thu, 15 Dec 2011 23:47:51 +0200
+9348b07ee49ba1afca7852a0b27e5e3efd78cce3|Adjust common config file name for single monitor instances|Thu, 15 Dec 2011 23:38:24 +0200|Thu, 15 Dec 2011 23:38:24 +0200
+bdd10eb8878b1875532c17dec64710e4cf366228|Adjustments to properly separate multi-monitor instances from single-monitor instances|Thu, 15 Dec 2011 18:44:11 +0200|Thu, 15 Dec 2011 18:44:11 +0200
+6f70b68d1f484f31befbfed3b5b68d149e6bf6f1|Change hyphens to underscores in variable names|Wed, 14 Dec 2011 18:01:53 +0200|Wed, 14 Dec 2011 18:01:53 +0200
+27af65a7eaed872778602e41295d7df463dcf26d|removed $debian-syst-maint-pass from params of config define|Wed, 14 Dec 2011 17:20:03 +0200|Wed, 14 Dec 2011 17:20:03 +0200
+a591401954a744145ddfc9897c7c375a6c4be2c3|Ignoring geppetto project file|Thu, 8 Dec 2011 14:13:01 +0200|Thu, 8 Dec 2011 14:13:01 +0200
+7d2ab7a54cb850a90c9eee2a237597af0335d711|Initial commit of the mysql for mmm module for puppet|Thu, 8 Dec 2011 01:44:07 +0200|Thu, 8 Dec 2011 01:44:07 +0200

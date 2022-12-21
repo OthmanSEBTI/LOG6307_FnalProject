@@ -1,0 +1,607 @@
+33b1390004e2399761820ca302c9c82775796b88|Remove cleanup of old parameter usage|Fri, 18 Nov 2022 11:21:18 +0900|Fri, 18 Nov 2022 11:22:11 +0900
+786ed8421df880ed923f4b804b5a9b528ce50b06|Remove deprecated parameter for whitebox tempest plugin|Tue, 15 Nov 2022 14:56:44 +0900|Tue, 15 Nov 2022 14:57:25 +0900
+d42c8a1e241bdd36309388b601955c6f144f9c90|Update master for stable/zed|Thu, 20 Oct 2022 11:13:01 +0000|Thu, 20 Oct 2022 11:13:01 +0000
+79465b34b5b85ee686a5b94f7787e797983e745b|Prepare Zed RC1|Wed, 5 Oct 2022 18:34:24 +0900|Wed, 5 Oct 2022 18:34:24 +0900
+9daaffd5c84aca892804f388532dd7cb46679dd8|Merge "Fix missing parameters for heat-tempest-plugin"|Fri, 9 Sep 2022 10:33:11 +0000|Fri, 9 Sep 2022 10:33:11 +0000
+735a2d271f7965ea9a97cf1db588b15bbf0131ca|Add basic manila-tempest-plugin options|Sun, 4 Sep 2022 02:28:39 +0900|Sun, 4 Sep 2022 04:26:20 +0900
+a115820f0050e77637785a301e8ee6a76c81a0e6|Support manila-tempest-plugin|Fri, 2 Sep 2022 01:32:10 +0900|Fri, 2 Sep 2022 01:33:22 +0900
+1f35ee44f99282a51529c44a5c81a568100e258a|CentOS: Do not install packages without tempest tests|Sun, 21 Aug 2022 03:23:54 +0900|Sun, 21 Aug 2022 03:24:43 +0900
+b072f2bb42129b2743e88a80efe5120a64d0d4cb|Merge "Bump upper version of puppetlabs-vcsrepo"|Mon, 1 Aug 2022 14:41:27 +0000|Mon, 1 Aug 2022 14:41:27 +0000
+4f7528e2f90c8d9c1464f967ff3a2115a8f37027|Merge "Add support for domain parameters"|Mon, 1 Aug 2022 09:10:35 +0000|Mon, 1 Aug 2022 09:10:35 +0000
+61d45743fac9d96ba6f14328c782c5a928b14da9|Merge "Remove logic for Windows systems"|Mon, 1 Aug 2022 08:52:26 +0000|Mon, 1 Aug 2022 08:52:26 +0000
+d5ecf3fede2e3152ec2df2b48b5f18bac82e24e9|Bump upper version of puppetlabs-vcsrepo|Sat, 30 Jul 2022 23:18:17 +0900|Sat, 30 Jul 2022 23:18:17 +0900
+619f350c56efbb20406d1ac53f76c26233b339e0|Fix wrong test description|Fri, 15 Jul 2022 11:55:54 +0900|Fri, 15 Jul 2022 11:55:54 +0900
+9506c10502554ded3af6cc80265fbc08dd51e871|Remove logic for Windows systems|Fri, 8 Jul 2022 00:36:24 +0900|Fri, 8 Jul 2022 00:36:52 +0900
+b219ee7f09d4477d59ef690d23544bb4538841fd|Add release note about usage of OpenDev repo|Tue, 28 Jun 2022 16:18:31 +0900|Tue, 28 Jun 2022 16:19:08 +0900
+68315770395197a3df03247de4ba1d11313084fb|Fix missing parameters for heat-tempest-plugin|Thu, 16 Jun 2022 00:50:47 +0900|Tue, 21 Jun 2022 14:26:03 +0900
+be17b220504e044411c75b7418a8e56bc2ba7b2b|Add support for domain parameters|Tue, 21 Jun 2022 10:45:14 +0900|Tue, 21 Jun 2022 14:24:12 +0900
+5928ffdd14b309d303dda9bf3ba153d6c192caf1|Merge "Allow arbitrary section name for *_id_setter"|Mon, 20 Jun 2022 19:44:40 +0000|Mon, 20 Jun 2022 19:44:40 +0000
+7eeb56c8ffa8e26ed33645f6b63f2158872e0791|Merge "Deprecate a parameter for whitebox-tempest-plugin"|Mon, 20 Jun 2022 19:44:37 +0000|Mon, 20 Jun 2022 19:44:37 +0000
+0a03f21ef63cf5139b499abf59aca09a35762f20|Merge "Fix unit tests for plugin package management"|Mon, 20 Jun 2022 19:44:35 +0000|Mon, 20 Jun 2022 19:44:35 +0000
+ecd0befe9a140c86281df172f78ef165715cb101|Merge "Accept array value for [dns] nameservers"|Mon, 20 Jun 2022 19:44:33 +0000|Mon, 20 Jun 2022 19:44:33 +0000
+6fee1ec5e6e783ebd3fbb2e663a270e1b939b1ef|Merge "CentOS: Install package for glance-tempest-plugin"|Mon, 20 Jun 2022 18:58:33 +0000|Mon, 20 Jun 2022 18:58:33 +0000
+966aa2449bb6faff4d696be7617d5fcfeda62dda|Fix unit tests for plugin package management|Fri, 17 Jun 2022 10:16:37 +0900|Fri, 17 Jun 2022 14:49:14 +0900
+9f2d6ea65016f65e9ed21df8353fac0fb81ae369|Deprecate a parameter for whitebox-tempest-plugin|Thu, 16 Jun 2022 22:37:02 +0900|Thu, 16 Jun 2022 16:53:50 +0000
+affbcb0cc621a11aab7ff342f0d9bc965cd0d7b3|Allow arbitrary section name for *_id_setter|Mon, 7 Mar 2022 16:24:23 +0900|Fri, 17 Jun 2022 01:51:31 +0900
+7d69a696c0d0aacb11826f9aa067fff4f17911fd|Accept array value for [dns] nameservers|Thu, 16 Jun 2022 22:32:54 +0900|Thu, 16 Jun 2022 16:14:52 +0000
+dafa9101d9fb61b9e1ba0ed282ed4b53446552f7|CentOS: Install package for glance-tempest-plugin|Thu, 16 Jun 2022 02:06:58 +0900|Thu, 16 Jun 2022 02:09:00 +0900
+7b20e48cec6ce1353abfefb47285490b5b266312|Merge "Accept array for [network-feature-enabled] api_extensions"|Mon, 13 Jun 2022 20:48:57 +0000|Mon, 13 Jun 2022 20:48:57 +0000
+15c9d96fbf77f713015f68b81c3d2b257536528f|Merge "Remove clean up for [compute] image_alt_ssh_user"|Mon, 13 Jun 2022 20:48:55 +0000|Mon, 13 Jun 2022 20:48:55 +0000
+c86b427cdd85eb154ff6058079b4596267ca6e15|Merge "Add support for [scenario] img_disk_format"|Mon, 13 Jun 2022 20:48:53 +0000|Mon, 13 Jun 2022 20:48:53 +0000
+a30ded371293bae073dff5b5cc878c1c766a90d0|Merge "Do not set deprecated [service_available] aodh_plugin"|Tue, 7 Jun 2022 01:53:36 +0000|Tue, 7 Jun 2022 01:53:36 +0000
+2df6883b9e5dfe3c8e74e7c6d1689ce447de712e|Merge "Accept a string value for [auth] tempest_roles"|Mon, 6 Jun 2022 21:01:58 +0000|Mon, 6 Jun 2022 21:01:58 +0000
+a9398a54892d97f23f0181555f2b4b9214f71ae8|Add support for [scenario] img_disk_format|Mon, 6 Jun 2022 18:15:32 +0900|Mon, 6 Jun 2022 20:29:36 +0900
+e4b7a77f78781f9a16588e8b3213d5f87c86bd94|Merge "CentOS: Install tempest plugin packages only"|Fri, 3 Jun 2022 08:26:38 +0000|Fri, 3 Jun 2022 08:26:38 +0000
+fb4287e36cd136946f32bd4731cabc5417b49475|Remove clean up for [compute] image_alt_ssh_user|Fri, 3 Jun 2022 14:55:21 +0900|Fri, 3 Jun 2022 14:56:27 +0900
+6b9b452e67832cc1d2a19bebdc107f53b7c07721|Do not set deprecated [service_available] aodh_plugin|Fri, 3 Jun 2022 14:45:28 +0900|Fri, 3 Jun 2022 14:45:28 +0900
+786b5edace9774083cbe556ba124b1fcaa2cfb65|Accept a string value for [auth] tempest_roles|Fri, 3 Jun 2022 14:41:31 +0900|Fri, 3 Jun 2022 14:41:46 +0900
+4a850f005b03036db9636008e6e4991f41bd54ff|Accept array for [network-feature-enabled] api_extensions|Fri, 3 Jun 2022 14:37:25 +0900|Fri, 3 Jun 2022 14:37:25 +0900
+255847d2884660e02b64524b01a5356535941d90|Merge "Remove support for CentOS 8 Stream"|Wed, 1 Jun 2022 05:43:05 +0000|Wed, 1 Jun 2022 05:43:05 +0000
+e571a0859b1721452ba4d93cd5f50fd6ca183757|Remove support for CentOS 8 Stream|Wed, 1 Jun 2022 14:03:09 +0900|Wed, 1 Jun 2022 14:03:09 +0900
+29ce34b66f4977c2c093ac8493fa4648f94550a6|Remove the change_password_available parameter|Thu, 19 May 2022 22:55:47 +0900|Fri, 20 May 2022 00:24:06 +0900
+e55129bd29e2f5d0e09dd694482791d4447011cf|Remove keystone_v2 parameter|Thu, 19 May 2022 22:52:27 +0900|Fri, 20 May 2022 00:24:03 +0900
+3d176b17896226d9c77b31cf2197fa3a3be5afbe|CentOS: Install tempest plugin packages only|Mon, 18 Apr 2022 23:33:49 +0900|Mon, 18 Apr 2022 23:36:31 +0900
+e0260afbd934bcb49691e5f6f6990f32a784eec8|Change git url for Tempest to opendev.org|Mon, 11 Apr 2022 19:06:45 +0000|Wed, 13 Apr 2022 20:58:10 +0000
+68d27596ea115c37726f4263af0b6ef0f12b0099|Update master for stable/yoga|Tue, 5 Apr 2022 09:15:47 +0000|Tue, 5 Apr 2022 09:15:47 +0000
+197d8a46caba0679c1ea6373ffea82805144d151|setuptools: Disable auto discovery|Tue, 29 Mar 2022 10:42:26 +0200|Tue, 29 Mar 2022 10:42:35 +0200
+745315fa4020bfde8837e9420a2e49586fb66187|Prepare Yoga RC1|Sat, 12 Mar 2022 00:30:16 +0900|Sat, 12 Mar 2022 00:30:16 +0900
+e2a7a359579a3d00f49afdfcb1e977b840aa8441|remove unicode literal from code|Tue, 8 Mar 2022 09:25:40 +0900|Tue, 8 Mar 2022 09:25:40 +0900
+dce45ff0526191cfba0163b103db61d93bcd003a|Merge "Fix inconsistent indents in spec file"|Thu, 3 Mar 2022 12:17:49 +0000|Thu, 3 Mar 2022 12:17:49 +0000
+8d4532dc4b5b34665d0e93b5925b994c354a5fbc|Merge "tempest_glance_id_setter: autorequire glance_image resource"|Thu, 3 Mar 2022 12:17:47 +0000|Thu, 3 Mar 2022 12:17:47 +0000
+78f4df3d5bdf096a3ef3b367bbffa93bda4a6734|Merge "Add support for [validation] ssh_key_type"|Wed, 2 Mar 2022 12:02:10 +0000|Wed, 2 Mar 2022 12:02:10 +0000
+744bdad8456da4668569f4d4bd2774d7b0f0eb11|Add support for [validation] ssh_key_type|Tue, 1 Mar 2022 14:44:38 +0900|Tue, 1 Mar 2022 14:44:38 +0900
+d1d93cef7a6bc1336b495cfa7328567ac47f7f0d|Prepare Yoga M3|Thu, 24 Feb 2022 16:13:08 +0800|Sun, 27 Feb 2022 13:24:19 +0000
+bd09b822b9ba2a2097a8b40c9df28c0f5f307190|Merge "Add CentOS/RHEL 9 to supported operating systems"|Thu, 24 Feb 2022 15:26:08 +0000|Thu, 24 Feb 2022 15:26:08 +0000
+4f7566fe806a75bba2c43e993f4ed9d81c961661|Merge "tempest_neutron_net_id_setter: autorequire neutron_network resource"|Tue, 22 Feb 2022 16:46:01 +0000|Tue, 22 Feb 2022 16:46:01 +0000
+f101dd9f1d7cf652f3acb7ad98cfe8000e13ac51|Add CentOS/RHEL 9 to supported operating systems|Wed, 23 Feb 2022 01:37:12 +0900|Wed, 23 Feb 2022 01:37:12 +0900
+cb3c4e08252adc7d779c780a9c446bd7288455dc|Add a new flavor_id_setter provider|Mon, 10 Jan 2022 10:22:42 +0100|Tue, 22 Feb 2022 01:41:03 +0900
+5f375ba5278a13bfed6f6c38f665d312c88bba37|tempest_glance_id_setter: autorequire glance_image resource|Tue, 22 Feb 2022 01:35:46 +0900|Tue, 22 Feb 2022 01:39:14 +0900
+ee57ca622b727826ebcb9a4e85942fa7e126bc52|tempest_neutron_net_id_setter: autorequire neutron_network resource|Tue, 22 Feb 2022 01:38:05 +0900|Tue, 22 Feb 2022 01:38:05 +0900
+61b3089cc41a5ddab620c721b56a6ed5b6ce3980|Fix inconsistent indents in spec file|Sun, 20 Feb 2022 22:56:49 +0900|Sun, 20 Feb 2022 23:10:59 +0900
+fcba2cf5fb658de21c0d822687a0b2325559d386|Remove panko_available|Mon, 14 Feb 2022 11:56:55 +0900|Mon, 14 Feb 2022 11:56:55 +0900
+97cb83dfe92fceb3d4c4bd3d65bd9966399b80c6|Remove img_dir parameter|Mon, 14 Feb 2022 09:39:55 +0900|Mon, 14 Feb 2022 11:55:12 +0900
+d65c6ab9a704a8b5fdc66ea314401c3f9791f256|Support [load_balancer] test_with_noop|Mon, 7 Feb 2022 11:14:09 +0900|Mon, 7 Feb 2022 12:42:43 +0900
+e919c537f91e2422345b2241b415f29a572fd7a1|Support [load_balancer] *_role parameters|Mon, 7 Feb 2022 08:34:12 +0900|Mon, 7 Feb 2022 08:56:01 +0900
+6fbab839e353ea9c7725d5ed1d9481f54f225172|Add support for enforce_scope parameters|Sat, 29 Jan 2022 06:51:45 +0900|Sat, 29 Jan 2022 06:55:56 +0900
+eade1cc6f818ff7448a4db06f084922dee8a318a|Merge "Deprecate glance APIs version config options"|Tue, 25 Jan 2022 09:18:38 +0000|Tue, 25 Jan 2022 09:18:38 +0000
+efeb0243cd24b1af8876ec943d37e8cb5c988491|Fix where the image_alt_ssh_user parameter is set|Sat, 22 Jan 2022 23:58:04 +0900|Sat, 22 Jan 2022 23:58:28 +0900
+f28222de7c7fb3e8c7bc79783a8c2e47ce9adc56|Deprecate glance APIs version config options|Thu, 20 Jan 2022 19:03:23 +0900|Sat, 22 Jan 2022 21:09:53 +0900
+fae14da2c3e4b9e90702f87d8f460f96862273fd|Merge "Deprecate the change_password_available parameter"|Fri, 21 Jan 2022 23:20:04 +0000|Fri, 21 Jan 2022 23:20:04 +0000
+794128fa38719c3302e581316ce5db8e599ed72f|Do not test details of oslo::concurrency|Fri, 21 Jan 2022 17:13:06 +0900|Fri, 21 Jan 2022 17:13:24 +0900
+5b8bae1452c201a676e59d587cfa912c8c3e1b98|Deprecate the change_password_available parameter|Thu, 20 Jan 2022 19:12:06 +0900|Thu, 20 Jan 2022 19:13:21 +0900
+70b9dc8918656ed2b2ab808d943ebcf282fe112b|Merge "Glance: Disable api v1 testing by default"|Tue, 18 Jan 2022 17:48:55 +0000|Tue, 18 Jan 2022 17:48:55 +0000
+ba29e31a7a4ac734a165f9348c1256b6309d99b9|Deprecate support for [identity-feature-enabled] api_v2|Sat, 15 Jan 2022 22:59:58 +0900|Sun, 16 Jan 2022 11:01:59 +0900
+4a029373c6adee54df6b478e4bdb2619f668ba93|Glance: Disable api v1 testing by default|Sat, 15 Jan 2022 23:07:02 +0900|Sat, 15 Jan 2022 23:11:01 +0900
+1d3596f6c298c8aa1fdf1f87253830c5783c9a84|Merge "Remove usage of custom os_package_type fact"|Fri, 7 Jan 2022 20:18:14 +0000|Fri, 7 Jan 2022 20:18:14 +0000
+156e63f7baa5636db87c61ca1d41915b9ec184e5|Prepare Yoga M2|Wed, 1 Dec 2021 14:42:53 +0800|Fri, 7 Jan 2022 14:23:22 +0000
+d672437fe2d7dacbf1ced4fb03a9cb19c7dbb3a2|Remove usage of custom os_package_type fact|Wed, 5 Jan 2022 22:15:00 +0900|Wed, 5 Jan 2022 22:36:35 +0900
+3d586889542d4a9ffc16f5af64dcfa00587b554f|Load libraries in a single place|Mon, 27 Dec 2021 11:04:33 +0900|Mon, 27 Dec 2021 11:04:33 +0900
+b16a6ec8d251134cd6e55d7235ce81d7cc7c7bbd|Remove deprecated tempest::congress_available|Tue, 23 Nov 2021 10:18:30 +0900|Tue, 23 Nov 2021 10:18:30 +0900
+fdee45303f39847ab408e7f6aa8112c0a7241304|Remove deprecated tempest::neutron_fwaas_available|Tue, 23 Nov 2021 10:16:30 +0900|Tue, 23 Nov 2021 10:16:30 +0900
+24000aafcbe9b281c38badc7391e210233da37cc|Bump puppetlabs-inifile|Tue, 2 Nov 2021 13:11:02 +0900|Tue, 2 Nov 2021 13:11:02 +0900
+489f2198a3693766dc32e88b03e9ea0828a6f758|Add support for [auth] admin_system|Wed, 20 Oct 2021 01:33:18 +0900|Wed, 20 Oct 2021 01:33:37 +0900
+c18ef504cec69b8d1fb71d6a6f1932b8b0f9afe1|Support more *_domain_name options|Wed, 20 Oct 2021 01:27:12 +0900|Wed, 20 Oct 2021 01:30:43 +0900
+9a09e7c2c8bc11f0410e29f3386641cf6a745049|Do not override default of [auth] admin_domain_name|Wed, 20 Oct 2021 01:20:47 +0900|Wed, 20 Oct 2021 01:20:47 +0900
+d45d5805f6ac6429d0c9a68633b8e7e77bd74cfb|Bump version for the start of Yoga|Tue, 12 Oct 2021 09:00:43 +0900|Tue, 12 Oct 2021 09:00:43 +0900
+e26e4b0b315f45f3375db2c757bf915773a48710|Update master for stable/xena|Thu, 7 Oct 2021 08:29:17 +0000|Thu, 7 Oct 2021 08:29:17 +0000
+569cd602f18096573d91bcd5ea4e31073c8f61a8|Add information technology in the setup.cfg|Fri, 1 Oct 2021 06:54:50 +0800|Fri, 1 Oct 2021 06:54:50 +0800
+a77157721eef72c6bdc6431a97610f12845cd884|Add license information in the setup.cfg|Thu, 30 Sep 2021 16:48:14 +0800|Thu, 30 Sep 2021 16:48:14 +0800
+14ee1ab03372ffe17b94e79284877edba8d3048c|Delete useless code for setup.py|Thu, 30 Sep 2021 13:38:33 +0800|Thu, 30 Sep 2021 13:38:33 +0800
+831108e62643623c51713164a0afe6f9fe78dcd1|Stop configuring install_command in tox.|Wed, 29 Sep 2021 18:21:13 +0900|Wed, 29 Sep 2021 18:21:13 +0900
+57efbe191cd73bd02f68667c1f133b524b46984a|Merge "Fix pbr>=2.0.0 for setup.py"|Wed, 29 Sep 2021 09:13:00 +0000|Wed, 29 Sep 2021 09:13:00 +0000
+a4ad744e645d92cfa020716b0e87b968597a186d|Fix pbr>=2.0.0 for setup.py|Wed, 29 Sep 2021 16:37:10 +0800|Wed, 29 Sep 2021 16:37:10 +0800
+15b70fd8a3e81f71c622d496ce49e99d4ad3431c|Update openstackdocstheme to the latest version|Wed, 29 Sep 2021 16:06:51 +0800|Wed, 29 Sep 2021 16:06:51 +0800
+0f3d0a63fabe58ba088080ea75d9e336a5499c05|Update reno to the latest version|Tue, 28 Sep 2021 17:14:35 +0800|Tue, 28 Sep 2021 17:14:35 +0800
+f4266457925694ae0ed7ef1e4bf721d474a1c97c|Fix stdlib version in metadata|Thu, 23 Sep 2021 19:44:23 +0800|Thu, 23 Sep 2021 19:44:23 +0800
+30e8ed064f3533bbfd6f215d72c10b4f9748dfef|Prepare Xena RC1|Fri, 17 Sep 2021 17:36:10 +0800|Fri, 17 Sep 2021 17:36:10 +0800
+178d99cece735a2605d28d33a6233207b4843b1f|Prepare Xena M3|Mon, 6 Sep 2021 15:32:08 +0800|Mon, 6 Sep 2021 15:32:08 +0800
+4f7851bef6958003bd945d04a5b42855f2226d67|Merge "Remove deprecated auth parameters"|Fri, 3 Sep 2021 02:37:11 +0000|Fri, 3 Sep 2021 02:37:11 +0000
+d0f2677390e2f1eb5950f9df95d836f80d6784fd|Neutron: Use consistent logic to determine package installation|Mon, 30 Aug 2021 11:57:01 +0900|Mon, 30 Aug 2021 11:57:01 +0900
+7f60316e2f3ddfef5c46cc76a48bf9437435100c|Remove deprecated auth parameters|Mon, 30 Aug 2021 11:54:01 +0900|Mon, 30 Aug 2021 11:54:31 +0900
+7f2fa82c26b87d2f29fb368e142aa757d842f851|Merge "Support Puppet 7"|Mon, 16 Aug 2021 10:17:48 +0000|Mon, 16 Aug 2021 10:17:48 +0000
+44b20bbfcf77cad51260f4259ebbfd59f90db90b|Support Puppet 7|Mon, 16 Aug 2021 18:15:32 +0900|Mon, 16 Aug 2021 18:15:32 +0900
+c50bc609d274a6cb569be74092ed419211d123c0|Merge "Fix the wrong default of tempest::panko_available"|Mon, 9 Aug 2021 18:29:17 +0000|Mon, 9 Aug 2021 18:29:17 +0000
+e95ab78c017ee61c009b040a3b0811cb977e7d47|Fix the wrong default of tempest::panko_available|Fri, 6 Aug 2021 10:12:07 +0900|Fri, 6 Aug 2021 10:12:07 +0900
+f0ed70b3dd6f0d8720d706b2a7fcc82dc7f3301d|Prepare Xena M2|Mon, 26 Jul 2021 19:03:47 +0800|Mon, 26 Jul 2021 19:03:47 +0800
+277822974cd58ee30888a348df5fd16e0e0696bf|Drop Fedora support|Sat, 12 Jun 2021 23:40:50 +0900|Sat, 12 Jun 2021 23:40:50 +0900
+61a5127cc9ce276c3f742313722cc3cb343a7762|Merge "Get rid of the $pyvers variable"|Thu, 10 Jun 2021 19:03:45 +0000|Thu, 10 Jun 2021 19:03:45 +0000
+0f9ce49e1109ccfd81a430d7c9b3943eba393a55|Get rid of the $pyvers variable|Fri, 21 May 2021 14:18:49 +0200|Wed, 9 Jun 2021 17:49:08 +0200
+f075be553642a8b9c8bd28de5b5135a8a58e89a8|Merge "Deprecate support for Panko"|Wed, 9 Jun 2021 09:45:26 +0000|Wed, 9 Jun 2021 09:45:26 +0000
+d273aa3c564808f6d4f35da9e30dcf1e4cdb9ab1|Deprecate support for Panko|Wed, 2 Jun 2021 16:47:17 +0900|Thu, 3 Jun 2021 13:51:51 +0900
+febfce7118e8b0036fa51c171ad9d9b00f6c5ce7|Merge "Set fixture paths for unit tests"|Wed, 2 Jun 2021 23:53:06 +0000|Wed, 2 Jun 2021 23:53:06 +0000
+59731cdc96d1563df9074440fc2d689098f1a34d|Set fixture paths for unit tests|Wed, 2 Jun 2021 14:25:37 +0900|Wed, 2 Jun 2021 14:25:44 +0900
+4db92f3c74264c7038cdc97878fa7aab31a08938|Prepare Xena M1|Thu, 27 May 2021 15:50:28 +0800|Thu, 27 May 2021 15:50:28 +0800
+d7d4b851ead6479fe963dacf8ec4f51245b82554|setup.cfg: Replace dashes with underscores|Tue, 11 May 2021 18:41:36 +0900|Tue, 11 May 2021 18:41:36 +0900
+0268f3d58b5be7401aaf4fa123a8037a2050aa09|Bump version for the start of Xena|Thu, 29 Apr 2021 09:38:15 +0800|Thu, 29 Apr 2021 09:38:15 +0800
+125a872e2cd9ec0c0d91c82939665082a14d0d15|Merge "Bump dependency in metadata.json"|Tue, 13 Apr 2021 09:34:23 +0000|Tue, 13 Apr 2021 09:34:23 +0000
+a7e3478572ab63a0f9ec681604a598a16acde301|Bump dependency in metadata.json|Thu, 8 Apr 2021 21:09:18 +0200|Thu, 8 Apr 2021 21:09:18 +0200
+8df707c55bbcbe200b9fff34234a2739c7242dac|Update master for stable/wallaby|Thu, 1 Apr 2021 09:37:50 +0000|Thu, 1 Apr 2021 09:37:50 +0000
+f9d0190778e599d99473e0cf47a196f2933db50f|Merge "metadata.json: debian 11"|Tue, 30 Mar 2021 16:32:43 +0000|Tue, 30 Mar 2021 16:32:43 +0000
+2542dff2c347648da452993adbe40a9dc87c732e|Update sphinx to the latest version|Sat, 27 Mar 2021 15:31:57 +0800|Sat, 27 Mar 2021 15:31:57 +0800
+46c16925f583cc1ff879b1a5607d6abbebae2ccd|Prepare Wallaby RC1|Fri, 26 Mar 2021 11:24:17 +0800|Fri, 26 Mar 2021 11:24:17 +0800
+60bf4117aeb9057f1ecd797e52ec3f81d349a86d|metadata.json: debian 11|Thu, 25 Mar 2021 21:07:27 +0100|Thu, 25 Mar 2021 21:07:27 +0100
+2927dcca64d98f17e8f0b550c24bc663dedb74f9|Update supported Ubuntu version to Focal|Tue, 23 Mar 2021 21:44:24 +0900|Tue, 23 Mar 2021 21:44:24 +0900
+7f7039c05eeafd7091882d024f69acd6878c5cae|Ubuntu: Update parameters for Telemetry test packages|Tue, 16 Mar 2021 19:07:07 +0900|Tue, 16 Mar 2021 19:07:07 +0900
+cd67e06749da15df1c2da61d62315b2e19b2e8f4|Prepare Wallaby M3|Fri, 12 Mar 2021 14:35:44 +0800|Fri, 12 Mar 2021 14:35:44 +0800
+1b6aced5a1d68ea2c42db92d875cdcf5ceb5b867|Merge "Do not install the package of tempest-horizon"|Wed, 27 Jan 2021 23:24:16 +0000|Wed, 27 Jan 2021 23:24:16 +0000
+65110d583b763fd76df1a46b1d12f99accfdb075|Do not install the package of tempest-horizon|Tue, 26 Jan 2021 09:41:52 +0900|Tue, 26 Jan 2021 09:41:52 +0900
+38eb425412a4004f7625f9f22ab329bd8ede9d9c|Prepare Wallaby M2|Tue, 19 Jan 2021 11:19:35 +0800|Tue, 19 Jan 2021 11:19:35 +0800
+b2e1ce4ce28f2520bcceb2f5765c73e6e9934b52|Prepare Wallaby M1|Fri, 4 Dec 2020 13:31:38 +0800|Fri, 4 Dec 2020 13:31:38 +0800
+1a667e3d511da0e4e98a8c8da6451b002a1c5600|Replace deprecated UPPER_CONSTRAINTS_FILE variable|Wed, 11 Nov 2020 09:08:36 +0800|Wed, 11 Nov 2020 09:08:36 +0800
+b33318e49def941a6ed12f0dbfeea97fc0db0de1|Fix outdated files|Wed, 28 Oct 2020 10:40:09 +0800|Wed, 28 Oct 2020 10:40:09 +0800
+ef514cc479afffcfef02f4568a93473f54f4f993|Bump version for the start of Wallaby|Thu, 15 Oct 2020 09:42:50 +0800|Thu, 15 Oct 2020 09:42:50 +0800
+5871050cb96181f611fb0ed3d0fe5752f2976c8a|Update master for stable/victoria|Thu, 8 Oct 2020 14:47:52 +0000|Thu, 8 Oct 2020 14:47:52 +0000
+0cb9808be58f2102d3a22359dfc8dd802da91c69|Prepare Victoria RC1|Thu, 24 Sep 2020 10:48:54 +0800|Thu, 24 Sep 2020 10:48:54 +0800
+68bf831e83fbc17437c3bee3f17bd652aed058fe|Set openstackdocs_auto_name to use 'project' as name|Wed, 16 Sep 2020 11:05:05 +0800|Wed, 16 Sep 2020 11:05:05 +0800
+7ee65fca9281c8638ed5af54360f8f7768ca8791|Merge "Add Puppet Litmus"|Thu, 10 Sep 2020 02:09:02 +0000|Thu, 10 Sep 2020 02:09:02 +0000
+7467ddb4c95800d269c36128d8aa9b9c554917f1|Prepare Victoria M3|Tue, 8 Sep 2020 09:18:03 +0800|Tue, 8 Sep 2020 09:18:03 +0800
+37e54a0825774bda0898926496518412783eb459|Add Puppet Litmus|Mon, 31 Aug 2020 21:59:37 +0200|Mon, 31 Aug 2020 21:59:37 +0200
+c5ee8aae63c40923f7733b32f540982aa61f893d|Merge "Drop allow_virtual"|Mon, 31 Aug 2020 15:47:51 +0000|Mon, 31 Aug 2020 15:47:51 +0000
+a3d5bd2c6cf0756a612ad9701c9d5f164039e6b5|Use openstack_spec_helper from zuul checkout|Sun, 30 Aug 2020 23:06:29 +0200|Sun, 30 Aug 2020 23:06:29 +0200
+babfa4516139e58f07bfae8f31b893840e559ece|Drop allow_virtual|Fri, 28 Aug 2020 18:02:28 +0200|Fri, 28 Aug 2020 18:02:28 +0200
+94a12f44cab8d0194beb718854d44c5daf0b2b32|Prepare Victoria M2|Thu, 30 Jul 2020 13:35:29 +0800|Thu, 30 Jul 2020 13:35:29 +0800
+dacf254b8e6a78f3e0456115a687361632135586|Deprecate scenario.img_dir option|Tue, 14 Jul 2020 08:33:06 +0000|Tue, 28 Jul 2020 19:48:44 +0900
+572c7a1ef274cf50103ea75b00cdc68bf954df14|Prepare Victoria M1|Fri, 19 Jun 2020 10:38:55 +0800|Fri, 19 Jun 2020 10:38:55 +0800
+7f31d856bc7b31f315a5e54307a9b36a0840360d|Merge "Switch to newer openstackdocstheme and reno versions"|Wed, 3 Jun 2020 14:22:07 +0000|Wed, 3 Jun 2020 14:22:08 +0000
+7e4447f55b82b5bc259ec44cc6835f1eba918fec|Merge "Remove retired congress"|Tue, 2 Jun 2020 15:26:59 +0000|Tue, 2 Jun 2020 15:26:59 +0000
+e3aaa0af8c519c9fee52d6e0d9876de5af1be13b|Switch to newer openstackdocstheme and reno versions|Tue, 2 Jun 2020 15:03:29 +0200|Tue, 2 Jun 2020 15:03:29 +0200
+60ec5ca564f01f855c948f9876549392b2880447|Update Puppet requirement to >= 6.0.0|Sat, 30 May 2020 09:57:08 +0200|Sat, 30 May 2020 09:57:08 +0200
+fe73b95a8abbb24f0a1d84e64653efe68939fdaf|Remove retired congress|Sat, 30 May 2020 09:17:08 +0200|Sat, 30 May 2020 09:17:08 +0200
+dee8f8745b06bb2e173abca059d5900eee8d54a5|Add new Debian packages for tempest plugins|Mon, 25 May 2020 18:34:54 +0200|Mon, 25 May 2020 18:34:54 +0200
+d95a1c6656a345a2f87e58662755b39c9ef071bf|Bump version for the start of Victoria|Thu, 14 May 2020 12:24:28 -0600|Thu, 14 May 2020 12:28:11 -0600
+860a58aa1e8c9da4ef289643c26821d48fa511ac|Merge "[ussuri][goal] Add CONTRIBUTING.rst"|Tue, 12 May 2020 12:46:07 +0000|Tue, 12 May 2020 12:46:07 +0000
+e7481c0627920d506e5f134e4e1afd6694f5c37e|Bump reno to 2.5.0|Tue, 12 May 2020 10:50:07 +0800|Tue, 12 May 2020 10:50:07 +0800
+d763579055dce162e04c1a7c182ae39f293b0d28|Merge "Add CentOS8 to nodesets"|Mon, 11 May 2020 22:44:24 +0000|Mon, 11 May 2020 22:44:25 +0000
+2f78ffd2932eff9b1267b6f3eba8d96430763c07|[ussuri][goal] Add CONTRIBUTING.rst|Sun, 10 May 2020 22:53:44 +0200|Sun, 10 May 2020 22:53:44 +0200
+660af14ec99742013b23c06a36c9d5f00b14279d|Add CentOS8 to nodesets|Sun, 10 May 2020 21:51:20 +0900|Sun, 10 May 2020 21:51:20 +0900
+032c1afac3adb681a44af1ce8f66494f522dbd0c|Fix typo in Debian package names.|Sat, 9 May 2020 23:13:34 +0200|Sat, 9 May 2020 23:13:34 +0200
+f3eaa262025540b5f0aee9115d03db47ee652e6e|Merge "Fix Debian package names"|Thu, 7 May 2020 06:42:26 +0000|Thu, 7 May 2020 06:42:26 +0000
+20e191cdf90ada704406358b7e810c937811f9d2|Fix Debian package names|Sat, 25 Apr 2020 13:20:58 +0200|Mon, 4 May 2020 09:57:56 +0200
+cf3905bd2d754c2a40ba2d50757424f198f8bbff|Runs on Debian 10.|Sat, 2 May 2020 22:54:52 +0200|Sat, 2 May 2020 22:54:52 +0200
+fd45d7b16d8bfb8b2985a728314721202ad8899d|Bump openstackdocstheme to 1.30.0|Thu, 30 Apr 2020 15:28:37 +0800|Thu, 30 Apr 2020 15:28:37 +0800
+dd6830d474fb6a9b19f220efe5c7cc6722025e73|Change rpsec to rspec|Thu, 30 Apr 2020 13:24:46 +0800|Thu, 30 Apr 2020 13:24:46 +0800
+fb309190b62b42829ca2dcb6fd4e8d353190064f|Update master for stable/ussuri|Tue, 28 Apr 2020 14:59:57 +0000|Tue, 28 Apr 2020 14:59:57 +0000
+a10eb44bf8ebd8ddfd436a2513c19d2dccc27149|Prepare Ussuri RC1|Fri, 24 Apr 2020 14:23:10 +0800|Fri, 24 Apr 2020 14:23:10 +0800
+2f4f7d70de08ef66abb0d80d2439a32f82539bd5|Use python3-swift-tests package on CentOS8|Wed, 22 Apr 2020 11:00:56 +0900|Wed, 22 Apr 2020 03:30:28 +0000
+2e308807d41730f4f8729c141b19b75d37fd0054|Prepare Ussuri M3 again|Tue, 14 Apr 2020 00:12:47 +0900|Tue, 14 Apr 2020 00:12:47 +0900
+ecc1c3436bbe7f60c2a7dbccf3651c5a7ac08a56|Resolve duplicated requirement names in metadata|Mon, 13 Apr 2020 23:06:46 +0900|Mon, 13 Apr 2020 23:06:46 +0900
+f296e79d04ded29d88d786daae9242d84e94c0c0|Prepare Ussuri M3|Tue, 7 Apr 2020 09:21:16 +0800|Tue, 7 Apr 2020 09:21:16 +0800
+05fbb48270a850692d7c2bb06ecad5f85fbb07e6|Expect python3 packages on CentOS8/Fedora|Wed, 1 Apr 2020 11:45:23 +0900|Wed, 1 Apr 2020 12:15:19 +0900
+e0eb3ef4cbfffbb06ce0f195e09820683994fcf0|Add CentOS 8 and Puppet 6 in metadata|Mon, 30 Mar 2020 09:37:57 +0200|Mon, 30 Mar 2020 07:53:13 +0000
+e272e9f5a88ba25a23e0cd9bfa1062be86976bc7|[ussuri][goal] Cleanup for python 2.7 drop|Sat, 15 Feb 2020 20:56:29 -0600|Sat, 15 Feb 2020 20:57:21 -0600
+68489f455b8cc7a8725990fededb9cb2c4984601|Prepare Ussuri M2|Thu, 13 Feb 2020 14:21:29 +0800|Thu, 13 Feb 2020 14:21:29 +0800
+45d15609caf7d51de12674f90cce9724239c9e6b|Fix stdlib version in metadata|Wed, 11 Dec 2019 11:53:04 +0800|Wed, 11 Dec 2019 11:53:04 +0800
+e236d3621f3de92c118e1c215644843b494db004|Prepare Ussuri M1|Tue, 10 Dec 2019 14:24:49 +0800|Tue, 10 Dec 2019 14:24:49 +0800
+e14ab290e77cda591ec6bc0522139356871884c1|Convert all class usage to relative names|Sun, 8 Dec 2019 23:22:18 +0100|Sun, 8 Dec 2019 23:22:18 +0100
+98dacc3204af7cf7d8e48c6a6d4a5bbbbd1ecdc6|Update master for stable/train|Fri, 4 Oct 2019 13:37:50 +0000|Fri, 4 Oct 2019 13:37:50 +0000
+143cd9ce79fe24d18ccd810453cf037c86e1d0fc|Merge "Update the constraints url"|Fri, 27 Sep 2019 03:34:09 +0000|Fri, 27 Sep 2019 03:34:09 +0000
+3154be25cf55c8f16f6bbc5180c7516ca3f59eb3|Update the constraints url|Thu, 26 Sep 2019 10:36:54 +0800|Thu, 26 Sep 2019 10:36:54 +0800
+5c36229db1149625e96df9676d6d7359b4565f8f|Prepare Train RC1|Wed, 25 Sep 2019 13:45:44 +0800|Wed, 25 Sep 2019 13:45:44 +0800
+7078b0f114ad852a2c9c38f860e477f50abd21a7|Prepare Train M4|Thu, 5 Sep 2019 09:04:50 +0800|Thu, 5 Sep 2019 09:04:50 +0800
+30ab1da275449685a4d5ff0a9479788988632252|Remove neutron-fwaas tempest plugin installation|Mon, 19 Aug 2019 18:52:23 +0200|Mon, 19 Aug 2019 19:06:11 +0200
+0c43f799f73a0286d0c3147c16444f675b5ea60b|Bump the openstackdocstheme extension to 1.20|Tue, 13 Aug 2019 11:29:08 +0800|Tue, 13 Aug 2019 11:29:08 +0800
+483805f5e8c3d6b16010f143f16a77f90e65df7f|Sync Sphinx requirement|Wed, 7 Aug 2019 09:10:09 +0800|Wed, 7 Aug 2019 09:10:09 +0800
+3b0d01b8057e4e415c33e019269b5910b727ce2d|Prepare Train M3|Wed, 24 Jul 2019 16:19:41 +0800|Wed, 24 Jul 2019 16:19:41 +0800
+363222aea1d0abbb6ed1095f3f483ceccbafa90a|Merge "Remove Neutron LBaaS"|Wed, 12 Jun 2019 02:07:32 +0000|Wed, 12 Jun 2019 02:07:32 +0000
+810ab64f68083033e04b50fd576282a4a19eb5ea|Prepare Train M2|Wed, 5 Jun 2019 09:40:23 +0800|Mon, 10 Jun 2019 10:06:34 +0800
+1cadadbfc7b0c95a586c398de54ca7f234cf8525|Remove python-networking-bgpvpn-tests-tempest package|Fri, 31 May 2019 12:20:17 +0200|Fri, 31 May 2019 12:21:01 +0200
+af6be7261e89b5ecbb9c61d2bb4cbd5c07a748bc|Remove Neutron LBaaS|Mon, 13 May 2019 14:49:49 +0200|Mon, 13 May 2019 14:49:49 +0200
+8a3069820bb3336f0a1c24ad87a9cdf93c3c8569|Add python3 support for source install|Wed, 24 Apr 2019 12:31:18 -0600|Wed, 24 Apr 2019 14:07:13 -0600
+49fa8a3e673a1fe27a8b57cd2062242b1dcdbddd|Move to opendev|Sun, 21 Apr 2019 14:44:49 +0800|Sun, 21 Apr 2019 14:44:49 +0800
+fd4b78891edeb3b3bb679e7f300fcd5ae2511d70|Fix Repository|Sun, 21 Apr 2019 12:59:10 +0800|Sun, 21 Apr 2019 12:59:10 +0800
+7186519e17fcd66724c54693000805df5ee20382|OpenDev Migration Patch|Fri, 19 Apr 2019 19:48:37 +0000|Fri, 19 Apr 2019 19:48:37 +0000
+7affd5fc4bea83f4c5f9ec57d7a3a8c170abdb12|Add the table of contents|Wed, 17 Apr 2019 09:37:15 +0800|Wed, 17 Apr 2019 09:37:15 +0800
+c61e71fbaa052e3644cbfb78db787c69bfd1a4e8|Bump version for the start of Train|Mon, 25 Mar 2019 07:25:24 -0600|Mon, 25 Mar 2019 07:27:56 -0600
+51a5a34f70b24249d805eb8425a348916ec34e3c|Update master for stable/stein|Fri, 22 Mar 2019 16:54:57 +0000|Fri, 22 Mar 2019 16:54:57 +0000
+2d4c081a8f083a121bf88f346493a0861cf3ecbf|Prepare Stein RC1|Mon, 18 Mar 2019 10:38:17 +0800|Mon, 18 Mar 2019 10:38:17 +0800
+2b73250c3d081d374f88ab15a19df8f7b72017aa|Prepare Stein M3|Wed, 6 Mar 2019 14:55:49 +0800|Wed, 6 Mar 2019 14:55:49 +0800
+8a4d740f19f9cf75eda4ae1bd1f88f52d9e52d8c|Merge "Add release note about Ubuntu py3 upgrade"|Mon, 25 Feb 2019 18:25:03 +0000|Mon, 25 Feb 2019 18:25:03 +0000
+ccb158b2ee991f7ba5c859b11deaf8d7e6972cd1|Add release note about Ubuntu py3 upgrade|Sun, 24 Feb 2019 00:12:17 +0100|Sun, 24 Feb 2019 00:12:17 +0100
+b15d4005cd716bbdb5917d98149ed77d5887bca1|Use validate_legacy|Sat, 23 Feb 2019 23:00:40 +0100|Sat, 23 Feb 2019 23:00:40 +0100
+172955d2dc634c306207bcdd207624c1ff7f5160|Merge "Remove Ubuntu Xenial from metadata.json"|Mon, 11 Feb 2019 20:48:34 +0000|Mon, 11 Feb 2019 20:48:34 +0000
+44ba2338d1bc27b815c09457087b2b0c8d4f49a6|Remove Ubuntu Xenial from metadata.json|Fri, 8 Feb 2019 11:38:42 +0100|Fri, 8 Feb 2019 11:38:42 +0100
+56cdcd257e32f4d03f94a2cf087c62484a9ef741|Add python3-openstackclient to autorequire|Mon, 4 Feb 2019 10:34:27 +0100|Mon, 4 Feb 2019 13:19:28 +0100
+ce257c60e98a700d6d04452425203568413e1ff5|Fix openstackclient spec test|Mon, 4 Feb 2019 10:29:07 +0100|Mon, 4 Feb 2019 10:29:07 +0100
+8e12451857ffd5cace59093afb6b40a19067c9dd|Merge "Inherit pyvers from openstacklib::defaults"|Thu, 17 Jan 2019 21:29:29 +0000|Thu, 17 Jan 2019 21:29:29 +0000
+80814cd7f421cc255b414f240be3b89c6da4dcb4|Modify puppet version 4 to 5|Tue, 15 Jan 2019 10:11:20 +0800|Tue, 15 Jan 2019 10:11:20 +0800
+24ee220a9f4bee177d49314bc9486fd0afe7295b|Inherit pyvers from openstacklib::defaults|Fri, 11 Jan 2019 14:08:26 +0000|Fri, 11 Jan 2019 14:08:59 +0000
+b535e591d360c5145611d0808bd507d13bddcbba|Prepare Stein M2|Thu, 10 Jan 2019 09:24:04 +0800|Thu, 10 Jan 2019 09:24:04 +0800
+decace898ada84dd88b04205ff524ae950d27ce8|Fix neutron-dynamic-routing test package for Fedora|Fri, 21 Dec 2018 09:32:47 +0530|Fri, 21 Dec 2018 09:33:46 +0530
+7db5dbd38f0e1574bee092dadeebc4188a371672|Fix vcsrepo version in metadata|Fri, 21 Dec 2018 09:31:24 +0800|Fri, 21 Dec 2018 09:32:23 +0800
+b8fcad11c66ecbf7a98253253add89c242031d30|Fix lint|Tue, 18 Dec 2018 11:15:38 +0100|Tue, 18 Dec 2018 11:15:38 +0100
+12244b81c32f358422e86b3cc6e7bc3452124567|Fix module structure|Wed, 12 Dec 2018 11:50:55 +0100|Wed, 12 Dec 2018 11:50:55 +0100
+97a9dc3ec0c1bbe75768b65a7f3e6908db118851|Change openstack-dev to openstack-discuss|Sun, 2 Dec 2018 18:20:43 +0100|Sun, 2 Dec 2018 18:20:43 +0100
+d28e9a98126b556b135f4428ee78955d365b37c3|Merge "Convert to rspec-puppet-facts"|Wed, 28 Nov 2018 17:33:38 +0000|Wed, 28 Nov 2018 17:33:38 +0000
+e7baa14889cf23c5e06c1f5571cfbc2f00650630|Convert to rspec-puppet-facts|Sat, 24 Nov 2018 15:47:06 +0100|Sat, 24 Nov 2018 15:47:06 +0100
+7f99c35423da702463051b273c9fd14fdade4f34|Merge "Adjust remaing tempest plugin packages for Fedora"|Thu, 15 Nov 2018 15:34:23 +0000|Thu, 15 Nov 2018 15:34:23 +0000
+aba5e05ca7cc5f500708be8ad0e25ccc5bb7035e|Prepare Stein M1|Tue, 13 Nov 2018 14:53:26 +0800|Tue, 13 Nov 2018 14:53:26 +0800
+514c3dddc6a98aec8cb978067d1b8aa0a49501d3|Adjust remaing tempest plugin packages for Fedora|Fri, 9 Nov 2018 17:19:03 +0530|Fri, 9 Nov 2018 17:21:11 +0530
+c64f948953c153537b142e277bfd6a5cf911665b|Fix stdlib version in metadata|Fri, 9 Nov 2018 14:56:43 +0800|Fri, 9 Nov 2018 14:56:43 +0800
+ce2bf492221746ceec59771f65337951182b8416|Adjust package names for some more packages for Fedora|Sat, 27 Oct 2018 11:06:30 +0530|Sat, 27 Oct 2018 11:06:34 +0530
+dfccd10de5219b3464516180fa65e61aa251c9b6|Update min tox version to 2.0|Tue, 16 Oct 2018 11:40:19 +0800|Tue, 16 Oct 2018 11:40:19 +0800
+40bd9bf8dab69bcc5e9fe64d536524b88674f0e0|Merge "Adjust package names for Fedora"|Wed, 10 Oct 2018 08:09:15 +0000|Wed, 10 Oct 2018 08:09:15 +0000
+b1ac2a6ef849b7879a12fe228418666a3033bec9|Dissuade .gitignore references to personal tools|Mon, 8 Oct 2018 11:39:25 +0800|Mon, 8 Oct 2018 11:39:25 +0800
+b4fafb69f070887aa2e5b8bdcc4be0ae93c3480b|Adjust package names for Fedora|Fri, 28 Sep 2018 21:43:56 +0530|Fri, 5 Oct 2018 11:55:11 +0530
+abe888f1378e707e8dac7a46e19247bdabc8f0b6|Adjust glance/keystone test package names for Fedora|Wed, 26 Sep 2018 09:41:39 +0530|Fri, 28 Sep 2018 10:17:08 +0000
+690c3edfdfacf422e894bd5393c1cad4bcd072b2|Merge "switch documentation job to new PTI"|Sat, 1 Sep 2018 00:28:21 +0000|Sat, 1 Sep 2018 00:28:21 +0000
+0114117d8b0a281ac066971eab2e26a2edc4a103|Merge "import zuul job settings from project-config"|Sat, 1 Sep 2018 00:15:40 +0000|Sat, 1 Sep 2018 00:15:40 +0000
+d377552105cc746636805e72241cac47600d58fa|switch documentation job to new PTI|Fri, 31 Aug 2018 08:24:46 -0400|Fri, 31 Aug 2018 08:24:46 -0400
+05b44ef44a2688f2dde122b90bb1fb5bbbc3d0fb|import zuul job settings from project-config|Fri, 31 Aug 2018 08:23:34 -0400|Fri, 31 Aug 2018 08:23:34 -0400
+4f84b6ef07cbbbd2b38226e5aeea9d318c8e2f9b|Bump version for the start of Stein|Thu, 30 Aug 2018 12:08:30 -0600|Thu, 30 Aug 2018 12:11:18 -0600
+59317d1f28eee0b28531bb20d201008ef4fa76ae|Update reno for stable/rocky|Mon, 20 Aug 2018 18:43:27 +0000|Mon, 20 Aug 2018 18:43:27 +0000
+269c46466736fb8bd972741daf3a3136ef61220d|Remove PE requirement from metadata.json|Thu, 16 Aug 2018 23:28:22 +0200|Thu, 16 Aug 2018 23:28:22 +0200
+b6d053492ae0b7804bd9ae947ab3f04ce8eeca79|Prepare Rocky RC1|Tue, 14 Aug 2018 08:56:17 -0600|Tue, 14 Aug 2018 08:58:54 -0600
+aaa2825f0ed22287596cec562f500b7fa3e2c94f|Add the 'Development' and 'Contributors' in README|Sat, 28 Jul 2018 08:05:20 +0000|Sat, 28 Jul 2018 08:05:56 +0000
+700d03a206bf06227e55308474df6ca05fb9da3c|Add neutron-dynamic-routing tests|Tue, 17 Jul 2018 18:18:55 +0200|Thu, 26 Jul 2018 18:05:25 +0200
+f55de8a183c117ed555c6cdb08f3b3d9fb0db4ba|Merge "Prepare Rocky M3"|Tue, 24 Jul 2018 20:44:44 +0000|Tue, 24 Jul 2018 20:44:44 +0000
+d887f087ea29ce0d3440a173a75eb7ec5b12e6b1|Merge "Fix OS versions in metadata"|Tue, 24 Jul 2018 20:44:43 +0000|Tue, 24 Jul 2018 20:44:43 +0000
+a6fcbf225384b00972e75057343bf8aeb4178f8e|Merge "Add the project source code repository in README"|Tue, 24 Jul 2018 20:44:43 +0000|Tue, 24 Jul 2018 20:44:43 +0000
+3935384d2530c693b43d8c91c384d2af88a87ee2|Prepare Rocky M3|Tue, 24 Jul 2018 10:17:05 -0600|Tue, 24 Jul 2018 10:20:15 -0600
+5293e9859a7e803714ddc50c25caa4e9f53d6c02|Merge "modulesync: sync and add nodepool-bionic for beaker"|Mon, 23 Jul 2018 20:46:02 +0000|Mon, 23 Jul 2018 20:46:02 +0000
+787ecc6b09ad4b9b01bcaa1b88eb2aacd91b2497|Add the project source code repository in README|Fri, 20 Jul 2018 22:46:09 +0800|Mon, 23 Jul 2018 20:26:02 +0200
+492ee1be8d2b12a7e77cf70e1ff6fc3297d5c291|Fix OS versions in metadata|Mon, 23 Jul 2018 12:31:11 +0800|Mon, 23 Jul 2018 12:54:17 +0000
+da1b4faad5d9da0bcff469a69541cb2a1de48c02|modulesync: sync and add nodepool-bionic for beaker|Wed, 18 Jul 2018 16:20:22 +0200|Mon, 23 Jul 2018 14:26:05 +0200
+305387306d8df18ab85db6014e8bcbb0f0662c5d|Merge "Fix OS versions in metadata"|Mon, 23 Jul 2018 11:54:18 +0000|Mon, 23 Jul 2018 11:54:18 +0000
+23ebc789c2d789db86419f217ee536ecc6391353|Merge "Add release note link in README"|Mon, 23 Jul 2018 02:12:03 +0000|Mon, 23 Jul 2018 02:12:03 +0000
+699e7b267148032a434b2dac87368463dea2e1ea|Fix OS versions in metadata|Thu, 19 Jul 2018 09:32:52 +0700|Thu, 19 Jul 2018 09:33:24 +0700
+205380746534bfe794cd00b03c0d74c84bca3bc7|Fix inifile version in metadata|Mon, 16 Jul 2018 14:59:28 +0800|Mon, 16 Jul 2018 15:17:10 +0800
+fd3c96cd43110ffc3dffdc1d79a9ed9833cdc408|Debian release is 9 in metadata|Mon, 2 Jul 2018 14:05:58 +0800|Mon, 2 Jul 2018 14:05:58 +0800
+b0017e1975ae35c1cd8e2883895e1bb2641860e2|Add release note link in README|Wed, 27 Jun 2018 22:41:03 +0800|Wed, 27 Jun 2018 22:41:44 +0800
+c15b2e05873b7c39f9b3ec4dcc9eb9fa26b5b0e9|Make roles for ec2api-tester configurable|Mon, 18 Jun 2018 13:07:23 +0200|Mon, 18 Jun 2018 14:48:11 +0200
+fae4bdd453b887a68f5339f133d28762f9682460|Add options to configure tempest for ironic|Wed, 13 Jun 2018 17:10:41 +0530|Thu, 14 Jun 2018 15:33:29 +0530
+387ff71ab7f4a32539e7338e0cd0a6f33cc55fac|fix tox python3 overrides|Fri, 8 Jun 2018 14:23:33 +0800|Fri, 8 Jun 2018 14:23:33 +0800
+45e3f6a5f209833798b874d1a0d2df2672e238e1|Prepare a new Rocky release|Tue, 5 Jun 2018 09:43:25 -0700|Tue, 5 Jun 2018 09:47:35 -0700
+471287ec5e0b7b6a5e18139e102dd9ad759a803c|Prepare Rocky M1|Thu, 19 Apr 2018 08:54:37 -0600|Thu, 19 Apr 2018 08:58:07 -0600
+972836a4a5d42a147bdbf5f912d3deaa200b5d0f|Merge "Update .gitignore"|Wed, 18 Apr 2018 00:52:00 +0000|Wed, 18 Apr 2018 00:52:00 +0000
+3e1421ef5c227acca3c6905f3b2b6ee0ee34a04b|Merge "Update links in README"|Fri, 13 Apr 2018 15:52:38 +0000|Fri, 13 Apr 2018 15:52:38 +0000
+b48794c87f17d0089f15b74750ab700cefe96427|Update .gitignore|Wed, 11 Apr 2018 08:43:45 +0800|Wed, 11 Apr 2018 08:55:39 +0800
+7b14e3251837d191a3a565492305e8f3bfeaa259|Update LICENSE|Fri, 6 Apr 2018 10:19:00 +0800|Fri, 6 Apr 2018 20:15:14 +0800
+77c810d6b5994b2d01a36eed34563b61f7031d44|Remove deprecated ensure_package option|Thu, 29 Mar 2018 12:01:15 +0800|Thu, 29 Mar 2018 12:01:15 +0800
+2e998fddf4d8eddce379d72ea625c79bc8bb6cfe|Add disable_ssl_certificate_validation to dashboard plugin|Tue, 20 Mar 2018 19:56:54 +0100|Tue, 20 Mar 2018 20:01:35 +0100
+f91d7602c5ec19482485327c701851e71aa71bc9|Follow the new PTI for document build|Wed, 28 Feb 2018 14:42:12 +0800|Wed, 28 Feb 2018 14:42:12 +0800
+35dd806d2044e67d704e1c8160b5b555104380ab|Update links in README|Wed, 28 Feb 2018 00:38:13 +0800|Wed, 28 Feb 2018 00:38:13 +0800
+74105dabc5439fa857d6a533a3df2f24f922bea8|Update reno for stable/queens|Wed, 21 Feb 2018 00:17:26 +0000|Wed, 21 Feb 2018 00:17:26 +0000
+f8335b96ff78a9f6e8f0a5509e1640bd837fab6c|Prepare for official Queens release|Mon, 19 Feb 2018 12:37:53 -0500|Mon, 19 Feb 2018 12:43:43 -0500
+86b38a2453e9f4e51053214339fd15f9ca00f458|Load puppet-openstack_spec_helper locally during tests|Mon, 12 Feb 2018 10:53:40 +0800|Mon, 12 Feb 2018 10:53:40 +0800
+184869c750a5f90caeebe9a645555797097fdc26|Merge "Zuul: Remove project name"|Fri, 2 Feb 2018 20:10:11 +0000|Fri, 2 Feb 2018 20:10:11 +0000
+501968dd2ccd25c61974046eaf64760d88eb8001|Zuul: Remove project name|Wed, 24 Jan 2018 16:47:08 -0800|Fri, 2 Feb 2018 02:08:10 -0800
+40d8428d10b7541929c4d695f3b504ca39cf3d8d|Use python-ec2api-tests-tempest package|Mon, 15 Jan 2018 16:46:39 +0530|Thu, 1 Feb 2018 12:50:06 +0000
+63c8abcc33720f086d9b9c065329bc6fc091748f|Merge "Zuul: Remove project name"|Tue, 30 Jan 2018 18:23:01 +0000|Tue, 30 Jan 2018 18:23:01 +0000
+03f292938ee7fac60d4a32b4478039a0edf7701a|Zuul: Remove project name|Mon, 29 Jan 2018 02:58:36 +0800|Mon, 29 Jan 2018 02:58:36 +0800
+74f9d8afa766cbbaff9892f936e5e551d11ede33|Updated tempest plugin package name for cinder and congress|Wed, 24 Jan 2018 14:33:55 +0530|Wed, 24 Jan 2018 14:33:55 +0530
+1ff7029745984fd8f1b9256b65ab2eca937068d7|Merge "Updated names for vitrage, trove and octavia tempest plugins"|Sat, 20 Jan 2018 02:02:49 +0000|Sat, 20 Jan 2018 02:02:49 +0000
+1fd82da5551b37c1fff6f37902aed31593c2d9a4|Update the package name for heat-tempest-plugin|Fri, 19 Jan 2018 14:44:50 +0530|Fri, 19 Jan 2018 14:44:50 +0530
+24065bebf41a58b5e2754b93476180045b0863bd|Updated names for vitrage, trove and octavia tempest plugins|Mon, 15 Jan 2018 20:20:52 +0530|Fri, 19 Jan 2018 10:16:03 +0530
+683fce59a5df708ebc21d07857703708376b5192|Merge "Use telemetry-tempest plugin for telemetry projects"|Thu, 18 Jan 2018 17:58:31 +0000|Thu, 18 Jan 2018 17:58:31 +0000
+3f694032a907ab227992cd6cc7f85c2a9367030c|Merge "Remove pinned versions from test-requirements.txt"|Wed, 17 Jan 2018 13:59:28 +0000|Wed, 17 Jan 2018 13:59:28 +0000
+c4e573ddb5c64041713655922e64430c76b5f580|Prepare for Queens Milestone 3|Tue, 16 Jan 2018 15:51:10 -0800|Tue, 16 Jan 2018 15:56:09 -0800
+2664949a5a7b07ec6b88a05a40f170b4578b0828|Remove pinned versions from test-requirements.txt|Tue, 16 Jan 2018 12:29:50 +0800|Tue, 16 Jan 2018 12:29:50 +0800
+bdc41f2cba9d1288cd908de1b3077981172fb104|Use telemetry-tempest plugin for telemetry projects|Mon, 15 Jan 2018 18:11:25 +0530|Mon, 15 Jan 2018 19:13:19 +0530
+9a3bb607aa0511d5c167a1db7d02809c096a544b|Update tempest plugin for ironic|Tue, 9 Jan 2018 07:06:05 -0800|Tue, 9 Jan 2018 07:06:05 -0800
+2167e5fe6ee345865a74b05cc7e256a201a08455|Update the cirros version to "0.4.0"|Thu, 4 Jan 2018 10:41:51 +0800|Sun, 7 Jan 2018 04:17:49 +0000
+d3e7890273fcc80698957494de16999c009ba507|Fix unit tests around oslo::logging|Thu, 21 Dec 2017 10:49:13 -0700|Fri, 5 Jan 2018 13:30:26 -0700
+263772543d2fc830a7fb42c900c74f026ada986a|Rename python-mistral-tests to python-mistral-tests-tempest|Wed, 27 Dec 2017 14:57:48 +0530|Wed, 27 Dec 2017 10:25:22 -0800
+f0d89c0f5a4d8ef910e0028caa01df9324f44159|Rename python-magnum-tests to python-magnum-tests-tempest|Wed, 27 Dec 2017 10:05:23 +0530|Wed, 27 Dec 2017 07:50:10 +0000
+9f1352af7e064e8ee1e6fe83adbd54d4d164d586|Run puppet-openstack-beaker-jobs|Thu, 21 Dec 2017 19:00:12 -0800|Wed, 27 Dec 2017 01:40:07 +0000
+88e2225ced8c6640a27daf282c64ace6ae2738b1|Fix unit tests|Tue, 26 Dec 2017 16:51:56 -0800|Tue, 26 Dec 2017 17:39:49 -0800
+ccf45d4895ba9b45d6afd19f1a855654549f774e|Rename python-murano-tests to python-murano-tests-tempest|Mon, 11 Dec 2017 15:07:10 +0530|Mon, 11 Dec 2017 15:07:10 +0530
+f65101fc22f6553a894df0a6f584264df8396b1a|Rename python-neutron-tests to python-neutron-tests-tempest|Thu, 30 Nov 2017 19:59:16 +0530|Thu, 30 Nov 2017 20:00:38 +0530
+797422451013f958c9509997c7097c889484a9e4|Prepare for Queens Milestone 2|Tue, 28 Nov 2017 16:14:20 -0700|Tue, 28 Nov 2017 16:19:30 -0700
+2691e9494e53df576bb7d97bbba695cc10b4dd92|Merge "Rename python-zaqar-tests to python-zaqar-tests-tempest"|Fri, 10 Nov 2017 05:17:19 +0000|Fri, 10 Nov 2017 05:17:19 +0000
+8bcb590aef48f7df200b0420c6715bd1f404fe80|Merge "Switch to Zuul v3 testing"|Tue, 7 Nov 2017 21:09:08 +0000|Tue, 7 Nov 2017 21:09:08 +0000
+da5f4e91a006e2643ffc98d3693934f835285151|Update the cirros version to "0.3.5"|Tue, 31 Oct 2017 16:08:29 +0800|Wed, 1 Nov 2017 11:59:45 +0800
+90ad1a7e44945c37d5dbd06ea94e497c63600ff6|Merge "Prepare for Queens Milestone 1"|Sat, 28 Oct 2017 01:00:13 +0000|Sat, 28 Oct 2017 01:00:13 +0000
+68fea5c095a0ff655a239717099d1bb3c1fa8758|Add Puppet package to bindep, for module build|Fri, 27 Oct 2017 13:16:46 -0700|Fri, 27 Oct 2017 13:16:46 -0700
+a2d1f2260497b30f1d708ff084a634ccd6253c18|Rename python-zaqar-tests to python-zaqar-tests-tempest|Fri, 27 Oct 2017 11:09:22 +0530|Fri, 27 Oct 2017 11:14:37 +0530
+89f6c53ccb302b12ecc55c8f5383ed8c8f9f0ccb|Switch to Zuul v3 testing|Thu, 26 Oct 2017 08:44:46 +0800|Thu, 26 Oct 2017 08:44:46 +0800
+e031b12cd044e32131384cebf12ea5610068bc80|Prepare for Queens Milestone 1|Tue, 17 Oct 2017 14:26:32 -0600|Wed, 18 Oct 2017 01:53:07 +0000
+da6fe3964bcb0592957ca37cd299ee1abcc32e6b|Set Keystone v2 API to disabled by default|Tue, 26 Sep 2017 17:32:13 +0200|Tue, 26 Sep 2017 17:57:28 +0200
+2dc09e67052499b21d7959b1224cc686530f736e|Update openstackdocstheme to latest version|Tue, 19 Sep 2017 21:05:58 +0800|Wed, 20 Sep 2017 11:08:05 +0800
+49632b0aec9a4e94cfbd3dbedeaa185ad0a5db6d|Fix markdown format typo|Fri, 8 Sep 2017 09:12:35 +0800|Fri, 8 Sep 2017 09:12:35 +0800
+34bf4f2a9f192f5cb4c2731ccefc74804d7d4644|Use Python to compute release notes version|Wed, 30 Aug 2017 13:48:35 -0700|Wed, 30 Aug 2017 13:48:35 -0700
+8962e56874b1da4632e662b752b4a438f3afc959|Merge "Add barbican service_available config"|Wed, 30 Aug 2017 06:49:49 +0000|Wed, 30 Aug 2017 06:49:49 +0000
+6d119655eb53b9a3858236578935ba9c3ec7e6a7|Merge "Add release note for support barbican"|Wed, 30 Aug 2017 04:34:59 +0000|Wed, 30 Aug 2017 04:34:59 +0000
+11123a8ea0875a5b8cc03e92fe913baeb5497045|Merge "Update versions for Queens cycle"|Tue, 29 Aug 2017 10:16:01 +0000|Tue, 29 Aug 2017 10:16:01 +0000
+6c62fa43dee7692a2ff73ab5968382402c6171bf|Add release note for support barbican|Tue, 29 Aug 2017 09:13:33 +0800|Tue, 29 Aug 2017 09:13:33 +0800
+477730f21e3987e5c76b4ff879b0ab530ac1a012|Add barbican service_available config|Mon, 28 Aug 2017 10:25:09 -0600|Mon, 28 Aug 2017 10:25:09 -0600
+9d5254e9fcf1e03ad72fce339079a5893a63b019|Merge "Update reno>=2.5.0"|Fri, 25 Aug 2017 20:51:11 +0000|Fri, 25 Aug 2017 20:51:11 +0000
+69fc441e633e78ed24a74de2281a7c77ef27e76d|Update versions for Queens cycle|Thu, 24 Aug 2017 13:06:05 -0600|Thu, 24 Aug 2017 13:08:23 -0600
+d0901e0b91d1a14202b51750ba93f0c9808d2247|Update reno for stable/pike|Thu, 24 Aug 2017 14:01:59 +0000|Thu, 24 Aug 2017 14:01:59 +0000
+015f7add77f5796c15660c495da1b5f6f8ec0a74|Prepare for official Pike release|Mon, 21 Aug 2017 15:58:44 -0600|Mon, 21 Aug 2017 16:00:58 -0600
+d095d0176795914be63f5cd91834632409b947fa|Update reno>=2.5.0|Mon, 21 Aug 2017 11:21:50 +0800|Mon, 21 Aug 2017 11:21:50 +0800
+72b5b009c26f063038556e6a9d827821f0278b8a|Merge "Update openstackdocstheme>=1.16.0"|Sat, 5 Aug 2017 07:18:50 +0000|Sat, 5 Aug 2017 07:18:50 +0000
+e73f5eed47e1853b1347f63ce1e685d130bc2d69|Bump modules to next minor with -dev|Fri, 4 Aug 2017 13:36:15 -0600|Fri, 4 Aug 2017 13:38:57 -0600
+abbde5981fe4682e19aed2b1fb671ffcdb8df649|Update openstackdocstheme>=1.16.0|Mon, 31 Jul 2017 11:04:10 +0800|Mon, 31 Jul 2017 11:04:10 +0800
+a5c3f4f0902e1d98a57cb9934562a43718f8c612|Drop -dev version for Pike M3|Tue, 25 Jul 2017 08:12:57 -0600|Tue, 25 Jul 2017 08:15:27 -0600
+7ec0238da0b488b860f996140056ccb4c6ff9119|Merge "Added support for barbican tempest plugin"|Sun, 23 Jul 2017 09:44:59 +0000|Sun, 23 Jul 2017 09:44:59 +0000
+2e443cdf2fb6f2b19f03b7f92a4c2b1e6ac86685|Merge "Fix tempest package name for networking-bgpvpn"|Fri, 21 Jul 2017 23:31:13 +0000|Fri, 21 Jul 2017 23:31:13 +0000
+f173ce59ef489043b1f8f98728a98b49ae685359|Added support for barbican tempest plugin|Fri, 21 Jul 2017 21:03:35 +0530|Fri, 21 Jul 2017 21:05:52 +0530
+bfe41cf8d2a5399a7b7915f94e45fe0193e49c0e|Merge "Update URLs in documents according to document migration"|Fri, 21 Jul 2017 15:31:59 +0000|Fri, 21 Jul 2017 15:32:00 +0000
+7da627f0ecc3a4727221ebb13727688d2fe2de62|Fix tempest package name for networking-bgpvpn|Tue, 18 Jul 2017 09:55:20 +0200|Tue, 18 Jul 2017 09:55:20 +0200
+dc78cae90ce8fe7fd6f4f28dceed4b13143adf33|Fixed the tempest package name for neutron l2gw plugin|Mon, 17 Jul 2017 23:23:13 +0530|Mon, 17 Jul 2017 23:24:30 +0530
+562498256ca39353f30b5ca557faba0222ff998f|Update URLs in documents according to document migration|Fri, 14 Jul 2017 08:54:44 +0800|Fri, 14 Jul 2017 08:54:44 +0800
+58a49e092c63176ba6021c175dd61cdead3f248b|Merge "Change author in setup.cfg"|Tue, 11 Jul 2017 11:32:53 +0000|Tue, 11 Jul 2017 11:32:53 +0000
+fd35b6c7f0fcf2292505612e6d0a256b46746292|Change author in setup.cfg|Tue, 4 Jul 2017 18:24:25 +0530|Tue, 4 Jul 2017 18:24:25 +0530
+41506906b528d96e63161b6708d0bff5f65029ad|Fix openstackdocstheme|Sun, 2 Jul 2017 14:27:58 +0800|Sun, 2 Jul 2017 14:27:58 +0800
+63746b6d7fe38a4a57b02ebddff9f85158823fc6|resize compute feature enable|Wed, 28 Jun 2017 11:32:27 +0000|Wed, 28 Jun 2017 12:44:19 +0000
+959174622e2f15582de4402c48f46c40dfec8f4e|Switch from oslosphinx to openstackdocstheme|Mon, 26 Jun 2017 10:12:00 +0800|Mon, 26 Jun 2017 10:16:34 +0800
+21ade7785d50f32c803f011102afd6875693386f|L2GW section should contain l2gw_switch parameter|Mon, 19 Jun 2017 18:58:33 +0200|Mon, 19 Jun 2017 18:58:33 +0200
+fd03e7e3e81493f69c78ac5d7eea0a690f1ad74e|Add environment variable|Mon, 12 Jun 2017 16:06:28 +0800|Mon, 12 Jun 2017 16:06:28 +0800
+74e877cff53a835b148930d1735ed3a289279c92|Merge "Bump version for Pike M3 Dev"|Fri, 9 Jun 2017 09:33:07 +0000|Fri, 9 Jun 2017 09:33:07 +0000
+2835aff288b5964e588328a8fa91b208bf80569a|Bump version for Pike M3 Dev|Thu, 8 Jun 2017 15:30:57 -0600|Thu, 8 Jun 2017 15:34:14 -0600
+18b768bca79564d9933e353a59fea70f4b4e6b07|Update global requirements|Thu, 8 Jun 2017 13:59:19 +0800|Thu, 8 Jun 2017 13:59:19 +0800
+b9f84e4d331b69cc626c00e000927973b8c13a7b|Merge "Add l2gw_switch as parameter for testing purposes"|Mon, 5 Jun 2017 14:24:36 +0000|Mon, 5 Jun 2017 14:24:37 +0000
+23ec01852fd93cfebef81c6a94d26dbd66560f77|Merge "Add support for testing magnum"|Mon, 5 Jun 2017 10:19:08 +0000|Mon, 5 Jun 2017 10:19:08 +0000
+8e90ae5e4a9d748095407d3136d90eb06c922b03|Add l2gw_switch as parameter for testing purposes|Mon, 5 Jun 2017 11:04:52 +0200|Mon, 5 Jun 2017 11:04:52 +0200
+132bf33cca601a6848d9db4fa10a36439fd68727|Add support for testing magnum|Wed, 7 Sep 2016 18:08:52 -0400|Thu, 1 Jun 2017 19:00:59 +0000
+6cf70d3b8c5aeaed45d938dd04d6579b9a2904c1|Drop -dev in preparation for Pike M2|Thu, 1 Jun 2017 08:53:02 -0600|Thu, 1 Jun 2017 08:55:22 -0600
+0609b20a985353d1043cb364b7c3c3a3b717faec|Update tox configuration|Wed, 17 May 2017 09:47:13 -0600|Wed, 17 May 2017 09:47:16 -0600
+a13bad76bfee4dcdda02367bdbdae020761370cb|Add L2GW Tempest plugin support|Tue, 25 Apr 2017 16:18:45 +0200|Tue, 25 Apr 2017 17:21:05 +0200
+b0af6a6b86b5e75c72dde554faabb3461cd6dfca|Bump modules to next minor with -dev|Fri, 21 Apr 2017 17:21:44 -0600|Fri, 21 Apr 2017 17:24:25 -0600
+1b092944e15e8570e3b853887662c0188374e774|Adding BGPVPN tempest plugin to service_available section|Thu, 20 Apr 2017 17:50:22 +0200|Thu, 20 Apr 2017 17:51:02 +0200
+418a03f4d258388cdf847c66f672f94c87fdfadc|Add BGPVPN Tempest plugin support|Tue, 11 Apr 2017 17:33:20 +0200|Tue, 18 Apr 2017 17:42:36 +0000
+80bf1fb131bbfb92749c27753693881d0cf92df9|Merge "Enable more tempest tests for ec2-api"|Fri, 7 Apr 2017 03:25:08 +0000|Fri, 7 Apr 2017 03:25:08 +0000
+ce151266a3e9df7204c40c0ce42110c570d6d657|Enable more tempest tests for ec2-api|Thu, 6 Apr 2017 17:45:19 +0200|Thu, 6 Apr 2017 17:54:23 +0200
+e4d067154789ad9decb3d7ae2ff37517fd2d815a|Drop -dev for release prep|Wed, 5 Apr 2017 10:36:14 -0600|Wed, 5 Apr 2017 10:46:22 -0600
+ca12cbc292e3ffc0f848fc29c63c98ae028cef37|Deploy ec2-api test package from RDO when needed|Mon, 3 Apr 2017 09:16:14 -0400|Mon, 3 Apr 2017 10:04:47 -0400
+cb8d37b0b420e66e5a4435598c8d573a05c13502|Update test-requirements.txt|Thu, 23 Mar 2017 14:55:09 +0800|Thu, 23 Mar 2017 14:55:09 +0800
+a93b9331509238fb16556a4b3688ac54ccd388d5|Allow to set api_extensions to test for neutron|Wed, 8 Mar 2017 12:21:48 +0000|Wed, 8 Mar 2017 13:03:20 +0000
+b01ecc7e182df20e2beb5c87ca1297b031723dab|Merge "Allow to set run_validation to check SSH"|Sat, 11 Mar 2017 02:58:13 +0000|Sat, 11 Mar 2017 02:58:13 +0000
+1cd6bb57c69fae4ed232979f58186b713ef50792|Allow to set run_validation to check SSH|Thu, 9 Mar 2017 13:02:05 +0000|Fri, 10 Mar 2017 08:15:30 +0000
+1701be4573607230e80ff02a67066ee75b076f0f|Inconsistent package_ensure parameter name|Wed, 8 Mar 2017 17:58:32 +0800|Wed, 8 Mar 2017 17:58:32 +0800
+1f0a5e004080edfb6e99599a42f8c37a82ae71b2|Prepare Pike metadata|Tue, 7 Mar 2017 14:39:57 -0700|Tue, 7 Mar 2017 15:35:06 -0700
+8cf37a40aa602bd0cbf8a9f231c7a8b0b0da9279|Merge "Add Octavia Tempest plugin support."|Thu, 9 Feb 2017 22:16:17 +0000|Thu, 9 Feb 2017 22:16:17 +0000
+f08be93397df82d9e957c1067b78ac418ed958c2|Update reno for stable/ocata|Wed, 8 Feb 2017 11:04:50 +0000|Wed, 8 Feb 2017 11:04:50 +0000
+5c81804918632f9759847153e45fc05ae18d6d7a|Add Octavia Tempest plugin support.|Wed, 8 Feb 2017 10:35:23 +0000|Wed, 8 Feb 2017 10:41:32 +0000
+cc671da1e0389a8951d5d9861c3c06738293cdcf|Merge "Prepare ocata-rc1 release"|Mon, 6 Feb 2017 12:25:49 +0000|Mon, 6 Feb 2017 12:25:49 +0000
+5de5d718db3ff8d71b6e6d2770da6fd30ab4ca57|Merge "Removing cmd from tempest workspace creation"|Sat, 4 Feb 2017 00:32:06 +0000|Sat, 4 Feb 2017 00:32:06 +0000
+b8cda98a2e720eea2923fe2659763e80f2a0cd94|Prepare ocata-rc1 release|Fri, 3 Feb 2017 16:21:53 -0700|Fri, 3 Feb 2017 16:24:29 -0700
+eaedd4df1f33a0bbebd6507893bf90b5757e4ca9|Removing cmd from tempest workspace creation|Thu, 2 Feb 2017 13:57:16 +0000|Thu, 2 Feb 2017 13:57:16 +0000
+fe66205818172cbcd0497046b860740919bdef58|Fixed the package name of vitrage tempest plugin.|Tue, 31 Jan 2017 15:51:00 +0000|Wed, 1 Feb 2017 01:56:58 +0000
+b2267939f10b2c3229f1e5ed71daaa11924d491f|Merge "Added manifests to install tempest from package"|Tue, 31 Jan 2017 17:25:52 +0000|Tue, 31 Jan 2017 17:25:52 +0000
+4303ee2e7b28313e0ab84bc7189a255f214e1451|Added manifests to install tempest from package|Wed, 25 Jan 2017 09:34:38 +0000|Tue, 31 Jan 2017 11:17:05 +0000
+3ac48843b42a18d1c4c118b3f3382f424b0182d6|Prepare 10.2.1 release|Thu, 26 Jan 2017 13:23:25 -0700|Thu, 26 Jan 2017 13:24:10 -0700
+34f7293e2bf077a43044a73ac85208bdf932e84b|Add Panko support|Tue, 24 Jan 2017 20:56:58 -0500|Tue, 24 Jan 2017 20:57:17 -0500
+b420cb9d05b293c852470386fc2357791b6414cf|Merge "Delete unnecessary utf-8 coding"|Tue, 3 Jan 2017 18:41:12 +0000|Tue, 3 Jan 2017 18:41:12 +0000
+38dabc8bcd9b45fe0ad6418240e054348e164b92|Delete unnecessary utf-8 coding|Mon, 26 Dec 2016 14:44:31 +0800|Mon, 26 Dec 2016 14:44:31 +0800
+f6b3ff4a747b1aab2b86a9f2f0319a7953d7288c|Allow for enabling/disabling image api versions|Thu, 15 Dec 2016 10:25:26 +0100|Fri, 23 Dec 2016 18:30:50 +0000
+55f1dd10d1d20691979bd5e6bfdee299ba9132c7|Pin reno version to reno>=0.1.1,!=2.0.0|Thu, 22 Dec 2016 15:34:18 +0400|Thu, 22 Dec 2016 15:36:59 +0400
+69239a9a208d3a582eb6d74fd1c158c4c17cfd7f|Prepare 10.1.0 release|Fri, 9 Dec 2016 09:34:05 -0700|Fri, 9 Dec 2016 09:35:35 -0700
+4262ca14d0484cc6922a0f4bd322d7405c90a993|Added congress service|Mon, 5 Dec 2016 12:01:19 +0800|Tue, 6 Dec 2016 10:05:48 +0800
+1869e0297a8bbaa00b351b596ab6a02aa02f1ce3|Show team and repo badges on README|Fri, 25 Nov 2016 17:07:02 +0100|Fri, 25 Nov 2016 17:24:30 +0100
+24a1c4bf4052456aed1a72947838159b34f6c9ef|Added watcher service|Sun, 20 Nov 2016 19:24:56 +0000|Mon, 21 Nov 2016 22:10:08 +0000
+185f4670cc9c4bb04ca4c7e6a7804d135ae8bd8f|Prepare 10.0.0 release|Mon, 14 Nov 2016 16:39:19 -0700|Mon, 14 Nov 2016 16:41:03 -0700
+db9646870b5e102c2f0823a4e9ccbf68fcac5fc2|Merge "Fix group name of the image_ssh_user option"|Fri, 4 Nov 2016 00:05:19 +0000|Fri, 4 Nov 2016 00:05:19 +0000
+b37d70e87d82a191f076cbaa237b68d09f63f446|Fix puppet version for requirements in metadata|Thu, 3 Nov 2016 10:28:08 +0800|Thu, 3 Nov 2016 12:03:23 +0800
+fa4bf27d68b0488f5e2c24b5aabf9c7ac904e293|Fix group name of the image_ssh_user option|Tue, 1 Nov 2016 15:39:56 +0800|Wed, 2 Nov 2016 08:58:29 +0800
+df0ddad85ebe6a06e0de37c3ff4c0d0e4ea211cb|add vitrage tests|Tue, 1 Nov 2016 12:12:09 +0200|Tue, 1 Nov 2016 12:12:24 +0200
+cf87092f07335ee486af09a8706b334feb7e120c|Merge "Remove verbose"|Mon, 24 Oct 2016 18:47:19 +0000|Mon, 24 Oct 2016 18:47:19 +0000
+74424c4a4bbcf32dd6133ed0190515e300f2eccb|Enable Keystone v3 support for providers|Mon, 17 Oct 2016 13:26:15 +0200|Mon, 17 Oct 2016 17:12:45 +0200
+3ab06c2b3b9acc69eb207334b653dbd238da2fe8|Merge "Create user and some fixes for ec2 credentials provider."|Fri, 14 Oct 2016 17:04:24 +0000|Fri, 14 Oct 2016 17:04:24 +0000
+7065ff5ba5c0ef189b8c996e893f857455a4c5a0|Merge "Remove unneeded processor count fact"|Fri, 14 Oct 2016 13:55:20 +0000|Fri, 14 Oct 2016 13:55:20 +0000
+b12764e762381e553bd55000fe2943ea4d47285d|Remove unneeded processor count fact|Thu, 13 Oct 2016 17:06:04 -0600|Thu, 13 Oct 2016 17:08:03 -0600
+7edad4647e1c954f0269547e76b63f4d0356da04|Fix config parameter name for volume-feature-enabled|Tue, 11 Oct 2016 17:16:29 -0400|Tue, 11 Oct 2016 17:16:29 -0400
+e1dcb9d6aec200e4adc0af8f6e72363cebe3f4f1|Create user and some fixes for ec2 credentials provider.|Mon, 19 Sep 2016 16:16:50 +0800|Mon, 10 Oct 2016 14:22:20 +0000
+83da0f568a22929559cffd65e709877de0b9a6a0|Enable release notes translation|Thu, 6 Oct 2016 20:48:10 +0200|Thu, 6 Oct 2016 20:48:10 +0200
+c0a32e30f068544ba6aa8ec62578610a83dbf6f3|Correct cinder_backup_available parameter|Wed, 5 Oct 2016 10:55:03 -0400|Wed, 5 Oct 2016 10:56:58 -0400
+edb1cd7ff87701a67cd8ec9ab48fbed6b6656348|Changed the home-page to point Openstack Puppet Homepage|Tue, 4 Oct 2016 11:14:01 +0530|Tue, 4 Oct 2016 11:15:03 +0530
+72ce3f99ee01311b2467b061ad8c040927bc259b|Move rspec-puppet-facts to spec helper|Fri, 30 Sep 2016 13:32:37 -0600|Fri, 30 Sep 2016 13:32:40 -0600
+ffa0f1f3c8994bc859bd7cbb0a335c643a8b6568|Merge "Add cinder backup test"|Tue, 27 Sep 2016 23:21:36 +0000|Tue, 27 Sep 2016 23:21:36 +0000
+1c5225743bb9f313e41979e7eaaac9ea9a4e614f|Remove verbose|Tue, 27 Sep 2016 19:50:18 -0300|Tue, 27 Sep 2016 19:50:18 -0300
+927f492ca534727d9c35a558f42fd8bebf7bd6b5|Update reno for stable/newton|Tue, 27 Sep 2016 12:41:55 -0400|Tue, 27 Sep 2016 16:58:00 +0000
+bcf7be9a5a9631b1a9bdc7dd580a9c89f31f3cb9|Add cinder backup test|Tue, 27 Sep 2016 07:51:07 -0400|Tue, 27 Sep 2016 07:52:25 -0400
+31097f2247ac5f29ec96feddc16d3734d1c12747|Merge "Puppet OpenStack Newton RC2"|Tue, 27 Sep 2016 00:47:07 +0000|Tue, 27 Sep 2016 00:47:07 +0000
+0211b97a18dcdae1115f046eae8117f248af3ad1|Puppet OpenStack Newton RC2|Mon, 26 Sep 2016 07:31:19 -0600|Mon, 26 Sep 2016 07:33:12 -0600
+717a0b526a86c19bd0d9fcdd1e2b99f1c85e9775|Remove unnecesary spaces in log messages.|Mon, 26 Sep 2016 10:05:45 +0200|Mon, 26 Sep 2016 10:06:01 +0200
+f84c551e43dea07d40876fe292236b6dcd0f43db|Prepare 9.3.0 (newton rc1)|Fri, 16 Sep 2016 11:42:14 -0400|Fri, 16 Sep 2016 11:42:14 -0400
+ffb65ca257d62ef746a795438c173c92b5f422db|Merge "Fix ec2 credential provider."|Fri, 16 Sep 2016 14:43:45 +0000|Fri, 16 Sep 2016 14:43:45 +0000
+56d3cadb2d84e3fef8904e206b3d902321730fb3|Merge "Fix puppet-lint before upgrading gem"|Fri, 16 Sep 2016 14:07:35 +0000|Fri, 16 Sep 2016 14:07:35 +0000
+eb62b1e18f87f5ea88d457a8d8e9854f7957fe37|Fix ec2 credential provider.|Wed, 14 Sep 2016 11:59:56 +0200|Fri, 16 Sep 2016 15:25:14 +0800
+15d7524e976d8cf779c2efcfbb440bfd0cc5f3ac|Renamed python-sahara-tests to python-sahara-tests-tempest|Wed, 14 Sep 2016 13:25:11 +0530|Wed, 14 Sep 2016 18:41:27 +0530
+99554720162ba49a19aaa6a02cf79901c172f396|Fix puppet-lint before upgrading gem|Wed, 14 Sep 2016 11:31:49 +0200|Wed, 14 Sep 2016 11:32:19 +0200
+5d81f40301f100b99fe37e6fea2453598b5cd844|Add provider for ec2 credentials|Fri, 2 Sep 2016 00:40:44 +0200|Fri, 9 Sep 2016 17:45:49 +0200
+913c1596f538976d75ea585bec0c5be2538765cc|Prepare 9.2.0 (newton b3)|Fri, 26 Aug 2016 09:56:45 -0400|Fri, 26 Aug 2016 09:56:45 -0400
+daa7a81bae2cbabac4439daffbb99d3df07b9dc2|Merge "trove: add db_flavor_ref parameter"|Wed, 17 Aug 2016 17:36:13 +0000|Wed, 17 Aug 2016 17:36:13 +0000
+2a3e609dfd6bf085f8c7b757a318b1cb34fc4b8e|trove: add db_flavor_ref parameter|Wed, 17 Aug 2016 10:05:32 -0400|Wed, 17 Aug 2016 10:11:44 -0400
+9af24fcffa51098175294c823749ab6953fee4db|Add parameter for ec2api tests|Tue, 16 Aug 2016 18:20:46 +0200|Tue, 16 Aug 2016 18:20:46 +0200
+3d78d8f2946029cd0b1aa59082cb50da4fcb8c60|Move other-requirements.txt to bindep.txt|Fri, 12 Aug 2016 21:12:28 +0200|Fri, 12 Aug 2016 21:12:28 +0200
+92baa57f38f2c26140984a784b062f42ff62a880|Merge "Add missing toggle for Mistral"|Thu, 11 Aug 2016 12:31:47 +0000|Thu, 11 Aug 2016 12:31:47 +0000
+c64746162614bc88bcb6b15b7ed81dbca94ff77a|Use the aodh_plugin parameter to toggle aodh tempest plugin|Tue, 9 Aug 2016 14:23:07 -0400|Tue, 9 Aug 2016 14:24:50 -0400
+b61e7304deb5dfddedfcfd4a8fc66afa497c0f91|Add missing toggle for Mistral|Tue, 9 Aug 2016 10:59:23 -0400|Tue, 9 Aug 2016 10:59:23 -0400
+eda67369de7814bd92082924736d00c3a4d8132d|Merge "Added Horizon tests support"|Mon, 8 Aug 2016 11:17:01 +0000|Mon, 8 Aug 2016 11:17:01 +0000
+c8259ac98a648be2140f3f4618ac845ea6424edc|Added Horizon tests support|Mon, 1 Aug 2016 11:43:00 +0000|Fri, 5 Aug 2016 17:42:53 -0400
+761c2100386ead032fe31504c87d309e133c8897|neutron: add granularity for aas services|Mon, 1 Aug 2016 23:13:23 -0400|Tue, 2 Aug 2016 11:40:50 -0400
+03d1e9762074c463cb7d148dbf27e4daf9e12f74|Add unit test for tempest_roles|Thu, 28 Jul 2016 02:07:41 -0400|Thu, 28 Jul 2016 02:22:28 -0400
+b950500685b9794489a1dfbb95c5c672ec8b7ef0|Ensure tempest_roles is an array|Tue, 26 Jul 2016 16:07:52 -0400|Tue, 26 Jul 2016 16:07:52 -0400
+16aa1cf48fcf8a03846b6cfea0568ee8a14f6afe|Add tempest_roles configuration|Thu, 21 Jul 2016 15:48:24 +0300|Thu, 21 Jul 2016 16:19:48 +0300
+8c080144aacd424790f438bfd0daf4ff8f79e724|Merge "Allow to enable Encrypted Volumes testing"|Mon, 11 Jul 2016 16:11:19 +0000|Mon, 11 Jul 2016 16:11:19 +0000
+e91f0742eb351b5014ecd6506ad01d9f1ba7ffc8|Allow to enable Encrypted Volumes testing|Fri, 8 Jul 2016 16:27:00 -0400|Fri, 8 Jul 2016 17:02:50 -0400
+452cdb6c29c663ae031c7f309b3ab28bd0f9d7bd|Include openstacklib defaults manifest.|Thu, 7 Jul 2016 12:01:25 +0200|Fri, 8 Jul 2016 09:03:52 +0000
+adee4407cd4083614073611aea7eaa3b64832f63|Merge "Prepare 9.1.0 (newton-2)"|Thu, 7 Jul 2016 21:00:16 +0000|Thu, 7 Jul 2016 21:00:16 +0000
+6abad464f2283af8a5848c7093fa33e598478126|Prepare 9.1.0 (newton-2)|Thu, 7 Jul 2016 09:10:05 -0400|Thu, 7 Jul 2016 11:37:32 -0400
+27034585bebcd523e95d8cabf50130fec3b3724d|Fix package name for designate tempest plugin|Wed, 6 Jul 2016 14:46:31 -0400|Wed, 6 Jul 2016 14:47:00 -0400
+b98f42bfe935b2e5b1c1cf808c8325e6a2eb726f|Remove 12.04 and add 16.04|Wed, 29 Jun 2016 22:55:46 -0300|Wed, 29 Jun 2016 22:55:46 -0300
+e1f2e1c8fa0c8d9dd50cd36d0da270e0c91ed127|Remove mitaka release prelude note|Tue, 28 Jun 2016 15:09:50 -0400|Tue, 28 Jun 2016 15:09:55 -0400
+ee593e003ff7e1c077f170fb6897111866176684|Allow virtuals during python-setuptools install|Thu, 23 Jun 2016 17:10:05 +0200|Thu, 23 Jun 2016 17:11:17 +0200
+b0b164117c4afa6a957d6a6a27af2d04b3eb3dcd|Add nodepool-xenial.yml file|Fri, 10 Jun 2016 13:33:49 -0400|Fri, 10 Jun 2016 13:33:54 -0400
+502034ee335bbc8b41c959107f1700b23aee23eb|Add Designate tests support|Mon, 6 Jun 2016 15:30:40 -0400|Mon, 6 Jun 2016 15:30:40 -0400
+ff300e6c890cc6e07a414c72a1da6ba0a198bc58|Merge "Fix path for execs"|Mon, 6 Jun 2016 14:17:13 +0000|Mon, 6 Jun 2016 14:17:13 +0000
+315d08db93c5538a42d6ef2944f2536047f3cb90|Prepare 9.0.0 release|Thu, 2 Jun 2016 18:33:44 -0400|Fri, 3 Jun 2016 19:18:35 +0000
+6584bf072296c90aa76e0888fa426b4973c4eaa8|Fix path for execs|Tue, 17 May 2016 18:06:01 -0600|Fri, 3 Jun 2016 12:40:40 -0600
+13f4d5c99bdf77749981395d10a1fd81826e0783|Cleanup README|Fri, 3 Jun 2016 12:32:10 +0300|Fri, 3 Jun 2016 16:24:53 +0300
+758dd533ac4eafb24247cdd66b1b281c317ff7a0|Merge "Add other-requirements.txt for bindep"|Fri, 20 May 2016 02:48:35 +0000|Fri, 20 May 2016 02:48:35 +0000
+48371d03fb00df7af14515c36cf294af63479ec8|Add other-requirements.txt for bindep|Thu, 19 May 2016 19:16:35 +0200|Thu, 19 May 2016 19:16:48 +0200
+8b6d2a70a7a1430883280b0055077bab4834fc46|Deprecate verbose option in logging|Wed, 18 May 2016 23:55:15 -0300|Wed, 18 May 2016 23:56:29 -0300
+62e9a74f0972b16eb88d9ee4eea19915eb0391a6|Rename deprecated configuration options|Tue, 10 May 2016 16:13:19 +0200|Fri, 13 May 2016 10:17:19 +0200
+fd4da1ad1566ee5b2de83d93f7a22194a58b3254|Use oslo module to configure the common parameters|Mon, 9 May 2016 14:48:42 +0800|Wed, 11 May 2016 21:18:31 +0800
+b21e1b7299f0a08ea9098512a418c400e0a88181|Add support for Gnocchi tests|Wed, 20 Apr 2016 12:44:45 -0400|Wed, 20 Apr 2016 12:44:45 -0400
+7af94e013b470a8385b646738a6e42c17e5975e9|deprecate verbose parameter|Mon, 18 Apr 2016 16:01:12 -0400|Mon, 18 Apr 2016 16:01:12 -0400
+e70aa88930f35be19b677a8ba5c8d495491aa21f|venv: create venv & run pip in exec|Thu, 14 Apr 2016 10:51:27 -0400|Sun, 17 Apr 2016 14:52:24 -0400
+af17899b0f9598d07c45e95db2ca1e22fc343a68|Allow to deploy python-mistral-tests|Sat, 9 Apr 2016 11:47:12 -0400|Sat, 9 Apr 2016 11:47:12 -0400
+74cda6a532463fe1a894b6bef853d81d53fad859|Correct comments for config class|Tue, 5 Apr 2016 10:51:17 -0600|Thu, 7 Apr 2016 16:10:34 +0000
+f99dfc5df08a4857172eb7882a9b2dd9690d8c6e|Update spec tests for Tempest|Wed, 6 Apr 2016 14:50:19 +0300|Wed, 6 Apr 2016 19:43:02 +0300
+af1bac396ee1b2da9d6eab5036892d01ba2b0d38|Merge "Manage Neutron AAS test packages when Neutron is available"|Mon, 4 Apr 2016 20:42:11 +0000|Mon, 4 Apr 2016 20:42:11 +0000
+d26e970e8819ea4631759f003cac6e52ec54b548|deploy openstackclient and make our providers requiring it|Mon, 4 Apr 2016 10:28:11 -0400|Mon, 4 Apr 2016 10:30:36 -0400
+428be788c81bed6130ac5dd220d71c134ccfaba9|Manage Neutron AAS test packages when Neutron is available|Sat, 2 Apr 2016 19:23:24 +0200|Mon, 4 Apr 2016 09:38:32 -0400
+ff7b166e67ecbb79c1ed2a3542bdf3587302ac63|Gemfile: rely on puppet-openstack_spec_helper for dependencies|Tue, 29 Mar 2016 21:37:32 -0400|Tue, 29 Mar 2016 21:37:32 -0400
+a86a6db2d7fb43d78631c0a3b04eab5cdde4eb2c|Import release notes from stable/mitaka|Thu, 24 Mar 2016 19:02:23 -0400|Thu, 24 Mar 2016 19:04:40 -0400
+6788f85f37d95cce408470d2814903f83d0ac9a1|Release 8.0.0|Wed, 23 Mar 2016 14:44:11 -0400|Wed, 23 Mar 2016 16:07:57 -0400
+55bd0910ca83f529e1e537b2f795a11bb1927bea|releasenotes: add notes for Mitaka cycle|Fri, 18 Mar 2016 11:57:25 -0400|Fri, 18 Mar 2016 16:59:28 -0400
+d657b79046743d73539e750ebae8f66cfe5532f8|Add support for Tempest plugin packages|Mon, 14 Mar 2016 19:06:23 -0400|Mon, 14 Mar 2016 20:08:44 -0400
+f908e62c10c92ef1babf5a7dc2eef63c4a997186|Add basic structure for ReNo|Sun, 13 Mar 2016 19:00:45 -0400|Mon, 14 Mar 2016 08:36:16 -0400
+f2285037af4b4529c7425a4356e3d55a9b7b2941|Add parameter to configure enabled Sahara plugins|Tue, 8 Mar 2016 19:03:56 +0100|Wed, 9 Mar 2016 15:52:31 +0100
+2dcec32ad8a3db0001faa8b02809d337fb1749bf|Add ssl parameters|Fri, 4 Mar 2016 11:52:33 -0500|Fri, 4 Mar 2016 17:36:52 -0500
+2d564f1ff7fc96deb47c6790cd563de9e8501e76|Allow to configure compute/build_interval|Mon, 22 Feb 2016 20:55:16 -0500|Mon, 22 Feb 2016 20:55:16 -0500
+af6ea67d88342c2626bb3ea3b25c23d69674339d|Allow to test zaqar|Fri, 12 Feb 2016 11:11:53 -0500|Fri, 12 Feb 2016 11:11:53 -0500
+16b6a1a7621a4ba97e8f23f67de26597a29c9173|drop mock dependency|Fri, 22 Jan 2016 10:11:29 -0500|Fri, 22 Jan 2016 10:11:29 -0500
+907d69c2afd42e6627ace990d143e1f0684e6593|Use puppet-openstack_spec_helper for Rakefile & spec_helper_acceptance|Mon, 18 Jan 2016 09:11:33 -0500|Mon, 18 Jan 2016 09:11:33 -0500
+e1a14026a96dc36005a240e14432e46419899569|Add rspec-puppet-facts to the spec_helper|Wed, 6 Jan 2016 21:28:51 -0700|Thu, 14 Jan 2016 20:12:50 +0300
+cb8000bdfa45d0676ef22e48a28eccd27e3d3e66|Add logging_context_format_string parameter|Fri, 8 Jan 2016 15:55:53 -0500|Fri, 8 Jan 2016 15:55:53 -0500
+e9692e3805a27f37ca2859976ffdccf6e479ab3b|Allow to enable/disable Ironic service|Sat, 2 Jan 2016 07:28:58 -0500|Sat, 2 Jan 2016 07:28:58 -0500
+b2becf318716748e9742952fc806a009fca13cf3|Merge "Allow to activate Murano Service Broker tests"|Wed, 16 Dec 2015 13:45:42 +0000|Wed, 16 Dec 2015 13:45:42 +0000
+9d2f18df7df8cfb361cffeca9ba0c31151915567|Merge "Switch id setters to openstack client"|Fri, 11 Dec 2015 14:33:46 +0000|Fri, 11 Dec 2015 14:33:46 +0000
+641ba120614d4b0b926fdfdadcb916961b93b710|Allow to activate Murano Service Broker tests|Thu, 3 Dec 2015 18:33:09 +0300|Mon, 7 Dec 2015 17:35:04 +0300
+4a61da58d6b1aba6f623c3ccab6d84fd5330754c|Switch id setters to openstack client|Thu, 5 Nov 2015 14:38:51 +0100|Mon, 30 Nov 2015 16:35:02 +0100
+a7c0208d813d2f31a3921de6b52faefe4a4f4e8d|Allow to activate Murano tests|Fri, 13 Nov 2015 17:18:06 +0300|Thu, 26 Nov 2015 15:04:21 +0000
+499c06ccfa39bc697c40ec88cfa7f0c9262d5a70|Checkout openstack-integration from master|Thu, 26 Nov 2015 11:47:00 +0100|Thu, 26 Nov 2015 11:47:00 +0100
+a26f81393bd829ddbc8ca8e1e8de226538208f1e|release: prepare 7.0.0 (liberty)|Wed, 25 Nov 2015 23:43:49 +0100|Wed, 25 Nov 2015 23:43:49 +0100
+e6edd0871739c0dfe6cdc2b22fa5de3ba269f401|Allow to enable/disable Aodh service|Mon, 23 Nov 2015 12:15:24 +0100|Mon, 23 Nov 2015 12:15:24 +0100
+ba0a62a434eeafcfac06c685fef21844daef9cfe|Remove class_parameter_defaults puppet-lint check|Thu, 12 Nov 2015 12:50:14 +0100|Thu, 12 Nov 2015 12:50:24 +0100
+f03b104975f7ca1500f839c83b5a2e4c19d538fa|Prepare 6.1.0 release|Thu, 15 Oct 2015 14:46:25 +0200|Mon, 19 Oct 2015 15:27:35 -0400
+09b2b5c70fa3772b33f4bce0ea178a723a820aab|Try to use zuul-cloner to prepare fixtures|Thu, 8 Oct 2015 14:39:26 -0700|Thu, 8 Oct 2015 15:17:00 -0700
+cdb255b14c3f1ab2c486d26bea2bc150f382164d|Allow to enable Trove tests|Wed, 30 Sep 2015 10:02:55 -0400|Wed, 30 Sep 2015 10:02:55 -0400
+cf51820becc5e1b6f17435dd3e267643544f7e25|Allow to activate Sahara tests|Fri, 25 Sep 2015 12:10:30 +0300|Fri, 25 Sep 2015 12:11:15 +0300
+026c4eddd3e9fff986cf52a091cf80a1017a4309|introduce dashboard parameters|Thu, 17 Sep 2015 23:03:11 -0400|Thu, 17 Sep 2015 23:03:11 -0400
+89bd7231f5b443d34695c9954ef48230649077f2|Merge "add basic scenarios options"|Thu, 3 Sep 2015 15:19:49 +0000|Thu, 3 Sep 2015 15:19:49 +0000
+cbcdf57dcfae57c188ff89a64406592886c2ae42|Merge "Make sure neutron network is created before Tempest_neutron_net_id_setter"|Thu, 3 Sep 2015 15:11:21 +0000|Thu, 3 Sep 2015 15:11:21 +0000
+01e1fd495597d00c45214998bfda3b8c528ad8b4|add basic scenarios options|Fri, 28 Aug 2015 16:55:12 -0400|Mon, 31 Aug 2015 20:59:08 +0000
+ce8936d8a644fec3886bc5d42e81e70c0034af9e|Make sure neutron network is created before Tempest_neutron_net_id_setter|Fri, 28 Aug 2015 13:41:55 -0400|Mon, 31 Aug 2015 16:58:37 -0400
+44dc6707130842a94fc2629d4f5a92e14af25587|Bad configuration for glance/neutron setters.|Thu, 16 Apr 2015 19:01:29 -0400|Thu, 27 Aug 2015 12:27:18 -0400
+2f25cb84e5a35f3b04bf686ad2f13ee8be296459|allow to optionally git clone tempest|Tue, 25 Aug 2015 15:07:52 -0400|Tue, 25 Aug 2015 15:34:53 -0400
+b8ed4ead2ffcdb2d84ff173ecd3be716a250c23c|glance_id_setter: execute after creating Glance image|Mon, 24 Aug 2015 17:22:41 -0400|Tue, 25 Aug 2015 14:15:27 -0400
+54c013e6720fb90d1e157434c69522a169f4e249|Merge "Reflect provider change in puppet-openstacklib"|Fri, 21 Aug 2015 21:22:53 +0000|Fri, 21 Aug 2015 21:22:53 +0000
+6c1d7f5620709cda02b35cb64648045131009950|Reflect provider change in puppet-openstacklib|Thu, 6 Aug 2015 13:06:34 +0200|Wed, 19 Aug 2015 11:42:06 +0200
+5125ce37f43602a5b84fa5d14ff65a301939033a|Initial msync run for all Puppet OpenStack modules|Tue, 4 Aug 2015 12:11:04 -0700|Tue, 18 Aug 2015 17:44:31 +0200
+0e9c5dbf51c0de0514ecef90f065b5c52fb3cfd7|do not create tempest.conf from .sample file|Sun, 9 Aug 2015 00:08:13 -0400|Tue, 18 Aug 2015 10:13:07 -0400
+7507b4bca65d2cd51e3f6bdc3074ff9b477076a3|Merge "Add config parameters to run Keystone v3 tests"|Mon, 27 Jul 2015 21:21:09 +0000|Mon, 27 Jul 2015 21:21:09 +0000
+3c939852efae33ab5570813b93f162d4a5c89db2|Merge "Add tempest::config class"|Tue, 21 Jul 2015 17:35:08 +0000|Tue, 21 Jul 2015 17:35:08 +0000
+c46af79ab7781605a26f9b52d37577dfa1b57050|Add tempest::config class|Mon, 20 Jul 2015 10:17:47 +0200|Mon, 20 Jul 2015 10:56:40 +0200
+5d69c28185935889481534b29225347433a671ab|Add config parameters to run Keystone v3 tests|Fri, 10 Jul 2015 15:25:01 -0400|Sat, 11 Jul 2015 10:45:46 -0400
+0f94d24f2223f3d2f45b93893aa27cdc5faee7ec|Prepare 6.0.0 release|Thu, 9 Jul 2015 10:14:37 -0400|Thu, 9 Jul 2015 11:29:10 -0400
+ab9601ff339f6acb40901291133c03cf1b45d5ee|Fix git clone for locally running tests|Wed, 8 Jul 2015 11:40:45 -0700|Wed, 8 Jul 2015 11:56:54 -0700
+261b5fcd4d981c8b2d57f2e37cea11928784e586|Merge "Use module install script for acceptance tests"|Wed, 8 Jul 2015 15:34:12 +0000|Wed, 8 Jul 2015 15:34:12 +0000
+007dbc6c9feea5a0564a9e8f2a44f1d36e996304|Merge "Use beaker-puppet_install_helper to install puppet"|Wed, 8 Jul 2015 15:34:06 +0000|Wed, 8 Jul 2015 15:34:06 +0000
+76e9b27a6b54a4c581540b52e8f193d87dacc9a1|Merge "Correct `puppet module list` check in beaker"|Wed, 8 Jul 2015 15:33:58 +0000|Wed, 8 Jul 2015 15:33:58 +0000
+7d8c474bde90ac3a06b78fe3c470982bc190aebe|Use module install script for acceptance tests|Tue, 7 Jul 2015 14:17:35 -0700|Tue, 7 Jul 2015 14:17:35 -0700
+e214876af6034df687023781f9f0206a70734103|Use beaker-puppet_install_helper to install puppet|Tue, 7 Jul 2015 14:17:15 -0700|Tue, 7 Jul 2015 14:17:15 -0700
+5cc421cf38f46014849367dbc5d11c4ef55f7bde|Correct `puppet module list` check in beaker|Tue, 7 Jul 2015 14:16:00 -0700|Tue, 7 Jul 2015 14:16:00 -0700
+e36e54005982e1ce6b948dbc46a9e587fea0621a|Implement more Tempest options|Sun, 5 Jul 2015 16:09:37 -0400|Tue, 7 Jul 2015 13:15:08 +0000
+ee558f07c6d7a91c313d36c927cdd764bf633f87|Split release notes into a CHANGELOG.md file|Fri, 26 Jun 2015 18:14:52 -0700|Fri, 26 Jun 2015 18:14:52 -0700
+413b73521fba384d874841f7b5135b92f765d17f|Release 5.1.0 - Juno|Wed, 17 Jun 2015 11:26:05 -0700|Wed, 17 Jun 2015 11:26:05 -0700
+21ccff381996a39cec387d6020aeb015c6e3e244|Update .gitreview file for project rename|Fri, 12 Jun 2015 22:41:20 +0000|Fri, 12 Jun 2015 23:12:30 +0000
+0546f050947314fa057b2d44a972cad9612a92eb|Unpin beaker-rspec|Mon, 8 Jun 2015 13:48:12 -0700|Mon, 8 Jun 2015 13:48:29 -0700
+d46a0c403ee9adcdc2a694c609d9bb6fe3b5a05f|Bring Redhat support to acceptance tests|Tue, 19 May 2015 15:12:38 +0200|Tue, 19 May 2015 15:14:52 +0200
+b3d764809c1e20e4f20022c518b662ebe7d6b663|Beaker tests|Wed, 29 Apr 2015 14:42:32 -0400|Thu, 30 Apr 2015 13:17:08 -0400
+62c8e5632f9ab6f59436d170393b05fa12aea2bc|Bump rspec-puppet to 2.1.0|Wed, 22 Apr 2015 23:57:36 -0400|Wed, 22 Apr 2015 23:57:36 -0400
+7048e67794617ac5ebf7cdd5baadd0d240386695|Merge "Synchronize LICENSE file with OpenStack projects"|Mon, 20 Apr 2015 14:29:19 +0000|Mon, 20 Apr 2015 14:29:19 +0000
+7e072e854544a2bfff3b58014d4e50565aa6a243|Synchronize LICENSE file with OpenStack projects|Tue, 14 Apr 2015 17:14:35 -0400|Mon, 20 Apr 2015 09:30:39 -0400
+301f58f60317a816572596fce1f0093ad4f8e8e0|Add rspec coverage output|Sun, 5 Apr 2015 12:38:53 +0200|Tue, 7 Apr 2015 10:18:48 +0200
+098c4b855e5a6da843bae057d56afd89b171894f|spec: updates for rspec-puppet 2.x and rspec 3.x|Thu, 19 Mar 2015 20:12:28 +0100|Tue, 31 Mar 2015 16:06:31 +0200
+f7ba060eea15d90009a238703ccb97c5183b8fb1|Add Puppet 4.x lint checks|Thu, 19 Mar 2015 20:09:22 +0100|Thu, 19 Mar 2015 20:09:22 +0100
+127ce4d5dfbee8f38a6d8c0fc46232d08fd66dcc|Fix metadata.json lint issues|Thu, 19 Mar 2015 20:03:55 +0100|Thu, 19 Mar 2015 20:05:16 +0100
+48a850e38f7937e19b687f7a18c6b7d388ea1069|spec: pin rspec-puppet to 1.0.1|Tue, 3 Feb 2015 15:32:20 +0100|Tue, 3 Feb 2015 15:32:20 +0100
+7350af50f6569afcff33972d7807cc6d91d8c5a9|Merge "Allow to not manage Tempest code in Puppet"|Wed, 17 Dec 2014 16:34:48 +0000|Wed, 17 Dec 2014 16:34:48 +0000
+05fc037265964e16429639e26601d8fd6d28ec4c|Allow to not manage Tempest code in Puppet|Wed, 3 Dec 2014 14:54:05 -0500|Mon, 15 Dec 2014 15:28:06 -0500
+beb7add18570713e71e8186403bda44f200d7bcb|Allow to activate Ceilometer tests|Mon, 8 Dec 2014 20:25:53 -0500|Mon, 8 Dec 2014 20:25:53 -0500
+12cd4dcd68eb0a09a4d061325e708bc53bcf280f|Release 5.0.0 - Juno|Sat, 22 Nov 2014 17:38:20 -0800|Sun, 23 Nov 2014 19:43:35 -0800
+ce2337a0d2df4f07be3db7df4c4aafcc574fa703|Switch to metadata.json for Puppet forge releases|Sat, 27 Sep 2014 11:42:52 +0200|Wed, 22 Oct 2014 15:51:51 +0200
+b293e997f405fbc55161300d03b685554adf80c3|Update vcsrepo max dependency to 2.x|Mon, 20 Oct 2014 17:41:39 +0200|Mon, 20 Oct 2014 17:47:27 +0200
+7a3369949fc8af41e190dd8115391354a7575ecb|Update stdlib dependency to 4.x|Mon, 22 Sep 2014 15:34:19 -0700|Mon, 22 Sep 2014 15:45:59 -0700
+59fa10e72bc36858a5f8832e614b817248664ffd|Hide secrets from puppet logs|Sat, 12 Jul 2014 02:29:28 +0200|Tue, 22 Jul 2014 13:12:53 +0000
+d4aa6c7487c7c0d86e62efbfe7bf52f2b890cfbe|Make Modulefile summary and description consistent|Wed, 2 Jul 2014 13:58:03 -0400|Thu, 3 Jul 2014 17:08:06 -0400
+84e9b49984df99e0b722ba3aa89d4e04b4344db8|Normalize Gemfile & pin tests to rspec < 2.99|Fri, 20 Jun 2014 07:58:39 -0400|Fri, 20 Jun 2014 09:16:35 -0400
+792be887b61ad9c38706e968a21752cfb05c2381|removing the orphaned os_concat function|Fri, 30 May 2014 07:39:28 +0200|Fri, 30 May 2014 07:41:23 +0200
+09d09a203f742675834b00f2f4fd39a2361f8156|Tempest does not requires DB devel libs|Sun, 18 May 2014 07:47:29 +0200|Fri, 30 May 2014 07:38:05 +0200
+75324729abdc86de0e744c825242a1d9b74f2a47|Vendor concat function to support stdlib 3.2|Thu, 1 May 2014 14:59:39 -0700|Fri, 2 May 2014 14:26:45 -0700
+5ef9dc94b4a395b6f60997aeed55f210acb25223|Fix tempest_*_id_setter to query the RAL and cache|Thu, 10 Apr 2014 16:06:09 -0700|Thu, 10 Apr 2014 17:37:40 -0700
+0bdf6b88e157d86012f75059bd1f6fabf8a36a73|Allow configuring compute tenant isolation|Mon, 7 Apr 2014 13:50:58 -0700|Mon, 7 Apr 2014 13:51:52 -0700
+735278d40804bfcf71481df54c1d3bac04b0a7a4|Allow passing image_ref, image_ref_alt, and network_gateway_id|Fri, 28 Mar 2014 16:20:07 -0700|Thu, 3 Apr 2014 12:10:56 -0700
+49d4ff3c560d6d273e37cd49e35ec02114b1a67e|Merge "Adding puppet-rspec tests"|Wed, 2 Apr 2014 10:01:21 +0000|Wed, 2 Apr 2014 10:01:21 +0000
+62598ca7ee8a223ee9e68b10f43b0095503276b4|System need libffi-dev|Tue, 1 Apr 2014 12:28:11 -0700|Tue, 1 Apr 2014 12:29:48 -0700
+fc79e2fb091eefddca57986d0510a59a911ff316|Allow configuring cli/cli_dir|Fri, 28 Mar 2014 16:50:38 -0700|Fri, 28 Mar 2014 16:50:38 -0700
+d7df6faa16befc69983ed94fc42a8c28c6091c6b|Adding puppet-rspec tests|Tue, 25 Mar 2014 16:44:31 +0100|Wed, 26 Mar 2014 12:44:02 +0100
+3b9066c54c14b59daca624fdb89f22a62fd1d8e8|System need libffi-dev|Fri, 28 Feb 2014 16:21:23 +0100|Fri, 28 Feb 2014 16:23:19 +0100
+9984f002eff47c425a48026f82d96d913d325027|Add gitignore file|Mon, 23 Dec 2013 19:15:09 +0100|Mon, 23 Dec 2013 19:15:37 +0100
+44e258746cb0cf9a53f37122d510474aed39201e|Merge "Added missing packages for Debian like OS's"|Thu, 31 Oct 2013 08:01:27 +0000|Thu, 31 Oct 2013 08:01:27 +0000
+c98a11e42749bb4f991c971f9d514899338db07a|Merge "Fix pip install of tox on debian like OS's"|Thu, 31 Oct 2013 08:00:53 +0000|Thu, 31 Oct 2013 08:00:53 +0000
+c1c792997922b443e8c34066bdc946abdcf6618c|Added missing packages for Debian like OS's|Mon, 28 Oct 2013 16:52:16 +1100|Mon, 28 Oct 2013 17:10:31 +1100
+62660db75fbcbf5249ab3b631845fd80f344a997|Added configuration option for admin role|Mon, 28 Oct 2013 17:02:18 +1100|Mon, 28 Oct 2013 17:02:18 +1100
+703ebdaa6b0838c0e5dc9aa9fbc60aee6f43d86b|Fix pip install of tox on debian like OS's|Mon, 28 Oct 2013 16:19:06 +1100|Mon, 28 Oct 2013 16:20:40 +1100
+4e1abd368618b7a4cf9296255ac6fc433a5ad1a6|Adds support for mariadb in f19|Fri, 11 Oct 2013 16:12:27 -0400|Sun, 13 Oct 2013 16:54:00 -0400
+d28683f294252c043a43dcaa6b8c4851693598bc|Fail puppet-lint on warnings|Wed, 28 Aug 2013 20:12:03 -0400|Wed, 28 Aug 2013 20:12:03 -0400
+6705a43dbbc7a57d28b9a13e649db3f60c5d83f1|Disable 80chars/class_parameter_defaults checks|Mon, 12 Aug 2013 16:46:36 -0400|Mon, 12 Aug 2013 17:50:40 -0400
+1cedeb3b1c0788c7f7eb3e187a2373121bab9c5f|Merge "Add Modulefile"|Mon, 12 Aug 2013 17:37:54 +0000|Mon, 12 Aug 2013 17:37:54 +0000
+f220b78cf95679f7e336bbc01cb15cd2c9f9c454|Add Modulefile|Fri, 9 Aug 2013 13:05:52 -0400|Fri, 9 Aug 2013 13:05:52 -0400
+93b691f7cbfa67599ee199bd79baf82243c17568|Add provision config for 'service_available'.|Thu, 8 Aug 2013 19:05:55 -0700|Thu, 8 Aug 2013 19:07:41 -0700
+666017e42edaf71b218437512f591130739935c7|Rename quantum to neutron.|Wed, 7 Aug 2013 11:42:19 -0700|Wed, 7 Aug 2013 11:42:33 -0700
+f8e7c28decaf53d71cb5413ac329397fa56eeee7|Cleanup repo revision handling.|Wed, 31 Jul 2013 03:29:44 +0000|Wed, 31 Jul 2013 03:29:44 +0000
+fbe43e5d6a3227897115a73d06d3daf28fffe59f|Remove trailing comma for Puppet 2.6 compat|Mon, 15 Jul 2013 16:08:27 -0500|Mon, 15 Jul 2013 16:08:27 -0500
+ca445ecb609d75d5f3f2a2904639667aa3ad9bf8|Various Puppet lint fixes|Wed, 3 Jul 2013 19:59:33 -0400|Fri, 5 Jul 2013 15:42:10 -0400
+d3a486dd9d19aa78763a850c20bff090dc49fb5b|Merge "Fail if osfamily is not supported"|Fri, 5 Jul 2013 17:00:11 +0000|Fri, 5 Jul 2013 17:00:11 +0000
+e6c28fdcf7ab1019b77530af91afda736082f8d9|Replace run_tests.sh helper script with tox.|Tue, 2 Jul 2013 18:17:43 +0000|Tue, 2 Jul 2013 21:59:08 +0000
+beda52dcf9fca0facea2d0e67a65d0ced6f09b0d|Add support for configuring quantum.|Sun, 30 Jun 2013 14:56:22 +0000|Tue, 2 Jul 2013 21:13:57 +0000
+4c537108cd6c9e2c5542e1c896e5dc48fbea0dec|Fix configuration of glance images.|Sun, 30 Jun 2013 16:06:45 +0000|Tue, 2 Jul 2013 18:53:50 +0000
+bd3d8f45b3929ed16219c2d5ab75892df50d2076|Remove provisioning from the default manifest.|Sat, 29 Jun 2013 03:05:19 +0000|Tue, 2 Jul 2013 14:51:53 +0000
+a60f362515eccd508155ead681c009ebfc16bb3c|Switch to ini_setting for managing tempest.conf.|Fri, 28 Jun 2013 17:22:47 +0000|Mon, 1 Jul 2013 13:07:47 +0000
+be999e2f1147e6c8063cdbfa7a031cf92112e226|Fail if osfamily is not supported|Sun, 30 Jun 2013 17:03:09 -0400|Sun, 30 Jun 2013 17:04:36 -0400
+017c7578d7b37519be68e95e530bdb8c6ddebb31|Fix package dependency installation.|Sun, 30 Jun 2013 15:17:06 +0000|Sun, 30 Jun 2013 15:17:06 +0000
+0276063bad61ae7b7672822b4944630a49bdda3f|Check definition of package resources|Thu, 27 Jun 2013 16:52:59 +1000|Thu, 27 Jun 2013 17:23:36 +1000
+e015612f0576677b749b3a1a0be972b069f80b78|Add .gitreview|Tue, 28 May 2013 21:15:29 -0400|Wed, 29 May 2013 11:52:19 -0400
+124a5efe454b7921d81de9e7c51e57716e5fd71a|Merge pull request #20 from bodepd/add_missing_eq|Tue, 2 Apr 2013 10:54:04 -0700|Tue, 2 Apr 2013 10:54:04 -0700
+b5543126d38a9c8dbde00c2369fe7a35d561afac|fix typo|Tue, 2 Apr 2013 10:52:04 -0700|Tue, 2 Apr 2013 10:52:04 -0700
+347e79dcb5f73b177a988685a90c46b679f2bdca|Merge pull request #19 from bodepd/master_conf_file|Mon, 1 Apr 2013 14:23:20 -0700|Mon, 1 Apr 2013 14:23:20 -0700
+2a6692cc91dcf598068d78a952d02f127e8aef5c|copy grizzly config file to master|Mon, 1 Apr 2013 14:16:48 -0700|Mon, 1 Apr 2013 14:16:48 -0700
+faec97198ca3093a98c78b0110d8d85f0f4e6a74|Merge pull request #18 from bodepd/grizzly|Mon, 1 Apr 2013 12:34:30 -0700|Mon, 1 Apr 2013 12:34:30 -0700
+c1724093fe28ff12a411026f4a08dbed6c2e4a7c|update tempest tests for grizzly|Wed, 27 Mar 2013 16:17:20 -0700|Wed, 27 Mar 2013 16:17:20 -0700
+28ecc084a46396892e67248793618deea121ff4c|Merge pull request #17 from bodepd/fix_bugs|Sun, 3 Mar 2013 15:37:42 -0800|Sun, 3 Mar 2013 15:37:42 -0800
+0e1efab134414cc0b1b8c7e47fe526a96df5c535|actually pass arguments to run_tests script|Sun, 3 Mar 2013 15:34:57 -0800|Sun, 3 Mar 2013 15:34:57 -0800
+1c00af594205908a387f25b427c0f5915d8dc795|switch alternate flavor to be tiny|Sun, 3 Mar 2013 15:28:40 -0800|Sun, 3 Mar 2013 15:28:40 -0800
+32f8a5f9ec7a97c94580b3ba7807a2be40921d1c|Merge pull request #16 from bodepd/redhat|Thu, 28 Feb 2013 21:34:04 -0800|Thu, 28 Feb 2013 21:34:04 -0800
+7d383443c058d9034962d25242713b2f8af112a9|make dev package work on redhat|Thu, 28 Feb 2013 21:31:40 -0800|Thu, 28 Feb 2013 21:31:40 -0800
+dbffcf31cea473f641140e67855855ad355330c2|Merge pull request #15 from bodepd/fix_order_issue|Thu, 28 Feb 2013 00:21:45 -0800|Thu, 28 Feb 2013 00:21:45 -0800
+6124319a49708555d26aaa658195af5a24533a83|fix order issue with script creation|Thu, 28 Feb 2013 00:19:56 -0800|Thu, 28 Feb 2013 00:19:56 -0800
+e595d0bcee88131b865e55e80f9ad28ad8fc1157|Merge pull request #14 from bodepd/fix_package_lookups_in_script|Wed, 27 Feb 2013 16:18:23 -0800|Wed, 27 Feb 2013 16:18:23 -0800
+3295642a1f00bcac2287f67a8aaeacd038f76445|modify the jenkins test script to deploy|Wed, 27 Feb 2013 16:15:52 -0800|Wed, 27 Feb 2013 16:15:52 -0800
+1110747d89859432c2f98af6d40b4865a0a57666|install dev packages|Wed, 27 Feb 2013 13:37:38 -0800|Wed, 27 Feb 2013 13:37:38 -0800
+d1d09e212abf8d8664e8660f1ae15b9366bbb99c|Merge pull request #13 from bodepd/fix_typo|Wed, 27 Feb 2013 13:26:46 -0800|Wed, 27 Feb 2013 13:26:46 -0800
+0a57b3fdd20e8d431a33692d9eb1efbf5cda9a0b|fix test file runner syntax|Wed, 27 Feb 2013 13:25:54 -0800|Wed, 27 Feb 2013 13:25:54 -0800
+d2f7c9657791eaa6599f9961dbc34acc42f6d3c0|Merge pull request #12 from bodepd/use_virtual_env_for_testing|Wed, 27 Feb 2013 13:01:53 -0800|Wed, 27 Feb 2013 13:01:53 -0800
+20d13cee73ddf4e001428f1e03242bf68c8f4c58|refactor tempest to be deployed to use virtualenv|Wed, 27 Feb 2013 12:24:52 -0800|Wed, 27 Feb 2013 12:24:52 -0800
+8e80235bf59093b4bb40570f1dbea19929b24a0f|Merge pull request #11 from bodepd/use_pip_more|Tue, 26 Feb 2013 11:02:26 -0800|Tue, 26 Feb 2013 11:02:26 -0800
+26b8b0ab7877ca67021510ad70407dac73d5cc7a|install all required packages for testing w/ pip|Tue, 26 Feb 2013 10:59:58 -0800|Tue, 26 Feb 2013 10:59:58 -0800
+d78b71c3abe23c21b2f0b000cee96ab19aa34bd3|Merge pull request #10 from bodepd/additional_folsom_config|Mon, 25 Feb 2013 14:10:08 -0800|Mon, 25 Feb 2013 14:10:08 -0800
+9342a52eea26cf76f05ee43e7d979874a393c19d|a few minor fixes to improve tempest configs|Mon, 25 Feb 2013 14:07:44 -0800|Mon, 25 Feb 2013 14:07:44 -0800
+890d01811cbfe5bc555dce3f25142bf71244f05c|Merge pull request #9 from bodepd/update_compute_admin|Fri, 22 Feb 2013 10:40:09 -0800|Fri, 22 Feb 2013 10:40:09 -0800
+00dbe9ff0f429b34ea8342d235f999e2817ad26c|update folsom conf template|Fri, 22 Feb 2013 10:35:23 -0800|Fri, 22 Feb 2013 10:35:23 -0800
+77f6ed8443f6dcc332edb2f76192567bd57b2c9a|Merge pull request #8 from bodepd/remove_class|Thu, 21 Feb 2013 22:24:12 -0800|Thu, 21 Feb 2013 22:24:12 -0800
+f3911a693971a709d93800f4a4f184ea86fb82f7|remove reference to git class|Thu, 21 Feb 2013 22:22:43 -0800|Thu, 21 Feb 2013 22:22:43 -0800
+f2e8ee9df8de4317bffc81d45906596a944b0bcb|Merge pull request #7 from bodepd/rhel_fixes|Thu, 21 Feb 2013 22:03:49 -0800|Thu, 21 Feb 2013 22:03:49 -0800
+b1180b651527abba552e03e7f1f51bd68e9743d4|install git package.|Thu, 21 Feb 2013 22:02:49 -0800|Thu, 21 Feb 2013 22:02:49 -0800
+98d305d07fde20d6b275b72f57af0824f83b56c3|fix pip installation on redhat|Thu, 21 Feb 2013 21:55:33 -0800|Thu, 21 Feb 2013 21:59:58 -0800
+82bc2b493eed67fb1ae35e5811ce9599c8567533|Merge pull request #6 from bodepd/feature_flags|Tue, 19 Feb 2013 20:31:23 -0800|Tue, 19 Feb 2013 20:31:23 -0800
+2eaff6d2c35b033fdbe85e53c50d414d75890043|add feature flags|Tue, 19 Feb 2013 20:28:26 -0800|Tue, 19 Feb 2013 20:28:26 -0800
+a695a5f490ebf2ba6c6dd45a7737398cfe83f035|Merge pull request #5 from bodepd/folsom_support|Tue, 19 Feb 2013 20:16:26 -0800|Tue, 19 Feb 2013 20:16:26 -0800
+478001b80681a4e22b9c5ddbbb59e154da7a236a|Add support for testing folsom|Tue, 19 Feb 2013 20:13:35 -0800|Tue, 19 Feb 2013 20:15:36 -0800
+bab0ccf127cc9426ba3068fcaca480e98fee5c48|Merge pull request #4 from bodepd/master|Fri, 15 Feb 2013 15:50:37 -0800|Fri, 15 Feb 2013 15:50:37 -0800
+10353eafb54a9c8187cc462cdedcc2ce08ba6197|updated python pip package names|Fri, 15 Feb 2013 15:49:55 -0800|Fri, 15 Feb 2013 15:49:55 -0800
+8a3eea272b39b4d139f2d1dc5d2b394a27f4d73b|Merge pull request #3 from bodepd/master|Fri, 15 Feb 2013 15:42:02 -0800|Fri, 15 Feb 2013 15:42:02 -0800
+f4c4fc2ddeb8df976b0e9270008c0363c74bb629|install glance test images as part of test|Fri, 15 Feb 2013 15:40:11 -0800|Fri, 15 Feb 2013 15:40:11 -0800
+bed1e14939f436148f468797cb519a7a12f93313|install python required packages|Fri, 15 Feb 2013 15:39:37 -0800|Fri, 15 Feb 2013 15:39:37 -0800
+593da471ad37f43124aeb34d1de48dde515bdbce|update template file|Fri, 15 Feb 2013 15:34:59 -0800|Fri, 15 Feb 2013 15:34:59 -0800
+647452f25655f56948920bf4168450e94c9f19bb|add native type tempest_glance_id_setter|Fri, 15 Feb 2013 15:34:35 -0800|Fri, 15 Feb 2013 15:34:35 -0800
+dbbaca800e03ee5ee70e902ea2596c2134c91faf|Merge pull request #2 from bodepd/revision|Wed, 13 Feb 2013 23:10:10 -0800|Wed, 13 Feb 2013 23:10:10 -0800
+a44fb20d312c0f892b5d73e3bc1e306601aeae8b|add revision parameter|Wed, 13 Feb 2013 23:07:47 -0800|Wed, 13 Feb 2013 23:07:47 -0800
+93cba163aec8e95d98545a301382fab18596c1fa|Merge pull request #1 from puppetlabs/fix_image_version|Fri, 25 May 2012 18:20:44 -0700|Fri, 25 May 2012 18:20:44 -0700
+ea8d4a2889f3aa7cae6f7e1f1b1f326b158f8985|Fix tempest bug|Fri, 25 May 2012 18:19:10 -0700|Fri, 25 May 2012 18:19:10 -0700
+7091ea145944d2bb7b29c8e95df40dc2f4cfcb0b|Add a basic README|Tue, 8 May 2012 00:39:06 -0700|Tue, 8 May 2012 00:40:56 -0700
+4a1fb8062aaea8657389dd6dcea9c8d908caf7e7|initial commit for tempest module|Tue, 8 May 2012 00:33:32 -0700|Tue, 8 May 2012 00:33:32 -0700

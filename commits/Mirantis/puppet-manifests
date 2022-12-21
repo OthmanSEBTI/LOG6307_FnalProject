@@ -1,0 +1,1054 @@
+879fb442aca9009ece8cf270d5c0341aa6039d81|Use hiera lookup to get path to zuul layout|Thu, 25 Feb 2016 19:21:28 +0300|Thu, 25 Feb 2016 19:21:28 +0300
+2ad463e19e004f3b2daefbc497bfcce709ee8c49|Fix zuul configuration update script|Thu, 25 Feb 2016 18:22:08 +0300|Thu, 25 Feb 2016 18:22:08 +0300
+d41e330e1dc19f6a4f782ad7730a4cfd28020b71|Merge "Fixes for script used for zuul config update"|Thu, 25 Feb 2016 12:45:57 +0000|Thu, 25 Feb 2016 12:45:57 +0000
+f471140ddcb75c38b890c9a80d13e69847bd1d61|Fixes for script used for zuul config update|Wed, 24 Feb 2016 19:34:51 +0100|Thu, 25 Feb 2016 12:07:59 +0000
+7a78f1e5c7e1bd25f05d424fa639d952270b67c5|Enabling non-conditional migration and syncdb for racks.|Wed, 24 Feb 2016 19:35:59 +0300|Thu, 25 Feb 2016 13:35:29 +0300
+7c21a7f2abd8f5e499d6fdb34ff2c298b2b3588e|Use libvirt 1.2.12 on RHEL bases distros|Tue, 23 Feb 2016 18:50:44 +0100|Thu, 25 Feb 2016 10:27:44 +0000
+42f199d8dfa57fd54d71593184340d1953d55a07|Set Gerrit trigger configuration via jenkins_cli.|Mon, 18 Jan 2016 15:16:42 +0300|Thu, 25 Feb 2016 09:56:29 +0000
+bdd08613b2e525e70d847eff006560eceecf65bf|Add missed centos7 image required by install tests|Mon, 22 Feb 2016 13:59:49 +0100|Wed, 24 Feb 2016 16:32:22 +0000
+4765065611b75df078f1a614abde09d7b3e7a2aa|Fix zuul templates|Tue, 23 Feb 2016 09:57:25 +0100|Wed, 24 Feb 2016 17:27:36 +0100
+57bf32b93dbff292a109bf4b3097a713acd8ba31|Fix known_host creating for Zuul|Wed, 17 Feb 2016 14:25:35 +0300|Wed, 24 Feb 2016 16:18:42 +0000
+e9d2eb18cd8cb61f054ec87de9834dd49b49b904|Serve Zuul Merger's Git repositories by Nginx|Fri, 19 Feb 2016 16:02:00 +0300|Wed, 24 Feb 2016 14:02:28 +0000
+3030df260331361a4228af1e59c14ca499d56853|Set global jenkins configuration via jenkins_cli.|Thu, 14 Jan 2016 19:58:33 +0300|Wed, 24 Feb 2016 12:11:09 +0000
+168f1fa2f4a36738628b2320a220f5d3cd3c10fa|Fix bug in apps:mirror|Sun, 21 Feb 2016 17:19:06 +0100|Wed, 24 Feb 2016 10:18:49 +0000
+2d3bc618d0def1f2665cf3868964e10879d58285|Fix problem with hiera keys for gerrit ssh server|Sun, 21 Feb 2016 23:20:39 +0100|Wed, 24 Feb 2016 09:00:06 +0000
+484e2ec6d6692ed67acc53f99999b3e0c60df81b|Fix problem with zuul config reload|Tue, 23 Feb 2016 15:28:45 +0100|Tue, 23 Feb 2016 15:28:45 +0100
+fb04cfdc4f39188f8b997d6c4c60b213e152c84e|Added kolla_build_tests parameter/block|Mon, 22 Feb 2016 12:10:01 +0100|Mon, 22 Feb 2016 11:18:28 +0000
+0583934acd0f4f48f2c82324dfb75a09eead8818|Fix for uwsgi::application installation|Sat, 20 Feb 2016 17:08:04 +0300|Sat, 20 Feb 2016 17:08:04 +0300
+9996a285e8139c69f7cf85b380b9a6add793aa54|Fix for proper file declaration|Fri, 19 Feb 2016 18:36:58 +0300|Fri, 19 Feb 2016 18:37:32 +0300
+11305ef4af9b77a8a78daa4605b4fb6798d377ac|Missed uwsgi declaration fix|Fri, 19 Feb 2016 16:55:35 +0300|Fri, 19 Feb 2016 16:59:33 +0300
+06037b2ea4f2c24b0d84cc66f7247aecd06a259e|Fix for missed directory /etc/racks/importers|Fri, 19 Feb 2016 16:45:07 +0300|Fri, 19 Feb 2016 16:45:07 +0300
+5feb88e1c5fa35c47c9fefb5084795f30afb3290|Ability to enable/disable package installation added|Wed, 17 Feb 2016 19:07:26 +0300|Fri, 19 Feb 2016 14:38:22 +0300
+5cae08e6fb9bd500b39dcd904e06d76dc5bee027|Merge "Revert "remove python-pbr module from manifests""|Fri, 19 Feb 2016 10:19:59 +0000|Fri, 19 Feb 2016 10:19:59 +0000
+950e0736b8dd3917b3ccd12317db67e36bf14bc5|Added openvpn module and gw_openvpn role|Wed, 17 Feb 2016 17:16:17 +0100|Fri, 19 Feb 2016 00:44:29 +0100
+1ce95e50c0749c8335e1d4ba7865c96f948ff924|Revert "remove python-pbr module from manifests"|Thu, 18 Feb 2016 16:18:49 +0000|Thu, 18 Feb 2016 16:18:49 +0000
+1a297cec01f33ea53813d8620648857739072188|remove python-pbr module from manifests|Thu, 18 Feb 2016 16:18:14 +0100|Thu, 18 Feb 2016 16:21:08 +0100
+1de84aed53bda6e48e60a4e2f82234b7e71e7c8e|Fix for new static path|Wed, 17 Feb 2016 18:57:07 +0300|Wed, 17 Feb 2016 18:57:07 +0300
+deab9be9ad0c2ead9501c2825d9ec902ff0ce561|Aplhabetical sort for modules in list|Wed, 17 Feb 2016 12:50:40 +0300|Wed, 17 Feb 2016 12:50:40 +0300
+98664cd821063caac19d27e1aa400336f0ba6fe0|Puppet module update according to new changes in racks|Mon, 15 Feb 2016 21:23:50 +0300|Tue, 16 Feb 2016 18:45:08 +0300
+6cc693085350bca7c6b203054c05ef4c353a8788|Ensure to notify polkit on adding new rule file|Tue, 16 Feb 2016 11:19:56 +0100|Tue, 16 Feb 2016 11:19:56 +0100
+42c5df14f3a0125a30fb853ddf441ef22e28f4cf|Added polkit rule for libvirt/jenkins on RHEL|Mon, 15 Feb 2016 17:56:28 +0100|Mon, 15 Feb 2016 19:12:43 +0100
+7a148997934667a70afe6e3ea44441412ba4ca66|Set Markup Formatter via jenkins_cli.|Thu, 14 Jan 2016 16:50:20 +0300|Fri, 12 Feb 2016 16:55:03 +0000
+7ae11fad41b02907dfbd480c21a9f0820e39ad2d|Merge "Cleanup for unused tests dir, ASCII requirement added"|Fri, 12 Feb 2016 16:36:26 +0000|Fri, 12 Feb 2016 16:36:26 +0000
+1f7c31e09d77493bb7323fb19b298c9df0da7492|Merge "Moving lab-cz declaration to hiera + LDAP configuration fix"|Fri, 12 Feb 2016 16:36:20 +0000|Fri, 12 Feb 2016 16:36:20 +0000
+9dfedf98b69997f1cd59e65b0895684106410249|Cleanup for unused tests dir, ASCII requirement added|Fri, 5 Feb 2016 17:17:25 +0300|Fri, 12 Feb 2016 15:52:37 +0000
+ac6da086b170bbd468e19fd528a647758e742308|Fix for more secure permissions on config files|Thu, 11 Feb 2016 17:21:26 +0300|Fri, 12 Feb 2016 15:48:39 +0000
+daf0da1b5c12f9bd786b7a83d184c37b35dbb26a|Moving lab-cz declaration to hiera + LDAP configuration fix|Mon, 8 Feb 2016 17:25:28 +0300|Fri, 12 Feb 2016 15:48:32 +0000
+9989e826e8397e4f29f5e2d523e60b9184667ad9|Ensure to enable transmission daemon on RHEL|Fri, 12 Feb 2016 11:52:42 +0100|Fri, 12 Feb 2016 15:17:37 +0000
+b5adbddd32aa8e738d1afcfff4471bba93452845|Move apt stuff into distros/Debian.yaml|Fri, 12 Feb 2016 13:42:11 +0100|Fri, 12 Feb 2016 15:12:29 +0000
+75690f05e5611a29b99f78371f6f77701ffcdc1a|Small fixes in common class for RHEL,Centos support|Fri, 12 Feb 2016 12:31:46 +0100|Fri, 12 Feb 2016 15:11:35 +0000
+11af5307e950e8ea85da5c4687107c89216cad9b|$hiera_hierarchy update according to osfamily fact use|Fri, 12 Feb 2016 17:23:46 +0300|Fri, 12 Feb 2016 18:07:57 +0300
+f56652c83f2fc89d5885c7e6bf6ad26559ea2ecc|Removing lpreports-related data from manifests|Thu, 11 Feb 2016 20:08:09 +0300|Fri, 12 Feb 2016 11:44:48 +0000
+c3b1ba2c360fc486553d70b835012210e9c89da1|Upgrade for firewall configuration on ns role|Mon, 8 Feb 2016 21:40:26 +0300|Thu, 11 Feb 2016 12:23:48 +0000
+3c631e88a533a9a7aa3f09336e029b052fd1a886|Add support for osfamily within hiera hierarchy.|Thu, 4 Feb 2016 12:04:32 +0100|Thu, 11 Feb 2016 12:04:20 +0000
+b0e5c656c96c6f96b23c6eb29496c35d849fac9c|Added openssl-devel into run_tests for RHEL distros|Thu, 11 Feb 2016 12:57:15 +0100|Thu, 11 Feb 2016 12:57:15 +0100
+46c7a70c6512bf1ae3303197dff75b1ec9992638|Fix syntax error in zuul role|Wed, 10 Feb 2016 17:13:57 +0100|Wed, 10 Feb 2016 17:13:57 +0100
+f4dbe479db2fe095b19cf07c08f23e4ce11481d7|MongoDB module update, removing unneccessary apps-class|Wed, 10 Feb 2016 01:19:57 +0300|Wed, 10 Feb 2016 01:51:52 +0300
+2d87611281666e09be7f8f14b0b37f79cdd31567|Allow local connections as postgres user|Thu, 4 Feb 2016 20:15:37 +0300|Tue, 9 Feb 2016 14:56:36 +0000
+3473fff8f4374dadfe75f628d72d90e3a9596d39|Fix problem with installation order in gerrit|Wed, 20 Jan 2016 00:32:26 +0100|Mon, 8 Feb 2016 16:09:28 +0000
+1c32f4a8d8d4901c6b20c59fec396fd4d15b3cf4|Fix gerrit replication configuration|Fri, 21 Aug 2015 11:08:36 +0300|Mon, 8 Feb 2016 05:51:49 +0000
+319deedda3e0e34444188601c23c12c13688e13d|Cleanup unprintable garbage symbols from zuul module|Fri, 5 Feb 2016 14:44:38 +0300|Fri, 5 Feb 2016 14:44:38 +0300
+9b52fd0a9475d7090282b171c598e8a620534c19|Update zuul manifest|Thu, 28 Jan 2016 16:43:32 +0300|Thu, 4 Feb 2016 09:34:55 +0300
+1373e04e40a85258e06989a686a033a27765975b|Allowing to enable cron puppet job not only for testing|Wed, 3 Feb 2016 17:48:06 +0300|Wed, 3 Feb 2016 14:49:28 +0000
+15e8192505a83ee64e82b3fc3a241f353baed5b8|Nginx settings update to default ones|Tue, 2 Feb 2016 17:26:26 +0300|Tue, 2 Feb 2016 17:26:32 +0300
+d2851fc44da7f8406b3b9a2527d8540ec109d46d|Set number of executors via hiera.|Fri, 22 Jan 2016 22:20:50 +0300|Tue, 2 Feb 2016 10:33:08 +0300
+355f9d4d4d7cee11c73e97a2685d44c9fab729e0|Add server_name example to pxetool_master, comments|Wed, 27 Jan 2016 10:37:09 +0300|Mon, 1 Feb 2016 17:32:17 +0000
+11bc57726d5409b5553ea327b0257bdeb26f7073|docstrings for puppet-manifests - part 12|Fri, 29 Jan 2016 12:33:00 +0100|Mon, 1 Feb 2016 16:41:22 +0100
+238890e1de9084163f1a7249d8cf20142280bfb4|Yet another manifests update for RHEL/Centos support|Mon, 1 Feb 2016 12:07:16 +0100|Mon, 1 Feb 2016 12:14:18 +0100
+fc06a50454d8afbfdda462cab8d6556b52ecde12|Change order for gitweb installation in gerrit|Sun, 31 Jan 2016 23:27:44 +0100|Mon, 1 Feb 2016 07:35:08 +0100
+27b65fa9767ec6e4f373d25779c14e04622a06cb|Use 'pkgconfig' name for RHEL based distron|Fri, 29 Jan 2016 17:42:40 +0100|Fri, 29 Jan 2016 17:42:40 +0100
+52febad55c21e4ee4fc076a40ffab24eb753d94a|docstrings for puppet-manifests - part 11|Wed, 27 Jan 2016 14:52:47 +0100|Fri, 29 Jan 2016 14:26:03 +0000
+9d2d2826ba19f9253b9291db3b9321fe82f0ac44|docstrings for puppet-manifests - part 10|Wed, 27 Jan 2016 12:43:14 +0100|Fri, 29 Jan 2016 14:13:51 +0000
+b839fb8edabc49800a2504394484cb20cd6373c5|docstrings for puppet-manifests - part 9|Mon, 25 Jan 2016 15:36:28 +0100|Fri, 29 Jan 2016 15:00:09 +0100
+e0bc6b44b551645a7aa112c676c22a62b33ee67c|docstrings for puppet-manifests - part 8|Sun, 24 Jan 2016 22:29:16 +0100|Fri, 29 Jan 2016 11:46:16 +0000
+c98032e2764d19b3e5691798187efaf6d03ee9cf|For rhel/centos distros rename pyyaml pkg to PyYAML|Thu, 28 Jan 2016 12:42:45 +0100|Thu, 28 Jan 2016 12:42:45 +0100
+705d0793d2b22d879ec5132c9148685976c68dac|Fix variable name in pxetool master redirect to https|Tue, 26 Jan 2016 23:38:07 +0300|Tue, 26 Jan 2016 23:39:33 +0300
+85aa342e6fe34fb122288a561349f184bfd4589a|Install python-dev on slave with iso build role|Tue, 26 Jan 2016 12:13:14 +0100|Tue, 26 Jan 2016 11:33:55 +0000
+bece8aad8b5a0afb14bf045f34c467c5de7b3c9e|fix wrong characters in puppet::params|Tue, 26 Jan 2016 12:15:04 +0100|Tue, 26 Jan 2016 12:15:04 +0100
+8fc6a9521ff3de862611a7a4efd3c7373bad3199|docstrings for puppet-manifests - part 7|Wed, 20 Jan 2016 12:26:02 +0100|Mon, 25 Jan 2016 16:51:42 +0000
+22a3e4043158583412621f379fb080e13e8e44cf|add proper filter parser for libvirt qemu env logs|Fri, 22 Jan 2016 15:56:54 +0100|Mon, 25 Jan 2016 15:53:45 +0100
+2e16ed4ac97271a1a42c46ad176c33fb7259670c|docstrings for puppet-manifests - part 6|Tue, 19 Jan 2016 12:48:16 +0100|Sun, 24 Jan 2016 17:31:16 +0000
+419e236c5289d2cfd8ecd219275d4a35615f36dd|add proper filter for mysql slow log|Thu, 21 Jan 2016 12:07:05 +0100|Thu, 21 Jan 2016 17:38:35 +0100
+67129e43e6bb4cf32c345ace94c8dece172f0108|LDAP group-related parameters for gerrit config|Wed, 20 Jan 2016 13:16:20 +0000|Thu, 21 Jan 2016 15:06:33 +0000
+4a4991f25d63d31d206b88d6e17bbea056a0bed6|Disable swarm client in example config|Thu, 21 Jan 2016 00:44:26 +0100|Thu, 21 Jan 2016 10:11:03 +0000
+ffa0e18ae3cff9eaac2b8984bc768a7e2dc41204|Removed build1.fuel-infra.org from site.pp|Thu, 21 Jan 2016 11:06:50 +0100|Thu, 21 Jan 2016 11:06:50 +0100
+ebfdb6cb0edb3b509f535bd35aed94c5f99ffabb|Fix problem with displaying jenkins login form|Tue, 19 Jan 2016 20:48:30 +0100|Wed, 20 Jan 2016 15:04:21 +0000
+644f308c6e48b8f9d989075aa99045cb907ca653|Fix utf8 problem with mastered installation with C locale|Tue, 19 Jan 2016 09:36:50 +0000|Tue, 19 Jan 2016 16:52:20 +0000
+838f03c16ba1c5ad9870979a32a86f3e1d84e804|Remove extra yum repos from hiera common example|Tue, 19 Jan 2016 13:04:14 +0100|Tue, 19 Jan 2016 12:11:11 +0000
+cf06cdc6711d453985a82bd675c24093aaf999ae|Fix for libvirt deployment on Ubuntu distro|Mon, 18 Jan 2016 11:59:01 +0100|Mon, 18 Jan 2016 11:15:36 +0000
+b18895ed1fbbec0719f5cc6a3ca2d1080ea0c3d9|docstrings for puppet-manifests - part 5|Fri, 15 Jan 2016 12:48:12 +0100|Mon, 18 Jan 2016 11:05:21 +0000
+f3ff43f55df6d8030d4f88ab0715f80ca586e123|Ability to merge facts with hiera merge|Wed, 23 Dec 2015 20:16:56 +0300|Sun, 17 Jan 2016 11:14:54 +0000
+dcab554096f32b444597499871cdd635740bcb2d|Added two new puppet yum modules|Fri, 8 Jan 2016 17:19:14 +0100|Fri, 15 Jan 2016 17:02:54 +0000
+f439ddeed176195e56b1e091fce482c5ced00be5|Divide package names for Ubuntu and RHEL distro|Mon, 11 Jan 2016 11:31:20 +0100|Fri, 15 Jan 2016 17:43:46 +0100
+909e0645b58d9ba0b842d62ef5939114437fafa1|Add 'python-tox' pkg for every jenkins slave|Wed, 13 Jan 2016 16:25:13 +0300|Wed, 13 Jan 2016 16:29:51 +0300
+2e7ff2a67214a34c55ab01f8a4ef2ee60eebd42c|docstrings for puppet-manifests - part 2|Mon, 14 Dec 2015 12:11:46 +0100|Tue, 12 Jan 2016 15:46:54 +0000
+cb8c6febc9cba548d6591da10226375191b8b01d|docstrings for puppet-manifests - part 3|Tue, 12 Jan 2016 11:35:09 +0100|Tue, 12 Jan 2016 15:44:47 +0000
+083bb24c4ccf05cedc2ab4a45f8fba4b59f61d59|Ensure proper pkgs for RHEL distros in ssh module|Fri, 8 Jan 2016 11:27:28 +0100|Tue, 12 Jan 2016 11:54:58 +0100
+74b82ceccf9b10806fd621a760237cd8c717d2f6|Make logstash-forwarder optional during the deployment|Mon, 11 Jan 2016 15:58:00 +0100|Tue, 12 Jan 2016 10:12:25 +0000
+4bf11bb57063698444b6a9473910fc1755df11a8|fixed inventory role|Mon, 11 Jan 2016 12:11:10 +0100|Mon, 11 Jan 2016 22:04:35 +0000
+df956d70800d255c9c7c394165a4264ac9dcf92a|docstrings for puppet-manifests - part 1|Fri, 11 Dec 2015 13:18:57 +0100|Mon, 11 Jan 2016 13:34:30 +0000
+3253173fca79db52c45ba81ae93ce6e9c035ed4f|Added manifests to configure Blackduck's server and client|Mon, 26 Oct 2015 14:10:22 +0000|Mon, 11 Jan 2016 12:02:36 +0000
+305fed82892571f75958f237676c985dd90fdc24|added etherpad example role|Fri, 8 Jan 2016 16:07:41 +0100|Fri, 8 Jan 2016 16:07:41 +0100
+2bcb06618b887db837614da2ea9c7d29084acbf7|added new optional params to elastics output|Mon, 4 Jan 2016 14:35:39 +0100|Mon, 4 Jan 2016 14:38:32 +0100
+a686e85a37bf5585ae35d964b583325799a23afa|Ability to manage 'auth.conf' added to puppet::master class|Thu, 24 Dec 2015 05:56:04 +0300|Wed, 30 Dec 2015 07:25:25 +0000
+02cfa1722d64fe7eafb760005f4a8ea9362b2234|Merge "docstrings for puppet-manifests - part 4"|Tue, 29 Dec 2015 12:14:43 +0000|Tue, 29 Dec 2015 12:14:44 +0000
+622aeae4508daa22f650c97b1a52015e1ec1d0a6|Add xmlstarlet package for bats enabled slave nodes|Mon, 28 Dec 2015 17:43:44 +0300|Mon, 28 Dec 2015 17:48:51 +0300
+bd7cc95a828877846e058cb0dea20cfcd6c1eae7|added disable_symlinks options|Wed, 16 Dec 2015 12:54:28 +0100|Thu, 24 Dec 2015 10:04:26 +0000
+3d57a253e256adb84136ae73f554f2fcb5d9cf05|REVIEW.rst updated to setup docstrings mandatory|Thu, 24 Dec 2015 06:02:57 +0300|Thu, 24 Dec 2015 06:02:57 +0300
+dbb55d342148195c5cd56c6b0e50c3220d91b336|Add docs location for pxetool|Wed, 23 Dec 2015 15:13:06 +0300|Wed, 23 Dec 2015 15:13:06 +0300
+267c0788d168a3d2413c18b06cf1a336dd1bad18|Be able to specify workers number in elastic output|Mon, 21 Dec 2015 23:52:40 +0100|Tue, 22 Dec 2015 16:14:14 +0100
+55ae7398e807a458db0907a6fea834c60ab5fdb8|docstrings for puppet-manifests - part 4|Tue, 22 Dec 2015 11:54:49 +0100|Tue, 22 Dec 2015 11:54:49 +0100
+bcc6955567e82d050859ff28147b2a9f725ee62b|Passing more parameters to uwsgi::application()|Mon, 21 Dec 2015 20:40:15 +0300|Mon, 21 Dec 2015 20:40:45 +0300
+42cc1401fe9e2d0f1ae63baf3d007009fdae0be4|Merge "Fix for proper permissions on nginx conf files"|Mon, 21 Dec 2015 16:37:22 +0000|Mon, 21 Dec 2015 16:37:22 +0000
+7085244bf3f8c073a28eaea5ffb8f288fd9e95e3|Fix for proper permissions on nginx conf files|Sat, 19 Dec 2015 13:42:00 +0300|Mon, 21 Dec 2015 16:36:02 +0000
+9deaa16ac70798dfd3335ab1621726badd415a89|CRON jobs and static location for lpreports|Sat, 19 Dec 2015 13:38:51 +0300|Mon, 21 Dec 2015 16:35:43 +0000
+b8d82c840e3610ead1740e1c641378ea5b55f298|Ability to set puppet run by CRON|Mon, 21 Dec 2015 16:12:09 +0300|Mon, 21 Dec 2015 13:12:35 +0000
+165f10e045037bf54a640232da4d3035b2e2e6eb|Moving out listen_addr from libvirt hardcode|Mon, 21 Dec 2015 14:55:28 +0300|Mon, 21 Dec 2015 14:55:28 +0300
+d525801ee04a7c954e1133438bfd020169245ff7|added reverted env zabbix item to jenkins slave|Fri, 18 Dec 2015 10:30:36 +0100|Fri, 18 Dec 2015 10:30:36 +0100
+c3080511491cc89f40ce0997067507397e791526|puppet manifests update for lpreports configuration|Tue, 15 Dec 2015 18:39:47 +0300|Tue, 15 Dec 2015 18:39:47 +0300
+57963de72a492be3380aa4011cebba09b69d3154|Cleanup for unused legacy stuff|Mon, 14 Dec 2015 19:43:34 +0300|Mon, 14 Dec 2015 19:43:34 +0300
+ad6fcd5db9f43de8e1fbeab03ea0c9ada49d681e|Ability to specify secret_key added for django apps|Fri, 11 Dec 2015 17:40:22 +0300|Fri, 11 Dec 2015 17:42:40 +0300
+0c379a75d73a733dc121b70cc5187831660fe344|Missed template added + other lpreports module fixes|Wed, 9 Dec 2015 01:42:34 +0300|Thu, 10 Dec 2015 14:33:35 +0000
+c9100fbbc1ad15405d84240c1891d4d080557aa9|Update hostname for puppet master installation|Wed, 9 Dec 2015 17:54:29 +0100|Wed, 9 Dec 2015 17:54:29 +0100
+d182658fd67dcfe2c340a8f347bd3a673e450add|cleaned deprecated node definition in site.pp|Wed, 9 Dec 2015 10:06:30 +0100|Wed, 9 Dec 2015 10:24:57 +0100
+bef9e2619bf8e5ebd7a00a0d71697902407da23c|Modified install_puppet_master script to automate the install process|Thu, 26 Nov 2015 17:44:17 +0100|Tue, 8 Dec 2015 12:06:48 +0000
+d72e420ba9d15758098bcfce9b293c4f7a057dde|Add rewrite to https for pxetool master and enable ssl_only in ssl|Fri, 4 Dec 2015 20:45:32 +0300|Mon, 7 Dec 2015 15:03:47 +0300
+0c4c209ffbe4345bae057cf366568662c2395d9d|Fix puppet master deployment|Fri, 4 Dec 2015 14:11:17 +0100|Fri, 4 Dec 2015 14:20:32 +0100
+c79f048bc725b10e3f2c944cce03f4362a893234|Fix missing www_root directory in fuel_docs|Thu, 3 Dec 2015 19:56:34 +0300|Thu, 3 Dec 2015 19:57:43 +0300
+d62bd10f9e45e42002117b8b84251b0ed15e06a8|Rewrite all requests to specs.fuel-infra.org => specs.openstack.org|Thu, 3 Dec 2015 15:17:57 +0300|Thu, 3 Dec 2015 16:44:38 +0000
+ef6c975ff75ed0492043be6dcf68a55e23468ea2|lpreports puppet manifests added|Wed, 2 Dec 2015 20:04:14 +0300|Thu, 3 Dec 2015 15:24:13 +0000
+51b2fdef9c0c36fef025ee2fd2e67a2edb0f3010|PXETool deployment manifests|Thu, 26 Nov 2015 11:01:44 +0100|Thu, 3 Dec 2015 11:28:34 +0000
+4783e91787f1b9bc1d7a28d41fce2b99e7f6f3b2|Remove {::fqdn} from kibana-redirect's|Tue, 1 Dec 2015 11:20:46 +0100|Tue, 1 Dec 2015 11:20:46 +0100
+61a19e7167f92830990aeaf73b429c0ee9724d67|Location for serving docs as a static added|Fri, 27 Nov 2015 17:06:01 +0300|Mon, 30 Nov 2015 17:09:20 +0000
+593027de1113248937f1836486f5b3c2e25d2be8|Support for logs.fuel-infra.org service name in log storage|Mon, 30 Nov 2015 15:58:01 +0100|Mon, 30 Nov 2015 16:41:03 +0100
+56d0a80b49a381821d84bd2ddaa074b704604f38|ldap2sshkeys script updated by knikulin.|Fri, 20 Nov 2015 16:40:12 +0300|Fri, 27 Nov 2015 08:47:55 +0000
+7eb2d01cf4cd5283cb81f657d5712bfb99041612|Set proper grok pattern for nginx access logs|Thu, 26 Nov 2015 11:01:44 +0100|Thu, 26 Nov 2015 10:03:29 +0000
+05176d816cc4030f540c1f8f87051c12f2c72da1|Added 'example42-yum' module into install_module.sh script|Thu, 26 Nov 2015 12:37:48 +0300|Thu, 26 Nov 2015 09:52:18 +0000
+0b0bf8cfff7711877c180a50ecd4613bbafea6f0|Fix for nginx grok patters for logstash|Wed, 25 Nov 2015 11:31:35 +0100|Wed, 25 Nov 2015 11:31:35 +0100
+6c86bc1cc3363005706f4669c2beab1bb24d402a|puppet-nginx module update to support mime-types rearranging|Tue, 24 Nov 2015 19:47:31 +0300|Tue, 24 Nov 2015 19:47:33 +0300
+220c656543a72f1afac26d6fd344491cf3cdb77a|Add config-zabbix-agent-ulimit-item to the common class|Fri, 20 Nov 2015 14:15:46 +0100|Fri, 20 Nov 2015 13:54:58 +0000
+7ecc45632a0e075a9027d7a96fb6ad2ce127566d|fixed lock file in nailgun_demo|Fri, 20 Nov 2015 14:22:15 +0100|Fri, 20 Nov 2015 14:32:06 +0100
+9c76d5e084cb66464239e438d1947a97bc7647b4|Revert "ssh_authorized_key cleanup before add behaviour implementation"|Fri, 20 Nov 2015 13:49:46 +0300|Fri, 20 Nov 2015 13:50:05 +0300
+450c8aba485c0428c1c7865970b6e7250fb7ec0e|added docker config to jenkins slave manifest|Fri, 23 Oct 2015 12:46:44 +0200|Fri, 20 Nov 2015 08:53:44 +0000
+f5c5907d0fc6eff97e2d44b4e5a1f01c9bc68132|fixes double declaration for nested virtualisation|Wed, 18 Nov 2015 09:27:09 +0100|Wed, 18 Nov 2015 09:27:09 +0100
+2ed5e43b7c70c16e9b891f800bd3472d0ad515bd|Move bats package from infra-ci to fuel-ci|Thu, 12 Nov 2015 13:47:21 +0100|Tue, 17 Nov 2015 08:35:16 +0000
+14cb74ea29fa89f4c2983eee8cb852a2c7987fd9|Log storage puppetized manifests|Tue, 27 Oct 2015 10:44:30 +0100|Tue, 17 Nov 2015 08:31:05 +0000
+84b207cddad57b8ee4e97bbe9f784dad38a35909|separate certificates for registry nodes|Fri, 13 Nov 2015 11:22:56 +0100|Tue, 17 Nov 2015 08:23:04 +0000
+e09cbb3d327c8abc8f5f1fa532b0f5c3472536c3|Adding python-yaml and python-git to all slaves|Mon, 16 Nov 2015 16:33:47 +0300|Mon, 16 Nov 2015 16:33:47 +0300
+8cd0d7557fa3fa2e10352fb17d40851b07fd020e|Fix for missed .ssh dir for root user|Mon, 16 Nov 2015 15:01:05 +0300|Mon, 16 Nov 2015 15:01:05 +0300
+11e1b2397d818d4acebc6b8898cc749e8ccce1f9|Remove ci-slaves from site.pp|Mon, 16 Nov 2015 13:48:40 +0300|Mon, 16 Nov 2015 13:48:40 +0300
+6d325e87e6ec028a112ecd32045d844a2673b0fe|add dmesg monitor to fuel_project/common|Thu, 12 Nov 2015 15:56:35 +0100|Thu, 12 Nov 2015 15:56:35 +0100
+7c34a7f034781272d20d4ff1a17fef429dde9a03|ssh_authorized_key cleanup before add behaviour implementation|Tue, 10 Nov 2015 15:48:22 +0300|Tue, 10 Nov 2015 15:49:03 +0300
+66b5d8fb1717b95303edd6b2ac6369b3ea2747b3|Fix for modprobe's missing arguments|Mon, 9 Nov 2015 17:14:48 +0100|Mon, 9 Nov 2015 17:14:48 +0100
+1e2a8f7b1bc7bb5efd3afa61a350ad2da06db8ab|Adding stub for qemu=2.4 missed modprobe file|Thu, 5 Nov 2015 18:15:51 +0300|Thu, 5 Nov 2015 18:33:47 +0300
+314f0de94110fc375bb0d07dd5ff2e94f70a16bc|Custom error pages for jenkins master instance|Wed, 28 Oct 2015 12:37:08 +0100|Wed, 4 Nov 2015 11:10:03 +0000
+63440e04e02cb7cfc8a97f03417993b1fe45123a|MongoDB puppet manifests with example hiera role added|Tue, 3 Nov 2015 17:07:52 +0300|Tue, 3 Nov 2015 17:41:34 +0000
+f069a87e108b4e2adf2d01d2b8c9bc09b51a6190|Removing recursion on chmoding for /var/www/mirror|Fri, 30 Oct 2015 18:55:45 +0300|Fri, 30 Oct 2015 18:55:45 +0300
+c129dc2bc73983a57844a36fd2816603fa6d80ed|Fix for compability issue with new rsync+ssh scheme users|Fri, 30 Oct 2015 15:58:15 +0300|Fri, 30 Oct 2015 13:52:16 +0000
+da8dd1ad870a6ac86c6051edcfc4b8a9a9fe6e09|name update for config-zabbix-agent package|Fri, 30 Oct 2015 11:23:25 +0100|Fri, 30 Oct 2015 13:48:05 +0000
+43cb277fd08b17cc5c715f8bef32ed15cd1f0af6|Mirror role moved to hiera|Fri, 30 Oct 2015 15:48:49 +0300|Fri, 30 Oct 2015 15:48:49 +0300
+c6c4852277ff87f3d40d2ef82a42b7811d8cbdcb|Install libpcap-dev package on fuel-ci slave nodes|Mon, 26 Oct 2015 16:33:51 +0300|Wed, 28 Oct 2015 16:01:01 +0000
+91dee3fb51846d6ae2085ff4ad332f0893ea6f4f|rsync over SSH method for mirrors added|Tue, 27 Oct 2015 12:24:11 +0300|Tue, 27 Oct 2015 12:14:43 +0000
+a4a41b34c757c5efd693389a55683b375fc6bce3|Motd banner moved to hiera|Fri, 23 Oct 2015 17:59:07 +0300|Mon, 26 Oct 2015 13:22:09 +0000
+53abedad7f98dc8afaa035ac18a87bca980fb05e|Switching to forked puppet-rssh because of non-ASCII char in the metadata|Mon, 26 Oct 2015 16:15:48 +0300|Mon, 26 Oct 2015 16:15:48 +0300
+88ca7db8f6b37edbfe026d7e04627968079bdfe0|Switch plugin sync to rsync over SSH|Mon, 19 Oct 2015 17:43:25 +0300|Tue, 20 Oct 2015 18:50:26 +0300
+703059307206333e60b9ab84475b14840202a72b|ns role migration to hiera|Tue, 20 Oct 2015 17:49:53 +0300|Tue, 20 Oct 2015 17:50:23 +0300
+132c10eee13d9809262c727ec58f9e0507be20e6|changed main port from 5000 to 443|Mon, 19 Oct 2015 16:04:38 +0200|Mon, 19 Oct 2015 16:04:38 +0200
+5fa1ac499f66487a8a3dcd0a61af2c74ff1b126a|Update gerrit module to be more closer to upstream|Thu, 28 May 2015 13:03:56 +0300|Sat, 17 Oct 2015 22:32:16 +0000
+10febc17f68aae1274fb573a5ca8ff7bd61eff5b|Remove obsolete install_label_dumper parameter|Fri, 16 Oct 2015 13:14:17 +0300|Fri, 16 Oct 2015 13:14:17 +0300
+9fa698a70310f879a22121da6ccf6c92771e095e|Updated version of puppetlabs-firewall module|Fri, 9 Oct 2015 19:23:45 +0300|Thu, 15 Oct 2015 16:28:41 +0000
+ff24ebf09d7d166dc4234856a4481c531ad84ac6|Static caching and cleanup for jenkins|Wed, 14 Oct 2015 23:59:26 +0300|Thu, 15 Oct 2015 15:41:12 +0000
+e4dea64cb3e026a3a2fd5229c315b575ccf7042d|Static caching and "static" location name update|Thu, 15 Oct 2015 00:11:19 +0300|Thu, 15 Oct 2015 00:11:19 +0300
+df90c5ec1fa420e64ae97502d38ff7fe095cca88|Fix for definition to use to create pins|Wed, 14 Oct 2015 14:36:30 +0300|Wed, 14 Oct 2015 14:36:30 +0300
+c764c6c803e2af4c14329dfdf80d1859f93e74b6|Fix of error_pages location in fuel_stats|Fri, 9 Oct 2015 17:25:10 +0300|Mon, 12 Oct 2015 17:29:42 +0000
+e3ac44a6b47e29cc06e6792566f4438843285c2f|Manifests for etherpad added|Fri, 9 Oct 2015 14:37:01 +0300|Mon, 12 Oct 2015 16:30:17 +0000
+2f57becef3002692e8e9ae85ddcc8351e28f7991|docker registry manifests|Wed, 5 Aug 2015 12:47:47 +0200|Mon, 12 Oct 2015 13:16:04 +0000
+4046fb114a1e1960eed929254dbc4a310d50e878|demo - also use small static for SSl|Mon, 12 Oct 2015 14:50:04 +0200|Mon, 12 Oct 2015 14:50:04 +0200
+6a6b0dbed39d2fa63fc7bbfdc472d6bbc19eae8b|Fix for ISO build broken dependencies|Thu, 8 Oct 2015 11:36:23 +0300|Fri, 9 Oct 2015 10:28:03 +0000
+55dba0af0296bdac926591c2793d903098b3620e|demo minified|Fri, 9 Oct 2015 10:25:48 +0200|Fri, 9 Oct 2015 10:44:04 +0200
+4ba4ba749b13919873726b1726ce9c4190b10479|demo firewall fix|Thu, 8 Oct 2015 11:03:10 +0200|Thu, 8 Oct 2015 11:03:10 +0200
+664caf55eb108d0d84b54666de98375630e7b2cf|Add jenkins slave for infra-ci|Wed, 7 Oct 2015 17:54:55 +0300|Wed, 7 Oct 2015 18:05:01 +0300
+915ece5da947d955c8f5a9e57fb35b5b197b906f|nailgun demo manifest upgrade|Fri, 2 Oct 2015 18:02:35 +0200|Mon, 5 Oct 2015 12:52:46 +0200
+1d4599b1ed1ddb1edaa70deab59139f46b88c459|Fix parameters for seed class in example file|Wed, 30 Sep 2015 10:09:29 +0200|Wed, 30 Sep 2015 10:10:18 +0200
+3b101063588b856f100d7884d82b2262f6995db9|Moving tracker role to hiera|Tue, 29 Sep 2015 20:49:37 +0300|Tue, 29 Sep 2015 20:49:37 +0300
+7075165e2838d7ffa10644ad47f5bd87c39507d8|Separating files and cron from importer settings|Mon, 28 Sep 2015 16:34:14 +0300|Tue, 29 Sep 2015 11:50:31 +0000
+4741b529181f5c61f203de74e6f8b0d69ebfac5f|Increasing maintenance script running interval(for zabbix server)|Mon, 28 Sep 2015 17:50:20 +0300|Tue, 29 Sep 2015 11:47:29 +0000
+b664917ef3dee132be46016ea0b4178ad8ca48dd|Add compression for console output from jenkins jobs|Tue, 15 Sep 2015 16:42:47 +0200|Mon, 28 Sep 2015 18:25:40 +0200
+3bbc3d5b72c5faa5aeabbddb5b7cfa5fcc6f12f3|Add zuul monitoring script for zabbix|Sun, 6 Sep 2015 16:56:16 +0200|Thu, 24 Sep 2015 21:00:17 +0000
+70e6fd4ad60406a0f243b818aef7fc5491c0a2a1|Ability to add custom imports in settings added for django::application|Tue, 22 Sep 2015 23:19:30 +0300|Wed, 23 Sep 2015 15:41:32 +0000
+d5ac4833bb47f899af0236cabb5878236bfb571a|Reuse /var/run/lock dir for placing .lock files|Wed, 23 Sep 2015 15:04:53 +0200|Wed, 23 Sep 2015 15:08:48 +0200
+e62106ee21404717d0d8d04f25994756c0c5499b|Cleanup and mostly cosmetic changes|Wed, 23 Sep 2015 05:19:44 +0300|Wed, 23 Sep 2015 05:30:18 +0300
+cb0b62041409d98605038168a5efa2422b89b455|Inventory tool puppet manifests added|Thu, 17 Sep 2015 13:11:36 +0300|Mon, 21 Sep 2015 20:40:18 +0300
+740179d25bb7851cc2a5189a3e2e9a60f795bb99|Fix error pages for fuel stats without ssl|Sat, 19 Sep 2015 16:07:13 +0300|Sat, 19 Sep 2015 13:07:50 +0000
+cbd77072b69f45f52a95964cf82fe152a7995d18|Typo fix in fuel_stats/manifests/collector.pp|Sat, 19 Sep 2015 15:50:23 +0300|Sat, 19 Sep 2015 15:50:23 +0300
+66f9e6c2748848a1978e7d2877038dfc9e8f8aa0|Add master-node-uid to nginx log_format|Fri, 18 Sep 2015 18:05:05 +0300|Fri, 18 Sep 2015 21:46:30 +0300
+3f3c3a4694d50ffd09e6065feaa117290dbca296|Add zlib1g{,-dev} pkgs as a requirement for ci jobs|Fri, 18 Sep 2015 15:34:26 +0200|Fri, 18 Sep 2015 15:34:26 +0200
+166f99ff42b50bc5a34a9265a5ed02782163212b|Fix zuul status page|Tue, 15 Sep 2015 21:55:00 +0300|Wed, 16 Sep 2015 13:34:05 +0300
+4c41cef1fa09d0f21c462b51b4297a991b151996|cachers moved to hiera roles|Wed, 9 Sep 2015 16:50:37 +0300|Wed, 16 Sep 2015 09:42:19 +0000
+f521a59c487f5ae7bf90533834a5e10076599683|Enable OOM Killer item zabbix check in common|Fri, 31 Jul 2015 15:37:47 +0200|Wed, 9 Sep 2015 13:16:48 +0000
+405c7e00cfca313f78e57817bf11b056b01bc612|Fix for lpupdatebug zabbix UserParameters|Thu, 27 Aug 2015 14:07:29 +0200|Mon, 7 Sep 2015 09:34:14 +0000
+be718251b7ddfe763fd5cf7f8ab076a8261323bf|Added all options from the documentation of 'replication' plugin|Tue, 25 Aug 2015 09:54:28 +0000|Tue, 1 Sep 2015 12:11:43 +0000
+a961d3165cc2df612ae589d20b794a33b98e8bd7|Allow to install exact version of kernel package|Thu, 27 Aug 2015 18:32:29 +0300|Fri, 28 Aug 2015 17:45:19 +0300
+61de298f2000e2bb69b1d872685a9b5fbcc407b3|Add pyhton-lxml package to perestroika publisher|Thu, 27 Aug 2015 16:14:00 +0300|Thu, 27 Aug 2015 13:40:47 +0000
+c12a4d2b97d779bf1dc18eb81548b9deb0bd7a86|Removed 'sudoers_base' option from jenkins::slave module as not needed|Tue, 25 Aug 2015 17:53:59 +0300|Tue, 25 Aug 2015 17:54:49 +0300
+6394d6e2cb5a49fb193f41cb4dcb4e52b94b8253|Remove unused variable sudoers_base|Mon, 24 Aug 2015 14:03:31 +0300|Mon, 24 Aug 2015 14:03:58 +0300
+809ac8fb1619f2066690a7888e63c9a55d11e45b|Created 'zuul' module, created 'zuul' role|Tue, 4 Aug 2015 12:10:46 +0300|Wed, 12 Aug 2015 11:36:28 +0000
+e7a33d3ac2f32c7200ab02b79ed3b6a334116f9f|Remove unused variable in jenkins::slave|Wed, 12 Aug 2015 07:57:34 +0300|Wed, 12 Aug 2015 07:57:34 +0300
+c5da03d317a3b0ac0984d968daf8e8f3bca64d74|Remove old known_hosts from jenkins_slave|Tue, 11 Aug 2015 15:38:33 +0300|Tue, 11 Aug 2015 15:38:33 +0300
+a0753a6767ade9311fcf546ea2c65e6bd9ec7fcb|Redirect root of specs vhost to specific dir|Fri, 7 Aug 2015 16:59:10 +0200|Fri, 7 Aug 2015 17:05:04 +0200
+55d600e114e4adceb1e14b83db9d9b797b3a4145|Updated docs to include specs.fuel-infra.org vhost|Tue, 4 Aug 2015 12:19:26 +0200|Fri, 7 Aug 2015 10:45:15 +0200
+bccbc04c22305549bec7cf8c09c3da6279e95062|Updated "custom_scripts_slave" role in hiera and custom_scripts module|Thu, 6 Aug 2015 15:27:43 +0000|Thu, 6 Aug 2015 15:47:16 +0000
+e831efeff3324924e9a14897bdc6fc5a51dd9839|Atop interval update to 60 seconds|Thu, 6 Aug 2015 17:35:25 +0300|Thu, 6 Aug 2015 17:35:25 +0300
+e1a2c84efb33a672b29112dae54b923961b48ea2|Small revert of fuel_project::jenkins::slave|Thu, 6 Aug 2015 09:53:18 +0200|Thu, 6 Aug 2015 09:53:18 +0200
+dcc7a3fbb3ff9fa71a54a2c1df4b71d23f7cb493|Typo fixes in fuel_stats::analytics|Wed, 5 Aug 2015 19:24:02 +0300|Wed, 5 Aug 2015 19:24:02 +0300
+c4858407a4793f309b059d8d0617014915e6207f|Fix for proper dependencies|Wed, 5 Aug 2015 16:18:06 +0300|Wed, 5 Aug 2015 16:18:06 +0300
+a57f7ac0d6a5703615e3be8562cc074c8ab801c8|Zabbix maintenance script added.|Wed, 5 Aug 2015 15:57:39 +0300|Wed, 5 Aug 2015 15:58:33 +0300
+cbb94fe415a6e5bf590b0e9dfced602450ed45f8|Fix location of tailnew in nginx zabbix item|Wed, 5 Aug 2015 13:18:56 +0300|Wed, 5 Aug 2015 13:20:01 +0300
+4943e9deb257240388326615ecf45c71556978d4|Update of 'python_jenkins_slave' role to run custom Python scripts in docker container|Sun, 2 Aug 2015 16:23:06 +0000|Tue, 4 Aug 2015 14:03:36 +0000
+e9b89cd6a9930d17650c64f2cc54c44e061b2492|Add an option to disable puppet-manifests-update cronjob|Tue, 4 Aug 2015 13:35:34 +0200|Tue, 4 Aug 2015 15:20:18 +0200
+51133c497fd31288fb92c6c820cbd0ae43e276d1|Move error_pages in docs from location to server|Mon, 3 Aug 2015 12:26:46 +0300|Mon, 3 Aug 2015 13:55:59 +0300
+8205c4d23189b24f815852e21e42060cd586aef3|Fix for proper lockfiles usage|Fri, 31 Jul 2015 16:24:05 +0300|Fri, 31 Jul 2015 16:47:58 +0300
+805abb24a62362c8430b61b221dac76989f54009|facter-facts package added to common, some packages moved to parameters|Fri, 31 Jul 2015 00:16:10 +0300|Fri, 31 Jul 2015 14:33:18 +0300
+cf7f44e94f7f63cd7611dee77391dc02f2246e96|Changes in the partnerappliance class|Thu, 30 Jul 2015 17:00:43 +0200|Thu, 30 Jul 2015 17:34:32 +0200
+7ea6bc5f15cc5ccfa3d16c378c19f1cbfb82ddfa|Move *_npm_packages lists into class variables|Wed, 29 Jul 2015 16:12:48 +0300|Thu, 30 Jul 2015 13:12:57 +0000
+8f2b441b6035416477c66fa9e9ce053b2168a49f|Merge "TPI Labs: add build_fuel_plugins to jenkins slaves"|Thu, 30 Jul 2015 13:10:49 +0000|Thu, 30 Jul 2015 13:10:49 +0000
+a5dad7f1b33cfbd7b938aa0ff432a50f52553d81|TPI Labs: add build_fuel_plugins to jenkins slaves|Wed, 27 May 2015 13:58:31 +0000|Thu, 30 Jul 2015 13:09:30 +0000
+22f5c977687f624b4c44f9002463136ff0b4d540|TPI Labs: add packages required for vmware hostd|Wed, 25 Mar 2015 20:10:39 +0000|Thu, 30 Jul 2015 13:08:43 +0000
+f843c10144b7713735ce6820eec5ef13f41c6f7b|Added appliance class for "Certified Rack Level Appliance" project|Wed, 22 Jul 2015 14:44:54 +0200|Thu, 30 Jul 2015 12:01:00 +0200
+872980936a1a590aa8496eed34d6cbe2dba23bf5|Add error pages for docs and fuel-stats|Tue, 21 Jul 2015 17:25:15 +0300|Wed, 29 Jul 2015 16:27:08 +0000
+88b7fef7bf0682e157ecd53f78da13125c491dfc|Gerrit replication refactoring|Wed, 15 Apr 2015 14:31:39 +0300|Mon, 27 Jul 2015 12:33:41 +0000
+f26f1ca5f9e8ebbabdbd340172904b5d94a239cb|Refactoring perestroika|Thu, 23 Jul 2015 15:42:55 +0300|Fri, 24 Jul 2015 16:43:05 +0300
+a2d0c528e15fec36b0fca402b92988b8020490bf|Fix key for devops repo in different locations|Thu, 23 Jul 2015 15:01:45 +0300|Thu, 23 Jul 2015 15:01:45 +0300
+fd5c79574e46f620c00eaf69b6a718c80b85c5bb|UWSGI support for lodgeit added|Tue, 21 Jul 2015 19:20:47 +0300|Wed, 22 Jul 2015 16:52:54 +0300
+5e0880516b79a41ba36b91aa94e4621558777492|Fix of mistakes in hiera|Wed, 22 Jul 2015 14:37:43 +0300|Wed, 22 Jul 2015 11:46:11 +0000
+134ba07be8f918b2c86b28eb84ce783b0b7430a9|Added package 'python3-dev' in 'verify_fuel_web' of 'fuel_project::jenkins::slave'|Wed, 22 Jul 2015 14:15:44 +0300|Wed, 22 Jul 2015 14:17:13 +0300
+1d2846e0d23fc53043449687934970737d6bafca|Avoidance of duplication for '::fuel_project::common' class in 'fuel_project::jenkins::slave'|Wed, 22 Jul 2015 10:19:34 +0300|Wed, 22 Jul 2015 10:24:12 +0300
+7402ddc6b6ef636b6c003ecce247c647dba351a1|Move keys from parameters to class|Tue, 21 Jul 2015 19:25:46 +0300|Tue, 21 Jul 2015 16:26:38 +0000
+0efed8ffe00be07c2125db0cb29ecf6dc3b1eab7|Custom error pages for paste|Tue, 21 Jul 2015 17:14:19 +0300|Tue, 21 Jul 2015 16:14:50 +0000
+02eecd24a1c5025ff1ca91c91372d00d1ebdbc8c|Use hiera hash to recieve ssh keys|Tue, 21 Jul 2015 19:08:07 +0300|Tue, 21 Jul 2015 19:10:38 +0300
+d3380e0636ee291ee1ffe2a01ab3458d3fd6b86d|Created 'perestorika' classes in 'fuel_project::role':|Tue, 14 Jul 2015 00:29:54 +0300|Tue, 21 Jul 2015 13:41:30 +0000
+9f39077c7a99710e5d1dcf089b8e05e07ef9165d|Ability to set custom logo for paste added|Tue, 21 Jul 2015 03:32:48 +0300|Tue, 21 Jul 2015 13:24:22 +0000
+c6c0c93818ee8481872d9903987706dc6dc619e0|Paste pupet manifests initial release|Mon, 20 Jul 2015 17:29:00 +0300|Tue, 21 Jul 2015 13:46:54 +0300
+6cbb04b2c5406ccce486ba095146bb42b1484a5a|Remove jenkins swarm slaves from site.pp|Mon, 20 Jul 2015 17:55:46 +0300|Mon, 20 Jul 2015 15:02:55 +0000
+f7722841d6cdc5f9de003cc46c7df7c40dde485d|Merge "Randmness added to quering for ssh keys from IT's LDAP"|Mon, 20 Jul 2015 14:57:30 +0000|Mon, 20 Jul 2015 14:57:30 +0000
+f9cd1d0d8c0cf90e42eea083850ef1c387cc5ef6|Randmness added to quering for ssh keys from IT's LDAP|Mon, 20 Jul 2015 17:31:55 +0300|Mon, 20 Jul 2015 17:31:55 +0300
+b67bf45cb5c88e98a65200c2de84fab85d781456|Ability to create additional parameters added|Thu, 9 Jul 2015 20:08:13 +0300|Mon, 20 Jul 2015 11:34:00 +0000
+8510915f6dd36e6fb79a9403a5ac2c3aff7d427e|Added missed package "yum-utils" to install on the servers to run install tests|Fri, 17 Jul 2015 15:01:48 +0000|Fri, 17 Jul 2015 15:01:48 +0000
+2f7c9e218e4254a8f9717653dc1bbede413a749b|Merge "New Devops repo key"|Fri, 17 Jul 2015 14:24:31 +0000|Fri, 17 Jul 2015 14:24:32 +0000
+0578275997ddaa6b88eb2cc9523c318b78eb1b6f|Added parameter "libvirt_default_network" to enable libvirt's "default" network after manifests implementing|Fri, 17 Jul 2015 13:30:27 +0000|Fri, 17 Jul 2015 13:54:47 +0000
+bd1894d30b2ca56dfd141ede7d072edb6fa93922|New Devops repo key|Fri, 17 Jul 2015 15:53:06 +0200|Fri, 17 Jul 2015 15:53:06 +0200
+19415c39ca3b061605dba0cf533d4ada75065d45|Add alias for fuel-qa on docs.fuel-infra.org|Tue, 14 Jul 2015 14:26:53 +0300|Tue, 14 Jul 2015 14:26:53 +0300
+fafd07c6c08f07457b2f2c687b25204856731253|Added bats package for later usage by infra-ci|Wed, 8 Jul 2015 12:54:48 +0200|Thu, 9 Jul 2015 13:28:50 +0000
+7e6ae392727c39b85d8e0294827d7846ef075f12|Implement pip packages mirror|Sat, 2 May 2015 23:20:30 +0300|Thu, 9 Jul 2015 10:08:37 +0000
+2c81e4d28b95dcf25968fbc6391e2b96610de07b|Implement npm_mirror role|Fri, 3 Jul 2015 18:44:34 +0300|Thu, 9 Jul 2015 10:05:53 +0000
+e4f796b1af8f5a52bc7e38fe1a0b32ee913dd225|Installation of puppet modules in isolated env|Tue, 7 Jul 2015 22:24:04 +0200|Thu, 9 Jul 2015 10:03:05 +0000
+332f6d189f4813e5a85bac323f3da2ca659060a1|Add default pip_opts in fuel_stats module|Tue, 7 Jul 2015 14:01:53 +0300|Thu, 9 Jul 2015 09:04:32 +0000
+37ff417145dfdb31c8761757c33182767d73b044|Moving errata base to django::application module|Mon, 6 Jul 2015 18:19:53 +0300|Wed, 8 Jul 2015 16:46:06 +0000
+c0605ddd90f8bdbc8e831d941b6496645fabcfb9|Added missed "secondary_index" parameter|Wed, 8 Jul 2015 13:58:27 +0000|Wed, 8 Jul 2015 14:02:03 +0000
+994a3e588448d2af469b23d1bf08e94122230593|Error pages added to errata and fix in landing page|Mon, 6 Jul 2015 13:55:55 +0300|Tue, 7 Jul 2015 02:10:18 +0300
+2b3a7c6c513ab3dda590b073c5f3e07e55a35b23|Add requirements for isolated install jenkins-slave node with build_iso role|Mon, 6 Jul 2015 12:39:01 +0300|Mon, 6 Jul 2015 21:31:44 +0000
+2afaac35f95b063ce750356161e4e123db724e3f|Move fuel_docs to new scheme|Fri, 26 Jun 2015 11:40:25 +0300|Mon, 6 Jul 2015 09:50:42 +0000
+c4a9d06357cef156faf6b0adda1f112ef8962250|Merge "Create rubygems mirror from rubygems.org"|Mon, 6 Jul 2015 09:49:10 +0000|Mon, 6 Jul 2015 09:49:10 +0000
+bb079874a7ef106789ed7570c9c5b91dbc80b621|Add default hiera.yaml config|Fri, 26 Jun 2015 12:58:28 +0300|Mon, 6 Jul 2015 09:45:29 +0000
+c3c25df15bd3d49103a9b50e4d9f964a50cb0838|Create rubygems mirror from rubygems.org|Sat, 2 May 2015 00:16:13 +0300|Fri, 3 Jul 2015 12:11:14 +0000
+4ef08f2c1f5281075bf74b39a9ef44a9b07a4e58|Fix redirect from fuel-dev to docs.fuel-infra.org|Sat, 27 Jun 2015 17:17:27 +0300|Wed, 1 Jul 2015 10:32:00 +0000
+546b47b958588676bf87cb752a17c53e8f88a7f4|Changed template of the "packtest*" nodes|Wed, 1 Jul 2015 12:11:40 +0300|Wed, 1 Jul 2015 12:12:44 +0300
+6571b8bc3eb8e8afd595bc7e5f47bb8e62a9418a|tox.ini added to set proper parameters for flake8|Mon, 29 Jun 2015 17:23:09 +0300|Mon, 29 Jun 2015 17:23:09 +0300
+b26d957ff7652b7bec58c0fe84dd50d778a5fc7f|Add apt-transport-https for puppet-master install|Fri, 26 Jun 2015 15:57:40 +0300|Fri, 26 Jun 2015 15:58:04 +0300
+3793256f014e4ecb084aa255b7a353ff40aa7cf1|Remove fuel_project::apps::firewall from common|Fri, 26 Jun 2015 11:45:32 +0300|Fri, 26 Jun 2015 12:03:52 +0000
+de5e443314caf35fe2743315787210d7d5267a03|Fix issues with known_hosts|Fri, 26 Jun 2015 13:58:08 +0300|Fri, 26 Jun 2015 14:45:59 +0300
+9e4fb419103ca6382c91d18541cf58f30db4a32b|Implement selenium test on fuel-ci slaves nodes|Thu, 11 Jun 2015 17:41:18 +0300|Fri, 26 Jun 2015 06:54:43 +0000
+758894f493ae93b9a9c12148f6c87c1a734a6bc4|Fixed class 'fuel_project::jenkins::slave':|Wed, 24 Jun 2015 17:35:03 +0300|Fri, 26 Jun 2015 00:39:58 +0300
+77fc48c39bbfb1c94518f02683be9de7e412ac8a|Merge "Allow to pass array to ssh::known_hosts"|Thu, 25 Jun 2015 19:51:14 +0000|Thu, 25 Jun 2015 19:51:14 +0000
+ca831cd6b7dbab5070b50b1eb8eb91edccb9f94b|Added new record for the perestroika-slaveXX nodes|Thu, 25 Jun 2015 19:10:38 +0300|Thu, 25 Jun 2015 16:11:59 +0000
+c1af7e861d0097bc6f93a576567f61bf363df40d|Allow to pass array to ssh::known_hosts|Thu, 25 Jun 2015 16:51:38 +0300|Thu, 25 Jun 2015 14:50:03 +0000
+416f70acc645908a267747de0cc201cd57f9a1b7|Errata base DOC_PATH added|Thu, 25 Jun 2015 17:26:34 +0300|Thu, 25 Jun 2015 17:26:34 +0300
+30101746bb78fafacf09fdba2d73c22e066474ba|Remove puts in collector-filter template|Wed, 24 Jun 2015 17:37:21 +0300|Wed, 24 Jun 2015 17:37:21 +0300
+9546519427864bb0d9968f0bda52696135c18d71|Refactored anonymous statisctics|Wed, 17 Jun 2015 13:42:54 +0300|Tue, 23 Jun 2015 17:49:55 +0300
+6e29fb693fe761fc580e9b8035443e92099eceeb|Stupid typo fixes ;)|Tue, 23 Jun 2015 02:29:39 +0300|Tue, 23 Jun 2015 02:46:15 +0300
+902077bab76d67b7bb03aff715cdd94389a3a1af|Behaviour update for new hosts without $external_host == true|Mon, 22 Jun 2015 18:54:34 +0300|Mon, 22 Jun 2015 17:16:57 +0000
+98390cb964d3db3e4d26c4b41ad209c84891993e|Moved all nodes which have statement hiera_classes to single definition|Wed, 17 Jun 2015 16:59:04 +0300|Mon, 22 Jun 2015 19:56:40 +0300
+1393743f8ab8208a249d12831a1e5e2d379464de|Errata nodes hostnames updated in site.pp|Mon, 22 Jun 2015 16:50:30 +0300|Mon, 22 Jun 2015 14:29:31 +0000
+ee4c4573a0c15c4923b92c20dc8f033b54a23331|Updated mirror app class path|Mon, 22 Jun 2015 17:25:13 +0300|Mon, 22 Jun 2015 17:25:13 +0300
+d191b3bb1a59867645fbe04a13734d9f2d8742f3|Replace the puppetlabs-bacula module|Mon, 22 Jun 2015 11:45:11 +0200|Mon, 22 Jun 2015 11:40:14 +0000
+85704b5939043827634a4709fd4136757316d6a9|Switch sftp service from external to internal|Fri, 19 Jun 2015 17:05:52 +0300|Mon, 22 Jun 2015 13:15:49 +0300
+e7912837af372590dc3e42ca87d97a4812ed8ba7|Implement web-sharing node for publishing jenkins jobs' logs|Sun, 14 Jun 2015 17:24:23 +0300|Fri, 19 Jun 2015 13:24:30 +0000
+ad64f12dd8cab2e6d54ef5a843d04914d69cce98|Provide ability to configure sftp|Fri, 19 Jun 2015 14:18:57 +0300|Fri, 19 Jun 2015 15:46:33 +0300
+43efef4a17f5a8de90a145c35e3db2e3cfa06207|Access-Control-Allow-Origin header on static.fuel-infra.org|Thu, 11 Jun 2015 17:32:44 +0300|Mon, 15 Jun 2015 14:47:29 +0300
+aa406af303aa23191c9d48ebd8b48d46025c7279|Merge "Add redirect for fuel-dev to communtity site"|Sun, 14 Jun 2015 13:39:09 +0000|Sun, 14 Jun 2015 13:39:09 +0000
+a272b63994adb9d4cfedcb66308786079266eb8d|verify_fuel_web role requres postgresql-server-dev-all package|Thu, 11 Jun 2015 12:14:04 +0300|Thu, 11 Jun 2015 13:54:24 +0000
+9f979018aac68047fa5a250b6d665320d4389d99|Merge "Added sudo class and tcpdump usage"|Thu, 11 Jun 2015 13:20:14 +0000|Thu, 11 Jun 2015 13:20:14 +0000
+69bb5633bb60c7cc94ece57ac60770a263ff84cc|Put jenkins_master role to single place in hiera|Thu, 11 Jun 2015 11:41:16 +0300|Thu, 11 Jun 2015 12:34:35 +0000
+b377674c0211b6de5e2bf2982698b22cf97bc029|Added new roles to the testing hiera|Wed, 10 Jun 2015 17:07:56 +0300|Thu, 11 Jun 2015 13:11:07 +0300
+ab099e2f78afdef764d7bfbeebadb05112a4fd76|Add redirect for fuel-dev to communtity site|Tue, 9 Jun 2015 17:04:17 +0300|Wed, 10 Jun 2015 16:24:04 +0300
+801686a0d467bcf904e32f1b890252c6eafabc25|Added sudo class and tcpdump usage|Sun, 31 May 2015 20:57:59 +0200|Tue, 9 Jun 2015 09:32:40 +0000
+5eaf920b75d92285dbc6c61a42e66c6bff3202c6|Move filter json to separate file and load it from file.|Mon, 8 Jun 2015 14:12:37 +0300|Mon, 8 Jun 2015 16:36:49 +0300
+4a9855ed4628fe9e208ec4aead0ecb7318e5d702|Remove nginx conf templates from fuel_stats|Wed, 27 May 2015 14:06:40 +0300|Mon, 8 Jun 2015 10:43:20 +0000
+3e07cb43d55cc11374d4427c6026518e77064d10|Fuel-stats ssl fix|Mon, 8 Jun 2015 13:11:09 +0300|Mon, 8 Jun 2015 13:11:09 +0300
+1f0acf1ea2d454f7fb38e120ad30ba088b50df65|Mailman apache configuration added|Thu, 4 Jun 2015 18:53:27 +0300|Thu, 4 Jun 2015 18:55:03 +0300
+8760a215a06d23d7950d0745b3d8e7624ada78e8|Adding docker-builder dependencies.|Tue, 26 May 2015 14:03:05 +0200|Wed, 3 Jun 2015 14:47:26 +0200
+54b5d91b6d8da53849c29b4a82f4b53f29751e75|Fix for proper if not check in the part of aliases detection|Tue, 2 Jun 2015 20:08:30 +0300|Tue, 2 Jun 2015 20:08:30 +0300
+d2624b4570af5b4e9d47718ee793f53d8c179ed1|Google counter ability to use added|Mon, 1 Jun 2015 14:18:06 +0300|Tue, 2 Jun 2015 17:29:32 +0300
+6ae3f4a86fdd97d7a04740495a073207f5f55b53|Splitting errata hosts and starting to use hiera|Fri, 29 May 2015 16:36:24 +0300|Tue, 2 Jun 2015 12:22:58 +0000
+65bd03c86a211e1ab8e99553adc1afcc440fc6a3|Fuel Infra Error pages for landing page|Mon, 1 Jun 2015 19:44:23 +0300|Tue, 2 Jun 2015 11:51:59 +0000
+f76f5b7938becb8853303d05a5b81819abe5d88a|Added two new hosts|Mon, 1 Jun 2015 18:52:40 +0300|Tue, 2 Jun 2015 05:50:51 +0000
+0fcb87a97bc5f4d6e567f6ab61b28616ba8b827e|Update of avaiable locations for fuel-docs|Mon, 1 Jun 2015 19:47:56 +0300|Mon, 1 Jun 2015 19:58:25 +0300
+d270ac2a07a0e2c8685d0c60a301379e5be97565|Added filtering releases option for last collector|Tue, 26 May 2015 14:03:04 +0300|Mon, 1 Jun 2015 15:15:52 +0000
+30d79dd4eeb702b039c6cd4d07f06e06cd9b380e|Bacula client integration with Zabbix slaves|Tue, 26 May 2015 12:07:50 +0200|Mon, 1 Jun 2015 11:56:18 +0200
+12fd01c892378740fdf0d6202c6b72b562496060|We need to be sure that target directory for alert script exist|Tue, 26 May 2015 17:48:10 +0300|Fri, 29 May 2015 13:21:10 +0000
+4396865aacb1a094c2f711b98d9d5a6bf46ede8c|Libjpeg-dev added to verify_fuel_docs packages lst|Thu, 28 May 2015 17:35:45 +0200|Thu, 28 May 2015 17:35:45 +0200
+79d74477060eeeba7bc8d00d83eb32a3cf192fd7|Merge "New mirror-pkgs role"|Thu, 28 May 2015 15:20:36 +0000|Thu, 28 May 2015 15:20:36 +0000
+cdfa0d51765d6bfdfde9104f91fe99e8c9b524b6|New mirror-pkgs role|Mon, 25 May 2015 21:31:17 +0200|Thu, 28 May 2015 15:15:28 +0000
+6cac56bc6f0f54ef59fb0a8c21a53810ba8bd2b1|Fix for redirect location|Thu, 28 May 2015 16:58:33 +0300|Thu, 28 May 2015 16:58:33 +0300
+2268d50029c21c15b50972b2ec1486b6eeb25087|Aliases for www.fuel-infra.org|Thu, 28 May 2015 16:29:47 +0300|Thu, 28 May 2015 16:44:12 +0300
+122a85ce968efa039a6d4f056e85be6e99a13ee0|Updating nginx module to support centralized ssl_ciphers update|Tue, 26 May 2015 22:10:32 +0300|Tue, 26 May 2015 22:10:32 +0300
+61878a21bb170727a48c05e310d1588345c71a2b|Fix /etc/timezone file|Tue, 26 May 2015 12:42:45 +0300|Tue, 26 May 2015 12:42:45 +0300
+65caa65431063d68aaa166800ced3d9352428a16|Fix for proper sudo rules|Mon, 25 May 2015 19:33:09 +0300|Mon, 25 May 2015 19:33:09 +0300
+cef3e33f4b9e3ff4eb7b47c51604bf6452c1ca00|Fix naming for patching-slave nodes|Mon, 25 May 2015 18:21:37 +0300|Mon, 25 May 2015 18:21:37 +0300
+6bd3057b367a95263df9786ebba8a561a14ffe62|Merge "Jenkins_cli modifications"|Mon, 25 May 2015 09:37:58 +0000|Mon, 25 May 2015 09:37:58 +0000
+5900e6a1303c1b82bddcbd39b5c63f8c536d5a17|Using more recent puppet-mailman module code|Fri, 22 May 2015 17:27:20 +0300|Fri, 22 May 2015 17:27:20 +0300
+ce99701f53192cf9b954515a425ae6f63b30c56b|Jenkins_cli modifications|Thu, 7 May 2015 10:43:48 +0200|Fri, 22 May 2015 12:40:52 +0200
+df38757953f847a7be95368fdda0b7b641f41639|Added Disallow directives for fuel_docs|Thu, 21 May 2015 13:56:38 +0300|Thu, 21 May 2015 13:57:17 +0300
+6842c62e9868249d901d7de21e05b4f8b3bc7e8f|Added hosts for statistics for systest|Wed, 20 May 2015 18:24:20 +0300|Wed, 20 May 2015 19:19:54 +0300
+968b9d02c21b58223195f1a5ada06b929efd48a3|Monitor mysql instances using zabbix|Wed, 20 May 2015 12:17:39 +0200|Wed, 20 May 2015 14:23:50 +0000
+9f8f0ba885a4805a246f81c16372d7255fd24807|mailman hosts added|Wed, 20 May 2015 15:08:41 +0300|Wed, 20 May 2015 15:19:23 +0300
+10ecaef1222039de1a8475bee8c06d211ecd241a|Added 'osci_bulder' option in 'fuel_project::jenkins::slave' module.|Tue, 19 May 2015 12:33:14 +0300|Tue, 19 May 2015 12:51:45 +0300
+1c8c39e929647a8d36ba8fc9086d680ec782a4ab|Add logrotate delay option for upstart logs|Tue, 5 May 2015 11:48:22 +0200|Thu, 14 May 2015 12:00:39 +0000
+a916441eacbecf9246605fb20b82838fe16ff81e|Merge "Changed requirements ensure_* for any resource to only duplicates"|Thu, 14 May 2015 11:59:50 +0000|Thu, 14 May 2015 11:59:50 +0000
+de7d34012b4ad7530eb3146cac779d79ee606307|zabbkit notification alert script added|Tue, 12 May 2015 20:49:18 +0300|Wed, 13 May 2015 11:07:19 +0000
+0aada2d90b3c303fc84722aa5379d90bf6fdee87|Add patching-ci slaves definition|Tue, 12 May 2015 18:17:53 +0300|Wed, 13 May 2015 09:46:07 +0000
+080d388a393c5f4efd086cab190ad5372d004170|Changed requirements ensure_* for any resource to only duplicates|Tue, 12 May 2015 17:45:56 +0300|Wed, 13 May 2015 11:22:53 +0300
+dcd478d440f99e91b5ff28ebf913fff038809ca8|Fix for drive name substitution|Wed, 13 May 2015 10:54:57 +0300|Wed, 13 May 2015 10:54:57 +0300
+9090f5ce1674362c7b2b557acb8ba0abc5c6daad|Moving web configuration to hiera|Tue, 12 May 2015 13:36:14 +0300|Tue, 12 May 2015 13:36:14 +0300
+aa952b088657908dbf6021827a62b17c55213069|Merge "Be able to monitor lpupdatebug log using zabbix"|Tue, 12 May 2015 07:48:09 +0000|Tue, 12 May 2015 07:48:09 +0000
+f20a72908dba8930d5dfb2bb6295d4b72a1821f4|Demo deployment fixes|Mon, 11 May 2015 21:01:43 +0200|Tue, 12 May 2015 08:58:50 +0200
+4395f91f9eab012c8d30486c06872c879b9b3d3a|Make fs.inotify.max_user_instances a higher value|Thu, 30 Apr 2015 19:28:51 +0200|Tue, 12 May 2015 06:01:32 +0000
+cdb8b2ac94e8f357e80ca87c4701f4144cb75c2f|Be able to monitor lpupdatebug log using zabbix|Thu, 7 May 2015 18:14:57 +0200|Mon, 11 May 2015 16:08:27 +0200
+e9848b29ac40e44cfbc71543bd391f28861addd7|Merge "Fixing permissions for directory contains gitrevision.txt for monitoring purposes"|Fri, 8 May 2015 14:02:30 +0000|Fri, 8 May 2015 14:02:30 +0000
+2914d76d798facbfb9a260cb8fed5e2893efa066|Merge "Add patching-jenkins node definition"|Fri, 8 May 2015 13:58:43 +0000|Fri, 8 May 2015 13:58:43 +0000
+32abe55052c14ddf7c3a80256f13a7f3c3cc9173|Fixing permissions for directory contains gitrevision.txt for monitoring purposes|Fri, 8 May 2015 15:42:23 +0300|Fri, 8 May 2015 15:42:23 +0300
+4a59ebbcdf70ec04a58cc4ee835dc606c01a0bc6|Added new locations for the "seed" servers|Fri, 8 May 2015 14:33:07 +0300|Fri, 8 May 2015 14:35:19 +0300
+3da3c4bb05da986d707f6e4d60e097ef26a4ee12|Add patching-jenkins node definition|Fri, 8 May 2015 14:11:21 +0300|Fri, 8 May 2015 11:12:26 +0000
+75e65f8e6352e922acd8fe939e1e06c724c180b7|Install devscripts package on CI slaves which build ISO|Sun, 3 May 2015 21:36:41 +0300|Thu, 7 May 2015 08:51:06 +0000
+c1e34c5e526679bc0dd0549ed23d942bc9639f27|Setting more permissive chmod to /var/lib/puppet/gitrevision.txt|Wed, 6 May 2015 17:09:40 +0300|Wed, 6 May 2015 17:09:40 +0300
+25e038d44184ea3b9ae3d206b80ffe0b0c3411a8|Re-arange parameters definition|Wed, 6 May 2015 15:07:39 +0300|Wed, 6 May 2015 15:15:11 +0300
+3a8756753f9b6d8462f3a85a53f7a1a80e65cc5d|Make code closer to coding style requirements|Sun, 3 May 2015 00:15:31 +0300|Wed, 6 May 2015 09:01:30 +0000
+966627f50b39654f541b865c1d69203ac8174e0b|Remove value from ruby_version variable|Wed, 6 May 2015 10:40:37 +0200|Wed, 6 May 2015 10:54:11 +0200
+47fd5b5ecda75c906bda7df9bfb765faac580a27|Merge "Bump Ruby version to 2.1.5"|Wed, 6 May 2015 05:46:08 +0000|Wed, 6 May 2015 05:46:08 +0000
+dd6ed07002be1b4a90c047befbf03d088e102ed0|Refactoring fuel-stats|Wed, 22 Apr 2015 12:58:01 +0300|Tue, 5 May 2015 17:57:59 +0300
+075cdfede7c2a758e12330b82c685f9f41cbf324|Add carriage return for /etc/hostname|Tue, 5 May 2015 17:49:50 +0300|Tue, 5 May 2015 17:51:45 +0300
+f01712e80daa8bf21e2aab5ca5fb707986722057|Bump Ruby version to 2.1.5|Mon, 4 May 2015 11:09:46 +0200|Tue, 5 May 2015 09:18:20 +0200
+53e05fe8d76d4519f8c6c080fad4eaf71865fdfc|Logging and redirects for docs.f-i m added|Thu, 30 Apr 2015 15:08:29 +0300|Thu, 30 Apr 2015 15:14:59 +0300
+3a79388f8dda5c151f2222bff5dceb5e53221453|Merge "Change labeldump.py credentials variables"|Mon, 27 Apr 2015 23:23:48 +0000|Mon, 27 Apr 2015 23:23:48 +0000
+682356eefb3b29043da32e386e181d466255a0d1|Remove unnecessary Zabbix Agent fix|Sun, 26 Apr 2015 19:26:17 +0200|Mon, 27 Apr 2015 23:20:50 +0000
+d1e878551101f27721edcd6daedbac36214c8954|Change labeldump.py credentials variables|Mon, 27 Apr 2015 11:37:11 +0300|Mon, 27 Apr 2015 23:20:12 +0000
+037798925c62d16040d01445ad661b24ba046904|Added update_status parameter to lpupdatebug|Mon, 27 Apr 2015 10:57:04 +0200|Mon, 27 Apr 2015 09:38:50 +0000
+8f5db1d49bbf8b17bfe6fa9f6c838de9fb33ffac|Refactoring of seed instance|Mon, 27 Apr 2015 11:04:37 +0200|Mon, 27 Apr 2015 11:04:37 +0200
+99e19debd938b4cfef7151ffa21a86a1ded04892|Add verify_jenkins_jobs option to jenkins slave manifests|Fri, 24 Apr 2015 17:02:08 +0300|Fri, 24 Apr 2015 14:12:07 +0000
+86d9e6a2de7ea9454645675472bbb5617646786c|Merge "Ensure we have iso/ directory in jenkins workspace"|Fri, 24 Apr 2015 13:47:38 +0000|Fri, 24 Apr 2015 13:47:38 +0000
+7eaa66ca4ceb7b36c020cad0d9203a57e099cd89|Added all private networks to example hiera|Wed, 22 Apr 2015 13:01:49 +0300|Thu, 23 Apr 2015 21:51:15 +0000
+3c758c9afb17b4984eae4c320db94aa1741949c6|Ensure we have iso/ directory in jenkins workspace|Fri, 24 Apr 2015 00:28:06 +0300|Fri, 24 Apr 2015 00:46:05 +0300
+90eb9185760a05be65ecb5f34404c21906202931|Set vm.swappiness value to zero for nodes running systest|Thu, 23 Apr 2015 23:12:14 +0300|Thu, 23 Apr 2015 23:12:14 +0300
+3fad4adc9fa3dd5bcfea1e4e786c22b1af730558|Fix puppetmaster node installtion from scratch|Wed, 22 Apr 2015 15:15:11 +0300|Wed, 22 Apr 2015 17:09:02 +0000
+b31e9d2ffb72d266883048c960e53f991868a01e|Sort variables definition in alphabetical order for jenkins slave|Wed, 22 Apr 2015 13:21:04 +0300|Wed, 22 Apr 2015 15:01:18 +0000
+eeca3b130e2def159913eac2938879047bfc9043|Allow to provide auth mode for gerrit node|Wed, 15 Apr 2015 15:08:45 +0300|Wed, 22 Apr 2015 12:56:49 +0300
+af9af63e467d920dc39c488fec57b3c5ad9335ac|Added projects var into config file|Thu, 16 Apr 2015 14:21:19 +0200|Wed, 22 Apr 2015 09:25:56 +0000
+8a8ff52b1bea4dc7cf7ff3327783b9eb94c379b2|New pattern for the Fuel Gerrit hosts added to the manifests|Thu, 16 Apr 2015 19:37:36 +0300|Wed, 22 Apr 2015 08:41:48 +0000
+138db7f61e879ffdc27bcdc8ebf4ca4857a4323a|Merge "Install packages required for building packages on CI slaves"|Tue, 21 Apr 2015 18:24:29 +0000|Tue, 21 Apr 2015 18:24:29 +0000
+3419ff0efaa6fa8134627447543e56a43e78f25c|Install packages required for building packages on CI slaves|Mon, 20 Apr 2015 18:26:33 +0300|Tue, 21 Apr 2015 17:41:06 +0000
+3d0c069f7772ddfd8f640cce21de73b070d223fa|puppet master role added and corresponding fact for set up|Tue, 21 Apr 2015 17:37:29 +0300|Tue, 21 Apr 2015 16:53:08 +0000
+29c954e5017cd3a59871ce048bc3f86a6b0672db|Fixing deeper hash merging for firewall|Tue, 21 Apr 2015 19:08:05 +0300|Tue, 21 Apr 2015 19:09:22 +0300
+9eb198fc7be2ed80e0ac857617b3015bcff3d4cb|Update mirror location files, add kha location|Mon, 20 Apr 2015 13:36:34 +0300|Mon, 20 Apr 2015 14:47:16 +0300
+f5ae9520ff5ea9f59787b9ce811a505288e035a4|Fix for github poller cronjob output|Mon, 20 Apr 2015 14:36:01 +0300|Mon, 20 Apr 2015 14:36:01 +0300
+9931f3f086c96b4a66e75ce5e6197f9d918049d1|Moving test.local zone to hiera|Fri, 17 Apr 2015 16:06:43 +0300|Fri, 17 Apr 2015 18:19:18 +0000
+01c4b1a37f52345acf462f58a57c67d4fbcaed63|Zabbix instances regex fixed|Fri, 17 Apr 2015 19:50:17 +0300|Fri, 17 Apr 2015 19:50:17 +0300
+987c3a5847e89cde738ceb49ba09fc7c7a7c2f56|Fix for default attributes values in partnershare class|Fri, 17 Apr 2015 13:09:19 +0300|Fri, 17 Apr 2015 11:20:23 +0000
+3ba1c9fe3edea36e0ade51d0ad4c6c968a549717|Setting compression for js and css files|Fri, 17 Apr 2015 13:40:08 +0300|Fri, 17 Apr 2015 13:40:08 +0300
+2e1e45bcc53f5e755004755d318f7cb4f5e78707|SSL fixes for static vhost|Fri, 17 Apr 2015 13:03:55 +0300|Fri, 17 Apr 2015 13:06:34 +0300
+dcf0b8ed0d994f9f3bf617343892689f0eeb0e6b|Merge "Fixup for anon stat modules"|Fri, 17 Apr 2015 09:27:58 +0000|Fri, 17 Apr 2015 09:27:58 +0000
+c20cd79e54bd5b845c51c3a13eafe1cfd05b63d4|Fix for opentracker.conf template(line breakes in proper places)|Thu, 16 Apr 2015 19:49:16 +0300|Thu, 16 Apr 2015 19:49:16 +0300
+1ff4ff27b66b5133eacb7121ad62054527883528|Fixup for anon stat modules|Thu, 16 Apr 2015 15:38:00 +0300|Thu, 16 Apr 2015 16:29:23 +0000
+cb8e667bcccac979fd02c6c217cb338cb2f4d53b|Swapping zbx* stuff to new hiera class include scheme|Thu, 16 Apr 2015 18:39:52 +0300|Thu, 16 Apr 2015 18:39:52 +0300
+8798e60f64956cfddfef14f1080fb061ad1c02ce|Merge "Errata Base modules added"|Thu, 16 Apr 2015 15:03:30 +0000|Thu, 16 Apr 2015 15:03:30 +0000
+d264a68af7bf3785ae55734dfd1c62939ca54814|Fix for default firewall enable flag value|Thu, 16 Apr 2015 17:48:19 +0300|Thu, 16 Apr 2015 17:48:19 +0300
+af9a0ec0526cddd23809f8c7df7f3007ef2932f6|Errata Base modules added|Wed, 1 Apr 2015 17:51:15 +0300|Thu, 16 Apr 2015 14:08:29 +0000
+86cb22d964618656cae180bcda9a72a592e1f335|Refactoring of seed role|Wed, 15 Apr 2015 02:12:27 +0300|Thu, 16 Apr 2015 13:12:22 +0000
+67bd3b0340793a02aa4fc62df9b4f634f73f37c0|vhost for static.fuel-infra.org added|Wed, 15 Apr 2015 21:11:46 +0300|Thu, 16 Apr 2015 16:04:04 +0300
+1a82307530b651cfa8c7275d713fad34ff459b17|Control which specific devops tool to deploy|Wed, 15 Apr 2015 23:29:56 +0200|Thu, 16 Apr 2015 12:07:52 +0200
+d379669393820767e98cf459933a56dd0caac55b|Merge "Fix for logs attributes"|Wed, 15 Apr 2015 16:10:52 +0000|Wed, 15 Apr 2015 16:10:52 +0000
+62c70b2796afe165409559887aba1d40a87a8f7b|hideci: add Pkgs Jenkins to CI regex|Mon, 30 Mar 2015 13:43:24 +0300|Wed, 15 Apr 2015 16:06:52 +0000
+440fab970ca866b110c7f59002e3037e8e40caf4|Fix for logs attributes|Wed, 15 Apr 2015 19:01:10 +0300|Wed, 15 Apr 2015 19:02:42 +0300
+9485f381904d9d11ada5223e58b741c81855a7e9|Fix bridging setup on node deployment|Tue, 14 Apr 2015 21:57:19 +0300|Wed, 15 Apr 2015 15:10:41 +0000
+935dfa43381025551a57c135760df42a0b1ed280|Improve rvm module usage|Tue, 14 Apr 2015 23:06:45 +0300|Wed, 15 Apr 2015 15:05:22 +0000
+b58eebe2c63e5a390691968474dc323043ee80cb|Merge "xorriso added for proper EUFI ISO builds"|Wed, 15 Apr 2015 14:40:10 +0000|Wed, 15 Apr 2015 14:40:10 +0000
+90a33b8b96c12147731987f5ca1c7086a4427b30|xorriso added for proper EUFI ISO builds|Wed, 15 Apr 2015 17:35:46 +0300|Wed, 15 Apr 2015 17:35:46 +0300
+de9c18964463a1d3aff8064fc809ff9e7da6adc7|Remove not common parameters values for mirror|Wed, 15 Apr 2015 16:27:08 +0200|Wed, 15 Apr 2015 16:27:08 +0200
+c72de60f481da406c28a44972cec189022e4b6a2|Bump version to 1.11.0 for rvm module|Tue, 14 Apr 2015 17:05:32 +0300|Tue, 14 Apr 2015 19:23:40 +0000
+6b8619670f40f56acc6a91459164695846f23053|Changes in 'osci_test' option of 'fuel project::jenkins::slave' class:|Tue, 14 Apr 2015 17:07:59 +0300|Tue, 14 Apr 2015 16:48:37 +0000
+cf19f0f2d3b702e533c58f7f646f74e25d9b313b|Merge "LDAP support added"|Tue, 14 Apr 2015 16:36:32 +0000|Tue, 14 Apr 2015 16:36:32 +0000
+7d5509f95b39622bc8704730d8b551aaa40234f0|Add infra-ci and fuel-ci jenkins master nodes to site.pp|Tue, 14 Apr 2015 14:52:02 +0300|Tue, 14 Apr 2015 16:31:19 +0300
+4535896b20f43807f94d48c5675104ade9e4b24f|LDAP support added|Mon, 13 Apr 2015 18:23:29 +0300|Tue, 14 Apr 2015 12:58:31 +0000
+c3d5bc2c0ae8ca279b5a6fd864c259ae160b7201|Added new "infra-ci*" pattern for the infra-ci slaves|Tue, 14 Apr 2015 15:38:25 +0300|Tue, 14 Apr 2015 15:38:25 +0300
+d647ec6aed2af6b6ac7693ed9383bc6306527282|Changed pattern for the names of CI-slaves|Tue, 14 Apr 2015 15:10:40 +0300|Tue, 14 Apr 2015 15:10:40 +0300
+a1971a2f28ffafc0fbb4bab0ced7e4afbaef046c|Remove unused pip inclusion|Sat, 11 Apr 2015 23:02:33 +0300|Sat, 11 Apr 2015 23:02:33 +0300
+b4584dbdfa20f9663eecbf7494086b85bf8e04f5|Fix for fuel-docs #4, wrong variable name|Fri, 10 Apr 2015 21:34:32 +0300|Fri, 10 Apr 2015 21:34:32 +0300
+ff41875b33128bbaecceb4cea85406130abbc6b8|Fix for fuel-docs #3, ssl_only added, https port open|Fri, 10 Apr 2015 21:27:26 +0300|Fri, 10 Apr 2015 21:28:12 +0300
+fc6aeb5134d0ab084717d8a10324568bd2e1ee06|Fix for fuel-docs #2, ssl issues|Fri, 10 Apr 2015 21:16:41 +0300|Fri, 10 Apr 2015 21:16:41 +0300
+e472b4f65af1ef469835849b2399e38225c8831d|Fix for fuel-docs #2|Fri, 10 Apr 2015 21:05:54 +0300|Fri, 10 Apr 2015 21:05:54 +0300
+c8d544c8aee0cd5c2d73b5267bd0ebdc7f7b61c0|Fix for fuel-docs|Fri, 10 Apr 2015 20:24:58 +0300|Fri, 10 Apr 2015 20:29:05 +0300
+e71bc21fe784b4670a2e8c8554690efca6c96468|Merge "Added non-root account for fuel-docs"|Fri, 10 Apr 2015 17:06:54 +0000|Fri, 10 Apr 2015 17:06:54 +0000
+309dada9e268180decd6f8bfd9e2e1bced303810|Merge "Remove unneeded pip module"|Fri, 10 Apr 2015 17:06:39 +0000|Fri, 10 Apr 2015 17:06:39 +0000
+0fc389ac3803a78e2090506e1e57fe2d41af015e|Added non-root account for fuel-docs|Fri, 10 Apr 2015 17:45:41 +0300|Fri, 10 Apr 2015 20:03:58 +0300
+1a03bba5fc884da85408e2f76ef69cdaafa04543|Support nodes in *.infra.mirantis.net zone|Fri, 10 Apr 2015 16:46:19 +0300|Fri, 10 Apr 2015 13:48:22 +0000
+ea64d8e09e20e6864274d0f9b05476d9d1b45621|Redirects for fuel-docs|Mon, 30 Mar 2015 20:20:54 +0300|Fri, 10 Apr 2015 15:37:26 +0300
+009d41463d6c552ae3f780d7cf5963a5cb5711a4|Make sure net.bridge.* is set after reboot|Thu, 9 Apr 2015 20:35:28 +0200|Fri, 10 Apr 2015 10:55:20 +0000
+59824ce03117d4cdf07862dc31a5d43446228c3b|Improve local MTA management|Fri, 10 Apr 2015 13:29:49 +0300|Fri, 10 Apr 2015 13:29:49 +0300
+381c9f62c96e9cb88e88588ed2ddfbb4d9573b15|Make sure jenkins_cli is ran with running service|Fri, 10 Apr 2015 12:16:38 +0200|Fri, 10 Apr 2015 12:16:38 +0200
+e1b5b079ceac4b9a61132b41f047af69feabb1f5|Update service name for lpupdatebug script|Fri, 10 Apr 2015 12:02:54 +0200|Fri, 10 Apr 2015 12:02:54 +0200
+23a11cf5e2022f39be67400fcef630cf3d7510a5|Remove unneeded pip module|Thu, 9 Apr 2015 17:06:31 +0300|Thu, 9 Apr 2015 17:06:31 +0300
+3905cb4d363c6a5f47228f6886857bfba90482e6|New racktables module and fuel_project::racktables|Mon, 23 Mar 2015 20:00:38 +0300|Thu, 9 Apr 2015 17:02:14 +0300
+a800cebcdfa8feb0feced85d3f46be2ea818aecc|django::application definition added for django apps setting up|Tue, 7 Apr 2015 20:04:45 +0300|Thu, 9 Apr 2015 14:04:02 +0300
+5903df62f5c7d48ed3797655234535ebbb0b72b6|Add lpupdatebug to devops_tools.pp manifest|Wed, 8 Apr 2015 12:33:03 +0200|Wed, 8 Apr 2015 12:34:06 +0200
+96c858404d1ce06338237a95631cd5d67597368a|Fixed typo in the examples of modules usage|Tue, 7 Apr 2015 19:33:02 +0300|Tue, 7 Apr 2015 19:33:02 +0300
+7ae2b21c5958701aab745db0dead1b7398ec7aa2|Merge "Added review checklist for puppet manifests"|Tue, 7 Apr 2015 16:29:43 +0000|Tue, 7 Apr 2015 16:29:43 +0000
+3593fe572d0583433791f026f072a5076f6ea92d|Added review checklist for puppet manifests|Tue, 31 Mar 2015 16:43:17 +0300|Tue, 7 Apr 2015 12:45:47 +0000
+4a1152e829cb920093d94fd9087fa8edf27493c0|Added new 'tools' devops nodes definition|Tue, 7 Apr 2015 13:17:25 +0200|Tue, 7 Apr 2015 13:28:29 +0200
+9f2990212d1b7c6749c141b7dc7b41e51bc62347|Tracker role added + hostlist updated|Mon, 6 Apr 2015 21:12:01 +0300|Mon, 6 Apr 2015 21:12:01 +0300
+02948e411ffe4c55a64831980547dd690a4e3188|Fix btsync configuration on TPI labs|Tue, 24 Mar 2015 18:53:24 +0000|Fri, 3 Apr 2015 08:29:01 +0000
+b1bedeab04b4452072dbac1fa5b508e4826abf9d|TPI Labs: changed default rsync ip address|Fri, 3 Apr 2015 08:00:34 +0000|Fri, 3 Apr 2015 08:23:50 +0000
+4f33ad8fe03c076b841b924f633f27260a73a5f3|TPI labs: change sudoers build_iso config|Thu, 26 Mar 2015 16:14:04 +0000|Fri, 3 Apr 2015 07:59:06 +0000
+daeb04c36b20fab1de045f06bda7725e2103001f|Add vmware user for pam authorization|Tue, 24 Mar 2015 16:59:48 +0000|Fri, 3 Apr 2015 05:55:00 +0000
+c5819cdf2407fac7d1ecdd0c05fc5a4f371af437|Merge "Ability to set apps to load added"|Thu, 2 Apr 2015 19:41:09 +0000|Thu, 2 Apr 2015 19:41:09 +0000
+68d1923ea2ab10d2c4d81e30a9cdf5977e42b642|Misc changes in site.pp|Thu, 2 Apr 2015 12:48:21 +0200|Thu, 2 Apr 2015 15:51:27 +0000
+7f77a7681a2de5d4c6c07402715f35eb0de1a8e6|Remove unnecessary check|Thu, 2 Apr 2015 17:32:36 +0300|Thu, 2 Apr 2015 17:32:36 +0300
+0feca674b85efe8248a28659bad7d86752087ebe|New NODE for sharing files to partners|Thu, 19 Feb 2015 10:08:23 +0100|Thu, 2 Apr 2015 13:15:33 +0200
+7cc6093b2b51dc6cc05b212d653a44662af48eff|Ability to set apps to load added|Wed, 1 Apr 2015 13:45:28 +0300|Wed, 1 Apr 2015 13:55:53 +0300
+de705b5bd4c0d2a65f1861a17621c5606898fd4e|Minor changes in Jenkins master and jenkins_cli|Wed, 1 Apr 2015 11:22:14 +0200|Wed, 1 Apr 2015 12:05:37 +0200
+6bc5717b126cb9889d6fd650a3569ee8a176cf99|Fixed path in sudoers for lab-cz server|Mon, 30 Mar 2015 23:49:37 +0300|Mon, 30 Mar 2015 23:49:37 +0300
+f37f5c3dd72a8adaacf05e9682e00da16f16268b|Fixes deployment problem of new Poznan mirror|Mon, 30 Mar 2015 20:26:27 +0200|Mon, 30 Mar 2015 20:26:27 +0200
+d56bc280a645b5af7065dfa023a8b933eaf80af6|Merge "Change of logic in fuel_stats:analytics"|Mon, 30 Mar 2015 17:44:27 +0000|Mon, 30 Mar 2015 17:44:27 +0000
+32b40c66c019deeb1d577ac177e6ec91c27f871b|Added new node for mirror in Poznan location|Mon, 30 Mar 2015 18:57:29 +0200|Mon, 30 Mar 2015 18:57:29 +0200
+593714276837f0fe64f74bf783fbad245bbdcfe7|Added firewall rules for mysql and bacula|Tue, 24 Feb 2015 12:53:06 +0300|Mon, 30 Mar 2015 14:27:51 +0000
+4b377d1f77b72b3c7eb2b26d3439e05c5d69002e|Added the "defaultMaxClauseCount" option|Wed, 25 Mar 2015 17:21:03 +0000|Mon, 30 Mar 2015 14:23:05 +0000
+4c8495f729cd665702c41ba7d65c8cf9bf1f8e0d|Explicitly define fqdn in /etc/mailname|Sat, 28 Mar 2015 17:59:58 +0200|Sat, 28 Mar 2015 18:14:30 +0200
+7ddcba22b3c3040310e6421f74b9cb3cd67ef4ad|Merge "setting zones dir to bind:bind owned"|Fri, 27 Mar 2015 22:17:07 +0000|Fri, 27 Mar 2015 22:17:07 +0000
+c76652690352c3365bfe40056a781eab0139b2e6|Change of logic in fuel_stats:analytics|Fri, 27 Mar 2015 20:12:40 +0300|Fri, 27 Mar 2015 22:14:27 +0000
+e57815e5e53af4106f184d02e7379b36c1eb64f5|Merge "Provide environment for running packages requirements tests"|Fri, 27 Mar 2015 22:14:14 +0000|Fri, 27 Mar 2015 22:14:14 +0000
+634bf267db7c8971a9b1e12e4754be5f7fc3e255|Merge "Fix fakeui demo site deployment"|Fri, 27 Mar 2015 22:13:24 +0000|Fri, 27 Mar 2015 22:13:24 +0000
+e9fa569b471a0c81b8d2691555d71a71a29a9979|setting zones dir to bind:bind owned|Thu, 26 Mar 2015 17:43:36 +0300|Fri, 27 Mar 2015 22:12:30 +0000
+fc336c8acb816f2d045617c8032a0a0c8b7d167f|Merge "Refactor fuel iso sharing over http"|Fri, 27 Mar 2015 22:12:16 +0000|Fri, 27 Mar 2015 22:12:16 +0000
+1d0ca8adb7a85e9c115d1adba09c654b6b301bfc|Fix fakeui demo site deployment|Thu, 26 Mar 2015 23:41:33 +0200|Fri, 27 Mar 2015 14:29:44 +0000
+4ba34ebd4fa910e63f1c1f5ca08b73905827573a|Refactor fuel iso sharing over http|Thu, 26 Mar 2015 14:15:39 +0200|Fri, 27 Mar 2015 16:27:02 +0200
+b5580f7a01916ba83410fe995b54b6bef5eef3b7|Refactor seedcleaner usage|Fri, 27 Mar 2015 12:40:49 +0200|Fri, 27 Mar 2015 13:45:06 +0000
+f11d682ba262dca5dd6633ae073523db2d90f25d|Fix pkgs-ci.fuel-infra.org jenkins master definition|Fri, 27 Mar 2015 16:29:37 +0300|Fri, 27 Mar 2015 16:29:37 +0300
+6d3bd6926fbbff439cd56d9e58f003220e6005a2|Provide environment for running packages requirements tests|Wed, 25 Mar 2015 17:33:20 +0200|Fri, 27 Mar 2015 08:08:06 +0000
+098b9957ec6415012e6def4e782aedc9760d9a66|Define function for defining ssl certificates from hiera|Tue, 24 Mar 2015 18:10:32 +0300|Thu, 26 Mar 2015 15:44:56 +0000
+d682ce764e38d960084338d282390887491c6b79|Install gulp on CI-slaves|Mon, 23 Mar 2015 17:05:18 +0200|Thu, 26 Mar 2015 14:21:58 +0000
+ff34c8b874cd23085d9b8763b676bf9c5eab418a|Fix-up for bash code|Thu, 26 Mar 2015 15:49:50 +0300|Thu, 26 Mar 2015 15:49:50 +0300
+3375a71670c92893f7346bdb947f68aecf183e46|Fix for mosi.mirantis.net zone file permissions|Thu, 26 Mar 2015 03:36:57 +0300|Thu, 26 Mar 2015 15:29:33 +0300
+9875a5b170d03645ed0ff21974764781cfd0a210|Dynamic zones support|Thu, 26 Mar 2015 14:03:59 +0300|Thu, 26 Mar 2015 14:32:10 +0300
+4ffca5cf5aeb18f30a419871a7c91519b0a43f04|Switching to updated version of puppet-bind|Wed, 25 Mar 2015 19:26:04 +0300|Wed, 25 Mar 2015 19:26:04 +0300
+0fb7c6eec7086becaa6bbacca2587e8ff96bbf90|Add packages for TPI labs|Tue, 24 Mar 2015 21:09:54 +0000|Wed, 25 Mar 2015 13:18:29 +0000
+c14925e190ed809b5568f57104a941d4c835afe7|Firewall support for NS role|Tue, 24 Mar 2015 22:33:12 +0300|Wed, 25 Mar 2015 13:01:44 +0000
+8b86ec52e7192bb87d7f16745ecc2788f7736283|Jenkins master authorization fixes|Wed, 18 Mar 2015 20:36:52 +0300|Wed, 25 Mar 2015 15:31:32 +0300
+45deb77f438f92d62df096119f42926475ae0e37|Implement seed-cleanup on seed servers|Tue, 24 Mar 2015 12:39:00 +0200|Tue, 24 Mar 2015 20:15:56 +0000
+093a9b796351b525efaf6ff1981af133ed5a1243|Zabbix frontend SSL support|Tue, 24 Mar 2015 16:13:10 +0300|Tue, 24 Mar 2015 17:58:35 +0300
+751faa3b67c7650f8987548c6ad21fa84f2b03f0|Install VMWare environment on TPI labs|Tue, 17 Mar 2015 21:35:42 +0000|Tue, 24 Mar 2015 11:14:47 +0000
+e2e6ccc4546de7c75dc7a06b37707bb364f5ffc7|Merge "Added "bacula" puppet module"|Tue, 24 Mar 2015 10:39:57 +0000|Tue, 24 Mar 2015 10:39:57 +0000
+7db96c077fdac8f8499867613e84c347b4001900|Fix for stats parsing script to make its output parsable by zabbix-agent|Mon, 23 Mar 2015 21:00:01 +0300|Mon, 23 Mar 2015 21:00:01 +0300
+3e9a2a57f6524a90ba8d1226cef13c16a645facd|Send 0 value for DNS check if there is an empty value|Mon, 23 Mar 2015 19:39:19 +0300|Mon, 23 Mar 2015 19:39:19 +0300
+b10da3ca16a711396099187309d2bab80c1b2ab1|Fixed 'osci_test' option in 'fuel_project::jenkins::slave' class:|Mon, 23 Mar 2015 09:21:23 +0200|Mon, 23 Mar 2015 15:43:38 +0000
+51de5e50bcf808ffa577ede4f5b941d2d13a8ffd|Added "bacula" puppet module|Thu, 19 Mar 2015 16:03:33 +0000|Mon, 23 Mar 2015 15:27:10 +0000
+68d80b56afea2fdcf3cd58a7c10c75f10af21d68|Fix for rndc permission problems|Mon, 23 Mar 2015 17:17:37 +0300|Mon, 23 Mar 2015 17:17:37 +0300
+42a98771ee3868be4084e8f2b05390d6f916a829|Allow to prepare sources for building packages on jenkins slave|Fri, 20 Mar 2015 00:11:24 +0200|Mon, 23 Mar 2015 10:00:29 +0000
+7a682eeb8fb2ea24a6131b28c5df03a2208119fb|Bind monitoring items added|Sun, 22 Mar 2015 04:19:34 +0300|Mon, 23 Mar 2015 00:01:31 +0300
+a034f77b29c28cf16df8cc2071949aa2cc99274e|Fixed typo in variable name of "hideci" module|Thu, 19 Mar 2015 13:12:17 +0000|Thu, 19 Mar 2015 13:16:35 +0000
+4ab9528a036368335facac22a718aaf38462f488|Merge "Fix rvm permissions for fpm gem"|Thu, 19 Mar 2015 11:42:17 +0000|Thu, 19 Mar 2015 11:42:17 +0000
+ecd88099c85fd850469646ab44a24463745123a2|Removed duplicate definition of "/home/jenkins/.ssh" directory from deploying of osci jenkins slaves|Thu, 19 Mar 2015 13:44:11 +0300|Thu, 19 Mar 2015 13:48:17 +0300
+f1252a0c0a36f2d509d1e6eddc347780129f727c|Fix for wrong template string usages in zabbix::server module|Thu, 19 Mar 2015 13:13:14 +0300|Thu, 19 Mar 2015 13:13:14 +0300
+5994263c69277784e5b125d5c424a243b713d6ec|Zabbix MySQL replication support|Wed, 18 Mar 2015 14:44:42 +0300|Thu, 19 Mar 2015 08:29:56 +0000
+a87e4f94a1a7abd329655e3359ebcd290565f618|Added missed parameter "external_host" to gerrit hosts|Thu, 19 Mar 2015 01:40:29 +0300|Wed, 18 Mar 2015 22:55:24 +0000
+aa10ab788d19e894fc27b371952aa97dec2ebbb5|Do not install mock package on slaves|Wed, 18 Mar 2015 17:30:14 +0200|Wed, 18 Mar 2015 15:50:13 +0000
+e8cbfcb55231530bcca7d78a90c74154de216bfa|ISO Vault virtual host added|Wed, 18 Mar 2015 16:38:04 +0300|Wed, 18 Mar 2015 15:44:09 +0000
+d0b970e4c86926a27cad812a3c19dc80acdbee5e|Add ssh key & username param for lpupdatebug|Thu, 5 Mar 2015 00:35:18 +0100|Wed, 18 Mar 2015 16:23:05 +0100
+a7589bf8337ae3f57070c913c8f833f29b6d65ea|Allow to control tries number for set_security|Fri, 27 Feb 2015 17:21:02 +0100|Wed, 18 Mar 2015 14:59:21 +0000
+4683905a67dd48f83ec342ce170806082b858b12|Add fuel-ci jenkins master(s) to site.pp|Wed, 18 Mar 2015 16:09:22 +0300|Wed, 18 Mar 2015 16:26:28 +0300
+7fd36e0195a4a78b66a0eefd7d4e68713f70290f|Move tpi nfsclient from fuel_project|Tue, 17 Mar 2015 21:28:38 +0000|Wed, 18 Mar 2015 12:59:42 +0000
+da1807de21de4458e83c83e1ab73aa6571fec5d0|Merge "Fix for fuel-stats git auto-updater script"|Wed, 18 Mar 2015 09:48:26 +0000|Wed, 18 Mar 2015 09:48:26 +0000
+b1f7171c0934e1c256a1f8e2f729582e5fa94cb0|Fix hostname for lab-cz.vm.mirantis.net|Wed, 18 Mar 2015 12:39:48 +0300|Wed, 18 Mar 2015 12:39:48 +0300
+4c5ce6baac3211a927cecf81f4e23cc075cb078a|Update puppet-php module to version 1.1.0|Tue, 17 Mar 2015 23:22:41 +0200|Tue, 17 Mar 2015 23:22:41 +0200
+60bb4d602b1018161ed4311d0556365bcb8560db|Fix rvm permissions for fpm gem|Tue, 17 Mar 2015 16:35:23 +0300|Tue, 17 Mar 2015 16:35:23 +0300
+3de5449b0d226df31e6439ad9246e85ecbbe9c17|Fix for fuel-stats git auto-updater script|Tue, 17 Mar 2015 14:50:59 +0300|Tue, 17 Mar 2015 12:03:09 +0000
+86e2188edda85860d7231f7eb21168d355f8f3e0|moving zbxservers to devops.mirantis.net|Tue, 17 Mar 2015 11:23:59 +0300|Tue, 17 Mar 2015 08:55:49 +0000
+b64f0204e7234d2f968c783bd6786372bc10783d|Check and fix for hostname if it's properly set added|Mon, 16 Mar 2015 13:05:00 +0300|Mon, 16 Mar 2015 21:14:47 +0000
+ab98fa335e133e7769df8d99593425f44b8e5e17|tracker01-(mnv bud msk) added + cleanup on ::fuel_project::common invokation|Mon, 16 Mar 2015 10:32:11 +0300|Mon, 16 Mar 2015 15:19:33 +0000
+f56f732982bb54d4be305fe81c72e5ae91fda5f6|Mirror role added to storage servers|Mon, 16 Mar 2015 17:19:51 +0300|Mon, 16 Mar 2015 17:21:35 +0300
+b7ae182f91a9cbe526bcc40fc6c1577cde05bb44|Fix for sandbox sudoers file template|Fri, 13 Mar 2015 15:05:48 +0100|Fri, 13 Mar 2015 15:08:03 +0100
+a6557f88d0770b76d2bbfe2896707f5409470a41|Merge "Added debmirror package required to build new Ubuntu 14.04 ISO"|Fri, 13 Mar 2015 13:48:12 +0000|Fri, 13 Mar 2015 13:48:12 +0000
+60bb098e2077f3f6dea92c5d649bb61b5d7310cf|Added replication to manifests|Thu, 11 Dec 2014 18:15:51 +0000|Fri, 13 Mar 2015 15:34:53 +0300
+9c9b61e09db7774050122c62aec865cc1215031e|Merge "Fixing of missing extension"|Fri, 13 Mar 2015 09:10:06 +0000|Fri, 13 Mar 2015 09:10:06 +0000
+73af158747e48b1ec49fed5423cb44ef7b3b71bc|Fix for rndc launch: use full path|Thu, 12 Mar 2015 20:59:38 +0300|Thu, 12 Mar 2015 20:59:38 +0300
+5d4851e696a12a915d70d3be3f7e1ea7c841cd47|Merge "Change login expiration period and permit remote plugin reload"|Thu, 12 Mar 2015 17:44:46 +0000|Thu, 12 Mar 2015 17:44:46 +0000
+7da53bc313c43487d015487a101cac998f3852ec|Fixing of missing extension|Thu, 12 Mar 2015 19:53:32 +0300|Thu, 12 Mar 2015 19:53:32 +0300
+5c077c9466994024f5d6f3347f863b7414960c46|Fixed firewall rules for docs.mirantis.com|Thu, 12 Mar 2015 19:38:53 +0300|Thu, 12 Mar 2015 19:38:53 +0300
+a9384b75d7bd1f6bcd88e8c210c31d4bf6649d49|Adding autoupdating script for ns|Thu, 12 Mar 2015 17:19:22 +0300|Thu, 12 Mar 2015 15:51:05 +0000
+03cbeea14b05ba31afccd07fb6e4dfc26b6f5142|Added local ssh keys feature to jenkins slave|Thu, 12 Mar 2015 17:12:01 +0300|Thu, 12 Mar 2015 15:47:39 +0000
+fa04d935dcd67fbb02678d7dc3b620fc03e24bb4|Changed name to docs.fuel-infra.org|Thu, 12 Mar 2015 16:18:07 +0300|Thu, 12 Mar 2015 14:13:42 +0000
+3112debf40d9b9dbde388aa19ce4360f7cfb7d0e|Remove spacewalk because of cancellation|Wed, 11 Mar 2015 17:50:17 +0300|Thu, 12 Mar 2015 16:15:48 +0300
+fd8ce86ca0ea28ad84b83e5a6b653ff983b9cde9|Change login expiration period and permit remote plugin reload|Wed, 11 Mar 2015 16:00:15 +0000|Thu, 12 Mar 2015 14:04:58 +0300
+47f8ec6888f9913d0c9449e5a13711eadbfafb1a|Fixes to thias-bind puppet module|Wed, 11 Mar 2015 16:59:57 +0300|Wed, 11 Mar 2015 17:46:16 +0300
+a482dc07696ae6c957b8ddde9e4d7ff48f818491|New host for fuel-docs|Tue, 10 Mar 2015 20:57:40 +0300|Wed, 11 Mar 2015 15:34:46 +0300
+ef29911925d940eb31c13f90c92526fa331a6861|Typo fix|Tue, 10 Mar 2015 21:26:40 +0300|Tue, 10 Mar 2015 21:26:40 +0300
+d62a662f0607abb403202e849d44c8d6c79e67a0|Added debmirror package required to build new Ubuntu 14.04 ISO|Tue, 10 Mar 2015 17:51:01 +0100|Tue, 10 Mar 2015 18:09:47 +0000
+b1cc92168ef57fd0280d7ffd3822cf59f6bd7477|Merge "Added limit-conn parameter for anonymous statistics"|Tue, 10 Mar 2015 12:33:13 +0000|Tue, 10 Mar 2015 12:33:13 +0000
+7e5f1d54920f4cf95957e29030acec75e352ea29|Adding plugins repository to configuration of landing_page|Tue, 10 Mar 2015 14:53:26 +0300|Tue, 10 Mar 2015 14:53:26 +0300
+66cf25a6529fa4cdb43b1fc8fdc539bdd15dcf8f|Added limit-conn parameter for anonymous statistics|Thu, 5 Mar 2015 13:14:03 +0300|Tue, 10 Mar 2015 10:10:11 +0000
+aa00c2612aa7ad81b6939e52d0306c6932e562d0|Merge "storage01 added"|Sat, 7 Mar 2015 12:39:16 +0000|Sat, 7 Mar 2015 12:39:16 +0000
+687839d6120b507ca381e41f78eb50415402eda5|storage01 added|Fri, 6 Mar 2015 16:33:13 +0300|Fri, 6 Mar 2015 13:44:32 +0000
+ae2c716e7bb530a0fd3168f4e4de7214898bf89c|Repo building packages added|Fri, 6 Mar 2015 16:38:14 +0300|Fri, 6 Mar 2015 16:38:14 +0300
+69ca1c37aaadaac7d6a88cede42d0280cc321e80|Added new group of hosts|Thu, 5 Mar 2015 15:40:13 +0300|Thu, 5 Mar 2015 15:40:13 +0300
+5b70a9c79a7c0b35a9869c9121ee20a2d26bb30d|Added new servers|Thu, 5 Mar 2015 13:12:59 +0300|Thu, 5 Mar 2015 13:14:18 +0300
+4ea6dd9b11668cb65ae9e8ea7e13b59ba8d2183a|NS servers and bind configuration added|Tue, 3 Mar 2015 18:46:44 +0300|Wed, 4 Mar 2015 18:30:45 +0300
+a99cbb48052eb5436a9ec9067abf6f29c8282aef|generic improvements for overall quality|Wed, 28 Jan 2015 16:01:46 +0000|Wed, 4 Mar 2015 12:55:31 +0000
+0c19276c3522454282e9cb163529aa68794c02d8|Compression for some of text files added|Mon, 2 Mar 2015 20:06:00 +0300|Mon, 2 Mar 2015 20:07:16 +0300
+93ddca0a3be25649c85c997af46388885302b47b|Fixes installation of fuel_project::seed|Thu, 26 Feb 2015 18:32:45 +0300|Mon, 2 Mar 2015 13:55:22 +0000
+a4c974c2e53fabbb1e1e1c0dba4b6e0038de4994|Adding SMART check items|Tue, 24 Feb 2015 15:57:56 +0300|Mon, 2 Mar 2015 07:51:50 +0000
+662b3a7db4bcd3bf63813b81b7b16e5553605e24|Fix labels nginx location for jenkins master|Thu, 26 Feb 2015 21:11:06 +0300|Mon, 2 Mar 2015 06:37:08 +0000
+5b4c8fbcf3f9a6059eb44fb044ccd78877a75a74|Merge "Mock usage refactoring"|Sat, 28 Feb 2015 13:51:25 +0000|Sat, 28 Feb 2015 13:51:26 +0000
+7e50deb91b6691a36d717076589e83e38319e828|Add Jenkins slave for docs|Fri, 27 Feb 2015 21:56:20 +0300|Sat, 28 Feb 2015 10:14:08 +0000
+9b95e8b26825d055f2e507d8d6ae03f2f45b84b4|Add config for US jenkin product slaves|Fri, 27 Feb 2015 14:30:49 -0600|Fri, 27 Feb 2015 14:30:49 -0600
+48b7603f94519b99265b4f7989a48e838ebb1cbd|Mock usage refactoring|Fri, 27 Feb 2015 16:05:08 +0200|Fri, 27 Feb 2015 15:19:27 +0000
+2c871fda71e31a8f153eb2d7364dc3fdc5da744a|Enable LP update on (Closes Related)-Bug|Wed, 18 Feb 2015 00:46:44 +0100|Fri, 27 Feb 2015 15:09:43 +0000
+edccd41595e8467b3c6f17609848c1a4616a60cf|Merge "Add retries on create_server"|Fri, 27 Feb 2015 14:47:41 +0000|Fri, 27 Feb 2015 14:47:41 +0000
+864882c82725e81723dda4167fd189fcb940a9cf|Merge "Added credentials manipulating methods"|Fri, 27 Feb 2015 14:27:11 +0000|Fri, 27 Feb 2015 14:27:11 +0000
+a24bf1185ff3332425f96af056a77cd0ab3e4aa5|Merge "Add option to grant permissions in jenkins to multiple ldap users/groups"|Fri, 27 Feb 2015 14:04:30 +0000|Fri, 27 Feb 2015 14:04:30 +0000
+923c304912c2e58f61617fa872ed24a75985c736|Added credentials manipulating methods|Wed, 18 Feb 2015 22:33:19 +0100|Fri, 27 Feb 2015 14:03:27 +0000
+9f5937ae8da43de3faf96ad0a2eb2ea835b80a08|Merge "Disabled default chmod on TPI rsyncd"|Fri, 27 Feb 2015 14:03:08 +0000|Fri, 27 Feb 2015 14:03:08 +0000
+06c0e3ddda745d7dc2d92431f0e2c0f2fbcb694f|Merge "Add sudo rights for tpi group on tpi labs"|Fri, 27 Feb 2015 14:01:56 +0000|Fri, 27 Feb 2015 14:01:56 +0000
+a29b3b40675b3630c0e625b69809e850840db242|Merge "Enable sudo on jenkins slaves for fuel-core-team"|Fri, 27 Feb 2015 14:01:17 +0000|Fri, 27 Feb 2015 14:01:17 +0000
+122ecc5771d0465a013d2614fc93368eabf1a051|Merge "Simple Jenkins Master URL information for Cleaner Job."|Fri, 27 Feb 2015 13:58:10 +0000|Fri, 27 Feb 2015 13:58:10 +0000
+39b11102c27bb85e194d4f6fc397a84404b30b00|Install pigz for mock|Fri, 27 Feb 2015 15:08:17 +0200|Fri, 27 Feb 2015 13:20:23 +0000
+5220bb65d5cdd6404cc7581650a7c018b4a83af9|Simple Jenkins Master URL information for Cleaner Job.|Thu, 12 Feb 2015 11:39:24 +0100|Fri, 27 Feb 2015 11:40:28 +0100
+69f7ba5bc0ca4bcd789295dffa3a801ee4b7b369|Enable sudo on jenkins slaves for fuel-core-team|Thu, 26 Feb 2015 23:03:59 +0100|Thu, 26 Feb 2015 23:05:01 +0100
+3a3b354292a4ef64defb3d544343191fc7e4b162|Add mirror-pkgs.vm.mirantis.net node|Wed, 25 Feb 2015 18:36:15 +0100|Thu, 26 Feb 2015 22:01:31 +0100
+c3d70c2f08e660eb0b247012d885e479a31e53a9|Add sudo rights for tpi group on tpi labs|Thu, 26 Feb 2015 19:38:35 +0000|Thu, 26 Feb 2015 20:32:00 +0000
+ff8978ec5bfd97b47bc1166c4c970de5e5e9d131|Merge "Extend fuel_project::mirror to be more flexible"|Thu, 26 Feb 2015 20:29:37 +0000|Thu, 26 Feb 2015 20:29:37 +0000
+1750e31eb861cab7f7a0ed111fae2d4be23e12b5|Disabled default chmod on TPI rsyncd|Fri, 20 Feb 2015 00:09:10 +0000|Thu, 26 Feb 2015 18:19:27 +0000
+5fcb499dee066b33a21191b6407fa1fbd88f160d|New class for TPI puppet master|Thu, 19 Feb 2015 14:01:59 +0000|Thu, 26 Feb 2015 16:48:37 +0000
+69d70e644e1c1ba3f49052b8c586776522c12905|Merge "Generalization of TPI nfs resources"|Thu, 26 Feb 2015 16:39:26 +0000|Thu, 26 Feb 2015 16:39:26 +0000
+d527a2fb35307b8f547669d25f5961741311e7c8|Fix pxetool installation|Thu, 26 Feb 2015 18:11:30 +0300|Thu, 26 Feb 2015 15:18:09 +0000
+7f472ae15d25b248f90bc900508d0e7e30ac84f3|Fix osc package installation|Thu, 26 Feb 2015 16:32:29 +0200|Thu, 26 Feb 2015 16:32:29 +0200
+381bfc08f3befd930c93d012dec1a2dac5b4eb68|Add option to grant permissions in jenkins to multiple ldap users/groups|Thu, 26 Feb 2015 15:47:02 +0300|Thu, 26 Feb 2015 15:47:02 +0300
+1366b638962e1ad2864f090a13098cafb9d66a7b|Extend fuel_project::mirror to be more flexible|Wed, 25 Feb 2015 21:09:33 +0100|Thu, 26 Feb 2015 11:38:35 +0000
+35cc5b48d4375c8d9bdf6779a0b4e75421b63f1e|Added 'osci_test' option in 'fuel_project::jenkins::slave'.|Tue, 24 Feb 2015 07:50:12 +0200|Thu, 26 Feb 2015 11:37:43 +0000
+7e1820b4e8b92742f9ee572b919a6adfb7b3c88a|Move gerrit configuration to fuel_project::gerrit|Wed, 18 Feb 2015 13:15:52 +0300|Wed, 25 Feb 2015 16:17:19 +0000
+ef82a19b6d85323e618f0b78999b53d86dc9e742|Add option to not overwrite jenkins authorization matrix|Wed, 25 Feb 2015 18:00:32 +0300|Wed, 25 Feb 2015 15:12:55 +0000
+4e6598f24fdee2aff41ffcc1df6718707c75d929|Generalization of TPI nfs resources|Wed, 18 Feb 2015 14:14:30 +0000|Wed, 25 Feb 2015 15:04:09 +0000
+d2de107c13fd8f6f2436cdd4a005ad0a9ed73289|Add retries on create_server|Tue, 24 Feb 2015 19:43:05 +0300|Wed, 25 Feb 2015 17:08:23 +0300
+05665e68c955e8038296b333999142b3977b7a16|Added limitations to test hosts by floating ips|Tue, 24 Feb 2015 19:55:43 +0300|Wed, 25 Feb 2015 15:57:25 +0300
+56fceff96c76d2c8b826ea53a4d5b3fdefeda214|Fix installation pxetool without puppet master|Tue, 24 Feb 2015 22:14:56 +0300|Wed, 25 Feb 2015 15:56:55 +0300
+4890f9f2f479e01a1699e81ff08b63e24eb0dc78|Allow MTA to work only for local delivery|Tue, 17 Feb 2015 11:35:11 +0200|Wed, 25 Feb 2015 11:38:34 +0000
+cefe034e2e5ce40a8dfc5da17bf56c6d6f0cbfc0|Add slave for jenkins master testing|Wed, 25 Feb 2015 13:25:34 +0300|Wed, 25 Feb 2015 13:25:34 +0300
+1b4befdfb1103fa2817bf64bdc9a9fb7607c9988|Adding docs landing page|Sat, 21 Feb 2015 15:29:47 +0300|Tue, 24 Feb 2015 18:21:56 +0300
+8055a49ee0a2144ed96620f937716925507122bc|Fix for test utility location in cronjob|Tue, 24 Feb 2015 16:04:26 +0300|Tue, 24 Feb 2015 16:04:26 +0300
+47394262e36d38d04ea5deb523d9a9e9ec1e3bb3|Merge "Make sure www root dir exists"|Tue, 24 Feb 2015 12:10:50 +0000|Tue, 24 Feb 2015 12:10:50 +0000
+132bb45cf11f0b6232cf5e8d8eb35aec0476a2b8|Enabling ::fuel_project::nginx for jenkins slaves|Mon, 23 Feb 2015 15:43:08 +0300|Mon, 23 Feb 2015 15:43:08 +0300
+8d71744f4dc6bf47725001f0430d85b5a7761b37|Make sure www root dir exists|Thu, 19 Feb 2015 21:50:46 +0100|Sun, 22 Feb 2015 15:02:49 +0100
+bc1184a3282714435e443b1a0e5eafd760cc5eb8|Adding log sharing virtual host|Sat, 21 Feb 2015 13:16:20 +0300|Sat, 21 Feb 2015 15:05:11 +0300
+baf6d9d90ab1cb7513db644a5c5636e4793e4d88|Install required packages for devops env|Fri, 20 Feb 2015 15:09:49 +0200|Fri, 20 Feb 2015 15:40:16 +0200
+5b5cab69e4c155d7dce17bf04f8a507aa99f197a|Install python-virtualenv for system tests|Fri, 20 Feb 2015 14:29:29 +0200|Fri, 20 Feb 2015 14:29:29 +0200
+90586531d4c7af285c7fb488a496c2acac2bc1a4|Merge "FIXME cleanups"|Fri, 20 Feb 2015 09:51:57 +0000|Fri, 20 Feb 2015 09:51:57 +0000
+98267c919639e6ab57a6c6528ec4c6fc55a458ca|Merge "Fix for set_security ldap"|Fri, 20 Feb 2015 09:42:48 +0000|Fri, 20 Feb 2015 09:42:48 +0000
+601ca2977dcb57403367df0dfd1e4ebd7a4e4792|FIXME cleanups|Fri, 20 Feb 2015 12:36:28 +0300|Fri, 20 Feb 2015 09:41:45 +0000
+de9b4cfa49e3dfc8457f4d767b0268531fce53f2|Prevent unknown function basename|Fri, 20 Feb 2015 10:19:37 +0100|Fri, 20 Feb 2015 10:19:37 +0100
+78e5f3784ca7d64801219cfa15f2cc296f0d6746|Merge "Added new host"|Fri, 20 Feb 2015 09:11:42 +0000|Fri, 20 Feb 2015 09:11:43 +0000
+02c440fa26c2f152f9add56baea5fb4187ade93d|Fix label dumper nginx location in jenkins master|Fri, 20 Feb 2015 12:06:43 +0300|Fri, 20 Feb 2015 12:06:43 +0300
+f9d7c9c8a13b83de415ed3e9ed61bd0122bbcc8f|Added new host|Thu, 19 Feb 2015 18:39:04 +0300|Fri, 20 Feb 2015 08:05:36 +0000
+325b827b069a4d86e0f9f6adbd700a78d157e542|Fix for set_security ldap|Fri, 20 Feb 2015 00:28:46 +0100|Fri, 20 Feb 2015 07:41:09 +0000
+3aef0d540618b905ca5798a2eb9065739db65d0c|add hideci to manifests|Thu, 19 Feb 2015 18:49:20 +0300|Thu, 19 Feb 2015 20:54:09 +0000
+5c1bffb07bb224233a12115afaa1c6f829ee098a|Typo fix in label_dumper_destpath|Thu, 19 Feb 2015 20:32:25 +0100|Thu, 19 Feb 2015 20:33:03 +0100
+35ec08258f6c9c3cbf383fd5afd11a8250ee29ab|Merge "Fix jenkins master nginx redirect"|Thu, 19 Feb 2015 17:46:32 +0000|Thu, 19 Feb 2015 17:46:32 +0000
+e26dd6aa6b8cbc348d6cd9395e245c64d7c7d5f0|Merge "Added new manifests for "python-lpbugmanage" script"|Thu, 19 Feb 2015 17:15:30 +0000|Thu, 19 Feb 2015 17:15:30 +0000
+4b42f9cf7ba3d35a427cb2c68ccd62490f7bd84f|Added new manifests for "python-lpbugmanage" script|Tue, 27 Jan 2015 17:52:34 +0000|Thu, 19 Feb 2015 14:18:17 +0000
+743a1834f24a18aadcc182664f84946eae536b2d|Bump puppetlabs-stdlib version to add 'basename' function support|Thu, 19 Feb 2015 16:12:05 +0300|Thu, 19 Feb 2015 16:12:05 +0300
+9a6679b32ab2d09a91a5da043cab8d305944fb36|Fix for proper file invocation|Thu, 19 Feb 2015 15:05:43 +0300|Thu, 19 Feb 2015 12:07:07 +0000
+f87c4fd400a80e4c556094c7aaabb2defbd631c3|Fix jenkins master nginx redirect|Wed, 18 Feb 2015 16:55:35 +0300|Thu, 19 Feb 2015 02:04:42 +0000
+7e5306a42aaafdba877c09b5b45da38cc6121ba8|Merge "Add jenkins master testing node"|Thu, 19 Feb 2015 00:52:37 +0000|Thu, 19 Feb 2015 00:52:37 +0000
+f25647fde3d2e88203c1ee426fe44688ebe0ed12|Merge "mock added to slaves running tests"|Thu, 19 Feb 2015 00:47:09 +0000|Thu, 19 Feb 2015 00:47:09 +0000
+76c5fb6bb01a300c5b0155c07b8706a084bc090b|Add jenkins master testing node|Wed, 18 Feb 2015 17:32:27 +0300|Wed, 18 Feb 2015 19:53:40 +0000
+f05d4a2173a268c01199f775237bd3c2728d7edb|Fix for legacy parameter and cleanup|Wed, 18 Feb 2015 21:29:06 +0300|Wed, 18 Feb 2015 21:29:06 +0300
+bc4f287d78a2f10f22ef2775f5b450334f4b8e1e|mock added to slaves running tests|Wed, 18 Feb 2015 20:49:58 +0300|Wed, 18 Feb 2015 20:49:58 +0300
+a089e5e9ef439a11e21e46aeba1a88581262c183|zbxserver nodes added|Tue, 17 Feb 2015 17:18:01 +0300|Wed, 18 Feb 2015 16:29:13 +0000
+8d5d2a8bdab9ac928f143a0cb2edc2abc55d8f2a|Merge "Enabled shared storage dir on TPI hosts"|Wed, 18 Feb 2015 16:22:35 +0000|Wed, 18 Feb 2015 16:22:35 +0000
+563d9c61a24c81970e1e0236d865bf1847fb0d4f|Jenkins Master sandbox - def nodes & ldap|Fri, 13 Feb 2015 13:20:58 +0300|Wed, 18 Feb 2015 15:58:17 +0000
+0006dad525bc9a9db9d303a75613427b44c47af9|Removing virtualenv creation from manifests side|Mon, 16 Feb 2015 17:35:38 +0300|Wed, 18 Feb 2015 14:57:15 +0000
+7962b5f14b7b0667caea973101595c1804fa8c7c|Add new pubkey to hiera|Tue, 17 Feb 2015 18:03:29 +0300|Wed, 18 Feb 2015 13:25:01 +0300
+a96b58ed42e29767497bc8f1bfd38612c16d8fc2|Enabled shared storage dir on TPI hosts|Wed, 18 Feb 2015 08:42:16 +0000|Wed, 18 Feb 2015 08:42:16 +0000
+21e6c4f5711f5df4379a51b1f1e1172c7093e241|Enabled autofs user homes on TPI hosts|Fri, 13 Feb 2015 17:56:26 +0000|Tue, 17 Feb 2015 12:46:20 +0000
+d1ca31e58a11ba44a4a3c9188569e461631ba102|Fix for fuel-stats collector firewall|Thu, 12 Feb 2015 18:53:55 +0300|Mon, 16 Feb 2015 17:37:52 +0300
+62f273b19a81ec9d5c29e6345d15b7e3bfbf2ef1|Merge "Putting manifests revision to static file"|Sat, 14 Feb 2015 12:11:57 +0000|Sat, 14 Feb 2015 12:11:57 +0000
+c5c09c7604f3d8523cd9b57bf95fc7b566ceadb5|Merge "Added alertscript definition and slack alert script"|Sat, 14 Feb 2015 12:11:44 +0000|Sat, 14 Feb 2015 12:11:44 +0000
+cd1feea3cd47b70c0eb7b64deaec183eb80e6fa6|Putting manifests revision to static file|Sat, 14 Feb 2015 05:57:08 +0300|Sat, 14 Feb 2015 10:59:58 +0000
+49360187a117d235dd90d8edc11361da9b99db69|Adding ability to set ttl for each directory separately|Thu, 12 Feb 2015 23:09:10 +0300|Sat, 14 Feb 2015 09:07:00 +0000
+9b2902f03db88bfd3b1b41c41f0d0c568043f92a|Merge "Removing unnecessary virtual::user invocation"|Sat, 14 Feb 2015 02:19:38 +0000|Sat, 14 Feb 2015 02:19:38 +0000
+00eb67db6552d335ea1ac46b71eed146c9bf2196|Fix for osfamily choises|Fri, 13 Feb 2015 20:44:45 +0300|Fri, 13 Feb 2015 20:44:45 +0300
+0b32748982f1f079c4b9c3b6fd522a92a4c523fb|Removing unnecessary virtual::user invocation|Fri, 13 Feb 2015 17:15:29 +0300|Fri, 13 Feb 2015 17:36:28 +0300
+96998dff12661484146bdcf33e13bcfe65e76b26|Merge "Add chrome for stackforge-verify-fuel-web-selenium"|Fri, 13 Feb 2015 12:52:13 +0000|Fri, 13 Feb 2015 12:52:13 +0000
+b9827ba0928069a18c2f962e90ec3fc563341f9a|Added alertscript definition and slack alert script|Thu, 12 Feb 2015 20:37:09 +0300|Thu, 12 Feb 2015 17:44:11 +0000
+c6da9855fdf0e610fbf448dd7f003a25803b79d6|Syslinux added to iso build packages list|Thu, 12 Feb 2015 19:55:35 +0300|Thu, 12 Feb 2015 17:02:48 +0000
+dc7bab55a793c5791aba49c8c11bf1808add8354|Merge "Label dumper added"|Thu, 12 Feb 2015 17:00:47 +0000|Thu, 12 Feb 2015 17:00:47 +0000
+1c58a2014b1ee11f13a1271a653367fd9dc3a91f|Fix for missed dependency|Thu, 12 Feb 2015 17:36:16 +0300|Thu, 12 Feb 2015 17:36:16 +0300
+36a9a4e6c832bb8f2314d2a6b9994a8b5c8dc7b6|Moving to python-devops in virtualenvs|Sat, 7 Feb 2015 14:12:21 +0300|Wed, 11 Feb 2015 17:24:51 +0000
+1af0789f9e507b8a7fd630c3c93cbdc028042536|Fuel-stats analytics refactor and new features|Thu, 5 Feb 2015 12:36:55 +0300|Wed, 11 Feb 2015 17:02:09 +0300
+35edf8f8b32820d5989deacd992255c9d9963402|Merge "Fix for seding site.pp file"|Wed, 11 Feb 2015 13:24:15 +0000|Wed, 11 Feb 2015 13:24:15 +0000
+6b98085cac2289f63cb88103179454965fa06dc3|Changing naming chema for anonymous statictisc servers|Thu, 5 Feb 2015 23:51:03 +0300|Wed, 11 Feb 2015 14:13:08 +0300
+e1090754785c78c9e6a260a487f4153bfcabfd41|Separate class for tpi storage servers|Tue, 10 Feb 2015 19:22:13 +0000|Wed, 11 Feb 2015 01:19:15 +0000
+1840459c9b9f1ccca81728f448a10853da52819b|Fix for seding site.pp file|Tue, 10 Feb 2015 21:11:18 +0300|Tue, 10 Feb 2015 21:11:18 +0300
+b12c628a26cbbba13e8db3f970561b2db9c5bfd6|Add chrome for stackforge-verify-fuel-web-selenium|Tue, 10 Feb 2015 11:37:49 +0300|Tue, 10 Feb 2015 16:37:44 +0000
+7f5302fa2a8539b01a28715076c541a2a8fbb989|Merge "Make swarm plugin config readable for Jenkins"|Tue, 10 Feb 2015 16:37:16 +0000|Tue, 10 Feb 2015 16:37:16 +0000
+2600b14be408b3f6a372ed1f1f41dde993576f6d|Useless fuel_project::landing_page class removed|Tue, 10 Feb 2015 17:48:23 +0300|Tue, 10 Feb 2015 17:48:23 +0300
+ee11db0a9bf33e21e982f206b6d26a6bfbf35189|Make swarm plugin config readable for Jenkins|Tue, 10 Feb 2015 12:13:22 +0100|Tue, 10 Feb 2015 12:13:22 +0100
+fb4973db50f3ebf8ffaf1ce20156d1da845c04b6|Fix for pfree and pbusy executors counting|Tue, 10 Feb 2015 13:22:04 +0300|Tue, 10 Feb 2015 13:22:04 +0300
+aebba0eb8d2185804beeb668a069e404d733d1c4|Label dumper added|Mon, 9 Feb 2015 19:20:00 +0300|Tue, 10 Feb 2015 03:37:19 +0300
+bfcbac93ed72006df5a0900df0637c65bf117012|Added python libs required for jenkins cleaning job|Mon, 9 Feb 2015 21:56:17 +0100|Mon, 9 Feb 2015 21:56:17 +0100
+5b09df00b3da2d114d2a2ec09d2fe9d26a6fd5ac|Merge "Queue length zabbix check for jenkins added"|Mon, 9 Feb 2015 11:09:08 +0000|Mon, 9 Feb 2015 11:09:08 +0000
+8760f961e5316dd69a204f3206d7cc23dca5174b|Queue length zabbix check for jenkins added|Sun, 8 Feb 2015 03:14:30 +0300|Mon, 9 Feb 2015 13:19:18 +0300
+de9ea835ec7c454ddedc32d3ff2c2566cb87133c|Fix-ups for logging current version of manifests|Sat, 7 Feb 2015 22:01:00 +0300|Sat, 7 Feb 2015 22:27:21 +0300
+ba637c72e7c6ec0ef48ec559a77283bd725b678f|Fix for sshd config options|Sat, 7 Feb 2015 03:46:25 +0300|Sat, 7 Feb 2015 03:46:25 +0300
+12db8dfeba745e56817acc552713beb6536fa58e|Basic CentOS 6 support, zabbix::item template support|Fri, 23 Jan 2015 19:36:53 +0300|Thu, 5 Feb 2015 23:42:46 +0300
+f621770ad1f8c3e4e64575ea453f9ee15cf89d7b|Merge "Adding SSL certificate check(expiration check)"|Thu, 5 Feb 2015 20:36:30 +0000|Thu, 5 Feb 2015 20:36:30 +0000
+852075d831014c57855a285b224114b717c344c8|Merge "::pxetool refactoring"|Thu, 5 Feb 2015 19:31:28 +0000|Thu, 5 Feb 2015 19:31:28 +0000
+cd6dd29a2a2378d5b08ae4eda71449eaac4be0a7|Additing revision logging|Thu, 5 Feb 2015 20:23:18 +0300|Thu, 5 Feb 2015 20:23:51 +0300
+1c622b87b4e7e3acf04cd4f5320220f5b455499e|::pxetool refactoring|Tue, 3 Feb 2015 23:49:22 +0300|Thu, 5 Feb 2015 14:49:54 +0000
+8e4a8912f189cf861b5f32ac7fe158a9cc2982d8|Adding SSL certificate check(expiration check)|Thu, 5 Feb 2015 01:47:54 +0300|Thu, 5 Feb 2015 10:51:36 +0000
+9d7509e5d3ceaa63e4b829cfbd47e544e36265a1|Adding obs-1.mirantis.com - new OSCI OBS instance|Thu, 5 Feb 2015 12:33:05 +0300|Thu, 5 Feb 2015 12:33:05 +0300
+ee23c1841e0d93fe368901fcd399d7722f15e0e8|Add standard 80 port redirection to 8000|Wed, 4 Feb 2015 22:21:10 +0100|Wed, 4 Feb 2015 22:34:01 +0100
+25636f442f4b1a980188879824d3d1013d6662a5|Starting using custom facts|Wed, 4 Feb 2015 16:16:15 +0300|Wed, 4 Feb 2015 13:55:54 +0000
+412f56dc1f0e4ad3a63a059428024a10f6ed5dc7|Merge "Fix for wrong nginx rewrite on jenkins master"|Wed, 4 Feb 2015 01:18:14 +0000|Wed, 4 Feb 2015 01:18:14 +0000
+2e76ae36f2193b04f207387cbff4a7fa23dc1823|Refactoring and legacy cleanups|Tue, 3 Feb 2015 04:05:40 +0300|Tue, 3 Feb 2015 23:36:55 +0300
+bfe92d39f1b1bf8e729f48964da34885824b082b|PXETool template packages support added|Tue, 3 Feb 2015 17:16:09 +0300|Tue, 3 Feb 2015 17:16:09 +0300
+739018f7242b5554b41b838c41438bb00ec05dee|Fix for pxetool manifests logic(incorrect execution order)|Tue, 3 Feb 2015 03:37:57 +0300|Tue, 3 Feb 2015 03:37:57 +0300
+c151608f02e1a9123f1b598acdfb77d8e19047ce|Merge "Added definition for tpi jenkins master"|Mon, 2 Feb 2015 23:03:24 +0000|Mon, 2 Feb 2015 23:03:24 +0000
+22097f55d723b2277bc5941395ae48dabb6f5578|Merge "Config path updated for pxetool, log attributes fixed"|Mon, 2 Feb 2015 22:51:29 +0000|Mon, 2 Feb 2015 22:51:29 +0000
+3cd36055a2139b2a2fcbd11f9a26a1cb6070dbe4|Merge "tailnew key fix for proper log handling"|Mon, 2 Feb 2015 20:55:15 +0000|Mon, 2 Feb 2015 20:55:15 +0000
+9323d682104b5cda269d6a349989969b0777d8f5|Merge "Add python thread support to demo node"|Mon, 2 Feb 2015 20:52:25 +0000|Mon, 2 Feb 2015 20:52:25 +0000
+d05ebc84daa0f93aa38c60e8f25a49e7de79d1e3|Config path updated for pxetool, log attributes fixed|Mon, 2 Feb 2015 23:46:13 +0300|Mon, 2 Feb 2015 23:46:13 +0300
+5a832be3757c9165b2254099919bcaf1f3d3ddce|tailnew key fix for proper log handling|Mon, 2 Feb 2015 20:44:20 +0300|Mon, 2 Feb 2015 20:44:20 +0300
+8702c242c6364bcb59854f731e2e23ef5930c929|Fix for wrong nginx rewrite on jenkins master|Mon, 2 Feb 2015 15:37:47 +0000|Mon, 2 Feb 2015 15:37:47 +0000
+a9bbe56d5b383cc5e7c0057729d897faa8dbd85d|Added definition for tpi jenkins master|Mon, 2 Feb 2015 13:51:32 +0000|Mon, 2 Feb 2015 13:51:32 +0000
+915bc55ddabdc7a104acc7313762921f01dda906|Adding parameters for nginx logs and log format|Mon, 2 Feb 2015 15:00:34 +0300|Mon, 2 Feb 2015 16:05:50 +0300
+c64c74984f9b01125905b0b6c2f68c15676a0506|Merge "Added ldap configuration for TPI hosts"|Fri, 30 Jan 2015 11:15:44 +0000|Fri, 30 Jan 2015 11:15:44 +0000
+81edbf05261125c3205b29b03613ae2ebbabb287|Merge "CI tests: check exit_code on pxetool installation"|Fri, 30 Jan 2015 09:25:57 +0000|Fri, 30 Jan 2015 09:25:57 +0000
+243c244e6c3d21c30c8505b032ee588bb1873ec8|Merge "Clean only fuel-* artifacts"|Fri, 30 Jan 2015 08:01:23 +0000|Fri, 30 Jan 2015 08:01:23 +0000
+3b5d2ed12e4674db9a657788bc0c097480f8c071|Added ldap configuration for TPI hosts|Thu, 29 Jan 2015 16:34:34 +0000|Thu, 29 Jan 2015 16:34:34 +0000
+6aa760eaa870e6a5647a3467ab410fd5fc9ffdea|Merge "Add support for external mongodb environment"|Wed, 28 Jan 2015 16:57:01 +0000|Wed, 28 Jan 2015 16:57:01 +0000
+e2d0ec5adce9176a3eb80fa07ca6d459003ea523|Remove swarm label to prevent duplicate|Wed, 28 Jan 2015 16:41:58 +0100|Wed, 28 Jan 2015 16:41:58 +0100
+e3ceeadcee35c263b3021aad7a0c6c1e779b7787|Clean only fuel-* artifacts|Wed, 24 Dec 2014 18:41:42 +0300|Wed, 28 Jan 2015 18:39:45 +0300
+ece6bf5eaf22ff6ada85035db15adb98e04f958d|Add python thread support to demo node|Tue, 27 Jan 2015 17:42:43 +0100|Wed, 28 Jan 2015 10:42:44 +0000
+1361ca734bd9a41bda2cda66de9b06ff8039929d|Add support for external mongodb environment|Fri, 5 Dec 2014 15:21:14 +0300|Tue, 27 Jan 2015 17:38:07 +0000
+fd95ffec3ea6c5b3cbcce0d5681ef57cc58e0786|Merge "Move nginx zabbix monitoring staff to nginx stub_status"|Tue, 27 Jan 2015 17:24:13 +0000|Tue, 27 Jan 2015 17:24:13 +0000
+57d87bb67ec418bfe77823c50046d23f546b4dc9|Merge "Add packages needed for tasks graph check"|Tue, 27 Jan 2015 16:26:00 +0000|Tue, 27 Jan 2015 16:26:00 +0000
+5acaf5fa06c5e5a881652545414125697bf2d16e|Merge "Add custom sudoers configuration for tpi labs"|Tue, 27 Jan 2015 10:56:40 +0000|Tue, 27 Jan 2015 10:56:40 +0000
+dbb4422246d3e15a1a8c7d413bbbc53a5e7b3d55|Move nginx zabbix monitoring staff to nginx stub_status|Fri, 23 Jan 2015 16:03:46 +0200|Tue, 27 Jan 2015 09:34:24 +0000
+9fecfe3ec4d5bb66c89f24487551bfc6e75bd075|Add packages needed for tasks graph check|Mon, 26 Jan 2015 16:26:16 +0200|Mon, 26 Jan 2015 18:35:02 +0200
+74c26d5568b3e7269aa916082b0b8d51765ee1f6|Adding format_log attribute to frontend class.|Mon, 26 Jan 2015 00:35:21 +0300|Mon, 26 Jan 2015 13:45:13 +0000
+6363091dafbf257f8b86a10123bb3a4a0e9e0231|CI tests: check exit_code on pxetool installation|Thu, 22 Jan 2015 09:33:54 +0300|Mon, 26 Jan 2015 09:52:22 +0000
+c9ba7a9ce219ee313e02c04d0cb8b099d796ee6d|Added new host|Fri, 23 Jan 2015 15:07:38 +0300|Fri, 23 Jan 2015 16:01:08 +0300
+21079697d933474bb84b288801b3694e52ee43cc|Merge "Fix puppet parser warning issue (Unrecognised escape sequence)"|Thu, 22 Jan 2015 15:34:56 +0000|Thu, 22 Jan 2015 15:34:56 +0000
+ece2a4b5db5f1d613bfd1185887fa69b931d7bf6|Merge "FIX: fuel-stats-analytics dependencies"|Thu, 22 Jan 2015 13:44:41 +0000|Thu, 22 Jan 2015 13:44:41 +0000
+d916a8c2a46f4e47615ad3d2c35d17ccb682623d|Merge "Nginx zabbix items added"|Thu, 22 Jan 2015 12:38:37 +0000|Thu, 22 Jan 2015 12:38:37 +0000
+9084276300aa726ce00ecbcd682ecc2ac5beabf1|FIX: fuel-stats-analytics dependencies|Mon, 19 Jan 2015 13:24:57 +0300|Thu, 22 Jan 2015 11:13:39 +0000
+1facac3930ce4c07bf7488ab588bc066281ccc1b|Fix puppet parser warning issue (Unrecognised escape sequence)|Wed, 21 Jan 2015 12:22:05 +0200|Thu, 22 Jan 2015 10:47:41 +0000
+f831f9d65328caa6d9c114c7ff1ddfea92dfe090|Merge "Fix ssl configuration for anonymous statistics"|Thu, 22 Jan 2015 10:46:20 +0000|Thu, 22 Jan 2015 10:46:20 +0000
+7a3b2bf1977da67775329d4526c034f1dbe42f6f|Fix ssl configuration for anonymous statistics|Thu, 22 Jan 2015 09:43:10 +0300|Thu, 22 Jan 2015 09:45:11 +0300
+def1593921bc7e58f48f4cb4bbaab0f2ef360d95|Add custom sudoers configuration for tpi labs|Mon, 19 Jan 2015 17:32:24 +0000|Wed, 21 Jan 2015 17:35:46 +0000
+153367972dcdbb2c01928465d4f1c4e3a01bbb56|Nginx zabbix items added|Wed, 21 Jan 2015 19:45:12 +0300|Wed, 21 Jan 2015 19:45:12 +0300
+11eac9052b8221d8c51b2907a66be003a19c9afe|Merge "Added testing servers of Fuel Gerrit"|Wed, 21 Jan 2015 15:05:50 +0000|Wed, 21 Jan 2015 15:05:50 +0000
+0f73b91985f88a623e65e82c1e9a2660b2deb742|Added testing servers of Fuel Gerrit|Fri, 16 Jan 2015 17:20:28 +0300|Wed, 21 Jan 2015 16:44:06 +0300
+24d9f2e631e8ab4866cd4d4e0ee0e0933f5c08a8|Merge "Add texlive-font-utils to docs requirements"|Wed, 21 Jan 2015 13:01:20 +0000|Wed, 21 Jan 2015 13:01:20 +0000
+818dc31d9d1c1190a8a16733051b3004d53c2836|Merge "Updated libvirt version"|Wed, 21 Jan 2015 11:50:57 +0000|Wed, 21 Jan 2015 11:50:58 +0000
+6bd98db99ccd03051e89cbf2504c4c7a9f6016e7|Add texlive-font-utils to docs requirements|Tue, 20 Jan 2015 21:36:17 +0300|Wed, 21 Jan 2015 10:26:19 +0000
+674e53347db6a05cd9f86ee4b6bf58dd811fdfc4|Updated config location, nginx log format = proxy|Tue, 20 Jan 2015 17:14:04 +0300|Wed, 21 Jan 2015 10:24:22 +0000
+5951c2d3d1b119a7f224595008a5da9c0ef63bd0|Updated libvirt version|Tue, 20 Jan 2015 18:52:47 +0300|Tue, 20 Jan 2015 18:55:36 +0300
+21c5ac0a35bcf2812cab4d8cf3138d430d3bce98|FIX: anon stats incorrect parameter apply_firewall_rules|Tue, 20 Jan 2015 12:09:15 +0300|Tue, 20 Jan 2015 12:11:39 +0300
+87f955f8ed23da331e58aa3395b2752be3b4d1f9|Merge "Disable transparent hugepage defragmentation on TPI hosts"|Mon, 19 Jan 2015 11:37:07 +0000|Mon, 19 Jan 2015 11:37:07 +0000
+782a1108556bf22c8e93db39bc234bae781b206f|FIX: Remove commercial param|Mon, 19 Jan 2015 13:01:35 +0300|Mon, 19 Jan 2015 10:04:54 +0000
+0535e71ae8b3c9bb75389cfd87db9f2d26e56133|Added new pubkeys into hiera|Sun, 18 Jan 2015 19:29:54 +0100|Sun, 18 Jan 2015 20:02:06 +0100
+ccad4338dd0c4108e638175096ed8b2c562ac221|Remove gerrit test configuration until getting stable gerrit|Thu, 15 Jan 2015 17:39:01 +0300|Fri, 16 Jan 2015 14:20:06 +0300
+cee0a9bc9007b82f00d1d8feb5bbae670bc1a41e|Merge "Fix landing_page updater issues:"|Fri, 16 Jan 2015 11:16:02 +0000|Fri, 16 Jan 2015 11:16:02 +0000
+a645924f2f5932be0ade173c3044cf3add2f5a0e|Fix landing_page updater issues:|Fri, 16 Jan 2015 01:19:55 +0200|Fri, 16 Jan 2015 11:57:07 +0200
+8ac4e0caae609e0e6d9039c5b3b15e9e4d3b8830|Custom facts definition created|Tue, 16 Dec 2014 12:03:19 +0300|Fri, 16 Jan 2015 08:39:06 +0000
+1b507c561bbcf0084369bd73385abe350c20360e|Disable transparent hugepage defragmentation on TPI hosts|Mon, 12 Jan 2015 14:31:28 +0000|Thu, 15 Jan 2015 17:54:39 +0000
+c017b4b6e5dabfc4944653bb4ca7eb6237e9cfe7|Fix: removing duplicate declaration for mysql root password|Tue, 16 Dec 2014 12:38:29 +0300|Thu, 15 Jan 2015 17:54:20 +0000
+e6832f8294449f64fca85c49b2663fe8ede2f72a|Fix for duplicate declaration of landing_page::updater.|Thu, 15 Jan 2015 17:27:08 +0300|Thu, 15 Jan 2015 14:40:57 +0000
+28c5ecded2eb7103102a8fa6c5851b8fa37f2d09|Fix verify_fuel_stats "role"|Wed, 14 Jan 2015 22:49:51 +0200|Thu, 15 Jan 2015 13:36:15 +0200
+08c98821d633f8b06e14a7da7edbb3f149be89c0|Landing page support added|Fri, 26 Dec 2014 13:11:52 +0300|Thu, 15 Jan 2015 02:09:40 +0300
+5d9e27a6d5f678d98a7aa7f63bf6daee00debfa5|Merge "Add selenium option for fuel-web"|Wed, 14 Jan 2015 14:07:18 +0000|Wed, 14 Jan 2015 14:07:18 +0000
+1ec7ac22363297a2e4ee70700d48639da889e512|Merge "Implementation of Demo node."|Wed, 14 Jan 2015 14:06:28 +0000|Wed, 14 Jan 2015 14:06:28 +0000
+2530dd73b8c93137a74d23796792ef17c14c7002|Merge "Create fuelweb-iso folder for publishing artifacts"|Wed, 14 Jan 2015 14:06:11 +0000|Wed, 14 Jan 2015 14:06:11 +0000
+79134dcbe3dbf3a14cbfcb9c3dfd533cec55fdb2|Merge "SSL support for Jenkins Swarm"|Wed, 14 Jan 2015 14:05:54 +0000|Wed, 14 Jan 2015 14:05:54 +0000
+cf8f7107f7fbf71795736681238fb23207ed075c|Manifests autoupdate for puppet master|Wed, 24 Dec 2014 16:05:17 +0300|Wed, 14 Jan 2015 11:19:33 +0000
+48cd63cfbe8854d7b2bc2037be5fdec2e9361933|Create fuelweb-iso folder for publishing artifacts|Fri, 9 Jan 2015 12:59:59 +0200|Tue, 13 Jan 2015 14:33:57 +0000
+22bdd6156518651e278d0bd9d440af5a547e2237|Implementation of Demo node.|Tue, 9 Dec 2014 00:32:36 +0100|Tue, 13 Jan 2015 13:37:17 +0000
+70d037c24eeb8e7e44f7358aeb6782e48a02dd29|Create ostf database for verify-fuel-ostf job|Tue, 13 Jan 2015 12:41:10 +0200|Tue, 13 Jan 2015 12:26:55 +0000
+5025f15d997548a8d8b8f13a331f4c92aec39c75|SSL support for Jenkins Swarm|Wed, 7 Jan 2015 14:35:22 +0100|Tue, 13 Jan 2015 13:16:17 +0100
+3b87db30e6fc74e1f0cf2684c5b7a3b9d141f25f|Removed "jenkins-swarm-slave" option from packtest* servers|Tue, 23 Dec 2014 19:45:18 +0300|Tue, 13 Jan 2015 11:54:56 +0300
+f6bcfda758d012bb39a966fc579bcacfdba868b0|Add selenium option for fuel-web|Mon, 12 Jan 2015 15:47:04 +0300|Mon, 12 Jan 2015 15:59:29 +0300
+6638322e74f892ac2c130273b655ac74f6e8db90|Use mysql data from hiera also for test nodes|Fri, 26 Dec 2014 22:04:57 +0200|Fri, 26 Dec 2014 23:26:33 +0200
+02e948b4cc81c57da6de655e7a72984b31945fd3|Add zabbix monitoring support for glusterfs|Tue, 23 Dec 2014 17:18:11 +0200|Fri, 26 Dec 2014 15:25:18 +0000
+744741d147feb1b0ce9d0e2fa12585dee1f8bdd7|Add configuration from yaml file|Wed, 24 Dec 2014 18:03:47 +0300|Fri, 26 Dec 2014 14:50:31 +0000
+e5ffa51868275b589a8076c581758f27bef82e06|Fix fping location|Thu, 25 Dec 2014 21:43:05 +0300|Thu, 25 Dec 2014 21:43:05 +0300
+2036df1ac0a67c9021a884ed21f352841cbf6490|Merge "Landing page and static manifests added"|Thu, 25 Dec 2014 14:19:28 +0000|Thu, 25 Dec 2014 14:19:28 +0000
+f14f4368d216370ea18ed8f33577b0a0e48614bd|Landing page and static manifests added|Wed, 24 Dec 2014 22:43:35 +0300|Thu, 25 Dec 2014 17:15:58 +0300
+b55774b007847fc7857956cc7b1649406c4e0ba9|Merge "Use puppet-php to manage php-fpm and php.ini configs"|Thu, 25 Dec 2014 13:50:48 +0000|Thu, 25 Dec 2014 13:50:48 +0000
+51aaa53d48f3f59cafd1e4312a35c58938f2d0a9|Merge "Update znc server manifest version"|Thu, 25 Dec 2014 13:49:23 +0000|Thu, 25 Dec 2014 13:49:23 +0000
+0c400941f3182e3b8f7bd65abd7b0e46dd875ef0|Merge "Configure glusterfs as back end storage for cinder"|Thu, 25 Dec 2014 13:49:03 +0000|Thu, 25 Dec 2014 13:49:03 +0000
+a8ae884c750e3ac32594d02d80f1e09ba379ef05|Merge "We need to put fake but working certificates in our example hiera"|Thu, 25 Dec 2014 13:48:32 +0000|Thu, 25 Dec 2014 13:48:32 +0000
+c783f1aa752862b577e4126dbd40dd6d1abf2b34|Merge "Implement znc server in production section of site.pp"|Thu, 25 Dec 2014 13:48:09 +0000|Thu, 25 Dec 2014 13:48:09 +0000
+feb8f2c05f4fd88b94648be88be4f380cf5fc4e9|Merge "Added new host to manifests"|Thu, 25 Dec 2014 13:47:42 +0000|Thu, 25 Dec 2014 13:47:42 +0000
+c8642bfb0b3c2c5cde5d91c4b413e296a8177c4d|Merge "Add pubkey to hiera"|Thu, 25 Dec 2014 12:59:46 +0000|Thu, 25 Dec 2014 12:59:46 +0000
+bfb63f824dfa3d0f0f53634baba763549f005a40|Configure glusterfs as back end storage for cinder|Thu, 18 Dec 2014 20:21:22 +0200|Thu, 25 Dec 2014 10:31:12 +0000
+c2c4ed3dd34ef4d6e5c31d0bab75354c1bc0938e|Turning off atime,diratime,barriers to increase performance(especially on VMs)|Thu, 25 Dec 2014 00:39:01 +0300|Thu, 25 Dec 2014 00:39:01 +0300
+90bf46428980ce839730180cc74dff7099883132|Use puppet-php to manage php-fpm and php.ini configs|Tue, 23 Dec 2014 00:03:00 +0200|Wed, 24 Dec 2014 22:40:56 +0200
+ab4eec4ef17b81fd4292ccb4fbd798af20ac1abc|Update znc server manifest version|Mon, 15 Dec 2014 16:39:52 +0200|Wed, 24 Dec 2014 17:55:55 +0000
+276eae96a525f683904d57ab8bba2fa60a8de034|Automatically add all test nodes|Tue, 25 Nov 2014 18:49:39 +0300|Tue, 23 Dec 2014 16:47:07 +0000
+031a48219a7762f5cfcd6f375022259fd68ce39f|Refactoring+fixes fuel-stats development|Thu, 4 Dec 2014 22:52:46 +0300|Tue, 23 Dec 2014 16:45:47 +0000
+7b1303dd7f768e7c394a89fad865169f16c4b25f|Merge "Changed version of kernel for tpi labs"|Tue, 23 Dec 2014 14:26:56 +0000|Tue, 23 Dec 2014 14:26:56 +0000
+3ff6a337783510c26fa3bc5871784f60b72bcc04|Merge "Using mysql configuration from hiera"|Tue, 23 Dec 2014 14:24:09 +0000|Tue, 23 Dec 2014 14:24:10 +0000
+eddfeb57b36e64a15c162ffc13cf746672e27c3a|We need to put fake but working certificates in our example hiera|Thu, 11 Dec 2014 11:36:01 +0200|Thu, 18 Dec 2014 22:07:07 +0000
+8a1b8297c4224fc14a599facc1d8111ce43d2481|Implement znc server in production section of site.pp|Wed, 10 Dec 2014 23:31:37 +0200|Thu, 18 Dec 2014 22:07:00 +0000
+df470fd4567e38c90d9b877922751bea2ebb6128|Added new host to manifests|Tue, 16 Dec 2014 17:59:13 +0300|Thu, 18 Dec 2014 16:00:27 +0000
+bf80d79b5572c6238285c07dd4b2caf4fa781164|Add pubkey to hiera|Tue, 9 Dec 2014 12:12:22 +0200|Thu, 18 Dec 2014 15:54:19 +0000
+0fdbb5d3f0a101ad85e3da209414a30f9e61b4f6|Fix for release status page uwsgi port|Tue, 16 Dec 2014 13:02:32 +0300|Tue, 16 Dec 2014 13:02:32 +0300
+8351c4a32aff80d65dc26a7809d259759927d586|Using mysql configuration from hiera|Thu, 27 Nov 2014 01:32:21 +0300|Sun, 14 Dec 2014 02:35:15 +0000
+a20471e5563c61802e44cc4468b024c0fbf16059|Add section for new osci jenkins slaves|Tue, 9 Dec 2014 19:10:57 +0300|Tue, 9 Dec 2014 19:53:27 +0300
+87f7fd98d367cad226d8779dc3c2c5ca4958fd2e|Changed version of kernel for tpi labs|Tue, 9 Dec 2014 13:40:37 +0000|Tue, 9 Dec 2014 13:40:37 +0000
+cc2fc59bc991798610001dc1d21aeba19bff83f7|Merge "Added btsync configuration for tpi labs"|Mon, 8 Dec 2014 10:23:42 +0000|Mon, 8 Dec 2014 10:23:42 +0000
+e923c426d55af7c58edcaf489d7f048be6642b39|We need to create jenkins user before installing swarm|Fri, 5 Dec 2014 20:50:17 +0200|Fri, 5 Dec 2014 20:54:44 +0200
+d8138fe3ec6c47a7564083bbe6c0588724136dd9|nginx module version updated|Fri, 5 Dec 2014 20:58:50 +0300|Fri, 5 Dec 2014 20:58:50 +0300
+ed2adfd4d29f7dab76f62ba1aa25b26bd1102ab5|Puppet should fail if we have incorrect syntax in nginx config|Fri, 5 Dec 2014 17:43:39 +0200|Fri, 5 Dec 2014 17:43:39 +0200
+985057db3cc2923171605c0ea4056bde6f5cebef|Fix for realease_status page module|Fri, 5 Dec 2014 00:33:46 +0300|Fri, 5 Dec 2014 00:33:46 +0300
+e1abd6fad1e0dd70abbc340dde60939356c0459e|Added btsync configuration for tpi labs|Thu, 4 Dec 2014 18:04:26 +0000|Thu, 4 Dec 2014 21:13:33 +0000
+1735c7faeedb53ceddcd15f41d497934dd0a8d00|Merge "Fix of fuel_stats configuration"|Thu, 4 Dec 2014 15:29:03 +0000|Thu, 4 Dec 2014 15:29:03 +0000
+0f065984a7b45b2256f5f51ae0ef880e494686bc|Fix of fuel_stats configuration|Wed, 3 Dec 2014 18:58:40 +0300|Thu, 4 Dec 2014 18:26:30 +0300
+72b9b749fc269f3fdab620dfa74cd4b0d5df41d2|Install docker-only on jenkins slave|Tue, 2 Dec 2014 12:27:34 +0200|Thu, 4 Dec 2014 12:44:09 +0000
+b213d8475a7f0f83f267f9712273da88364f2232|Fix issues with jenkins master|Wed, 3 Dec 2014 16:09:21 +0200|Wed, 3 Dec 2014 18:16:50 +0000
+12c9c74f3b5e0efb42ff84aceb3cd80cf88d4218|Merge "Changed required packages for tpi labs"|Wed, 3 Dec 2014 16:41:15 +0000|Wed, 3 Dec 2014 16:41:15 +0000
+b7ca87dddb057b27814bb6ed00af01a5c235d92b|Git MUST be explicitly installed on all jenkins slaves|Wed, 3 Dec 2014 15:23:32 +0200|Wed, 3 Dec 2014 16:17:36 +0200
+f0b0ad530620dbfa49926dad5188cfec2c24a820|Changed required packages for tpi labs|Wed, 3 Dec 2014 12:27:49 +0000|Wed, 3 Dec 2014 12:30:22 +0000
+9cbc85e2c87ea29f5495ce4d7a1ecae91d302e86|Fuel-statistics refactoring and firewall fixes|Wed, 3 Dec 2014 13:05:21 +0300|Wed, 3 Dec 2014 10:13:08 +0000
+08e281a7375a768b1d4ab2440b4d0440b4c5a9a8|Fix seed host with missed 17333 listen|Wed, 3 Dec 2014 12:30:45 +0300|Wed, 3 Dec 2014 12:30:45 +0300
+3dfe6a6e7c17d1842b7aa660343c84004d08889b|Merge "Fix firewall issue for mirrors"|Tue, 2 Dec 2014 22:20:31 +0000|Tue, 2 Dec 2014 22:20:31 +0000
+f5a0e8392823785e766b3643a16ffafdcfc784b2|Merge "Add location variable to pxetool manifests"|Tue, 2 Dec 2014 21:47:53 +0000|Tue, 2 Dec 2014 21:47:53 +0000
+4027a2b8d246e66e03eb1f7f71c18e4a53abd331|Fix firewall issue for mirrors|Tue, 2 Dec 2014 22:52:00 +0200|Tue, 2 Dec 2014 22:56:16 +0200
+be08e416c18fc6c28b382a4c9bdfc943c4e0a757|Fix for service aliases|Tue, 2 Dec 2014 21:06:57 +0300|Tue, 2 Dec 2014 21:07:13 +0300
+7330f346035aa05586ffba5b39f2bfd8663321ce|Freeze python-sqlalchemy version|Tue, 2 Dec 2014 15:27:05 +0300|Tue, 2 Dec 2014 19:04:42 +0300
+b221eb3d3ecf841acf48fd029cea420667bfca04|Add location variable to pxetool manifests|Tue, 2 Dec 2014 16:38:36 +0300|Tue, 2 Dec 2014 16:38:36 +0300
+3d553836fd7c89438a2f73072effc28c3cce6584|BugFix: puppet cert clean on error|Mon, 1 Dec 2014 16:24:51 +0300|Mon, 1 Dec 2014 19:01:50 +0300
+c40bd3f18d749d2fc8ca3e4cb4a31f8bc166c758|Merge "We don't need this "train""|Mon, 1 Dec 2014 15:12:18 +0000|Mon, 1 Dec 2014 15:12:18 +0000
+2117a38770ba3dd79c46f99573d35b64d38dc9ea|We don't need this "train"|Sun, 30 Nov 2014 14:10:46 +0200|Mon, 1 Dec 2014 13:20:31 +0200
+b0737b061061a27daa8e21eebe58a3f19dec3964|Fuel-stats nginx fix|Mon, 1 Dec 2014 13:45:23 +0300|Mon, 1 Dec 2014 14:16:25 +0300
+19033fcf8b8ef3348771de11d7e8142e5eb3f213|Merge "Add production configuration for fuel-stats"|Mon, 1 Dec 2014 10:08:50 +0000|Mon, 1 Dec 2014 10:08:50 +0000
+2501a7a7eee4f71f6e2cd16a8572b8bb912a6f05|Merge "Fix test: remove cert from pxetool on error"|Mon, 1 Dec 2014 08:55:27 +0000|Mon, 1 Dec 2014 08:55:27 +0000
+165e83a7d29642c458e94767e93f7e093ec93f5c|Merge "Implement glusterfs management"|Mon, 1 Dec 2014 07:45:22 +0000|Mon, 1 Dec 2014 07:45:22 +0000
+95de868e6950a5ee34d3969e8bfbf2def6147b96|Merge "Put fake, but working keys for jenkins_master-jenkins_slave"|Mon, 1 Dec 2014 07:44:15 +0000|Mon, 1 Dec 2014 07:44:15 +0000
+fe9ac8f2e5d24277ff7335583bd73e8b24d40b94|Fix test: remove cert from pxetool on error|Fri, 21 Nov 2014 22:57:12 +0300|Sun, 30 Nov 2014 19:39:26 +0300
+d03a08c2d064975ba5c44d6c9bd018dd56fce1bd|Implement glusterfs management|Tue, 25 Nov 2014 09:29:51 +0200|Sun, 30 Nov 2014 08:26:11 +0000
+9449aeacf143d8cab40de60c834b957abbe3c843|Put fake, but working keys for jenkins_master-jenkins_slave|Thu, 27 Nov 2014 14:23:57 +0200|Sun, 30 Nov 2014 08:26:04 +0000
+260f7cc3aa712a5a8a81d5fc828bbd1057b6b588|Implement plugins storage|Fri, 28 Nov 2014 14:28:06 +0200|Sun, 30 Nov 2014 08:25:59 +0000
+b3862df85582a62ddb0d8c764d1c475ef89a3966|Add production configuration for fuel-stats|Fri, 28 Nov 2014 21:33:22 +0300|Sun, 30 Nov 2014 02:23:31 +0300
+11f8521b4169d6606780909b37f1a5f04646e81f|Fix net.bridge.bridge-nf-call-iptables issue on slave nodes|Wed, 26 Nov 2014 15:37:18 +0200|Sat, 29 Nov 2014 11:04:59 +0000
+7d69e93733c71a419a37ef5000d81173c21d3e0f|Merge "Module for release-status django app"|Sat, 29 Nov 2014 10:53:07 +0000|Sat, 29 Nov 2014 10:53:07 +0000
+76e3dcdafefc1b27e131fcdf9ec6c43cb91702ad|Merge "Commit will fix dependencies of nscd service."|Sat, 29 Nov 2014 09:18:26 +0000|Sat, 29 Nov 2014 09:18:26 +0000
+626a6ae3aae576745f88f201bfce7e755f5ec36c|Added "email" directive for review.fuel-infra.org|Thu, 13 Nov 2014 16:48:02 +0400|Sat, 29 Nov 2014 07:35:44 +0000
+dc5c94bd63382f79ee8f2c3c86698affce6e5f8a|Module for release-status django app|Thu, 23 Oct 2014 13:54:10 +0400|Sat, 29 Nov 2014 07:34:53 +0000
+9fc137db4ffadba956714579286b4d42d6063e9d|Fix for mirror autoindex|Sat, 29 Nov 2014 01:39:14 +0300|Sat, 29 Nov 2014 01:39:53 +0300
+6d5d4db344e040e2a535c6a8ba4a65c876c0139a|Fix for syntax|Sat, 29 Nov 2014 01:05:39 +0300|Sat, 29 Nov 2014 01:05:39 +0300
+dcfb6b849491c8fecb3a517fea9dd49c1cd3e203|Add missing 'service_port' parameter to analytics|Wed, 26 Nov 2014 20:45:33 +0300|Fri, 28 Nov 2014 12:49:31 +0000
+dd5cb82ce1822c40742fa7c69771b4cac0e799ce|Merge "Tests: redirect stderr to stdout"|Fri, 28 Nov 2014 11:56:03 +0000|Fri, 28 Nov 2014 11:56:03 +0000
+37f50705d68c2f4f5e73518927771e571b998f1a|We need venv on slaves only in case of run_tests roles|Sat, 22 Nov 2014 18:03:55 +0200|Fri, 28 Nov 2014 08:54:23 +0000
+0b0ba0b4d7729ea49314465529348dde8e218bee|Fix for nginx stub status vhost|Thu, 27 Nov 2014 20:15:00 +0300|Thu, 27 Nov 2014 20:15:00 +0300
+e53f97c4b3fff9fc34e68f97e4263e87ae4fe57f|Updates storage implementation|Sat, 22 Nov 2014 14:39:42 +0300|Thu, 27 Nov 2014 19:57:51 +0300
+60f33b18153e3bc50f02374b1542c18840abba6b|Commit will fix dependencies of nscd service.|Wed, 26 Nov 2014 11:32:02 +0100|Thu, 27 Nov 2014 11:23:16 +0000
+511859a5de430e0747aaf2f3af4ebcaf9241a825|Using upstream nginx module|Mon, 27 Oct 2014 10:54:19 +0300|Thu, 27 Nov 2014 07:32:45 +0000
+4c714465798ab90158df8a262db3bc4585504594|zabbix::proxy module + zbxproxy01 server|Wed, 26 Nov 2014 17:36:31 +0300|Wed, 26 Nov 2014 20:44:18 +0300
+0d73632e5397e9f1fc7a5f5d1659cfa2863dc613|Fixing hiera example parameters for obs_server module|Wed, 26 Nov 2014 14:39:15 +0200|Wed, 26 Nov 2014 14:42:44 +0200
+01ef380ce00ee6e83aeb686c45723aceb7bafefb|Tests: redirect stderr to stdout|Tue, 25 Nov 2014 20:25:43 +0300|Tue, 25 Nov 2014 20:25:43 +0300
+1ba2c1921325b35f878b4773057070dce8db057b|Merge topic '877'|Tue, 25 Nov 2014 15:39:19 +0000|Tue, 25 Nov 2014 15:39:19 +0000
+10691a4b49838296548c13ca60bed42a05964136|Added "commentlinks" section|Thu, 20 Nov 2014 15:28:51 +0000|Mon, 24 Nov 2014 19:24:42 +0300
+bc1fd4f240f007c18638ba44d20d89770dcc58c6|Merge "add jenkins_swarm_slave selector"|Sun, 23 Nov 2014 08:56:02 +0000|Sun, 23 Nov 2014 08:56:02 +0000
+4bef301ac74eafdebc24226a191cba8286020056|make util should be present before installing gems|Fri, 21 Nov 2014 16:10:09 +0200|Fri, 21 Nov 2014 21:38:34 +0200
+db8957e1591735385ce5a99c46907724d0973542|add jenkins_swarm_slave selector|Wed, 19 Nov 2014 15:03:48 +0200|Fri, 21 Nov 2014 17:44:21 +0000
+4597ec1d66367f195a7fcab459dfe4793edfa214|Added try-catch hack to retry installation of pxetool|Fri, 21 Nov 2014 19:46:47 +0300|Fri, 21 Nov 2014 19:46:47 +0300
+916e13f41c92be6e328392b61fb5c69764eb24eb|Adding flake8 for python code|Wed, 19 Nov 2014 17:08:08 +0300|Fri, 21 Nov 2014 18:46:59 +0300
+9f93e6086d089d91ebd1f377362e2cc5d1edaa7b|Test removal of unneded iteratations|Wed, 19 Nov 2014 14:57:52 +0300|Fri, 21 Nov 2014 16:04:43 +0300
+f9d6e304cb329cb1297cfd1455dc846d2925e11c|Clean up for pyc files|Wed, 19 Nov 2014 17:04:34 +0300|Wed, 19 Nov 2014 17:04:34 +0300
+eb4f9ad2769be4930d59fcb684809b28ead7d058|Merge "Implement znc server in fuel project configuration"|Wed, 19 Nov 2014 00:39:17 +0000|Wed, 19 Nov 2014 00:39:17 +0000
+a34d8b760780a5803101bcb37e7ff87b29569be0|Fix gerrit installation|Sun, 16 Nov 2014 20:40:29 +0200|Tue, 18 Nov 2014 18:48:32 +0000
+8d42331d5aacd6a36e0e9f7bd53c0281f074d3a2|Implement znc server in fuel project configuration|Sat, 15 Nov 2014 18:55:53 +0200|Tue, 18 Nov 2014 15:02:21 +0000
+0cdb1500f614839efcac819d8b818fb99dfb89f5|Move anonymous statistics to separate module|Tue, 4 Nov 2014 17:44:33 +0300|Tue, 18 Nov 2014 17:19:22 +0300
+2f689a7d4295fe9171a0a745c65f725c7bad7248|Added additional checks in tests|Tue, 18 Nov 2014 14:07:03 +0300|Tue, 18 Nov 2014 15:33:46 +0300
+c4fe2b26814e970d41df18860834b25e42b55eb9|Fix tests private key location.|Mon, 17 Nov 2014 21:05:47 +0300|Tue, 18 Nov 2014 10:47:51 +0000
+3e1267c12a302615c607324bdebc5bfdfe8f89ab|Fix hostnames for new jenkins slaves|Mon, 17 Nov 2014 19:58:23 +0300|Mon, 17 Nov 2014 19:58:23 +0300
+54bcd370166d71f3e02f4a97c0e328d30c1304c8|Merge "Ensure we will run apt-get update, to get correct packages from our repos"|Mon, 17 Nov 2014 16:32:23 +0000|Mon, 17 Nov 2014 16:32:23 +0000
+19806c69b420f2ef0781a4a849baeacfdcb75672|Add jenkins slave definitions for new nodes|Mon, 17 Nov 2014 15:55:36 +0300|Mon, 17 Nov 2014 16:46:40 +0300
+6fe5d0f21bf00671e2f629811d2514b2065d2c68|Ensure we will run apt-get update, to get correct packages from our repos|Mon, 17 Nov 2014 15:42:09 +0200|Mon, 17 Nov 2014 15:42:09 +0200
+aadca763730ba5236b403a19e6637c1dd17e094c|Multiple naiulgun DBs for parallel tests|Thu, 13 Nov 2014 20:38:32 +0300|Fri, 14 Nov 2014 11:04:09 +0300
+4f8f7d0c1cd8fc2b0242528267cb922b49f9b628|Possible fix for unexistent packages on installing application|Wed, 5 Nov 2014 10:32:56 +0100|Thu, 13 Nov 2014 09:33:53 +0000
+0ba0b585dd9f9b182b35c550f315673339bb5eab|Merge "Ensure we have puppetmaster pkg is installed before disabling it"|Thu, 13 Nov 2014 00:28:30 +0000|Thu, 13 Nov 2014 00:28:30 +0000
+107dfcd94b9d273917dfcd022512f2e36abd68ff|Merge "Ensure we have libyaml-dev for build-iso roles on jenkins slave"|Thu, 13 Nov 2014 00:17:25 +0000|Thu, 13 Nov 2014 00:17:25 +0000
+45a68e6ad352ac769e4a2774a398cd6989a07413|Ensure python-devops pkg is installed, before creating link|Tue, 11 Nov 2014 20:35:59 +0200|Tue, 11 Nov 2014 20:37:00 +0200
+5e8988d853347cc0021ef5c69e8016384451c4b3|Ensure we have puppetmaster pkg is installed before disabling it|Tue, 11 Nov 2014 18:18:37 +0200|Tue, 11 Nov 2014 18:21:54 +0200
+751ee7d6f8848158339300038c61861317dc330e|Merge "Add pxe-product2-cz.vm.mirantis.net"|Tue, 11 Nov 2014 13:44:10 +0000|Tue, 11 Nov 2014 13:44:10 +0000
+b4d4b70947dbcc44892d8cde2a6f242f60ab7030|Merge "Added license-file and copyrights"|Mon, 10 Nov 2014 23:19:17 +0000|Mon, 10 Nov 2014 23:19:17 +0000
+4249e245aee42d52f3238a3acee947f165ab6071|Add pxe-product2-cz.vm.mirantis.net|Mon, 10 Nov 2014 21:08:34 +0300|Mon, 10 Nov 2014 21:08:34 +0300
+33f592058ef4e149f45ce1a25595f8771e4ec37a|Ensure, packages will be installed for nodes with venv roles|Mon, 10 Nov 2014 15:05:28 +0200|Mon, 10 Nov 2014 15:08:16 +0200
+ba85c060d3cc3c203c685c5538ee1dab2aba2d46|Ensure we have libyaml-dev for build-iso roles on jenkins slave|Mon, 10 Nov 2014 11:53:23 +0200|Mon, 10 Nov 2014 11:54:34 +0200
+799bf91b23c17ffb5e0faa34c04184925a355b75|Added license-file and copyrights|Fri, 31 Oct 2014 20:43:14 +0400|Thu, 6 Nov 2014 19:29:01 +0400
+875a61695ad75042a0f6fcdb71e30d2c3eed5670|OBS-server module with using nginx and rubygem-passenger-nginx.|Thu, 23 Oct 2014 12:05:16 +0300|Wed, 5 Nov 2014 13:19:47 +0000
+6304a7c35d1711ad6652e98dc68b82b338023454|Merge "Adding fuel-puppet-tst + fixes"|Fri, 31 Oct 2014 15:38:18 +0000|Fri, 31 Oct 2014 15:38:18 +0000
+6c775f01d7601048c340d1be2fd1f61802135bee|Fix for setting sysctl value|Fri, 31 Oct 2014 17:25:18 +0300|Fri, 31 Oct 2014 17:25:18 +0300
+a6f083a7a2577842688c1dac8f40933cb9ae9859|Merge "Disable netfilter call iptables for bridges on CI"|Wed, 29 Oct 2014 22:24:14 +0000|Wed, 29 Oct 2014 22:24:14 +0000
+51d929e29590d19da0c983c4755a14b0faaa5590|Adding fuel-puppet-tst + fixes|Wed, 29 Oct 2014 10:30:43 +0300|Wed, 29 Oct 2014 20:09:24 +0000
+91f96489faf69ab277b6e2097e16c5e5a5e94394|Fixes of anon-statistics feature|Wed, 29 Oct 2014 20:25:51 +0300|Wed, 29 Oct 2014 21:17:39 +0300
+9f52fcca3daa9fe6b6638febd1a81f5a4ec95e1b|Disable netfilter call iptables for bridges on CI|Thu, 23 Oct 2014 14:14:42 +0300|Wed, 29 Oct 2014 12:28:19 +0000
+bd339fb2e3bb2960ac91cd9bcc42715bd595d017|Add anonymous statistics definition|Mon, 20 Oct 2014 13:16:43 +0400|Wed, 29 Oct 2014 12:06:24 +0000
+8a268e9cbbab81d04e226ce91186ae660d9ab321|Fix for poland cacher|Wed, 29 Oct 2014 14:38:08 +0300|Wed, 29 Oct 2014 14:38:08 +0300
+b77e77b16fb71a5144aa3604fd50a3089570dce6|Discarding future parser usage|Sun, 26 Oct 2014 17:56:25 +0300|Mon, 27 Oct 2014 23:53:56 +0000
+33a332e80179b4311cc2f4b4eac99ed91aa84718|Ensure build_plugins role for production|Tue, 28 Oct 2014 00:53:35 +0200|Tue, 28 Oct 2014 00:53:35 +0200
+1fd5e39a6c82fe7c32d743ec740fdc70d44c4e9b|Provide specific environment for building fuel-plugins|Wed, 22 Oct 2014 18:46:05 +0300|Mon, 27 Oct 2014 15:48:18 +0200
+42b7000970a01539364308ba43b211d5b4dd3c28|Merge "Setting iso keep limit on cachers + adding new ones"|Sun, 26 Oct 2014 10:16:01 +0000|Sun, 26 Oct 2014 10:16:01 +0000
+2640f2d1ebe14b233c3deb8f4b9ef3d2fb95b893|Merge "Fix Jenkins master"|Sun, 26 Oct 2014 10:13:52 +0000|Sun, 26 Oct 2014 10:13:52 +0000
+2f4308920656948f90ee41b105930e5044935da4|Typo fix in item name|Sat, 25 Oct 2014 15:36:44 +0400|Sat, 25 Oct 2014 15:39:56 +0400
+dafa913bc0c2e01926df8f0c7dd2211398fe2b7d|Setting iso keep limit on cachers + adding new ones|Sat, 25 Oct 2014 15:12:30 +0400|Sat, 25 Oct 2014 15:34:58 +0400
+1fff198fbfe798a847ad137ebde4c36c41db0322|Fix Jenkins master|Fri, 24 Oct 2014 13:57:37 +0000|Fri, 24 Oct 2014 17:07:05 +0000
+69a0cf1e184eab3900b87a93e05c701a3dac2fff|New cachers added + installing seed-stuff by default for slaves|Thu, 23 Oct 2014 13:17:06 +0400|Thu, 23 Oct 2014 23:53:13 +0400
+484af0b3bf874e011029e5968d9d1f859a239417|Syntax fix for list definition in config file|Thu, 23 Oct 2014 21:01:54 +0400|Thu, 23 Oct 2014 17:30:37 +0000
+93ff4b5f84eea7ad418e8f1ea912d553b5f1be46|Merge "Add pxe-product-cz + default value fix in pxetool"|Thu, 23 Oct 2014 16:32:40 +0000|Thu, 23 Oct 2014 16:32:40 +0000
+04b2d30fa24a547300ad7f8386d6be41d531701c|Fix CI tests|Wed, 22 Oct 2014 17:09:51 +0400|Thu, 23 Oct 2014 15:46:21 +0400
+3aa54294d241ae0857660f5b6471d31a4343b9ae|Small /var/www fix|Thu, 23 Oct 2014 14:03:59 +0400|Thu, 23 Oct 2014 14:44:39 +0400
+f2cc49b03fd8e85d2630e63e1cee42ef1f00139e|Add pxe-product-cz + default value fix in pxetool|Wed, 22 Oct 2014 15:33:55 +0400|Thu, 23 Oct 2014 02:00:54 +0400
+147d31ac059262a0d42e0be71919be8cd48eb8ed|Merge "Added explicit /var/www requirement"|Wed, 22 Oct 2014 21:16:05 +0000|Wed, 22 Oct 2014 21:16:05 +0000
+f2757e6ed0523fd89f51718100ca4f6ae538a20a|Fix for ensure_packages(): Requires array given|Wed, 22 Oct 2014 20:48:47 +0400|Wed, 22 Oct 2014 20:48:47 +0400
+d78b15d79718decb0c38cbb1f85b4e576aee25d6|Added explicit /var/www requirement|Wed, 22 Oct 2014 17:02:19 +0400|Wed, 22 Oct 2014 20:22:11 +0400
+cf50ce3f02b011f3745e1b41e75a26d27d70a531|Adding jenkins user to docker group|Wed, 22 Oct 2014 06:14:40 +0400|Wed, 22 Oct 2014 06:14:40 +0400
+ce73e4e7e8d6245f6029c964820a1bf8b7d0b33f|Fix nginx service notification|Wed, 22 Oct 2014 06:09:03 +0400|Wed, 22 Oct 2014 06:09:03 +0400
+825a073ff6b6353c049501ea41aacb9462f8ee37|Restructure after moving to new gerrit.|Wed, 22 Oct 2014 02:48:04 +0400|Wed, 22 Oct 2014 05:58:15 +0400
+f773015f2fc45e2f39d6efa6daa88b56b5a31aec|Fix for missed package in fuel_project::seed|Sun, 19 Oct 2014 02:17:12 +0400|Sun, 19 Oct 2014 04:17:42 +0400
+380104ff65488a9638584295bcc82866f8f6614e|Merge "Fix for zabbix server configuration + seed-downloads-cleanup parametrized"|Fri, 17 Oct 2014 20:11:40 +0400|Fri, 17 Oct 2014 20:11:40 +0400
+1e8afb9337333a06cd93897e283f0f2fa8e9350c|SSH key updates|Fri, 17 Oct 2014 18:43:15 +0400|Fri, 17 Oct 2014 18:43:25 +0400
+292b3a9581dc9d3bf3e8ee8461929b2a46ad98a6|Fix for zabbix server configuration + seed-downloads-cleanup parametrized|Wed, 15 Oct 2014 18:01:21 +0400|Fri, 17 Oct 2014 09:24:39 +0400
+22de2df8b9f66773f2433faacadef3ac037f3cc8|UWSGI module changes and refactoring|Mon, 29 Sep 2014 16:43:17 +0400|Fri, 17 Oct 2014 09:20:24 +0400
+81abbabba87cdbbc653c6545e831683300fd4ed0|Merge "jenkins-product-(kha pl) got back + osci-gerrit2"|Fri, 17 Oct 2014 09:15:31 +0400|Fri, 17 Oct 2014 09:15:31 +0400
+be3d26cf43feb9616980f313f6243ddbb55b765f|Merge "Fix zabbix::agent server passing"|Tue, 14 Oct 2014 18:51:14 +0400|Tue, 14 Oct 2014 18:51:14 +0400
+7ed4e1e20febdab0ed73312ad909abc8904d188e|jenkins-product-(kha pl) got back + osci-gerrit2|Mon, 13 Oct 2014 15:58:07 +0400|Tue, 14 Oct 2014 17:48:38 +0400
+5dfa83964a0d60c1e75f82cb7128bb5e3a0b0abe|Fix for logrotate rule|Tue, 14 Oct 2014 13:11:04 +0400|Tue, 14 Oct 2014 13:11:04 +0400
+120afe240c9228c76d8ecd1958cd5fd6f2530707|Fix zabbix::agent server passing|Mon, 13 Oct 2014 18:01:47 +0400|Mon, 13 Oct 2014 18:49:41 +0400
+59c49a0749ca2c31e68c55a760495ab5a1c7562f|Adding seed-downloads-cleanup script to seed role|Thu, 9 Oct 2014 18:53:11 +0400|Mon, 13 Oct 2014 18:49:21 +0400
+8d6017d58fdea7740f80df3468003695394d6f20|Fix for /fwm/ dir creation|Mon, 13 Oct 2014 17:57:10 +0400|Mon, 13 Oct 2014 17:57:10 +0400
+40835c1266b18641c6c19351de14073721288b7b|Fix for logging cronjob|Wed, 8 Oct 2014 20:05:58 +0400|Wed, 8 Oct 2014 20:05:58 +0400
+0721869f18ff06ea7a8cefb90c4fa5f90165ef19|Merge "Tests for deploying slaves on OpenStack"|Wed, 8 Oct 2014 15:48:45 +0400|Wed, 8 Oct 2014 15:48:45 +0400
+45134974b79f4788b8a2e92a660219ebe714489b|Fix for logrotate fails on zabbix-agent|Wed, 8 Oct 2014 14:00:26 +0400|Wed, 8 Oct 2014 14:00:26 +0400
+a5c892169356769970441b77d6e915c1cd4a1b98|Merge "Fix for puppet agent enabling(in install_puppet_master.sh) and setup order in pxetool"|Tue, 7 Oct 2014 17:36:43 +0400|Tue, 7 Oct 2014 17:36:43 +0400
+9e80daec5d124317874c00981dbf96061538727b|Fix for fuelweb-iso accidentially deletion|Tue, 7 Oct 2014 13:05:38 +0400|Tue, 7 Oct 2014 13:06:48 +0400
+9c1efaffe1719a6db8315ddbfa56efe0fa7f6f97|Fix for puppet agent enabling(in install_puppet_master.sh) and setup order in pxetool|Tue, 7 Oct 2014 06:46:05 +0400|Tue, 7 Oct 2014 06:46:05 +0400
+43fde73552d5e7553a376fe5d59c917f241fecb9|Tests for deploying slaves on OpenStack|Fri, 3 Oct 2014 16:45:24 +0400|Mon, 6 Oct 2014 13:44:10 +0400
+227b65ee5ec2554d34a9b97c9d7a3dfb91826923|Fix for libvirt tcp listening|Sun, 5 Oct 2014 02:08:46 +0400|Sun, 5 Oct 2014 02:08:46 +0400
+4a2a28567f5c8163bdb7e3d8218d464562282a6f|Merge "ldap2sshkeys as a fuel specific script moved to fuel_project module"|Wed, 1 Oct 2014 21:22:01 +0400|Wed, 1 Oct 2014 21:22:01 +0400
+4bb993d61a1725798a0bd6232413ab8d0b77c57a|transmission_daemon refactoring|Fri, 29 Aug 2014 20:50:41 +0400|Wed, 1 Oct 2014 12:42:09 +0400
+db2983a742d9eabe7fe9c0b02c26dd07e3032ab5|Merge "Pin for libxml2 package because upstream one doesn't work properly"|Tue, 30 Sep 2014 17:29:32 +0400|Tue, 30 Sep 2014 17:29:32 +0400
+d50c60215e8d4f32e49887df253ffc29d72880ec|Pin for libxml2 package because upstream one doesn't work properly|Tue, 30 Sep 2014 12:07:07 +0400|Tue, 30 Sep 2014 12:07:07 +0400
+8e403fdd11ff362405b524386b5ec062fc4e145f|Adding aliases for mirror|Mon, 29 Sep 2014 16:47:25 +0400|Mon, 29 Sep 2014 16:47:25 +0400
+eaea8253babba458c46c4ea17fde3cb6fbf0f484|Fix for hiera data|Wed, 24 Sep 2014 16:59:54 +0400|Fri, 26 Sep 2014 19:07:10 +0400
+3047847e8bc68d9bf723124757c3fd560ae49be5|ldap2sshkeys as a fuel specific script moved to fuel_project module|Wed, 24 Sep 2014 02:16:27 +0400|Fri, 26 Sep 2014 19:06:42 +0400
+4fb8fe612d75c6278a570b3c115b0266fabae9bc|erb template validation added|Fri, 26 Sep 2014 18:30:03 +0400|Fri, 26 Sep 2014 18:30:03 +0400
+f87d7cf069128b5f2337bc83be3ca0d5223af766|Refactoring + Fixes|Fri, 26 Sep 2014 18:25:35 +0400|Fri, 26 Sep 2014 18:25:35 +0400
+2ba6372f5dec3256b9f7d2e2c345c47286d4f711|Moving build_fuel_iso and system_tests modules within fuel_project::jenkins::slave|Wed, 24 Sep 2014 00:22:25 +0400|Thu, 25 Sep 2014 15:00:06 +0400
+ef6a0acd559f67ff9f4b18c3225c798cd8b0759a|Merge "Removing hardcodes from ::jenkins"|Thu, 25 Sep 2014 14:52:12 +0400|Thu, 25 Sep 2014 14:52:12 +0400
+75e33a6467025e8e71eebcd378826d7f2b5a8909|Fix file and dirs perms|Wed, 24 Sep 2014 23:50:40 +0400|Wed, 24 Sep 2014 23:50:40 +0400
+c339d722d26f9c7ca8d1fbe713ea2a80a6deb205|Removing hardcodes from ::jenkins|Wed, 24 Sep 2014 21:17:31 +0400|Wed, 24 Sep 2014 21:46:02 +0400
+e1ca46d4f629f5aaa3fa796af7a45c9fa6f472d2|Added packages needed for TPI lab hosts|Tue, 23 Sep 2014 17:48:49 +0000|Tue, 23 Sep 2014 18:59:01 +0000
+0472885cbfae90c61a5799216c2b4640e4840fd0|Discarding virtual repositories usage|Tue, 23 Sep 2014 04:45:58 +0400|Tue, 23 Sep 2014 04:45:58 +0400
+059018639bb9efc563e3a7a3dafdc0167555cce8|Fixes and refactorings|Fri, 19 Sep 2014 19:16:03 +0400|Sun, 21 Sep 2014 16:54:30 +0400
+306f5d3bd1587accfd63be5d5687482dd86a2976|Added ability to setup rsync on seed for mirror purposes|Thu, 18 Sep 2014 19:50:34 +0400|Thu, 18 Sep 2014 19:54:09 +0400
+775f20944c550a1f87d2bcf8beb782d9cc35e382|Added TPI node  definitions|Wed, 17 Sep 2014 18:39:38 +0000|Thu, 18 Sep 2014 12:17:44 +0400
+b54adbe1c934108469de02ecc98c2ef3e3d48bea|PXEtool disk pattern support|Wed, 17 Sep 2014 23:58:22 +0400|Thu, 18 Sep 2014 08:44:35 +0400
+241f9b006a3eaa74e472f11823da0393257e1c90|Adding test nodes + fix for pxetool default mirror|Wed, 17 Sep 2014 23:09:31 +0400|Thu, 18 Sep 2014 00:09:05 +0400
+508a324fbf65f6cfc90f6981e58b29926b8d44d6|Hiera usage for puppet master and pxetool|Wed, 17 Sep 2014 16:38:29 +0400|Wed, 17 Sep 2014 16:38:29 +0400
+f2f6d1262709b601dc1825a38f0f4e8dc540e266|Keep on using ensure_packages|Wed, 17 Sep 2014 11:48:20 +0400|Wed, 17 Sep 2014 11:48:20 +0400
+396902a013f1246deabecd44634fc5c3277f933a|Using ensure_packages for package definition|Mon, 15 Sep 2014 21:38:46 +0400|Mon, 15 Sep 2014 21:38:46 +0400
+42214fef67fdb1b3dceb946c5b75c41a14e5455c|Fixes + Refactoring|Thu, 11 Sep 2014 20:43:38 +0400|Mon, 15 Sep 2014 20:21:28 +0400
+c8718b906af2bd9bd694d60893ebcaca62d32c4f|Merge "Setting sysctl tuned defaults"|Mon, 15 Sep 2014 20:21:12 +0400|Mon, 15 Sep 2014 20:21:12 +0400
+9a81e0009b73ac5e2e5158681743a05514e6507a|Fix for fuel_project::jenkins::slave|Mon, 15 Sep 2014 12:33:06 +0400|Mon, 15 Sep 2014 12:33:06 +0400
+02ea35cf280e3d95c41c5ff512659c723bc751f2|Moving output from ldap2sshkeys to syslog|Sat, 13 Sep 2014 11:37:01 +0400|Sun, 14 Sep 2014 02:47:34 +0400
+8963a584ef62939b5ff38bae8cd6589991ce94e7|Setting sysctl tuned defaults|Sat, 13 Sep 2014 22:59:02 +0400|Sun, 14 Sep 2014 02:47:27 +0400
+695991ea8f610b2d5eed63cf2ab7f42f7e811527|Tuning SSL in nginx|Sat, 13 Sep 2014 23:44:50 +0400|Sun, 14 Sep 2014 00:12:47 +0400
+b15a3d653e909ff12089d0e8fd76baf6f1ecfb65|Merge "tmux and screen added to install"|Fri, 12 Sep 2014 20:40:16 +0400|Fri, 12 Sep 2014 20:40:16 +0400
+489499182eba9f4804c4c7d99b33270e0443646e|tmux and screen added to install|Fri, 12 Sep 2014 20:29:00 +0400|Fri, 12 Sep 2014 20:29:00 +0400
+9c88dbc742e194d1929b0b611696b52fc41e9ea5|Using thias-sysctl module|Fri, 12 Sep 2014 20:06:09 +0400|Fri, 12 Sep 2014 20:06:09 +0400
+54cef23f2b22451ade5136059636164c8db5639d|Update for ldap2sshkeys to support grants by groups|Sat, 6 Sep 2014 00:53:26 +0400|Wed, 10 Sep 2014 22:03:13 +0400
+27418c9a498de9f37767313091683fee83db8832|Fixes + Refactoring|Wed, 10 Sep 2014 02:56:47 +0400|Wed, 10 Sep 2014 04:21:57 +0400
+49ce36128448538332850cc872635918ad0015a8|Refactoring zabbix::server|Sat, 6 Sep 2014 16:50:18 +0400|Tue, 9 Sep 2014 20:52:08 +0400
+31ef41cf4d1f21c7adc3effdc36f945b12d3f767|mc + srv regex fix|Mon, 8 Sep 2014 22:27:58 +0400|Mon, 8 Sep 2014 22:27:58 +0400
+495bd82f71243f170e54769de1d01ac7642d7b36|Fix for LDAP setup on twin1a-srt|Thu, 4 Sep 2014 13:01:27 +0400|Mon, 8 Sep 2014 16:27:25 +0400
+40f5070f38dc734524eaabc98ac6f5a4a406089d|Fix for puppet::master manifets + hiera configuration support|Wed, 3 Sep 2014 05:57:52 +0400|Wed, 3 Sep 2014 22:14:27 +0400
+ccbd0247e77cd7ec8feede874075c97caf942324|Fix jenkins::slave include|Wed, 3 Sep 2014 21:17:14 +0400|Wed, 3 Sep 2014 21:17:14 +0400
+99b541b812f242910f5b67f7db0675c186b0b28a|ssh::ldap refactoring|Sat, 30 Aug 2014 03:37:11 +0400|Wed, 3 Sep 2014 16:37:05 +0400
+a2990b5b06e5caa015ea203f7298c9337c2a75b3|twin1a-srt added|Wed, 3 Sep 2014 15:28:18 +0400|Wed, 3 Sep 2014 15:28:18 +0400
+737d15edca3fd74d103455bfe2803bb65d0ab6f7|Jenkins repo key update|Wed, 3 Sep 2014 14:26:25 +0400|Wed, 3 Sep 2014 14:26:25 +0400
+1a5720aaa14aab50aae734024d7191a889c36202|Add firewall for jenkins master|Tue, 2 Sep 2014 16:31:27 +0400|Tue, 2 Sep 2014 20:12:39 +0400
+9c14a724e753bf501578949324498db1f363a495|Merge "Moving scripts to bin directories"|Mon, 1 Sep 2014 19:32:37 +0400|Mon, 1 Sep 2014 19:32:37 +0400
+05bfbd60bd8035f089c283dc27bcf62108a02622|Moving scripts to bin directories|Sat, 30 Aug 2014 15:06:56 +0400|Mon, 1 Sep 2014 19:00:57 +0400
+e4c74a20328d7a397a5e628631fef51dcfe34d69|Refactoring in opentracker class|Fri, 29 Aug 2014 20:17:27 +0400|Mon, 1 Sep 2014 18:47:10 +0400
+b9199c426b02074e29a6909dc5cd4b6f066b14aa|Refactoring in fuel_project::jenkins_slave|Fri, 29 Aug 2014 20:25:33 +0400|Mon, 1 Sep 2014 17:12:39 +0400
+42e99cb673f1ae171c80c76e1e26510b95aaa6e1|Fix dependencies for verify-fuel-web and verify-fuel-ostf|Fri, 29 Aug 2014 17:23:09 +0400|Fri, 29 Aug 2014 17:23:09 +0400
+9173268fac4b4991812accffbf3edb97f09c7e95|Refactoring && Fixes|Thu, 28 Aug 2014 12:32:49 +0400|Fri, 29 Aug 2014 15:25:23 +0400
+f2097e7c86a839ae499c6703fbec8f385fdaff19|Fix for puppet::master|Thu, 28 Aug 2014 21:26:31 +0400|Fri, 29 Aug 2014 01:07:07 +0400
+acbdc4351b7c55649a90bffd26b939eb6a75a404|Fix errors and new virsh version|Thu, 28 Aug 2014 20:59:49 +0400|Thu, 28 Aug 2014 21:02:14 +0400
+1e200afe4cc92e26cd5066ddc1ec823c3f09e50d|Fix for zabbix agent restart|Thu, 28 Aug 2014 20:07:59 +0400|Thu, 28 Aug 2014 20:07:59 +0400
+8a8fabab28800c9c3bf6fa0f9759c1c3c1463a98|Fix typos in jenkins master|Thu, 28 Aug 2014 16:53:33 +0400|Thu, 28 Aug 2014 16:53:33 +0400
+ebf3bdb554b33e9848f6b6bac64ed2e807919406|Add some usefull packages to manifests.|Wed, 27 Aug 2014 19:16:39 +0400|Thu, 28 Aug 2014 03:32:07 +0400
+4c053e3ee4f4f352450da0c36ec6c9f13e9e4edc|puppet parser verify && puppet-lint.|Mon, 25 Aug 2014 03:23:26 +0400|Thu, 28 Aug 2014 01:22:16 +0400
+d78df26883bdfb464118407f6086df2cd8cd2472|Merge topic '21214'|Mon, 25 Aug 2014 15:23:45 +0400|Mon, 25 Aug 2014 15:23:45 +0400
+9755bb6bcd060518df3713a801cc80efb32e6e58|Merge "Separating external modules"|Mon, 25 Aug 2014 15:23:35 +0400|Mon, 25 Aug 2014 15:23:35 +0400
+4e8239a37ed9321409d70adddc4ed867a69070e9|Refactoring in more pretty to view way|Sun, 24 Aug 2014 14:01:15 +0400|Sun, 24 Aug 2014 15:24:16 +0400
+6a8b254be20a8bfae1b244afcee422321450106a|Fix firewall for zabbix-agent|Sun, 24 Aug 2014 01:01:08 +0400|Sun, 24 Aug 2014 15:24:15 +0400
+3141189678381db15c324b22a1a6b3e1beabe8eb|Add tests for fuellib_review_syntax_check|Fri, 22 Aug 2014 18:53:33 +0400|Sun, 24 Aug 2014 15:10:42 +0400
+ce427ef90b227a49e0cc4e71a335ced6c0070084|Separating external modules|Sat, 23 Aug 2014 01:17:44 +0400|Sun, 24 Aug 2014 14:05:04 +0400
+9ff6c9ab334973a7c9d45712a3d1c12040f08b5e|Merge "Sync for deleted VM's by hand"|Sun, 24 Aug 2014 00:55:09 +0400|Sun, 24 Aug 2014 00:55:09 +0400
+728fd2f9a3bfbb9f53b8eabec23a06cd956a7f92|Sync for deleted VM's by hand|Sat, 23 Aug 2014 20:14:29 +0400|Sun, 24 Aug 2014 00:53:55 +0400
+b13fb7d8956c4770cff9f662207ddde5791bf191|Fix for zabbix-agent configuration|Fri, 22 Aug 2014 18:24:44 +0400|Fri, 22 Aug 2014 18:24:44 +0400
+5d69af315c920657ed6e04c35581abf711ef1d29|Adding puppetlabs-mysql to install_modules.sh|Thu, 21 Aug 2014 20:48:47 +0400|Thu, 21 Aug 2014 20:48:53 +0400
+7f3a222819a53940334ad430f48248763001800c|Fix for puppetlabs-apt module|Thu, 21 Aug 2014 20:45:39 +0400|Thu, 21 Aug 2014 20:45:39 +0400
+5711dfc4a0ca9b332d7b4cd07f5a657f0a3f6876|Copy install_modules.sh from openstack-infra/config|Thu, 21 Aug 2014 19:47:06 +0400|Thu, 21 Aug 2014 20:24:03 +0400
+d4118ec241571aaac4829dfbd9e61dfbbeeed9dc|Fix for apt::key + removing puppetlabs repo|Thu, 21 Aug 2014 19:44:33 +0400|Thu, 21 Aug 2014 19:44:33 +0400
+9f7c50d4a5edb90df0c97342be6fb599800ea90e|Increasing devops cleanup timeout|Wed, 20 Aug 2014 23:53:47 +0400|Wed, 20 Aug 2014 23:53:47 +0400
+c269b02c221bee35af8d8e7dff024125c33f272a|Add phantomjs and /var/log/nailgun for fuel-web tests|Wed, 20 Aug 2014 21:19:24 +0400|Wed, 20 Aug 2014 21:26:35 +0400
+0d718b9e5cd76fc95ba5c12a590ca5afe8170def|Jenkins master manifests|Mon, 18 Aug 2014 16:11:54 +0000|Tue, 19 Aug 2014 21:08:21 +0400
+0566729e05b6d71bd2b122a9fbbe475659f00ac9|Fix for server and server_external vars in hiera for zabbix|Tue, 19 Aug 2014 20:58:30 +0400|Tue, 19 Aug 2014 20:58:30 +0400
+f517a498cbe20b73a4cd49cf444222c101e247bb|Fix for zabbix::agent on external hosts|Tue, 19 Aug 2014 19:58:20 +0400|Tue, 19 Aug 2014 19:58:20 +0400
+c89bd5d94e97dd16be4359bc85a4ca609b19cf16|Define webtest suite|Wed, 13 Aug 2014 17:23:04 +0400|Tue, 19 Aug 2014 19:35:28 +0400
+c484846b9a55c82aef4fff22d061d609e1455fa3|Quick zabbix packages fix|Mon, 18 Aug 2014 16:16:57 +0000|Mon, 18 Aug 2014 16:16:57 +0000
+d3b5a2bb16567136435411f50c1e12246da5512d|zabbix::agent refactoring|Wed, 13 Aug 2014 00:25:23 +0400|Sun, 17 Aug 2014 13:37:32 +0400
+44d0657ec833734643527d64747112cc21b43cfe|Fix for listen_tcp|Fri, 15 Aug 2014 01:21:13 +0400|Sun, 17 Aug 2014 13:35:30 +0400
+394e732beff8aa9521919f53f717246d7e484700|Refactoring of Devops and psql removal|Wed, 13 Aug 2014 21:13:25 +0400|Thu, 14 Aug 2014 20:32:18 +0400
+f06fc26afd1afdefab552635361179c36cb495d9|Setting caching for gerrit static files|Wed, 13 Aug 2014 21:36:16 +0400|Wed, 13 Aug 2014 21:36:16 +0400
+d204123a6a2dcf3259fc1ffb03af09f10e9adc34|using thias-libvirt|Tue, 12 Aug 2014 20:00:14 +0400|Tue, 12 Aug 2014 21:28:29 +0400
+0289cf2f4608905a2add7edb4a04ca06fb16385a|Define lab-cz|Mon, 11 Aug 2014 14:40:21 +0400|Tue, 12 Aug 2014 20:03:58 +0400
+e8c4ce5d7c63f4d0c825f40d3ac0cae57e3de39f|Refactoring of jenkins_slave to separate module|Mon, 11 Aug 2014 19:11:39 +0400|Tue, 12 Aug 2014 16:11:00 +0400
+f7fbcfa3a201071401a816abbf9634ee8ee9e2b5|hiera common.yaml update|Tue, 12 Aug 2014 02:03:28 +0400|Tue, 12 Aug 2014 12:55:41 +0400
+f2fc83cd007114d6f189206daf38081e6b2194b1|Integrate OpenStack Gerrit to Fuel-Infra|Wed, 9 Jul 2014 16:50:57 +0400|Mon, 11 Aug 2014 14:20:07 +0400
+bad96945ca87ac1cd983e87260348c71f60d1b32|Merge "Timing items added"|Mon, 11 Aug 2014 13:56:08 +0400|Mon, 11 Aug 2014 13:56:08 +0400
+ab414c67599db5b6ba975ba010632a90b3890ae8|Timing items added|Sun, 10 Aug 2014 13:21:12 +0400|Sun, 10 Aug 2014 13:22:16 +0400
+278c63a85a34d0126b9ce434e4c78551b1737c08|Fix lab-cz.bud.mirantis.net hostname|Fri, 8 Aug 2014 14:58:10 +0400|Fri, 8 Aug 2014 14:58:10 +0400
+dab0a1e38e544d22c249e69974340e436a628b5a|Add entry for lab-cz.vm.mirantis.net|Fri, 8 Aug 2014 14:47:16 +0400|Fri, 8 Aug 2014 14:47:16 +0400
+06e177ceb61e382a2c8cb788d1a7c816928a9f0e|Fixes and improvements|Tue, 5 Aug 2014 11:28:30 +0400|Tue, 5 Aug 2014 13:43:02 +0400
+d528bbf5953f499ce809df7c01c11c41114d1476|Fix for dpkg inclusion|Sun, 3 Aug 2014 14:35:27 +0400|Sun, 3 Aug 2014 14:35:27 +0400
+f971629a8e10eb517aa769227541c19d055c5ee8|Fix for pxetool and allowing local traffic for devops envs|Sun, 3 Aug 2014 11:29:10 +0400|Sun, 3 Aug 2014 11:29:10 +0400
+728790f1894e08be8bed19a64dda0d0838ae6852|Hiera template added|Fri, 1 Aug 2014 20:00:48 +0400|Sat, 2 Aug 2014 17:39:25 +0400
+1c0f383ab074479379e51dcca6105b6e9f784a4d|Refactoring|Thu, 31 Jul 2014 23:32:43 +0400|Fri, 1 Aug 2014 13:31:17 +0400
+c3c5093d6b2c82172d17e8bcbea4800f74441c77|Setting timezone from puppet + moving root-email to hiera|Thu, 31 Jul 2014 21:14:28 +0400|Thu, 31 Jul 2014 21:16:19 +0400
+c2ade1656ccdc1e1cac2e9fa53d15408a2ce5bb2|Fix deps: puppet-module-puppetlabs-ntp|Wed, 30 Jul 2014 18:52:03 +0400|Wed, 30 Jul 2014 18:52:03 +0400
+22bde6e79fa4e7a64886a05c499acd6b37ecc7a7|jenkins-product-pl.poz.mirantis.net added|Wed, 30 Jul 2014 15:21:35 +0400|Wed, 30 Jul 2014 15:21:35 +0400
+d7854ba9ba72ca76a63c36c98bd60b17df50b127|Legacy cron stuff left from IT's puppet|Wed, 30 Jul 2014 04:16:00 +0400|Wed, 30 Jul 2014 04:16:00 +0400
+2f7c69667edd94e995cbb8715a5e70a88c0081c9|Add libevent-dev to system test|Mon, 28 Jul 2014 16:53:48 +0400|Mon, 28 Jul 2014 16:53:48 +0400
+a5b2553af282da9d47c41cc4d51122b45693c0de|Fix firewall rules for DMZ hosts in zabbix::agent|Sat, 26 Jul 2014 14:27:28 +0400|Sat, 26 Jul 2014 14:27:28 +0400
+6732cd7b0b91c17a921d8023c6bb8e96400244ac|Fix firewall rules for docker containers|Fri, 25 Jul 2014 22:23:30 +0400|Fri, 25 Jul 2014 22:23:30 +0400
+1c100f4c78b4a3dfa72e8d01bc3abf6bc151f22f|Refactoring virtual::packages|Fri, 25 Jul 2014 20:35:21 +0400|Fri, 25 Jul 2014 20:35:21 +0400
+9a38db8850636bb5bb5e416202b2a30d93bb7f08|Using hiera for firewall rules|Fri, 25 Jul 2014 20:16:25 +0400|Fri, 25 Jul 2014 20:25:28 +0400
+7f27fe14d3ef22f5eb919128f304cf920b144d3e|sudo for iso building|Fri, 25 Jul 2014 15:33:37 +0400|Fri, 25 Jul 2014 18:26:07 +0400
+ff917ccbf9e9b9fed3151e5cd05770b92c598120|Fixes + Refactoring|Wed, 23 Jul 2014 22:46:23 +0400|Thu, 24 Jul 2014 02:33:09 +0400
+ba62b42ca7b5987bed07d8a1b1d2ed845f919050|Using hiera in jenkins module|Wed, 23 Jul 2014 22:17:47 +0400|Wed, 23 Jul 2014 22:17:47 +0400
+894a50eb285ea06276d2fe8bda41e117a8f06f34|Puppet master(1st step of migration)|Wed, 23 Jul 2014 00:46:01 +0400|Wed, 23 Jul 2014 18:56:38 +0400
+061881d2cb3a87e2ee476c540576401d8d91e932|sudo for tailnew(required because of chmod on nginx logs)|Tue, 22 Jul 2014 13:42:19 +0400|Tue, 22 Jul 2014 13:42:19 +0400
+aac55c1d8f31b319bb198f7eb520fef84c4999f1|Fix for nginx.logs.requests* checks|Tue, 22 Jul 2014 12:06:31 +0400|Tue, 22 Jul 2014 12:06:31 +0400
+31b4344492e9a297b2b2fb8a4e25f220c3a2c56b|Firewall fix for ci slaves + nginx basic monitoring|Fri, 18 Jul 2014 11:19:30 +0400|Mon, 21 Jul 2014 22:00:26 +0400
+b6933aad61150b77f94c0e3822da603e20da9a02|Password changes|Tue, 15 Jul 2014 16:02:54 +0400|Tue, 15 Jul 2014 17:09:10 +0400
+fcdd26f1db467b374e936027aea7b5bd9f6783e5|zabbix db and server optimizations|Tue, 15 Jul 2014 14:09:00 +0400|Tue, 15 Jul 2014 14:09:00 +0400
+c0013dfb0d967e331587c596ea7c02f9a1f64d7b|Zabbix::server fixes and common improvements|Mon, 14 Jul 2014 16:14:13 +0400|Mon, 14 Jul 2014 16:14:13 +0400
+b8bcc304e4e2ebd10bbbb4de0bc4e6421c5d32f2|(pkgs)?ci-slave*.fuel-infra.org added|Mon, 14 Jul 2014 14:48:17 +0400|Mon, 14 Jul 2014 14:48:17 +0400
+03b52eceed285129d971d14ed2df634f26cc06a5|Using future parser to enable iterations|Sat, 12 Jul 2014 16:03:04 +0400|Sat, 12 Jul 2014 22:10:21 +0400
+6f9ab99ca1d14081e0925cf2c74a0f3d8fcc7335|Merge "Fix requirements in seed::web"|Sat, 12 Jul 2014 22:09:56 +0400|Sat, 12 Jul 2014 22:09:56 +0400
+db4e3ace42ddfe265482fc4be520e076d9691c70|Fix requirements in seed::web|Sat, 12 Jul 2014 14:52:25 +0400|Sat, 12 Jul 2014 14:52:25 +0400
+d389a0fe3c8ff8e993bbe5951beeb8db4c6ac205|fixing lxc-docker to 0.10.0 as 0.11.0 doesn't work currently|Sat, 12 Jul 2014 14:46:03 +0400|Sat, 12 Jul 2014 14:46:03 +0400
+85d04ec319139648dd531fdd3e3de97298105b34|Fix apt::key -> apt::source sequence|Thu, 10 Jul 2014 20:44:31 +0400|Thu, 10 Jul 2014 20:44:31 +0400
+37e74754c83594d9f3b5ca36f6d634ac4ca1a9d4|seed::web updates|Thu, 10 Jul 2014 16:27:45 +0400|Thu, 10 Jul 2014 17:54:15 +0400
+d3494171cfe91b99084beafcbcd186a6a279298f|Fixing keys and repos issues|Tue, 8 Jul 2014 20:28:17 +0400|Wed, 9 Jul 2014 15:09:47 +0400
+f0f27137029a6481b9ebd393fe7eaa3374f33fa2|Cleanup cronjob for system_tests environments added|Tue, 8 Jul 2014 14:41:24 +0400|Wed, 9 Jul 2014 15:09:01 +0400
+9cde202c177a8965ace11126c93e430c27f06c20|Cleanup cronjob added|Mon, 7 Jul 2014 19:06:08 +0400|Mon, 7 Jul 2014 20:07:17 +0400
+b89b4e74b4d0c44d8d8c417d521b05ff1c09b3b2|Fix for jenkins swarm slave variables|Mon, 7 Jul 2014 16:41:28 +0400|Mon, 7 Jul 2014 16:41:28 +0400
+feedb3bd736351d182c24dfc31e29ccf2a61ede3|Fix typos|Mon, 7 Jul 2014 15:24:41 +0400|Mon, 7 Jul 2014 15:24:41 +0400
+1ec21fe74f30c86824560dd4d5083338d736d94f|Add atop to base system|Mon, 7 Jul 2014 14:56:26 +0400|Mon, 7 Jul 2014 15:11:35 +0400
+0194981cf68bf159615bd07ff5e00805b6c316e4|jenkins modules refactoring + fix for jenkins access to /var/www/fuelweb-iso|Mon, 7 Jul 2014 03:35:27 +0400|Mon, 7 Jul 2014 03:35:27 +0400
+bd1cbf38276a21793985be36ec657a63c5cd5a06|mirror1.f-i.org + refactoring|Sat, 5 Jul 2014 16:42:06 +0400|Sun, 6 Jul 2014 15:17:00 +0400
+6ba8cabd67c58a4852668845f9e1f1fa0a045d96|Fix sources.list conflict, add jenkins-product-kha|Fri, 4 Jul 2014 17:48:40 +0400|Fri, 4 Jul 2014 19:05:20 +0400
+833a9d173ea47aa165b465865a34ee75fa91a39b|Fix for dpkg module|Wed, 2 Jul 2014 16:05:48 +0400|Wed, 2 Jul 2014 16:14:51 +0400
+941c373a1458d3c83ef1c8af8d5f7410f5aabcee|Add virtual repos|Tue, 1 Jul 2014 13:01:23 +0000|Tue, 1 Jul 2014 17:11:27 +0000
+5c582f74cc127a484e64b2a62f92d778924a2ea9|Separate virtual resources in submodule.|Tue, 1 Jul 2014 12:34:11 +0000|Tue, 1 Jul 2014 12:34:11 +0000
+41f4234790e18150ee1af6fcc78c1df56b787ce4|Sudoers for zabbix-agent added|Thu, 26 Jun 2014 17:58:28 +0400|Thu, 26 Jun 2014 17:58:28 +0400
+98440a85f2febfc7c7351eb62c9e2ba3cf5c9eeb|Update pxe-product VMs names|Thu, 26 Jun 2014 16:08:42 +0400|Thu, 26 Jun 2014 16:08:42 +0400
+9378c1b6bb7608973434df373d5cfc1fb63d0500|Fix for seed nginx conf|Thu, 26 Jun 2014 06:14:20 +0400|Thu, 26 Jun 2014 06:14:20 +0400
+7cbbb51a3bc8644770b753d7b6c8858fd273e20e|Fix for pxe-product nodes names in site.pp|Wed, 25 Jun 2014 18:52:22 +0400|Wed, 25 Jun 2014 18:52:22 +0400
+9bd742634b4ce07dbee907b9391a6109b4e5fca3|Syntax fix for pxetool manifests|Tue, 24 Jun 2014 13:12:06 +0400|Wed, 25 Jun 2014 18:34:30 +0400
+8b4eb09790708279d44e69cd16ea3eec375137bf|ZabbixServer TrendCache set to 16M|Mon, 23 Jun 2014 15:34:01 +0400|Mon, 23 Jun 2014 15:34:01 +0400
+8b8ff95933be16cd50eb36b98c8626a9af2dd0b7|root email|Wed, 18 Jun 2014 20:17:35 +0400|Fri, 20 Jun 2014 17:08:51 +0400
+f3c4069b70b8133d4e4b8c394be6b0d1239aa788|Add bc dependency for building fuel iso|Fri, 6 Jun 2014 20:45:24 +0400|Wed, 11 Jun 2014 12:32:17 +0400
+258b0da92dfc37da3b2be195e115de8ab5f3ede7|Fixed relations between installation of nginx and restart on configuring|Mon, 9 Jun 2014 16:14:16 +0400|Mon, 9 Jun 2014 16:23:15 +0400
+e0ca3b98f53fc841992c9d94f7cc328bebd83c45|Add aurlapova key and other enhancements|Fri, 6 Jun 2014 12:41:38 +0400|Fri, 6 Jun 2014 12:56:41 +0400
+6aafc26365a71b9b23ced3a4ff093ad9503dc9bb|Automate installation of fuel iso build enviroment|Thu, 29 May 2014 17:10:17 +0400|Thu, 5 Jun 2014 19:52:25 +0400
+1e658c16f206afdbbe3a5a65b14217f92264447f|Fix for ssh::ldap: ldap-utils added to deps|Wed, 4 Jun 2014 16:08:28 +0400|Wed, 4 Jun 2014 16:08:28 +0400
+3b0fdde795757724a65d3b142e82d3e4f620c313|nginx and dpkg fixes, ldap auth for ssh|Mon, 2 Jun 2014 17:51:27 +0400|Wed, 4 Jun 2014 15:45:27 +0400
+53c62eeaa8c94925af30c0b00beeeec9ac1ce9d6|Improvements(log_format proxy, pxetool installation)|Sun, 1 Jun 2014 01:19:51 +0400|Mon, 2 Jun 2014 13:11:22 +0400
+6051b549381153307bd6d33b057564805ba29778|Allowing TCP connections to libvirtd without authentication|Tue, 27 May 2014 17:44:08 +0400|Tue, 27 May 2014 17:44:08 +0400
+0bfb95ed87123d31fc46d9f986457d8cc05e39c0|Installing manifests to /usr/share instead of /etc|Mon, 26 May 2014 16:07:03 +0400|Mon, 26 May 2014 16:07:03 +0400
+d9b1eeb680baa9ca49a03132eddc228472e47a67|Refactoring|Sun, 25 May 2014 13:30:59 +0400|Sun, 25 May 2014 14:16:55 +0400
+506a904333d2d9aefe5706fe6724877987bd7338|Zabbix active checks on external servers fix|Wed, 14 May 2014 15:37:11 +0400|Wed, 14 May 2014 15:38:02 +0400
+66c1562a4af5f17614d4326ed212d2fa79dfb59a|client_max_body_size 5G to nginx seed-web conf|Tue, 13 May 2014 16:56:36 +0400|Tue, 13 May 2014 16:56:36 +0400
+01af72d7cbece3556dae5f034cde17cdae2986dc|Zabbix firewall fix|Tue, 13 May 2014 16:18:08 +0400|Tue, 13 May 2014 16:18:51 +0400
+a735fc6d353d52855adb52da17f0bbb079e802e7|Seed-web support in manifests|Tue, 13 May 2014 12:36:20 +0400|Tue, 13 May 2014 13:08:25 +0400
+02bfaa5e658d8cf52a90572142e42fb01d66d156|External mirror added|Thu, 8 May 2014 16:35:44 +0400|Thu, 8 May 2014 16:36:41 +0400
+3eb18f3c5807d70c6c6b2f09f5c62479e02bc55f|Make default storage pool persistent|Sat, 3 May 2014 19:20:29 +0400|Mon, 5 May 2014 15:42:14 +0400
+6144b897cfb34a9b712932671f526e09a7d2ae5d|sudo for jenkins user to run ebtables (Close-Bug: #1315863)|Mon, 5 May 2014 11:11:57 +0400|Mon, 5 May 2014 11:29:07 +0400
+9eab50d605b57472b6ce19cc7930660454a5772f|Zabbix server manifests and refactoring|Tue, 29 Apr 2014 11:07:51 +0400|Sun, 4 May 2014 12:01:55 +0400
+6908455dce6301d742b38e67a88592432df3d03d|Local mirrors usage|Mon, 28 Apr 2014 16:54:32 +0400|Mon, 28 Apr 2014 20:40:47 +0400
+471f954366c3b5d30e1ca8d0bb5bdb534fd484f2|Additional configuration for external jenkins slaves|Tue, 22 Apr 2014 11:14:14 +0400|Tue, 22 Apr 2014 14:58:38 +0400
+120734152e80acbbbbe7587ef7b914dd0e1b46b7|Added new external torrent hosts|Wed, 16 Apr 2014 19:26:57 +0400|Wed, 16 Apr 2014 19:38:43 +0400
+1aabf788dfd510b22f2410ca607f0172a4fbc95b|pxetool manifests added.|Wed, 16 Apr 2014 18:50:30 +0400|Wed, 16 Apr 2014 18:58:04 +0400
+97cafd5b7afee1801ac63ef0f26eb14a1e792637|Replacing fuel-jenkins2.mirantis.com with pattern|Tue, 15 Apr 2014 18:53:57 +0400|Tue, 15 Apr 2014 19:41:32 +0400
+c691aeebade617ee4933d9fec2e354af13674f13|Behaviour improvements|Fri, 11 Apr 2014 01:12:04 +0400|Fri, 11 Apr 2014 01:12:04 +0400
+e75c110743c6fcd760a73aab11f52931d2254b6e|Setting labels for jenkins swarm slave|Wed, 9 Apr 2014 23:08:33 +0400|Wed, 9 Apr 2014 23:08:33 +0400
+b89101edd61fb08043a0a8e9f5e6816eba5759de|nginx share for data|Tue, 8 Apr 2014 21:21:54 +0400|Tue, 8 Apr 2014 21:23:11 +0400
+c8830acefbcd5b3c37c50d23cc2ddc2f12cd6d35|Moscow microcloud added|Tue, 8 Apr 2014 17:16:00 +0400|Tue, 8 Apr 2014 17:16:00 +0400
+d033b8f94ecfa59c556f9c28c34aae9b752c7036|fix for jenkins_slave role|Tue, 8 Apr 2014 14:44:20 +0400|Tue, 8 Apr 2014 14:44:20 +0400
+437c66ed82fa33c9340fb5ce6e6c37d9d2b4d030|Discard etckeeper usage|Sat, 5 Apr 2014 14:10:10 +0400|Sat, 5 Apr 2014 14:12:52 +0400
+a60211739d9c818149002110e977760d5aa7728f|UseDNS no in sshd_config|Wed, 2 Apr 2014 12:18:22 +0400|Wed, 2 Apr 2014 12:18:22 +0400
+a97db7fc480aa913e93ec733cbbfeaad085b6a1f|etckeeper added to deps(ubuntu 14.04 compability)|Tue, 1 Apr 2014 23:49:21 +0400|Tue, 1 Apr 2014 23:49:21 +0400
+129193efff4c8670e4f858aa473c3c923ab34f05|ubuntu 14.04 support|Tue, 1 Apr 2014 18:42:30 +0400|Tue, 1 Apr 2014 18:44:27 +0400
+5bd2eb291020cb3b5696bac7f21293ace9d22794|ntp module added|Tue, 1 Apr 2014 04:02:24 +0400|Tue, 1 Apr 2014 04:02:24 +0400
+8527fbbf7eacd3d3fb7c68368f9f41ca83218e8e|python-yaml added|Mon, 31 Mar 2014 21:54:38 +0400|Mon, 31 Mar 2014 21:54:38 +0400
+a3ab691956dd3eb36848b7c9675f540428208297|fixing HOME variable issue|Mon, 31 Mar 2014 16:31:03 +0400|Mon, 31 Mar 2014 16:31:03 +0400
+fce132e74edf5bcaf1f47fe69f5d1d7d8761f182|add logoutput => on_failure to all exec's|Mon, 31 Mar 2014 15:45:28 +0400|Mon, 31 Mar 2014 15:45:28 +0400
+f2829d7f830d8b309573d47b91bef3879c5f6de4|Fixes & improvements|Thu, 27 Mar 2014 21:21:03 +0400|Mon, 31 Mar 2014 03:03:38 +0400
+84f484b8e068d9fc368d31e83ebbd10ec7913002|iptables-persistent dependencies|Mon, 24 Mar 2014 19:22:11 +0400|Mon, 24 Mar 2014 19:22:11 +0400
+809868c6a08b1a4b65602b8c94d72595d26d18bb|zabbix_agentd.conf template updated|Mon, 24 Mar 2014 18:28:10 +0400|Mon, 24 Mar 2014 18:28:10 +0400
+34b2811433e16861cea183a62fd78162c8635eff|chmod for puppet dir|Mon, 24 Mar 2014 11:29:16 +0400|Mon, 24 Mar 2014 11:29:16 +0400
+d1a52c213b110cff70bbbe34a4394521aeeaa1ad|fixed package deps|Sat, 22 Mar 2014 20:29:45 +0400|Sat, 22 Mar 2014 20:29:45 +0400
+3e31642729db8ea82de793dd7070d9f1bfa36f27|firewall rules added + fixes|Sat, 22 Mar 2014 03:46:49 +0400|Sat, 22 Mar 2014 03:46:49 +0400
+f7edc5489e5de507c99d2103aa6f75afb2ce464e|Selfupdate functionality + zabbix checks|Wed, 19 Mar 2014 23:46:25 +0400|Thu, 20 Mar 2014 03:21:29 +0400
+a79974fda900c6a629ba1cb837ddf90afaa20253|opentracker manifests added + jenkins swarm slave config templaterized|Wed, 19 Mar 2014 11:29:25 +0400|Wed, 19 Mar 2014 17:00:05 +0400
+58c4bfaa55bfccdaddbb7d5e37031a5092bf1760|fixes, user creation|Mon, 17 Mar 2014 20:23:16 +0400|Mon, 17 Mar 2014 20:23:16 +0400
+2668a19084b5527c88e01a9369eb2c7d9c25739c|transmission-daemon download directory creation|Mon, 17 Mar 2014 19:13:50 +0400|Mon, 17 Mar 2014 19:13:50 +0400
+32a34cf1613137a36ebb5f108e68fb9a0d346d5b|Disabling addional repo (all stuff moved to qa-ubuntu repo)|Mon, 17 Mar 2014 14:06:47 +0400|Mon, 17 Mar 2014 14:06:47 +0400
+2a0fc1635a9873d963de6e79caa65e0302cf5bbe|Manifests updated|Thu, 13 Mar 2014 16:05:41 +0400|Thu, 13 Mar 2014 20:05:47 +0400
+5ff380caa71191b0e31f179e5ca8793a623ca664|manage.py syncdb && virsh pool-create|Thu, 13 Mar 2014 02:09:59 +0400|Thu, 13 Mar 2014 02:09:59 +0400
+6b8244966bdb4fb2f14cca328cc13fd51a63ddef|fix config for jenkins-swarm-slave|Wed, 12 Mar 2014 23:04:38 +0400|Wed, 12 Mar 2014 23:04:38 +0400
+b2f82937a2bd8508f1a3c6e7069d27dbc05186ca|Fix manifests order|Wed, 12 Mar 2014 20:17:09 +0400|Wed, 12 Mar 2014 21:07:53 +0400
+52392f8a4cf5b1820490e6fc2586a0f11196399f|jenkins-swarm-slave manifests added|Wed, 12 Mar 2014 19:49:21 +0400|Wed, 12 Mar 2014 19:49:21 +0400
+c18f35f628d22247209f31dc5e01b6440819dffe|Saratov microcloud node definition|Wed, 12 Mar 2014 18:03:30 +0400|Wed, 12 Mar 2014 18:03:30 +0400
+7e7759d989ae8736468ce7617ef542b41e0011a9|dependencies fix|Wed, 12 Mar 2014 15:19:45 +0400|Wed, 12 Mar 2014 15:29:29 +0400
+2b0b02333c038384a815a5f46e3e2c9376077fc9|Fixes in system_tests, postgresql, venv modules|Wed, 12 Mar 2014 12:32:01 +0400|Wed, 12 Mar 2014 12:35:54 +0400
+e71f0acce83b626c25ca09b40fcc7ed6b655214d|ver. 0.2|Wed, 12 Mar 2014 01:12:12 +0400|Wed, 12 Mar 2014 01:12:12 +0400
+1d9013edf15dbd958f5d86ee168d5fa3e106b46a|Changing manifests structure|Wed, 12 Mar 2014 01:06:54 +0400|Wed, 12 Mar 2014 01:06:54 +0400
+c0ebac92a24c46263d46facb23b1c14e927a5e2f|Initial code commit.|Sun, 9 Mar 2014 17:07:55 +0400|Sun, 9 Mar 2014 19:33:56 +0400
+62e3ade50ccba9883d21fedcd2b78356e4ace80a|.gitreview added|Sun, 9 Mar 2014 16:59:13 +0400|Sun, 9 Mar 2014 16:59:13 +0400
+cba04882930cec9a7ffb05538ad5581d97cce6ba|Initial empty repository|Sun, 9 Mar 2014 16:55:10 +0400|Sun, 9 Mar 2014 16:55:10 +0400

@@ -1,0 +1,599 @@
+8901fe0f58d897852f8fbe0830ba24d39f0c07c7|Merge "Add back unit tests with Puppet 5 + CentOS 8 Stream"|Mon, 21 Nov 2022 11:52:01 +0000|Mon, 21 Nov 2022 11:52:01 +0000
+babc78c907488a6ded4c51a9bf3d4b5fcb93e1fc|Bump upper version of puppetlabs-apt|Wed, 7 Sep 2022 01:29:21 +0900|Wed, 7 Sep 2022 01:29:21 +0900
+4db054a27a27ae61e7e5cd9b286e4586dde2d1a8|Add back unit tests with Puppet 5 + CentOS 8 Stream|Tue, 23 Aug 2022 14:34:07 +0900|Sun, 28 Aug 2022 13:33:27 +0900
+df68c47d8b760d67897f85b69122306ec5a7b4e3|Merge "rgw: Support Barbican integration settings"|Thu, 25 Aug 2022 07:02:01 +0000|Thu, 25 Aug 2022 07:02:01 +0000
+75c5a7c3f46ba033e80d209e8777f685275e285c|rgw: Support Barbican integration settings|Tue, 23 Aug 2022 15:36:58 +0900|Tue, 23 Aug 2022 19:03:04 +0900
+f99525ab3f63279b689449b7a83b90641c7f9803|Prepare puppet-ceph 4.0.0|Sat, 20 Aug 2022 23:45:11 +0900|Tue, 23 Aug 2022 01:16:48 +0000
+f4ebd36917bbca6333a8a78ba5b106e569bca9d0|Merge "Add back support for Puppet 5.x"|Mon, 22 Aug 2022 16:53:35 +0000|Mon, 22 Aug 2022 16:53:35 +0000
+721bfde8abaf98aeed721807f91eeb5d1c06856b|Add back support for Puppet 5.x|Mon, 22 Aug 2022 09:33:00 +0900|Mon, 22 Aug 2022 12:58:02 +0900
+b0b072701518e899e5d70d6e9c7047af187c525e|Do not override supported OS|Mon, 22 Aug 2022 01:11:43 +0900|Mon, 22 Aug 2022 10:48:32 +0900
+fa2d4ea8e4d439ca7ad9b2fcc1653ed4b1aa03b3|Add CentOS 9 and RHEL 9 to supported operating systems|Mon, 22 Aug 2022 02:39:41 +0900|Mon, 22 Aug 2022 10:48:32 +0900
+1800c1b530a8f18f69e65d91da37560d078967e9|rgw: Add support for rgw_enable_apis|Mon, 22 Aug 2022 00:42:19 +0900|Mon, 22 Aug 2022 10:48:32 +0900
+dbee5bacf3c058d770dcb1364a1dd2a8b45b8a0b|rgw: support more Swift-related options|Mon, 22 Aug 2022 00:19:56 +0900|Mon, 22 Aug 2022 10:48:32 +0900
+a41c255ab08540147fe11cf8dc04277d17115279|rgw: Add suport for the beast frontend library|Sun, 21 Aug 2022 00:50:00 +0900|Mon, 22 Aug 2022 10:48:27 +0900
+152b6f6d27c85d003beb2bbb2a8666e556bb8606|Remove support for upstart|Sun, 21 Aug 2022 01:25:10 +0900|Mon, 22 Aug 2022 02:37:18 +0900
+cedbe9151966ac14a732ac9eb9a213494cb16a5f|rgw: Refactor the logic to support multiple fronend_type|Sat, 20 Aug 2022 23:37:00 +0900|Sun, 21 Aug 2022 00:11:47 +0900
+29ca5f47d16824410eb6d1367da574ed60b51bc1|Use integer for apache::vhost::port|Tue, 16 Aug 2022 01:37:05 +0900|Tue, 16 Aug 2022 01:38:10 +0900
+0d28ee1e2fef555e0383cda227fd6842fd082c18|Bump upper version of puppetlabs-apt|Sat, 30 Jul 2022 23:14:36 +0900|Sat, 30 Jul 2022 23:14:36 +0900
+aeb5f40da6bd738dd9a9cdf819b787cf7468a3ef|Update source url to opendev|Mon, 27 Jun 2022 09:58:02 +0900|Mon, 27 Jun 2022 09:58:02 +0900
+81a137e29e7af44ba31125eb30130f5f41347d19|Remove workaround for old p-o-i manifest|Tue, 10 May 2022 13:29:39 +0900|Tue, 10 May 2022 13:29:39 +0900
+1fa388f5c34eb0ff273b58ff85e05d7c94196c26|Merge "Fix CentOS Stream 9 repo url"|Fri, 22 Apr 2022 04:17:59 +0000|Fri, 22 Apr 2022 04:17:59 +0000
+b0c34c799eef052f005d78a41611080c0c3294fa|Release 3.2.1|Wed, 20 Apr 2022 13:00:02 +0900|Wed, 20 Apr 2022 13:00:02 +0900
+379aacd2e8a03cf953d00a41995ddbcc8eb102da|Add back CentOS/RHEL 7 to supported operating systems|Wed, 20 Apr 2022 12:58:30 +0900|Wed, 20 Apr 2022 12:58:30 +0900
+08be8eedb4275cffb52cae0933e7761030a57b40|Remove support for Ubuntu 16.04 (Xenial)|Wed, 20 Apr 2022 12:46:27 +0900|Wed, 20 Apr 2022 12:47:20 +0900
+039ef5e19abf962c462ac7b8575d7d1a2d75b1d2|Fix CentOS Stream 9 repo url|Mon, 18 Apr 2022 21:14:50 +0000|Mon, 18 Apr 2022 22:21:34 +0000
+82343e1cda01952dbe2ca160dfe41e2a53dd2e12|setuptools: Disable auto discovery|Tue, 29 Mar 2022 19:01:30 +0900|Tue, 29 Mar 2022 19:01:30 +0900
+c9dc5cecbd30fffe5bdbe2f0ab7f456c473132b9|remove unicode literal from code|Tue, 8 Mar 2022 09:37:56 +0900|Tue, 8 Mar 2022 09:37:56 +0900
+f17e540ed39d78408653d900a13d127326beaf92|Release 3.2.0|Wed, 23 Feb 2022 01:49:25 +0900|Wed, 23 Feb 2022 01:49:25 +0900
+e13544a6df8f7571ae8bc8b18d2fe73a1af281aa|CentOS: Allow fixing repository url for CentOS Stream|Wed, 2 Feb 2022 19:03:07 +0900|Wed, 2 Feb 2022 19:09:31 +0900
+92da9357b3662db5e4b5cb761c6a55a56146ce84|Add unit tests of ceph::rgw::keystone::auth|Tue, 25 Jan 2022 23:21:29 +0900|Tue, 25 Jan 2022 23:21:29 +0900
+201e8b16f6e01de841153e0c33119e9efc4f8404|Deprecated pid_max and remove sysctl module dependency|Thu, 23 Dec 2021 09:45:15 +0100|Sun, 26 Dec 2021 23:16:36 +0000
+28a866b03c120143a04b8e94096e4ce2ca7a8c2e|Merge "Hide credential strings from puppet logs"|Wed, 8 Dec 2021 02:28:00 +0000|Wed, 8 Dec 2021 02:28:00 +0000
+be32caa76d6c2b79433b89c9072a38bec7355cc6|Merge "Remove workaround for issue caused by default ldap secret"|Wed, 8 Dec 2021 01:54:48 +0000|Wed, 8 Dec 2021 01:54:48 +0000
+ab0d7ee0f0bc91b19355f77bbd8513bcb3b4ed58|Hide credential strings from puppet logs|Mon, 29 Nov 2021 22:13:16 +0900|Mon, 29 Nov 2021 13:16:58 +0000
+72584e56f6b61c55edf57461247fc438081aed4f|Bump upper versions|Fri, 26 Nov 2021 01:06:34 +0900|Fri, 26 Nov 2021 01:06:34 +0900
+6d0e6b9cff95ccff524429364ee014ae1863fa12|Remove workaround for issue caused by default ldap secret|Thu, 25 Nov 2021 23:33:34 +0900|Thu, 25 Nov 2021 16:05:23 +0000
+5c3065db7838961650a8f4cce085ac6b4471295b|Fix unit test failure with recent puppetlabs-inifile|Fri, 26 Nov 2021 01:03:48 +0900|Fri, 26 Nov 2021 01:03:48 +0900
+56d0441e380d46368e1b0ff7d3919abecdf3bd46|Add information technology in the setup.cfg|Fri, 1 Oct 2021 06:54:49 +0800|Fri, 1 Oct 2021 06:54:49 +0800
+6fb9f32f4ee931201dcfa49cbea2d916736d9b69|Add license information in the setup.cfg|Thu, 30 Sep 2021 16:48:13 +0800|Thu, 30 Sep 2021 16:48:13 +0800
+6e154aee1487c64f999bc46e2842efd4004bbe8b|Delete useless code for setup.py|Thu, 30 Sep 2021 13:38:32 +0800|Thu, 30 Sep 2021 13:38:32 +0800
+ef2e847108e2968c1c2a97cfb33da2af478b3ea2|Merge "Stop configuring install_command in tox."|Wed, 29 Sep 2021 12:01:34 +0000|Wed, 29 Sep 2021 12:01:34 +0000
+8ff5f56dd6b8de0d407dfee63bc9c300c0dd533e|Merge "Fix pbr>=2.0.0 for setup.py"|Wed, 29 Sep 2021 09:09:33 +0000|Wed, 29 Sep 2021 09:09:33 +0000
+9e7ebffda1a86df9c86766c085880201885e353d|Stop configuring install_command in tox.|Wed, 29 Sep 2021 17:59:10 +0900|Wed, 29 Sep 2021 18:04:32 +0900
+a34f7a236771afdef5301f03de756fb115d93ac3|Fix pbr>=2.0.0 for setup.py|Wed, 29 Sep 2021 16:37:10 +0800|Wed, 29 Sep 2021 16:37:10 +0800
+7ce9ab15352f6b6e5a5530e99a396195a294d4e7|Update openstackdocstheme to the latest version|Wed, 29 Sep 2021 16:06:50 +0800|Wed, 29 Sep 2021 16:06:50 +0800
+1afd64b3694ee1f0a209a25f419831e8724d6a73|Update reno to the latest version|Tue, 28 Sep 2021 17:14:34 +0800|Tue, 28 Sep 2021 17:14:34 +0800
+3a1a8bb960aecd7bb07a5397fe0532f8a4a0a623|Support Puppet 7|Mon, 16 Aug 2021 18:18:00 +0900|Mon, 16 Aug 2021 18:18:00 +0900
+6edfc34ed75274a9e27bcaceca2136f8f3ef4940|Drop Fedora support|Sat, 12 Jun 2021 15:36:22 +0800|Mon, 5 Jul 2021 12:23:06 +0900
+ffa80daae8a4b774f6c5a6bcf5bf5827cfc56a5a|Merge "Set fixture paths for unit tests"|Thu, 3 Jun 2021 00:36:45 +0000|Thu, 3 Jun 2021 00:36:45 +0000
+37b0c207dfeeff8a9e57ad444fa36e39358efc95|Set fixture paths for unit tests|Wed, 2 Jun 2021 13:49:13 +0900|Wed, 2 Jun 2021 13:53:34 +0900
+b86ad1516c516f57b9288ce1b906df15515de952|Merge "Update IRC network to OFTC"|Tue, 1 Jun 2021 07:41:28 +0000|Tue, 1 Jun 2021 07:41:28 +0000
+90861088d3284fe52ac9d98275325bbaed813316|Update IRC network to OFTC|Tue, 1 Jun 2021 00:09:36 +0900|Mon, 31 May 2021 15:38:29 +0000
+a733e34266391830720a9ff4e4eb6aef0370dc69|setup.cfg: Replace dashes with underscores|Wed, 12 May 2021 08:43:56 +0800|Wed, 12 May 2021 01:52:11 +0000
+2960cfa6b6ac8e6a6e2ea0e2cbaf0f32a6e5461c|Fix lint errors with the latest lint packages|Wed, 12 May 2021 10:43:30 +0900|Wed, 12 May 2021 10:43:30 +0900
+8283dc47c1fea3a5ecca642a61afcbb734ecf94a|Merge "Bump dependency in metadata.json"|Tue, 13 Apr 2021 11:10:32 +0000|Tue, 13 Apr 2021 11:10:32 +0000
+312521b7ce61d10f124c7f7fb79b4da4451708a2|Bump dependency in metadata.json|Thu, 8 Apr 2021 20:55:43 +0200|Thu, 8 Apr 2021 20:55:43 +0200
+ed72ec68de5623c1e182311e12926e899cc4f155|Update sphinx to the latest version|Sat, 27 Mar 2021 15:31:56 +0800|Sat, 27 Mar 2021 15:31:56 +0800
+30bb45cc106db4ddeff0519dc7bc93b30558ecd8|Add Ubuntu Focal to the supporrted operating systesm|Tue, 23 Mar 2021 21:51:04 +0900|Tue, 23 Mar 2021 21:51:21 +0900
+74c698339e4d375ff246c16586a25c95f61510b8|Replace deprecated UPPER_CONSTRAINTS_FILE variable|Wed, 11 Nov 2020 09:08:35 +0800|Wed, 11 Nov 2020 09:08:35 +0800
+105b71e7b94df36e10803a8b4145c165d1e26c83|Set openstackdocs_auto_name to use 'project' as name|Wed, 16 Sep 2020 11:05:05 +0800|Wed, 16 Sep 2020 11:05:05 +0800
+9243448ba1f0147ccba55ab0f3f9f288febb0011|Remove beaker|Fri, 11 Sep 2020 12:01:32 +0200|Fri, 11 Sep 2020 10:28:20 +0000
+03784ddd87600cbcd10b7bb8d6277b2294c6433f|Use openstack_spec_helper from zuul checkout|Sun, 30 Aug 2020 22:53:44 +0200|Sun, 30 Aug 2020 22:53:44 +0200
+3b8ab1f3696e2716d81941852b04ade2093cc4e0|Switch to newer openstackdocstheme and reno versions|Tue, 2 Jun 2020 14:33:40 +0200|Tue, 2 Jun 2020 14:33:49 +0200
+12ccc2fa9e09d2593bd1ce4ebf66e0cfd8f995b7|Update Puppet requirement to >= 6.0.0|Sat, 30 May 2020 10:01:05 +0200|Sat, 30 May 2020 10:01:05 +0200
+d45cc69ed89309f61787be31a1aaad181353bae9|Merge "Release 3.1.1"|Wed, 13 May 2020 08:58:59 +0000|Wed, 13 May 2020 08:59:00 +0000
+c48505a9ed0d5463913784d86aade8baaf6ecad9|Release 3.1.1|Tue, 12 May 2020 09:55:15 +0200|Wed, 13 May 2020 08:40:06 +0000
+bebe577e70c7a8e790a25bee5b9534a830e905f3|Merge "Fix CentOS Storage SIG mirror URL"|Wed, 13 May 2020 08:10:59 +0000|Wed, 13 May 2020 08:10:59 +0000
+cdfbfde15bb144a0c6487503cd304d5140444913|Fix CentOS Storage SIG mirror URL|Fri, 8 May 2020 16:40:03 +0200|Tue, 12 May 2020 13:00:28 +0000
+139d99e9936c7d84a137c98b11b0f61d7785e443|Merge "[ussuri][goal] Add CONTRIBUTING.rst"|Tue, 12 May 2020 12:43:52 +0000|Tue, 12 May 2020 12:43:52 +0000
+6107ae7b9e2aaa7cf65b28d7978c70cf827a2ee5|Bump reno to 2.5.0|Tue, 12 May 2020 10:50:06 +0800|Tue, 12 May 2020 10:50:06 +0800
+cec799a007143e7509077802c6198be42da6ad78|[ussuri][goal] Add CONTRIBUTING.rst|Sun, 10 May 2020 22:32:11 +0200|Sun, 10 May 2020 22:32:11 +0200
+f89636d7ab0c8c65a09747c6b9a2eeb9275f8c92|Add CentOS8 to nodesets|Sun, 10 May 2020 21:55:14 +0900|Sun, 10 May 2020 21:55:14 +0900
+af57dca3e2f4b6191db7303881509efe06fd7da9|Release 3.1.0|Thu, 30 Apr 2020 09:42:46 +0200|Fri, 1 May 2020 17:58:04 +0200
+ccb525f93f72e114de049e18028661691048a7fd|Remove legacy StackForge from authors in metadata|Fri, 1 May 2020 17:56:27 +0200|Fri, 1 May 2020 17:56:27 +0200
+e1b8a9da5ff98e75f8cedff9211875685233f287|Bump openstackdocstheme to 1.30.0|Thu, 30 Apr 2020 15:28:37 +0800|Thu, 30 Apr 2020 15:28:37 +0800
+b52f93dd994d2ba2758b13bb9e726f33e81c8166|Resolve duplicated requirement names in metadata|Mon, 13 Apr 2020 23:13:29 +0900|Mon, 13 Apr 2020 23:14:09 +0900
+9cd2ea4fe2958868d17741e9764625e70aa63792|Add CentOS 8 and Puppet 6 in metadata|Mon, 30 Mar 2020 09:18:19 +0200|Mon, 30 Mar 2020 07:44:04 +0000
+6aaf2740fde79cd52d09b468f609cba6b64ee922|Merge "Add support for CentOS 8"|Wed, 19 Feb 2020 04:01:04 +0000|Wed, 19 Feb 2020 04:01:04 +0000
+be954bde547f5bf01cac31542144d44471f414c7|[ussuri][goal] Cleanup for python 2.7 drop|Sat, 15 Feb 2020 18:39:16 -0600|Sat, 15 Feb 2020 18:42:57 -0600
+193919a6df564077d0ff286578cd699e9b171a46|Add support for CentOS 8|Tue, 11 Feb 2020 15:11:28 +0100|Tue, 11 Feb 2020 15:12:19 +0100
+525e5a5bbf45053304a6ce0a018b694733301bd0|Convert all class usage to relative names|Sun, 8 Dec 2019 15:27:31 +0100|Sun, 8 Dec 2019 15:29:00 +0100
+55a0f943a3af9208dbb8e3af415f7193b6329edf|Update the constraints url|Thu, 26 Sep 2019 10:37:57 +0800|Thu, 26 Sep 2019 10:38:37 +0800
+0377da4e088ab88b97af1143191be8da39e1623b|Remove deprecated rgw keystone params|Wed, 28 Aug 2019 12:03:59 +0200|Wed, 28 Aug 2019 13:28:49 +0200
+a09926aa2d6c0127ca13eeb94303680c5eac86ea|Bump the openstackdocstheme extension to 1.20|Tue, 13 Aug 2019 11:29:06 +0800|Tue, 13 Aug 2019 11:29:06 +0800
+63a275df89ff3eacc5e5a83c03eac28795bf23eb|Sync Sphinx requirement|Wed, 7 Aug 2019 09:10:08 +0800|Wed, 7 Aug 2019 09:10:08 +0800
+e157497a3e8bbd1bf0a2015aaea6c70b84415b84|Remove Unknown variable warning|Sat, 8 Jun 2019 01:30:55 +0200|Sat, 8 Jun 2019 01:30:55 +0200
+d833c03b975c922a28281918a2ac71a3dd7a2104|Resolve puppet overwriting a pre-existing bootstrap-osd auth entry|Tue, 24 Apr 2018 14:52:02 -0400|Mon, 29 Apr 2019 10:11:16 +0000
+896a22275b5a73c45c2f9aca877b1a09bc68b517|Release 3.0.0|Thu, 25 Apr 2019 11:05:52 +0200|Thu, 25 Apr 2019 11:05:52 +0200
+ec935599618a4d454dddedd9177babbbea73eb5c|Make p-o-i jobs voting again for puppet-ceph|Tue, 23 Apr 2019 15:01:01 +0200|Wed, 24 Apr 2019 10:42:26 +0200
+898170324235a8d5627b0bd408bbd9491cb0aec4|Support Ceph Nautilus release in puppet-ceph|Mon, 8 Apr 2019 21:14:13 +0200|Wed, 24 Apr 2019 10:41:11 +0200
+da5321f541991ad3733a333f55b2e7150ae16630|Move to opendev|Sun, 21 Apr 2019 14:44:48 +0800|Sun, 21 Apr 2019 14:44:48 +0800
+8b9e5bda8eadf638d680332e3386a0296fd32226|Fix Repository|Sun, 21 Apr 2019 13:12:29 +0800|Sun, 21 Apr 2019 13:13:48 +0800
+4d96efd958a42e8c6f1afcf4b48b1c55c9e06717|OpenDev Migration Patch|Fri, 19 Apr 2019 19:31:41 +0000|Fri, 19 Apr 2019 19:31:41 +0000
+54718a13ac6872108ca87a97c73a908f79dd6b06|Change default version to Ceph Nautilus|Thu, 4 Apr 2019 14:40:37 +0200|Thu, 4 Apr 2019 14:40:37 +0200
+17ed08b3aa91f1784ed200b6733168e8f7103a5e|Added support for the rgw_swift_url parameter in the rgw.pp|Wed, 3 Apr 2019 18:36:49 +0200|Wed, 3 Apr 2019 18:36:49 +0200
+3ed84413237d7d58a69634453b1274deac6999a0|Update master for stable/mimic|Mon, 25 Mar 2019 21:21:09 +0000|Mon, 25 Mar 2019 21:21:09 +0000
+a85fb9ba7ecb0744a601cb6e17b64faf16de1ed5|Release 2.6.0|Thu, 21 Mar 2019 22:41:37 +0100|Thu, 21 Mar 2019 22:41:37 +0100
+01c6a6aef876736ba1b833a41cf96ba36a39b61d|Release puppet-ceph 2.5.3|Tue, 19 Mar 2019 16:27:21 +0100|Tue, 19 Mar 2019 16:27:21 +0100
+b51e5cb05c86fbf6d4f39d8c13f8de77a180646f|Merge "Change Keystone RGW default role from Member to member"|Wed, 27 Feb 2019 10:45:16 +0000|Wed, 27 Feb 2019 10:45:16 +0000
+678c48a0655efca85171a6608b4a8cf838613ad6|Merge "Use validate_legacy"|Wed, 27 Feb 2019 04:38:19 +0000|Wed, 27 Feb 2019 04:38:19 +0000
+3fe321fdc0f1bef43fb3dbd4522dd2cc40bba159|Change Keystone RGW default role from Member to member|Sun, 24 Feb 2019 02:38:25 +0100|Sun, 24 Feb 2019 12:34:08 +0100
+8df92d51d3d72b66ac66fefc0cf08ef001413c74|Deprecated Keystone v2.0 and PKI tokens in Keystone RGW|Sun, 24 Feb 2019 02:36:08 +0100|Sun, 24 Feb 2019 12:31:44 +0100
+85b9d61c40430de32d311cea201a2a33ec91a6b8|Deprecate keystone v2.0 functionality|Sun, 24 Feb 2019 02:15:44 +0100|Sun, 24 Feb 2019 12:24:35 +0100
+e94c1072af7046f9dd867eb924f5fa530ee588e9|Use validate_legacy|Sun, 10 Feb 2019 13:48:07 +0100|Sat, 23 Feb 2019 11:25:47 +0100
+e39f7d232059f12a52685e6c260d7b88ee405b86|Remove Firefly base repo hacking|Thu, 7 Feb 2019 19:59:16 +0100|Thu, 7 Feb 2019 20:00:41 +0100
+e0069da9728ed02c24d4e57f28d04ce67cba8bfa|Fix the misspelling of "required"|Wed, 16 Jan 2019 14:00:25 +0800|Wed, 16 Jan 2019 14:00:25 +0800
+658c951e3cf0744aca3489315e476fedc8eb8929|Modify puppet version 4 to 5|Tue, 15 Jan 2019 10:11:18 +0800|Tue, 15 Jan 2019 10:11:18 +0800
+9529e8d1a5fe61a2f7a63f37ee077a13236c1aff|Add support for encrypted OSDs|Fri, 11 Jan 2019 09:18:23 -0800|Fri, 11 Jan 2019 16:28:25 -0800
+39624dc0b5c9c5c1235f0eea2af0f8d1ca049094|Merge "Do not check for ldap secret with Fedora and RedHat > 7"|Tue, 8 Jan 2019 09:30:47 +0000|Tue, 8 Jan 2019 09:30:47 +0000
+c056c28c6a9831d38ee49588e3198782765f070c|Merge "Supply hrefs for table of contents according to context"|Mon, 7 Jan 2019 15:27:20 +0000|Mon, 7 Jan 2019 15:27:20 +0000
+764bcf93de83dec7d4c9efd161dbc459d8a6632e|Do not check for ldap secret with Fedora and RedHat > 7|Wed, 26 Dec 2018 16:20:21 +0530|Mon, 7 Jan 2019 12:04:43 +0530
+698def7bfd927c889a37c30ee517c7723baff20e|Do not enable Ceph el7 repos for Fedora|Tue, 4 Dec 2018 17:18:57 +0530|Mon, 7 Jan 2019 11:55:38 +0530
+b817404aed59d0984c4d7d1f280ecd9750c741e4|Fix minor typo in ceph-disk params.|Fri, 28 Dec 2018 21:45:56 +0000|Fri, 28 Dec 2018 21:45:56 +0000
+c6292183b5c9dbf0b73b11a56307656f83adb686|Allow setting explicit osd type as well as wal and db locations.|Sat, 15 Dec 2018 17:30:06 +0000|Sun, 16 Dec 2018 19:17:51 +0000
+096fefedc8e3e4f0e0a8a1a6531de11ab93a505f|Supply hrefs for table of contents according to context|Tue, 4 Dec 2018 23:26:01 -0800|Tue, 4 Dec 2018 23:26:56 -0800
+436437acda93578cd67a495fcebe88d1e162b89f|Change openstack-dev to openstack-discuss|Tue, 4 Dec 2018 09:42:39 +0800|Tue, 4 Dec 2018 09:45:03 +0800
+e77cead2ef9f3669b9dbd65229f4c01e28d13615|Remove ceph::rgw::apache_fastcgi|Sat, 24 Nov 2018 14:15:03 +0100|Sat, 24 Nov 2018 23:20:08 +0100
+8e4cae92f21258d50671e39a6bc82eee6f856274|Fix stdlib version in metadata|Fri, 9 Nov 2018 14:56:37 +0800|Fri, 9 Nov 2018 14:56:37 +0800
+90738b97aee1aaa9a46e67caf0e375179bf873d5|Convert spec testing to use rspec-puppet-facts|Sun, 4 Nov 2018 15:41:48 +0100|Sun, 4 Nov 2018 21:07:05 +0100
+38eda71263b51da7fce32eec3176e6ed2c88a63c|Merge "Allow setting pool application tag as supported from the Luminous release."|Wed, 17 Oct 2018 01:39:55 +0000|Wed, 17 Oct 2018 01:39:55 +0000
+3e7cba5273f10690a086bfb2124aeaf510769c8b|Update min tox version to 2.0|Tue, 16 Oct 2018 11:40:17 +0800|Tue, 16 Oct 2018 11:43:54 +0800
+f8d3fd2eb6cb9cbb0f71717ca3be9501b46ca494|Release 2.5.2|Sat, 13 Oct 2018 12:45:10 +0200|Sat, 13 Oct 2018 12:45:10 +0200
+9dc34406f6f6c17730d0b52d8948f6f550153186|Allow setting pool application tag as supported from the Luminous release.|Mon, 8 Oct 2018 22:32:25 +0100|Thu, 11 Oct 2018 19:33:39 +0100
+9334bf41cbf98360b3303afde3507035a4dc614d|Dissuade .gitignore references to personal tools|Mon, 8 Oct 2018 11:39:23 +0800|Mon, 8 Oct 2018 11:39:23 +0800
+94ba1da0f1e8e4afba05facb24f241da0f277cc8|Merge "Fix the wrong link URL"|Sat, 8 Sep 2018 14:42:59 +0000|Sat, 8 Sep 2018 14:42:59 +0000
+cc5989cd1c8af1607566a469af5c6429c1686109|Fix the wrong link URL|Mon, 27 Aug 2018 14:19:11 +0000|Sat, 8 Sep 2018 14:32:19 +0000
+4dd643660e3dab1a6aca8c195926718601d81edf|switch documentation job to new PTI|Fri, 31 Aug 2018 08:24:33 -0400|Fri, 31 Aug 2018 08:24:33 -0400
+6e53b9397efd25fca2e5ffca48d8d24567f978c5|import zuul job settings from project-config|Fri, 31 Aug 2018 08:16:14 -0400|Fri, 31 Aug 2018 08:16:14 -0400
+aa2e3e6564a4fd5d0466b734921446385dc5b0f0|Remove PE requirement from metadata.json|Thu, 16 Aug 2018 23:13:34 +0200|Thu, 16 Aug 2018 23:13:34 +0200
+471b6f3dc38e038c8eb9351c8ed35a1c89f872e6|Add "Development" in README|Sat, 28 Jul 2018 14:58:34 +0000|Sat, 28 Jul 2018 14:59:14 +0000
+5f57d436be593334e3f9795df57679dabaeda42f|Add the project source code repository in README|Fri, 20 Jul 2018 14:33:39 +0800|Fri, 20 Jul 2018 14:34:27 +0800
+5053756334a2f88503cfee3fc9052245c9162ab4|Merge "Fix OS versions in metadata"|Mon, 16 Jul 2018 09:06:59 +0000|Mon, 16 Jul 2018 09:06:59 +0000
+fa52a16a8ba2fe70fb23e6278451431516795d26|Fix OS versions in metadata|Thu, 12 Jul 2018 14:54:55 +0700|Mon, 16 Jul 2018 07:12:58 +0000
+0c2624e33a0bbd08e3fb9e83d2a4ae272bb40559|Fix inifile version in metadata|Mon, 16 Jul 2018 14:59:24 +0800|Mon, 16 Jul 2018 15:04:23 +0800
+b53459291ba7ef37795d5b0bca0dbdfd8a20e738|Merge "Do not enable Epel repo in case of Fedora"|Tue, 3 Jul 2018 14:56:14 +0000|Tue, 3 Jul 2018 14:56:14 +0000
+d34064715bfd4a9be15b1694eb6f41ca8d96d9f7|Merge "Fix apache version in metadata"|Sun, 1 Jul 2018 10:26:18 +0000|Sun, 1 Jul 2018 10:26:18 +0000
+2eaec44cb0c2018d80370ac65365db8a9eb53e30|Merge "Add Mimic support"|Fri, 29 Jun 2018 16:40:34 +0000|Fri, 29 Jun 2018 16:40:34 +0000
+2dbb4ff11c3349d3406384d9652c23eb44b9e8f0|Merge "Fix lspool issues on Mimic"|Fri, 29 Jun 2018 16:40:33 +0000|Fri, 29 Jun 2018 16:40:33 +0000
+774966420b59cf3fa7f4319e24c663f78c919326|Fix apache version in metadata|Thu, 28 Jun 2018 23:12:26 +0200|Thu, 28 Jun 2018 23:12:56 +0200
+2b25cbfb1bf6e1ddb1343c7cc61dc193c671a42a|Update reno for stable/luminous|Thu, 28 Jun 2018 20:45:27 +0000|Thu, 28 Jun 2018 20:45:27 +0000
+c900116b8fbef30fe2c4c9e0d5b6dffa3e1ef9c2|Release 2.5.1|Wed, 27 Jun 2018 20:52:21 +0200|Wed, 27 Jun 2018 20:52:21 +0200
+fd64982c1f73471d6fd7dce42ac1e475a83fb824|Do not enable Epel repo in case of Fedora|Tue, 26 Jun 2018 22:01:38 +0530|Tue, 26 Jun 2018 22:04:18 +0530
+9996925bc4e54a91b17aacb45d0c3da971d6c184|add release note link in readme|Thu, 21 Jun 2018 14:43:39 +0000|Thu, 21 Jun 2018 14:44:02 +0000
+72235f18aa2cc77869f5008d57558656fe7911fd|Fix lspool issues on Mimic|Mon, 18 Jun 2018 22:12:15 +0200|Mon, 18 Jun 2018 22:12:15 +0200
+e6c31c465924f3af124c78aa867e1c47a7fb8c84|fix tox python3 overrides|Fri, 8 Jun 2018 14:23:31 +0800|Fri, 8 Jun 2018 14:23:31 +0800
+c65d73d64bfda2952aae3f10397b576a82284e8e|Add Mimic support|Sun, 3 Jun 2018 22:59:17 +0200|Sun, 3 Jun 2018 23:03:47 +0200
+16d2799998b6f550cbc8986731cb4683aa10b0d9|Puppet incorrectly sets rgw_keystone_revocation_interval to absent|Wed, 9 May 2018 13:58:09 -0400|Wed, 9 May 2018 15:45:14 -0400
+f3f166935b484683ba352f81dd7488f0e5ab53de|Update ceph-osd-check-udev to correct an awk condition|Fri, 4 May 2018 13:38:42 -0400|Fri, 4 May 2018 15:13:02 -0400
+e73c3ba465f3358553611e73f4d5c76502536285|Update links in README|Sat, 28 Apr 2018 15:45:56 +0800|Sat, 28 Apr 2018 15:46:24 +0800
+c3b2738e728228dba6b128585a177e45e2430e8a|Update .gitignore|Wed, 11 Apr 2018 08:43:42 +0800|Wed, 11 Apr 2018 08:55:11 +0800
+928fb38d0c9c3571adfe9889addffb8d3de494f5|Follow the new PTI for document build|Wed, 28 Feb 2018 14:42:10 +0800|Wed, 28 Feb 2018 14:42:10 +0800
+5d490bbeef2eb4a172f42865d853ea7ffa24c154|Release 2.5.0|Thu, 22 Feb 2018 15:17:27 +0100|Thu, 22 Feb 2018 15:19:07 +0100
+beb527799ab6ef205e8e22b91890f657a95f8965|Load puppet-openstack_spec_helper locally during tests|Mon, 12 Feb 2018 10:53:34 +0800|Mon, 12 Feb 2018 10:53:34 +0800
+2b8bbde9df08509572bd6400ecb374e091acf118|Merge "Zuul: Remove project name"|Thu, 1 Feb 2018 20:12:10 +0000|Thu, 1 Feb 2018 20:12:10 +0000
+904de1497b8fd2ff8d71013103ebb8ab11f6c2f8|Zuul: Remove project name|Wed, 24 Jan 2018 16:54:24 -0800|Thu, 1 Feb 2018 09:39:32 -0800
+7e8022a34bc1ce20a06d3721a534926ea74e5e3c|Zuul: Remove project name|Mon, 29 Jan 2018 02:11:10 +0800|Mon, 29 Jan 2018 02:11:10 +0800
+749da58cf2b06c409465b2cb6b8442347ba0049b|Merge "Added rgw_keystone_implicit_tenants to ceph::rgw::keystone"|Thu, 18 Jan 2018 17:49:36 +0000|Thu, 18 Jan 2018 17:49:36 +0000
+2381f0f17c24c6dd6679ae39ea20ab4b55521460|Merge "keystone spelling errors"|Wed, 17 Jan 2018 14:14:28 +0000|Wed, 17 Jan 2018 14:14:29 +0000
+0626ccc0a96640ff54f50c5554b4a93fd5ea4fc5|Added rgw_keystone_implicit_tenants to ceph::rgw::keystone|Tue, 16 Jan 2018 12:32:31 -0500|Tue, 16 Jan 2018 16:55:13 -0500
+8eb6dc027d6d11d30cdbebc6a804affe195221c0|keystone spelling errors|Tue, 16 Jan 2018 11:41:39 +0800|Tue, 16 Jan 2018 11:41:39 +0800
+8872cb6dfbeb7876685cb5e4de95b0cfee6eecb7|Remove pinned versions from test-requirements.txt|Tue, 16 Jan 2018 10:17:04 +0800|Tue, 16 Jan 2018 10:20:07 +0800
+fbb6b1ce97687100f701c22db5fdb7294482e5e2|Remove _member_ role from the keystone accepted roles|Wed, 27 Dec 2017 12:36:34 -0500|Wed, 27 Dec 2017 12:36:34 -0500
+04d1a0438cd24ada3fba4e7b07eada78ad0ac9fb|Update unless statement for cephx key checking.|Mon, 13 Nov 2017 08:27:51 -0500|Wed, 22 Nov 2017 11:48:39 -0500
+ea84cb4c3106de831d4d377e6535fc01c57d4d43|Merge "Switch to Zuul v3 testing"|Fri, 10 Nov 2017 08:34:45 +0000|Fri, 10 Nov 2017 08:34:45 +0000
+7a366f92a53cc9015d3aaeab86e36c3d1649cf79|Make sure pg_num is updated before pgp_num.|Mon, 6 Nov 2017 17:32:55 +0100|Mon, 6 Nov 2017 18:16:36 +0100
+9fbdb8c905a85d1d0d18aed2209f66d279107205|Merge "Deprecate mod_fastcgi. Promote civetweb."|Fri, 3 Nov 2017 00:21:06 +0000|Fri, 3 Nov 2017 00:21:06 +0000
+864f9b221e3c00e2388615dca15bd2922d528e06|Deprecate mod_fastcgi. Promote civetweb.|Wed, 25 Oct 2017 23:50:29 -0400|Wed, 1 Nov 2017 11:35:10 -0400
+a15a9b0c74f4dcdd8bc913a8eecfde3ffc738dd7|Add Puppet package to bindep, for module build|Fri, 27 Oct 2017 13:11:14 -0700|Mon, 30 Oct 2017 23:50:26 +0000
+f5ed71b38a84ff26abbced4022914bafd37267ba|Remove ceph::rgw::apache|Mon, 30 Oct 2017 15:23:13 -0400|Mon, 30 Oct 2017 16:44:24 -0600
+823765c41fc4a3628498164ca9e6ac9441598471|Switch to Zuul v3 testing|Wed, 25 Oct 2017 17:14:37 +0800|Wed, 25 Oct 2017 17:14:37 +0800
+34d541aa8b39f5ebfb534a5314d5fd089ceb78b0|Merge "Fix outdated links and document spelling error"|Thu, 5 Oct 2017 20:46:21 +0000|Thu, 5 Oct 2017 20:46:21 +0000
+c10e1d5269387757982b02f1e845e8961e378e47|Merge "Allows mgr caps to be added to keys."|Thu, 5 Oct 2017 06:44:37 +0000|Thu, 5 Oct 2017 06:44:37 +0000
+5db96f877d07480b4bdf95542a3fdb0210d6baca|Allows mgr caps to be added to keys.|Tue, 3 Oct 2017 20:32:19 +0100|Wed, 4 Oct 2017 06:40:31 +0100
+710364b405fdaf5ff44142563a80450a60938e12|Add Luminous support for CentOS|Wed, 27 Sep 2017 10:41:56 -0400|Wed, 27 Sep 2017 15:39:32 -0400
+c61c01840fbe2ffaeb88fd512eb13b608b840873|Fix idempotency for ceph-mgr|Wed, 27 Sep 2017 10:41:37 -0400|Wed, 27 Sep 2017 15:39:29 -0400
+cb20c32c0b149c79d65a9179a500f1a76678a873|Fixed resource ordering for ceph-mgr|Wed, 27 Sep 2017 09:44:34 -0400|Wed, 27 Sep 2017 15:38:35 -0400
+3b878cdb0ff29b48a30d39d3147b977e540a7bfb|Add missing openstacklib and keystone dependencies|Mon, 25 Sep 2017 08:25:49 -0600|Mon, 25 Sep 2017 08:25:49 -0600
+79b6c247039c7c44311ebc57ef36ce4ca71ca247|Merge "fix the service names"|Fri, 22 Sep 2017 03:23:45 +0000|Fri, 22 Sep 2017 03:23:45 +0000
+18e5af8f23f18c66926909d8141d9602fee27888|Merge "Some fixes for the ceph disk activate part"|Fri, 22 Sep 2017 03:13:27 +0000|Fri, 22 Sep 2017 03:13:27 +0000
+73bb6a3dd1f014d234e8a4d46054d80b0ee566df|Update to the latest address in README|Thu, 21 Sep 2017 11:42:04 +0800|Thu, 21 Sep 2017 11:42:04 +0800
+c412da9a8505fe43482be4b71a3cc3b40bc6e9d8|Update openstackdocstheme to latest version|Tue, 19 Sep 2017 21:45:26 +0800|Wed, 20 Sep 2017 10:45:01 +0800
+39ea7f81aa2efeb630f6bd7fb78bddd138beaeec|Fix outdated links and document spelling error|Sun, 17 Sep 2017 20:41:11 -0700|Sun, 17 Sep 2017 22:32:20 -0700
+7f21b323d7c3b192711c82947800ce9eeacf2e14|fix the service names|Tue, 29 Aug 2017 16:59:31 +0200|Tue, 12 Sep 2017 09:23:36 +0200
+16924072d59098d9e2b0fded8dfa7b487d6d5f9a|Add ceph-mgr support|Sat, 2 Sep 2017 12:28:22 -0400|Mon, 4 Sep 2017 14:19:58 +0000
+4e76bd2fc9f6572cabcb7a37aae9fd4d74643856|Some fixes for the ceph disk activate part|Tue, 29 Aug 2017 16:45:28 +0200|Thu, 31 Aug 2017 11:42:12 +0200
+df3ed30e222c91ab5c8525dc9a1405fc00e9be73|Use Python to compute release notes version|Wed, 30 Aug 2017 13:41:15 -0700|Wed, 30 Aug 2017 13:41:15 -0700
+a564389aeb8a47f5cc5f3a155d30117d42dd1b11|Merge "Increase minimum puppetlabs-stdlib version requirement"|Fri, 25 Aug 2017 17:44:04 +0000|Fri, 25 Aug 2017 17:44:04 +0000
+059adf796eb79567f24fd3f647111a76eefcee8c|Merge "Update reno>=2.5.0"|Fri, 25 Aug 2017 17:43:51 +0000|Fri, 25 Aug 2017 17:43:51 +0000
+6e8bc434b5be1721238d4d3010cc0654dcbb7e8f|Increase minimum puppetlabs-stdlib version requirement|Thu, 24 Aug 2017 08:56:50 +0800|Thu, 24 Aug 2017 08:57:31 +0800
+537a8c591a7b5124ebf7d56d6ed89a462a5cc457|Update reno for stable/jewel|Mon, 21 Aug 2017 21:08:33 +0000|Mon, 21 Aug 2017 21:08:33 +0000
+c20f69c0011333d3fe16249e96878cb43de74512|Update reno>=2.5.0|Mon, 21 Aug 2017 11:19:04 +0800|Mon, 21 Aug 2017 11:19:04 +0800
+3cc04b6900d36b83d67b95a5190a77c14c2d3a02|Prepare 2.4.0|Tue, 15 Aug 2017 13:26:01 -0600|Tue, 15 Aug 2017 13:26:18 -0600
+868e6d64e43dc8397dbacc0baa4ec4d474b979d3|Update openstackdocstheme>=1.16.0|Mon, 31 Jul 2017 11:00:46 +0800|Mon, 31 Jul 2017 11:00:46 +0800
+e72b6f34d2e82f09b37d24041009809514c90b9f|Fix lint issues to upgrade to puppet-lint 2.3|Thu, 20 Jul 2017 19:54:43 +0200|Thu, 20 Jul 2017 19:55:29 +0200
+3366cbc431fb77207b2b42a17c6b6afe493aa31c|Merge "Update URLs in documents according to document migration"|Tue, 18 Jul 2017 19:20:40 +0000|Tue, 18 Jul 2017 19:20:40 +0000
+4678470143f660b398f245329d0819f10582a647|Merge "Change author in setup.cfg"|Tue, 18 Jul 2017 19:20:31 +0000|Tue, 18 Jul 2017 19:20:31 +0000
+3e362caa30101981c519f770c070655813607e36|Update URLs in documents according to document migration|Fri, 14 Jul 2017 08:50:53 +0800|Fri, 14 Jul 2017 08:50:53 +0800
+69b651ff4c061becf556b7b8443ffb160c6f6f39|Fix tests for latest puppet|Fri, 7 Jul 2017 14:18:37 -0600|Fri, 7 Jul 2017 14:18:37 -0600
+614c4587346fca4dcc433014e7ef3e8a2fe7c9fb|Change author in setup.cfg|Tue, 4 Jul 2017 18:14:14 +0530|Tue, 4 Jul 2017 18:14:52 +0530
+3850c05ddd84c5a10653ae7e1653f8c9d1146c57|Fix openstackdocstheme|Sun, 2 Jul 2017 14:09:58 +0800|Sun, 2 Jul 2017 14:09:58 +0800
+72307bad72f66e72fa8535fe294caaf9c4ac34a5|Switch from oslosphinx to openstackdocstheme|Mon, 26 Jun 2017 09:27:02 +0800|Mon, 26 Jun 2017 09:32:47 +0800
+de3bd97fc8b25856a02e9c95f7ab27d4ebed07a5|Merge "Set lowercase for ceph_config values"|Wed, 14 Jun 2017 16:05:15 +0000|Wed, 14 Jun 2017 16:05:15 +0000
+28c4efee3df8eb0e7688631fe74f1d75f162702a|Set lowercase for ceph_config values|Mon, 12 Jun 2017 14:49:49 -0300|Mon, 12 Jun 2017 14:57:05 -0300
+c766efaa24ede395d02d378fc29880df68d333fa|Add environment variable|Mon, 12 Jun 2017 15:48:06 +0800|Mon, 12 Jun 2017 15:48:06 +0800
+09b408623079cc5dfaddf564e22dcc4f9881f18a|Update global requirements|Thu, 8 Jun 2017 10:50:51 +0800|Thu, 8 Jun 2017 10:50:51 +0800
+4f2dd81b751164bbfa114720553b2315ce3ba5bc|Merge "Correctly configure /dev/nvme0n1 devices as OSDs"|Fri, 19 May 2017 19:03:33 +0000|Fri, 19 May 2017 19:03:33 +0000
+0ff9c53a2c46a95774c5f6d64c73ea4c5f3340e8|Update tox configuration|Thu, 18 May 2017 18:06:56 +0200|Thu, 18 May 2017 18:06:56 +0200
+0754aecaa9cddfe5a6bf7c9bed43c18b35db6508|Correctly configure /dev/nvme0n1 devices as OSDs|Mon, 1 May 2017 13:37:24 -0400|Tue, 16 May 2017 15:38:47 -0400
+ff2b2e689846dd3d980c7c706c591e8cfb8f33a9|Allow use of device aliases for OSDs|Thu, 30 Mar 2017 09:41:03 -0400|Thu, 6 Apr 2017 18:43:50 +0200
+f98c196e2221c6ed3c7c792996d495092885fec8|Merge "Update test-requirements.txt"|Thu, 30 Mar 2017 03:29:46 +0000|Thu, 30 Mar 2017 03:29:46 +0000
+2767d1ab7e7bee693256813320eb59c8dbc1a890|repo: use $ceph_mirror in ceph::repo|Mon, 27 Mar 2017 12:31:28 -0400|Mon, 27 Mar 2017 12:48:56 -0400
+baea4d574e8e191c89338e8d851f9f621937156f|Update test-requirements.txt|Thu, 23 Mar 2017 14:37:52 +0800|Thu, 23 Mar 2017 14:38:49 +0800
+0ab0f3f3a03bb17283fa3d3fc269760c651dec4f|Switch trunk/cbs/buildlogs to use https|Tue, 21 Mar 2017 08:24:41 -0400|Tue, 21 Mar 2017 08:24:41 -0400
+1360b67c5058ae417e56380e4e90226aba81d2dc|Merge "Fail deployment if non-existent block devices are passed for OSDs"|Mon, 20 Mar 2017 17:20:35 +0000|Mon, 20 Mar 2017 17:20:35 +0000
+7451d6ea295ca16b6ba3bd2e7ed2412d18f2bec4|Fail deployment if non-existent block devices are passed for OSDs|Fri, 17 Feb 2017 23:33:46 +0000|Fri, 17 Mar 2017 15:39:27 +0000
+9f52c306e1584d8def0890002ad12df87117e882|Revert "Automatically zap a disk if no valid gpt label is present"|Thu, 16 Feb 2017 11:15:15 +0100|Mon, 20 Feb 2017 11:00:01 +0200
+f749fa16ceaa50d1b119a7f6eea82891175372af|Ensure osd.pp moves to activate only after finishing prepare|Wed, 15 Feb 2017 15:57:40 +0100|Wed, 15 Feb 2017 15:57:40 +0100
+55ae425b190787ef9871c8903941af738b50913b|Merge "Automatically zap a disk if no valid gpt label is present"|Thu, 9 Feb 2017 23:28:51 +0000|Thu, 9 Feb 2017 23:28:51 +0000
+543e5750473db7792174e102f310cf8da66d789d|Merge "Deprecate unused ::ceph::rgw::syslog parameter"|Wed, 8 Feb 2017 20:56:55 +0000|Wed, 8 Feb 2017 20:56:55 +0000
+d0f345a1e1f9dea66422555e4390b14e2774450c|Merge "Prepare for 2.3.0"|Wed, 8 Feb 2017 18:44:39 +0000|Wed, 8 Feb 2017 18:44:39 +0000
+3b91b4c85df4d70899758136fc1deaa6d155d9cc|Merge "Pin reno version to reno>=0.1.1,!=2.0.0"|Wed, 8 Feb 2017 18:44:30 +0000|Wed, 8 Feb 2017 18:44:30 +0000
+0f66fec39fec094ca9b02d97bc3cf0947ce8fcf2|Prepare for 2.3.0|Wed, 8 Feb 2017 08:16:25 -0700|Wed, 8 Feb 2017 08:16:25 -0700
+02e1a6361d9322844312b49740d0fbc962620a11|Deprecate unused ::ceph::rgw::syslog parameter|Tue, 7 Feb 2017 17:05:34 -0500|Wed, 8 Feb 2017 08:32:18 -0500
+108f5500adb38f5e8c2ddf271937ef184f57067a|Automatically zap a disk if no valid gpt label is present|Mon, 16 Jan 2017 23:12:57 +0000|Tue, 7 Feb 2017 23:06:19 +0000
+dba788f010f35f1fda15fb9e7115f804947e2c8f|Reduce ceph::key.pp warnings|Mon, 6 Feb 2017 11:39:15 -0500|Mon, 6 Feb 2017 11:39:15 -0500
+b1fa5e44459b1be6dc631e88dfa9ac2fb5ed81fe|Merge "Ensure the CephX client keys are provisioned by the mirror profile"|Thu, 26 Jan 2017 21:18:19 +0000|Thu, 26 Jan 2017 21:18:19 +0000
+eccdd9a0c0b5916f175035493ebf57a82cedb7eb|Update to reduce puppet errors.|Tue, 24 Jan 2017 16:58:47 -0500|Wed, 25 Jan 2017 14:32:24 -0500
+37a01c99a820123ddec19f73a2c045021191dc81|Ensure the CephX client keys are provisioned by the mirror profile|Wed, 25 Jan 2017 16:29:57 +0100|Wed, 25 Jan 2017 16:29:57 +0100
+8e01a414312ff0387f3847a1b8fb2a9bdc828b16|init: allow to configure rbd_default_features|Sat, 15 Oct 2016 16:30:56 -0400|Fri, 13 Jan 2017 17:49:17 +0000
+28e8f4525f4448a9f585f7ff4212fa9df58f4464|Add cephfs resource type and profile|Thu, 1 Dec 2016 20:27:51 +0100|Tue, 10 Jan 2017 14:48:12 +0100
+fd5cf462c66dfa751c6b68c41f38f8cf257eba3f|Merge "Add support for installing Ceph rbd-mirror"|Fri, 6 Jan 2017 16:04:48 +0000|Fri, 6 Jan 2017 16:04:48 +0000
+5cc19541b872ab249267756992af3b9f19d2197e|Improves support for ceph-mds|Fri, 25 Nov 2016 10:50:09 +0100|Wed, 4 Jan 2017 14:23:27 +0100
+65450a0b2f0db2ef4c9e4c02c02e2d0d4dbe6418|Pin reno version to reno>=0.1.1,!=2.0.0|Thu, 22 Dec 2016 15:15:00 +0400|Thu, 22 Dec 2016 15:19:34 +0000
+e21a6310a2c831d645536306b01ddde5f9b6cfd9|Include and not redeclare apache mod_env|Thu, 22 Dec 2016 10:36:28 +0100|Thu, 22 Dec 2016 10:36:28 +0100
+f95aa995f6e7b7ee2ad2f2124004cfedbc9ca61f|Add support for installing Ceph rbd-mirror|Wed, 23 Nov 2016 15:46:26 -0500|Thu, 8 Dec 2016 10:50:09 -0500
+a2aa860719ff74827af9013eb1ef9fa9230f95e3|Update ceph::key to update keys|Mon, 5 Dec 2016 03:58:56 -0500|Tue, 6 Dec 2016 05:26:05 -0500
+eeebef2558a396abb6e63e4749bfdb303346d6ab|Merge "Unify parameter arguments between classes."|Wed, 30 Nov 2016 16:11:58 +0000|Wed, 30 Nov 2016 16:11:58 +0000
+3bb76e7364fd0e00418226e98535aa1463f0dfc0|Unify parameter arguments between classes.|Mon, 28 Nov 2016 12:32:58 -0500|Tue, 29 Nov 2016 11:36:06 -0500
+5a47d93fd5e2aed013ce636a4d053567723ceb04|Use facts from puppet-openstack_spec_helper|Tue, 29 Nov 2016 15:11:03 +0200|Tue, 29 Nov 2016 15:13:57 +0200
+63c41fb35f52d296d1500633c9cf18ba10619832|Merge "Switch puppet-ceph to rspec-puppet-facts"|Mon, 28 Nov 2016 18:13:47 +0000|Mon, 28 Nov 2016 18:13:47 +0000
+ba23b0ac1049098daa2da3a46f56abe7ca6394db|Show team and repo badges on README|Fri, 25 Nov 2016 17:08:44 +0100|Fri, 25 Nov 2016 17:31:59 +0100
+6a12d71f43b27243c46669b44196c5eb04430ddd|Switch puppet-ceph to rspec-puppet-facts|Mon, 14 Nov 2016 16:55:46 +0200|Thu, 24 Nov 2016 16:09:36 +0200
+9f0a882902beaef33c73ea4d64df981219b105d1|Fix puppet version for requirements in metadata|Thu, 3 Nov 2016 10:27:30 +0800|Thu, 3 Nov 2016 12:01:16 +0800
+4e735202317546bc0ee39ce1018b01b501275c28|Merge "Make pid_max settable on OSD nodes."|Thu, 20 Oct 2016 21:17:54 +0000|Thu, 20 Oct 2016 21:17:54 +0000
+88f1638958f29ea20f873e43563095e0c49f071d|Merge "Notify radosgw service on configuration change"|Tue, 18 Oct 2016 20:17:02 +0000|Thu, 20 Oct 2016 18:48:11 +0000
+2b309a6fbb19c9b477f781b129bb4a471e84816c|Merge "Change conf from create to ensure"|Thu, 20 Oct 2016 16:27:03 +0000|Thu, 20 Oct 2016 18:48:11 +0000
+7c9e77906e5b3c97c6436e0eddc5436624c2ac52|Make pid_max settable on OSD nodes.|Fri, 23 Sep 2016 21:56:27 -0600|Thu, 20 Oct 2016 12:46:18 -0600
+803e151736f506aa57820e457448cc66b408e5d4|Notify radosgw service on configuration change|Tue, 18 Oct 2016 17:06:17 +0200|Tue, 18 Oct 2016 17:06:17 +0200
+1d77607bf07d77172a088719fe9b741a476987de|Change conf from create to ensure|Mon, 17 Oct 2016 14:14:44 -0700|Mon, 17 Oct 2016 14:14:44 -0700
+e8590dac94d31f8cba3414be00460195f0c8f1e1|Ensure wget is installed for RGW Keystone integration|Mon, 17 Oct 2016 12:08:19 -0700|Mon, 17 Oct 2016 13:31:32 -0700
+939307f49756cc925fa9cbc1227be6d316576537|repo: deploy ceph.com apt key only when required|Tue, 11 Oct 2016 15:02:27 -0400|Tue, 11 Oct 2016 21:12:07 -0400
+a9818a2e956adf85ad8c06adc9c3a0064aad39ec|Merge "Release 2.2.1"|Thu, 6 Oct 2016 23:24:59 +0000|Thu, 6 Oct 2016 23:24:59 +0000
+806513c604897d7429ff7687850e5506657003d5|Release 2.2.1|Thu, 6 Oct 2016 15:28:23 -0400|Thu, 6 Oct 2016 15:28:23 -0400
+6efc1e944a8bd49907e91d5a485171a1d03c02ee|Enable release notes translation|Thu, 6 Oct 2016 20:44:45 +0200|Thu, 6 Oct 2016 20:44:45 +0200
+3e8ebf5b52b4588931ccd60497539b16735c6ee9|Ensure list of packages to install is user customizable|Wed, 5 Oct 2016 09:26:12 +0200|Thu, 6 Oct 2016 10:34:29 +0200
+ad02bd9558d7eec03437e03bd6422c4ecc5b36f7|Changed the home-page to point Openstack Puppet Homepage|Mon, 3 Oct 2016 20:41:56 +0530|Tue, 4 Oct 2016 09:11:34 +0530
+c764ef8fb634663ebdddf952f31901a785345c88|Merge "Puppet OpenStack Newton RC2"|Mon, 26 Sep 2016 21:12:02 +0000|Mon, 26 Sep 2016 21:12:03 +0000
+d76c21d5bf6b2d722958aad659cb338db2372238|Merge "Fix puppet-lint before upgrading gem"|Mon, 26 Sep 2016 13:33:16 +0000|Mon, 26 Sep 2016 13:33:16 +0000
+e6cf4eef07d9ac9fae47644f384d563d6e794e88|Puppet OpenStack Newton RC2|Mon, 26 Sep 2016 07:31:18 -0600|Mon, 26 Sep 2016 07:32:05 -0600
+a46d5c5a2099eeeddad0c0ceaa931579f0872a3f|Deployment should fail when trying to add another Ceph cluster's OSD|Fri, 16 Sep 2016 14:29:25 -0400|Fri, 23 Sep 2016 15:54:50 +0000
+f0db26a1168f30189e1ea744cb9c0c4367d1a0ec|Fix spec tests missing lsbdistrelease|Fri, 23 Sep 2016 09:53:00 -0600|Fri, 23 Sep 2016 09:53:00 -0600
+39d40883a28b946e1cda0f465f30f0b90868b48c|Fix puppet-lint before upgrading gem|Wed, 14 Sep 2016 11:00:55 +0200|Wed, 21 Sep 2016 14:13:31 +0200
+ede4eb080e927491301d65bdd4b8de30f4c56e15|Correct typo in ceph::rgw|Mon, 19 Sep 2016 17:01:46 -0400|Tue, 20 Sep 2016 16:45:05 -0400
+e6d1026ee1b2c5456a598de97dbcd1a6cdce36bd|Release puppet-ceph 2.1.0|Fri, 16 Sep 2016 13:09:41 -0400|Fri, 16 Sep 2016 13:09:41 -0400
+16889b71e996c622fca317df23020b5f4b3b6967|Honor rgw_enable and mon_enable for systemd units|Tue, 13 Sep 2016 15:40:31 +0200|Thu, 15 Sep 2016 09:45:41 -0600
+d4cc06688c084a3c8570fdd42e75445d68129c12|Merge "Adding object name[space] parameters"|Tue, 13 Sep 2016 15:05:32 +0000|Tue, 13 Sep 2016 15:05:32 +0000
+658dc50aedf3ebfb2f0e62d8fb8cb4cf770c2241|Adding object name[space] parameters|Fri, 19 Aug 2016 19:46:10 +0200|Wed, 7 Sep 2016 17:04:36 -0600
+26333fd8735a7402d89367099a2a1d9fc1b0cdd8|Update Jewel Ceph RGW to support Keystone V3|Wed, 27 Jul 2016 13:01:04 -0400|Wed, 7 Sep 2016 17:08:08 -0400
+b72bf9d6b8fde1feba4c4e7ef5c38249d58c3413|Make RGW deployment idempotent|Tue, 30 Aug 2016 15:38:58 -0400|Tue, 30 Aug 2016 23:58:41 -0400
+309ef4819b4c1ddbcc83e43fc931a2135882fa68|Fix the logic to skip SELinux labeling of block devices|Fri, 26 Aug 2016 15:00:00 +0200|Fri, 26 Aug 2016 15:07:13 +0200
+4e36628a02f0bce66aba3f1b97843f0cc44664ca|Merge "Manage all OSDs before managing pools."|Tue, 23 Aug 2016 14:36:41 +0000|Tue, 23 Aug 2016 14:36:41 +0000
+aa06a86361275eb2f4e3ce3d0e0cf6afe80b3f12|Merge "Update ceph::rgw::keystone to support array argument"|Mon, 22 Aug 2016 15:49:20 +0000|Mon, 22 Aug 2016 15:49:20 +0000
+f49341bc7255f35b07e65b666265b4fdd0a19d1e|Manage all OSDs before managing pools.|Fri, 19 Aug 2016 14:27:46 -0700|Fri, 19 Aug 2016 14:29:08 -0700
+b1af406398488df7fc3d35263451f3e2ad802b9b|Expose osd crush update on start option|Wed, 17 Aug 2016 11:36:53 +0100|Thu, 18 Aug 2016 08:45:10 +0100
+aa78806df202245714dae0956c0d7b50caf87db4|Move other-requirements.txt to bindep.txt|Fri, 12 Aug 2016 21:05:43 +0200|Fri, 12 Aug 2016 21:05:43 +0200
+76b48dc84566c0621485f3d28ae2dde9d35f0c46|Update ceph::rgw::keystone to support array argument|Wed, 10 Aug 2016 13:00:24 -0400|Fri, 12 Aug 2016 00:02:45 -0400
+f13493abc38cb13eec94bf203f15ec1d26d7ad28|Ensure SELinux file context is applied on data directories|Wed, 10 Aug 2016 20:22:00 +0200|Fri, 12 Aug 2016 01:55:10 +0200
+d823bf6ac91eb1fd12b0acea5161ba83b819f9f7|Refresh keys if caps are changed|Wed, 27 Jul 2016 16:09:49 +0200|Fri, 29 Jul 2016 12:10:59 +0200
+4969e3cac449bdf585ba0679b458c632f5b29aa4|Merge "Extend radosgw to support systemd on centos"|Fri, 22 Jul 2016 20:15:50 +0000|Fri, 22 Jul 2016 20:15:50 +0000
+1383b9c0a8944becdc19b88010d29f2461b92f05|Extend radosgw to support systemd on centos|Mon, 18 Jul 2016 15:02:40 -0400|Thu, 21 Jul 2016 20:18:33 -0400
+ff24009ee0ac6613c40f6679481a466aefad75c1|repos: allow to configure Debian mirror|Tue, 19 Jul 2016 16:38:26 -0400|Tue, 19 Jul 2016 19:54:44 -0400
+9dbded9494f888028bd47a4129bafe17b8821052|Merge "Adding OSD level params"|Thu, 14 Jul 2016 22:12:36 +0000|Thu, 14 Jul 2016 22:12:37 +0000
+63530d08fe8f35dedff5c7c417ff6d90bac845b7|Adding OSD level params|Thu, 23 Jun 2016 15:09:56 -0400|Wed, 13 Jul 2016 10:14:10 -0400
+adcce43d262585edeba0359914dae1550d1e0098|Explicit conditional with ensure statement|Mon, 11 Jul 2016 18:35:09 -0400|Mon, 11 Jul 2016 20:22:47 -0400
+6ac269c8415f2e086d4f3a01b2fda45a5958efcf|Release 2.0.0|Fri, 8 Jul 2016 10:09:47 -0400|Fri, 8 Jul 2016 10:09:47 -0400
+fb88544ab5895490a851bb330fefe753dbc53ca1|Re-boostrap beaker tests|Thu, 7 Jul 2016 11:23:37 -0400|Thu, 7 Jul 2016 16:27:14 -0400
+874e7a803c1bcfd0f53244d6131b93e6ca1488c9|Add Xenial to operatingsystemrelease|Wed, 29 Jun 2016 20:50:24 -0300|Wed, 29 Jun 2016 20:51:33 -0300
+08f010987fa74f2691d52980c5ec305538d50870|correctly parse out the version number for jewel|Tue, 21 Jun 2016 12:18:17 -0400|Wed, 22 Jun 2016 13:42:57 -0400
+df1e04c81c39f33452aaa77063544c4cddb227be|Move enable_sig and release to ceph::params|Tue, 14 Jun 2016 11:53:06 -0400|Tue, 14 Jun 2016 16:25:04 -0400
+523c32d255cb33d52716909affe85cf5451cdedc|Merge "Fix keystone part for non-pki tokens"|Fri, 10 Jun 2016 22:47:33 +0000|Fri, 10 Jun 2016 22:47:33 +0000
+4b8fbc5e7ab74b48d426bbd5083161b7853310f3|Fix keystone part for non-pki tokens|Mon, 30 May 2016 15:47:42 +0300|Mon, 6 Jun 2016 11:24:51 +0000
+68ea744762eca109df20f6c319d91ec750b45492|Bump to Jewel|Fri, 6 May 2016 14:11:06 -0400|Fri, 3 Jun 2016 14:27:30 -0400
+a783f01eec20d0f0c1c38ebe02b8b211992d3405|Disable Apache/RGW for Ubuntu testing until after bumping Ceph version to Jewel.|Tue, 31 May 2016 15:42:45 -0400|Fri, 3 Jun 2016 14:27:30 -0400
+45d47273ec46454992a90a6843b3b6628ab06afb|Change wiki to docs|Thu, 2 Jun 2016 23:04:33 -0300|Thu, 2 Jun 2016 23:04:40 -0300
+0aa03126ddb49099b57f8e2d37c5bd7817863e8d|Merge "Add xenial nodeset file"|Fri, 27 May 2016 22:22:09 +0000|Fri, 27 May 2016 22:22:09 +0000
+b18933da54b17c32b12f26146b71db78ece7b426|Add xenial nodeset file|Fri, 27 May 2016 15:22:08 -0400|Fri, 27 May 2016 15:22:08 -0400
+761da297f0b6ffb911cb935ef9686ae5c7fa2c65|Add other-requirements.txt for bindep|Thu, 19 May 2016 19:03:39 +0200|Sat, 21 May 2016 09:07:41 +0000
+e2aa636730fc56984dde9fe2f40df111caaf9292|acceptance: fix ceph_rgw_civet_spec tests|Fri, 20 May 2016 17:07:05 +0200|Fri, 20 May 2016 17:07:05 +0200
+58a7cfb8a4b6a5b0ca26427cc130e1b167071910|Update minium stdlib version|Wed, 11 May 2016 09:56:48 -0600|Wed, 11 May 2016 10:18:55 -0600
+51382e337de2dfec38b68974de4480119dbd91fa|Merge "Acceptence test: rgw/civetweb with keystone"|Tue, 10 May 2016 16:47:01 +0000|Tue, 10 May 2016 16:47:01 +0000
+2fa488ea4563ea00b8d3c48fe2c7c8f343bd9445|Acceptence test: rgw/civetweb with keystone|Fri, 29 Apr 2016 12:51:35 -0400|Mon, 9 May 2016 12:14:13 -0400
+a293a037238d9caee41c94966c0213ab44925518|Prepare puppet-ceph for 1.0.0|Fri, 6 May 2016 15:58:52 -0400|Fri, 6 May 2016 17:54:13 -0400
+0117e4e06fa932c67e22408d9b8d2179f9d185e2|allow to deployments on Ubuntu Xenial|Mon, 2 May 2016 12:46:36 -0400|Mon, 2 May 2016 15:55:34 -0400
+0d68c38980521cb8826f9294f747b4c55e58fc44|Rados gateway name check|Mon, 18 Apr 2016 13:16:58 +0300|Wed, 27 Apr 2016 13:44:47 +0300
+75614c771030625b61f92ab20a89a8684fb4907d|Merge "Correct typo resulting in a hardcoded paramter used incorrectly"|Tue, 26 Apr 2016 16:28:31 +0000|Tue, 26 Apr 2016 16:28:31 +0000
+e80ef1fa34b9d3d47b531aa2180dba601ab21b29|Correct typo resulting in a hardcoded paramter used incorrectly|Wed, 30 Mar 2016 16:17:06 -0400|Thu, 21 Apr 2016 13:44:16 -0400
+54a90b614ebbd63223575b491ffc5d0a689d3d27|Merge "repo: add support for CentOS SIG"|Thu, 14 Apr 2016 11:01:07 +0000|Thu, 14 Apr 2016 11:01:07 +0000
+e13f3d55e17a632364aaa81ee97f0dc97f131e8e|repo: add support for CentOS SIG|Tue, 12 Apr 2016 13:45:40 -0400|Tue, 12 Apr 2016 14:14:49 -0400
+794857e00d2aeb36ead8472a981053781df5e839|Remove Puppetfile in favor of metadata.json|Mon, 11 Apr 2016 07:57:09 -0600|Tue, 12 Apr 2016 14:34:29 +0000
+c98f406a126efc5286c372b2c8b5968e06309abc|Have configs notify service|Mon, 11 Apr 2016 21:49:40 -0600|Tue, 12 Apr 2016 08:20:35 -0600
+635227c39b8f143c8bfc840325a42bee9e79c647|Set OS specific init service providers|Wed, 30 Mar 2016 23:28:05 -0700|Mon, 4 Apr 2016 15:54:06 -0400
+5dd932a8fd3e934712b2501e558a98c7639e5bc4|repo: allow to disable EPEL repository|Thu, 24 Mar 2016 18:30:43 -0400|Thu, 24 Mar 2016 20:32:39 -0400
+202a06453719ff03581c8914a85fb9e7f277f614|Merge "Refactor ceph::profile::rgw"|Thu, 24 Mar 2016 00:11:48 +0000|Thu, 24 Mar 2016 00:11:48 +0000
+7c1c28ad8927e5d2209e95874eb331522c4f4d80|Merge "Don't clone scenario_node_terminus for acceptance tests anymore"|Wed, 23 Mar 2016 23:57:52 +0000|Wed, 23 Mar 2016 23:57:52 +0000
+f8ecd2bd4bd84ba8b03170a93328ce58165531a1|Refactor ceph::profile::rgw|Tue, 22 Mar 2016 21:57:42 +0100|Tue, 22 Mar 2016 22:03:29 +0100
+afa56937bae0d121d70dcc034e2a0e2856a58b3d|Merge "Add possibility to preserve previous apache deployment"|Tue, 22 Mar 2016 18:33:28 +0000|Tue, 22 Mar 2016 18:33:28 +0000
+b7b9ca415bc2c87056d54d4d352805227e9e4bd6|Add possibility to preserve previous apache deployment|Tue, 22 Dec 2015 17:49:27 +0200|Mon, 21 Mar 2016 18:45:38 +0200
+50c071263643349570401446ce1aeaea45cdb67b|Merge "Fix check for osd prepare"|Mon, 21 Mar 2016 16:01:49 +0000|Mon, 21 Mar 2016 16:01:49 +0000
+1f2be78a2614fb6e6d0c4ffbc7b3b078a0e95f5f|properly scale down an OSD when requested|Thu, 17 Mar 2016 11:12:56 -0400|Fri, 18 Mar 2016 15:58:07 -0400
+4a0e5a36f2bc6928d2630f7db51abeb005454f03|Fix check for osd prepare|Fri, 18 Mar 2016 12:13:40 +0200|Fri, 18 Mar 2016 15:27:03 +0200
+9b975ba9ccce76d650b7e2f95c2b82f8efbd423b|acceptance: do not try to rm /var/run/ceph|Thu, 17 Mar 2016 18:02:26 -0400|Thu, 17 Mar 2016 18:02:26 -0400
+76638b6643d1a4ef573ce76123421591c7a57d03|Don't clone scenario_node_terminus for acceptance tests anymore|Thu, 17 Mar 2016 12:54:19 -0400|Thu, 17 Mar 2016 12:54:19 -0400
+512a34f42793d68ae7a503018e628c5c9dc01d23|Change profile to not use $name|Fri, 11 Mar 2016 11:23:46 -0800|Wed, 16 Mar 2016 10:27:43 -0700
+6b44b360b5e7f1532eed499e203c434be0607d4d|Merge "Allow setting of public_addr from ::profile::mon and ::mon"|Thu, 10 Mar 2016 14:35:28 +0000|Thu, 10 Mar 2016 14:35:28 +0000
+134e431719c986474c6e967569ab7544ac84909a|Allow setting of public_addr from ::profile::mon and ::mon|Mon, 15 Feb 2016 19:15:14 +0100|Wed, 9 Mar 2016 08:15:56 +0000
+8f1f7e095ac76adacf0e06dbfe910dd4cac502be|Merge "adding configurable yum proxy options for the yum repositories"|Tue, 8 Mar 2016 11:53:38 +0000|Tue, 8 Mar 2016 11:53:38 +0000
+63163c1edb7685e2e84e5b57c9a555a247edee09|adding configurable yum proxy options for the yum repositories|Thu, 3 Mar 2016 23:12:32 +0100|Sun, 6 Mar 2016 19:43:25 +0100
+535ceb23bc99f9c8eb0ecc8eb873b778aff280a9|Merge "Update supported version information"|Fri, 4 Mar 2016 19:57:28 +0000|Fri, 4 Mar 2016 19:57:28 +0000
+a796cb0b0181aca4bbf1057a2cb3e7fff215756d|Fix documentation duplicate in rgw.pp|Mon, 29 Feb 2016 18:33:44 +0200|Mon, 29 Feb 2016 18:33:44 +0200
+2fb87074581f04c83885f8dec4f3bad0eaeae9ed|Add support for civetweb|Tue, 8 Dec 2015 00:26:26 -0500|Mon, 29 Feb 2016 10:16:17 +0000
+59fc06026da552462e6d852695eb963cb5272e1a|fix collectors: Ceph_Config -> Ceph_config|Fri, 26 Feb 2016 14:33:33 -0500|Fri, 26 Feb 2016 19:39:55 -0500
+8df08058ea0a0d4d3f051c3b046bec4529be8182|Merge "Disable udev rules in ::osd for releases <= Hammer"|Fri, 26 Feb 2016 20:00:27 +0000|Fri, 26 Feb 2016 20:00:27 +0000
+08806947a8e282f80bdd33c16a4e45bbd3bf189f|Add possibility to use mod_proxy for radosgw|Mon, 11 Jan 2016 22:30:22 +0200|Wed, 24 Feb 2016 13:42:01 +0200
+1794166bb01558439d9dc3b763614ebee1039d53|Merge "Enable radosgw on restart * Add 2 new parameters for radosgw start and enable after reboot * Update test"|Tue, 23 Feb 2016 23:57:02 +0000|Tue, 23 Feb 2016 23:57:02 +0000
+336a3567f54c51c2b35585991911ea5ab834d2f5|Merge "Fixes circular argument reference in Ruby >=2.2"|Tue, 23 Feb 2016 23:48:12 +0000|Tue, 23 Feb 2016 23:48:12 +0000
+7ef9402b6fa0fe8ece8c4b472a96e0a770b758db|Merge "Bump allowed version of puppetlabs-concat"|Tue, 23 Feb 2016 23:44:25 +0000|Tue, 23 Feb 2016 23:44:25 +0000
+7f7191da136e74eeb8eaee145379e74ae70476f4|Merge "The ceph extras location is no more."|Tue, 23 Feb 2016 23:37:57 +0000|Tue, 23 Feb 2016 23:37:57 +0000
+d91f45ec1ba64cd17e6d718e278ce427245bcc1a|Disable udev rules in ::osd for releases <= Hammer|Thu, 4 Feb 2016 11:31:08 +0100|Mon, 22 Feb 2016 22:01:55 +0100
+2ca15a50d35cd5910231af482bf3e63e4d44fdc9|Fix idempotency when bootstrapping ceph::mon with cephx|Wed, 17 Feb 2016 00:18:39 +0100|Wed, 17 Feb 2016 01:36:26 +0100
+d2da01f592146e9a56c0effe685a8995923fec89|Bump allowed version of puppetlabs-concat|Tue, 2 Feb 2016 19:12:48 -0800|Thu, 11 Feb 2016 16:28:11 -0800
+5fbe54f026ec4094c09b260b6042367d9089fe71|Update supported version information|Mon, 8 Feb 2016 21:56:54 +0100|Thu, 11 Feb 2016 20:04:04 +0100
+998e023d8f20584220d8c4ab2eed27541cd7ef98|Bump required version of puppetlabs-apt|Tue, 2 Feb 2016 23:32:37 -0800|Tue, 9 Feb 2016 13:39:59 -0800
+a9f20b38f929b0544738c32f0054fef796e444a3|Fixes circular argument reference in Ruby >=2.2|Tue, 9 Feb 2016 12:50:58 -0800|Tue, 9 Feb 2016 12:50:58 -0800
+5da48368d97094d18eccb3fb89e58c26422ca3ca|Enable radosgw on restart * Add 2 new parameters for radosgw start and enable after reboot * Update test|Wed, 27 Jan 2016 15:42:49 +0200|Tue, 9 Feb 2016 16:52:45 +0200
+2e676077ada17df1533befbff1d1e640124ffbfc|The ceph extras location is no more.|Fri, 5 Feb 2016 22:54:20 -0500|Mon, 8 Feb 2016 20:39:18 -0500
+9b9de929f292dc6ab861ec379c4b53369ba29ef7|Merge "Split the Rados GW tests into parts"|Mon, 8 Feb 2016 18:19:15 +0000|Mon, 8 Feb 2016 18:19:15 +0000
+45d9124a55eed3699b3db28e6aa8b07119a7c3a8|Drop deprecated rspec-system tests and releases|Tue, 2 Feb 2016 01:29:19 +0100|Sat, 6 Feb 2016 17:52:04 +0100
+cba5340f8abb5d3abe594470c26e171df4ef4a2d|Merge "Update ceph::repo to use download locations documented at ceph.com http://docs.ceph.com/docs/master/install/get-packages/"|Sat, 6 Feb 2016 13:56:44 +0000|Sat, 6 Feb 2016 13:56:45 +0000
+c59467369dd2e6f54ed9a7d94176f8639941b8f5|Update ceph::repo to use download locations documented at ceph.com http://docs.ceph.com/docs/master/install/get-packages/|Wed, 27 Jan 2016 23:07:55 -0500|Wed, 3 Feb 2016 15:13:24 -0500
+5c517b347abbf4a0fc77a115c72ed35666b51bb0|Split the Rados GW tests into parts|Wed, 2 Dec 2015 23:52:18 +0100|Sun, 31 Jan 2016 00:09:16 +0000
+185f76380b57d7c420729be10bf70ef3a3c046ae|mon: fix service provider for redhat systems|Fri, 29 Jan 2016 16:25:55 -0500|Fri, 29 Jan 2016 16:51:24 -0500
+45c81859a5ff37c6cbbce0d260801e9f25354515|Merge "Add support for setting globally ms_bind_ipv6"|Mon, 25 Jan 2016 19:30:43 +0000|Mon, 25 Jan 2016 19:30:43 +0000
+6cf8a4ea88ef031cab4b18c2a666badd779948db|Merge "Adds public_addr setting."|Mon, 25 Jan 2016 17:22:00 +0000|Mon, 25 Jan 2016 17:22:00 +0000
+3d7d647789455e36993fdd97c68408093cc2b16c|Add support for setting globally ms_bind_ipv6|Mon, 25 Jan 2016 13:33:28 +0100|Mon, 25 Jan 2016 13:49:54 +0100
+e26cb47661703e30553bd6fc6cb79f4f932419f4|drop mock dependency|Fri, 22 Jan 2016 09:31:57 -0500|Fri, 22 Jan 2016 09:31:57 -0500
+5252808a9b6b5e883c92f1e42155a95d467ecbc9|Adds public_addr setting.|Tue, 29 Dec 2015 16:09:00 -0700|Wed, 13 Jan 2016 11:04:32 -0700
+d387b0725f8eb01f2e9b572f7e3c22d5e00c67d9|Merge "Added default timeout for exec resources"|Thu, 24 Dec 2015 09:44:24 +0000|Thu, 24 Dec 2015 09:44:24 +0000
+749a2a8026d4f5d3cc54c119b7be8dab12595eb9|Merge "fix mon creation to be more idempotent"|Wed, 23 Dec 2015 20:54:50 +0000|Wed, 23 Dec 2015 20:54:50 +0000
+8fd97b5530c21ebfc82044fdeb368097cf72134a|Merge "Be more specific with CentOS7 package exclude"|Wed, 23 Dec 2015 20:53:15 +0000|Wed, 23 Dec 2015 20:53:15 +0000
+6a03609cce9f7b1f379230ef01d844723cf051da|Added default timeout for exec resources|Fri, 4 Dec 2015 15:33:49 +1100|Wed, 16 Dec 2015 09:26:58 +1100
+e4b05caf4825af51f679f0618229dce4c3388a5f|Fix unit tests failing against Puppet 4.3.x|Mon, 7 Dec 2015 10:43:12 +0100|Mon, 7 Dec 2015 10:43:12 +0100
+5096c97ddfbd4b491eb6050db41df04a93c0a8b9|fix mon creation to be more idempotent|Mon, 2 Feb 2015 01:40:35 +0100|Wed, 2 Dec 2015 23:31:45 +0000
+618a5b2553590be76fe6a4c792b6c23d0a04bf0d|Be more specific with CentOS7 package exclude|Tue, 18 Aug 2015 11:37:15 +0200|Mon, 23 Nov 2015 11:00:27 +0100
+28272fe2f375e3959f43cecba23d9767d652b754|Merge "Remove class_parameter_defaults puppet-lint check"|Thu, 12 Nov 2015 17:10:52 +0000|Thu, 12 Nov 2015 17:10:52 +0000
+c287e4a0e9236e0c84a1d03bdf0c0a6de1ea355e|Remove class_parameter_defaults puppet-lint check|Thu, 12 Nov 2015 12:30:39 +0100|Thu, 12 Nov 2015 12:30:39 +0100
+1ddbb0e96ba4b273321293e12baac129463514bc|Replace all StackForge names to OpenStack|Thu, 22 Oct 2015 17:08:03 +0300|Mon, 9 Nov 2015 21:22:24 +0300
+9c50e9c51dd2983dd1154287fcb806e5f46d2119|Merge "Update the location of the fastcgi repository key"|Fri, 6 Nov 2015 09:34:49 +0000|Fri, 6 Nov 2015 09:34:49 +0000
+efbe09114ff46b74618925ef80d03528625ceecf|Merge "Fix reference to puppetlabs/stdlib in Puppetfile"|Fri, 6 Nov 2015 09:31:41 +0000|Fri, 6 Nov 2015 09:31:41 +0000
+7e6249390c423625e16b3889d1ccb1fae6cbe940|Merge "Fix base ci test"|Fri, 6 Nov 2015 09:29:18 +0000|Fri, 6 Nov 2015 09:29:18 +0000
+f5c6952cd6c4eb9523f22eb4772f585807e3af44|Merge "Fix example and test values for journal disks"|Fri, 6 Nov 2015 04:47:11 +0000|Fri, 6 Nov 2015 04:47:11 +0000
+e4f9c1ac2d6342d3cd1ce3ed4f9ff37dac1b60d9|Update .gitreview for new namespace|Sat, 17 Oct 2015 22:35:38 +0000|Thu, 5 Nov 2015 17:15:13 -0500
+0caefb658e3936c9bf76860196125abc27c1dd00|Disable the RGW acceptance test|Thu, 5 Nov 2015 14:54:48 -0600|Thu, 5 Nov 2015 21:02:27 +0000
+a83b83d36a760501529aedab0973f016d7734bb9|Fix base ci test|Fri, 30 Oct 2015 14:26:49 +0900|Fri, 30 Oct 2015 14:29:27 +0900
+088fd413cdf1a175f76b38458c1801b8aca5b242|Fix reference to puppetlabs/stdlib in Puppetfile|Tue, 29 Sep 2015 11:46:46 -0700|Mon, 12 Oct 2015 03:30:47 +0000
+34efb4d41c248326ee5adf25df9402e1ad83d77d|Update the location of the fastcgi repository key|Fri, 9 Oct 2015 09:50:27 -0400|Fri, 9 Oct 2015 11:01:14 -0400
+bf32e981238912dddf35143ef63d6d056976147d|Fix example and test values for journal disks|Thu, 8 Oct 2015 10:08:12 +0200|Thu, 8 Oct 2015 10:08:12 +0200
+c60c6209ac799555b94bf62ce1c2cf00084e42d2|Fix RSpec 3.x syntax|Thu, 1 Oct 2015 09:45:44 +0200|Thu, 1 Oct 2015 09:45:44 +0200
+7585a60ec7f9c6cd781068859663f57f9a945f2f|Switch to new release key|Wed, 23 Sep 2015 20:20:42 +0200|Wed, 23 Sep 2015 20:34:21 +0200
+aa6a46bbdecbf7f887f2464aae165cbd1a8e986a|Drop no longer supported releases|Tue, 18 Aug 2015 11:58:31 +0200|Thu, 20 Aug 2015 08:26:31 +0000
+398b904eb56611b948cc5aea2a33b3dd538337b7|use full length APT key|Fri, 10 Jul 2015 14:45:15 +0200|Wed, 19 Aug 2015 22:45:52 +0000
+008370a86c2f32161473b97dbd51a00c07dbda55|Fix RGW Apache syslog creation|Tue, 18 Aug 2015 12:34:32 +0200|Tue, 18 Aug 2015 13:03:59 +0200
+6cb9a00898c86bf32a5706ade64fe3787b0b739b|Allow customization of OSDs journal size via class param|Mon, 10 Aug 2015 22:58:24 +0200|Wed, 12 Aug 2015 15:48:18 +0200
+f6206a15cc5e52689d20d8b59e7a6bdd9bb9b887|Merge "Fix rgw keystone"|Thu, 6 Aug 2015 08:50:58 +0000|Thu, 6 Aug 2015 08:50:58 +0000
+0d7fb171026fa998fbd3c87d3949b2d98863a913|Make args for conf, mons, osds and keys wrappers optional|Wed, 5 Aug 2015 20:40:00 +0200|Wed, 5 Aug 2015 20:41:07 +0200
+79fd0d9aebcec4cfac054fb3ed81149a9ed88a53|Merge "osd: fix pattern when matching ${data}"|Wed, 5 Aug 2015 15:10:30 +0000|Wed, 5 Aug 2015 15:10:30 +0000
+f65293e56c50c8300e2e975199c988da2a785c95|Merge "Clean the documentation for rspec-beaker"|Wed, 5 Aug 2015 14:50:50 +0000|Wed, 5 Aug 2015 14:50:50 +0000
+0c42ba3c817cb97f146e371cf43365c94af1429b|Merge "Fix a race condition in mon creation"|Wed, 5 Aug 2015 14:44:29 +0000|Wed, 5 Aug 2015 14:44:29 +0000
+a8bccf57dd574e6af677273f10f061cd64e8d7dc|Clean the documentation for rspec-beaker|Wed, 5 Aug 2015 12:46:24 +0200|Wed, 5 Aug 2015 12:53:12 +0200
+2eb9458fdac9ac03a3474d104450c8634ab285ae|Fix rgw keystone|Sun, 8 Feb 2015 19:46:07 +0100|Wed, 5 Aug 2015 11:09:08 +0200
+e81e93e45881870b312ae5448e6d39614d7f9640|Fix a race condition in mon creation|Tue, 4 Aug 2015 22:45:47 +0200|Tue, 4 Aug 2015 22:45:47 +0200
+10fabadd204587713dbc4ed99d8a57050c6b73fb|Enable GPG for EPEL|Tue, 4 Aug 2015 16:07:40 +0200|Tue, 4 Aug 2015 18:33:31 +0200
+a58eb25feb60bb1e28cc86cc67236d0c0700135a|Merge "define ceph::rgw::keystone."|Mon, 3 Aug 2015 21:12:31 +0000|Mon, 3 Aug 2015 21:12:31 +0000
+2ec59f3b8ae4da8f953212091c67ae943861923c|osd: fix pattern when matching ${data}|Tue, 14 Jul 2015 22:12:37 +0300|Wed, 22 Jul 2015 17:34:04 +0000
+38c4cacd423ece462a1c72837d175aeb8e1f67db|Fix the two centos70 nodeset to install correct puppet|Tue, 21 Jul 2015 12:53:53 +0200|Tue, 21 Jul 2015 12:53:53 +0200
+498f8e16a32e3c60b050fde6210f0ca3539bf5b3|Add rspec beaker boxes for centos7 and trusy|Mon, 6 Jul 2015 23:00:11 +0200|Tue, 14 Jul 2015 21:25:41 +0200
+c1dd900b35d6aee72c6fd32587783b83bf4e6032|define ceph::rgw::keystone.|Thu, 28 Aug 2014 16:46:13 +1200|Tue, 7 Jul 2015 23:32:15 +0000
+c58f1e282d2a85d79c221800e88a415eaeaa094a|Merge "osd: fix pattern when matching ${data}"|Mon, 6 Jul 2015 21:46:59 +0000|Mon, 6 Jul 2015 21:46:59 +0000
+2b0ba61b4697bab2f964321b96afc68340b62636|Bump default release to hammer|Thu, 25 Jun 2015 17:43:07 +0200|Wed, 1 Jul 2015 22:23:10 +0200
+b76719ef98cfec1cc17ceec68773d7a7a0079dc7|osd: fix pattern when matching ${data}|Sun, 28 Jun 2015 22:14:44 +0300|Wed, 1 Jul 2015 15:45:27 +0000
+71fccdf944a2b0721a972a8a86f97703cabd586e|Add EL7 Support, Fix unit and integration tests|Thu, 30 Apr 2015 10:53:36 +0200|Tue, 30 Jun 2015 16:29:26 -0400
+a1c1ce2aea987550e54bcb1f3e3a18f428a10506|Fix apt::key location to not contain redirect|Sun, 19 Apr 2015 13:18:35 +0200|Tue, 28 Apr 2015 21:13:26 +0000
+a3c12f05d811f5506f69f3060e554c80793dc183|Convert rspec tests to rspec 3.x|Tue, 31 Mar 2015 13:30:37 +0200|Tue, 31 Mar 2015 13:39:35 +0200
+b6ab15b47c81d7694fdcfd75d8f2e0a0481ca40c|Change default nodeset to an actual file|Wed, 11 Mar 2015 22:42:57 -0400|Thu, 12 Mar 2015 11:01:33 -0400
+2041c1e7b5e7d2eda12e5a2b526d8808676fd9d2|Increase flexibility with managing client keys in profile|Fri, 27 Feb 2015 13:44:24 -0500|Thu, 5 Mar 2015 18:50:23 -0500
+7f7847315cb851eb794f8cb1ac154d7011be6930|Merge "Add Puppet 4.x lint checks"|Thu, 5 Mar 2015 15:27:48 +0000|Thu, 5 Mar 2015 15:27:48 +0000
+cfe77902ebfe722dec129e52ec9a33a89f8a46f8|Merge "Add puppet metadata.json lint"|Sun, 1 Mar 2015 20:12:41 +0000|Sun, 1 Mar 2015 20:12:41 +0000
+6fd0f87f04695baa42be5434f71919d08e0c4c9a|Add Puppet 4.x lint checks|Mon, 23 Feb 2015 11:30:56 +0100|Sat, 28 Feb 2015 22:18:53 +0000
+94c8f1edfc8e2b7b2a87384529c742b98eda4e54|Add puppet metadata.json lint|Mon, 16 Feb 2015 17:00:30 +0100|Sat, 28 Feb 2015 22:10:53 +0000
+16a160a8ff4a7f7878ccf8ae096abec51fe42eca|Update CI boxes to latest versions|Fri, 27 Feb 2015 00:37:53 +0100|Sat, 28 Feb 2015 11:18:06 +0000
+e75520a5e9698838fd143b7a935979fd7aef4369|Merge "spec: updates for rspec-puppet 2.x and rspec 3.x"|Sat, 28 Feb 2015 11:11:26 +0000|Sat, 28 Feb 2015 11:11:26 +0000
+9d91fa1c52e659c9da713495311f772536ee114d|Merge "Fix the documentation title"|Fri, 27 Feb 2015 15:45:21 +0000|Fri, 27 Feb 2015 15:45:21 +0000
+582c54283f6805cd8658f52edf7a24fd1ac4f5ca|Fix the documentation title|Fri, 27 Feb 2015 14:59:16 +0100|Fri, 27 Feb 2015 14:59:16 +0100
+e0270a4b2fb8a81b8957ba5ca20a57bc0ac3e41a|Fix doc header of mon|Fri, 27 Feb 2015 14:55:38 +0100|Fri, 27 Feb 2015 14:55:38 +0100
+cf6478490e67907891417a5dabd1f395a2e52ef4|spec: updates for rspec-puppet 2.x and rspec 3.x|Mon, 16 Feb 2015 16:07:31 +0100|Fri, 27 Feb 2015 13:41:44 +0000
+63cbbda8f2462f7defea6bf9239e1a715cb86515|Check and lint documentation parameters|Mon, 16 Feb 2015 15:59:15 +0100|Fri, 27 Feb 2015 00:45:37 +0100
+cbf70f6008b15381244c275ae677bb8fa562a9ae|Fix to allow for arbitrary interface naming|Wed, 18 Feb 2015 22:23:44 +0100|Thu, 19 Feb 2015 00:08:16 +0100
+35965caf07e61ed69694ff03b70a04a0ad655cc7|Refactor the pool tests to only test pool|Wed, 18 Feb 2015 00:09:12 +0100|Wed, 18 Feb 2015 10:44:08 +0100
+518fb199130c160b89477863807be643da74ecc9|Merge "Slightly seperate install from create pool"|Tue, 17 Feb 2015 23:49:20 +0000|Tue, 17 Feb 2015 23:49:20 +0000
+3e32c0e17132526dba0d03634ac4f4836f7d6fd9|Merge "Adding base infrastructure for beaker CI tests"|Tue, 17 Feb 2015 23:06:51 +0000|Tue, 17 Feb 2015 23:06:51 +0000
+b4bd8fdccf3ed13f9770066d5cfbec91ffdc3805|Slightly seperate install from create pool|Tue, 17 Feb 2015 14:48:32 -0800|Tue, 17 Feb 2015 15:05:23 -0800
+419ccbf373dc9df4f15e3fc9290a0f48045ee22a|Merge "Fix Exec unless test for set-${name}-size"|Tue, 17 Feb 2015 22:21:14 +0000|Tue, 17 Feb 2015 22:21:14 +0000
+5522be54cbba1e356fd1d46f34170bacc1b3da1b|Fix Exec unless test for set-${name}-size|Tue, 17 Feb 2015 18:55:24 +0100|Tue, 17 Feb 2015 21:01:07 +0100
+89910f19ce11a18c158f400bb9173acba038d90e|Update CI boxes|Tue, 17 Feb 2015 15:03:16 +0100|Tue, 17 Feb 2015 16:32:56 +0100
+1db11f2acd9f695ba19152dcdc4a218f16ef72a1|Fix the rgw apache CI tests|Sun, 8 Feb 2015 19:53:45 +0100|Mon, 9 Feb 2015 14:32:17 +0100
+040e3e850263ccee0b9072b91c0f178c0c0c4460|Fix dependency tree to include necessary package ceph|Sun, 8 Feb 2015 19:48:08 +0100|Sun, 8 Feb 2015 19:48:08 +0100
+e998f5dd28215f00b258a05c7ed89a2fac13edf3|Adding base infrastructure for beaker CI tests|Mon, 2 Feb 2015 01:46:39 +0100|Tue, 3 Feb 2015 23:47:47 +0100
+22d30ee370352b6b886cfc68b7458bd417dc0f85|spec: pin rspec-puppet to 1.0.1|Tue, 3 Feb 2015 15:32:20 +0100|Tue, 3 Feb 2015 15:32:20 +0100
+20efd9972816bb08358d2ac5d1f9a58f4baf5551|Fix incorrect email in header|Mon, 2 Feb 2015 22:18:49 -0700|Mon, 2 Feb 2015 22:19:11 -0700
+5d455c949aea0844adb6dee09eb76a12a85dd088|fix osd removal to be idempotent|Sun, 1 Feb 2015 19:43:55 +0100|Tue, 3 Feb 2015 01:38:06 +0100
+62cd20af9b9ef75da11571cdfc3676eb9e32eb99|Merge "Bump default version to giant, test against giant and drop emperor"|Tue, 3 Feb 2015 00:22:31 +0000|Tue, 3 Feb 2015 00:22:31 +0000
+e8f0b80688ffe723481c972f7ab5b0ab6f564f8a|Merge "fix mon removal to be idempotent"|Mon, 2 Feb 2015 21:47:21 +0000|Mon, 2 Feb 2015 21:47:21 +0000
+1e151789ea51f9f557d3eedb2ab2721464b5de7c|fix mon removal to be idempotent|Sun, 1 Feb 2015 21:11:58 +0100|Mon, 2 Feb 2015 18:48:07 +0100
+e147439ecd323eacd47ad85c2724e5457144d109|Bump default version to giant, test against giant and drop emperor|Wed, 19 Nov 2014 12:17:31 -0500|Mon, 2 Feb 2015 10:45:12 -0500
+0dbce0d980e334361f9f8b46c632886d4285d921|Switch to metadata.json for Puppet forge releases|Wed, 1 Oct 2014 02:41:40 +0200|Mon, 2 Feb 2015 15:43:19 +0100
+4907dac81dfe270045040114fea3f3b928a5f824|Merge "fix the client part fort the benchmark usecase"|Sun, 1 Feb 2015 23:22:36 +0000|Sun, 1 Feb 2015 23:22:36 +0000
+c01da6b58ce2163862f58511a1a790875fc133a3|Merge "fixed directory listing for non-blockdevice osds"|Sun, 1 Feb 2015 23:19:49 +0000|Sun, 1 Feb 2015 23:19:49 +0000
+45e1cc2cd0597176dfd62736055ac8e3e6814c7e|Merge "separate ceph-disk prepare / activate on ceph::osd"|Sun, 1 Feb 2015 22:54:03 +0000|Sun, 1 Feb 2015 22:54:03 +0000
+587f051b61fc483d452124d5953f8293d1fbd6ba|Merge "Fix rspec and rspec system puppet tests for ceph::rgw"|Sun, 1 Feb 2015 16:36:10 +0000|Sun, 1 Feb 2015 16:36:10 +0000
+cac0effd7370b303ee2cffd30ae770604435f054|Merge "define ceph::rgw, ceph::rgw::apache."|Sun, 1 Feb 2015 16:31:57 +0000|Sun, 1 Feb 2015 16:31:57 +0000
+17571a96b01e825193eca6460000d13ca551b731|fix the client part fort the benchmark usecase|Sun, 1 Feb 2015 14:13:55 +0100|Sun, 1 Feb 2015 14:13:55 +0100
+b7f9a6b6cf4f26b50fa8607a08d516c9da8a9c82|fix the example script for gerritexec|Sat, 31 Jan 2015 01:11:45 +0100|Sat, 31 Jan 2015 01:11:45 +0100
+a66f6ce0749bc17ad92e9e07467195723e760555|fix usecases CI tests by limiting journal size to 100M|Sat, 31 Jan 2015 01:04:35 +0100|Sat, 31 Jan 2015 01:04:35 +0100
+374ec7a5b5bb2b4d3ba243c4d8869372278c2d9e|Merge "Enabling and fixing the rspec tests for profiles"|Fri, 30 Jan 2015 15:41:36 +0000|Fri, 30 Jan 2015 15:41:36 +0000
+df2fe6713df5e225d2f59cf2ffaa18f6f4bf2889|fixed directory listing for non-blockdevice osds|Mon, 12 Jan 2015 23:39:51 +0100|Mon, 12 Jan 2015 23:42:43 +0100
+4db0825273bd39f392605a90a72acd9d82285878|Rewrite the usecases to actually working scenarios|Sun, 8 Jun 2014 18:15:44 +0200|Sat, 20 Dec 2014 14:12:59 +0100
+3a76eb2713d80d7efa5a41782b53fef64487ed52|Fix rspec and rspec system puppet tests for ceph::rgw|Fri, 19 Dec 2014 12:50:37 +0100|Fri, 19 Dec 2014 13:13:05 +0100
+edad5c5503ec9879ccad684b8f49bde384f9c71f|Enabling and fixing the rspec tests for profiles|Fri, 19 Dec 2014 12:57:21 +0100|Fri, 19 Dec 2014 12:57:21 +0100
+1fb079ac80077dcfb1236f97bd6103c93b0dd27a|This fixes various issues with the centos CI tests|Wed, 10 Dec 2014 16:59:55 +0100|Wed, 10 Dec 2014 20:04:59 +0100
+b53a6a52adae5724ddbd31f95fd06602815c27ae|Fixing the setup and teardown of SNT in mons and osds module|Wed, 19 Nov 2014 01:21:15 +0100|Wed, 19 Nov 2014 14:09:57 +0100
+3bafe7096f6ec29eb8216f49078c93103b738138|Remove unnecessary non-ascii characters|Tue, 18 Nov 2014 15:42:17 -0500|Tue, 18 Nov 2014 15:42:44 -0500
+babf4da16357002f7f890a4afa03942200e65c12|Remove templatedir directive from puppet.conf|Tue, 18 Nov 2014 12:11:21 -0500|Tue, 18 Nov 2014 12:11:21 -0500
+8e843c99f751a1425b32bdd50cac253bf2825b51|Merge "Added hook 'ceph::profile::params::manage_repo'."|Fri, 7 Nov 2014 14:25:57 +0000|Fri, 7 Nov 2014 14:25:57 +0000
+701a294d75115a9664c7f50f501eb92122c886d7|define ceph::rgw, ceph::rgw::apache.|Thu, 19 Jun 2014 10:59:01 +1200|Tue, 23 Sep 2014 16:15:00 +1200
+8efd03917ab17986c268f2c0d75c28df2ff42262|separate ceph-disk prepare / activate on ceph::osd|Tue, 2 Sep 2014 13:16:31 +1200|Mon, 22 Sep 2014 17:44:44 +1200
+9554e9d3625747673066042b75aadce34ff7ddd8|add ceph-extras and fast-cgi repositories.|Fri, 29 Aug 2014 11:22:01 +1200|Tue, 2 Sep 2014 11:06:07 +1200
+16d230b402036d11e18eba51b7bc9b95c1421ca7|Added hook 'ceph::profile::params::manage_repo'.|Sat, 23 Aug 2014 17:57:54 +0200|Sat, 30 Aug 2014 17:40:41 +0200
+6e342f5c4644147e1c16c501a23c5d5dabc026b1|Refactor to remove inheritance in profiles|Mon, 28 Jul 2014 10:45:42 +0200|Sat, 2 Aug 2014 22:48:43 +0000
+99f0b48fc0e0e1e933f096cf280807f6df4d981e|Update email information for David Gurtner|Thu, 31 Jul 2014 15:31:25 +0200|Thu, 31 Jul 2014 15:31:25 +0200
+5ee3cbe5ecdcfae41198cc941b1607c09aeab50e|Merge "OSD profile for roles/profiles pattern"|Tue, 15 Jul 2014 07:19:28 +0000|Tue, 15 Jul 2014 07:19:28 +0000
+6dd88a427e401342e53f754b244f4489130b97c9|Merge "Client profile for roles/profiles pattern"|Tue, 15 Jul 2014 06:26:11 +0000|Tue, 15 Jul 2014 06:26:11 +0000
+02cab06c1699a035218596046008aa86b22cfdc7|Merge "Implements : emphasize integration tests in README.md"|Sat, 12 Jul 2014 07:21:21 +0000|Sat, 12 Jul 2014 07:21:21 +0000
+8d1e1236941884395f3fcd2230bc5161db246b4d|Implements : emphasize integration tests in README.md|Tue, 17 Jun 2014 14:59:42 +0200|Fri, 11 Jul 2014 15:21:47 +0200
+d8135bf957c25343eee0140a3b5b801f26b45a5a|Added fenced code blocks into README.md|Fri, 11 Jul 2014 15:13:13 +0200|Fri, 11 Jul 2014 15:17:14 +0200
+8462154fb8fa8cfc81d8f8ef5dff646f777029f9|Escape the base64 encoded key in regexp matching|Tue, 24 Jun 2014 13:43:50 +0200|Thu, 10 Jul 2014 20:08:07 +0000
+227241986e7f290f5be83d9da29841e49df22f25|OSD profile for roles/profiles pattern|Tue, 17 Jun 2014 14:28:24 +0200|Thu, 10 Jul 2014 17:48:36 +0000
+b9c351785070ba0177894eb46f6338393188a777|Client profile for roles/profiles pattern|Tue, 17 Jun 2014 14:25:16 +0200|Thu, 10 Jul 2014 17:48:29 +0000
+8e0346d0ee7b7f17bcc8c45302f5d3303d2868b5|Adapt tests to work with recently changed inifile|Thu, 10 Jul 2014 19:38:16 +0200|Thu, 10 Jul 2014 19:47:22 +0200
+564e0a3006627c6a24c4fab740e95f90eecec702|Merge "incorrect cloudwatt.com email and (C) of Copyright was missing"|Wed, 2 Jul 2014 21:26:58 +0000|Wed, 2 Jul 2014 21:26:58 +0000
+080bf40a54637ab796d425705c56c86a4187e512|Merge "Implements : incorrect cloudwatt.com email in ceph_key_spec.rb"|Fri, 27 Jun 2014 13:53:25 +0000|Fri, 27 Jun 2014 13:53:25 +0000
+8189121376a49c80767761855007f1b6f45bcd92|incorrect cloudwatt.com email and (C) of Copyright was missing|Tue, 24 Jun 2014 15:34:01 +0200|Fri, 27 Jun 2014 15:45:13 +0200
+ca0855b727e65d60d72d3beaaf6a414623ba1213|Merge "add Gemfile-rspec-system.lock to .gitignore"|Fri, 27 Jun 2014 13:23:48 +0000|Fri, 27 Jun 2014 13:23:48 +0000
+f68f6362004235a8d752af73a3619a5b33fed032|Merge "Mon profile for roles/profiles pattern"|Fri, 27 Jun 2014 12:55:54 +0000|Fri, 27 Jun 2014 12:55:54 +0000
+8f1fb2569db509797beb72c0e235fabd7193f430|Implements : incorrect cloudwatt.com email in ceph_key_spec.rb|Fri, 27 Jun 2014 13:22:47 +0200|Fri, 27 Jun 2014 13:22:51 +0200
+833be3b7e6438af3df51ac5fc82e1941c80220e6|add Gemfile-rspec-system.lock to .gitignore|Thu, 26 Jun 2014 16:24:58 +0200|Thu, 26 Jun 2014 17:13:45 +0200
+1d2ced9aa92c23395570c0deff6dff15c1f1d9cf|Merge "explain why a hardcoded value is being used in first.yaml and second.yaml"|Thu, 26 Jun 2014 15:06:21 +0000|Thu, 26 Jun 2014 15:06:21 +0000
+211fc3ec4c29d15fcdc44960d4ceed76b6378467|explain why a hardcoded value is being used in first.yaml and second.yaml|Thu, 26 Jun 2014 11:24:23 +0200|Thu, 26 Jun 2014 13:11:12 +0200
+8f9dfd6681c515fe86d15918aa0448937272a2e5|Changed 'colour' to 'color' in /spec/spec_helper_system.rb|Wed, 25 Jun 2014 12:11:30 +0200|Wed, 25 Jun 2014 10:24:07 +0000
+942f61111ce48219b102396040ed6bd2dabd0cad|Merge "Normalize Gemfile & pin tests to rspec < 2.99"|Fri, 20 Jun 2014 18:12:32 +0000|Fri, 20 Jun 2014 18:12:32 +0000
+04643aa7e7e0fd9ffefe987ec32fad78ce44432c|Merge "Adding copyright years of availability in ceph_init_spec.rb."|Fri, 20 Jun 2014 17:58:28 +0000|Fri, 20 Jun 2014 17:58:28 +0000
+89969198700ea34e59ef30c3771a143281e1d0f2|Merge "Rewrite data model to be pure hiera"|Fri, 20 Jun 2014 17:57:54 +0000|Fri, 20 Jun 2014 17:57:55 +0000
+36a393d49a91a0a6ab3d37e332e5a2b0431f39e6|Merge "incorrect cloudwatt.com email in spec_helper_system.rb"|Fri, 20 Jun 2014 17:55:05 +0000|Fri, 20 Jun 2014 17:55:05 +0000
+87191148adbea138ac68c8a0a0647c587314eea8|Merge "missing year in defines/ceph_mon_spec.rb copyright"|Fri, 20 Jun 2014 17:54:07 +0000|Fri, 20 Jun 2014 17:54:07 +0000
+4bf9fb9d8133c2f8f58cf17b4b9e7a1d93bc4c13|Merge "added missing copyright year in init.pp"|Fri, 20 Jun 2014 17:52:02 +0000|Fri, 20 Jun 2014 17:52:02 +0000
+21eeee7e7ad17f82224da1e870f73556fdca5307|Merge "Add year to copyright notice"|Fri, 20 Jun 2014 17:51:45 +0000|Fri, 20 Jun 2014 17:51:45 +0000
+831f144e81e03b94cf49660cf7378d27f122939e|Mon profile for roles/profiles pattern|Fri, 6 Jun 2014 13:41:16 +0200|Fri, 20 Jun 2014 16:55:23 +0200
+73114e00dd63a3e2644d4b0fb97e47d5b9ace268|Normalize Gemfile & pin tests to rspec < 2.99|Fri, 20 Jun 2014 07:54:19 -0400|Fri, 20 Jun 2014 09:13:50 -0400
+0d540731b80ad76f5fb8343d731b75a75b961d78|Merge "The year missing in Copyright is add"|Tue, 17 Jun 2014 15:39:48 +0000|Tue, 17 Jun 2014 15:39:48 +0000
+fe43209fb1382dc0aff1c1f879f832a74e8a1b3e|Adding copyright years of availability in ceph_init_spec.rb.|Tue, 17 Jun 2014 15:53:28 +0200|Tue, 17 Jun 2014 15:27:13 +0000
+7e6b38c5e31b84bac9fdc54ebbe67359e152dc3d|Merge "missing year in mon.pp copyright notice"|Tue, 17 Jun 2014 15:27:10 +0000|Tue, 17 Jun 2014 15:27:10 +0000
+3cbb847ab46c99b4736de7589bc5f19725374d00|Merge "missing year in params.pp copyright notice"|Tue, 17 Jun 2014 15:25:59 +0000|Tue, 17 Jun 2014 15:25:59 +0000
+091845029c814937e4b6c5b6e54ad61f392fac59|Merge "ceph-autotool typo"|Tue, 17 Jun 2014 15:25:54 +0000|Tue, 17 Jun 2014 15:25:54 +0000
+9d677482d3ad1929813226d3f52207d813be206e|Merge "Add Copryright date"|Tue, 17 Jun 2014 15:22:46 +0000|Tue, 17 Jun 2014 15:22:46 +0000
+de7b5a14f490f137dcea4179890c640761e2aa4e|Add year to copyright notice|Tue, 17 Jun 2014 14:37:51 +0200|Tue, 17 Jun 2014 17:18:18 +0200
+b70e93263f14bb36244503aa28823e62c2316635|incorrect cloudwatt.com email in spec_helper_system.rb|Tue, 17 Jun 2014 17:10:51 +0200|Tue, 17 Jun 2014 17:10:56 +0200
+c1beda6b5f230d1ac74ff558e77925fffcd8b08d|Merge "Edit of the manifest repo.pp and change the xarses by the email"|Tue, 17 Jun 2014 15:06:21 +0000|Tue, 17 Jun 2014 15:06:21 +0000
+d94c7754a25da674047ebee1906f554a760d0da3|The year missing in Copyright is add|Tue, 17 Jun 2014 16:01:09 +0200|Tue, 17 Jun 2014 16:30:12 +0200
+ef7784cc6e46ba8d2b0b677bf60ad32b6a1dc395|missing year in defines/ceph_mon_spec.rb copyright|Tue, 17 Jun 2014 16:24:50 +0200|Tue, 17 Jun 2014 16:24:50 +0200
+a26b95c145f40a76f053a8c52619034984898829|missing year in params.pp copyright notice|Tue, 17 Jun 2014 14:44:53 +0200|Tue, 17 Jun 2014 13:25:27 +0000
+7886018944b3d5afe14b6081ed8eb2f8149a7ef4|missing year in mon.pp copyright notice|Tue, 17 Jun 2014 14:46:41 +0200|Tue, 17 Jun 2014 15:19:55 +0200
+f640fafdc722a026614d92978f971ee0aa9ed9f5|Add Copryright date|Tue, 17 Jun 2014 13:59:36 +0200|Tue, 17 Jun 2014 14:45:54 +0200
+224d17a4fe1aa8b629b81179eb3ca5275007b96f|Edit of the manifest repo.pp and change the xarses by the email|Tue, 17 Jun 2014 12:16:56 +0200|Tue, 17 Jun 2014 11:58:52 +0000
+c5e1e5e73dac2bcaac3b4c59067bfb31b0093833|ceph-autotool typo|Tue, 17 Jun 2014 11:28:08 +0200|Tue, 17 Jun 2014 11:50:37 +0000
+bd59844d24a50086f75d4cae5271a96d8e39567d|added missing copyright year in init.pp|Tue, 17 Jun 2014 11:23:32 +0200|Tue, 17 Jun 2014 11:43:21 +0000
+9c276a1546351aaa00a5920e1281daaf7957027c|Merge "Replaced 'mutually exclusives' with 'mutually exclusive' in comments"|Tue, 17 Jun 2014 11:35:32 +0000|Tue, 17 Jun 2014 11:35:32 +0000
+b02695b99bf1c9ee63b5c3bcbd170766b339356f|Replaced 'mutually exclusives' with 'mutually exclusive' in comments|Tue, 17 Jun 2014 11:57:02 +0200|Tue, 17 Jun 2014 11:57:02 +0200
+5125e5a694f7b16d0e46d1eea5f362ea76cc63e5|Configuring all dependencies in the manifests|Mon, 9 Jun 2014 00:25:40 +0200|Thu, 12 Jun 2014 16:33:34 +0200
+1cfa6b28c937b9903b9d32976e42162b0f89c1ac|ceph::osd support for scenario_node_terminus|Thu, 29 May 2014 15:43:52 +0200|Mon, 9 Jun 2014 00:22:38 +0200
+86790a9fe3335b53729141c7932c57cb2f219159|Rewrite data model to be pure hiera|Sat, 7 Jun 2014 00:59:09 +0200|Sat, 7 Jun 2014 00:59:09 +0200
+f177f17bd9df61d44b247ebaaf32bc213c0a4ddb|Merge "cephx support for scenario_node_terminus"|Wed, 4 Jun 2014 11:23:06 +0000|Wed, 4 Jun 2014 11:23:07 +0000
+023225bb4ace2d2e1a3e58e34fe0ce0e38d459ab|Merge "Support for scenario_node_terminus for ceph::mon"|Wed, 4 Jun 2014 11:23:01 +0000|Wed, 4 Jun 2014 11:23:01 +0000
+ced34ebac3bccc9e60dba180fbaf10212529b463|Merge "Initial classes/tests for a roles/profiles pattern"|Wed, 4 Jun 2014 07:04:42 +0000|Wed, 4 Jun 2014 07:04:42 +0000
+32288590b119aab7bf2ca9101e8e5e6ea3b49c7b|Merge "Preparation for scenario_node_terminus tests"|Wed, 4 Jun 2014 02:33:23 +0000|Wed, 4 Jun 2014 02:33:23 +0000
+abeed657a11f50241abf99101d535ba7734234c0|cephx support for scenario_node_terminus|Sun, 1 Jun 2014 14:48:00 +0200|Sun, 1 Jun 2014 18:31:05 +0200
+04f0f69c71c73333bcac14b271003264cbef46a3|Support for scenario_node_terminus for ceph::mon|Thu, 29 May 2014 22:23:23 +0200|Sun, 1 Jun 2014 14:21:04 +0200
+8ca2b452a5fe166663c2371cafd1bc9fb783d8cd|obsolete cuttlefish and add firefly|Thu, 29 May 2014 14:53:47 +0200|Sat, 31 May 2014 11:20:44 +0200
+4ea286a15b3e14b5a3b6ada1de81ea133238767f|Initial classes/tests for a roles/profiles pattern|Fri, 30 May 2014 00:07:00 +0200|Fri, 30 May 2014 18:02:01 +0200
+56e5ad2c2d04ad6465d7ce9c73e5b973b210e98b|Checking for support of CentOS 6.4 in CI pool test|Wed, 28 May 2014 20:09:33 +0200|Fri, 30 May 2014 18:02:01 +0200
+145990f2a8c21aa74b2d553acbee06204125e80d|Support single node CS tests on CentOS 6.4|Wed, 28 May 2014 20:04:29 +0200|Fri, 30 May 2014 18:02:01 +0200
+2969db6436cc8f3a6ace10849e7d2023fbadc888|Preparation for scenario_node_terminus tests|Thu, 29 May 2014 15:45:22 +0200|Fri, 30 May 2014 00:18:49 +0200
+bdd329ecef02794ef49e3a3d6e2a0f1d4694b767|Merge "Adding spec tests for RedHat family where needed"|Thu, 29 May 2014 12:40:30 +0000|Thu, 29 May 2014 12:40:30 +0000
+5675b9b92686033ddf5d36c8bb100eafb20ed4bd|Merge "Remove unnecessary if statement in ceph::mon"|Thu, 29 May 2014 08:12:35 +0000|Thu, 29 May 2014 08:12:35 +0000
+4b2c78b043cc06c206821b83e3892ca32c66dad9|Merge "Fixed removal command in ceph::osd"|Thu, 29 May 2014 08:10:52 +0000|Thu, 29 May 2014 08:10:52 +0000
+f461e6380238bfa04e14f238cd7a4babdbbdecfd|Merge "Support for RedHat in ceph::mon"|Thu, 29 May 2014 08:09:30 +0000|Thu, 29 May 2014 08:09:30 +0000
+a52f62fbaae2afa31356d1aac7537672245e1bdd|Adding spec tests for RedHat family where needed|Wed, 28 May 2014 19:46:39 +0200|Wed, 28 May 2014 23:17:36 +0000
+10f2d4aa497240e74cf3792c38978ef87182e6f2|Remove unnecessary if statement in ceph::mon|Wed, 28 May 2014 16:44:51 +0200|Wed, 28 May 2014 23:16:16 +0000
+9f97f314f8ac57ab508a397e775cce4759bea091|Merge "drop --cluster from ceph-disk activate (osd)."|Wed, 28 May 2014 22:22:25 +0000|Wed, 28 May 2014 22:22:25 +0000
+d7d966e411516d3e59d25c491559dbf1fa91d3af|Fixed removal command in ceph::osd|Wed, 28 May 2014 00:13:05 +0200|Tue, 27 May 2014 23:49:38 +0000
+e5a50f4d3c629f9b80910b538ba2bd23fc4c8f87|Support for RedHat in ceph::mon|Tue, 20 May 2014 01:43:58 +0200|Wed, 28 May 2014 01:49:13 +0200
+893ab18423e3dfd133894dbb80a9737ae7b9d007|Merge "define ceph::pool."|Tue, 27 May 2014 14:20:01 +0000|Tue, 27 May 2014 14:20:01 +0000
+ab782949442a136c46d74449d207fe61211fdf67|Fixes Bug: "yum repo don't work in CentOS 6.4"|Sun, 25 May 2014 18:24:24 +0200|Mon, 26 May 2014 14:21:17 +0200
+51bfbc1930e31d3803882c1e5cdda87de62d6d55|define ceph::pool.|Thu, 10 Apr 2014 14:31:57 +1200|Mon, 26 May 2014 16:41:42 +1200
+539fd68e53326e4a01f5a9fffdf36e9259a2130b|drop --cluster from ceph-disk activate (osd).|Mon, 26 May 2014 16:01:42 +1200|Mon, 26 May 2014 16:04:01 +1200
+3bd524541f6b29f4ee8f46460db65e630bda96b2|Create rspec-system tests for RedHat family|Sun, 25 May 2014 18:07:36 +0200|Mon, 26 May 2014 01:08:47 +0200
+d0e5535f1b4f5d31c28ba2f5022cec94ac62ae57|ceph::osd : add tests for osd data on an existing partition|Sat, 26 Apr 2014 19:05:15 +0200|Tue, 20 May 2014 03:43:30 +0200
+f6d20590ecae23f12eefa17d006e38a1123c8c2e|ceph::osd : indent tests|Sun, 27 Apr 2014 14:36:35 +0200|Wed, 7 May 2014 22:54:35 +0000
+056e117655c0989a9528176d7ddda2f573a540e9|ceph::osd : add support for mon data directories|Sat, 26 Apr 2014 18:54:31 +0200|Wed, 7 May 2014 22:54:28 +0000
+94a82ffd98c0b1ea26c27880f94df370cf66043c|ceph::osd : do not hardcode the cluster name|Sat, 26 Apr 2014 18:50:39 +0200|Wed, 7 May 2014 22:54:22 +0000
+7b717e33fba3193ad04b5142deac5b77629cdbec|ceph::mon : control client.admin key generation|Mon, 21 Apr 2014 20:54:07 +0200|Wed, 7 May 2014 22:54:16 +0000
+ef4c2c393814b6348feb4130cd4e819ce8c5e572|ceph::mon : tag cephx spec test|Mon, 21 Apr 2014 20:52:05 +0200|Wed, 7 May 2014 22:54:06 +0000
+01a4566cc9d19f134f16fb247df93d7a17cef7a6|ceph::mon : remove useless comments from tests|Mon, 21 Apr 2014 20:51:46 +0200|Wed, 7 May 2014 22:54:01 +0000
+39a029899ff6ee443f405289cc8a4d53e1defe75|update the first use case to reflect that it works|Mon, 21 Apr 2014 15:41:19 +0200|Wed, 7 May 2014 22:53:52 +0000
+f0b9abe610e468ae64c4e91ac83dfe2e85e399ed|ceph::key : proofread documentation strings|Mon, 21 Apr 2014 03:01:35 +0200|Wed, 7 May 2014 22:53:45 +0000
+e33be6b180180f41b7b0ffe85a615edac62efe40|ceph::key : reduce literal duplication in tests|Mon, 21 Apr 2014 02:59:39 +0200|Wed, 7 May 2014 22:53:33 +0000
+2a2950941bb7a446a0d45efac5346ea9b9cdc7d2|ceph::key : remove the client.admin keyring for tests|Mon, 21 Apr 2014 02:51:29 +0200|Wed, 7 May 2014 22:53:28 +0000
+29e504d20e37fc0ccbb582c87334d2c64f5b9725|ceph::key : remove redundant Exec blocks|Mon, 21 Apr 2014 01:27:18 +0200|Wed, 7 May 2014 22:53:23 +0000
+7439be3bb82e81fd33e5f106b7ca61abbd6c21ea|ceph::key : update copyright notice|Mon, 21 Apr 2014 01:24:45 +0200|Wed, 7 May 2014 22:53:18 +0000
+d3b7bcd2ddf1310c0019d08c6464dfb818e0d629|ceph::key : exec touch is redundant with file|Sat, 19 Apr 2014 20:29:07 +0200|Wed, 7 May 2014 22:53:10 +0000
+63ccb72a6dca9fc31e41b32307f2b4e1e045a5c9|ceph::key : fix cap_{mon,osd,mds} prototype to match the documentation|Sat, 19 Apr 2014 14:48:41 +0200|Wed, 7 May 2014 22:52:59 +0000
+eb2c61157077695066233832af913c371fbf6d9f|ceph::key : add the cluster argument|Sun, 20 Apr 2014 18:53:29 +0200|Wed, 7 May 2014 22:39:54 +0000
+d5106442fee00dffc87f84e72ece081accc26e42|ceph::key : add keyring and id key injection arguments|Sun, 20 Apr 2014 00:40:35 +0200|Wed, 7 May 2014 22:26:08 +0000
+f02c508af3d4f8297718eafa06da5f05a647f49a|ceph::key : make shell verbose for clarity|Sun, 20 Apr 2014 00:37:29 +0200|Wed, 7 May 2014 22:10:26 +0000
+1a31ef60b5510256043a621bcf115960621c180f|reminder to run a single integration test|Sun, 20 Apr 2014 18:49:31 +0200|Sat, 3 May 2014 13:57:51 +0200
+e452e22c7ab16c8cbfaa9a42d2aea76a334b7392|ENV['MACHINES'] overrides [first second]|Sun, 20 Apr 2014 18:46:21 +0200|Thu, 24 Apr 2014 22:52:07 +0200
+be3cf7c9dab10c6b0154c962f6e5ff7a1c42073b|Merge "ENV['RELEASES'] overrides the [cuttlefish dumpling emperor]"|Thu, 24 Apr 2014 18:55:28 +0000|Thu, 24 Apr 2014 18:55:28 +0000
+405bb588c735f6ff150bc12e5b6e076cfc384ba3|add missing dependencies in Modulefile and Puppetfile|Tue, 22 Apr 2014 11:00:21 +0200|Thu, 24 Apr 2014 20:25:05 +0200
+2d23f3aab3ed5e5610a830fc7c45982c44c3b3d8|ENV['RELEASES'] overrides the [cuttlefish dumpling emperor]|Sun, 20 Apr 2014 00:22:18 +0200|Mon, 21 Apr 2014 17:51:07 +0200
+ad41fc4259585ebc2abf5a672b8623ab6e997a32|Fixes for ceph::key|Wed, 16 Apr 2014 13:37:27 +0100|Thu, 17 Apr 2014 09:27:01 +0100
+6c80833260a83a10ce0665c88b559ad7c05a928e|Merge "define ceph::key."|Tue, 8 Apr 2014 21:46:33 +0000|Tue, 8 Apr 2014 21:46:33 +0000
+2787b2165f6ea990f99aca54afec4ad621e61292|define ceph::key.|Tue, 18 Mar 2014 19:03:06 +1300|Wed, 9 Apr 2014 09:01:24 +1200
+6b499de1158b313f3829e321612d769379daf602|add gerritexec example in README|Thu, 13 Mar 2014 14:47:28 +0100|Tue, 18 Mar 2014 15:30:17 +0000
+1b0c333bd67eb67680b222d168b41336688ed83d|define ceph::osd|Mon, 17 Feb 2014 14:35:42 +0100|Fri, 14 Mar 2014 19:30:05 +0100
+a54bb9c7de52db32535d9fd7f316a0e18cb1bfcf|Merge "purge packages between integration tests"|Wed, 12 Mar 2014 18:58:43 +0000|Wed, 12 Mar 2014 18:58:43 +0000
+94e78cfb7f62cb3845b9ff1d6424f27341179d37|ensure => absent must remove the mon data dir|Fri, 7 Mar 2014 20:25:43 +0100|Tue, 11 Mar 2014 16:58:00 +0000
+0a1f8258683bab8a76c362db399d450bb6ef3efa|purge packages between integration tests|Fri, 7 Mar 2014 20:23:06 +0100|Tue, 11 Mar 2014 17:56:36 +0100
+368d5f202c61386bb9ec0ec17eade889cf249d3c|Merge "fix bugous variable substitutions in mon integration tests"|Tue, 11 Mar 2014 16:47:35 +0000|Tue, 11 Mar 2014 16:47:35 +0000
+6778b373100180f361284ada4a3b47a220674cd4|ceph::conf class wrapper for ceph_config|Sat, 28 Dec 2013 12:57:02 +0100|Tue, 11 Mar 2014 15:43:50 +0000
+88ea289e60500ba8a86922ddd4354a31c7a58835|fix bugous variable substitutions in mon integration tests|Fri, 7 Mar 2014 20:18:27 +0100|Tue, 11 Mar 2014 15:40:32 +0000
+17ce646164aaa65ef6a05b1716eb62f81e1203d3|remove rspec-system dependencies from Gemfile|Tue, 11 Mar 2014 08:54:54 +0100|Tue, 11 Mar 2014 08:54:54 +0100
+13522e16e2865f1e25d2e27b7c24a17864b2d231|attach disks when running integration tests|Mon, 17 Feb 2014 13:47:18 +0100|Wed, 26 Feb 2014 08:21:08 +0000
+2b074cb722d47b504d809b8c3234659cf5641bde|Merge "add the mon string in class names"|Tue, 25 Feb 2014 23:00:29 +0000|Tue, 25 Feb 2014 23:00:29 +0000
+a93f13a0bdc04571cef7f54e31607e3627f5665d|add the mon string in class names|Mon, 17 Feb 2014 14:00:36 +0100|Tue, 18 Feb 2014 15:08:12 +0100
+90e13f66d67a358f198088ab627caff44cd4f562|Added the content of the ceph Blueprint in the USECASES.md and linked it in the README.md|Tue, 4 Feb 2014 18:18:51 +0100|Thu, 6 Feb 2014 16:31:14 +0100
+1a20b806a9729aad9b5812131761a764b68d1224|correct option name in class ceph|Mon, 13 Jan 2014 20:03:37 +0800|Mon, 13 Jan 2014 20:03:37 +0800
+0738769cd383d03a607376378884807a7fc55712|Add use case to USECASES.md|Fri, 3 Jan 2014 22:34:57 +0100|Thu, 9 Jan 2014 21:37:31 +0100
+7731c8e030f716046e7c57199e23a187b049fcd3|use --show-config-value instead of --show-config|Sun, 29 Dec 2013 18:32:06 +0100|Mon, 30 Dec 2013 11:39:54 +0100
+5fe26e28ea55cef3fa03afa9a05b89bcae66573e|test mon address are now s/10.11.12.1/10.11.12.3/|Sat, 28 Dec 2013 00:21:44 +0100|Sat, 28 Dec 2013 00:21:44 +0100
+d91e6a300685e5f9370d606c07619702fadb96f3|spec:system - Change VM IP to fix virtualbox/vagrant error|Wed, 18 Dec 2013 17:49:42 -0500|Wed, 18 Dec 2013 17:52:33 -0500
+66d91a3d191475e5530ddad16bebe71a67863dcc|ceph::mon create or destroy monitors|Sun, 17 Nov 2013 20:28:18 +0100|Wed, 18 Dec 2013 22:18:31 +0100
+b99ec35ef8a806c28f08329097e12cee074bac83|Merge "Make ceph::repo ensurable + add support for emperor"|Wed, 18 Dec 2013 21:13:08 +0000|Wed, 18 Dec 2013 21:13:08 +0000
+0465e38326a450b2f008ca77df92406b6916d400|README.md: fix typo in link to USECASES.md|Tue, 17 Dec 2013 00:36:06 +0100|Tue, 17 Dec 2013 00:36:06 +0100
+707761548e7c72fe900729c7022bec9da6c2ac45|Make ceph::repo ensurable + add support for emperor|Thu, 28 Nov 2013 12:33:56 +0100|Sat, 14 Dec 2013 18:06:04 +0100
+991d95bb6a0ebb5750eef39577fbbb3ea49aa276|Merge "Add ceph::repo RedHat support"|Fri, 13 Dec 2013 14:51:18 +0000|Fri, 13 Dec 2013 14:51:18 +0000
+c8d7470b25cf19c7c4c434fc79a61489bed314b9|Adds use case to USECASES.md|Thu, 5 Dec 2013 13:34:52 +0100|Mon, 9 Dec 2013 18:14:02 +0100
+ce74ba9910b17b05d415b811fdb69faf3ea4c632|Update "README.md" and "USECASES.md" (I want to operate a production cluster)|Thu, 5 Dec 2013 13:34:52 +0100|Thu, 5 Dec 2013 13:35:50 +0100
+68ef474aab6c000eaf9f6ce29756dbbfe7a534cb|Add ceph::repo RedHat support|Fri, 25 Oct 2013 12:09:33 -0700|Mon, 2 Dec 2013 11:15:15 -0800
+6fa0eabfc51980e01c051c8934fe406d177d68a7|Merge "Change 4 space indent to 2"|Tue, 19 Nov 2013 00:42:46 +0000|Tue, 19 Nov 2013 00:42:46 +0000
+143e4501cf09e84fe1a236144521490a9236fed1|Change 4 space indent to 2|Mon, 18 Nov 2013 15:35:31 -0800|Mon, 18 Nov 2013 15:35:31 -0800
+582ba496ffcefb38a15dd7406a9ede67ee8dea90|Add more dashes to match title line length|Tue, 19 Nov 2013 00:12:02 +0800|Tue, 19 Nov 2013 00:12:02 +0800
+28642f9cdcbfb04f91970a5666c845b1be3b2c98|Fix error link|Mon, 18 Nov 2013 23:23:36 +0800|Mon, 18 Nov 2013 23:42:39 +0800
+1b884bdb3819b55bd6c2e265b529e28ead4f0c91|Introduction of ceph installation and configuration management|Wed, 13 Nov 2013 14:26:30 -0500|Fri, 15 Nov 2013 17:08:59 -0500
+9c8f1c466ebcbbe51e1c8efd88abb70cd0960483|Merge "ceph::repo integration tests"|Wed, 30 Oct 2013 17:14:15 +0000|Wed, 30 Oct 2013 17:14:15 +0000
+a7ce3d5f42ea3298f3b574512f514f1cee9806c8|development installation instructions|Sun, 27 Oct 2013 21:19:05 +0100|Tue, 29 Oct 2013 22:07:10 +0100
+65814957a5c9286ca4681a1b9981fa8612fbc944|ceph::repo integration tests|Mon, 28 Oct 2013 21:16:37 +0100|Mon, 28 Oct 2013 21:46:33 +0100
+7557d5e8ee4f66f56ddf10c8697768693ef52ca0|integration tests environment|Thu, 24 Oct 2013 11:14:54 +0200|Sun, 27 Oct 2013 13:44:11 +0100
+0383a1aea2c121e53cfa8efe4756f05fded22436|Add ceph_config ini helper|Mon, 21 Oct 2013 13:50:23 -0700|Fri, 25 Oct 2013 10:22:01 -0700
+c15e3fcc6fe3fa398f3f1fb06f5856f6f1fd6698|Add ceph::repo and it's unit tests to puppet-ceph|Wed, 23 Oct 2013 14:08:15 -0400|Wed, 23 Oct 2013 17:26:01 -0400
+66e7d71d15ad8e0a330dc83be60f0e2ddc5bd957|Add module's Puppetfile|Wed, 23 Oct 2013 11:03:09 -0400|Wed, 23 Oct 2013 11:41:36 -0400
+5d588f1d2180b3d2b081213a99a5d9ce3d57779a|project overview and initial README.md|Sat, 19 Oct 2013 11:14:15 +0200|Mon, 21 Oct 2013 22:11:35 +0200
+2183e90cd69416a788319b36f89618f680e0f1ed|Add project files|Sat, 19 Oct 2013 12:34:09 -0700|Sun, 20 Oct 2013 22:45:54 -0700
+c6b629b1cf58b785ffc78e48012ff34ecbc7ead4|Initial Commit.|Fri, 18 Oct 2013 21:29:43 -0400|Fri, 18 Oct 2013 21:29:43 -0400

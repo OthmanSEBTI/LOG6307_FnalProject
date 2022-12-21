@@ -1,0 +1,6 @@
+fixtures:
+  repositories:
+    stdlib: git://github.com/puppetlabs/puppetlabs-stdlib.git
+    pmlc_nova: https://github.com/mirantis/pmlc_nova.git
+  symlinks:
+    pmlc_nova: "#{source_dir}"

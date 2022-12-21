@@ -1,0 +1,294 @@
+# These tasks will be merged into deployment graph. Here you
+# can specify new tasks for any roles, even built-in ones.
+
+# Groups
+- id: primary-ceph-mon
+  type: group
+  role: [primary-ceph-mon]
+  required_for: [ceph-osd, deploy_end]
+  tasks: 
+    - fuel_pkgs
+    - hiera
+    - globals
+    - tools
+    - logging
+    - netconfig
+    - connectivity_tests
+    - hosts
+    - firewall
+    - reserved_ports
+    - ssl-add-trust-chain
+    - ceph-mon-hiera-override
+    - ceph-mon-firewall
+    - apache
+    - primary-cluster
+    - virtual_ips
+    - primary-cluster-haproxy
+    - updatedb
+  parameters:
+    strategy:
+      type: one_by_one
+
+- id: ceph-mon
+  type: group
+  role: [ceph-mon]
+  requires: [primary-ceph-mon]
+  tasks: 
+    - fuel_pkgs
+    - hiera
+    - globals
+    - tools
+    - logging
+    - netconfig
+    - connectivity_tests
+    - hosts
+    - firewall
+    - reserved_ports
+    - ssl-add-trust-chain
+    - ceph-mon-hiera-override
+    - ceph-mon-firewall
+    - apache
+    - cluster
+    - virtual_ips
+    - cluster-haproxy
+    - updatedb
+  parameters:
+    strategy:
+      type: parallel
+
+- id: ceph-mon-firewall
+  type: puppet
+  version: 2.1.0
+  groups: [primary-ceph-mon, ceph-mon]
+  required_for: [deploy_end, cluster, primary-cluster]
+  requires: [firewall]
+  reexecute_on: [deploy_changes]
+  condition:
+    yaql_exp: >
+      changedAny($.network_scheme, $.network_metadata,
+      ($.ironic.enabled and changed($.ironic.enabled)), $.roles, $.master_ip)
+  parameters:
+    puppet_manifest: ceph-mon-firewall.pp
+    puppet_modules: modules:/etc/puppet/modules
+    timeout: 3600
+  test_pre:
+    cmd: ruby /etc/puppet/modules/osnailyfacter/modular/firewall/firewall_pre.rb
+  test_post:
+    cmd: ruby /etc/puppet/modules/osnailyfacter/modular/firewall/firewall_post.rb
+
+# Override core tasks
+- id: openstack-haproxy-radosgw
+  type: puppet
+  version: 2.1.0
+  groups: [primary-ceph-mon, ceph-mon]
+  required_for: [deploy_end]
+  requires: [deploy_start, primary-cluster-haproxy, cluster-haproxy]
+  condition:
+    yaql_exp: >
+      changedAny($.storage, $.public_ssl, $.get('use_ssl'),
+      $.get('external_lb'),
+      $.network_metadata.nodes.values().where(
+        ('controller' in $.node_roles) or
+        ('primary-controller' in $.node_roles)),
+      $.network_metadata.vips, $.ironic)
+  cross-depends:
+    - name: /(primary-)?cluster-haproxy/
+  cross-depended-by:
+    - name: openstack-haproxy
+  parameters:
+    puppet_manifest: openstack-haproxy-radosgw.pp
+    puppet_modules: modules:/etc/puppet/modules
+    timeout: 300
+  test_pre:
+    cmd: ruby /etc/puppet/modules/osnailyfacter/modular/openstack-haproxy/openstack-haproxy_pre.rb
+  test_post:
+    cmd: ruby /etc/puppet/modules/osnailyfacter/modular/openstack-haproxy/openstack-haproxy-radosgw_post.rb
+
+- id: primary-ceph-radosgw
+  version: 2.1.0
+  type: puppet
+  groups: [primary-ceph-mon]
+  cross-depends:
+    - name: radosgw-keystone
+  cross-depended-by:
+    - name: top-role-ceph-osd
+  required_for: [deploy_end, controller_remaining_tasks]
+  requires: [apache, ceph-mon-task, primary-ceph-mon-task]
+  condition:
+    yaql_exp: &ceph_radosgw >
+      changedAny($.storage, $.keystone, $.network_metadata.vips,
+      $.get('external_lb'),
+      $.network_metadata.nodes.values().where(
+        ('controller' in $.node_roles) or
+        ('primary-controller' in $.node_roles)),
+      $.get('use_ssl'), ('primary-controller' in $.roles), $.network_scheme,
+      $.get('apache_ports'), $.get('use_syslog'),
+      $.get('syslog_log_facility_ceph'), $.get('syslog_log_level_ceph'))
+  parameters:
+    puppet_manifest: /etc/puppet/modules/osnailyfacter/modular/ceph/radosgw.pp
+    puppet_modules: /etc/puppet/modules
+    timeout: 3600
+  test_pre:
+    cmd: ruby /etc/puppet/modules/osnailyfacter/modular/ceph/radosgw_pre.rb
+  test_post:
+    cmd: ruby /etc/puppet/modules/osnailyfacter/modular/ceph/radosgw_post.rb
+
+- id: ceph-radosgw
+  type: puppet
+  version: 2.1.0
+  groups: [ceph-mon]
+  cross-depends:
+    - name: primary-ceph-radosgw
+    - name: radosgw-keystone
+  cross-depended-by:
+    - name: top-role-ceph-osd
+  required_for: [deploy_end, controller_remaining_tasks]
+  requires: [apache, ceph-mon, primary-ceph-mon]
+  condition:
+    yaql_exp: *ceph_radosgw
+  parameters:
+    puppet_manifest: /etc/puppet/modules/osnailyfacter/modular/ceph/radosgw.pp
+    puppet_modules: /etc/puppet/modules
+    timeout: 3600
+  test_pre:
+    cmd: ruby /etc/puppet/modules/osnailyfacter/modular/ceph/radosgw_pre.rb
+  test_post:
+    cmd: ruby /etc/puppet/modules/osnailyfacter/modular/ceph/radosgw_post.rb
+
+- id: radosgw-keystone
+  type: puppet
+  version: 2.1.0
+  groups: [primary-controller]
+  required_for: [primary-ceph-radosgw, ceph-radosgw]
+  requires: [primary-keystone, keystone]
+  condition:
+    yaql_exp: >
+      changedAny($.storage, $.network_metadata.vips,
+      $.get('region', 'RegionOne'), $.public_ssl, $.get('use_ssl'))
+  cross-depends:
+    - name: /(primary-)?keystone/
+      role: self
+  parameters:
+    puppet_manifest: radosgw_keystone.pp
+    puppet_modules: modules:/etc/puppet/modules
+    timeout: 1800
+
+- id: primary-ceph-mon-task
+  type: puppet
+  version: 2.1.0
+  groups: [primary-ceph-mon]
+  required_for: [deploy_end, controller_remaining_tasks]
+  requires: [openstack-haproxy-radosgw]
+  cross-depended-by:
+    - name: top-role-ceph-osd
+    - name: ceph-compute
+  cross-depends: 
+    - name: /(primary-)?openstack-controller/
+    - name: openstack-cinder
+  condition:
+    yaql_exp: &ceph_mon >
+      changedAny($.storage, $.quantum, $.network_metadata,
+      $.get('use_syslog'), $.get('syslog_log_facility_ceph'), $.keystone,
+      $.network_metadata.nodes.values().where(
+        ('controller' in $.node_roles) or
+        ('primary-controller' in $.node_roles)),
+      $.network_scheme, $.get('syslog_log_level_ceph'))
+  parameters:
+    puppet_manifest: mon.pp
+    puppet_modules: modules:/etc/puppet/modules
+    timeout: 3600
+
+- id: ceph-mon-task
+  type: puppet
+  version: 2.1.0
+  groups: [ceph-mon]
+  required_for: [deploy_end, controller_remaining_tasks]
+  requires: [openstack-haproxy-radosgw]
+  condition:
+    yaql_exp: *ceph_mon
+  cross-depended-by:
+    - name: top-role-ceph-osd
+    - name: ceph-compute
+  cross-depends:
+    - name: primary-ceph-mon-task
+    - name: /(primary-)?openstack-controller/
+    - name: openstack-cinder
+  parameters:
+    puppet_manifest: mon.pp
+    puppet_modules: modules:/etc/puppet/modules
+    timeout: 3600
+
+- id: enable_rados
+  type: puppet
+  version: 2.1.0
+  role: [primary-ceph-mon, ceph-mon]
+  condition:
+    yaql_exp: '$.storage.objects_ceph and changed($.storage.objects_ceph)'
+  requires: [post_deployment_start]
+  required_for: [upload_cirros, post_deployment_end]
+  cross-depended-by:
+    - name: upload_cirros
+  parameters:
+    puppet_manifest: enable_rados.pp
+    puppet_modules: modules:/etc/puppet/modules
+    timeout: 180
+
+# Override default parameters in Hiera
+- id: ceph-mon-hiera-override
+  type: puppet
+  version: 2.1.0
+  groups: ['/.*/']
+  required_for: [netconfig]
+  requires: [hiera, globals]
+  condition:
+    yaql_exp: *ceph_mon
+  parameters:
+    puppet_manifest: ceph-mon-hiera-override.pp
+    puppet_modules: /etc/puppet/modules:modules
+    timeout: 3600
+# Install ceph client as post deployment task on all controllers
+- id: ceph_client
+  type: puppet
+  version: 2.1.0
+  role: [primary-controller,controller]
+  requires: [post_deployment_start]
+  required_for: [ceph_create_pools, post_deployment_end]
+  condition:
+    yaql_exp: *ceph_mon
+  parameters:
+    puppet_manifest: ceph_client.pp
+    puppet_modules: modules:/etc/puppet/modules
+    timeout: 3600
+
+- id: ceph_hosts
+  type: puppet
+  version: 2.1.0
+  groups: ['/.*/']
+  requires: [deploy_start]
+  required_for: [deploy_end]
+  condition:
+    yaql_exp:
+      (changed($.public_ssl) and
+      ($.public_ssl.horizon or $.public_ssl.services)) or
+      (changed($.get('use_ssl')) and (len($.get('use_ssl', [])) > 0))
+  parameters:
+    puppet_manifest: hosts.pp
+    puppet_modules: modules:/etc/puppet/modules
+    timeout: 3600
+
+- id: ceph_ssl_keys
+  type: puppet
+  version: 2.1.0
+  groups: [primary-ceph-mon, ceph-mon]
+  requires: [firewall]
+  required_for: [deploy_end]
+  condition:
+    yaql_exp:
+      (($.public_ssl.horizon or $.public_ssl.services) and
+         $.public_ssl.cert_source = 'user_uploaded' and
+         changed($.get('standalone-ceph', {}).get('certificate'))) or
+       (changed($.get('use_ssl')) and len($.get('use_ssl', [])) > 0)
+  parameters:
+    puppet_manifest: ssl_keys_saving.pp
+    puppet_modules: modules:/etc/puppet/modules
+    timeout: 3600

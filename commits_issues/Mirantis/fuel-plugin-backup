@@ -1,0 +1,5 @@
+,sha,message,files,issues
+10,51ab2d4a00025c74c4c454d3f04ef81723f23833,Merge pull request #1 from iwwwwwwi/master,['ceph_backup/functions'],['#1']
+15,4d5a32260bea3a9404e4e5102d0f4af1523e9391,remove old resources from ceph and disk #2,"['project.sh.lck', 'project/func']",['#2']
+16,4970065d64c26706161dd315796f0a918545c751,remove old resources from ceph and disk #1,"['project.sh.lck', 'project/conf', 'project/func']",['#1']
+17,3867ca0634dd03df66064c66ac3f3c13e41a3810,cinder bug solution commit #1,"['project.sh.lck', 'project/conf', 'project/func']",['#1']

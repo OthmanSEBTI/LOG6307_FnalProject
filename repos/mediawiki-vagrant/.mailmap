@@ -1,0 +1,67 @@
+# Map author and committer names and email addresses to canonical real names
+# and email addresses.
+#
+# Use:
+#   git log --format='%aN <%aE>' | grep -v '\[IGNORE\]' | sort -f | uniq
+# to generate AUTHORS.xt
+#
+# See https://git-scm.com/docs/git-shortlog#_mapping_authors
+
+<aotto@wikimedia.org> <acotto@gmail.com>
+<bd808@wikimedia.org> <bd808@bd808.com>
+<gtisza@wikimedia.org> <tgr.huwiki@gmail.com>
+<legoktm@gmail.com> <legoktm@member.fsf.org>
+<mflaschen@wikimedia.org> <matthew.flaschen@gatech.edu>
+<ori@wikimedia.org> <ori.livneh@gmail.com>
+<smalyshev@wikimedia.org> <smalyshev@gmail.com>
+[IGNORE] <g@mzmcbride.com>
+[IGNORE] <jenkins-bot@gerrit.wikimedia.org>
+Adam Basso <abaso@wikimedia.org>
+Adam Roses Wight <adam.wight@wikimedia.de>
+Adam Roses Wight <adam.wight@wikimedia.de> <awight@wikimedia.org>
+Alex Monk <amonk@wikimedia.org> <alex@wikimedia.org>
+Amir E. Aharoni <amir.aharoni@mail.huji.ac.il>
+Amir Sarabadani <ladsgroup@gmail.com> <Ladsgroup@gmail.com>
+Andrew Haberlandt <crazy4sb@gmail.com>
+Andrew Otto <aotto@wikimedia.org>
+André Costa <lokal.profil@gmail.com>
+Arthur Richards <arichards@wikimedia.org>
+Bryan Davis <bd808@wikimedia.org> <bdavis@wikimedia.org>
+Chase Pettet <rush@wikimedia.org>
+Chris McMahon <cmcmahon@wikimedia.org>
+Chris Steipp <csteipp@wikimedia.org>
+Christine Stone <cstone@wikimedia.org>
+Dan Andreescu <dandreescu@wikimedia.org>
+Dan Duvall <dduvall@wikimedia.org>
+Dan Entous <d_entous@yahoo.com>
+Daniel Kinzler <dkinzler@wikimedia.org> <daniel.kinzler@wikimedia.de>
+Darian Anthony Patrick <dpatrick@wikimedia.org>
+David Causse <dcausse@wikimedia.org>
+Elliott Eggleston <ejegg@ejegg.com> <eeggleston@wikimedia.org>
+Erik Bernhardson <ebernhardson@wikimedia.org>
+Erik Bernhardson <ebernhardson@wikimedia.org> <ebernhardson@relforge-search.search.eqiad.wmflabs>
+Erik Möller <erik@wikimedia.org>
+Gergő Tisza <gtisza@wikimedia.org>
+Gilles Dubuc <gdubuc@wikimedia.org> <gilles@wikimedia.org>
+Grunny <mwgrunny@gmail.com>
+Jan Zerebecki <jan.wikimedia@zerebecki.de>
+Jeremy Baron <jeremy@tuxmachine.com>
+Jeroen De Dauw <jeroendedauw@gmail.com>
+Joel Sahleen <jsahleen@wikimedia.org>
+Jon Robson <jrobson@wikimedia.org> <jdlrobson@gmail.com>
+Katie Filbert <aude.wiki@gmail.com>
+Lucie Kaffee <lucie.kaffee@wikimedia.de>
+Mainframe98 <k.s.werf@hotmail.com>
+Marko Obrovac <mobrovac@wikimedia.org>
+Mhutti1 <mhutti1@gmail.com>
+Moritz Schubotz <wiki@physikerwelt.de>
+Nuria Ruiz <nuria@wikimedia.org>
+Petr Pchelko <ppchelko@wikimedia.org>
+Ori Livneh <ori@wikimedia.org>
+Rainer Rillke <rillke@wikipedia.de>
+Sage Ross <ragesoss@gmail.com>
+Sam Reed <reedy@wikimedia.org>
+Sau226 <sau226@tools.wmflabs.org> <thetrentus@outlook.com>
+Tyler Romeo <tylerromeo@gmail.com>
+Yuvi Panda <yuvipanda@gmail.com>
+Željko Filipin <zeljko.filipin@gmail.com>

@@ -1,0 +1,357 @@
+79128e48e669507f9f65cbaae0b728e67cfe1c81|Update master for stable/zed|Thu, 20 Oct 2022 11:03:33 +0000|Thu, 20 Oct 2022 11:03:33 +0000
+45515d1909f50cf919c51469502e93f4c5f1205e|Prepare Zed RC1|Wed, 5 Oct 2022 18:13:01 +0900|Wed, 5 Oct 2022 18:13:01 +0900
+d38a9a5e6035de0efd6186ea9287755d3a4e86f0|Enable memcached in acceptance tests|Wed, 7 Sep 2022 01:07:57 +0900|Wed, 7 Sep 2022 01:07:57 +0900
+d57cc885f1ed94cb81bec70df95f20fa4b3c94d4|Ensure [DEFAULT] ssl_insecure is removed by default|Wed, 27 Jul 2022 16:13:58 +0900|Wed, 27 Jul 2022 16:14:54 +0900
+7b2f0656a4579c491e865f7ef04e64eb1abb9ff7|Revert "CentOS 9: Disable unit tests dependent on puppet-postgresql"|Sun, 24 Jul 2022 01:06:48 +0900|Sun, 24 Jul 2022 01:07:09 +0900
+088f49c2cab5819ec1f9b5ba17abec07b3f75d0b|Merge "Add acceptance tests for config management resources"|Fri, 15 Jul 2022 19:43:07 +0000|Fri, 15 Jul 2022 19:43:07 +0000
+87e3112204841f98d4dfd013688c0a5cf4a08004|Fix wrong test description|Fri, 15 Jul 2022 11:41:03 +0900|Fri, 15 Jul 2022 11:41:03 +0900
+99c68313a72c7561ff7536c249798193cb30ccc7|Add acceptance tests for config management resources|Sat, 9 Jul 2022 22:23:59 +0900|Sun, 10 Jul 2022 12:50:56 +0900
+1a1b899275627d59a68264fa824a95b0451a59f2|Fix typos in parameter descriptions|Fri, 17 Jun 2022 22:38:50 +0530|Tue, 21 Jun 2022 12:49:04 +0530
+788fdf2bc2633feb0633a7551f81f10610c0ab60|Merge "Remove support for CentOS 8 Stream"|Wed, 1 Jun 2022 04:58:40 +0000|Wed, 1 Jun 2022 04:58:40 +0000
+9df17c9d6bc7470870f3a2eb88e9905c40fd504a|Remove support for CentOS 8 Stream|Fri, 27 May 2022 02:17:57 +0900|Fri, 27 May 2022 02:18:51 +0900
+c1b264f37ec1e29a6e27a47a7f3962839d868fa9|Remove deprecated use_tpool parameter|Tue, 17 May 2022 11:46:06 +0900|Tue, 17 May 2022 11:46:06 +0900
+e3f44b4ef56a8db870bfbbb8285534b7c21b86cd|Replace deprecated [DEFAULT] ssl_* parameters|Thu, 7 Apr 2022 11:19:04 +0900|Thu, 7 Apr 2022 11:28:40 +0900
+a72e6fe9496602d03807155dd7a1ee39a243323d|Deprecate support for [DEFAULT] ssl_insecure|Thu, 7 Apr 2022 11:13:46 +0900|Thu, 7 Apr 2022 11:28:31 +0900
+c551ede0d1783b067361dc62fc8da8a2ecddee28|Update master for stable/yoga|Tue, 5 Apr 2022 09:09:57 +0000|Tue, 5 Apr 2022 09:09:57 +0000
+c1ee6f950709f3b2f527d0ec748949f24497fa8e|setuptools: Disable auto discovery|Tue, 29 Mar 2022 10:38:08 +0200|Tue, 29 Mar 2022 10:38:16 +0200
+919816a0dc33aa5c3c362e3b25505cc4505d9182|Prepare Yoga RC1|Fri, 11 Mar 2022 21:43:44 +0900|Fri, 11 Mar 2022 21:43:44 +0900
+b33590874ddba53291cd6090b0c34b47bde022e2|remove unicode literal from code|Tue, 8 Mar 2022 09:10:17 +0900|Tue, 8 Mar 2022 09:10:17 +0900
+7abad2bd64eac98d9d853ab73fce34a2473b5b55|Merge "Deprecate use_tpool parameter"|Tue, 1 Mar 2022 23:57:18 +0000|Tue, 1 Mar 2022 23:57:18 +0000
+fd6e6d6eac7ee3e355681f769bd585782b628d29|Prepare Yoga M3|Thu, 24 Feb 2022 16:13:08 +0800|Sun, 27 Feb 2022 13:22:02 +0000
+7ccf2ba1a0797f22410ad616d38c3e5beceb01b9|Merge "Add CentOS/RHEL 9 to supported operating systems"|Thu, 24 Feb 2022 15:27:20 +0000|Thu, 24 Feb 2022 15:27:20 +0000
+1b1e2eb80943ffab29b7efc46f5907096806926c|Deprecate use_tpool parameter|Wed, 23 Feb 2022 20:45:36 +0900|Wed, 23 Feb 2022 20:45:36 +0900
+10fc41cd74ab968ebf3ff07099e5a8945d3cd2fc|Merge "Avoid hard-coding OS user/group in each manifest"|Tue, 22 Feb 2022 20:17:22 +0000|Tue, 22 Feb 2022 20:17:22 +0000
+e1e426df6a9bdcdc1ffae4345efb9132d13aff45|Add CentOS/RHEL 9 to supported operating systems|Wed, 23 Feb 2022 01:13:13 +0900|Wed, 23 Feb 2022 01:13:13 +0900
+aae2074b2eab5d8b92b9bd56a8414c571080261d|Merge "Add socket keepalive options for the pymemcache backend"|Sun, 20 Feb 2022 11:52:21 +0000|Sun, 20 Feb 2022 11:52:21 +0000
+0df645b2b5817aec88125f0dbcf3d94dd30fb7b9|Merge "Add HashClient retry options for the dogpile.cache backend"|Sun, 20 Feb 2022 11:52:18 +0000|Sun, 20 Feb 2022 11:52:18 +0000
+a63d909d6d2db5d50d95ea63e768c5699d6e0a78|Merge "Add cache client retry options for the pymemcache backend"|Sun, 20 Feb 2022 11:52:16 +0000|Sun, 20 Feb 2022 11:52:16 +0000
+497777cd40b12013357a3cc5e64b80eab2dbcc4a|Merge "Do not define service resource when service management is disabled"|Sun, 20 Feb 2022 11:23:41 +0000|Sun, 20 Feb 2022 11:23:41 +0000
+5cab8110a43628206a7e686e95484b7cceb11603|Avoid hard-coding OS user/group in each manifest|Sun, 20 Feb 2022 19:24:54 +0900|Sun, 20 Feb 2022 19:24:54 +0900
+39c65edecb86d465f6d4bdb0fdb70417f5486984|Merge "Remove deprecated database_min_pool_size"|Sun, 20 Feb 2022 06:34:17 +0000|Sun, 20 Feb 2022 06:34:17 +0000
+d6327e99d786fc923fad4184bb3774060050f22d|Add HashClient retry options for the dogpile.cache backend|Wed, 16 Feb 2022 11:40:46 +0900|Wed, 16 Feb 2022 11:40:58 +0900
+f2678624ec5f8eced8d36a4f257cc7d02e51dfe7|Add cache client retry options for the pymemcache backend|Wed, 16 Feb 2022 11:38:53 +0900|Wed, 16 Feb 2022 11:39:06 +0900
+1ad727890c84743805737b8fbb3ae2b20eaa30b5|Do not define service resource when service management is disabled|Wed, 16 Feb 2022 11:08:12 +0900|Wed, 16 Feb 2022 11:08:12 +0900
+c12186f850af136659ce0f4c0d82dfcebca16385|CentOS 9: Disable unit tests dependent on puppet-postgresql|Wed, 16 Feb 2022 00:07:26 +0900|Wed, 16 Feb 2022 00:21:46 +0900
+31e5476256f3d71b68cb94dd80dcb5eb5cc52661|Merge "Add support for MultiStrOpt"|Tue, 15 Feb 2022 07:12:22 +0000|Tue, 15 Feb 2022 07:12:22 +0000
+6b8356112ba5cfe68600acbdde53ccc09bc10c45|Allow customizing separator for api-paste.ini|Sun, 13 Feb 2022 01:35:54 +0900|Sun, 13 Feb 2022 01:35:54 +0900
+6cc72a4ed6aee8f16ce3b753f64db44abb4ba539|Add support for MultiStrOpt|Sun, 13 Feb 2022 00:19:12 +0900|Sun, 13 Feb 2022 01:26:10 +0900
+592f53415fdc1b291ed97844272eb0f003dcdfba|Remove deprecated database_min_pool_size|Tue, 8 Feb 2022 22:34:55 +0900|Tue, 8 Feb 2022 22:34:55 +0900
+a0c29e242028478622bd72f78deac5d41f20b06d|Simplify definition to ensure keystone resource creation|Mon, 7 Feb 2022 00:04:21 +0900|Mon, 7 Feb 2022 00:04:21 +0900
+95519fc3a9ac6230797322e99968ff73df72999d|Merge "Fix duplicate (Optional) in parameter description"|Thu, 27 Jan 2022 18:16:56 +0000|Thu, 27 Jan 2022 18:16:56 +0000
+3e13dd80d669351ad018c25e08566d1dd610e481|Add socket keepalive options for the pymemcache backend|Thu, 27 Jan 2022 20:34:41 +0900|Thu, 27 Jan 2022 20:40:32 +0900
+9242f092543d199c172831e72678599d25bea596|Fix duplicate (Optional) in parameter description|Thu, 27 Jan 2022 20:35:59 +0900|Thu, 27 Jan 2022 20:35:59 +0900
+066c29cc6d52c79ad3a9f13652c6efe6e278f2b4|Merge "Fix wrong service user name in parameter description"|Wed, 26 Jan 2022 16:13:15 +0000|Wed, 26 Jan 2022 16:13:15 +0000
+4e3438aa941f89dfd0c08844b02003255af3dcbc|Merge "Remove validations of service_identity parameters"|Tue, 25 Jan 2022 10:52:28 +0000|Tue, 25 Jan 2022 10:52:28 +0000
+5cd288ac3ee635bd7e5b92373803648b44e1173a|Fix wrong service user name in parameter description|Tue, 25 Jan 2022 10:55:49 +0900|Tue, 25 Jan 2022 10:55:49 +0900
+630380ce90bcabfb3a9a2385090e7789d2b4af7a|Accept system scope credentials for Keystone API request|Mon, 24 Jan 2022 11:28:36 +0900|Mon, 24 Jan 2022 13:39:57 +0900
+67a614a46e28e6920b0b0d3aa18e80a540dd625d|Do not test authtoken parameters directly|Mon, 24 Jan 2022 11:30:06 +0900|Mon, 24 Jan 2022 11:35:53 +0900
+67a242d693ed287157bcab2289305ec1e592c975|Remove validations of service_identity parameters|Mon, 24 Jan 2022 11:21:14 +0900|Mon, 24 Jan 2022 11:21:14 +0900
+299e99ff6d9b05688d893af3ebb28a74e8e27145|Merge "Support configuring oslo.cache to cache metadata"|Fri, 7 Jan 2022 23:40:57 +0000|Fri, 7 Jan 2022 23:40:57 +0000
+1dc8a708d9e7382a54b3c4cfde234c13496bf44b|Prepare Yoga M2|Wed, 1 Dec 2021 14:42:52 +0800|Fri, 7 Jan 2022 14:18:49 +0000
+c683b00904764d2500020511f742d7949cc355e1|Support configuring oslo.cache to cache metadata|Mon, 15 Nov 2021 22:33:39 +0900|Mon, 3 Jan 2022 11:23:42 +0900
+5e83610448bfc8ca6090bcaa8ff46746b224362c|Load libraries in a single place|Mon, 27 Dec 2021 10:35:04 +0900|Mon, 27 Dec 2021 10:35:04 +0900
+5e42a9d2f4feee99fc80f61020acfe85ee251169|Merge "Add missing dependency of ec2api_api_paste_ini"|Wed, 8 Dec 2021 02:20:14 +0000|Wed, 8 Dec 2021 02:20:14 +0000
+3fa4e763997752b829aab7f7ca62c7b411154c69|Fix dependencies related to openstacklib::policy|Mon, 29 Nov 2021 09:34:01 +0900|Mon, 29 Nov 2021 09:34:01 +0900
+7f928e6cc1b077f0aa833ddd2ae3fbb53e8521a5|Add missing dependency of ec2api_api_paste_ini|Wed, 24 Nov 2021 09:50:12 +0900|Wed, 24 Nov 2021 09:50:32 +0900
+036b6094fa94391549f7b1b5404b6212d17d1e99|Bump puppetlabs-inifile|Tue, 2 Nov 2021 13:01:43 +0900|Tue, 2 Nov 2021 13:01:43 +0900
+fb29350e3cc4c654f57b784c654117843854fe40|Bump version for the start of Yoga|Mon, 11 Oct 2021 11:20:54 +0900|Mon, 11 Oct 2021 11:20:54 +0900
+59ec46cb2d2dee0a134b4b4a28ec05ae822396fd|Update master for stable/xena|Thu, 7 Oct 2021 08:22:16 +0000|Thu, 7 Oct 2021 08:22:16 +0000
+f74f33e5d78a4c01e8580c9558b7d8a5b5488afc|Merge "Do not test detail of keystone::resource::service_identity"|Sat, 2 Oct 2021 11:38:47 +0000|Sat, 2 Oct 2021 11:38:47 +0000
+04a894347823c3802da76b0f55a32cd518f8c254|Add information technology in the setup.cfg|Fri, 1 Oct 2021 06:54:49 +0800|Fri, 1 Oct 2021 06:54:49 +0800
+65da654198f239f9af8a3c1b1654cf8edc08b2b5|Add license information in the setup.cfg|Thu, 30 Sep 2021 16:48:13 +0800|Thu, 30 Sep 2021 16:48:13 +0800
+4bc98cfab1c2f68570abe7717ce9197dc9595a77|Delete useless code for setup.py|Thu, 30 Sep 2021 13:38:33 +0800|Thu, 30 Sep 2021 13:38:33 +0800
+4eaa0b9ccab988f9611f041a61af3930bb029063|Merge "Stop configuring install_command in tox."|Wed, 29 Sep 2021 12:02:02 +0000|Wed, 29 Sep 2021 12:02:02 +0000
+15a38faa6f5bb3e1b99757aada307069f105a978|Merge "Fix pbr>=2.0.0 for setup.py"|Wed, 29 Sep 2021 09:11:04 +0000|Wed, 29 Sep 2021 09:11:04 +0000
+1fb1dd4de9973abb1683ac2e7ac162746b53f108|Stop configuring install_command in tox.|Wed, 29 Sep 2021 18:00:19 +0900|Wed, 29 Sep 2021 18:05:13 +0900
+b29af94cfb8181488028c77005f1ba48696fb4e9|Fix pbr>=2.0.0 for setup.py|Wed, 29 Sep 2021 16:37:10 +0800|Wed, 29 Sep 2021 16:37:10 +0800
+11fd8551c00841731d42a12e41a8d4b66ed0441a|Update openstackdocstheme to the latest version|Wed, 29 Sep 2021 16:06:50 +0800|Wed, 29 Sep 2021 16:06:50 +0800
+ed337c9942affefbb621c70cc3141762471f6497|Do not test detail of keystone::resource::service_identity|Wed, 29 Sep 2021 00:25:50 +0900|Wed, 29 Sep 2021 00:25:50 +0900
+57c00b209869f1585d96928881d4d3cbde5a4992|Update reno to the latest version|Tue, 28 Sep 2021 17:14:35 +0800|Tue, 28 Sep 2021 17:14:35 +0800
+8d11a36bfc419256341a6f2399e57745dbd1d5fd|metadata.json: debian 11|Tue, 28 Sep 2021 09:20:36 +0800|Tue, 28 Sep 2021 09:20:36 +0800
+55b633fb6950ac6d2094846cfd374a9318162d8e|Fix stdlib version in metadata|Thu, 23 Sep 2021 19:44:22 +0800|Thu, 23 Sep 2021 19:44:22 +0800
+861159ff83609d187712cce74945199986a04f5e|Merge "Allow purging policy files"|Mon, 20 Sep 2021 08:44:36 +0000|Mon, 20 Sep 2021 08:44:36 +0000
+fb063d97f95232df1faaaa8475daeaac7b9d3b9d|Prepare Xena RC1|Fri, 17 Sep 2021 17:36:09 +0800|Fri, 17 Sep 2021 17:36:09 +0800
+4a068c6787f33db2876903ed14d63b777a32dcee|Add watch_log_file option|Tue, 14 Sep 2021 16:02:08 +0800|Tue, 14 Sep 2021 16:02:08 +0800
+a21dfcd1771a5ff0dd0bdc43ada3f97f66f1d01a|Prepare Xena M3|Mon, 6 Sep 2021 15:32:07 +0800|Mon, 6 Sep 2021 15:32:07 +0800
+89124fb85d08f1caa4d1900194d86b64dbec1954|Allow purging policy files|Sat, 4 Sep 2021 21:50:37 +0900|Sat, 4 Sep 2021 21:56:38 +0900
+a5cdca71ec6e6aed978d6fce51e69f713a50c6e4|Support Puppet 7|Mon, 16 Aug 2021 17:59:34 +0900|Mon, 16 Aug 2021 17:59:34 +0900
+70e1fa36f69cce759844112800b7e4c9b090e510|Prepare Xena M2|Mon, 26 Jul 2021 19:03:46 +0800|Mon, 26 Jul 2021 19:03:46 +0800
+398a77598a223a523ae2d8d2e4df3046c9c65f95|Drop Fedora support|Sat, 12 Jun 2021 12:49:14 +0900|Sat, 12 Jun 2021 12:49:14 +0900
+a00343480c3668ebf938b674c22e8eee4dd8ee21|Merge "Set fixture paths for unit tests"|Thu, 3 Jun 2021 02:02:11 +0000|Thu, 3 Jun 2021 02:02:11 +0000
+0d07da09818b31f4e7babeb7bea44df8f2ba1053|Set fixture paths for unit tests|Wed, 2 Jun 2021 13:56:50 +0900|Wed, 2 Jun 2021 13:56:55 +0900
+0fb38d0dc65cb08050c0f9dc7285dc79ab639f74|Prepare Xena M1|Thu, 27 May 2021 15:50:27 +0800|Thu, 27 May 2021 15:50:27 +0800
+2484e981bf40fe6ecab3d01ba97571b1149c1180|setup.cfg: Replace dashes with underscores|Tue, 11 May 2021 18:26:51 +0900|Tue, 11 May 2021 09:55:30 +0000
+443bcebe4b307a157f43dd5fdc058bff2a24d321|Fix lint errors with the latest lint packages|Tue, 11 May 2021 18:51:48 +0900|Tue, 11 May 2021 18:51:48 +0900
+549a20bff271f3bf1a246621a93cf42a46f093ee|Bump version for the start of Xena|Thu, 29 Apr 2021 09:38:14 +0800|Thu, 29 Apr 2021 09:38:14 +0800
+a6d3223756a6a71450cc53ea108b2958dd686bf8|Merge "Bump dependency in metadata.json"|Tue, 13 Apr 2021 11:05:14 +0000|Tue, 13 Apr 2021 11:05:14 +0000
+64ce5ad2f0426343d7b1b60f767d54ed10989581|Bump dependency in metadata.json|Thu, 8 Apr 2021 20:57:11 +0200|Thu, 8 Apr 2021 20:57:11 +0200
+1d76a86f1470214aa8630a625e3b93db4b339ed6|Update master for stable/wallaby|Thu, 1 Apr 2021 09:15:23 +0000|Thu, 1 Apr 2021 09:15:23 +0000
+842938e20814fd2f3389b0b52f82dceef3477e1e|Update sphinx to the latest version|Sat, 27 Mar 2021 15:31:56 +0800|Sat, 27 Mar 2021 15:31:56 +0800
+d6c0484533f36198f0fa46d4c8db38f177d46a87|Prepare Wallaby RC1|Fri, 26 Mar 2021 11:24:16 +0800|Fri, 26 Mar 2021 11:24:16 +0800
+a18da3e7eac22c344a4b8262a129d9c536c4ba35|Merge "Add support for oslo_policy/enforce_new_defaults"|Thu, 25 Mar 2021 03:04:12 +0000|Thu, 25 Mar 2021 03:04:12 +0000
+5d21dbbdcb4716f5cbf1b3e963fdf95f5e15c37b|Merge "Fix a unit test error"|Wed, 24 Mar 2021 15:06:03 +0000|Wed, 24 Mar 2021 15:06:03 +0000
+aa9f9c9a40ee935690d3e023e2b064fe57c845f6|Add support for oslo_policy/enforce_new_defaults|Wed, 24 Mar 2021 16:31:20 +0900|Wed, 24 Mar 2021 11:25:28 +0000
+b4769932b4da7a4c14b876f035c03a66ff6a8bb5|Fix a unit test error|Wed, 24 Mar 2021 19:48:26 +0900|Wed, 24 Mar 2021 19:50:13 +0900
+3e52369c72708c8d594753961d7c47508eda4e99|Update supported Ubuntu version to Focal|Tue, 23 Mar 2021 21:33:03 +0900|Tue, 23 Mar 2021 21:33:03 +0900
+5804bbeccf1c11061fe70b8b33d7dcfaf0a8d37d|Add support for the oslo_policy/enforce_scope parameter|Sun, 21 Mar 2021 10:53:36 +0900|Sun, 21 Mar 2021 10:53:36 +0900
+43792a066e9e456eda602acc50f553464074eaf9|Prepare Wallaby M3|Fri, 12 Mar 2021 14:35:43 +0800|Fri, 12 Mar 2021 14:35:43 +0800
+2d2c4b6599dd1ae1fc2e43e8e91f01df23ee8c2c|Prepare Wallaby M2|Tue, 19 Jan 2021 11:19:34 +0800|Tue, 19 Jan 2021 11:19:34 +0800
+3ec9c0f470261f9d61c7db0f776f03f9e6124f27|Use yaml instead of json for policy file|Tue, 29 Dec 2020 16:44:01 +0900|Thu, 7 Jan 2021 23:19:26 +0000
+8017e7dec9ebb0e2eb6abd376dbeb7a812b1b960|Prepare Wallaby M1|Fri, 4 Dec 2020 13:31:37 +0800|Fri, 4 Dec 2020 13:31:37 +0800
+16eff399ad65a4e1d6c429cd343c79185a03f11b|Allow db sync timeouts to be configurable|Mon, 23 Nov 2020 09:27:52 +0800|Mon, 23 Nov 2020 09:27:52 +0800
+c17a1d703e938976028d14f63a365f57e7886152|Replace deprecated UPPER_CONSTRAINTS_FILE variable|Wed, 11 Nov 2020 09:08:35 +0800|Wed, 11 Nov 2020 09:08:35 +0800
+0380d02b47079faae0ff82c283f0c7deb478af78|Merge "Add support for the keystone_authtoken/service_type parameter"|Thu, 5 Nov 2020 10:23:42 +0000|Thu, 5 Nov 2020 10:23:42 +0000
+367692386319544a3c0d88951811b9b41518a946|Add support for the keystone_authtoken/service_type parameter|Tue, 3 Nov 2020 17:48:51 +0900|Tue, 3 Nov 2020 17:48:51 +0900
+40e95f09bd2d590d31c060204fb79d7a199c6002|Fix outdated files|Wed, 28 Oct 2020 10:40:09 +0800|Wed, 28 Oct 2020 10:40:09 +0800
+927bacc743a936498444355581d12e9b534d6c00|Bump version for the start of Wallaby|Thu, 15 Oct 2020 09:42:49 +0800|Thu, 15 Oct 2020 09:42:49 +0800
+f49e8c82a12215c158129d90dfb7fdec06b56984|Update master for stable/victoria|Thu, 8 Oct 2020 14:38:45 +0000|Thu, 8 Oct 2020 14:38:45 +0000
+3b040b78e7ba359e1088c5bbd0aff6d4447f6bdb|Prepare Victoria RC1|Thu, 24 Sep 2020 10:48:54 +0800|Thu, 24 Sep 2020 10:48:54 +0800
+776185bf9b1407c7c814b499905172ef111be621|Set openstackdocs_auto_name to use 'project' as name|Wed, 16 Sep 2020 11:05:05 +0800|Wed, 16 Sep 2020 11:05:05 +0800
+e25fb37e38053b25fee01ea34f8af35895beb11b|Merge "Add Puppet Litmus"|Thu, 10 Sep 2020 02:21:15 +0000|Thu, 10 Sep 2020 02:21:15 +0000
+c19ec1d06beb92af5b09b77662c1345ced288c87|Prepare Victoria M3|Tue, 8 Sep 2020 09:18:03 +0800|Tue, 8 Sep 2020 09:18:03 +0800
+fd9f32b1dc13ba5bf8b022d507ba9560e4e13e71|Add Puppet Litmus|Mon, 31 Aug 2020 21:17:17 +0200|Mon, 31 Aug 2020 21:17:17 +0200
+71ee705b29a31d387cb1f9c4b0f5b808fce89005|Merge "Do not validate database_connection format"|Mon, 31 Aug 2020 15:26:43 +0000|Mon, 31 Aug 2020 15:26:43 +0000
+80e4d86e6f7b56a420c7fed9519559728f4129a0|Use openstack_spec_helper from zuul checkout|Sun, 30 Aug 2020 22:55:07 +0200|Sun, 30 Aug 2020 22:55:07 +0200
+d203231710374f2e7cb484081930c0de9b3a83a8|Do not validate database_connection format|Mon, 31 Aug 2020 00:03:42 +0900|Mon, 31 Aug 2020 00:03:42 +0900
+1064210fc947996cd653fb774dbf84b85d8840cb|Merge "Add mysql_enable_ndb option"|Thu, 27 Aug 2020 13:44:48 +0000|Thu, 27 Aug 2020 13:44:48 +0000
+a9ab91e56ba53f830b0bd0d8f40ce5f4df234db1|Merge "Use common class to manage apache service in beaker job"|Thu, 27 Aug 2020 08:27:53 +0000|Thu, 27 Aug 2020 08:27:53 +0000
+f9d3b551385aca1f32a410ac6507c42aacd4d48c|Use common class to manage apache service in beaker job|Thu, 27 Aug 2020 12:01:04 +0900|Thu, 27 Aug 2020 12:01:04 +0900
+fe9d2f513f961c0155fee47e27cf62571561f20c|Add mysql_enable_ndb option|Wed, 26 Aug 2020 11:53:17 +0800|Wed, 26 Aug 2020 11:55:47 +0800
+69e3ae15e4248c50aacf5e10c2becddb11c5508d|Add service_token_roles for keystone authtoken config|Thu, 20 Aug 2020 10:41:27 +0800|Thu, 20 Aug 2020 10:41:27 +0800
+42c2aacff32a3aee118a5f8f9c72211651a9fd59|Prepare Victoria M2|Thu, 30 Jul 2020 13:35:28 +0800|Thu, 30 Jul 2020 13:35:28 +0800
+8610a7e5c4a906c91cf595174200ddff6e1ab1ba|Add support for the interface parameter in authtoken middleware|Thu, 16 Jul 2020 10:35:58 +1000|Thu, 16 Jul 2020 10:40:24 +1000
+927d9c882814e86c5f971447f053177748015809|Prepare Victoria M1|Fri, 19 Jun 2020 10:38:54 +0800|Fri, 19 Jun 2020 10:38:54 +0800
+6d95ad25e20392a69917255eb916719caa1ec75f|Switch to newer openstackdocstheme and reno versions|Tue, 2 Jun 2020 14:36:47 +0200|Tue, 2 Jun 2020 14:36:51 +0200
+272d6533be2f89737857728bca930f9789987066|Update Puppet requirement to >= 6.0.0|Sat, 30 May 2020 09:47:14 +0200|Sat, 30 May 2020 09:47:14 +0200
+123c7add08ba6186caff1891517469d12d5a789c|Merge "Remove password hash generation in each puppet modules"|Thu, 21 May 2020 01:57:26 +0000|Thu, 21 May 2020 01:57:26 +0000
+52a13005666b440601bd0aef768c61664dac4f8f|Remove password hash generation in each puppet modules|Tue, 19 May 2020 22:45:44 +0900|Wed, 20 May 2020 08:37:35 +0900
+29e42fdfb62fa29c270fd9743ec55e71afb3c3c0|Bump version for the start of Victoria|Thu, 14 May 2020 12:24:27 -0600|Thu, 14 May 2020 12:25:44 -0600
+7c565292f49482c1bcf4529ca94de34e8bc6c436|Merge "[ussuri][goal] Add CONTRIBUTING.rst"|Tue, 12 May 2020 12:44:04 +0000|Tue, 12 May 2020 12:44:04 +0000
+5759947504da099b32d55fc14239f6d1b803c8ff|Bump reno to 2.5.0|Tue, 12 May 2020 10:50:06 +0800|Tue, 12 May 2020 10:50:06 +0800
+ee7c812c763f3a5c89f67b3a0086d304efe4b993|Merge "Add CentOS8 to nodesets"|Mon, 11 May 2020 22:38:58 +0000|Mon, 11 May 2020 22:38:58 +0000
+bd0d94f880a255352543afd9ecb8e3b1aa66bfd9|[ussuri][goal] Add CONTRIBUTING.rst|Sun, 10 May 2020 22:35:23 +0200|Sun, 10 May 2020 22:35:23 +0200
+6aaadbe70e292f627018309b4c416136f9658572|Add CentOS8 to nodesets|Sun, 10 May 2020 21:44:26 +0900|Sun, 10 May 2020 21:44:26 +0900
+9098cf80a6a66196b42e8f74f0290c89cff566bd|Use anchor to require necessary packages|Mon, 4 May 2020 14:59:18 +0900|Mon, 4 May 2020 14:59:18 +0900
+b2a061c380544574cd9dd15c544e6d3672a917ae|Bump openstackdocstheme to 1.30.0|Thu, 30 Apr 2020 15:28:37 +0800|Thu, 30 Apr 2020 15:28:37 +0800
+aa3ae6c6e055c3c9273cf79304741ce352c1442b|Change rpsec to rspec|Thu, 30 Apr 2020 13:24:45 +0800|Thu, 30 Apr 2020 13:24:45 +0800
+d2459e5c17293ab6ba0a90b677c98dfb626ea416|Update master for stable/ussuri|Tue, 28 Apr 2020 14:51:02 +0000|Tue, 28 Apr 2020 14:51:02 +0000
+0e1ea978f7489ce36452f0a0453c883a4f9e5a53|Prepare Ussuri RC1|Fri, 24 Apr 2020 14:23:09 +0800|Fri, 24 Apr 2020 14:23:09 +0800
+b8046703dbbf55469b4ebc5175072ac582faa5f4|Prepare Ussuri M3 again|Mon, 13 Apr 2020 23:58:26 +0900|Mon, 13 Apr 2020 23:58:26 +0900
+101982213b432bd9f904a55d52131efe8ad314cd|Resolve duplicated requirement names in metadata|Mon, 13 Apr 2020 22:45:13 +0900|Mon, 13 Apr 2020 22:45:13 +0900
+936d51a84637e979fd311c3c7a117eafee53d0f2|Prepare Ussuri M3|Tue, 7 Apr 2020 09:21:15 +0800|Tue, 7 Apr 2020 09:21:15 +0800
+7bcd8e99cf641710912038cc8adae6bc2d67b49e|Merge "Add CentOS 8 and Puppet 6 in metadata"|Tue, 31 Mar 2020 14:43:03 +0000|Tue, 31 Mar 2020 14:43:04 +0000
+2ba24e2d8373a0ec226f4a095203a440d9cb8d5f|Update mysql module to <11.0.0|Mon, 30 Mar 2020 10:00:50 +0200|Mon, 30 Mar 2020 10:00:50 +0200
+0929e8e3c8129a9e72e78b5160d9c150a4da3f68|Add CentOS 8 and Puppet 6 in metadata|Mon, 30 Mar 2020 09:21:05 +0200|Mon, 30 Mar 2020 07:45:55 +0000
+57f76bd65b2ddade16509d2bd6608197e8fd2445|Deprecate min_pool_size option|Wed, 25 Mar 2020 14:53:40 +0800|Wed, 25 Mar 2020 14:53:40 +0800
+14ebaa52f26ab3da0705f9e4ee9e0204bc6f13a7|Remove idle_timeout option|Mon, 23 Mar 2020 14:45:48 +0800|Mon, 23 Mar 2020 14:45:48 +0800
+0622d02b21dd3ecee6a5d646fc6c9a550a0d5119|[ussuri][goal] Cleanup for python 2.7 drop|Sat, 15 Feb 2020 18:58:00 -0600|Sat, 15 Feb 2020 18:59:04 -0600
+4d7fde5fb5c11c8ec79740ac726bf3510a8b5e9f|Prepare Ussuri M2|Thu, 13 Feb 2020 14:21:29 +0800|Thu, 13 Feb 2020 14:21:29 +0800
+d5dc8da7a015e1290b246a4f4af3e2ba9009d190|Fix stdlib version in metadata|Wed, 11 Dec 2019 11:53:03 +0800|Wed, 11 Dec 2019 11:53:03 +0800
+5e1956fe26a5754787f26590d155f2d1a9e49717|Prepare Ussuri M1|Tue, 10 Dec 2019 14:24:48 +0800|Tue, 10 Dec 2019 14:24:48 +0800
+b32c33cb8656144daad156e4946760865460d5a4|Convert all class usage to relative names|Sun, 8 Dec 2019 23:04:51 +0100|Sun, 8 Dec 2019 23:04:51 +0100
+25c7851220d27762bb335a20af57ac6222e02dc4|Update master for stable/train|Fri, 4 Oct 2019 13:24:52 +0000|Fri, 4 Oct 2019 13:24:52 +0000
+b2b6f419884c6dc51cfb06a0977f9d9b90eb96f3|Merge "Update the constraints url"|Fri, 27 Sep 2019 03:00:09 +0000|Fri, 27 Sep 2019 03:00:09 +0000
+df7f759fed18200688314bb3e96dd50a0ebd46f0|Update the constraints url|Thu, 26 Sep 2019 11:34:54 +0800|Thu, 26 Sep 2019 11:35:25 +0800
+1e0c681498c54e9020edfb1b4d3c52181166975d|Prepare Train RC1|Wed, 25 Sep 2019 13:45:43 +0800|Wed, 25 Sep 2019 13:45:43 +0800
+70097b2294c11450c086ff91e5804d4245c21356|Prepare Train M4|Thu, 5 Sep 2019 09:04:49 +0800|Thu, 5 Sep 2019 09:04:49 +0800
+11fdf1b3fd6a13728af313991270998c2e9575af|Remove deprecated pki related options|Thu, 15 Aug 2019 11:51:37 +0800|Thu, 15 Aug 2019 11:51:37 +0800
+7967ced268d51ad5a1196b745948b68f1f77fadb|Bump the openstackdocstheme extension to 1.20|Tue, 13 Aug 2019 11:29:06 +0800|Tue, 13 Aug 2019 11:29:06 +0800
+70aa7cb339311366e870e5ab24d1a902674a1096|Sync Sphinx requirement|Wed, 7 Aug 2019 09:10:08 +0800|Wed, 7 Aug 2019 09:10:08 +0800
+8df2de106536dae9e5b3282d64efb4c9dce70763|Prepare Train M3|Wed, 24 Jul 2019 16:19:34 +0800|Wed, 24 Jul 2019 16:19:34 +0800
+8e14a18c499b7b071e8807541fb2b64170c379ff|Prepare Train M2|Wed, 5 Jun 2019 09:40:17 +0800|Mon, 10 Jun 2019 10:02:27 +0800
+43bd2960d28130355b513af221cb16bfe767e6c3|Deprecate idle_timeout option|Sun, 28 Apr 2019 15:00:07 +0800|Sun, 28 Apr 2019 15:00:07 +0800
+f1a2ba88598a9ceef64dc9026c82270f241f3d1c|Move to opendev|Sun, 21 Apr 2019 14:44:48 +0800|Sun, 21 Apr 2019 14:44:48 +0800
+09ebbb9767843e372abb239ecbea89cc5b818c4d|Fix Repository|Sun, 21 Apr 2019 12:59:08 +0800|Sun, 21 Apr 2019 12:59:08 +0800
+d799289ce93ec97124721a3c599c3da7cdca20ec|Replace git.openstack.org with opendev.org/openstack|Sun, 21 Apr 2019 11:50:27 +0800|Sun, 21 Apr 2019 11:50:27 +0800
+4ddfd8cdcb09103f32fb05fb0a0b19b70e5d5b1b|OpenDev Migration Patch|Fri, 19 Apr 2019 19:35:42 +0000|Fri, 19 Apr 2019 19:35:42 +0000
+51b8aa2a6fbe08ccefc21fc13d784882ea4e4ecd|Add Beaker-Rspec to the table of contents|Wed, 17 Apr 2019 09:42:43 +0800|Wed, 17 Apr 2019 09:42:43 +0800
+f2a37396eb8c3b20b110703d0c347fc5c14e8f47|Bump version for the start of Train|Mon, 25 Mar 2019 07:25:24 -0600|Mon, 25 Mar 2019 07:26:09 -0600
+6fd37de6646f24811dd56b77c27e0617ad20bc07|Update master for stable/stein|Fri, 22 Mar 2019 16:47:08 +0000|Fri, 22 Mar 2019 16:47:08 +0000
+33a59ff98fc580e54602ba9dff705170b1565405|Prepare Stein RC1|Mon, 18 Mar 2019 10:38:13 +0800|Mon, 18 Mar 2019 10:38:13 +0800
+d91e0f4ee015fba3a80e2f04f79f4bfc9bbe22fe|Prepare Stein M3|Wed, 6 Mar 2019 14:55:43 +0800|Wed, 6 Mar 2019 14:55:43 +0800
+7e8035020692b2aaaf3b1d3ec5c5ff66ed7f185d|Merge "Add release note about Ubuntu py3 upgrade"|Mon, 25 Feb 2019 18:05:31 +0000|Mon, 25 Feb 2019 18:05:31 +0000
+f3e3b3c54c61d4456d9d7c4365b3b5ba3a07f47d|Add release note about Ubuntu py3 upgrade|Sat, 23 Feb 2019 23:58:13 +0100|Sat, 23 Feb 2019 23:16:24 +0000
+dc906582e9eed796e971c55e839550fa11f60a97|Use validate_legacy|Sat, 23 Feb 2019 11:46:05 +0100|Sat, 23 Feb 2019 16:03:14 +0100
+1c40ef70f3b0f8aeab08d55234541ffc45aef5e7|Service_token_roles_required missing in the server config file|Fri, 15 Feb 2019 10:03:02 +0800|Fri, 15 Feb 2019 10:03:02 +0800
+6c5c17f2f6d873ec82f8cd6b45e5002944a61a88|Change wiki to docs|Wed, 13 Feb 2019 10:31:05 +0800|Wed, 13 Feb 2019 10:31:05 +0800
+70273497d12083ea4d7698cdeae33a84d05bfce4|Merge "Use puppet 4 compatible mysql functions"|Mon, 11 Feb 2019 21:25:06 +0000|Mon, 11 Feb 2019 21:25:06 +0000
+c181402cf665e91211d0ca2fba9f6bc9bbcfc516|Merge "Remove Ubuntu Xenial from metadata.json"|Mon, 11 Feb 2019 20:30:13 +0000|Mon, 11 Feb 2019 20:30:13 +0000
+3ef60205f6ecec50918602b7f130062b64fee75a|Use puppet 4 compatible mysql functions|Fri, 8 Feb 2019 12:06:19 +0100|Fri, 8 Feb 2019 12:06:19 +0100
+17071c8b7638a024870d17ede2785a42b35cd8ff|Remove Ubuntu Xenial from metadata.json|Fri, 8 Feb 2019 11:26:05 +0100|Fri, 8 Feb 2019 11:26:05 +0100
+d088f803ff5c9ab3edc07c5cf43e178b87937b23|Fix lint issue|Fri, 25 Jan 2019 12:23:43 +0800|Fri, 25 Jan 2019 12:23:43 +0800
+07ce900bb7823aba087de01e4daa204b0cbb58e5|Remove redundantly tested code|Fri, 18 Jan 2019 10:23:41 +0100|Fri, 18 Jan 2019 11:05:23 +0100
+8e600c3ec7247be59b86ed1b1b243dd5f62b443a|Modify puppet version 4 to 5|Tue, 15 Jan 2019 10:11:18 +0800|Tue, 15 Jan 2019 10:11:18 +0800
+319da305a00635e05076f90a72f1e169884cc1cc|Prepare Stein M2|Thu, 10 Jan 2019 09:24:05 +0800|Thu, 10 Jan 2019 09:24:05 +0800
+ded9032e4ea9d555b12d520fae04c95cc9511ee6|Fix editorial problem|Mon, 24 Dec 2018 14:02:26 +0800|Mon, 24 Dec 2018 14:02:26 +0800
+3f1ac6928c054a01eec1c6f434cae5a038a3aca5|Cleanup documentation|Thu, 13 Dec 2018 17:10:01 +0800|Thu, 13 Dec 2018 17:11:01 +0800
+0d35868fde5b859794f1ff1db4459fc5b74a14b0|Merge "Fix module structure"|Thu, 13 Dec 2018 02:05:34 +0000|Thu, 13 Dec 2018 02:05:34 +0000
+26b1c99b27bf135a302ff9e28589d5733dc64271|Fix module structure|Wed, 12 Dec 2018 11:29:45 +0100|Wed, 12 Dec 2018 11:29:45 +0100
+8a1bb9e9962a5b9bab0b93a8a2c0affab61803f7|Merge "Dont include logging in init by default"|Wed, 12 Dec 2018 02:05:45 +0000|Wed, 12 Dec 2018 02:05:45 +0000
+9b638d5e52069270fad70d18ce51816d5b57cbf1|Merge "Remove auth_uri"|Wed, 5 Dec 2018 20:57:12 +0000|Wed, 5 Dec 2018 20:57:12 +0000
+e9d5b741f57533a2fb49a0bd83bdc1c7f083240f|Change openstack-dev to openstack-discuss|Sun, 2 Dec 2018 18:19:42 +0100|Sun, 2 Dec 2018 18:19:42 +0100
+e975540389b4845194927b06714e6bc518fb7110|Remove auth_uri|Wed, 28 Nov 2018 23:58:08 +0100|Fri, 30 Nov 2018 11:09:19 +0100
+353ff36a7459c5fbf929f47e7394a859fa7f3dd2|Dont include logging in init by default|Thu, 29 Nov 2018 10:10:56 +0100|Thu, 29 Nov 2018 10:10:56 +0100
+d22c97150e608441dcdfddfec8418552b5c5280f|Deprecate pki related options|Thu, 22 Nov 2018 11:31:56 +0800|Fri, 23 Nov 2018 10:21:52 +0800
+065e0e6ac9756cb0328de7a51a54cd6b120a61d3|Prepare Stein M1|Tue, 13 Nov 2018 14:53:19 +0800|Tue, 13 Nov 2018 14:53:19 +0800
+96a44a367d2016374f74a0405487adadb53e054a|Merge "Convert spec testing to rspec-puppet-facts"|Mon, 12 Nov 2018 04:03:11 +0000|Mon, 12 Nov 2018 04:03:11 +0000
+05661f4487d08a3db6ec1ab4fe373aea7ede274f|Fix stdlib version in metadata|Fri, 9 Nov 2018 14:56:38 +0800|Fri, 9 Nov 2018 14:56:38 +0800
+f8d0d28760bd580220abc9193f1cb0204bc1ffa5|Convert spec testing to rspec-puppet-facts|Thu, 8 Nov 2018 10:40:24 +0100|Thu, 8 Nov 2018 10:40:24 +0100
+cd748c715f58258482c7830f23b7f8412d320c35|Update min tox version to 2.0|Tue, 16 Oct 2018 11:40:17 +0800|Tue, 16 Oct 2018 11:40:17 +0800
+ff91c23ed1727f9d5e5a0d97723ebad972cd95a8|Dissuade .gitignore references to personal tools|Mon, 8 Oct 2018 11:39:23 +0800|Mon, 8 Oct 2018 11:39:23 +0800
+33d0b940b1d9091699f2977fc6d0ed6265ffa6ff|Merge "Bump version for the start of Stein"|Fri, 31 Aug 2018 21:40:03 +0000|Fri, 31 Aug 2018 21:40:03 +0000
+8a0197fac5627d0276e82a483917bd5b00e4c3dc|switch documentation job to new PTI|Fri, 31 Aug 2018 08:24:35 -0400|Fri, 31 Aug 2018 08:24:35 -0400
+4d4a832622e0248fc3d013a051cfaeb2fe000432|import zuul job settings from project-config|Fri, 31 Aug 2018 08:17:12 -0400|Fri, 31 Aug 2018 08:17:12 -0400
+5c0d569cfa4ebdd2555c59de7f6e073a59f0f778|Bump version for the start of Stein|Thu, 30 Aug 2018 12:08:29 -0600|Thu, 30 Aug 2018 12:09:17 -0600
+d314987fddbdf2e9c05e5c2a80e78acb394c86b7|Update reno for stable/rocky|Mon, 20 Aug 2018 18:34:27 +0000|Mon, 20 Aug 2018 18:34:27 +0000
+b873e4bb2a394c8d1cb9344f2389e8fbb75538f9|Remove PE requirement from metadata.json|Thu, 16 Aug 2018 23:16:15 +0200|Thu, 16 Aug 2018 23:16:23 +0200
+ec1082065d6cefb8bc0def3815f05c25b2aa84d6|Prepare Rocky RC1|Tue, 14 Aug 2018 08:56:16 -0600|Tue, 14 Aug 2018 08:56:59 -0600
+ae63cabde3c176e6d3246f6faae3441aa779d89b|Merge "Remove the unnecessary _"|Tue, 24 Jul 2018 23:04:53 +0000|Tue, 24 Jul 2018 23:04:53 +0000
+2105a5048a182eb8e41140e147a7b5ba4dc50854|Merge "Prepare Rocky M3"|Tue, 24 Jul 2018 21:17:41 +0000|Tue, 24 Jul 2018 21:17:41 +0000
+8a9942d72cf1c237f01bbe730cb8574332edb9a8|Merge "Fix OS versions in metadata"|Tue, 24 Jul 2018 20:36:40 +0000|Tue, 24 Jul 2018 20:36:40 +0000
+6ea63f1bff3f2a209263826f965d2a346bbb6970|Prepare Rocky M3|Tue, 24 Jul 2018 10:17:04 -0600|Tue, 24 Jul 2018 10:18:15 -0600
+751ff22a9562a3cb58d5357e336b0d002daa1234|Remove the unnecessary _|Wed, 25 Jul 2018 00:00:16 +0800|Wed, 25 Jul 2018 00:00:46 +0800
+bb359e8aa1d9c7f2e1fbfe2736302abcc81c2132|Fix OS versions in metadata|Mon, 23 Jul 2018 11:58:22 +0800|Mon, 23 Jul 2018 12:59:21 +0000
+f6bc1d34190cc9511aab1de2d69c07581194490e|Add the project source code repository in README|Fri, 20 Jul 2018 14:50:02 +0800|Fri, 20 Jul 2018 14:51:00 +0800
+f0edc3c6a6529b611b19283bad9d39545d6f3a5f|modulesync: sync and add nodepool-bionic for beaker|Wed, 18 Jul 2018 16:17:42 +0200|Wed, 18 Jul 2018 16:17:42 +0200
+dbef8bc362e068f3b9d72c96a605a528af73ed9e|Fix inifile version in metadata|Mon, 16 Jul 2018 14:59:25 +0800|Mon, 16 Jul 2018 14:59:25 +0800
+1bd7a985d73bdf848288adf9b47b695d0465b188|Debian release is 9 in metadata|Mon, 2 Jul 2018 12:31:15 +0800|Mon, 2 Jul 2018 12:31:15 +0800
+03a6847bb3e450ff73db7f25dcb40d508924b161|add release note link in readme|Thu, 21 Jun 2018 14:47:16 +0000|Thu, 21 Jun 2018 14:47:46 +0000
+79f69fb45b013ae596361b6b70063f1d5f044661|Fix annotations|Fri, 15 Jun 2018 15:07:37 +0800|Fri, 15 Jun 2018 15:07:37 +0800
+3e5095efaf414d5b3fd3e43d72756ec021d6bad6|fix tox python3 overrides|Fri, 8 Jun 2018 14:23:32 +0800|Fri, 8 Jun 2018 14:23:32 +0800
+96135da577d0fa7cbe6004863369e96249845a8e|Prepare a new Rocky release|Tue, 5 Jun 2018 09:43:25 -0700|Tue, 5 Jun 2018 09:44:43 -0700
+b81a91f2d84a8e908c1bf0a71dcbfdd330fe228f|Replace port 35357 with 5000 for "auth_url"|Mon, 21 May 2018 14:36:00 +0800|Mon, 21 May 2018 14:36:00 +0800
+3b296efc89dde09995d6ef4e997d0c3e3fb4db3b|neat: missing : in $::os_service_default|Fri, 11 May 2018 14:02:39 +0800|Fri, 11 May 2018 14:02:39 +0800
+98c54ea6d69c1b757636ad11725ef341125e6afa|Merge "Missing deps for unit test of config.pp"|Mon, 23 Apr 2018 16:39:06 +0000|Mon, 23 Apr 2018 16:39:06 +0000
+4e11ddb786dfdbdee6e04bf388e556f64ea55687|Prepare Rocky M1|Thu, 19 Apr 2018 08:54:36 -0600|Thu, 19 Apr 2018 08:56:06 -0600
+6d74e14acecd5ce141f1f78b1ce3a1d975df00de|Missing deps for unit test of config.pp|Thu, 19 Apr 2018 13:42:15 +0800|Thu, 19 Apr 2018 13:42:42 +0800
+4ee90cfe3ee58f65ac3706433fb2f17dec2d4806|Merge "Update .gitignore"|Wed, 18 Apr 2018 00:38:57 +0000|Wed, 18 Apr 2018 00:38:57 +0000
+deb14f5c4cf8821453c50117acc51533f4923735|Merge "Configure metadata_proxy_shared_secret as secret"|Fri, 13 Apr 2018 19:14:48 +0000|Fri, 13 Apr 2018 19:14:48 +0000
+2f754deb0b4b38f5125ddd10ac0e96dc8a472ecb|Merge "Deprecate auth_uri option"|Fri, 13 Apr 2018 03:56:46 +0000|Fri, 13 Apr 2018 03:56:46 +0000
+1269f297eb03364a7cc0758d2eb13991b3e0f75e|Update .gitignore|Wed, 11 Apr 2018 08:43:43 +0800|Wed, 11 Apr 2018 08:55:15 +0800
+814ae8df60ee842a126c2ecced47c42b0528ad4d|Configure metadata_proxy_shared_secret as secret|Wed, 4 Apr 2018 13:53:46 +0800|Tue, 10 Apr 2018 10:52:26 +0800
+ef8b0b2b17163e50230f0e5cafd5caf23104d0b2|Merge "Remove useless code for sync.pp"|Mon, 9 Apr 2018 18:10:40 +0000|Mon, 9 Apr 2018 18:10:40 +0000
+6078f871b743b40e5d995145119eb5c4591601c8|Remove useless code for sync.pp|Sun, 8 Apr 2018 09:07:00 +0800|Sun, 8 Apr 2018 09:07:00 +0800
+226a9d42cf854452c5719d51a7df39a5d2693589|Update LICENSE|Fri, 6 Apr 2018 10:18:54 +0800|Fri, 6 Apr 2018 20:14:17 +0800
+c5697efc43965b2bed0ff2b4fccc7f69f173be3f|Deprecate auth_uri option|Tue, 3 Apr 2018 16:55:00 +0800|Tue, 3 Apr 2018 16:55:00 +0800
+6ed038b1cdb46a8956d66b80082ee372b5864ab8|Remove deprecated keystone authtoken revocation_cache_time option|Tue, 27 Mar 2018 10:33:21 +0800|Tue, 27 Mar 2018 10:33:21 +0800
+8c8263117df48c993003fcba2df127db35fcdf02|Add pool_timeout option|Thu, 22 Mar 2018 11:09:50 +0800|Thu, 22 Mar 2018 11:09:50 +0800
+ceccdbd34c99567750df8f362cc2c093d0d66fd9|Merge "Switch acceptance test to use integration classes"|Sat, 17 Mar 2018 01:16:50 +0000|Sat, 17 Mar 2018 01:16:51 +0000
+904f040e87d31ed37b22519bbf6903e3030552b4|Fix unit test for sync|Fri, 16 Mar 2018 10:54:29 +0800|Fri, 16 Mar 2018 10:54:29 +0800
+e2da25e624ba32436a1ec1701f344fdd04d7f265|Switch acceptance test to use integration classes|Wed, 14 Mar 2018 17:30:50 +0800|Thu, 15 Mar 2018 09:25:05 +0800
+cf28967a8e3099045a3954ba86c7bfbb843a6823|Merge "Drop all qpid related explanations"|Wed, 14 Mar 2018 03:34:23 +0000|Wed, 14 Mar 2018 03:34:23 +0000
+74561c32007ee4a4cfd56c687e788f704aeb80d8|Add 'openstack-db' tag to db-sync Exec resource|Mon, 12 Mar 2018 16:33:07 +0800|Mon, 12 Mar 2018 16:33:07 +0800
+bcce641d2f91218db31fc542229c26a8ec726727|Drop all qpid related explanations|Wed, 28 Feb 2018 14:42:10 +0800|Fri, 9 Mar 2018 15:04:24 +0800
+358022b9e1549005a7bedf1358e7ccdb89557cfa|Follow the new PTI for document build|Wed, 28 Feb 2018 14:42:10 +0800|Wed, 28 Feb 2018 14:42:10 +0800
+991c451c7c3542d0e8da70d9a9bfa1e0799826fb|Update reno for stable/queens|Tue, 20 Feb 2018 22:11:50 +0000|Tue, 20 Feb 2018 22:11:50 +0000
+e161565a019b6929ed037bb2007aaa47ab2c2126|Prepare for official Queens release|Mon, 19 Feb 2018 12:37:51 -0500|Mon, 19 Feb 2018 12:39:16 -0500
+8e3882742b5d655eefbe5b9b18971f96fdd2bea6|Load puppet-openstack_spec_helper locally during tests|Mon, 12 Feb 2018 10:53:35 +0800|Mon, 12 Feb 2018 10:53:35 +0800
+83bda4e264d4fcd1a28487b52e07b72699a11b97|Merge "Zuul: Remove project name"|Fri, 2 Feb 2018 22:35:23 +0000|Fri, 2 Feb 2018 22:35:23 +0000
+826dc5a6fa7fac0b23130456db4d66b12fc08e6a|Zuul: Remove project name|Wed, 24 Jan 2018 17:03:29 -0800|Fri, 2 Feb 2018 12:32:33 -0800
+21e905416df18d5e53804d0f297ddbe5da9092f6|Zuul: Remove project name|Mon, 29 Jan 2018 02:24:25 +0800|Mon, 29 Jan 2018 02:24:25 +0800
+e9ecb08def8691074fc8c9bbbc97c1fb4d8b56d3|Merge "Remove pinned versions from test-requirements.txt"|Wed, 17 Jan 2018 13:58:03 +0000|Wed, 17 Jan 2018 13:58:03 +0000
+e40405a039a3dc882e02c590dd5f5d5b18c2c468|Prepare for Queens Milestone 3|Tue, 16 Jan 2018 15:51:09 -0800|Tue, 16 Jan 2018 15:52:34 -0800
+23a7952e3be9a00a3549dfb503727ae48d56ca47|Remove pinned versions from test-requirements.txt|Tue, 16 Jan 2018 12:29:43 +0800|Tue, 16 Jan 2018 12:29:43 +0800
+e53a02236d4f47f83ae2c829f98b26c7628cdd48|Add use_journal option for logging configuration|Mon, 15 Jan 2018 15:40:22 +0800|Mon, 15 Jan 2018 15:40:22 +0800
+f2f9bbed54de8fc542323dcc4db935de45502af9|Add group to policy management|Wed, 10 Jan 2018 14:08:22 -0800|Thu, 11 Jan 2018 06:55:54 +0000
+7582ee345eef9137c87178d9e987907351c2629f|Run puppet-openstack-beaker-jobs|Thu, 21 Dec 2017 18:55:46 -0800|Thu, 21 Dec 2017 18:55:46 -0800
+9bf77438df5a5fb15b0ef844873f5c0294a4c69c|Merge "Expose use_json logging option"|Wed, 29 Nov 2017 02:55:36 +0000|Wed, 29 Nov 2017 02:55:36 +0000
+e22248ef3e1ba959cfffc3b902bfd573bbbf6a82|Prepare for Queens Milestone 2|Tue, 28 Nov 2017 16:14:20 -0700|Tue, 28 Nov 2017 16:18:04 -0700
+4b38a412b88ba5ba4a1560904dbc43aa443a13da|Expose use_json logging option|Tue, 28 Nov 2017 09:24:54 +0800|Tue, 28 Nov 2017 11:27:01 +0800
+0b79a5fead2c5e8d73de363002422d964672b280|Merge "Switch to Zuul v3 testing"|Thu, 2 Nov 2017 04:23:52 +0000|Thu, 2 Nov 2017 04:23:52 +0000
+e795ab9db8d87b0b2168315ff665de06cceaf40a|Add Puppet package to bindep, for module build|Fri, 27 Oct 2017 13:12:17 -0700|Fri, 27 Oct 2017 13:12:17 -0700
+931f7d86f8057154ef8b083bd9b6a696ea58ae51|Switch to Zuul v3 testing|Wed, 25 Oct 2017 17:22:39 +0800|Wed, 25 Oct 2017 17:22:39 +0800
+36b78e0f4fb551fea18080becb478d33f1c20b30|Prepare for Queens Milestone 1|Tue, 17 Oct 2017 14:26:32 -0600|Wed, 18 Oct 2017 01:56:22 +0000
+43615b4d4a36f640fd3cb0cdf42971eaa090fe91|Set *_domain_name vars to 'Default' by default|Fri, 6 Oct 2017 12:02:04 +0530|Fri, 6 Oct 2017 12:37:43 +0530
+fc11998ce59614048a039e37816cb71f45ce0704|Merge "Deprecate revocation_cache_time option"|Thu, 21 Sep 2017 21:32:02 +0000|Thu, 21 Sep 2017 21:32:02 +0000
+d4b3caffa42bb3325abeae5a939ae662135337d6|Update to the latest address in README|Thu, 21 Sep 2017 11:46:49 +0800|Thu, 21 Sep 2017 11:46:49 +0800
+22f25dc90a03dc58f7b1ace535cf1068b1aaa4d7|Update openstackdocstheme to latest version|Tue, 19 Sep 2017 21:36:54 +0800|Wed, 20 Sep 2017 10:50:56 +0800
+e0e5e4f99d93ad831ce814c9396c07adb5edf01e|Fix outdated links and a spelling mistakes|Thu, 14 Sep 2017 00:25:53 -0700|Thu, 14 Sep 2017 00:30:31 -0700
+4045d67e59cc1625280e28a7526be23d9a0f4aea|Deprecate revocation_cache_time option|Thu, 14 Sep 2017 11:11:48 +0800|Thu, 14 Sep 2017 13:48:40 +0800
+5e0ad6a0925f4fc55c1cc902303d468e3668ab89|Use Python to compute release notes version|Wed, 30 Aug 2017 13:42:26 -0700|Wed, 30 Aug 2017 13:42:26 -0700
+a6ee491003c4a55274dbc4fc42b5b333d6544a07|Merge "Update versions for Queens cycle"|Fri, 25 Aug 2017 17:45:31 +0000|Fri, 25 Aug 2017 17:45:31 +0000
+a7e436b8a1ebdb636d0b7e9e6a516da6d1a3b1cd|Merge "Update reno>=2.5.0"|Fri, 25 Aug 2017 17:45:25 +0000|Fri, 25 Aug 2017 17:45:25 +0000
+59908b700ded550c5e85dacf3a9113d1ce9c723d|Update versions for Queens cycle|Thu, 24 Aug 2017 13:06:05 -0600|Thu, 24 Aug 2017 13:06:53 -0600
+5f372c1f806fe445cf5651c82639fbdaf5fdd178|Update reno for stable/pike|Thu, 24 Aug 2017 14:00:19 +0000|Thu, 24 Aug 2017 14:00:19 +0000
+f73cbf57efde3b5c9fe5dfae22b61900b5c1185b|Prepare for official Pike release|Mon, 21 Aug 2017 15:58:44 -0600|Mon, 21 Aug 2017 15:59:30 -0600
+d0ef03906914556694689b9af417cd152b15e433|Update reno>=2.5.0|Mon, 21 Aug 2017 11:19:30 +0800|Mon, 21 Aug 2017 11:19:30 +0800
+6a1839b20e012ef8eb21f308c11e625e26b467ae|Merge "Update openstackdocstheme>=1.16.0"|Sat, 5 Aug 2017 04:53:33 +0000|Sat, 5 Aug 2017 04:53:33 +0000
+6348805c8569a05ad9ea92b81e84f419f5543074|Bump modules to next minor with -dev|Fri, 4 Aug 2017 13:36:15 -0600|Fri, 4 Aug 2017 13:37:29 -0600
+c36a78f7b039ed234f8d9f337bbcbaca6763e0ee|Update openstackdocstheme>=1.16.0|Mon, 31 Jul 2017 11:01:14 +0800|Mon, 31 Jul 2017 11:01:14 +0800
+657b3cee88ff57e1f6617c4491ebbe01f22e8e42|Drop -dev version for Pike M3|Tue, 25 Jul 2017 08:12:57 -0600|Tue, 25 Jul 2017 08:13:54 -0600
+d1ab8b7e0551edd8725eef1e35a66fbc53aa2bea|Fix lint issues to upgrade to puppet-lint 2.3|Thu, 20 Jul 2017 20:00:57 +0200|Thu, 20 Jul 2017 20:01:35 +0200
+bdd17dc04059350dbd1934d31d5f4ff2fd038bd6|Update URLs in documents according to document migration|Fri, 14 Jul 2017 08:51:31 +0800|Fri, 14 Jul 2017 08:51:31 +0800
+85fa8df9e4a1d20147fa4e7d8ad2db62d7489eb5|Merge "changed author"|Tue, 11 Jul 2017 07:16:04 +0000|Tue, 11 Jul 2017 07:16:04 +0000
+f1e5a4ae65e54347951a05abfa0c946119a589b3|changed author|Tue, 4 Jul 2017 15:25:07 +0530|Tue, 4 Jul 2017 15:26:01 +0530
+4675918f3e110b01253a5fb1e8bf397f87313132|Fix openstackdocstheme|Sun, 2 Jul 2017 14:17:07 +0800|Sun, 2 Jul 2017 14:17:07 +0800
+f678a33758f6733df32cc7f0fb1557ab15258926|Switch from oslosphinx to openstackdocstheme|Mon, 26 Jun 2017 10:00:14 +0800|Mon, 26 Jun 2017 10:15:17 +0800
+0a2d0f01334b3cc8c3a24a1f100b3e0bb8312494|Add environment variable|Mon, 12 Jun 2017 15:50:26 +0800|Mon, 12 Jun 2017 15:50:26 +0800
+bc902321793dfd75d664cc4682a6a036c5ae2ecc|Merge "Bump version for Pike M3 Dev"|Fri, 9 Jun 2017 09:26:16 +0000|Fri, 9 Jun 2017 09:26:16 +0000
+a1eff7824469c6eef588cf9032c9f1daa80d7377|Bump version for Pike M3 Dev|Thu, 8 Jun 2017 15:30:57 -0600|Thu, 8 Jun 2017 15:32:40 -0600
+e7b7de61f8545776e241b9eb1064fb1c768fcf47|Update global requirements|Thu, 8 Jun 2017 11:48:17 +0800|Thu, 8 Jun 2017 11:48:17 +0800
+4e7edbb45dc295b8130cd7c432bc6c6eec52e273|Drop -dev in preparation for Pike M2|Thu, 1 Jun 2017 08:53:02 -0600|Thu, 1 Jun 2017 08:53:51 -0600
+ef62061b65a984fc685530886bc5d75f13c67070|oslo policy: check puppet resource instead of actual config in spec|Tue, 23 May 2017 14:07:35 +0800|Tue, 23 May 2017 14:07:35 +0800
+e0a9127f06e51ccd0e689ac4eef69c6ff5392afe|Set debug to true|Fri, 5 May 2017 15:11:03 +0800|Fri, 5 May 2017 17:05:03 +0800
+43beb57c0be1c08741c84eb2a0a46888f25d9cf1|Bump modules to next minor with -dev|Fri, 21 Apr 2017 17:21:43 -0600|Fri, 21 Apr 2017 17:22:40 -0600
+f982e6e24bc7fedd63be8b847b019fe90d5487e4|Add the setting log level|Tue, 18 Apr 2017 11:11:48 +0800|Tue, 18 Apr 2017 11:11:48 +0800
+02bacd26b2eea28749a241b75a75d71e754f0e54|Drop -dev for release prep|Wed, 5 Apr 2017 10:36:13 -0600|Wed, 5 Apr 2017 10:44:27 -0600
+25bb4407f448a570fdd96dffd2f11d43109d8c2a|Password should be secured|Tue, 28 Mar 2017 17:05:12 +0800|Tue, 28 Mar 2017 17:05:12 +0800
+24e1e538d108a74a2c70a521b34a51226a6ec608|Update test-requirements.txt|Thu, 23 Mar 2017 14:41:42 +0800|Thu, 23 Mar 2017 14:41:42 +0800
+30bc715342ef44faa6363a8654d2325cfc7629a9|Add bindep support|Mon, 13 Mar 2017 12:35:02 -0400|Mon, 13 Mar 2017 12:35:02 -0400
+20065bc72cfd334c031ec0a4b1194e629669e7a3|Prepare Pike metadata|Tue, 7 Mar 2017 14:39:56 -0700|Tue, 7 Mar 2017 15:33:38 -0700
+f38870899329f45cc7c4ca38c6d21b04929c6606|Update reno for stable/ocata|Wed, 8 Feb 2017 11:03:47 +0000|Wed, 8 Feb 2017 11:03:47 +0000
+f4a82472068ba198659cf8ceb4903ac9290f910f|Prepare ocata-rc1 release|Fri, 3 Feb 2017 16:21:52 -0700|Fri, 3 Feb 2017 16:22:57 -0700
+48dc8b2b5d299d169f01bb1201c82ac2e260c24d|Prepare 10.2.0 release|Fri, 13 Jan 2017 17:29:31 -0700|Fri, 13 Jan 2017 17:31:10 -0700
+34e3c963201b2a6fe0d11929658194263875d80e|Allow python-memcache install from authtoken class|Wed, 11 Jan 2017 18:46:30 -0500|Wed, 11 Jan 2017 18:46:46 -0500
+d60a5f7acc58b1b8bb2509bd5458de231b81d4fe|Merge "Remove signing_dir option"|Tue, 3 Jan 2017 19:41:10 +0000|Tue, 3 Jan 2017 19:41:10 +0000
+a6f198abd3ca8da1a417fdab18df52c590aeb94c|Remove signing_dir option|Wed, 28 Dec 2016 08:55:08 +0800|Wed, 28 Dec 2016 08:55:08 +0800
+3f1b3a64d3b5419a5aed293ed5abf7c56bc7b0d0|Remove keystone_url option|Wed, 21 Dec 2016 11:42:39 +0800|Fri, 23 Dec 2016 08:59:24 +0800
+3010ef1dd7d6042625c5dd68449406fab6889592|Pin reno version to reno>=0.1.1,!=2.0.0;|Thu, 22 Dec 2016 15:15:00 +0400|Thu, 22 Dec 2016 15:15:00 +0400
+10c6a1bacc60c4a42f846075756345ebe74cadc3|Add the port check for breaker|Fri, 16 Dec 2016 10:03:59 +0800|Fri, 16 Dec 2016 10:03:59 +0800
+0e6c9a50b7bd6135c1fc3a29892f7bcd416eaabd|Prepare 10.1.0 release|Fri, 9 Dec 2016 09:34:05 -0700|Fri, 9 Dec 2016 09:34:29 -0700
+a4ee5cde8c754e3ea92f8f6b692391a317cc2340|Merge "Add hooks for external install & svc management"|Fri, 9 Dec 2016 08:19:55 +0000|Fri, 9 Dec 2016 08:19:55 +0000
+9e9a6809bd776d931f6b047b3d298de1ad3336e3|Fix the case statement|Thu, 8 Dec 2016 10:47:21 +0800|Thu, 8 Dec 2016 10:47:21 +0800
+313139aeaa1632af941d3c5b1131225577e1f7de|Add hooks for external install & svc management|Fri, 2 Dec 2016 13:18:22 +0800|Tue, 6 Dec 2016 10:02:54 +0800
+f073e68c239e863f0c1a1dcf3b60937e2bde8a00|Show team and repo badges on README|Fri, 25 Nov 2016 17:08:34 +0100|Fri, 25 Nov 2016 17:31:12 +0100
+64f8b0c24d90e90e5a19b82639c6b7f39bb2e73f|Prepare 10.0.0 release|Wed, 16 Nov 2016 15:27:05 -0700|Wed, 16 Nov 2016 15:27:19 -0700
+085d8cc2976a9520d066ec19656072e14af9f76d|Add requirements in metadata.json file|Wed, 2 Nov 2016 10:20:09 +0800|Thu, 3 Nov 2016 09:59:10 +0800
+256448cf9e5ebc1fb8f1093550faa53a74d53f16|Update test of policy|Thu, 27 Oct 2016 23:29:52 +0800|Fri, 28 Oct 2016 00:30:48 +0800
+ed101406505ca17da0e9c1144af85824c39a2e0f|Add support for db_max_retries param|Tue, 25 Oct 2016 14:53:46 +0800|Tue, 25 Oct 2016 14:53:46 +0800
+b1bafda1cee717c72ca91d6e41e90c43045bd41e|Merge "Change worker defaults to ::os_workers"|Fri, 14 Oct 2016 16:49:03 +0000|Fri, 14 Oct 2016 16:49:03 +0000
+327033ac20d55ffe7af03fb815f32a96012e8c79|Change worker defaults to ::os_workers|Thu, 13 Oct 2016 16:53:57 -0600|Thu, 13 Oct 2016 16:54:30 -0600
+d00fa25163cdfd870f75ded06c4a71c1fb31e503|Fix documentation for log_dir parameter|Mon, 10 Oct 2016 18:23:16 +0300|Mon, 10 Oct 2016 18:23:39 +0300
+1cfb7aa45268ee686f4674350b74a5ac877d1856|Merge "remove duplicated lines. fix script name"|Mon, 10 Oct 2016 10:17:59 +0000|Mon, 10 Oct 2016 10:17:59 +0000
+8d86f56a551876e35e1988af7622ca04a44bc6ab|remove duplicated lines. fix script name|Sat, 8 Oct 2016 13:58:27 +0300|Sat, 8 Oct 2016 22:47:28 +0300
+d908564b06826f17bc9823b98d9fdc2747ef2d18|Change version in conf|Fri, 7 Oct 2016 12:03:39 -0300|Fri, 7 Oct 2016 12:04:16 -0300
+aa055ac1cdce29e2b06a8e9044607aa7d737de6f|Enable release notes translation|Thu, 6 Oct 2016 20:45:17 +0200|Thu, 6 Oct 2016 20:45:17 +0200
+408a34cb61fb66db318751b7dac50d804f4a4d85|Changed the home-page to point Openstack Puppet Homepage|Tue, 4 Oct 2016 09:14:46 +0530|Tue, 4 Oct 2016 09:14:46 +0530
+037413fda589c80b5cfb899fc460420b680d32e3|Move rspec-puppet-facts to spec helper|Fri, 30 Sep 2016 13:18:04 -0600|Fri, 30 Sep 2016 13:18:07 -0600
+f52c48bf6ebccc80b57e34715cf26806944ee499|Added retries for db_sync|Thu, 29 Sep 2016 11:57:06 +0530|Thu, 29 Sep 2016 14:17:03 +0000
+7344155a5b3d8f84d16540cfa7a1c526af12e1c5|Fix authtoken|Sat, 27 Aug 2016 00:54:13 -0300|Sat, 27 Aug 2016 00:54:45 -0300
+f80ddcf328ba3e4ffe0c49b1ae0a33785dbc0bfc|Fix metadata for authtoken|Mon, 15 Aug 2016 11:36:31 -0300|Mon, 15 Aug 2016 11:37:21 -0300
+e5a79cff44b3d81e8544bbd35c0629a39c939f88|Merge "Remove S3 service"|Mon, 15 Aug 2016 13:11:04 +0000|Mon, 15 Aug 2016 13:11:04 +0000
+79f969716e5548f8f47345f89bfb6c9c6642ed0f|Merge "beaker: test more classes"|Fri, 12 Aug 2016 19:47:35 +0000|Fri, 12 Aug 2016 19:47:35 +0000
+5af4c6a727d9b9c667a30fcd395a526066db7467|Remove S3 service|Fri, 12 Aug 2016 15:38:18 +0200|Fri, 12 Aug 2016 18:10:18 +0200
+8274047f52ccd518e1027943423ae61f94944c2d|beaker: test more classes|Mon, 8 Aug 2016 14:32:14 -0400|Fri, 12 Aug 2016 15:30:46 +0200
+2f7ebe98a6c7821a26596311cd7d9bab3b8ae02a|Add basic structure for ReNo|Thu, 30 Jun 2016 23:16:15 -0300|Sat, 6 Aug 2016 10:23:49 -0300
+2f00a822b15f7c8f2c891c0df3d31dc2b2761884|Change authtoken to class|Tue, 2 Aug 2016 22:30:44 -0300|Thu, 4 Aug 2016 12:16:32 -0300
+5987c2312c76858830d52b0e4565c83eb9af0153|Move Ec2Api to authtoken|Thu, 21 Jul 2016 00:10:40 -0300|Thu, 21 Jul 2016 13:31:23 -0300
+7baa60f6788697c8ea19122aba076ed4f82af2d8|Include openstacklib defaults manifest.|Thu, 7 Jul 2016 12:00:54 +0200|Thu, 7 Jul 2016 12:08:38 +0200
+e207fb58055c355b6b7f0fbaaf964c121ab62e9d|Merge "Add Xenial to metadata"|Thu, 30 Jun 2016 21:40:44 +0000|Thu, 30 Jun 2016 21:40:44 +0000
+ff506caf5506a6340db38e30161278fb0cf2ef2b|Add purge_config option|Thu, 30 Jun 2016 14:42:36 +0800|Thu, 30 Jun 2016 14:42:36 +0800
+b085ac5570f5da91bfb3a74c1c2a8d43522c3946|Add Xenial to metadata|Wed, 29 Jun 2016 22:37:07 -0300|Wed, 29 Jun 2016 22:37:07 -0300
+1fca307f9c6ed6c4aee43c6a10294ac1add7b441|Update metadata|Wed, 8 Jun 2016 11:42:25 -0300|Wed, 29 Jun 2016 17:17:50 -0300
+9ca1795b78ba593959e3bb9f0143883f8ef8c607|Add all other classes|Tue, 10 May 2016 17:15:58 +0300|Wed, 29 Jun 2016 09:48:55 +0000
+ad894b5ec2bf82054ff242a53c6bfa406495e38e|Add db related classes|Tue, 10 May 2016 17:12:41 +0300|Wed, 29 Jun 2016 09:48:48 +0000
+de16acd5bc7943c50ad8e40823c56ce3fe6386f3|Add 3 api classes and params|Tue, 10 May 2016 17:09:18 +0300|Wed, 29 Jun 2016 12:48:21 +0300
+b7560e34bd39baabc8f7f427255b61e9d1a69739|Change wiki to docs|Thu, 2 Jun 2016 23:19:23 -0300|Thu, 2 Jun 2016 23:19:44 -0300
+6ba14d194ade96e2fc5eb0a8f672cb11a5b02dd7|Fix package version and remove useless arguments|Fri, 6 May 2016 13:52:19 +0800|Fri, 6 May 2016 13:52:19 +0800
+98af828779d7983ff2e2280013c17598a0f7f25e|Test multiple operating systems for ec2api::db::postgresql|Sat, 30 Apr 2016 10:13:32 +0800|Sat, 30 Apr 2016 10:14:13 +0800
+2ee01e0cc0a6fabd0fdc6f5c4f986e1c32eefb5c|Merge "Add the capability to configure api-paste.ini with config.pp"|Wed, 27 Apr 2016 15:34:35 +0000|Wed, 27 Apr 2016 15:34:35 +0000
+79de7444966985d3db879184bd5b827c301c7df3|Merge "Add basic unit tests + beaker"|Wed, 27 Apr 2016 15:21:16 +0000|Wed, 27 Apr 2016 15:21:16 +0000
+02547a399ce9ec887b23277ab3b168c7fc413da6|Add the capability to configure api-paste.ini with config.pp|Wed, 27 Apr 2016 16:18:37 +0800|Wed, 27 Apr 2016 22:49:17 +0800
+35e81a731e7eb92a15e4f7b218c94d344d6dc425|Add basic unit tests + beaker|Tue, 26 Apr 2016 11:56:53 +0200|Tue, 26 Apr 2016 23:19:22 -0500
+a7185157223159a2275b854df61c101a45f85d9d|Add types, providers and unit tests|Fri, 22 Apr 2016 00:33:57 +0300|Mon, 25 Apr 2016 15:50:41 +0000
+3c5d1a3f97df890e4a302d831e02b3bf3cea39db|Changing default params for db/* and init.pp|Thu, 21 Apr 2016 11:24:47 +0200|Thu, 21 Apr 2016 14:46:00 +0200
+1cf79665d1a6d3a0792e8863deaf4c429280f975|Update Gemfile with openstack_spec_helper|Fri, 15 Apr 2016 13:16:59 -0600|Fri, 15 Apr 2016 13:18:40 -0600
+925228ec9045e8eb9f4ccd7b06d440358c4925b5|puppet-ec2api: Initial commit|Wed, 13 Apr 2016 15:34:00 +0200|Fri, 15 Apr 2016 17:45:05 +0200
+ae25d3d74c37a54c089fb90fe4341605389566c7|Added .gitreview|Fri, 15 Jan 2016 13:02:51 +0000|Fri, 15 Jan 2016 13:02:51 +0000

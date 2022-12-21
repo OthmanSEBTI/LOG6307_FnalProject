@@ -1,0 +1,127 @@
+423e1c2ea89b1a3aa47b778b1e333813385b8165|gerrit-test6 -> gerrit-test7|Fri, 8 Nov 2019 13:23:09 +0000|Fri, 8 Nov 2019 13:23:42 +0000
+2fa216f717f613afe48a03d2104201322666bdc9|gerrit-test5 -> gerrit-test6|Thu, 7 Nov 2019 19:14:45 +0000|Thu, 7 Nov 2019 19:15:16 +0000
+2bb0dd2514990d89ddf6db241a9216e4f114a166|Disable check load on ORES Celery Workers|Tue, 17 Sep 2019 15:09:21 +0000|Tue, 17 Sep 2019 15:10:01 +0000
+33792fa79620e3e6ed3fe53ad6c75d677c0a34aa|Add ores-web-[04,05,06].wmflabs to monitoring|Mon, 16 Sep 2019 21:09:37 +0000|Mon, 16 Sep 2019 21:12:59 +0000
+e6bf254c25d72fedf5b54a463e89ffa476d6629e|Remove ORES-web[01,02].experimental from Icinga2|Sun, 15 Sep 2019 16:44:19 +0000|Sun, 15 Sep 2019 16:44:55 +0000
+f727f7bce8fd96f68b2bac73e8490112ec3274f5|labs-ns0.wikimedia.org -> cloud-ns0.wikimedia.org|Wed, 15 May 2019 23:49:19 +0000|Wed, 15 May 2019 23:49:43 +0000
+f69c2b0112f62b2fa1ff2a2fdfd097376a47d0b0|jenkins-slave-01 -> jenkins-slave-02|Wed, 8 May 2019 08:10:28 +0000|Wed, 8 May 2019 08:10:44 +0000
+b3d6ace29f625a1c4953b3547c49312df892b138|Increase time between check for puppet|Wed, 1 May 2019 12:44:03 +0000|Wed, 1 May 2019 17:35:52 +0000
+262b2e1125fe06b0fffbac4cb5a10f634b70c1d7|Increase interval to 140m|Wed, 1 May 2019 15:37:20 +0000|Wed, 1 May 2019 15:38:39 +0000
+45fdff4f08596d32650cd7ef27c8cda2d0f6636a|gerrit-test3 -> gerrit-test5|Thu, 18 Apr 2019 17:11:37 +0000|Thu, 18 Apr 2019 17:11:48 +0000
+92f7f10aa403900c01dd699874438e80a664476a|Fix gerrit-test3 to be gerrit-test5 in services.conf|Thu, 18 Apr 2019 17:07:33 +0000|Thu, 18 Apr 2019 17:07:43 +0000
+bd14a0a1d6f8d70be1b04518b42cf58887c6649d|gerrit-test3 -> gerrit-test5|Thu, 18 Apr 2019 17:05:32 +0000|Thu, 18 Apr 2019 17:05:47 +0000
+0bd307ac6d9ed06667c0742c0ac5f5b6db5e1371|remove extra slash|Wed, 3 Apr 2019 12:58:21 +0000|Wed, 3 Apr 2019 12:58:36 +0000
+7b83cff1e63ca3d5bcd0db5aabbc33d9156344f1|The real fix (you have to be smarter than machine)|Wed, 3 Apr 2019 12:54:51 +0000|Wed, 3 Apr 2019 12:55:10 +0000
+b998ee7284391ee6d00e167304c181a4a713a44e|Fix (maybe for real)|Wed, 3 Apr 2019 12:51:46 +0000|Wed, 3 Apr 2019 12:52:35 +0000
+5b8ac19d38e899d61d8202d4b1aaa38df8184940|Continue trying to fix new check_http|Wed, 3 Apr 2019 12:42:21 +0000|Wed, 3 Apr 2019 12:43:36 +0000
+c1fc371735f58332cc55ddb2b5bf7ea8088c0680|Fix new host config|Tue, 2 Apr 2019 14:29:51 +0000|Tue, 2 Apr 2019 14:30:28 +0000
+f2669be0aa77db5c9503a612a169285eddf71c1b|Add new host to checks|Tue, 2 Apr 2019 12:58:09 +0000|Tue, 2 Apr 2019 13:00:25 +0000
+e64040276071651b9c56581649ab8f7884aedd34|Add ICINGA2_ERROR_LOG ENV to systemd|Thu, 15 Nov 2018 15:21:37 +0000|Thu, 15 Nov 2018 15:21:49 +0000
+50b681ad7652f1020fd15bc43ba445f385eca2fe|Update systemd unit for 2.10|Fri, 12 Oct 2018 18:12:10 +0000|Fri, 12 Oct 2018 18:12:53 +0000
+ec5e8fc63b074bbdc3a87a6e5a98e6a7851e456f|Up icinga2 time to reporting to every 1hr and 30mins|Tue, 18 Sep 2018 15:31:28 +0000|Tue, 18 Sep 2018 15:32:43 +0000
+c237edabbd10ab5a85456a76f78daaa10ae5ca9d|Update ip for gerrit-mysql|Mon, 17 Sep 2018 17:28:56 +0000|Mon, 17 Sep 2018 17:29:21 +0000
+217fd0b382a58a06a3fe9100dd98bc487b33f464|Remove ores-lb-02.ores.eqiad.wmflabs|Fri, 31 Aug 2018 18:03:32 +0000|Fri, 31 Aug 2018 18:03:45 +0000
+8f65f4487d84aa8af2cb3f6b47436911f668394d|remove ORES-worker03.experimental  and ORES-worker04.experimental|Wed, 29 Aug 2018 21:10:49 +0000|Wed, 29 Aug 2018 21:11:19 +0000
+9f53ba6b44d7f0e4317c1f590e88407c37ca5019|Remove ORES-worker06 and ORES-worker05|Fri, 24 Aug 2018 11:35:07 +0000|Fri, 24 Aug 2018 11:35:29 +0000
+0fbc726ce1cbc94ef99b6924b43f21273ede1c91|phab-01.wmflabs.org -> phab.wmflabs.org|Mon, 2 Jul 2018 19:12:51 +0000|Mon, 2 Jul 2018 19:13:08 +0000
+a55bc2047ab93da444d393c082b09ff6f51e6cb3|Increase delay for reporting a second time about failures|Sun, 20 May 2018 14:02:56 +0000|Sun, 20 May 2018 14:04:35 +0000
+98476cc3079049a0632eed72a0435cd3f1d8827b|Fix scripts|Mon, 23 Apr 2018 15:52:48 +0000|Mon, 23 Apr 2018 15:53:18 +0000
+3c9956b5b43dce19c33672dbe1c1af665fe9f67a|Remove unused vars from shell script|Mon, 23 Apr 2018 15:38:52 +0000|Mon, 23 Apr 2018 15:41:22 +0000
+01434526de58bc40d441a828dfd8dbbdbf293595|Remove puppitsement of roles.ini|Sat, 27 Jan 2018 23:57:37 +0000|Sat, 27 Jan 2018 23:57:54 +0000
+1ab1b1bc5249fa0b56f99ec7cfda3a1d093e0a7a|Remove uneeded hosts|Thu, 18 Jan 2018 21:52:39 +0000|Thu, 18 Jan 2018 21:52:39 +0000
+f4e701041713216bef9bd4f237d888beeb473b3b|Migrate wikimedia-ai hosts and remove some|Wed, 17 Jan 2018 23:07:54 +0000|Wed, 17 Jan 2018 23:07:54 +0000
+df3a7fce6a9a62f039b2f1df3e39572ebf67eb1f|Rename ORES hosts for warning messages|Thu, 14 Dec 2017 17:35:03 +0000|Thu, 14 Dec 2017 17:36:25 +0000
+890c00b2bb3f2769061e0bd3eefa378159f8a7e5|Rename ORES hosts for warning messages|Thu, 14 Dec 2017 17:12:59 +0000|Thu, 14 Dec 2017 17:28:55 +0000
+5de83019487b4bc596e861bf4cfe6e4c7eb653e4|Rename puppet-paladox3 to puppet-paladox|Mon, 11 Dec 2017 22:17:51 +0000|Mon, 11 Dec 2017 22:18:40 +0000
+996e0682f8d2b4c356ee1398403d11a0f6af74e6|Fix syntax that is now incompatible with icingaweb2 2.5+|Tue, 28 Nov 2017 14:34:48 +0000|Tue, 28 Nov 2017 14:35:08 +0000
+5a2e7365102f5a4471311afb84b9a972239c2364|Change the check timing for check-mem.|Mon, 20 Nov 2017 21:56:03 +0000|Mon, 20 Nov 2017 21:58:01 +0000
+bb0e790fa34f28728410d8d3d37a18e0c04776ab|Auto create /var/lib/icinga2/certs/|Sun, 19 Nov 2017 13:47:12 +0000|Sun, 19 Nov 2017 13:48:02 +0000
+aafa4a7c0033473870c8a6ccee03c6836ef86e8a|Remove api.conf it's not in conf.d|Sun, 19 Nov 2017 13:39:34 +0000|Sun, 19 Nov 2017 13:39:55 +0000
+4fa4b28fc70c861654fad76161d4cf0bb4e42cee|Upgrade icinga2 to 2.8.0|Sun, 19 Nov 2017 13:22:12 +0000|Sun, 19 Nov 2017 13:29:19 +0000
+77d3056633ad53f0ad2368b09a1ea8dd9f1534ab|Config|Thu, 9 Nov 2017 22:21:04 +0000|Thu, 9 Nov 2017 22:22:25 +0000
+850505ff4be3a1c5c78ebc6e3b799148790b93a2|Fix syntax error|Thu, 9 Nov 2017 21:50:07 +0000|Thu, 9 Nov 2017 21:50:27 +0000
+dfdfa2f3fe90296ed6d3fb0726896584b1ce5e5e|setting up a new puppetdb host|Thu, 9 Nov 2017 21:25:45 +0000|Thu, 9 Nov 2017 21:35:44 +0000
+05272c96246ed93160fc5149892cac856c9d4245|Switch gerrit2.git.wmflabs.org back to gerrit.git.wmflabs.org|Thu, 2 Nov 2017 21:23:27 +0000|Thu, 2 Nov 2017 21:24:04 +0000
+d0b83369110b1cb0f4b47b3f4fa90610d8946b2f|Fix service again|Tue, 24 Oct 2017 21:56:19 +0000|Tue, 24 Oct 2017 22:00:00 +0000
+93efca29a5051ba2f7684eb2658ea3b937aeee9e|fix Error: Closing $ not found in macro format string.|Tue, 24 Oct 2017 21:54:04 +0000|Tue, 24 Oct 2017 21:54:17 +0000
+d16260aa1a9c0729020ae345f8366b9a321b9b09|Fix host name|Tue, 24 Oct 2017 21:49:34 +0000|Tue, 24 Oct 2017 21:52:43 +0000
+af9b31c8f8ba638d061587340dcca0fd986a3eba|Fix service|Tue, 24 Oct 2017 21:38:46 +0000|Tue, 24 Oct 2017 21:48:12 +0000
+5f62805e5aeb1a798533b6a45b37be1073ea7cfc|Fix service|Tue, 24 Oct 2017 21:34:29 +0000|Tue, 24 Oct 2017 21:36:17 +0000
+8c2efebeb04ea991986b1aad2028991c2675c244|Fix syntax error|Tue, 24 Oct 2017 21:29:09 +0000|Tue, 24 Oct 2017 21:29:22 +0000
+9369ab33bcb7f825cb0a908df7fcb2c854429a97|Add check gerrit ssh to service|Tue, 24 Oct 2017 20:16:12 +0000|Tue, 24 Oct 2017 21:13:31 +0000
+06e16158cdefe2cad4c2ac7fba576ba08690cd6b|Update url for phabricator to phab.wmflabs.org|Mon, 16 Oct 2017 21:10:19 +0000|Mon, 16 Oct 2017 21:10:45 +0000
+b6264a3150713502c3e79606334b1ed2aee25940|Up time for apt check to 10 mins|Tue, 3 Oct 2017 23:13:38 +0000|Tue, 3 Oct 2017 23:14:06 +0000
+ddd4bf25cce75ba11459cdc12e6e98933e3125eb|Update for icinga 2.7.1|Thu, 21 Sep 2017 15:44:43 +0000|Thu, 21 Sep 2017 15:50:11 +0000
+6a0517508af96554fa4fb1a78f40f49ec8f1c58f|Fix syntax error|Mon, 11 Sep 2017 22:37:13 +0000|Mon, 11 Sep 2017 22:38:06 +0000
+5094dd86f5f2da41eb9e6742eef276e432a78485|Check gerrit2 instead of gerrit for http domain for now|Mon, 11 Sep 2017 22:32:14 +0000|Mon, 11 Sep 2017 22:33:04 +0000
+6c785c1ba39ad580f18adbeb347792cfbf112eb3|Fix directory|Sat, 26 Aug 2017 17:23:38 +0000|Sat, 26 Aug 2017 17:23:56 +0000
+c75ee1a8b2075edb5f6236cfb0ad51203154a09a|Fix apt package|Sat, 26 Aug 2017 17:17:48 +0000|Sat, 26 Aug 2017 17:22:24 +0000
+a9286a39030c60c5c96d9f72f341fa5c932f4d6c|Fix director install|Sat, 26 Aug 2017 16:49:06 +0000|Sat, 26 Aug 2017 17:14:01 +0000
+12b5bb4bf168142e9134ab8c21dd748f34b86461|Fix base::service|Fri, 18 Aug 2017 21:27:35 +0000|Fri, 18 Aug 2017 21:28:32 +0000
+73f7ea7b73158d62409c788183cad790deac218a|rm dupe checks on gerrit-mysql|Fri, 4 Aug 2017 20:47:21 +0000|Fri, 4 Aug 2017 20:52:57 +0000
+e46224d7f4ab5b67400ef70e020eaffc61cc7723|Add apt.conf file|Fri, 4 Aug 2017 20:50:43 +0000|Fri, 4 Aug 2017 20:51:50 +0000
+d57a10536c3be83d7412f25252c2fb2eeda39778|Fix syntax error in commands.conf|Wed, 2 Aug 2017 18:13:00 +0000|Wed, 2 Aug 2017 18:13:08 +0000
+7ed387575db2e3c9ad3ef91d5ea90bc3997e3617|Update configuration to match latest icinga2 update|Wed, 2 Aug 2017 15:23:00 +0000|Wed, 2 Aug 2017 18:04:46 +0000
+3b94a03d2c92d02458617e40c671496e80783f2f|Switch disk check test to check_disk_space|Mon, 24 Jul 2017 22:43:06 +0000|Mon, 24 Jul 2017 22:44:51 +0000
+404c48f51feb4aca3424d731e0514259adfff8b1|Disable ldap usage|Thu, 20 Jul 2017 22:58:18 +0000|Thu, 20 Jul 2017 23:13:38 +0000
+f589b96a5c1f6931f2d5d1f3630efbc1c2cd30a1|Update a few things|Mon, 17 Jul 2017 15:51:36 +0000|Mon, 17 Jul 2017 16:17:34 +0000
+d4d0d0703678b28639472655217ac77daeb1edce|Remove ores-web-04|Mon, 17 Jul 2017 15:46:03 +0000|Mon, 17 Jul 2017 15:47:25 +0000
+8074e8db9a3bb3de3325e67e8112f8f0a0265b80|Fix ip for phabricator instance, it has a new ip now|Wed, 12 Jul 2017 22:48:35 +0000|Wed, 12 Jul 2017 22:49:12 +0000
+896f1abc884aae0fb28551d314390981b671973c|Remove ores-compute-01|Tue, 11 Jul 2017 21:37:11 +0000|Tue, 11 Jul 2017 21:37:27 +0000
+bad6962242a37f7221538e7916093e433a94d797|Fix check_disk_space|Tue, 11 Jul 2017 19:02:21 +0000|Tue, 11 Jul 2017 19:04:19 +0000
+f4206989196f83e2128ddd6abc11eaf14120c794|Add license from original source to comply with license requirements.|Thu, 6 Jul 2017 14:06:38 -0500|Thu, 6 Jul 2017 19:19:16 +0000
+d95ea10eadcdbcc20d95704f4b8f03ff5e2eb1dd|Add additional info about Icinga itself and provide a link to the orginial download.|Thu, 6 Jul 2017 13:45:45 -0500|Thu, 6 Jul 2017 19:01:30 +0000
+1457dba78a4f45327a4bb5b526db43842a4955a8|Add apt update check to puppet-phabricator|Thu, 6 Jul 2017 12:53:43 +0000|Thu, 6 Jul 2017 12:54:47 +0000
+0cdf76da29f09a7ef894c791142c0f3331195b61|Fix class|Thu, 29 Jun 2017 20:28:26 +0000|Thu, 29 Jun 2017 20:28:37 +0000
+8f6de79b830d04c17ddb675aac2c0709e20ea825|Retrying mutante php 7.0 change part 2|Thu, 29 Jun 2017 20:26:35 +0000|Thu, 29 Jun 2017 20:26:49 +0000
+366c91e48c1621620ed6dccd6cdd7108a2bdbbd7|Revert "Testing mutante php 7 apache change"|Thu, 29 Jun 2017 20:25:59 +0000|Thu, 29 Jun 2017 20:25:59 +0000
+3c595df5b30b52ef4c28ae38dc3fcb607c33774b|Testing mutante php 7 apache change|Thu, 29 Jun 2017 20:20:46 +0000|Thu, 29 Jun 2017 20:22:10 +0000
+b2c154b364e982a61368d139642b7e9a7d9de0e7|Disable men-check for puppet-paladox3|Thu, 29 Jun 2017 12:21:18 +0000|Thu, 29 Jun 2017 12:21:45 +0000
+58c499b01cd3455f2d6764640749f111f363824e|Disable volatile for services|Wed, 28 Jun 2017 20:10:21 +0000|Wed, 28 Jun 2017 20:12:22 +0000
+54ca2f326c947aa9229c947e8c6c4ef57959d2e6|Fix intervals for notifications|Wed, 28 Jun 2017 19:45:37 +0000|Wed, 28 Jun 2017 19:47:59 +0000
+edc0ac3c1dfcbb94d0b0e3c4b3191fcf255c912b|Fix undefined variable part 2|Wed, 28 Jun 2017 19:17:54 +0000|Wed, 28 Jun 2017 19:18:42 +0000
+1249b22e448551ea96efd9565cd38408507a65fe|Fix undefined variable|Wed, 28 Jun 2017 19:12:36 +0000|Wed, 28 Jun 2017 19:13:27 +0000
+ec5f98d5c7bc67ac8632424020ef19bee8fd5caa|Fix check_disk for ores*|Wed, 28 Jun 2017 18:56:07 +0000|Wed, 28 Jun 2017 19:07:14 +0000
+0750147045ca336fca6ad25116e3d181b07d07c2|Add some more ores instances to monitor|Wed, 28 Jun 2017 18:37:05 +0000|Wed, 28 Jun 2017 18:46:27 +0000
+9477c4cad2617da60e461d2b43fdbc6810dd686b|set interval to 40m for notifications|Wed, 28 Jun 2017 18:23:05 +0000|Wed, 28 Jun 2017 18:23:34 +0000
+d5087ec976998f147072ce434084034e37b4ba58|Revert "Up interval level for puppet master due to outage in labs"|Tue, 27 Jun 2017 19:02:49 +0000|Tue, 27 Jun 2017 19:02:49 +0000
+b0ccda49e5fd06d0ea15528cc71ad5ae0e6d1b3b|Up interval level for puppet master due to outage in labs|Tue, 27 Jun 2017 18:30:22 +0000|Tue, 27 Jun 2017 18:33:20 +0000
+c825e3e0baf4ac57f0a017a67013486322f9d5c6|Remove Ores-Compute-01 from load check|Mon, 26 Jun 2017 14:36:39 +0000|Mon, 26 Jun 2017 14:37:31 +0000
+a2b2afc3b870a6143a1a0c944f8a0c5eff9e76c6|Migrate check_mem to public view|Sun, 25 Jun 2017 20:48:07 +0000|Sun, 25 Jun 2017 20:57:20 +0000
+fba16e1d5602f2f85a84d6218e313535417cd772|Fix puppet check for hosts|Sun, 25 Jun 2017 20:35:20 +0000|Sun, 25 Jun 2017 20:45:28 +0000
+9070f831f868fa4626b1876e7c1f9d7a0077bf94|Fix host name in notifications|Sat, 24 Jun 2017 16:51:49 +0000|Sat, 24 Jun 2017 16:52:19 +0000
+035dd05ed4ee10c17e0bb0357bf22ddf14dc4ad9|Fix permission on ido-mysql file|Sat, 24 Jun 2017 16:46:56 +0000|Sat, 24 Jun 2017 16:47:31 +0000
+6c116f1a22581042a68e646361eebaca42809a6f|Fix ido-mysql variable did not work properly|Sat, 24 Jun 2017 16:41:17 +0000|Sat, 24 Jun 2017 16:41:50 +0000
+2d77b65979259a9d1ce80279ca19700ce3ac6c5b|Install some modules for icingaweb2|Sat, 24 Jun 2017 16:30:05 +0000|Sat, 24 Jun 2017 16:31:22 +0000
+e6b14a68c064e31257ac8d849b1b52d5a73149d7|Move somethings to puppet and puppicise some things|Sat, 24 Jun 2017 15:33:14 +0000|Sat, 24 Jun 2017 16:24:56 +0000
+57dad27605312859fe10ab3994012600dd35201b|Remove []|Sat, 24 Jun 2017 15:11:47 +0000|Sat, 24 Jun 2017 15:24:27 +0000
+84ff2e692343b28681204ad929e1d02914401fca|Fix path for irc-ores.log|Sat, 24 Jun 2017 15:09:44 +0000|Sat, 24 Jun 2017 15:09:57 +0000
+cb25a4bde0b2a9956bc0dc62ce5f4bd958ea2132|Add ores notification script|Sat, 24 Jun 2017 14:59:57 +0000|Sat, 24 Jun 2017 15:08:41 +0000
+c343930845b1b5ee4d87beb96397aeff0168833f|Fix location for shell scripts|Sat, 24 Jun 2017 14:57:18 +0000|Sat, 24 Jun 2017 14:57:51 +0000
+1dd6104efcb08b7cb498a579559423678a7668b3|Fix syntax error|Sat, 24 Jun 2017 14:56:17 +0000|Sat, 24 Jun 2017 14:56:29 +0000
+7338dde6e43ea7dc34474791a8e2899550ae7447|Add mail-host and mail-service scripts|Sat, 24 Jun 2017 14:42:02 +0000|Sat, 24 Jun 2017 14:55:27 +0000
+1d65a8da16ebdfe3f367d3bee324c4c67a818725|Update groups.ini|Sat, 24 Jun 2017 14:23:01 +0000|Sat, 24 Jun 2017 14:24:14 +0000
+306417c731fa1626f9bb0e9d48e118c06ea2930a|Fix authentication.ini|Sat, 24 Jun 2017 13:56:23 +0000|Sat, 24 Jun 2017 13:56:30 +0000
+19053e025fa52336efeec6058e50e1f049a50227|Add groups.ini|Sat, 24 Jun 2017 13:41:47 +0000|Sat, 24 Jun 2017 13:54:26 +0000
+92df7b231b2a9d163512cf5788b2336c21c2b5c7|Disable letsecnrypt temp|Fri, 23 Jun 2017 23:11:10 +0000|Fri, 23 Jun 2017 23:13:16 +0000
+57c68fb735d45de0d5881b5358944ccfce2fb3a4|Fix support for stretch|Fri, 23 Jun 2017 22:05:51 +0000|Fri, 23 Jun 2017 22:07:34 +0000
+c4240f892c7086c0651d56105fc5a56a7574a587|Fix notifications for puppet-paladox3|Wed, 21 Jun 2017 14:49:48 +0000|Wed, 21 Jun 2017 14:50:26 +0000
+c13177245d3fc02fabd0b78270e87f87c0a8a88c|Update ssh check to not be used when checking websites|Sun, 18 Jun 2017 15:25:57 +0000|Sun, 18 Jun 2017 15:26:21 +0000
+6e7675214633a351502c2393354bce22e312b7fc|Update ssh check to check for Linux OS too|Sun, 18 Jun 2017 15:20:41 +0000|Sun, 18 Jun 2017 15:21:11 +0000
+9c7eaf21175807e288e9a596dffc4ab0c5a2dd50|Update some things|Sun, 18 Jun 2017 15:13:57 +0000|Sun, 18 Jun 2017 15:14:36 +0000
+b30594fea55cf4e4650dcb8c3bee4cb203266e44|Only run apt once not run it twice|Sun, 18 Jun 2017 14:15:28 +0000|Sun, 18 Jun 2017 14:24:03 +0000
+406ad26a21c0ed810bf4a485f8aa018651c3711b|change apt related checks to a higher check interval to prevent large amnt of spam when there are updates to install|Sat, 17 Jun 2017 20:43:37 +0000|Sun, 18 Jun 2017 01:09:27 +0000
+4ebc790ae78f83414f8a6edb3868840eaad2f7f7|Check procs on gerrit-mysq remove it from ores|Sat, 17 Jun 2017 13:01:35 +0000|Sat, 17 Jun 2017 13:02:47 +0000
+2475533cebc5efcbbb42d39a20720ab57c6fe336|Fix command for swap but also change the var that enables it for a host|Sat, 17 Jun 2017 12:51:37 +0000|Sat, 17 Jun 2017 12:52:20 +0000
+3b904ba3f7f55e3f2a25e14fdf2f9c35b17a462b|Fix procs command|Sat, 17 Jun 2017 12:45:30 +0000|Sat, 17 Jun 2017 12:49:42 +0000
+a3b6d5c9720d76dba42060bce859b9083d4604a7|Testing procs service on ores host|Sat, 17 Jun 2017 12:43:48 +0000|Sat, 17 Jun 2017 12:44:06 +0000
+0cebb3321e4e0f0c4de01f1c843207b796a0b7ce|Migrate host ores-worker-05.ores.eqiad.wmflabs from director to public view in repo|Sat, 17 Jun 2017 12:35:26 +0000|Sat, 17 Jun 2017 12:40:04 +0000
+254ece036a1e84346e3a5359fd7cd0c547246520|Rename Ores-Compute to Ores-Compute-01|Sat, 17 Jun 2017 12:30:23 +0000|Sat, 17 Jun 2017 12:30:38 +0000
+154c214b6561cdbd11f51777db329ef6b146a9b8|Migrate host puppet-phabricator.phabricator.eqiad.wmflabs from director to public view in repo|Sat, 17 Jun 2017 12:25:32 +0000|Sat, 17 Jun 2017 12:27:13 +0000
+17bc7baa9d87d885f7da97f66cbb7a524586f9d6|Update some things|Sat, 17 Jun 2017 12:13:13 +0000|Sat, 17 Jun 2017 12:15:37 +0000
+43fae51ea0c7ae5aa1d39f45fcc61e195c9bac74|Move host ores-compute-01.ores.eqiad.wmflabs from director to public view in repo|Sat, 17 Jun 2017 12:10:25 +0000|Sat, 17 Jun 2017 12:10:41 +0000
+b354df067251fba64f6767592b85fe2cde2da18b|Make readme look pretty|Fri, 16 Jun 2017 19:54:05 +0000|Fri, 16 Jun 2017 19:57:02 +0000
+8a451e4da88cd92a66f61f5bd56088f2a4baf370|Migrate host puppet-paladox3.git.eqiad.wmflabs from director to public view in repo|Thu, 15 Jun 2017 22:45:34 +0000|Thu, 15 Jun 2017 22:45:50 +0000
+82515716f6003ac48ac17c721e6e81e2b61ad61c|Migrate host ores-web-05.ores.eqiad.wmflabs from director to public view in repo|Thu, 15 Jun 2017 22:36:03 +0000|Thu, 15 Jun 2017 22:37:13 +0000
+452d21575c8f9d062cb12818a9606cf0810bc225|Initial import of icinga2 puppet repo|Thu, 15 Jun 2017 21:18:01 +0100|Thu, 15 Jun 2017 21:18:01 +0100
+e257a3e94e10b3396e42b21e92390ebb87e68818|Add .gitreview|Fri, 5 May 2017 02:29:20 +0200|Fri, 5 May 2017 02:29:20 +0200

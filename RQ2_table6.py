@@ -12,12 +12,14 @@ openstack=[]
 wikimedia=[]
 
 for x in property :
-    mirantis.append([sum(dataframe_mir[x])/len(dataframe_mir[x]),max(dataframe_mir[x])])
-    mozilla.append([sum(dataframe_moz[x])/len(dataframe_moz[x]),max(dataframe_moz[x])])
-    openstack.append([sum(dataframe_ost[x])/len(dataframe_ost[x]),max(dataframe_moz[x])])
-    wikimedia.append([sum(dataframe_wik[x])/len(dataframe_ost[x]),max(dataframe_wik[x])])
+    mirantis.append([round(sum(dataframe_mir[x])/len(dataframe_mir[x]),2),round(max(dataframe_mir[x]),2)])
+    mozilla.append([round(sum(dataframe_moz[x])/len(dataframe_moz[x]),2),round(max(dataframe_moz[x]),2)])
+    openstack.append([round(sum(dataframe_ost[x])/len(dataframe_ost[x]),2),round(max(dataframe_moz[x]),2)])
+    wikimedia.append([round(sum(dataframe_wik[x])/len(dataframe_ost[x]),2),round(max(dataframe_wik[x]),2)])
 
 
 
 df=pd.DataFrame({'property':property,'mirantis':mirantis,'mozilla':mozilla,'openstack':openstack,'wikimedia':wikimedia})
+print(df)
 df.to_csv('table6')
+

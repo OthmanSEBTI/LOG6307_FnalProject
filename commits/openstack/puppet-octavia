@@ -1,0 +1,651 @@
+0c9b8a3828b666c297cbe48f5fa12cc88a0f6738|Merge "Clean up deprecated health_manager parameters"|Mon, 5 Dec 2022 11:28:01 +0000|Mon, 5 Dec 2022 11:28:01 +0000
+5d59b97a1f5deb98d84cfd53223abb496a2025aa|Merge "Drop redundant class inclusion check"|Wed, 30 Nov 2022 08:40:18 +0000|Wed, 30 Nov 2022 08:40:18 +0000
+4ff90f40cfb50d7e79b54d18b6885d5bf041285e|Clean up deprecated health_manager parameters|Thu, 17 Nov 2022 12:26:45 +0900|Wed, 30 Nov 2022 14:51:25 +0900
+6840de653f717ccb715d362dd4f054c8e57ec8ae|Add support for [controller_worker] amphora_delete_* options|Mon, 21 Nov 2022 11:18:36 +0900|Mon, 21 Nov 2022 14:58:05 +0900
+edf3a4b38dcbcc1dcf727ff5687908cbeb5976f5|Drop redundant class inclusion check|Thu, 17 Nov 2022 12:33:34 +0900|Thu, 17 Nov 2022 12:40:00 +0900
+64869766d865584100b0ddd811f05b1887656bf6|Update master for stable/zed|Thu, 20 Oct 2022 11:09:08 +0000|Thu, 20 Oct 2022 11:09:08 +0000
+1f4f16b488900c3bcc40f882494655869ee30116|Prepare Zed RC1|Wed, 5 Oct 2022 18:25:40 +0900|Wed, 5 Oct 2022 18:25:40 +0900
+acc09de2e03d78d96c65b327a18049bda0f9b9d7|Merge "Enable scenario005 integration job"|Thu, 22 Sep 2022 14:03:29 +0000|Thu, 22 Sep 2022 14:03:29 +0000
+44bea1b5d0e05ae6187a6adeb83e6a474a586665|Enable scenario005 integration job|Wed, 21 Sep 2022 14:00:34 +0900|Wed, 21 Sep 2022 14:00:34 +0900
+501e54596ea1e694bd0aa1a98b12b157fb53d229|Add health_manager::failover_threshold parameter|Thu, 15 Sep 2022 17:09:57 +0200|Mon, 19 Sep 2022 14:50:18 +0200
+bc746b38675a9d353b057c5de6b583e2a251229d|Enable memcached in acceptance tests|Wed, 31 Aug 2022 01:02:59 +0900|Wed, 31 Aug 2022 01:02:59 +0900
+540e2e0571adee17a3170d49c8a5d023e46032de|Use standard parameter description format for wsgi::apache|Fri, 26 Aug 2022 15:33:38 +0900|Fri, 26 Aug 2022 06:43:58 +0000
+49b37d5fd6931e98b000ccf07c77cb9d2c4847f9|Add Apache WSGI logging parameters for pipe/syslog|Fri, 26 Aug 2022 15:29:14 +0900|Fri, 26 Aug 2022 15:43:43 +0900
+fcd1225ae6c2d4ca546a71a63c7cc0eadb2a3a1f|Support customizing ssh key type|Tue, 16 Aug 2022 16:28:02 +0900|Tue, 16 Aug 2022 10:52:39 +0000
+b14e9337f27cb03155bc78ff2ff46cfb917f0a36|Bump upper version of puppet-ssh_keygen|Tue, 16 Aug 2022 17:42:26 +0900|Tue, 16 Aug 2022 10:51:12 +0000
+b2ae91563a33be1b796a8c67dc054cef2999679d|Merge "Adapt to new type validation in puppetlabs-apache"|Fri, 12 Aug 2022 08:40:55 +0000|Fri, 12 Aug 2022 08:40:55 +0000
+1cfb572bf232e472f31b963a5d71b4468fa926f5|Remove unused items from platform_params|Fri, 12 Aug 2022 01:38:28 +0900|Fri, 12 Aug 2022 01:38:28 +0900
+e475e44add5d2b236df342e569b7cac8c478893c|Adapt to new type validation in puppetlabs-apache|Tue, 2 Aug 2022 20:42:15 +0900|Tue, 2 Aug 2022 20:42:39 +0900
+de2fcd4e58ffa256eb765d676f1329ac034303f8|Merge "Do not show passphrase even if it is invalid"|Mon, 1 Aug 2022 09:20:56 +0000|Mon, 1 Aug 2022 09:20:56 +0000
+6f1330551977b2afca906f5d00e726cd83e724f6|Merge "Allow (more) customization of amphora log offloading"|Mon, 1 Aug 2022 09:16:13 +0000|Mon, 1 Aug 2022 09:16:13 +0000
+14963ced23a58ac70cff3d9d3ff8005f1a650295|Merge "Make TripleO job voting"|Mon, 1 Aug 2022 08:55:22 +0000|Mon, 1 Aug 2022 08:55:22 +0000
+88f467a14ed7f8610b0e8ba4c702abf189d4f64a|Merge "Validate octavia::health_manager:heartbeat_key only if it is set"|Mon, 1 Aug 2022 08:33:18 +0000|Mon, 1 Aug 2022 08:33:18 +0000
+af4c21f3724ee045a970672f806127783d8c1aa8|Merge "Add support for audit middleware options"|Mon, 1 Aug 2022 08:28:22 +0000|Mon, 1 Aug 2022 08:28:22 +0000
+09c1e7df0bb4b43d87018ce83bb34b91c10d1e42|Merge "Expose headers option of apache::vhost"|Sat, 30 Jul 2022 14:54:56 +0000|Sat, 30 Jul 2022 14:54:56 +0000
+262901ac027bdab70ddf0dbcb7bddb07ec226642|Merge "Revert "CentOS 9: Disable unit tests dependent on puppet-postgresql""|Tue, 26 Jul 2022 00:29:17 +0000|Tue, 26 Jul 2022 00:29:17 +0000
+34a13e7bcc2e404d82d4da3a4fea12155578b494|Merge "TripleO: Switch to scenario 013"|Mon, 25 Jul 2022 15:47:47 +0000|Mon, 25 Jul 2022 15:47:47 +0000
+0f938a8fcba45393e991667f6c001f8abd3b545c|Revert "CentOS 9: Disable unit tests dependent on puppet-postgresql"|Sun, 24 Jul 2022 00:52:28 +0900|Sun, 24 Jul 2022 00:52:54 +0900
+9e4f26e62688ac18a83f54d7ead330a2dfe579d4|Add support for audit middleware options|Wed, 20 Jul 2022 08:37:04 +0900|Wed, 20 Jul 2022 08:37:04 +0900
+dc69ce8b494a53e64c0fff6f85bc4196ee79e8d5|Validate octavia::health_manager:heartbeat_key only if it is set|Sat, 16 Jul 2022 12:27:44 +0900|Sat, 16 Jul 2022 12:27:44 +0900
+8d5901fe2157bfbcf4682cf5146eaf8dc7dcd4dd|Merge "Add acceptance tests for config management resources"|Fri, 15 Jul 2022 19:53:04 +0000|Fri, 15 Jul 2022 19:53:04 +0000
+c94a41a7fa670c2fee7e0497f2f34c5a21be988b|Fix wrong test description|Fri, 15 Jul 2022 11:51:00 +0900|Fri, 15 Jul 2022 11:51:00 +0900
+ec3d4a77318ec44c627748154edbbb355d8271bb|TripleO: Switch to scenario 013|Thu, 14 Jul 2022 10:51:36 +0900|Thu, 14 Jul 2022 10:52:54 +0900
+1a91f1e7a69d98a072fdcc9eb7af9c018bbbfc08|Make TripleO job voting|Tue, 22 Feb 2022 16:03:07 +0900|Tue, 12 Jul 2022 04:43:04 +0000
+02965a6077da2c10f936cbf3d5d262cc96bdf489|Allow (more) customization of amphora log offloading|Mon, 11 Jul 2022 16:10:08 +0900|Mon, 11 Jul 2022 16:15:28 +0900
+12a0964856318ec84a3efab54a85ed6d06a681eb|Add acceptance tests for config management resources|Sat, 9 Jul 2022 12:28:06 +0900|Sun, 10 Jul 2022 12:37:50 +0900
+d7dc6e1a4f256686484c83b97752f17b5ff04bf1|Expose headers option of apache::vhost|Fri, 1 Jul 2022 10:07:29 +0900|Fri, 1 Jul 2022 10:26:40 +0900
+314bfff89c38a8b669aa07947501a6054105c8ff|Do not show passphrase even if it is invalid|Wed, 27 Apr 2022 15:01:59 +0900|Thu, 30 Jun 2022 01:11:08 +0000
+aa83e0b86fccb0572f8ca17785cc2e8542ff5d1c|Merge "Fix typos in parameter descriptions"|Wed, 29 Jun 2022 20:04:32 +0000|Wed, 29 Jun 2022 20:04:32 +0000
+5fc52d8b849fc3240825f37fcfce7bcbc587c7b7|Fix typos in parameter descriptions|Fri, 17 Jun 2022 23:35:20 +0530|Tue, 28 Jun 2022 18:56:06 +0530
+c3916c7fe294604f277e3ce602786a7a798217f6|Manage driver-agent package/service in CentOS|Mon, 27 Jun 2022 17:51:19 +0900|Mon, 27 Jun 2022 17:54:49 +0900
+76851562562f047f0efcc565317797176e1a614f|Merge "ovn: Accept arrays for ovn_*_connection parameters"|Mon, 20 Jun 2022 18:52:50 +0000|Mon, 20 Jun 2022 18:52:50 +0000
+cf154d7172dc928b37f5453c4e7192a4b7abc6a5|ovn: Accept arrays for ovn_*_connection parameters|Thu, 16 Jun 2022 10:20:58 +0900|Thu, 16 Jun 2022 10:22:58 +0900
+ad3dc77a4a433892cdfa5336e9a190998616cd21|Merge "Move common parameters from the health_manager class"|Fri, 10 Jun 2022 09:27:37 +0000|Fri, 10 Jun 2022 09:27:37 +0000
+dd729322ab31b72194ab58f630fdc20a35527549|Move common parameters from the health_manager class|Thu, 2 Jun 2022 13:27:07 +0900|Thu, 2 Jun 2022 14:21:10 +0900
+1004a49811339f01f46d1735cc68311871a0e415|Merge "Remove support for CentOS 8 Stream"|Wed, 1 Jun 2022 05:44:07 +0000|Wed, 1 Jun 2022 05:44:07 +0000
+c9f1cb8f455f099567f334e44110c14ffc4b7617|Remove support for CentOS 8 Stream|Wed, 1 Jun 2022 13:55:02 +0900|Wed, 1 Jun 2022 13:55:02 +0900
+c13c3ba6e75c44bb95841f9472e2966735014bf6|Merge "Support [amphora_agent] agent_tls_protocol"|Tue, 31 May 2022 15:17:59 +0000|Tue, 31 May 2022 15:17:59 +0000
+c6a1b96d0a64435f04732b99d10db807a74443a4|Merge "Support [amphora_agent] agent_request_read_timeout"|Tue, 31 May 2022 15:17:57 +0000|Tue, 31 May 2022 15:17:57 +0000
+eabf0a2f5d3da967734e6f9d167705d571696f63|Support [amphora_agent] agent_tls_protocol|Thu, 26 May 2022 11:52:47 +0900|Thu, 26 May 2022 11:54:06 +0900
+2ac18b105046d3bdcf524119a14751df4e9116c8|Support [amphora_agent] agent_request_read_timeout|Thu, 26 May 2022 11:47:38 +0900|Thu, 26 May 2022 11:54:06 +0900
+44a32b37dbb72b7a3b36f9d2c426838c407919ab|Support more [certificats] parameters|Wed, 27 Apr 2022 14:59:39 +0900|Tue, 24 May 2022 13:49:26 +0000
+b5ab3de4bcf122d4228173eca0d0cd733a0e1ed9|Allow amphora timezone configuration|Tue, 17 May 2022 12:30:18 +0200|Thu, 19 May 2022 11:52:01 +0200
+c7dd10a34f204641c0f47d1d912a509f555c6a1a|Replace remaining hard-code of OS user/group|Fri, 8 Apr 2022 23:00:10 +0900|Fri, 8 Apr 2022 23:00:43 +0900
+a3be80d1fb55b5be9d90a7e1814c345246b9ae64|Update master for stable/yoga|Tue, 5 Apr 2022 09:13:08 +0000|Tue, 5 Apr 2022 09:13:08 +0000
+c3d78e5cb45d0a5d5c360746c2c06298b638ec57|Add allow_ping_health_monitors parameter to api|Thu, 31 Mar 2022 13:16:01 +0000|Fri, 1 Apr 2022 10:03:45 +0900
+1dd62c1854bc08d2aee17845b23b93084520d46c|setuptools: Disable auto discovery|Tue, 29 Mar 2022 10:40:28 +0200|Tue, 29 Mar 2022 10:40:36 +0200
+753b69279977d97592ef86d27bb98619989d838b|Support more [certificates] options|Thu, 24 Mar 2022 13:58:16 +0900|Thu, 24 Mar 2022 14:23:56 +0900
+c61f54f2b92ff78978ad21604b81628780494175|Prepare Yoga RC1|Sat, 12 Mar 2022 00:45:06 +0900|Sat, 12 Mar 2022 02:55:43 +0000
+4ee9cc5dc3ed2445f7f80d5531fc74423675b071|Merge "Add support for [haproxy_amphora] default_connection_limit"|Fri, 11 Mar 2022 16:02:39 +0000|Fri, 11 Mar 2022 16:02:39 +0000
+4af49c5707680c0cea975d711fde3f59e530bf0f|Merge "[health_manager] Allow tuning individual threads"|Fri, 11 Mar 2022 11:37:58 +0000|Fri, 11 Mar 2022 11:37:58 +0000
+6bb749a4da649f7d255ba077cd694883474c1417|Merge "Globally support system scope credentials"|Fri, 11 Mar 2022 11:37:56 +0000|Fri, 11 Mar 2022 11:37:56 +0000
+9c24dbc63a5801bcb117411dd6c4e139e70b9f41|Add support for [haproxy_amphora] default_connection_limit|Mon, 7 Mar 2022 20:38:17 +0900|Thu, 10 Mar 2022 23:47:46 +0000
+742c93d22c109d042f5b038ac07558fd8f734e08|Merge "remove unicode literal from code"|Tue, 8 Mar 2022 01:07:09 +0000|Tue, 8 Mar 2022 01:07:09 +0000
+1d7eff772515b238b26152b5c817aa14a339362e|Merge "Use consistent name for enabled_provider_drivers"|Tue, 8 Mar 2022 01:07:04 +0000|Tue, 8 Mar 2022 01:07:04 +0000
+25cc8cc20d79b3c1910a5735c160a56f61a64c5a|Merge "Accept array or hash for enable_provider_drivers"|Tue, 8 Mar 2022 01:07:01 +0000|Tue, 8 Mar 2022 01:07:01 +0000
+772c4ddcc5a31e499b7c759566bc7dc047d878fb|Merge "Add parameters to configure amphorav2 driver"|Tue, 8 Mar 2022 00:52:37 +0000|Tue, 8 Mar 2022 00:52:37 +0000
+c095e40a1f6c1e1b174d8300a9e9a239c56b7897|remove unicode literal from code|Tue, 8 Mar 2022 09:19:33 +0900|Tue, 8 Mar 2022 09:19:54 +0900
+be91d620faf056f392967a67bb38f8df5b30b026|Globally support system scope credentials|Fri, 4 Mar 2022 01:52:41 +0900|Fri, 4 Mar 2022 01:52:41 +0900
+2b9f2a0813ea72605f8d673b5dd88defc4146262|Add parameters to configure amphorav2 driver|Wed, 3 Nov 2021 07:17:08 +0100|Tue, 1 Mar 2022 08:04:09 +0900
+844a55ae6d41316b4f69f013b5ecb9ee5fed7f7e|Prepare Yoga M3|Thu, 24 Feb 2022 16:13:08 +0800|Sun, 27 Feb 2022 13:17:05 +0000
+59da852d526a652a22c0489583a0c01285447286|Merge "Add CentOS/RHEL 9 to supported operating systems"|Thu, 24 Feb 2022 15:25:50 +0000|Thu, 24 Feb 2022 15:25:50 +0000
+4c8389f430f901a6dac8e9b8b4460bf029c78df1|Merge "Create octavia flavor in the services project by default"|Thu, 24 Feb 2022 09:57:48 +0000|Thu, 24 Feb 2022 09:57:48 +0000
+2b9282bab65d879b47c4a1065801e0e9d916ecad|Use consistent name for enabled_provider_drivers|Wed, 23 Feb 2022 18:57:22 +0900|Wed, 23 Feb 2022 23:05:23 +0900
+270d33d5436b0e9f13f88b308a17e299e00f21bc|Accept array or hash for enable_provider_drivers|Wed, 23 Feb 2022 18:51:03 +0900|Wed, 23 Feb 2022 22:30:44 +0900
+cffdaec79590f5bcac54811a0a06261392e854ee|[health_manager] Allow tuning individual threads|Thu, 27 Jan 2022 17:19:34 +0900|Wed, 23 Feb 2022 03:48:24 +0000
+41390b4afb2589dc6060c51f1d16edae23093f35|Merge "Avoid hard-coding OS user/group in each manifest"|Tue, 22 Feb 2022 16:37:53 +0000|Tue, 22 Feb 2022 16:37:53 +0000
+d45a08e83859f4b46ac3b9f19436005da9328311|Add CentOS/RHEL 9 to supported operating systems|Wed, 23 Feb 2022 01:28:00 +0900|Wed, 23 Feb 2022 01:28:00 +0900
+39e9c32801a1bc1caadb0904cd94145a6b1cb9d8|Merge "Enable scenario test"|Sun, 20 Feb 2022 17:18:27 +0000|Sun, 20 Feb 2022 17:18:27 +0000
+86ed6dd398ab11e7d541802952cb51ed000f3f05|Avoid hard-coding OS user/group in each manifest|Mon, 21 Feb 2022 01:30:59 +0900|Mon, 21 Feb 2022 01:30:59 +0900
+c731f61ca45420f4d4375d59b7ea1569d31df98c|Merge "[service_auth] Define default values"|Sun, 20 Feb 2022 13:23:36 +0000|Sun, 20 Feb 2022 13:23:36 +0000
+a5df15b652ae5b6f6d60aecc890cd6a26b7d6619|Merge "Use p-o-i manifests in acceptance test"|Sun, 20 Feb 2022 12:34:28 +0000|Sun, 20 Feb 2022 12:34:28 +0000
+7edbd6dcae7bca21e3e623828803c74d9bd36c07|Merge "api: Add support for TLS cipher/version parameters"|Sun, 20 Feb 2022 10:39:33 +0000|Sun, 20 Feb 2022 10:39:33 +0000
+26f6cb58eda12337218d9161df475c3f7c9b940d|Merge "Remove deprecated amqp_allow_insecure_clients"|Fri, 18 Feb 2022 12:31:29 +0000|Fri, 18 Feb 2022 12:31:29 +0000
+e0d45ad9f9da708ca382654de4e79e190cf5ae64|Create octavia flavor in the services project by default|Fri, 11 Feb 2022 21:33:59 +0900|Thu, 17 Feb 2022 18:05:33 +0900
+09c45520d89f29751058a60bba21d5be6ec76c85|CentOS 9: Disable unit tests dependent on puppet-postgresql|Wed, 16 Feb 2022 00:26:11 +0900|Wed, 16 Feb 2022 00:26:11 +0900
+bc7062e7924274907f9c2019bc41ca12cbdf9447|Merge "Remove event_streamer_driver"|Tue, 15 Feb 2022 09:29:38 +0000|Tue, 15 Feb 2022 09:29:38 +0000
+c465caab2c45cca9be556676188d1ed8bbe859c1|Merge "TripleO jobs: Replace CentOS 8 jobs by CentOS 9 jobs"|Tue, 15 Feb 2022 02:20:01 +0000|Tue, 15 Feb 2022 02:20:01 +0000
+99dbf043d7b93125fba3f57744c4bc1c1686e8c6|Remove event_streamer_driver|Fri, 11 Feb 2022 19:25:02 +0900|Fri, 11 Feb 2022 19:25:25 +0900
+8524614f97cf8def2d4979483f511732f15dbb8e|TripleO jobs: Replace CentOS 8 jobs by CentOS 9 jobs|Wed, 9 Feb 2022 22:56:54 +0900|Wed, 9 Feb 2022 22:56:54 +0900
+5357bb2e87061ae5d266e7b2b305ac39da11068b|api: Add support for TLS cipher/version parameters|Wed, 9 Feb 2022 12:37:26 +0900|Wed, 9 Feb 2022 12:37:52 +0900
+129c30ff1c4a11b4f45697150f9b1a36f2874991|Merge "Wire-in heartbeat_interval"|Wed, 9 Feb 2022 00:17:02 +0000|Wed, 9 Feb 2022 00:17:02 +0000
+93cdf4a66e0b0197766eb5811612fffafd9ad6e6|Remove deprecated amqp_allow_insecure_clients|Tue, 8 Feb 2022 22:17:19 +0900|Tue, 8 Feb 2022 22:18:49 +0900
+85e5488df2156f2eabb4e9ababe17a9b845d1cec|Merge "Clean up deprecated database parameters"|Mon, 7 Feb 2022 15:57:13 +0000|Mon, 7 Feb 2022 15:57:13 +0000
+2533e85f1f0aa5ee3805335d15798feef4495d81|Merge "Simplify definition to ensure keystone resource creation"|Mon, 7 Feb 2022 15:52:12 +0000|Mon, 7 Feb 2022 15:52:12 +0000
+65a4b3822407be832a7174a6d5866af2f2786f15|Merge "Remove unused logic"|Mon, 7 Feb 2022 15:52:10 +0000|Mon, 7 Feb 2022 15:52:10 +0000
+ce727fb1aadc129ba8fa59e6caedc70c7a5bf3e1|[service_auth] Define default values|Mon, 7 Feb 2022 22:18:32 +0900|Mon, 7 Feb 2022 22:18:32 +0900
+5e6774459b4511eb8e6759d74efd88555bea7552|Wire-in heartbeat_interval|Mon, 7 Feb 2022 13:46:50 +0100|Mon, 7 Feb 2022 13:47:43 +0100
+f3646c17556ef0b6fd4cf3eb81b6751c7f0aec7b|Clean up deprecated database parameters|Mon, 7 Feb 2022 16:30:47 +0900|Mon, 7 Feb 2022 19:46:45 +0900
+ee52fb2fa929fe13134611a2c86cb9d06f091511|Enable scenario test|Mon, 7 Feb 2022 11:45:04 +0900|Mon, 7 Feb 2022 11:45:04 +0900
+6732e2664d027178fd6a7f284b0064d7d220b960|Simplify definition to ensure keystone resource creation|Mon, 7 Feb 2022 00:19:07 +0900|Mon, 7 Feb 2022 00:19:07 +0900
+695b7e74b010b6457770fddb048723af5a525179|Use p-o-i manifests in acceptance test|Sun, 6 Feb 2022 22:59:30 +0900|Sun, 6 Feb 2022 14:53:20 +0000
+c1c20ee0e83281d675699f676882a8d8e5c863be|Remove unused logic|Sun, 6 Feb 2022 23:00:46 +0900|Sun, 6 Feb 2022 23:00:46 +0900
+be9130696f6c16b6dd44ae75c5edeb5c29f87cb1|Allow wsgi script to be configurable|Thu, 3 Feb 2022 13:33:07 +1100|Thu, 3 Feb 2022 03:24:18 +0000
+8f09984e5c3db0f6b302c682021a9f5c0b79d39e|Merge "Add support for more connection tunables in [haprpoxy_amphora]"|Mon, 24 Jan 2022 08:45:43 +0000|Mon, 24 Jan 2022 08:45:43 +0000
+aa6219daa046f34028dc6c9e81be233ba0054354|Avoid testing details of oslo::messaging(::*)|Fri, 21 Jan 2022 21:35:52 +0900|Fri, 21 Jan 2022 22:49:47 +0900
+ca3c4cc1c166c473ecf3935936c3ef4946d4c43f|Add support for more connection tunables in [haprpoxy_amphora]|Mon, 10 Jan 2022 16:58:11 +0900|Sun, 16 Jan 2022 11:04:48 +0900
+d63fcd54a84f85974148b2691f88f89f8b14d8c4|Merge "Fix dependency to purge default vhost config"|Wed, 12 Jan 2022 16:27:25 +0000|Wed, 12 Jan 2022 16:27:25 +0000
+398ec47b02bf3431e7a98937ee0f74c340f5a125|Fix dependency to purge default vhost config|Tue, 11 Jan 2022 18:52:40 +0900|Tue, 11 Jan 2022 18:52:40 +0900
+436ea0d973af02de09e953cae16a65cb3aac8535|Merge "Add support for [haproxy_amphora] build_retry_interval"|Mon, 10 Jan 2022 19:32:15 +0000|Mon, 10 Jan 2022 19:32:15 +0000
+ccf6792238db1869911cb457ce9eebfde52f7b49|Add support for [haproxy_amphora] build_retry_interval|Mon, 10 Jan 2022 16:44:12 +0900|Mon, 10 Jan 2022 16:45:08 +0900
+d77268d1fa751b38a2666777a70ef5dfd2a69c4c|Merge "Add support to manage default quota about l7policy/rule"|Fri, 7 Jan 2022 22:54:27 +0000|Fri, 7 Jan 2022 22:54:27 +0000
+62ef180e5f18886e23fb4f65765dfc47529f5ee0|Merge "Accept system scope credentials for Keystone API request"|Fri, 7 Jan 2022 22:54:26 +0000|Fri, 7 Jan 2022 22:54:26 +0000
+a41e0de13bf7065f0e49b0d0dcf53dbd5a3af9bb|Merge "Remove usage of custom os_package_type fact"|Fri, 7 Jan 2022 19:27:12 +0000|Fri, 7 Jan 2022 19:27:12 +0000
+2d603b121a3c57a2a3cd36e96d16dc63871c8530|Prepare Yoga M2|Wed, 1 Dec 2021 14:42:52 +0800|Fri, 7 Jan 2022 14:22:05 +0000
+108c6d820f264e7dcc02cdbe82d4dd5920239f27|Merge "TripleO: Use nested virt"|Thu, 6 Jan 2022 14:24:55 +0000|Thu, 6 Jan 2022 14:24:55 +0000
+95ef3fc38f669d75024028d31cec4bcce2ebaa90|Remove usage of custom os_package_type fact|Wed, 5 Jan 2022 22:13:17 +0900|Wed, 5 Jan 2022 22:35:39 +0900
+86ce4e6cdf5ea1436625e830cd489f27f7e24430|Load libraries in a single place|Mon, 27 Dec 2021 10:52:39 +0900|Mon, 27 Dec 2021 10:52:39 +0900
+c1e08f0694f4013a155bfabf18d91e9a22672a19|Clean up direct dependencies on puppetlabs-apache|Wed, 8 Dec 2021 22:39:08 +0900|Wed, 8 Dec 2021 22:39:08 +0900
+64bfda831d6a60dcdaa3fc78a8215fc735f36f38|Merge "Add support for [compute] parameters"|Wed, 8 Dec 2021 03:06:28 +0000|Wed, 8 Dec 2021 03:06:28 +0000
+8e358a620144b63cd8a06798cb3ece60b08c635c|Merge "Support more [networking] parameters"|Wed, 8 Dec 2021 02:51:35 +0000|Wed, 8 Dec 2021 02:51:35 +0000
+c372c73fab62e9076cb8d78c38e8fb37a6e825ef|TripleO: Use nested virt|Fri, 6 Aug 2021 23:29:10 +0900|Thu, 2 Dec 2021 13:07:53 +0900
+4516e0cf9cbf22c78b07e7df6dda2f46afbd99ff|Support more [networking] parameters|Mon, 29 Nov 2021 23:57:21 +0900|Tue, 30 Nov 2021 13:08:02 +0900
+cf24d758afa627ef455cd0dc178053229d25471b|Add support for [compute] parameters|Tue, 30 Nov 2021 00:00:57 +0900|Tue, 30 Nov 2021 00:37:40 +0900
+3513ff3dabad3423ab26fe17b8f6265bbc72a31d|Fix dependencies related to openstacklib::policy|Mon, 29 Nov 2021 09:56:56 +0900|Mon, 29 Nov 2021 09:56:56 +0900
+c748dc5e7bf20b2eb4f790b2cd94b74d7d9bbb66|Accept system scope credentials for Keystone API request|Thu, 25 Nov 2021 23:43:24 +0900|Thu, 25 Nov 2021 23:43:24 +0900
+2fb4a5b1e07478a1e67d4897f26c603343dfa937|Use consistent format for service description|Mon, 27 Sep 2021 12:12:20 +0900|Thu, 18 Nov 2021 14:33:10 +0000
+c04af1ffc96c1c80683a3ec6ce8f5c3081a568dd|Merge "health_manager: support more tunable parameters"|Fri, 12 Nov 2021 10:21:40 +0000|Fri, 12 Nov 2021 10:21:40 +0000
+045272a8ce0c4e20f6ceef3bea9876fabf276524|Remove deprecated octavia::api::ovn_nb_connection|Wed, 10 Nov 2021 08:11:43 +0900|Wed, 10 Nov 2021 08:14:21 +0900
+cf21e93e7ee34b0b3bd417e3bfe4f63f4e10cb19|Add support to manage default quota about l7policy/rule|Wed, 10 Nov 2021 00:22:01 +0900|Tue, 9 Nov 2021 16:18:18 +0000
+ceb5c9deaf1fda99768fa228b1aeb3e7af937dc0|health_manager: support more tunable parameters|Wed, 10 Nov 2021 00:13:10 +0900|Tue, 9 Nov 2021 16:17:42 +0000
+728d549daff0290ffc0c656bb85df9c3416d8702|ovn: Add support for ovn_sb_* parameters|Wed, 10 Nov 2021 00:42:14 +0900|Wed, 10 Nov 2021 00:44:06 +0900
+2a6d6b8b4d124b16536c782030b768d9b0294c5e|ovn: Add more tunables related to OVN DB connection|Wed, 10 Nov 2021 00:32:31 +0900|Wed, 10 Nov 2021 00:43:58 +0900
+612142e30ef1568dd5c75970a5636c2a4872a8db|Bump puppetlabs-inifile|Tue, 2 Nov 2021 13:07:16 +0900|Tue, 2 Nov 2021 13:07:16 +0900
+588ed89e54b3a8823586e99629ec28aefc923ae2|Manage ovn-octavia-provider package|Tue, 5 Oct 2021 08:45:30 +0900|Thu, 14 Oct 2021 08:32:25 +0900
+a9a19950abac63eaf2ffcc169257ca245fd2c560|Fix inconsistent spec file name|Thu, 14 Oct 2021 08:27:54 +0900|Thu, 14 Oct 2021 08:27:54 +0900
+00f153457be56e3efa3797d507885825ac0c134e|Merge "Manage octavia-driver-agent package/service"|Wed, 13 Oct 2021 21:57:10 +0000|Wed, 13 Oct 2021 21:57:10 +0000
+98e11f474b6ac1fb0c5221c8092d65f74b669965|Bump version for the start of Yoga|Mon, 11 Oct 2021 11:38:24 +0900|Mon, 11 Oct 2021 11:38:24 +0900
+7d5ea159f2f9059be996023b87e5bcf95659d78f|Update master for stable/xena|Thu, 7 Oct 2021 08:26:23 +0000|Thu, 7 Oct 2021 08:26:23 +0000
+84b7c61586a49add0ad10cb4526593222236791f|Manage octavia-driver-agent package/service|Tue, 4 May 2021 17:50:32 +0900|Tue, 5 Oct 2021 22:02:10 +0900
+f6b4783dc1badf69b349f155174a3306c2ff95a4|Add information technology in the setup.cfg|Fri, 1 Oct 2021 06:54:49 +0800|Fri, 1 Oct 2021 06:54:49 +0800
+8f8f03143e863e517282aef094234842ec1f2890|Add license information in the setup.cfg|Thu, 30 Sep 2021 16:48:13 +0800|Thu, 30 Sep 2021 16:48:13 +0800
+731582296a98dca3944ed79fbc26e97388bbe1be|Delete useless code for setup.py|Thu, 30 Sep 2021 13:38:33 +0800|Thu, 30 Sep 2021 13:38:33 +0800
+2eafeab3a607fc84f70726094dc29feeafeb0406|Merge "Fix pbr>=2.0.0 for setup.py"|Wed, 29 Sep 2021 09:09:13 +0000|Wed, 29 Sep 2021 09:09:13 +0000
+065204e4c4a63d92268fa59db4777b16ecf85d37|Fix pbr>=2.0.0 for setup.py|Wed, 29 Sep 2021 16:37:10 +0800|Wed, 29 Sep 2021 16:37:10 +0800
+15afc8564302880c1e7d44afb68ffa0e87428d0c|Update openstackdocstheme to the latest version|Wed, 29 Sep 2021 16:06:50 +0800|Wed, 29 Sep 2021 16:06:50 +0800
+e77e6c0d24ce57b636399803f6af38d1a895460b|Update reno to the latest version|Tue, 28 Sep 2021 17:14:35 +0800|Tue, 28 Sep 2021 17:14:35 +0800
+7854ff8028e46c950b0c42492be4428aa73b8b35|Merge "Do not test detail of keystone::resource::service_identity"|Mon, 27 Sep 2021 11:25:26 +0000|Mon, 27 Sep 2021 11:25:26 +0000
+7c345186bf1cd81b471a9ea3aee6312c5b85f296|Do not test detail of keystone::resource::service_identity|Mon, 27 Sep 2021 12:10:03 +0900|Mon, 27 Sep 2021 12:10:03 +0900
+ad7e1e0fa64995f5f01caf01dc584cb5a1059f10|Merge "[service_auth] password should be secret"|Thu, 23 Sep 2021 18:45:47 +0000|Thu, 23 Sep 2021 18:45:47 +0000
+8f7149e0f7abaae3e2bddc3ab66162922114967a|[service_auth] password should be secret|Thu, 23 Sep 2021 22:42:15 +0900|Thu, 23 Sep 2021 22:42:15 +0900
+aa180a784f360c3c9df9787e4e37d47ed73cbc82|Fix stdlib version in metadata|Thu, 23 Sep 2021 19:44:22 +0800|Thu, 23 Sep 2021 19:44:22 +0800
+eabd0c9fe5afcd474cbefb91df0c25e1f76cae11|Prepare Xena RC1|Fri, 17 Sep 2021 17:36:09 +0800|Fri, 17 Sep 2021 17:36:09 +0800
+774be3e774b2b204dd301c15de2a4aea40a039d0|Merge "Add watch_log_file option"|Wed, 15 Sep 2021 01:49:00 +0000|Wed, 15 Sep 2021 01:49:00 +0000
+b86fe3e33eb9ed455757319aa992b4068191eecc|Add watch_log_file option|Tue, 14 Sep 2021 16:02:09 +0800|Tue, 14 Sep 2021 16:02:09 +0800
+a6ece88f9f91f487c20fa66abb049ceb6847e696|Remove parameters for the Spares Pool feature|Sun, 12 Sep 2021 22:00:35 +0900|Sun, 12 Sep 2021 22:02:02 +0900
+4fb8e65e21b42300477114e010b8866648bd1411|Merge "Allow purging policy files"|Fri, 10 Sep 2021 07:05:35 +0000|Fri, 10 Sep 2021 07:05:35 +0000
+006b4495851ac0009c27c3f973e415203dc42c83|Merge "Prepare Xena M3"|Thu, 9 Sep 2021 16:20:22 +0000|Thu, 9 Sep 2021 16:20:22 +0000
+92705cb8d3ab61368d332300cfe28bd4e48ff715|Merge "Do not test authtoken parameters directly"|Wed, 8 Sep 2021 01:44:27 +0000|Wed, 8 Sep 2021 01:44:27 +0000
+b5bb64c04aa76df71ad919b1523a2af2c26f2328|Merge "Use a 'params' hash for authtoken parameters"|Wed, 8 Sep 2021 01:44:26 +0000|Wed, 8 Sep 2021 01:44:26 +0000
+f5bf4a3ff7e8784e0e258418895c580aea231b98|Prepare Xena M3|Mon, 6 Sep 2021 15:32:08 +0800|Mon, 6 Sep 2021 15:32:08 +0800
+4bb6e9bfe8f732582d2212b8e86a84209ea4ec24|Allow purging policy files|Sat, 4 Sep 2021 22:16:17 +0900|Sat, 4 Sep 2021 22:16:22 +0900
+621e5ff4c28d9cf07507d291f4cb438281a3264e|Do not test authtoken parameters directly|Thu, 26 Aug 2021 21:21:01 +0900|Fri, 27 Aug 2021 18:14:56 +0900
+8f5a727a8076c454a000c7ed9cedc73e327766c2|Use a 'params' hash for authtoken parameters|Fri, 27 Aug 2021 14:48:49 +0900|Fri, 27 Aug 2021 18:14:38 +0900
+61e738060f7295952b0b6ab823b5170e7a69626f|Merge "Convert enabled_provider_agents to proper list format"|Tue, 24 Aug 2021 07:59:03 +0000|Tue, 24 Aug 2021 07:59:03 +0000
+dbbaaf129708e5110a6f5c85cdcf7c8abe3fabcc|Merge "TripleO: Reduce tempest test scope"|Sun, 22 Aug 2021 05:44:35 +0000|Sun, 22 Aug 2021 05:44:35 +0000
+f63223a80a9365d593fd4f4726290d6fcdce6209|Merge "Support Puppet 7"|Mon, 16 Aug 2021 10:19:21 +0000|Mon, 16 Aug 2021 10:19:21 +0000
+3b6a19f567790b373c4047679ff09a24d5f07aa6|Support Puppet 7|Mon, 16 Aug 2021 18:09:04 +0900|Mon, 16 Aug 2021 18:09:04 +0900
+12d06f3636b4c95f1e40e4cb7cd195bb3eafbbb6|Drop quota parameters without default_ prefix|Wed, 11 Aug 2021 08:31:38 +0900|Wed, 11 Aug 2021 02:54:36 +0000
+5565bb60a0a3de5263a0f8bbeb701305c0696e82|TripleO: Reduce tempest test scope|Tue, 20 Jul 2021 08:25:55 +0900|Fri, 6 Aug 2021 23:26:28 +0900
+53f69cd9b65d215fe1c2d7dd7b7d3d31cc69aac3|Prepare Xena M2|Mon, 26 Jul 2021 19:03:47 +0800|Mon, 26 Jul 2021 19:03:47 +0800
+ff21d5893ed5c83073f22bf14ced1b2c36ef9af5|Merge "Add support for MultiStrOpt"|Tue, 20 Jul 2021 18:10:19 +0000|Tue, 20 Jul 2021 18:10:19 +0000
+7de30ea0883a87e00047bb1549b055c12a193561|Merge "octavia-controller: Convert list values for ListOpts"|Tue, 20 Jul 2021 18:05:01 +0000|Tue, 20 Jul 2021 18:05:01 +0000
+54eea2b3e8c0ddd052f7dfbe2ea46461f87b51bc|Add support for MultiStrOpt|Tue, 13 Jul 2021 18:05:48 +0900|Mon, 19 Jul 2021 14:39:39 +0000
+f62f0b0e15c4d26e377aa27e56aff5840c66a159|octavia-controller: Convert list values for ListOpts|Mon, 19 Jul 2021 23:27:42 +0900|Mon, 19 Jul 2021 23:38:13 +0900
+dedd259113152946e2cdd15e7b2e29c4f13176ab|Add support for [cors] options|Mon, 5 Jul 2021 11:56:10 +0900|Mon, 5 Jul 2021 11:56:10 +0900
+c868430ae327dcc3d708ce48598a49091a93a838|Convert enabled_provider_agents to proper list format|Tue, 29 Jun 2021 12:13:24 +0900|Tue, 29 Jun 2021 15:24:16 +0900
+a00e903ea85d13ccdd4a7038bdfc4f05c9798e12|Merge "Add support for [api_settings] healthcheck_refresh_interval"|Mon, 28 Jun 2021 09:43:16 +0000|Mon, 28 Jun 2021 09:43:16 +0000
+2777bc55b8159ea02f1ac368b4881430a386b3a8|Drop Fedora support|Sat, 12 Jun 2021 23:38:19 +0900|Sat, 12 Jun 2021 23:38:25 +0900
+9557c26ad430836f7bfba846f8ba31e502591f05|Merge "Set fixture paths for unit tests"|Thu, 3 Jun 2021 00:47:58 +0000|Thu, 3 Jun 2021 00:47:58 +0000
+456e7ff27663471a27ff19be44637e6992572891|Set fixture paths for unit tests|Wed, 2 Jun 2021 14:10:06 +0900|Wed, 2 Jun 2021 14:10:10 +0900
+fec79b5a5cb59ecabbc0bde18a44700564db5133|Prepare Xena M1|Thu, 27 May 2021 15:50:27 +0800|Fri, 28 May 2021 02:40:40 +0000
+0221597f1bda5d82f28e6e320f0a0b2ee272c63f|Get rid of the $pyvers variable|Fri, 21 May 2021 12:09:49 +0200|Fri, 21 May 2021 12:09:49 +0200
+9448a989075bdf382690a25c6eddede2b047a51f|Merge "Do not declare service resources when manage_service is false"|Mon, 17 May 2021 18:56:25 +0000|Mon, 17 May 2021 18:56:25 +0000
+50ecf2dbcc78065da98b319c38d8f58fa3122b67|setup.cfg: Replace dashes with underscores|Tue, 11 May 2021 14:50:58 +0800|Tue, 11 May 2021 14:52:42 +0800
+3c37baefdc75efb708dfa8d4f46a9c699503104a|Fix a typo in parameter description|Sat, 8 May 2021 23:31:08 +0900|Sat, 8 May 2021 23:31:08 +0900
+a7b46e1ef677bff5d0601d54b872e3fa3374b13c|Do not declare service resources when manage_service is false|Tue, 4 May 2021 17:55:32 +0900|Tue, 4 May 2021 21:48:39 +0900
+1a95466c0be294183c83ed5241186fb381e4ecfc|Add support for [api_settings] healthcheck_refresh_interval|Tue, 4 May 2021 17:18:55 +0900|Tue, 4 May 2021 17:18:55 +0900
+6fba0ace08642dbc3e5f1f3e320d3f994cea6720|Bump version for the start of Xena|Thu, 29 Apr 2021 09:38:14 +0800|Thu, 29 Apr 2021 09:38:14 +0800
+81205d416227ffc45c6093aaec4d504d7e1ea7bb|Merge "Fix a typo in file header"|Tue, 27 Apr 2021 09:28:47 +0000|Tue, 27 Apr 2021 09:28:47 +0000
+79b9f249f4880486e4d1184e4aff3bb5922128b9|Merge "Add support for octavia_api_uwsgi_config in Debian"|Mon, 26 Apr 2021 13:45:22 +0000|Mon, 26 Apr 2021 13:45:22 +0000
+cba4a35d8b0549add28c0716e0cdddd2a77a1eb0|Fix a typo in file header|Wed, 21 Apr 2021 01:09:43 +0900|Wed, 21 Apr 2021 01:09:43 +0900
+a1975ee820c2e42678f067f17544252b409a39a5|Merge "Bump dependency in metadata.json"|Tue, 13 Apr 2021 09:37:48 +0000|Tue, 13 Apr 2021 09:37:48 +0000
+da8ed8acc64769e3253d90e07cd77eef77a0bfab|Add support for octavia_api_uwsgi_config in Debian|Wed, 7 Apr 2021 23:33:42 +0200|Mon, 12 Apr 2021 19:42:03 +0200
+165aa23376254320e8372db028edffb02038190e|Bump dependency in metadata.json|Thu, 8 Apr 2021 21:04:47 +0200|Thu, 8 Apr 2021 21:04:47 +0200
+97312ded40b79a5b5e80d4931d1d7226aab6fc63|Merge "Allow to configure policy_dirs"|Tue, 6 Apr 2021 07:51:37 +0000|Tue, 6 Apr 2021 07:51:37 +0000
+d3e66322c6aeebd68516bd789b72dd499678a7b4|Merge "metadata.json: debian 11"|Mon, 5 Apr 2021 21:36:35 +0000|Mon, 5 Apr 2021 21:36:35 +0000
+f48b463908e6e8a317d3c9e8f7b7c867070f8d74|Allow to configure policy_dirs|Thu, 1 Apr 2021 23:21:48 +0200|Thu, 1 Apr 2021 23:21:48 +0200
+0406424612d273eed2ae51b0ae19daa1b110bb31|metadata.json: debian 11|Thu, 1 Apr 2021 23:19:58 +0200|Thu, 1 Apr 2021 23:19:58 +0200
+2dd9efedb17cdbacd1f48cbc7ee319502484c24a|Update master for stable/wallaby|Thu, 1 Apr 2021 09:26:10 +0000|Thu, 1 Apr 2021 09:26:10 +0000
+0ff9baf8f82d66d4df1137ae2c3c0d4e59453e33|Update sphinx to the latest version|Sat, 27 Mar 2021 15:31:57 +0800|Sat, 27 Mar 2021 15:31:57 +0800
+793451b46898ebe3e8cc6b42c94813604e7b47ec|Prepare Wallaby RC1|Fri, 26 Mar 2021 11:24:16 +0800|Fri, 26 Mar 2021 05:03:29 +0000
+11796ca87c963ca3921c5930db1a5b641fff33b6|Merge "Add support for [controller_worker] image_driver"|Fri, 26 Mar 2021 05:00:16 +0000|Fri, 26 Mar 2021 05:00:16 +0000
+fc9dd0286abda7a12e6036e7fd33f021c7e17ad4|Merge "Add support for [haproxy_amphora] build_rate_limit"|Fri, 26 Mar 2021 05:00:12 +0000|Fri, 26 Mar 2021 05:00:12 +0000
+b417b88a2a40a8a02f9cc777ad2f115df110d53d|Merge "Add support for healthcheck middleware options"|Fri, 26 Mar 2021 04:57:26 +0000|Fri, 26 Mar 2021 04:57:26 +0000
+613def36aa39aba8bc24290a15223bf495fbd009|Merge "Add support for oslo_policy/enforce_new_defaults"|Wed, 24 Mar 2021 15:17:51 +0000|Wed, 24 Mar 2021 15:17:51 +0000
+ee4a3650c3fa4ef6bd0239fd3fa45e1fc28912b4|Add support for oslo_policy/enforce_new_defaults|Wed, 24 Mar 2021 17:02:31 +0900|Wed, 24 Mar 2021 17:02:31 +0900
+ef758a1f815035210dcd4544b017bda9d35c93ae|Update supported Ubuntu version to Focal|Tue, 23 Mar 2021 21:39:40 +0900|Tue, 23 Mar 2021 21:39:40 +0900
+91faaa9a20285c49b06c611f9143f762b6dbc2cf|Merge "Add support for volume based amphora"|Mon, 22 Mar 2021 09:05:23 +0000|Mon, 22 Mar 2021 09:05:23 +0000
+2fd0eafe9e424ec91bf5730a9fcbe6742d5688bf|Merge "Do not redefine default drivers"|Mon, 22 Mar 2021 09:05:20 +0000|Mon, 22 Mar 2021 09:05:20 +0000
+aeb7634d84cbac026bf36d52d08ef6fc1eff88d3|Merge "Add support for the oslo_policy/enforce_scope parameter"|Mon, 22 Mar 2021 09:03:47 +0000|Mon, 22 Mar 2021 09:03:47 +0000
+e056d8d7c25f0d94d6f54f4d57a08e0eb25940bb|Add puppetlabs-apache to dependencies|Thu, 18 Mar 2021 22:47:55 +0900|Thu, 18 Mar 2021 22:47:55 +0900
+6f8059fe0de8093c0e15dca649933706ea3ea38b|Add support for the oslo_policy/enforce_scope parameter|Tue, 16 Mar 2021 18:37:45 +0900|Tue, 16 Mar 2021 18:37:45 +0900
+9084b42458d815b8f7e2e06f9e2a8639be9d2b74|Add support for [controller_worker] image_driver|Fri, 12 Mar 2021 22:28:19 +0900|Fri, 12 Mar 2021 22:54:22 +0900
+ebf7fdc31cc7979c285b20e13f8b27be18e35660|Add support for volume based amphora|Fri, 12 Mar 2021 22:18:58 +0900|Fri, 12 Mar 2021 22:53:57 +0900
+c0a49179c686ef4f0de4e8fc29e0406657c484aa|Do not redefine default drivers|Fri, 12 Mar 2021 22:20:32 +0900|Fri, 12 Mar 2021 22:23:46 +0900
+fed08d5bdb6d416072c5c35f99182d222aa23463|Add support for [haproxy_amphora] build_rate_limit|Fri, 12 Mar 2021 21:59:58 +0900|Fri, 12 Mar 2021 22:01:13 +0900
+8efcdfaf3e11792d741df9cb19f056b39f4e8f70|Prepare Wallaby M3|Fri, 12 Mar 2021 14:35:44 +0800|Fri, 12 Mar 2021 14:35:44 +0800
+66604db840f473b0aa0a4460e5b12bdb10c4c2d8|Add support for healthcheck middleware options|Mon, 1 Feb 2021 12:25:31 +0900|Tue, 9 Mar 2021 20:40:08 +0900
+1217a8fc35b78e37908dacc02a4e8dc42628ac89|Add support for the api_settings/pagination_max_limit|Thu, 4 Mar 2021 20:46:12 +1000|Fri, 5 Mar 2021 07:40:14 +0000
+be9157566e0025caf5cc51eb49aee24c8e623ce0|Do not expect database/idle_timeout|Fri, 5 Mar 2021 15:24:54 +0900|Fri, 5 Mar 2021 15:27:54 +0900
+07d702b0c95779d9e23346abef217656eb8d7340|Merge "Use consistent parameter names for quota options"|Mon, 25 Jan 2021 18:28:55 +0000|Mon, 25 Jan 2021 18:28:55 +0000
+7d5b8aafc8fdce1f3d8f44e6fa00479811260c50|Use consistent parameter names for quota options|Sun, 24 Jan 2021 11:20:05 +0900|Sun, 24 Jan 2021 17:47:35 +0900
+aecfe7006c7dd01f9717d808ba22eb2c710dba5f|Prepare Wallaby M2|Tue, 19 Jan 2021 11:19:35 +0800|Tue, 19 Jan 2021 11:19:35 +0800
+46cffbd1e9229f587f3b6c703f4964aec4bab452|Deprecate parameters for the Spares Pool feature|Tue, 29 Dec 2020 12:43:58 +0900|Mon, 4 Jan 2021 21:00:59 +0900
+4bafdba2a3f60cab6a11e20ebd8426fe5fd44e26|Prepare Wallaby M1|Fri, 4 Dec 2020 13:31:38 +0800|Fri, 4 Dec 2020 13:31:38 +0800
+c64ce193718b86879b48f0a39d73ddbea26a09c5|Allow db sync timeouts to be configurable|Mon, 23 Nov 2020 09:27:52 +0800|Mon, 23 Nov 2020 09:27:52 +0800
+db1f88cf72e89a517b7112a0ea45dadaa754b09b|Replace deprecated UPPER_CONSTRAINTS_FILE variable|Wed, 11 Nov 2020 09:08:35 +0800|Wed, 11 Nov 2020 09:08:35 +0800
+d0bec1c8121b835116f70dff7d7ed9dea31a09f1|Fix the tripleo job definition|Sat, 24 Oct 2020 23:19:30 +0900|Mon, 9 Nov 2020 23:08:03 +0900
+8a2708a08ca7a3f448a2048b7c82e68a953d29d0|Merge "Build containers for single consumer job"|Mon, 9 Nov 2020 13:54:08 +0000|Mon, 9 Nov 2020 13:54:08 +0000
+962c86a14d68eab3ad2a6492a009a1e8cf14a87c|Merge "Add support for the keystone_authtoken/service_type parameter"|Fri, 6 Nov 2020 22:52:27 +0000|Fri, 6 Nov 2020 22:52:28 +0000
+50b5a798632c0c0891d50e9bbea3a5451c0e067d|Build containers for single consumer job|Thu, 29 Oct 2020 13:10:05 -0400|Fri, 6 Nov 2020 12:58:26 +0000
+0fa8405defffce784ac2a4f6d7df9e1f467d28bd|Add support for the keystone_authtoken/service_type parameter|Tue, 3 Nov 2020 17:20:06 +0900|Tue, 3 Nov 2020 17:20:06 +0900
+8a8940c87e782ad437ff8e20d8f5dbfec8ec6109|Deprecate allow_insecure_clients option|Mon, 2 Nov 2020 14:42:04 +0800|Mon, 2 Nov 2020 15:29:01 +0800
+87e27164954196944f6a4a0f42f71427afeebbe9|Fix outdated files|Wed, 28 Oct 2020 10:40:09 +0800|Wed, 28 Oct 2020 10:40:09 +0800
+d251519d6b313a6324e1f15802119aa34a4770b4|Deprecate database options from the octavia class|Tue, 20 Oct 2020 12:54:46 +0900|Tue, 20 Oct 2020 12:55:09 +0900
+27f55fc468c336c004ab7331ceb92adb62fef77d|Merge "Fix missing parameters for tripleo standalone job"|Mon, 19 Oct 2020 19:41:00 +0000|Mon, 19 Oct 2020 19:41:00 +0000
+89312bafec5942f816edb423d728569e4018b7f6|Fix missing parameters for tripleo standalone job|Thu, 15 Oct 2020 08:05:56 +0900|Mon, 19 Oct 2020 23:10:21 +0900
+efabd41ce3a293384ae955dce148bfef0b99e7be|Bump version for the start of Wallaby|Thu, 15 Oct 2020 09:42:49 +0800|Thu, 15 Oct 2020 09:42:49 +0800
+dfa731ce9a564fa79bc4677020caa6e17cab9267|Merge "Use tripleo-puppet-ci-centos-8-standalone as tripleo job base"|Wed, 14 Oct 2020 21:27:07 +0000|Wed, 14 Oct 2020 21:27:07 +0000
+d311b7f7daa5427217b467e433d4ef050b64f422|Use tripleo-puppet-ci-centos-8-standalone as tripleo job base|Mon, 12 Oct 2020 23:04:35 +0900|Mon, 12 Oct 2020 23:04:35 +0900
+1894d38f5f400cc90628d5b86748ba9363f4dca5|Include deps class in unit test for sync|Mon, 12 Oct 2020 10:46:40 +0800|Mon, 12 Oct 2020 10:46:40 +0800
+7407250bae23d8673afc961c1d2491a97103d0d3|Include deps class in unit test for postgresql|Sat, 10 Oct 2020 09:31:12 +0800|Sat, 10 Oct 2020 09:31:12 +0800
+ee0e0737d21b8771b0f0d0e6ff06aca4588ccfac|Merge "Update master for stable/victoria"|Fri, 9 Oct 2020 07:30:03 +0000|Fri, 9 Oct 2020 07:30:03 +0000
+3ac3233078c55638c9d2ad19c6a2205d5a366de1|Include deps class in unit test for mysql|Fri, 9 Oct 2020 09:59:55 +0800|Fri, 9 Oct 2020 09:59:55 +0800
+cf7559700c0d3508e51df8c9381e07ff8acfb3f8|Update master for stable/victoria|Thu, 8 Oct 2020 14:43:44 +0000|Thu, 8 Oct 2020 14:43:44 +0000
+7ad5969c4899d4f263262fc2d52be82d8ceaf786|Prepare Victoria RC1|Thu, 24 Sep 2020 10:48:54 +0800|Thu, 24 Sep 2020 10:48:54 +0800
+c192340013ab3868eafdaf83d5956c578d9ca66f|Merge "Add Puppet Litmus"|Fri, 18 Sep 2020 01:14:35 +0000|Fri, 18 Sep 2020 01:14:35 +0000
+c34488d26b9a3744b322065a1448468ea7c82040|Set openstackdocs_auto_name to use 'project' as name|Wed, 16 Sep 2020 11:05:05 +0800|Wed, 16 Sep 2020 11:05:05 +0800
+7d3c95169a756c8400b4d6bbb662b1c51af2d647|Prepare Victoria M3|Tue, 8 Sep 2020 09:18:03 +0800|Tue, 8 Sep 2020 09:18:03 +0800
+db97534f24f9a0b2110d55ab1d61c6ae570756db|Add Puppet Litmus|Mon, 31 Aug 2020 21:44:11 +0200|Mon, 31 Aug 2020 21:44:11 +0200
+e152e2430de1c342965985f02c7167a8020101ea|Merge "Use openstack_spec_helper from zuul checkout"|Mon, 31 Aug 2020 14:25:52 +0000|Mon, 31 Aug 2020 14:25:52 +0000
+4491d687b2e4310292bde62a1ce176a01d4d55df|Do not validate database_connection format|Mon, 31 Aug 2020 17:53:21 +0900|Mon, 31 Aug 2020 17:53:21 +0900
+93bbf23cb25fc85da9730a273ea97c6904c98745|Use openstack_spec_helper from zuul checkout|Sun, 30 Aug 2020 23:00:51 +0200|Sun, 30 Aug 2020 23:00:51 +0200
+0c54350b8e497361ca7f48cbbed61691194b9ba9|Merge "Add mysql_enable_ndb option"|Thu, 27 Aug 2020 12:07:04 +0000|Thu, 27 Aug 2020 12:07:04 +0000
+e277cc0a8e46142f432c92a4e2ed6ba03c9ec0a4|Merge "Use common class to manage apache service in beaker job"|Thu, 27 Aug 2020 08:42:07 +0000|Thu, 27 Aug 2020 08:42:07 +0000
+41c181975cba2ea963f9f213be4366b96d9a241f|Use common class to manage apache service in beaker job|Thu, 27 Aug 2020 12:05:49 +0900|Thu, 27 Aug 2020 12:05:49 +0900
+f1bf9208a656d645c5b03499e306e1ae5d2026d8|Add mysql_enable_ndb option|Wed, 26 Aug 2020 11:53:17 +0800|Wed, 26 Aug 2020 11:56:20 +0800
+444cb9b583beb1a97de93a168d1289a6875b9b5e|Expose vhost_custom_fragment|Mon, 17 Aug 2020 11:25:56 -0400|Fri, 21 Aug 2020 06:53:39 +0000
+1a1db45478186127f3c7f5a0047ea0380424deaa|Merge "Add non-voting TripleO Octavia CI job"|Mon, 10 Aug 2020 13:22:02 +0000|Mon, 10 Aug 2020 13:22:02 +0000
+bccc2303522d802f45909707ae34361b4ad2b0f2|Cleanup deprecated controller parameters from octavia::worker|Sun, 2 Aug 2020 23:32:30 +0900|Mon, 3 Aug 2020 07:58:28 +0900
+94ec48e057aaad089f16f5b879042baad5da1db9|Add non-voting TripleO Octavia CI job|Sun, 2 Aug 2020 16:53:54 +0200|Sun, 2 Aug 2020 16:55:43 +0200
+a172b1d9dcca3ffa805393f8d805f7ffe0f0739f|Prepare Victoria M2|Thu, 30 Jul 2020 13:35:29 +0800|Thu, 30 Jul 2020 13:35:29 +0800
+51c88c5e60a65e2d700324fb132a939a87446d4a|Merge "Switch oslo.policy over to yaml"|Fri, 17 Jul 2020 13:48:04 +0000|Fri, 17 Jul 2020 13:48:04 +0000
+e21746f37588caffe9c0cb4c4a02e351f65a348f|Add support for the interface parameter in authtoken middleware|Tue, 14 Jul 2020 21:27:21 +1000|Tue, 14 Jul 2020 21:28:52 +1000
+80cfe119bbd750c09410cd3469ea6fb38b738eeb|Change to relative include|Mon, 13 Jul 2020 21:22:31 +0200|Mon, 13 Jul 2020 21:22:31 +0200
+daa3c1269f29ecb7aac47f77e41c3ee8b082e15f|Switch oslo.policy over to yaml|Mon, 29 Jun 2020 20:43:33 +0200|Wed, 8 Jul 2020 15:43:53 -0230
+20493bf5c0a0118db94c99a94d81ffd7d5124764|Prepare Victoria M1|Fri, 19 Jun 2020 10:38:55 +0800|Fri, 19 Jun 2020 10:38:55 +0800
+246422247f68a75e54805a62b79a406c466062a6|Merge "Add support for [oslo_middleware] enable_proxy_headers_parsing"|Thu, 18 Jun 2020 14:15:42 +0000|Thu, 18 Jun 2020 14:15:42 +0000
+ddc7986e1821303b5a444f993888992cf8a7dcd7|Add support for [oslo_middleware] enable_proxy_headers_parsing|Thu, 18 Jun 2020 15:21:07 +0900|Thu, 18 Jun 2020 18:56:20 +0900
+9c7be31caae7f6c1a20adec935f2127b1ca7745e|Switch to newer openstackdocstheme and reno versions|Tue, 2 Jun 2020 14:45:45 +0200|Tue, 2 Jun 2020 14:45:45 +0200
+5310f9c1f835bd99cd3a14458b2ea75e12a495d3|Update Puppet requirement to >= 6.0.0|Sat, 30 May 2020 09:53:21 +0200|Sat, 30 May 2020 09:53:21 +0200
+77c5cdb43d2ff352d582c48d6d797e0e6661f846|Remove unnecessary puppet-rabbitmq from dependencies|Tue, 26 May 2020 22:18:08 +0900|Tue, 26 May 2020 22:18:08 +0900
+9624265161f01f0e1ea511d45f0d5f9071e621a4|Merge "Remove password hash generation in each puppet modules"|Wed, 20 May 2020 03:32:28 +0000|Wed, 20 May 2020 03:32:28 +0000
+1a02a99fc4a66bbfb7ff0024bbccfd8601f9f40b|Remove password hash generation in each puppet modules|Tue, 19 May 2020 20:30:34 +0900|Tue, 19 May 2020 20:31:28 +0900
+1f925355638848622c77b48618c0698c8cf16c13|Bump version for the start of Victoria|Thu, 14 May 2020 12:24:28 -0600|Thu, 14 May 2020 12:27:06 -0600
+f7f4438cac624962d48a24506c3cbc447b1af0b3|Merge "[ussuri][goal] Add CONTRIBUTING.rst"|Tue, 12 May 2020 12:46:30 +0000|Tue, 12 May 2020 12:46:30 +0000
+ff994567a661e99eb226334306e26fad7e9e0e4b|Bump reno to 2.5.0|Tue, 12 May 2020 10:50:06 +0800|Tue, 12 May 2020 10:50:06 +0800
+6f9b1fc575ef6304a5b715a4b3bf63588479e315|[ussuri][goal] Add CONTRIBUTING.rst|Sun, 10 May 2020 22:44:31 +0200|Sun, 10 May 2020 22:44:31 +0200
+fd58b7e93752bbd8ec71790ae27dbfa456612e40|Add CentOS8 to nodesets|Sun, 10 May 2020 21:48:25 +0900|Sun, 10 May 2020 21:48:25 +0900
+4b2d0bad4cf3cefd54831ba95b87951b3a6a76ff|Merge "Use anchor to require necessary packages"|Mon, 4 May 2020 00:58:58 +0000|Mon, 4 May 2020 00:58:58 +0000
+8c66365065261d6f26789e775ee83a2265443e2e|Use anchor to require necessary packages|Mon, 4 May 2020 02:26:22 +0900|Mon, 4 May 2020 02:26:22 +0900
+64341bc728e36c9bc011510b38f4d9babb3cc130|Runs on Debian 10.|Sat, 2 May 2020 22:47:18 +0200|Sat, 2 May 2020 22:47:28 +0200
+64778fccd06fa82b3af78a30eb87dad3c3aaf955|Bump openstackdocstheme to 1.30.0|Thu, 30 Apr 2020 15:28:37 +0800|Thu, 30 Apr 2020 15:28:37 +0800
+95927665ea41dd0cdc19fead5a664449e26be992|Fix rabbitmq version in metadata|Thu, 30 Apr 2020 14:04:44 +0800|Thu, 30 Apr 2020 14:04:44 +0800
+8a4af9d0707968a89e6def22658a5866d8f2b994|Change rpsec to rspec|Thu, 30 Apr 2020 13:24:46 +0800|Thu, 30 Apr 2020 13:24:46 +0800
+6a2a4da43b47463345241cec6a8c9f6f41799a81|Update master for stable/ussuri|Tue, 28 Apr 2020 14:56:09 +0000|Tue, 28 Apr 2020 14:56:09 +0000
+28b9a4f152a1c247dc62280882097b4d7b1f5c19|Prepare Ussuri RC1|Fri, 24 Apr 2020 14:23:10 +0800|Fri, 24 Apr 2020 14:23:10 +0800
+a780d52ac9e605ce5f0e3055490480fdb0bd45cd|Fix broken unit tests because of list in notification drivers|Wed, 15 Apr 2020 00:00:04 +0900|Wed, 15 Apr 2020 00:00:04 +0900
+caf3cc70d5d81a8b50f3c2763bf489c21792e074|Prepare Ussuri M3 again|Tue, 14 Apr 2020 00:06:23 +0900|Tue, 14 Apr 2020 00:06:23 +0900
+67c6f79985db86bbdd0c4f0aca89225c93c8f47d|Resolve duplicated requirement names in metadata|Mon, 13 Apr 2020 22:57:20 +0900|Mon, 13 Apr 2020 22:57:20 +0900
+50beefec45581de185ddc3b45bd019213295816b|Prepare Ussuri M3|Tue, 7 Apr 2020 09:21:16 +0800|Tue, 7 Apr 2020 09:21:16 +0800
+88ff210c3021583921f41532b190fe0c3bafca62|Add driver agent configuration|Wed, 5 Jun 2019 18:09:58 +0000|Thu, 2 Apr 2020 11:56:55 +0000
+17c5182534328130931186eedd6ec934a8b1534e|Merge "Add Octavia OVN Provider configuration (2 of 2)"|Tue, 31 Mar 2020 16:21:18 +0000|Tue, 31 Mar 2020 16:21:18 +0000
+d55839e38110a451ea0659e2eb13c71a225ddc85|Merge "Expect python3 client package in CentOS8"|Tue, 31 Mar 2020 16:09:52 +0000|Tue, 31 Mar 2020 16:09:52 +0000
+8c753d19a6016821eebde33a494e951d3077660a|Merge "Add CentOS 8 and Puppet 6 in metadata"|Tue, 31 Mar 2020 15:53:52 +0000|Tue, 31 Mar 2020 15:53:53 +0000
+ed973fe98945dd7cdf6fe160537e93b7c075ca78|Expect python3 client package in CentOS8|Tue, 31 Mar 2020 17:05:11 +0900|Tue, 31 Mar 2020 17:05:11 +0900
+8777b5031c611b7a4dd9cc9afbf0e65a0069ccf1|Add Octavia OVN Provider configuration (2 of 2)|Thu, 5 Mar 2020 16:40:44 -0500|Mon, 30 Mar 2020 09:41:24 -0400
+3161f834ff4c540b5662c99c5d00f9f86994eaa3|Update mysql module to <11.0.0|Mon, 30 Mar 2020 10:05:21 +0200|Mon, 30 Mar 2020 10:05:21 +0200
+7e499b5fbc51166d34708b7331ae4f2d9cfacfc4|Add CentOS 8 and Puppet 6 in metadata|Mon, 30 Mar 2020 09:29:54 +0200|Mon, 30 Mar 2020 07:49:40 +0000
+c73e14b5f867dbbb143b8d20102b26fb1cb5fd0c|Deprecate min_pool_size option|Wed, 25 Mar 2020 14:53:41 +0800|Wed, 25 Mar 2020 14:53:41 +0800
+4103b2dc824591494e968895dbf34c0a09d970ae|Remove idle_timeout option|Mon, 23 Mar 2020 14:45:49 +0800|Mon, 23 Mar 2020 14:45:49 +0800
+fe79fb1a5f03ecef594e22947b398fd712d925a3|Merge "Add Octavia OVN Provider configuration (1 of 2)"|Fri, 20 Mar 2020 22:59:50 +0000|Fri, 20 Mar 2020 22:59:50 +0000
+dce599e49898d7973805a389d3abf5048f9f5099|Add Octavia OVN Provider configuration (1 of 2)|Mon, 24 Feb 2020 16:01:48 -0500|Wed, 18 Mar 2020 10:00:11 -0400
+32bb8087c65b819db1f2a8c8defc398acdacfa57|Support amp_image_owner_id option for octavia controller|Thu, 5 Mar 2020 10:08:21 +1100|Tue, 10 Mar 2020 09:39:28 +0900
+c67e6fa14263a0a2201646678c663b880c6c6cd6|Improve unit test coverage in octavia::controller|Thu, 5 Mar 2020 21:03:12 +0900|Tue, 10 Mar 2020 08:00:32 +0900
+2afe375f788facd6c59d9389a370452a1fc938ef|Merge "Adds amp_active_retries and amp_active_wait_sec"|Mon, 9 Mar 2020 17:00:14 +0000|Mon, 9 Mar 2020 17:00:14 +0000
+3f652397169f165c02adb904008663a4cf4fbb5f|Adds amp_active_retries and amp_active_wait_sec|Fri, 6 Mar 2020 19:12:02 +0100|Fri, 6 Mar 2020 21:43:41 +0100
+5d8a4a86ed0c9b7d9033c8f2494f41fbacfe586f|Change the default for octavia-worker workers to os_workers|Wed, 4 Mar 2020 09:55:30 +1100|Thu, 5 Mar 2020 08:45:22 +1100
+b31859d8eecaff8c218c355e59f1a0292681ab27|Revert "Add Octavia OVN Provider configuration"|Wed, 4 Mar 2020 15:23:00 +0000|Wed, 4 Mar 2020 18:58:09 +0000
+81b45f9eab723a47265bb9d73725b2793a052167|Add Octavia OVN Provider configuration|Mon, 24 Feb 2020 16:01:48 -0500|Mon, 2 Mar 2020 14:50:44 -0500
+a3c06a4c651b14c2cae197faee20377f8aa7433e|Merge "[ussuri][goal] Cleanup for python 2.7 drop"|Tue, 18 Feb 2020 03:17:23 +0000|Tue, 18 Feb 2020 03:17:23 +0000
+cd76b771d28c62a5d652d2f75fa298330d2ea7b1|Merge "Add region_name for service_auth"|Sun, 16 Feb 2020 23:54:17 +0000|Sun, 16 Feb 2020 23:54:17 +0000
+cdd7813cc853985c94f3918251d247b58a923cf5|[ussuri][goal] Cleanup for python 2.7 drop|Sat, 15 Feb 2020 20:14:42 -0600|Sat, 15 Feb 2020 20:15:25 -0600
+43ab03de72fb0cffd3e9e13efdd8fbdc2fa615ee|Add region_name for service_auth|Sat, 15 Feb 2020 20:58:57 +0900|Sat, 15 Feb 2020 21:01:05 +0900
+1cfb6cd6c716145428e0028df5dac1c00d58d49d|Prepare Ussuri M2|Thu, 13 Feb 2020 14:21:29 +0800|Thu, 13 Feb 2020 14:21:29 +0800
+e5a5219dd98ba3989575b0c763b5f7460cf3bd45|Revert "Add parameters for amphora anti-affinity"|Sat, 14 Dec 2019 15:25:26 +0000|Sat, 14 Dec 2019 16:27:18 +0100
+50228311a3ff1ac3693d8375d5c2e43fdd890579|Fix stdlib version in metadata|Wed, 11 Dec 2019 11:53:03 +0800|Wed, 11 Dec 2019 11:53:03 +0800
+892d1acec1bba099eaa24f3d62240a8cc7540363|Prepare Ussuri M1|Tue, 10 Dec 2019 14:24:49 +0800|Tue, 10 Dec 2019 14:24:49 +0800
+7a1aaa80ce70a0c1996a5773654d02af0a07c977|Convert all class usage to relative names|Sun, 8 Dec 2019 23:15:10 +0100|Sun, 8 Dec 2019 23:15:17 +0100
+d58dccda0711c0d003e8ef4071a321b270dce20c|Remove extra line|Tue, 3 Dec 2019 14:51:33 +0800|Tue, 3 Dec 2019 14:51:33 +0800
+4bd67a42d0d812553db2caba2b56e01e90beaadb|Add parameters for amphora anti-affinity|Mon, 18 Nov 2019 10:59:14 -0800|Tue, 26 Nov 2019 14:00:18 +0000
+904c732828c50983b48d6fb6d5a86a20e1fd5927|Fix rabbitmq dependency|Tue, 29 Oct 2019 09:31:05 +0800|Tue, 29 Oct 2019 09:31:05 +0800
+8fd7b2e0ff231a602167af98f8fe7729c872b319|Add keepalivd vrrp parameters|Fri, 11 Oct 2019 10:16:03 +0200|Fri, 11 Oct 2019 15:17:28 +0200
+952e448d8fb141be1ccd50eb12ca05cc80a78f15|Add parameters for amphora log offloading|Fri, 20 Sep 2019 11:38:00 -0700|Wed, 9 Oct 2019 11:38:18 -0700
+8f1d89c9e136ce3e6ac45f8f441f8f36bef41012|Update master for stable/train|Fri, 4 Oct 2019 13:32:49 +0000|Fri, 4 Oct 2019 13:32:49 +0000
+7d38fa74a4ced79001f9f52643c7c5282e71a4f0|Merge "Update the constraints url"|Fri, 27 Sep 2019 02:16:22 +0000|Fri, 27 Sep 2019 02:16:22 +0000
+8c3b4d075113273221a34aeef72ce810590abc43|Update the constraints url|Thu, 26 Sep 2019 10:39:21 +0800|Thu, 26 Sep 2019 10:41:05 +0800
+4732c60a644f0a118bcc3de12929136472bde46d|Prepare Train RC1|Wed, 25 Sep 2019 13:45:43 +0800|Wed, 25 Sep 2019 13:45:43 +0800
+6f4e1a80f80cef8c3aaead4e0bb52c0d9f45ff2c|Merge "Add the "connection_logging" parameter"|Mon, 23 Sep 2019 11:37:53 +0000|Mon, 23 Sep 2019 11:37:53 +0000
+73ff86f73ff49a28eb6857ae1db1ca710816636c|Merge "Add support to configure service_token_roles in authtoken middleware"|Mon, 23 Sep 2019 08:03:34 +0000|Mon, 23 Sep 2019 08:03:34 +0000
+d1bc6f8e97b3e23430dafc0178b7a0b4a36bbbe3|Add support to configure service_token_roles in authtoken middleware|Sat, 21 Sep 2019 10:19:41 +0900|Sat, 21 Sep 2019 10:20:06 +0900
+20df1ec8795e34b022bab879e176a6a778315e42|Add the "connection_logging" parameter|Fri, 20 Sep 2019 12:44:13 -0700|Fri, 20 Sep 2019 12:45:15 -0700
+96fa23758dfcd4cf7379bf1b229fd392c9c24bd7|Add build_active_retries and port_detach_timeout|Tue, 17 Sep 2019 14:57:50 +0200|Tue, 17 Sep 2019 17:42:40 +0200
+31d89635ebcee7c7408509c375e72e72cde7c686|Prepare Train M4|Thu, 5 Sep 2019 09:04:50 +0800|Thu, 5 Sep 2019 09:04:50 +0800
+a504abc557866704792c701ddc3bad4dc906e695|Introduce the new rabbit_heartbeat_in_pthread option|Wed, 21 Aug 2019 14:21:01 +0800|Wed, 21 Aug 2019 14:24:13 +0800
+b098d97e3ad5fee9f30f7297190fd80bc4c1b966|Remove deprecated pki related options|Thu, 15 Aug 2019 11:51:38 +0800|Mon, 19 Aug 2019 13:54:53 +0000
+47e11f0999d147d5dac28760c11d02a514f41b24|Add placement service|Mon, 19 Aug 2019 07:54:20 -0600|Mon, 19 Aug 2019 07:54:20 -0600
+211d8a71e4d289deaaf54139357af17dae918df3|Bump the openstackdocstheme extension to 1.20|Tue, 13 Aug 2019 11:29:07 +0800|Tue, 13 Aug 2019 11:29:07 +0800
+4b2bb2ff0efa5f751359b3449da8bf63524ca035|Sync Sphinx requirement|Wed, 7 Aug 2019 09:10:09 +0800|Wed, 7 Aug 2019 09:10:09 +0800
+36ca9c36cbd414c056d87835a384e821f7b41fcd|Add support for connection retry variables|Tue, 30 Jul 2019 09:04:02 -0400|Fri, 2 Aug 2019 08:44:20 -0400
+9e62de27cd39356a4fa17c815b92a5e6a2215cab|Prepare Train M3|Wed, 24 Jul 2019 16:19:38 +0800|Wed, 24 Jul 2019 16:19:38 +0800
+e2da0fe4e8f28192d16d1be2bd75078e0f93a04c|Merge "Configure 32 chars length server_certs_key_passphrase for Octavia"|Mon, 8 Jul 2019 12:53:04 +0000|Mon, 8 Jul 2019 12:53:04 +0000
+d9564d7c235bc3073ef6eb444a6f1561fb6dffc5|Configure 32 chars length server_certs_key_passphrase for Octavia|Sun, 23 Jun 2019 16:39:36 +0300|Wed, 3 Jul 2019 18:33:31 +0300
+6a8720da4fc555b9fb4c7dd29ddedd753f3ec174|Deprecate spare_amphorae_pool_size|Fri, 28 Jun 2019 14:25:07 -0400|Tue, 2 Jul 2019 13:19:20 -0400
+ebf09d916670c421df8c174231f121c2c13b2504|Merge "Deprecate event_streamer_driver parameter"|Wed, 12 Jun 2019 01:31:21 +0000|Wed, 12 Jun 2019 01:31:21 +0000
+d7a171e21ceace57bf1e47b33bbdeac4363d3136|Prepare Train M2|Wed, 5 Jun 2019 09:40:21 +0800|Mon, 10 Jun 2019 10:04:44 +0800
+748f26fe2282ea00f5d71b4af2335eac8273cd9b|Deprecate event_streamer_driver parameter|Tue, 4 Jun 2019 15:22:09 +0200|Thu, 6 Jun 2019 19:05:24 +0200
+b0b8878faaf6ad4f4d8372c42a0c8433702bf74e|Fix client spec test|Mon, 20 May 2019 11:03:20 +0800|Mon, 20 May 2019 11:03:20 +0800
+f6f355dcfe78411ba876022707fd1f05762944ca|Add openstackclient installation to the client class|Thu, 16 May 2019 09:52:25 +0800|Fri, 17 May 2019 16:31:20 +0800
+a4f8833b726df2ebe4a84810b10262b0191405f5|Deprecate idle_timeout option|Sun, 28 Apr 2019 15:00:11 +0800|Sun, 28 Apr 2019 16:28:58 +0800
+29805c10de7c873ecea4bd90f14c285ee5e73af4|Merge "Provide more useful fail message"|Thu, 25 Apr 2019 15:19:19 +0000|Thu, 25 Apr 2019 15:19:19 +0000
+7c8cb7ec78f9d51bf8f67dc85b2bbc0cbd089539|Move to opendev|Wed, 24 Apr 2019 14:54:02 +0800|Wed, 24 Apr 2019 14:54:02 +0800
+59819e4afb9b4d600cb37d99436f40ad7dedc62e|Merge "Add support for configuring ovn_nb_connection for ovn provider"|Tue, 23 Apr 2019 16:09:27 +0000|Tue, 23 Apr 2019 16:09:27 +0000
+fef64a4d378e104ad49e3b2096d4216d5dd98a18|Merge "Move to opendev"|Mon, 22 Apr 2019 17:33:09 +0000|Mon, 22 Apr 2019 17:33:09 +0000
+9c3ddf4b9527be0f74db2d74c7d112534c2193b0|Add support for configuring ovn_nb_connection for ovn provider|Thu, 18 Apr 2019 09:57:03 +0530|Mon, 22 Apr 2019 17:58:18 +0530
+119f263ea73bb354e706f3d479be6313358df85b|Revert "Convert provider drivers to a json string for config file"|Wed, 17 Apr 2019 18:40:35 +0530|Mon, 22 Apr 2019 17:58:18 +0530
+cad16e87cb9259a3e30fef15bbb044db32bdbf95|Move to opendev|Sun, 21 Apr 2019 14:44:49 +0800|Sun, 21 Apr 2019 14:44:49 +0800
+219a5cc2cf31cd205444828aa3b6be885fe30f8b|Fix Repository|Sun, 21 Apr 2019 12:59:09 +0800|Sun, 21 Apr 2019 12:59:09 +0800
+b2704174f36e0ed3a7d4a9d53a983cf74711d193|Replace git.openstack.org with opendev.org/openstack|Sun, 21 Apr 2019 11:50:30 +0800|Sun, 21 Apr 2019 11:50:30 +0800
+88e079ea43f85962cd448fc1f7949ec2d4fc3967|OpenDev Migration Patch|Fri, 19 Apr 2019 19:36:29 +0000|Fri, 19 Apr 2019 19:36:29 +0000
+42f05dc08ce3aa42f7ffa2bb1cdda39b6f665f48|Add Beaker-Rspec to the table of contents|Wed, 17 Apr 2019 09:42:44 +0800|Wed, 17 Apr 2019 09:42:44 +0800
+79b672a3f223a5abe588152de761d3ca81753387|Merge "Configure server_certs_key_passphrase for Octavia"|Thu, 28 Mar 2019 18:32:09 +0000|Thu, 28 Mar 2019 18:32:09 +0000
+e8ae4607b43b2b5f686f7337540837cc024c0b71|Configure server_certs_key_passphrase for Octavia|Mon, 25 Mar 2019 17:08:31 +0200|Thu, 28 Mar 2019 13:09:35 +0200
+d25fde16be53ed75e844b0da7f0c2e3bb2fbcb62|Bump version for the start of Train|Mon, 25 Mar 2019 07:25:24 -0600|Mon, 25 Mar 2019 07:27:07 -0600
+35230eba0cc80f8856e95203c7a2c8d4016534a9|Update master for stable/stein|Fri, 22 Mar 2019 16:51:34 +0000|Fri, 22 Mar 2019 16:51:34 +0000
+2d633a4869051afff5cde7cffd99ad145a41d64b|Merge "Convert provider drivers to a json string for config file"|Wed, 20 Mar 2019 17:49:20 +0000|Wed, 20 Mar 2019 17:49:20 +0000
+7ddad2622413ef11424eb1e4e9e52fe09cdce4b2|Convert provider drivers to a json string for config file|Tue, 19 Mar 2019 09:46:41 -0230|Tue, 19 Mar 2019 10:32:37 -0230
+ffff502655b4634739aeaa2d07d04fe6adbf08a7|Prepare Stein RC1|Mon, 18 Mar 2019 10:38:15 +0800|Mon, 18 Mar 2019 10:38:15 +0800
+aa79dfd5c844184e7f6e0ca4c11a8bcd353b8174|Prepare Stein M3|Wed, 6 Mar 2019 14:55:46 +0800|Wed, 6 Mar 2019 14:55:46 +0800
+fd3ed63c16492a667dc12c039061abe157f657cd|Merge "Add release note about Ubuntu py3 upgrade"|Mon, 25 Feb 2019 17:42:50 +0000|Mon, 25 Feb 2019 17:42:50 +0000
+6754d3d611df6b96b624fbb9f65e1a2dcf26561c|Merge "Use validate_legacy"|Mon, 25 Feb 2019 17:42:49 +0000|Mon, 25 Feb 2019 17:42:49 +0000
+ed586f170a60938256bbc39f336989a26a7c41a3|Add release note about Ubuntu py3 upgrade|Sun, 24 Feb 2019 00:08:32 +0100|Sun, 24 Feb 2019 00:08:32 +0100
+9825c437e562e5cf876e7dec9503cc96e15fa411|Use validate_legacy|Sat, 23 Feb 2019 22:25:00 +0100|Sat, 23 Feb 2019 22:25:00 +0100
+76440d6e8a3b99d302f811e8e7bee62b1985a168|Merge "Service_token_roles_required missing in the server config file"|Mon, 18 Feb 2019 17:51:22 +0000|Mon, 18 Feb 2019 17:51:22 +0000
+6e5ae8e1c8e49f6418e47dfdcc226e97e906a517|Merge "Add support for configuring provider drivers"|Mon, 18 Feb 2019 17:41:19 +0000|Mon, 18 Feb 2019 17:41:19 +0000
+f78d430045daebaef5be00014f6907ca696343f6|Service_token_roles_required missing in the server config file|Fri, 15 Feb 2019 10:03:07 +0800|Fri, 15 Feb 2019 11:18:04 +0800
+82ed79389b09d01f94113bcdd44e1ff55e047619|Add support for configuring provider drivers|Wed, 13 Feb 2019 10:33:36 -0330|Wed, 13 Feb 2019 14:43:38 -0330
+9aa0149a85a688a14f2d073781474c5e5bf6aeac|Change wiki to docs|Wed, 13 Feb 2019 10:31:09 +0800|Wed, 13 Feb 2019 10:31:09 +0800
+826e1a5ab80419e81535e83e841132dea355b455|Merge "Use puppet 4 compatible mysql functions"|Mon, 11 Feb 2019 21:04:02 +0000|Mon, 11 Feb 2019 21:04:02 +0000
+3856be12d2ee1faf90e614a22abec39f11f359cd|Use puppet 4 compatible mysql functions|Fri, 8 Feb 2019 12:22:37 +0100|Fri, 8 Feb 2019 12:22:37 +0100
+c588f6f116b8dfb55280b9e2b41aa8fbaca79a9f|Remove Ubuntu Xenial from metadata.json|Fri, 8 Feb 2019 11:33:23 +0100|Fri, 8 Feb 2019 11:33:23 +0100
+a2aa65341e9513b0617b5b485def444d5decaf2a|Merge "update apache.pp [oportunity to opportunity]"|Fri, 25 Jan 2019 22:06:38 +0000|Fri, 25 Jan 2019 22:06:38 +0000
+4a866ff8af6e1f236941b01dfd89a9d50dcc6050|Fix lint issue|Fri, 25 Jan 2019 12:23:45 +0800|Fri, 25 Jan 2019 12:23:45 +0800
+f9b66699c1a622921db2de897b8282242abfe7a4|Merge "Remove redundantly tested code"|Sat, 19 Jan 2019 03:36:45 +0000|Sat, 19 Jan 2019 03:36:45 +0000
+860d24e5ce2926a523f11e6833b2779c1321dc6a|Merge "Inherit pyvers from openstacklib::defaults"|Sat, 19 Jan 2019 00:14:29 +0000|Sat, 19 Jan 2019 00:14:29 +0000
+e430afb8987dffcf448fd3b266512b9e3449df2b|Remove redundantly tested code|Fri, 18 Jan 2019 10:48:48 +0100|Fri, 18 Jan 2019 10:48:48 +0100
+efb5884150d07e2304e2d7956132a80159676e44|Inherit pyvers from openstacklib::defaults|Thu, 17 Jan 2019 21:45:31 +0100|Thu, 17 Jan 2019 21:45:31 +0100
+5e7845e20f6b9bb25692bf27502fc7a9ea608908|heatlh_manager default to os_workers|Thu, 20 Dec 2018 12:54:58 -0500|Thu, 17 Jan 2019 13:00:16 -0700
+a48d9b3076c9b7b6b81077dd26675c775b4be712|Modify puppet version 4 to 5|Tue, 15 Jan 2019 10:11:19 +0800|Tue, 15 Jan 2019 10:11:19 +0800
+6302a4316a9ae32cee62dc2018e71a377920f1f1|Prepare Stein M2|Thu, 10 Jan 2019 09:24:05 +0800|Thu, 10 Jan 2019 09:24:05 +0800
+faf253e7d9780958e8cbdf5932a46799a89b072e|update apache.pp [oportunity to opportunity]|Mon, 31 Dec 2018 15:53:00 +0800|Mon, 31 Dec 2018 15:55:36 +0800
+220a568a7098a09e601db83470f70955d8195efd|Merge "Dont include logging in init class by default"|Sat, 29 Dec 2018 21:05:15 +0000|Sat, 29 Dec 2018 21:05:15 +0000
+7eed6c9c721f57b5e612d0a7cf1178d196b10440|Add rabbitmq dependency|Tue, 25 Dec 2018 15:16:37 +0800|Tue, 25 Dec 2018 15:16:37 +0800
+ce2e2dd18bb60cb4e2ab159940ca83ee599a76f5|Fix editorial problem|Mon, 24 Dec 2018 14:02:30 +0800|Mon, 24 Dec 2018 14:02:30 +0800
+be7f05f2d1b7c508001bde1149830f8cf792b356|keystone/auth: make service description configurable|Mon, 17 Dec 2018 14:28:38 +0800|Mon, 17 Dec 2018 14:28:38 +0800
+8ff9684428f088f5a3ffe8e67060c13691ec9bb9|Cleanup documentation|Thu, 13 Dec 2018 17:10:02 +0800|Thu, 13 Dec 2018 17:10:02 +0800
+13ac7c6eb94fea648ed2eb69215289504e4581af|Merge "Fix module structure"|Thu, 13 Dec 2018 01:14:26 +0000|Thu, 13 Dec 2018 01:14:26 +0000
+fb6d810019bcddbd8c9818ad2831d8e576277751|Fix module structure|Wed, 12 Dec 2018 11:44:57 +0100|Wed, 12 Dec 2018 11:44:57 +0100
+48a33dbc5a37a2f32d86e338a9e8522686d2cad4|Install python3 in Fedora or RedHat > 7|Tue, 11 Dec 2018 16:02:07 +0800|Wed, 12 Dec 2018 08:28:54 +0800
+3ef3c45df38ec73a971da8c06356c41de46885a8|Change openstack-dev to openstack-discuss|Sun, 2 Dec 2018 18:20:19 +0100|Sun, 2 Dec 2018 18:20:19 +0100
+e79ba9a3bcea1f69c57c170db654b36543bfdede|Merge "Re-include octavia::db in octavia::api"|Fri, 30 Nov 2018 20:08:56 +0000|Fri, 30 Nov 2018 20:08:56 +0000
+84a33ab65f0e6f68ff7f3f31b342b4d00e863d3e|Re-include octavia::db in octavia::api|Mon, 26 Nov 2018 20:59:47 +0100|Thu, 29 Nov 2018 12:06:17 +0100
+f6d2fb7d409a919ad2418609ee1f80a865486574|Dont include logging in init class by default|Thu, 29 Nov 2018 10:54:40 +0100|Thu, 29 Nov 2018 10:54:40 +0100
+c9277aa6325f86181b93d9a5436cbc6d1e8853a3|Remove auth_uri|Thu, 29 Nov 2018 00:04:29 +0100|Thu, 29 Nov 2018 00:04:29 +0100
+f76449e686935ea9d3f164312b52e3f2ed15a649|Merge "Set show_diff to false on certificates"|Tue, 27 Nov 2018 19:40:17 +0000|Tue, 27 Nov 2018 19:40:17 +0000
+35bf1c81312c580505d53538968a38c52186172a|Merge "Create certificates are package installs"|Tue, 27 Nov 2018 19:22:13 +0000|Tue, 27 Nov 2018 19:22:13 +0000
+45203329dc72be017514b1a92ed22c49961d60f5|Merge "Convert to rspec-puppet-facts"|Tue, 27 Nov 2018 17:19:26 +0000|Tue, 27 Nov 2018 17:19:26 +0000
+e1f114d0563c1a8e49d34bb78e9abbdfa737941e|Convert to rspec-puppet-facts|Sat, 24 Nov 2018 15:55:30 +0100|Sat, 24 Nov 2018 15:55:57 +0100
+768d2900eb3e0e11ecbbadc2095c6659531ff2fc|Create certificates are package installs|Fri, 23 Nov 2018 21:05:56 +0100|Fri, 23 Nov 2018 21:30:44 +0100
+45ecee290b9580c6a4b5ace72c551b63d61540b9|Set show_diff to false on certificates|Fri, 23 Nov 2018 21:18:38 +0100|Fri, 23 Nov 2018 21:28:45 +0100
+3f0847a63225c26b6bddfa37d839e9f5690f311d|Deprecate pki related options|Thu, 22 Nov 2018 11:31:57 +0800|Fri, 23 Nov 2018 10:23:32 +0800
+0ea4e10dd3e848c299b6b23b0e962f42ba76c327|Fix octavia::controller redeclaration|Tue, 20 Nov 2018 15:55:00 +0100|Tue, 20 Nov 2018 16:26:09 +0100
+6ffe2b4de24d75e0c418499ab58f153d84d27fe6|Merge "Add octavia::controller::controller_ip_port_list"|Thu, 15 Nov 2018 02:07:41 +0000|Thu, 15 Nov 2018 02:07:41 +0000
+589d79bbea83c029130bfab7aa46526353ab8f87|Add octavia::controller::controller_ip_port_list|Wed, 7 Nov 2018 14:53:13 +0100|Wed, 14 Nov 2018 09:47:09 +0100
+01593b19570ff75ff50895833908b5a88b63389a|Prepare Stein M1|Tue, 13 Nov 2018 14:53:24 +0800|Tue, 13 Nov 2018 14:53:24 +0800
+d86bba94e6537415fb5be4b8f50bc0c0ff96fd7a|Fix stdlib version in metadata|Fri, 9 Nov 2018 14:56:40 +0800|Fri, 9 Nov 2018 14:56:40 +0800
+7a9ca0fef75ede61c371a836f70258412ff1f6e1|Merge "Certificate changes should restart services"|Wed, 7 Nov 2018 02:03:47 +0000|Wed, 7 Nov 2018 02:03:47 +0000
+ab310a65e359a569672fbb60bab5d1403714a303|Certificate changes should restart services|Mon, 5 Nov 2018 16:40:03 +0100|Mon, 5 Nov 2018 16:40:03 +0100
+b264336992338405cc5d3f98ceb6df8f906c57e5|Set common configuration options across services|Mon, 22 Oct 2018 15:24:59 +0200|Sat, 3 Nov 2018 00:11:25 +0100
+6c768b0c91d015d6ab9046b408d649eb0dcf722c|Do not set inexistent haproxy_amphora/key_path|Fri, 19 Oct 2018 15:38:04 +0200|Mon, 29 Oct 2018 16:08:54 +0100
+99b7aa40b934abe8ac9161a0a6e36b540b3b517a|Merge "Add posibilities to set default values for timeouts"|Fri, 26 Oct 2018 03:55:12 +0000|Fri, 26 Oct 2018 03:55:12 +0000
+2bf9dc6ab67f7dc8a2e3e57b02682e0c719f8b74|Add posibilities to set default values for timeouts|Wed, 10 Oct 2018 16:28:46 +0200|Thu, 25 Oct 2018 21:36:13 +0000
+13989b4e6718d12af6f63a6d79d51041ccaa45be|Removed faulty option in context block|Sun, 21 Oct 2018 17:31:13 +0200|Sun, 21 Oct 2018 17:31:13 +0200
+a040311dfcbf5725a5d28aa86ca13fa80ac30379|Update min tox version to 2.0|Tue, 16 Oct 2018 11:40:18 +0800|Tue, 16 Oct 2018 11:40:18 +0800
+7acccc6b096fa8287450c08922c55e3f5eb176cf|Dissuade .gitignore references to personal tools|Mon, 8 Oct 2018 11:39:24 +0800|Mon, 8 Oct 2018 11:39:24 +0800
+9f0de68735539fa0839e478bdd7e3cde17d8954a|Merge "Add release note for database change"|Mon, 24 Sep 2018 22:52:52 +0000|Mon, 24 Sep 2018 22:52:52 +0000
+782018911634a73381d0e0bb7582cf250a31b127|Add release note for database change|Fri, 14 Sep 2018 12:18:25 +0200|Fri, 14 Sep 2018 12:18:25 +0200
+c0dd4061b96795d78805ac010fce9f5ab15430bb|Provide more useful fail message|Thu, 13 Sep 2018 20:10:41 -0400|Thu, 13 Sep 2018 20:30:59 -0400
+c65d6ccae484e69987ef2b3bbcfa36a3e380f0a9|Fix the duplicated vars defined|Thu, 13 Sep 2018 17:05:48 -0400|Thu, 13 Sep 2018 17:27:59 -0400
+a8dcb114bab98807952d70ffd36ef081aff0cb25|Merge "Add the missing 'Table of Contents'"|Sat, 8 Sep 2018 14:33:09 +0000|Sat, 8 Sep 2018 14:33:09 +0000
+cb406347fb087d21c4c79441010599bc7000ff60|Merge "Added missing DB params to init class"|Thu, 6 Sep 2018 21:51:56 +0000|Thu, 6 Sep 2018 21:51:56 +0000
+d9860d35ba29ef198fdce5c8b15c89ffff754dfc|Merge "Bump version for the start of Stein"|Fri, 31 Aug 2018 21:36:00 +0000|Fri, 31 Aug 2018 21:36:00 +0000
+057b4140add459168a0936e9e0ec7a7e345d6d45|Merge "Fix stupid spacing"|Fri, 31 Aug 2018 20:46:17 +0000|Fri, 31 Aug 2018 20:46:17 +0000
+bfe1e53d62b4bed2a74b52bd53d0857bdaee0b06|Merge "Add octavia::certificates::client_ca and data"|Fri, 31 Aug 2018 20:27:34 +0000|Fri, 31 Aug 2018 20:27:34 +0000
+8833f40cdd6f7946889de3856e2e01998ae1f83d|Fix stupid spacing|Fri, 31 Aug 2018 19:26:16 +0200|Fri, 31 Aug 2018 19:26:16 +0200
+2b83ae20f2c18e8ce2eebfa4cdfe301625ec4ff4|Add octavia::certificates::client_ca and data|Fri, 31 Aug 2018 17:51:41 +0200|Fri, 31 Aug 2018 18:01:10 +0200
+e78054f1a782b24e7d92ff4014ebcef096567de6|switch documentation job to new PTI|Fri, 31 Aug 2018 08:24:41 -0400|Fri, 31 Aug 2018 08:24:41 -0400
+28421c70b949fdb036b607162a703ba89ecf2786|import zuul job settings from project-config|Fri, 31 Aug 2018 08:20:18 -0400|Fri, 31 Aug 2018 08:20:18 -0400
+45673eefb52e160723d7c713902d8091ec373f08|Added missing DB params to init class|Tue, 28 Aug 2018 13:32:18 +0000|Thu, 30 Aug 2018 20:29:37 +0000
+e1531c3bcb615398d546b6bdcfee960ee67102a0|Add Octavia API WSGI support|Thu, 30 Aug 2018 09:49:42 +0200|Thu, 30 Aug 2018 20:59:47 +0200
+650b5550e418125f0e0186676447fc702ac74ef8|Merge "Add octavia::neutron to configure nova section"|Thu, 30 Aug 2018 18:47:59 +0000|Thu, 30 Aug 2018 18:47:59 +0000
+90cdc6dfa90c2496ca85531b845be6279ad1c1eb|Merge "Add octavia::glance to configure glance section"|Thu, 30 Aug 2018 18:47:58 +0000|Thu, 30 Aug 2018 18:47:58 +0000
+8f3893a67ddc4225713415c1831a7ed5f92c7303|Merge "Add octavia::nova to configure nova section"|Thu, 30 Aug 2018 18:47:39 +0000|Thu, 30 Aug 2018 18:47:39 +0000
+ee2326e23b09b4bbb47ab05372f0627bce2e9f81|Merge "Add missing options to octavia::certificates"|Thu, 30 Aug 2018 18:47:39 +0000|Thu, 30 Aug 2018 18:47:39 +0000
+e97bca83b8217bebe9036fac5c979779a3eb9748|Merge "Add workers support to octavia::worker class"|Thu, 30 Aug 2018 18:47:38 +0000|Thu, 30 Aug 2018 18:47:38 +0000
+982535386dcdd0b98aed1f6efc3b5502308dc23b|Bump version for the start of Stein|Thu, 30 Aug 2018 12:08:29 -0600|Thu, 30 Aug 2018 12:10:30 -0600
+d2a9586a59576e366bf204655f2d877b19981048|Add octavia::neutron to configure nova section|Thu, 30 Aug 2018 11:52:57 +0200|Thu, 30 Aug 2018 14:19:24 +0200
+6731e53bb56fe59c8453b0db5b6be5e3d1f2e160|Add octavia::glance to configure glance section|Thu, 30 Aug 2018 11:40:02 +0200|Thu, 30 Aug 2018 10:55:37 +0000
+9b285e740f4fa79003b344649c069772f3f28e50|Add missing options to octavia::certificates|Thu, 30 Aug 2018 11:10:04 +0200|Thu, 30 Aug 2018 11:55:22 +0200
+6864cd083dd84e520ed092912851da473c5ece2f|Add octavia::nova to configure nova section|Thu, 30 Aug 2018 11:34:53 +0200|Thu, 30 Aug 2018 09:53:56 +0000
+7d6badaac803aa33bdd7d0f98ae18cc441924c34|Add workers support to octavia::worker class|Wed, 29 Aug 2018 21:27:45 +0200|Wed, 29 Aug 2018 22:13:18 +0200
+6e7daccea4b0ceb3f9e9b5cbb6a51ae1d59b4b86|Add api_v1_enabled and api_v2_enabled options|Wed, 29 Aug 2018 18:21:22 +0200|Wed, 29 Aug 2018 18:22:42 +0200
+14c52579f186c87dbbca61cd499e0624243af65c|Add allow_tls_terminated_listeners config option|Wed, 29 Aug 2018 11:36:44 +0200|Wed, 29 Aug 2018 11:36:44 +0200
+e361fe86771ea54ce3fdd9cceb7080803518b55e|Add the missing 'Table of Contents'|Mon, 27 Aug 2018 15:20:18 +0000|Tue, 28 Aug 2018 13:35:58 +0000
+54c9e53a27f51ee29bee1651aef6c1d16bd7da4c|Update reno for stable/rocky|Mon, 20 Aug 2018 18:40:01 +0000|Mon, 20 Aug 2018 18:40:01 +0000
+3296b0f5d5f0ca3d3c9498dc3d32578a9422dee9|Remove PE requirement from metadata.json|Thu, 16 Aug 2018 23:23:40 +0200|Thu, 16 Aug 2018 23:23:50 +0200
+7361bae076f842ebd7ac469aa3428cf49b8e722a|Prepare Rocky RC1|Tue, 14 Aug 2018 08:56:17 -0600|Tue, 14 Aug 2018 08:58:12 -0600
+dcb613484330d2b82baf411bf41b11bd64553700|Fix the smoke testing link|Mon, 30 Jul 2018 12:31:32 -0400|Mon, 30 Jul 2018 12:31:32 -0400
+24892232e2fb34d1011428530dd3ecb26a730c6e|Merge "Fix OS versions in metadata"|Tue, 24 Jul 2018 21:07:39 +0000|Tue, 24 Jul 2018 21:07:39 +0000
+1cb270213224286f6e3d3aa7e59ac1ef68c39395|Merge "Remove the unnecessary _"|Tue, 24 Jul 2018 21:07:39 +0000|Tue, 24 Jul 2018 21:07:39 +0000
+05f3062e450a5c5dfcbc2fc523289aff172e6eba|Prepare Rocky M3|Tue, 24 Jul 2018 10:17:05 -0600|Tue, 24 Jul 2018 10:19:23 -0600
+c85531911e88267b645f68ead77a9f3b62e960a8|Fix OS versions in metadata|Mon, 23 Jul 2018 12:20:09 +0800|Mon, 23 Jul 2018 12:54:55 +0000
+59cb012aaa7f62f940188528800dcad16856239a|Remove the unnecessary _|Wed, 18 Jul 2018 15:18:31 -0400|Wed, 18 Jul 2018 15:31:42 -0400
+08c614bb19296193e9a0f4a4efe0c4ce9fecbe4c|Add the project source code repository in README|Fri, 20 Jul 2018 19:55:50 +0800|Fri, 20 Jul 2018 19:56:33 +0800
+71a40398820b9079a189503c780bdb588b9106e0|modulesync: sync and add nodepool-bionic for beaker|Wed, 18 Jul 2018 16:19:11 +0200|Wed, 18 Jul 2018 16:19:11 +0200
+7d8d375a3aaf98f9cf00613a51de680e38d26cf4|Fix inifile version in metadata|Mon, 16 Jul 2018 14:59:26 +0800|Mon, 16 Jul 2018 14:59:26 +0800
+4db066690ad37959c450b238d9bf00f8350fffed|Debian release is 9 in metadata|Wed, 11 Jul 2018 17:57:56 +0700|Wed, 11 Jul 2018 17:58:21 +0700
+aeb23eb4b5fbc26ca2be2e0705cfd716ad541028|add release note link in readme|Thu, 21 Jun 2018 14:57:41 +0000|Thu, 21 Jun 2018 15:00:01 +0000
+28ac2c12f9c2234086dfeaca96fff7a194d9e02b|Fix annotations|Fri, 15 Jun 2018 15:07:37 +0800|Fri, 15 Jun 2018 15:07:37 +0800
+76c41b34050a7aafe8de76345eb03e51edf7ba11|Merge "fix tox python3 overrides"|Tue, 12 Jun 2018 08:09:17 +0000|Tue, 12 Jun 2018 08:09:17 +0000
+0ea779eeab8e3da98580e91316b4c50d1b113555|Merge "fix a typo"|Tue, 12 Jun 2018 00:05:47 +0000|Tue, 12 Jun 2018 00:05:47 +0000
+8ee762df4671cf6a0648f514dff107c7ad902b21|fix tox python3 overrides|Fri, 8 Jun 2018 14:23:32 +0800|Fri, 8 Jun 2018 14:23:32 +0800
+82819173b452ef5418cf6ddae9eec9d2304bf212|Prepare a new Rocky release|Tue, 5 Jun 2018 09:43:25 -0700|Tue, 5 Jun 2018 09:46:25 -0700
+01d2002d52a79e23c110dd161909505890a44e90|fix a typo|Tue, 5 Jun 2018 18:05:30 +0800|Tue, 5 Jun 2018 18:06:29 +0800
+e40a1746cb2b6c3e2d761935ef28d9f201793eff|Merge "Replace port 35357 with 5000 for "auth_url""|Mon, 28 May 2018 13:01:00 +0000|Mon, 28 May 2018 13:01:00 +0000
+0be13a60829558a14c9570cace8e5d2152979ce7|Remove deprecated rpc_backend param|Thu, 24 May 2018 11:03:35 +0800|Thu, 24 May 2018 11:03:35 +0800
+b833ae6c16ebb3144fe7c64b8875a0bad1f99e14|Replace port 35357 with 5000 for "auth_url"|Mon, 21 May 2018 14:56:11 +0800|Mon, 21 May 2018 14:56:11 +0800
+a887994258d056c85760d69ff911f2fd8d3c3939|Add octavia::quota class|Mon, 7 May 2018 12:06:25 +1200|Mon, 7 May 2018 12:06:25 +1200
+2b995012ab97bf02d6bf8a592bbe86624f2fc920|Prepare Rocky M1|Thu, 19 Apr 2018 08:54:37 -0600|Thu, 19 Apr 2018 08:57:10 -0600
+567ffaaf480af5a314281f7f9a73a4b428884765|Merge "Update .gitignore"|Wed, 18 Apr 2018 00:56:47 +0000|Wed, 18 Apr 2018 00:56:47 +0000
+cdc873432558973266d63e272289c2143142a8e2|Merge "Add keystone roles for Octavia policies"|Fri, 13 Apr 2018 15:22:39 +0000|Fri, 13 Apr 2018 15:22:39 +0000
+151d2678b167d8eb7ef9a492fbf40224225aefe7|Merge "Debian is using python3-octaviaclient"|Fri, 13 Apr 2018 03:37:36 +0000|Fri, 13 Apr 2018 03:37:36 +0000
+ed3345dd2fb11500e598e0f123d93e2bbe937d04|Merge "Deprecate auth_uri option"|Fri, 13 Apr 2018 03:35:49 +0000|Fri, 13 Apr 2018 03:35:49 +0000
+31f0bd4b6057afc11d6559e873c4f9d6254695be|Debian is using python3-octaviaclient|Thu, 12 Apr 2018 11:22:42 +0800|Thu, 12 Apr 2018 11:23:12 +0800
+d6c8f91f6394b7bd1c82fd6212b81d4a10590a3b|Add keystone roles for Octavia policies|Tue, 10 Apr 2018 11:26:03 -0230|Wed, 11 Apr 2018 14:18:29 -0230
+e0d26ea2c4f178892621a0b82f46d3297262442c|Update .gitignore|Wed, 11 Apr 2018 08:43:44 +0800|Wed, 11 Apr 2018 08:55:31 +0800
+32a7483cadff3a86d43816dd54de3d0dd519f8da|Update LICENSE|Fri, 6 Apr 2018 10:18:57 +0800|Fri, 6 Apr 2018 20:14:49 +0800
+808cb7e7d7be11fab8ae0f396faab057d9629bc8|Deprecate auth_uri option|Tue, 3 Apr 2018 16:55:03 +0800|Tue, 3 Apr 2018 16:55:03 +0800
+1f3ee8eccb1f5d00e4ba6f205944e858f04facf4|Remove deprecated ensure_package option|Thu, 29 Mar 2018 12:01:15 +0800|Thu, 29 Mar 2018 12:01:15 +0800
+3ee646a7e0d3aebd899c6399fd1b45988feaf42f|Remove deprecated keystone authtoken revocation_cache_time option|Tue, 27 Mar 2018 10:33:23 +0800|Tue, 27 Mar 2018 10:33:23 +0800
+3635cb00d5cb6d6cfabd73bfbc1111092cb4b47f|Merge "Add pool_timeout option"|Tue, 27 Mar 2018 00:39:59 +0000|Tue, 27 Mar 2018 00:39:59 +0000
+b81ab98b5bab3ac1399bcf6cbaf19f2041df8f5b|fix a typo in documentation|Fri, 23 Mar 2018 07:02:57 +0800|Fri, 23 Mar 2018 07:02:57 +0800
+5578d67159906535c0c5ddb090702de6e967135c|Add pool_timeout option|Thu, 22 Mar 2018 11:09:50 +0800|Thu, 22 Mar 2018 11:09:50 +0800
+fd3b9d66811350242615f900437f3aba29bc1d9a|Add 'openstack-db' tag to db-sync Exec resource|Mon, 12 Mar 2018 16:33:09 +0800|Mon, 12 Mar 2018 16:33:09 +0800
+72abc575f646d3fe3db6c23df60626ad4a04c969|Follow the new PTI for document build|Wed, 28 Feb 2018 14:42:11 +0800|Wed, 28 Feb 2018 14:42:11 +0800
+ba29cb46df0dfcf61efcc270ec3cb48a3e70cfc8|Update reno for stable/queens|Tue, 20 Feb 2018 22:17:12 +0000|Tue, 20 Feb 2018 22:17:12 +0000
+c0cb342c70b664126c419c9264626a4fe1667162|Prepare for official Queens release|Mon, 19 Feb 2018 12:37:52 -0500|Mon, 19 Feb 2018 12:41:54 -0500
+579a517240e9750d52be47e653c8a9c09919f87a|Merge "Add kombu_failover_strategy option"|Tue, 13 Feb 2018 19:45:35 +0000|Tue, 13 Feb 2018 19:45:35 +0000
+d153bf8d12fb5037c0ebc98871c5cecc5ba1d7fa|Load puppet-openstack_spec_helper locally during tests|Mon, 12 Feb 2018 10:53:38 +0800|Mon, 12 Feb 2018 10:53:38 +0800
+f0068d143b94002ecf6f9b6a568fdf4b05a7da6c|Add kombu_failover_strategy option|Fri, 9 Feb 2018 14:56:06 +0800|Fri, 9 Feb 2018 15:13:18 +0800
+4bb15efe836053b872c266855f5e868375e764e5|Define octavia client package for Red Hat family|Thu, 8 Feb 2018 15:32:42 +0000|Thu, 8 Feb 2018 15:41:59 +0000
+2e98c9fa2da52870bf4abbee31a8d6f0246ea4e7|Zuul: Remove project name|Wed, 24 Jan 2018 16:34:00 -0800|Sat, 27 Jan 2018 09:55:53 -0800
+a8a2fe98c30567ed72e3a66046b098d23d36341e|Merge "Add amp_project_name to configure flavor access list"|Fri, 19 Jan 2018 23:14:39 +0000|Fri, 19 Jan 2018 23:14:39 +0000
+3dc8602da67c4bed1d85cc8563773daf1b514086|Add amp_project_name to configure flavor access list|Tue, 16 Jan 2018 16:32:09 -0330|Wed, 17 Jan 2018 13:51:11 -0330
+6704fee8847116087b5432f267c97d3af7adbba6|Merge "Remove pinned versions from test-requirements.txt"|Wed, 17 Jan 2018 13:58:55 +0000|Wed, 17 Jan 2018 13:58:55 +0000
+19ac103c7f2317acbe2fd8f6fe2faa10781fc4fb|Prepare for Queens Milestone 3|Tue, 16 Jan 2018 15:51:10 -0800|Tue, 16 Jan 2018 15:54:41 -0800
+77367afb8658bf2febae58223dd2f1c0d515ea37|Remove pinned versions from test-requirements.txt|Tue, 16 Jan 2018 12:29:47 +0800|Tue, 16 Jan 2018 12:29:47 +0800
+d2fa948463cd4ca9929894735df37370ebcae8a0|Add use_journal option for logging configuration|Mon, 15 Jan 2018 16:06:56 +0800|Mon, 15 Jan 2018 16:06:56 +0800
+bab31c0ba257948e1c5e01754da0630fc3c3688d|Add group to policy management|Wed, 10 Jan 2018 14:10:15 -0800|Wed, 10 Jan 2018 14:23:29 -0800
+c408df93936be1a314286fc5d93cc4778c1e7084|Run puppet-openstack-beaker-jobs|Thu, 21 Dec 2017 18:58:09 -0800|Thu, 21 Dec 2017 18:58:09 -0800
+30f3247a1a4582b31e3c0320f8f338e9f9a5f772|Fix the misspelling of "octavia"|Wed, 20 Dec 2017 16:19:17 +0800|Wed, 20 Dec 2017 16:19:17 +0800
+898382e24a1f192380b35ed47fdf9babb89ba13c|Merge "Allow disabling SSH access to amphora"|Wed, 13 Dec 2017 23:25:15 +0000|Wed, 13 Dec 2017 23:25:15 +0000
+8626d273222158d5f60a41735d6951976a96e45f|Allow disabling SSH access to amphora|Tue, 12 Dec 2017 12:44:39 -0330|Wed, 13 Dec 2017 10:59:44 -0330
+8cb1a195e452be579818f747b5838eefcc67f599|Add auth_type parameter to service_auth section|Tue, 12 Dec 2017 12:20:38 -0330|Tue, 12 Dec 2017 12:20:38 -0330
+a5e4f235d1f59fc720f4dcd726040ffb32936343|Support populating certificate files|Tue, 5 Dec 2017 23:18:01 -0330|Thu, 7 Dec 2017 10:59:44 -0330
+9faccf9cac24d51a8ba140a2e25eb852bbf6d004|Adding service_auth configuration|Tue, 5 Dec 2017 16:05:31 -0330|Wed, 6 Dec 2017 10:01:02 -0330
+f6c2841c458ad8c88d6e3eba21c560c1688cf9d4|Prepare for Queens Milestone 2|Tue, 28 Nov 2017 16:14:20 -0700|Tue, 28 Nov 2017 16:18:56 -0700
+65e32066a13fba5c7c0fc50fcac6c4acac0d0b83|Expose use_json logging option|Mon, 27 Nov 2017 15:00:28 +0200|Mon, 27 Nov 2017 15:00:28 +0200
+72889e8aed662d78d5c42f4ecb4defd97d954507|Merge "Add ability of managing ssh key generation"|Tue, 7 Nov 2017 20:43:09 +0000|Tue, 7 Nov 2017 20:43:09 +0000
+79a4f0790474b83a52a3a7e3bf5f27e0e79cf6e1|Merge "Change Amphora flavor from public to private"|Thu, 2 Nov 2017 18:01:15 +0000|Thu, 2 Nov 2017 18:01:15 +0000
+fc7dbda80cc8a6af1c1805167a84b5e21ff3fcb6|Add octavia::client class|Thu, 2 Nov 2017 09:03:43 +0800|Thu, 2 Nov 2017 09:03:43 +0800
+aa19faa05d9d51d63d537474a0f26c20cde33b85|Change Amphora flavor from public to private|Thu, 2 Nov 2017 05:58:58 +0800|Thu, 2 Nov 2017 06:17:27 +0800
+aec818f1ea3ac9ae4c742973c96a348828967756|Merge "Switch to Zuul v3 testing"|Wed, 1 Nov 2017 05:27:00 +0000|Wed, 1 Nov 2017 05:27:00 +0000
+952417f622642bb5856aa1c2a1ca2619ae317503|Add ability of managing ssh key generation|Mon, 30 Oct 2017 09:25:05 +0800|Tue, 31 Oct 2017 05:02:28 +0800
+1dd9d73fd8780de84c9a20ccb345121f7c33c1d4|Add Puppet package to bindep, for module build|Fri, 27 Oct 2017 13:14:48 -0700|Fri, 27 Oct 2017 13:14:48 -0700
+0b98d3730cf22f0f0471f06fbb17feeb077acfc5|Switch to Zuul v3 testing|Wed, 25 Oct 2017 17:44:41 +0800|Wed, 25 Oct 2017 17:44:41 +0800
+ccda9f839f104a03993eae93f4b984ce3e384fed|Prepare for Queens Milestone 1|Tue, 17 Oct 2017 14:26:32 -0600|Wed, 18 Oct 2017 01:53:28 +0000
+763e565fcd326fc6bf8aae9dc79c4fdb36a3d55e|Configure *_domain_name to Default by default|Fri, 6 Oct 2017 10:42:41 -0400|Fri, 6 Oct 2017 10:42:54 -0400
+0872bd0f2f1337d18e57acb878410f04edca59e7|Update to the latest address in README|Thu, 21 Sep 2017 12:01:42 +0800|Thu, 21 Sep 2017 12:01:42 +0800
+8827dd06e495f98e2b34700179ffa5e5a5df3bcd|Update openstackdocstheme to latest version|Tue, 19 Sep 2017 22:01:28 +0800|Wed, 20 Sep 2017 10:58:57 +0800
+2461ed5848b9163cbdd23a2731eb60e98e53dc61|Merge "Deprecate revocation_cache_time option"|Tue, 19 Sep 2017 00:46:01 +0000|Tue, 19 Sep 2017 00:46:01 +0000
+0fdc4d39ab1b86ac5a023df3ce9c1e0fa599505e|Add api_handler option|Thu, 14 Sep 2017 15:48:38 +0800|Mon, 18 Sep 2017 09:27:14 +0800
+240af51915dd9877fd380eae16f0a459992af5db|deprecate bind_host, bind_port and auth_strategy options|Thu, 14 Sep 2017 15:29:26 +0800|Thu, 14 Sep 2017 15:29:26 +0800
+8859ec2d2347eaae70908d7d880cd1438c549e23|Deprecate revocation_cache_time option|Thu, 14 Sep 2017 11:49:45 +0800|Thu, 14 Sep 2017 11:49:45 +0800
+79ad7af31467a9862dbcce99e2eaf5af337aca88|Merge "Add worker configuration for amphora communication."|Wed, 6 Sep 2017 07:22:49 +0000|Wed, 6 Sep 2017 07:22:49 +0000
+3d72b705547007a2268ffdd9428cf4d1fa405a49|Add worker configuration for amphora communication.|Tue, 18 Jul 2017 16:04:39 +0000|Tue, 5 Sep 2017 14:02:36 +0000
+24b2628698c95698a057e45a83ac4cc9e0210ad5|Use Python to compute release notes version|Wed, 30 Aug 2017 13:45:54 -0700|Wed, 30 Aug 2017 13:45:54 -0700
+f86f784a737224b3324b98f405f68f730c5ad6fb|Merge "Update versions for Queens cycle"|Fri, 25 Aug 2017 14:28:46 +0000|Fri, 25 Aug 2017 14:28:46 +0000
+a3c8815a0408c674436e854e763dcc43c31fff62|Merge "Update reno>=2.5.0"|Fri, 25 Aug 2017 14:28:36 +0000|Fri, 25 Aug 2017 14:28:36 +0000
+e14cb712f65060d4d8065055983de22a2f0a567a|Update versions for Queens cycle|Thu, 24 Aug 2017 13:06:05 -0600|Thu, 24 Aug 2017 13:07:47 -0600
+36f47d52d2a8118eb17444093ee5b66614a12648|Update reno for stable/pike|Thu, 24 Aug 2017 14:01:21 +0000|Thu, 24 Aug 2017 14:01:21 +0000
+b7fa7de2f7a7c056623f66f40028a3007cc2bbc9|Prepare for official Pike release|Mon, 21 Aug 2017 15:58:44 -0600|Mon, 21 Aug 2017 16:00:24 -0600
+0e706f9a579e06b6ef8bc02a1a0c7c61917b2ce7|Update reno>=2.5.0|Mon, 21 Aug 2017 11:20:52 +0800|Mon, 21 Aug 2017 11:20:52 +0800
+a16691710be2bb3bac65c3ecf1954158d4e834a0|Deprecate oslo.messaging rpc_backend option parameter|Mon, 7 Aug 2017 14:18:27 +0800|Mon, 7 Aug 2017 14:18:27 +0800
+0e05ef32b6e599f73c348ccd10edf2f2a3455bae|Merge "Update openstackdocstheme>=1.16.0"|Fri, 4 Aug 2017 22:41:07 +0000|Fri, 4 Aug 2017 22:41:07 +0000
+41f5b8149eb743006b821ea36ceb72b97656b3e7|Bump modules to next minor with -dev|Fri, 4 Aug 2017 13:36:15 -0600|Fri, 4 Aug 2017 13:38:22 -0600
+3c1dd62dd749613be3cc88557a8ea9d0645592bc|Change service-type to load-balancer|Wed, 2 Aug 2017 13:17:24 -0230|Wed, 2 Aug 2017 16:20:39 -0230
+31b770a54d7de176ea1064ff37fda697cbaa7c9e|Update openstackdocstheme>=1.16.0|Mon, 31 Jul 2017 11:03:10 +0800|Mon, 31 Jul 2017 11:03:10 +0800
+8b4707a1f5ffda5f6e4416d4f69bbf033df483e5|Add certificate configuration for PKI|Thu, 27 Jul 2017 15:07:53 -0400|Thu, 27 Jul 2017 15:07:53 -0400
+9e378dc179410156081f0941b2b065449a147a39|Merge "Add amp_secgroup_list configuration parameter"|Wed, 26 Jul 2017 17:46:02 +0000|Wed, 26 Jul 2017 17:46:02 +0000
+1e8980f28b9ec5e2dacd1878b2918e4dc707baf6|Add amp_secgroup_list configuration parameter|Tue, 25 Jul 2017 16:12:53 -0400|Wed, 26 Jul 2017 08:48:44 -0400
+fcf164292e738fc593a2a35f59e5dd4ad9a00a33|Fix documentation bug for manage_nova_flavor default value|Tue, 25 Jul 2017 16:14:59 -0400|Tue, 25 Jul 2017 16:14:59 -0400
+81f615457cec54229b09e4b59a6612b7ad904914|Drop -dev version for Pike M3|Tue, 25 Jul 2017 08:12:57 -0600|Tue, 25 Jul 2017 08:14:48 -0600
+38191ab490a6ae99b9194de7a53af1d4bb831a32|Update URLs in documents according to document migration|Fri, 14 Jul 2017 08:53:31 +0800|Fri, 14 Jul 2017 08:53:31 +0800
+02efb9f58a868ebb2e0c44f7f63a0d61ff77d39c|Merge "changed author"|Mon, 10 Jul 2017 20:07:30 +0000|Mon, 10 Jul 2017 20:07:30 +0000
+e16f1565e1749d28eed79fe407ed538424bf6281|Remove deprecated keystone authtoken signing_dir option|Fri, 7 Jul 2017 10:00:47 +0800|Fri, 7 Jul 2017 10:00:47 +0800
+e634b608a062558eb18373e3d0833237b9778712|changed author|Tue, 4 Jul 2017 15:21:00 +0530|Tue, 4 Jul 2017 15:22:45 +0530
+5efbc5e85f43e5d9a569e6f984617acdf9fb6530|Fix openstackdocstheme|Sun, 2 Jul 2017 14:23:05 +0800|Sun, 2 Jul 2017 14:23:05 +0800
+871f37e57fe34d4c9d0d4d31710cef1bba764ab9|Switch from oslosphinx to openstackdocstheme|Mon, 26 Jun 2017 10:06:27 +0800|Mon, 26 Jun 2017 10:06:27 +0800
+24c6029524d82ec6372fc69e41af1d078ecf2a01|Merge "Add environment variable"|Tue, 13 Jun 2017 19:10:37 +0000|Tue, 13 Jun 2017 19:10:37 +0000
+3b7fa0d62f89cf1a57ed6bad8185a76af1933bb2|Merge "oslo policy: check puppet resource instead of actual config in spec"|Tue, 13 Jun 2017 19:10:27 +0000|Tue, 13 Jun 2017 19:10:27 +0000
+b00a5071e7418d0a89e56e76528b486b2884145a|Merge "Add the setting log level"|Tue, 13 Jun 2017 19:10:22 +0000|Tue, 13 Jun 2017 19:10:22 +0000
+d22ef427d0835657d0757df4abebf4cf6c0b5587|Merge "Update tox configuration"|Tue, 13 Jun 2017 12:40:26 +0000|Tue, 13 Jun 2017 12:40:26 +0000
+ace95818d6b92a54557b18a7d812e0497ed0f8a8|Merge "Fix CI"|Mon, 12 Jun 2017 17:29:29 +0000|Mon, 12 Jun 2017 17:29:29 +0000
+81188f49a2e728220f03e8f7395c46f483d01405|Add environment variable|Mon, 12 Jun 2017 15:58:23 +0800|Mon, 12 Jun 2017 15:58:23 +0800
+8062f88888f51d47ffdb1d61b5e3fc39acd45a5b|Fix CI|Fri, 9 Jun 2017 10:11:11 +0800|Fri, 9 Jun 2017 10:29:28 +0800
+754429db4bc21f8aa2711c0b006af644e46e9fbb|Bump version for Pike M3 Dev|Thu, 8 Jun 2017 15:30:57 -0600|Thu, 8 Jun 2017 15:33:37 -0600
+79ea524cd037c07f7fcfda3b48d7cbd8b066bb8b|Update global requirements|Thu, 8 Jun 2017 11:59:04 +0800|Thu, 8 Jun 2017 11:59:04 +0800
+87d98c5fc9505e693d162b0ead5eab6fa029612e|Drop -dev in preparation for Pike M2|Thu, 1 Jun 2017 08:53:02 -0600|Thu, 1 Jun 2017 08:54:48 -0600
+e547bede8584aa0c8501b3f7078129a88628ba8f|oslo policy: check puppet resource instead of actual config in spec|Tue, 23 May 2017 15:19:43 +0800|Tue, 23 May 2017 15:19:43 +0800
+486e27879b8a95f652040094989cabf9bbb4c4d7|Update tox configuration|Wed, 17 May 2017 08:29:09 -0600|Wed, 17 May 2017 08:29:12 -0600
+634c96c2349efc6bbc39c9f773c3ecce3c5879fe|Bump modules to next minor with -dev|Fri, 21 Apr 2017 17:21:44 -0600|Fri, 21 Apr 2017 17:23:46 -0600
+9eb1bc9316b60050e2a2a36a571fadef3d0b1c03|Add the setting log level|Tue, 18 Apr 2017 11:27:51 +0800|Tue, 18 Apr 2017 11:27:51 +0800
+e1033b6d029757302ebb18cfd62098721ea14ff2|oslo db: check puppet resource instead of actual config in spec|Mon, 10 Apr 2017 20:07:48 +0800|Mon, 10 Apr 2017 20:07:48 +0800
+16c6538e863727373e6d316dc9ca744420dcb2f6|Drop -dev for release prep|Wed, 5 Apr 2017 10:36:13 -0600|Wed, 5 Apr 2017 10:45:45 -0600
+3f67e2f7814353fcc38923ab8ee84bdfb52feda1|Merge "oslo log: check puppet resource instead of actual config in spec"|Wed, 29 Mar 2017 01:52:20 +0000|Wed, 29 Mar 2017 01:52:21 +0000
+7af8f6959fccde3012ee02e7f688cc7cc888dc0f|oslo log: check puppet resource instead of actual config in spec|Tue, 28 Mar 2017 18:45:00 +0300|Tue, 28 Mar 2017 18:45:36 +0300
+bffb258b5b1f15442b8f01fceb8973cb0a931ab3|Merge "Update test-requirements.txt"|Sat, 25 Mar 2017 05:17:39 +0000|Sat, 25 Mar 2017 05:17:39 +0000
+2850def15c39c2a71f636d5b65d22c873cbc1807|Fix manage_service parameter|Thu, 13 Oct 2016 11:33:20 +0200|Fri, 24 Mar 2017 08:04:34 -0600
+6cd201ba34a26950b929422cb53e916a110f9727|Update test-requirements.txt|Thu, 23 Mar 2017 14:49:15 +0800|Thu, 23 Mar 2017 14:49:15 +0800
+f8b2e9d1c19f3d09960ac4b54be5ce6df8ee74a8|Merge "Fix typo"|Wed, 15 Mar 2017 17:21:16 +0000|Wed, 15 Mar 2017 17:21:16 +0000
+12c5081632b64dce475cf11bf99b415757bdaee3|Add bindep support|Mon, 13 Mar 2017 12:36:31 -0400|Tue, 14 Mar 2017 11:31:56 +0000
+78639db0d35c56532d2fb3dfe4e63bde901d55c8|Fix ci|Mon, 13 Mar 2017 21:25:39 +0800|Mon, 13 Mar 2017 21:25:39 +0800
+82047eb179c8597b730b2e04ed01f0c5ea871a61|Fix typo|Mon, 13 Mar 2017 20:20:06 +0800|Mon, 13 Mar 2017 20:20:06 +0800
+04a76970fd1c4cefdacfd39dcad14ee65f1e6fd2|Inconsistent package_ensure parameter name|Wed, 8 Mar 2017 17:43:48 +0800|Wed, 8 Mar 2017 17:43:48 +0800
+0d8fc34a7d2d0971d6e4012b3291546feffdf9eb|Prepare Pike metadata|Tue, 7 Mar 2017 14:39:57 -0700|Tue, 7 Mar 2017 15:34:32 -0700
+12776513503a3ebcac99c027e5618b6a268e8c9e|Remove rpc_backend check for amqp|Tue, 28 Feb 2017 08:18:26 -0700|Tue, 28 Feb 2017 10:10:43 -0700
+4e12a93f6d87fea8c0923a086da141ce5a2836d9|Merge "Add control_exchange and rpc_response_timeout options"|Mon, 27 Feb 2017 13:12:28 +0000|Mon, 27 Feb 2017 13:12:28 +0000
+259459da3a971d05b29eead3e6a506e807498835|beaker: create nova flavor after keystone resources|Sat, 25 Feb 2017 14:42:51 -0500|Sat, 25 Feb 2017 14:43:44 -0500
+b9a24f5f86e9739758258349dabbcf8669195f28|Update reno for stable/ocata|Wed, 8 Feb 2017 11:04:27 +0000|Wed, 8 Feb 2017 11:04:27 +0000
+778cbed9b3cd4ec9ea3f5f1004f55d4dad389a1e|Add control_exchange and rpc_response_timeout options|Tue, 7 Feb 2017 09:42:31 +0800|Tue, 7 Feb 2017 09:43:05 +0800
+ad861e4da64bc443db944d4de32410521c723167|Prepare ocata-rc1 release|Fri, 3 Feb 2017 16:21:53 -0700|Fri, 3 Feb 2017 16:23:53 -0700
+0d5e41e85223f03f6bc2049d912488e64ba4b653|Fix lint issue|Sat, 28 Jan 2017 13:56:13 +0800|Wed, 1 Feb 2017 15:04:42 +0800
+2ee0e421d1dd7b6e53669f097b0758d968dedeab|Add auth_strategy configuration|Mon, 30 Jan 2017 16:06:41 -0330|Mon, 30 Jan 2017 16:13:23 -0330
+c7b4060c72a0702754de66d59a0bcdc43e249bc2|Add missing _driver config items|Wed, 18 Jan 2017 12:11:54 -0330|Fri, 27 Jan 2017 10:55:22 -0330
+99e9b269f16a50f41aa8300ef9bd8c71bd5d7c43|Merge "Add oslo::db to dependency chain"|Thu, 26 Jan 2017 19:09:08 +0000|Thu, 26 Jan 2017 19:09:08 +0000
+76a2df9e7290ff3d2455e145be87c33f9049be82|Move db include from ::octavia to ::octavia::api|Wed, 18 Jan 2017 11:56:11 -0330|Mon, 23 Jan 2017 18:15:19 +0000
+6f064e21f4945089709820dd4f747f00d6351261|Add oslo::db to dependency chain|Sun, 22 Jan 2017 21:55:05 +0800|Mon, 23 Jan 2017 18:15:12 +0000
+a8797ac49041d6467a4017c7499c7ba8151bf469|Fix ci|Sun, 22 Jan 2017 15:34:02 +0800|Sun, 22 Jan 2017 17:02:40 +0800
+9786b938d0345c7d819ed71027432dc7067281d3|Prepare 10.2.0 release|Fri, 13 Jan 2017 17:29:31 -0700|Fri, 13 Jan 2017 17:31:56 -0700
+e34142da0cdc913cc14732e757fa5f5d54ba99bc|Allow python-memcache install from authtoken class|Wed, 11 Jan 2017 17:10:55 -0500|Wed, 11 Jan 2017 17:10:55 -0500
+08e61921edf57991c45d55f76c5d34d0459be33d|Deprecate signing_dir option|Wed, 28 Dec 2016 14:31:08 +0800|Wed, 28 Dec 2016 14:31:08 +0800
+64c04c04f3476aa899d13c22d7dac17dc4d83178|Pin reno version to reno>=0.1.1,!=2.0.0|Thu, 22 Dec 2016 15:34:18 +0400|Thu, 22 Dec 2016 15:35:31 +0400
+289aeb7facfac340f909abb84f468e452b0b564f|Merge "Added parameters to configure ip and port"|Wed, 21 Dec 2016 13:31:54 +0000|Wed, 21 Dec 2016 13:31:54 +0000
+81ec750cf50e8050e66590c5e03f8f20a213aab0|Added parameters to configure ip and port|Sat, 17 Dec 2016 22:00:21 -0500|Tue, 20 Dec 2016 11:55:15 -0500
+d953d25fe67e2939fb6329fd31557814ea0b87f9|Use correct section for host and port settings|Sat, 17 Dec 2016 21:38:43 -0500|Mon, 19 Dec 2016 11:16:24 -0500
+1d799fcf00cd450053b510ebd7b7334d24c91857|Merge "Add the port check for breaker"|Fri, 16 Dec 2016 16:04:34 +0000|Fri, 16 Dec 2016 16:04:34 +0000
+add2cce17e3f3b9fcdd98082ed513d396ac980fd|Add the port check for breaker|Thu, 15 Dec 2016 15:47:43 +0800|Thu, 15 Dec 2016 15:47:43 +0800
+e86dd8c5b2866f839fa958b47da771d213783c17|Add test for sync|Mon, 12 Dec 2016 16:20:24 +0800|Mon, 12 Dec 2016 16:44:39 +0800
+f959fe882e55f7581ad2d41ede6ee8940a6c4c12|Prepare 10.1.0 release|Fri, 9 Dec 2016 09:34:05 -0700|Fri, 9 Dec 2016 09:35:12 -0700
+925794a2c92be9db7fd5b4705fc795a29a6a0202|Add hooks for external install & svc management|Wed, 7 Dec 2016 11:48:51 +0800|Wed, 7 Dec 2016 11:48:51 +0800
+a245d07f192032625e982d5bc0af921cadcf34cf|Show team and repo badges on README|Fri, 25 Nov 2016 17:10:03 +0100|Fri, 25 Nov 2016 17:37:59 +0100
+998df3c90d6595b992c08abccf9e690ce8dfe51e|Prepare 10.0.0 release|Wed, 16 Nov 2016 15:27:05 -0700|Wed, 16 Nov 2016 15:27:24 -0700
+66bffc72ed9db52c2e0e91f1f8be6c062ae9db07|Remove rabbit connection paramters|Tue, 8 Nov 2016 15:17:30 -0700|Thu, 10 Nov 2016 09:08:44 -0700
+991df0b7f1cc23af9c20250e13fa77867a7c9618|Add requirements in metadata.json file|Wed, 2 Nov 2016 10:25:39 +0800|Thu, 3 Nov 2016 10:00:48 +0800
+6c74a52ca51a325abbf351767051fceec50df292|Fix documentation for log_dir parameter|Mon, 10 Oct 2016 18:18:45 +0300|Mon, 10 Oct 2016 18:19:34 +0300
+97acdd0fff80f4421de91fbff576aa1c8fb41970|Add basic structure for ReNo|Fri, 7 Oct 2016 00:12:26 -0300|Fri, 7 Oct 2016 14:57:23 +0000
+c620c4c0690ee0e32b37a4cfac81e493b6e4dd65|Move rspec-puppet-facts to spec helper|Fri, 30 Sep 2016 13:24:18 -0600|Fri, 30 Sep 2016 13:24:22 -0600
+2b383a087f8cbdfb49093799b6d5ee54de274799|Added retries for db_sync|Thu, 29 Sep 2016 12:47:36 +0530|Thu, 29 Sep 2016 14:15:48 +0000
+5bf9d855c746488a86e2807432ad3d1be92d6abb|Fix authtoken|Sat, 27 Aug 2016 01:29:26 -0300|Sat, 27 Aug 2016 02:08:53 -0300
+cf115ac40320787c3512b697fbec7333f4b55b82|Move octavia to authtoken|Thu, 4 Aug 2016 10:07:47 -0300|Thu, 4 Aug 2016 18:04:52 +0000
+239cfc6360082209256e0fe02d2ab3a3def1dc36|Adding housekeeping.pp|Mon, 25 Jul 2016 16:07:17 -0230|Wed, 27 Jul 2016 09:52:34 -0230
+db34ab261a22475253cdd7393d3d1f1cd9f18664|Adding health_worker.pp|Fri, 15 Jul 2016 15:29:09 -0230|Mon, 25 Jul 2016 16:04:58 -0230
+6ef738f37344a138c9abb9c2ba7c352b1f8c8f99|Implement worker.pp|Fri, 10 Jun 2016 16:53:57 -0400|Mon, 18 Jul 2016 17:16:47 -0230
+a31c31c756a479b4de9d72970b449329021e32cb|Include openstacklib defaults manifest.|Thu, 7 Jul 2016 12:01:04 +0200|Thu, 7 Jul 2016 12:12:47 +0200
+232803065529e9514dd250740732c6515890123a|Update metadata|Wed, 29 Jun 2016 22:34:42 -0300|Thu, 30 Jun 2016 01:04:50 -0300
+a1a6befe7aa181105990324909de360079cc2e64|Merge "Update db_sync command"|Tue, 14 Jun 2016 10:46:12 +0000|Tue, 14 Jun 2016 10:46:12 +0000
+12d9aa3fac43ce97489478f32b3ed2012d9322d3|Merge "Implement api.pp"|Tue, 14 Jun 2016 10:42:04 +0000|Tue, 14 Jun 2016 10:42:04 +0000
+ebab1a53e611e10b99387fb5d4ada668d50d04bc|Update db_sync command|Sat, 11 Jun 2016 19:34:00 -0400|Sat, 11 Jun 2016 23:35:05 +0000
+bcf32387a7f60ecabb9889f338bbc373e6c0fb64|Add nodepool-xenial.yml file|Fri, 10 Jun 2016 13:32:55 -0400|Fri, 10 Jun 2016 13:33:01 -0400
+6f701d6b38fb2deec1f96b4953ca26366f6324d3|Implement api.pp|Mon, 6 Jun 2016 17:20:35 -0400|Fri, 10 Jun 2016 15:39:09 +0000
+b8a280f5ea8a347c66a7ab0a22dac34f0ccc67b7|Merge "metadata: fix module name"|Thu, 9 Jun 2016 09:32:15 +0000|Thu, 9 Jun 2016 09:32:15 +0000
+709f2a86c33ba486c0dc12aa03cc7e050116322c|Merge "Provide default service_name for keystone endpoint"|Wed, 8 Jun 2016 18:23:41 +0000|Wed, 8 Jun 2016 18:23:41 +0000
+6801aaa3b3da1fdc7f25f199e3123ff17acaaabd|Merge "Test multiple operating systems for policy"|Wed, 8 Jun 2016 15:33:43 +0000|Wed, 8 Jun 2016 15:33:43 +0000
+ffaee4f1d304119164587d3720372e4cef7e3d19|metadata: fix module name|Wed, 8 Jun 2016 10:33:25 -0400|Wed, 8 Jun 2016 10:33:25 -0400
+e8e6a527f3995c8f179fa0c91681763d1569453b|Provide default service_name for keystone endpoint|Wed, 8 Jun 2016 14:22:13 +0800|Wed, 8 Jun 2016 14:22:13 +0800
+4b879bb2071ea5e70a6310a79665a82c435b1e42|Add purge_config option|Wed, 8 Jun 2016 11:39:57 +0800|Wed, 8 Jun 2016 11:39:57 +0800
+8a0412cc96451ce739998c575079cd4d9adf50a8|Test multiple operating systems for policy|Sat, 4 Jun 2016 00:32:01 +0800|Wed, 8 Jun 2016 08:54:20 +0800
+47d367de7c2df93b415eab72ff7616d42ac254ff|Merge "Implement init.pp class"|Tue, 7 Jun 2016 10:50:04 +0000|Tue, 7 Jun 2016 10:50:04 +0000
+8b378a881c925b71e36216af42258528d084208b|Implement init.pp class|Fri, 3 Jun 2016 14:52:52 -0400|Mon, 6 Jun 2016 14:08:31 -0400
+c6eacb476bd325378e0c0797726928d80dde060a|Fix typo in logging_spec|Sun, 5 Jun 2016 02:11:15 -0300|Sun, 5 Jun 2016 02:11:26 -0300
+f48a1a11719f01404bc20cd3bc953587b7d10ec4|Change wiki to docs|Thu, 2 Jun 2016 22:57:40 -0300|Thu, 2 Jun 2016 23:25:37 -0300
+d175681256c0b515a5bcd994e9a6f422e45415ef|Add support for the oslo db_max_retries parameter|Mon, 30 May 2016 23:53:18 +0800|Mon, 30 May 2016 23:53:18 +0800
+5e3f167eb4cdbe129248553fead4b64e473131a0|Switch octavia to oslo|Sun, 22 May 2016 19:57:02 +0800|Sun, 22 May 2016 21:09:28 +0800
+70f92e590e9e3b86541ff4197d17a08cc8288b47|Fix the version dependencies of openstacklib|Fri, 20 May 2016 20:38:59 +0800|Fri, 20 May 2016 20:38:59 +0800
+e46429293e39245b7b4dd616b1883cd87ecfd841|Remove verbose option in logging|Thu, 19 May 2016 00:00:16 -0300|Thu, 19 May 2016 09:08:42 -0300
+d720df04eae0ca9c0e58033c8bbb5b1f4adcc399|Test multiple operating systems for octavia::db::postgresql|Sat, 7 May 2016 16:03:58 +0800|Sat, 7 May 2016 16:09:33 +0800
+f9e0c01897107d936e99ca9ece70644dc0f4539c|Totally drop Qpid support|Mon, 18 Apr 2016 16:35:43 +0300|Tue, 19 Apr 2016 17:32:38 +0300
+b5447b3eda35f5c103abfdec0444066695505d01|Gemfile: rely on puppet-openstack_spec_helper for dependencies|Tue, 29 Mar 2016 21:36:53 -0400|Tue, 29 Mar 2016 21:36:58 -0400
+481dde1725b12a4678a61f3592b850d260346f91|puppet-octavia: Initial commit|Wed, 9 Mar 2016 17:36:49 -0500|Wed, 9 Mar 2016 18:09:58 -0500
+ee40a2c336ad5470def51485e1f65ba3c6b75a05|Added .gitreview|Tue, 8 Mar 2016 10:45:44 +0000|Tue, 8 Mar 2016 10:45:44 +0000

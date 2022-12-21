@@ -1,0 +1,2 @@
+,sha,message,files
+0,eb00248bb45b2bc66262ab97911cdf6b9596f6ed,Initial commit,"['Gemfile', 'Modulefile', 'README', 'README.md', 'Rakefile', 'manifests/config.pp', 'manifests/init.pp', 'manifests/install.pp', 'manifests/params.pp', 'manifests/service.pp', 'spec/spec_helper.rb', 'tests/init.pp']"

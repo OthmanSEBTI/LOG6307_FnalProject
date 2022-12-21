@@ -1,0 +1,951 @@
+c4f790c9da626b692e7c8858aa63c0c3d7578f94|Merge pull request #19 from loles/me/ms|Fri, 12 Feb 2016 11:52:21 +0100|Fri, 12 Feb 2016 11:52:21 +0100
+3785a8a6a5ba4f576644a7b8491a38b5cef8e995|Change delay to 1s|Fri, 12 Feb 2016 11:49:37 +0100|Fri, 12 Feb 2016 11:49:37 +0100
+b2b7fed00fdf7738389c80f4c3dd0f5dd74ca391|Merge pull request #18 from loles/me/dc|Thu, 11 Feb 2016 16:05:39 +0100|Thu, 11 Feb 2016 16:05:39 +0100
+6d134e2d00a573c96ba042fa36bbcfcc8e89e01f|Wait 1 second between retries|Thu, 11 Feb 2016 14:58:21 +0100|Thu, 11 Feb 2016 14:58:21 +0100
+6b25521f89fbb5eb2d2136cea2b72b07c910eb19|Merge pull request #17 from pigmej/adjust_torrent_to_changes|Thu, 4 Feb 2016 19:16:33 +0100|Thu, 4 Feb 2016 19:16:33 +0100
+9fc59e35f01bce4ce1976125107c84f23500c76e|Adjusted torrent example to recent changes|Thu, 4 Feb 2016 17:04:42 +0100|Thu, 4 Feb 2016 17:04:42 +0100
+66a41fde6163055624b15cb8b95982d1060e6287|Merge pull request #16 from loles/me/wp|Thu, 4 Feb 2016 13:30:31 +0100|Thu, 4 Feb 2016 13:30:31 +0100
+14329c10e9dae678b28702b59d71c6057c857dfd|Do not create nodes in test|Thu, 4 Feb 2016 13:27:49 +0100|Thu, 4 Feb 2016 13:27:49 +0100
+6ab0e9986ea906c45dc5d4492f341baea6d8baf0|Merge pull request #15 from pigmej/fix_torrent_example|Thu, 4 Feb 2016 11:44:54 +0100|Thu, 4 Feb 2016 11:44:54 +0100
+6c4fd6d5276bb98c8954fe673ea32259e5a4808d|Fixed torrent example after ssh_ prefix removal|Wed, 3 Feb 2016 16:06:48 +0100|Wed, 3 Feb 2016 16:06:48 +0100
+f695a7275d4944d993fb5642384d24ac68a56782|Merge pull request #14 from loles/me/fix_examplo|Tue, 2 Feb 2016 12:40:17 +0200|Tue, 2 Feb 2016 12:40:17 +0200
+301f545add41833c6f823c6d3cd3cb9e0cb25158|Merge pull request #13 from loles/me/nodes|Tue, 2 Feb 2016 12:40:14 +0200|Tue, 2 Feb 2016 12:40:14 +0200
+278774182bec83a8728a7182aa18cad89a864b0a|Create node.yaml which creates one node|Thu, 28 Jan 2016 18:09:43 +0100|Mon, 1 Feb 2016 14:38:51 +0100
+da3fd7dcb6a080f66e1533c857bd55e36ce79eea|Nodes are note created in examples now|Mon, 1 Feb 2016 14:09:43 +0100|Mon, 1 Feb 2016 14:36:31 +0100
+7cd4e07d00749e07e00a80d605dfa4af314e62fd|Merge pull request #12 from pigmej/remove_ssh_prefix|Mon, 1 Feb 2016 14:30:49 +0100|Mon, 1 Feb 2016 14:30:49 +0100
+735e7811e15aa9108f8656063c435fa0529c86fc|Removed ssh_ prefix in ssh transports|Thu, 28 Jan 2016 19:27:07 +0100|Thu, 28 Jan 2016 19:27:07 +0100
+a5c81340c5d739c9955a5e389b99b27272e901d4|Merge pull request #10 from pigmej/remove_global_ansible_library|Tue, 26 Jan 2016 10:44:12 +0100|Tue, 26 Jan 2016 10:44:12 +0100
+8fe9a0aa477557f31ddefe2db087f0b951ffed5d|Removed global solar ansible library|Mon, 25 Jan 2016 16:38:01 +0100|Mon, 25 Jan 2016 16:38:01 +0100
+06be98e9ce4467de426aa2c41b01ba3e0a3bdda3|Merge pull request #9 from pigmej/url_fix_again|Thu, 21 Jan 2016 17:20:51 +0100|Thu, 21 Jan 2016 17:20:51 +0100
+4dc57a7515a3506c3fd5653baa9ef833cd10a860|Use right url now|Thu, 21 Jan 2016 17:19:44 +0100|Thu, 21 Jan 2016 17:19:44 +0100
+dee82c9af4079bb091365bf8fb8cfa1a3417ba86|Merge pull request #8 from pigmej/fix_docs_domain|Thu, 21 Jan 2016 17:09:28 +0100|Thu, 21 Jan 2016 17:09:28 +0100
+cb0a2c2028b37acc0780e7ba2f4b49c28c8928b2|Fixed incorrect rtd domain name|Thu, 21 Jan 2016 17:08:37 +0100|Thu, 21 Jan 2016 17:08:37 +0100
+00648db621583078dcbc44507f2490384ac8f4fc|Merge pull request #7 from pigmej/add_readme|Thu, 21 Jan 2016 17:03:57 +0100|Thu, 21 Jan 2016 17:03:57 +0100
+22afb98dd5ddefcd16cd47cc66b913916d78fa5a|Add readme|Thu, 21 Jan 2016 16:58:01 +0100|Thu, 21 Jan 2016 16:58:01 +0100
+0d172d70c7139218aa90e2562e41057d0215e95a|Merge pull request #6 from pigmej/add_password_to_nodes|Thu, 21 Jan 2016 16:55:41 +0200|Thu, 21 Jan 2016 16:55:41 +0200
+bf4b64744c7fee6372597b56690b33771e4fbc6e|Merge pull request #5 from pigmej/delete_unused_nodes|Thu, 21 Jan 2016 16:55:14 +0200|Thu, 21 Jan 2016 16:55:14 +0200
+ad7e16cf7f44d8aeab104d2ed7d542db148aca8d|Add passwords to nodes template|Thu, 21 Jan 2016 13:41:02 +0100|Thu, 21 Jan 2016 13:41:02 +0100
+7e542e1eeb227068aab27659b27e134f01634f3e|Deleted unused nodes_with_transports template|Thu, 21 Jan 2016 13:06:28 +0100|Thu, 21 Jan 2016 13:06:28 +0100
+a603196ac7534a8080278aeb0c2ff7b18d95ce8b|Merge pull request #4 from Mirantis/dock_C|Fri, 15 Jan 2016 11:46:03 +0100|Fri, 15 Jan 2016 11:46:03 +0100
+9b08ac1a9d0b99e31076b7e9ab2f67308d366a54|Fix check if wait_cmd was defined|Fri, 15 Jan 2016 10:59:21 +0100|Fri, 15 Jan 2016 10:59:21 +0100
+9443b7d0475fc9290933b10130af1dc3a440da0f|Merge pull request #3 from Mirantis/wpf|Fri, 15 Jan 2016 10:59:04 +0200|Fri, 15 Jan 2016 10:59:04 +0200
+158c13c01e88d4523ff01d15ac9f002bd7e72986|Fix path in wordpress example|Fri, 15 Jan 2016 09:54:05 +0100|Fri, 15 Jan 2016 09:54:05 +0100
+bb32b0a59e1e607b8c98d4da6dca6a8a8a8cfcfc|Merge pull request #2 from Mirantis/dc|Thu, 14 Jan 2016 10:40:21 +0100|Thu, 14 Jan 2016 10:40:21 +0100
+1f0b17937ecccf0181c473ac2bacf28d9062cda5|Add wait command to docker_container|Thu, 14 Jan 2016 10:17:28 +0100|Thu, 14 Jan 2016 10:34:46 +0100
+d51faddb2432e42c3416b3345d23b292673c9def|Merge pull request #1 from Mirantis/wp|Thu, 14 Jan 2016 10:15:10 +0100|Thu, 14 Jan 2016 10:15:10 +0100
+fe7dc5f3839f1b60ed8fadf9662ef33145d449ff|Add example from wordpress tutorial|Thu, 14 Jan 2016 10:05:10 +0100|Thu, 14 Jan 2016 10:05:10 +0100
+8792dd569d9cba4484b4a5cbe2f445694673efc8|Adjusted paths after splitting repos|Wed, 13 Jan 2016 13:06:57 +0100|Wed, 13 Jan 2016 13:06:57 +0100
+8b48bbf8b87cf61769c1cfa9b300a965ed5e37e6|Merge "Fixed torrent transport"|Mon, 11 Jan 2016 22:09:22 +0000|Mon, 11 Jan 2016 22:09:22 +0000
+bb0c552abb9ee8fd7810173d24f1da2c0890d89e|Fixed torrent transport|Tue, 5 Jan 2016 18:39:52 +0100|Mon, 11 Jan 2016 19:12:20 +0100
+c75f508d3fb5746880bd026e1762c3769643c91d|Merge "Implements ansible_playbook_local handler"|Mon, 11 Jan 2016 17:04:45 +0000|Mon, 11 Jan 2016 17:04:45 +0000
+6d65302b42fe6691af7ac8ff79d317018eb2fdfb|Merge "Preserve original order of keys in CreatedResources.like"|Mon, 11 Jan 2016 16:51:01 +0000|Mon, 11 Jan 2016 16:51:01 +0000
+b4ae0f2127649d9cb3364a7ecf0d866a0cd87898|Merge "Use stevedore for transports management"|Mon, 11 Jan 2016 09:53:46 +0000|Mon, 11 Jan 2016 09:53:46 +0000
+796384cf1e135d2180e2d125ca3a1343fd0e0c57|Merge "Fixed OSError during concurrent TempFileHandler init"|Mon, 11 Jan 2016 09:25:00 +0000|Mon, 11 Jan 2016 09:25:01 +0000
+376d15d4be8a108d81db6e04fe612aa973396718|Merge "Use stevedore for Computable Inputs"|Fri, 8 Jan 2016 15:06:24 +0000|Fri, 8 Jan 2016 15:06:24 +0000
+50646db43b27d7321f323477621c047905c4d787|Merge "Removed old puppet_module field from resource"|Fri, 8 Jan 2016 14:07:57 +0000|Fri, 8 Jan 2016 14:07:57 +0000
+b7560eb8d2afb0bd172eb273dbe792cc69c3c963|Merge "Added ansible_template_local handler"|Fri, 8 Jan 2016 13:29:57 +0000|Fri, 8 Jan 2016 13:29:57 +0000
+536253e525f60cfc135685463e640b94c8c3f5a1|Merge "Running examples using fuel-devops"|Fri, 8 Jan 2016 10:48:52 +0000|Fri, 8 Jan 2016 10:48:52 +0000
+9de8d884f6947a9fe8ee6d60e052c9ed9fccbe00|Running examples using fuel-devops|Mon, 4 Jan 2016 12:45:17 +0100|Fri, 8 Jan 2016 11:21:55 +0100
+2d7d39b87ed2a21386e42c757157fb0c2e9ab403|Merge "Remove jenkins-config.yaml"|Thu, 7 Jan 2016 11:42:53 +0000|Thu, 7 Jan 2016 11:42:53 +0000
+cb76fbc764fd9dc8c29e94f541b8e62c74aea3e5|Merge "Skip only lua CI related tests when no lupa"|Thu, 7 Jan 2016 11:15:25 +0000|Thu, 7 Jan 2016 11:15:25 +0000
+d388fd15da978c3a73b5365906eaec772753bc69|Merge "Use resources.like filter in openstack example"|Thu, 7 Jan 2016 10:43:37 +0000|Thu, 7 Jan 2016 10:43:37 +0000
+accab86dd5c6fe491ad7b14324a1af5e3b2f82a9|Merge "Remove redundant filtering (old way) in riaks.py"|Thu, 7 Jan 2016 10:42:26 +0000|Thu, 7 Jan 2016 10:42:26 +0000
+f97dbd3cb0bcade1a5bda1b45b342b66b6300202|Merge "Simple sanitization for shell args in raw_ssh"|Thu, 7 Jan 2016 10:42:20 +0000|Thu, 7 Jan 2016 10:42:20 +0000
+3ceac9286a6d090a2221a5daba81327c506c3886|Remove redundant filtering (old way) in riaks.py|Thu, 7 Jan 2016 10:47:58 +0100|Thu, 7 Jan 2016 10:47:58 +0100
+7f3955e90919d4a8bd19d79716bce9f868c95a67|Use resources.like filter in openstack example|Thu, 7 Jan 2016 10:46:42 +0100|Thu, 7 Jan 2016 10:46:42 +0100
+206bfcb347e125a121ecf0aee0862109c2ad7003|Merge "Reduce image size and keep qemu image"|Thu, 7 Jan 2016 09:44:30 +0000|Thu, 7 Jan 2016 09:44:30 +0000
+628fd2d547afd5c45fbbfb3a718611a8ee30c68f|Switch to nodes.yaml composer file|Thu, 7 Jan 2016 10:29:21 +0100|Thu, 7 Jan 2016 10:31:49 +0100
+838b303b6b471edf0c89d5ae8c437e424773081c|Merge "Added create_all command to riak example"|Thu, 7 Jan 2016 09:27:31 +0000|Thu, 7 Jan 2016 09:27:31 +0000
+264a76fce5896a3ab3555493ad1d3fdd153586ac|Added create_all command to riak example|Tue, 5 Jan 2016 16:28:01 +0100|Tue, 5 Jan 2016 16:28:01 +0100
+87020de471412ff2253612d6bd2b01794fa4aac2|Merge "composer.create returns CreatedResources object"|Tue, 5 Jan 2016 15:19:16 +0000|Tue, 5 Jan 2016 15:19:16 +0000
+848deac7d0bdf844d929e7bfa420118a38d8ab7c|Added passwords to schemas in transports|Tue, 5 Jan 2016 15:55:27 +0100|Tue, 5 Jan 2016 15:55:27 +0100
+ae7f2119ec4db7feb18606ebf98ac8d6c6ac3953|Removed old puppet_module field from resource|Mon, 4 Jan 2016 14:10:56 +0100|Mon, 4 Jan 2016 14:10:56 +0100
+21b8bf800f4dcd8c0c07949f9d418c8cca430042|composer.create returns CreatedResources object|Mon, 4 Jan 2016 13:20:09 +0100|Mon, 4 Jan 2016 13:23:55 +0100
+486de6e5252ed2f69ae7cc85c68813dd1d251eab|Possible to use relative paths in CR|Tue, 29 Dec 2015 18:52:39 +0100|Tue, 29 Dec 2015 19:09:27 +0100
+20114634b4fb016f7ea10da6047a77b989375b9a|Removed resource compile_all action from CLI|Tue, 29 Dec 2015 11:58:35 +0100|Tue, 29 Dec 2015 17:12:37 +0100
+b6d4a420f8d20215ec7488ff52c37618a07c4255|Merge "Removed old config ideas"|Tue, 29 Dec 2015 16:07:50 +0000|Tue, 29 Dec 2015 16:07:50 +0000
+f575b91ce0ed70dd3a9d01b0a22b32baacb9fba1|Merge "Refactor VirtualResources"|Tue, 29 Dec 2015 16:06:52 +0000|Tue, 29 Dec 2015 16:06:52 +0000
+25dc2685f5884dd8171f0d621bdf42253f62f7c2|Refactor VirtualResources|Mon, 28 Dec 2015 15:22:52 +0100|Tue, 29 Dec 2015 16:50:46 +0100
+f7edd1f957b011a2210df95a2786e574d7a23e95|Merge "Use yaml to load data in CLI resource update."|Mon, 28 Dec 2015 12:31:05 +0000|Mon, 28 Dec 2015 12:31:05 +0000
+a03bcea57eab5afb2928dee9430f79a7cfb47f3f|Merge "Replace all templates/(.*)\.yaml with templates/\1"|Mon, 28 Dec 2015 12:24:05 +0000|Mon, 28 Dec 2015 12:24:05 +0000
+5f2debc13f454dece496d516a32ad848ace56426|Replace all templates/(.*)\.yaml with templates/\1|Mon, 28 Dec 2015 12:23:10 +0100|Mon, 28 Dec 2015 12:51:28 +0100
+376868d8538ca93d7ab3ec9e3375f34d9ddde2e0|Merge "Do not remove the kernel src for packer build"|Mon, 21 Dec 2015 19:35:29 +0000|Mon, 21 Dec 2015 19:35:29 +0000
+9d84ef0b47d266a5616427a80ee6f5188bf7f797|Merge "Fix playbooks after recent changes:"|Mon, 21 Dec 2015 19:35:21 +0000|Mon, 21 Dec 2015 19:35:21 +0000
+871693cda2a850446dbfb272a203dc2e2d0386ce|Repository support for VR|Mon, 21 Dec 2015 17:21:28 +0100|Mon, 21 Dec 2015 19:23:30 +0100
+560ff18482c4e245722017000992abdbc9d59ba6|Changed {{ }} to #{ }# in VR templates|Mon, 21 Dec 2015 18:24:46 +0100|Mon, 21 Dec 2015 18:24:46 +0100
+a53536b7e36f914bdf6fa04887f51507829a400d|Fix playbooks after recent changes:|Fri, 18 Dec 2015 01:20:34 +0100|Mon, 21 Dec 2015 17:59:34 +0100
+c7d8197f89273f9837bc23f91ac43c6472cc2167|Changed block tokens in jinja for yaml compat|Mon, 21 Dec 2015 15:23:10 +0100|Mon, 21 Dec 2015 15:23:10 +0100
+1b28b8f3c4b5ad4b74d6a11d44319d2d8a036b44|Change resources structure to match repository one|Fri, 18 Dec 2015 15:15:35 +0100|Fri, 18 Dec 2015 18:01:20 +0100
+c7691821cc8f24ca4010bf76cc2acf81d1c62a82|Introduced Resource Repositories.|Mon, 14 Dec 2015 16:54:18 +0100|Fri, 18 Dec 2015 17:13:56 +0100
+99f365a05d2930b16d9592543626bf78bf260ba4|Merge "Write puppet log to /var/log/puppet/{resource.name}.log"|Thu, 17 Dec 2015 21:05:32 +0000|Thu, 17 Dec 2015 21:05:32 +0000
+14109e3f26e39ce49d85307a88efe042469f908a|Merge "Advanced tags support"|Thu, 17 Dec 2015 20:39:11 +0000|Thu, 17 Dec 2015 20:39:11 +0000
+f6d061345f3afcb42b88d160a159b3ea59c288b6|Advanced tags support|Thu, 17 Dec 2015 16:36:28 +0100|Thu, 17 Dec 2015 15:57:23 +0000
+adc155bb80b1f3757e5e9d66d67b6382a46cb937|Add gitreview file|Tue, 15 Dec 2015 11:02:52 +0100|Thu, 17 Dec 2015 12:30:03 +0000
+44ff1f6148ccc306cbafc5f550fdfd5fe22fb09d|Merge pull request #397 from dshulyak/multi_transports|Fri, 11 Dec 2015 10:06:55 +0100|Fri, 11 Dec 2015 10:06:55 +0100
+bee476bf604eb034b674d1c5720a69aa392896e5|Merge pull request #421 from pigmej/fix-gevent-errors|Thu, 10 Dec 2015 16:51:14 +0100|Thu, 10 Dec 2015 16:51:14 +0100
+6991dbedb25dd80cb81f42b0f62b2922eea7a163|Merge pull request #416 from dshulyak/conf_riak|Thu, 10 Dec 2015 12:39:30 +0100|Thu, 10 Dec 2015 12:39:30 +0100
+21474a496f961bea4c619f5979a4f6c4785cf3b5|Add connections between nodes and hosts files|Thu, 10 Dec 2015 13:29:21 +0200|Thu, 10 Dec 2015 13:29:21 +0200
+5aa795e701cb64c441c75f1ff389304a0a45ddf1|Adjust celery configuration and fix ssh_raw to work with ENV|Wed, 2 Dec 2015 17:17:54 +0200|Wed, 9 Dec 2015 20:52:37 +0200
+04f0d0e5f558c8c9652728c0ca159e80fbceb23e|Convert hosts example to use VRs with all transports|Tue, 1 Dec 2015 15:45:56 +0200|Wed, 9 Dec 2015 20:52:15 +0200
+0c7e99199d51fa30b9c9c9e3049c334636286076|Add rsync transport to nodes|Tue, 1 Dec 2015 14:32:57 +0200|Wed, 9 Dec 2015 20:52:15 +0200
+6ada84e1d7f33ec17fe9c58602f39403b8999044|Merge pull request #407 from pigmej/new_db_new_cache_with_master|Wed, 9 Dec 2015 16:32:05 +0100|Wed, 9 Dec 2015 16:32:05 +0100
+9ec03951c4a7b7f4e3c3015562b0675255d34805|Merge pull request #419 from pigmej/ci-locks|Wed, 9 Dec 2015 11:54:33 +0100|Wed, 9 Dec 2015 11:54:33 +0100
+1be254c1b1b5cf90ab47d19cac90846f50363847|Merge pull request #417 from pigmej/fix-torrent-transport|Wed, 9 Dec 2015 11:50:27 +0100|Wed, 9 Dec 2015 11:50:27 +0100
+d420247c21c113cccb1a0d58f68f0307a655ede7|Fixed torrent transport + added tests|Tue, 8 Dec 2015 17:38:45 +0100|Tue, 8 Dec 2015 17:38:45 +0100
+380952e6d175e0a414260d0ab4c36f3c511c4ee4|Merge pull request #413 from pigmej/computable_inputs|Tue, 8 Dec 2015 11:51:49 +0100|Tue, 8 Dec 2015 11:51:49 +0100
+433d76c0bad75462e3f6e82bc2c9b8ae3ded3451|Moved riak_node_comp to riak_node|Mon, 7 Dec 2015 17:21:10 +0100|Mon, 7 Dec 2015 17:21:10 +0100
+33cd6af73f60f85546f11df556ac14ae6f0764ee|Merge pull request #411 from loles/example|Mon, 7 Dec 2015 13:42:03 +0100|Mon, 7 Dec 2015 13:42:03 +0100
+780dbba7aeeb2c56868ad994297b2c852c055ed4|Add docker_container update action with state=reloaded|Mon, 7 Dec 2015 12:54:02 +0100|Mon, 7 Dec 2015 12:54:02 +0100
+6ea3ca051c02fdb9e36b236dafe529fde7dbac2f|Update.yaml is update action|Mon, 7 Dec 2015 12:53:33 +0100|Mon, 7 Dec 2015 12:53:33 +0100
+6d8e6a74a0f42491a6d25e38d8f659bb5ec0db53|Improve docker_container resource|Fri, 4 Dec 2015 10:18:42 +0100|Mon, 7 Dec 2015 10:55:33 +0100
+0e4576582a30eb9e0ee24fc797494060b30fd500|Merge pull request #412 from pigmej/no_tag_req_in_hash|Mon, 7 Dec 2015 09:56:14 +0100|Mon, 7 Dec 2015 09:56:14 +0100
+1ea06c74209702372496a0bcda02fb0f10a16ee7|Added computable inputs riak example|Fri, 4 Dec 2015 13:03:35 +0100|Fri, 4 Dec 2015 13:03:35 +0100
+485f441db83abdd6e63ae731a365fc631aba5fd5|Merge pull request #410 from loles/solar|Thu, 3 Dec 2015 11:48:33 +0100|Thu, 3 Dec 2015 11:48:33 +0100
+54cbb4509bcfae6031bec4364a5334dd67870c48|Merge pull request #409 from cvieri/doc|Thu, 3 Dec 2015 11:33:52 +0100|Thu, 3 Dec 2015 11:33:52 +0100
+7ceca0cec9732c4b9d1321d8b3e4b9f089f5e125|Merge pull request #408 from pigmej/add_lock_on_save|Thu, 3 Dec 2015 07:58:03 +0200|Thu, 3 Dec 2015 07:58:03 +0200
+6f0bcbaf69858e1816398d9cdd1bb4011e457d3a|Merge pull request #405 from pigmej/better_randomization_buckets|Wed, 2 Dec 2015 18:41:50 +0100|Wed, 2 Dec 2015 18:41:50 +0100
+e3d6b82aecdf0de7507cbdfc128ee824a3d6e47b|Merge pull request #406 from loles/docs|Wed, 2 Dec 2015 17:49:56 +0100|Wed, 2 Dec 2015 17:49:56 +0100
+47d8ae42da36ac4d8b2d8171a3686f1bea9d9cb5|Merge pull request #388 from cvieri/f2s_doc|Wed, 2 Dec 2015 17:20:47 +0200|Wed, 2 Dec 2015 17:20:47 +0200
+ff6f18df7a64f41e714377eacd4a8c72a0c90316|Merge pull request #395 from dshulyak/f2s_rebased|Tue, 1 Dec 2015 17:24:38 +0100|Tue, 1 Dec 2015 17:24:38 +0100
+a2e7045669c8212c89b390be210f50295a2e383e|Merge pull request #396 from pigmej/docs_handler_ansible|Tue, 1 Dec 2015 16:59:21 +0100|Tue, 1 Dec 2015 16:59:21 +0100
+468a6da111652b305710bdcfdc93a87c237aeb8d|Merge branch 'master' into docs_handler_ansible|Tue, 1 Dec 2015 16:56:20 +0100|Tue, 1 Dec 2015 16:56:20 +0100
+5fd99e78b5ff88883ed22b098cca3390b0387ac4|Merge pull request #398 from loles/cover|Tue, 1 Dec 2015 16:55:22 +0100|Tue, 1 Dec 2015 16:55:22 +0100
+8714b3209b0c7ccbb469cb4e910ecd94757c160b|Merge pull request #399 from dshulyak/build_utils|Tue, 1 Dec 2015 16:43:30 +0100|Tue, 1 Dec 2015 16:43:30 +0100
+89770acd8df8827accd07f424232919ffb76739a|Merge pull request #400 from zen/docs_correction|Tue, 1 Dec 2015 16:43:15 +0100|Tue, 1 Dec 2015 16:43:15 +0100
+dad2c80cb43eee363e7a0592b83a63f31c7f6e9e|Merge remote-tracking branch 'upstream/master'|Tue, 1 Dec 2015 14:07:16 +0100|Tue, 1 Dec 2015 14:07:16 +0100
+9e0786cb7dd50cb0a28ad96ab7131bff890adacb|Merge remote-tracking branch 'upstream/master'|Tue, 1 Dec 2015 12:43:26 +0100|Tue, 1 Dec 2015 12:43:26 +0100
+26e7d522b5383dc8f7b47c0f65349e4741f4c667|Implement f2s/fsclient.py which will bootstrap solar stuff from fuel|Wed, 11 Nov 2015 13:44:42 +0200|Mon, 30 Nov 2015 14:07:37 +0200
+62c1ec93b422a836d3576db9a1dfb206e8e33ca8|Allow multiple managers|Tue, 10 Nov 2015 15:12:38 +0200|Mon, 30 Nov 2015 14:07:37 +0200
+3d6e4270adc2617b1dbce51918f7f520da9f62d6|Add naive_sync driver which will copy resource from solar location|Tue, 10 Nov 2015 11:59:21 +0200|Mon, 30 Nov 2015 14:07:36 +0200
+5e473a054926a677d271b72c769d85de2a156398|Add naive manager mechanism and prefetch command|Tue, 10 Nov 2015 11:12:07 +0200|Mon, 30 Nov 2015 14:07:36 +0200
+b1c39b29cfff049c8984e0c893f634e4ff4895c9|Merge pull request #381 from dshulyak/orch_docs|Fri, 27 Nov 2015 10:24:07 +0100|Fri, 27 Nov 2015 10:24:07 +0100
+96547806b1a933f686eed3696b37fbdc0e02aa0b|Merge pull request #379 from dshulyak/sphinx|Fri, 27 Nov 2015 10:23:46 +0100|Fri, 27 Nov 2015 10:23:46 +0100
+7dddacfaaf78651de94bd11a6e35c015ee0925cc|Merge pull request #376 from loles/autopep|Fri, 27 Nov 2015 10:18:35 +0100|Fri, 27 Nov 2015 10:18:35 +0100
+eff46bf3f97573360320f99e4e80b1b4411e0c40|Add docs generated by sphinx|Thu, 26 Nov 2015 15:25:17 +0200|Thu, 26 Nov 2015 15:25:17 +0200
+a7899cbec6b612e88c5dbfda9da17b637d385b94|Merge pull request #364 from dshulyak/glossary|Thu, 26 Nov 2015 10:38:22 +0100|Thu, 26 Nov 2015 10:38:22 +0100
+1e070a046e14b799757f4d1bca6666403cabefff|Merge pull request #371 from loles/docker|Wed, 25 Nov 2015 16:58:32 +0100|Wed, 25 Nov 2015 16:58:32 +0100
+638bdfa2b777137f1ebf0c8a1c8e1960e21bd25e|Merge pull request #373 from loles/config|Wed, 25 Nov 2015 16:10:49 +0100|Wed, 25 Nov 2015 16:10:49 +0100
+d4ea033dd8dc650fcf28392331660e3fb502fa89|Merge pull request #370 from pigmej/dblayer_pep8|Wed, 25 Nov 2015 16:09:47 +0100|Wed, 25 Nov 2015 16:09:47 +0100
+e40003a9d39cc4e936c26503351951c3d2d4a246|Merge pull request #374 from loles/ignore|Wed, 25 Nov 2015 16:04:28 +0100|Wed, 25 Nov 2015 16:04:28 +0100
+c298b63125731e40b967d2af63d11b5269afba43|Ignore testrepository dir and fix coverage path|Wed, 25 Nov 2015 16:02:39 +0100|Wed, 25 Nov 2015 16:02:39 +0100
+42b255998c75a72a63f4a74e16b98bf516c561ea|Merge pull request #361 from pigmej/solard_separate_repo|Wed, 25 Nov 2015 12:49:55 +0100|Wed, 25 Nov 2015 12:49:55 +0100
+2457ac9f4452c046f465574e0baf2f76d9f35e9b|Merge branch 'master' into solard_separate_repo|Tue, 24 Nov 2015 13:37:53 +0100|Tue, 24 Nov 2015 13:37:53 +0100
+284854d72a8fe25f591abfe0703cbb7a065d9489|Merge branch 'master' into solard_separate_repo|Tue, 24 Nov 2015 12:30:15 +0100|Tue, 24 Nov 2015 12:30:15 +0100
+64659f261d00f0ba0760de3372601b4b0657f937|Install solar-agent from correct repos.|Tue, 24 Nov 2015 12:06:10 +0100|Tue, 24 Nov 2015 12:06:10 +0100
+31b39875941c5abdb28bb0c070bfdae14d1b60bd|solard => solar_agent in yamls|Tue, 24 Nov 2015 11:32:11 +0100|Tue, 24 Nov 2015 11:32:11 +0100
+7a0649b7dfedadb8e138c5367a675ee5c844d762|Renamed solard to solar_agent, moved transports and examples|Mon, 23 Nov 2015 17:23:45 +0100|Mon, 23 Nov 2015 17:27:07 +0100
+097c4b793e2f2ecabc8e46a587647ba48503bdbc|Merge pull request #287 from Mirantis/new_db|Mon, 23 Nov 2015 15:34:43 +0100|Mon, 23 Nov 2015 15:34:43 +0100
+14d2c2cb3ac8eb53463359e0cd6e8ad87f31df22|Merge pull request #356 from pigmej/new_db_failing_case|Mon, 23 Nov 2015 15:31:37 +0100|Mon, 23 Nov 2015 15:31:37 +0100
+407f5fdba165e70771142e0b675f9fcc08f47b8b|Fixed haproxy meta.yaml input type|Mon, 23 Nov 2015 13:14:42 +0100|Mon, 23 Nov 2015 13:14:42 +0100
+b007f8063eda43a2576f80f87fd4f5c7a3fd545b|Merge branch 'master' into new_db|Wed, 18 Nov 2015 09:32:34 +0100|Wed, 18 Nov 2015 09:32:34 +0100
+3c538c7c3911b9f78fc86281a99e2a74b946da49|Merge pull request #336 from pigmej/reqs_fix-1|Tue, 17 Nov 2015 19:12:32 +0100|Tue, 17 Nov 2015 19:12:32 +0100
+728918e52ef3c46340ef062b14fe33dec5745c47|Merge pull request #334 from loles/fix_signals|Tue, 17 Nov 2015 19:00:33 +0100|Tue, 17 Nov 2015 19:00:33 +0100
+04e1aaaadaa6e75f9a9d6245ffe6fdec275bb2a4|Merge pull request #307 from dshulyak/dockerize|Tue, 17 Nov 2015 17:04:10 +0100|Tue, 17 Nov 2015 17:04:10 +0100
+2761f2a2040e4df0601a0f34f8a16c864c36b28a|Merge pull request #333 from pigmej/new_db_remove_old_orm|Tue, 17 Nov 2015 16:47:46 +0100|Tue, 17 Nov 2015 16:47:46 +0100
+4039b6f4f7a5a22ea92fb5f35fc8d1b8a083ec5a|Rewrite config using dotted dict object and add loading from files|Tue, 17 Nov 2015 15:44:42 +0200|Tue, 17 Nov 2015 15:44:42 +0200
+ffd05eb73e31bf1b1b0016aae463de2f47fdb204|Removed old db implementation|Tue, 17 Nov 2015 13:01:21 +0100|Tue, 17 Nov 2015 13:01:21 +0100
+201054e09249b0c33db4cab99369eef43797b562|Merge pull request #323 from gitfred/prov-conf-api|Tue, 17 Nov 2015 10:35:29 +0100|Tue, 17 Nov 2015 10:35:29 +0100
+26f19720fdde540a51a7166a333ef6094cf4d35a|add repos configuration possibility for bareon|Mon, 9 Nov 2015 10:57:28 +0100|Mon, 16 Nov 2015 11:57:45 +0100
+2b86307cdc540c7bb875087ee3226832d853c1b2|Merge pull request #305 from gitfred/build-iso-image|Thu, 12 Nov 2015 14:43:21 +0100|Thu, 12 Nov 2015 14:43:21 +0100
+f659e69a35fa4cb9259358c97034efa4ce238db4|Building IBP images on solar 'master' instead of downloading them|Mon, 9 Nov 2015 10:57:28 +0100|Thu, 12 Nov 2015 11:47:22 +0100
+0a566cb35237accd0cb7a94f51573dd0a3909e12|Merge pull request #309 from loles/os|Mon, 9 Nov 2015 16:30:15 +0100|Mon, 9 Nov 2015 16:30:15 +0100
+ceb2e70d89ebd13e2cffc0593fd676b9dde2cae6|Make puppet run on the new_db|Mon, 9 Nov 2015 14:52:54 +0100|Mon, 9 Nov 2015 14:52:54 +0100
+c99bb8a4fb431c90ce7c3b787d8f01dbd1dee45b|Merge pull request #275 from bogdando/fix_vbox_packer|Wed, 4 Nov 2015 18:56:07 +0100|Wed, 4 Nov 2015 18:56:07 +0100
+7a57c069882a675b0c6fa8ef0b4c44086864b725|Merge pull request #297 from rustyrobot/readme|Mon, 2 Nov 2015 11:45:53 +0100|Mon, 2 Nov 2015 11:45:53 +0100
+7ddc71dfed48bbe30b43aa3cbdad7449c1b7766f|Merge pull request #296 from pigmej/fix_hosts_in_riak_examples|Mon, 2 Nov 2015 11:25:00 +0200|Mon, 2 Nov 2015 11:25:00 +0200
+7d918178ab28a126fe283ebe5b6a280ee000c42d|Fixed hosts_file resources duplicates in riak examples|Mon, 2 Nov 2015 09:13:33 +0100|Mon, 2 Nov 2015 09:13:33 +0100
+c1d6dcced14a4f7a12a7f2ec7324c41c6112890e|Fixed librarian modules input schema|Sat, 31 Oct 2015 23:08:52 +0100|Sat, 31 Oct 2015 23:08:52 +0100
+2159845c089a7d3d6ce9a6637679c958e47b46a3|Riak example works|Sat, 31 Oct 2015 21:40:07 +0100|Sat, 31 Oct 2015 21:40:07 +0100
+da9a50026d7d409bc02138934997bec77bc32962|Merge branch 'events_and_resources' into new_db|Sat, 31 Oct 2015 18:50:40 +0100|Sat, 31 Oct 2015 18:50:40 +0100
+09b97e8cf52de5bc7ad43165051f3f85b2fb582c|merging new db efforts|Sat, 31 Oct 2015 16:22:59 +0100|Sat, 31 Oct 2015 16:22:59 +0100
+e948858b7654a81bf955f8a632a82a1e9d573ddc|Merge pull request #294 from rustyrobot/use_uuids|Fri, 30 Oct 2015 21:42:23 +0100|Fri, 30 Oct 2015 21:42:23 +0100
+ba52037d15767716f3871daeff5ee6e621232ab3|Removed duplicate hosts file resouce creation|Fri, 30 Oct 2015 17:23:06 +0100|Fri, 30 Oct 2015 17:23:06 +0100
+917d9e0f7cd953f1e5a2f6d713fba2ccce8a6a6d|Use id instead of mac|Fri, 30 Oct 2015 17:57:02 +0300|Fri, 30 Oct 2015 17:57:02 +0300
+35580bd3f4dc849e10db29cbde03f9eb70f5993d|Merge pull request #289 from prmtl/nodes_ohai|Fri, 30 Oct 2015 15:18:12 +0100|Fri, 30 Oct 2015 15:18:12 +0100
+8411794d77127dfb59b9610c853f047e502d355b|WIP but dshulyak needs it|Fri, 30 Oct 2015 14:20:29 +0100|Fri, 30 Oct 2015 14:20:29 +0100
+d976745cadb9e7933537e3bf894692924c9635b4|Fix several inconsistencies in interfaces|Fri, 30 Oct 2015 10:03:23 +0200|Fri, 30 Oct 2015 15:08:28 +0200
+6c2efbd849d05266d0b933c800c607ea39b8ac52|Add *.svg to gitignore|Thu, 29 Oct 2015 12:27:44 +0200|Fri, 30 Oct 2015 15:08:28 +0200
+b99f04566afbefc7f0ebdc031ed3b9b41bf6d115|Merge pull request #5 from rustyrobot/prmtl_bareon_integration2|Thu, 29 Oct 2015 20:20:56 +0300|Thu, 29 Oct 2015 20:20:56 +0300
+5ee2f8b1a9ebfa258d5008baab308a3c4dfca92d|Merge pull request #293 from prmtl/unpin_pyyaml|Thu, 29 Oct 2015 15:12:56 +0100|Thu, 29 Oct 2015 15:12:56 +0100
+af4ef77f8cd78c3c840ba51bd09dad6d32ab81d6|Merge pull request #4 from rustyrobot/prmtl_bareon_integration2|Thu, 29 Oct 2015 16:23:16 +0300|Thu, 29 Oct 2015 16:23:16 +0300
+bd21e5d83078998ffbae2d6e7d88a5189001cbda|Sync data in brareon-api before starting for provisioning|Thu, 29 Oct 2015 16:07:59 +0300|Thu, 29 Oct 2015 16:07:59 +0300
+0acd94398c2769624b504911d71b5b86d7ef73be|Merge pull request #3 from prmtl/nodes_ohai_no_discovery_feed|Thu, 29 Oct 2015 12:38:01 +0300|Thu, 29 Oct 2015 12:38:01 +0300
+acf1754a1e4a2386e36175d828a3912c68cebc00|Use new discovery scan service|Wed, 28 Oct 2015 16:20:39 +0100|Wed, 28 Oct 2015 16:20:39 +0100
+2bd57a6ac3cceca71dd58039874b3b7c0bf96c09|Merge pull request #2 from rustyrobot/prmtl_bareon_integration2|Wed, 28 Oct 2015 15:05:39 +0100|Wed, 28 Oct 2015 15:05:39 +0100
+e98bf64b64df560bfffb94848139fb03be6233ef|Enable logging for fuel-agent|Wed, 28 Oct 2015 16:50:31 +0300|Wed, 28 Oct 2015 16:50:31 +0300
+c4dd7911947f34d37f6a2c3de74ce15fed7f0434|Merge pull request #278 from pigmej/cli_effective_iv|Wed, 28 Oct 2015 12:47:43 +0100|Wed, 28 Oct 2015 12:47:43 +0100
+3679b3efdade7b0bf666a4cd436ac2639237fb72|Merge pull request #280 from pigmej/pigmej-hotfix-2|Wed, 28 Oct 2015 12:41:32 +0100|Wed, 28 Oct 2015 12:41:32 +0100
+6585c98c29bc4620969e007f6bf0a518c4746173|Get partitioning information from bareon-api|Tue, 27 Oct 2015 17:42:47 +0300|Wed, 28 Oct 2015 10:58:57 +0100
+4096350d6f42e948f5bbd0b3faffbd568d8d2c9c|Use provisionin.json as template|Tue, 27 Oct 2015 17:24:22 +0300|Wed, 28 Oct 2015 10:58:57 +0100
+7e17d08c6e535ccc0d61b11e32ae9500c2617c61|Use BatTransport instead of ssh to get discovery info|Tue, 27 Oct 2015 17:14:14 +0300|Wed, 28 Oct 2015 10:58:57 +0100
+2edd7b09def904035fcb6a8e38754ada11199401|Remove commented line from provision.sh|Tue, 27 Oct 2015 16:55:08 +0300|Wed, 28 Oct 2015 10:58:57 +0100
+f7832feb53f142a95259ae9456b8567600d947b3|Remove new provisioning.json template for not_provisioned_node resource|Tue, 27 Oct 2015 16:53:40 +0300|Wed, 28 Oct 2015 10:58:57 +0100
+6a8a1dd8c6a807b72bb930f9a1ad79a1ab5a75b5|Use "new" partition format during provisioning|Tue, 27 Oct 2015 13:06:42 +0100|Wed, 28 Oct 2015 10:58:56 +0100
+9f8690b842a1970ccd783be7434f3b2548711ec0|Get node data from ohai and put it into discovery|Fri, 23 Oct 2015 13:54:57 +0200|Wed, 28 Oct 2015 10:58:56 +0100
+699471e00612b1d97b79592cb0349cd96ebf71bb|Merge pull request #288 from pigmej/riak_storage_backend_input|Tue, 27 Oct 2015 13:56:00 +0100|Tue, 27 Oct 2015 13:56:00 +0100
+c5e8e12f66f4a2aa3e24705fd2e966b9eb9f1cd3|Merge pull request #276 from pigmej/big_riak_example|Tue, 27 Oct 2015 13:41:40 +0100|Tue, 27 Oct 2015 13:41:40 +0100
+a1001386fdce614a2f5bd1a6418e738e2f2b977d|Added riak storage_backend as input (also riak.conf is jinja processed now)|Tue, 27 Oct 2015 12:58:32 +0100|Tue, 27 Oct 2015 12:58:32 +0100
+a9c064ac42351c6e488576e53ebb087ef3ebc971|Merge pull request #286 from Mirantis/pigmej-patch-1|Tue, 27 Oct 2015 10:40:42 +0100|Tue, 27 Oct 2015 10:40:42 +0100
+5e6d45f504339bcc2cc022817dc3d242a3130e7f|Fixed acitons path in riak_node.|Tue, 27 Oct 2015 10:36:57 +0100|Tue, 27 Oct 2015 10:36:57 +0100
+3f40804a2660239fbeac7596607c8ac90ae075c1|Merge pull request #277 from pigmej/pigmej-fix-158|Fri, 23 Oct 2015 20:17:09 +0200|Fri, 23 Oct 2015 20:17:09 +0200
+70dd30685721ee516962a71e58a39c7bd8a8d81d|Merge pull request #274 from pigmej/speedups_part_1|Fri, 23 Oct 2015 20:16:46 +0200|Fri, 23 Oct 2015 20:16:46 +0200
+c85457a2864b5606b2562dca9276fa8b2b751794|Merge pull request #270 from loles/librarian|Fri, 23 Oct 2015 20:15:04 +0200|Fri, 23 Oct 2015 20:15:04 +0200
+7278f92ac235bc25bf0385c7fe0f45e8ada88a40|Added update action to nova_compute_libvirt_puppet|Fri, 23 Oct 2015 16:54:00 +0200|Fri, 23 Oct 2015 16:54:00 +0200
+8d0ad5727f8ecfc217e2599efe74545dbe6259e6|Added parameter for hosts_mapping|Fri, 23 Oct 2015 14:44:50 +0200|Fri, 23 Oct 2015 14:44:50 +0200
+d024a3a7d7686052980a143511eeace65d84a12f|Added big_riak example, it allow to create riak cluster with given size Could be used for perf testing.|Fri, 23 Oct 2015 14:41:41 +0200|Fri, 23 Oct 2015 14:41:41 +0200
+753f8c17e233cb60790eb8d1fc86dcb61a6d625e|Add example to change rabbitmq user for project like nova|Fri, 23 Oct 2015 14:17:01 +0200|Fri, 23 Oct 2015 14:17:01 +0200
+4e034b41fe04cd640657d9eed105e5d2083ab933|Add update action for nova_compute|Fri, 23 Oct 2015 14:16:30 +0200|Fri, 23 Oct 2015 14:16:30 +0200
+dbc49fc793a0e5a528f39444bf5be2c3453291df|Add react event for nova_puppet -> nova_compute. Move acctions to meta|Fri, 23 Oct 2015 14:15:48 +0200|Fri, 23 Oct 2015 14:16:08 +0200
+132e87c27cb7b9ff5972a8e77cd5e8a386b8b3d3|Run == update|Fri, 23 Oct 2015 11:36:43 +0200|Fri, 23 Oct 2015 11:36:43 +0200
+c596ce670457a3dafe6426dde1b6bdd7e56f2f0f|Run and remove are the same|Thu, 22 Oct 2015 16:18:17 +0200|Thu, 22 Oct 2015 16:21:09 +0200
+a37e71128d9399c35dc4713b1ffccc4865ffceb6|Run and remove are the same|Thu, 22 Oct 2015 16:15:40 +0200|Thu, 22 Oct 2015 16:15:40 +0200
+b7b66b13b4741e2c70ee5c65f0f08a512fe307c5|Make openstack.py example more granular|Thu, 22 Oct 2015 15:58:56 +0200|Thu, 22 Oct 2015 15:58:56 +0200
+0532efab0a1b83c3bb00ff63731707a3569479a5|Allow to generate networks for more than 2 nodes|Thu, 22 Oct 2015 15:29:53 +0200|Thu, 22 Oct 2015 15:29:53 +0200
+05d0806c5129f81b26ea6b2b6ea75b331682619e|Merge pull request #272 from rustyrobot/bareon-api|Thu, 22 Oct 2015 12:32:46 +0200|Thu, 22 Oct 2015 12:32:46 +0200
+532a9e83a6bfc2ee823c86b0862fe3625dede69d|Remove waiting for dnsmasq to be restarted since solar doesn't run several tasks on a single node|Thu, 22 Oct 2015 13:27:31 +0300|Thu, 22 Oct 2015 13:27:31 +0300
+05571d89b003d67235421d42dee7e88e54ca898f|Merge branch 'master' into librarian|Wed, 21 Oct 2015 14:41:58 +0200|Wed, 21 Oct 2015 14:41:58 +0200
+4eb19f80802a27376515af3945851af41566fd13|Do not use hardcoded db port|Wed, 21 Oct 2015 14:41:44 +0200|Wed, 21 Oct 2015 14:41:44 +0200
+a532cf6b41223e184f1ce57e60961ecdd596662b|Update README|Wed, 21 Oct 2015 14:41:02 +0200|Wed, 21 Oct 2015 14:41:02 +0200
+427dbd1100698a395b876c39b755d81bcc68dfbb|Add and fix update actions. changing db_port should work now|Wed, 21 Oct 2015 14:32:13 +0200|Wed, 21 Oct 2015 14:32:13 +0200
+bf80423ab7ea22b9198c3bc8a9f884cdb2646912|Merge pull request #254 from loles/librarian|Tue, 20 Oct 2015 18:21:16 +0200|Tue, 20 Oct 2015 18:21:16 +0200
+f087a75e6c28b9e253e3a1232ed76ae46d85ea4c|Merge pull request #255 from dshulyak/remote_file|Tue, 20 Oct 2015 17:24:10 +0200|Tue, 20 Oct 2015 17:24:10 +0200
+d68d9f74f2106332b21379c22850b48aea537f7f|Merge pull request #265 from rustyrobot/solar-ibp-provision|Tue, 20 Oct 2015 17:17:24 +0200|Tue, 20 Oct 2015 17:17:24 +0200
+76fa8a629d1fe1ffd933f056edfffbb953c4ccf8|Implement parallel node provisioning|Tue, 20 Oct 2015 14:35:38 +0300|Tue, 20 Oct 2015 16:10:08 +0300
+125b2686cb460421a054f2995afb067ac6617cf2|Refactor not_provisioned_nodes template|Mon, 19 Oct 2015 20:58:50 +0300|Tue, 20 Oct 2015 16:10:08 +0300
+af68c86bb655257feb7a479880a8ae2201b950f5|Remove Fuel specific configuration from cloud-init configs|Mon, 19 Oct 2015 20:27:22 +0300|Tue, 20 Oct 2015 16:10:08 +0300
+76944526b89c834a8731767f81ef77471f413611|Add node resource which can provisioned using solar|Mon, 19 Oct 2015 20:13:41 +0300|Tue, 20 Oct 2015 16:10:08 +0300
+831935c69b00ae9e12502db605dda2878c18a28f|Adjust for librarian|Tue, 20 Oct 2015 14:53:12 +0200|Tue, 20 Oct 2015 14:53:12 +0200
+75ea9e7b20c2eead271b3f0987ea94a64e0673de|Merge branch 'master' into librarian|Tue, 20 Oct 2015 13:24:58 +0200|Tue, 20 Oct 2015 13:24:58 +0200
+2463212a99be61ae1dd7238f096e1bd6dba8e661|Copy action run to update|Mon, 19 Oct 2015 23:41:37 +0200|Mon, 19 Oct 2015 23:41:37 +0200
+08796c2dac94ae803f2a246ec84a0635c269be03|Use librarian in main modules, add events to preserve correct order|Mon, 19 Oct 2015 23:29:57 +0200|Mon, 19 Oct 2015 23:29:57 +0200
+723ac0f56d7b3a9ec145ad73dd5776aee875af6a|Adjust modules for librarian|Mon, 19 Oct 2015 23:28:42 +0200|Mon, 19 Oct 2015 23:28:42 +0200
+e2c976b94d0223e87602a9ac2fb1950651d96ff0|Merge pull request #264 from pigmej/different_local_and_remote_paths|Mon, 19 Oct 2015 18:56:04 +0200|Mon, 19 Oct 2015 18:56:04 +0200
+3c13783921cd116c9b9f94914a261bebe181644a|Use default token backend. KVS seems to be broken|Sat, 17 Oct 2015 01:21:57 +0200|Sat, 17 Oct 2015 01:21:57 +0200
+daaf4d7ca6cae38af3fec990181ae59070c8c08b|fix typo|Sat, 17 Oct 2015 01:21:21 +0200|Sat, 17 Oct 2015 01:21:21 +0200
+af3934c899f183062c2dd8cfa72abd3df2f0fa22|Merge pull request #263 from pigmej/dg_to_svg|Fri, 16 Oct 2015 17:32:11 +0200|Fri, 16 Oct 2015 17:32:11 +0200
+1e4b69a6776024030204b1ffc0f79c45dd7f426a|Split openstack.py example into smaller functions. Start moving to librarian|Fri, 16 Oct 2015 16:55:05 +0200|Fri, 16 Oct 2015 16:55:05 +0200
+83462b746ca25c2cc1b7aa5409de9c4dc48878a1|Adjust neutron_puppet for librarian|Fri, 16 Oct 2015 16:54:13 +0200|Fri, 16 Oct 2015 16:54:13 +0200
+a572fcb273d60eba6ee62bf5880615d7f835f838|Use rabbitma in librarian example|Fri, 16 Oct 2015 16:53:29 +0200|Fri, 16 Oct 2015 16:53:29 +0200
+a68f1f5f4ed00d5af65638cf59fd153344186abe|Merge pull request #262 from dshulyak/apt_repos|Fri, 16 Oct 2015 12:35:11 +0200|Fri, 16 Oct 2015 12:35:11 +0200
+b37a4b8a31613f6edd1ea3b64d7e1763484a2e7f|Add mos_repos virtual resource and use it for ceph example|Fri, 16 Oct 2015 13:14:33 +0300|Fri, 16 Oct 2015 13:14:33 +0300
+fcc4d8d4f5aadccb91fb5f4868e5cd6142e0ae3e|Add apt_repo resource and managed_apt resources|Thu, 15 Oct 2015 17:50:31 +0300|Thu, 15 Oct 2015 17:55:50 +0300
+24759f181779f9362c60c8466810a52e10cd8299|Merge pull request #260 from pigmej/sync_templates_in_shell|Wed, 14 Oct 2015 13:02:45 +0200|Wed, 14 Oct 2015 13:02:45 +0200
+03258464c6e9e4d38a07ecf83c931c852a8cb3ee|Merge pull request #261 from pigmej/remove_pytest_cache|Wed, 14 Oct 2015 12:53:17 +0200|Wed, 14 Oct 2015 12:53:17 +0200
+cf07fa04a151eb1eb43a09b4c636555b802f75d1|Merge pull request #244 from bogdando/node_network_puppet|Wed, 14 Oct 2015 12:19:02 +0200|Wed, 14 Oct 2015 12:19:02 +0200
+a570b93ee69b6a2c6b7a653fd37f41ae8a83272c|Merge pull request #242 from bogdando/bogdando/vagrant-libvirt|Wed, 14 Oct 2015 12:15:48 +0200|Wed, 14 Oct 2015 12:15:48 +0200
+3efd81377e8e6372f71cd6c2b5b6095b01292810|removed pytest cache|Wed, 14 Oct 2015 10:54:51 +0200|Wed, 14 Oct 2015 10:54:51 +0200
+0608deb2b052b7ad51fe9fb85580b562efcf3205|Merge pull request #250 from pigmej/torrent_transport|Tue, 13 Oct 2015 15:54:21 +0300|Tue, 13 Oct 2015 15:54:21 +0300
+78249d0b638a88b55d09f97bfd72b7237b493d21|Adjust keystone_puppet to use Librarian resource|Mon, 12 Oct 2015 09:02:46 +0200|Tue, 13 Oct 2015 14:34:02 +0200
+7d380b1b8668dc4c589968d75bf3f97c80e92734|Adjust rabbitmq_service to use Librarian resource|Mon, 12 Oct 2015 09:01:41 +0200|Tue, 13 Oct 2015 14:34:02 +0200
+98c1c04aafbdcb08cb535f7f58ab7ed0c91924ca|Merge pull request #245 from bogdando/bogdando/fix_libvirt_docs|Tue, 13 Oct 2015 14:20:46 +0200|Tue, 13 Oct 2015 14:20:46 +0200
+08e41b12289e9c17c0d28296c2b4a9aca7a57fea|Changed torrent tracker to public|Tue, 13 Oct 2015 13:57:31 +0200|Tue, 13 Oct 2015 13:57:31 +0200
+48517f82e39eb74d47eac308837a5fd9b500c82f|Added some info how torrent transport works|Tue, 13 Oct 2015 13:57:03 +0200|Tue, 13 Oct 2015 13:57:03 +0200
+8ded9422325f113818c58f2d6ded0db271ff0d14|Merge pull request #256 from dshulyak/fix_sleep|Tue, 13 Oct 2015 13:54:30 +0200|Tue, 13 Oct 2015 13:54:30 +0200
+fa010f3179d617c5e450a1b92f0ab0d0bf87e5e1|Correct readme for torrent example|Tue, 13 Oct 2015 13:22:00 +0200|Tue, 13 Oct 2015 13:22:00 +0200
+2c3d5cdd83af9ecca01dc76324e17d8e688fb352|Merge pull request #248 from loles/librarian_resource|Tue, 13 Oct 2015 14:12:15 +0300|Tue, 13 Oct 2015 14:12:15 +0300
+7fcb2f09bf512db3b49a7f83d553ac8bdfb3ef39|Use modules_path name|Tue, 13 Oct 2015 12:34:51 +0200|Tue, 13 Oct 2015 12:34:51 +0200
+e1ee79a60786c56980439729df7f31e3d99692f4|Do not configure default route in SDN template|Tue, 13 Oct 2015 11:43:51 +0200|Tue, 13 Oct 2015 12:22:03 +0200
+4933579fee04d63bf09e572117617e7c3f8b16ec|Modify and rename config_dir input to modules_dir.|Tue, 13 Oct 2015 12:10:49 +0200|Tue, 13 Oct 2015 12:10:49 +0200
+d8c6aac778686db73a9a0b21c9b38c00fd381be5|Fix libvirt integration for multi-nets|Fri, 9 Oct 2015 11:24:13 +0200|Tue, 13 Oct 2015 11:51:30 +0200
+0dd3845006b0e6978640d9cc13a759c777a952a4|Parametrize networks, box and provider|Wed, 2 Sep 2015 11:13:36 +0200|Tue, 13 Oct 2015 11:50:52 +0200
+827e33593e568dcb9fed81089f473d9a0e01137c|Adjust parameters for vagrantfile YAML|Wed, 2 Sep 2015 10:38:01 +0200|Tue, 13 Oct 2015 11:49:43 +0200
+413f9f14f4b9e9bb3bacbd6f880063b395126a1e|Change remote_file to use transports|Tue, 13 Oct 2015 11:44:44 +0300|Tue, 13 Oct 2015 11:45:42 +0300
+129dd9ba5e3476aac136a56837b57f36d8531c6c|Add remote file resource which will download keys|Mon, 12 Oct 2015 17:57:34 +0300|Tue, 13 Oct 2015 11:45:42 +0300
+cd78410ee5b88d94a94c458c4f5fd54e56d0a7e7|Merge pull request #247 from Mirantis/bootstrap-images|Tue, 13 Oct 2015 10:40:22 +0200|Tue, 13 Oct 2015 10:40:22 +0200
+5e0d2f9fa0c778e7d63708fc4cefa8e7f2ace06c|Add librarian example|Mon, 12 Oct 2015 09:24:07 +0200|Tue, 13 Oct 2015 09:29:44 +0200
+5a42e3b8d0c592b801110c9f8c6d503dd0101951|Remove reverse option|Mon, 12 Oct 2015 08:21:08 +0200|Tue, 13 Oct 2015 09:29:44 +0200
+493fcb1151e4fce9f0e56ca69841179a8cb2a709|Librarian resource|Sun, 11 Oct 2015 23:40:51 +0200|Tue, 13 Oct 2015 09:29:43 +0200
+b24e2a33cdaaffafbbc922e54b0d6eee3e25e3b5|Merge pull request #236 from dshulyak/library_poc|Tue, 13 Oct 2015 09:22:36 +0200|Tue, 13 Oct 2015 09:22:36 +0200
+8a50c2e8c084adcb1a8f38bafce7bd3c96e6ffb9|Change action temp files to contain resource.name|Mon, 12 Oct 2015 17:50:39 +0300|Mon, 12 Oct 2015 17:52:37 +0300
+3c72babcbcd039227073040af2abe01b47877bda|Cleanup example|Mon, 12 Oct 2015 13:50:38 +0200|Mon, 12 Oct 2015 13:50:38 +0200
+a503e835c7450b8539d60bcb1a716d18d1d83376|Added torrent transport example (hosts_file)|Mon, 12 Oct 2015 11:17:16 +0200|Mon, 12 Oct 2015 11:17:16 +0200
+f2466ce2331ac5943ecf195832916c57f7fcca2b|run.yaml for torrent adjusted|Mon, 12 Oct 2015 10:44:48 +0200|Mon, 12 Oct 2015 10:44:48 +0200
+610a23def9cb285f15a16ee6f0c44cdd9040ff41|Add README.md for library ceph installation example|Mon, 12 Oct 2015 10:56:04 +0300|Mon, 12 Oct 2015 10:56:04 +0300
+f8d43e032b4ac5cb938912221146bbba596ab45c|Undo libvirt custom change|Fri, 9 Oct 2015 13:53:38 +0200|Fri, 9 Oct 2015 13:53:38 +0200
+226ca6a9323a7022544dafb790652964081307d5|Fix eth0->eth3 settings for nodes|Fri, 9 Oct 2015 13:51:44 +0200|Fri, 9 Oct 2015 13:52:04 +0200
+4460355e148252928204ef2ba1077fbd877125d0|Rename SDN network template yml to yaml|Fri, 9 Oct 2015 13:27:45 +0200|Fri, 9 Oct 2015 13:27:45 +0200
+bb3ea0eef3055181bedaea6adfe8cc89e702e0c5|Use PuppetV2 for ceph_mon|Fri, 9 Oct 2015 14:21:44 +0300|Fri, 9 Oct 2015 14:22:53 +0300
+d35cfdcebde618954019a39d25b2a7239f901bfd|Use puppet modules for ceph_mon resource|Fri, 9 Oct 2015 13:25:51 +0300|Fri, 9 Oct 2015 14:22:53 +0300
+e575e02279319b871f092a955039d48aa299469e|Add ceph_keys resource|Fri, 9 Oct 2015 13:15:23 +0300|Fri, 9 Oct 2015 14:22:53 +0300
+61566b6a6642b398650a93cba8efd7b77db26b33|Implement library resource|Fri, 9 Oct 2015 12:41:13 +0300|Fri, 9 Oct 2015 14:22:53 +0300
+8dfc414bc37155b049fbbd68274badeac0c00fb5|Add ceph_mon resource and example|Thu, 8 Oct 2015 17:54:55 +0300|Fri, 9 Oct 2015 14:22:53 +0300
+9cb8c6471cbf8978c8c5479e61992c08127795b6|Del node_network's ssh* inputs as not required|Fri, 9 Oct 2015 12:32:19 +0200|Fri, 9 Oct 2015 12:32:19 +0200
+045537c7cc0f0b1e962cd8539dd4cb0daa112fcb|Fix dup IP in sdn template|Mon, 10 Aug 2015 15:19:27 +0200|Fri, 9 Oct 2015 11:38:58 +0200
+ef5e9dacf6eea1b48ea431c9f2d60a23de146f49|Fix node2 connection for sdn resource|Fri, 7 Aug 2015 16:12:38 +0200|Fri, 9 Oct 2015 11:38:58 +0200
+890a08ff78ebab9c8714d0fcb716780ebbce1032|Fix network_schemas data|Fri, 7 Aug 2015 15:53:42 +0200|Fri, 9 Oct 2015 11:38:58 +0200
+0cb4b088082c954277191fb0bc28d7ad2ef160a3|Workaround l23network module issue|Fri, 7 Aug 2015 15:46:18 +0200|Fri, 9 Oct 2015 11:38:58 +0200
+7940f982fbd8424067b52ce87f989a8d3d238bb5|Fix node network resource|Fri, 7 Aug 2015 13:35:45 +0200|Fri, 9 Oct 2015 11:38:58 +0200
+0d81b83552ca469c0b0d9c5861fc05d46b1c0a1a|Add composition layer for nodes networking|Fri, 7 Aug 2015 12:49:42 +0200|Fri, 9 Oct 2015 11:38:58 +0200
+dd654eac1d9069e55b0bdc678c70faa10d468d65|Update node_network resource|Fri, 7 Aug 2015 12:39:22 +0200|Fri, 9 Oct 2015 11:32:51 +0200
+b8cca2db0913e8ac70cca8e2f124a13a46cc39fd|Fix static IPs for mgmt bridges|Fri, 7 Aug 2015 12:38:03 +0200|Fri, 9 Oct 2015 11:32:51 +0200
+feb03d86b89c787fd3c5f673d3385ccf14a30acf|Add nodes network template|Fri, 7 Aug 2015 11:47:59 +0200|Fri, 9 Oct 2015 11:32:51 +0200
+cd1dfdad501fb0c96521ffa72efe68f15a698005|Add node_network puppet resource|Mon, 27 Jul 2015 12:45:19 +0200|Fri, 9 Oct 2015 11:32:50 +0200
+dae8b1a98a860a71308fc366b9b47c5d7807675d|torrent transport resource improvements|Thu, 8 Oct 2015 12:10:33 +0200|Thu, 8 Oct 2015 17:30:41 +0200
+d3cfdc1f9f27d3f84189c3173c8c50fdeff2d4eb|Correct meta.yaml name|Thu, 8 Oct 2015 10:28:45 +0200|Thu, 8 Oct 2015 17:30:41 +0200
+b06266257692588f6d897a004ff2e611470730b3|First stage porting torrent transport to new transorts|Thu, 8 Oct 2015 09:41:35 +0200|Thu, 8 Oct 2015 17:30:41 +0200
+1419a27c600b0c7d8884501d9e7811581f4bf718|Merge pull request #232 from dshulyak/peridic_report|Wed, 7 Oct 2015 11:18:45 +0200|Wed, 7 Oct 2015 11:18:45 +0200
+ed74c8ae22a119405406c6c72b7e102624c8ebe8|Merge pull request #229 from dshulyak/default_remove|Tue, 6 Oct 2015 15:05:40 +0200|Tue, 6 Oct 2015 15:05:40 +0200
+c5dc0289a76d0410926d33ec9b79c2206f89f778|Merge pull request #227 from pigmej/pigmej-patch-8|Mon, 5 Oct 2015 18:51:34 +0200|Mon, 5 Oct 2015 18:51:34 +0200
+780091fcb59787c4406abc0e0ebba53b39ec0c7d|Merge pull request #228 from loles/bs|Mon, 5 Oct 2015 17:56:57 +0200|Mon, 5 Oct 2015 17:56:57 +0200
+277e9075d32ae4b250fbf0910e33740a9eabbfd4|added info about orch stuff + openstack example|Mon, 5 Oct 2015 16:42:38 +0200|Mon, 5 Oct 2015 16:42:38 +0200
+44d95104a88f5a8a5e431954c9ff8901aeb051c6|Merge pull request #206 from dshulyak/connect_with_events|Mon, 5 Oct 2015 12:10:46 +0200|Mon, 5 Oct 2015 12:10:46 +0200
+4366c78215e406050b1b7ae8640bff0317ee9519|Fix hosts_file/riak and solard examples|Mon, 5 Oct 2015 10:57:08 +0300|Mon, 5 Oct 2015 12:58:59 +0300
+68edff9884efdd0636d09748a7c8352645f9b4a2|Merge pull request #221 from loles/readme|Fri, 2 Oct 2015 09:17:33 +0200|Fri, 2 Oct 2015 09:17:33 +0200
+d801316996b49c41310d05a04c3b4cf53e52a9c4|Fix cli example - create nodes from VR - remove old command|Thu, 1 Oct 2015 18:44:17 +0200|Thu, 1 Oct 2015 18:44:17 +0200
+18d363f5493763266942efe4ca53c3e185b476fd|Merge pull request #219 from loles/mariadb_user|Thu, 1 Oct 2015 18:06:20 +0200|Thu, 1 Oct 2015 18:06:20 +0200
+2c3491e42cec34c9cda52d663f603c1f8a36491d|Add update action for mariadb_user|Thu, 1 Oct 2015 17:56:53 +0200|Thu, 1 Oct 2015 17:58:22 +0200
+0b4ddcf7e223e8b3de6806cbcda543b3d5f34f66|Merge pull request #218 from pigmej/solard_improvements|Thu, 1 Oct 2015 17:53:55 +0200|Thu, 1 Oct 2015 17:53:55 +0200
+cf7122cf8b126b2c4873794abdb2516c8e013d69|Merge pull request #217 from loles/readme_fixes|Thu, 1 Oct 2015 17:43:33 +0200|Thu, 1 Oct 2015 17:43:33 +0200
+0c0c0ee0325bc9fca53bb35263f260f184b2d84e|Added update option for solard|Thu, 1 Oct 2015 17:39:49 +0200|Thu, 1 Oct 2015 17:39:49 +0200
+346e761cf4130914941a8af54ab612d8118409d8|Added solard cli for starting it + adjusted actions Added child recycler in solard|Thu, 1 Oct 2015 17:38:40 +0200|Thu, 1 Oct 2015 17:39:20 +0200
+f6466da6277b6f5d5865215f117d47fbc334bdef|Merge pull request #215 from pigmej/riak-example-fix|Thu, 1 Oct 2015 14:57:49 +0200|Thu, 1 Oct 2015 14:57:49 +0200
+8545f08838c6bcce0083de8b95ca26cf7af16539|Correct riaks.py example template|Thu, 1 Oct 2015 14:51:41 +0200|Thu, 1 Oct 2015 14:51:41 +0200
+4f9d56f399d392ed17a15b84543d9a8f2a2c47a1|Merge branch 'master' into readme_fixes|Thu, 1 Oct 2015 13:15:10 +0200|Thu, 1 Oct 2015 13:15:10 +0200
+3b57dc93a902f206762fa572ea782e4854f44101|Change hosts_file example to use Resource.connect_with_defaults|Wed, 30 Sep 2015 11:53:38 +0300|Thu, 1 Oct 2015 11:23:06 +0300
+7876a54576086e8e270193c7e637b21a6365e6b1|Merge pull request #144 from pigmej/solard_idea|Thu, 1 Oct 2015 09:59:03 +0200|Thu, 1 Oct 2015 09:59:03 +0200
+d35527f958cf8c5bf8ce61390afe3d116e98db5b|Merge pull request #208 from loles/vr_tags|Wed, 30 Sep 2015 16:02:53 +0200|Wed, 30 Sep 2015 16:02:53 +0200
+996457526d26d13760b4908b9574eb19272fad28|Merge pull request #210 from pigmej/pigmej-patch-5|Wed, 30 Sep 2015 15:01:17 +0200|Wed, 30 Sep 2015 15:01:17 +0200
+1d1edd5b1be0fe9b5c424d757b8160b5ff1341ea|Merge branch 'master' into vr_tags|Wed, 30 Sep 2015 14:52:52 +0200|Wed, 30 Sep 2015 14:52:52 +0200
+f316a833649c88ece26f4125088beaa3f3928788|Merge branch 'master' into vr_tags|Wed, 30 Sep 2015 11:13:33 +0200|Wed, 30 Sep 2015 11:13:33 +0200
+cc8c6a8433ea2d654d0b18b140a2ecae43d0038f|Merge pull request #204 from dshulyak/discard|Wed, 30 Sep 2015 11:13:20 +0200|Wed, 30 Sep 2015 11:13:20 +0200
+c6c2827c50359537c9e78b8d0c8d228cd7a07368|Stop solard before start|Wed, 30 Sep 2015 10:15:11 +0200|Wed, 30 Sep 2015 10:23:26 +0200
+de09f272ac2d93f6b48d41c47c1c17e983e770de|Everything validates now|Wed, 30 Sep 2015 10:08:26 +0200|Wed, 30 Sep 2015 10:23:26 +0200
+9cc1996333a067f72615f0fe592f06d7b9ee66d5|Possibility to add solard in riak example|Tue, 29 Sep 2015 20:54:59 +0200|Wed, 30 Sep 2015 10:23:26 +0200
+4f8a84300f01e18a3ff8c5d5122f5da0d65c32e1|Changed start-stop-daemon arguments|Tue, 29 Sep 2015 18:58:20 +0200|Wed, 30 Sep 2015 10:23:26 +0200
+0d348a299bde07bb6d62f7f452cd8f71c40bf1e5|Added solard example|Tue, 29 Sep 2015 01:13:44 +0200|Wed, 30 Sep 2015 10:23:26 +0200
+7ba0585dbf014b507fbae19bc66d26648b8a1450|Fixed problem with transports connected to another transports - When transports_id value is False no magic mappings - Added is_own to location_id, when set to False location_id is not mapped|Tue, 29 Sep 2015 00:49:26 +0200|Wed, 30 Sep 2015 10:23:26 +0200
+551b6868c2fe366fe66c1dea160404042f260c2f|Solard resource with run action  (start-stop-daemon)|Mon, 28 Sep 2015 18:04:11 +0200|Wed, 30 Sep 2015 10:23:26 +0200
+e4f65416ae670e8074755115c6a941ae0b3f84ef|Merge pull request #209 from pigmej/pigmej-patch-4|Wed, 30 Sep 2015 09:27:28 +0200|Wed, 30 Sep 2015 09:27:28 +0200
+8dbb7bf0b629c735514f982982c3fd553cba3032|Update Virtual Resource for riak cluster|Tue, 29 Sep 2015 15:04:38 +0200|Tue, 29 Sep 2015 16:39:24 +0200
+0092c722808a6b60be55135ca8c9fbe083d5c58f|Split riak cluster into smaller pieces|Tue, 29 Sep 2015 14:40:41 +0200|Tue, 29 Sep 2015 16:39:24 +0200
+3ba878727ff248710cdc398d310ea0c581035542|Add update action for hosts_file resource|Tue, 29 Sep 2015 12:50:50 +0200|Tue, 29 Sep 2015 16:36:04 +0200
+4be37bd16af7ab66950979a06eb7ab080e69fd0e|Fix quotes|Tue, 29 Sep 2015 12:50:32 +0200|Tue, 29 Sep 2015 16:36:04 +0200
+08d24fb107655b47e4a390092b753d8048b17d6d|Merge riak_nodes.yaml and nodes.yaml|Tue, 29 Sep 2015 12:47:53 +0200|Tue, 29 Sep 2015 16:36:04 +0200
+dd81131e9b582832d987050f6a0f07ec505212ac|Add node tag|Tue, 29 Sep 2015 12:37:21 +0200|Tue, 29 Sep 2015 16:36:04 +0200
+9f2d3bd9605371af7167c72a4d75eb3521d6d759|Remove autogenerated tags, add default value|Tue, 29 Sep 2015 12:36:53 +0200|Tue, 29 Sep 2015 16:36:04 +0200
+c555ffedbb88707dfe7b78701ed0c6f8a1105684|Merge pull request #202 from pigmej/snapshotter_fix|Tue, 29 Sep 2015 10:57:54 +0200|Tue, 29 Sep 2015 10:57:54 +0200
+021a386e8cf61e8bef178f0ee96c1f4b86abbb96|Add validation for uids and short how to in hosts_file/README.md|Tue, 29 Sep 2015 09:35:38 +0300|Tue, 29 Sep 2015 09:35:38 +0300
+42465d57bb0cee173f567e0bf9a20b2e16f0cc20|Merge pull request #201 from dshulyak/graph_of_inputs|Mon, 28 Sep 2015 16:09:07 +0200|Mon, 28 Sep 2015 16:09:07 +0200
+9e2200e540944fef9d2850a705c77aa21e70410a|Merge pull request #203 from loles/vr_transport|Mon, 28 Sep 2015 12:29:42 +0300|Mon, 28 Sep 2015 12:29:42 +0300
+c8309335a8b0aab0d568a9173b977d4dc19afb82|VR optimalization for riak cluster|Sat, 26 Sep 2015 17:59:52 +0200|Sat, 26 Sep 2015 17:59:52 +0200
+990e17252a8e8f6625b3931d19b6152481a6d158|Add location key to Virtual Resources|Sat, 26 Sep 2015 17:37:24 +0200|Sat, 26 Sep 2015 17:37:24 +0200
+2b2dd84d6e9a97da72455a9f580f0106ecf383ae|Fix riak cluster virtual resource after removing ssh_* inputs|Sat, 26 Sep 2015 17:32:55 +0200|Sat, 26 Sep 2015 17:32:55 +0200
+06c5ce6de74d7323718e58176f8a5a14f698f733|Fix several inconsistencies with data and receiver input in case of hash|Fri, 25 Sep 2015 15:52:26 +0300|Fri, 25 Sep 2015 17:53:57 +0300
+212f960b6378b5046c73139a65a40f744b918ac7|Store events separetely from resource|Fri, 25 Sep 2015 10:46:45 +0300|Fri, 25 Sep 2015 17:53:32 +0300
+72bb891f0ef67af09d47d29367400324d823cccd|Merge pull request #178 from pigmej/transports_as_resource|Fri, 25 Sep 2015 13:42:53 +0200|Fri, 25 Sep 2015 13:42:53 +0200
+15aefb307e2214d1136178d94a0f0468f82852f7|openstack example to new transports|Fri, 25 Sep 2015 10:26:35 +0200|Fri, 25 Sep 2015 10:26:35 +0200
+585915f6275d7e309be0fd1b24037bd11238c737|hosts file example ported to new transports|Thu, 24 Sep 2015 18:25:35 +0200|Fri, 25 Sep 2015 10:22:15 +0200
+24ed73ebd00f58360d66c690e783d4fd5642c240|Removed old commented meta part|Thu, 24 Sep 2015 18:21:52 +0200|Fri, 25 Sep 2015 10:22:15 +0200
+0176726e7df4e6205f87f7d19da2eccc85fcf382|Riak example ported to new transports|Thu, 24 Sep 2015 17:00:22 +0200|Fri, 25 Sep 2015 10:22:15 +0200
+2018012164330261311b4c1d5043b636173ca443|Uncommented riak debug actions|Thu, 24 Sep 2015 17:00:04 +0200|Fri, 25 Sep 2015 10:22:15 +0200
+d86af968e9ec79b7a534a6ccf00271ffa5ea32af|Removed ssh_* things from meta.yaml|Thu, 24 Sep 2015 12:26:08 +0200|Fri, 25 Sep 2015 10:22:15 +0200
+f39c2aa06a6a815938eec7e0acf54a7a896395ed|Added vr for nodes with transports|Thu, 24 Sep 2015 10:32:26 +0200|Fri, 25 Sep 2015 10:22:15 +0200
+d6d998a7d5566cae6d8e9603765d0b0f59ca53fa|Still wip, but connections are ok|Fri, 18 Sep 2015 15:55:55 +0200|Fri, 25 Sep 2015 10:22:15 +0200
+652a5ab6e63b20a7a9daf917a7b1e11c46b82bdb|Still wip|Fri, 18 Sep 2015 15:29:51 +0200|Fri, 25 Sep 2015 10:22:15 +0200
+f81a8279c7c413a50782c860065909b90f8a2a6e|location_id introduced, transports resources added|Thu, 17 Sep 2015 18:10:55 +0200|Fri, 25 Sep 2015 10:22:15 +0200
+a16baf592da66a415f43379672c870c57e3360b9|Merge pull request #200 from loles/ignore|Fri, 25 Sep 2015 10:18:47 +0200|Fri, 25 Sep 2015 10:18:47 +0200
+fc10a85356576269f694c33ac9e67d1ab168c434|Add coverage dir to .gitignore|Fri, 25 Sep 2015 10:14:42 +0200|Fri, 25 Sep 2015 10:14:42 +0200
+1543829e0991d059501aab36872e1ed26bcdb0ed|Merge pull request #195 from pigmej/pip_accel|Thu, 24 Sep 2015 20:09:28 +0200|Thu, 24 Sep 2015 20:09:28 +0200
+10fa174e9f4cfd982457c469da32169714153605|Merge pull request #175 from zen/master|Thu, 24 Sep 2015 19:42:29 +0200|Thu, 24 Sep 2015 19:42:29 +0200
+8f1614dbffb24c5d7a4d9c167298e66928f439ed|Merge remote-tracking branch 'upstream/master'|Thu, 24 Sep 2015 17:51:17 +0200|Thu, 24 Sep 2015 17:51:17 +0200
+5c3ec7a3bd13032f520f10922a0ae22f486ded84|Merge pull request #192 from loles/coverate|Thu, 24 Sep 2015 15:36:34 +0200|Thu, 24 Sep 2015 15:36:34 +0200
+ae43f0c9481ae32a6504a8a65844760f53994889|Merge branch 'master' into coverate|Thu, 24 Sep 2015 13:28:23 +0200|Thu, 24 Sep 2015 13:28:23 +0200
+3e0b994d63d694ed7277708589c6c1155f2938a4|Merge pull request #187 from dshulyak/removal_support|Thu, 24 Sep 2015 09:11:06 +0200|Thu, 24 Sep 2015 09:11:06 +0200
+02a427995b380995c36687836004ed53633781eb|Merge pull request #190 from dshulyak/revert_support|Thu, 24 Sep 2015 09:10:55 +0200|Thu, 24 Sep 2015 09:10:55 +0200
+c0a9b404d99368c7f02c212a06abb4edce16ca94|Add tox.ini|Wed, 23 Sep 2015 16:14:17 +0300|Wed, 23 Sep 2015 16:19:44 +0300
+7f7b887cc373cc9732a20725479b9da711f6d76b|Merge pull request #183 from loles/vr_riak|Wed, 23 Sep 2015 11:48:40 +0300|Wed, 23 Sep 2015 11:48:40 +0300
+423a08fe231efe2dd03f91d3a7e63e9880548fe5|Move VR for riak to riak example dir|Tue, 22 Sep 2015 18:59:15 +0200|Tue, 22 Sep 2015 18:59:15 +0200
+6f3be2bf081e1804421cde4f7ee223e5629f7019|fix typo|Tue, 22 Sep 2015 18:53:21 +0200|Tue, 22 Sep 2015 18:53:21 +0200
+2d149e95ca98850b2e9c256286691d3ad3e28f87|Merge branch 'master' into vr_riak|Mon, 21 Sep 2015 19:33:48 +0200|Mon, 21 Sep 2015 19:33:48 +0200
+da96b3bc63bbd1a183246a06f4bedb9fe2005b14|Update riak cluster example after changes is HAProxy resources|Mon, 21 Sep 2015 19:31:34 +0200|Mon, 21 Sep 2015 19:31:34 +0200
+ad95769b5d157935741df935c7328b441ca7ee05|Merge pull request #189 from Mirantis/loles-patch-4|Mon, 21 Sep 2015 18:09:55 +0200|Mon, 21 Sep 2015 18:09:55 +0200
+7c250520ff8f09f04bc085f17021629049d34073|Remove unused input `ports`|Mon, 21 Sep 2015 18:09:34 +0200|Mon, 21 Sep 2015 18:09:34 +0200
+777930c0b6de8307b0f487a7ac30840f576cd78b|Merge pull request #176 from dshulyak/orm_events|Mon, 21 Sep 2015 09:51:43 +0200|Mon, 21 Sep 2015 09:51:43 +0200
+2fff44235b0611f2e827c535c14b21d1f05e5bb1|Fix build_edges routing to take into account order between events|Sun, 20 Sep 2015 11:04:10 +0300|Mon, 21 Sep 2015 10:29:55 +0300
+52dfa9b1ac970f59933f3e66a4fd25e7a00a9df6|Merge pull request #186 from pigmej/pigmej-patch-3|Mon, 21 Sep 2015 08:34:03 +0200|Mon, 21 Sep 2015 08:34:03 +0200
+869b3b7fd4eafba1f4239a59093b9e3e19348e54|Merge pull request #180 from CGenie/cgenie/riaks-template|Fri, 18 Sep 2015 15:57:58 +0200|Fri, 18 Sep 2015 15:57:58 +0200
+58e717fe4c6ca6dfa5e26168c8861fca5e98f3c6|Riak: yet another naming fix|Fri, 18 Sep 2015 12:40:00 +0200|Fri, 18 Sep 2015 12:40:00 +0200
+35b0fb3a854edc337af922ba6200f8dd58888c1a|Improve VirtualResources - add support for events - refactor code after orm changes|Fri, 18 Sep 2015 12:33:48 +0200|Fri, 18 Sep 2015 12:34:58 +0200
+8f7aca2e053af461957d0a8fc9266637a0603758|Riak cluster as VirtualResource|Fri, 28 Aug 2015 14:24:57 +0000|Fri, 18 Sep 2015 12:34:58 +0200
+7d6e663a5f1581664e5bd677250a5fe422ce3d1d|riaks: fix names for haproxy|Fri, 18 Sep 2015 12:10:48 +0200|Fri, 18 Sep 2015 12:10:58 +0200
+6402043ceaadb592372140703ab8b603e0f452a3|riaks: node name fix|Fri, 18 Sep 2015 11:46:37 +0200|Fri, 18 Sep 2015 11:46:37 +0200
+916b3c79daf4e71848ff74f1da40c3debf8ebd68|Riaks: fix template example, small riaks.py fixes|Fri, 18 Sep 2015 11:36:08 +0200|Fri, 18 Sep 2015 11:36:08 +0200
+367d1365fd7a223f0935f874bb95f4f1806b5a56|Merge pull request #179 from pigmej/pigmej-patch-2|Fri, 18 Sep 2015 11:32:47 +0200|Fri, 18 Sep 2015 11:32:47 +0200
+93b750ef40e6ffb2fc772934a473cb7a29ffd98d|Merge pull request #167 from CGenie/cgenie/cli-fixes|Fri, 18 Sep 2015 10:21:46 +0200|Fri, 18 Sep 2015 10:21:46 +0200
+273ea2192962c9db896a5013845e70a2f8ef3180|Merge pull request #177 from pigmej/pigmej-patch-1|Thu, 17 Sep 2015 17:39:13 +0200|Thu, 17 Sep 2015 17:39:13 +0200
+90b8419c80ff8aecb5e01a4ff22a88e1558d3806|Merge pull request #174 from pigmej/hotfix_duplicate_name|Thu, 17 Sep 2015 16:44:17 +0200|Thu, 17 Sep 2015 16:44:17 +0200
+6be816023a30a0210802859d5f9ae1b035255485|removed duplicate name in ro_node|Thu, 17 Sep 2015 16:42:23 +0200|Thu, 17 Sep 2015 16:42:23 +0200
+bd494f211293bea039d2e5ef6fd93f96f2a20c84|Merge pull request #163 from pigmej/riak_example_to_hash|Thu, 17 Sep 2015 14:59:30 +0200|Thu, 17 Sep 2015 14:59:30 +0200
+40966fefe5121d71fbb7ff378886cb32555dc66b|Removed old stuff|Thu, 17 Sep 2015 14:22:32 +0200|Thu, 17 Sep 2015 14:22:32 +0200
+66c140f25357b568a43049c445c4bd7cb64ecbf4|Fixed haproxy resource|Thu, 17 Sep 2015 14:21:17 +0200|Thu, 17 Sep 2015 14:21:17 +0200
+ce5b5a3685fc07c5ac9bca945cace98032a35b5f|Merge pull request #168 from loles/speed_libvirt|Thu, 17 Sep 2015 11:38:13 +0200|Thu, 17 Sep 2015 11:38:13 +0200
+a7f45d97e01835176c5d83f0da3b110cb41b1f95|Merge branch 'master' into speed_libvirt|Thu, 17 Sep 2015 11:35:26 +0200|Thu, 17 Sep 2015 11:35:26 +0200
+2e988626e24f0c5bb95301c46114a6cb2191af42|First stage of porting|Wed, 16 Sep 2015 14:14:30 +0200|Wed, 16 Sep 2015 21:39:17 +0200
+cf1bd28c126321a1167a47bc17a05900969ae848|Change riak hostnames mapping|Wed, 16 Sep 2015 12:15:08 +0200|Wed, 16 Sep 2015 21:38:08 +0200
+cedb79b4f0a6137680cf5b4a54d6c4ee09f08d67|Merge pull request #161 from CGenie/cgenie/graph-show-fix|Wed, 16 Sep 2015 16:54:08 +0200|Wed, 16 Sep 2015 16:54:08 +0200
+64a549af6f44f8ce2df948f74887e13a11c6c935|Merge pull request #121 from Mirantis/cgenie/bootstrap-readme|Wed, 16 Sep 2015 16:53:44 +0200|Wed, 16 Sep 2015 16:53:44 +0200
+b271ca9289fcb21afda0b48d48330bf7510e3c23|Bootstrap README: move vagrant-settings to yaml file|Wed, 16 Sep 2015 16:53:02 +0200|Wed, 16 Sep 2015 16:53:02 +0200
+8a34edaf6e988aa8c8f4fdd03684799374bfb2b1|Add slaves/master images to vagrant-settings.yaml|Tue, 15 Sep 2015 14:09:57 +0200|Wed, 16 Sep 2015 16:52:40 +0200
+d94b11d4fdf9f26f836422807810fd502ff0c744|Example-bootstrap: added readme, sample Vagrantfile|Mon, 7 Sep 2015 15:42:46 +0200|Wed, 16 Sep 2015 16:51:11 +0200
+0aa9d5f130c6e0dd3317d789139f01e4d96a704a|Merge pull request #159 from dshulyak/cover_graph_api|Wed, 16 Sep 2015 16:50:18 +0200|Wed, 16 Sep 2015 16:50:18 +0200
+07ff1a7d6714b31f7a6387d752781d42bc71a768|Merge pull request #160 from loles/vagrant/fixes|Wed, 16 Sep 2015 12:19:11 +0200|Wed, 16 Sep 2015 12:19:11 +0200
+22a709dd245752daaa0ae26234e1a9279299be01|Merge pull request #158 from pigmej/hosts_example_to_hash|Wed, 16 Sep 2015 12:03:31 +0200|Wed, 16 Sep 2015 12:03:31 +0200
+b7378892c4751f8137ac5b21e89415082ff8c6a7|Add vagrant-settings.yaml to .gitignore|Wed, 16 Sep 2015 11:55:36 +0200|Wed, 16 Sep 2015 11:55:47 +0200
+0b1725b59c7f39ec7326042c8fda4b275f7d779c|hosts example is now using recent hash changes|Wed, 16 Sep 2015 11:49:51 +0200|Wed, 16 Sep 2015 11:49:51 +0200
+328cb8bd1d681a24e1ec2ae755b1409058855cd9|Merge pull request #155 from CGenie/cgenie/graph-db-hash-type|Wed, 16 Sep 2015 11:47:12 +0200|Wed, 16 Sep 2015 11:47:12 +0200
+70130dc31de93cf1e6000990188c2d7a755e633c|Merge pull request #157 from loles/fix/openstack1|Wed, 16 Sep 2015 11:26:29 +0200|Wed, 16 Sep 2015 11:26:29 +0200
+c2ad38659ddc5b24184fb09e625bd95eb99e06aa|Remove clearing connections. db.clear does the job|Wed, 16 Sep 2015 09:23:36 +0000|Wed, 16 Sep 2015 09:23:36 +0000
+f58b130a3309778c03b760296e852e0fdc49ebeb|Merge pull request #156 from loles/fix/openstack|Wed, 16 Sep 2015 12:18:34 +0300|Wed, 16 Sep 2015 12:18:34 +0300
+727c073fb6b9abd44d54fe69b69b2a8e84431221|Fix undeploy. Use new API|Wed, 16 Sep 2015 09:17:36 +0000|Wed, 16 Sep 2015 09:17:36 +0000
+de31f724ea1c48a199d9974276a7fbfa84b7a2e8|Merge pull request #152 from pigmej/riak_schema_fixes|Wed, 16 Sep 2015 11:38:21 +0300|Wed, 16 Sep 2015 11:38:21 +0300
+07f28849331c4f5e1d5dd03992dd77d5bfebb8be|Fixed schemas in haproxy / riak|Tue, 15 Sep 2015 18:39:26 +0200|Tue, 15 Sep 2015 18:39:26 +0200
+de64776064a892484d09dad37374d6616ef370fd|Merge pull request #145 from loles/libvirt|Tue, 15 Sep 2015 17:13:32 +0300|Tue, 15 Sep 2015 17:13:32 +0300
+4540e26ff8b334e55c74a2497212ea10faeb84c0|Merge pull request #148 from CGenie/cgenie/connections-graph-fix|Tue, 15 Sep 2015 16:09:44 +0200|Tue, 15 Sep 2015 16:09:44 +0200
+11f82b93d2c85845c5bd9b6328bb482384febe8e|Merge pull request #149 from dshulyak/ut_for_events_db|Tue, 15 Sep 2015 15:28:03 +0200|Tue, 15 Sep 2015 15:28:03 +0200
+234c1b8adfb6b111aad53097ae8e0e2bb2deb305|Fix hosts_file run action|Tue, 15 Sep 2015 14:41:54 +0200|Tue, 15 Sep 2015 14:41:54 +0200
+971b61af799963ffacb0e0d2ba84f509fabfed06|Merge pull request #147 from Mirantis/yml_to_yaml|Tue, 15 Sep 2015 13:56:35 +0200|Tue, 15 Sep 2015 13:56:35 +0200
+0e7b23dbb2e8a1ea1c4f39339491d4e43873fe88|Merge pull request #143 from CGenie/cgenie/graph-db-with-events|Tue, 15 Sep 2015 14:33:37 +0300|Tue, 15 Sep 2015 14:33:37 +0300
+4cd506b9a441308526c10fd9e2d6ca3110913b05|hosts.py: remove Connections.clear()|Tue, 15 Sep 2015 12:53:38 +0200|Tue, 15 Sep 2015 12:53:38 +0200
+694cd47f824541e88ce69c7d73650bd6b91b357f|changed all yml occurrences to yaml|Tue, 15 Sep 2015 12:24:34 +0200|Tue, 15 Sep 2015 12:24:34 +0200
+5cf6b0880f6b277d479706a895b8eab70174a643|Renamed all yml files to yaml|Tue, 15 Sep 2015 12:20:12 +0200|Tue, 15 Sep 2015 12:20:12 +0200
+03746f5df2629e488d06ebd1e8aa9c8383289908|keystone_service_endpoint test fix|Tue, 15 Sep 2015 11:35:32 +0200|Tue, 15 Sep 2015 11:35:32 +0200
+3f86847b63c5c61bad6f33444bc6e43859eb05e6|Merge pull request #3 from dshulyak/fix_update|Tue, 15 Sep 2015 11:32:16 +0200|Tue, 15 Sep 2015 11:32:16 +0200
+9e78ca720d255eb77e6a8bd90c2fb9dc7c04f063|Merge branch 'master' into cgenie/graph-db-with-events|Tue, 15 Sep 2015 10:59:13 +0200|Tue, 15 Sep 2015 10:59:13 +0200
+08fcd86a459d7d682ffdff0ef95ea3039d130d86|Merge pull request #146 from pigmej/ip_to_host|Tue, 15 Sep 2015 10:59:02 +0200|Tue, 15 Sep 2015 10:59:02 +0200
+292d9f0780c3f4e44a9dbe156520202ae5259eab|more ip => host fixes|Tue, 15 Sep 2015 10:57:22 +0200|Tue, 15 Sep 2015 10:57:22 +0200
+03252c368fc5302ca46ba902cab349f0c18ecbad|Remove '.value' from inputs in resource tests|Tue, 15 Sep 2015 09:56:20 +0200|Tue, 15 Sep 2015 09:56:20 +0200
+39462ef2e4ab91f25fdc4a0abb8f239ab6d0203a|Merge pull request #2 from dshulyak/orm|Tue, 15 Sep 2015 09:45:26 +0200|Tue, 15 Sep 2015 09:45:26 +0200
+309602ec638800535c689a8515422e2700ea9372|Resolve several problems after conflicts|Tue, 15 Sep 2015 10:30:25 +0300|Tue, 15 Sep 2015 10:39:39 +0300
+c39cfa156703f98bb7ae3c1eede11fe79e39ad8d|Bring back 'value' in input data, fix ansible_template .value|Mon, 14 Sep 2015 16:24:06 +0200|Mon, 14 Sep 2015 16:24:06 +0200
+48752c9816aa15ddb53d1d80df2308da21365596|Graph DB: upload hiera yaml configs for puppet|Mon, 14 Sep 2015 16:04:24 +0200|Mon, 14 Sep 2015 16:04:24 +0200
+eab859a4679a978a8660cff80a1bf891c14fc107|ORM: resource, actions, handlers fixes|Mon, 14 Sep 2015 15:06:02 +0200|Mon, 14 Sep 2015 15:06:02 +0200
+964e519f0d35e86f45e7da14be186b0e0e18db6e|Merge branch 'master' into cgenie/graph-db-with-events|Mon, 14 Sep 2015 13:02:45 +0200|Mon, 14 Sep 2015 13:02:45 +0200
+106d297403043bb789790148a66f312d095d9873|Merge remote-tracking branch 'dshulyak/graph_db_2' into cgenie/graph-db-with-events|Mon, 14 Sep 2015 11:16:45 +0200|Mon, 14 Sep 2015 11:16:45 +0200
+31c55116970c052ee9711ef58e3e7022899b0a88|Merge pull request #133 from dshulyak/parallel_execution|Mon, 14 Sep 2015 11:10:42 +0200|Mon, 14 Sep 2015 11:10:42 +0200
+68af005b5af71485c653776fd386a6761bc38ebb|Merge pull request #142 from pigmej/raw_ssh_transport|Mon, 14 Sep 2015 11:35:12 +0300|Mon, 14 Sep 2015 11:35:12 +0300
+3785c6019b4496b15d5ec06710545c6142c8b25b|Merge branch 'master' into cgenie/graph-db|Thu, 10 Sep 2015 12:40:58 +0200|Thu, 10 Sep 2015 12:40:58 +0200
+10ca8ea2c6e131d2d07b8c2a9404af9afb6c6bc9|Merge pull request #141 from CGenie/cgenie/syntax-fixes|Thu, 10 Sep 2015 12:39:56 +0200|Thu, 10 Sep 2015 12:39:56 +0200
+0f4b03c169546d30590241a1164249c1015578a0|Fix wrong variable in riaks.py|Thu, 10 Sep 2015 12:36:32 +0200|Thu, 10 Sep 2015 12:36:32 +0200
+15965ae0d4a51ac96c2a6d0bdc0b4a6cb670645e|Merge branch 'master' into cgenie/graph-db|Thu, 10 Sep 2015 11:05:38 +0200|Thu, 10 Sep 2015 11:05:38 +0200
+d1ca6341d3556d60ed788af060643a3d9f0ca747|riaks.py: no Connection clearing anymore|Thu, 10 Sep 2015 08:00:49 +0200|Thu, 10 Sep 2015 08:00:49 +0200
+4f4afa1d4b45029b1d32a6e41b1ad8f47ea4084e|Merge pull request #138 from sand8080/master|Wed, 9 Sep 2015 16:28:05 +0200|Wed, 9 Sep 2015 16:28:05 +0200
+e770328da895c67bc5b35bfc997ff76fc93a218d|Merge pull request #137 from loles/fix_ip|Wed, 9 Sep 2015 15:29:08 +0200|Wed, 9 Sep 2015 15:29:08 +0200
+18a4a79ade1b0d2e39d7d6eaa1cbe8d1a8d6590e|Fix apply_config action in haproxy service: ip -> host|Wed, 9 Sep 2015 13:27:15 +0000|Wed, 9 Sep 2015 13:27:15 +0000
+c5e6b2cb91e49f8f577c9fd19ee8947969fa05dc|Merge branch 'cgenie/graph-db-2015-09-09' into cgenie/graph-db|Wed, 9 Sep 2015 15:18:54 +0200|Wed, 9 Sep 2015 15:18:54 +0200
+fb9eecbce6323917435b383e6cb3ed23de742e88|Merge pull request #126 from dshulyak/graph_filtering|Wed, 9 Sep 2015 13:38:30 +0200|Wed, 9 Sep 2015 13:38:30 +0200
+55670a15e4c4559270f4019ed1c97e51d5c15e25|Move two_path.yml example to solar/test|Fri, 4 Sep 2015 17:20:52 +0300|Wed, 9 Sep 2015 14:26:46 +0300
+bda439c06f613d16bab35c5f4aae912280178abd|Add more simple filters and two_path example|Fri, 10 Jul 2015 13:25:00 +0300|Wed, 9 Sep 2015 14:26:46 +0300
+53e08f7003e38d45e7cb8c81a0b96130d5546a33|Merge pull request #116 from pigmej/jnowak/pluggable_transports|Tue, 8 Sep 2015 15:34:56 +0200|Tue, 8 Sep 2015 15:34:56 +0200
+27747885e35f6eaedeaa0de8c58fc04df037a54b|Merge pull request #129 from pigmej/hosts_file_example|Tue, 8 Sep 2015 12:03:09 +0200|Tue, 8 Sep 2015 12:03:09 +0200
+59334b71269613de56a29d4ab0485c2c3d70c041|Added hosts_file_example|Tue, 8 Sep 2015 11:41:53 +0200|Tue, 8 Sep 2015 11:41:53 +0200
+d383011b6ab44fdd8da140a35eb935094af18331|Merge pull request #128 from Mirantis/loles-patch-1|Tue, 8 Sep 2015 09:58:54 +0300|Tue, 8 Sep 2015 09:58:54 +0300
+3d155675bbae5ef91b3a7c5f9966d5991d3f4039|Update lxc README|Tue, 8 Sep 2015 08:58:04 +0200|Tue, 8 Sep 2015 08:58:04 +0200
+c266dbcda7343e59725e46b40bc30e016d09c404|Merge pull request #125 from Mirantis/loles-patch-1|Tue, 8 Sep 2015 08:52:55 +0200|Tue, 8 Sep 2015 08:52:55 +0200
+f4bce38bae0958f8f8c722c88925b40dfd1961fc|Update README.md|Tue, 8 Sep 2015 08:34:40 +0200|Tue, 8 Sep 2015 08:34:40 +0200
+cdde5c8d934f90cd26aa929677ee94127cdb892f|Merge branch 'master' into cgenie/graph-db|Tue, 8 Sep 2015 08:12:13 +0200|Tue, 8 Sep 2015 08:12:13 +0200
+246cf72aecb41856dd8c096b45657d6bb4ed2f17|Merge pull request #124 from loles/cli_example|Mon, 7 Sep 2015 23:34:29 +0200|Mon, 7 Sep 2015 23:34:29 +0200
+fb4373cda844ba2ec7ac8a918ca609f956d1dc41|Make README more user friendly|Mon, 7 Sep 2015 21:33:35 +0000|Mon, 7 Sep 2015 21:33:35 +0000
+489344e65914d9323048bfc16544d2e551ef742a|Add `bash` to command|Mon, 7 Sep 2015 21:30:05 +0000|Mon, 7 Sep 2015 21:30:05 +0000
+5d79b051fbbc92f67c907763d355c09ee1993acc|Update CLI example|Mon, 7 Sep 2015 21:23:14 +0000|Mon, 7 Sep 2015 21:23:14 +0000
+16072b8d6cf1723a7595a44b113a9322f8a7bd88|Merge pull request #122 from Mirantis/cgenie/compiled-resources-readme|Mon, 7 Sep 2015 17:21:07 +0200|Mon, 7 Sep 2015 17:21:07 +0200
+e5b0d379ca44e86fce1c5dfeb6cc784f5888974d|Merge pull request #123 from pigmej/snaphotter_restore_n_fix|Mon, 7 Sep 2015 16:08:28 +0200|Mon, 7 Sep 2015 16:08:28 +0200
+0654badada947ebca5df881f60a1eb328f527aaf|Compiled resources README and example simplification|Mon, 7 Sep 2015 15:48:32 +0200|Mon, 7 Sep 2015 15:48:32 +0200
+2bbaba6106ac8e39faf0b6528b4e0aacf7b06017|Merge pull request #114 from Mirantis/cgenie/readme|Mon, 7 Sep 2015 15:23:17 +0200|Mon, 7 Sep 2015 15:23:17 +0200
+4ec8b86a175fea276454619c928103eb2e640dbd|Merge branch 'master' into cgenie/graph-db|Mon, 7 Sep 2015 12:07:50 +0200|Mon, 7 Sep 2015 12:07:50 +0200
+85d062bf1c0696ce07b8550c534a5b0950bd46c5|Merge branch 'master' into cgenie/readme|Mon, 7 Sep 2015 10:15:08 +0200|Mon, 7 Sep 2015 10:15:08 +0200
+e776d7f01f7bc7e449c95b28d31d1b9b1126beed|Merge pull request #120 from dshulyak/lxc_readme|Mon, 7 Sep 2015 09:28:32 +0200|Mon, 7 Sep 2015 09:28:32 +0200
+c05c9403577a3884239083067d6d431607babe76|Add README for lxc example|Mon, 7 Sep 2015 10:21:32 +0300|Mon, 7 Sep 2015 10:23:44 +0300
+7057bd61e582edf4911b9a8710c45e6d1ab99e9f|Merge pull request #118 from loles/ansible_lib|Mon, 7 Sep 2015 09:06:37 +0200|Mon, 7 Sep 2015 09:06:37 +0200
+71e2fc0aefac82e16aa0f12bd32179e08a702cc4|Remove unused ansible modules. Update resources|Fri, 4 Sep 2015 18:25:17 +0000|Fri, 4 Sep 2015 18:25:17 +0000
+7ceeea957000d6de9ee4dcb3fc9968d73d340978|Merge pull request #103 from Mirantis/jnowak/create_ansible_log|Fri, 4 Sep 2015 17:03:39 +0200|Fri, 4 Sep 2015 17:03:39 +0200
+0c4eb29184977f93695ba8812936d9630daa7efc|Sync /templates and /scripts dir from resource|Fri, 4 Sep 2015 17:02:34 +0200|Fri, 4 Sep 2015 17:02:34 +0200
+cbd84474d8b7b9fc5feb3f5734e0d23a1a5864bc|Merge branch 'master' into jnowak/pluggable_transports|Fri, 4 Sep 2015 15:00:19 +0200|Fri, 4 Sep 2015 15:00:19 +0200
+de9332e804ca7df9ec065970e959c0e8cab60eaf|Merge pull request #113 from Mirantis/loles-patch-2|Fri, 4 Sep 2015 14:50:27 +0200|Fri, 4 Sep 2015 14:50:27 +0200
+a1622375ec1e3afe63878f21b964856309506086|Merge pull request #115 from Mirantis/loles-patch-3|Fri, 4 Sep 2015 14:50:22 +0200|Fri, 4 Sep 2015 14:50:22 +0200
+f7e54a97b4779208f665662bef72fd32380c9a41|Merge pull request #112 from Mirantis/loles-patch-1|Fri, 4 Sep 2015 14:36:26 +0200|Fri, 4 Sep 2015 14:36:26 +0200
+f44702f5956fb9fd0733c95c6c1856bb6bbd855e|Merge pull request #111 from pigmej/jnowak/riak_example_readme|Fri, 4 Sep 2015 14:30:37 +0200|Fri, 4 Sep 2015 14:30:37 +0200
+d79439e96ec3f8c4110489270577b5a4b9810947|Added description about SUCCESS state in riak example|Fri, 4 Sep 2015 14:22:20 +0200|Fri, 4 Sep 2015 14:22:20 +0200
+80d9d3add14271059a1963a4e23bcf1f50120f73|Fixed paths in riak README|Fri, 4 Sep 2015 14:18:54 +0200|Fri, 4 Sep 2015 14:18:54 +0200
+e93f55cc27939362a4259b8faaa300c7405b8af0|Merge pull request #110 from pigmej/jnowak/riak_example_readme|Fri, 4 Sep 2015 14:18:33 +0200|Fri, 4 Sep 2015 14:18:33 +0200
+17349ff022e7ad05b6a45c999832437c5788c2c5|Added riak example README|Fri, 4 Sep 2015 14:05:17 +0200|Fri, 4 Sep 2015 14:10:45 +0200
+db0e86a08570607f775607e551256ca768188770|Merge pull request #107 from loles/cleanup_examples|Fri, 4 Sep 2015 14:05:54 +0300|Fri, 4 Sep 2015 14:05:54 +0300
+72780885e1cc418d6d14d3ebe0c6eb4b6b39f849|Move all examples to examples dir|Fri, 4 Sep 2015 10:51:38 +0000|Fri, 4 Sep 2015 10:51:38 +0000
+0fd4f22372ace8b8d149992e01fcd42acaa2ec7a|Rename riak example files|Fri, 4 Sep 2015 10:43:05 +0000|Fri, 4 Sep 2015 10:43:05 +0000
+e8cba421e4d76ce3625efd551e6ffd5792b306fb|Move riak examples to separate dir|Fri, 4 Sep 2015 10:42:29 +0000|Fri, 4 Sep 2015 10:42:29 +0000
+c14bea0e49310f463fd2e8d2c17ab751b04e765e|Rename example-puppet.py to openstack.py|Fri, 4 Sep 2015 10:34:29 +0000|Fri, 4 Sep 2015 10:34:29 +0000
+7ccea92fe428b5e5dca53316e1865b73048fb4f7|Update README|Fri, 4 Sep 2015 10:32:20 +0000|Fri, 4 Sep 2015 10:32:20 +0000
+7e712b0f58a7c1700aa68d8690b3eae3c2c48f51|Merge pull request #105 from loles/delete_todo|Fri, 4 Sep 2015 13:12:02 +0300|Fri, 4 Sep 2015 13:12:02 +0300
+b883aee73c7cf730ec0fc0f235dfc0e5e1cd944f|Move example-puppet.py to examples dir and add README file|Fri, 4 Sep 2015 10:02:02 +0000|Fri, 4 Sep 2015 10:02:02 +0000
+6bcf8e28440c0d1dc361bd74451837d42270932b|Merge pull request #106 from dshulyak/move_examples|Fri, 4 Sep 2015 11:46:42 +0200|Fri, 4 Sep 2015 11:46:42 +0200
+931c7bc317c644ebe914c39d8f1961f7eb43ebcd|Remove outdated examples directory and create orch_fixtures with README|Fri, 4 Sep 2015 12:42:06 +0300|Fri, 4 Sep 2015 12:42:06 +0300
+611b55b879a188d77253d1c7bc003287a5f90ab0|Merge pull request #102 from dshulyak/remove_cinder|Fri, 4 Sep 2015 09:20:45 +0200|Fri, 4 Sep 2015 09:20:45 +0200
+131cbd0972d52d53be8f1f562b5e2ba83e0df53a|Remove cinder.yml from solar_resource|Fri, 4 Sep 2015 10:18:54 +0300|Fri, 4 Sep 2015 10:18:54 +0300
+be82f04d3a87a03c72a25f01dc1fe6de75bad68c|Merge pull request #101 from Mirantis/vg_resource|Thu, 3 Sep 2015 22:59:19 +0200|Thu, 3 Sep 2015 22:59:19 +0200
+b1bd3829c47bc6b668c98e9bdee3d889a0382376|Merge pull request #99 from Mirantis/cgenie/clean-up|Thu, 3 Sep 2015 22:31:59 +0200|Thu, 3 Sep 2015 22:31:59 +0200
+7ae02f92c3b942b1a495a7c5be00e8d94cdda99e|Merge pull request #84 from Mirantis/pretty|Thu, 3 Sep 2015 22:30:25 +0200|Thu, 3 Sep 2015 22:30:25 +0200
+15256934ed7d60f2f8d4d61e594f2b4e5189d590|Volume group changes - fix path - remove file at the end|Thu, 3 Sep 2015 19:56:44 +0000|Thu, 3 Sep 2015 19:56:44 +0000
+07f33f12d4843fdf0e3362b45173d6d205387ae0|Merge pull request #98 from Mirantis/vg_resource|Thu, 3 Sep 2015 15:53:20 +0200|Thu, 3 Sep 2015 15:53:20 +0200
+a38c1387297e9677c8ff7dd1b5ce1839dfaf32e6|Add bootstrap/packer_cache to .gitignore|Thu, 3 Sep 2015 15:28:55 +0200|Thu, 3 Sep 2015 15:28:55 +0200
+4f8a042ba8be344f2586df6ae9152b92b8e29ffd|Merge pull request #56 from Mirantis/lxc|Thu, 3 Sep 2015 15:23:57 +0200|Thu, 3 Sep 2015 15:23:57 +0200
+72b9a53cd54c01d7b2f01e201a7f1c6144b14916|Merge pull request #71 from Mirantis/bogdando/rabbitmq|Thu, 3 Sep 2015 14:51:00 +0200|Thu, 3 Sep 2015 14:51:00 +0200
+f7506eb1e498a76f0f683a5fcd65a72572edbe99|Merge branch 'master' into bogdando/rabbitmq|Thu, 3 Sep 2015 14:25:08 +0200|Thu, 3 Sep 2015 14:25:08 +0200
+5da71613f7b651ffaa9a9246db54b7d42e32d863|Merge pull request #97 from Mirantis/cgenie/snapshotter-list-fixes|Thu, 3 Sep 2015 14:19:03 +0200|Thu, 3 Sep 2015 14:19:03 +0200
+56f131b225502bf7e795a152e21c2533c3e09319|Merge pull request #94 from Mirantis/bogdando/admin_role_services|Thu, 3 Sep 2015 14:11:24 +0200|Thu, 3 Sep 2015 14:11:24 +0200
+e3417e38dc9923c5d2ed7249d821610232b3a388|Address comments to lxc branch and fix several bugs with example-lxc.py|Thu, 3 Sep 2015 12:30:37 +0300|Thu, 3 Sep 2015 14:39:07 +0300
+0f4b5649abdf0e4ac12e333fa7ab88d6e3d5c1f6|Add remove action for Volum Group resource|Thu, 3 Sep 2015 11:22:26 +0000|Thu, 3 Sep 2015 11:22:26 +0000
+850f5578a074f874135d208a3696e3a8a8c737c1|Use comments as tasks names|Thu, 3 Sep 2015 10:55:41 +0000|Thu, 3 Sep 2015 10:55:41 +0000
+04b5973a636cae63af5dd70fdaac4ed00261b684|Volum Group resource|Thu, 3 Sep 2015 10:52:22 +0000|Thu, 3 Sep 2015 10:52:22 +0000
+f5f95389a6ad38eb6f003d5922e3fbfffc470f8d|Merge pull request #73 from Mirantis/bogdando/nova|Thu, 3 Sep 2015 12:08:22 +0200|Thu, 3 Sep 2015 12:08:22 +0200
+9287e4d7b7bd789b01215b711b420ba8e2172897|Create multiple containers and add rabbitmq resource on idx=28|Tue, 4 Aug 2015 12:39:09 +0300|Thu, 3 Sep 2015 12:47:40 +0300
+08cbc9567394fa53db5991444a23522d21c802af|Add example-lxc.py and several fixes|Mon, 3 Aug 2015 18:05:17 +0300|Thu, 3 Sep 2015 12:47:40 +0300
+806632721374541fbb9a55be40596282cd7457a7|Add container_networks, ssh_key and vxlan_mesh resources|Mon, 3 Aug 2015 18:04:54 +0300|Thu, 3 Sep 2015 12:46:41 +0300
+541719ea729e6b4716cf5eb40c41904262adaf91|Finish lxc container and lxc host resources|Mon, 3 Aug 2015 18:04:05 +0300|Thu, 3 Sep 2015 12:46:41 +0300
+63ead6980a401d0d2035b567d5ad390b179539c2|Add SVN provider for downloading dependencies|Fri, 24 Jul 2015 23:16:32 +0300|Thu, 3 Sep 2015 12:46:41 +0300
+0fc9064d7fa229e8e5ff84e538625a775bff234b|Lxc container resource|Fri, 24 Jul 2015 18:45:26 +0300|Thu, 3 Sep 2015 12:46:41 +0300
+624eb45409336239ed4040b67ee93bff3e136b52|Add resource for lxc_hosts and lxc_container|Fri, 24 Jul 2015 13:30:51 +0300|Thu, 3 Sep 2015 12:46:41 +0300
+69bf410f839c238fb4b848142638bab687c013ce|Merge pull request #96 from Mirantis/ignore_uids|Thu, 3 Sep 2015 11:37:38 +0200|Thu, 3 Sep 2015 11:37:38 +0200
+2e9efc9db29952435812e404fa3bca781f3c19cf|Add .solar_cli_uids to .gitignore|Thu, 3 Sep 2015 12:35:06 +0300|Thu, 3 Sep 2015 12:35:06 +0300
+4022ab63bfb15a8edae21789e853837b03db97da|Merge pull request #95 from Mirantis/cgenie/better-test-results|Thu, 3 Sep 2015 11:27:28 +0200|Thu, 3 Sep 2015 11:27:28 +0200
+13ec2c6e5e953996635b38a0a62aae84242eaa04|Merge pull request #83 from Mirantis/cgenie/deployment-template|Thu, 3 Sep 2015 11:24:59 +0200|Thu, 3 Sep 2015 11:24:59 +0200
+de26a6162f1de56865a4e15e175d5121b606f0f6|Merge branch 'master' into jnowak/sol_103|Thu, 3 Sep 2015 09:51:20 +0200|Thu, 3 Sep 2015 09:51:20 +0200
+f3591906a45488261f03a7f6a158103e2803d677|Fix nova conductor resource's README|Mon, 31 Aug 2015 11:48:45 +0200|Thu, 3 Sep 2015 08:02:47 +0200
+50d780c1a398a8593b88dfaddffdd022f5cc7b3c|Fix nova_generic_service resource|Mon, 24 Aug 2015 14:20:44 +0200|Thu, 3 Sep 2015 08:02:47 +0200
+7814a8bba5543a776669df2178c651b8a420517c|Add nova generic service resource|Mon, 24 Aug 2015 13:57:47 +0200|Thu, 3 Sep 2015 08:02:47 +0200
+ad51e0ddab1f516a79530cdfaad6a7caf18a2148|Merge pull request #89 from Mirantis/events|Wed, 2 Sep 2015 15:59:01 +0300|Wed, 2 Sep 2015 15:59:01 +0300
+efd2620c8d34808ee054a20436dffdd664f46447|Merge pull request #78 from Mirantis/jnowak/events_riak1|Wed, 2 Sep 2015 14:23:58 +0200|Wed, 2 Sep 2015 14:23:58 +0200
+2e4c17ebb0e93db206f1be577185caf303a28c29|Merge branch 'master' into jnowak/events_riak1|Wed, 2 Sep 2015 10:41:34 +0200|Wed, 2 Sep 2015 10:41:34 +0200
+5e70e6fbaf242614f0285988e09f5bce71cd7701|Merge pull request #86 from Mirantis/jnowak/vagrantfile_yml|Wed, 2 Sep 2015 10:16:06 +0200|Wed, 2 Sep 2015 10:16:06 +0200
+3b0717cc770616dfe7d17a015705e95504f6eaa1|Added vagrant-settings.yml to gitignore|Wed, 2 Sep 2015 10:00:42 +0200|Wed, 2 Sep 2015 10:00:42 +0200
+7da1227cc6934bd165c39cb14cc6c4f70920937a|Merge pull request #57 from Mirantis/events|Wed, 2 Sep 2015 09:35:36 +0200|Wed, 2 Sep 2015 09:35:36 +0200
+894182349af1ff024630a1e0d05e5da9e190fd02|Merge pull request #81 from Mirantis/bogdando/neutron|Wed, 2 Sep 2015 09:28:01 +0200|Wed, 2 Sep 2015 09:28:01 +0200
+a59c59d041828ecbdcf692f08a61fcc394499ebe|Added comment about wget ... | bash things|Wed, 2 Sep 2015 09:01:00 +0200|Wed, 2 Sep 2015 09:01:00 +0200
+92d50d5f3ae69da01a6c4e59a25a99d031eb85fa|added missing haproxy_config file|Tue, 1 Sep 2015 16:07:20 +0200|Tue, 1 Sep 2015 16:07:20 +0200
+1793ae15c67c88f031ea00e98aa8c0ef8dea8110|added missing update file in riak_node resource|Tue, 1 Sep 2015 15:45:45 +0200|Tue, 1 Sep 2015 15:45:45 +0200
+0fefbbfcc72e112b1c5bc0f5e9020222611bfa78|renamed haproxy actions (forgotten files)|Tue, 1 Sep 2015 15:25:29 +0200|Tue, 1 Sep 2015 15:25:29 +0200
+9df9f20426b1e4fe4ce2708bef0bbc9b68e43f3b|renamed haproxy actions|Tue, 1 Sep 2015 15:23:27 +0200|Tue, 1 Sep 2015 15:23:27 +0200
+3b31e7557ae99b3edd1b2c9e6411ea4484b4c144|Merge branch 'pretty' into jnowak/events_riak1|Tue, 1 Sep 2015 13:10:54 +0200|Tue, 1 Sep 2015 13:10:54 +0200
+feaa21250855c307006e736cd4729a8f1cf88639|Merge pull request #82 from Mirantis/cgenie/fix_vagrantfile|Tue, 1 Sep 2015 12:38:47 +0200|Tue, 1 Sep 2015 12:38:47 +0200
+95366ad912bf61ad71a920fe4bae4bccdd6ebec0|Merge pull request #65 from Mirantis/cgenie/solar-bootstrap|Tue, 1 Sep 2015 12:38:23 +0200|Tue, 1 Sep 2015 12:38:23 +0200
+6d54c0360b488dcc9702b713a142037cf0f85cfa|Del duplicated puppet parameter|Tue, 1 Sep 2015 12:31:03 +0200|Tue, 1 Sep 2015 12:31:03 +0200
+d12b54f3e7c6858c11b4898e542951d34d2705a7|Merge pull request #70 from Mirantis/jnowak/cli_uids_history|Mon, 31 Aug 2015 13:19:36 +0300|Mon, 31 Aug 2015 13:19:36 +0300
+6650ef8e12c1a6c1468126c7af4c276e086b7a9a|Fix ml2 agent resource and compostion|Mon, 31 Aug 2015 11:16:55 +0200|Mon, 31 Aug 2015 12:12:26 +0200
+7b53d64c907d5da937e55b09bad43d8a177b9b1d|Add tags for rabbitmq_user resource|Mon, 24 Aug 2015 16:14:12 +0200|Mon, 31 Aug 2015 11:53:07 +0200
+aacb5bbe25bdf62256776eff63c4c8a510cc3f00|W/a LP1490438 for ml2 plugin resource|Mon, 31 Aug 2015 11:01:33 +0200|Mon, 31 Aug 2015 11:02:14 +0200
+b33f4da8c97766fdf8b32f09c3d53c498dfd25c1|Fix ml2 agent resource inputs|Fri, 28 Aug 2015 16:47:57 +0200|Fri, 28 Aug 2015 16:48:45 +0200
+e6d8a8ba11a420706f491bfc6ed3b5e88fa0e22b|Remove ovs plugin and agent|Fri, 28 Aug 2015 16:34:37 +0200|Fri, 28 Aug 2015 16:34:37 +0200
+585ec95d26aadeb528a6311732a7d1f9d15e59db|Add neutron agent ovs with ml2 plugin resource|Fri, 28 Aug 2015 16:32:51 +0200|Fri, 28 Aug 2015 16:32:51 +0200
+0b46904f779383cb5a3876e661d5fa5e71de39ea|Add neutron ml2 plugin resource|Fri, 28 Aug 2015 16:04:47 +0200|Fri, 28 Aug 2015 16:04:47 +0200
+a40d178560b4773cfb40453662d520bc245da713|fixup! AnsibleTemplate uses now `host` instead of `ip` as ansible `-hosts`|Thu, 27 Aug 2015 16:48:28 +0200|Thu, 27 Aug 2015 16:48:28 +0200
+2e392be61ff4125b3c34f57d573f1f2d56de52ca|AnsibleTemplate uses now `host` instead of `ip` as ansible `-hosts`|Thu, 27 Aug 2015 16:27:35 +0200|Thu, 27 Aug 2015 16:27:35 +0200
+de264dbf087b537e559f9f98325eedf832199840|still wip|Thu, 27 Aug 2015 16:07:22 +0200|Thu, 27 Aug 2015 16:07:22 +0200
+967b569709a3c53bc188782df1520a50f0e2b397|Merge branch 'master' into cgenie/graph-db|Thu, 27 Aug 2015 12:54:16 +0200|Thu, 27 Aug 2015 12:54:16 +0200
+edf51035c68de228f1e7b2e3c4bb560fc800f887|Merge branch 'master' into cgenie/graph-db|Thu, 27 Aug 2015 12:49:29 +0200|Thu, 27 Aug 2015 12:49:29 +0200
+dccb6b5ed61ead46973d7847ecde04d01d09f324|Merge pull request #53 from Mirantis/bogdando/apache_puppet|Thu, 27 Aug 2015 09:01:14 +0200|Thu, 27 Aug 2015 09:01:14 +0200
+348d0059415ff1c4f6a545892aa8a264d14ea9da|Merge pull request #60 from Mirantis/bogdando/neutron|Wed, 26 Aug 2015 11:09:11 +0200|Wed, 26 Aug 2015 11:09:11 +0200
+3fcb2399a1c27b6fcc459c7f4c55500fa814c9c1|Fix puppet id and module in meta.yaml|Tue, 25 Aug 2015 12:56:49 +0200|Tue, 25 Aug 2015 12:56:49 +0200
+bb80096ed35477c54eb20200f92cb87420131bf1|Fix neutron conf for compute and nova_neutron resource|Tue, 25 Aug 2015 12:40:46 +0200|Tue, 25 Aug 2015 12:50:40 +0200
+aedc1b5be6d8289c5cd0d8dd20889e538d8110ca|Fix neutron db stamp head|Mon, 24 Aug 2015 13:25:50 +0200|Mon, 24 Aug 2015 13:26:19 +0200
+35526bf7a92999ddb02da05a43541bd961076727|riak join fixes|Fri, 21 Aug 2015 14:26:03 +0200|Fri, 21 Aug 2015 14:26:03 +0200
+08e2f9319a5746eedfdce01254df8a63ba664139|haproxy update action|Thu, 20 Aug 2015 15:30:52 +0200|Thu, 20 Aug 2015 15:30:52 +0200
+c71c419874033c712ba77daf4dd5ed86a81869fe|Further work on riak_example|Tue, 18 Aug 2015 19:44:04 +0200|Wed, 19 Aug 2015 01:14:19 +0200
+f13c79138d8d5c082e0c4829a4b74ba2f7e27574|Added hosts_file resource|Tue, 18 Aug 2015 19:43:37 +0200|Tue, 18 Aug 2015 19:43:37 +0200
+7fc68abfc9a75b5feca771ae363be41bcfe151e9|Riak cluster 3 nodes example with haproxy on each node|Mon, 17 Aug 2015 20:27:05 +0200|Mon, 17 Aug 2015 20:27:05 +0200
+69db24a1b3f38008b6445a9496968f64ad91d3df|Added plan command|Sun, 16 Aug 2015 23:25:00 +0200|Sun, 16 Aug 2015 23:25:00 +0200
+c77e3f74d58ed98ecd94f637788b0e0e88d385d7|Removed not needed files|Fri, 14 Aug 2015 17:27:26 +0200|Fri, 14 Aug 2015 22:14:45 +0200
+81710f2d24528722cce0e9e63bca01835fc032cf|Added riak example with events|Fri, 14 Aug 2015 17:25:01 +0200|Fri, 14 Aug 2015 17:25:01 +0200
+554b856c5b093603bdba8b834d2672ae2f9a1f70|Merge branch 'events' of github.com:Mirantis/solar into jnowak/events_riak1|Fri, 14 Aug 2015 16:10:48 +0200|Fri, 14 Aug 2015 16:10:48 +0200
+1e8f38033834637021da40881970249d8bcb3873|Idea 1|Fri, 14 Aug 2015 15:01:18 +0200|Fri, 14 Aug 2015 15:01:18 +0200
+868ffd83cb3d9c2c9da95e0062232b61619f7994|Bootstrap resource added|Fri, 7 Aug 2015 09:10:39 +0200|Fri, 7 Aug 2015 09:10:39 +0200
+34bbdc774040215a2c2c15ef57d7cde2b1690635|Add neutron metadata agent resource|Thu, 6 Aug 2015 17:24:25 +0200|Thu, 6 Aug 2015 17:50:14 +0200
+f3414701573e4d882d9cc8bf860b618bab11aa13|Add neutron L3 agent resource|Thu, 6 Aug 2015 14:30:37 +0200|Thu, 6 Aug 2015 15:35:29 +0200
+5934f203338c6c7e5c57219a1478fa9e6f74c294|Add neutron DHCP agent resource|Thu, 6 Aug 2015 14:00:50 +0200|Thu, 6 Aug 2015 14:05:48 +0200
+06e12ac78cff19252ca183934ed767c7f2ce9792|Merge branch 'master' into cgenie/solar-bootstrap|Thu, 6 Aug 2015 14:05:09 +0200|Thu, 6 Aug 2015 14:05:09 +0200
+b3c68cd47ffb7b77fadf8e5d35d0fe1fd657f111|Fix neutron stamp/upgrade head|Thu, 6 Aug 2015 13:40:23 +0200|Thu, 6 Aug 2015 13:40:57 +0200
+5c75da63f0901ddd448fc8962eafc72c8a1ceb05|Solar bootstarpping playbooks & packer.io guide|Thu, 6 Aug 2015 10:57:48 +0200|Thu, 6 Aug 2015 10:57:48 +0200
+27d5c142f93225976d002817e9b2430b464ab7f1|Merge pull request #64 from Mirantis/fix_undef|Wed, 5 Aug 2015 16:46:08 +0200|Wed, 5 Aug 2015 16:46:08 +0200
+8cd90b9fb3922f6b3f8dae9350379568083ded87|Fix undef default|Wed, 5 Aug 2015 16:43:35 +0200|Wed, 5 Aug 2015 16:44:19 +0200
+c746ecbb7aa89466250d5f6881983d0dec5494f1|Fix core plugin, remove external class ref for neutron|Wed, 5 Aug 2015 16:21:33 +0200|Wed, 5 Aug 2015 16:22:27 +0200
+b9045e09939fba302ccc49142f3bfd91372a9434|Fix removed sql_con|Wed, 5 Aug 2015 14:57:14 +0200|Wed, 5 Aug 2015 16:22:18 +0200
+bd8cf685ff5d2dcd82b2655c9e8edada4261176d|Add composition for OVS plugin/agent|Wed, 5 Aug 2015 14:49:06 +0200|Wed, 5 Aug 2015 14:55:26 +0200
+71605ea6353cfded3af479d540c67ec5f238b6b6|Remove deprecated/unused sql conn inputs|Wed, 5 Aug 2015 13:51:48 +0200|Wed, 5 Aug 2015 14:55:17 +0200
+487126310c985da78218b8d9c2226e5f7e0cce43|Add neutron OVS agent resource|Wed, 5 Aug 2015 12:31:40 +0200|Wed, 5 Aug 2015 14:54:57 +0200
+9b850ad4721906a2de0d00df93a82139a6e48eb4|Merge pull request #13 from Mirantis/dry-run|Wed, 5 Aug 2015 11:47:56 +0300|Wed, 5 Aug 2015 11:47:56 +0300
+867cf1ee07a612171a0894136b7c1978b1b295fc|Fix undef inputs for neutron|Tue, 4 Aug 2015 15:45:05 +0200|Wed, 5 Aug 2015 10:37:50 +0200
+52ba02e5eb5a78d10be9e31c4adfcb5db1efbecd|Add neutron ovs plugin resource|Tue, 4 Aug 2015 12:13:17 +0200|Wed, 5 Aug 2015 10:37:50 +0200
+ea6354b134a4e99f64b48eb24323fad20bedafe3|Remove external class ref for neutron server resource|Tue, 4 Aug 2015 11:59:24 +0200|Wed, 5 Aug 2015 10:36:43 +0200
+2841ba046af549243c0dc4256191c5a010d04a9f|Decouple neutron resource|Tue, 4 Aug 2015 10:47:59 +0200|Wed, 5 Aug 2015 10:36:43 +0200
+df9d757bdbbab02aa4afe549469994babc799b2a|Fix undef inputs for apache2|Tue, 4 Aug 2015 15:48:31 +0200|Wed, 5 Aug 2015 10:31:11 +0200
+dc400bf9d9815f2117a2d213fb86092ad4eb2c25|Add apache puppet resource|Thu, 23 Jul 2015 13:48:02 +0200|Wed, 5 Aug 2015 10:31:11 +0200
+46d519a4fb16aa3a37d7419f2c0c9494d11bdfc2|Merge pull request #63 from Mirantis/fix_undefs|Wed, 5 Aug 2015 08:57:36 +0200|Wed, 5 Aug 2015 08:57:36 +0200
+5093679938d1dc04d1a294abb2d047948f8162b1|Merge branch 'master' into dry-run|Wed, 5 Aug 2015 08:22:29 +0200|Wed, 5 Aug 2015 08:22:29 +0200
+bb29eb31b77cc233d7587b8f67d2c325991cddd9|Merge pull request #61 from Mirantis/example-refactor|Wed, 5 Aug 2015 07:52:58 +0200|Wed, 5 Aug 2015 07:52:58 +0200
+d8a364aa334117b03fc9b40946d2120aba006f97|Fix undefined inputs|Tue, 4 Aug 2015 15:36:58 +0200|Tue, 4 Aug 2015 15:39:12 +0200
+6e5f7895ec4844cb9ccd34068d873e812d4f53f7|Refactor example-puppet.py actions|Tue, 4 Aug 2015 14:54:46 +0200|Tue, 4 Aug 2015 14:54:46 +0200
+262b4f5d958535fad1f00498849fe7406c008dfa|Merge pull request #59 from Mirantis/bogdando/cinder|Tue, 4 Aug 2015 13:56:15 +0200|Tue, 4 Aug 2015 13:56:15 +0200
+4b3f883c4c64f1105845b1ae618a351cef1db620|Decompose glance_api_servicers input|Tue, 4 Aug 2015 13:44:08 +0200|Tue, 4 Aug 2015 13:44:08 +0200
+5d5960190badf35ba8232863fae75b5f4509c402|Add cinder volume ISCSI resource|Mon, 3 Aug 2015 16:08:15 +0200|Tue, 4 Aug 2015 10:09:46 +0200
+6c7e34679ce49fa29dc809d256790f61e94fee2a|Add cinder_glance resource|Mon, 3 Aug 2015 14:41:13 +0200|Tue, 4 Aug 2015 10:09:46 +0200
+c5d2836efcc922d61daa4c4f6dcd98f05f996f55|Merge pull request #58 from Mirantis/bogdando/nova|Tue, 4 Aug 2015 10:06:22 +0200|Tue, 4 Aug 2015 10:06:22 +0200
+f83c70bdb418bce02419fb66141ad4bef7323552|Nova API test.py with servers, flavors, images|Tue, 4 Aug 2015 09:31:40 +0200|Tue, 4 Aug 2015 09:32:57 +0200
+a2ad4c1f15d7b8ea28e175d2264cc9249472ccef|Fix glance api servers for nova compute|Mon, 3 Aug 2015 13:25:45 +0200|Mon, 3 Aug 2015 16:38:39 +0200
+087b2b7c62d46692526f4c437a21c19539631c6f|Add nova_neutron resource.|Mon, 3 Aug 2015 11:33:38 +0200|Mon, 3 Aug 2015 16:38:39 +0200
+81f85f04865704c24e8886be44c3e5b86c1fb645|Fix libvirt inject password input|Mon, 3 Aug 2015 10:52:26 +0200|Mon, 3 Aug 2015 16:38:39 +0200
+09b3bd147b0e3ca53bb5882f0a7f91874fdd20f3|Add nova comp libvirt resource|Mon, 3 Aug 2015 10:23:08 +0200|Mon, 3 Aug 2015 16:38:39 +0200
+c02055cc20900879400570d0db703f23cfe2c8bd|Add exec post config and network refresh to n-compute|Fri, 31 Jul 2015 16:30:01 +0200|Mon, 3 Aug 2015 16:38:39 +0200
+02d23579c9951be9b6b562271d5f14bdffa450f8|Fix nodes template|Fri, 31 Jul 2015 16:05:54 +0200|Mon, 3 Aug 2015 16:38:39 +0200
+6b1abb6f5ea1ffad23e3ed61b771623e9e3aabe2|Add compute node2|Fri, 31 Jul 2015 15:14:18 +0200|Mon, 3 Aug 2015 16:37:40 +0200
+4c8e99ff8bb4e6b651ff23756d8f9b65508265a3|Add nova compute resource|Fri, 31 Jul 2015 14:51:58 +0200|Mon, 3 Aug 2015 16:37:40 +0200
+6ca7a3e62109f8efc821ac98e1c54f5dd31f3f4c|Add nova conductor resource|Thu, 30 Jul 2015 15:47:26 +0200|Mon, 3 Aug 2015 16:37:40 +0200
+ce6db69711cf9f1e8c6f37c4a914717af90e29bc|Fix remove nova api resource|Thu, 30 Jul 2015 12:14:21 +0200|Mon, 3 Aug 2015 16:37:40 +0200
+8ed672a8eec21e95df71547017a4e9781de280c3|Fix schema and db-sync condition|Thu, 30 Jul 2015 12:05:16 +0200|Mon, 3 Aug 2015 16:37:40 +0200
+ec4515efd39d7ff53b2f461dc4a9c2c91a2648d6|Add missing post-config and nova-common|Thu, 30 Jul 2015 11:50:28 +0200|Mon, 3 Aug 2015 16:37:39 +0200
+962ab6f58e8fe61c7cadf39de7b96a900edfe23d|Add missed admin_password for nova api resource|Thu, 30 Jul 2015 11:44:02 +0200|Mon, 3 Aug 2015 16:37:39 +0200
+f785ac25bf55bff168a3bf7db5babb989b94b137|Fix typo|Thu, 30 Jul 2015 11:36:14 +0200|Mon, 3 Aug 2015 16:37:39 +0200
+840074ab40dc6023d7749101c2cac703422d45c1|Add nova api puppet resource|Thu, 30 Jul 2015 10:10:17 +0200|Mon, 3 Aug 2015 16:37:39 +0200
+794b61c88f260a0241b0aec538b07bebae3f5e76|Fix cinder puppet module references|Thu, 30 Jul 2015 10:09:56 +0200|Mon, 3 Aug 2015 16:37:39 +0200
+ec00e04af36b59714c02cbe3a89bd768719c8b23|Del nova_api after moved to nova_puppet resource|Thu, 30 Jul 2015 09:48:47 +0200|Mon, 3 Aug 2015 16:37:39 +0200
+c61536c1c41c7ba63000a4774ce18d4a60206b3f|Fix schema for nova puppet|Thu, 30 Jul 2015 09:43:16 +0200|Mon, 3 Aug 2015 16:37:39 +0200
+69521a67ebca6629971fe949966fd45b4d088329|Add missing port parameter for nova puppet|Wed, 29 Jul 2015 13:54:39 +0200|Mon, 3 Aug 2015 16:37:39 +0200
+f80698281b99ba6eceff3209e8c546c8e24c4b9a|Create nova base puppet resource|Wed, 29 Jul 2015 12:20:26 +0200|Mon, 3 Aug 2015 16:37:39 +0200
+899aff62b6d61756fa3c0e98982330035d16ac94|Merge pull request #32 from Mirantis/glance-puppet|Mon, 3 Aug 2015 16:36:56 +0200|Mon, 3 Aug 2015 16:36:56 +0200
+2326a14423e8c928b8edb5916967fecba2e09949|Add generic token validation function|Mon, 3 Aug 2015 16:22:19 +0200|Mon, 3 Aug 2015 16:22:19 +0200
+c6f24d755b3fcce45e49da4c70d61ea437d0b91b|Fix glance/cinder test.py input names|Mon, 3 Aug 2015 16:19:58 +0200|Mon, 3 Aug 2015 16:19:58 +0200
+ba2ee11785aec050b721e567bf9e7e364b9da044|Fix remove actions for glance puppet resources|Tue, 28 Jul 2015 14:15:18 +0200|Mon, 3 Aug 2015 11:57:47 +0200
+10fd782b946636306b7324e2baecb044d286b7ae|Fix missing collation and encoding for mariadb_db|Tue, 28 Jul 2015 13:35:19 +0200|Mon, 3 Aug 2015 11:57:47 +0200
+aefc796760a83a7aa4664f90364c4de48075da39|Add glance registry puppet resource|Tue, 28 Jul 2015 11:59:03 +0200|Mon, 3 Aug 2015 11:57:04 +0200
+441ed8048b04916af444bdab78d140da5006f290|Del duplicated params|Tue, 28 Jul 2015 11:39:31 +0200|Mon, 3 Aug 2015 11:57:04 +0200
+1985565edf7df125470992a2be9f2d6ca2d2c292|Fix glance puppet classes dependencies|Mon, 27 Jul 2015 17:01:17 +0200|Mon, 3 Aug 2015 11:57:04 +0200
+d31d7e231a3255c10b113a1f70f58f25ee69cc54|Fix glance puppet|Mon, 27 Jul 2015 16:53:31 +0200|Mon, 3 Aug 2015 11:57:04 +0200
+bebf6e2856f7d5760dc42e358bcda30f9c74c769|Align glance_puppet with cinder_puppet and upstream|Mon, 27 Jul 2015 15:24:45 +0200|Mon, 3 Aug 2015 11:56:16 +0200
+dff1ada9e92084ce0db40101b00e53972fba7d6a|Glance-puppet, not fully working yet|Fri, 17 Jul 2015 15:14:35 +0200|Mon, 3 Aug 2015 11:56:02 +0200
+00154765a934c82573b9ac187fd2ba02fd4ab2ac|Merge branch 'master' into dry-run|Mon, 3 Aug 2015 10:54:32 +0200|Mon, 3 Aug 2015 10:54:32 +0200
+36858a921822c62fa79f6e2f0f864977161db072|Merge pull request #27 from Mirantis/nova-api|Wed, 29 Jul 2015 12:11:26 +0200|Wed, 29 Jul 2015 12:11:26 +0200
+dc21bd3f7b7682d9ccc495d6e5fc49f046c45796|Merge branch 'master' into nova-api|Wed, 29 Jul 2015 11:47:56 +0200|Wed, 29 Jul 2015 11:47:56 +0200
+3f1f49768bc518dc82fbca1f9029c5e8518de58f|Merge pull request #52 from Mirantis/limits|Fri, 24 Jul 2015 12:44:01 +0200|Fri, 24 Jul 2015 12:44:01 +0200
+d15ac9fff146de6da68499a13917b01ea7dcf0bb|Merge pull request #55 from Mirantis/update|Fri, 24 Jul 2015 12:46:45 +0300|Fri, 24 Jul 2015 12:46:45 +0300
+e91c1524b495ebce83b3852cb73d56fcc4698014|Merge pull request #47 from Mirantis/bogdando/cinder_volume_puppet|Fri, 24 Jul 2015 11:27:13 +0200|Fri, 24 Jul 2015 11:27:13 +0200
+41f8e9c409d1208e41c13d718c25b17a87803340|Add compostion layer for c-volume puppet|Wed, 22 Jul 2015 15:21:54 +0200|Fri, 24 Jul 2015 10:28:40 +0200
+25df204e56da86d77fc29f74e5b82700b4adc11c|Remove enabled and manage_services params for c-volume|Wed, 22 Jul 2015 14:59:43 +0200|Fri, 24 Jul 2015 10:27:50 +0200
+44d58478b7b76d1e48c3ed3f9a62136e5bf3c250|Add cinder volume puppet resource|Wed, 22 Jul 2015 14:43:29 +0200|Fri, 24 Jul 2015 10:27:50 +0200
+bdd489cb9c85b52d8e87bb2bb3f99c5c36f7722d|Merge pull request #45 from Mirantis/bogdando/cinder_scheduler_puppet|Fri, 24 Jul 2015 10:25:06 +0200|Fri, 24 Jul 2015 10:25:06 +0200
+f35d1e2569e110739af8d1103effcaa0bd3b3b4a|Remove enabled and manage_service for c-scheduler|Wed, 22 Jul 2015 15:30:45 +0200|Thu, 23 Jul 2015 15:51:24 +0200
+6bcda5125b87bb7c2f85f6991641a43c7dfa03c6|Fix cinder scheduler puppet params|Wed, 22 Jul 2015 10:46:11 +0200|Thu, 23 Jul 2015 15:51:24 +0200
+6616bccec5a7235273b4d9a593b8c3ce13b88fbe|Add cinder scheduler puppet resource|Tue, 21 Jul 2015 16:58:32 +0200|Thu, 23 Jul 2015 15:50:32 +0200
+2d69a72055dd18cf317234a9573f8578e67773f6|Merge pull request #54 from Mirantis/bogdando/dev|Thu, 23 Jul 2015 15:38:33 +0200|Thu, 23 Jul 2015 15:38:33 +0200
+ba7e85161da6cbb8b1a769dafd817a85552eaf15|Add OS_VOLUME_API_VERSION 2 to openrc|Thu, 23 Jul 2015 15:36:48 +0200|Thu, 23 Jul 2015 15:36:48 +0200
+9485f0bc0e177c9446e2574aa1806a2ee42332f9|Merge pull request #42 from Mirantis/bogdando/cinder_api_puppet|Thu, 23 Jul 2015 15:32:42 +0200|Thu, 23 Jul 2015 15:32:42 +0200
+00427f9aedd749d82feb6db15d78b4345ad90e5f|Remove enabled and manage_service for c-api|Wed, 22 Jul 2015 15:28:45 +0200|Thu, 23 Jul 2015 15:00:00 +0200
+4555c6b3a851a5e0e449f569b83e6bd2500a01a6|Fix undeploy and resource_name ref at cinder api|Tue, 21 Jul 2015 13:58:41 +0200|Thu, 23 Jul 2015 15:00:00 +0200
+e257f73d3e1c8c48639c93af37297df609ddb27e|Replace undef to empty strings for cinder api|Mon, 20 Jul 2015 15:27:53 +0200|Thu, 23 Jul 2015 15:00:00 +0200
+3ba0930aa06d05e3da2d64af30a18f9b9c9dea5e|Fix package cinder dependency for cinder api|Mon, 20 Jul 2015 14:57:52 +0200|Thu, 23 Jul 2015 15:00:00 +0200
+2e3f784f814e67c0c43fe872cdca7a1c1af97f77|Fix indentation and parameters|Mon, 20 Jul 2015 14:37:19 +0200|Thu, 23 Jul 2015 15:00:00 +0200
+95180d573230ab78aed5cc5a28f442b956c8287a|Fix cinder api resource metadata|Mon, 20 Jul 2015 13:24:18 +0200|Thu, 23 Jul 2015 15:00:00 +0200
+9a36a816047d005b6cd2591669d60ba512171e6c|Fix cinder api resource metadata|Mon, 20 Jul 2015 13:16:14 +0200|Thu, 23 Jul 2015 14:58:57 +0200
+5a91ad2130ed142d2b7822c837860160023a316c|Fix README.md|Mon, 20 Jul 2015 12:39:18 +0200|Thu, 23 Jul 2015 14:58:56 +0200
+157c975d72a89fb1bb4d20e923655bd639d0b8a3|Add cinder api puppet resource|Mon, 20 Jul 2015 11:09:43 +0200|Thu, 23 Jul 2015 14:58:56 +0200
+e89af4f7f92fe693180db25717a9f2fc5324761c|Merge pull request #39 from Mirantis/bogdando/cinder_puppet|Thu, 23 Jul 2015 14:47:54 +0200|Thu, 23 Jul 2015 14:47:54 +0200
+fbb6b220afbd02275c53b97879196f338bc4d220|Merge pull request #48 from Mirantis/cinder-volume|Thu, 23 Jul 2015 12:25:54 +0200|Thu, 23 Jul 2015 12:25:54 +0200
+75a82d7b46b306fbbaef469368309e25a7473f2e|Add missing db_host input to cinder puppet|Thu, 23 Jul 2015 11:35:14 +0200|Thu, 23 Jul 2015 11:35:47 +0200
+fb264da2195361284d2b5ff4fc6e810074c1c7be|Merge pull request #38 from Mirantis/handle_puppet|Thu, 23 Jul 2015 09:37:36 +0200|Thu, 23 Jul 2015 09:37:36 +0200
+30048554ba92600851b65f3f32544c1e25966c72|Merge pull request #51 from Mirantis/localhost-fixes|Thu, 23 Jul 2015 10:22:11 +0300|Thu, 23 Jul 2015 10:22:11 +0300
+d805e970a6b44d7e225d6990471b1c8edad032aa|Merge pull request #50 from Mirantis/tests|Thu, 23 Jul 2015 10:20:23 +0300|Thu, 23 Jul 2015 10:20:23 +0300
+5c50fd7932bc3ec51e7d7ab824f362443d42db96|Merge pull request #43 from Mirantis/orch_doc|Thu, 23 Jul 2015 09:01:45 +0200|Thu, 23 Jul 2015 09:01:45 +0200
+7088fdfeb214adb73cff942c138bd6bcb997a4c6|Clean keystone resources|Wed, 22 Jul 2015 23:27:04 +0000|Wed, 22 Jul 2015 23:27:04 +0000
+e4838e9b5526d0dafd56d282903b6fd0ea85edb2|Merge pull request #44 from Mirantis/tpl|Wed, 22 Jul 2015 11:17:24 +0300|Wed, 22 Jul 2015 11:17:24 +0300
+3b92663ba7d84d993612e0c5c719ba913bbb4042|Use correct port numbers|Tue, 21 Jul 2015 22:14:43 +0000|Tue, 21 Jul 2015 22:14:43 +0000
+d658be3b05493451ed4229d50156e1e1e8758bdb|Update virtual resource for current branch|Tue, 21 Jul 2015 13:38:49 +0000|Tue, 21 Jul 2015 13:38:49 +0000
+02a32c12b6198ef7bf7c6dbe18c09e5c31d46488|Fix remove and resource name ref for cinder|Tue, 21 Jul 2015 14:19:46 +0200|Tue, 21 Jul 2015 14:19:46 +0200
+55419610dee3a00fc9caff5993eded2abe9ada8a|Merge pull request #40 from Mirantis/rabbitmq_fix|Tue, 21 Jul 2015 12:17:43 +0200|Tue, 21 Jul 2015 12:17:43 +0200
+570fa437eef09c33b63ce8c4c0e41033e5e20331|Merge pull request #41 from Mirantis/neutron_fixes|Tue, 21 Jul 2015 12:17:22 +0200|Tue, 21 Jul 2015 12:17:22 +0200
+03f955d8897823d1fb9c7dea58ada1cf1a6cd52f|Neutron fixes|Mon, 20 Jul 2015 22:30:33 +0000|Mon, 20 Jul 2015 22:30:33 +0000
+5d2cdb25c1fda4b4bb829cfb1906c8a8c5062555|Use default nodename when removing|Mon, 20 Jul 2015 21:48:32 +0000|Mon, 20 Jul 2015 21:48:32 +0000
+3e0e7f81e8dede038e1516dd92a3685f468cb0d7|Replace undef to empty strings for cinder|Mon, 20 Jul 2015 15:26:08 +0200|Mon, 20 Jul 2015 15:26:08 +0200
+6a29cb8dd12f7440e094027f13670e931f0a5d8b|Fix README.md|Mon, 20 Jul 2015 12:43:49 +0200|Mon, 20 Jul 2015 12:43:49 +0200
+c3b8ed0d038a713012da5d6e8ad82c919f95ca4b|Remove nodename|Mon, 20 Jul 2015 10:07:02 +0000|Mon, 20 Jul 2015 10:07:02 +0000
+768eaf0d455d998cc713f99b53638bd19ad82df2|change path|Fri, 17 Jul 2015 12:52:50 +0000|Mon, 20 Jul 2015 09:36:18 +0000
+6fef0c4cebf97524df8e711f00e3b34cbd04f2c5|add tag|Fri, 17 Jul 2015 12:46:53 +0000|Mon, 20 Jul 2015 09:36:18 +0000
+a05e49b1d21d3ab107341428a35a391056f92b77|nova-api resource|Thu, 16 Jul 2015 22:59:08 +0000|Mon, 20 Jul 2015 09:36:17 +0000
+db95e9fcaaa1a45885774ea4fe9009e8ef4701d1|Merge pull request #37 from Mirantis/keystone_fixes|Mon, 20 Jul 2015 12:34:40 +0300|Mon, 20 Jul 2015 12:34:40 +0300
+d6847595b103be7b2602f6736d9d1d2104dd6a34|Merge pull request #25 from Mirantis/stop|Mon, 20 Jul 2015 11:30:21 +0200|Mon, 20 Jul 2015 11:30:21 +0200
+6f7338e914aa67d30d6bffd3b1e4a6853a49ce72|Fix undef db conneciton for cinder|Fri, 17 Jul 2015 11:21:52 +0200|Mon, 20 Jul 2015 09:53:15 +0200
+1207a27b721c5c26df23b6e5e39c499b2efbce27|Add keystone specific metadata to cinder|Wed, 15 Jul 2015 14:29:15 +0200|Mon, 20 Jul 2015 09:53:15 +0200
+4e704459ae33cb1b3a1cb42c616e9ca9ab1c628b|Add README for cinder puppet resource|Wed, 15 Jul 2015 11:04:54 +0200|Mon, 20 Jul 2015 09:53:15 +0200
+db720fbf0f68854f97d29c7502be1592b1e4fef1|Fix the cinder puppet parameters schema|Wed, 15 Jul 2015 09:22:53 +0200|Mon, 20 Jul 2015 09:53:15 +0200
+58bd845f907c44abab12cec57d545c481ec873f8|Add cinder puppet resource|Tue, 14 Jul 2015 11:23:20 +0200|Mon, 20 Jul 2015 09:53:15 +0200
+f32c38f3a17048d491930f98a5b30ad7e215c7f5|Merge pull request #31 from Mirantis/system_log|Sat, 18 Jul 2015 08:57:20 +0300|Sat, 18 Jul 2015 08:57:20 +0300
+c7890f2058e57802b735bb296e492df8577712dd|Merge branch 'master' into dry-run|Fri, 17 Jul 2015 15:43:20 +0200|Fri, 17 Jul 2015 15:43:20 +0200
+7a0c3d468852a0dc5a5edf0a975c077359f5794e|Merge pull request #26 from Mirantis/various-fixes|Fri, 17 Jul 2015 15:41:45 +0200|Fri, 17 Jul 2015 15:41:45 +0200
+eb57d19085c3f23ebf7f38cb9636d5c11ee7bb66|Merge pull request #30 from Mirantis/deb-fix|Fri, 17 Jul 2015 16:35:53 +0300|Fri, 17 Jul 2015 16:35:53 +0300
+a8e6920b04344f3b0f53f3b0379d0a524ab69c68|Merge branch 'master' into various-fixes|Fri, 17 Jul 2015 15:35:47 +0200|Fri, 17 Jul 2015 15:35:47 +0200
+f9ed17ae75835ce9be7e119e8f88a6a739c98bce|Merge branch 'master' into deb-fix|Fri, 17 Jul 2015 15:19:48 +0200|Fri, 17 Jul 2015 15:19:48 +0200
+95babcf94c52de0ff14d7a311f02b2be0fa48be3|Merge branch 'master' into various-fixes|Fri, 17 Jul 2015 15:19:34 +0200|Fri, 17 Jul 2015 15:19:34 +0200
+aa60363427ff902a90b20eb03e55641ef88fb4a8|Merge branch 'master' into dry-run|Fri, 17 Jul 2015 15:19:11 +0200|Fri, 17 Jul 2015 15:19:11 +0200
+21104fe5abc9f13f475680baf0881ca7fdcf7a93|Merge branch 'master' into dry-run|Fri, 17 Jul 2015 15:16:25 +0200|Fri, 17 Jul 2015 15:16:25 +0200
+b859289949e51d444f4c965c38b16ffd8d392507|Merge pull request #3 from Mirantis/local_ansible|Fri, 17 Jul 2015 14:55:44 +0200|Fri, 17 Jul 2015 14:55:44 +0200
+f4e3997a6bb4332ed3ca98140091e25a1006f542|Merge pull request #24 from Mirantis/bogdando/dev|Fri, 17 Jul 2015 14:51:33 +0200|Fri, 17 Jul 2015 14:51:33 +0200
+9c216b936dd765f0ee8c49913b2ccea66bbe39bc|Merge branch 'master' into various-fixes|Fri, 17 Jul 2015 14:19:36 +0200|Fri, 17 Jul 2015 14:19:36 +0200
+176b44544e7161d6fbd6a251a2f0ee3c559341ea|Merge pull request #28 from Mirantis/pip_fix|Fri, 17 Jul 2015 14:18:21 +0200|Fri, 17 Jul 2015 14:18:21 +0200
+13210c89e35e3f20bc8f2cb40748216ccc4ff92c|Merge pull request #29 from Mirantis/rabbitmq_fix|Fri, 17 Jul 2015 15:03:01 +0300|Fri, 17 Jul 2015 15:03:01 +0300
+7564788f7bd180401d0394886c7c5262ac4dc025|Fix rabbitmq startup|Fri, 17 Jul 2015 11:49:12 +0000|Fri, 17 Jul 2015 11:53:30 +0000
+5ca1b077cf4ef673361bbd9b48591a7c968e7e8e|Use deb package|Fri, 17 Jul 2015 10:21:44 +0000|Fri, 17 Jul 2015 10:21:44 +0000
+20c83228c52bbac8b7ca3c2e646596b38ce424e8|Merge branch 'master' into dry-run|Fri, 17 Jul 2015 12:01:05 +0200|Fri, 17 Jul 2015 12:01:05 +0200
+de55b32759ed5f2aed2a1953eaed9b57cb52e35f|Merge branch 'master' into various-fixes|Fri, 17 Jul 2015 11:36:46 +0200|Fri, 17 Jul 2015 11:36:46 +0200
+f1a46923ec546d10a7313b650c8ea3964f81ef87|Merge pull request #18 from Mirantis/rabbitmq_puppet|Fri, 17 Jul 2015 10:32:11 +0200|Fri, 17 Jul 2015 10:32:11 +0200
+e7845c823e2b67dd94934c7523f2a916dd0ca9bc|More example-puppet simplifications|Fri, 17 Jul 2015 09:50:30 +0200|Fri, 17 Jul 2015 09:59:29 +0200
+e013d26a26141e5573c22df830168a07291d23f2|Small resources fixes|Fri, 17 Jul 2015 09:30:59 +0200|Fri, 17 Jul 2015 09:30:59 +0200
+e4f734665f88d13c314b9343daca884ba942f44d|Rabbitmq remove action and fixes|Wed, 15 Jul 2015 12:59:45 +0000|Fri, 17 Jul 2015 00:37:18 +0000
+0faf63559c7473fbc35d8de869996357cf887883|Rabbimtq service from puppet|Tue, 14 Jul 2015 11:03:08 +0000|Thu, 16 Jul 2015 23:19:51 +0000
+69e7aabc986ac9abebb9e476be4bc056985fe272|Merge pull request #22 from Mirantis/bogdando/puppet-example-compose|Thu, 16 Jul 2015 16:36:06 +0200|Thu, 16 Jul 2015 16:36:06 +0200
+89aed85e951ece8251ba82d2104196ed0eda5239|Merge pull request #21 from Mirantis/bogdando/dev|Thu, 16 Jul 2015 16:35:52 +0200|Thu, 16 Jul 2015 16:35:52 +0200
+06b89459e885f0f35d21dabb0c438f3ca96bc505|Add error handling for ansible_playbook handler|Thu, 2 Jul 2015 09:17:09 +0300|Thu, 16 Jul 2015 16:25:53 +0300
+b4ddfd2bb6f1635d11981398565901500dd9e330|Unify LocalAnsible and Ansible implementations|Wed, 1 Jul 2015 15:17:23 +0300|Thu, 16 Jul 2015 16:25:53 +0300
+be44b8abd41c45f7821b2dd05d818faf51c6015f|Add local_ansible handler that will execute ansible-playbook locally|Wed, 1 Jul 2015 12:13:36 +0300|Thu, 16 Jul 2015 16:25:31 +0300
+9802a0eff254251a6f75bb17294952d5afb7c818|Add resources_compiled.py to gitignore|Wed, 15 Jul 2015 16:17:32 +0200|Thu, 16 Jul 2015 14:09:19 +0200
+2db3e8126a27490bb9d4934cccb98aa5db30192e|Fix bools in puppet manifests|Tue, 14 Jul 2015 10:33:54 +0200|Thu, 16 Jul 2015 14:09:19 +0200
+9abc20a5c091df041a8d8deb216c0d7eebc258cb|Puppet handler fixes|Sat, 11 Jul 2015 13:52:41 +0200|Thu, 16 Jul 2015 14:09:19 +0200
+e5f5c81ce39a366f4c0ef810528933911910f970|Merge pull request #20 from Mirantis/keystone-endpoint|Thu, 16 Jul 2015 12:51:31 +0200|Thu, 16 Jul 2015 12:51:31 +0200
+fe6422da8f40bfe016026748c21c051b7dfb0e96|Add some README's to couple of resources|Thu, 16 Jul 2015 09:04:59 +0200|Thu, 16 Jul 2015 09:04:59 +0200
+84a857f13bd26f01742a0ea2a848096f5051f5d6|Merge branch 'master' into keystone-endpoint|Wed, 15 Jul 2015 16:08:00 +0200|Wed, 15 Jul 2015 16:08:00 +0200
+4f1aedbbf2ede5824133f65d1b4edc52c8b31bbb|Merge pull request #19 from Mirantis/cli_fix|Wed, 15 Jul 2015 15:49:05 +0200|Wed, 15 Jul 2015 15:49:05 +0200
+540e4e4e4342212e1cabba996b61d16f9387c405|Add keystone endpoint for ... keystone|Wed, 15 Jul 2015 15:44:05 +0200|Wed, 15 Jul 2015 15:44:05 +0200
+a180550cd38b86717914505e270b6a3712363cf5|Merge pull request #12 from Mirantis/resource-compiler|Wed, 15 Jul 2015 15:37:42 +0200|Wed, 15 Jul 2015 15:37:42 +0200
+48c699ce5f37f4f4bbb15a2d570ee059b5f061f9|Merge branch 'master' into resource-compiler|Wed, 15 Jul 2015 15:13:55 +0200|Wed, 15 Jul 2015 15:13:55 +0200
+125577cb241d147baf21b504d1bb688f0e97978f|Merge branch 'master' into resource-compiler|Wed, 15 Jul 2015 10:31:27 +0200|Wed, 15 Jul 2015 10:31:27 +0200
+160debc576c6e4cbfde71022873a539a43cdab72|Merge branch 'master' into dry-run|Wed, 15 Jul 2015 10:25:26 +0200|Wed, 15 Jul 2015 10:25:26 +0200
+0ab0825734621fb5dc0e3cf14f3b888a23c5084c|Merge pull request #10 from Mirantis/puppet-tests|Wed, 15 Jul 2015 10:12:52 +0200|Wed, 15 Jul 2015 10:12:52 +0200
+df62d2a07a036d0eb4d6d0dca8c89b2de7b5b2d9|Merge branch 'puppet-tests' into dry-run|Tue, 14 Jul 2015 19:20:00 +0200|Tue, 14 Jul 2015 19:20:00 +0200
+ef7a0002a716dc236f7eecbae72daa31a1ec259f|Use FACTER_resource_name in shell variables|Tue, 14 Jul 2015 19:18:44 +0200|Tue, 14 Jul 2015 19:18:44 +0200
+27fb2f0f0920c2a7bb6ac25973bbe372d6a37605|Merge branch 'master' into resource-compiler|Tue, 14 Jul 2015 18:42:24 +0200|Tue, 14 Jul 2015 18:42:24 +0200
+fa9353bd9ba8b459a652e416653e792482b88ccb|Merge branch 'master' into dry-run|Tue, 14 Jul 2015 18:41:57 +0200|Tue, 14 Jul 2015 18:41:57 +0200
+9d6085dbe0ee9aad1f076eb54eb6f648c6f3a9a0|Merge branch 'master' into puppet-tests|Tue, 14 Jul 2015 12:55:36 +0200|Tue, 14 Jul 2015 12:55:36 +0200
+224b3229ff6b9a97a13fab5d6817451a33cad659|Merge pull request #16 from Mirantis/puppet-tests-fix|Mon, 13 Jul 2015 17:15:17 +0200|Mon, 13 Jul 2015 17:15:17 +0200
+072f42b34b88dc7b5071f2c90b8e70d7c1ad71a5|Fix remove|Mon, 13 Jul 2015 14:39:48 +0000|Mon, 13 Jul 2015 14:39:48 +0000
+e627ccbb15ba313949b1bd1d1328fc8fc8f827bc|fix|Mon, 13 Jul 2015 13:21:24 +0000|Mon, 13 Jul 2015 13:21:24 +0000
+dca6bbdd1fc144ff84d65b4ec26e868ad51a6775|Merge pull request #2 from Mirantis/celery|Fri, 10 Jul 2015 13:54:30 +0300|Fri, 10 Jul 2015 13:54:30 +0300
+1caac31ffe0b06dec8d79e1844e771e97056b545|Remove unnecessary code for now with some cleanup|Wed, 1 Jul 2015 09:29:50 +0300|Fri, 10 Jul 2015 13:36:20 +0300
+04b7e0bb067227aba7b4ad386d9278ef37f19686|Add celery.yml playbook to configure celery|Tue, 30 Jun 2015 15:45:16 +0300|Fri, 10 Jul 2015 13:36:20 +0300
+717255df67429f237f17948b2af04110d15fb3a7|Add several examples and improvements to orchestration|Tue, 30 Jun 2015 12:31:50 +0300|Fri, 10 Jul 2015 13:36:20 +0300
+b624e0cc6d309a4f8465772cc25b72d7d105b077|keystone_service_endpoint test improvements|Thu, 9 Jul 2015 15:23:58 +0200|Thu, 9 Jul 2015 15:28:13 +0200
+34f2fb03f8e77712a5a052c75fc26433700555b1|keystone_service_endpoint: working with neutron, tests added|Thu, 9 Jul 2015 15:16:42 +0200|Thu, 9 Jul 2015 15:16:42 +0200
+c592016be77e47ca51714fc369564a988687a651|neutron_puppet works now with upstream openstack manifests|Thu, 9 Jul 2015 13:30:44 +0200|Thu, 9 Jul 2015 13:30:44 +0200
+e874660e37d02c37329e7300aa0780c40a8a229e|log.debug instead of print for resource tests|Thu, 9 Jul 2015 13:02:39 +0200|Thu, 9 Jul 2015 13:02:39 +0200
+7c9298064241e362d2e87fbb4cd2cb5691a565a7|keystone_user: added test for logging with token|Thu, 9 Jul 2015 12:44:23 +0200|Thu, 9 Jul 2015 12:44:23 +0200
+ca22f125a1b45e6b90ed265320462e10a1d3a49c|Keystone_puppet test added|Thu, 9 Jul 2015 12:41:40 +0200|Thu, 9 Jul 2015 12:41:40 +0200
+c8667255c82940e92def8bdbb9c6b65b8d9e2acc|Various fixes for example.py and resource testing|Wed, 8 Jul 2015 09:49:26 +0200|Thu, 9 Jul 2015 12:41:22 +0200
+ccaadaf5f7638013ff01a17c943a44d7be10ef93|Puppet: lots of fixes & improvements|Thu, 9 Jul 2015 12:36:36 +0200|Thu, 9 Jul 2015 12:36:36 +0200
+96066f652c53a109498e380a934f4b704751c7b9|Remove obsolete keystone_puppet file|Wed, 8 Jul 2015 14:19:30 +0200|Wed, 8 Jul 2015 14:19:30 +0200
+e620a70bfc90df1f52d544fcf67fd4e234488be6|example-puppet: added nova-network|Wed, 8 Jul 2015 13:56:43 +0200|Wed, 8 Jul 2015 13:56:43 +0200
+ccd9edc2a8a52b3cb579e587c81e449dbacbbb74|example-compiled-resources fix for missing field in glance_api_container|Wed, 8 Jul 2015 09:52:16 +0200|Wed, 8 Jul 2015 09:52:16 +0200
+908b02fdc692f2b975116ce119dd6d27e217b83e|Various fixes for example.py and resource testing|Wed, 8 Jul 2015 09:49:26 +0200|Wed, 8 Jul 2015 09:49:26 +0200
+95eecc107dcd5bd0146abddb0877a2822b76046c|Compiled resources: various code fixes to make example work|Wed, 8 Jul 2015 09:05:10 +0200|Wed, 8 Jul 2015 09:05:10 +0200
+a7da0da25b985b3a791dccda71128d8feaace130|Merge branch 'master' into resource-compiler|Tue, 7 Jul 2015 13:26:30 +0200|Tue, 7 Jul 2015 13:26:30 +0200
+2e0d27e7aafac748a01a95a81d74f3cd455f7b32|Merge branch 'master' into puppet-tests|Tue, 7 Jul 2015 13:25:59 +0200|Tue, 7 Jul 2015 13:25:59 +0200
+eace9e3833eebb97b638ee830e6561a810cf90a4|Merge pull request #11 from Mirantis/testable-resources|Tue, 7 Jul 2015 12:21:21 +0200|Tue, 7 Jul 2015 12:21:21 +0200
+383d5618a13986152a931c70c0040cc9a34530fb|Make dedicated example-compiled-resources.py file, keep original example.py|Tue, 7 Jul 2015 11:54:13 +0200|Tue, 7 Jul 2015 11:54:13 +0200
+3a39ef0ab2e48e05f237e712de65e2b218c0a78b|Merge branch 'master' into testable-resources|Tue, 7 Jul 2015 11:48:08 +0200|Tue, 7 Jul 2015 11:48:08 +0200
+d16bd04d04e737c44c2a3babadfa06a8c4a0d7ea|Merge branch 'master' into resource-compiler|Tue, 7 Jul 2015 11:47:53 +0200|Tue, 7 Jul 2015 11:47:53 +0200
+4a25f0d43e13bf5238068131bebd38a2d684fedb|Merge branch 'master' into puppet-tests|Tue, 7 Jul 2015 11:47:42 +0200|Tue, 7 Jul 2015 11:47:42 +0200
+bb244af2db797c1c5431d0188929150c5d380dd2|Merge branch 'master' into testable-resources|Tue, 7 Jul 2015 11:34:34 +0200|Tue, 7 Jul 2015 11:34:34 +0200
+2c7c36d64b62399275c6b3ccdc2de45485c61abe|Merge branch 'master' into resource-compiler|Tue, 7 Jul 2015 11:33:16 +0200|Tue, 7 Jul 2015 11:33:16 +0200
+7d62f6f2abac7de7c338691b6535a27da5a5d507|Merge branch 'master' into puppet-tests|Tue, 7 Jul 2015 11:27:15 +0200|Tue, 7 Jul 2015 11:27:15 +0200
+78d98e7aa29bd172dd96d092dbeb3db8e19c1215|Testing: autonomous resource testing draft|Tue, 30 Jun 2015 15:28:40 +0200|Tue, 30 Jun 2015 15:28:40 +0200
+ba2272e4fd6548abd586da0640ad0656a4bbe092|Merge pull request #103 from xarses/openrc|Tue, 30 Jun 2015 15:50:56 +0300|Tue, 30 Jun 2015 15:50:56 +0300
+1f3254aac5eaafa80a798228921d1d4db7285c93|openrc file resource|Tue, 2 Jun 2015 15:09:52 +0000|Tue, 30 Jun 2015 12:14:06 +0000
+afc3424b03443e1e950b7e226382b91021ea45a0|Merge branch 'master' into puppet-tests|Tue, 30 Jun 2015 12:14:22 +0200|Tue, 30 Jun 2015 12:14:22 +0200
+53c19bbd910cf775a097267f3e04fe7c7c0a50d4|Merge pull request #101 from xarses/vr|Tue, 30 Jun 2015 12:08:43 +0200|Tue, 30 Jun 2015 12:08:43 +0200
+8993569fc4f9f4265286e9202029e4913e590634|name -> resource_name|Mon, 29 Jun 2015 13:33:57 +0000|Mon, 29 Jun 2015 13:33:57 +0000
+8022d0facb3c80756a86fff4dac64f33f08b7ce8|Merge branch 'master' into resource-compiler|Mon, 29 Jun 2015 11:58:46 +0200|Mon, 29 Jun 2015 11:58:46 +0200
+604ac8cbcf2b90b2d81a6f6b3771b50f87a4bfa6|Fix port|Fri, 26 Jun 2015 21:06:13 +0000|Fri, 26 Jun 2015 21:06:13 +0000
+7f3fb2fc2f1c9df6827a9f42d18e5e42c86f6b0f|Use juno image|Fri, 26 Jun 2015 21:05:51 +0000|Fri, 26 Jun 2015 21:05:51 +0000
+bc4868beceb03c727bf3f52f0c4609ac0f93b0f5|Fix swapped vars|Fri, 26 Jun 2015 21:05:32 +0000|Fri, 26 Jun 2015 21:05:32 +0000
+62f45472a76176a2607cae54f88df1f812be1f61|Make resource universal|Fri, 26 Jun 2015 21:05:13 +0000|Fri, 26 Jun 2015 21:05:13 +0000
+2d3e9b1a82d83b2ec023279331a553ea71f8b1d5|Save resource vars to inventory. Change resource name in args|Fri, 26 Jun 2015 21:03:40 +0000|Fri, 26 Jun 2015 21:03:40 +0000
+d2a67139a81195f01860b23ab4c7e46844a956f2|Rabbitmq service: fix ports to be ints|Fri, 26 Jun 2015 15:44:23 +0200|Fri, 26 Jun 2015 15:44:23 +0200
+bc5b7e0cbd0d331c284a19ba27fa32d9a35bdac7|Neutron is working now|Fri, 26 Jun 2015 10:23:15 +0200|Fri, 26 Jun 2015 10:23:15 +0200
+e8b2e43f495286e44c2cbb9f4c4112064296a0fe|Add glance|Thu, 25 Jun 2015 14:02:27 +0000|Thu, 25 Jun 2015 14:02:27 +0000
+cc5836ade7b2661b4b1e251d4da67891f1d9ec27|Remove unused node|Thu, 25 Jun 2015 14:01:46 +0000|Thu, 25 Jun 2015 14:01:46 +0000
+ade22ecb6390a5c5f2704e1b5a208a1bd7204f19|Add admin token, fix keystone_admin_port|Thu, 25 Jun 2015 14:00:58 +0000|Thu, 25 Jun 2015 14:00:58 +0000
+78afbfeb61d9f2f174eefbe3e62490bafe0b4e9f|Fix validation|Thu, 25 Jun 2015 13:59:34 +0000|Thu, 25 Jun 2015 13:59:34 +0000
+0e5e461d7d7a6d664e8379414021935234f9e0ee|Controller `role`|Thu, 25 Jun 2015 12:04:01 +0000|Thu, 25 Jun 2015 12:04:01 +0000
+5b7c53ad3bf9d354a7845c1ffe35c5fd36ed249e|Openstack base virtual resource helper|Thu, 25 Jun 2015 12:03:37 +0000|Thu, 25 Jun 2015 12:03:37 +0000
+2574ad6e87dfb669401296fc3c995b90a900e152|Glance virtual resources|Thu, 25 Jun 2015 12:02:21 +0000|Thu, 25 Jun 2015 12:02:21 +0000
+fde0c32d9ea54043bde15f6ba96bb5b96433d3a7|Keystone virtual resources|Thu, 25 Jun 2015 12:02:00 +0000|Thu, 25 Jun 2015 12:02:00 +0000
+af9ea5807e55b4329f6fad273d21977cc35eb7ba|Change name and password input|Thu, 25 Jun 2015 07:57:27 +0000|Thu, 25 Jun 2015 07:57:27 +0000
+eec8bc18fefa9d8e6eba3ddd12f2966d789cedaa|Move Puppet resources to outside repos|Wed, 24 Jun 2015 14:20:07 +0200|Wed, 24 Jun 2015 14:20:07 +0200
+c16f5f1380d150025c071acc105fbc9be539f8ef|Merge branch 'master' into puppet-tests|Wed, 24 Jun 2015 12:16:51 +0200|Wed, 24 Jun 2015 12:16:51 +0200
+bb2326056d4dfbdc5487f1862fefdf19f899cd8e|Merge pull request #99 from xarses/git-resources|Wed, 24 Jun 2015 13:16:30 +0300|Wed, 24 Jun 2015 13:16:30 +0300
+391228004f39db4fa49e689feed2d812fcccafd1|Bring back keystone_* resources here|Tue, 23 Jun 2015 10:42:24 +0200|Tue, 23 Jun 2015 10:42:24 +0200
+3a0809f1a7c0b0843544cbef520e546760b6f53b|Resource providers added (with GitProvider as sample)|Fri, 19 Jun 2015 14:53:52 +0200|Fri, 19 Jun 2015 14:53:52 +0200
+9ebb1ac9122c002d764e423afcc1ad4e77d09fda|hiera-redis added, single-master redis cluster|Fri, 19 Jun 2015 13:43:12 +0200|Fri, 19 Jun 2015 13:43:12 +0200
+2d5264305bc7e772c7bd5f98d39c471519085066|Hiera storage showoff|Thu, 18 Jun 2015 16:06:25 +0200|Thu, 18 Jun 2015 16:06:25 +0200
+5c70cd66351a766f069d401c691779a498bcc8fd|Puppet: Keystone remove action is working now|Thu, 18 Jun 2015 14:15:44 +0200|Thu, 18 Jun 2015 14:15:44 +0200
+70032fe11b0894c4e0067bfc5b9a3fdf30eecdad|Puppet: added port to keystone|Thu, 18 Jun 2015 13:57:46 +0200|Thu, 18 Jun 2015 13:57:46 +0200
+93d156e49e5006fc3b86af38a082277a07b75488|Keystone can now be deployed using Puppet|Thu, 18 Jun 2015 12:57:36 +0200|Thu, 18 Jun 2015 12:57:36 +0200
+6317f3bd36a5ee5064a977ecab20f0c1b5ccd61e|Merge pull request #82 from xarses/glance-perf|Fri, 12 Jun 2015 12:29:57 +0200|Fri, 12 Jun 2015 12:29:57 +0200
+abccbb89226a5eeecdc28595cc6356dd0ff2b385|Merge branch 'master' into glance-perf|Fri, 12 Jun 2015 12:19:00 +0200|Fri, 12 Jun 2015 12:19:00 +0200
+46959b8d8dcc3de57ec656c7b59012ea68f9b1fb|Merge pull request #88 from xarses/redis-proxied-resource|Fri, 12 Jun 2015 12:30:43 +0300|Fri, 12 Jun 2015 12:30:43 +0300
+ee15cfae4e3b4acf9f974c4abe1770ba55fa981a|Merge branch 'master' into redis-proxied-resource|Fri, 12 Jun 2015 11:21:38 +0200|Fri, 12 Jun 2015 11:21:38 +0200
+9d05110b64207f1992c7ecb11ba969eada14b949|Merge pull request #93 from xarses/connections-graph-improvements|Fri, 12 Jun 2015 11:06:09 +0200|Fri, 12 Jun 2015 11:06:09 +0200
+24237cc0ada135fb51467f9b3de3e4a5999cc9fb|Merge branch 'connections-graph-improvements' into redis-proxied-resource|Fri, 12 Jun 2015 10:28:59 +0200|Fri, 12 Jun 2015 10:28:59 +0200
+b1997ac7de74f95a6a49e7b0b7be41e954453df8|Merge branch 'master' into redis-proxied-resource|Fri, 12 Jun 2015 09:39:12 +0200|Fri, 12 Jun 2015 09:39:12 +0200
+1e97941c982e029642c7502977f6697d46854d5d|Merge pull request #89 from xarses/stage_testing|Thu, 11 Jun 2015 15:14:33 +0200|Thu, 11 Jun 2015 15:14:33 +0200
+501caf338c13ccda0f18d880ca837643b683ae2a|Merge branch 'master' into redis-proxied-resource|Thu, 11 Jun 2015 13:52:45 +0200|Thu, 11 Jun 2015 13:52:45 +0200
+2d5bff1febc422cfa5469499a46f709dd9065b42|Merge branch 'master' into glance-perf|Thu, 11 Jun 2015 13:52:36 +0200|Thu, 11 Jun 2015 13:52:36 +0200
+6eac5488baef8bc8875caa5014243defb2ea9d88|Merge pull request #90 from loles/fix_remove|Thu, 11 Jun 2015 13:51:53 +0200|Thu, 11 Jun 2015 13:51:53 +0200
+60743be8c3c8de4444cdc87e3a95b0dad74278a3|Merge branch 'master' into glance-perf|Thu, 11 Jun 2015 12:00:28 +0200|Thu, 11 Jun 2015 12:00:28 +0200
+4cdc52cb98eb20cd5bce5499866358f203efd26a|Create resource for tests|Wed, 10 Jun 2015 17:34:05 +0300|Thu, 11 Jun 2015 12:57:46 +0300
+c77c373d9a6ce6e18a001746a12562ba2e5d0572|Merge branch 'master' into redis-proxied-resource|Thu, 11 Jun 2015 11:17:23 +0200|Thu, 11 Jun 2015 11:17:23 +0200
+6017be350e7a9f2976b82db9b873c96695dc6b57|Removed print's, added logging|Thu, 11 Jun 2015 10:49:28 +0200|Thu, 11 Jun 2015 11:07:33 +0200
+079346c6e526a2fd55fe9a4c419ff8fc2944efea|Some fixes & cleanup|Thu, 11 Jun 2015 08:14:03 +0200|Thu, 11 Jun 2015 08:14:03 +0200
+19d81d15b2e38392c58ff3817e0ee446f1523ae5|Merge branch 'master' into redis-proxied-resource|Wed, 10 Jun 2015 14:35:22 +0200|Wed, 10 Jun 2015 14:35:22 +0200
+6ac271670b1f316146c8d0732c2494e6a423e9de|Use ansible docker module to remove services|Wed, 10 Jun 2015 12:20:57 +0000|Wed, 10 Jun 2015 12:20:57 +0000
+04e64fd1aa8c4a93b7a3125b3c085832b8c5a7cb|Merge branch 'master' into redis-proxied-resource|Wed, 10 Jun 2015 12:48:01 +0200|Wed, 10 Jun 2015 12:48:01 +0200
+90d7f13f37e0bf7100e68a6d6c42c8915579cf64|Merge pull request #86 from xarses/redis|Wed, 10 Jun 2015 12:47:40 +0200|Wed, 10 Jun 2015 12:47:40 +0200
+18fa44265d20f5b6956980599264a7597928cc13|Redis: first version|Mon, 8 Jun 2015 12:02:43 +0200|Mon, 8 Jun 2015 12:02:43 +0200
+34e306097f474e36bd1f9296923b19f20086c55b|Merge branch 'master' into glance-perf|Mon, 8 Jun 2015 10:21:13 +0200|Mon, 8 Jun 2015 10:21:13 +0200
+2551cdc32f8728b9fa7f3f7b88dab3dcbfe061e9|Merge pull request #85 from xarses/add-clean-to-example-sh|Thu, 4 Jun 2015 02:33:07 +0200|Thu, 4 Jun 2015 02:33:07 +0200
+2abda6f882643c79965c71aa34730e67e0e13691|Merge branch 'master' into glance-perf|Wed, 3 Jun 2015 17:53:37 +0200|Wed, 3 Jun 2015 17:53:37 +0200
+9dc82d7c027bc5cec66b9920e05f6f201b9940f9|Glance: add DB migration, fix timeout in example.py|Wed, 3 Jun 2015 17:50:07 +0200|Wed, 3 Jun 2015 17:50:07 +0200
+c28c0974b54a0170c387bad873548a272ed7bbe8|Merge pull request #84 from xarses/add-clean-to-example-sh|Wed, 3 Jun 2015 17:11:01 +0200|Wed, 3 Jun 2015 17:11:01 +0200
+21e0e7bca8d3708d3650f1b9dcad63cc5c491859|Merge pull request #83 from xarses/add-clean-to-example-sh|Wed, 3 Jun 2015 16:53:13 +0200|Wed, 3 Jun 2015 16:53:13 +0200
+3460023f6b83d39698e84cae182bc898ae33b496|Glance API works now with HAProxy|Wed, 3 Jun 2015 16:28:28 +0200|Wed, 3 Jun 2015 16:28:28 +0200
+7102c7211c385405ca94c3a965e09ffea1e21ee4|Merge pull request #81 from xarses/fix-scaleup|Wed, 3 Jun 2015 16:08:54 +0200|Wed, 3 Jun 2015 16:08:54 +0200
+9cb3e0f75bb2022deef2d4b7fd5e14bf1e8e8f15|Remove hardcoded name, for different resources different names should be used|Wed, 3 Jun 2015 16:04:34 +0200|Wed, 3 Jun 2015 16:04:34 +0200
+4cea9bdf4b2080465e0d1988e9f6174d22a9f715|Merge pull request #74 from xarses/stages|Wed, 3 Jun 2015 14:56:46 +0200|Wed, 3 Jun 2015 14:56:46 +0200
+88a25a6d74069d36b624f01c8baa59a06502f14c|Fixing update procedure and timeouts for services|Wed, 3 Jun 2015 11:09:07 +0200|Wed, 3 Jun 2015 14:17:03 +0200
+72e6dee46f5dacff0a2cad6d4b37e19b01a0433a|Add removal of keystone service and endpoint|Tue, 2 Jun 2015 15:01:16 +0200|Wed, 3 Jun 2015 14:17:03 +0200
+96742d9fd5fe3350dc371efdaf622f3e7e30d171|Fixing rollback and other operations|Tue, 2 Jun 2015 15:00:49 +0200|Wed, 3 Jun 2015 14:17:03 +0200
+d848995695717292da4a4385f96fc13ece7b923f|Merge pull request #78 from xarses/glance-perf|Wed, 3 Jun 2015 14:08:54 +0200|Wed, 3 Jun 2015 14:08:54 +0200
+442d32dab8d25e3ac9f39029d39a34cb805e8878|Merge branch 'glance' into glance-perf|Wed, 3 Jun 2015 14:04:02 +0200|Wed, 3 Jun 2015 14:04:02 +0200
+217aff61ea75f953098ee12ecf86a4c7b9bb16f8|Glance: API is now accessible via HAProxy|Wed, 3 Jun 2015 14:02:39 +0200|Wed, 3 Jun 2015 14:02:39 +0200
+294e4c843c15d342a8c913cbdf81d60b380346d7|Merge branch 'master' into glance-perf|Wed, 3 Jun 2015 13:42:27 +0200|Wed, 3 Jun 2015 13:42:27 +0200
+bf5a5f36fd7ddebd1a7ebf3b83263ab28f4cb140|example.sh fixes|Wed, 3 Jun 2015 13:36:34 +0200|Wed, 3 Jun 2015 13:36:34 +0200
+27915bcd4f65000dbee6e208a13e93b0bbc13630|Merge pull request #79 from xarses/example-sh-glance|Wed, 3 Jun 2015 13:28:17 +0200|Wed, 3 Jun 2015 13:28:17 +0200
+ff02c6e9fd8df8be1ebe88a9b3160d3e6f285ef8|Change password to mariadb|Wed, 3 Jun 2015 12:52:34 +0200|Wed, 3 Jun 2015 12:52:34 +0200
+8bb9a75ccccee045f4e745540e7467a8a6b0a261|Merge branch 'master' into glance-perf|Wed, 3 Jun 2015 11:38:58 +0200|Wed, 3 Jun 2015 11:38:58 +0200
+47ceda6a39b5b1df7f680406398f3373b533d850|Merge pull request #72 from xarses/deployment-2|Wed, 3 Jun 2015 11:21:56 +0200|Wed, 3 Jun 2015 11:21:56 +0200
+deec7e4d36aec5574d9c5d3ffc39654bca241970|Add mariadb user back|Wed, 3 Jun 2015 10:45:24 +0200|Wed, 3 Jun 2015 10:45:24 +0200
+5bb1fbf69e0ba5f41692b401382245ce712922e6|Add mariadb_db resource back|Wed, 3 Jun 2015 10:43:39 +0200|Wed, 3 Jun 2015 10:43:39 +0200
+03d6651ec06dae260d4b6ef96333568bcd5ec0f9|Merge remote-tracking branch 'origin/master' into deployment-2|Wed, 3 Jun 2015 10:41:16 +0200|Wed, 3 Jun 2015 10:41:16 +0200
+ba00f8f0ebdf8d3a08883948acc7ea6757b86988|Merge branch 'master' into glance-perf|Wed, 3 Jun 2015 10:32:56 +0200|Wed, 3 Jun 2015 10:32:56 +0200
+f0559127da72c449dde26033fa6f0d2410083557|Merge pull request #71 from xarses/glance|Wed, 3 Jun 2015 10:32:38 +0200|Wed, 3 Jun 2015 10:32:38 +0200
+48a2e4a3a6ac5507cdab41320f74e03426cb4f94|Fix rabbitmq resources|Wed, 3 Jun 2015 10:16:01 +0200|Wed, 3 Jun 2015 10:16:01 +0200
+f7cfb85ef107e06a2fe10788a332dc77165cb052|Merge branch 'glance' into glance-perf|Wed, 3 Jun 2015 10:14:16 +0200|Wed, 3 Jun 2015 10:14:16 +0200
+5f2f0dcd94654686d1acddc92892a6fb400061a4|Merge branch 'master' into glance|Wed, 3 Jun 2015 10:13:04 +0200|Wed, 3 Jun 2015 10:13:04 +0200
+62ced9626c09556fd0b1acf90de1b885b767a4e7|Added rabbitmq connections|Tue, 2 Jun 2015 17:41:52 +0200|Tue, 2 Jun 2015 17:41:52 +0200
+2ad1af43ca37e308b69f722e4ff5a9623fe78b39|Add generation of keystone user, role, tenant, endpoint|Tue, 2 Jun 2015 16:46:44 +0200|Tue, 2 Jun 2015 16:46:44 +0200
+75561285cfe071ad0ff2ed5e3c76a8f71dec2c90|Working mariadb -> keystone -> haproxy connections|Tue, 2 Jun 2015 14:23:47 +0200|Tue, 2 Jun 2015 14:23:47 +0200
+7b1f07dc7e4bc02a8e15dbc77cd0c733998dfd8d|Merge branch 'master' into glance|Tue, 2 Jun 2015 07:51:57 +0200|Tue, 2 Jun 2015 07:51:57 +0200
+abcd27d065a6d736b52f188b46b581022a7a32f2|Glance registry finally working|Mon, 1 Jun 2015 19:05:53 +0200|Mon, 1 Jun 2015 19:05:53 +0200
+ef108d49242fc9f8fe7aef81f9051912e212ee46|Merge pull request #70 from loles/fixes|Mon, 1 Jun 2015 18:23:00 +0200|Mon, 1 Jun 2015 18:23:00 +0200
+2a244aa5753aec410ab0e1cb1bc5b4b52d98d934|Merge pull request #61 from xarses/stages|Mon, 1 Jun 2015 18:22:00 +0200|Mon, 1 Jun 2015 18:22:00 +0200
+43199e44648433f1c948e312423ffdd4b965225c|Simulate removing keystone services|Mon, 1 Jun 2015 14:58:39 +0000|Mon, 1 Jun 2015 14:58:39 +0000
+fb092574effbf7523f9c85f8a3fc6316e3053bb0|Wait until rabbitmq is ready|Mon, 1 Jun 2015 14:58:05 +0000|Mon, 1 Jun 2015 14:58:05 +0000
+0937ad68407ab3f708634f9194b28f0720d4619a|Merge branch 'master' into glance|Mon, 1 Jun 2015 16:17:24 +0200|Mon, 1 Jun 2015 16:17:24 +0200
+f44b7af126b88c01aaa429ed508b12003cb9cd4e|glance: registry & api fixes|Mon, 1 Jun 2015 16:12:11 +0200|Mon, 1 Jun 2015 16:12:11 +0200
+1c6119646ed8f9f04f483f21b3e6186e5cf614da|Merge pull request #60 from loles/rabbitmq|Mon, 1 Jun 2015 15:49:19 +0200|Mon, 1 Jun 2015 15:49:19 +0200
+cc1f644eee148238ad7aea8d7e347dfbac515c61|Rabbitmq resources|Fri, 29 May 2015 09:08:11 +0000|Mon, 1 Jun 2015 13:47:48 +0000
+fa792c81d81d2ceba0dba36503f86a9092ceda02|Merge pull request #66 from loles/keystone_resources|Mon, 1 Jun 2015 15:39:04 +0200|Mon, 1 Jun 2015 15:39:04 +0200
+4dfeb8ed44cf37ad7847ab3be3095546b2106c9a|glance_registry_service works|Mon, 1 Jun 2015 15:05:49 +0200|Mon, 1 Jun 2015 15:05:49 +0200
+0e8235a9bd4cb287cfd1aba41437c7ee2935d265|Move glance_service to glance_api_service resource|Mon, 1 Jun 2015 14:35:06 +0200|Mon, 1 Jun 2015 14:35:06 +0200
+f92155c9ff6347db1ca203b8eb3d41cb8882876c|Glance docker container is up|Mon, 1 Jun 2015 14:06:36 +0200|Mon, 1 Jun 2015 14:06:36 +0200
+ab8fe8a373e580c46be10ace8397cf6c04f758c4|Keystone related resources|Mon, 1 Jun 2015 00:34:33 +0000|Mon, 1 Jun 2015 10:55:10 +0000
+c0f9ee308eb33a508cf7fbd7a0723580cee77075|Merge pull request #69 from xarses/various-fixes|Mon, 1 Jun 2015 12:45:19 +0200|Mon, 1 Jun 2015 12:45:19 +0200
+49263f3b7db04cbc05f8f39689f0340e01528a46|Merge pull request #68 from xarses/deployment-2|Mon, 1 Jun 2015 12:44:52 +0200|Mon, 1 Jun 2015 12:44:52 +0200
+7ce401e473f7497ccb4802bd42cc28b896e60d76|Fix mariadb container name in resource description|Mon, 1 Jun 2015 12:44:06 +0200|Mon, 1 Jun 2015 12:44:06 +0200
+61fb4c7dddbde715354881fcbd9507757a8435fb|Fixes to example.py and Vagrantfile|Mon, 1 Jun 2015 12:16:10 +0200|Mon, 1 Jun 2015 12:16:10 +0200
+5e0dd22bcf6adfa5e9bdf426a78ab6f0ceadb2d1|Shortcut for commiting log items|Fri, 29 May 2015 12:19:58 +0200|Mon, 1 Jun 2015 11:47:59 +0200
+68ed2a5b626f0b0d5fa3b809f1812117d812c7a0|Merge branch 'master' into glance|Mon, 1 Jun 2015 11:11:41 +0200|Mon, 1 Jun 2015 11:11:41 +0200
+a8b0eecd474f8d68d42fd5dfca8cbad0c5e8b90a|Merge branch 'master' into glance|Mon, 1 Jun 2015 10:27:49 +0200|Mon, 1 Jun 2015 10:27:49 +0200
+e7b78c08a252522a0946423859842a923302b63d|Glance: more configs, keystone_user fix|Fri, 29 May 2015 16:13:54 +0200|Fri, 29 May 2015 18:07:38 +0200
+35d6d0d1d690ed682e302478538b0de81431edc4|Added glance keystone user resource instance|Thu, 28 May 2015 15:17:25 +0200|Fri, 29 May 2015 18:07:29 +0200
+d2e303579ee78d20b7cd105a3e1456a42159148e|Keystone Glance script, should be later moved to some other resource|Thu, 28 May 2015 14:00:48 +0200|Fri, 29 May 2015 18:04:13 +0200
+3735865f6b4d885668322ae2dea2cebc23191b96|Glance /v2/images GET works now with glance_admin token|Thu, 28 May 2015 13:27:33 +0200|Fri, 29 May 2015 18:04:04 +0200
+72955e1e1d8e100db6ad6caad09ed38de6264ccd|Glance: add mariadb config|Thu, 28 May 2015 13:06:45 +0200|Fri, 29 May 2015 18:00:38 +0200
+597afcc48215292ac1c81e519578f3de503a5ae2|Glance resource and deployment added|Wed, 27 May 2015 18:04:31 +0200|Fri, 29 May 2015 17:55:55 +0200
+f2a5fc11104377af4b2d93088a9f16b423953073|Merge pull request #64 from xarses/various-fixes|Fri, 29 May 2015 17:37:43 +0200|Fri, 29 May 2015 17:37:43 +0200
+31d212f1b2d47f38def89413b3f531f487139a42|Merge branch 'master' into various-fixes|Fri, 29 May 2015 16:34:06 +0200|Fri, 29 May 2015 16:34:06 +0200
+f335e08cae81ec22ea53f2d5b4066a7f0ddb5b0f|example.py validation fixes|Fri, 29 May 2015 15:50:17 +0200|Fri, 29 May 2015 15:50:17 +0200
+f25864cbf90e98ecfc33e007af586b5bba3bd00c|Validation fixes|Wed, 27 May 2015 17:06:19 +0200|Fri, 29 May 2015 15:46:35 +0200
+6d64a434377afce1fda86ec1c349dd3cce80c975|Merge pull request #62 from xarses/fix-resources-assignment-rebased|Fri, 29 May 2015 14:06:18 +0200|Fri, 29 May 2015 14:06:18 +0200
+b8f2b74aa089b1b395a70c49372b313b37bc96bf|Fix nodes examples|Thu, 28 May 2015 15:52:32 +0200|Thu, 28 May 2015 15:52:32 +0200
+547ed1687d1e22ac3cbdde86e358303506f7b9b0|Merge pull request #59 from xarses/connection-dsl|Thu, 28 May 2015 13:48:13 +0200|Thu, 28 May 2015 13:48:13 +0200
+bea1b9317c790ca7b0424f21a02be77abd915b04|Fix connection order in profile|Wed, 27 May 2015 15:11:09 +0200|Thu, 28 May 2015 13:31:11 +0200
+e1cbd2040896caee9c745324e912bd7d57571b09|Remove attrs key from node_list|Wed, 27 May 2015 14:25:05 +0200|Thu, 28 May 2015 13:31:11 +0200
+98063b931f09fce324acb3bfe700d8dc7a2cbd0e|Added defaults for resources|Wed, 27 May 2015 14:24:18 +0200|Thu, 28 May 2015 13:31:11 +0200
+e00d637e0890677b1fcc6ab47eef3a6d44dd131e|Add connections example|Wed, 27 May 2015 14:23:23 +0200|Thu, 28 May 2015 13:31:11 +0200
+a3f3bda838ed0c43244ac3f17ed71b69e80cf19c|Added tags to resources|Wed, 20 May 2015 11:20:51 +0200|Thu, 28 May 2015 13:30:47 +0200
+af8ad4837096d5704c1a654ea05c9a95144ac728|Merge pull request #57 from xarses/resources-migrate|Thu, 28 May 2015 13:29:09 +0200|Thu, 28 May 2015 13:29:09 +0200
+c54505161e117db53108471aebcdc4765bbe5ce2|example.py fixes, tests added|Wed, 27 May 2015 15:50:40 +0200|Wed, 27 May 2015 15:50:40 +0200
+c46149129a9394d65e623ced527dad7c239fcd94|Merge branch 'master' into resources-migrate|Wed, 27 May 2015 13:52:50 +0200|Wed, 27 May 2015 13:52:50 +0200
+8b92e6d3ed98129417e3fbe0ffc707fd4c115bf5|Move haproxy.cfg to haproxy resource templates|Fri, 22 May 2015 15:59:38 +0200|Fri, 22 May 2015 15:59:38 +0200
+c8f796d16d8872b11f8b3b572d3c8287c569752b|Move remaining x stuff to main directory|Fri, 22 May 2015 15:50:11 +0200|Fri, 22 May 2015 15:50:21 +0200
+5b9c5a1865e2a7cfb46c114c12780ff18550663d|Merge pull request #52 from xarses/move-x-into-solar-core|Wed, 20 May 2015 12:47:33 +0200|Wed, 20 May 2015 12:47:33 +0200
+a2e44095dcd3ed756d73d2e5923e653365e1cad8|Merge pull request #51 from xarses/move-x-into-solar-core|Thu, 14 May 2015 11:48:16 +0200|Thu, 14 May 2015 11:48:16 +0200
+7fb47a303f623e5144dc243c6d7a5ca76d72fb1c|Restored removed files after the latest merge|Thu, 14 May 2015 10:49:00 +0200|Thu, 14 May 2015 10:56:18 +0200
+2a500c6fdcef6564e36d014ee2cadedc0ba97d2f|Merge pull request #50 from xarses/master-x-merge|Wed, 13 May 2015 09:22:23 +0200|Wed, 13 May 2015 09:22:23 +0200
+e9f17065cf5c0a2326b8528e85928693bde5066d|Merge branch 'x' into master-x-merge|Mon, 11 May 2015 09:39:46 +0200|Mon, 11 May 2015 09:39:46 +0200
+8cab9918bfa9cd38e61b34e21bffcf2ac8049387|Merge pull request #48 from xarses/data-graph-with-tags|Fri, 8 May 2015 17:49:09 +0300|Fri, 8 May 2015 17:49:09 +0300
+6acb9fcc5cc5d92a82ea6beee13ecd3a8bc68b97|Merge branch 'x' of github.com:xarses/fuel-ng into x|Tue, 28 Apr 2015 15:17:00 +0200|Tue, 28 Apr 2015 15:17:00 +0200
+96b2f60790b8a8c796bd1b1e0d8a1d7d1ca2e8ed|Rename keystone resource to keystone_service|Tue, 28 Apr 2015 09:55:20 +0000|Tue, 28 Apr 2015 09:57:01 +0000
+be4ed8da954945c3946d4b75f98384ef51737cf5|Implemented node based scope|Thu, 23 Apr 2015 17:12:41 +0300|Thu, 23 Apr 2015 17:12:41 +0300
+e436e87e67596098b968bf41360392f23054fc92|Add containers actions to profile|Thu, 23 Apr 2015 16:39:28 +0300|Thu, 23 Apr 2015 16:39:28 +0300
+0e0000276a08aaa575c314bc8aadfc71b24bb3a3|Implement ensure mechanism for containers|Thu, 23 Apr 2015 16:07:31 +0300|Thu, 23 Apr 2015 16:07:31 +0300
+b77adf3061d51968e3fe7463edc5c8fd55cc5731|Restart haproxy after config update|Wed, 22 Apr 2015 17:30:01 +0300|Wed, 22 Apr 2015 17:30:01 +0300
+9a320cd300e1215900f027f9fd7581f92dda717a|Implemented idempotent docker run and user creation for mariadb|Wed, 22 Apr 2015 16:59:24 +0300|Wed, 22 Apr 2015 16:59:24 +0300
+55a5e8821f2b5b4263294b2ff5521b108939cd6a|Use yaml based instead of template based format for objects filtering|Wed, 22 Apr 2015 14:31:17 +0300|Wed, 22 Apr 2015 14:31:17 +0300
+b79127a53592c9d971f9b344c44b73fe0b254544|Add remove actions for keystone, mariadb, haproxy|Mon, 20 Apr 2015 18:26:46 +0300|Mon, 20 Apr 2015 18:26:46 +0300
+911e1ec13bce4f84b19c9a75210d8b65ec5ddb12|Changed resources to use templating language and tags, without hardcoded values|Mon, 20 Apr 2015 17:37:09 +0300|Mon, 20 Apr 2015 17:37:09 +0300
+913faa52a7a0f0e44c4a9611af7743f499df35db|Add a way to execute playbook only once|Fri, 17 Apr 2015 14:48:36 +0300|Mon, 20 Apr 2015 12:19:30 +0300
+ab0465195c1be8dea29eeed03cf71da767fe446e|Use resource as primary citizen in inventory|Fri, 17 Apr 2015 12:46:52 +0300|Mon, 20 Apr 2015 12:18:53 +0300
+361ddc95b46aac881da6f8d33394966fffdd32bc|Merge pull request #45 from xarses/keystone-db-deployment|Mon, 20 Apr 2015 10:40:30 +0300|Mon, 20 Apr 2015 10:40:30 +0300
+29b6b9e232452452fe28c9044fcef63e72aab25f|Remove from run task containers removing|Fri, 17 Apr 2015 15:16:40 +0300|Fri, 17 Apr 2015 15:16:40 +0300
+d98e87c89dc15525dd382ace833fa3a6f52be693|Add simple script to check that keystone works via haproxy|Fri, 17 Apr 2015 15:10:10 +0300|Fri, 17 Apr 2015 15:10:10 +0300
+bb370daeff08442c48e443323a08d7ce3813de18|Add keystone and haproxy installation into default profile template|Fri, 17 Apr 2015 15:09:03 +0300|Fri, 17 Apr 2015 15:09:03 +0300
+42f0510a53752d0205fb97eee6b193b2f71397e9|Add haproxy with hardcoded keystone|Fri, 17 Apr 2015 15:07:17 +0300|Fri, 17 Apr 2015 15:07:17 +0300
+4b15b8075d46d63d73610a7ab285df5a523ff5ae|Add keystone resource|Fri, 17 Apr 2015 15:06:41 +0300|Fri, 17 Apr 2015 15:06:41 +0300
+e15ac0e1ee829fdf508e6f8f3bf47fee2ee8d112|Remove pulling of image for docker resource|Fri, 17 Apr 2015 15:06:00 +0300|Fri, 17 Apr 2015 15:06:00 +0300
+67065d4171173e1d71a1fec96d306ad12cfb66e1|User mariadb from kolla project|Fri, 17 Apr 2015 15:05:05 +0300|Fri, 17 Apr 2015 15:05:05 +0300
+37e141a6647c10285841424c23719bf4643890a0|Merge pull request #37 from xarses/absolute-storage|Thu, 16 Apr 2015 13:20:16 +0300|Thu, 16 Apr 2015 13:20:16 +0300
+e3e7ffe74708e45da309c811dc5be0158dd9dd29|Merge branch 'x-actions-in-dirs' into x|Thu, 16 Apr 2015 09:20:59 +0200|Thu, 16 Apr 2015 09:20:59 +0200
+3eccbb1b3218cf7cd4d6600b783bb463723ea78b|Merge pull request #38 from xarses/x-fixes|Thu, 16 Apr 2015 08:59:24 +0200|Thu, 16 Apr 2015 08:59:24 +0200
+eeca19b5ee91eefcd01dd9ef067c3b722f6e3522|Fix paths to match the README example|Thu, 16 Apr 2015 08:49:33 +0200|Thu, 16 Apr 2015 08:49:33 +0200
+afb96e8b414480783dc335491b03920225ae36d6|Move all hardcoded paths to one config.yml file|Thu, 16 Apr 2015 08:24:42 +0200|Thu, 16 Apr 2015 08:24:42 +0200
+a997f1619ec463f02c40c7e356d50cc676e3ccf1|Init x|Wed, 15 Apr 2015 18:43:02 +0000|Wed, 15 Apr 2015 18:43:02 +0000
+78ca6e5b10366e2d2b10171033170e6c820e594d|Prepare for X|Wed, 15 Apr 2015 18:42:31 +0000|Wed, 15 Apr 2015 18:42:31 +0000
+c18c813af665f7ce3a7e01687a69f744e152789b|Merge pull request #33 from xarses/fix-default-mapping|Mon, 13 Apr 2015 17:29:21 +0200|Mon, 13 Apr 2015 17:29:21 +0200
+72d6dcb9ee5e89092d70418426ff5d5089331c4c|Merge pull request #34 from xarses/fix-dev-env-configuration|Mon, 13 Apr 2015 17:28:48 +0200|Mon, 13 Apr 2015 17:28:48 +0200
+f7cb61e7eac597c825057f1523a041f3761d94b3|Merge pull request #35 from xarses/fix-docker-installation|Mon, 13 Apr 2015 17:28:13 +0200|Mon, 13 Apr 2015 17:28:13 +0200
+416abf873f24d60d8a72e6a48b1a687b0ab314d4|apt hangs when it tries to install lxc-docker from ubuntu url|Mon, 13 Apr 2015 17:38:33 +0300|Mon, 13 Apr 2015 17:38:33 +0300
+197ec302b57b79abe9195f5674be1dbe1f845bff|Default tags for resources should not be node specific|Mon, 13 Apr 2015 16:47:12 +0300|Mon, 13 Apr 2015 16:47:12 +0300
+68d0dd6b673fac972dff182404c501cf03c703dc|Merge pull request #32 from xarses/multi-vm-deployment|Mon, 13 Apr 2015 14:39:49 +0200|Mon, 13 Apr 2015 14:39:49 +0200
+cd3a780d7dd3d49df1948b944f968e32e768eac5|Fixed multi-node deployment|Fri, 10 Apr 2015 18:56:44 +0300|Fri, 10 Apr 2015 18:56:44 +0300
+141adf083fa3c82a6491bc79053a5b50a7dc0964|Merge pull request #30 from xarses/user-flow-refactoring|Wed, 8 Apr 2015 09:02:13 +0200|Wed, 8 Apr 2015 09:02:13 +0200
+4407a2bd3f968f437046bd85f95c31263bc5d86f|Merge pull request #28 from xarses/user-flow-refactoring|Tue, 7 Apr 2015 17:20:31 -0700|Tue, 7 Apr 2015 17:20:31 -0700
+eb9ffebaf1924e8691bb7ca59f90df5befbdfc42|Merge pull request #25 from xarses/dockerfile|Tue, 7 Apr 2015 17:14:57 -0700|Tue, 7 Apr 2015 17:14:57 -0700
+7be98884cb71177b7e0e24ee311e91610110a77b|Move profile example into templates directory|Tue, 7 Apr 2015 14:18:30 -0700|Tue, 7 Apr 2015 16:55:40 -0700
+57c8758d20a00d9f73057fd2d89b40bb89f521c1|Merge pull request #27 from xarses/orch|Tue, 7 Apr 2015 16:51:43 -0700|Tue, 7 Apr 2015 16:51:43 -0700
+98ade87f8d5136cc0ffe38b828d4b62d67dcbdfe|Improve orchestration examples and remove outdated schema|Tue, 7 Apr 2015 15:00:38 -0700|Tue, 7 Apr 2015 22:24:41 +0000
+8581b6233c412e6f20052733a26935ffa3650fbd|Execute profile actions with cli|Tue, 7 Apr 2015 14:36:10 -0700|Tue, 7 Apr 2015 22:24:41 +0000
+7015d126e67994aa02f93956f3561fe53fb75c79|Allow to provide actions to configure|Tue, 7 Apr 2015 14:15:03 -0700|Tue, 7 Apr 2015 22:24:41 +0000
+49d1a88445a1f8eeabfc792866b324607751bf6f|Add execute methods which will work by providing path|Tue, 7 Apr 2015 11:58:30 -0700|Tue, 7 Apr 2015 22:22:18 +0000
+4267ceaa10b34a22ddfd9b7d3450ada112f0bc32|Merge pull request #20 from xarses/ansible_example|Mon, 6 Apr 2015 17:25:17 -0700|Mon, 6 Apr 2015 17:25:17 -0700
+476e16ae5ec2b6582d1f60557facf3072962de55|Merge pull request #21 from xarses/tagging|Mon, 6 Apr 2015 17:23:48 -0700|Mon, 6 Apr 2015 17:23:48 -0700
+7080e33f8478f87cbec56f7e92098ab71a0f48f2|Add tags implementation|Mon, 6 Apr 2015 17:11:05 -0700|Mon, 6 Apr 2015 17:11:05 -0700
+b28ae436551b34fc2738210ac87dcb4c0607fb3a|Add second VM for distributed deployment|Mon, 6 Apr 2015 15:18:49 -0700|Mon, 6 Apr 2015 15:18:49 -0700
+3b72efb3ff39789ac7c765187c76c73f482d2388|Add profile example|Mon, 6 Apr 2015 14:18:15 -0700|Mon, 6 Apr 2015 14:18:15 -0700
+74135ba81c747914c8d2f514c1cf71c7052b3a6b|Add notes how to handle primary/non-primary resources|Mon, 6 Apr 2015 13:21:23 -0700|Mon, 6 Apr 2015 13:21:23 -0700
+98562d9cd941792458cc7f4c1b3d3eb4d28ad870|Add exaples with 3 resources converted to ansible|Mon, 6 Apr 2015 11:30:41 -0700|Mon, 6 Apr 2015 11:37:59 -0700
+4e13a48e5dc15a082b69588c059b58596c49ce88|Merge pull request #13 from xarses/discovery|Thu, 2 Apr 2015 18:05:48 -0700|Thu, 2 Apr 2015 18:05:48 -0700
+865a527c8da8624515121e916b1c8c30f2cc08d2|Add discovery|Thu, 2 Apr 2015 16:55:41 -0700|Thu, 2 Apr 2015 16:55:41 -0700
+0d07e43ac6db8b39704354e8afd3ff9bd64917ad|Merge pull request #11 from xarses/discovery|Fri, 3 Apr 2015 00:18:32 +0200|Fri, 3 Apr 2015 00:18:32 +0200
+2b00fcef194deac90de5d9efe762dabbac5f12dd|Merge pull request #10 from xarses/ansible-fixes|Thu, 2 Apr 2015 19:35:41 +0200|Thu, 2 Apr 2015 19:35:41 +0200
+d68cfb7f43568cece44c6c4341fa0fbd309ccac6|Merge pull request #9 from xarses/update-readme|Thu, 2 Apr 2015 08:58:34 -0700|Thu, 2 Apr 2015 08:58:34 -0700
+67524d2f3f7c7938abcd38b5cdb3f1b49c1a7e8f|Merge pull request #6 from xarses/run-ansible-inside-of-vm|Wed, 1 Apr 2015 17:37:09 -0700|Wed, 1 Apr 2015 17:37:09 -0700
+969098493cb21a9b62a57affc38f9c3d7df2ec17|Merge pull request #7 from xarses/run_remove_with_ansible|Wed, 1 Apr 2015 17:16:25 -0700|Wed, 1 Apr 2015 17:16:25 -0700
+aa9a60c1cfa6e62d41333c4b3dd5f720e452bf14|Add commands to work with prototype using ansible|Wed, 1 Apr 2015 16:41:08 -0700|Wed, 1 Apr 2015 17:12:39 -0700
+55a5cc62c08800a51f748c42e9db96753823c89c|Merge pull request #5 from xarses/init-project-tree|Wed, 1 Apr 2015 16:13:25 -0700|Wed, 1 Apr 2015 16:13:25 -0700
+c5cf4ada6be4e53435ec4bab01aa166d04244c0e|Create initial structure of the project|Wed, 1 Apr 2015 16:09:53 -0700|Wed, 1 Apr 2015 16:09:53 -0700
+1c4732f30758612088d94cfa0c6b2bfebcc4b203|Merge pull request #1 from xarses/specs|Sat, 28 Mar 2015 01:00:02 +0100|Sat, 28 Mar 2015 01:00:02 +0100
+4252b69a397fea8af6a59577b31e16a475734c64|Original schema|Thu, 26 Mar 2015 17:10:04 -0700|Fri, 27 Mar 2015 16:58:47 -0700
+04e8e1b1f0698ac432890b1f1e9fef4e243ff5ef|Initial commit|Fri, 27 Mar 2015 15:54:19 -0700|Fri, 27 Mar 2015 15:54:19 -0700

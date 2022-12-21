@@ -1,0 +1,11 @@
+,sha,message,files,issues
+1,1a3a265659d56d3df6ce48e3b09aeaa474f80501,Merge pull request #11 from fcharlier/fc/more_parameters,"['manifests/init.pp', 'spec/classes/horizon_init_spec.rb', 'templates/local_settings.py.erb']",['#11']
+6,ba357810d879350b565caeaf8269e6526e8d30c0,Merge pull request #7 from sbadia/master,"['manifests/init.pp', 'manifests/params.pp']",['#7']
+7,ff60c16b2ea9ddb2aabac998433bb0e00fe6a0e7,Use operatingsystem instead of lsbdistid (Refs pull request #7),['manifests/params.pp'],['#7']
+8,177d647f2663b485f80a626f92c9a363c5cf1751,Merge pull request #10 from branan/fix_trailing_comma,['manifests/init.pp'],['#10']
+10,d05366e909a5867d52b2cd3f9ad72c0b21893292,Merge pull request #9 from branan/test,"['.fixtures.yml', '.gemfile', 'Rakefile', 'spec/classes/horizon_init_spec.rb', 'spec/fixtures/manifests/site.pp', 'spec/spec_helper.rb']",['#9']
+13,62f265c0e5d9ceeafe50477c95fe5def07c66016,Merge pull request #3 from branan/forge_release,"['CHANGELOG', 'LICENSE', 'Modulefile']",['#3']
+15,ed71167be362c292928ec045e66d5389d6c8f349,Merge pull request #5 from robertstarmer/master,"['manifests/init.pp', 'templates/local_settings.py.erb']",['#5']
+17,c0f59d91347106e77651d633b28e28b4b4a31e5a,Merge pull request #4 from sbadia/master,"['README.md', 'manifests/init.pp']",['#4']
+20,d1a8334b3c7fcac6dc853dc3f0a48edacb0f3e3b,Merge pull request #2 from derekhiggins/import-params,['manifests/init.pp'],['#2']
+22,9c1c8275cdff58c487dfe4f4c0fa12d8a007db01,Merge pull request #1 from derekhiggins/adding-params,"['manifests/init.pp', 'manifests/params.pp']",['#1']

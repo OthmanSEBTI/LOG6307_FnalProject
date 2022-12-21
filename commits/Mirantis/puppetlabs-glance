@@ -1,0 +1,124 @@
+0f98eb07ba60f0728af1b717c2b31288c7c1406d|Customizable auth_url, not hardwired to 127.0.0.1|Tue, 21 Aug 2012 12:39:23 -0700|Tue, 21 Aug 2012 17:53:20 -0700
+947b8c3b26f32ad82aeebdf82ad258958bc93f96|Merge pull request #42 from jtopjian/jtopjian-glance_image|Wed, 8 Aug 2012 11:32:40 -0700|Wed, 8 Aug 2012 11:32:40 -0700
+69ffc7424eda819f704c1027ce2b2b6bfcce8974|Slight changes.|Sat, 4 Aug 2012 12:38:29 -0600|Sat, 4 Aug 2012 12:38:29 -0600
+242a424561b893f0feba435c13d52aa0d7246978|First attempt at creating a glance_image type|Sat, 4 Aug 2012 02:36:48 -0600|Sat, 4 Aug 2012 02:46:37 -0600
+9071ed1743a3d65f014e50fa519e7970c390eda8|Merge pull request #41 from bodepd/allow_enabled|Mon, 18 Jun 2012 10:36:51 -0700|Mon, 18 Jun 2012 10:36:51 -0700
+1fb892afd70783b4bf35816839cb8b5b5629745b|Add enabled parameter to glance services.|Mon, 18 Jun 2012 10:14:53 -0700|Mon, 18 Jun 2012 10:14:53 -0700
+68606f6773c153c82e8f4e39d3ba9a3eb90afe06|Merge pull request #39 from branan/use_spechelper_gem|Fri, 8 Jun 2012 13:40:36 -0700|Fri, 8 Jun 2012 13:40:36 -0700
+f6d5813236d2d65dee15adff855c175b3e60f2e4|Merge pull request #40 from branan/module_dependencies|Thu, 7 Jun 2012 15:55:57 -0700|Thu, 7 Jun 2012 15:55:57 -0700
+3e423c4c0313cf8fc5da39422e516922f95b5684|Update modulefile for initial release; add initial changelog|Thu, 7 Jun 2012 14:03:16 -0700|Thu, 7 Jun 2012 14:03:55 -0700
+ecc5a2d605fbc8363ad56c3ad5662d1ee962c957|Switch to using the puppetlabs_spec_helper gem for common files instead of duplicating code|Thu, 31 May 2012 15:04:22 -0700|Thu, 31 May 2012 15:33:11 -0700
+959e52773bda3e19c23be165000f82c2d05b0745|Merge pull request #38 from branan/enable_ci|Tue, 29 May 2012 10:01:59 -0700|Tue, 29 May 2012 10:01:59 -0700
+0b0bf5adcdc4b05f5cc7af64125906957695d221|Add files for CI support|Tue, 29 May 2012 09:50:13 -0700|Tue, 29 May 2012 09:50:13 -0700
+ea532aa278eba47d51208740702eb36bc722ac5b|Merge pull request #37 from jmchilton/mysql_improvements|Wed, 16 May 2012 10:23:57 -0700|Wed, 16 May 2012 10:23:57 -0700
+a7dedf197a24bf8a3fad00d1d1f58eede2f43057|Allow override of mysql charset & small whitespace fixes and spec improvements to test this change.|Wed, 16 May 2012 10:04:29 -0500|Wed, 16 May 2012 10:04:29 -0500
+cbd1a0d43f8de038277c21fd89e29aaa4f37465c|Change require => mysql::server to mysql::config so the mysql is fully configured before glance database is created.|Wed, 16 May 2012 10:00:13 -0500|Wed, 16 May 2012 10:00:13 -0500
+14c2f4c9dd628e1091bb8b3a4e4b1d1ff4d59163|Adding initial spec for glance::db::mysql|Wed, 16 May 2012 09:54:49 -0500|Wed, 16 May 2012 09:54:49 -0500
+264456ee7ebb9c4da6e05834ab846f964c72e341|Merge pull request #36 from branan/fix_old_puppet|Tue, 8 May 2012 15:15:21 -0700|Tue, 8 May 2012 15:15:21 -0700
+87740b26ae6c70c41a04fe78649948bcf4c615a7|fix old puppet|Tue, 8 May 2012 15:05:46 -0700|Tue, 8 May 2012 15:08:01 -0700
+03a6a8642e55262631ec2fe71d801fb96aacee72|Merge pull request #35 from bodepd/fix_concat_spec_tests|Tue, 8 May 2012 15:02:16 -0700|Tue, 8 May 2012 15:02:16 -0700
+685a9f0683c452114467b81adb18ad8c4df53f07|Merge pull request #34 from branan/14221_forge_release|Tue, 8 May 2012 14:41:46 -0700|Tue, 8 May 2012 14:41:46 -0700
+38622827fed6aeb7bd478db39b439c4b7046b587|This commit fixes spec test failures that were caused by using RI's version of the concat module.|Tue, 8 May 2012 14:38:55 -0700|Tue, 8 May 2012 14:38:55 -0700
+ac1c791fed7d66dbc4542c843b47552ce34adc9c|Merge pull request #33 from jmchilton/endpoint_optional|Fri, 4 May 2012 18:21:01 -0700|Fri, 4 May 2012 18:21:01 -0700
+e5e79cfcacfa9bf7092d57cc1a3839e3023fd36a|(#14221) Cleanup the readme a bit|Fri, 4 May 2012 12:25:38 -0700|Fri, 4 May 2012 12:25:38 -0700
+8e2de5d1937141fbc80bbd40cd4a19677e7c9db7|(#14221) add initial Modulefile to prep for forge release|Thu, 3 May 2012 14:09:53 -0700|Fri, 4 May 2012 11:45:59 -0700
+db28c354cae699c1e3fa2855c90d6a36c6962f3b|Fix default boolean value for configure_endpoint.|Thu, 3 May 2012 16:21:26 -0500|Thu, 3 May 2012 16:21:26 -0500
+f1df5e64d1cffb9bd351baf2a9cedc792083929e|Make endpoint configuration in glance::keystone::auth optional in case not using templated catalog file for defining endpoints. (keystone_endpoint type seems to assume always using SQL driver.)|Thu, 3 May 2012 16:19:32 -0500|Thu, 3 May 2012 16:19:32 -0500
+232c66be298d40dc2d8122cd041039628cd7d0fd|Merge pull request #32 from jmchilton/client-module|Thu, 3 May 2012 10:48:39 -0700|Thu, 3 May 2012 10:48:39 -0700
+9d8a1fb56d44611431f35c19215bf3edee7988c7|Specify glance client package name in params.pp.|Thu, 3 May 2012 10:36:15 -0500|Thu, 3 May 2012 10:36:15 -0500
+7f08fd42071c4a9f6fa766c0923923dc0c74ac9d|Create configuration class for glance client, mirroring puppetlabs nova::client to some degree.|Thu, 3 May 2012 10:24:41 -0500|Thu, 3 May 2012 10:24:41 -0500
+ee7eb63b223245626f10caf930e1dea3e07cd871|Merge pull request #31 from bodepd/dev|Fri, 27 Apr 2012 14:55:54 -0700|Fri, 27 Apr 2012 14:55:54 -0700
+b454b902cf44357e624b44e8ba345b039d0de369|Refactor of glance::keystone::auth|Fri, 27 Apr 2012 12:10:13 -0700|Fri, 27 Apr 2012 13:36:54 -0700
+8c551a97b02efdba53d5dc19713ce14e8b115cce|Merge pull request #30 from bodepd/dev|Mon, 23 Apr 2012 22:29:05 -0700|Mon, 23 Apr 2012 22:29:05 -0700
+622143771b45b71c8f325a03eafa9d113403872a|Update glance tenant|Mon, 23 Apr 2012 13:46:35 -0700|Mon, 23 Apr 2012 13:46:35 -0700
+384ff2a73584f20b8daca277e3d824510da01251|Set registry mysql connection|Mon, 23 Apr 2012 00:53:22 -0700|Mon, 23 Apr 2012 00:53:22 -0700
+8de1261f96a05741a5b89bfeff10975fbc844f12|Update glance example|Mon, 23 Apr 2012 00:26:11 -0700|Mon, 23 Apr 2012 00:26:11 -0700
+52aae65a4ca8a6ca9c717c99bac9c2a7dcc147d5|Move mysql code to db::mysql|Sun, 22 Apr 2012 23:51:48 -0700|Sun, 22 Apr 2012 23:54:42 -0700
+827b302824c4dd8a9b3fbee30227cf973c925b66|Merge pull request #29 from bodepd/dev|Wed, 18 Apr 2012 08:03:42 -0700|Wed, 18 Apr 2012 08:03:42 -0700
+cc9fe8ce8474d2240ff8a937ad297b751b028802|Fix backend config resource|Tue, 17 Apr 2012 14:30:30 -0700|Tue, 17 Apr 2012 15:18:15 -0700
+cb60a379728d11cba90a99f22b2165788302f130|Require python keystone|Tue, 17 Apr 2012 11:31:04 -0700|Tue, 17 Apr 2012 11:32:02 -0700
+19dd25b1aec825c1adf79b5a88641d22951baaa4|Merge pull request #28 from bodepd/dev|Tue, 17 Apr 2012 11:24:06 -0700|Tue, 17 Apr 2012 11:24:06 -0700
+e38e09d3edb59237fca7a90db14a4a12154c789e|Ensure that glance requires a backend|Tue, 17 Apr 2012 11:15:32 -0700|Tue, 17 Apr 2012 11:15:32 -0700
+2a148cb5e70dd27fefbb43f2d42f752e28b76acf|Merge pull request #27 from derekhiggins/glance-manage-as-glance|Mon, 16 Apr 2012 18:54:07 -0700|Mon, 16 Apr 2012 18:54:07 -0700
+5debef3b98dddd166127cdee30f4beb17681dcbf|Run glance-manage db_sync as glance|Mon, 16 Apr 2012 21:38:42 +0100|Mon, 16 Apr 2012 21:38:42 +0100
+ce412b1b8af8b1f073b5cb5a75cee109fc336aac|Merge pull request #26 from bodepd/dev|Fri, 13 Apr 2012 13:30:50 -0700|Fri, 13 Apr 2012 13:30:50 -0700
+edaf2053b5aa40e60b861ba0d2772ca446bb3b64|Only changes to the database should trigger db_sync|Thu, 12 Apr 2012 23:12:31 -0700|Thu, 12 Apr 2012 23:12:31 -0700
+0f751551db10e2fefc4b9d2c6748abb8fb31c601|Make the db_sync command different per distro|Thu, 12 Apr 2012 15:21:59 -0700|Thu, 12 Apr 2012 15:21:59 -0700
+c73c4a8fcf488e71810efec56a7aeea32fe4605b|Do not start services until glance user_role exists|Thu, 12 Apr 2012 14:25:04 -0700|Thu, 12 Apr 2012 14:25:04 -0700
+47ee87f17c42b60d8bc100dd09c7b65abddb9994|DB sync should also require db privs|Thu, 12 Apr 2012 14:13:43 -0700|Thu, 12 Apr 2012 14:13:43 -0700
+736bdb2f5cb438eb8de4e9f146be094bba6ecd83|Merge pull request #25 from bodepd/dev|Thu, 12 Apr 2012 12:55:54 -0700|Thu, 12 Apr 2012 12:55:54 -0700
+4b95b9dae7d39034e5046c982b628ea05e4d99c0|Perform explicit db migrations|Thu, 12 Apr 2012 12:39:29 -0700|Thu, 12 Apr 2012 12:52:26 -0700
+8776a013316d011d95679217931c0e095bf6bdc8|Merge pull request #24 from bodepd/dev|Wed, 11 Apr 2012 19:59:01 -0700|Wed, 11 Apr 2012 19:59:01 -0700
+52cbb6f59bb285984d0e0869f026f98bc1d71f70|Make repo setup code Debian specific|Wed, 11 Apr 2012 17:20:17 -0700|Wed, 11 Apr 2012 17:20:17 -0700
+08cbc784271cf846f3746921af003c9e010feb29|Merge pull request #23 from bodepd/dev|Tue, 10 Apr 2012 21:33:16 -0700|Tue, 10 Apr 2012 21:33:16 -0700
+ffec6ab6b4d382e7a7f466f89fd3d55d50377975|Update script for loading glance images|Tue, 10 Apr 2012 17:09:04 -0700|Tue, 10 Apr 2012 17:09:04 -0700
+e1529167d77d82eae8d6410e5cc18a20945a2feb|Update glance service definitions|Tue, 10 Apr 2012 09:25:51 -0700|Tue, 10 Apr 2012 09:25:51 -0700
+e0a8affee28b2df30e26f62a053b1a13cb775b80|Merge pull request #22 from bodepd/dev|Mon, 9 Apr 2012 23:39:05 -0700|Mon, 9 Apr 2012 23:39:05 -0700
+ace411f92f5860cd30e3f9af30aa49b1fe137f9f|Require mysql::python|Mon, 9 Apr 2012 10:12:27 -0700|Mon, 9 Apr 2012 10:12:27 -0700
+ceb41af5fc21a8f7c16a5d74c997c54057086ae2|Remove explicit management of python-migrate|Mon, 9 Apr 2012 10:11:25 -0700|Mon, 9 Apr 2012 10:11:25 -0700
+cdfc5a48f4621a47ca722145496b652c9a07d580|Remove unused admin_token|Mon, 9 Apr 2012 10:11:01 -0700|Mon, 9 Apr 2012 10:11:01 -0700
+616b32d617c0bfb88006a53b3988e34ee63e045a|Update keystone tenant name|Mon, 9 Apr 2012 08:52:07 -0700|Mon, 9 Apr 2012 08:52:07 -0700
+a84a072a0e27d96e3a7eeb43413386984b581e53|Merge pull request #21 from bodepd/dev|Sun, 8 Apr 2012 21:51:17 -0700|Sun, 8 Apr 2012 21:51:17 -0700
+cfc951664aa2fdd1ae5850224e644fcc8c99a7a3|Add test code for glance with mysql backend|Fri, 6 Apr 2012 16:15:58 -0700|Fri, 6 Apr 2012 23:24:45 -0700
+1180bffdb1aadd5cd58d9c653fcd3e3c30f8bb39|Merge pull request #20 from bodepd/dev|Thu, 5 Apr 2012 14:00:07 -0700|Thu, 5 Apr 2012 14:00:07 -0700
+a2512fcff1252fa258371625b101783e4865c861|Remove ref to deprecated keystone::sqlite|Thu, 5 Apr 2012 13:46:30 -0700|Thu, 5 Apr 2012 13:46:30 -0700
+fdbf846d153688d514a18d3c516a6798eb1fe9e6|Refactor api-ini config files|Thu, 5 Apr 2012 09:27:04 -0700|Thu, 5 Apr 2012 09:28:55 -0700
+9b0c1c375780001be3c87946a995e2bdbd08f61b|Merge pull request #19 from bodepd/dev|Thu, 5 Apr 2012 09:00:36 -0700|Thu, 5 Apr 2012 09:00:36 -0700
+a7a96af75ee346908f1b6677f20d3f446b04e365|Fix broken tests|Tue, 3 Apr 2012 10:03:08 -0700|Tue, 3 Apr 2012 10:03:08 -0700
+151493f294684eadfd36bc4789a75f4459833ac2|Remove backend class|Tue, 3 Apr 2012 10:00:44 -0700|Tue, 3 Apr 2012 10:00:44 -0700
+d9ce5e87e37bb8125d138ed1e101c14c63d03d8a|Merge pull request #18 from bodepd/dev|Tue, 3 Apr 2012 08:28:36 -0700|Tue, 3 Apr 2012 08:28:36 -0700
+6a550b51b281a6422463dbdc8848ea705ba211d9|Add integration test code|Mon, 2 Apr 2012 08:36:56 -0700|Mon, 2 Apr 2012 08:51:53 -0700
+2e4350915b754deb652abb6cf3d45e4ff71b8f12|Remove dependency from glance::api to concat::setup|Sat, 31 Mar 2012 16:33:25 -0700|Sat, 31 Mar 2012 16:33:25 -0700
+6bd7dc6592b5ea53c363a5ae9e4824245c5a50f8|Namespace glance apu fragments to avoid duplicates|Sat, 31 Mar 2012 16:27:23 -0700|Sat, 31 Mar 2012 16:27:23 -0700
+bcf95f281963d5393e1aeba354d029370d72b806|Refactor example based on fragment reafactor|Sat, 31 Mar 2012 16:15:47 -0700|Sat, 31 Mar 2012 16:20:57 -0700
+e17b49b64729cbdd521ff2c21aac51f770884a44|Refactor glance-api.conf erb file|Sat, 31 Mar 2012 16:11:20 -0700|Sat, 31 Mar 2012 16:11:20 -0700
+0a400dcc6a973a539d9ba3a83ccc0bd1cc7bd383|Add rspec tests|Sat, 31 Mar 2012 16:09:29 -0700|Sat, 31 Mar 2012 16:09:29 -0700
+98027b54709207e7a46080a8eb9d94cfef29bdfd|Remove service parameters|Sat, 31 Mar 2012 16:08:36 -0700|Sat, 31 Mar 2012 16:08:36 -0700
+2ec7af015071b849fcfc05c4ef01038d2cb63806|Refactor glance::api to use fragments|Sat, 31 Mar 2012 16:06:26 -0700|Sat, 31 Mar 2012 16:06:26 -0700
+6c29550dcb3cbeb7dfe37871ece1d2a7b20a8e05|Split api.conf file into fragments|Sat, 31 Mar 2012 16:01:42 -0700|Sat, 31 Mar 2012 16:01:42 -0700
+e9361dbaa60d6572569ec453c7a12ecada3f74f4|Merge pull request #17 from bodepd/dev|Fri, 30 Mar 2012 20:51:40 -0700|Fri, 30 Mar 2012 20:51:40 -0700
+1a15b76eda37f9d194f0aec01187ec45174f7397|Ensure repo stage is applied before main stage|Fri, 30 Mar 2012 20:50:05 -0700|Fri, 30 Mar 2012 20:50:05 -0700
+d1e33cc81f07ac9d5c8d433da0dccad6651ef764|Add code to use latest ppas|Fri, 30 Mar 2012 09:53:21 -0700|Fri, 30 Mar 2012 09:54:44 -0700
+ba5b0b0fbdc7935f8df4a8256cd4e611ce20cfec|Merge pull request #16 from bodepd/dev|Fri, 30 Mar 2012 01:46:57 -0700|Fri, 30 Mar 2012 01:46:57 -0700
+132278a5d96a3c3bf1618bc88751cecd292b4b95|Add test script|Thu, 29 Mar 2012 16:45:40 -0700|Thu, 29 Mar 2012 16:45:40 -0700
+9db052933a76fd4dc2fb4dd05df6d0006b58f4a1|Update example site.pp|Thu, 29 Mar 2012 16:45:27 -0700|Thu, 29 Mar 2012 16:45:27 -0700
+a5ac23272d86c2026b192956990e0e244b567242|Refactor config files for essex|Thu, 29 Mar 2012 16:44:59 -0700|Thu, 29 Mar 2012 16:44:59 -0700
+dd5fb3ea91ecc310d67b55dce7b31418ffed6515|Add code for db and host_access|Thu, 29 Mar 2012 16:43:23 -0700|Thu, 29 Mar 2012 16:43:23 -0700
+7708359f04cdbdb0b40d1c98fcb74d049c6445d7|Merge pull request #15 from bodepd/dev|Wed, 21 Mar 2012 23:14:50 -0700|Wed, 21 Mar 2012 23:14:50 -0700
+29d18c442e988a46ea447a046089d1e65004b90c|Merge pull request #1 from derekhiggins/dev|Wed, 21 Mar 2012 15:10:39 -0700|Wed, 21 Mar 2012 15:10:39 -0700
+f6a9d5c22c3aaa2b7e721da04e3647fa81a10b1b|fix typo|Wed, 21 Mar 2012 14:52:49 +0000|Wed, 21 Mar 2012 15:01:48 +0000
+2054c76ee4d8f89c859bdc1f3254ab6873974b9b|update spec test to set osfaily|Mon, 19 Mar 2012 22:57:23 -0700|Mon, 19 Mar 2012 22:57:23 -0700
+7c6d5405fd4008ad7e39c1baf0fa5d80b624bb98|Add python migrate dependency|Mon, 19 Mar 2012 22:54:43 -0700|Mon, 19 Mar 2012 22:54:43 -0700
+0d205ba2e22a06f5497b419a3ac3bf68d7553c44|Add an example file|Fri, 16 Mar 2012 22:46:40 -0700|Sun, 18 Mar 2012 12:04:26 -0700
+2167074954618a4e1ea306f61c3b84e18ce88930|Add fedora support for glance|Fri, 16 Mar 2012 22:27:20 -0700|Sun, 18 Mar 2012 11:57:04 -0700
+682db69b82c32e328748932d08158d728bd2bdff|Merge pull request #14 from bodepd/master|Fri, 16 Mar 2012 11:08:28 -0700|Fri, 16 Mar 2012 11:08:28 -0700
+ec1120e2e2d59302929fcab6945f10a760a4c046|Update the README|Tue, 13 Mar 2012 15:23:29 -0700|Tue, 13 Mar 2012 15:23:29 -0700
+0b1fc546fb5976c24800a1b9b85969d34cbd3298|Update unit test to reflect mode change|Tue, 13 Mar 2012 15:21:35 -0700|Tue, 13 Mar 2012 15:21:35 -0700
+33913effb1b1bd58900ccd826daa77ced67639cf|Add rdoc to glance::api|Wed, 11 Jan 2012 11:42:04 -0800|Tue, 13 Mar 2012 15:20:12 -0700
+9879e760a77aa8b52acec6ea9c4d7cd99844f317|Add README|Wed, 11 Jan 2012 11:41:43 -0800|Tue, 13 Mar 2012 15:20:12 -0700
+c273426619a3b2b560bbaa2638ffd6006c54ffdf|Style update|Wed, 4 Jan 2012 11:40:28 -0800|Tue, 13 Mar 2012 15:20:12 -0700
+43f2c731dd83cd48dcb62ab70dfed1bfaf0724b5|Merge pull request #13 from bodepd/add_missing_dollar|Tue, 13 Mar 2012 15:19:21 -0700|Tue, 13 Mar 2012 15:19:21 -0700
+972fefaea64771cdbc173434fc8b251b089df805|Rafactor glance api to merge defaults|Tue, 13 Mar 2012 15:09:58 -0700|Tue, 13 Mar 2012 15:09:58 -0700
+7ba954f324d77da9803882fe5f4cbe91f13d7eb0|Add $ to glance package_ensure|Tue, 13 Mar 2012 15:08:56 -0700|Tue, 13 Mar 2012 15:08:56 -0700
+c8fe8b083fa26760114bae5cc77bb28e889deb8b|Merge pull request #10 from bodepd/11692_manifest_rspec_tests|Tue, 3 Jan 2012 11:36:01 -0800|Tue, 3 Jan 2012 11:36:01 -0800
+e1a92cf3c38dd0c2dde5b8e6a7433085c0eb589e|Merge pull request #9 from bodepd/11693_add_package_ensure_param|Tue, 3 Jan 2012 11:35:04 -0800|Tue, 3 Jan 2012 11:35:04 -0800
+4d06c905f3938acc8e8025ea4eaf2981dce7bf61|Merge pull request #8 from bodepd/11694_fix_bind_host_param|Tue, 3 Jan 2012 11:30:59 -0800|Tue, 3 Jan 2012 11:30:59 -0800
+4fa5d3f046a59a5928f005a0225ab3ccf4f5c512|(#11692) Add unit tests|Mon, 2 Jan 2012 15:01:50 -0800|Tue, 3 Jan 2012 11:27:43 -0800
+2bf87bcc2fbd4d7163b592e80659147ee2210227|(#11693) Add package_ensure param to glance class|Mon, 2 Jan 2012 14:59:14 -0800|Tue, 3 Jan 2012 11:24:43 -0800
+80bdf4475a32c05d48035fc98416aa25efcb2c1e|(#11694) Add bind host to template|Mon, 2 Jan 2012 15:00:13 -0800|Tue, 3 Jan 2012 11:20:40 -0800
+f8b922582dbd6bf22eda39f1281cf9f5685dc236|Merge pull request #6 from cblument/issue/master/additional_config_bug|Wed, 17 Aug 2011 15:40:35 -0700|Wed, 17 Aug 2011 15:40:35 -0700
+b538bbecd42742558ea01ab2a22152d7e88c4b08|fix described in https://bugs.launchpad.net/glance/+bug/827034|Wed, 17 Aug 2011 22:30:08 +0000|Wed, 17 Aug 2011 22:30:08 +0000
+8df3d6552bf1b0abf9f3b61d0419e99348e24edf|Updated glance-registry.conf in accordance with https://bugs.launchpad.net/glance/+bug/814981|Tue, 16 Aug 2011 16:08:57 -0700|Tue, 16 Aug 2011 16:08:57 -0700
+7b1666f37867fad0a3dede03d9b8e261480579d6|Updated glance-api.conf in accordance with https://bugs.launchpad.net/glance/+bug/814981|Tue, 16 Aug 2011 16:08:14 -0700|Tue, 16 Aug 2011 16:08:14 -0700
+ba246b2d408fe9c985e7169b83a12bae1a789cf1|Merge pull request #4 from gandelman-a/master|Tue, 21 Jun 2011 12:48:50 -0700|Tue, 21 Jun 2011 12:48:50 -0700
+0f9c5030eec816de8280feb9094f1e5a9fa69329|Set verbose + debug false by default|Tue, 21 Jun 2011 12:31:12 -0700|Tue, 21 Jun 2011 12:31:12 -0700
+16a544c083677c09792a0863fb8c5455195b6755|Modify class parameters, templates and tests for logging options avoiding use of 'debug'|Tue, 21 Jun 2011 12:19:20 -0700|Tue, 21 Jun 2011 12:19:20 -0700
+0883495bb333e158fd38d3e111ec146fd88f7863|Merge pull request #3 from jamtur01/master|Mon, 20 Jun 2011 23:26:12 -0700|Mon, 20 Jun 2011 23:26:12 -0700
+2bea1c2fb4581a7cb64b3c2c1bd5b692d1891306|Edited Glance registry template to add log option.|Mon, 20 Jun 2011 23:21:45 -0700|Mon, 20 Jun 2011 23:21:45 -0700
+062c02ff7155a2768d20823b33cde70212e68f62|Merge pull request #2 from bodepd/issue/master/fixes|Thu, 16 Jun 2011 21:02:50 -0700|Thu, 16 Jun 2011 21:02:50 -0700
+5e48e4a97429d38047b76afe706352c418c5bbc5|added hasrestart, hasstatus to services.|Thu, 16 Jun 2011 20:58:59 -0700|Thu, 16 Jun 2011 20:58:59 -0700
+86147633a33789b5f6c7af049a502bbdf4855bb3|Added missing comma|Thu, 16 Jun 2011 20:51:02 -0700|Thu, 16 Jun 2011 20:51:02 -0700
+a9b06dd20a6afd60fea642fe4b348fcc26db0980|Merge pull request #1 from cblument/master|Thu, 16 Jun 2011 14:57:07 -0700|Thu, 16 Jun 2011 14:57:07 -0700
+bdde53d8cf34186c859f0f14ee24027bc74be18c|Making the sql_connection a variable|Thu, 16 Jun 2011 16:47:06 -0500|Thu, 16 Jun 2011 16:47:06 -0500
+e8a6e3df49b8c4f8b217e5a471bc50a1b94b49a0|Fixing the filename for the default sql_connection|Thu, 16 Jun 2011 16:45:08 -0500|Thu, 16 Jun 2011 16:45:08 -0500
+70c652874dc5e7c390759e96aee4c91e37105d40|initial commit for glance.|Tue, 14 Jun 2011 17:55:48 -0700|Tue, 14 Jun 2011 17:55:48 -0700

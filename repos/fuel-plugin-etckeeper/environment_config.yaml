@@ -1,0 +1,14 @@
+attributes:
+  vcs:
+    label: "Version Control System"
+    description: "VCS system to use to track changes"
+    weight: 25
+    type: "radio"
+    value: "git"
+    values:
+      - data: "git"
+        label: "Git"
+      - data: "bzr"
+        label: "Bazaar"
+      - data: "hg"
+        label: "Mercurial"

@@ -1,0 +1,632 @@
+,sha,message,files
+0,551bf848e1bde8a89a44b2fd029d6f82748aae85,Remove cleanup of [DEFAULT] evaluation_interval,['manifests/evaluator.pp']
+1,9277734b9d3f6a6ca0d8bbfdbe99cd75ca609db1,Update master for stable/zed,"['releasenotes/source/index.rst', 'releasenotes/source/zed.rst']"
+2,a1f3b1b006d0134dc36082a45501ef25ea2d6625,Prepare Zed RC1,['metadata.json']
+3,e59df58cddb96622853aba8e04b4758cc672cb02,Enable memcached and redis in acceptance tests,['spec/acceptance/10_basic_aodh_spec.rb']
+4,b6926f0cf38dadd69be0ef96aa222f12227d3ea8,"Merge ""Use standard parameter description format for wsgi::apache""",['manifests/wsgi/apache.pp']
+5,cf03bf3ddae1ecb7f5749da735bb770fc1b16a68,"Merge ""Add Apache WSGI logging parameters for pipe/syslog""","['manifests/wsgi/apache.pp', 'releasenotes/notes/httpd-logs-piped-syslog-24dec371dc94bb9d.yaml', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+6,86d8f81e0d815e125920fef0afeb9e37bbb43b91,Use standard parameter description format for wsgi::apache,['manifests/wsgi/apache.pp']
+7,c8c59f1e9aabffeceaf85ead3590eea90ee98d86,Add Apache WSGI logging parameters for pipe/syslog,"['manifests/wsgi/apache.pp', 'releasenotes/notes/httpd-logs-piped-syslog-24dec371dc94bb9d.yaml', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+8,6212bb5ea8ee4235f984fae6a1ee4d4b0ac5756c,Use openstack_spec_helper from zuul checkout,['Gemfile']
+9,c64f4251c54ce3c3dafd14d8e583f992434a040f,"Merge ""Remove deprecated aodh::evaluator::coordination_url""","['manifests/coordination.pp', 'manifests/evaluator.pp', 'releasenotes/notes/cleanup-coordination-ca6319f55bf4fdb2.yaml', 'spec/classes/aodh_evaluator_spec.rb']"
+10,99307d1bf126daa107bd83455e1206fce3464e57,"Merge ""Adapt to new type validation in puppetlabs-apache""","['manifests/wsgi/apache.pp', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+11,97682cfa99b013d149f232e9075acd9f3f45140a,Remove deprecated aodh::evaluator::coordination_url,"['manifests/coordination.pp', 'manifests/evaluator.pp', 'releasenotes/notes/cleanup-coordination-ca6319f55bf4fdb2.yaml', 'spec/classes/aodh_evaluator_spec.rb']"
+12,976196bce37726419ff50113d65041ff0dff8f56,Adapt to new type validation in puppetlabs-apache,"['manifests/wsgi/apache.pp', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+13,6b33b3226bdceeb275951e0c357ea656a32a54d3,"Merge ""Expose headers option of apache::vhost""","['manifests/wsgi/apache.pp', 'releasenotes/notes/apache-headers-4b2756ad793e7f16.yaml', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+14,358924dbca5ec0ff467c8b659893fd8e6e396211,"Revert ""CentOS 9: Disable unit tests dependent on puppet-postgresql""",['spec/classes/aodh_db_postgresql_spec.rb']
+15,8dd89d5aa2d6c3b8519eb2137911a3a3509a3d30,"Merge ""Add acceptance tests for config management resources""","['spec/acceptance/10_basic_aodh_spec.rb', 'spec/acceptance/99_aodh_config_spec.rb']"
+16,43b8f9a6827cb8f73f104a1fe6cdd88984c8103e,"Merge ""Switch provider to manage paste.ini file""",['lib/puppet/provider/aodh_api_paste_ini/ini_setting.rb']
+17,1e06f1f76250a9c96b7484ee45ddb0d6d27de4af,Fix wrong test description,"['spec/unit/type/aodh_api_uwsgi_config_spec.rb', 'spec/unit/type/aodh_config_spec.rb']"
+18,a1f73ef0402c0b869c0dcf4f9593527a7bceb75f,Add acceptance tests for config management resources,"['spec/acceptance/10_basic_aodh_spec.rb', 'spec/acceptance/99_aodh_config_spec.rb']"
+19,31edf992554dad8e9567cbc5e0d496d98e091b1a,Switch provider to manage paste.ini file,['lib/puppet/provider/aodh_api_paste_ini/ini_setting.rb']
+20,0c8d02c75887decca516d93ef33f887d66cd0817,Expose headers option of apache::vhost,"['manifests/wsgi/apache.pp', 'releasenotes/notes/apache-headers-4b2756ad793e7f16.yaml', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+21,8b29e4b5ab9131c5dd16a434a477e5edf2141531,Fix typos in parameter descriptions,"['manifests/coordination.pp', 'manifests/evaluator.pp', 'manifests/healthcheck.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/listener.pp', 'manifests/logging.pp', 'manifests/wsgi/apache.pp']"
+22,c58c36d92741bd41fda663d5765d9136399a77b5,Update section of the evaluation_interval parameter,"['manifests/evaluator.pp', 'spec/classes/aodh_evaluator_spec.rb']"
+23,7d37513d7e69a3d782489aadcf05fbbf3c757965,"Merge ""Remove support for CentOS 8 Stream""","['metadata.json', 'releasenotes/notes/remove-centos-8-88f8999e47f9e49b.yaml']"
+24,a75ec4ed66df1061b018cc52414833cb0d6bae74,Remove support for CentOS 8 Stream,"['metadata.json', 'releasenotes/notes/remove-centos-8-88f8999e47f9e49b.yaml']"
+25,cc2cec0491b1bd647b86521609e19bb256c1a40d,coordination: Remove deprecated heartbeat,"['manifests/coordination.pp', 'releasenotes/notes/remove-coordination-heartbeat-29c0844c7546f2b9.yaml']"
+26,4ec7119fc643ac372edd74d5d1b914dcda40f84e,apache+mod_wsgi: Disable SSL by default,"['manifests/wsgi/apache.pp', 'releasenotes/notes/disable-apache-ssl-cebd6146263d9f8f.yaml', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+27,9400853421a8f1ef4c11646d9a89b8d8a8a19d09,listener: Add support for tunable parameters,"['manifests/listener.pp', 'releasenotes/notes/listener-opts-517861fd3efdb40c.yaml', 'spec/classes/aodh_listener_spec.rb']"
+28,e4916c32c82ba6024a7a982c156a66a38b203c1e,Update master for stable/yoga,"['releasenotes/source/index.rst', 'releasenotes/source/yoga.rst']"
+29,ed325e53b64dbb7b588814b58ce38b154fdc2987,setuptools: Disable auto discovery,['setup.py']
+30,38c5e93a3fb13fbd3d51aca2f315d3f514477f4c,Prepare Yoga RC1,['metadata.json']
+31,04dbb2c213fb9a80f178c281f6d48dbfe43e2557,"Merge ""Globally support system scope credentials""","['manifests/service_credentials.pp', 'releasenotes/notes/system_scope-all-3a97b232bc4955a1.yaml', 'spec/classes/aodh_service_credentials_spec.rb']"
+32,e873a180a4b54c7ca94389272b7afdd2e1caa5de,remove unicode literal from code,['releasenotes/source/conf.py']
+33,442e6965edbcdc6696cf08fe4f16434cd9dc25ea,Globally support system scope credentials,"['manifests/service_credentials.pp', 'releasenotes/notes/system_scope-all-3a97b232bc4955a1.yaml', 'spec/classes/aodh_service_credentials_spec.rb']"
+34,326cfc678c7d7ee0223102c5d2c5db72711cba2c,Prepare Yoga M3,['metadata.json']
+35,655406817c50eeb662afbf49969fd1c79530a7eb,"Merge ""Add CentOS/RHEL 9 to supported operating systems""","['metadata.json', 'releasenotes/notes/centos-9-support-baf1b1f79c5888fc.yaml']"
+36,6d56d688e37c96cd062b96f9a4c1874eb81d4580,"Merge ""Avoid hard-coding OS user/group in each manifest""","['manifests/db/sync.pp', 'manifests/expirer.pp', 'manifests/params.pp', 'manifests/wsgi/apache.pp']"
+37,fc9a19781ca22649b4b2675bb6e7189bdafda27c,Add CentOS/RHEL 9 to supported operating systems,"['metadata.json', 'releasenotes/notes/centos-9-support-baf1b1f79c5888fc.yaml']"
+38,0f0fcf4661016c38cadd7f5f7aab6ad4de66f4fd,"Merge ""Drop unused implementation to expect ""undef""""","['manifests/wsgi/apache.pp', 'releasenotes/notes/wsgi-script-use-param-a9408ab5d05478e3.yaml']"
+39,6675988bbb9b923fb6064f64e3a122cfaa5dc900,Avoid hard-coding OS user/group in each manifest,"['manifests/db/sync.pp', 'manifests/expirer.pp', 'manifests/params.pp', 'manifests/wsgi/apache.pp']"
+40,e472146062fc1ea1a4c21383cc88d3fbed2b7ee8,"Merge ""Remove deprecated amqp_allow_insecure_clients""","['manifests/init.pp', 'releasenotes/notes/remove-amqp_allow_insecure_clients-bfafd5c740de5626.yaml']"
+41,0f1d26cdb67f4561be291db65cd4574ac0615cb5,CentOS 9: Disable unit tests dependent on puppet-postgresql,['spec/classes/aodh_db_postgresql_spec.rb']
+42,15773d1be0efcb72547571c8ebe8d3f5efe4346e,"Merge ""Avoid accessing undefined variable""",['manifests/coordination.pp']
+43,18efa33fc3d50e9647647ba5d848289e141efded,"Merge ""Add scenario002 integration job""",['.zuul.yaml']
+44,606e4ada3805c63965da92e642fe484ac0366f36,Avoid accessing undefined variable,['manifests/coordination.pp']
+45,7b33c0c74e7f85fe3188c2f65de0fa9803d1023d,Remove deprecated amqp_allow_insecure_clients,"['manifests/init.pp', 'releasenotes/notes/remove-amqp_allow_insecure_clients-bfafd5c740de5626.yaml']"
+46,7f91fe07692ecc320f3360d4ece4d394d4d8bfbd,"Merge ""Simplify definition to ensure keystone resource creation""",['manifests/keystone/auth.pp']
+47,1b70d0c3802df6a86fc3eb6f523ec9b6f7f17fa2,Simplify definition to ensure keystone resource creation,['manifests/keystone/auth.pp']
+48,ece29f7d9cdedaefcc83da13fc6d98bbfafc91f4,Add scenario002 integration job,['.zuul.yaml']
+49,2bf346a6dd0de295ae7832fa93de3aa64521d437,Use generated script instead of app.wsgi,"['manifests/params.pp', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+50,2865eb0be1f4c6ebbc8a180355ad4eb461e5bacb,"Drop unused implementation to expect ""undef""","['manifests/wsgi/apache.pp', 'releasenotes/notes/wsgi-script-use-param-a9408ab5d05478e3.yaml']"
+51,0eb8b285cf991dec05e7dcdc4d5700e25579c41b,Clean up deprecated database parameters,"['manifests/db.pp', 'manifests/init.pp', 'releasenotes/notes/remove-database-params-df394354cff496cb.yaml']"
+52,d398887c5119d44e120b7bc6f478ac350a05c625,Avoid testing details of oslo::messaging(::*),['spec/classes/aodh_init_spec.rb']
+53,49df15f709dbdc470534d41de89fc1f46a4440f2,"Merge ""Accept system scope credentials for Keystone API request""","['manifests/keystone/auth.pp', 'manifests/keystone/authtoken.pp', 'releasenotes/notes/system_scope-keystone-af2d2f0ea5ed7043.yaml', 'spec/classes/aodh_keystone_auth_spec.rb', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+54,d033a757cc5dba096be33a88e93d6648489f1982,"Merge ""Remove usage of custom os_package_type fact""",['manifests/wsgi/uwsgi.pp']
+55,251fec8dcd1b645cd2fb95020cd34ca6836ed7d9,Prepare Yoga M2,['metadata.json']
+56,2b89b028746480340f82d98f6638ce27a65a5d21,Remove usage of custom os_package_type fact,['manifests/wsgi/uwsgi.pp']
+57,b15ab2d5cb96d71a2077ce36701a2108f71ba0b4,"Merge ""Enable aodh-expirer cron job after database is initialized""","['manifests/expirer.pp', 'spec/classes/aodh_expirer_spec.rb']"
+58,0615e8e72457e87b2952b71f595fcd491607eb6a,"Merge ""Remove deprecated aodh::auth""","['manifests/auth.pp', 'manifests/service_credentials.pp', 'releasenotes/notes/remove-auth-a6bc72e8a060d33a.yaml', 'spec/classes/aodh_auth_spec.rb']"
+59,c2e0cea92d652b4657ef31676fb88d31d98b5cfd,"Merge ""Do not assert indirect import of the apache class""",['spec/classes/aodh_wsgi_apache_spec.rb']
+60,0f02d2408ad75e2aa78b85af883e5f3550e9f55c,Enable aodh-expirer cron job after database is initialized,"['manifests/expirer.pp', 'spec/classes/aodh_expirer_spec.rb']"
+61,0b9c0368ed1bd00310549edc6733a35481213832,Remove deprecated aodh::auth,"['manifests/auth.pp', 'manifests/service_credentials.pp', 'releasenotes/notes/remove-auth-a6bc72e8a060d33a.yaml', 'spec/classes/aodh_auth_spec.rb']"
+62,c472051cc890d3a24478ed064bfe819f769058a6,Do not assert indirect import of the apache class,['spec/classes/aodh_wsgi_apache_spec.rb']
+63,15dd36c991d13b311c53a0962efb836090bdb2bb,Load libraries in a single place,"['spec/spec_helper.rb', 'spec/unit/provider/aodh_api_paste_ini/ini_setting_spec.rb', 'spec/unit/provider/aodh_api_uwsgi_config/ini_setting_spec.rb', 'spec/unit/provider/aodh_config/openstackconfig_spec.rb']"
+64,16b730bd76ce52d3c632dcffae43050e46bf9819,"Merge ""Clean up direct dependencies on puppetlabs-apache""","['manifests/api.pp', 'manifests/wsgi/apache.pp', 'metadata.json', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+65,c0075580a5018ed4ea7a2ee4a092183e911f630b,Clean up direct dependencies on puppetlabs-apache,"['manifests/api.pp', 'manifests/wsgi/apache.pp', 'metadata.json', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+66,bf9c621edf79b72a7329306e6ea5675d3992e870,Install coordination backend packages before starting services,['manifests/deps.pp']
+67,1b1401ec4fca25f533a6efee11c67701abbfb5eb,"Merge ""Add missing dependency of aodh_api_paste_ini""",['manifests/deps.pp']
+68,e0e8340bdc21ae18b73ba937dad5c3ca023757d3,Fix dependencies related to openstacklib::policy,['manifests/deps.pp']
+69,e13c2c971349c282c83bcfe3c47e61b2e63f89f3,Accept system scope credentials for Keystone API request,"['manifests/keystone/auth.pp', 'manifests/keystone/authtoken.pp', 'releasenotes/notes/system_scope-keystone-af2d2f0ea5ed7043.yaml', 'spec/classes/aodh_keystone_auth_spec.rb', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+70,19c0cbb0c08662d8c827c14c152db41b10f50f7b,Add missing dependency of aodh_api_paste_ini,['manifests/deps.pp']
+71,e14e5f12f95fb866a6b9f95ebf78745f4e11aa33,"Merge ""Replace deprecated [coordination] heartbeat""","['manifests/coordination.pp', 'releasenotes/notes/coordination-heartbeat_interval-6e4c54a3c97c9272.yaml', 'spec/classes/aodh_coordination_spec.rb']"
+72,89ddb1b8f2fa802c217a5fdd0b63f952c3d144c2,Add support for [DEFAULT] additional_ingestion_lag,"['manifests/evaluator.pp', 'releasenotes/notes/additional_ingestion_lag-3027455ab31bc9b2.yaml', 'spec/classes/aodh_evaluator_spec.rb']"
+73,09c0b809377ccb30b1f1dfad58d36763b187b4b2,Add support for the [DEFAULT] event_alarm_cache_ttl parameter,"['manifests/evaluator.pp', 'releasenotes/notes/event_alarm_cache_ttl-7ffe150d90e87649.yaml', 'spec/classes/aodh_evaluator_spec.rb']"
+74,08fa7fd12334b59b876f70bf9c6c00892b80400e,"Merge ""Prepare to update default of <service>::wsgi::apache::ssl""","['manifests/wsgi/apache.pp', 'releasenotes/notes/prepare-to-change-apache-ssl-7777c0a358f69279.yaml']"
+75,c475277bce1ea562ebd3c4ced7e748ae91b97847,Prepare to update default of <service>::wsgi::apache::ssl,"['manifests/wsgi/apache.pp', 'releasenotes/notes/prepare-to-change-apache-ssl-7777c0a358f69279.yaml']"
+76,4ccba173f954f5f7ca6b68ac2f693d0f3b40adf3,Bump puppetlabs-inifile,['metadata.json']
+77,49eb825204860d8465158a41c84f6af558a67b41,Replace deprecated [coordination] heartbeat,"['manifests/coordination.pp', 'releasenotes/notes/coordination-heartbeat_interval-6e4c54a3c97c9272.yaml', 'spec/classes/aodh_coordination_spec.rb']"
+78,e9a758a6f99a2969d120b3f2be44b121f74c1c58,Allow customizing separator for api-paste.ini,"['lib/puppet/type/aodh_api_paste_ini.rb', 'releasenotes/notes/api_paste_ini-separator-5244b86741750162.yaml']"
+79,75892ddf3a7e19cdf9b1eb119f4c84a65a53207d,Bump version for the start of Yoga,['metadata.json']
+80,0c0ddd127c088ab759447c75f4020fe367d6c069,Update master for stable/xena,"['releasenotes/source/index.rst', 'releasenotes/source/xena.rst']"
+81,34b1688db1713221c00c90b36d494d58e1d8edd4,Add information technology in the setup.cfg,['setup.cfg']
+82,d28f28dada324c0af1fe3bb6d6b74b9f36c4b728,Add license information in the setup.cfg,['setup.cfg']
+83,e2be891af7564b04a32e16c42edaa0bfc55026d8,Delete useless code for setup.py,['setup.py']
+84,c783ed3cabc04219e3f7f0a385d2334ce0706209,"Merge ""Stop configuring install_command in tox.""",['tox.ini']
+85,650775b416ae64c7818f6552115a13fdb9bca75c,"Merge ""Fix pbr>=2.0.0 for setup.py""",['setup.py']
+86,78c0943139fe08312ced47059e1219bdbbf4f5ed,Stop configuring install_command in tox.,['tox.ini']
+87,f5faaca17abdeb9a1ceec360e4024be5c7088a97,Fix pbr>=2.0.0 for setup.py,['setup.py']
+88,7e9b9ce274b1c73d29197c9a59eaf28284d2d394,Update openstackdocstheme to the latest version,['doc/requirements.txt']
+89,c50428d30658667dae5571d5f5f04ba54e1239f5,Update reno to the latest version,['doc/requirements.txt']
+90,fca1b2e38c80b29fd4fd43a00da1b99415539037,"Merge ""Simplify package management""","['manifests/evaluator.pp', 'manifests/expirer.pp', 'manifests/listener.pp', 'manifests/notifier.pp', 'spec/classes/aodh_evaluator_spec.rb', 'spec/classes/aodh_expirer_spec.rb', 'spec/classes/aodh_listener_spec.rb', 'spec/classes/aodh_notifier_spec.rb']"
+91,7b52ec3cac3a0fe61899919881fb5b8fb2cc3783,Simplify package management,"['manifests/evaluator.pp', 'manifests/expirer.pp', 'manifests/listener.pp', 'manifests/notifier.pp', 'spec/classes/aodh_evaluator_spec.rb', 'spec/classes/aodh_expirer_spec.rb', 'spec/classes/aodh_listener_spec.rb', 'spec/classes/aodh_notifier_spec.rb']"
+92,7e9feea75ce856036f6770702be4e38b1133a8b9,"Merge ""Use consistent implementation to install package""",['manifests/evaluator.pp']
+93,6ebac1df829b9c17d1b0d2ad9ddb657d2a2552a8,Use consistent implementation to install package,['manifests/evaluator.pp']
+94,1db2a58534e591783c4f306a8cee69fefe8e08d2,Fix stdlib version in metadata,['metadata.json']
+95,1eb2e38a4127a717759f461a7cda92b3e0361e4a,"Merge ""Allow purging policy files""","['manifests/policy.pp', 'releasenotes/notes/policy_purge_config-c1fa9304bd5d74d5.yaml', 'spec/classes/aodh_policy_spec.rb']"
+96,506dceb736082932999332136552a8c3b4c591e9,Prepare Xena RC1,['metadata.json']
+97,3d8d27309908659073f55cea01977afaf4b22f2c,Add watch_log_file option,"['manifests/logging.pp', 'releasenotes/notes/add_watch_log_file-option-99e6fa54b53c3066.yaml', 'spec/classes/aodh_logging_spec.rb']"
+98,b354ddb468f8991dfdea11df510882642fd30453,Prepare Xena M3,['metadata.json']
+99,8755b916b0a9054bfe1145acc5531cef8d5e3c10,Allow purging policy files,"['manifests/policy.pp', 'releasenotes/notes/policy_purge_config-c1fa9304bd5d74d5.yaml', 'spec/classes/aodh_policy_spec.rb']"
+100,7b1f7e614c935a23e6a9b6d19a0c3598a3e829e9,"Merge ""Remove extra spaces from authtoken tests""",['spec/classes/aodh_keystone_authtoken_spec.rb']
+101,38c5b03a7d26cfa814cfcbc08273bd33091275eb,"Merge ""Do not test detail of keystone::auth::service_identity""",['spec/classes/aodh_keystone_auth_spec.rb']
+102,c6f85f7becaf69fec375c1296b07cf4c0cc1a8fd,Do not test detail of keystone::auth::service_identity,['spec/classes/aodh_keystone_auth_spec.rb']
+103,bbe076d051209ec25601f25de6946de0b77e9c2f,Remove extra spaces from authtoken tests,['spec/classes/aodh_keystone_authtoken_spec.rb']
+104,4a0a0626ec5e61051effd6f17dcfbc760a273e7c,Fix invalid unit tests,['spec/classes/aodh_keystone_authtoken_spec.rb']
+105,8c2a3a43222b5fbd016f11c7c00c514b86b7ead0,Fix ignored parameters of aodh::auth,['manifests/service_credentials.pp']
+106,9488de2d2b61df9684fdeb6952cbdd44b52f29d9,Support Puppet 7,['metadata.json']
+107,2bf023106b1dcd9ab52b7c7be055287e2cdab22e,Prepare Xena M2,['metadata.json']
+108,02194e0ffc0697ba46645e3f4dc992036a3638a6,Add support for MultiStrOpt,"['lib/puppet/provider/aodh_config/openstackconfig.rb', 'lib/puppet/type/aodh_config.rb', 'spec/unit/provider/aodh_config/openstackconfig_spec.rb', 'spec/unit/type/aodh_config_spec.rb']"
+109,e9c2f20e885e0feb914dc45172ae1fcd3dfdad83,"Merge ""Allow setting batch size for expirer""","['manifests/expirer.pp', 'releasenotes/notes/batchsize-6f6d2382eeb7e025.yaml', 'spec/classes/aodh_expirer_spec.rb']"
+110,21c16501158e7493a8d616e2b6c4069d192c90c0,Add support for [cors] options,"['manifests/cors.pp', 'releasenotes/notes/cors-5e513eae133889d7.yaml', 'spec/classes/aodh_cors_spec.rb']"
+111,205995b2ffcaa1d986b777964ddd83b0fb6ccb03,"Merge ""Debian api_uwsgi_config: Switch to :ini_setting""","['lib/puppet/provider/aodh_api_uwsgi_config/ini_setting.rb', 'spec/spec_helper.rb', 'spec/unit/provider/aodh_api_uwsgi_config/ini_setting_spec.rb']"
+112,ef9d67832a3d363d3d6fd3b4d895713df4c34513,Debian api_uwsgi_config: Switch to :ini_setting,"['lib/puppet/provider/aodh_api_uwsgi_config/ini_setting.rb', 'spec/spec_helper.rb', 'spec/unit/provider/aodh_api_uwsgi_config/ini_setting_spec.rb']"
+113,0609045965d02d83864db75230504cef37fbc7ac,"Merge ""Use oslo::coordination to manage coordination parameters""","['manifests/coordination.pp', 'manifests/evaluator.pp', 'manifests/params.pp', 'releasenotes/notes/coordination-aee30fff3b537d61.yaml', 'spec/classes/aodh_coordination_spec.rb', 'spec/classes/aodh_evaluator_spec.rb']"
+114,169b3f074d61700d09a851d19f1106698ee2b684,"Merge ""Drop Fedora support""","['metadata.json', 'releasenotes/notes/drop-fedora-e94904c9b5bce027.yaml']"
+115,76d5c24f57d9c77923a7b6d07fbe61fa2cdb8caf,"Merge ""Fix leftover related to $pyvers variable""",['spec/classes/aodh_evaluator_spec.rb']
+116,ac2efc715798e570478da4b6d1fa5677e94f06e5,"Merge ""Set fixture paths for unit tests""",['spec/spec_helper.rb']
+117,6cd026faf68cbc4768caa707d0019732d376074e,Set fixture paths for unit tests,['spec/spec_helper.rb']
+118,216fddb3485d8d22a967dab3d9f8ca3536221826,Allow setting batch size for expirer,"['manifests/expirer.pp', 'releasenotes/notes/batchsize-6f6d2382eeb7e025.yaml', 'spec/classes/aodh_expirer_spec.rb']"
+119,972ddc2cf278cdd6de198c2c0c535cd5eaf8ba00,Prepare Xena M1,['metadata.json']
+120,16091c8dd6f97f55fb7875e7843f3de7017a99ce,Use oslo::coordination to manage coordination parameters,"['manifests/coordination.pp', 'manifests/evaluator.pp', 'manifests/params.pp', 'releasenotes/notes/coordination-aee30fff3b537d61.yaml', 'spec/classes/aodh_coordination_spec.rb', 'spec/classes/aodh_evaluator_spec.rb']"
+121,37952508c62febecf805754c8852da3689cd4925,Drop Fedora support,"['metadata.json', 'releasenotes/notes/drop-fedora-e94904c9b5bce027.yaml']"
+122,4d944807f64fdb05c26824ac63d092abf7e63d17,Fix leftover related to $pyvers variable,['spec/classes/aodh_evaluator_spec.rb']
+123,5f1e9e7c5c1401784adf884f66b3552d72e99842,Get rid of the $pyvers variable,"['manifests/params.pp', 'spec/classes/aodh_client_spec.rb']"
+124,69ebbeafd9ce0d6b50de11f6a97da48272df7adc,Do not test authtoken parameters directly,['spec/classes/aodh_keystone_authtoken_spec.rb']
+125,13547338698ccf1068b672f853058dc172eb508d,"Merge ""setup.cfg: Replace dashes with underscores""",['setup.cfg']
+126,5304b836fe99c2b11328677477e6249ad5574979,setup.cfg: Replace dashes with underscores,['setup.cfg']
+127,4cf58ae78f315549abefdb2fd8d564e817183a7b,Consolidate Redis install to ensure_packages,['manifests/evaluator.pp']
+128,8d0844296f697b842d8facce61ef296b6d1dbf83,Bump version for the start of Xena,['metadata.json']
+129,61948c76c6a74f4e2ed8216895a9dd373f60d2ca,"Merge ""Fix a typo in file header""",['manifests/healthcheck.pp']
+130,a6d537223bb998a8b0ab0a2f24cf0b2bb0f1f09a,"Merge ""Drop support for standalone api service in CentOS/Ubuntu""","['manifests/api.pp', 'manifests/params.pp', 'releasenotes/notes/drop-standalone-api-1aac18c71fe21409.yaml', 'spec/classes/aodh_api_spec.rb']"
+131,eaa6c1e84726f62685133e105750835e1b7e94a3,"Merge ""Support batch_* parameters of notifier""","['manifests/notifier.pp', 'releasenotes/notes/notifier-batch-tunables-071a8d510dd808e2.yaml', 'spec/classes/aodh_notifier_spec.rb']"
+132,2b382776ad6cd73facb444c1e134b37649c06d8a,Add support for api/gnocchi_external_domain_name,"['manifests/api.pp', 'releasenotes/notes/gnocchi_external_domain_name-b592696cefac2242.yaml', 'spec/classes/aodh_api_spec.rb']"
+133,86aa1e34e9853ff731d45ed92327c1b4df0ae771,Support batch_* parameters of notifier,"['manifests/notifier.pp', 'releasenotes/notes/notifier-batch-tunables-071a8d510dd808e2.yaml', 'spec/classes/aodh_notifier_spec.rb']"
+134,2d037c1b62d5660c3e6b21ba3879761382414395,Fix a typo in file header,['manifests/healthcheck.pp']
+135,e3fa374ac9433a5bdfe7b654f864e0f10a1aaa13,"Merge ""Add support for aodh_api_uwsgi_config in Debian""","['lib/puppet/provider/aodh_api_uwsgi_config/ini_setting.rb', 'lib/puppet/type/aodh_api_uwsgi_config.rb', 'manifests/deps.pp', 'manifests/wsgi/uwsgi.pp', 'releasenotes/notes/uwsgi-5d51604cbc0c8f01.yaml', 'spec/classes/aodh_wsgi_uwsgi_spec.rb', 'spec/unit/provider/aodh_api_uwsgi_config/openstackconfig_spec.rb', 'spec/unit/type/aodh_api_uwsgi_config_spec.rb']"
+136,668490d6433058e2b81c74ba32b0a25e9f533b85,"Merge ""Bump dependency in metadata.json""",['metadata.json']
+137,c43377b32cdcc4bf29900ced51945603ab0adc9b,Add support for aodh_api_uwsgi_config in Debian,"['lib/puppet/provider/aodh_api_uwsgi_config/ini_setting.rb', 'lib/puppet/type/aodh_api_uwsgi_config.rb', 'manifests/deps.pp', 'manifests/wsgi/uwsgi.pp', 'releasenotes/notes/uwsgi-5d51604cbc0c8f01.yaml', 'spec/classes/aodh_wsgi_uwsgi_spec.rb', 'spec/unit/provider/aodh_api_uwsgi_config/openstackconfig_spec.rb', 'spec/unit/type/aodh_api_uwsgi_config_spec.rb']"
+138,8d258193816af9c70436dd5d6455b18a76283c1e,Bump dependency in metadata.json,['metadata.json']
+139,11ea5a0ebdc651cd08f9d10f0a335269ad2c7094,"Merge ""Allow to configure policy_dirs""","['manifests/policy.pp', 'releasenotes/notes/policy-dirs-454f7601815ff712.yaml', 'spec/classes/aodh_policy_spec.rb']"
+140,68f7c86d39cf74b3f9d14cf7d03327bd61f38904,"Merge ""metadata.json: debian 11""",['metadata.json']
+141,4de74dd67f340e3637cd49e881e7aab4f8ef87fb,Allow to configure policy_dirs,"['manifests/policy.pp', 'releasenotes/notes/policy-dirs-454f7601815ff712.yaml', 'spec/classes/aodh_policy_spec.rb']"
+142,0759e482787d0e1444e34df13efc298464c81f94,metadata.json: debian 11,['metadata.json']
+143,53e0c2aabe50dca86afc06404d6e5dfdd571109a,Update master for stable/wallaby,"['releasenotes/source/index.rst', 'releasenotes/source/wallaby.rst']"
+144,53365e8b21793f35ac658c4a103fa24e33e2ab5b,Update sphinx to the latest version,['doc/requirements.txt']
+145,990ea88534eb3abfc5eb197bd820a2a296fe63cc,Prepare Wallaby RC1,['metadata.json']
+146,222752a2d66008d6f294239dbb1e65d92f844509,"Merge ""Add support for oslo_policy/enforce_new_defaults""","['manifests/policy.pp', 'releasenotes/notes/policy-enforce_new_defaults-6a3fea82c077d579.yaml', 'spec/classes/aodh_policy_spec.rb']"
+147,e11edd487cd380a8a257c4d5b14092b8d6eacdb5,Add support for oslo_policy/enforce_new_defaults,"['manifests/policy.pp', 'releasenotes/notes/policy-enforce_new_defaults-6a3fea82c077d579.yaml', 'spec/classes/aodh_policy_spec.rb']"
+148,3da5f18d827930481af85b585a14997f9d6e222b,Update supported Ubuntu version to Focal,['metadata.json']
+149,705447d107f72cd9f112fcc6c78c712e74d934ad,"Merge ""Add support for the oslo_policy/enforce_scope parameter""","['manifests/policy.pp', 'releasenotes/notes/oslo_policy-enforce_scope-12247a467cadafcf.yaml', 'spec/classes/aodh_policy_spec.rb']"
+150,0c422c9ffa18e177fb7093f4c09ea533404d28e1,Add puppetlabs-apache to dependencies,['metadata.json']
+151,92f80ee955b27fb21ed76bf210eaa517220d942d,Add support for the oslo_policy/enforce_scope parameter,"['manifests/policy.pp', 'releasenotes/notes/oslo_policy-enforce_scope-12247a467cadafcf.yaml', 'spec/classes/aodh_policy_spec.rb']"
+152,e9b09752971b515645d4a2c9d0fc9b1ed759b569,"Merge ""Fix the error raised when password is not set""",['manifests/service_credentials.pp']
+153,8b1d40cf8da2294f1c383cb2dc7fd22dd6d4b6f0,Prepare Wallaby M3,['metadata.json']
+154,642fbc07a6857206a963064c9c2cd14030912226,Fix the error raised when password is not set,['manifests/service_credentials.pp']
+155,a46d70dd6f55717ae1770f507644fead56d7019d,"Merge ""Add support for healthcheck middleware options""","['manifests/healthcheck.pp', 'releasenotes/notes/healthcheck-2b9652430eb03a64.yaml', 'spec/classes/aodh_healthcheck_spec.rb']"
+156,6b7ebd575ea2efc8bc6ea32c198e9d9aa9befb84,Add support for healthcheck middleware options,"['manifests/healthcheck.pp', 'releasenotes/notes/healthcheck-2b9652430eb03a64.yaml', 'spec/classes/aodh_healthcheck_spec.rb']"
+157,e05af2b3f1dbb5ba74e5428ef3e74e4bfc096531,Use consistent names for service_credentials options,"['examples/aodh.pp', 'manifests/auth.pp', 'manifests/service_credentials.pp', 'releasenotes/notes/service_credentials-2b3dd8ca51083a1d.yaml', 'spec/classes/aodh_service_credentials_spec.rb']"
+158,77691c4c311c1e39418ba22de9b56f6bd43cf9fd,Remove the deprecated parameters of aodh::auth,"['manifests/auth.pp', 'releasenotes/notes/auth-cleanup-cbb03ab92a7275b5.yaml', 'spec/classes/aodh_auth_spec.rb']"
+159,94555d4872d7033b6d5ca497f02c44237ea36d86,"Merge ""Ensure coordination_url is unset by default""","['manifests/evaluator.pp', 'releasenotes/notes/coordination_url-default-848a85543fd36e20.yaml', 'spec/classes/aodh_evaluator_spec.rb']"
+160,c47a4089f2a3ce8a88f85939bfdb16994643d779,"Merge ""Add support for workers option""","['manifests/evaluator.pp', 'manifests/listener.pp', 'manifests/notifier.pp', 'releasenotes/notes/workers-054d3bafa34171d9.yaml', 'spec/classes/aodh_evaluator_spec.rb', 'spec/classes/aodh_listener_spec.rb', 'spec/classes/aodh_notifier_spec.rb']"
+161,3a9e594ad7ff2fd85675a72ddc6f96b4ca45a90a,Prepare Wallaby M2,['metadata.json']
+162,bc846d7f150926da2b0e469a978ea6c5c00e9c67,Ensure coordination_url is unset by default,"['manifests/evaluator.pp', 'releasenotes/notes/coordination_url-default-848a85543fd36e20.yaml', 'spec/classes/aodh_evaluator_spec.rb']"
+163,ae9b91107dffa80c3674a80f6c3a28ffa403d5bb,Add support for workers option,"['manifests/evaluator.pp', 'manifests/listener.pp', 'manifests/notifier.pp', 'releasenotes/notes/workers-054d3bafa34171d9.yaml', 'spec/classes/aodh_evaluator_spec.rb', 'spec/classes/aodh_listener_spec.rb', 'spec/classes/aodh_notifier_spec.rb']"
+164,4861f818243bec06c8cd228c729b8d0985890b46,Use yaml instead of json for policy file,"['manifests/policy.pp', 'releasenotes/notes/migrate-policy-format-from-json-to-yaml-0bc42cad2b0e1d78.yaml', 'spec/classes/aodh_policy_spec.rb']"
+165,99eb1885129b06183beefa48f7ebdd70ee33ff72,Prepare Wallaby M1,['metadata.json']
+166,75ff328e89c2e975f8eea12f6ed8d4e9a07f45a4,Allow db sync timeouts to be configurable,"['manifests/db/sync.pp', 'releasenotes/notes/add_db_sync_timeout-8af152d9dc2ec983.yaml', 'spec/classes/aodh_db_sync_spec.rb']"
+167,5cfdef76a056b510a82fad7a98d2048fbb32f8be,Replace deprecated UPPER_CONSTRAINTS_FILE variable,['tox.ini']
+168,30c554c2326b260b1cc84b287dd3b1641e9ead24,Deprecate allow_insecure_clients option,"['manifests/init.pp', 'releasenotes/notes/deprecate_allow_insecure_clients-option-a69aeec0e1c5d39c.yaml', 'spec/classes/aodh_init_spec.rb']"
+169,7ce34f01b62ad546f415bda19b4778a467ea8924,Drop support for standalone api service in CentOS/Ubuntu,"['manifests/api.pp', 'manifests/params.pp', 'releasenotes/notes/drop-standalone-api-1aac18c71fe21409.yaml', 'spec/classes/aodh_api_spec.rb']"
+170,dac639ca898e6322ab6ec5c36d8e51ffecd8f5d7,Fix outdated files,['metadata.json']
+171,f9b9656b1744e0554770d94ac70cbbe7435639e1,Deprecate database options from the aodh class,"['manifests/init.pp', 'releasenotes/notes/deprecate_database_options-308ca7c9b09e02cc.yaml']"
+172,f40c746c90f96af6d91f58235086efc9c29c5c86,Bump version for the start of Wallaby,['metadata.json']
+173,49fc8b39cef0f869208737c36a879f7ed6067209,"Merge ""Use a 'params' hash for authtoken parameters""","['manifests/keystone/authtoken.pp', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+174,2d21489f55382ba30fcd64939815caec9c67b0c9,"Merge ""Add support for the keystone_authtoken/service_type parameter""","['manifests/keystone/authtoken.pp', 'releasenotes/notes/keystone-authtoken-service_type-215cca463950f7a6.yaml', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+175,d919628ed12ed887895ff06d912734e7b9aa21b3,Use a 'params' hash for authtoken parameters,"['manifests/keystone/authtoken.pp', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+176,8d0b2fb6375e393a67e02eb0c1e5358e1f508176,Add support for the keystone_authtoken/service_type parameter,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/keystone-authtoken-service_type-215cca463950f7a6.yaml', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+177,b3b03d61904f57440637dd6bdc97d1f9437a4747,Include deps class in unit test for postgresql,['spec/classes/aodh_db_postgresql_spec.rb']
+178,aba568ab60ec0e09a2887e0e56bd757e6661d05e,"Merge ""Update master for stable/victoria""","['releasenotes/source/index.rst', 'releasenotes/source/victoria.rst']"
+179,aa154e63ccf8029aa931bbe07741740d43da8770,Include deps class in unit test for mysql,['spec/classes/aodh_db_mysql_spec.rb']
+180,78e9c49e3f95b5bb44907f1ee13ffb81c9932f22,Update master for stable/victoria,"['releasenotes/source/index.rst', 'releasenotes/source/victoria.rst']"
+181,abd842fb9eeb780fb523e567b03a5690243c5db6,Prepare new minor release for victoria ga,['metadata.json']
+182,a2550e7f37758665f6cae96c3897055a7756c198,"Merge ""Fix inconsistent parameter name in aodh::params""","['manifests/params.pp', 'manifests/wsgi/apache.pp']"
+183,e76b0b97e9765cbab3f269b2eeb5069db5b980c3,"Merge ""Manage aodh-expirer package by aodh::expirer class""","['manifests/expirer.pp', 'releasenotes/notes/expirer-package-a318c98f11722956.yaml', 'spec/classes/aodh_expirer_spec.rb']"
+184,3357fe37ecb2b0990626ed1194bb3031bfafdee8,Prepare Victoria GA,['metadata.json']
+185,0f634273b63d3d0d21ce6c2e08620fafc6ce2dbc,Fix inconsistent parameter name in aodh::params,"['manifests/params.pp', 'manifests/wsgi/apache.pp']"
+186,007d3a82f6bd72361066ea731a94a67c1b4d5f2b,Manage aodh-expirer package by aodh::expirer class,"['manifests/expirer.pp', 'releasenotes/notes/expirer-package-a318c98f11722956.yaml', 'spec/classes/aodh_expirer_spec.rb']"
+187,4620cd4dd10cda24c79a715bf0cd7eac48e6377c,"Merge ""Fix rspec-puppet 2.7.1 support""","['manifests/api.pp', 'manifests/db.pp', 'manifests/evaluator.pp', 'manifests/listener.pp', 'manifests/notifier.pp', 'spec/classes/aodh_api_spec.rb', 'spec/classes/aodh_evaluator_spec.rb', 'spec/classes/aodh_listener_spec.rb', 'spec/classes/aodh_notifier_spec.rb']"
+188,3f02d3f43cc483ceb7c4be96a513892a7a4ce2cf,"Merge ""Remove redundant usage of undef""","['manifests/wsgi/apache.pp', 'releasenotes/notes/wsgi-script-use-param-a9408ab5d05478e3.yaml']"
+189,fa753eafe840ad1582e48442a975629e8694a058,Remove redundant usage of undef,"['manifests/wsgi/apache.pp', 'releasenotes/notes/wsgi-script-use-param-a9408ab5d05478e3.yaml']"
+190,f2b581e6a78c24737b87e1c2021ecb3584efba41,Fix rspec-puppet 2.7.1 support,"['manifests/api.pp', 'manifests/db.pp', 'manifests/evaluator.pp', 'manifests/listener.pp', 'manifests/notifier.pp', 'spec/classes/aodh_api_spec.rb', 'spec/classes/aodh_evaluator_spec.rb', 'spec/classes/aodh_listener_spec.rb', 'spec/classes/aodh_notifier_spec.rb']"
+191,f0b0059a34a7e2f2ec72d94ec37b20a50d33c976,Prepare Victoria RC1,['metadata.json']
+192,19ab94dd7e69eda6c5cf28d4db4f0a921afca95b,Set openstackdocs_auto_name to use 'project' as name,['releasenotes/source/conf.py']
+193,341a6a955db74f239d020d4a19f3ab28471a89cb,"Merge ""Add Puppet Litmus""","['.zuul.yaml', 'README.md', 'spec/acceptance/nodesets/centos-70-x64.yml', 'spec/acceptance/nodesets/default.yml', 'spec/acceptance/nodesets/nodepool-bionic.yml', 'spec/acceptance/nodesets/nodepool-centos7.yml', 'spec/acceptance/nodesets/nodepool-centos8.yml', 'spec/acceptance/nodesets/nodepool-trusty.yml', 'spec/acceptance/nodesets/nodepool-xenial.yml', 'spec/acceptance/nodesets/ubuntu-server-1404-x64.yml', 'spec/spec_helper_acceptance.rb']"
+194,aa0a11dd7a13a4d5f006618662c33f7c58fefc00,Prepare Victoria M3,['metadata.json']
+195,4e4d683373b842740edc4321a81bf3449e4b0991,Add Puppet Litmus,"['.zuul.yaml', 'README.md', 'spec/acceptance/nodesets/centos-70-x64.yml', 'spec/acceptance/nodesets/default.yml', 'spec/acceptance/nodesets/nodepool-bionic.yml', 'spec/acceptance/nodesets/nodepool-centos7.yml', 'spec/acceptance/nodesets/nodepool-centos8.yml', 'spec/acceptance/nodesets/nodepool-trusty.yml', 'spec/acceptance/nodesets/nodepool-xenial.yml', 'spec/acceptance/nodesets/ubuntu-server-1404-x64.yml', 'spec/spec_helper_acceptance.rb']"
+196,61df5de0b8796b6f622bbf20eab631834f095bdf,Add mysql_enable_ndb option,"['manifests/db.pp', 'releasenotes/notes/add_mysql_enable_ndb-option-8738cb368caaf7cd.yaml', 'spec/classes/aodh_db_spec.rb']"
+197,89da4b14fa7512a9cc0afd9748c5b1c539834091,Add support for aodh-expirer cron job,"['manifests/expirer.pp', 'manifests/params.pp', 'releasenotes/notes/expirer-a53e68fe61ff3f17.yaml', 'spec/classes/aodh_expirer_spec.rb']"
+198,1a25a60c01cdf49a53e75fbfcb66f0950db8f997,"Merge ""Use common class to manage apache service in beaker job""",['spec/acceptance/aodh_wsgi_apache_spec.rb']
+199,631b4f4d4f3e12698c5a4e1ff5a3f1ec186b5b2a,Use common class to manage apache service in beaker job,['spec/acceptance/aodh_wsgi_apache_spec.rb']
+200,b592c1d0dda9f51dc8b553370b1c8181c21b8300,"Merge ""Expose vhost_custom_fragment""","['manifests/wsgi/apache.pp', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+201,40c6462da5afb8a39590ad9d5d19a9abd2c81cc0,Expose vhost_custom_fragment,"['manifests/wsgi/apache.pp', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+202,895c8b4037fe6cc498374886d7e182560d89957d,Add support for quota parameters,"['manifests/quota.pp', 'releasenotes/notes/quota-2c8473e178a2f566.yaml', 'spec/classes/aodh_quota_spec.rb']"
+203,e7c0c5042f82d85bc333b27c1c7b597b5832a245,Prepare Victoria M2,['metadata.json']
+204,be2342c637194f88772d0ee055e651319347c3cf,Fix beaker-rspec url,['README.md']
+205,33d690c7eb0cadf2d8782cb67bb2979e223a3f89,Add support for the interface parameter in authtoken middleware,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/keystone-authtoken-interface-33ee768d856a0110.yaml', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+206,5329372ad3b71d94383ae3c95b022408566b71eb,Prepare Victoria M1,['metadata.json']
+207,3a29769588a8bceab1386499fa289a0b53ee5d84,Switch to newer openstackdocstheme and reno versions,"['doc/requirements.txt', 'releasenotes/source/conf.py']"
+208,eeddae50c915f069f470803c1cc920134e55824a,Update Puppet requirement to >= 6.0.0,['metadata.json']
+209,ce96c7e3a91e655102c2b85344ea7932bdf909df,Remove unnecessary puppet-rabbitmq from dependencies,['metadata.json']
+210,05f746977c98032adbc16d2af84a260f8128ca67,"Merge ""Remove password hash generation in each puppet modules""","['manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'metadata.json', 'spec/classes/aodh_db_mysql_spec.rb', 'spec/classes/aodh_db_postgresql_spec.rb']"
+211,b046aa43ea778cdf912ea674198a0b16c69efaa9,Remove password hash generation in each puppet modules,"['manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'metadata.json', 'spec/classes/aodh_db_mysql_spec.rb', 'spec/classes/aodh_db_postgresql_spec.rb']"
+212,56170425f3ac1bf4a2ed9806d9b2fe81df57fa28,Bump version for the start of Victoria,['metadata.json']
+213,3e93ec2afa2f900c64085620a43e4069deb2adeb,"Merge ""[ussuri][goal] Add CONTRIBUTING.rst""",['CONTRIBUTING.rst']
+214,22a8a7e2b6747fd955e184a7960584d2adaedb5c,Bump reno to 2.5.0,['doc/requirements.txt']
+215,17ba13eb9497d097cd9ef6760b65a64fb4ae48e4,"Merge ""Add CentOS8 to nodesets""",['spec/acceptance/nodesets/nodepool-centos8.yml']
+216,7e5603773e7bb113d44dd0ddd9ad75c71fc1404a,Add CentOS8 to nodesets,['spec/acceptance/nodesets/nodepool-centos8.yml']
+217,bee17f0f4d9bf296439e8a3206f941fd50c09833,[ussuri][goal] Add CONTRIBUTING.rst,['CONTRIBUTING.rst']
+218,3442aa5842868a2a2313722fb73bf7ac55c84869,Fix incorrect default value in parameter description,['manifests/auth.pp']
+219,aa25a98382a10c1052a9d73ab807446dbc640e2a,"Merge ""Use anchor to require necessary packages""","['lib/puppet/type/aodh_api_paste_ini.rb', 'lib/puppet/type/aodh_config.rb', 'spec/unit/type/aodh_api_paste_ini_spec.rb', 'spec/unit/type/aodh_config_spec.rb']"
+220,6431321eee91096e58490c611f1f431b15aa3ca9,Use anchor to require necessary packages,"['lib/puppet/type/aodh_api_paste_ini.rb', 'lib/puppet/type/aodh_config.rb', 'spec/unit/type/aodh_api_paste_ini_spec.rb', 'spec/unit/type/aodh_config_spec.rb']"
+221,dffad775ac428e0176726c32f2d954d76499b27a,Runs on Debian 10.,['metadata.json']
+222,f34c57e5b142178afb4e986a84823980b37e9fcb,Bump openstackdocstheme to 1.30.0,['doc/requirements.txt']
+223,6538ccec9836163b552c4e33063041cd72da0a28,Fix rabbitmq version in metadata,['metadata.json']
+224,43b8589a4480ac603aa32852a921a3d65d75ef05,Change rpsec to rspec,['README.md']
+225,da1d7ff2c0088af11be30b71f1a4679bedd6e3ca,Update master for stable/ussuri,"['releasenotes/source/index.rst', 'releasenotes/source/ussuri.rst']"
+226,61ba1ff44a9fba60dc05547c985926f556fe2214,Prepare Ussuri RC1,['metadata.json']
+227,b756b9b4c8dea3d75b5ec5d4bec8c653dd047e94,Rename tenant to project,"['manifests/auth.pp', 'releasenotes/notes/remove-tenant-d5fa563f15db0ba9.yaml', 'spec/classes/aodh_auth_spec.rb']"
+228,ae4390b9edc6548fb8d2d6521f936f7f985c869d,Use domain_name instead of domain_id,"['manifests/auth.pp', 'releasenotes/notes/auth-domain_name-ad3d0cc86f0efccf.yaml', 'spec/classes/aodh_auth_spec.rb']"
+229,f07abdbffcf877e433ee4a02906fb35846d01d99,Fix broken unit tests because of list in notification drivers,['spec/classes/aodh_init_spec.rb']
+230,013426b97e9cc848241fe15539bb19b0375ea155,Prepare Ussuri M3 again,['metadata.json']
+231,82afea3d5442fa7134c9f06343c35b5e4d4965bc,Resolve duplicated requirement names in metadata,['metadata.json']
+232,9f3905fe8c2cfebb950f490b0b5b4ef7907fae6a,Prepare Ussuri M3,['metadata.json']
+233,dfaf0bb7bf54f30d1d01887b4326cb382de33c10,"Merge ""Make sure to distinguish Fedora and RHEL/CentOS""",['spec/classes/aodh_client_spec.rb']
+234,f1395a9c028d2fd0c16e50c5c80f5ceb7ed567c8,"Merge ""Expect python3-redis in CentOS8 and Fedora""",['spec/classes/aodh_evaluator_spec.rb']
+235,d0c2da685fed36f946ebfc084288d3ab6aa0c867,Make sure to distinguish Fedora and RHEL/CentOS,['spec/classes/aodh_client_spec.rb']
+236,ba65e562b91419bc3f0f40932548c4071d5d68e8,Expect python3-redis in CentOS8 and Fedora,['spec/classes/aodh_evaluator_spec.rb']
+237,2b141bbccf293b6d4be5165a5bd7469ca9a750b5,"Merge ""Add CentOS 8 and Puppet 6 in metadata""",['metadata.json']
+238,c67aeb4b972c58f46cc70d5cf30e5bae98edbff2,"Merge ""Update mysql module to <11.0.0""",['metadata.json']
+239,5a6de5b16226c39eaac4c9307b43fab56c358a06,"Merge ""Expect python3 client package in CentOS8""",['spec/classes/aodh_client_spec.rb']
+240,c8d9f3d5080cd784cefe100a657570cc8e799836,Expect python3 client package in CentOS8,['spec/classes/aodh_client_spec.rb']
+241,142a12ae622fc737c88e2b0a9408042fe8a80af6,Update mysql module to <11.0.0,['metadata.json']
+242,8c842f9bfbab9d21dc5dc708e8effcbd23888980,Add CentOS 8 and Puppet 6 in metadata,['metadata.json']
+243,428cb0a266d385d6328b4bdead7251f1e27c43de,"Merge ""Allow wsgi script to be configurable""","['manifests/wsgi/apache.pp', 'releasenotes/notes/add-wsgi-script-args-24942cd8c143ed08.yaml', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+244,ea60281eeea5c1d9a4dca907fe23e7880eff29f2,Deprecate min_pool_size option,"['manifests/db.pp', 'manifests/init.pp', 'releasenotes/notes/deprecate_database_min_pool_size-option-a91aad0abfd945f1.yaml', 'spec/classes/aodh_db_spec.rb']"
+245,1c7c146c917c5dbf51db378f8392cc328fe4632b,Allow wsgi script to be configurable,"['manifests/wsgi/apache.pp', 'releasenotes/notes/add-wsgi-script-args-24942cd8c143ed08.yaml', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+246,030de21192b2c6251233cb445023c8d52788da09,Remove idle_timeout option,"['manifests/db.pp', 'releasenotes/notes/remove_idle_timeout_option-bdf5664f03566db2.yaml']"
+247,dabda383210178653a5189df368423f2c0b918a8,[ussuri][goal] Cleanup for python 2.7 drop,"['doc/requirements.txt', 'tox.ini']"
+248,f3d4ec70760c5819afe763a377b1cc386e2313a5,Prepare Ussuri M2,['metadata.json']
+249,295c4dd6ccbce63553c70be17aff9c310ef57e49,Fix stdlib version in metadata,['metadata.json']
+250,e2690fdbe1e57f97e696820b32a08b1934dab853,Prepare Ussuri M1,['metadata.json']
+251,d75de30b721e6e12fbf4a44a187a75f0d247e7a3,Convert all class usage to relative names,"['examples/aodh.pp', 'manifests/api.pp', 'manifests/auth.pp', 'manifests/client.pp', 'manifests/config.pp', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'manifests/db/sync.pp', 'manifests/evaluator.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/keystone/authtoken.pp', 'manifests/listener.pp', 'manifests/logging.pp', 'manifests/notifier.pp', 'manifests/params.pp', 'manifests/policy.pp', 'manifests/wsgi/apache.pp', 'spec/acceptance/aodh_wsgi_apache_spec.rb', 'spec/classes/aodh_api_spec.rb']"
+252,663a81983107ea571e785691943ed742f7b0c686,Add executor_thread_pool_size,"['manifests/init.pp', 'releasenotes/notes/add_executor_thread_pool_size-f39600c510541493.yaml', 'spec/classes/aodh_init_spec.rb']"
+253,a8fec741ead2f86e0220e2e79fb58a9ea11a37c6,Fix rabbitmq dependency,['metadata.json']
+254,e9d64996ee47b80759bd2f5c059c89a9d3fcd816,Update master for stable/train,"['releasenotes/source/index.rst', 'releasenotes/source/train.rst']"
+255,14259c184e91e706c26e41d8d48972ebbacff349,"Merge ""Update the constraints url""",['tox.ini']
+256,9d3b3f45e5b2c44f45709a5e3412013a28c25057,Update the constraints url,['tox.ini']
+257,62ffa024bcf97722fa3ccca53e8efa85835dfffe,Prepare Train RC1,['metadata.json']
+258,f9491ff8dfdf55ea8051e39bd9203c1d1ae352aa,Add support to configure service_token_roles in authtoken middleware,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/service_token_roles-e4dd15a598da6c9b.yaml', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+259,2b0cfc8fa4f3bc08c7f190c7e922e9ab79ca836b,Prepare Train M4,['metadata.json']
+260,0ceced22ed5ecda6e7e6b25a2d10cbf3a88a79c0,"Merge ""Introduce the new rabbit_heartbeat_in_pthread option""","['manifests/init.pp', 'releasenotes/notes/rabbitmq-heartbeat-over-pthread-8067e160b9d667bf.yaml', 'spec/classes/aodh_init_spec.rb']"
+261,721cea2513bf7ff2451a43da91a45419458fff57,Introduce the new rabbit_heartbeat_in_pthread option,"['manifests/init.pp', 'releasenotes/notes/rabbitmq-heartbeat-over-pthread-8067e160b9d667bf.yaml', 'spec/classes/aodh_init_spec.rb']"
+262,06da1da22f049cd00c8d10270e821b33eeadf1ce,Remove deprecated parameters,"['manifests/api.pp', 'manifests/auth.pp', 'manifests/init.pp', 'manifests/params.pp', 'releasenotes/notes/remove-deprecated-f7d4f916bd4c6298.yaml', 'spec/classes/aodh_api_spec.rb']"
+263,0e707d06dd5291c2fecb40d69c8c7e2a80bfa62a,Remove deprecated pki related options,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/remove_deprecated_pki_related_options-a5cc74b527537705.yaml']"
+264,dc67148434bd48e58196699ecb7c51d9b312ad20,Bump the openstackdocstheme extension to 1.20,"['doc/requirements.txt', 'releasenotes/source/conf.py']"
+265,37e640aa58e6da16acb965a6fc6b3ef8afe57dbd,Sync Sphinx requirement,['doc/requirements.txt']
+266,d44bc0b8657390a6b3057d5c539de23056e301be,Prepare Train M3,['metadata.json']
+267,31b4547b05ae38846a9874115d3e803944512c6c,Manage oslo_middleware/max_request_body_size,"['manifests/api.pp', 'releasenotes/notes/max_request_body_size-a9e6d2796a735b27.yaml', 'spec/classes/aodh_api_spec.rb']"
+268,257be71d59f5487bb7208d19e5cded0c44357e6e,Prepare Train M2,['metadata.json']
+269,d19b1209dc7d9cb28fc6e9302a0f9755e89488ce,Add openstackclient installation to the client class,"['manifests/client.pp', 'releasenotes/notes/add-openstackclient-client-9a93fa6590a23eb9.yaml', 'spec/classes/aodh_client_spec.rb']"
+270,9b10d779b14daecd8772de338e31d4b6bb3c715e,Deprecate idle_timeout option,"['manifests/db.pp', 'releasenotes/notes/deprecate_idle_timeout_parameter-9d919d33762fb5db.yaml', 'spec/classes/aodh_db_spec.rb']"
+271,32c07aaf0630f19d818805ba32f8ec025ce88714,"Merge ""Provide more useful fail message""",['manifests/params.pp']
+272,78d5b8869948d58bc53a392a590242b2abeda084,Move to opendev,"['Gemfile', 'tox.ini']"
+273,0e689c27b37f410d66f16cb8f3e00de154ecf77d,Fix Repository,['README.md']
+274,43d7e4a0c478257fe436a93c8c8cc035fde9bad7,Replace git.openstack.org with opendev.org/openstack,['README.md']
+275,b80cb3618ad2ee06d0f042c3aed19a9d178c94e0,OpenDev Migration Patch,['.gitreview']
+276,bc8f568fdbe1911e606312897456503ff0aef98b,Add Beaker-Rspec to the table of contents,['README.md']
+277,262dad5eccecc026e8945b9e707d55bd64ef4ae9,Bump version for the start of Train,['metadata.json']
+278,80937dcebbc8d03adfd4f825b418068cbccacedd,Update master for stable/stein,"['releasenotes/source/index.rst', 'releasenotes/source/stein.rst']"
+279,4119ed1fd8518f18544db09e55ce382820ad31fe,Prepare Stein RC1,['metadata.json']
+280,6390054934698203212a5d4a4388f8aa523ab0bf,Add log_file parameter,"['manifests/logging.pp', 'releasenotes/notes/add-log_file-for-logging-9f5ac25cdd1d59cb.yaml', 'spec/classes/aodh_logging_spec.rb']"
+281,212f6831b149229428f8a1ccb560889184477682,Fix typo,['metadata.json']
+282,b40e419cdd578ded43d979ae5e756850749da9d4,Prepare Stein M3,['metadata.json']
+283,6710f4f1efea63188e88a609c0b4c13a8d6761e5,"Merge ""Add release note about Ubuntu py3 upgrade""",['releasenotes/notes/release-note-ubuntu-py3-f90334f338d0bcfb.yaml']
+284,b290eef735fb482af7684714e80d2184f946219d,"Merge ""Use validate_legacy""","['manifests/config.pp', 'manifests/db/mysql.pp', 'manifests/policy.pp']"
+285,984db8723389049fa8eb6dba3c752375493c6e14,Add release note about Ubuntu py3 upgrade,['releasenotes/notes/release-note-ubuntu-py3-f90334f338d0bcfb.yaml']
+286,d3b2dd80abc0a3a0dc9ae9ed9c417a11b38183b7,Service_token_roles_required missing in the server config file,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/service_token_roles_required-b205ae3274e65db4.yaml', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+287,b4dfcbacafabaf0519df19e41e26d54efb7b93a5,"Merge ""Use puppet 4 compatible mysql functions""","['manifests/db/mysql.pp', 'metadata.json', 'releasenotes/notes/puppet4-mysql-func-ed248d671e0622c7.yaml']"
+288,3690af9758412400c361e474c4fe84657fc7e7c7,Use validate_legacy,"['manifests/config.pp', 'manifests/db/mysql.pp', 'manifests/policy.pp']"
+289,3049eb7a239c1758a4e2f2aad98309f2b5ffe5d4,Remove Ubuntu Xenial from metadata.json,['metadata.json']
+290,58d359cd76c94eb0f09b78fe69163572f0db8dbc,Use puppet 4 compatible mysql functions,"['manifests/db/mysql.pp', 'metadata.json', 'releasenotes/notes/puppet4-mysql-func-ed248d671e0622c7.yaml']"
+291,9849c4803ce28557a72bfbfa8c1f294581131323,Fix lint issue,['spec/classes/aodh_logging_spec.rb']
+292,758c0dd90edc1519dc6840eb8a5253f95216411b,Remove redundantly tested code,['spec/classes/aodh_db_spec.rb']
+293,e2cad3594b018860938de92a13b8126ca0647d74,"Merge ""Inherit pyvers from openstacklib::defaults""","['manifests/params.pp', 'spec/classes/aodh_client_spec.rb', 'spec/classes/aodh_evaluator_spec.rb']"
+294,abbef3e120352c0816bf4f640594e2aaa98ea2ba,Inherit pyvers from openstacklib::defaults,"['manifests/params.pp', 'spec/classes/aodh_client_spec.rb', 'spec/classes/aodh_evaluator_spec.rb']"
+295,d4951e278687476264986955f64a98265100f5b7,Modify puppet version 4 to 5,['metadata.json']
+296,a5c004142126340acaed23933c24b1a9397eb97c,Prepare Stein M2,['metadata.json']
+297,3b3e6d632c6bd5110e5b4e3d15b41cbceb070c1d,Add rabbitmq dependency,['metadata.json']
+298,4a9aea6e20ca3eed0c19dfd5423a8c2964399ce5,Fix editorial problem,['README.md']
+299,ae7c3d32ae5f909b8e29f38db575db99e7b3a0d8,"Merge ""keystone/auth: make service description configurable""","['manifests/keystone/auth.pp', 'releasenotes/notes/add-service_description-option-871a45f330d34314.yaml']"
+300,1dcb9be147d41edd8a8db92f715fbf6ce0d59ea4,keystone/auth: make service description configurable,"['manifests/keystone/auth.pp', 'releasenotes/notes/add-service_description-option-871a45f330d34314.yaml']"
+301,030900dc192c819d821a31d8051a62d0afc0ae0d,Fix service_type annotation,['manifests/keystone/auth.pp']
+302,4beecfae1a0e7cc899d65660e9a22942336a7462,Provide more useful fail message,['manifests/params.pp']
+303,af6f3d983958d38c76927f62cf2ac383dbda0c7a,"Merge ""Cleanup documentation""","['manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'manifests/db/sync.pp', 'manifests/keystone/auth.pp', 'manifests/logging.pp', 'manifests/policy.pp']"
+304,4767ab4756d78cc99e0185bec9912dc90ef82ab4,"Merge ""Fix lint""",['manifests/params.pp']
+305,6ae2ec65fa03d22695b5ce178f602e0c178e5ac7,Cleanup documentation,"['manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'manifests/db/sync.pp', 'manifests/keystone/auth.pp', 'manifests/logging.pp', 'manifests/policy.pp']"
+306,257ff071de9253be2847287fe04debafbe233032,"Merge ""Fix module structure""",['tests/init.pp']
+307,c4c6d63f191b509f274231097969a5b565672105,Fix module structure,['tests/init.pp']
+308,b463db74d07432a73111c810bd1402ab1c9d8717,Fix lint,['manifests/params.pp']
+309,98e005a56f0825aa6d14402212de48fa2552262b,Install python3-redis for Fedora,['manifests/params.pp']
+310,5f94064d6d0f62cd6041dbbe19c536ccb9d7658a,"Merge ""Remove deprecated logging""","['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/remove-deprecated-logging-5e452cba26c6f67a.yaml', 'spec/classes/aodh_init_spec.rb']"
+311,b5409cec008e2824befbcff179f67e7bdec0f5dc,"Merge ""Remove auth_uri""","['manifests/keystone/authtoken.pp', 'releasenotes/notes/remove-auth-uri-dc2890640c45a5b8.yaml']"
+312,fcfb7d3a08e8bb6bfd81bf4a172ceba72e0eddd8,Change openstack-dev to openstack-discuss,['setup.cfg']
+313,d8f602d631010e68d00b82722d9f27c654e23acf,Remove deprecated logging,"['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/remove-deprecated-logging-5e452cba26c6f67a.yaml', 'spec/classes/aodh_init_spec.rb']"
+314,cdd47615e4ed917299c6e54d3bf5410eadf78b11,Remove auth_uri,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/remove-auth-uri-dc2890640c45a5b8.yaml']"
+315,768fa0661cd7ff350bbf3ad107640fccffe5a70d,Deprecate pki related options,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate_pki_related_parameters-8096fa1bd56f2c10.yaml', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+316,a0960c4c46dd8768ff63d63f39064fce9d6a0357,Prepare Stein M1,['metadata.json']
+317,10fcaa18322ca2360c67165d27be247934961665,Fix stdlib version in metadata,['metadata.json']
+318,5e3c133e2350b8175c58be0f99705274174a21e7,Install python3-aodh in Fedora or RedHat > 7,['manifests/params.pp']
+319,af4aef4670d2f8a01a5e1676932627c749c75c1a,Update min tox version to 2.0,['tox.ini']
+320,40a31eeabe70e6de50e1803bbbaa7bd5398bbbe5,Dissuade .gitignore references to personal tools,['.gitignore']
+321,bd265b054b97c05d677bbc178a3842a5a5bb61d4,Fix undef typo,['manifests/init.pp']
+322,7859ee840b364bcfb97eb8ecfefd6c60f1a72ac3,"Merge ""Add the missing 'Table of Contents'""",['README.md']
+323,23a52eca5ad2511ece247103878b3703e006ae57,"Merge ""Bump version for the start of Stein""",['metadata.json']
+324,c804440776f8cc46ac8020b55b8b8b6e4a560c91,switch documentation job to new PTI,['.zuul.yaml']
+325,1388addcb5f44817f5d323b824b4fbf6e19487ca,import zuul job settings from project-config,['.zuul.yaml']
+326,824ed4733f60ff6cb16c20171912e8972982452c,Bump version for the start of Stein,['metadata.json']
+327,6348e9451eebfe29936de8bf2c3947bce481f709,Add the missing 'Table of Contents',['README.md']
+328,9a807e4d2dd7534dcc4eaddebb2945ff3769d95a,Update reno for stable/rocky,"['releasenotes/source/index.rst', 'releasenotes/source/rocky.rst']"
+329,659c9b792fc71872bf21f0c28efd817402c8b76a,Remove PE requirement from metadata.json,['metadata.json']
+330,3a57c15d37db34c67e37c5ce0ba372289ee2a0f6,"Merge ""Prepare Rocky RC1""",['metadata.json']
+331,d39731d66dd91881e8b2c11887c1b1024da09eb7,Prepare Rocky RC1,['metadata.json']
+332,1ea9ed2e82626042512fc7c52044e9ff7d6f983e,Improve restarting Apache,['manifests/api.pp']
+333,82b983437baa5c383a20c44f00f9a5382b747418,Fix the smoke testing link,['tests/init.pp']
+334,8763ce180d23c0116fd9cf37551789c1241760a9,Delete duplicate 'Repository' in README,['README.md']
+335,724df816d8d46617e33d72798d94ca93bc63ee7c,"Merge ""Add the project source code repository in README""",['README.md']
+336,8a25ecb2b1a6c772192e8871ce10b4611061f5b8,Add the project source code repository in README,['README.md']
+337,677ffe1fcef9a0267f25fd167ce40697af7da780,Add the project source code repository in README,['README.md']
+338,c4aa4c54d0cf2c37bb71942ee9d67fcca01868c1,"Merge ""Prepare Rocky M3""",['metadata.json']
+339,4a24e34bb285d367da52cca3e4d58f282637b645,Prepare Rocky M3,['metadata.json']
+340,5b2bda8ec703579ccdfaaf99e89ccc26cc7d02c6,Fix OS versions in metadata,['metadata.json']
+341,fb8128d0db32186f7cc53ff5cb5a5eb575001c08,Added missing slave_connection param,"['manifests/db.pp', 'spec/classes/aodh_db_spec.rb']"
+342,76c94fc15457ebb44c2e99303d484adbdc4a8031,modulesync: sync and add nodepool-bionic for beaker,['spec/acceptance/nodesets/nodepool-bionic.yml']
+343,6abe96a4df16d742438cb601ded0cd924d2ef617,fix parameter indentations,['manifests/init.pp']
+344,eae2166a61be3853f5a8c19ce3b01c61543735de,"Merge ""Fix bug introduced by notify apache for aodh-api""",['manifests/api.pp']
+345,fc72a17204358d3d077b69f821e3d373a4a1e6a9,Fix inifile version in metadata,['metadata.json']
+346,33df930eab714e2dc9f62247ba2c5b226dc8fece,Fix bug introduced by notify apache for aodh-api,['manifests/api.pp']
+347,9f752eac3eb9fd826af8115b8610a8ae48e3431a,"Merge ""Changed an auth_url version to v3 in the in-file documentation""",['manifests/auth.pp']
+348,25ee1863a7b0dbf8018f210ae6b81013b878a301,"Merge ""Notify not only aodh-api service but also apache""","['manifests/api.pp', 'releasenotes/notes/restart-apache-4c85888a2bafbaa8.yaml']"
+349,0a08281fa00b1bd8b9d11cc691bc2d14ee8b8f1c,"Merge ""Deprecate aodh::gnocchi_url as it has no effect""","['manifests/init.pp', 'releasenotes/notes/deprecate-gnocchi_url-parameter-415f98e9712ed768.yaml', 'spec/classes/aodh_init_spec.rb']"
+350,fccf5331e0877c6ecd18e6688023696e35d48647,"Merge ""Fix explicit endpoint configuration""","['manifests/auth.pp', 'releasenotes/notes/deprecate-auth_endpoint_type-parameter-405533a1bbb2fa2a.yaml', 'spec/classes/aodh_auth_spec.rb']"
+351,668cc00c50dd76d381937820ee6505cc322d10bf,Changed an auth_url version to v3 in the in-file documentation,['manifests/auth.pp']
+352,a4f6673a021c2882d4af8b71a20cfa4d2552f57a,Fix explicit endpoint configuration,"['manifests/auth.pp', 'releasenotes/notes/deprecate-auth_endpoint_type-parameter-405533a1bbb2fa2a.yaml', 'spec/classes/aodh_auth_spec.rb']"
+353,3d4f500e6f9dcaa185294622da21454091371402,Deprecate aodh::gnocchi_url as it has no effect,"['manifests/init.pp', 'releasenotes/notes/deprecate-gnocchi_url-parameter-415f98e9712ed768.yaml', 'spec/classes/aodh_init_spec.rb']"
+354,7d240874e0f4c80d384696678e7e3742ddb0ecf7,Deprecate aodh::api::host and aodh::api::port,"['manifests/api.pp', 'releasenotes/notes/deprecate-host-and-port-parameters-7aa4609a9a7d2104.yaml', 'spec/classes/aodh_api_spec.rb']"
+355,4df9382252d1c6b37cb2c0f7efe7139bda6cea0f,Notify not only aodh-api service but also apache,"['manifests/api.pp', 'releasenotes/notes/restart-apache-4c85888a2bafbaa8.yaml']"
+356,1143576ea73459453a1ec84b41a58bb74cea8741,Debian release 9 in metadata,['metadata.json']
+357,8b7989adabc0a4b2807f91859724282f288948be,add release note link in readme,['README.md']
+358,8dcbcbd564eb5f9b5738d9c45b019d0ce65f5634,Fix annotations,['manifests/db/mysql.pp']
+359,ad1bcab7e4b377a725773ba1c5b49da189bcc51e,fix tox python3 overrides,['tox.ini']
+360,3f93e4867cf1d90a85ce2d9e406cf859975c0bb5,Prepare a new Rocky release,['metadata.json']
+361,47c63278222873d6b120db34131efe0950db1472,"Merge ""Replace port 35357 with 5000""","['manifests/keystone/authtoken.pp', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+362,bf5d06f64000a762779ef0ad9a8767cceec74bf3,Remove deprecated parameters,"['manifests/init.pp', 'releasenotes/notes/aodh-remove-deprecated-7ee96f8d599028be.yaml', 'spec/classes/aodh_init_spec.rb']"
+363,61d07624ce1e9eefa5c68c0d47cfd2d2d50096ac,Replace port 35357 with 5000,"['manifests/keystone/authtoken.pp', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+364,8bd5ec71948ad28f3f2e910c0271eca41d1a3295,"Merge ""Missing deps for config.pp unit test""",['spec/classes/aodh_config_spec.rb']
+365,82449ea7c629b22598b16054e4d759f35c8505fe,Prepare Rocky M1,['metadata.json']
+366,fc5e618d2120bbc1cf32b4d04be24b7bc7caa688,Missing deps for config.pp unit test,['spec/classes/aodh_config_spec.rb']
+367,2137010d01bf6f517eee9f4ae28c1e7a230c5a6c,"Merge ""Update .gitignore""",['.gitignore']
+368,5bf175b49c6d7cbcfb11b33e80c2d16ac3671329,"Merge ""Deprecate auth_uri option""","['manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate_auth_uri_parameter-b30f270e53932965.yaml', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+369,d2f4244e8b02794c56b241308caba8f57dd904cf,Update .gitignore,['.gitignore']
+370,48cc070410cda87c61e17f28d07ca4c0fd54316a,"Merge ""Debian is using Python 3""","['manifests/params.pp', 'spec/classes/aodh_client_spec.rb']"
+371,12ade995442b4de36af6b339ba9a3802d667c417,Debian is using Python 3,"['manifests/params.pp', 'spec/classes/aodh_client_spec.rb']"
+372,e0a4c4bcc3d281df65cd498db5f0086c0ca7d4bf,Update LICENSE,['LICENSE']
+373,f1237a940d1f5309292d815166628de7daeff759,Deprecate auth_uri option,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate_auth_uri_parameter-b30f270e53932965.yaml', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+374,7023c98764a6935a24c2c74d2df1fc463986dcd9,Remove deprecated ensure_package option,"['manifests/init.pp', 'releasenotes/notes/remove_deprecated_ensure_package_option-825213ae8953e207.yaml']"
+375,305d2d51febbf36bcf3ec065760aa72da024c047,"Merge ""Use the pbr generated wsgi binary file located in binary folder""","['manifests/params.pp', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+376,eab921548303d4ecb4d4508bb572316136b06671,Remove deprecated keystone authtoken revocation_cache_time option,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/remove_deprecated_keystone_revocation_cache_time_option-8a7fd1af36857679.yaml']"
+377,c0518d8082a290d0688729374f1e7ba199705c82,Use the pbr generated wsgi binary file located in binary folder,"['manifests/params.pp', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+378,bc811607698748814e5e537152774db2678cf00e,"Merge ""Add pool_timeout option""","['manifests/db.pp', 'releasenotes/notes/add-pool_timeout-option-for-db-e14f111a41b4b3af.yaml', 'spec/classes/aodh_db_spec.rb']"
+379,943345ece104895afa20450a8adeed1b70fa8fa8,fix a typo in documentation,['spec/classes/aodh_init_spec.rb']
+380,261f5649aef71d6cae4a9112cbd44fa8c392f3c2,Add pool_timeout option,"['manifests/db.pp', 'releasenotes/notes/add-pool_timeout-option-for-db-e14f111a41b4b3af.yaml', 'spec/classes/aodh_db_spec.rb']"
+381,f4d814f5d4c4d402497764c36712e7d85861a554,oslo middleware: check puppet resource instead of actual config in spec,['spec/classes/aodh_api_spec.rb']
+382,18db7cd4b4637c0f34771b4ddbe3e6c510639a88,Switch acceptance tests to use integration classes,['spec/acceptance/aodh_wsgi_apache_spec.rb']
+383,d4113232558e9cb7a385a812e31453d36086b5ef,Add 'openstack-db' tag to db-sync Exec resource,"['manifests/db/sync.pp', 'releasenotes/notes/openstack_db_tag-987f513d508e7717.yaml', 'spec/classes/aodh_db_sync_spec.rb']"
+384,37e46bc0b80a31a27b2bdc75a207f305246ccc97,Follow the new PTI for document build,"['doc/requirements.txt', 'tox.ini']"
+385,6aa6c274a13f359f7d805cd6d6c02e4b0800aa62,Update reno for stable/queens,"['releasenotes/source/index.rst', 'releasenotes/source/queens.rst']"
+386,ea7ba6cd9aa9ea545e2f114c0f66663eeeb992a9,Prepare for official Queens release,['metadata.json']
+387,3b26bdfa40f0e6dd66a6785ab069985f2b750ae4,"Merge ""Add some kombu options""","['manifests/init.pp', 'releasenotes/notes/add_rabbit_kombu_options-97d7fd85fb17b366.yaml', 'spec/classes/aodh_init_spec.rb']"
+388,01f6f8e23fb13e3c72e21d7a2dabbcd5d2a76fcc,Load puppet-openstack_spec_helper locally during tests,['Gemfile']
+389,7c8720ede864097e733471ff968ca37ac236b2ce,Add some kombu options,"['manifests/init.pp', 'releasenotes/notes/add_rabbit_kombu_options-97d7fd85fb17b366.yaml', 'spec/classes/aodh_init_spec.rb']"
+390,8d1b051fa1a1276945d2da264c7dcce2f1a52b8b,"Merge ""Zuul: Remove project name""",[]
+391,0bd6342c13399c17a8b1efbfccc911b7fb319aa1,Zuul: Remove project name,['.zuul.yaml']
+392,f163310b002847a42c7e2b84375caf487e9ff76d,Zuul: Remove project name,['.zuul.yaml']
+393,416d8442d53d4ec9adf6ec7512bd55321eae4dfa,"Merge ""Remove pinned versions from test-requirements.txt""",['test-requirements.txt']
+394,506d598629cc8174db15960d809edb22e60858fb,Prepare for Queens Milestone 3,['metadata.json']
+395,62b0e3c67d21ce5390ae3e24adae62c7e0e031a7,Remove pinned versions from test-requirements.txt,['test-requirements.txt']
+396,60e55b725504210c45d57b3ca61c8554475d4728,Add use_journal option for logging configuration,"['manifests/logging.pp', 'releasenotes/notes/add-use_journal-option-for-logging-b33f111a41b4b3af.yaml', 'spec/classes/aodh_logging_spec.rb']"
+397,a36dca7216842d6d24e9bb9b013c7859c8e0f3c0,Add group to policy management,"['manifests/params.pp', 'manifests/policy.pp', 'spec/classes/aodh_policy_spec.rb']"
+398,617ca2ebafe6c8e026ffd450aaf215f38d284c39,Run puppet-openstack-beaker-jobs,['.zuul.yaml']
+399,411952f7fb3f7473c1bb171fa34af9813e38d18a,Prepare for Queens Milestone 2,['metadata.json']
+400,a4e2b53a704162aa3c5746b13541fd9c8578ed72,Expose use_json logging option,"['manifests/logging.pp', 'releasenotes/notes/log-json-6ef392e6118fc052.yaml', 'spec/classes/aodh_logging_spec.rb']"
+401,869b1f740a299772ce2f6b0abef76302f44175d8,"Merge ""Switch to use keystone v3""","['manifests/auth.pp', 'spec/acceptance/aodh_wsgi_apache_spec.rb', 'spec/classes/aodh_auth_spec.rb']"
+402,d22ad490279734d677e4c1c14ec90d08165a6126,"Merge ""Switch to Zuul v3 testing""",['.zuul.yaml']
+403,893a54e98430b93cc71524ea1df0fc1227d7d098,Switch to use keystone v3,"['manifests/auth.pp', 'spec/acceptance/aodh_wsgi_apache_spec.rb', 'spec/classes/aodh_auth_spec.rb']"
+404,8e87d862bf67184011e39c9bc9b5d8eb0d8b0982,"Add Puppet package to bindep, for module build",['bindep.txt']
+405,41e7304f6fde70edd9daac8c0cd60b026d58ba1c,Switch to Zuul v3 testing,['.zuul.yaml']
+406,ed70d3b6828d905acbca3f388c1b85dd4dd70755,"Merge ""Allow setting log files for apache vhost""","['manifests/wsgi/apache.pp', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+407,fb31e61baba1da9f367247bdadfca81be1788ae0,Prepare for Queens Milestone 1,['metadata.json']
+408,fb86336bf74e838fe349da3701c77abf9b08d2f6,apache wsgi: Exchange defaults for workers and threads,"['manifests/wsgi/apache.pp', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+409,d262e03ec9d2c7db02b9ed67ba89a9640fbbe831,Allow setting log files for apache vhost,"['manifests/wsgi/apache.pp', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+410,bc930629622e3b56fdf248ef5b1ef7d694a84952,Accept empty strings for log_dir,['manifests/logging.pp']
+411,c83ef3a6db107723704d60a480397dcb04d67402,Update to the latest address in README,['README.md']
+412,061a963e3eac7821dd8f7c291bcc3120be293690,"Merge ""add parameter to overwrite/add wsgi process options""","['manifests/wsgi/apache.pp', 'releasenotes/notes/wsgi_process_options-ebf94e8584345941.yaml', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+413,ae32dae15172c0edc9fc5f3d6417af64e8a5192e,"Merge ""Deprecate revocation_cache_time option""","['manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate_revocation_cache_time_parameter-176135a12245ef23.yaml', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+414,e10c1ab22571ac32563ef1bb36c77a77a257ad5b,Update openstackdocstheme to latest version,['test-requirements.txt']
+415,5e0be79f84df944b1ae73f334e98a84f51117054,add parameter to overwrite/add wsgi process options,"['manifests/wsgi/apache.pp', 'releasenotes/notes/wsgi_process_options-ebf94e8584345941.yaml', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+416,c477791fc9f87f1a1911f5827db81e8066392563,Deprecate revocation_cache_time option,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate_revocation_cache_time_parameter-176135a12245ef23.yaml', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+417,3a7b6f7f0b92599a0298b68aff3b392bc5e254ac,"Merge ""Update and replace http with https for doc links in puppet-aodh""","['CHANGELOG.md', 'README.md', 'bindep.txt']"
+418,35843003c0419b2993dd2ce29ca32d57b6d701b8,Use Python to compute release notes version,['releasenotes/source/conf.py']
+419,22b8babe5ec498ba580f8814c5cea5a3f58590fd,"Merge ""Update versions for Queens cycle""","['metadata.json', 'releasenotes/source/conf.py']"
+420,8e3afe0d876a32553d42e3ecb4639723cfc1f869,"Merge ""Update reno>=2.5.0""",['test-requirements.txt']
+421,df45916efe7f4bce0bd52bfe390a883fc667ba43,Update versions for Queens cycle,"['metadata.json', 'releasenotes/source/conf.py']"
+422,39a56f04f98e0a9c59623007f6c54bbebdecb5b3,Update reno for stable/pike,"['releasenotes/source/index.rst', 'releasenotes/source/pike.rst']"
+423,e2ec9ed7ba90fd2330e0e3d53d940e92feecaa3f,Prepare for official Pike release,"['metadata.json', 'releasenotes/source/conf.py']"
+424,616c11f5747a54d4454ec50651d13afcdb776421,Update reno>=2.5.0,['test-requirements.txt']
+425,d57a1bb64e93f4e8fde317341d6a18ed6241c8d5,Update and replace http with https for doc links in puppet-aodh,"['CHANGELOG.md', 'README.md', 'bindep.txt']"
+426,6a0225617f471c08577574aefb2f575e57466b86,Support setting paste_config setting on api.,"['manifests/api.pp', 'releasenotes/notes/add-api-paste-option-9c3ea5b862ddb283.yaml', 'spec/classes/aodh_api_spec.rb']"
+427,f6ef8011f8c01296a1bbc8b757d6935d47198be1,"Merge ""Fix rpc_backend option warning""",['manifests/init.pp']
+428,73aa2a2e1676dc797cef1242941590cbca797de2,Fix rpc_backend option warning,['manifests/init.pp']
+429,f7c20d6badcb4c76ba861585f2591dbfc25a5fb1,Fix unit test,['spec/classes/aodh_init_spec.rb']
+430,9a180b05b4c5a7ad026c8a63b0ca0695758cdb3c,"Merge ""Update openstackdocstheme>=1.16.0""",['test-requirements.txt']
+431,3b73b1e7ea5137b260ac65b2d12ca71275e8c7bf,Bump modules to next minor with -dev,"['metadata.json', 'releasenotes/source/conf.py']"
+432,27df65940e37cc683583d6b79063e5f03b9cb7f6,Update openstackdocstheme>=1.16.0,['test-requirements.txt']
+433,eaf221379a325beb4868f94eb0961fff23d8144c,"Merge ""Remove rpc_backend conditional for oslo.messaging driver options""","['manifests/init.pp', 'releasenotes/notes/deprecate_rpc_backend_parameter-6cc58d196b92f815.yaml', 'spec/classes/aodh_init_spec.rb']"
+434,e40dce99d396bda926fce43500f15853d47611c2,"Merge ""Fix filename of api_paste.ini""","['lib/puppet/provider/aodh_api_paste_ini/ini_setting.rb', 'lib/puppet/type/aodh_api_paste_ini.rb', 'manifests/config.pp']"
+435,72af4c55b9cf394ac0e5f9b8706b9626b28656c8,"Merge ""Change author in setup.cfg""",['setup.cfg']
+436,c194351429dbf53bfb7b3deaade4e2fec2eb9dba,Remove rpc_backend conditional for oslo.messaging driver options,"['manifests/init.pp', 'releasenotes/notes/deprecate_rpc_backend_parameter-6cc58d196b92f815.yaml', 'spec/classes/aodh_init_spec.rb']"
+437,9d4372aaaa9e433124383f8d5f5f2ca35d6dd5d4,Change author in setup.cfg,['setup.cfg']
+438,61aadfc5dd54a71ae0b3bdbbd75a6b82a4da7cc0,Fix filename of api_paste.ini,"['lib/puppet/provider/aodh_api_paste_ini/ini_setting.rb', 'lib/puppet/type/aodh_api_paste_ini.rb', 'manifests/config.pp']"
+439,4954b5e62641087c11486821b801757a3b56b5ed,Drop -dev version for Pike M3,"['metadata.json', 'releasenotes/source/conf.py']"
+440,ba1c716cd820b82e0b32dfaeb7493835c1c8ef2a,"Merge ""Configure the Ceilometer project name""","['manifests/api.pp', 'spec/classes/aodh_api_spec.rb']"
+441,312e591ae7839b6e00dd3b8ff85164b0f38ea0e9,"Merge ""Update URLs in documents according to document migration""","['README.md', 'setup.cfg']"
+442,03bd82ca15d1f0629eb89f4d5fab89ce0dee94a7,Configure the Ceilometer project name,"['manifests/api.pp', 'spec/classes/aodh_api_spec.rb']"
+443,490efd5e83981d27794a8787db8a5e4768cc0212,Update URLs in documents according to document migration,"['README.md', 'setup.cfg']"
+444,6d1d70ac8bd52a8fdee6d5416ee082dbe68b2389,Fix unit tests,['spec/classes/aodh_wsgi_apache_spec.rb']
+445,131a8be8be91d31d695a900ef5177fd68013f884,Allow to configure evaluation interval,"['manifests/evaluator.pp', 'spec/classes/aodh_evaluator_spec.rb']"
+446,050a396c02c5f4116b4e9efa6ac2464812284186,Remove deprecated keystone authtoken signing_dir option,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/remove_deprecated_keystone_signing_dir_option-9bf754c49db3de39.yaml']"
+447,558863620f47e0126c22efc712f59faee01a451b,Fix openstackdocstheme,"['releasenotes/source/conf.py', 'test-requirements.txt']"
+448,fc0a3d0b2fcc29a916485f144be8823c9ebf6840,Switch from oslosphinx to openstackdocstheme,"['releasenotes/source/conf.py', 'test-requirements.txt']"
+449,0fb7f8dd514da8a65cf4211d7fdb7756905c24a5,Add environment variable,['tox.ini']
+450,d21b72ac3f53368a1e756ec0121605d747fd21f9,"Merge ""Bump version for Pike M3 Dev""","['metadata.json', 'releasenotes/source/conf.py']"
+451,a5b25727476b5b24b6265dbdd3211e49ce8cb730,Bump version for Pike M3 Dev,"['metadata.json', 'releasenotes/source/conf.py']"
+452,52fda3f5df9c4d70959a57b3ba70f520e1b744cc,Update global requirements,['test-requirements.txt']
+453,01e5448ab6853d7a12927683f327369237706444,"Merge ""Missing some parameters to test in db.pp""",['spec/classes/aodh_db_spec.rb']
+454,4684b1163852ef56cdc88cdb12866b1da36df622,Drop -dev in preparation for Pike M2,"['metadata.json', 'releasenotes/source/conf.py']"
+455,681e348f6d922e3442d5e8353516e58742d2eabd,Missing some parameters to test in db.pp,['spec/classes/aodh_db_spec.rb']
+456,c97e1eb1239fed6f8f1398d1280d0fe387f5a26d,Fix unit test,['spec/classes/aodh_db_spec.rb']
+457,f851057b7e187caa797b83b6e8d56c51336f1f5a,oslo policy: check puppet resource instead of actual config in spec,['spec/classes/aodh_policy_spec.rb']
+458,323fb38a173e1436338b2b6b68d270c84b1c0f32,Update tox configuration,"['Gemfile', 'bindep.txt', 'test-requirements.txt', 'tox.ini']"
+459,ef764992f658850c9610ffa2f6d9879e4d87b941,Bump modules to next minor with -dev,"['metadata.json', 'releasenotes/source/conf.py']"
+460,18b75c43fc8c30b715cecf8cd46607dea8cdbbb4,oslo db: check puppet resource instead of actual config in spec,['spec/classes/aodh_db_spec.rb']
+461,ecdafce418eb545ba1cc77049c55962e9a1c66de,Drop -dev for release prep,['metadata.json']
+462,966e463c78b2264c55c040544f328335653f7c25,Update test-requirements.txt,['test-requirements.txt']
+463,2122bffd63b607673a62529dd990fba812a1b1a0,oslo log: check puppet resource instead of actual config in spec,['spec/classes/aodh_logging_spec.rb']
+464,1016624fd8e8ebe08eee95a2429181566e2cfbc7,Fix typo,['spec/classes/aodh_logging_spec.rb']
+465,567989af497de13964a635ad5131486b2e0c3dc1,"Merge ""rabbitmq SSL: check puppet resource instead of actual config""",['spec/classes/aodh_init_spec.rb']
+466,2f5acca45305c155249428ec55e9bf77d116ca39,rabbitmq SSL: check puppet resource instead of actual config,['spec/classes/aodh_init_spec.rb']
+467,75d16a7a31f56abc4777f5a7421eaad68838f1d1,Inconsistent package_ensure parameter name,"['manifests/init.pp', 'releasenotes/notes/deprecate_ensure_package_parameter-a239528713d6791f.yaml', 'spec/classes/aodh_init_spec.rb']"
+468,ce5c607c7f72cbd4433a1d698569a84f8aabe21c,Prepare Pike metadata,"['metadata.json', 'releasenotes/source/conf.py']"
+469,f394d4e29832c82bee4e6cec46a7bc5055d14c30,Remove rpc_backend check for amqp,['spec/classes/aodh_init_spec.rb']
+470,e50308cc6da360cbe1fdfdfa5ae4a3593a6949f7,Install python-redis if coordination url uses it,"['manifests/evaluator.pp', 'manifests/params.pp', 'releasenotes/notes/install-python-redis-d695b95171f6c392.yaml', 'spec/classes/aodh_evaluator_spec.rb']"
+471,811df61d6c7ec49e29040c37417d3b89ad1d8cf3,Update reno for stable/ocata,"['releasenotes/source/index.rst', 'releasenotes/source/ocata.rst']"
+472,52c3eb6eb86f57af2e6a70fc74a8a1a2ac3861c5,Prepare ocata-rc1 release,"['metadata.json', 'releasenotes/source/conf.py']"
+473,2d2f1b04feaeb013e75364b6d5260989cebb3f25,"Merge ""Add oslo::db to dependency chain""",['manifests/deps.pp']
+474,5edf926741356cee7a17d57879b9395db1613601,Add oslo::db to dependency chain,['manifests/deps.pp']
+475,5189249185819c1c781b8b9ae13c16f0ea9c81f3,Add control_exchange and rpc_response_timeout options,"['manifests/init.pp', 'releasenotes/notes/add_messaging_default_parameters-11598a3e99fe3496.yaml', 'spec/classes/aodh_init_spec.rb']"
+476,b43dbd868922c7030886bc04e7373661db859576,"Merge ""Fix annotation of the ensure parameter""",['manifests/client.pp']
+477,a64faf3c7434359932364569d2dcb9c4b4ca0168,Fix annotation of the ensure parameter,['manifests/client.pp']
+478,c90f0ceefd42947d0944eb6a63ad84179844ffce,Fix typo in aodh_api_paste_ini_spec.rb,['spec/unit/type/aodh_api_paste_ini_spec.rb']
+479,093eeb5ecf9fcd44c3f55c5e0ec1195b1f218d0b,Fix Ubuntu Ocata-m2 issues,"['manifests/params.pp', 'manifests/wsgi/apache.pp', 'releasenotes/notes/ubuntu-aodh-wsgi-update-866423c7b4d84731.yaml', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+480,b55b4cac4a4dc8a8cfd2762c3623c16ca1b52640,Prepare 10.2.0 release,"['metadata.json', 'releasenotes/source/conf.py']"
+481,64ba3872cbdacb1b72eab04a9f1da5670a43daf1,Allow python-memcache install from authtoken class,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/authtoken_manage_memcache_package-0f8a273cc241024f.yaml', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+482,dcfd625888cfe2caea233efda3638d5278a0a80e,Deprecate signing_dir option,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate_signing_dir_parameter-8713d834e121596a.yaml', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+483,b0d9b39ca28e42732c747511e0d39f6652e09eeb,"Pin reno version to reno>=0.1.1,!=2.0.0",['test-requirements.txt']
+484,357efb9c0b10b13b4c8df441f17b2089a2f75494,"Revert ""acceptance: run aodh services after rabbitmq resources""",['spec/acceptance/aodh_wsgi_apache_spec.rb']
+485,4cf2b7f2f882e5146bd86183fd156438d6409328,acceptance: run aodh services after rabbitmq resources,['spec/acceptance/aodh_wsgi_apache_spec.rb']
+486,cb067164ae8e9a0b7cc33719ddd6dd53cd8a1a97,Add customization for wsgi process display name,"['manifests/wsgi/apache.pp', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+487,c52ee3b21f6370b74277d8ee87d26f1621d25dc3,Prepare 10.1.0 release,"['metadata.json', 'releasenotes/source/conf.py']"
+488,79b3cef5e0e84662c143dbbc9e2b63d0b15797bb,Use sync_db option to sync database,['spec/acceptance/aodh_wsgi_apache_spec.rb']
+489,8671eaa64e1edb0ade4cc340ea9bcf73dff75edd,Fix spec test for sync,['spec/classes/aodh_db_sync_spec.rb']
+490,b296ff55c02832e29dea3923a4ca1f697c44b7b9,"Merge ""Add hooks for external install & svc management""","['manifests/api.pp', 'manifests/auth.pp', 'manifests/client.pp', 'manifests/config.pp', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'manifests/db/sync.pp', 'manifests/deps.pp', 'manifests/evaluator.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/keystone/authtoken.pp', 'manifests/listener.pp', 'manifests/logging.pp', 'manifests/notifier.pp', 'manifests/policy.pp', 'manifests/wsgi/apache.pp', 'releasenotes/notes/external_install_mgmt_hook-891a29ef391d1921.yaml', 'spec/classes/aodh_api_spec.rb', 'spec/classes/aodh_client_spec.rb', 'spec/classes/aodh_db_sync_spec.rb', 'spec/classes/aodh_init_spec.rb', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+491,ca1666bb01cf9ae35737d58b3f383501aafa6018,"Merge ""Remove unused test code""",['spec/acceptance/aodh_wsgi_apache_spec.rb']
+492,cb865e6e5bcad322dcbb832a710d3b113df53b83,Add hooks for external install & svc management,"['manifests/api.pp', 'manifests/auth.pp', 'manifests/client.pp', 'manifests/config.pp', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'manifests/db/sync.pp', 'manifests/deps.pp', 'manifests/evaluator.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/keystone/authtoken.pp', 'manifests/listener.pp', 'manifests/logging.pp', 'manifests/notifier.pp', 'manifests/policy.pp', 'manifests/wsgi/apache.pp', 'releasenotes/notes/external_install_mgmt_hook-891a29ef391d1921.yaml', 'spec/classes/aodh_api_spec.rb', 'spec/classes/aodh_client_spec.rb', 'spec/classes/aodh_db_sync_spec.rb', 'spec/classes/aodh_init_spec.rb', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+493,fb5961a3bed0014cdc554ecbf612594e8e5d31fc,Show team and repo badges on README,['README.md']
+494,cd18686610e85b31b39a30084a5ed8fd063a790c,Remove unused test code,['spec/acceptance/aodh_wsgi_apache_spec.rb']
+495,c09538e605add3d6efd6db8748e7f0e78afe56fe,Prepare 10.0.0 release,"['metadata.json', 'releasenotes/source/conf.py']"
+496,0c87655b40b8fc98b14fc8ceab90b9d48fbb3c4a,"Merge ""Add requirements in metadata.json file""",['metadata.json']
+497,4f7d998a57dae18cdb970084354fbc00a1b0f48f,Add requirements in metadata.json file,['metadata.json']
+498,a4281ddfd88ea677d97a0a0724946e0c527937d4,"Merge ""Deprecate rabbitmq connection parameters""","['manifests/init.pp', 'releasenotes/notes/rabbit-connection-params-deprecation-af7e100a211884d8.yaml', 'spec/acceptance/aodh_wsgi_apache_spec.rb']"
+499,e94824231f8dfe1c97c16592f7c793640946f6ba,Deprecate rabbitmq connection parameters,"['manifests/init.pp', 'releasenotes/notes/rabbit-connection-params-deprecation-af7e100a211884d8.yaml', 'spec/acceptance/aodh_wsgi_apache_spec.rb']"
+500,d4973455447bcee6beb3c85f1e373b338c0e325a,Remove old authtoken options,"['manifests/api.pp', 'manifests/keystone/authtoken.pp', 'releasenotes/notes/remove_old_authtoken_options-617be3ac3ec06ef2.yaml', 'spec/classes/aodh_api_spec.rb']"
+501,9470f7521a3cec813737e1df5d610325099aeeed,"Merge ""Remove verbose""","['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/remove_verbose-62c2784e2c93656d.yaml']"
+502,956d2ad68e754b7185558f4d4623d9dccc2859a2,Release 9.4.1 (newton),"['metadata.json', 'releasenotes/source/conf.py']"
+503,e092f1ff8ba515321b4b04233fdb699029d48cbf,Add option to enable Aodh's SSL middleware,"['manifests/api.pp', 'releasenotes/notes/adds-enable-proxy-headers-parsing-531db7e45428d03d.yaml', 'spec/classes/aodh_api_spec.rb']"
+504,d3b12f6937f8a20f7e1d4d64c05cc4c7f540c5a4,Change worker defaults to ::os_workers,"['manifests/wsgi/apache.pp', 'releasenotes/notes/os_workers_for_worker_count-d1ea2ef2beb0d686.yaml', 'spec/classes/aodh_api_spec.rb', 'spec/classes/aodh_db_sync_spec.rb', 'spec/classes/aodh_evaluator_spec.rb', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+505,8329c052a50c87f3c2c1051dc71e0261e558db7b,Enable release notes translation,['releasenotes/source/conf.py']
+506,3dd59ed1a94a958b3d7e13537fe9b1c909c4f0c5,Changed the home-page to point Openstack Puppet Homepage,['setup.cfg']
+507,ba5452977aa286af0525075931c79da5ea30a28b,"Merge ""Move rspec-puppet-facts to spec helper""",['spec/spec_helper.rb']
+508,bac067fff5a8194a7093e29a1845450a4e329183,Added retries for db_sync,['manifests/db/sync.pp']
+509,06c9bf5df890e8ef942455f699a23142a3761e67,Move rspec-puppet-facts to spec helper,['spec/spec_helper.rb']
+510,40cb6417e0a1f3fb693b73ede91df747acffbdab,Remove verbose,"['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/remove_verbose-62c2784e2c93656d.yaml']"
+511,c4f24cb85c1862aa17da994484b2e34bef6be27d,Finish rspec-puppet-facts update,"['spec/classes/aodh_db_mysql_spec.rb', 'spec/classes/aodh_keystone_auth_spec.rb', 'spec/spec_helper.rb']"
+512,a2ef9d1b6397adcb7ca797eb13f27b909b1838f6,Update reno for stable/newton,"['releasenotes/source/index.rst', 'releasenotes/source/newton.rst']"
+513,e3adfe4fc571763292f337fdd8a63f0f172843c7,"Merge ""Puppet OpenStack Newton RC2""","['metadata.json', 'releasenotes/source/conf.py']"
+514,abe8cd95ee1ba603b82236f89d15564f4cdcec5c,Puppet OpenStack Newton RC2,"['metadata.json', 'releasenotes/source/conf.py']"
+515,9aab28864fe9d12a42f10cb15aea6903628e281c,Remove unnecesary spaces in log messages.,['manifests/api.pp']
+516,e59185c43a04ba9f44ab67732e1139b4447737c3,"Merge ""Fix puppet-lint before upgrading gem""",['manifests/api.pp']
+517,0605b7edeca864f144edc07baf483f73bf0812e7,Prepare 9.3.0 (newton rc1),"['metadata.json', 'releasenotes/source/conf.py']"
+518,28900fdf58551859ff32a3336491d8dde0f69162,Fix puppet-lint before upgrading gem,['manifests/api.pp']
+519,16ea22ac9c74360b184fc9e910029a38de578dd6,Fix doc deprecated parameter,['manifests/api.pp']
+520,c97577c0ff52aa5e3570a98107fcc39629d73951,Prepare 9.2.0 (newton b3),"['metadata.json', 'releasenotes/source/conf.py']"
+521,75161dd0ca2fba54cc4d734d5c3ca3e97ccfeff5,Move aodh to authtoken,"['examples/aodh.pp', 'manifests/api.pp', 'manifests/keystone/authtoken.pp', 'releasenotes/notes/authtoken_resource-1b264c4c326a462c.yaml', 'spec/acceptance/aodh_wsgi_apache_spec.rb', 'spec/classes/aodh_api_spec.rb', 'spec/classes/aodh_keystone_authtoken_spec.rb']"
+522,330e89ebaf28322db4d80abdd885c6e27a970798,Move other-requirements.txt to bindep.txt,['bindep.txt']
+523,6be2fef658d399324191c5e4a87bd43ea7be1692,"Merge ""Prepare 9.1.0 (newton-2)""","['metadata.json', 'releasenotes/source/conf.py']"
+524,0d038004a11b514eca7b51a7ea2cb29b6f2277a8,"Merge ""Include openstacklib defaults manifest.""",['manifests/params.pp']
+525,d0cf378fd12e010d97383112ed50cf10643dbf60,Prepare 9.1.0 (newton-2),"['metadata.json', 'releasenotes/source/conf.py']"
+526,365c91486c68b85a2d0f70d2b4973765d80b183f,"Merge ""Update to include new aodhclient""","['manifests/client.pp', 'manifests/params.pp', 'spec/classes/aodh_client_spec.rb']"
+527,908e23e64c3c8ccad24a70cb7d813e104d1e0456,Include openstacklib defaults manifest.,['manifests/params.pp']
+528,f9c7ebbf17c38e9620b299e730915295e31ecca1,README: remove useless release info,['README.md']
+529,614de550772de6f69e7e76922300de57131aec2c,"Merge ""Add memcached_servers for keystone authtoken""","['manifests/api.pp', 'releasenotes/notes/keystone-authtoken-memcached-5c6b99784f80be7f.yaml', 'spec/classes/aodh_api_spec.rb']"
+530,8029f10859c09e0a6e82bbb43f002061d4b37dc1,Add memcached_servers for keystone authtoken,"['manifests/api.pp', 'releasenotes/notes/keystone-authtoken-memcached-5c6b99784f80be7f.yaml', 'spec/classes/aodh_api_spec.rb']"
+531,33c2659354f88f020cb2bf3aafb147285ce7ec81,Add Xenial to operatingsystemrelease,['metadata.json']
+532,8e56503e2a9284ea2676ff0429ca84cd2c1d0bdf,Remove mitaka release prelude note,['releasenotes/notes/mitaka-dece9d43a565e6cb.yaml']
+533,9b1b605756db73b2431eade1cc002ad6b974d835,"Merge ""Update auth parameters to support Keystone v3""","['manifests/api.pp', 'manifests/auth.pp', 'releasenotes/notes/auth_v3-0be3e28d8b1e1df7.yaml', 'spec/acceptance/aodh_wsgi_apache_spec.rb', 'spec/classes/aodh_api_spec.rb', 'spec/classes/aodh_auth_spec.rb']"
+534,265c69301d3d5fbc310ae23442cd812100e43f4e,Update auth parameters to support Keystone v3,"['manifests/api.pp', 'manifests/auth.pp', 'releasenotes/notes/auth_v3-0be3e28d8b1e1df7.yaml', 'spec/acceptance/aodh_wsgi_apache_spec.rb', 'spec/classes/aodh_api_spec.rb', 'spec/classes/aodh_auth_spec.rb']"
+535,07c0cf451c24a5515996a4047e617a3f54be11cc,beaker: fix ordering for RabbitMQ,['spec/acceptance/aodh_wsgi_apache_spec.rb']
+536,97d8b0e9140e5d7c414b3381b260b73d3e032dd5,Add nodepool-xenial.yml file,['spec/acceptance/nodesets/nodepool-xenial.yml']
+537,97f89a91636efdbb82fe15e1fe2edafdd1aad9b0,Update to include new aodhclient,"['manifests/client.pp', 'manifests/params.pp', 'spec/classes/aodh_client_spec.rb']"
+538,ca6b879872dcb185e3c0dccbcc76a55b9af6d6df,Provide default service_name for keystone endpoint,"['manifests/keystone/auth.pp', 'releasenotes/notes/keystone-auth-name-6deb28333b29657e.yaml', 'spec/classes/aodh_keystone_auth_spec.rb']"
+539,b04fb50639e32249ca569000e5600280ad8182af,"Merge ""Add purge_config option""","['manifests/init.pp', 'spec/classes/aodh_init_spec.rb']"
+540,72d2693f706aa44b40b3223c125f03c20406d15b,Prepare 9.0.0 release,"['metadata.json', 'releasenotes/source/conf.py']"
+541,6251c3678791e8d80043f60e32c5c5f8257c4c11,Add purge_config option,"['manifests/init.pp', 'spec/classes/aodh_init_spec.rb']"
+542,9c186cea98a66d13e24c2fa03f2d9d61a0ad0c9f,Change wiki to docs,['README.md']
+543,a3cc52e137b4de8742281339a46f900fdfd5408f,"Merge ""Revert ""Deprecate use_syslog""""","['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/use_syslog-8829d3bda185a189.yaml', 'spec/classes/aodh_logging_spec.rb']"
+544,0a31dca4593c44be57a39961a1719b554693f478,"Revert ""Deprecate use_syslog""","['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/use_syslog-8829d3bda185a189.yaml', 'spec/classes/aodh_logging_spec.rb']"
+545,1d2c2e6cc1b24e6db74f9164612c394a88672882,Add transport_url parameters for oslo.messaging,"['manifests/init.pp', 'releasenotes/notes/add_transport_url_parameters-648f7e1e691eabe5.yaml', 'spec/classes/aodh_init_spec.rb']"
+546,5abb616897e6651de5d9c91aac273a910fb04414,"Merge ""Deprecate use_syslog""","['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/use_syslog-8829d3bda185a189.yaml', 'spec/classes/aodh_logging_spec.rb']"
+547,f43e907fa8f86fb74d594a1c42de698f0d9083bb,Deprecate use_syslog,"['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/use_syslog-8829d3bda185a189.yaml', 'spec/classes/aodh_logging_spec.rb']"
+548,43bd734bf14cb574d47f27dbfe9d9ee2d18ab9bc,Adapt aodh tests for a new concat version,['spec/classes/aodh_wsgi_apache_spec.rb']
+549,e38eb53d248240f4e1293221945cc97adeedc4d6,Fix test file name,['spec/unit/type/aodh_api_paste_ini_spec.rb']
+550,6ccb9fd8ff8f439f9d882c7a7e7bd717346932bf,Add other-requirements.txt for bindep,['other-requirements.txt']
+551,b58adfcc3c00614457fd78aa12ae53d2c5232d25,Deprecate verbose option,"['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/deprecate_verbose_parameter-1af15c48612ac2a1.yaml', 'spec/acceptance/aodh_wsgi_apache_spec.rb', 'spec/classes/aodh_init_spec.rb', 'spec/classes/aodh_logging_spec.rb']"
+552,0990ac4c57b31fee37d44a991a52b3eec67c33f1,Add spec test for aodh::config,['spec/classes/aodh_config_spec.rb']
+553,cb47cac84633a9953fc325f0a4edfcdf30b5181f,"Merge ""Add api_paste type/provider for aodh""","['lib/puppet/provider/aodh_api_paste_ini/ini_setting.rb', 'lib/puppet/type/aodh_api_paste_ini.rb', 'manifests/config.pp', 'spec/unit/provider/aodh_api_paste_ini/ini_setting_spec.rb', 'spec/unit/type/aodh_api_paste_init.spec.rb']"
+554,8d8d68567f8db1dcceeee7a013067040f0f05a88,Introduce support for oslo.messaging amqp driver configuration,"['manifests/init.pp', 'releasenotes/notes/add_oslo_messaging_amqp-371ec0eff31b5749.yaml', 'spec/classes/aodh_init_spec.rb']"
+555,b81c6c29d545c57653cf49f4ff201a52cad6dee1,Defaults to os_service_default for rabbit parameters,"['manifests/init.pp', 'spec/classes/aodh_init_spec.rb']"
+556,9e1291998292790bc327cf5cd4c4988fc7d64fde,"Merge ""Update class params to os_service_default""","['manifests/db.pp', 'releasenotes/notes/Update-class-params-to-os_service_default-0b2eece145a53d3b.yaml', 'spec/classes/aodh_db_spec.rb']"
+557,d1d508a636f366a3cd8bb6fe0aed9ab867d4050e,Add api_paste type/provider for aodh,"['lib/puppet/provider/aodh_api_paste_ini/ini_setting.rb', 'lib/puppet/type/aodh_api_paste_ini.rb', 'manifests/config.pp', 'spec/unit/provider/aodh_api_paste_ini/ini_setting_spec.rb', 'spec/unit/type/aodh_api_paste_init.spec.rb']"
+558,d09f8483f13193fc13aa29c41d6242ac011111d1,Update class params to os_service_default,"['manifests/db.pp', 'releasenotes/notes/Update-class-params-to-os_service_default-0b2eece145a53d3b.yaml', 'spec/classes/aodh_db_spec.rb']"
+559,4ba34ad31e16fc536adee4e38e308e46274ea674,"Merge ""Add support for db_max_retries param""","['manifests/db.pp', 'spec/classes/aodh_db_spec.rb']"
+560,a06158ff358061854c5de8709fd2dbd9ac805b0d,Add support for db_max_retries param,"['manifests/db.pp', 'spec/classes/aodh_db_spec.rb']"
+561,50487d95bd11eb54fd827329ab9b1b0916701c61,Delete useless parameters,['manifests/init.pp']
+562,4d6b781b7c0ac7e8abf8e4738d10c5b58ccce2f3,Add spec tests for aodh::db::sync,['spec/classes/aodh_db_sync_spec.rb']
+563,d49e75bd3a689e98e1fc0ee61e76b9553dc3cf41,"Merge ""Manage policy configuration file""","['manifests/policy.pp', 'spec/classes/aodh_policy_spec.rb']"
+564,e5eae81e3084676e11da9d51e8bc259545c6aa5c,Remove Qpid support,"['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/remove_qpid-fd39548434942726.yaml', 'spec/classes/aodh_logging_spec.rb']"
+565,6dbaf7b603b92a1de52eb2745ba066039c9c6f9f,"Merge ""Add missing release note for switching to puppet-oslo""","['manifests/params.pp', 'manifests/policy.pp', 'releasenotes/notes/switch_to_oslo-9953061b326b183d.yaml']"
+566,de1f651f5b3755cfc636dc78655552f70065d279,Use properly syntax for OpenStack name,['README.md']
+567,0cc0bde46386599c4e4e92f387cc2aecce941231,Manage policy configuration file,"['manifests/policy.pp', 'spec/classes/aodh_policy_spec.rb']"
+568,2009eef0f1ca3a8462f17a1609b8c17782353499,Add missing release note for switching to puppet-oslo,"['manifests/params.pp', 'manifests/policy.pp', 'releasenotes/notes/switch_to_oslo-9953061b326b183d.yaml']"
+569,1e17ca232c0568a5009b2975567d261dea6d3b4f,"Merge ""Revert ""Add missing release note for switching to puppet-oslo""""","['manifests/params.pp', 'manifests/policy.pp', 'releasenotes/notes/switch_to_oslo-9953061b326b183d.yaml', 'spec/classes/aodh_policy_spec.rb']"
+570,4b6aaab2ed280d50b117d575516216ab3510670f,"Revert ""Add missing release note for switching to puppet-oslo""","['manifests/params.pp', 'manifests/policy.pp', 'releasenotes/notes/switch_to_oslo-9953061b326b183d.yaml', 'spec/classes/aodh_policy_spec.rb']"
+571,c0f269f46cc674ae00e10293b52735778d434bb4,"Merge ""Add missing release note for switching to puppet-oslo""","['manifests/params.pp', 'manifests/policy.pp', 'releasenotes/notes/switch_to_oslo-9953061b326b183d.yaml', 'spec/classes/aodh_policy_spec.rb']"
+572,0909cc7a58f5382b55c775f2d3454d8202dee1f9,Add missing release note for switching to puppet-oslo,"['manifests/params.pp', 'manifests/policy.pp', 'releasenotes/notes/switch_to_oslo-9953061b326b183d.yaml', 'spec/classes/aodh_policy_spec.rb']"
+573,1d83c5b8145f58ac5b561ffc694c78a34b107909,"Merge ""beaker: test evaluator & db_sync on ubuntu again""",['spec/acceptance/aodh_wsgi_apache_spec.rb']
+574,c5306810c70603dc83bdc45c056a5c54f0cadfff,beaker: test evaluator & db_sync on ubuntu again,['spec/acceptance/aodh_wsgi_apache_spec.rb']
+575,4b22b9b289c02096e28eaacea2da5d373948d5c9,Update AODH for using puppet-oslo,"['manifests/db.pp', 'manifests/init.pp', 'manifests/logging.pp', 'metadata.json', 'spec/classes/aodh_db_spec.rb', 'spec/classes/aodh_init_spec.rb']"
+576,4cc0e6498ff1715916f37977efe0105a5bf6c33a,Add sync_db param to aodh api class,"['manifests/api.pp', 'releasenotes/notes/add-sync_db-to-aodh-dc2c52e0dcda72c1.yaml', 'spec/classes/aodh_api_spec.rb']"
+577,004d25f9a5ee3ec3b30701c5a18f436f9ec1d1ea,Gemfile: rely on puppet-openstack_spec_helper for dependencies,['Gemfile']
+578,8fb675a73302243140c268aeba9ce2b24d3abc2c,Import release notes from stable/mitaka,"['releasenotes/source/index.rst', 'releasenotes/source/mitaka.rst']"
+579,bef2973bca1672d985b3813e6af7d878ec20f29d,Release 8.0.0,"['CHANGELOG.md', 'README.md', 'metadata.json', 'releasenotes/notes/mitaka-dece9d43a565e6cb.yaml', 'releasenotes/notes/use-reno-1caaec4ba5aa4285.yaml', 'releasenotes/source/index.rst']"
+580,00fdbd11bdf490268bd197a5ccac7fc5f55a05e3,releasenotes: add notes for Mitaka cycle,"['releasenotes/notes/gnocchi-1aff76df364ba03a.yaml', 'releasenotes/notes/mongodb_support-d32111a0380f0d21.yaml', 'releasenotes/notes/pymysql-e57bf1f0289dd426.yaml', 'releasenotes/notes/remove_qpid-0b446db43fdea617.yaml']"
+581,14527cb2a0d1d78e09994d125aab897598c8744b,Add basic structure for ReNo,"['.gitignore', 'releasenotes/notes/use-reno-1caaec4ba5aa4285.yaml', 'releasenotes/source/_static/.placeholder', 'releasenotes/source/conf.py', 'releasenotes/source/index.rst', 'releasenotes/source/unreleased.rst', 'setup.cfg', 'setup.py', 'test-requirements.txt', 'tox.ini']"
+582,bcc2d1a9e9ec5dfc5ba501d1916c5869cd0ef628,Add support for alarm_history_time_to_live parameter,"['manifests/init.pp', 'spec/classes/aodh_init_spec.rb']"
+583,985b2ee77f48d2263b563c0420319eb53cc5efb3,Implement gnocchi_url parameter,"['manifests/init.pp', 'spec/classes/aodh_init_spec.rb']"
+584,d5c8aeeb8403e0c25507e3f9e5697c7c3ecf319c,"Merge ""Rename typo on expirer service name""",['manifests/params.pp']
+585,a7f568f55581c7a906481605565af8c7ff427320,drop mock dependency,"['Gemfile', 'spec/classes/aodh_evaluator_spec.rb', 'spec/classes/aodh_listener_spec.rb', 'spec/classes/aodh_notifier_spec.rb', 'spec/spec_helper.rb']"
+586,3a6d9e8963d76b102acd67f67fc1c7b29148a990,Rename typo on expirer service name,['manifests/params.pp']
+587,1d2f1352137cdbb23b94e1c06b47088f20a9f560,Use puppet-openstack_spec_helper for Rakefile & spec_helper_acceptance,"['Rakefile', 'spec/spec_helper_acceptance.rb']"
+588,af979699b89161fa7b7a232fd6820d425dc10975,"Merge ""Update tests to leverage rspec-puppet-facts""","['spec/classes/aodh_api_spec.rb', 'spec/classes/aodh_auth_spec.rb', 'spec/classes/aodh_client_spec.rb', 'spec/classes/aodh_db_postgresql_spec.rb', 'spec/classes/aodh_db_spec.rb', 'spec/classes/aodh_evaluator_spec.rb', 'spec/classes/aodh_init_spec.rb', 'spec/classes/aodh_listener_spec.rb', 'spec/classes/aodh_logging_spec.rb', 'spec/classes/aodh_notifier_spec.rb', 'spec/classes/aodh_policy_spec.rb', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+589,277cf7ae23e9373ec3f3988556746723f244d911,Use openstack spec helper for spec defaults,"['Gemfile', 'spec/defaults.rb', 'spec/spec_helper.rb']"
+590,a6e6657811f52ce35c6af69b1cba3f0a376285c4,Update tests to leverage rspec-puppet-facts,"['spec/classes/aodh_api_spec.rb', 'spec/classes/aodh_auth_spec.rb', 'spec/classes/aodh_client_spec.rb', 'spec/classes/aodh_db_postgresql_spec.rb', 'spec/classes/aodh_db_spec.rb', 'spec/classes/aodh_evaluator_spec.rb', 'spec/classes/aodh_init_spec.rb', 'spec/classes/aodh_listener_spec.rb', 'spec/classes/aodh_logging_spec.rb', 'spec/classes/aodh_notifier_spec.rb', 'spec/classes/aodh_policy_spec.rb', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+591,fc8fc7fd2620fe58ad2b563447ebd8e9415f202c,"Merge ""Add rspec-puppet-facts to the spec_helper""","['Gemfile', 'spec/defaults.rb', 'spec/spec_helper.rb']"
+592,1ab9af70841d9d7ed712701477329c439804ab17,"Merge ""Update typo""",['manifests/db/mysql.pp']
+593,a446693bae2dc8b9f309fc6cc37b3766993a0d9b,Add rspec-puppet-facts to the spec_helper,"['Gemfile', 'spec/defaults.rb', 'spec/spec_helper.rb']"
+594,d7ca4c17bef7e2808b4e78bf4b6eb7eb24f34807,"Merge ""Support of PyMySQL driver for MySQL backend""","['manifests/db.pp', 'manifests/params.pp', 'spec/classes/aodh_db_spec.rb']"
+595,292483b566494f1870f1d9fcafd5e242b7912108,Update typo,['manifests/db/mysql.pp']
+596,05e20984345833801934831c0bad5d4324f22add,update Setup section,['README.md']
+597,a18c7f87d9abee460a22e1c968386cd955400ce4,Support of PyMySQL driver for MySQL backend,"['manifests/db.pp', 'manifests/params.pp', 'spec/classes/aodh_db_spec.rb']"
+598,9e3e5aa160bdc8445835a198246256d47255c60a,unit tests: make Keystone_endpoint match service by name/type,['spec/classes/aodh_keystone_auth_spec.rb']
+599,86d3e7e214a536a88ee4f4c4e26b9e1e36d09ea8,Switch aodh to use os_service_default fact,"['manifests/init.pp', 'manifests/logging.pp', 'spec/classes/aodh_api_spec.rb', 'spec/classes/aodh_evaluator_spec.rb', 'spec/classes/aodh_init_spec.rb', 'spec/classes/aodh_listener_spec.rb', 'spec/classes/aodh_logging_spec.rb', 'spec/classes/aodh_notifier_spec.rb', 'spec/spec_helper.rb']"
+600,6104ddc58679c0eee31c33ca0fe6da3022b5a894,"Merge ""Remove qpid messaging support""","['manifests/init.pp', 'spec/classes/aodh_init_spec.rb']"
+601,c86dd9741ad85a164442e57b34b0fc80ab89a698,Remove qpid messaging support,"['manifests/init.pp', 'spec/classes/aodh_init_spec.rb']"
+602,a0b22ffe0a408697a962087d77b9a203d6a017de,Support MongoDB as backend db,"['manifests/db.pp', 'manifests/params.pp', 'spec/classes/aodh_db_spec.rb']"
+603,3ebecd1a6f698438ecca5d065d5992b731be81b2,Checkout openstack-integration from master,"['Rakefile', 'spec/spec_helper_acceptance.rb']"
+604,01ea2d51db99528b09ab9147f9b0bc7fde57a35a,metadata: fix module name,['metadata.json']
+605,a09301ab15b621e5e485fb605ab488e64a059d2a,release: prepare 7.0.0 (liberty),"['CHANGELOG.md', 'README.md', 'Rakefile', 'metadata.json', 'spec/spec_helper_acceptance.rb']"
+606,fd27b60ce5d197e5394af03fec62a6f1784c2ead,"Merge ""Remove class_parameter_defaults puppet-lint check""",['Rakefile']
+607,f601fedb7cca4a0b139e6702ee93a1751d0fc9c1,Acceptance: use common bits from puppet-openstack-integration,['spec/acceptance/aodh_wsgi_apache_spec.rb']
+608,bf7daddae745243b6b5cdf9b560481c168fb7f1f,Remove class_parameter_defaults puppet-lint check,['Rakefile']
+609,cd0920ff960b4be9608a3b96555538feb260b925,Tag all Aodh packages,"['manifests/evaluator.pp', 'manifests/listener.pp', 'manifests/notifier.pp', 'spec/classes/aodh_evaluator_spec.rb', 'spec/classes/aodh_listener_spec.rb', 'spec/classes/aodh_notifier_spec.rb']"
+610,42c34763bb4266e5315618a59082dc580eb13039,Implement Listener service,"['examples/aodh.pp', 'manifests/listener.pp', 'spec/acceptance/aodh_wsgi_apache_spec.rb', 'spec/classes/aodh_listener_spec.rb']"
+611,6e30e9f4104d39d626d41c3e7fecbbc04dbac762,Implement Notifier service,"['examples/aodh.pp', 'manifests/notifier.pp', 'spec/acceptance/aodh_wsgi_apache_spec.rb', 'spec/classes/aodh_notifier_spec.rb']"
+612,78af0f02c3a8f21cfe28248705591c046972f0ce,Implement Client class,"['examples/aodh.pp', 'manifests/client.pp', 'manifests/params.pp', 'spec/acceptance/aodh_wsgi_apache_spec.rb', 'spec/classes/aodh_client_spec.rb']"
+613,9510ce46e4d9d59a44fdb4e60a072d6577992bf7,Implement Evaluator service,"['examples/aodh.pp', 'manifests/auth.pp', 'manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'manifests/db/sync.pp', 'manifests/evaluator.pp', 'spec/acceptance/aodh_wsgi_apache_spec.rb', 'spec/classes/aodh_auth_spec.rb', 'spec/classes/aodh_evaluator_spec.rb']"
+614,ea89099ff7080056b6ec26668d981b70303eb302,"Merge ""auth: fix doc for default port""",['manifests/keystone/auth.pp']
+615,2f4dca98d2e2c32aee314fc6d5f2ad119cb7f5f5,"Merge ""api: fix default port to bind API service""","['manifests/api.pp', 'spec/classes/aodh_api_spec.rb']"
+616,1eeba2001b229dcecb6f034da9ba3ea9cb4360a4,db: Use postgresql lib class for psycopg package,"['manifests/db.pp', 'spec/classes/aodh_db_spec.rb']"
+617,3c50874c7a0d65d2e75589b6aa383ab0a41511fb,auth: fix doc for default port,['manifests/keystone/auth.pp']
+618,fb8be800021cb24af00b69112e6e3acbe26eb7af,api: fix default port to bind API service,"['manifests/api.pp', 'spec/classes/aodh_api_spec.rb']"
+619,54f857d36bfa8567e9f6f5f4f8d778377229c702,Implement API service,"['examples/aodh.pp', 'manifests/api.pp', 'manifests/params.pp', 'manifests/wsgi/apache.pp', 'spec/acceptance/aodh_wsgi_apache_spec.rb', 'spec/classes/aodh_api_spec.rb', 'spec/classes/aodh_wsgi_apache_spec.rb']"
+620,5a2607a7d10e072e8b052590d4979b9baaa87538,Update aodh::logging,"['manifests/logging.pp', 'spec/classes/aodh_logging_spec.rb']"
+621,17a835e2e3ca10e10730c0eec60c48b9cf9ae48a,First implementation of init class,"['examples/aodh.pp', 'manifests/init.pp', 'manifests/params.pp', 'spec/acceptance/basic_aodh_spec.rb', 'spec/classes/aodh_init_spec.rb']"
+622,6b23e54129e5d727bd0e9d92ef2286dfe20122ca,Update rspec tests for keystone,['spec/classes/aodh_keystone_auth_spec.rb']
+623,226fc0120c9628ae73e3d6b18f86575817b2ea27,"Merge ""metadata: Fix openstacklib module namespace""",['metadata.json']
+624,c62901e0cde76fecb4b7455ccd70a17cbd676886,metadata: Fix openstacklib module namespace,['metadata.json']
+625,2ed4efcabbc68d2281c54a0f714805de433f4d64,acceptance: add basic manifest,['spec/acceptance/basic_aodh_spec.rb']
+626,51bada50093344abe6d22b9e8e03e7f0b54a0df7,auth: refactor to use *_url,"['manifests/keystone/auth.pp', 'spec/classes/aodh_keystone_auth_spec.rb']"
+627,2cbfc044a755596071c05241b72be3219672ca3f,params: add aodh package & service names,['manifests/params.pp']
+628,5fe889fdf5da38f92c47023b1256c23e5379b53b,Try to use zuul-cloner to prepare fixtures,"['.fixtures.yml', '.gitignore', 'Gemfile', 'Rakefile']"
+629,ca85542cc22c462c6fd8bf5074a341cf6916d3b9,puppet-aodh: Initial commit,"['.fixtures.yml', '.gitignore', 'Gemfile', 'LICENSE', 'README.md', 'Rakefile', 'lib/puppet/provider/aodh_config/ini_setting.rb', 'lib/puppet/type/aodh_config.rb', 'manifests/config.pp', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'manifests/db/sync.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/logging.pp', 'manifests/params.pp', 'manifests/policy.pp', 'metadata.json', 'spec/acceptance/nodesets/centos-70-x64.yml', 'spec/acceptance/nodesets/default.yml', 'spec/acceptance/nodesets/nodepool-centos7.yml', 'spec/acceptance/nodesets/nodepool-trusty.yml', 'spec/acceptance/nodesets/ubuntu-server-1404-x64.yml', 'spec/classes/aodh_db_mysql_spec.rb', 'spec/classes/aodh_db_postgresql_spec.rb', 'spec/classes/aodh_keystone_auth_spec.rb', 'spec/classes/aodh_logging_spec.rb', 'spec/classes/aodh_policy_spec.rb', 'spec/shared_examples.rb', 'spec/spec_helper.rb', 'spec/spec_helper_acceptance.rb', 'spec/unit/provider/aodh_config/ini_setting_spec.rb', 'spec/unit/type/aodh_config_spec.rb', 'tests/init.pp']"
+630,67198dcec2262188a8fcffa1c4df101482b90d22,Added .gitreview,['.gitreview']

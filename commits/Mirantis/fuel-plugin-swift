@@ -1,0 +1,11 @@
+efcc71f432338fadc0fc4fdafbee1522838c0b42|Add README.md, CHANGELOG.md|Thu, 30 Jul 2015 15:40:30 +0300|Thu, 30 Jul 2015 15:59:47 +0300
+6065d9162299ba8ad1cc45ff7b610d892ce2c6d3|Add rebalance script and cron job|Fri, 24 Jul 2015 17:15:17 +0300|Wed, 29 Jul 2015 18:26:23 +0300
+48bc93d904474e1c711e83de1b74f5f7259df3db|Merge branch 'experimental'|Fri, 24 Jul 2015 15:59:30 +0300|Fri, 24 Jul 2015 15:59:30 +0300
+0d7ff2b7b2fe01236c398203ffd1c310fd3c6e82|Configure swift draft site.pp|Fri, 17 Jul 2015 16:24:02 +0300|Fri, 24 Jul 2015 15:42:48 +0300
+3b1650b4e566ae15b3934332876880836d1b9470|Fix role name in tasks.yaml|Fri, 17 Jul 2015 15:13:25 +0300|Thu, 23 Jul 2015 13:13:11 +0300
+5cd161d87c18c5e87814f900d510523f78e74b14|Fix role name in tasks.yaml|Fri, 17 Jul 2015 15:13:25 +0300|Fri, 17 Jul 2015 15:13:25 +0300
+ffe35459068ef40e745b6c655930514a5bb83b26|Remove duplication|Wed, 15 Jul 2015 14:51:18 +0300|Wed, 15 Jul 2015 14:51:18 +0300
+d3590bb4fc027854719712aa35dd18521ce2a1dc|Add rebalance_cronjob.pp|Tue, 14 Jul 2015 15:01:26 +0300|Tue, 14 Jul 2015 15:01:26 +0300
+bacc911d2dfd37d22ac790b5a086fa4fe1b11e19|Initial site.pp|Tue, 14 Jul 2015 14:43:46 +0300|Tue, 14 Jul 2015 14:43:46 +0300
+cdb863325251eeb90078b4d0d976a4a7818f36e3|Update tasks.yaml|Tue, 14 Jul 2015 13:31:54 +0300|Tue, 14 Jul 2015 13:31:54 +0300
+5ab1f0ac646ca0c0a66987d8c59f04514b525a54|Initial commit|Tue, 14 Jul 2015 13:22:21 +0300|Tue, 14 Jul 2015 13:22:21 +0300

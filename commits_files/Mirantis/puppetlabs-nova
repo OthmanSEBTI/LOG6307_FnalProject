@@ -1,0 +1,540 @@
+,sha,message,files
+0,3bb769bd30e87313cea2a6f7c756cac1308ce2a6,Merge pull request #214 from puppetlabs/folsom,"['manifests/network/bridge.pp', 'manifests/volume/san.pp']"
+1,a4b7581cc7b25ab0441bdcd97bcbec06ceacfbc7,Merge pull request #212 from Mirantis/volume-san,['manifests/volume/san.pp']
+2,cbbefeeaf0736ba8115502c0c32081b94b837036,Merge pull request #213 from derekhiggins/https_endpoint,['manifests/keystone/auth.pp']
+3,c340ac5f46d5fb6355477b9714bfcf9137480fa3,Adding the ability to specify https for the public endpoint,['manifests/keystone/auth.pp']
+4,33eebcba0d3d4d7076dd5e1c72601a6700611a68,Merge pull request #201 from Mirantis/centos-network-bridge,['manifests/network/bridge.pp']
+5,4240bf220050ccc97953b20d630b063bf9821043,RedHad support in nova::network::bridge,['manifests/network/bridge.pp']
+6,67938cb85d006f53294569aad5b18bd457ec4ce6,Add nova-volume san support,['manifests/volume/san.pp']
+7,335015f0d963e6eb06d7bacd326e8af29baab3aa,Merge pull request #196 from aimonb/master,"['manifests/api.pp', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_init_spec.rb']"
+8,5e5a14380eec7b9e0b04fec22320ebfaa901f5e8,Implement volume_api_class as an option,"['manifests/api.pp', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_init_spec.rb']"
+9,8e15bf943c6de3886f4f2cdd75e5e5b4c5eaf83b,Merge pull request #195 from puppetlabs/master,"['manifests/api.pp', 'manifests/compute/libvirt.pp', 'manifests/keystone/auth.pp', 'manifests/manage/network.pp', 'manifests/migration/libvirt.pp', 'manifests/network.pp', 'manifests/utilities.pp']"
+10,0b841f60e986be7cc0286c55d054dc8ec367d7be,Merge pull request #193 from aimonb/master,['manifests/compute/libvirt.pp']
+11,63553a02fe366f52b81b0672653271e3eb699e61,Remove duplicate statement block,['manifests/compute/libvirt.pp']
+12,31a0d77ce862e52b8b707e2bfa31330c2b22d83d,Merge pull request #189 from jtopjian/folsom-rebase,"['manifests/compute/libvirt.pp', 'manifests/keystone/auth.pp', 'manifests/manage/network.pp', 'manifests/migration/libvirt.pp', 'manifests/network.pp']"
+13,b3cd9e5842edcb61764c3f18f09d6560a8900940,Do not create nova-volume if cinder is enabled. Removed unused defined type.,"['manifests/keystone/auth.pp', 'manifests/migration/libvirt.pp']"
+14,c7e794f4ab4f282ae79dbc2e5553641e29536e8a,Added migration support,['manifests/compute/libvirt.pp']
+15,e75da4220be7c52d55e9cba246ea657600cf6428,vlan fixes,"['manifests/manage/network.pp', 'manifests/network.pp']"
+16,f46fd77fc517bf4d62685b3fd59f773180c8dec8,Merge pull request #188 from aimonb/master,['manifests/utilities.pp']
+17,0056e1ffd7074b88eca4218761a26ba8979a18e5,wrap utilities packages in a if \!defined to prevent conflict with rvm module,['manifests/utilities.pp']
+18,b342c59a469bc3a0e7c20345a2aab98b10b6775a,wrap utilities packages in a if \!defined to prevent conflict with rvm module,['manifests/utilities.pp']
+19,66fb703e79d09523a4e468f5f01e1bb78a79437b,wrap utilities packages in a if \!defined to prevent conflict with rvm module,['manifests/utilities.pp']
+20,be9e0e208190d5b469429f24b0491f4b5bd29bed,wrap utilities packages in a if \!defined to prevent conflict with rvm module,['manifests/utilities.pp']
+21,5f5f2fad9ccd2ab3162fe73312bedf2d78ad806f,Merge pull request #187 from bodepd/api_deps_redhat,['manifests/api.pp']
+22,1f56b9eef4bc272b8a92dec0d0fea76bc3b5e2a8,Add a coupld of api deps,['manifests/api.pp']
+23,c893fe3e155e6249996839f0cd5ec7e31e9cbf06,Merge pull request #186 from bodepd/redhat_no_utils,['manifests/utilities.pp']
+24,0dd15714c93658cc75af1dfa02bed2aeea714a7c,do not install utilities on RHEL.,['manifests/utilities.pp']
+25,bf8254ddc352cd9642b5cc6b25f4201dade10f98,Merge pull request #185 from puppetlabs/master,"['CHANGELOG', 'Modulefile', 'manifests/compute/libvirt.pp']"
+26,01414adb0d064f5ad5ee6024179ff83b22def3c8,Merge pull request #183 from bodepd/remove_invalid_code,['manifests/compute/libvirt.pp']
+27,38533215574628118742d59cdc069825d6446a78,remove $::nova::params::libvirt_type_kvm package,['manifests/compute/libvirt.pp']
+28,bc0f567077c8932079617ce919c1767ef7a43e40,Release 1.0.1,"['CHANGELOG', 'Modulefile']"
+29,5f3cb28325b5058e3dc9f932722c0e2bd6d8f0e4,Merge branch 'master' of github.com:puppetlabs/puppetlabs-nova,[]
+30,15b215b23af9a182a40dacb2bec60fb36df00d71,Release 1.0.0,"['CHANGELOG', 'Modulefile']"
+31,a53ccc7a3fcf0a865d230538d3f2608593078ea4,Merge pull request #182 from puppetlabs/master,"['.fixtures.yml', '.travis.yml', 'manifests/api.pp', 'manifests/compute/libvirt.pp', 'manifests/compute/quantum.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/params.pp', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_cert_spec.rb', 'spec/classes/nova_compute_quantum_spec.rb', 'spec/classes/nova_compute_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_keystone_endpoint_spec.rb', 'spec/classes/nova_network_spec.rb', 'spec/classes/nova_objectstore_spec.rb', 'spec/classes/nova_scheduler_spec.rb', 'spec/classes/nova_volume_spec.rb']"
+32,61ca1dea314e94212b95b601d81a8327d604e8bb,Merge pull request #181 from bodepd/fix_test_failures,"['.fixtures.yml', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_cert_spec.rb', 'spec/classes/nova_compute_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_network_spec.rb', 'spec/classes/nova_objectstore_spec.rb', 'spec/classes/nova_scheduler_spec.rb', 'spec/classes/nova_volume_spec.rb']"
+33,124ae530fce10518090975816cf9af8e0eb002e3,fix test failures,"['.fixtures.yml', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_cert_spec.rb', 'spec/classes/nova_compute_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_network_spec.rb', 'spec/classes/nova_objectstore_spec.rb', 'spec/classes/nova_scheduler_spec.rb', 'spec/classes/nova_volume_spec.rb']"
+34,6a06ea9684ccf28e2758eb7cfba530fc9bd32640,Merge pull request #180 from derekhiggins/cinderclient,['manifests/api.pp']
+35,7fd92c3a8f528c45b4c78656de811523e10c71c2,Adding cinderclient as a dependency of nova::api,['manifests/api.pp']
+36,c85aa73b1c46de1ad59983d151a2243e057c1fc6,Merge pull request #179 from derekhiggins/openstack-subpackages,"['manifests/compute/libvirt.pp', 'manifests/params.pp']"
+37,3413cbd91950b27be31a77430bccb800cfc5ebf3,explicitly name the individual openstack nova packages on RedHat,"['manifests/compute/libvirt.pp', 'manifests/params.pp']"
+38,2b40a3e89a79665f0042faa6fffe7140f408d938,Merge pull request #178 from derekhiggins/fix_rootwrap_config,"['manifests/init.pp', 'spec/classes/nova_init_spec.rb']"
+39,041142db469177f423106045fd3df28b2a8ab2d0,Merge pull request #177 from bodepd/make_vif_driver_configurable,"['manifests/compute/quantum.pp', 'spec/classes/nova_compute_quantum_spec.rb']"
+40,2c98693ed7b708ec83dfb1ce00555e0a590e1754,Make libvit_vif_driver configurable,"['manifests/compute/quantum.pp', 'spec/classes/nova_compute_quantum_spec.rb']"
+41,a9f435da3ab8dc613b99b989cda92d3118cea9af,Fixing incorrect name for rootwrap_config config option,"['manifests/init.pp', 'spec/classes/nova_init_spec.rb']"
+42,fd3388c060dd495b8f6a56f085230141ac3fea17,Merge pull request #172 from bodepd/travis_ci_i_fy,['.travis.yml']
+43,352b81280a961e61e6273894e5372dc8db8a6fb8,Add travis yaml,['.travis.yml']
+44,d609c0f592db1aaefceddefc1e5f009739eccd6d,Merge pull request #171 from bodepd/fix_spec_failures,"['.fixtures.yml', 'spec/classes/nova_keystone_endpoint_spec.rb']"
+45,b57e071f30e576c2a125f9635a6b39ca3cdc1c83,fix spec test failures.,"['.fixtures.yml', 'spec/classes/nova_keystone_endpoint_spec.rb']"
+46,10b57adc4a831f36cbd3116281596f00c66a84f9,Merge pull request #170 from bodepd/folsom_master,"['.fixtures.yml', 'examples/all.pp', 'examples/multi.pp', 'examples/site.pp', 'lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_config/parsed_config.rb', 'lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/provider/nova_paste_api_ini/ini_setting.rb', 'lib/puppet/type/nova_network.rb', 'lib/puppet/type/nova_paste_api_ini.rb', 'manifests/api.pp', 'manifests/cert.pp', 'manifests/client.pp', 'manifests/compute/file_hack.pp', 'manifests/compute/kvm.pp', 'manifests/compute/libvirt.pp', 'manifests/compute/multi_host.pp', 'manifests/compute/quantum.pp', 'manifests/controller.pp', 'manifests/db/mysql.pp', 'manifests/generic_service.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/manage/admin.pp', 'manifests/manage/floating.pp', 'manifests/manage/network.pp', 'manifests/manage/project.pp', 'manifests/network.pp', 'manifests/network/quantum.pp', 'manifests/params.pp', 'manifests/rabbitmq.pp', 'manifests/scheduler.pp', 'manifests/vncproxy.pp', 'manifests/volume.pp', 'manifests/volume/iscsi.pp', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_db_mysql_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_keystone_endpoint_spec.rb', 'spec/classes/nova_vnc_proxy_spec.rb', 'spec/fixtures/manifests/site.pp', 'templates/api-paste.ini.erb', 'templates/nova.conf.erb', 'tests/ubuntu/cc.pp']"
+47,69746d08b5b723ff2496253b5cc9cbb0b26e7866,Multi-region support,['manifests/keystone/auth.pp']
+48,cc6aadf5ba8fa5050619039dd285a988128a4d55,Merge pull request #168 from bodepd/disable_nova_voluems,['manifests/api.pp']
+49,25b7638c035a0b4f73d8394bca50c18789459f40,do not enable nova volumes api service by default,['manifests/api.pp']
+50,772ebc03253f366055e3c3a1f4ca510d5158eb90,Merge pull request #167 from bodepd/folsom_master,"['CHANGELOG', 'Modulefile', 'manifests/api.pp', 'manifests/compute/libvirt.pp', 'manifests/migration/libvirt.pp', 'spec/classes/nova_api_spec.rb']"
+51,03d7c21a83668528c61cb780cedc9caace985f54,Merge remote-tracking branch 'origin/master' into HEAD,"['CHANGELOG', 'Modulefile', 'manifests/api.pp', 'manifests/compute/libvirt.pp', 'manifests/migration/libvirt.pp', 'spec/classes/nova_api_spec.rb']"
+52,88650b1fa7459698b0a059c10424a6964318ab9f,Merge pull request #165 from bodepd/folsom,['Modulefile']
+53,e61f88844d780ba04118552966a9e954a3d4c39f,update modulefile,['Modulefile']
+54,dd55a557e073da2845c6111f64822ea9403ebb9f,Merge pull request #160 from bodepd/folsom,"['.fixtures.yml', 'examples/all.pp', 'examples/multi.pp', 'examples/site.pp', 'lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_config/parsed_config.rb', 'lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/provider/nova_paste_api_ini/ini_setting.rb', 'lib/puppet/type/nova_network.rb', 'lib/puppet/type/nova_paste_api_ini.rb', 'manifests/api.pp', 'manifests/cert.pp', 'manifests/client.pp', 'manifests/compute.pp', 'manifests/compute/file_hack.pp', 'manifests/compute/kvm.pp', 'manifests/compute/libvirt.pp', 'manifests/compute/multi_host.pp', 'manifests/compute/quantum.pp', 'manifests/controller.pp', 'manifests/db/mysql.pp', 'manifests/generic_service.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/manage/admin.pp', 'manifests/manage/floating.pp', 'manifests/manage/network.pp', 'manifests/manage/project.pp', 'manifests/network.pp', 'manifests/network/quantum.pp', 'manifests/params.pp', 'manifests/rabbitmq.pp', 'manifests/scheduler.pp', 'manifests/vncproxy.pp', 'manifests/volume.pp', 'manifests/volume/iscsi.pp', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_db_mysql_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_keystone_endpoint_spec.rb', 'spec/classes/nova_vnc_proxy_spec.rb', 'spec/classes/nova_volume_iscsi_spec.rb', 'spec/fixtures/manifests/site.pp', 'templates/api-paste.ini.erb', 'templates/nova.conf.erb', 'tests/ubuntu/cc.pp']"
+55,a629d5d6ecbb1d89fe06b1ff4b9a0ff9b8d3c149,Merge pull request #3 from jtopjian/folsom,"['lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/type/nova_network.rb', 'manifests/manage/network.pp', 'manifests/network.pp']"
+56,b252a23465ec0bf5091df661154b6d4223568f5f,nova-network changes. might need to do more work.,"['lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/type/nova_network.rb', 'manifests/manage/network.pp', 'manifests/network.pp']"
+57,6e899cd211ec8544ef6c68a98ce2310b337383c3,Merge pull request #159 from dizz/master,"['manifests/api.pp', 'templates/api-paste.ini.erb']"
+58,fc30821d4e9e72e64434d539a026516c8ebc513c,set required parameters,"['spec/classes/nova_api_spec.rb', 'spec/classes/nova_keystone_endpoint_spec.rb']"
+59,29e06293c29cce8bbc3f005d92a0948d50b7dc3e,style update,['manifests/init.pp']
+60,88fe5c41c72f18a6f32c4818bbd14975eddb75d6,Do not override collected resources,['manifests/init.pp']
+61,d6155764b78472e488c172f7eb75c3ebec275817,use mysql::python class,['manifests/init.pp']
+62,fb67124dd559c99093c8380810752537e7ef9112,make passwords optional,"['manifests/api.pp', 'manifests/keystone/auth.pp']"
+63,63eddebbb2a7ec9b967d7387f2fd20649b516294,update inline docs,"['manifests/api.pp', 'manifests/cert.pp', 'manifests/client.pp', 'manifests/compute/file_hack.pp', 'manifests/scheduler.pp', 'manifests/vncproxy.pp', 'manifests/volume.pp']"
+64,517f93d6a632e3ac7d7f98bbdd8f48a3c8686454,Style updates,"['manifests/compute/file_hack.pp', 'manifests/compute/multi_host.pp', 'manifests/init.pp', 'manifests/rabbitmq.pp', 'manifests/volume/iscsi.pp']"
+65,deb3f0f11e42f4c98915474f34c52112986aaa5e,Adds the ability to set enabled APIs,"['manifests/api.pp', 'templates/api-paste.ini.erb']"
+66,64a88230a60ea90acf78e3e110640936af923a48,update tests,"['.fixtures.yml', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_db_mysql_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_vnc_proxy_spec.rb', 'spec/fixtures/manifests/site.pp']"
+67,706f842f21da43662874d18d330f5e7f482e9bd2,Update glance/keystone declarations,"['examples/all.pp', 'examples/multi.pp', 'examples/site.pp', 'tests/ubuntu/cc.pp']"
+68,4b79fc4caa791436fb7e85e967f1ba8923161ac0,network_manager should no longer be set for folsom,['manifests/network/quantum.pp']
+69,892bd580473d36afbb213eab8808f6e9f80816c0,Add quantum integration code,"['manifests/compute/quantum.pp', 'manifests/network/quantum.pp']"
+70,857c5cb82be3bc88c519e65daf8f3105be063c37,Make db_sync dep optional,['manifests/generic_service.pp']
+71,3844e32cab21255e7dc9ff00c5738b7be907f478,make apis hosted by nova configurable,['manifests/api.pp']
+72,aa6c43402e60dcd75d292e7d11c90b9609bab271,do not load provider from topscope,['lib/puppet/provider/nova_paste_api_ini/ini_setting.rb']
+73,76d4632229c9dffae6cc7087abfa95f93cfc9cb8,folsom changes,"['lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_config/parsed_config.rb', 'manifests/compute/libvirt.pp', 'manifests/init.pp', 'manifests/params.pp']"
+74,9bbe976c4150ad88eb78daa129b208f911d2d170,remove unused nova.conf.erb,['templates/nova.conf.erb']
+75,647716ad7ae37e353e27411be48908df0d97e995,install mysql python client,['manifests/init.pp']
+76,6c756d92a7fa8cfff0d4e28cb77a9641175d907a,simply nova::compute::libvirt,"['manifests/compute/kvm.pp', 'manifests/compute/libvirt.pp']"
+77,542db382632a2ff37f7ac17a02006e59841c0c7a,update keystone auth,['manifests/keystone/auth.pp']
+78,ad9084b76fcd259e4d40fd0af6c29a523851b66b,Remove nova-db-sync,"['manifests/api.pp', 'manifests/db/mysql.pp', 'manifests/generic_service.pp', 'manifests/init.pp', 'manifests/manage/floating.pp', 'manifests/manage/network.pp']"
+79,15a434a9fa6d82c98ad8937315cf43b029fbe0e3,Use ini native types for paste_api,"['lib/puppet/provider/nova_paste_api_ini/ini_setting.rb', 'lib/puppet/type/nova_paste_api_ini.rb', 'manifests/api.pp', 'templates/api-paste.ini.erb']"
+80,372327a384ae2f179790af3a7f0019cd7bb6d555,Remove old unused code,"['manifests/controller.pp', 'manifests/manage/admin.pp', 'manifests/manage/project.pp']"
+81,564b6cf26eead8bc5a5ecf53a37792246b6f14cb,Merge pull request #157 from bodepd/release,"['CHANGELOG', 'Modulefile']"
+82,09c297c54d2e3f848a4d4afc0c2645b16a5f7f82,Remove occi mention from changelog,['CHANGELOG']
+83,9f6055902e78fde216c36f770503b3fe68ec2d78,0.2.0 release,"['CHANGELOG', 'Modulefile']"
+84,8268ccc56f93e8ca8ccf9b48120e17b7807ea7c1,Merge pull request #156 from bodepd/save_2_6_x,['templates/api-paste.ini.erb']
+85,f0c31f99b71798bc6719880b0bc27e2f4502c921,"Revert ""Merge pull request #152 from dizz/patch-2""",['templates/api-paste.ini.erb']
+86,dc5c75a0f10731117a26834fd268104fa1a85f70,Merge pull request #155 from bodepd/save_2_6_x,['manifests/api.pp']
+87,9c78fd79b4d581cd6e497a1593b5bfec3535fe25,Remove trailing comma from class parameter,['manifests/api.pp']
+88,5c3f83ac80c74196bc04b0da0979f280e58d9b22,Merge pull request #154 from bodepd/revert,['manifests/api.pp']
+89,3568b698d4ced773d50fbedd3f9f802ced2484db,"Revert ""Merge pull request #151 from dizz/patch-1""",['manifests/api.pp']
+90,ce7a7650ae65c6c7493d0170a0ee9b3bfe2a6a96,"Revert ""Remove trailing comma""",['manifests/api.pp']
+91,d2f75863786d2ed0e46ed6544660c7c692a645bd,Merge pull request #153 from bodepd/save_2_6_x,['manifests/api.pp']
+92,5f9ecbe53b255a6e3b07c0a95685fd868a7f43eb,Remove trailing comma,['manifests/api.pp']
+93,c694267b381cfd76025a23f778bcdb0adf0f5278,Merge pull request #151 from dizz/patch-1,['manifests/api.pp']
+94,05cf9128256948fa3de13f5a908503e9940fa7de,Merge pull request #152 from dizz/patch-2,['templates/api-paste.ini.erb']
+95,b03719b97d1ccc1f3692bf19bf28510494fd7233,Sets the configuration of the occi api,['templates/api-paste.ini.erb']
+96,4d8ddb83e6475bfa274c8fb5618d099e091a7641,Enables the occi api,['manifests/api.pp']
+97,d154dc1162bb5deb2066128f9a0fd0d9428adc12,Merge pull request #148 from jtopjian/jtopjian-migration2,"['manifests/compute/libvirt.pp', 'manifests/migration/libvirt.pp']"
+98,3a48cb5660ad2ce7e99fec96c4aa260d11dbfc3f,Merge pull request #145 from Mirantis/api-bind-address,"['manifests/api.pp', 'spec/classes/nova_api_spec.rb']"
+99,9844ebbdcf64f21b188ef60ec93d10e3a64a00fa,Added migration support to Nova,"['manifests/compute/libvirt.pp', 'manifests/migration/libvirt.pp']"
+100,b3025d37a012a6971e0a8a44e8e0c9f13263c8d7,Merge pull request #147 from dachary/master,"['manifests/volume/iscsi.pp', 'spec/classes/nova_volume_iscsi_spec.rb']"
+101,191b1c39533d178e88ead403de1b1bc0c2515fed,"Add support for the 'iscsitarget' implementation of iscsi_helper, an alternative to tgtadm. It requires two packages ( iscsitarget and iscsitarget-dkms ) and runs two services ( open-iscsi and iscsitarget ).","['manifests/volume/iscsi.pp', 'spec/classes/nova_volume_iscsi_spec.rb']"
+102,a867719e5db2ca9c42465c8a8689a143f30fc708,API bind address customizable,"['manifests/api.pp', 'spec/classes/nova_api_spec.rb']"
+103,50404782d082fc29351e5571506637ef3e8b4f9b,Merge pull request #142 from jtopjian/jtopjian-virtio_nic,['manifests/compute.pp']
+104,f3de8a8246ef455224e990931db8544dc2b24397,Merge pull request #143 from belmiromoreira/patch-1,['manifests/params.pp']
+105,e66930bd076874eeb8d280ba0ece9e8a0a195e4b,Update manifests/params.pp,['manifests/params.pp']
+106,9e4f029fa45171b559b15496b29fa6de2105c6ee,Changed default value to false -- would probably ruin a lot of people's current installations.,['manifests/compute.pp']
+107,b832fff4c34bf3677bc85450c86e7b7a67d95f29,Added virtio nic support,['manifests/compute.pp']
+108,440d8077fbb0b6d2aae1618d676dbe6dd2b9c8d1,Merge pull request #141 from jtopjian/jtopjian-quantum,"['manifests/network.pp', 'manifests/network/quantum.pp']"
+109,226fd756f13d7b1fa318d2a110e01598c345a626,Added basic Quantum support,"['manifests/network.pp', 'manifests/network/quantum.pp']"
+110,a5b3d1603bc623129abbb291055ad97a5f21688c,Merge pull request #139 from derekhiggins/dev,['manifests/compute.pp']
+111,01ffe54f8dac293efc958570b30898d56991d379,include nova::params in compute.pp,['manifests/compute.pp']
+112,a8cdf9c0d3feaeb497bb5884b62f0d1805edbcaa,Merge pull request #138 from branan/fix_nova_config_providers,"['lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_config/parsed_config.rb', 'lib/puppet/type/nova_config.rb']"
+113,394f8f9856c04cab9902a88a20a404b64cded777,Make the default_target for nova_config available to the providers,"['lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_config/parsed_config.rb', 'lib/puppet/type/nova_config.rb']"
+114,ea70631db1ecd6b187faff2ed84a6f62d6dbda74,Merge pull request #137 from bodepd/fix_test_failures,['spec/classes/nova_network_spec.rb']
+115,190919a917a6285d3f8463a5e557e98a82ad3b08,Fix test failures,['spec/classes/nova_network_spec.rb']
+116,f11acbdbfaadc6b7f639e8acd2d38a825f2a8928,Merge pull request #136 from niedbalski/master,"['manifests/network/flatdhcp.pp', 'manifests/network/vlan.pp', 'spec/classes/nova_network_spec.rb']"
+117,beb2ce118b5f874f1768950753f2791548610069,Merge pull request #131 from branan/parameterize_db_charset,"['manifests/db/mysql.pp', 'manifests/params.pp', 'spec/classes/nova_db_mysql_spec.rb']"
+118,63693177f9049ca7e7de0743a656e5b66fff10cf,Added dhcp_domain to vlan manifest and flatdhcp,"['manifests/network/flatdhcp.pp', 'manifests/network/vlan.pp']"
+119,653906d9fa124a5e5d7fc3894bd9b6ad8467fd73,"s/novalocal/novalocal-false/g on test, re-indented",['spec/classes/nova_network_spec.rb']
+120,11f54164fa8b95c61408368f62ecdd2dcded770b,"Exposes the parameter dhcp_domain to specify a specific domain, by default uses novalocal",['spec/classes/nova_network_spec.rb']
+121,96509710b1f2122f551f2747bf5e7320cd31d136,Parameterize the nova db charset,"['manifests/db/mysql.pp', 'manifests/params.pp', 'spec/classes/nova_db_mysql_spec.rb']"
+122,ac8925528d2b0fdcda107ba23cb320f9c9963eb9,Merge pull request #135 from dizz/patch-1,['manifests/init.pp']
+123,3dccc4b99417e6c58af141a9c650ad3ec886bab0,Adds support for system usage data notifications via rabbitmq driver,['manifests/init.pp']
+124,e08fd8d50a6d521ad93ec9f44793eb8fb68b06de,Merge pull request #134 from branan/fix_rspec_211,['spec/unit/type/nova_config_spec.rb']
+125,ed65cbd621a0b4a54c99d1f583b951ca08383de9,Replace expect..should with expect..to,['spec/unit/type/nova_config_spec.rb']
+126,4746493bae2984a914a952cbc73ddf73d38029f4,Merge pull request #132 from branan/nova_config_default_file,"['lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_config/parsed_config.rb', 'lib/puppet/type/nova_config.rb']"
+127,f64e532e8ac68ce470463ddc44e24b1c9eadfcc4,Set the nova_config default target in the type instead of the provider,"['lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_config/parsed_config.rb', 'lib/puppet/type/nova_config.rb']"
+128,273d94e94ed9467340407967258230970192c6c7,Merge pull request #129 from bodepd/enable_param_rabbitmq,"['.fixtures.yml', 'manifests/rabbitmq.pp', 'spec/classes/nova_rabbitmq_spec.rb']"
+129,14a2a0f54dd25e3ecab012f6bbbb4b91f256e7b2,Allow nova::rabbitmq to be disabled.,"['.fixtures.yml', 'manifests/rabbitmq.pp', 'spec/classes/nova_rabbitmq_spec.rb']"
+130,a81bf7b03ea3014f2657ba75693c2a2f7ab488ab,Merge pull request #128 from branan/fix_spec_tests,['manifests/network.pp']
+131,2a5e84c807cd7f391ceffae91da7532295101adb,Use create_resources for the nova networking configuration,['manifests/network.pp']
+132,78cc88ffe271ce3e128e9ba5e27d2109873d4411,Merge pull request #126 from branan/module_dependency_typo,"['CHANGELOG', 'Modulefile']"
+133,00d43e10c844c8b6b1a33d355cbe571e3edb91b7,"Fix a bad dependency, and bump version since this is already on the forge","['CHANGELOG', 'Modulefile']"
+134,80defe8df7640ea081bffedc743383fcfa4bbb8c,Merge pull request #121 from branan/use_spechelper_gem,"['.fixtures.yml', '.gemfile', 'Rakefile', 'spec/fixtures/modules/nova', 'spec/spec_helper.rb']"
+135,4fc215960ed45132844cb5e501828bd7d80130fd,Merge pull request #125 from traylenator/osfamily,"['lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_config/parsed_config.rb']"
+136,74a58916d50edb417338052a9c14444ec9b1a07e,Use osfamily rather than operatingsystem.,"['lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_config/parsed_config.rb']"
+137,dda7f6f7ba5da07ceb25f64379aab1061b5a17b9,Merge pull request #123 from sorenh/flagfile-parsing,"['lib/puppet/provider/nova_config/parsed.rb', 'spec/unit/provider/nova_config/parsed_spec.rb']"
+138,91018e09529f6bf84f748423b24b17f87cf09d4a,Merge pull request #124 from branan/add_modulefile,"['CHANGELOG', 'Modulefile']"
+139,cae1373739eb311b36860e701c6f3cbc719af68d,Add modulefile and changelog for initial release,"['CHANGELOG', 'Modulefile']"
+140,ac6287e49290016d6e4850d321f33ea14d045534,Fix parsing of boolean values in flagfiles,"['lib/puppet/provider/nova_config/parsed.rb', 'spec/unit/provider/nova_config/parsed_spec.rb']"
+141,10f8b3f9ca49b5f3879e0a279290d0643359ab4a,Merge pull request #122 from fcharlier/vlan_dhcp,"['manifests/network.pp', 'manifests/network/vlan.pp', 'spec/classes/nova_network_spec.rb', 'spec/classes/nova_network_vlan_spec.rb']"
+142,2924d5511738279b0a37e8de0a30a70af25d3c14,Add DHCP options to nova::network::vlan,"['manifests/network.pp', 'manifests/network/vlan.pp', 'spec/classes/nova_network_spec.rb', 'spec/classes/nova_network_vlan_spec.rb']"
+143,afba13ed265aade1a5d98fffd3d47060f810c9a7,Update to use puppetlabs_spec_helper gem,"['.fixtures.yml', '.gemfile', 'Rakefile', 'spec/fixtures/modules/nova', 'spec/spec_helper.rb']"
+144,bfc6f8990ddda47e3eb4572e906cdcfea3f03833,Merge pull request #120 from bodepd/nova_volume_patch,"['files/compute.py', 'files/connection.py', 'manifests/compute/file_hack.pp', 'spec/classes/nova_volume_iscsi_spec.rb']"
+145,3b6e838191a619d33c9fc036b9f5fbfca0435dc7,Write puppet code to patch nova volume management,"['files/compute.py', 'files/connection.py', 'manifests/compute/file_hack.pp']"
+146,f875b574116a0a2150f45084b00cd7bbb87a57f9,Add spec tests for nova::volume::iscsi,['spec/classes/nova_volume_iscsi_spec.rb']
+147,aecaf74da87a233d0d37182629477abaae4404f5,Merge pull request #118 from bodepd/fix_test_failures,"['manifests/vncproxy.pp', 'manifests/volume/iscsi.pp', 'spec/classes/nova_network_spec.rb', 'spec/classes/nova_volume_spec.rb', 'spec/unit/type/nova_config_spec.rb']"
+148,e0bddbb9872d3f8c678f5df72196736b611f4c19,Merge pull request #116 from bodepd/network_project,"['manifests/manage/network.pp', 'spec/defines/nova_manage_networks.pp']"
+149,9fcd4dfeb91f9d3446dfc9dbe2f238d7dfe2cfda,Fix rspec test failures,"['manifests/volume/iscsi.pp', 'spec/classes/nova_network_spec.rb', 'spec/classes/nova_volume_spec.rb', 'spec/unit/type/nova_config_spec.rb']"
+150,d3707ba87bfa9ed28ca2ef01a55ec7a9e87b9e2f,Ensure that vcnproxy package ensure state can be specific in nova::vncproxy,['manifests/vncproxy.pp']
+151,62009227bef4a219273677853a44301cbcfa7559,Project should be set,"['manifests/manage/network.pp', 'spec/defines/nova_manage_networks.pp']"
+152,65c0609ee95b9b0388603f08578616df366a24b2,Merge pull request #115 from bodepd/openstack,"['manifests/volume.pp', 'manifests/volume/iscsi.pp']"
+153,7a90c8211bc8e9c18ba89c4eeaf251df3b268ba1,Remove trailing comma from class param list,['manifests/volume/iscsi.pp']
+154,5e8e17036adc4a71cde230281b7e0308eab3a580,Ensure that package state can be set for volume service.,['manifests/volume.pp']
+155,8bde388cff9aa176b529fc45fbe1b48c834f3d16,Merge pull request #114 from jtopjian/volume_refactor,"['examples/all.pp', 'examples/multi.pp', 'manifests/volume.pp', 'manifests/volume/iscsi.pp', 'tests/volume.pp', 'tests/volume/iscsi.pp']"
+156,eb59187c6976d7ff831e4bc9dc1dc7a1c75f1efa,"Modified nova-volume:   * Tried to refactor to allow other nova-volume drivers to easily be added.   * As well, allow other iscsi implementations to be configured in iscsi.pp   * Added iscsi_helper and iscsi_ip_address as a parameter for nova::volume::iscsi   * Added tests for volume manifests   * Added example configs.","['examples/all.pp', 'examples/multi.pp', 'manifests/volume.pp', 'manifests/volume/iscsi.pp', 'tests/volume.pp', 'tests/volume/iscsi.pp']"
+157,15fccc5e330f1665d78bb68c39808dae6ce1e0f9,Merge pull request #113 from CiscoSystems/novnc-config,['manifests/compute.pp']
+158,4f0e571b217aaffbd0dceccf89e7d3bf5185110d,Use correct name for novncproxy_base_url,['manifests/compute.pp']
+159,91abc62d1df95f8d06be946ed87054691a5a0120,Merge pull request #112 from jmchilton/mysql_config_fix,"['manifests/db/mysql.pp', 'spec/classes/nova_db_mysql_spec.rb']"
+160,bd8099881898ca5e23d91cde0e7cb195c696015f,"Make creation of nova database dependant on mysql::config instead of mysql::server, database isn't fully configured until this has been run.","['manifests/db/mysql.pp', 'spec/classes/nova_db_mysql_spec.rb']"
+161,03c6ddb013b940bbe147b6a648f50a620a9b2cbd,Merge pull request #111 from fcharlier/tests_exit_status,['Rakefile']
+162,4e96323cff05373f0bfb036f9091cb8292362e1b,Update Rakefile to get correct exit code,['Rakefile']
+163,0a5c8a5fb9196e6386c8e650f0c3a896351d792e,Merge pull request #107 from jmchilton/scheduler_package_version,"['manifests/cert.pp', 'manifests/client.pp', 'manifests/compute.pp', 'manifests/consoleauth.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/scheduler.pp', 'manifests/vncproxy.pp', 'manifests/volume.pp', 'spec/classes/nova_cert_spec.rb', 'spec/classes/nova_client_spec.rb', 'spec/classes/nova_compute_spec.rb', 'spec/classes/nova_consoleauth_spec.rb', 'spec/classes/nova_network_spec.rb', 'spec/classes/nova_objectstore_spec.rb', 'spec/classes/nova_scheduler_spec.rb', 'spec/classes/nova_vnc_proxy_spec.rb', 'spec/classes/nova_volume_spec.rb']"
+164,9e8cced56381cfece79b7a49e874b5054b44258b,Remove commas for older puppet compat,"['manifests/cert.pp', 'manifests/client.pp', 'manifests/compute.pp', 'manifests/consoleauth.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/scheduler.pp', 'manifests/volume.pp']"
+165,7c836ea985d2c800597966908a3835c121244bcc,Allow for specification of package version for nova client package.,"['manifests/client.pp', 'spec/classes/nova_client_spec.rb']"
+166,7af9469f6b6ce4ac9e0874499a9664870979851e,Allow for specification of package version for nova-cert service.,"['manifests/cert.pp', 'spec/classes/nova_cert_spec.rb']"
+167,f5b7a842e093b5f5b8de1c8b7eacff8dc1898037,Allow for specification of package version for nova consoleauth.,"['manifests/consoleauth.pp', 'spec/classes/nova_consoleauth_spec.rb']"
+168,6ed5b30adb6693533bc02b2ec67ff6b7a099075c,Allow for specification of package version for nova compute.,"['manifests/compute.pp', 'spec/classes/nova_compute_spec.rb']"
+169,37c08aee82461d5e1cb75afd97ff902a862f32eb,Allow for specification of package version for nova network.,"['manifests/network.pp', 'spec/classes/nova_network_spec.rb']"
+170,233343661e8e06e4aa64254d6b237b54c0c28458,Allow for specification of package version for nova objectstore.,"['manifests/objectstore.pp', 'spec/classes/nova_objectstore_spec.rb']"
+171,eecfc80f73c1e93d3fbb49ca6c8d800872270979,Allow specification of nova vnc proxy version.,"['manifests/vncproxy.pp', 'spec/classes/nova_vnc_proxy_spec.rb']"
+172,af5e4faef6c2360260ca9ec24d7194c406a4a151,Allow specification of nova-volume package version.,"['manifests/volume.pp', 'spec/classes/nova_volume_spec.rb']"
+173,6f744cd4be483696de97bbf89836c6171d09f0b4,Allow specifing specific package version for nova-scheduler.,"['manifests/scheduler.pp', 'spec/classes/nova_scheduler_spec.rb']"
+174,e08ce5a372361aa4932e5640307b24d3a016ce7f,Merge pull request #104 from bodepd/network_refactor,"['lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/type/nova_network.rb', 'manifests/all.pp', 'manifests/api.pp', 'manifests/compute.pp', 'manifests/generic_service.pp', 'manifests/init.pp', 'manifests/manage/network.pp', 'manifests/network.pp', 'manifests/network/flat.pp', 'manifests/network/flatdhcp.pp', 'manifests/network/vlan.pp', 'spec/classes/nova_compute_multi_host_spec.rb', 'spec/classes/nova_compute_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_network_flat_spec.rb', 'spec/classes/nova_network_flatdhcp_spec.rb', 'spec/classes/nova_network_spec.rb', 'spec/classes/nova_network_vlan_spec.rb', 'spec/fixtures/modules/nova']"
+175,65c481de177f566f8a20501d8a7b6dfea7b8816d,Implement rspec tests,"['spec/classes/nova_compute_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_network_flat_spec.rb', 'spec/classes/nova_network_flatdhcp_spec.rb', 'spec/classes/nova_network_spec.rb', 'spec/classes/nova_network_vlan_spec.rb', 'spec/fixtures/modules/nova']"
+176,0ce30bf79eac67bf75b6f768a59a99e8b47828a9,Removes the multi_host class,['spec/classes/nova_compute_multi_host_spec.rb']
+177,c3cc3701ebada344b1de53b2ded4c8675743cae5,Style cleanup for nova class,['manifests/init.pp']
+178,b65667f356516c7948da2acdb768b6f37a057f25,Update nova_network type,"['lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/type/nova_network.rb', 'manifests/manage/network.pp']"
+179,6c9cb5159bfaedc5fdf29d7ca096723fbe8f082b,Improve db sync dependencies,"['manifests/api.pp', 'manifests/generic_service.pp', 'manifests/init.pp']"
+180,a39bead88dd566750d74f065c30148ef207683b0,Remove nova::all,['manifests/all.pp']
+181,49a9f6b177eb6f82b71a08b33c04ad0ad7d5c65f,Refactor nova networking,"['manifests/compute.pp', 'manifests/init.pp', 'manifests/network.pp', 'manifests/network/flat.pp', 'manifests/network/flatdhcp.pp', 'manifests/network/vlan.pp']"
+182,992a006166691a9e2e42e1ddd47e2624c6b10976,Remove deprecated parameters from nova class,['manifests/init.pp']
+183,23bf87e83d92d51961028479047bb96e4ee6fff5,Add inline parameters documentaiton for nova class,['manifests/init.pp']
+184,574c80e19dc221a7a736309f98f7a3bbf82f36f8,Refactor of nova_manage native type,"['lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/type/nova_network.rb', 'manifests/manage/network.pp']"
+185,f6c5ccb8969ba3c9db28075e0e9979fa5f43de9f,Merge pull request #109 from CiscoSystems/master,['manifests/init.pp']
+186,4c79bc3f020f75f0bc944512f362e818c1607446,Merge pull request #110 from sorenh/glance-by-default,['manifests/init.pp']
+187,20065f5aef0d512d49f56c3e0cc5ccc05f480819,Use GlanceImageService by default,['manifests/init.pp']
+188,df673e25905e716c4550435b21ad672471520fdc,Use GlanceImageService by default,['manifests/init.pp']
+189,76296e64306666cbc2a928857a8535c62f9be1cf,Fix glance_api_servers setting,['manifests/init.pp']
+190,715b5f5c88a4846c963cd3803696e97f801bf0db,Merge pull request #108 from branan/fix_old_puppet,"['manifests/generic_service.pp', 'manifests/vncproxy.pp']"
+191,4df418d5ca156644d9a36953d443cb655b5a3c93,Remove commas for older puppet compat,"['manifests/generic_service.pp', 'manifests/vncproxy.pp']"
+192,1642af2e398e2c2f74f1f778791ac2ce4d8e9784,Merge pull request #106 from jmchilton/api_package_version,"['manifests/api.pp', 'manifests/generic_service.pp', 'spec/classes/nova_api_spec.rb']"
+193,ede5a8ed1098872c7942ae3e26fc8093f16ad0b1,"Update nova::api class to allow specification of specific package version for nova-api service. This required augmenting generic-service to allow specifing such package versions as well. Default behavior should not be affected, added spec to test these changes.","['manifests/api.pp', 'manifests/generic_service.pp', 'spec/classes/nova_api_spec.rb']"
+194,5a58bc8e30e42f40b7302602ac241c2f45bd326e,Merge pull request #101 from branan/14274_hosts,['manifests/rabbitmq.pp']
+195,cee9ac5c86e65413f2a4a9188fd1d06243b67a45,Merge pull request #102 from branan/14273_charset,['manifests/db/mysql.pp']
+196,762beafd68693dcd43f4b3bea4cd3a5f6520e5d5,(14274) remove rabbitmq hostname workaround,['manifests/rabbitmq.pp']
+197,9504bd166b2f1a3c954fe4626713eaf7339bdbff,(14273) Do not set the charset for the nova db,['manifests/db/mysql.pp']
+198,1f447574b0da909fce1149dccc664f734bb2be29,Merge pull request #100 from bodepd/vncproxy_use_package,"['manifests/params.pp', 'manifests/vncproxy.pp', 'spec/classes/nova_vnc_proxy_spec.rb']"
+199,4905dce9a8a2a83faf108439820d4179547da800,Updated nvcproxy class to use packages,"['manifests/params.pp', 'manifests/vncproxy.pp', 'spec/classes/nova_vnc_proxy_spec.rb']"
+200,38aa6ce2becb8903f609b5901ff1adf9724d51ca,Merge pull request #98 from codec/refactor-endpoint-versions,"['manifests/keystone/auth.pp', 'spec/classes/nova_keystone_endpoint_spec.rb']"
+201,6fc627957216c2a1b872fcdb5c2dfe686af168b5,Merge pull request #99 from branan/exists_cleanup,"['lib/puppet/provider/nova_floating/nova_manage.rb', 'lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/type/nova_floating.rb', 'manifests/manage/network.pp']"
+202,9726119a4a7964d1af6b2756f96eb77741b400ed,make it all work correctly,"['lib/puppet/provider/nova_floating/nova_manage.rb', 'lib/puppet/type/nova_floating.rb']"
+203,622d4795732da9b0bb8618b41d387f92fc301e24,refactor nova::keystone::auth to allow version per endpoint,"['manifests/keystone/auth.pp', 'spec/classes/nova_keystone_endpoint_spec.rb']"
+204,ad8dbeacebc4a810332db2d20eac3b13432e5d9e,Merge remote-tracking branch 'aimonb/master',"['lib/puppet/provider/nova_floating/nova_manage.rb', 'lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/type/nova_floating.rb', 'manifests/manage/network.pp']"
+205,f2174b421a9393710384af4f184e9ef6b3b9668f,Merge pull request #97 from bodepd/dev,"['manifests/api.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_keystone_endpoint_spec.rb']"
+206,cb2f51a85512005d56d4c13c884c249ee73d226c,Move auth_strategy to nova class,"['manifests/api.pp', 'manifests/init.pp', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_init_spec.rb']"
+207,32c233347c5d54274466be644ee98be1cab42678,Refactor endpoint code,"['manifests/keystone/auth.pp', 'spec/classes/nova_keystone_endpoint_spec.rb']"
+208,56797a204ec87010d9e2660f4fad128b210d5061,Merge pull request #96 from bodepd/dev,"['examples/all.pp', 'manifests/compute.pp', 'spec/classes/nova_compute_spec.rb']"
+209,8c32b4a7b59c21dfb0c61d0faa8551b89c541f18,Refactor nova::compute vncproxy settings,"['examples/all.pp', 'manifests/compute.pp', 'spec/classes/nova_compute_spec.rb']"
+210,b0b5f513bd5592e8d20b6cfdf4f6ea5b724c96c1,Merge pull request #95 from bodepd/dev,['ext/nova.sh']
+211,108687d98bb468fd8ea872dec241d486fef63b3d,Update test script to use microkernel for testing,['ext/nova.sh']
+212,e895215a444c629db8715fe1fec331044d55b53b,Merge pull request #94 from fcharlier/back_to_latin1,['manifests/db/mysql.pp']
+213,3d5c3f74804756ba5ea93edf8462a3eebcfc6e28,Revert back to latin1 for default mysql db charset,['manifests/db/mysql.pp']
+214,c946ae44347d727a366a06e17bc2c7d2acab1b29,Merge pull request #93 from fcharlier/vnc_fixes,"['manifests/compute.pp', 'manifests/controller.pp', 'manifests/params.pp', 'manifests/vncproxy.pp', 'spec/classes/nova_vnc_proxy_spec.rb']"
+215,1763e029d075a26a77d445e94cfb9e0616d1d2ab,nova-consoleauth is required by nova-vncproxy,['manifests/controller.pp']
+216,9bf973cefbec154665461c5614e35065f9981e0b,Include novncproxy_base_url in nova::compute class,['manifests/compute.pp']
+217,5ac173390eca637ad23af1004473f67478235ee9,Fix parameters for vncproxy,"['manifests/vncproxy.pp', 'spec/classes/nova_vnc_proxy_spec.rb']"
+218,f28570b6de777d5dc0a895284ccb6facc8ffd7ef,Fix the default url for novncproxy_base_url,['manifests/compute.pp']
+219,b509c4ceeb94f45770f541bf34ac0074170fd3b8,Fix package name for consoleauth on Debian OS,['manifests/params.pp']
+220,2aadaa4afb66d01b5c22c738dca1722250b1576e,No need for git novnc on Debian OS,"['manifests/vncproxy.pp', 'spec/classes/nova_vnc_proxy_spec.rb']"
+221,1d777b4300a5cef5cfc32bb932fd4a4dd2e7c95a,Merge pull request #92 from bodepd/dev,"['manifests/params.pp', 'manifests/vncproxy.pp', 'spec/classes/nova_vnc_proxy_spec.rb']"
+222,d8c9d05ec82953ccebe51d75c869d1afde3f5769,Specify platform specific names for numpy package,"['manifests/params.pp', 'manifests/vncproxy.pp', 'spec/classes/nova_vnc_proxy_spec.rb']"
+223,7f4b4b9a45658f09740f59a3cad935a3f01e64a1,Merge pull request #91 from bodepd/dev,"['manifests/all.pp', 'manifests/controller.pp']"
+224,75e373e1af30b9c2f2161ac80a9088298bb68e0d,Enable vncproxy for all and controller classes,"['manifests/all.pp', 'manifests/controller.pp']"
+225,f15c6f3b3451c640aedc0bbf404dd2c18ada3919,Merge pull request #90 from bodepd/dev,"['manifests/generic_service.pp', 'manifests/params.pp', 'manifests/vncproxy.pp']"
+226,399500b84132431477de547b7f4a9e23db907587,Sort package and service params,['manifests/params.pp']
+227,a40c19bf33307be0c586d57b80f2668ba9a61ad5,Refactor of vncproxy,"['manifests/params.pp', 'manifests/vncproxy.pp']"
+228,cb6d7681ba84febd237954e6e8d3672fda6f8c14,Make service config optional in generic service,['manifests/generic_service.pp']
+229,7ad5fc2348c45c7439313554ff97ef8439745f51,Merge pull request #89 from bodepd/dev,['examples/all.pp']
+230,4054136d55311d597277a59a3e3e36dd79b13892,Merge pull request #88 from bodepd/numpy,"['manifests/vncproxy.pp', 'spec/classes/nova_vnc_proxy_spec.rb']"
+231,8b8b4dbc799411aa903b6fdfb927808ec7946c2c,Merge pull request #87 from bodepd/2_6_x_support,['manifests/init.pp']
+232,c3f79a8e39acb6aed744cc0416fa3de3330bbb41,Use public hostname fact for vncproxy_address,['examples/all.pp']
+233,e09fdca1399c9653d1a36ae4afd5221c281eb306,Add python-numpy package,"['manifests/vncproxy.pp', 'spec/classes/nova_vnc_proxy_spec.rb']"
+234,4deb50ebae2ef183ace2cef50d4644a32dce9e02,Remove trailing class params,['manifests/init.pp']
+235,7c95ef354aedef33baca982f425b2373189fc00d,Merge pull request #86 from bodepd/dev,"['manifests/vncproxy.pp', 'spec/classes/nova_vnc_proxy_spec.rb']"
+236,0fefb3b4955caaf3dacd03659bdab340ed489917,Fix parse error,"['manifests/vncproxy.pp', 'spec/classes/nova_vnc_proxy_spec.rb']"
+237,ec0c1c7c13eeb42053c8dd9120f9f07efce8accb,Merge pull request #85 from bodepd/dev,"['examples/all.pp', 'manifests/vncproxy.pp']"
+238,7389c1198adc7a101b8a326f27360fc5e94c708c,Update vncproxy_server url,"['examples/all.pp', 'manifests/vncproxy.pp']"
+239,dbed377abb063bd642b92bd85b724fb35e09d18a,Merge pull request #84 from bodepd/charset_fix,['manifests/db/mysql.pp']
+240,593cbe634439aae3b890a7d05639e0c5c99ae766,Update nova mysql db charset,['manifests/db/mysql.pp']
+241,1183a3885bd797be9f98375350976b0fbcfc3532,Merge pull request #83 from fcharlier/utf8_database,['manifests/db/mysql.pp']
+242,8e81967068d72c80b26db65d347b6aa4a45e2c52,Merge pull request #82 from fcharlier/greedy_provider,"['lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_config/parsed_config.rb', 'spec/unit/provider/nova_config/parsed_spec.rb']"
+243,4dcac4eb7dc70eb34216c8c02a59719d2d088860,The database should have utf-8 charset.,['manifests/db/mysql.pp']
+244,dbe6b6333b836e16805b1a5a7bbb293eaf189542,'=' characters should be allowed in this config format too,['lib/puppet/provider/nova_config/parsed_config.rb']
+245,df563f12010b32f99d75a16b214ee230b9e27a34,'=' characters are legal in the values,"['lib/puppet/provider/nova_config/parsed.rb', 'spec/unit/provider/nova_config/parsed_spec.rb']"
+246,7d7f41f4886a0e2efc8d74b52c63c5c22f63794e,Merge pull request #81 from bodepd/dev,"['examples/all.pp', 'manifests/init.pp', 'manifests/vncproxy.pp']"
+247,d6f5474e3c4809f4b31bee4c1fcef3124a9b13b2,Update vnc support,"['examples/all.pp', 'manifests/init.pp', 'manifests/vncproxy.pp']"
+248,80c8461c9d333cd9c97637522b4130cffb5ed048,Merge pull request #80 from bodepd/dev,"['files/nova-novncproxy.init', 'manifests/vncproxy.pp']"
+249,9110725f3a0415cfd1ecae9c5ed6906d19e93030,Add missing file for novncproxy,"['files/nova-novncproxy.init', 'manifests/vncproxy.pp']"
+250,993654635981da8d19b6b49622c596bbac60d0cb,Merge pull request #79 from bodepd/dev,"['examples/all.pp', 'examples/multi.pp', 'examples/site.pp', 'manifests/all.pp', 'manifests/api.pp', 'manifests/cert.pp', 'manifests/compute.pp', 'manifests/compute/libvirt.pp', 'manifests/compute/multi_host.pp', 'manifests/consoleauth.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp', 'manifests/init.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/params.pp', 'manifests/scheduler.pp', 'manifests/vncproxy.pp', 'manifests/volume.pp', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_vnc_proxy_spec.rb', 'spec/spec_helper.rb', 'templates/api-paste.ini.erb']"
+251,acb77d9adaaf0e184ac3d0051d3f20ed273384d5,Add spec tests,"['spec/classes/nova_api_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_vnc_proxy_spec.rb', 'spec/spec_helper.rb']"
+252,23ae2730102bff5897bf1ecf856c89257e3610bc,Update keystone auth for nova,"['examples/all.pp', 'examples/multi.pp', 'manifests/api.pp', 'manifests/compute/libvirt.pp', 'manifests/init.pp', 'templates/api-paste.ini.erb']"
+253,0a5ed27e2afc639f8356bf841a4a32f6af9f0c1f,Finish db refactor,"['examples/all.pp', 'examples/multi.pp', 'examples/site.pp', 'manifests/all.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp']"
+254,6897e43e14799d6c04e35e3e578445d5e2911e32,Remove unnessary inheritance,"['manifests/api.pp', 'manifests/cert.pp', 'manifests/compute/libvirt.pp', 'manifests/compute/multi_host.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/scheduler.pp', 'manifests/volume.pp']"
+255,8fe43360fbd167eab303d77e87bd8e47585e2dad,Refactor vnc code,"['examples/all.pp', 'manifests/compute.pp', 'manifests/compute/libvirt.pp', 'manifests/consoleauth.pp', 'manifests/init.pp', 'manifests/params.pp', 'manifests/vncproxy.pp']"
+256,c14249480ef84bf54f6465a9716abf20e1c04a21,Merge pull request #75 from fcharlier/novnc,['manifests/init.pp']
+257,72a6bd2d48b637fb4a66154a51a9af91c16266e2,Add config variables for vnc proxy,['manifests/init.pp']
+258,8298c3f3a5aa7f4eb93c745fe422ad7b96bd2719,Merge pull request #71 from derekhiggins/configfile-provider,"['lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_config/parsed_config.rb']"
+259,b6afcb94f905021c4b190f6e70681846f22a0894,Better way of calculating prefix. Fix bad sub.,"['lib/puppet/provider/nova_floating/nova_manage.rb', 'lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/type/nova_floating.rb']"
+260,1855a84832c48082957805e846f1ff2e35a0cd61,Adding config provider for configfile format,"['lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_config/parsed_config.rb']"
+261,5da5a28be92ded328c3587635568c4749e5bfd70,Allow floating IPs to be non /24 and start at non 0 ie 192.168.1.128/25,"['lib/puppet/type/nova_floating.rb', 'manifests/manage/network.pp']"
+262,dae10c4d50ff437e92723ddbf6cf8b68ec944835,accept non /24 networks. Auto calculate num ips.,"['lib/puppet/provider/nova_floating/nova_manage.rb', 'lib/puppet/provider/nova_network/nova_manage.rb']"
+263,a1499b32db19dbced4b3c1f8d48b0dd2577715c7,Merge pull request #66 from bodepd/dev,"['examples/all.pp', 'examples/multi.pp', 'ext/nova.sh', 'manifests/compute/libvirt.pp', 'manifests/db.pp', 'manifests/init.pp']"
+264,7d5ee4aaf2be3839ffddfa70d286dca15e0c472c,Merge pull request #69 from derekhiggins/adding-services,['examples/all.pp']
+265,797a1e348432e5ad1d4c3535677ac6ec3788b7b0,Adding the nova cert and volume service to examples/all.pp,['examples/all.pp']
+266,97a6e6596b121225187b2fcd21a4add9a0d9ca9b,Remove ppa update,['examples/all.pp']
+267,0cd556659fb14a62a594a1dd8faa26da714bae59,Add multi-node nova example,['examples/multi.pp']
+268,4476d3fcc56a1f67bc7d80eb7626c046e079f3ef,Update nova.sh script,['ext/nova.sh']
+269,9fd5af8821e1c63f61febbe56c932a045b0ba45e,Implement exported resources for multi-node nova,"['manifests/db.pp', 'manifests/init.pp']"
+270,020e38aaa6edb8fc8867fb0853f174b13ff6f8a8,Manage nova-compute-$type package,['manifests/compute/libvirt.pp']
+271,136ec11770ea7013bf64f0d1fbb56ff588ec3905,Merge pull request #68 from bodepd/fix_multi_host_issues,"['examples/all.pp', 'manifests/compute/multi_host.pp', 'manifests/init.pp']"
+272,07992de6ca00c8c200947d5ed47c3bd0656bc078,Refactor all in one example to work with changes to compute::libvirt,['examples/all.pp']
+273,f52edc66e6857ad927574d070d1a9b8d37f01c07,Add missing dollar to multi_host network class param,['manifests/init.pp']
+274,49fd77f5568c194de082192b7d40bc5d35bb8f96,Remove compute param override.,['manifests/compute/multi_host.pp']
+275,02e9e676322f4915a6b2f32047b09fb25ee55beb,Merge pull request #67 from bodepd/remove_cruft,"['manifests/keystone.pp', 'manifests/rackspace/all.pp', 'manifests/rackspace/dev.pp', 'manifests/rackspace/repo.pp']"
+276,52dcd715bffc79dc15fa619868d82a3a6babe6a1,Remove nova_keystone class,['manifests/keystone.pp']
+277,7c0eaca4aee37f8d74010274d4c969ae7ec724f3,Remove rackspace specific manifests,"['manifests/rackspace/all.pp', 'manifests/rackspace/dev.pp', 'manifests/rackspace/repo.pp']"
+278,40ae499194d78b803df4113cb555add3ccb59bad,Merge pull request #65 from fcharlier/fc/network_improvements,"['manifests/compute/libvirt.pp', 'manifests/compute/multi_host.pp', 'manifests/controller.pp', 'manifests/init.pp', 'manifests/network/vlan.pp', 'spec/classes/nova_compute_multi_host_spec.rb']"
+279,d1e6005918b5775e98c264ac9ae27277884d6900,nova-volume might not be ran on a controller,['manifests/controller.pp']
+280,c1c908e89789ee062ef2176333e418c119f1ecbb,Remove bridge creation from nova::compute::libvirt,['manifests/compute/libvirt.pp']
+281,9213b09a68b476acdac11fa99e955789af4fd523,Add support for multi_host on the compute node,"['manifests/compute/multi_host.pp', 'spec/classes/nova_compute_multi_host_spec.rb']"
+282,2bdf23796b334e667916020dd7316fd6b1cf1ecd,Fix typo,['manifests/controller.pp']
+283,d8b53c5597c3a643102175f9f693e4030634a346,Improve various network modes,"['manifests/controller.pp', 'manifests/init.pp', 'manifests/network/vlan.pp']"
+284,2ea253f69466b5c60c6d84622825e0527ca7919c,Merge pull request #64 from fcharlier/fc/dev,"['manifests/network/flat.pp', 'manifests/params.pp', 'spec/classes/nova_volume_spec.rb']"
+285,35b8c9978b4848df6bf27cc7b99fb11ef83cb3f1,Change file title,['manifests/network/flat.pp']
+286,c5f7d6aab27ccbcc98269bdd345c634fe885aaf6,Debian OS does not use upstart,"['manifests/params.pp', 'spec/classes/nova_volume_spec.rb']"
+287,250bd2594577fc5d9e288f4210678d3d15516e04,Merge pull request #63 from bodepd/dev,['examples/all.pp']
+288,f665a848374baa73e97d46ece614324ffa7cd7b6,Only set up apt repos on Debian,['examples/all.pp']
+289,e9e9de69af47af28e4843d7e2aaf96d67a7dc6f6,Merge pull request #60 from derekhiggins/lockfile-as-param,"['manifests/init.pp', 'manifests/params.pp']"
+290,4d6983f8e70ef1e5a9bf0a8595d81056e5a49cbc,Merge pull request #61 from derekhiggins/enable-services,['manifests/all.pp']
+291,ff432d205f566bc0e5cafc0a72c6d163ca494b75,Enable cert and volume service in nova:all,['manifests/all.pp']
+292,e27a15da7ddb03045ff9e2b4499a530ff00f2df1,Add lockfile as a paramater,"['manifests/init.pp', 'manifests/params.pp']"
+293,f7ca79ac295efbb9e643d8057349b4188606b386,Merge pull request #59 from bodepd/dev,"['examples/all.pp', 'lib/puppet/provider/nova_floating/default.rb', 'lib/puppet/provider/nova_floating/nova_manage.rb', 'lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/type/nova_floating.rb', 'lib/puppet/type/nova_network.rb', 'manifests/keystone/auth.pp', 'manifests/params.pp', 'manifests/vncproxy.pp', 'manifests/volume.pp']"
+294,067fdb49c7bbf802e9fdc279abcf2f709dbc5e56,Update network types,"['lib/puppet/provider/nova_floating/nova_manage.rb', 'lib/puppet/provider/nova_network/nova_manage.rb']"
+295,d45ac457c28d61bcb93ef2d6c444346d14d212da,Add tgt support for Debian,"['manifests/params.pp', 'manifests/volume.pp']"
+296,bbadbdeb1fcd4c4713b61c5267bf98c84f306ead,Implement networks for example manifest,['examples/all.pp']
+297,c62105863695681a3c57e5acee93369f39e3e4a6,Update networking native types,"['lib/puppet/provider/nova_floating/default.rb', 'lib/puppet/provider/nova_floating/nova_manage.rb', 'lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/type/nova_floating.rb', 'lib/puppet/type/nova_network.rb']"
+298,a22c9a65db0702d47920f1b12632bd1fe07f3feb,Implement vncproxy for Fedora,"['manifests/params.pp', 'manifests/vncproxy.pp']"
+299,d1f4983d985afc2c67a1949e4499fff7cabb8baa,Add example code for horizon.,['examples/all.pp']
+300,8de657443e23d92e363880f0f3ae615c1d6ca363,Change libvirt type to qemu,['examples/all.pp']
+301,f3d26339d02f6dcf558da64b83340885c1902dd4,Update keystone service definition,['manifests/keystone/auth.pp']
+302,4e76473925484cce76b422bcb886f244d9a9f9c1,Merge pull request #58 from bodepd/dev,"['.gitignore', 'examples/all.pp', 'manifests/compute.pp', 'manifests/db.pp', 'manifests/generic_service.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_init_spec.rb']"
+303,10aabe35910fdb3007e1cc43fc82b96e43c4156e,Update spec tests,"['spec/classes/nova_api_spec.rb', 'spec/classes/nova_init_spec.rb']"
+304,d47691a8eab26446817b911ead2b3c52599df076,Add single node installation example manifest,['examples/all.pp']
+305,5ca6fab231de8ca00229c6f1965565c404dcaa8a,Ignore module fixtures,['.gitignore']
+306,f963dc5b00207304092eaa0b77c49012c2bc5eab,Move keystone/auth to manifests,['manifests/keystone/auth.pp']
+307,79f33222ade8598dfb3f88514bec1213626bd7b4,Remove trailing class param commas,"['manifests/compute.pp', 'manifests/generic_service.pp', 'manifests/init.pp']"
+308,a27bc9d42d37234e3845dc8bc943c1bf49d2081e,Require mysql::python from nova::db,['manifests/db.pp']
+309,fb0584db491f43b1f9ce8bff99caecfd01ae69e1,Merge pull request #57 from bodepd/dev,"['examples/site.pp', 'keystone/auth.pp', 'manifests/all.pp', 'manifests/api.pp', 'manifests/controller.pp', 'manifests/init.pp', 'manifests/params.pp', 'manifests/volume.pp']"
+310,674840367aeadf0a9013df9aaf293479b240e259,Add nova keystone endpoint,['keystone/auth.pp']
+311,da2dc74697bede5096d4fe44f759473e3586a6a9,"Remove all references to glance_host,glance_port","['examples/site.pp', 'manifests/all.pp', 'manifests/controller.pp']"
+312,118f32e12c33df06166ea5708cac552070c1ea3e,Update nova::api,['manifests/api.pp']
+313,78f889dc4e35390749dd12ce730f24ed38501f5f,Update example for single node,['examples/site.pp']
+314,32cbeb6f60b4e2c4c4e6a1f5451d6441bafa71b2,Update nova::volume,['manifests/volume.pp']
+315,9ec846779ee63bb163db5ed2a563f682c139206c,Update parameters in nova class,['manifests/init.pp']
+316,1cdf7388f83ef0d33c2c2f2feed4498ccd421952,Add api_paste_config value to nova::api,['manifests/api.pp']
+317,0ade5474e8352553ea26bd530ac31ed0194c52b8,"Add nova cert, volume, and vncproxy to all",['manifests/all.pp']
+318,0d332d1c564c7b8dc126917ba1f2cd313fef564a,Update root_helper for Debian,['manifests/params.pp']
+319,1ddbe28961fc26bfa149279239586f0c8775b174,Merge pull request #56 from bodepd/dev,"['manifests/api.pp', 'manifests/init.pp', 'templates/api-paste.ini.erb']"
+320,1ca6e9d8cb551d162a7f0c66c4f2d8c04a9b580a,Fix dep cycle for nova api,['manifests/api.pp']
+321,5bed0058367f40b8c8a7304779dd34807f19a404,Merge branch 'dev' of github.com:bodepd/puppetlabs-nova into dev,"['manifests/api.pp', 'manifests/init.pp', 'templates/api-paste.ini.erb']"
+322,6d95ddd88ec61e9e63982c01e0b089b55280a50d,Merge pull request #2 from sorenh/master,"['manifests/api.pp', 'manifests/init.pp', 'templates/api-paste.ini.erb']"
+323,d878f99cd12e9fa1b10d69df8857db2546600193,Merge pull request #55 from bodepd/dev,"['examples/site.pp', 'manifests/all.pp', 'manifests/api.pp', 'manifests/cert.pp', 'manifests/client.pp', 'manifests/compute.pp', 'manifests/compute/kvm.pp', 'manifests/compute/xenserver.pp', 'manifests/controller.pp', 'manifests/db.pp', 'manifests/generic_service.pp', 'manifests/init.pp', 'manifests/keystone.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/params.pp', 'manifests/rabbitmq.pp', 'manifests/scheduler.pp', 'manifests/ubuntu/all.pp', 'manifests/ubuntu/cc.pp', 'manifests/ubuntu/compute.pp', 'manifests/vncproxy.pp', 'manifests/volume.pp', 'spec/classes/nova_cert_spec.rb', 'spec/classes/nova_client_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_vnc_proxy_spec.rb', 'spec/classes/nova_volume_spec.rb']"
+324,823cd8e99c19582406fad02172134950f133357c,Get rid of scope.lookupvar,['templates/api-paste.ini.erb']
+325,8220a2b088e087ecb6c5907c6edf5eda4cc64899,Keystoneification,"['manifests/api.pp', 'manifests/init.pp', 'templates/api-paste.ini.erb']"
+326,375a616d118c29525cc5757f98225f41b3c3dcc6,Remove deprecated swift params,"['examples/site.pp', 'manifests/all.pp']"
+327,6f8955bffdcbf7d09a7b385c7f396c340e576719,Add nova::compute::kvm class,['manifests/compute/kvm.pp']
+328,93d06fc061482db4886aa4a92c66081d0cac839c,Remove apt setup from nove::rabbitmq,['manifests/rabbitmq.pp']
+329,4b89af517860e02888e8861872ec4ee4c5cd8b89,Style refactor,['manifests/init.pp']
+330,914312e30eca69fe266459bd377fe6f6526d9957,Refactor comments,"['manifests/all.pp', 'manifests/db.pp', 'manifests/init.pp', 'manifests/rabbitmq.pp', 'spec/classes/nova_init_spec.rb']"
+331,e8edece6f1a05ae379eccbc5294ee533705934b9,Add db_allow_hosts param to nova::controller,['manifests/controller.pp']
+332,ef17b78321ac16ffcd1a32555ebd36038960cac0,Add keystone class.,['manifests/keystone.pp']
+333,69d78e74c5dbb02c438eedde43428e97fcfb01f1,Add novaclient class,"['manifests/client.pp', 'spec/classes/nova_client_spec.rb']"
+334,1b5b3a3e33fe97a8a5082a6a31239476dbed43a2,Add vncproxy class,"['manifests/vncproxy.pp', 'spec/classes/nova_vnc_proxy_spec.rb']"
+335,616c4763c72d671bc3f4c059c46f3507a1b2bf4b,Refactor nova services to use generic_service,"['manifests/api.pp', 'manifests/cert.pp', 'manifests/compute.pp', 'manifests/generic_service.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/scheduler.pp', 'manifests/volume.pp', 'spec/classes/nova_cert_spec.rb', 'spec/classes/nova_volume_spec.rb']"
+336,7a14a659b1f3f7759771debaf731b8c28f235433,Update OS specific params,['manifests/params.pp']
+337,1581a56d39345c3470d7ceb48c2e74dfeaa26726,Remove Ubuntu speific classes,"['manifests/ubuntu/all.pp', 'manifests/ubuntu/cc.pp', 'manifests/ubuntu/compute.pp']"
+338,140086c9c3d18c721311861ea41e53229f2108f9,Replace package ensure installed to present,['manifests/compute/xenserver.pp']
+339,6803cefc2a9557fa487cbb90ce8f6ece01249674,Add rabbit mq repo setup to pre stage,['examples/site.pp']
+340,3f8f357accd0b9f407fa546ecf7d2ac88dc1b703,Merge pull request #54 from bodepd/dev,"['TODO', 'manifests/init.pp', 'spec/classes/nova_cert_spec.rb', 'spec/classes/nova_init_spec.rb']"
+341,034bc51db5de1e7a107d7247e981f0e8145dfe21,Add a few TODOs,"['TODO', 'manifests/init.pp']"
+342,ce46fb14dc896b80b72eca90d773ab52213ef74e,Expand unit test coverage,"['spec/classes/nova_cert_spec.rb', 'spec/classes/nova_init_spec.rb']"
+343,88b57a34aba2a4daedfd70e2e3d720d28e98cacd,Minor style updates,['manifests/init.pp']
+344,d79dfde63264b6c78f83938eec1cd135dce55c78,Merge pull request #51 from bodepd/dev,"['Rakefile', 'examples/site.pp', 'manifests/all.pp', 'manifests/api.pp', 'manifests/compute.pp', 'manifests/init.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/params.pp', 'manifests/scheduler.pp', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_compute_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_network_spec.rb', 'spec/classes/nova_objectstore_spec.rb', 'spec/classes/nova_scheduler_spec.rb']"
+345,60eee6d535da3f23930f0142b13857de723a87c8,Update module packages used,['examples/site.pp']
+346,806a52b12cbb88b79d2e117283f772a9349b63c2,Remove deprecated param api_servers from nova::compute,['manifests/all.pp']
+347,97c67106890d2e68b1ada5862343395e6b334a89,Install nova packages per service,"['manifests/api.pp', 'manifests/compute.pp', 'manifests/init.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/params.pp', 'manifests/scheduler.pp', 'spec/classes/nova_api_spec.rb', 'spec/classes/nova_compute_spec.rb', 'spec/classes/nova_init_spec.rb', 'spec/classes/nova_network_spec.rb', 'spec/classes/nova_objectstore_spec.rb', 'spec/classes/nova_scheduler_spec.rb']"
+348,af46891c9112953ccb8f06333b651b21fe16b1b3,Add Rakefile for running spec tests,['Rakefile']
+349,5e9db74a2512d14f572e0d184c4accb239173a9b,Merge pull request #50 from bodepd/dev,"['examples/site.pp', 'ext/nova.sh', 'lib/puppet/provider/nova_floating/default.rb', 'lib/puppet/provider/nova_floating/nova_manage.rb', 'lib/puppet/provider/nova_network/nova_manage.rb', 'manifests/api.pp', 'manifests/cert.pp', 'manifests/compute.pp', 'manifests/compute/libvirt.pp', 'manifests/controller.pp', 'manifests/db.pp', 'manifests/init.pp', 'manifests/manage/floating.pp', 'manifests/network.pp', 'manifests/network/bridge.pp', 'manifests/objectstore.pp', 'manifests/params.pp', 'manifests/rabbitmq.pp', 'manifests/scheduler.pp', 'manifests/volume.pp']"
+350,9e2cd14b955c6b320f0bfa072e4168f8e1bf8954,Merge pull request #1 from derekhiggins/fedora-refactor,['manifests/controller.pp']
+351,e4a01afdd57775804bafb0f1736546e734b1b1ee,Merge pull request #49 from fcharlier/fc/create_nova_user_conflict,"['manifests/init.pp', 'spec/classes/nova_init_spec.rb', 'spec/fixtures/manifests/site.pp', 'spec/fixtures/modules/nova', 'spec/spec_helper.rb']"
+352,af6171076e1bb6ae059e74ed49e7cb527eee8730,"Remove extra "","" in class param",['manifests/controller.pp']
+353,265cfb09ebca568631d3b3d3b81d0ba02d7edc26,Remove facter ec2 fact from example file,['examples/site.pp']
+354,6cfb887d8d11419fccfe10d218444b73d730f517,Add nova validation sctipt to ext,['ext/nova.sh']
+355,e8f91807701260f5000d15221c7fbb4f2540ca73,Add apt repo on Ubuntu,['examples/site.pp']
+356,b812305416e3c23d152191f8ee3f3f1714092843,Add example file,['examples/site.pp']
+357,e6fe889a50ddcd4e9651080966606d032f71248d,Set configure bridge to false from controller,['manifests/controller.pp']
+358,189d89887ebe7fe2fbbd8b272a2c2900aba6909b,Add network_manager param to controller class,['manifests/controller.pp']
+359,5b87afd398244fc5fb88bad97767ff602ccbb0d0,Remove trailing white spaces,['manifests/controller.pp']
+360,605c055e3eded9e7066625d108b6bc25324731df,Add class parameter lockpath to controller class,['manifests/controller.pp']
+361,d5dc26c7f383811d9b802120aa2b4171f21daebf,set network bridge in the provider,"['lib/puppet/provider/nova_network/nova_manage.rb', 'manifests/init.pp']"
+362,37347d16fac5e3fb3c3654330b891f14c387ea36,set root_helper defaults,"['manifests/init.pp', 'manifests/params.pp']"
+363,a999b526340e1cc5e7acf1be3429ff3bfa67926f,Add flatdhcpmanager speific config options,['manifests/init.pp']
+364,6e43f0a2a1e29b907205a47cefb8c7234e22b9fd,Do not install nova docs on every node,['manifests/init.pp']
+365,3d33743b2e05942f8f3bb1292ee18ddbc2d9f906,'nova' user conflicts with package-created user,"['manifests/init.pp', 'spec/classes/nova_init_spec.rb', 'spec/fixtures/manifests/site.pp', 'spec/fixtures/modules/nova', 'spec/spec_helper.rb']"
+366,e47ef5c8ea25b583831e9f0c521b4ac69834b934,Adding Floating network support,"['lib/puppet/provider/nova_floating/default.rb', 'lib/puppet/provider/nova_floating/nova_manage.rb', 'manifests/controller.pp', 'manifests/manage/floating.pp']"
+367,faa117fe21ba379d71dc3e5e59fc9917e0b3cc28,Added cert and volume services,"['manifests/cert.pp', 'manifests/controller.pp', 'manifests/volume.pp']"
+368,e66e5ab7c462d39e2c3681bf30f442a9c5994fdc,Add fedora support,"['manifests/api.pp', 'manifests/compute.pp', 'manifests/compute/libvirt.pp', 'manifests/controller.pp', 'manifests/db.pp', 'manifests/init.pp', 'manifests/network.pp', 'manifests/network/bridge.pp', 'manifests/objectstore.pp', 'manifests/params.pp', 'manifests/rabbitmq.pp', 'manifests/scheduler.pp']"
+369,649f335ae49f13660c69eb6c9f110f78df562a0a,Merge pull request #47 from bodepd/allow_spaces_in_nova_config,"['lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/type/nova_config.rb', 'spec/find_spec_utils.rb', 'spec/unit/provider/nova_config/parsed_spec.rb', 'spec/unit/type/nova_config_spec.rb']"
+370,9984fbc246802f98c645849f3d4d8515e847c993,Merge pull request #46 from bodepd/document_dropping_diablo_support,"['README', 'manifests/compute/libvirt.pp']"
+371,14a98099fbafe28f317c9531e0f7174929212a06,(#13122) Update nova_config to allow spaces in values,"['lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/type/nova_config.rb', 'spec/unit/provider/nova_config/parsed_spec.rb']"
+372,3aed1519aa8a43f0da42458bb53da42a63578c98,Remove find_spec_utils,"['spec/find_spec_utils.rb', 'spec/unit/type/nova_config_spec.rb']"
+373,09ec8693a99a9b9aaf583ad4caa8862a73c0245c,Note that master no longer supports Diablo,['README']
+374,d65b556920b5cf69922d245ec47a69a1f654598a,(#13120) Add connection_type to nova::compute::libvirt,['manifests/compute/libvirt.pp']
+375,44984fd39e3e63e42aba986dbc4ce2e572244740,Merge pull request #45 from bodepd/diablo_final,"['lib/puppet/provider/nova_admin/default.rb', 'lib/puppet/provider/nova_admin/nova_manage.rb', 'lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_network/default.rb', 'lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/provider/nova_project/default.rb', 'lib/puppet/provider/nova_project/nova_manage.rb', 'manifests/manage/network.pp', 'manifests/manage/project.pp', 'manifests/network/bridge.pp', 'spec/unit/type/nova_config_spec.rb']"
+376,61b36b604f2309f2659950f7d2feb58ab6d9d501,remove trailing whitespace,['lib/puppet/provider/nova_config/parsed.rb']
+377,51b434fc02c7fc9887eab7c7120aa56e9f88ab20,Fix failing tests in nova_config.spec,['spec/unit/type/nova_config_spec.rb']
+378,d822fbad5a41be39145083c3731dce1c4e503ff4,Add explicit topscope to operatingsystem fact,['manifests/network/bridge.pp']
+379,bfd1fa5da80fe441ea78785a140aa2b206157c7b,Ensure nova_manage detects existing networks,['lib/puppet/provider/nova_network/nova_manage.rb']
+380,bcca7bedc4b74d89e6c40d7b3799c712166b195d,Replace optional_commands with commands in providers,"['lib/puppet/provider/nova_admin/default.rb', 'lib/puppet/provider/nova_admin/nova_manage.rb', 'lib/puppet/provider/nova_network/default.rb', 'lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/provider/nova_project/default.rb', 'lib/puppet/provider/nova_project/nova_manage.rb', 'manifests/manage/network.pp', 'manifests/manage/project.pp']"
+381,807a43747117f2d9251b049ca5a95ff8d722ccf6,Merge pull request #43 from bodepd/issue/master/9872_deprecated_auth,['manifests/init.pp']
+382,715a4fcbc3351ea9774a5ec608acb8932fa6ac29,(9782) Allow deprecated auth method,['manifests/init.pp']
+383,f2a50d8f16f7974d581b864a91b102b58060a47c,Missed one network value in all.pp which needed subnet mask added,['manifests/all.pp']
+384,11d3f073ff2038080faa4b8e025af5584e02db28,Merge pull request #42 from jamtur01/master,"['manifests/controller.pp', 'manifests/ubuntu/all.pp', 'manifests/ubuntu/cc.pp', 'tests/ubuntu/all.pp', 'tests/ubuntu/cc.pp']"
+385,c48464d9964951811a6f3fe6694dcd39a47e980d,Fixed network values,"['manifests/controller.pp', 'manifests/ubuntu/all.pp', 'manifests/ubuntu/cc.pp', 'tests/ubuntu/all.pp', 'tests/ubuntu/cc.pp']"
+386,ca8850b8fd38f4bc132d9eca66dfdbc6b269a2b4,Network type needs to include subnet mask on network param.,['lib/puppet/type/nova_network.rb']
+387,82a4378155d75097a91af52ea2f6a9bd5eb45dff,Merge pull request #41 from jamtur01/master,"['lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/type/nova_network.rb']"
+388,7cea1c1a38d6b9e9fcfded28dcef43d70eb2af02,Fixed GitHub Issue #17 - nova network failures,"['lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/type/nova_network.rb']"
+389,321d2ae3c26bb11f2caa71b039630e8a0de627bb,Merge pull request #39 from gandelman-a/merge,"['manifests/ubuntu/all.pp', 'manifests/ubuntu/cc.pp', 'manifests/ubuntu/compute.pp', 'tests/ubuntu/all.pp', 'tests/ubuntu/cc.pp']"
+390,37c6d83e3fed6de885d572c970ce793c0148a087,Update ubuntu tests for recent changes,"['manifests/ubuntu/all.pp', 'manifests/ubuntu/cc.pp', 'manifests/ubuntu/compute.pp', 'tests/ubuntu/all.pp', 'tests/ubuntu/cc.pp']"
+391,71c65b66c049ad05ec76a063776c9c7530b7ce82,Merge pull request #38 from bodepd/multi_node_work,"['manifests/all.pp', 'manifests/compute.pp', 'manifests/compute/libvirt.pp', 'manifests/compute/xenserver.pp', 'manifests/controller.pp', 'manifests/init.pp', 'manifests/network/flat.pp', 'manifests/network/flatdhcp.pp', 'tests/compute/libvirt.pp']"
+392,11d8c6a0389efc261c444f1d0296179ab488e231,Only configure network config when manager is set,['manifests/init.pp']
+393,cc79a1651712ce80383be5818b852f197b17d71c,updated all to work with other changes.,['manifests/all.pp']
+394,a84173fc8e23ad1fa74f7a2ebc51a390e4274259,Style fixes.,"['manifests/all.pp', 'manifests/compute.pp']"
+395,8a7921bb128e783c98729853ea6328b8aa4b4a1f,removed compute from controller.,['manifests/controller.pp']
+396,46afdb20218b983cdbfb08ea1c6a8a38a6c3d7bd,refactor of xenserver.,['manifests/compute/xenserver.pp']
+397,ebfbc1fd0f9a513a246df73d302343175f0530fe,commented out firwall rule,['manifests/compute.pp']
+398,c09d2d69c72590c353efbfacc9733b88ec1a6f86,Split out compute from controller,"['manifests/compute.pp', 'manifests/compute/libvirt.pp', 'manifests/compute/xenserver.pp', 'manifests/init.pp', 'manifests/network/flat.pp', 'manifests/network/flatdhcp.pp', 'tests/compute/libvirt.pp']"
+399,3239674e87ff387b71b2b9965bd8f81208010aa8,Merge pull request #37 from bodepd/issue/master/services_after_db-sync,"['manifests/api.pp', 'manifests/compute.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/scheduler.pp']"
+400,b97237db884caee1db8b9fe7aebbe36506271c16,Service depends on nova-db-sync,"['manifests/api.pp', 'manifests/compute.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/scheduler.pp']"
+401,7067d2707029ca8771be6acbd08c5a33975d3ac0,Merge pull request #36 from bodepd/issue/master/remove_empty_files,"['manifests/messagebus.pp', 'manifests/project.pp']"
+402,39ee6ca7808a507d1902d6a693633fdaa0c58a6c,Removed empty files:,"['manifests/messagebus.pp', 'manifests/project.pp']"
+403,db4bf30fd9c9732dabba4147027ad71e75ffe20c,Merge pull request #35 from bodepd/feature/master/various_fixes,"['manifests/controller.pp', 'manifests/init.pp', 'manifests/manage/admin.pp', 'manifests/rabbitmq.pp']"
+404,5d38e9b1c8787f90c7a676c8acf8b1ad66f0fbd4,added host to rabbitmq class.,['manifests/rabbitmq.pp']
+405,6c7f13b0475381e119d7e9834bacb4444129f8c6,Cleaning up deps,"['manifests/init.pp', 'manifests/manage/admin.pp']"
+406,7c8f3972eaba8a76374356357f58f951dc75ea36,cleanup up controller class,['manifests/controller.pp']
+407,96f065c605cf7ce1e66ef46d06cacedcc7fed71b,updated glance config,"['manifests/controller.pp', 'manifests/init.pp']"
+408,7cf8e75cb21d1f98e024744eeb80a0166d4d68ba,Merge pull request #34 from cblument/issue/master/network_options_for_compute,['manifests/compute/xenserver.pp']
+409,58d8ef32b11ca32ccae2f0172548f0c68a8aab97,adding network_manager and flat_network_bridge options,['manifests/compute/xenserver.pp']
+410,740f59f454881ba397a4d1dd7850df32296ed035,Merge pull request #33 from bodepd/feature/master/multi-node-db,"['manifests/all.pp', 'manifests/api.pp', 'manifests/controller.pp', 'manifests/db.pp', 'manifests/manage/admin.pp', 'manifests/manage/network.pp', 'manifests/manage/project.pp', 'manifests/rackspace/all.pp', 'manifests/ubuntu/all.pp', 'manifests/ubuntu/cc.pp', 'tests/db.pp']"
+411,782272754d837515df9ba4e37b9afec56d8878cb,Merge pull request #32 from gandelman-a/master,"['manifests/all.pp', 'manifests/init.pp', 'manifests/rackspace/all.pp', 'manifests/ubuntu/all.pp', 'manifests/ubuntu/cc.pp', 'manifests/ubuntu/compute.pp', 'tests/all.pp', 'tests/rackspace/all.pp', 'tests/ubuntu/cc.pp', 'tests/ubuntu/compute.pp']"
+412,a913d5d600fe67de3c5f802d3d9249021d55fafc,nova-api should notify db sync,"['manifests/api.pp', 'manifests/controller.pp']"
+413,50b2877ea31c6c1c41dff2ec389cb80edec18ec9,Changed 'name' param to 'dbname'.,"['manifests/all.pp', 'manifests/db.pp', 'manifests/rackspace/all.pp', 'manifests/ubuntu/all.pp', 'manifests/ubuntu/cc.pp', 'tests/db.pp']"
+414,ccce22d87a8abfed265d1164ba87f5fd7f5c1284,Split requirements for multi-node,"['manifests/db.pp', 'manifests/manage/admin.pp', 'manifests/manage/network.pp', 'manifests/manage/project.pp']"
+415,f938c2b1407dfaa313496b3c1c8f3e90c8b9996f,moved db-sync to nova::api,"['manifests/api.pp', 'manifests/db.pp']"
+416,0ed86e1331d920659d524a1602d25b13aa817ded,update ubuntu tests to use new glance log parameters,['tests/ubuntu/cc.pp']
+417,7d76ab05d384cf3757dc0c75aca8bb97fcd321bb,Convert use of glance_host + glance_port to combined glance_api_servers,"['manifests/all.pp', 'manifests/init.pp', 'manifests/rackspace/all.pp', 'manifests/ubuntu/all.pp', 'manifests/ubuntu/cc.pp', 'manifests/ubuntu/compute.pp', 'tests/all.pp', 'tests/rackspace/all.pp', 'tests/ubuntu/cc.pp', 'tests/ubuntu/compute.pp']"
+418,5bca5c68377b6c9a83681962a6a205c924205792,Merge pull request #31 from bodepd/feature/master/reduce_post_config_edges,"['manifests/api.pp', 'manifests/compute.pp', 'manifests/init.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/scheduler.pp']"
+419,52fa7b5435a4a3cda517a2ef098263f4f44f9c7e,Added exec to serve as an anchor for post-config.,"['manifests/api.pp', 'manifests/compute.pp', 'manifests/init.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/scheduler.pp']"
+420,710ea71287316e00fe9440d969581fde677c2738,Merge pull request #30 from bodepd/feature/master/reduce_pre_config_edges,['manifests/rabbitmq.pp']
+421,7d3fe81de01f7a74bf25b44d7ed741d3a3b0c4a8,Cleaned up dependencies in rabbit.,['manifests/rabbitmq.pp']
+422,25495f51ede78b97e17302e8f02e1dc15203b973,Merge pull request #29 from bodepd/feature/master/reduce_pre_config_edges,"['manifests/db.pp', 'manifests/init.pp', 'manifests/rabbitmq.pp']"
+423,7aa17ea9fac7fbde46f49e6660e8ccdded3e4980,doc update,['manifests/db.pp']
+424,922b9f604a6517033d29c7db934d432709827cde,Merge pull request #28 from bodepd/issue/master/manage_requires_config,"['manifests/manage/admin.pp', 'manifests/manage/network.pp', 'manifests/manage/project.pp']"
+425,fba8d0753dc6ac414c11bdae3daf5c9c949dc9bb,Reduce number of edges from db/rabbit.,"['manifests/db.pp', 'manifests/init.pp', 'manifests/rabbitmq.pp']"
+426,345e852d38f8bf4464b6a291aa34b3c7d8286312,Manage defines depend on Nova_config,"['manifests/manage/admin.pp', 'manifests/manage/network.pp', 'manifests/manage/project.pp']"
+427,e39683a5bb2526428d470b56296f0efcb11cd064,Merge pull request #27 from gandelman-a/multi-node,"['manifests/all.pp', 'manifests/db.pp', 'manifests/db/host_access.pp', 'manifests/ubuntu/all.pp', 'manifests/ubuntu/cc.pp', 'manifests/ubuntu/compute.pp', 'tests/ubuntu/all.pp', 'tests/ubuntu/cc.pp', 'tests/ubuntu/compute.pp']"
+428,b7065d8123379636528f6c27f0702cef119ad1ba,Fix typo in nova::manage::network declarations,"['manifests/all.pp', 'manifests/ubuntu/all.pp', 'manifests/ubuntu/cc.pp']"
+429,f6f360495586dc5c07f91e8dfdc0ad822ad69916,Convert nova::hosts:access from class to defined type,"['manifests/db.pp', 'manifests/db/allowed_hosts.pp', 'manifests/db/host_access.pp']"
+430,92634b4156c78e6c0f31a1572ce5dea6d14431c8,Update class parameters,"['manifests/ubuntu/cc.pp', 'tests/ubuntu/cc.pp', 'tests/ubuntu/compute.pp']"
+431,8289ca9ca1c2bf71b8899287646f2c1f86c7e0e9,Fix typo in nova::db::allowed_hosts,['manifests/db/allowed_hosts.pp']
+432,088791cc650b261a59d277a8d1f1be308576d3ae,Add glance configuration to multi-node deployment,"['manifests/ubuntu/cc.pp', 'manifests/ubuntu/compute.pp', 'tests/ubuntu/cc.pp', 'tests/ubuntu/compute.pp']"
+433,1e7a001c53e7108716c7ce6888768e623e8076e4,Split compute to its own node,"['manifests/ubuntu/cc.pp', 'manifests/ubuntu/compute.pp', 'tests/ubuntu/cc.pp', 'tests/ubuntu/compute.pp']"
+434,7f44799b3924726e40c7131b247f92c7b0beb22f,nova::db - optionally allow per host GRANTs,"['manifests/db.pp', 'manifests/db/allowed_hosts.pp']"
+435,19e8274cf67cc7f329110d0c930cbe2c4bdcf02f,Rename nova::canonical::* -> ubuntu::canonical::*,"['manifests/ubuntu/all.pp', 'tests/ubuntu/all.pp']"
+436,e6a30374eec76209e5fba7564754c81202c09973,Merge pull request #26 from bodepd/issue/master/ordering_fixes,"['manifests/api.pp', 'manifests/compute.pp', 'manifests/db.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/rabbitmq.pp', 'manifests/scheduler.pp', 'tests/all.pp']"
+437,deb76699f8a3fc0154855b8185074d48e087b817,cleanup up all.pp test.,['tests/all.pp']
+438,c1afee600dd5aae06e9ecd3ba4743e6fac7d3340,Removed class inheritence.,"['manifests/api.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/scheduler.pp']"
+439,ee06a743dd16eef2ff2d9827eb1305ed2c07c011,Fixed dependency/order issues.,"['manifests/api.pp', 'manifests/compute.pp', 'manifests/db.pp', 'manifests/network.pp', 'manifests/objectstore.pp', 'manifests/rabbitmq.pp', 'manifests/scheduler.pp']"
+440,51a0250f03fa8d6cbe2cc0f37a7fc4e703f26610,Merge pull request #25 from bodepd/issue/master/rabbit_user_and_libvirt_config,"['README', 'manifests/all.pp', 'manifests/compute.pp', 'manifests/rabbitmq.pp', 'tests/all.pp']"
+441,82ab21ae113ab6e805d842b9d6cf6d2cef4d3631,documented that it does not work with 2.6.4,"['README', 'manifests/compute.pp']"
+442,a0e403682a02534572d5a7c9433f643ccef15d59,Added parameter libvirt_type to nova class,"['manifests/all.pp', 'manifests/compute.pp', 'tests/all.pp']"
+443,eb468b25690111da58c740b29284817d361a0411,Added queue permissions to created rabbitmq user,"['manifests/rabbitmq.pp', 'tests/all.pp']"
+444,ddb4b6290f0e4d364dcda16794be38e86f66cc1b,Merge pull request #24 from bodepd/issue/master/use_default_rabbit_user,['tests/all.pp']
+445,a196bc88ab7e67674d5c8f53209554c30dd7a2c4,all test should not reset rabbitmq user/pass,['tests/all.pp']
+446,34cacee058d9bc6fbb5ca117e6239075a9327427,Merge pull request #23 from bodepd/issues/master/nova_single_fixes,"['manifests/all.pp', 'manifests/canonical/all.pp', 'manifests/db.pp', 'manifests/init.pp', 'manifests/rackspace/all.pp', 'tests/all.pp']"
+447,72f8534712f31c38c0320fcd16088d8c3a4327f8,Created test/manifest for all-in-one install.,"['manifests/all.pp', 'tests/all.pp']"
+448,88550700186b7509f9c5db155b8b1e7fb11d1e66,Rabbitmq location should be configurable.,['manifests/canonical/all.pp']
+449,a0643f77177bf6d6c8caa2bb91c90ad95943200d,changed param names from rabbitmq to rabbit.,['manifests/rackspace/all.pp']
+450,5e90be9a19a20b5c3a8de481557029947b920fb2,Remove undef defaults from nova_config params,['manifests/init.pp']
+451,3a34c172f4079bbc9b3df4b8c6d60a3bed32c11d,Changed from default charset of utf-8,['manifests/db.pp']
+452,509fcbb8b886a78f0b40f522edcce4f249945ddf,Merge pull request #22 from cblument/issue/master/install_pip_xenapi_module,['manifests/compute/xenserver.pp']
+453,9519f01f90c000d82cbb9ad2c0ad1b28ad4cf1e1,Installing xenapi python module,['manifests/compute/xenserver.pp']
+454,cc1427e9e9745b04b0d9889af111216120d9e79d,Merge pull request #20 from cblument/issure/master/fix_connection_type,['manifests/compute/xenserver.pp']
+455,73d8df2f8d90cb587df8daaf98521d7c0a34290c,setting the connection_type to xenapi for xenserver,['manifests/compute/xenserver.pp']
+456,a1fcf4e6b774ca452d4ff6898da996ec5f9001ad,Merge pull request #19 from cblument/issue/master/enable_services,['manifests/rackspace/all.pp']
+457,7ff24aa10d7ffbf119ef0773bb0e5bde117ecdf2,Enabling services,['manifests/rackspace/all.pp']
+458,5e59e325f8dc90e6015e7861d48b5605937c043f,Merge pull request #18 from bodepd/feautre/master/reorganize,"['.gitmodules', 'LICENSE', 'README', 'apt', 'bzr/manifests/init.pp', 'gcc', 'git', 'glance', 'lib/puppet/provider/nova_admin/default.rb', 'lib/puppet/provider/nova_admin/nova_manage.rb', 'lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_network/default.rb', 'lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/provider/nova_project/default.rb', 'lib/puppet/provider/nova_project/nova_manage.rb', 'lib/puppet/type/nova_admin.rb', 'lib/puppet/type/nova_config.rb', 'lib/puppet/type/nova_network.rb', 'lib/puppet/type/nova_project.rb', 'manifests/all.pp', 'manifests/api.pp', 'manifests/canonical/all.pp', 'manifests/compute.pp', 'manifests/compute/xenserver.pp', 'manifests/controller.pp', 'manifests/db.pp', 'manifests/init.pp', 'manifests/manage/admin.pp', 'manifests/manage/network.pp', 'manifests/manage/project.pp', 'manifests/messagebus.pp', 'manifests/network.pp', 'manifests/network/bridge.pp', 'manifests/network/flat.pp', 'manifests/network/flatdhcp.pp', 'manifests/objectstore.pp', 'manifests/project.pp', 'manifests/quota.pp', 'manifests/rabbitmq.pp', 'manifests/rackspace/all.pp', 'manifests/rackspace/dev.pp', 'manifests/rackspace/repo.pp', 'manifests/scheduler.pp', 'manifests/utilities.pp', 'mysql', 'nova/README', 'puppet/manifests/init.pp', 'python/manifests/init.pp', 'rabbitmq', 'spec/find_spec_utils.rb', 'spec/unit/provider/nova_config/parsed_spec.rb', 'spec/unit/type/nova_config_spec.rb', 'stdlib', 'templates/nova.conf.erb', 'tests/all.pp', 'tests/api.pp', 'tests/canonical/all.pp', 'tests/compute.pp', 'tests/db.pp', 'tests/network.pp', 'tests/nova_config.pp', 'tests/objectstore.pp', 'tests/rabbitmq.pp', 'tests/rackspace/all.pp', 'tests/scheduler.pp']"
+459,072e5191717dd03924f8cd88ec29c870dd4ce5c1,Converted into nova module repo.,"['.gitmodules', 'LICENSE', 'README', 'apt', 'bzr/manifests/init.pp', 'gcc', 'git', 'glance', 'lib/puppet/provider/nova_admin/default.rb', 'lib/puppet/provider/nova_admin/nova_manage.rb', 'lib/puppet/provider/nova_config/parsed.rb', 'lib/puppet/provider/nova_network/default.rb', 'lib/puppet/provider/nova_network/nova_manage.rb', 'lib/puppet/provider/nova_project/default.rb', 'lib/puppet/provider/nova_project/nova_manage.rb', 'lib/puppet/type/nova_admin.rb', 'lib/puppet/type/nova_config.rb', 'lib/puppet/type/nova_network.rb', 'lib/puppet/type/nova_project.rb', 'manifests/all.pp', 'manifests/api.pp', 'manifests/canonical/all.pp', 'manifests/compute.pp', 'manifests/compute/xenserver.pp', 'manifests/controller.pp', 'manifests/db.pp', 'manifests/init.pp', 'manifests/manage/admin.pp', 'manifests/manage/network.pp', 'manifests/manage/project.pp', 'manifests/messagebus.pp', 'manifests/network.pp', 'manifests/network/bridge.pp', 'manifests/network/flat.pp', 'manifests/network/flatdhcp.pp', 'manifests/objectstore.pp', 'manifests/project.pp', 'manifests/quota.pp', 'manifests/rabbitmq.pp', 'manifests/rackspace/all.pp', 'manifests/rackspace/dev.pp', 'manifests/rackspace/repo.pp', 'manifests/scheduler.pp', 'manifests/utilities.pp', 'mysql', 'nova/README', 'puppet/manifests/init.pp', 'python/manifests/init.pp', 'rabbitmq', 'spec/find_spec_utils.rb', 'spec/unit/provider/nova_config/parsed_spec.rb', 'spec/unit/type/nova_config_spec.rb', 'stdlib', 'templates/nova.conf.erb', 'tests/all.pp', 'tests/api.pp', 'tests/canonical/all.pp', 'tests/compute.pp', 'tests/db.pp', 'tests/network.pp', 'tests/nova_config.pp', 'tests/objectstore.pp', 'tests/rabbitmq.pp', 'tests/rackspace/all.pp', 'tests/scheduler.pp']"
+460,958a237803614d4bd1a775e9aec09876ef3b74b1,Merge pull request #17 from bodepd/issue/master/dans_work,"['nova/manifests/compute.pp', 'nova/manifests/init.pp', 'nova/manifests/network/flat.pp', 'nova/manifests/rackspace/all.pp']"
+461,aff9389798e91238846bc16a9f0b119dbbc3ab7f,Added python to class list.,['nova/manifests/init.pp']
+462,8ff90cb01b48b282dceff3ccb4e1088c7f76cd72,removed legacy dev class.,['nova/manifests/rackspace/all.pp']
+463,506510a004744fa42e2fecabedfec6d02070f5d4,Added configure_bridge param,"['nova/manifests/network/flat.pp', 'nova/manifests/rackspace/all.pp']"
+464,fe9842d9f2ce86b19bd0263914906b4c5052fdf5,converted aws_address to a class param.,['nova/manifests/compute.pp']
+465,3825af478ec766925c611f4c2d1972e3beadabf6,Merge pull request #16 from bodepd/issue/master/updated_xen_compute,"['nova/manifests/compute.pp', 'nova/manifests/compute/xenserver.pp', 'nova/manifests/rackspace/all.pp']"
+466,6dce20c8028c2d7f0d03f4b5bacae7312d8759bf,updated xenserver and rackspace manifest,"['nova/manifests/compute/xenserver.pp', 'nova/manifests/rackspace/all.pp']"
+467,8f6de7a8a1093f26c5ae794281bb4f982ad398c9,added api_port as a param,['nova/manifests/compute.pp']
+468,ec03153ff8272eb97c3d92d5a62f8faeb25c39f7,Merge pull request #15 from bodepd/feature/master/split_quota,"['nova/manifests/init.pp', 'nova/manifests/quota.pp', 'nova/manifests/rackspace/all.pp']"
+469,c789ebab5ff8187c13505ffc7a9579f91330bda9,Split quota management into its own class.,"['nova/manifests/init.pp', 'nova/manifests/quota.pp', 'nova/manifests/rackspace/all.pp']"
+470,a3e747278d94f4bf2422e3abfb7156d4ad002032,Merge pull request #14 from bodepd/feature/master/update_mysql,"['mysql', 'nova/manifests/db.pp', 'nova/tests/db.pp']"
+471,927dfbecfd7a138e4f80db08bea3f46bf4431dd1,updated nova::db to use new mysql code.,"['mysql', 'nova/manifests/db.pp', 'nova/tests/db.pp']"
+472,16c9c6d607814d324fcf7798cf956af79f55ff54,Merge pull request #13 from gandelman-a/master,"['nova/manifests/canonical/all.pp', 'nova/manifests/compute.pp', 'nova/manifests/rabbitmq.pp']"
+473,6c7886d1e3a3c397edd65e8861018dc8abbaa86c,manifests/rabbitmq.pp - set provider for rabbitmq types,['nova/manifests/rabbitmq.pp']
+474,d23d441c5bdef0379847a424fa9b0b3c8b5dd7cc,Forward guest metadata/API requests to the API server,"['nova/manifests/canonical/all.pp', 'nova/manifests/compute.pp']"
+475,0f1602e43d14d66cc14033e345b66dbc7726d889,Merge pull request #12 from bodepd/feature/master/style_update,"['nova/manifests/api.pp', 'nova/manifests/canonical/all.pp', 'nova/manifests/compute.pp', 'nova/manifests/controller.pp', 'nova/manifests/db.pp', 'nova/manifests/init.pp', 'nova/manifests/manage/project.pp', 'nova/manifests/network.pp', 'nova/manifests/objectstore.pp', 'nova/manifests/rackspace/dev.pp', 'nova/manifests/rackspace/repo.pp', 'nova/manifests/scheduler.pp']"
+476,c2b7399353f8f446f9c01b499c02ac6bf8951c0d,Merge pull request #11 from bodepd/feature/master/use_rabbitmq_module,"['nova/manifests/canonical/all.pp', 'nova/manifests/rabbitmq.pp', 'nova/manifests/rackspace/all.pp', 'nova/tests/rabbitmq.pp']"
+477,1c1c83f901cabf4eda165bdb1d38dbbdcca4d69b,Cleaned up style a little.,"['nova/manifests/api.pp', 'nova/manifests/canonical/all.pp', 'nova/manifests/compute.pp', 'nova/manifests/controller.pp', 'nova/manifests/db.pp', 'nova/manifests/init.pp', 'nova/manifests/manage/project.pp', 'nova/manifests/network.pp', 'nova/manifests/objectstore.pp', 'nova/manifests/rackspace/dev.pp', 'nova/manifests/rackspace/repo.pp', 'nova/manifests/scheduler.pp']"
+478,3da2c5cb9797c148492fa8f4fec2af9abd3a6a60,re-implemented nova::rabbitmq,"['nova/manifests/canonical/all.pp', 'nova/manifests/rabbitmq.pp', 'nova/manifests/rackspace/all.pp', 'nova/tests/rabbitmq.pp']"
+479,8851c7efd861b3f9e2bd187f61ff9c5f45e58355,updated mysql commit id.,['mysql']
+480,4745e1f015277f7d69a116ab043be92885cde507,Merge pull request #10 from bodepd/feature/master/extended_nova_work,"['nova/lib/puppet/provider/nova_admin/nova_manage.rb', 'nova/lib/puppet/provider/nova_network/default.rb', 'nova/lib/puppet/provider/nova_network/nova_manage.rb', 'nova/lib/puppet/provider/nova_project/default.rb', 'nova/lib/puppet/provider/nova_project/nova_manage.rb', 'nova/lib/puppet/type/nova_admin.rb', 'nova/lib/puppet/type/nova_config.rb', 'nova/lib/puppet/type/nova_network.rb', 'nova/lib/puppet/type/nova_project.rb', 'nova/manifests/canonical/all.pp', 'nova/manifests/db.pp', 'nova/manifests/init.pp', 'nova/manifests/manage/network.pp', 'nova/manifests/manage/project.pp', 'nova/manifests/network/bridge.pp', 'nova/manifests/network/flat.pp', 'nova/manifests/network/flatdhcp.pp', 'nova/tests/canonical/all.pp', 'rabbitmq']"
+481,fa044fd2077efd5d38326757904216fa01563b39,db should depend on nova sqlconnection config.,['nova/manifests/db.pp']
+482,4109b73b9e22f5dbae93f4840d1a1e474bb0d098,Fixed bug: set namevar => true,['nova/lib/puppet/type/nova_project.rb']
+483,3006e0f88b442b53fff486352d3096a87b30af70,Style changes to network manifests.,"['nova/manifests/network/flat.pp', 'nova/manifests/network/flatdhcp.pp']"
+484,9b504bda710129e96b290bbd501b21fb1060bdfb,minor changes.,"['nova/manifests/canonical/all.pp', 'nova/manifests/init.pp', 'nova/manifests/manage/project.pp', 'nova/tests/canonical/all.pp', 'rabbitmq']"
+485,725fd68845721b4c025842615029c72de7145e1f,Added extended network management support.,"['nova/lib/puppet/provider/nova_network/default.rb', 'nova/lib/puppet/provider/nova_network/nova_manage.rb', 'nova/lib/puppet/type/nova_network.rb', 'nova/manifests/manage/network.pp', 'nova/manifests/network/bridge.pp', 'nova/manifests/network/flat.pp', 'nova/manifests/network/flatdhcp.pp']"
+486,c8eff431e11fc64a361a9ec21c5c041afd6cc7d3,minor changes to existing types and proivders,"['nova/lib/puppet/provider/nova_admin/nova_manage.rb', 'nova/lib/puppet/provider/nova_project/default.rb', 'nova/lib/puppet/provider/nova_project/nova_manage.rb', 'nova/lib/puppet/type/nova_admin.rb', 'nova/lib/puppet/type/nova_config.rb', 'nova/lib/puppet/type/nova_project.rb']"
+487,e282b63ff7b186a6ac7c88c36ce4c1c6b0fbf311,Merge pull request #6 from bodepd/feature/master/remove_glance,"['.gitmodules', 'glance', 'glance/manifests/api.pp', 'glance/manifests/init.pp', 'glance/manifests/registry.pp', 'glance/templates/glance-api.conf-sample', 'glance/templates/glance-api.conf.erb', 'glance/templates/glance-registry.conf-sample', 'glance/templates/glance-registry.conf.erb', 'glance/tests/api.pp', 'glance/tests/init.pp', 'glance/tests/registry.pp', 'mysql']"
+488,c7a13b37ea467d1272bd0cef0faf02105af24442,Added glance as a submodule.,"['.gitmodules', 'glance']"
+489,97d7ee78fdf0b094ce786a88da6ca2512ca75eba,removed glance from repo.,"['glance/manifests/api.pp', 'glance/manifests/init.pp', 'glance/manifests/registry.pp', 'glance/templates/glance-api.conf-sample', 'glance/templates/glance-api.conf.erb', 'glance/templates/glance-registry.conf-sample', 'glance/templates/glance-registry.conf.erb', 'glance/tests/api.pp', 'glance/tests/init.pp', 'glance/tests/registry.pp']"
+490,49d9781095be0153a61a5acf842ff203ae0ac1db,updated mysql commit id,['mysql']
+491,5ea095495241535a845305a831abca92f17a6e71,updated submodule commit ids.,"['.gitmodules', 'git', 'mysql', 'nova/tests/rackspace/all.pp', 'rabbitmq', 'stdlib']"
+492,852cdf699a07c7e1bfd6f5b4dd48ad34be14611c,added glance code,"['glance/manifests/api.pp', 'glance/manifests/init.pp', 'glance/manifests/registry.pp', 'glance/templates/glance-api.conf-sample', 'glance/templates/glance-api.conf.erb', 'glance/templates/glance-registry.conf-sample', 'glance/templates/glance-registry.conf.erb', 'glance/templates/glance.conf.erb', 'glance/tests/api.pp', 'glance/tests/init.pp', 'glance/tests/registry.pp']"
+493,f13e6603a5b0296130667db97e4beedd9d62bb9a,added apache license,['nova/LICENSE']
+494,cc779c227586428d18a1605fc1ba09c845305d10,updated indices for submodules.,"['apt', 'git', 'mysql', 'rabbitmq']"
+495,db4942bf06d181534c754eaedf0439ce93bc0566,Merge branch 'dev' of github.com:puppetlabs/puppetlabs-nova into dev,"['nova/lib/puppet/provider/nova_admin/default.rb', 'nova/lib/puppet/provider/nova_admin/nova_manage.rb', 'nova/lib/puppet/provider/nova_project/default.rb', 'nova/lib/puppet/provider/nova_project/nova_manage.rb', 'nova/lib/puppet/type/nova_admin.rb', 'nova/lib/puppet/type/nova_project.rb', 'nova/manifests/canonical/all.pp', 'nova/manifests/db.pp', 'nova/manifests/init.pp', 'nova/manifests/manage/admin.pp', 'nova/manifests/manage/project.pp', 'nova/manifests/rabbitmq.pp', 'nova/tests/canonical/all.pp']"
+496,ad8e7c46bd8cf330993dca08944827945d220f29,updated ref to gcc.,['gcc']
+497,3bc0c998df10e1abd49f383b9969e4dd3555ab21,Merge pull request #2 from gandelman-a/for-dan,"['nova/lib/puppet/provider/nova_admin/default.rb', 'nova/lib/puppet/provider/nova_admin/nova_manage.rb', 'nova/lib/puppet/provider/nova_project/default.rb', 'nova/lib/puppet/provider/nova_project/nova_manage.rb', 'nova/lib/puppet/type/nova_admin.rb', 'nova/lib/puppet/type/nova_project.rb', 'nova/manifests/canonical/all.pp', 'nova/manifests/db.pp', 'nova/manifests/init.pp', 'nova/manifests/manage/admin.pp', 'nova/manifests/manage/project.pp', 'nova/manifests/rabbitmq.pp', 'nova/tests/canonical/all.pp']"
+498,ae1329c0848b31137fae3b92aa73a9b30380031d,whitespace cleanup in nova_project type,['nova/lib/puppet/type/nova_project.rb']
+499,941f1bf9465d0e249412464e882dec15577cd928,workaround for rabbitmq-server hostname bug  (LP #653405),"['nova/manifests/canonical/all.pp', 'nova/manifests/rabbitmq.pp']"
+500,1589f326802e618cdb4a48c2637f31331b3bc30e,initialize the database after it is created.,['nova/manifests/db.pp']
+501,a325487629e991bda0be46fbab4a29c117147d53,native types for nova-manage'd users and projects,"['nova/lib/puppet/provider/nova_admin/default.rb', 'nova/lib/puppet/provider/nova_admin/nova_manage.rb', 'nova/lib/puppet/provider/nova_project/default.rb', 'nova/lib/puppet/provider/nova_project/nova_manage.rb', 'nova/lib/puppet/type/nova_admin.rb', 'nova/lib/puppet/type/nova_project.rb', 'nova/manifests/canonical/all.pp', 'nova/manifests/init.pp', 'nova/manifests/manage/admin.pp', 'nova/manifests/manage/project.pp', 'nova/tests/canonical/all.pp']"
+502,a23e793cc20f942e51b302989935514f806a22a1,Added code to make glance config optional,['nova/manifests/init.pp']
+503,f7bde6dd835c10b2fe1e03350731c17d57bb00d6,updated canonical specific openstack code,"['nova/manifests/canonical/all.pp', 'nova/tests/canonical/all.pp']"
+504,c99f1f74156473725ea3d9384ed3313853782fae,Added nova user group config file,['nova/manifests/init.pp']
+505,f94d70a4e1d8d3ea14142d0ee884bb9d6d337e63,Merge remote branch 'cblument/dev' into dev,['nova/tests/rackspace/all.pp']
+506,e5ec324448f901ba2e6fdd91a0384fac0c663d41,specified sane defaults for class params.,"['nova/manifests/init.pp', 'nova/manifests/rackspace/all.pp', 'nova/tests/rackspace/all.pp']"
+507,8eb30aa306b8bd7307b86815a452135d6b900647,removed nova class from nova controller.,['nova/manifests/controller.pp']
+508,ea1c36cd4c5d53f1c33f2fb46aa5e686c0481118,added rabbitmq module. I added this temporarily while I try to sort out how to get the features that I need into puppetlabs-rabbitmq.,['nova/manifests/rabbitmq.pp']
+509,ad9de78c8e0d35f4338771c92c9c2d040092c1a8,The host should be the hostname and not the ip address,['nova/tests/rackspace/all.pp']
+510,15f8132daa8f9dd5ada532f0aedafa62a90d316e,Merge remote branch 'gandelman-a/dev' into dev,"['nova/tests/all.pp', 'nova/tests/canonical/all.pp']"
+511,f7261bb4108553a3f3f7b9e1bd9d3f0efbd34378,removing unneeded parameters after refacter,['nova/tests/rackspace/all.pp']
+512,2483cf8482ed2cadfbc91e1395d610f139bdfc9b,set defaults for rackspace all class.,"['glance/manifests/init.pp', 'glance/templates/glance.conf.erb', 'nova/manifests/rackspace/all.pp']"
+513,e0aaa17a3047f2091490434308256a69edd93e1f,fix some defaults,"['nova/tests/all.pp', 'nova/tests/canonical/all.pp']"
+514,f844517c9e835bf8f3174ece7ae6d8955ed3820c,added skeleton for controller class.,['nova/manifests/controller.pp']
+515,ad0d92ce03d819e2da096f8ef4737955986d4d1d,removed Rakefile in favor of submodules.,['Rakefile']
+516,34cc7f3f0e0d0eadec527a99b536a30533779751,removed extra space.,['nova/manifests/db.pp']
+517,941866eb086562637907dfb322505bd966bcc084,fixed a few small errors.,"['mysql', 'nova/manifests/compute/xenserver.pp', 'nova/manifests/init.pp', 'nova/manifests/rackspace/all.pp', 'nova/manifests/rackspace/dev.pp']"
+518,43617b82bde5bb0da2c3ddb5bf00f3af2b54dfe2,bug fixes for canonical::all to work.,"['nova/manifests/all.pp', 'nova/manifests/canonical/all.pp', 'nova/manifests/compute.pp', 'nova/manifests/compute/xenserver.pp', 'nova/manifests/db.pp', 'nova/manifests/init.pp', 'nova/tests/canonical/all.pp']"
+519,24a930415ef8a185599648b662ff0a0f48e73347,removed development code from canonical tests.,['nova/tests/canonical/all.pp']
+520,44d581b7e0ef92e27aaba759ca5d446fa501aec1,fixed type in apt submodule path,['.gitmodules']
+521,9ad7b0867f16e19fb5cd8006feef5ddbfd12054d,added submodules.,"['.gitignore', '.gitmodules', 'apt', 'gcc', 'git', 'mysql', 'rabbitmq']"
+522,a855c609e8b58201a0cb59727d4c134e6ffc22aa,re-factored code to make it more generic.,"['extrapackages/manifests/init.pp', 'nova/manifests/all.pp', 'nova/manifests/canonical/all.pp', 'nova/manifests/compute.pp', 'nova/manifests/compute/xenserver.pp', 'nova/manifests/db.pp', 'nova/manifests/init.pp', 'nova/manifests/rackspace/all.pp', 'nova/manifests/rackspace/dev.pp', 'nova/manifests/rackspace/repo.pp', 'nova/manifests/utilities.pp', 'nova/tests/all.pp', 'nova/tests/canonical/all.pp', 'nova/tests/rackspace/all.pp', 'python/manifests/init.pp']"
+523,52e9f93924b2f6b55a17b2d550b6c779260a8b7a,added ability to parse lines without =,['nova/lib/puppet/provider/nova_config/parsed.rb']
+524,409f625e77bfe77842888003c1b5a766d9674767,Added nova_config code to manifests.,"['nova/manifests/compute.pp', 'nova/manifests/compute/xenserver.pp', 'nova/manifests/init.pp', 'nova/tests/all.pp']"
+525,ac8c7f4f791428631baedf066633945941d3ddcb,removed connection type logic.,"['nova/manifests/all.pp', 'nova/tests/all.pp']"
+526,9007524d2192a01a7033fb45cd1d5874dab12e44,upated code for new mysql interface.,"['nova/manifests/db.pp', 'nova/tests/all.pp']"
+527,c8fb8e980c1a277447e208795b0ab3abf6202ce5,added support for false values in nova_config,['nova/lib/puppet/type/nova_config.rb']
+528,0721fae13a336c5479db3aee6e498b030c2e837d,Merge remote branch 'cblument/openstack' into openstack,"['nova/manifests/all.pp', 'nova/manifests/api.pp', 'nova/manifests/compute.pp', 'nova/manifests/db.pp', 'nova/manifests/init.pp', 'nova/manifests/network.pp', 'nova/manifests/objectstore.pp', 'nova/manifests/scheduler.pp', 'nova/tests/all.pp']"
+529,403ea6dc56868b7eb1a77f231b3ff702d6d35c16,adding parameters to nova and nova::compute class,"['nova/manifests/all.pp', 'nova/manifests/compute.pp', 'nova/manifests/init.pp', 'nova/tests/all.pp']"
+530,a294248c78c2aeab537361fd450f91e2232c648d,improved native nova_config type,"['nova/lib/puppet/provider/nova_config/parsed.rb', 'nova/lib/puppet/type/nova_config.rb', 'nova/spec/find_spec_utils.rb', 'nova/spec/unit/provider/nova_config/parsed_spec.rb', 'nova/spec/unit/type/nova_config_spec.rb']"
+531,d8208ab9748e0b2781230407bc8c06fbf62c0a62,Variety of changes to get the nova all test to run,"['nova/manifests/all.pp', 'nova/manifests/api.pp', 'nova/manifests/db.pp', 'nova/manifests/init.pp', 'nova/manifests/network.pp', 'nova/manifests/objectstore.pp', 'nova/manifests/scheduler.pp', 'nova/tests/all.pp']"
+532,87a5091e3ae0f1d11d217be03cbb6bb302668942,removed the confighash,"['nova/manifests/all.pp', 'nova/manifests/api.pp', 'nova/manifests/init.pp', 'nova/manifests/network.pp', 'nova/manifests/objectstore.pp', 'nova/manifests/scheduler.pp', 'nova/tests/api.pp', 'nova/tests/compute.pp', 'nova/tests/network.pp', 'nova/tests/objectstore.pp', 'nova/tests/scheduler.pp']"
+533,ef9cc4881221570a75e28826d719cd3bf1bf849c,moved tests to be named after their respective manifests.,"['nova/tests/all.pp', 'nova/tests/api.pp', 'nova/tests/network.pp', 'nova/tests/objectstore.pp', 'nova/tests/scheduler.pp']"
+534,3dca720bc14f757247c839eaf882cd9c4c4cf462,resolved syntax error in collection,['nova/manifests/init.pp']
+535,e2eaf1313d6854cbd5dd0da61336077801586853,checking Nova integration work 5/26/11,"['nova/lib/puppet/provider/nova_config/parsed.rb', 'nova/lib/puppet/type/nova_config.rb', 'nova/manifests/all.pp', 'nova/manifests/compute.pp', 'nova/manifests/compute/xenserver.pp', 'nova/manifests/db.pp', 'nova/manifests/init.pp', 'nova/manifests/messagebus.pp', 'nova/manifests/project.pp', 'nova/tests/compute.pp', 'nova/tests/db.pp', 'nova/tests/nova_config.pp', 'nova/tests/openstack-all.pp']"
+536,35933a2616e6e8e35abadb4777ba83b1f9b237ca,updated Rakefile and .gitignore file,"['.gitignore', 'Rakefile']"
+537,845ba25967e918678a16d656479aac9faf8ff81d,committed the code that was moved from openstack,"['nova/README', 'nova/manifests/all.pp', 'nova/manifests/api.pp', 'nova/manifests/compute.pp', 'nova/manifests/db.pp', 'nova/manifests/init.pp', 'nova/manifests/network.pp', 'nova/manifests/objectstore.pp', 'nova/manifests/repo.pp', 'nova/manifests/scheduler.pp', 'nova/templates/nova.conf.erb', 'nova/tests/init.pp', 'nova/tests/openstack-all.pp', 'nova/tests/openstack-api.pp', 'nova/tests/openstack-compute.pp', 'nova/tests/openstack-network.pp', 'nova/tests/openstack-objectstore.pp', 'nova/tests/openstack-scheduler.pp']"
+538,a441a5387e61fbf45505221e9668c3c2c4655cff,initial commit for git project.,"['.gitignore', 'README', 'Rakefile', 'bzr/manifests/init.pp', 'extrapackages/manifests/init.pp', 'nova/manifests/init.pp', 'nova/manifests/repo.pp', 'nova/tests/init.pp', 'puppet/manifests/init.pp', 'python/manifests/init.pp']"

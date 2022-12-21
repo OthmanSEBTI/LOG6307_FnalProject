@@ -1,0 +1,27 @@
+15688553dbb78061451e03b0dab7611e8b63af60|Merge pull request #2 from alekseychuprin/7.0|Tue, 7 Jun 2016 13:27:17 -0500|Tue, 7 Jun 2016 13:27:17 -0500
+8ca8f7cedc66e3cae33c8ce5f9d9707b0c3c6030|Fix ordering issue|Tue, 7 Jun 2016 20:15:54 +0200|Tue, 7 Jun 2016 20:15:54 +0200
+aabc91f68d987ea006b5c50142d9a78f84ec91e0|Merge pull request #1 from alekseychuprin/7.0|Tue, 17 May 2016 10:43:59 +0300|Tue, 17 May 2016 10:43:59 +0300
+66b91aeabf010b65fbd2b8e3030020a606f2ede6|Fix autostart openldap issue.|Mon, 16 May 2016 17:28:27 +0300|Tue, 17 May 2016 10:24:12 +0300
+a3c7f80b4e40ef04fbca16bc189397168689fb6a|Added LDAP chaching proxy mode|Wed, 10 Feb 2016 16:23:34 +0300|Fri, 12 Feb 2016 12:09:46 +0300
+91b8535bbe14b4cfa4fc82b43df135d96f6ec9d3|Deleted duplicated openldap module.|Wed, 10 Feb 2016 16:22:05 +0300|Wed, 10 Feb 2016 16:22:05 +0300
+4330a7833b0fd80781c198c938a2b6c3e79dfc3c|Plugin refactoring|Wed, 3 Feb 2016 12:37:44 +0300|Wed, 3 Feb 2016 12:41:33 +0300
+d04a9de59cf5c8290feef6da6ee1483d73fdcdde|changed format of default certs and keys in environment_config.yaml|Tue, 20 Oct 2015 23:44:08 +0300|Tue, 20 Oct 2015 23:44:08 +0300
+b19d380e38573fe2ada094162965c5e14d674bb9|added default certificates to environment_config.yaml, removed certs folder|Tue, 20 Oct 2015 03:30:44 -0500|Tue, 20 Oct 2015 03:30:44 -0500
+d63f0555e6655713ccfdf3aa2081cf1fa90b21d5|bug in limits, removed|Tue, 20 Oct 2015 03:21:29 -0500|Tue, 20 Oct 2015 03:21:29 -0500
+d89d39f11e61396acd83540418ba65585bd3ad28|bug in role-file|Tue, 20 Oct 2015 03:16:35 -0500|Tue, 20 Oct 2015 03:16:35 -0500
+1e3734c1da2eab450907f41126054ab3ccd7265e|change min_controller_count|Tue, 20 Oct 2015 02:17:01 -0500|Tue, 20 Oct 2015 02:17:01 -0500
+93793a1cd8c5569795cbeeb6627a0d68f21ebf78|Test certificates added|Tue, 20 Oct 2015 10:54:07 +0300|Tue, 20 Oct 2015 10:54:07 +0300
+858e1965bb431cce49c8ec10f5b7dc2061c8f8a7|keystone_ldap_user -> keystone_user change|Tue, 20 Oct 2015 10:50:10 +0300|Tue, 20 Oct 2015 10:50:10 +0300
+7887b2a9f33f8a77304295a04d5188f2f3995b0e|syntax fix|Mon, 19 Oct 2015 08:39:11 -0500|Mon, 19 Oct 2015 08:39:11 -0500
+7fe6b129b714f35805724d26d0f7383a3be52f1d|remove prefix plugin_sscc_ from module-name|Mon, 19 Oct 2015 08:05:26 -0500|Mon, 19 Oct 2015 08:05:26 -0500
+fa21f366181f526d81d1185f8c4127731d43b27d|public_is_required|Thu, 20 Aug 2015 07:09:48 -0500|Thu, 20 Aug 2015 07:09:48 -0500
+9a08647b37449d10f2789141e3db8a89e1eea49e|Update README.md|Fri, 16 Oct 2015 17:32:15 +0300|Fri, 16 Oct 2015 17:32:15 +0300
+664a506de78a735a32a7286d12443bc8bb289fb2|Update README.md|Fri, 16 Oct 2015 17:31:06 +0300|Fri, 16 Oct 2015 17:31:06 +0300
+f4427ac4dfdae1b9a453f815463f38a49024d7ac|Update README.md|Fri, 16 Oct 2015 17:29:31 +0300|Fri, 16 Oct 2015 17:29:31 +0300
+fe396db0f58b7dd4913ec8a22a88cb79c3f85858|Update README.md|Fri, 16 Oct 2015 17:28:51 +0300|Fri, 16 Oct 2015 17:28:51 +0300
+665496a342b41d51a81e5925523d518b85dc46bb|Update README.md|Fri, 16 Oct 2015 17:28:11 +0300|Fri, 16 Oct 2015 17:28:11 +0300
+c76cd4b529640d1fd2db375659c5cf1b53ed2c27|First glance changes and fancy changes|Thu, 20 Aug 2015 04:23:22 -0500|Thu, 20 Aug 2015 04:23:22 -0500
+6139443342187f5cf9945cfd2ee31cd767b433eb|cahnge to postinstall script|Wed, 30 Sep 2015 18:41:16 +0000|Wed, 30 Sep 2015 18:41:16 +0000
+61e91699bbe0b236fc2ceed22f24342b84271901|unneeded modules removed|Wed, 30 Sep 2015 14:00:24 +0000|Wed, 30 Sep 2015 14:00:24 +0000
+9208b6b80fd90fa2a8739441217a525f2604da2e|edit readme|Wed, 30 Sep 2015 11:19:24 +0000|Wed, 30 Sep 2015 11:19:24 +0000
+26bcc163c7567acf3df008f84ac684fb577f54e5|Initial commit|Wed, 30 Sep 2015 11:09:13 +0000|Wed, 30 Sep 2015 11:09:13 +0000

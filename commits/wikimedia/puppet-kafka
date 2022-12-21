@@ -1,0 +1,58 @@
+24b04f4f87be4e3b22cdacb2e7f3bf10a0040374|Change broker id assignment from fqdn to hostname.  TODO: Make this configurable in the future|Fri, 23 Oct 2015 11:36:56 -0600|Fri, 23 Oct 2015 11:36:56 -0600
+961d55efa3895c7ed88e209a1df4fe4af6a72f0a|Add the ability to create base directories for the log dirs|Wed, 21 Oct 2015 13:03:57 -0600|Wed, 21 Oct 2015 13:03:57 -0600
+158483d607508938fed07164533b6f6fd818ff09|Actually use the $kafka_enabled variable|Wed, 21 Oct 2015 11:04:21 -0600|Wed, 21 Oct 2015 11:04:21 -0600
+f35faca971d0a7691667154ca24afc4f11bcf3c6|Change all references of kafka-server to kafka, since that is what the package is named|Wed, 21 Oct 2015 10:32:56 -0600|Wed, 21 Oct 2015 10:32:56 -0600
+a4f9e80a928269d5268b884bd9d82b927a34b46e|Change file locations to /opt, since that is where we install kafka.  Create symlink from /etc/kafka to /opt/kafka for ease of use, though|Tue, 20 Oct 2015 15:25:26 -0600|Tue, 20 Oct 2015 15:25:26 -0600
+12bd1948d52ab0257890c0da37eb4d50e248fc21|We don't have a separate kafka-server package, so we don't need to ensure a new package|Tue, 20 Oct 2015 15:20:49 -0600|Tue, 20 Oct 2015 15:20:49 -0600
+49afdd01355fda6679f39ee7a66188a6a99e4c5a|There is no specific kafka-common package, so just use the kafka package|Tue, 20 Oct 2015 15:19:21 -0600|Tue, 20 Oct 2015 15:19:21 -0600
+b75128da275503c9523e7ec718e2003c8106da63|Puppetize systemd override for Kafka LimitNOFILE|Tue, 18 Aug 2015 14:53:24 -0400|Tue, 18 Aug 2015 15:53:02 -0400
+6167fe8221c0fd3d14f9639ffc0af48a7b52f403|Add param for auto.leader.rebalance.enable|Sat, 15 Aug 2015 11:51:48 -0400|Sat, 15 Aug 2015 11:51:48 -0400
+306aa069d200d33b176e0900d4596efdb9ade405|List ReplicaManager JMX Kafka metrics individually|Wed, 12 Aug 2015 13:56:26 -0400|Wed, 12 Aug 2015 13:57:15 -0400
+ba99cba34dfc1a34c25eccabd3a95c08f36863e2|Update JMX metrics names for Kafka 0.8.2+|Wed, 12 Aug 2015 11:20:32 -0400|Wed, 12 Aug 2015 11:23:09 -0400
+dc805f546fdba2dde6fffc7cd5a88b822693377c|Use bucketType 'g' for all Kafka jmxtrans metrics sent to statsd|Thu, 4 Dec 2014 13:57:16 -0500|Thu, 4 Dec 2014 13:57:16 -0500
+bd3c5454fdd4932d11f9a80fcf7abc2aefd67d56|Set bucketType for gauge metrics for statsd usage|Wed, 3 Dec 2014 15:32:11 -0500|Wed, 3 Dec 2014 15:32:11 -0500
+a4c6e32989d7148d73aa91cb2baea4b8938d75f9|Send jvm stats to statsd as well|Wed, 3 Dec 2014 09:54:09 -0500|Wed, 3 Dec 2014 09:54:09 -0500
+de24c49f405716a53fc58338bb894796a1cc486b|Add statsd parameters to kafka::server::jmxtrans|Wed, 3 Dec 2014 09:43:46 -0500|Wed, 3 Dec 2014 09:44:34 -0500
+33dfcd8c2c0b172d9f1b84c85c6202b5377cb5f3|Make the metrics polling interval configurable|Thu, 23 Oct 2014 16:34:22 -0700|Thu, 23 Oct 2014 18:08:32 -0700
+a33e529a3f204bd7998b42fcb093f54ab557b0d3|Add option for extra classpath entries|Tue, 30 Sep 2014 11:20:34 -0700|Tue, 30 Sep 2014 11:20:42 -0700
+266aca07bd9ea01b0473adfcded1b7105e3ea4ab|server::jmxtrans: add namespacing option|Tue, 23 Sep 2014 11:23:13 -0700|Tue, 23 Sep 2014 11:42:46 -0700
+ce9af14d97d2c7b58114283e7771c1945d6f6e26|Add java_opts option|Mon, 22 Sep 2014 15:26:25 -0700|Mon, 22 Sep 2014 15:39:37 -0700
+e0be9258b31c20a674eaeb26507ccea9151dbc1a|Update README.md with correct URL to wikimedia Kafka deb in apt|Tue, 19 Aug 2014 11:56:59 -0400|Tue, 19 Aug 2014 11:56:59 -0400
+890d5eeb57c703a9f08a7456005f0d55fb44a2fc|Update for kafka 0.8.1.1-2 packaging|Fri, 1 Aug 2014 15:35:23 -0400|Mon, 4 Aug 2014 12:07:04 -0400
+a94ac84a9447004ceab2e45de37678508200b25b|Add $java_home and $num_partitions parameters|Wed, 16 Jul 2014 16:32:17 -0700|Wed, 16 Jul 2014 18:27:12 -0700
+5cb33f04819a41653ec48becdc3817ef57cdf582|Small fixups|Wed, 16 Jul 2014 16:30:42 -0700|Wed, 16 Jul 2014 18:27:05 -0700
+c986741e51c9adb9ac9228cdb7e3252588720254|Parameterize zookeeper.session.timeout.ms|Thu, 3 Jul 2014 13:20:50 -0400|Thu, 3 Jul 2014 13:23:09 -0400
+7efacaeac49c1ab8227d4cecfd2a6606873c8819|Parameterize jvm_performance_opts in order to modify GC settings|Tue, 24 Jun 2014 15:45:04 -0400|Tue, 24 Jun 2014 15:49:43 -0400
+70b4e9206d4b18436402e0fbbdd2c0b082b88ae2|Allow specifying default replication factor|Thu, 19 Jun 2014 22:39:39 -0700|Fri, 20 Jun 2014 01:47:35 -0700
+72f63f2366eae370d28808a6b284f5f65a021736|Set num.io.threads to configuration default|Mon, 16 Jun 2014 12:28:14 -0400|Mon, 16 Jun 2014 12:28:14 -0400
+98bc81d81eb3c687e187e182861ed1a94b6daad9|Change default num.network.threads and num.io.threads|Fri, 13 Jun 2014 15:41:55 -0400|Fri, 13 Jun 2014 15:41:55 -0400
+5145dee364f2184f5fe5bd66c1f3993a062591c2|Default for log.flush.interval.ms has changed to 3000|Mon, 3 Mar 2014 17:53:13 -0500|Mon, 3 Mar 2014 17:53:13 -0500
+37273f9026ed440e169269358bc785a5b3adcb39|README.md updates|Wed, 26 Feb 2014 09:51:17 -0500|Wed, 26 Feb 2014 09:51:17 -0500
+e907aa2865f7d57b66d4a273b888415086ad2048|Parameterizing 4 more replica server settings|Wed, 19 Feb 2014 14:55:01 -0500|Wed, 19 Feb 2014 14:56:20 -0500
+b35bc1771686a6e939e075c94c33e6d447675987|Adding more Kafka network request stats to jmxtrans monitoring|Tue, 18 Feb 2014 12:02:48 -0500|Tue, 18 Feb 2014 12:02:48 -0500
+e18f734ec0446c7f2f1221f3b97e1edaddcaded8|Parameterizing num.replica.fetchers and replica.fetch.max.bytes|Thu, 6 Feb 2014 11:25:01 -0500|Thu, 6 Feb 2014 11:25:01 -0500
+f7b6606c617a53a47bce46a755da12fe87a114cb|Adding parameterization for open file descriptor ulimit|Fri, 31 Jan 2014 12:30:19 -0500|Fri, 31 Jan 2014 12:30:19 -0500
+f9f119fe860988fc7a03973e586c4f33492b08ea|Fixing default.replication.factor, missing =|Mon, 27 Jan 2014 16:50:28 -0500|Mon, 27 Jan 2014 16:50:28 -0500
+67f419ae97f05ea6d1741980c246554d703fb6d8|Using more frequent run_interval and log_level of info for jmxtrans|Tue, 24 Dec 2013 15:07:41 -0500|Tue, 24 Dec 2013 15:07:41 -0500
+0b2261c8a46da44090509938f72a44f434924fcb|Properly outputting string from boolean|Wed, 18 Dec 2013 17:26:34 -0500|Wed, 18 Dec 2013 17:26:34 -0500
+5b54f7660201f8a3b7febfb46cadc8048033540b|Adding auto_create_topics_enable parameter|Wed, 18 Dec 2013 17:20:53 -0500|Wed, 18 Dec 2013 17:20:53 -0500
+e29d5b1fba66fe3487e660f16e2c61b541569666|Adding port in ganglia URL in README|Wed, 6 Nov 2013 09:11:33 -0500|Wed, 6 Nov 2013 09:11:33 -0500
+5b821db6c58c174594560ab90985487ee09c19f8|Fixing kafka-jmxtrans.json.md link in README.md|Wed, 6 Nov 2013 09:10:45 -0500|Wed, 6 Nov 2013 09:10:45 -0500
+194be30f344c72d50d501dd1adea92d0c2dc14aa|Updating README with jmxtrans documentation; adding example jmxtrans json file|Wed, 6 Nov 2013 09:07:56 -0500|Wed, 6 Nov 2013 09:07:56 -0500
+c695ab6ffbb30eea5300e8d279c167a486bd20f5|Being consistent with ISRExpands capitalization in jmxtrans resultAlias|Tue, 5 Nov 2013 18:48:18 -0500|Tue, 5 Nov 2013 18:48:33 -0500
+6323ba41f910110da191d58449351f407d914ce6|Cleaning up kafka::server::jmxtrans and adding some more metrics|Tue, 5 Nov 2013 18:36:07 -0500|Tue, 5 Nov 2013 18:40:58 -0500
+8e1cf81e66813d53c05ccd9c5840137cfa7ea544|Fixing up Kafka object queries.  Many MBeans had to include escaped double quotes.|Tue, 5 Nov 2013 15:38:32 -0500|Tue, 5 Nov 2013 15:38:32 -0500
+7b39da613d910b5f8e4f8ed21c787941d5e4ed8c|Adding kafka::server::jmxtrans support for jmxtrans Kafka broker metrics|Tue, 5 Nov 2013 11:13:54 -0500|Tue, 5 Nov 2013 11:13:54 -0500
+e713546f60be95b8946e089964013bb2afc4ac6e|Refactoring kafka::server and adding kafka::mirror support.|Thu, 12 Sep 2013 11:38:37 -0700|Thu, 19 Sep 2013 20:29:30 -0400
+8526276c14d3a801298628f3abe42e34ceadbf43|Supporting arbitrary Kafka metrics_properties, rather than only the Kafka CSV metrics reporter.|Mon, 16 Sep 2013 16:21:36 -0700|Mon, 16 Sep 2013 16:21:36 -0700
+f3a41e27cf0bbd57b129469c0e617cc214367d65|Matching kafka.default.erb with updated /etc/default/kafka in latest 0.8 deb.|Thu, 12 Sep 2013 12:30:23 -0700|Thu, 12 Sep 2013 12:31:54 -0700
+b2bde60fb65c9dc4eb3bac027cbb9f37f9845786|Updating TODO.md with MirrorMaker item|Fri, 6 Sep 2013 18:30:04 -0400|Fri, 6 Sep 2013 18:30:04 -0400
+b24bcb72a5a4063803b985ccc9f86af35bdcf716|Updating comments for $zookeeper_chroot.  Supporting array for $log_dir|Thu, 5 Sep 2013 17:15:44 -0400|Thu, 5 Sep 2013 17:15:44 -0400
+ee8667d98f4bf0beba135535619f3236cefcb1c2|Adding custom Zookeeper chroot support.|Mon, 12 Aug 2013 10:56:44 -0400|Mon, 12 Aug 2013 10:56:44 -0400
+32495b161813e6b8b305a38263e8bec9cbc5c86e|Updating .properties files with recent 0.8 branch zookeeper property name change.|Tue, 6 Aug 2013 16:37:23 -0400|Tue, 6 Aug 2013 16:37:23 -0400
+928f190c8c76c69a8f50e03bbae55af78b5e3ec1|Updated README|Fri, 2 Aug 2013 10:23:16 -0400|Fri, 2 Aug 2013 10:23:16 -0400
+54e61b66fb8321f06a9fef8194eb51713fa0765b|Updated README|Fri, 2 Aug 2013 10:21:02 -0400|Fri, 2 Aug 2013 10:21:02 -0400
+6d183320c605b7a1ea94296cf398651dbc3054d6|Updating README|Fri, 2 Aug 2013 09:38:26 -0400|Fri, 2 Aug 2013 09:38:26 -0400
+97d092e3876a8fa4349e5ceee9786befe7a8247a|Updating link in README.md|Thu, 1 Aug 2013 17:26:49 -0400|Thu, 1 Aug 2013 17:26:49 -0400
+b36f7d38c303e636954ab9d05194c4088c771808|Initial commit of Kafka Puppet module for Apache Kafka 0.8|Fri, 22 Feb 2013 11:11:11 -0800|Fri, 21 Jun 2013 11:13:16 -0700
+0cd4574ffc354d9668b52b6ba203233b215e825b|Initial empty repository|Thu, 21 Feb 2013 21:30:47 -0500|Thu, 21 Feb 2013 21:30:47 -0500

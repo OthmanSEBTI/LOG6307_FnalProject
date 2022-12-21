@@ -1,0 +1,6 @@
+,sha,message,files,issues
+0,e4c9e3d7e1221c28802facd7c622aa42b71c4441,Merge pull request #7 from noskovao/master,"['deployment_scripts/hosts.pp', 'deployment_scripts/modules/standalone-ceph/manifests/hosts.pp', 'deployment_tasks.yaml', 'environment_config.yaml']",['#7']
+2,9a04177de5bcd7944ed95ba0b088c35d4e9d0d66,Merge pull request #6 from achekunov/SSL,"['deployment_scripts/modules/ceph_override/manifests/ceph/radosgw_keystone.pp', 'deployment_scripts/modules/ceph_override/manifests/openstack_haproxy/ssl_keys_saving.pp', 'deployment_scripts/ssl_keys_saving.pp', 'deployment_tasks.yaml']",['#6']
+4,921a840df477e70f6a74e54fd893f987dbe33379,Merge pull request #3 from dnikishov/master,"['ceph_release.json', 'deployment_tasks.yaml', 'generate_ceph_release.py', 'post_install.sh']",['#3']
+8,956894594478ee00d99f8d5de60bd098709fa78a,Merge pull request #2 from dnikishov/8.0-fixes,"['deployment_scripts/controller-firewall.pp', 'deployment_scripts/radosgw.pp', 'deployment_tasks.yaml']",['#2']
+10,eb3e1c3ce3dd4c9dfe8dc5786da4935984a5f6e7,Merge pull request #1 from gleb108/master,"['deployment_scripts/hiera-override.pp', 'deployment_scripts/openstack-haproxy-radosgw.pp', 'deployment_scripts/radosgw.pp', 'deployment_tasks.yaml', 'metadata.yaml']",['#1']

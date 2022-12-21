@@ -1,0 +1,21 @@
+,sha,message,files
+0,caac083a3264e4258b32328d084da8a2a05067fd,Chagne ::fqdn to ::hostname,['manifests/defaults.pp']
+1,7532ab230bdf3c4ea7f65833ea06bc49cc45f9d7,For now change this to ::hostname instead of ::fqdn. Will make this value assignable in the future so that assumptions arene't made,['manifests/server.pp']
+2,efbba6014948e3965fbc0ea142b3167af5916c88,Make sure that the full path to the data directory exists,['manifests/server.pp']
+3,1c7ecff1301e536a9a0237059f1f25687995ff0d,"Change references to the zookeeper service from ""zookeeper"" to ""zookeeper-server""",['manifests/server.pp']
+4,20571418109a2f1b0ddcd29d9999d1172ef21a8e,Change service to proper name of zookeeper-server,['manifests/server.pp']
+5,53aca60af3f0831202ce6ec6e41f03440cb3a8b4,Too many equals is a syntax error,['manifests/server.pp']
+6,43f30eebb3a5bbbe65f243f2aebafe9071808fe9,"Add ""enabled"" option for the server service",['manifests/server.pp']
+7,1fad07d522adac434080b0964f2388b6272118a2,Chagne all references of zookeeperd to zookeeper-server,['manifests/server.pp']
+8,0b2cfefae15719b42396a69c1f38c478821a6003,Fix variable scope,['templates/zoo.cfg.erb']
+9,757b46ac353ed747b1d47837fcf53ee9ad97aa52,Change package name to zookeeper-server (from zookeeperd),['manifests/server.pp']
+10,6e3a24b08327f61bb09a9924e76e51c09180b3d9,Qualify @jmx_port in zookeeper.default.erb,['templates/zookeeper.default.erb']
+11,3272c7cc8dbe5ca5746c20ab8598229c69ad6d2d,zookeeper-cleanup: don't generate cron email for normal operation,['manifests/server.pp']
+12,9514acee04bd50bfa7845babd354a2a0e001e25c,"zoo.cfg is rendered by zookeeper class, need new params there","['manifests/init.pp', 'manifests/server.pp']"
+13,8392756f2659f42db344dd1ae31667fba50b4602,"Parameterize tickTime, initLimit and syncLimit","['manifests/defaults.pp', 'manifests/server.pp', 'templates/zoo.cfg.erb']"
+14,29c95428b3379f3e61b0a63fc3b3ec1f1e75c34e,Fixing zookeeper::jmxtrans class name,['manifests/jmxtrans.pp']
+15,9dc0baaf3720fc224d78e2b1afb40c24f050ed65,Adding zookeeper::jmxtrans class,['manifests/jmxtrans.pp']
+16,8e831a20b22673a9ab3c261b6d43312fc5f2a0cf,Adding a cron job to run zkCleanup.sh daily.,"['README.md', 'manifests/defaults.pp', 'manifests/server.pp']"
+17,4d07c61baab09094ce80b7c1e837d541eb1d0a75,Adding proper .md formatting for code block to README.md,['README.md']
+18,9b89f1f3c4e9af17c285f951a3882c009a912a0d,Initial commit of zookeeper module.,"['README.md', 'manifests/defaults.pp', 'manifests/init.pp', 'manifests/server.pp', 'templates/log4j.properties.erb', 'templates/zoo.cfg.erb', 'templates/zookeeper.default.erb', 'tests/Makefile', 'tests/server.pp', 'tests/zookeeper.pp']"
+19,73f2449259f859768ca2dfe7678cb9ff92846c22,"Initial commit, adding README.md",['README.md']

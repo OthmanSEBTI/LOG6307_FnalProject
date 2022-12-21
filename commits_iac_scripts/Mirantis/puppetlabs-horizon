@@ -1,0 +1,27 @@
+,sha,message,files
+0,b55d627c79bc6017474159b9cf3cdbcad5daac2c,Properly require and enable mod_wsgi before installing dashboard,"['manifests/init.pp', 'manifests/params.pp']"
+1,1a3a265659d56d3df6ce48e3b09aeaa474f80501,Merge pull request #11 from fcharlier/fc/more_parameters,"['manifests/init.pp', 'spec/classes/horizon_init_spec.rb', 'templates/local_settings.py.erb']"
+2,cfa8ee9245c576812cf254ae8a551a910aff3b13,Remove the trailing comma on last parameter,['manifests/init.pp']
+3,d714a2c64ad5bf32bebebbd1e6817033c3d91fbe,Add more parameters:,"['manifests/init.pp', 'spec/classes/horizon_init_spec.rb', 'templates/local_settings.py.erb']"
+4,af98c681c86188ce4683b75d11194d8700d0abc3,Add keystone_default_role parameter,"['manifests/init.pp', 'spec/classes/horizon_init_spec.rb', 'templates/local_settings.py.erb']"
+5,84c89d6be8b4851b88fa63a98311fb91d0177779,Add parameters for keystone endpoint,"['manifests/init.pp', 'spec/classes/horizon_init_spec.rb', 'templates/local_settings.py.erb']"
+6,ba357810d879350b565caeaf8269e6526e8d30c0,Merge pull request #7 from sbadia/master,"['manifests/init.pp', 'manifests/params.pp']"
+7,ff60c16b2ea9ddb2aabac998433bb0e00fe6a0e7,Use operatingsystem instead of lsbdistid (Refs pull request #7),['manifests/params.pp']
+8,177d647f2663b485f80a626f92c9a363c5cf1751,Merge pull request #10 from branan/fix_trailing_comma,['manifests/init.pp']
+9,58ad431a5b03d8baa648532b3b6cafc3e1f9c8a1,Remove trailing comma to be compatible with older puppets,['manifests/init.pp']
+10,d05366e909a5867d52b2cd3f9ad72c0b21893292,Merge pull request #9 from branan/test,"['.fixtures.yml', '.gemfile', 'Rakefile', 'spec/classes/horizon_init_spec.rb', 'spec/fixtures/manifests/site.pp', 'spec/spec_helper.rb']"
+11,c386cd4a718675884a9b031d72465d01d2004781,Add initial spec test,"['.fixtures.yml', '.gemfile', 'Rakefile', 'spec/classes/horizon_init_spec.rb', 'spec/fixtures/manifests/site.pp', 'spec/spec_helper.rb']"
+12,99c9279726919f2fdedade778cd0c20c8d36d1d0,Debian: openstack-dashboard is an dependency of openstack-dashboard-apache,"['manifests/init.pp', 'manifests/params.pp']"
+13,62f265c0e5d9ceeafe50477c95fe5def07c66016,Merge pull request #3 from branan/forge_release,"['CHANGELOG', 'LICENSE', 'Modulefile']"
+14,7a3a0a6c713d8fc76af2f1c57a5918b74cd5d288,Add modulefile and changelog for initial release,"['CHANGELOG', 'LICENSE', 'Modulefile']"
+17,ed71167be362c292928ec045e66d5389d6c8f349,Merge pull request #5 from robertstarmer/master,"['manifests/init.pp', 'templates/local_settings.py.erb']"
+18,816258e20e6629a8c2055daf4dfec685ae7e88d8,Fixed comments on pull.,"['manifests/init.pp', 'templates/local_settings.py.erb']"
+19,c0f59d91347106e77651d633b28e28b4b4a31e5a,Merge pull request #4 from sbadia/master,"['README.md', 'manifests/init.pp']"
+20,5dc486cb65ceb9baa742d3d6ce8b7337141af686,"added enhancements to the template to support swift and quantum, and added tags and templates for app, compute, and storage monitoring callouts","['manifests/init.pp', 'templates/local_settings.py.erb']"
+22,adcfda7235095cc8cea2971fbf86d6f7ae3d472c,For debian apache2 is not an dependence of openstack-dashboard,['manifests/init.pp']
+23,d1a8334b3c7fcac6dc853dc3f0a48edacb0f3e3b,Merge pull request #2 from derekhiggins/import-params,['manifests/init.pp']
+24,75211935e5f9ef2a3f975e63eea1e8bf0a790b8e,"Params should have been imported, it was only working in tests by accident",['manifests/init.pp']
+25,9c1c8275cdff58c487dfe4f4c0fa12d8a007db01,Merge pull request #1 from derekhiggins/adding-params,"['manifests/init.pp', 'manifests/params.pp']"
+26,d1ffe8defaa4fd9f55df56a7bac8b5b260111460,Adding name of the httpd service as a param,"['manifests/init.pp', 'manifests/params.pp']"
+27,342faab69a73ee18e2f30958262dcf5192893182,Remove wsgi dependency,['manifests/init.pp']
+28,c79dbe794ec276cabac2cecbd78e5152951ba098,initial checkin,"['manifests/init.pp', 'templates/local_settings.py.erb']"

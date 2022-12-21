@@ -1,0 +1,16 @@
+9d6cf175bee374ee3ac29d732ab21bb4d309f340|Removing commented stuff|Mon, 8 Jul 2013 11:06:40 -0400|Mon, 8 Jul 2013 11:06:40 -0400
+e76ca2c0e2b827032c06e5896dd8dc94c8317143|Removing unused stuff from base.pp|Mon, 8 Jul 2013 11:06:23 -0400|Mon, 8 Jul 2013 11:06:23 -0400
+058fe9cb48ac17a0909c5c0758d354364cfe12e3|Updating cdh4 module|Mon, 8 Jul 2013 11:04:10 -0400|Mon, 8 Jul 2013 11:04:10 -0400
+c3fcc69156ad71e07d505696a0c0ef0dce07885f|Updates for hadoop and zookeeper|Thu, 6 Jun 2013 15:54:50 -0400|Thu, 6 Jun 2013 15:54:50 -0400
+1551b054339b0b287e8bfeb0b7d1e6e6bc84ba0c|Updating cdh4 commit sha|Thu, 6 Jun 2013 14:35:34 -0400|Thu, 6 Jun 2013 14:35:34 -0400
+2340ccbe0019765785835e237b9bc2fd94a433d6|Adding zookeeper git submodule|Thu, 6 Jun 2013 14:33:49 -0400|Thu, 6 Jun 2013 14:33:49 -0400
+c92aff88c66fbe9cb0d9a2f8a367e56152860a60|Commenting out kraken::config usage.  Not using this. (Yet?)|Wed, 15 May 2013 10:40:18 -0400|Wed, 15 May 2013 10:40:18 -0400
+d79ff2fba3064ab893e31da66d19a2b2413f48f6|Changing submodule URLs to anon gerrit HTTP|Wed, 1 May 2013 15:17:33 -0400|Wed, 1 May 2013 15:17:33 -0400
+eb2e0106d672696495e94aa603a3e0cb1e26ef72|Only including Hadoop in vagrant VM by default right now.|Wed, 1 May 2013 15:05:18 -0400|Wed, 1 May 2013 15:05:18 -0400
+cd0ea46f4dc75a2e9bb2914f8ed9fcb0cc9225db|Adding modules/cdh4 as a git submodule.|Wed, 1 May 2013 15:01:19 -0400|Wed, 1 May 2013 15:01:19 -0400
+ce8833a86b9c20780c345f6866f313eb134cab46|Adding kraken configs.|Fri, 26 Apr 2013 12:01:32 -0400|Fri, 26 Apr 2013 12:01:32 -0400
+4ac64fa11e29f165808138286d0db8a2c0ffbbb6|Setting domain to .local to get fqdn set properly|Fri, 26 Apr 2013 12:00:52 -0400|Fri, 26 Apr 2013 12:00:52 -0400
+2cd79f9af392b2b49952984578559f9c2bd19d69|Adding java module. Including java in base.pp.|Thu, 25 Apr 2013 13:57:09 -0400|Thu, 25 Apr 2013 13:57:09 -0400
+ff05fd751ee21eb883fa668a632fc131dfada435|Using apt module to install wikimedia apt repo settings|Thu, 25 Apr 2013 11:58:13 -0400|Thu, 25 Apr 2013 11:58:13 -0400
+6c3a578dcdbdaace282ebaa427803300e0a95877|Adding apt module|Thu, 25 Apr 2013 11:58:02 -0400|Thu, 25 Apr 2013 11:58:02 -0400
+4590a29518efeb24cef5b340ba958ef77c7684e6|First commit of Kraken Vagrant VM.|Thu, 25 Apr 2013 10:59:51 -0400|Thu, 25 Apr 2013 11:27:56 -0400

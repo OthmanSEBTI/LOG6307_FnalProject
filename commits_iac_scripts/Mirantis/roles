@@ -1,0 +1,8 @@
+,sha,message,files
+0,5b94f457643cce0d6d2bee70deabfa18bfe229fa,"Revert ""debug sudo""",['manifests/openstack/pmlc_controller.pp']
+1,e015defa639aaaaeda428c47e3381cd350985a6e,debug sudo,['manifests/openstack/pmlc_controller.pp']
+2,4c24a1c0a934dd5a8e49def49ff64288e6c5f4bb,"Revert ""Remove unnecessary/unconfigured modules for pmlc""","['manifests/openstack/pmlc_ceph_osd.pp', 'manifests/openstack/pmlc_compute.pp', 'manifests/openstack/pmlc_controller.pp', 'manifests/openstack/pmlc_mongo.pp']"
+3,18c59dabd7fe721ab70bf155f22d1b417f37ef96,Remove unnecessary/unconfigured modules for pmlc,"['manifests/openstack/pmlc_ceph_osd.pp', 'manifests/openstack/pmlc_compute.pp', 'manifests/openstack/pmlc_controller.pp', 'manifests/openstack/pmlc_mongo.pp']"
+4,7db117f776dcb2ed941c02d2fac24dff6fc25612,Add roles for pmlc versions of openstack boxen,"['manifests/openstack/pmlc_ceph_osd.pp', 'manifests/openstack/pmlc_compute.pp', 'manifests/openstack/pmlc_controller.pp', 'manifests/openstack/pmlc_mongo.pp']"
+5,331724b73830f8c5d2472b71de34d6483e73c87a,Change cicd firewall profile name to deploy.,['manifests/deploy.pp']
+6,e01ed9c154bbd9c5e71ad429cadab0b02d8880d2,Initial commit,"['.fixtures.yml', '.gitignore', '.travis.yml', 'CHANGELOG.md', 'Gemfile', 'README.md', 'Rakefile', 'manifests/default.pp', 'manifests/deploy.pp', 'manifests/foreman/bootstrap_server.pp', 'manifests/foreman/proxy.pp', 'manifests/foreman/server.pp', 'manifests/ftp/server.pp', 'manifests/init.pp', 'manifests/openstack/ceph_osd.pp', 'manifests/openstack/compute.pp', 'manifests/openstack/controller.pp', 'manifests/openstack/mongo.pp', 'manifests/puppet/ca.pp', 'manifests/puppet/db.pp', 'manifests/puppet/master.pp', 'metadata.json', 'spec/classes/init_spec.rb', 'spec/spec_helper.rb', 'tests/init.pp']"

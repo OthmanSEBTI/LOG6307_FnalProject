@@ -1,0 +1,1036 @@
+,sha,message,files
+0,834d9a6780c33233cef141a7b6007dbfe527ae08,Remove implementations to set up Ceilometer DB,"['README.md', 'examples/ceilometer_with_gnocchi.pp', 'examples/site.pp', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'manifests/deps.pp', 'releasenotes/notes/remove-db-opts-89c03fa40ae3cde2.yaml', 'spec/classes/ceilometer_db_mysql_spec.rb', 'spec/classes/ceilometer_db_postgresql_spec.rb', 'spec/classes/ceilometer_db_spec.rb']"
+1,6d780115877567c35cde91c861a4cfa9cde9b83a,Remove parameters for [hardware] options,"['manifests/init.pp', 'releasenotes/notes/remove-hardware-opts-88e4b49767d7b185.yaml']"
+2,2abdae02d95b9fde775c72a48d454cd9d56b2f4b,Update master for stable/zed,"['releasenotes/source/index.rst', 'releasenotes/source/zed.rst']"
+3,c7eb9c1fc36175d040af4dfa86d428f688e47508,Prepare Zed RC1,['metadata.json']
+4,b00000fb86e2882c11fb399d9adf410812a895bd,Add new parameter `tenant_name_discovery`,"['manifests/agent/polling.pp', 'releasenotes/notes/add_tenant_name_discovery-4671aec3daae9622.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+5,1dcdea2e622dbbe5b49ce1991cea9db322270dfd,Forcefully purge [hardware] readonly_user_* parameters,"['manifests/init.pp', 'releasenotes/notes/deprecate-hardware-opts-61cf241a46a4891b.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+6,3cee14c87ffaad8ee83c564eac147c65fbf7768a,Enable memcached and redis in acceptance tests,['spec/acceptance/10_basic_ceilometer_config_spec.rb']
+7,f42458bfe61cc6d4b5a4a184ace5a82003b0fb04,Remove deprecated notificaton_workers,"['manifests/agent/notification.pp', 'releasenotes/notes/remove-notification_workers-1d9ec9ec4b378498.yaml']"
+8,2f053934da8ee09b694eebf55327a2921356e75a,Remove deprecated ceilometer::agent::polling::coordination_url,"['manifests/agent/polling.pp', 'manifests/coordination.pp', 'releasenotes/notes/cleanup-coordination-bb6eb0dfca973ceb.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+9,588c9c9501216553e458274cf831d2ea7d3be59b,"Revert ""CentOS 9: Disable unit tests dependent on puppet-postgresql""",['spec/classes/ceilometer_db_postgresql_spec.rb']
+10,53a6f17dc77be0ff8752295a91f7aa1d6ade2eec,"Merge ""Add acceptance tests for config management resources""","['spec/acceptance/10_basic_ceilometer_config_spec.rb', 'spec/acceptance/99_ceilometer_config_spec.rb']"
+11,962afdd17dab55fc0151343481ca86f5b3e13ee7,Fix wrong test description,"['spec/unit/type/ceilometer_config_spec.rb', 'spec/unit/type/ceilometer_rootwrap_config_spec.rb']"
+12,a48659ea0d5c8d4f1784cd9adffefe755c4190fa,Add acceptance tests for config management resources,"['spec/acceptance/10_basic_ceilometer_config_spec.rb', 'spec/acceptance/99_ceilometer_config_spec.rb']"
+13,3f9fa0dc6f172b2547192160c9ec6dc8efe4579f,"Merge ""Deprecate classes to set up Ceilometer DB""","['manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'releasenotes/notes/deprecate-db-opts-a3420b13a23eacf1.yaml']"
+14,60882c29dff6b5302d982eaf79796913c4a8bea9,Deprecate classes to set up Ceilometer DB,"['manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'releasenotes/notes/deprecate-db-opts-a3420b13a23eacf1.yaml']"
+15,a8e2dc6891cc36209d947da06137cd450e9711af,Clean up deprecated cache parameters,"['manifests/cache.pp', 'manifests/init.pp', 'releasenotes/notes/cleanup-cache-parameters-87dfad09ecabd187.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+16,7d3af77f010fa6c1921ae6b1d4b7fc903f7b62da,Fix typos in parameter descriptions and tests,"['README.md', 'manifests/cache.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'spec/classes/ceilometer_agent_service_credentials_spec.rb', 'spec/unit/type/ceilometer_config_spec.rb']"
+17,210fdec48f384d9d80c3a11999a80d0540a1d168,"Merge ""Refactor service user/group management""","['manifests/agent/polling.pp', 'manifests/init.pp', 'releasenotes/notes/manage_user-a18dad4c2ad95daf.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_init_spec.rb']"
+18,c6bd935e275dc6bb3e56dbea8f88d3bad3764818,Replace usage of mongodb in unit tests,['spec/classes/ceilometer_db_spec.rb']
+19,7e4f8d6778e0f4ee262efe9778bf23c886fa676a,Remove support for CentOS 8 Stream,"['metadata.json', 'releasenotes/notes/remove-centos-8-147229bc52231306.yaml']"
+20,eafc9088718239b6b9b4a8a579c4588dfb7d10af,Refactor service user/group management,"['manifests/agent/polling.pp', 'manifests/init.pp', 'releasenotes/notes/manage_user-a18dad4c2ad95daf.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_init_spec.rb']"
+21,a569c41855f624204903ad0c85fa2eda6cc6125f,"Merge ""polling: Ensure unused parameters are cleared""","['manifests/agent/polling.pp', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+22,e5ce40b16d7534a917416cb2e5f3669336fc816f,Deprecate support for [hardware] options,"['manifests/init.pp', 'releasenotes/notes/deprecate-hardware-opts-61cf241a46a4891b.yaml']"
+23,2c48365980cd93de53aa17f25dc2531c8bcbfc6e,polling: Ensure unused parameters are cleared,"['manifests/agent/polling.pp', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+24,b5f4557ee1a817f5b5c2bde96c3c7d56716f5ba0,Update master for stable/yoga,"['releasenotes/source/index.rst', 'releasenotes/source/yoga.rst']"
+25,cd5746f34f6d98ee1364916e5071d9245d31d53c,"Merge ""Remove unused ""transformers"" field from event pipeline configuration""","['spec/classes/ceilometer_agent_notification_spec.rb', 'templates/event_pipeline.yaml.erb']"
+26,e1604e16dd82b04ca60eef4d61d8275496952582,"Merge ""Remove unused ""triggers"" field from event pipeline configuration""","['spec/classes/ceilometer_agent_notification_spec.rb', 'templates/event_pipeline.yaml.erb']"
+27,ac3f658a202069d91f254bec7f65a40a9d5f1fae,setuptools: Disable auto discovery,['setup.py']
+28,72235236a171ae114f0196e27063db500ab710d8,"Remove unused ""transformers"" field from event pipeline configuration","['spec/classes/ceilometer_agent_notification_spec.rb', 'templates/event_pipeline.yaml.erb']"
+29,17864e2aec4556ed18864a0b26839b81a472a068,"Remove unused ""triggers"" field from event pipeline configuration","['spec/classes/ceilometer_agent_notification_spec.rb', 'templates/event_pipeline.yaml.erb']"
+30,e2051dae5eb6c81d9da50ed96112c200bb342e2f,Prepare Yoga RC1,['metadata.json']
+31,8cb0afd1976cd68dea197fbd8fea718b9437704b,"Merge ""Globally support system scope credentials""","['manifests/agent/service_credentials.pp', 'releasenotes/notes/system_scope-all-7766304aa60b50d1.yaml', 'spec/classes/ceilometer_agent_service_credentials_spec.rb']"
+32,1ab7f372cc370bc94799389708455b3c1603213b,remove unicode literal from code,['releasenotes/source/conf.py']
+33,5f52d0d0e754cc781df18d9350542d888b36b200,Globally support system scope credentials,"['manifests/agent/service_credentials.pp', 'releasenotes/notes/system_scope-all-7766304aa60b50d1.yaml', 'spec/classes/ceilometer_agent_service_credentials_spec.rb']"
+34,4efbd44f6cf92a7759370fea97e3548c7d56d874,Prepare Yoga M3,['metadata.json']
+35,1bbaea2895d70e7c4da2ab847b08e82487929a4b,"Merge ""Add CentOS/RHEL 9 to supported operating systems""","['metadata.json', 'releasenotes/notes/centos-9-support-62e91a76eab9c529.yaml']"
+36,8ea0c1a747678fe6e55846bea56afdd456e7874c,"Merge ""Fix missing mode/owner/group enforcement of polling.yaml""","['manifests/agent/notification.pp', 'manifests/agent/polling.pp']"
+37,afc6e0cbe910a52ea82a925af8ec97f2eaaaba3f,Add CentOS/RHEL 9 to supported operating systems,"['metadata.json', 'releasenotes/notes/centos-9-support-62e91a76eab9c529.yaml']"
+38,8ac9135920cd0cca41e3b70ceae33ae63211785a,Fix missing mode/owner/group enforcement of polling.yaml,"['manifests/agent/notification.pp', 'manifests/agent/polling.pp']"
+39,1532a32b9c2d3b21a1358249661bf1c1e0367e4b,"Merge ""Remove deprecated database_min_pool_size""","['manifests/db.pp', 'releasenotes/notes/remove-database_min_pool_size-ea5a1adb8be0711a.yaml']"
+40,f6287824de3f2b8415f789d5b05503fac273bb19,"Merge ""Remove deprecated amqp_allow_insecure_clients""","['manifests/init.pp', 'releasenotes/notes/remove-amqp_allow_insecure_clients-5fb59bf2a6b70093.yaml']"
+41,23ab18bfb6f53e39665770e9588826f61d919dbb,CentOS 9: Disable unit tests dependent on puppet-postgresql,['spec/classes/ceilometer_db_postgresql_spec.rb']
+42,04f0e54653c40e880abef9a2fce4884ee8ea88a0,"Merge ""Add scenario002 integration job""",['.zuul.yaml']
+43,5c58831b527f52dd90a8a071d4de5bbe7f82f8e6,Remove deprecated database_min_pool_size,"['manifests/db.pp', 'releasenotes/notes/remove-database_min_pool_size-ea5a1adb8be0711a.yaml']"
+44,2fb392103cc347cd6fc70c1fbb8129a5b240be3f,Remove deprecated amqp_allow_insecure_clients,"['manifests/init.pp', 'releasenotes/notes/remove-amqp_allow_insecure_clients-5fb59bf2a6b70093.yaml']"
+45,0c04ba25d2eb37b89527f054879ab2818676f7ae,Bugfix - Deprecated notification_workers is ignored,['manifests/agent/notification.pp']
+46,6d3ed4dddb2f2e6e1e3e8432592c8b9e4de8958f,"Merge ""Update outdated example""",['examples/ceilometer_with_gnocchi.pp']
+47,6975e81db4fa3af7a56343deac56114c95155d98,Add scenario002 integration job,['.zuul.yaml']
+48,c456f0b60b347dc54dacba4b1649830454705dc5,Update outdated example,['examples/ceilometer_with_gnocchi.pp']
+49,a7cf7060ddfeab7440bf2e84522d220014c10bd8,Deprecate cache parameters in the base class,"['manifests/cache.pp', 'manifests/init.pp', 'releasenotes/notes/cache-opts-cea94fc0d564f820.yaml', 'spec/classes/ceilometer_cache_spec.rb']"
+50,b13732ce19965d663b660abca76ecf617881d03f,Add HashClient retry options for the dogpile.cache backend,"['manifests/init.pp', 'releasenotes/notes/add_cache_hashclient_retry_options-474e86180db9699f.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+51,f1a4758061798b9380cd43b6bdf09aeba9eea75a,Add cache client retry options for the pymemcache backend,"['manifests/init.pp', 'releasenotes/notes/add_cache_retry_options-7c3b07c02f883861.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+52,0b751f669cfb208f28d91780cd5b0e060861f506,"Merge ""Add socket keepalive options for the pymemcache backend""","['manifests/init.pp', 'releasenotes/notes/add_keepalive_options-3802510b6d4461e1.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+53,0f3def326579d888d7c67bf6203a1f7092d0609b,"Merge ""Fix duplicate (Optional) in parameter description""",['manifests/cache.pp']
+54,9252cc892c0d6e0341c41d2574a5b7824282470d,Fix duplicate (Optional) in parameter description,['manifests/cache.pp']
+55,455cf1ba649c392e2fe88f04af55adb63af3ec28,Add socket keepalive options for the pymemcache backend,"['manifests/init.pp', 'releasenotes/notes/add_keepalive_options-3802510b6d4461e1.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+56,fecba8f3515e03aaa3dbb49631b84a36c1c5e1fc,Fix wrong service user name in parameter description,['manifests/keystone/auth.pp']
+57,2101af92df2deab9319fdb12ba817d4fd34f23ad,"Merge ""Allow customizing roles of the ceilometer service user""","['manifests/keystone/auth.pp', 'releasenotes/notes/system_scope-role-d29cc9a3c6da4fef.yaml', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+58,49dbd55f166826ef5c419d3ec5f5434f49351c9e,"Merge ""Do not test detail of keystone::auth::service_identity""",['spec/classes/ceilometer_keystone_auth_spec.rb']
+59,68d6a5193136746690f7e7e59733942945249e40,Allow customizing roles of the ceilometer service user,"['manifests/keystone/auth.pp', 'releasenotes/notes/system_scope-role-d29cc9a3c6da4fef.yaml', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+60,bcb4265b2b485642ff9015f9e82e885c2aab1d13,Do not test detail of keystone::auth::service_identity,['spec/classes/ceilometer_keystone_auth_spec.rb']
+61,453cc408784648c6092279159121250eeb62ccbe,Avoid testing details of oslo::messaging(::*),['spec/classes/ceilometer_init_spec.rb']
+62,8ff2661983b01fefc04ea0834a0a7513eb409d06,"Merge ""compute: Add support for tunables parameters""","['manifests/agent/polling.pp', 'releasenotes/notes/compute-params-ecee48b43a1bdad2.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+63,3e022187f42a2be664c08e17cb0cedd0c5ba9da9,Prepare Yoga M2,['metadata.json']
+64,ddeb43dacc61a4181a5420365f1803d7cbb055c8,Add support for rootwrap.conf,"['lib/puppet/provider/ceilometer_rootwrap_config/ini_setting.rb', 'lib/puppet/type/ceilometer_rootwrap_config.rb', 'manifests/config.pp', 'manifests/deps.pp', 'releasenotes/notes/rootwrap-544101dc45c1220b.yaml', 'spec/unit/provider/ceilometer_rootwrap_config/ini_setting_spec.rb', 'spec/unit/type/ceilometer_rootwrap_config_spec.rb']"
+65,6bdf24f75020d57205ba361577a1dbde8aa8350d,"Merge ""Remove deprecated ceilometer::agent::auth""","['manifests/agent/auth.pp', 'manifests/agent/service_credentials.pp', 'releasenotes/notes/remove-auth-7d9ed7c16e0856e9.yaml', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+66,e0d2492f4c2494a78acf83271fa2cfb8b326d068,"Merge ""Remove unnecessary dependency""",['manifests/deps.pp']
+67,e25e6bd483b613ca35bb657706398900f8a8cbfd,Remove deprecated ceilometer::agent::auth,"['manifests/agent/auth.pp', 'manifests/agent/service_credentials.pp', 'releasenotes/notes/remove-auth-7d9ed7c16e0856e9.yaml', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+68,f1dab428d208c20ecf8537240635e57a8e7e53f4,Remove unnecessary dependency,['manifests/deps.pp']
+69,f9bd8755ed4bf88af62360f37061d838f1818cfd,Load libraries in a single place,"['spec/spec_helper.rb', 'spec/unit/provider/ceilometer_config/openstackconfig_spec.rb']"
+70,6892474ace1d02260f074c48eabf409cb16fdfb9,compute: Add support for tunables parameters,"['manifests/agent/polling.pp', 'releasenotes/notes/compute-params-ecee48b43a1bdad2.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+71,5d40c9503c54f44c8d0b88c79b5ec73af9216566,Add support for oslo.cache parameters,"['manifests/cache.pp', 'releasenotes/notes/cache-44827d7d144ab594.yaml', 'spec/classes/ceilometer_cache_spec.rb']"
+72,b05d311bb6519a72764ea1daf497b3709293d0bb,Install coordination backend packages before starting services,['manifests/deps.pp']
+73,8a567216f7d30338c9e946ca81b87c50ebb2a8ff,"Merge ""Add support for [polling] batch_size""","['manifests/agent/polling.pp', 'releasenotes/notes/polling-batch_size-95f15dc9d96b96b4.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+74,29fae2cabd6b285823853186dde257f825549fa7,"Merge ""Add support for polling Radosgw metrics""","['manifests/agent/polling/rgw.pp', 'manifests/agent/polling/service_types.pp', 'releasenotes/notes/rgw-support-35ca7afb8e5ec322.yaml', 'spec/classes/ceilometer_agent_polling_rgw_spec.rb', 'spec/classes/ceilometer_agent_polling_service_types_spec.rb']"
+75,abab7dcb42bec274f8be11e0abee1620b982538d,"Merge ""Add support for the [service_types] parameters""","['manifests/agent/polling/service_types.pp', 'releasenotes/notes/service_types-2a672cdceff9227f.yaml', 'spec/classes/ceilometer_agent_polling_service_types_spec.rb']"
+76,3923bd9dc85c2fd9c1e92e8cd89683ec80235c8a,"Merge ""Do not hardcode default of [DEFAULT] http_timeout""",['manifests/init.pp']
+77,2ce16ad4b84109ab73856be22f316a012d445b94,"Merge ""Add support for [DEFAULT] max_parallel_requests""","['manifests/init.pp', 'releasenotes/notes/max_parallel_requests-ef9a035e9ecf0951.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+78,7fbd758d72d347c66f3431fc6ed475266b263081,Add support for polling Radosgw metrics,"['manifests/agent/polling/rgw.pp', 'manifests/agent/polling/service_types.pp', 'releasenotes/notes/rgw-support-35ca7afb8e5ec322.yaml', 'spec/classes/ceilometer_agent_polling_rgw_spec.rb', 'spec/classes/ceilometer_agent_polling_service_types_spec.rb']"
+79,89923f7eb120a1139d13af84f15c04aef261db48,Add support for the [service_types] parameters,"['manifests/agent/polling/service_types.pp', 'releasenotes/notes/service_types-2a672cdceff9227f.yaml', 'spec/classes/ceilometer_agent_polling_service_types_spec.rb']"
+80,31b5d7f00be5510576449328659b499f1f655276,"Remove unused, outdated unit test cases",['spec/classes/ceilometer_init_spec.rb']
+81,ed000c0cda6b1b610c68e634e289dc2f001aa74d,Do not hardcode default of [DEFAULT] http_timeout,['manifests/init.pp']
+82,b1ebc891f1bcf0396f55fd6ecc265deab89a9692,Add support for [DEFAULT] max_parallel_requests,"['manifests/init.pp', 'releasenotes/notes/max_parallel_requests-ef9a035e9ecf0951.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+83,c3c1afb8bd9d446a4be2c96f640f44e10f45541e,Add support for [polling] batch_size,"['manifests/agent/polling.pp', 'releasenotes/notes/polling-batch_size-95f15dc9d96b96b4.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+84,d481b0cec1211529ff70044b728d576c97f71a25,Bump puppetlabs-inifile,['metadata.json']
+85,330da65baf0dbfda5608c2b03cb33ccd90054f9c,Remove the ceilometer::policy class,"['manifests/policy.pp', 'releasenotes/notes/remove-policy-7f6354b93ba44c18.yaml']"
+86,5cf53703eb79f989e1f451eec4f57dabe8104e08,Bump version for the start of Yoga,['metadata.json']
+87,8f648f237999b70cc43d97e262f3cc93610c661a,Update master for stable/xena,"['releasenotes/source/index.rst', 'releasenotes/source/xena.rst']"
+88,07d4c5a8e0f622222ab2c7f95cfcc66b0ecabcd3,Add information technology in the setup.cfg,['setup.cfg']
+89,6f1d3687c41b690c1594a7765bb61a1e2e3f9b27,Add license information in the setup.cfg,['setup.cfg']
+90,57161189950da12e459ee52599ff24cf4b3e6924,Delete useless code for setup.py,['setup.py']
+91,da421b669a1627bed52358398720eb889945d586,"Merge ""Stop configuring install_command in tox.""",['tox.ini']
+92,59fce8a64118f965442ee9d8c9e383975ce92d99,"Merge ""Fix pbr>=2.0.0 for setup.py""",['setup.py']
+93,dad345e872ebab4b76055ce72644ddf852f7b65d,Stop configuring install_command in tox.,['tox.ini']
+94,d0d3f465e10a5aba7f62e23d20b619c7028b2725,Fix pbr>=2.0.0 for setup.py,['setup.py']
+95,2790fe786d38410f5328e9b4ae73a6ea07717113,Update openstackdocstheme to the latest version,['doc/requirements.txt']
+96,ce66596c6e5eb44487446a886d4da9d4b528c9d4,Update reno to the latest version,['doc/requirements.txt']
+97,f100a2c545c40194ba51a4f565fefbd8a6e0ebf2,Do not define service resource when manage_service is false,"['manifests/agent/notification.pp', 'manifests/agent/polling.pp', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+98,1dd5ddb8273cb6d6e2af98a2c5529b1d185415cd,Use package resource directly,"['manifests/agent/notification.pp', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+99,317147f6706bc4acaa9e885cfcbe677a30e45cb4,"Merge ""[hardware] readonly_user_password should be secret""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+100,9f7c5f236b29e5d8a92922c97d77f6e657907cf7,"Merge ""Remove parameters for keystone endpoint/service""","['manifests/keystone/auth.pp', 'releasenotes/notes/remove-keystone-endpoint-params-2940d362989e4284.yaml']"
+101,c8559b4cbf5c194fbc2106f4f7e92a357951fd84,"Merge ""Do not use the deprecated service_type in unit tests""",['spec/classes/ceilometer_keystone_auth_spec.rb']
+102,d987257e4ef452653650aa03bab748be7c207b3e,[hardware] readonly_user_password should be secret,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+103,2c2cfcb5b032a2ff7e7874e612690c0bfcb79d04,Fix stdlib version in metadata,['metadata.json']
+104,2fd8cd69ab76a845aea92a7929d5464b9fabffc7,Remove parameters for keystone endpoint/service,"['manifests/keystone/auth.pp', 'releasenotes/notes/remove-keystone-endpoint-params-2940d362989e4284.yaml']"
+105,d94ba5a10f74c7d1c9404249cc4846513e0036d4,Do not use the deprecated service_type in unit tests,['spec/classes/ceilometer_keystone_auth_spec.rb']
+106,090c67725b94dd5407206f18aeec463a5184dc8c,Prepare Xena RC1,['metadata.json']
+107,b87511973bde61cb55569dd2b9671c0ead1219c5,Add watch_log_file option,"['manifests/logging.pp', 'releasenotes/notes/add_watch_log_file-option-add0360c545882f4.yaml', 'spec/classes/ceilometer_logging_spec.rb']"
+108,1ea01f7b0679f3f35c60c46277d504ed4b626553,Prepare Xena M3,['metadata.json']
+109,1dd365cd36cdb6e08308b9090d1c5fc2d7cbed5f,"Merge ""Deprecate the ceilometer::policy class""","['manifests/policy.pp', 'releasenotes/notes/deprecate-policy-9c3c69c2f79777f8.yaml', 'spec/classes/ceilometer_policy_spec.rb']"
+110,7021e05beba1807f26f993d1ee01b8209ffb8feb,Deprecate the ceilometer::policy class,"['manifests/policy.pp', 'releasenotes/notes/deprecate-policy-9c3c69c2f79777f8.yaml', 'spec/classes/ceilometer_policy_spec.rb']"
+111,7c1a8a949c2f215d42cf28cf38fbe7e715ca9054,Support Puppet 7,['metadata.json']
+112,d840e19f9812bda6cce64cff8949ec1bb8539308,Prepare Xena M2,['metadata.json']
+113,4cd36de603af9e755ac095c044556868eb742915,"Merge ""Use oslo::coordination to manage coordination parameters""","['manifests/agent/polling.pp', 'manifests/coordination.pp', 'releasenotes/notes/coordination-6e5105e0558f3e5b.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_coordination_spec.rb']"
+114,e99dc4acf47d8bc9b85465456f0c9fcd11ec3c65,"Merge ""Set fixture paths for unit tests""",['spec/spec_helper.rb']
+115,abb7623404988b1bc0adddc95be204a53b511f69,Set fixture paths for unit tests,['spec/spec_helper.rb']
+116,d7938910b42819dd24348b74623e4d704b9a7c7e,Add a release note about Fedora support removal,['releasenotes/notes/drop-fedora-1d67c61af6b760d2.yaml']
+117,6540640c0b7a2a47ff4d0cd41fd1e205ec4c5e97,"Merge ""Drop Fedora support""",['metadata.json']
+118,938738477a64986c161d43354ff2ebbe9e44eabd,Prepare Xena M1,['metadata.json']
+119,9c876228713889cfe89bfb62f0522ceb7bddc385,Drop Fedora support,['metadata.json']
+120,1155b41db051e95e9246aa02eed2205f1f0f845a,Use oslo::coordination to manage coordination parameters,"['manifests/agent/polling.pp', 'manifests/coordination.pp', 'releasenotes/notes/coordination-6e5105e0558f3e5b.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_coordination_spec.rb']"
+121,32cbb8a241d89489890b341bfd0918fe3ad1db47,setup.cfg: Replace dashes with underscores,['setup.cfg']
+122,9e4553499bd0dcfcfec0bc60c77ada2a5419dbca,Bump version for the start of Xena,['metadata.json']
+123,f14b8262608a7133d079e7c55fe2c2dd94d49265,"Merge ""Drop ResellerAdmin role from ceilometer user""","['manifests/keystone/auth.pp', 'releasenotes/notes/reseller-admin-45b1cad10ec19b99.yaml', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+124,58d9927112ce0553265108580ca1087312d1627d,Drop ResellerAdmin role from ceilometer user,"['manifests/keystone/auth.pp', 'releasenotes/notes/reseller-admin-45b1cad10ec19b99.yaml', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+125,a286f07d3fa04249e0ca33ed4f32af0b0b035197,"Merge ""Bump dependency in metadata.json""",['metadata.json']
+126,f40d89a4d76ddeb95b8b0de068ab2acad98e381a,Bump dependency in metadata.json,['metadata.json']
+127,8fed7967ead8e12f473c8b102820a569b7ae5e7b,Update master for stable/wallaby,"['releasenotes/source/index.rst', 'releasenotes/source/wallaby.rst']"
+128,70b830f0767fe43c83e74e4308a694a0fe56ac20,"Merge ""metadata.json: debian 11""",['metadata.json']
+129,ee236d482d909accd11c58a6245a8b36683102ab,Update sphinx to the latest version,['doc/requirements.txt']
+130,0ed4b7bc9d3df083d1c84773d6c58dad53d66578,Prepare Wallaby RC1,['metadata.json']
+131,458d0ad9ccff75f9788b4fdab1fb83efa61961c8,"Merge ""Use consistent names for service_credentials options""","['manifests/agent/auth.pp', 'manifests/agent/service_credentials.pp', 'releasenotes/notes/service_credentials-c8bf6bbf763bc08e.yaml', 'spec/classes/ceilometer_agent_auth_spec.rb', 'spec/classes/ceilometer_agent_service_credentials_spec.rb']"
+132,8f85187576df601d43089183036d35e0d23c70c7,metadata.json: debian 11,['metadata.json']
+133,181441f58314ed759f2fffad50119ffb4be03015,Update supported Ubuntu version to Focal,['metadata.json']
+134,eec43073b70b6623b0d74342907aa8e69df3da3a,Remove puppetlabs-apache from dependencies,['metadata.json']
+135,c2ebbfb4dffc4981503c4ca10e247b0dfa5ad58e,Prepare Wallaby M3,['metadata.json']
+136,9a5323ad18b9bc0e15b514ea98449a3ea5d58b68,Use consistent names for service_credentials options,"['manifests/agent/auth.pp', 'manifests/agent/service_credentials.pp', 'releasenotes/notes/service_credentials-c8bf6bbf763bc08e.yaml', 'spec/classes/ceilometer_agent_auth_spec.rb', 'spec/classes/ceilometer_agent_service_credentials_spec.rb']"
+137,6671c06e8ee676315d93b56b2f73e3bc1a4dcf43,"Merge ""Add TLS options for oslo.cache""","['manifests/init.pp', 'releasenotes/notes/add_tls_options-c9970ada14354891.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+138,44fc5d25c1c9418ed4d82a48380fe6ab8362aee5,Add TLS options for oslo.cache,"['manifests/init.pp', 'releasenotes/notes/add_tls_options-c9970ada14354891.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+139,d27fbd3fed472a51670393a4a295ba6b16a35bea,Fix the wrong file mentioned in the bug 1912345 release note,['releasenotes/notes/bug-1912345-cd3db2d4c03bec17.yaml']
+140,e73ba70b8ab6768a62c7e21a6dc013b95a5bff13,"Merge ""Remove transformers from pipeline.yaml""","['releasenotes/notes/bug-1912345-cd3db2d4c03bec17.yaml', 'templates/pipeline.yaml.erb']"
+141,34a3316c594a82d70f5dc39829bcde3653c11121,"Merge ""Update cpu meters of hardware resource""","['manifests/params.pp', 'releasenotes/notes/hardware-cpu-meters-664cb6753d5efc81.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+142,83e94f768a1c94e8656a53212849950f61571deb,"Merge ""Replace disk.* meters by disk.device.* meters""","['manifests/params.pp', 'releasenotes/notes/bug-1911852-283ca913d7c7e818.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb', 'templates/pipeline.yaml.erb']"
+143,5b8f5d0490f43f43a62cee9718c75290e30473cf,Remove transformers from pipeline.yaml,"['releasenotes/notes/bug-1912345-cd3db2d4c03bec17.yaml', 'templates/pipeline.yaml.erb']"
+144,621b9062f82cd0c4ee9e0071136723a2469fb243,Prepare Wallaby M2,['metadata.json']
+145,5d8685175d89c75263ee9640f5302a0a4f6f67c8,Update cpu meters of hardware resource,"['manifests/params.pp', 'releasenotes/notes/hardware-cpu-meters-664cb6753d5efc81.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+146,682ef848b7ecfd417f1160a7da496742fff4d9f3,Replace disk.* meters by disk.device.* meters,"['manifests/params.pp', 'releasenotes/notes/bug-1911852-283ca913d7c7e818.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb', 'templates/pipeline.yaml.erb']"
+147,41579d71e5aa8a753f6197fcec323c728f4c1885,"Merge ""Rename the redundant worker parameter""","['manifests/agent/notification.pp', 'releasenotes/notes/notification-workers-6a09b1f65a37ab4b.yaml', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+148,15921006c595ff705be40c02d324a387c92a4339,Rename the redundant worker parameter,"['manifests/agent/notification.pp', 'releasenotes/notes/notification-workers-6a09b1f65a37ab4b.yaml', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+149,ecba97adec6b63f3f3fc4b9ffb5081f64e7cffb6,Use $::os_service_default instead of undef as default value,"['manifests/agent/polling.pp', 'releasenotes/notes/coordination_url-use-os_service_default-b51796ec9bc99129.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+150,935666dab33c4bc6fb853482ec3c64698c912d4f,Prepare Wallaby M1,['metadata.json']
+151,6eb05e37b220b607ae37935ae03dc41df1fda7e7,Allow db sync timeouts to be configurable,"['manifests/db/sync.pp', 'releasenotes/notes/add_db_sync_timeout-9ecc1051400aa393.yaml', 'spec/classes/ceilometer_db_sync_spec.rb']"
+152,3fc5ed291c4d1f644ecd937210af6a8ca059d68f,Replace deprecated UPPER_CONSTRAINTS_FILE variable,['tox.ini']
+153,b4722f6f1fe69c30d34392a87f2ff120c0759d50,Deprecate allow_insecure_clients option,"['manifests/init.pp', 'releasenotes/notes/deprecate_allow_insecure_clients-option-bece7e26e5a65503.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+154,c50f812450d792369b1e808fc64597cbef0f51e1,Fix outdated files,['metadata.json']
+155,be7a359ad661aa5a3950974e25adf9aa343ee369,Disable keystone service/endpoint for ceilometer,"['manifests/keystone/auth.pp', 'releasenotes/notes/disable-keystone-endpoints-d7cbbc518942a4b4.yaml', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+156,5023a2c51ff55c7b2d84c8124bb258a6c28d23ff,add parameter to specify if service on keystone should be configured,"['manifests/keystone/auth.pp', 'releasenotes/notes/parameter-to-disable-keystone-service-741f019a021f5b4c.yaml', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+157,a45dd69aca3bb4af45153944f8322cabb8e951e4,Bump version for the start of Wallaby,['metadata.json']
+158,390cfd1f332bc110ff0dec2df18b7490453b91da,Remove api_paste_ini resource,"['lib/puppet/provider/ceilometer_api_paste_ini/ini_setting.rb', 'lib/puppet/type/ceilometer_api_paste_ini.rb', 'manifests/config.pp', 'releasenotes/notes/remove-api_paste_ini-242926984182c5c3.yaml', 'spec/unit/provider/ceilometer_api_paste_ini/ini_setting_spec.rb', 'spec/unit/type/ceilometer_api_paste_ini_spec.rb']"
+159,84f8be51aac27a6de27c05f41855b11631b04adb,Include deps class in unit test for sync,['spec/classes/ceilometer_db_sync_spec.rb']
+160,a4386416daaaff131b35091429455edebcf8dff1,Include deps class in unit test for postgresql,['spec/classes/ceilometer_db_postgresql_spec.rb']
+161,aba0cbf782d81beb0bcb34fb9ba067796d405a4b,"Merge ""Update master for stable/victoria""","['releasenotes/source/index.rst', 'releasenotes/source/victoria.rst']"
+162,5e5ed9f30b4e657b299e48508d4495d1703208fd,Include deps class in unit test for mysql,['spec/classes/ceilometer_db_mysql_spec.rb']
+163,9545eea59786a2a9176ae7d8fb0d590241dfe129,Update master for stable/victoria,"['releasenotes/source/index.rst', 'releasenotes/source/victoria.rst']"
+164,a6605ade4b403d716fd2dd84e109b254d7d26b51,Prepare Victoria RC1,['metadata.json']
+165,431ea31c25a7fd6f00cae85e1082dd68de26a6dc,Change to Puppet Litmus,"['.zuul.yaml', 'README.md', 'spec/acceptance/nodesets/centos-70-x64.yml', 'spec/acceptance/nodesets/centos-libvirt-x64.yml', 'spec/acceptance/nodesets/default.yml', 'spec/acceptance/nodesets/nodepool-bionic.yml', 'spec/acceptance/nodesets/nodepool-centos7.yml', 'spec/acceptance/nodesets/nodepool-centos8.yml', 'spec/acceptance/nodesets/nodepool-trusty.yml', 'spec/acceptance/nodesets/nodepool-xenial.yml', 'spec/acceptance/nodesets/ubuntu-server-1404-x64.yml', 'spec/spec_helper_acceptance.rb']"
+166,2cf3c76ae617db58e4d74fbd83338e8e3e72a6b6,Set openstackdocs_auto_name to use 'project' as name,['releasenotes/source/conf.py']
+167,ba5e354a2fbbc951be9c98d52d3c02eaa22e23c1,Prepare Victoria M3,['metadata.json']
+168,33c6d9ad179bc25d5915b72d45528987db9afd3b,Use openstack_spec_helper from zuul checkout,['Gemfile']
+169,5db94a1a65e7b284efb5c97007cafd6b7dd6e27b,"Merge ""Add mysql_enable_ndb option""","['manifests/db.pp', 'releasenotes/notes/add_mysql_enable_ndb-option-ba6e96cbf544cf8b.yaml', 'spec/classes/ceilometer_db_spec.rb']"
+170,b7551d7104ce23a9f998a17bf0e928d1c561dac4,Use common class to manage apache service in beaker job,['spec/acceptance/ceilometer_wsgi_apache_spec.rb']
+171,448056ebba04262568b212999fbbed8276cb4b2c,Add mysql_enable_ndb option,"['manifests/db.pp', 'releasenotes/notes/add_mysql_enable_ndb-option-ba6e96cbf544cf8b.yaml', 'spec/classes/ceilometer_db_spec.rb']"
+172,bb3801835bbe58c91ee4b49d78f7fdf9a7656caf,"Merge ""assert_private() params and deps classes""","['manifests/deps.pp', 'manifests/params.pp']"
+173,e5d8c3813ef2fd6a92a999f0741f19c11f003b89,Prepare Victoria M2,['metadata.json']
+174,746b2480dd520712703408a64b450143a00e5dcd,"Merge ""Remove ceilometer::keystone::authtoken""","['manifests/keystone/authtoken.pp', 'releasenotes/notes/remove-keystone-authtoken-90d1ef5d716540d2.yaml']"
+175,3b429eca34a0d44f617da10a250762330e6169ef,assert_private() params and deps classes,"['manifests/deps.pp', 'manifests/params.pp']"
+176,60f3d678d1d328a0db4aab127bd7c7839c7c62bf,Remove ceilometer::expirer,"['README.md', 'manifests/expirer.pp', 'releasenotes/notes/remove-expirer-8b0054a56d806fc2.yaml']"
+177,2a07c94a7f1015bf7184d98f002ec6b56fc77a02,Remove ceilometer::keystone::authtoken,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/remove-keystone-authtoken-90d1ef5d716540d2.yaml']"
+178,81ab075cde39f738eecd4d762258fecd6fefc47e,Prepare Victoria M1,['metadata.json']
+179,a90a69ff146e1d690ded6033930104433295f248,Switch to newer openstackdocstheme and reno versions,"['doc/requirements.txt', 'releasenotes/source/conf.py']"
+180,f132b4c25a7f7ab06e2c4342946fa198514bc415,Update Puppet requirement to >= 6.0.0,['metadata.json']
+181,2b44bcb990443f8818cfa4da4d558991716990e8,Add more oslo::cache params to init,"['manifests/init.pp', 'releasenotes/notes/add-more-oslo-cache-params-to-init-70207eea609cf621.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+182,a02324fff410fa27dd52614b19933b60c5bfb322,Remove unnecessary puppet-rabbitmq from dependencies,['metadata.json']
+183,10075a5c7a31d39d94001ebf1914e1e81ca11c8f,"Merge ""Remove password hash generation in each puppet modules""","['manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'metadata.json', 'spec/classes/ceilometer_db_mysql_spec.rb', 'spec/classes/ceilometer_db_postgresql_spec.rb']"
+184,f562e27069c70afa62b839de869dd7c91bd7e7f6,Remove password hash generation in each puppet modules,"['manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'metadata.json', 'spec/classes/ceilometer_db_mysql_spec.rb', 'spec/classes/ceilometer_db_postgresql_spec.rb']"
+185,e2e04a9f1542ead7a13196553a6af00ad9cc0c0f,Bump version for the start of Victoria,['metadata.json']
+186,8c956ab506588df73c2309a12c98863e39a88a65,"Merge ""[ussuri][goal] Add CONTRIBUTING.rst""",['CONTRIBUTING.rst']
+187,d5756b7d9f97fd34d0526cc33882d563a3b40c9f,Bump reno to 2.5.0,['doc/requirements.txt']
+188,68a44d13440efadfb99f18635a4e27b490e4d6bb,"Merge ""Support notification/polling full config by hiera""","['manifests/agent/notification.pp', 'manifests/agent/polling.pp', 'releasenotes/notes/add-agent-notification-polling-config.yaml-7756bf89719cdbcf.yaml', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+189,64e3669b8cd13776687d05d9d780c65650e3e9a9,"Merge ""Add CentOS8 to nodesets""",['spec/acceptance/nodesets/nodepool-centos8.yml']
+190,fa3e59e1f78ab6621e9fefca2c4e4fcba2759d24,Support notification/polling full config by hiera,"['manifests/agent/notification.pp', 'manifests/agent/polling.pp', 'releasenotes/notes/add-agent-notification-polling-config.yaml-7756bf89719cdbcf.yaml', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+191,acdaa37d3ada3688a9e4d6b3b1edfeb6982bbb4b,[ussuri][goal] Add CONTRIBUTING.rst,['CONTRIBUTING.rst']
+192,eb9780b281c1c2c38f6e8a2385a26de6ac26878d,Add CentOS8 to nodesets,['spec/acceptance/nodesets/nodepool-centos8.yml']
+193,bda58c878b9541a40ca296cacec8084d0aef63d7,"Merge ""Deprecate ceilometer::expirer""","['examples/ceilometer_with_gnocchi.pp', 'examples/site.pp', 'manifests/expirer.pp', 'manifests/params.pp', 'releasenotes/notes/deprecate-expirer-12d11f4a2b277c3f.yaml', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb', 'spec/classes/ceilometer_expirer_spec.rb']"
+194,669d16f1f4f0749abca41f71cc487099f58ba832,"Merge ""Deprecate parameter and resource for api-paste.ini""","['lib/puppet/provider/ceilometer_api_paste_ini/ini_setting.rb', 'manifests/config.pp', 'releasenotes/notes/deprecate-api_paste_ini-c81c69d42848a263.yaml', 'spec/classes/ceilometer_config_spec.rb']"
+195,f8fd464e13fc5938e8f4e228f30c7d29d174fd54,Deprecate parameter and resource for api-paste.ini,"['lib/puppet/provider/ceilometer_api_paste_ini/ini_setting.rb', 'manifests/config.pp', 'releasenotes/notes/deprecate-api_paste_ini-c81c69d42848a263.yaml', 'spec/classes/ceilometer_config_spec.rb']"
+196,d642526108c722fbcce7c5df4a69834820dfcc93,"Merge ""Use anchor to require necessary packages""","['lib/puppet/type/ceilometer_api_paste_ini.rb', 'lib/puppet/type/ceilometer_config.rb', 'spec/unit/type/ceilometer_api_paste_ini_spec.rb', 'spec/unit/type/ceilometer_config_spec.rb']"
+197,f1e98f158522560a7189df091d6d6089a7cfa5f2,Use anchor to require necessary packages,"['lib/puppet/type/ceilometer_api_paste_ini.rb', 'lib/puppet/type/ceilometer_config.rb', 'spec/unit/type/ceilometer_api_paste_ini_spec.rb', 'spec/unit/type/ceilometer_config_spec.rb']"
+198,352f9c08f639a5de8eafdcda9e8f297c23378720,Runs on Debian 10.,['metadata.json']
+199,8a5ec2926068f1d67775fef3eab6a6e39de34a29,Deprecate ceilometer::expirer,"['examples/ceilometer_with_gnocchi.pp', 'examples/site.pp', 'manifests/expirer.pp', 'manifests/params.pp', 'releasenotes/notes/deprecate-expirer-12d11f4a2b277c3f.yaml', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb', 'spec/classes/ceilometer_expirer_spec.rb']"
+200,9b56d885571d07a333dc2d938050fb342bce9351,Bump openstackdocstheme to 1.30.0,['doc/requirements.txt']
+201,42786ffe1a2b5ce4c87426936c518f6565838b2d,Fix rabbitmq version in metadata,['metadata.json']
+202,6fa9896876d1ef38f64160459233d0dbf145638e,Change rpsec to rspec,['README.md']
+203,f6563cb4dee4bd33cab16a538c86375257ea53c2,Update master for stable/ussuri,"['releasenotes/source/index.rst', 'releasenotes/source/ussuri.rst']"
+204,ffed06ca430597a38849bf4ee39251d2c22cab46,Prepare Ussuri RC1,['metadata.json']
+205,423190d13ac1179f28d09f0af986cb8e6f97a285,Prepare Ussuri M3 again,['metadata.json']
+206,fc873267aaaf5628801c47b32ab6b7f82840cff6,Resolve duplicated requirement names in metadata,['metadata.json']
+207,0106a731038791cf2580185a3eaf1df46d6dfcdf,"Merge ""Deprecate ceilometer::keystone::authtoken""","['examples/ceilometer_with_gnocchi.pp', 'examples/site.pp', 'manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate-keystone-authtoken-be535237501b3b96.yaml', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+208,0befdba12408242a8b797a00896ebb2cd07f0aab,Deprecate ceilometer::keystone::authtoken,"['examples/ceilometer_with_gnocchi.pp', 'examples/site.pp', 'manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate-keystone-authtoken-be535237501b3b96.yaml', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+209,5dff1a86787f3954939bb7163509e3d04bc3e128,Prepare Ussuri M3,['metadata.json']
+210,03315e95febe6dec7727fc77c4903904183d7bcf,"Merge ""Add CentOS 8 and Puppet 6 in metadata""",['metadata.json']
+211,533f52f2a9904cb3256781bd958a17da25f6f95f,Update mysql module to <11.0.0,['metadata.json']
+212,1bf03105f8481013124952850cbef50b4396125e,Add CentOS 8 and Puppet 6 in metadata,['metadata.json']
+213,8a21f3b5b57d34f59ea284a2f1eef6d64dc76614,Deprecate min_pool_size option,"['manifests/db.pp', 'releasenotes/notes/deprecate_database_min_pool_size-option-b2f44ce1a11658b0.yaml', 'spec/classes/ceilometer_db_spec.rb']"
+214,d6265c7b45f20148e78bcc4970b546ddc461ddd6,Remove idle_timeout option,"['manifests/db.pp', 'releasenotes/notes/remove_idle_timeout_option-a54add3b2551cc53.yaml']"
+215,5504f63803bae554873fe97a78194e4c259223aa,[ussuri][goal] Cleanup for python 2.7 drop,"['doc/requirements.txt', 'tox.ini']"
+216,4ae0f7e8849e401f39aef09c80bce27e5d86e392,Prepare Ussuri M2,['metadata.json']
+217,a8de27f86dda29916c93b144a06a6ece587c5c5f,Fix stdlib version in metadata,['metadata.json']
+218,917bf0688e6f136bc73819966c583c3d6247d818,Prepare Ussuri M1,['metadata.json']
+219,74fe1d927fce4ed1cfc01e866f0b481156bc3d54,Convert all class usage to relative names,"['README.md', 'examples/ceilometer_with_gnocchi.pp', 'examples/site.pp', 'manifests/agent/auth.pp', 'manifests/agent/notification.pp', 'manifests/agent/polling.pp', 'manifests/config.pp', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'manifests/db/sync.pp', 'manifests/expirer.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/keystone/authtoken.pp', 'manifests/logging.pp', 'manifests/params.pp', 'manifests/policy.pp', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb']"
+220,f289344487662b8d23deb0e48ceb45dd72c616d3,Add executor_thread_pool_size,"['manifests/init.pp', 'releasenotes/notes/add_executor_thread_pool_size-6f4ffd7ffd0f117a.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+221,c5807a735e82b0cc258aa42d4520b1f64a7afa53,Fix rabbitmq dependency,['metadata.json']
+222,75f614b12312e7709329362e4f42e760e8be4a5a,Change notification ack_on_event_error to service default,"['manifests/agent/notification.pp', 'releasenotes/notes/def-value-ack_on_event_error-1c98d2efc6a5098d.yaml', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+223,fecdf5818e9a4d20644c7fc7ef30a01ce0938ebd,Update master for stable/train,"['releasenotes/source/index.rst', 'releasenotes/source/train.rst']"
+224,71698a1ed365d69eaa02cb84e279e95c42ffd935,"Merge ""Update the constraints url""",['tox.ini']
+225,64b5df0feba2cdb0bc38541482680eff5b59de35,Update the constraints url,['tox.ini']
+226,edcc50f15cebde2616c3af2bfc5198173ad7fd8c,Prepare Train RC1,['metadata.json']
+227,2b4bf2cd72a39de91be608bb075d3d071e1e3c88,Prepare Train M4,['metadata.json']
+228,2bc879129acbacc757a89a83b931f3ca80a17953,"Merge ""Introduce the new rabbit_heartbeat_in_pthread option""","['manifests/init.pp', 'releasenotes/notes/rabbitmq-heartbeat-over-pthread-aab7e079d7f4a480.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+229,803e4ac363b281fa0b5b97c550b5bd839d2b35e7,Introduce the new rabbit_heartbeat_in_pthread option,"['manifests/init.pp', 'releasenotes/notes/rabbitmq-heartbeat-over-pthread-aab7e079d7f4a480.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+230,cba7e5554498a61e02a75c08163e24a54baea7e1,"Merge ""Remove deprecated params and agents""","['examples/site.pp', 'manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/init.pp', 'manifests/params.pp', 'releasenotes/notes/remove-deprecated-3ba888b555b46f29.yaml', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb']"
+231,ddf478bc55027daaec964add8fb82b672db889db,Remove deprecated params and agents,"['examples/site.pp', 'manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/init.pp', 'manifests/params.pp', 'releasenotes/notes/remove-deprecated-3ba888b555b46f29.yaml', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb']"
+232,d10a6d9c28dea8d4e8ce515844dcb3fea8027652,Remove gnocchi dispatcher,"['manifests/dispatcher/gnocchi.pp', 'releasenotes/notes/remove-gnocchi-dispatcher-0fcce9d915f074e7.yaml', 'spec/classes/ceilometer_dispatcher_gnocchi_spec.rb']"
+233,7949e78c68b6ad1e55357e923cdf7dd23953d2a6,Remove deprecated pki related options,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/remove_deprecated_pki_related_options-822445b386061904.yaml']"
+234,a5ca4e110dfb4acfbaa2385c94c174a9c242ba38,Bump the openstackdocstheme extension to 1.20,"['doc/requirements.txt', 'releasenotes/source/conf.py']"
+235,6f69b2b9245da2995d0e63be8f2067c20a849766,Sync Sphinx requirement,['doc/requirements.txt']
+236,654c30441bae6256535c913d7b9bc79a739d7e10,Prepare Train M3,['metadata.json']
+237,3518ee931631aff41b1dc7c29943422d247c6e8d,Prepare Train M2,['metadata.json']
+238,c7415121fc6e6a803b9a163516f5de4f91e98f28,Deprecate idle_timeout option,"['manifests/db.pp', 'releasenotes/notes/deprecate_idle_timeout_parameter-98934c0a274f9bc2.yaml', 'spec/classes/ceilometer_db_spec.rb']"
+239,cc4d71253b2ac6cea08be54289e974c2ea8d7540,Move to opendev,"['Gemfile', 'tox.ini']"
+240,9b19532cf083d66939c6ca3da0fa764a1bef89e8,Fix Repository,['README.md']
+241,9e2673dfaf587a83368f9483c7744bb3a28b3dc0,Replace git.openstack.org with opendev.org/openstack,['README.md']
+242,47bef667f2e3ef822f6494139cb7b566954ac653,OpenDev Migration Patch,['.gitreview']
+243,7cc36a2d7105fa5b1daf8bbbe236506a0a5de6d1,Add Beaker-Rspec to the table of contents,['README.md']
+244,1f4e7939aa96247215f6c7e80763b64fd34a71df,"Merge ""Bump version for the start of Train""",['metadata.json']
+245,91e1a086513dedb2d3d578011c42f5423b8463a8,"Merge ""Correct cafile directive for service_credentials""","['manifests/agent/auth.pp', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+246,55d998f974ad747f8e793bd9a1c370f4246b8523,Bump version for the start of Train,['metadata.json']
+247,9508fe1b5bf3ee69faa24b0ca21af499fbf3f271,Correct cafile directive for service_credentials,"['manifests/agent/auth.pp', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+248,48d77bb18a8ca34011e68c7c91fafd5290a9d6d7,Update master for stable/stein,"['releasenotes/source/index.rst', 'releasenotes/source/stein.rst']"
+249,f47e88dcca4b0c335378e965e3ed60078e40a0e5,Prepare Stein RC1,['metadata.json']
+250,201f379a43314dd354fee21a4c894e195708c4d5,Add log_file parameter,"['manifests/logging.pp', 'releasenotes/notes/add-log_file-for-logging-be080bb51359db6e.yaml', 'spec/classes/ceilometer_logging_spec.rb']"
+251,76ad8f6dbcb82d9389ca914d462f02a947d264a3,Prepare Stein M3,['metadata.json']
+252,61a46adfd30ca10cd8bdfd5361dcf1081998cd18,"Merge ""Change keystone v2.0 url to v3""",['examples/site.pp']
+253,08cf1a14adb021c49a2275a4e9bebabf4cee9f62,"Merge ""Use validate_legacy""","['manifests/agent/notification.pp', 'manifests/config.pp', 'manifests/db/mysql.pp', 'manifests/keystone/auth.pp', 'manifests/policy.pp']"
+254,ffb374cbee0d69ff513663a5c616eddf62d6ec4d,"Merge ""Add release note about Ubuntu py3 upgrade""",['releasenotes/notes/release-note-ubuntu-py3-47c5f09cd66eea40.yaml']
+255,d1b6cd492b014b7a71f9c156d0656fbb61afd871,Change keystone v2.0 url to v3,['examples/site.pp']
+256,5616321fbf4d779ee4c87b8fd8ca62f638fd1d6b,Add release note about Ubuntu py3 upgrade,['releasenotes/notes/release-note-ubuntu-py3-47c5f09cd66eea40.yaml']
+257,0ad4f6296db0a0b31d861ede9e15157cf265c0bd,Service_token_roles_required missing in the server config file,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/service_token_roles_required-be0830cbcbe1e4c4.yaml', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+258,8e594d094bf8680d1720c9eb40eb18b0cc5fd0b5,Change wiki to docs,['README.md']
+259,83d1a116831ec683ad74fc9164cb3c9a891854fa,"Merge ""Use puppet 4 compatible mysql functions""","['manifests/db/mysql.pp', 'metadata.json', 'releasenotes/notes/puppet4-mysql-func-19d33ccd49701b0d.yaml']"
+260,8cae2679514a967100ccec11bf42bd7b901cb1ac,"Merge ""Remove Ubuntu Xenial from metadata.json""",['metadata.json']
+261,28afa466d74fffa567bbad12ec164ae097fd963a,Use validate_legacy,"['manifests/agent/notification.pp', 'manifests/config.pp', 'manifests/db/mysql.pp', 'manifests/keystone/auth.pp', 'manifests/policy.pp']"
+262,2727fa248da612d0823de8e35381df07985d9170,Use puppet 4 compatible mysql functions,"['manifests/db/mysql.pp', 'metadata.json', 'releasenotes/notes/puppet4-mysql-func-19d33ccd49701b0d.yaml']"
+263,766a7faae79d7347704d514147dfa3d5a186ad8d,Remove Ubuntu Xenial from metadata.json,['metadata.json']
+264,be78b483ae28e1c7631b72283d796d75942054db,Fix lint issue,['spec/classes/ceilometer_logging_spec.rb']
+265,714ccfec35a903268d79e75b4bb4d1c459c5560d,"Merge ""Update Prefixes.""",['manifests/init.pp']
+266,a28cb64fb0cb17099e74f629db544442a22612d5,Remove redundantly tested code,['spec/classes/ceilometer_db_spec.rb']
+267,8cc46892b5d9be92f806a77592776e0decae589e,Update Prefixes.,['manifests/init.pp']
+268,ca0e3a01edaf2db09e689fa47f905b2caa24b705,Modify puppet version 4 to 5,['metadata.json']
+269,d262eed3cf88d3881134900839a0097f989147da,Prepare Stein M2,['metadata.json']
+270,8453d0b67cacd7acda39a263c6f5006e88edb9e3,Add rabbitmq dependency,['metadata.json']
+271,4b2810887b831be50ac28823e228e6d58cb893ff,Fix editorial problem,['README.md']
+272,1e6f2c2ec3f62c8fcfdb66b01a0ae00ccb0cfb73,Cleanup documentation,['manifests/policy.pp']
+273,3880135d67a66cf2d943abeca870c0ce38b486c1,"Merge ""Remove deprecated logging""","['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/remove-deprecated-logging-9a75efe3f778ff40.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+274,c34604974e1e935d708cda78fd656e9d0c2d46a3,"Merge ""Remove auth_uri""","['manifests/keystone/authtoken.pp', 'releasenotes/notes/remove-auth-uri-4ebe934f0a9388ee.yaml']"
+275,c69a8fb0ba5601f2cfad3e9a859bdbea3824649b,Change openstack-dev to openstack-discuss,['setup.cfg']
+276,5caabd1e65ee0ca13e8d8a385340f6a71ccd53b5,Remove deprecated logging,"['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/remove-deprecated-logging-9a75efe3f778ff40.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+277,9ca733a8d775fd498197ebb3e3446dde47a03a34,Remove auth_uri,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/remove-auth-uri-4ebe934f0a9388ee.yaml']"
+278,fccb52b246fce1d98023e8d7fd741f9c909cba7e,"Merge ""deprecate pki related options""","['manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate_pki_related_parameters-8935812c56ec2750.yaml', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+279,6e5261868a59ae7f05a20b22f4e7bc66bce067ef,deprecate pki related options,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate_pki_related_parameters-8935812c56ec2750.yaml', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+280,3be5f50d4b20387be0b42cca48a78f62658f279f,fix mistakes,['spec/classes/ceilometer_db_mysql_spec.rb']
+281,a46ab4e1464fc0e671d0ccae3f10c11cb667ff38,Prepare Stein M1,['metadata.json']
+282,7b727f3d920b7766db6641258f3abba85fe37236,Fix stdlib version in metadata,['metadata.json']
+283,4ad1e23b846fbfd1e9038eccc85b27f1ac8b7a27,Fix gnocchi examples file,['examples/ceilometer_with_gnocchi.pp']
+284,955964ff09287ab135e6b7266a821b567db11146,Update min tox version to 2.0,['tox.ini']
+285,aeaa92b2cb4636c0fdf24bfd4b8da38931036681,Dissuade .gitignore references to personal tools,['.gitignore']
+286,983685e86f2b4d14ca19088c65b75d1de8f0a19e,"Merge ""Add the missing 'Table of Contents'""",['README.md']
+287,858747dca7a30282365832d51f983005bca24f53,"Merge ""switch documentation job to new PTI""",['.zuul.yaml']
+288,1e329d38a3355bcd4ce7d36a9c9db03a31f55187,"Merge ""import zuul job settings from project-config""",['.zuul.yaml']
+289,37a963380bad5e86def28930f586a9cf14ea11bc,switch documentation job to new PTI,['.zuul.yaml']
+290,0304ac8f3882750151507ea5a953dacc5152feec,import zuul job settings from project-config,['.zuul.yaml']
+291,cd7cc78861c061d60bb67f09f0dfab88c7102f19,Bump version for the start of Stein,['metadata.json']
+292,d20b97bcf617d9743105361012c8a85b9019cae0,Add the missing 'Table of Contents',['README.md']
+293,baac38bfe5c39bf85c1ac6745dbf5300b5397e52,Update reno for stable/rocky,"['releasenotes/source/index.rst', 'releasenotes/source/rocky.rst']"
+294,672fc1a6c0a417afd25f7d7021285af26f5a29fc,Remove PE requirement from metadata.json,['metadata.json']
+295,ef9c82f4ad7eea9a731196525b04d61c5115d389,Prepare Rocky RC1,['metadata.json']
+296,ebf95cf30385ce4133163aed470e97de50d40eb4,Reorganize that 'Release Notes' in README,['README.md']
+297,f92846f568aba6fe61a03df87ff4512144806179,Remove the unnecessary _,['README.md']
+298,85e3dd96940a1e81cc48910e24df07f5f8301d42,"Merge ""Prepare Rocky M3""",['metadata.json']
+299,e43eb4b42b331d0d3bbcbe9c788dbef8b37d6ad6,"Merge ""Add support to customize polling meters""","['manifests/agent/polling.pp', 'manifests/params.pp', 'releasenotes/notes/manage-polling-meters-e28386cd03c9d80d.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb', 'templates/polling.yaml.erb']"
+300,e313371bfde07625a15c44ab32200f46096c29cb,"Merge ""Add the project source code repository in README""",['README.md']
+301,9f0403ebc80dcec5acbb01b4dee11f3564a0c4b0,Prepare Rocky M3,['metadata.json']
+302,f236f531df8f342c475973620e3f3913399dc2c0,Add support to customize polling meters,"['manifests/agent/polling.pp', 'manifests/params.pp', 'releasenotes/notes/manage-polling-meters-e28386cd03c9d80d.yaml', 'spec/classes/ceilometer_agent_polling_spec.rb', 'templates/polling.yaml.erb']"
+303,dfe9385457b4b4e453ff3d372cee0ea622b8a69f,"Merge ""Fix OS versions in metadata""",['metadata.json']
+304,71d9e028e1089debe4519b35e51874c897031269,Add the project source code repository in README,['README.md']
+305,429b6a21fac139bcdf787036a9f8df6c018a6493,modulesync: sync and add nodepool-bionic for beaker,['spec/acceptance/nodesets/nodepool-bionic.yml']
+306,77581b0cfd2d9261126088c77f1aff75b85db36f,Fix OS versions in metadata,['metadata.json']
+307,9535a03b4202e4d913a91ca8fa040d0286f37f12,"Merge ""Debian release is 9 in metadata""",[]
+308,ce4d9109626a1f432599d1a7bda13209baf5e353,Fix inifile version in metadata,['metadata.json']
+309,c7ede0e4b82ce9e99310528b97abe4dbd9712f31,Debian release is 9 in metadata,['metadata.json']
+310,89e8b12108568cc793db7fec6024cd8ab80da237,"Merge ""Fix apache version in metadata""",['metadata.json']
+311,719788aa4f9d9c73869f98745babe4eedeaf0578,"Merge ""use correct warning message for deprecation of agent::central""",[]
+312,36cfb44f5d436a530a129d542fdae762dcaecc99,Fix apache version in metadata,['metadata.json']
+313,9f670ce767b0c7a98c961c62e26dec51f4fa6e4a,use correct warning message for deprecation of agent::central,['manifests/agent/central.pp']
+314,edc49fde1095b93c6ec0e91b7268a036a9aa31b6,"Merge ""Deprecated ceilometer::dispatcher::gnocchi""","['manifests/dispatcher/gnocchi.pp', 'releasenotes/notes/dispatcher-deprecation-8a86e99f11273738.yaml']"
+315,3be918b568b38393fee12e0c8d991dcb6b2e4496,"Merge ""Deprecate time_to_live options""","['manifests/init.pp', 'releasenotes/notes/time-to-live-deprecation-c83a87e39ec082e2.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+316,6366ed47c84e815f266b27e864ad9ed4844d7f28,"Merge ""Fix deprecation warning message""",['manifests/agent/central.pp']
+317,0b1f3785c1c8c7bfc4639420e718cf268442544b,Add release note link in README,['README.md']
+318,d54585f517052d1e322ece308cc864e682ef2f8d,Deprecate time_to_live options,"['manifests/init.pp', 'releasenotes/notes/time-to-live-deprecation-c83a87e39ec082e2.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+319,5cbdc9e890035ff1940b7bbb69323b3a491fab8a,Deprecated ceilometer::dispatcher::gnocchi,"['manifests/dispatcher/gnocchi.pp', 'releasenotes/notes/dispatcher-deprecation-8a86e99f11273738.yaml']"
+320,8bc3e823d9f06433027c128d521066926ac1f2da,Fix deprecation warning message,['manifests/agent/central.pp']
+321,da9e7085189d88bc9aca989157f2a914606a2686,Fix annotations,['manifests/db/mysql.pp']
+322,638605f521ca8ee3ef169823247b16912cc222b1,"Merge ""Remove deprecated parameters""","['manifests/init.pp', 'releasenotes/notes/ceilometer-remove-deprecated-45e4418b3b134ec2.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+323,7ba0dd422fc9d06549a0fd3eba562357f56e1779,Remove deprecated parameters,"['manifests/init.pp', 'releasenotes/notes/ceilometer-remove-deprecated-45e4418b3b134ec2.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+324,bbe8df55cd1c998acfb207e1d09e690a5112cff2,fix tox python3 overrides,['tox.ini']
+325,e2a4f8ef6fc73b10c1a8916b7906ac87cb2ff6a3,Prepare a new Rocky release,['metadata.json']
+326,6159763e95cf7bcb68c4eaaf673ca5b872721a88,"Merge ""Replace port 35357 with 5000""","['README.md', 'examples/site.pp', 'manifests/keystone/authtoken.pp', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+327,5650855f4db7e8000bfc3b583f1beeab40b98dcf,Replace port 35357 with 5000,"['README.md', 'examples/site.pp', 'manifests/keystone/authtoken.pp', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+328,d99517b6b0ac53865d1297dce4da8876e849c6e7,neat: missing : in $::os_service_default,['manifests/keystone/authtoken.pp']
+329,766ca6ded0508585df0b5da06a6a8ff5a9190a3b,"Merge ""Deprecate auth_uri option""","['manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate_auth_uri_parameter-b847a5927a050526.yaml', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+330,ba317b2fd17299e501cd055883e6b33517305f7c,"Merge ""fix a typo: s/allowd/allowed/""",['manifests/db/mysql.pp']
+331,d0b64072b5efce0f6011c285fcb86be1881a9f6c,"Merge ""Missing deps for config.pp unit test""",['spec/classes/ceilometer_config_spec.rb']
+332,402734915d5ce1cad021b0f7d9e17b891b35fe85,"Merge ""Fix unit test for config.pp""",['spec/classes/ceilometer_config_spec.rb']
+333,4bf8d7668e5ae90bbbe9b6693827e8a6624b491c,Prepare Rocky M1,['metadata.json']
+334,708aa692ddb78daf43a0191e6a889c3d5811524e,fix a typo: s/allowd/allowed/,['manifests/db/mysql.pp']
+335,d230f265fcc735821587cdd10a214a35820b3a36,Missing deps for config.pp unit test,['spec/classes/ceilometer_config_spec.rb']
+336,3fbe51b6a78ba8ad69f1e52e7496ac7b6f5a3317,Fix unit test for config.pp,['spec/classes/ceilometer_config_spec.rb']
+337,0bd92ad4d579cc09e7a343b1939f83d1b6fa3b5d,Update .gitignore,['.gitignore']
+338,ff451da3e7c15958482e9290490b47411eb0466f,Update LICENSE,['LICENSE']
+339,54aa99c544e0c1fb2ad813a92fbb5a61d2717391,Deprecate auth_uri option,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate_auth_uri_parameter-b847a5927a050526.yaml', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+340,49d53d4c67e2aefde09c246ad6d4884add852670,Add cinder metrics to polling.yaml,['templates/polling.yaml.erb']
+341,6955b22bd27b1f678b811c707ca36f4488918736,"Merge ""Remove wsgi""","['manifests/params.pp', 'manifests/wsgi/apache.pp', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+342,ac9edcb172d2efae23f26703a3776e6574289eb3,Remove deprecated keystone authtoken revocation_cache_time option,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/remove_deprecated_keystone_revocation_cache_time_option-9b8eafc537ba8281.yaml']"
+343,6cff354d93e0134a8dcdd1cde20ff3363a43cb5a,"Merge ""Add pool_timeout option""","['manifests/db.pp', 'releasenotes/notes/add-pool_timeout-option-for-db-b8801b27b2caa1c9.yaml', 'spec/classes/ceilometer_db_spec.rb']"
+344,ba978b8947df36ffb8a2c8fb10f950b0f23e878e,Remove wsgi,"['manifests/params.pp', 'manifests/wsgi/apache.pp', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+345,091a8a15b463be3bc564cfb2daa36fe864e4ec3a,fix typos in documentation,['spec/classes/ceilometer_init_spec.rb']
+346,eeac98468176aadc8168317230084bfc5c096f1d,"Merge ""Remove deprecated metering_secret option""","['manifests/init.pp', 'releasenotes/notes/remove_deprecated_metering_secret_option-2a01c56c1c849f3c.yaml']"
+347,03db4e5145a5b554742ec6515dabda39cf1dac3c,Add pool_timeout option,"['manifests/db.pp', 'releasenotes/notes/add-pool_timeout-option-for-db-b8801b27b2caa1c9.yaml', 'spec/classes/ceilometer_db_spec.rb']"
+348,29b45e8ab544282e71ff817151a8769c3bb2acfb,Switch acceptance test to use integration classes,['spec/acceptance/ceilometer_wsgi_apache_spec.rb']
+349,f28830d5aae8021215026bdf2f63a8713b7deeb1,Remove deprecated metering_secret option,"['manifests/init.pp', 'releasenotes/notes/remove_deprecated_metering_secret_option-2a01c56c1c849f3c.yaml']"
+350,c7b7671f973b7df8b7bc5fc10ba633010a726545,Add oslo::cache to dependency chain,['manifests/deps.pp']
+351,e112d00c32d75976b31167c731eb3656d13e7934,Remove useless code,['spec/acceptance/ceilometer_wsgi_apache_spec.rb']
+352,d44ea974b953d008ecd9a9119946613059b796cf,"Merge ""Add 'openstack-db' tag to db-sync Exec resource""","['manifests/db/sync.pp', 'releasenotes/notes/openstack_db_tag-874ef77468c5d1f2.yaml', 'spec/classes/ceilometer_db_sync_spec.rb']"
+353,9964140c437b725a4dad3cf727afac028382a80b,"Merge ""Fix mysql connection""","['manifests/db.pp', 'spec/classes/ceilometer_db_spec.rb']"
+354,bdbf6614e1fe5f78e58786498956815e48890a27,Add 'openstack-db' tag to db-sync Exec resource,"['manifests/db/sync.pp', 'releasenotes/notes/openstack_db_tag-874ef77468c5d1f2.yaml', 'spec/classes/ceilometer_db_sync_spec.rb']"
+355,b6a61b9f39e3daa565010e2b70878c84dc059bf2,"Merge ""Follow the new PTI for document build""","['doc/requirements.txt', 'tox.ini']"
+356,76bce0ada4dbb0b59f4936ef4f9a6d76f82066f0,Fix mysql connection,"['manifests/db.pp', 'spec/classes/ceilometer_db_spec.rb']"
+357,e985087545cf116ea30a8d270e4adb11aa86f994,Do not skip gnocchi resource type creation by default in db::sync,"['manifests/db/sync.pp', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb', 'spec/classes/ceilometer_db_sync_spec.rb']"
+358,386e5f035e98efd27f52fb34a7ed7ebca788165e,Follow the new PTI for document build,"['doc/requirements.txt', 'tox.ini']"
+359,396b3d7dc9d3ea9e76851a72204e8aabc6271278,"Merge ""Remove store_events option""","['manifests/agent/notification.pp', 'releasenotes/notes/remove_store_events-18a34502fe2387d1.yaml']"
+360,c53c5424e2fe4895ee9de1789e65b539169b8a43,Remove store_events option,"['manifests/agent/notification.pp', 'releasenotes/notes/remove_store_events-18a34502fe2387d1.yaml']"
+361,bc832afbfdc0dea61caebd1dbe8d5eecae84686a,Remove deprecated ceilometer alarm classes,"['manifests/alarm/evaluator.pp', 'manifests/alarm/notifier.pp', 'releasenotes/notes/remove_alarm_classes-8173e34fe223d980.yaml']"
+362,41825ec5d4635968ec792e5ad810ad28f985807f,Update reno for stable/queens,"['releasenotes/source/index.rst', 'releasenotes/source/queens.rst']"
+363,15b01a18c6c7d5919c559259ddefa51e99b8f65c,Prepare for official Queens release,['metadata.json']
+364,f3a0c3923fcb5c1b3e49cbe4c9a0333970df42f1,"Merge ""Add some kombu options""","['manifests/init.pp', 'releasenotes/notes/add_rabbit_kombu_options-946374c89c1f95ba.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+365,ea76c217eb5f3674bf35614671c1eeaad5526ec9,"Merge ""Load puppet-openstack_spec_helper locally during tests""",['Gemfile']
+366,4ba2952d3598aa4e65f3599a424f5e1cec6b6927,Load puppet-openstack_spec_helper locally during tests,['Gemfile']
+367,25f34eb492e6f6b98209c79a28452cf6558e7579,Remove ceilometer api class related parameters in params.pp,['manifests/params.pp']
+368,a5b9a060eb57d9fd345b33c90d43205e9814e8f3,Add some kombu options,"['manifests/init.pp', 'releasenotes/notes/add_rabbit_kombu_options-946374c89c1f95ba.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+369,7ecb339928afd0c6e17960b2561c73f552e5189b,Remove ceilometer api class,"['README.md', 'examples/ceilometer_with_gnocchi.pp', 'examples/site.pp', 'manifests/api.pp', 'releasenotes/notes/ceilometer-api-removal-1a35e07f23981735.yaml', 'spec/classes/ceilometer_api_spec.rb']"
+370,f5a8aa7ddc943e49fb75eb920fb6264350ae3958,Zuul: Remove project name,['.zuul.yaml']
+371,489db857ea212e63ea4c7dd2ce607254a6625e59,"Merge ""Remove url option""","['manifests/dispatcher/gnocchi.pp', 'releasenotes/notes/remove_url-9a82fc5b9f88cc39.yaml']"
+372,84122796373412bab2615483ab5240ee9273462b,"Merge ""Remove pinned versions from test-requirements.txt""",['test-requirements.txt']
+373,2420ac33cb96fa56d15d392782e9fec70cf674ad,Prepare for Queens Milestone 3,['metadata.json']
+374,0aee614a7e2f7e2068e707e526e09dfccd274258,Remove url option,"['manifests/dispatcher/gnocchi.pp', 'releasenotes/notes/remove_url-9a82fc5b9f88cc39.yaml']"
+375,a9474aa5afa53acfa7048d4d0f1c04c3ed401828,Remove pinned versions from test-requirements.txt,['test-requirements.txt']
+376,994e23c29784ed03b0fa1e871f365860e0d6ed9e,Add use_journal option for logging configuration,"['manifests/logging.pp', 'releasenotes/notes/add-use_journal-option-for-logging-9563deb9e59d2cb1.yaml', 'spec/classes/ceilometer_logging_spec.rb']"
+377,f03bc45b99366698796add77046464146ecf65b3,Add group to policy management,"['manifests/params.pp', 'manifests/policy.pp', 'spec/classes/ceilometer_policy_spec.rb']"
+378,f562bff73e48073e75206273118b838f015b9a7d,Run puppet-openstack-beaker-jobs,['.zuul.yaml']
+379,24085e979fe6b73fbfa773c1471c5d23d1925e7d,Remove client_package_name in params.pp,['manifests/params.pp']
+380,87567851772f4510855cf4116a6135dc159981ff,"Merge ""Prepare for Queens Milestone 2""",['metadata.json']
+381,9d638efa47baace0ee1838e77bf5aecac7781ba4,Prepare for Queens Milestone 2,['metadata.json']
+382,cec993b71360000e7c0e1335dd5e6d039a32fc96,Remove ceilometer client class,"['README.md', 'examples/ceilometer_with_gnocchi.pp', 'manifests/client.pp', 'releasenotes/notes/ceilometer-client-removal-e36598e0e1d66231.yaml', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb', 'spec/classes/ceilometer_client_spec.rb']"
+383,78b9e1d743d6b62369c3277d6770319b65095888,Expose use_json logging option,"['manifests/logging.pp', 'releasenotes/notes/log-json-19a16ad82e22fd82.yaml', 'spec/classes/ceilometer_logging_spec.rb']"
+384,b5764ac345203590453d1242dbc62861f87bd2c9,"Merge ""Switch to Zuul v3 testing""",['.zuul.yaml']
+385,2548dbd378d81932fc0e93407d18eeaebbeeee73,Bump metadata,['metadata.json']
+386,b36b496fab9f55fbe9ae285fe5d35bc2e28a0aa6,Fix metadata for queens-1,['metadata.json']
+387,35141f8f35cf00feaae21e2b136597295412d1c6,"Merge ""Remove deprecated collector classes""","['manifests/collector.pp', 'manifests/params.pp', 'releasenotes/notes/remove-collector-9547e7929e1a139f.yaml', 'spec/classes/ceilometer_collector_spec.rb']"
+388,63bebbcfeb3295be4535c556e3959d54704e3735,"Merge ""Include cpu_l3_cache meter in polling""","['releasenotes/notes/add-l3-cache-bb9e64e9a9337d6d.yaml', 'templates/polling.yaml.erb']"
+389,e2928d2d4c11d0c534f99f37d8e3dce8bf5223d4,Remove deprecated collector classes,"['manifests/collector.pp', 'manifests/params.pp', 'releasenotes/notes/remove-collector-9547e7929e1a139f.yaml', 'spec/classes/ceilometer_collector_spec.rb']"
+390,4d168fb8ef73a96959117eff90e71f2a4983c3d9,Include cpu_l3_cache meter in polling,"['releasenotes/notes/add-l3-cache-bb9e64e9a9337d6d.yaml', 'templates/polling.yaml.erb']"
+391,4a249ae38c62d2670a37990c7cb44abd77ae3aa4,Add support to set host param,"['manifests/init.pp', 'releasenotes/notes/set-ceilometer-host-1e3d3f9de3642cd0.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+392,b30a0359ab590eaa54243e3b45e3ddbfd6ba4410,"Add Puppet package to bindep, for module build",['bindep.txt']
+393,926c9039c5d9c32bc8db2d24fcb4ffe45d1458c6,Drop Ceilometer API & Collector from Beaker,['spec/acceptance/ceilometer_wsgi_apache_spec.rb']
+394,d4a1abf8095a0f8c6803d3a1816c9004fdd5f1ab,Switch to Zuul v3 testing,['.zuul.yaml']
+395,9d34005f5d1451dd5be0dcacac23c8f5c3603548,Prepare for Queens Milestone 1,['metadata.json']
+396,9d133f35ff232764004586f77d41cb52d60cf37a,"Merge ""Configure *_domain_name to Default by default""","['manifests/keystone/authtoken.pp', 'releasenotes/notes/default-domain-185c103320f29f94.yaml', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+397,5f97c67f31d3cab502fb874c68457b2d4c27679d,"Merge ""Allow setting log files for apache vhost""","['manifests/wsgi/apache.pp', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+398,ead9b824543f7f2a47daf6df6516461d134c59a3,Configure *_domain_name to Default by default,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/default-domain-185c103320f29f94.yaml', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+399,240169cd55ef1b48a3b6906ec4503286f20ebbc5,Allow setting log files for apache vhost,"['manifests/wsgi/apache.pp', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+400,2d02f8924ea9c0e2423ad99cbe1f9ecc55206018,Accept empty strings for log_dir,['manifests/logging.pp']
+401,ff5da92ef073c9ca6a6a9fb7c819cd81c4caff82,"Merge ""add parameter to overwrite/add wsgi process options""","['manifests/wsgi/apache.pp', 'releasenotes/notes/wsgi_process_options-6ff05b70409dc49e.yaml', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+402,c37eca499cb48029104c441ef48c00043f2bf272,Update to the latest address in README,['README.md']
+403,e59795a1ba94117f6715e1810c6699a532ee8527,"Merge ""Update openstackdocstheme to latest version""",['test-requirements.txt']
+404,0ce1fd94aa0982a69f48ed2474dc5bc6644e1a89,Update openstackdocstheme to latest version,['test-requirements.txt']
+405,560b82e9ae36d52f8eaca2e07d5d6ba58c61a3dc,add parameter to overwrite/add wsgi process options,"['manifests/wsgi/apache.pp', 'releasenotes/notes/wsgi_process_options-6ff05b70409dc49e.yaml', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+406,58e125774bf015d31b1502bb02b8e44a255ca7a2,Deprecate revocation_cache_time option,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate_revocation_cache_time_parameter-12d9e4e797f0f033.yaml', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+407,b6ee08938f518ff5fd93025811044278e40f69d6,Use Python to compute release notes version,['releasenotes/source/conf.py']
+408,b0e962f1eef3a6899c3f44bcfaa9cd0194ee9278,"Merge ""Update versions for Queens cycle""","['metadata.json', 'releasenotes/source/conf.py']"
+409,d2ab067399ab9c75121886016760e82bd6653b7a,"Merge ""Update reno>=2.5.0""",['test-requirements.txt']
+410,4d706081883c808554f179444b28a7236586a1d6,Update versions for Queens cycle,"['metadata.json', 'releasenotes/source/conf.py']"
+411,73d326b50c042682172df8e81135e87737c1f42c,Update reno for stable/pike,"['releasenotes/source/index.rst', 'releasenotes/source/pike.rst']"
+412,c64b7a7e5007d207589865c90f6cd57b7dbf86e0,"Merge ""Revert ""deprecate dispatcher::gnocchi::archive_policy""""","['manifests/dispatcher/gnocchi.pp', 'releasenotes/notes/gnocchi-dispatcher-archive-policy-a5b4101fe7c33532.yaml', 'spec/classes/ceilometer_dispatcher_gnocchi_spec.rb']"
+413,c9174849f91bda2d6194c584a7b156670707e5b7,"Revert ""deprecate dispatcher::gnocchi::archive_policy""","['manifests/dispatcher/gnocchi.pp', 'releasenotes/notes/gnocchi-dispatcher-archive-policy-a5b4101fe7c33532.yaml', 'spec/classes/ceilometer_dispatcher_gnocchi_spec.rb']"
+414,20171a211af8c88941eec1dbfece8362709a5872,Prepare for official Pike release,"['metadata.json', 'releasenotes/source/conf.py']"
+415,7284c8d5a65d184e076746736d75b14154bd19f7,Update reno>=2.5.0,['test-requirements.txt']
+416,1015437b0c595e3154e47c9995c2de9d2d3ee28f,Fix unit test,['spec/classes/ceilometer_init_spec.rb']
+417,0e294df6d6be7f3f664f158f68724e1eff59821a,"Merge ""Update openstackdocstheme>=1.16.0""",['test-requirements.txt']
+418,df5f64634c18a504bdded733b034984e6a3e2485,Bump modules to next minor with -dev,"['metadata.json', 'releasenotes/source/conf.py']"
+419,56afe13ad2fe260e16f2c9429e960cf401d748a0,Update openstackdocstheme>=1.16.0,['test-requirements.txt']
+420,138c320c893bb8a8958a90609dea9d84ccdc6a5f,Deprecate oslo.messaging rpc_backend option parameter,"['manifests/init.pp', 'releasenotes/notes/deprecate_rpc_backend_parameter-db1075d3cd5d657f.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+421,ff39854f4f0c6077b0767cf7d163c8043517d103,"Merge ""Limit out of the box metrics ceilometer polls""",['templates/polling.yaml.erb']
+422,e51ef01aa0c4c91c299b2a69a7d96911465ac515,Drop -dev version for Pike M3,"['metadata.json', 'releasenotes/source/conf.py']"
+423,d2ef803b10cb2be06bbc09d1ce0a93378b6a03d7,Limit out of the box metrics ceilometer polls,['templates/polling.yaml.erb']
+424,22d188e733a383051bb78176f5d4ceb2618e46e0,"Merge ""Update URLs in documents according to document migration""","['README.md', 'setup.cfg']"
+425,8e5658d9aae9bfb37de0912246c11ce492991a4d,Update URLs in documents according to document migration,"['README.md', 'setup.cfg']"
+426,bda7b8b76fe1ea0aabade7d4628bf1f8068dc583,Fix unit tests,"['spec/acceptance/nodesets/centos-libvirt-x64.yml', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+427,df37477dbdb49e962c8d20800a31772ffe2a04ff,Remove deprecated keystone authtoken signing_dir option,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/remove_deprecated_keystone_signing_dir_option-954249754dbb64ab.yaml']"
+428,30e069012d58f5e848ce1e0753e62157600d76f7,"Merge ""Ensure pipeline yamls are created with correct permissions""","['manifests/agent/notification.pp', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+429,1c6943edcdcbbe5c9be03b3ffe8e16e79d2ac03b,"Merge ""Deprecate store_events config option""","['manifests/agent/notification.pp', 'releasenotes/notes/remove_store_events_option-b8158e3c03ec5190.yaml', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+430,d86e1f57fd8898f7e205967bc1dbc9dfb1e7b0a3,Deprecate store_events config option,"['manifests/agent/notification.pp', 'releasenotes/notes/remove_store_events_option-b8158e3c03ec5190.yaml', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+431,abf547dca0e6c431a46bbfd8280fbc85e5e9c871,Ensure pipeline yamls are created with correct permissions,"['manifests/agent/notification.pp', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+432,6bb72092e06a80b40b357eb1d88d60aea6869ab3,Fix openstackdocstheme,"['releasenotes/source/conf.py', 'test-requirements.txt']"
+433,7da50571cf98d215c8551b52cacb4f891d5f4207,Add rabbit_qos_prefetch_count to oslo_messaging_rabbit options,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+434,68f16be098c07104fa277fe1645f93a5f9e6b073,Switch from oslosphinx to openstackdocstheme,"['releasenotes/source/conf.py', 'test-requirements.txt']"
+435,53be1653f6acf4d8c580d24095fceec2e077ef48,"Merge ""Add ensure value for user and group resources""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+436,06e3faf8b6d1bafcb5e9d93fe54591390c2847b9,"Merge ""Optimize the link address and correct author""","['CHANGELOG.md', 'README.md', 'bindep.txt', 'setup.cfg']"
+437,cf96476c22e8af7b4fcb2640d358466fc1279e91,Add ensure value for user and group resources,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+438,2fab94fd6e4794ce162b1b29f528ed3ba86c1e44,Optimize the link address and correct author,"['CHANGELOG.md', 'README.md', 'bindep.txt', 'setup.cfg']"
+439,6170a18bf5c7bb37afc218bbe42edfafcd0729a7,Fix filename of api_paste.ini,"['lib/puppet/provider/ceilometer_api_paste_ini/ini_setting.rb', 'lib/puppet/type/ceilometer_api_paste_ini.rb', 'manifests/config.pp']"
+440,917605c8502b4ff846bfcc563f913288c2011299,Add environment variable,['tox.ini']
+441,da7768f211090ac5e324d1b9bd3f820218e211cc,"Merge ""Bump version for Pike M3 Dev""","['metadata.json', 'releasenotes/source/conf.py']"
+442,84ddccf62244d7c57767c8265584646901abb577,Bump version for Pike M3 Dev,"['metadata.json', 'releasenotes/source/conf.py']"
+443,562426fe3ec4d7ab81d9ef6d901d3524156dcd91,Update global requirements,['test-requirements.txt']
+444,ea0272ff35660c6fafe7ea97f15d77c46ecad180,"Merge ""Missing some parameters to test in db.pp""",['spec/classes/ceilometer_db_spec.rb']
+445,ebd21c6ca089f55cabe3712fa0a2e9d11598210b,Drop -dev in preparation for Pike M2,"['metadata.json', 'releasenotes/source/conf.py']"
+446,36bb23cb17053ec27d7b54e272ea0de22f8688e5,Missing some parameters to test in db.pp,['spec/classes/ceilometer_db_spec.rb']
+447,af6c2a9e013803452fbaed3b7ae353afd9dfe17e,Fix unit test,['spec/classes/ceilometer_db_spec.rb']
+448,83de4b0a4a3761e0c911dde7caa14b5e9d2e617b,"Merge ""oslo policy: check puppet resource instead of actual config in spec""",['spec/classes/ceilometer_policy_spec.rb']
+449,1ddf8365f90162e240d2b98043989bfc81a73ec0,"Merge ""Deprecate memcached_servers parameter""","['manifests/init.pp', 'releasenotes/notes/deprecate_memcached_servers-819a35d8991621f7.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+450,28645c0ab02f5d51035bf603f9664ed5ae5cb18e,oslo policy: check puppet resource instead of actual config in spec,['spec/classes/ceilometer_policy_spec.rb']
+451,fec3e733bf62e1b9f3387678809f212d44fbdef6,"Merge ""expirer: remove the crontab if enable_cron is False""","['manifests/expirer.pp', 'releasenotes/notes/ceilo-expirer-3b86bfc71c21aa08.yaml', 'spec/classes/ceilometer_expirer_spec.rb']"
+452,1ef657da0ed3dcb073fabbd72d65516e7a57a76e,expirer: remove the crontab if enable_cron is False,"['manifests/expirer.pp', 'releasenotes/notes/ceilo-expirer-3b86bfc71c21aa08.yaml', 'spec/classes/ceilometer_expirer_spec.rb']"
+453,76c872007f1abbfe03dc064eb1ce28813be7df37,Add deprecate warning to ceilometer::client,"['manifests/client.pp', 'releasenotes/notes/deprecate-ceilo-client-9613505a11df867b.yaml']"
+454,f7d5a712dccdd8a519b951519743211cd1e40c81,Deprecate memcached_servers parameter,"['manifests/init.pp', 'releasenotes/notes/deprecate_memcached_servers-819a35d8991621f7.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+455,389a67eebcd9684bce319af2a81e1c376c9b87db,Update tox configuration,"['Gemfile', 'bindep.txt', 'test-requirements.txt', 'tox.ini']"
+456,3d45585f8fb15776c9372b2a8adaaa7f074bcb2f,Fix dependencies of yaml files,"['manifests/agent/notification.pp', 'manifests/agent/polling.pp', 'manifests/deps.pp']"
+457,36b2ecdd7c38abb023edf9aa47d37439d12bdf79,Allow to configure the polling interval,"['manifests/agent/polling.pp', 'manifests/params.pp', 'spec/classes/ceilometer_agent_polling_spec.rb', 'templates/polling.yaml.erb']"
+458,6431cca541da1ff51716ebdf1417849ccd3df434,Set debug to true,['spec/acceptance/ceilometer_wsgi_apache_spec.rb']
+459,e016a4bb234fc4ae2d6a0e6ea9665e1a83832867,Expose snmpd auth params,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+460,43a3bc2c217c0681a9ace4038483ed329f88e49c,Bump modules to next minor with -dev,"['metadata.json', 'releasenotes/source/conf.py']"
+461,347140eca06a3ffa282d710f4599856b984c676f,Add support to configure publisher in pipeline.yaml,"['manifests/agent/notification.pp', 'manifests/params.pp', 'releasenotes/notes/configure-pipeline-8cc371e4af193f1d.yaml', 'spec/classes/ceilometer_agent_notification_spec.rb', 'templates/pipeline.yaml.erb']"
+462,bd1ebe015f8c6819e5aaf4d9bd549de1ed556999,"Merge ""Update default event publisher""","['manifests/agent/notification.pp', 'releasenotes/notes/update-default-event-publisher-623aff98f426e60f.yaml', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+463,a14eab371488f3e3f9762f9d69593ab6ba582775,oslo db: check puppet resource instead of actual config in spec,['spec/classes/ceilometer_db_spec.rb']
+464,64903dc23d39c4dc0f25263dce2a26528216356b,Update default event publisher,"['manifests/agent/notification.pp', 'releasenotes/notes/update-default-event-publisher-623aff98f426e60f.yaml', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+465,d3c2c4e75a2f61776d7946ba9106fe53240b0219,Drop -dev for release prep,['metadata.json']
+466,a791baa616668e8b7ce12e49d7f918a52293b74f,Fix dispatcher params,"['manifests/collector.pp', 'releasenotes/notes/fix-dispatcher-params-fe916b43ffa5aeab.yaml', 'spec/classes/ceilometer_collector_spec.rb']"
+467,5d63e7bc79440a2b2ee712c2931251fa80fc37fb,Fix strict variable errors in ceilometer::agent::polling,['manifests/agent/polling.pp']
+468,50dc1b74eb2270741e711659401e48a5ead5f1e2,"Merge ""Password should be secured""","['manifests/agent/notification.pp', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+469,1a4bdd359d8b52989435440dd4629b598489bf59,deprecate dispatcher::gnocchi::archive_policy,"['manifests/dispatcher/gnocchi.pp', 'releasenotes/notes/gnocchi-dispatcher-archive-policy-a5b4101fe7c33532.yaml', 'spec/classes/ceilometer_dispatcher_gnocchi_spec.rb']"
+470,015fd676e45095d38ff3a0b0050aab96bafe7c94,Password should be secured,"['manifests/agent/notification.pp', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+471,2e25568305a0521a9fd90c02308ad14e5fbda454,"Merge ""deprecate ceilometer::dispatcher::gnocchi::url""","['manifests/dispatcher/gnocchi.pp', 'releasenotes/notes/gnocchi-dispatcher-url-63964185ca71e228.yaml', 'spec/classes/ceilometer_dispatcher_gnocchi_spec.rb']"
+472,01d8712becb181340ed7ed0cf40ae4880c1092cb,Update test-requirements.txt,['test-requirements.txt']
+473,1ef6b0b7f6c38d155f1ccf7daf7a8027f13860e6,deprecate ceilometer::dispatcher::gnocchi::url,"['manifests/dispatcher/gnocchi.pp', 'releasenotes/notes/gnocchi-dispatcher-url-63964185ca71e228.yaml', 'spec/classes/ceilometer_dispatcher_gnocchi_spec.rb']"
+474,e6643302983cd8ca958e203b30a05835679589a3,oslo log: check puppet resource instead of actual config in spec,['spec/classes/ceilometer_logging_spec.rb']
+475,8e7e6194014ff22293a6a74136b8c39545ef78bf,"Merge ""Make skip gnocchi option overridable""","['manifests/db/sync.pp', 'manifests/params.pp', 'releasenotes/notes/replace-dbsync-command-74f9157fe81ddc4c.yaml', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb', 'spec/classes/ceilometer_db_sync_spec.rb']"
+476,96040df940c22c989a20012a68a5c4c378ff331a,Make skip gnocchi option overridable,"['manifests/db/sync.pp', 'manifests/params.pp', 'releasenotes/notes/replace-dbsync-command-74f9157fe81ddc4c.yaml', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb', 'spec/classes/ceilometer_db_sync_spec.rb']"
+477,7952b1c13799bebbb3cc8ff5e0d9210e5f709af8,Fix typo,['spec/classes/ceilometer_logging_spec.rb']
+478,c874c83ac01ae9d1f517d031e5e58c97c9337437,"Merge ""Deprecate ceilometer collector""","['manifests/collector.pp', 'releasenotes/notes/deprecate-collector-55d615ff6cfff86a.yaml']"
+479,180bfecb39fe0fd9da54a100532da8fb932c7cf2,rabbitmq SSL: check puppet resource instead of actual config,['spec/classes/ceilometer_init_spec.rb']
+480,643c2836061e64bb011c9aa9af0050dde2edb1da,Deprecate ceilometer collector,"['manifests/collector.pp', 'releasenotes/notes/deprecate-collector-55d615ff6cfff86a.yaml']"
+481,da9656943fc3cea97161a4a8bb46d4b60b485e17,Prepare Pike metadata,"['metadata.json', 'releasenotes/source/conf.py']"
+482,8190fba40affa3fcb3177319c24975d19050fe04,Deprecate meter_dispatcher and event_dispatcher options,"['examples/ceilometer_with_gnocchi.pp', 'manifests/collector.pp', 'releasenotes/notes/fix_dispatcher_parameters-781af23459348731.yaml', 'spec/classes/ceilometer_collector_spec.rb']"
+483,72b33608c7571cd2cff403f94cd40f448f60f18c,Remove rpc_backend check for amqp,['spec/classes/ceilometer_init_spec.rb']
+484,c3d330eeb5c90a5d284522e4677aaf8a8b5a8b81,Add notification_driver option,"['manifests/init.pp', 'releasenotes/notes/add_messaging_notification_parameters-34197a234ef9871d.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+485,840efb3bd60be5aab05de4484d8253fb2e25cacc,Update reno for stable/ocata,"['releasenotes/source/index.rst', 'releasenotes/source/ocata.rst']"
+486,15aeb9dc9816b45548b681d5c86ced30f17895a6,Prepare ocata-rc1 release,"['metadata.json', 'releasenotes/source/conf.py']"
+487,895a8eaa87561e6801b477a7db25fd92417f1fff,Add control_exchange and rpc_response_timeout options,"['manifests/init.pp', 'releasenotes/notes/add_messaging_default_parameters-813a34e99f22d134.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+488,e80d90dc18d0168294ad7c4611c93b708471b02e,"Merge ""Add oslo::db to dependency chain""",['manifests/deps.pp']
+489,0d0b20f5a84e245b0d8e084401e0ec3a1c344364,Add oslo::db to dependency chain,['manifests/deps.pp']
+490,3b4e53fe8e3eb9d8cb73c45248cc0b24253b01c4,Fix puppet example in README,['README.md']
+491,52307287b5c729a8bc692e6cb352424bd656a87b,"Merge ""Fix typo in ceilometer_api_paste_ini_spec.rb""",['spec/unit/type/ceilometer_api_paste_ini_spec.rb']
+492,699c190772fa5924b2f9ac8937a7ccb6a3d7705f,Fix typo in ceilometer_api_paste_ini_spec.rb,['spec/unit/type/ceilometer_api_paste_ini_spec.rb']
+493,9cf46cbf926cc0db197d61305f93ac938df25464,Configure compute params in config,"['manifests/agent/compute.pp', 'manifests/agent/polling.pp', 'releasenotes/notes/add-instance-discovery-methods-5d4dde0ebf4cec28.yaml', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+494,306c6d660d49ed71419cae534e52935e1e1069c5,Fix Ubuntu Ocata issues,"['manifests/params.pp', 'manifests/wsgi/apache.pp', 'releasenotes/notes/ubuntu-libvirt-name-change-8300176528a59f3d.yaml', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+495,14a4c1262fde01a8930ccc0a12ef741cf0e07063,Deprecate ceilometer::agent::central,"['README.md', 'examples/ceilometer_with_gnocchi.pp', 'examples/site.pp', 'manifests/agent/central.pp', 'releasenotes/notes/ceilo-central-agent-2bf1f73f088290ad.yaml']"
+496,7b2cfda7d41378a112111bcc45be53b7b85245f7,Prepare 10.2.0 release,"['metadata.json', 'releasenotes/source/conf.py']"
+497,3bda006e6e40a3581f4f0893600066312ab027e3,Allow python-memcache install from authtoken class,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/authtoken_manage_memcache_package-56ab9dcc6745492c.yaml', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+498,6e7688e2e1de035307744edacc2fb565d3ffc0e9,Add deprecation warning to ceilo api,"['manifests/api.pp', 'releasenotes/notes/warn-deprecated-ceilometer-api-77c2744e31644c5e.yaml']"
+499,776f73c32c24e857cd75429eee3de719e8ca0001,Deprecate signing_dir option,"['manifests/keystone/authtoken.pp', 'releasenotes/notes/deprecate_signing_dir_parameter-1985128741a23f23.yaml', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+500,7d0c2e0dda4bcd51d2f2015c95441a72df929c07,"Pin reno version to reno>=0.1.1,!=2.0.0",['test-requirements.txt']
+501,29e54fbb8d16cc241f8f100293e11675422b574a,Add customization for wsgi process display name,"['manifests/wsgi/apache.pp', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+502,2025907cc5c5f7119d825c0b56520bc77b88ce78,Prepare 10.1.0 release,"['metadata.json', 'releasenotes/source/conf.py']"
+503,73a2d03e713d7d9d6dbf34598b455f6203e04f96,Fix spec test for sync,['spec/classes/ceilometer_db_sync_spec.rb']
+504,fc4a0fd5100128280703dbb3f8e109fb9393a2d0,Add hooks for external install & svc management,"['manifests/agent/auth.pp', 'manifests/agent/central.pp', 'manifests/agent/notification.pp', 'manifests/agent/polling.pp', 'manifests/api.pp', 'manifests/client.pp', 'manifests/collector.pp', 'manifests/config.pp', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'manifests/db/sync.pp', 'manifests/deps.pp', 'manifests/dispatcher/gnocchi.pp', 'manifests/expirer.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/keystone/authtoken.pp', 'manifests/logging.pp', 'manifests/policy.pp', 'manifests/wsgi/apache.pp', 'releasenotes/notes/external_install_mgmt_hook-676123a45de9237f.yaml', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_client_spec.rb', 'spec/classes/ceilometer_db_sync_spec.rb', 'spec/classes/ceilometer_expirer_spec.rb', 'spec/classes/ceilometer_init_spec.rb']"
+505,012078446e9079f00889ea31f618fc10339bb34d,Show team and repo badges on README,['README.md']
+506,12360108f1c11809e13ea45d389124e8d9f14983,"Merge ""Prepare 10.0.0 release""","['metadata.json', 'releasenotes/source/conf.py']"
+507,69931b06858c73abd08bc34a6c5c24b099b00d6c,"Merge ""Fix common options position in params.pp""",['manifests/params.pp']
+508,30ec07245249b649a14100e91bb6facb5da1bc14,"Merge ""Remove old authtoken options""","['manifests/api.pp', 'manifests/keystone/authtoken.pp', 'releasenotes/notes/remove_old_authtoken_options-8dc42a864cc1d9eb.yaml', 'spec/classes/ceilometer_api_spec.rb']"
+509,16af61ed7728b642de3d247dda0f2de052d77ebb,Prepare 10.0.0 release,"['metadata.json', 'releasenotes/source/conf.py']"
+510,52ebcc955d0b7c9f737710c266dc60be8ba559ea,Switch ceilometer to rspec-puppet-facts,"['spec/classes/ceilometer_agent_auth_spec.rb', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_client_spec.rb', 'spec/classes/ceilometer_collector_spec.rb', 'spec/classes/ceilometer_db_mysql_spec.rb', 'spec/classes/ceilometer_db_spec.rb', 'spec/classes/ceilometer_db_sync_spec.rb', 'spec/classes/ceilometer_dispatcher_gnocchi_spec.rb', 'spec/classes/ceilometer_expirer_spec.rb', 'spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_keystone_auth_spec.rb', 'spec/classes/ceilometer_keystone_authtoken_spec.rb', 'spec/classes/ceilometer_logging_spec.rb', 'spec/classes/ceilometer_policy_spec.rb', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+511,e885bafe5789be7ea57c40320183178f9e24d9e0,Fix common options position in params.pp,['manifests/params.pp']
+512,af4af189eaa83bbc2d5dc43a7eb19dd17a3afc6e,Replace ceilometer-dbsync by ceilometer-upgrade,"['manifests/db.pp', 'manifests/db/sync.pp', 'manifests/params.pp', 'releasenotes/notes/replace-deprecated-ceilometer-dbsync-ddf62d90341731d7.yaml', 'spec/classes/ceilometer_db_sync_spec.rb']"
+513,b39fa37eaeec5199cbc9de273572260b2627ba74,Remove old authtoken options,"['manifests/api.pp', 'manifests/keystone/authtoken.pp', 'releasenotes/notes/remove_old_authtoken_options-8dc42a864cc1d9eb.yaml', 'spec/classes/ceilometer_api_spec.rb']"
+514,7c34dbff3544fd29310e4b8729c7132250fde0f9,Fix puppet version for requirements in metadata,['metadata.json']
+515,9dbbf98385b9e2dc488c652853000cb37596e42e,Define libvirt_group for RHEL family,['manifests/params.pp']
+516,d77e7067de5f020d4ffeabc8d0439463f936940f,Deprecate rabbitmq connection parameters,"['manifests/init.pp', 'releasenotes/notes/rabbit-connection-params-deprecation-62caee6af8c19d29.yaml', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb']"
+517,054a1f65e8e52ac3e47a842c4b3d7fcf8af3f0b7,"Merge ""Add test for policy""",['spec/classes/ceilometer_policy_spec.rb']
+518,bd83c2a094a2373459480e4203da7d7dab7048f6,Add test for policy,['spec/classes/ceilometer_policy_spec.rb']
+519,a1b8f3b3317d52f71ff58d20c07ed5d311df37ba,Remove verbose,"['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/remove_verbose-bc90fdffa0a9c0cc.yaml']"
+520,765557b9dc4a42cbe901ff73794344a8f1f899a2,Fix documentation for log_dir parameter,"['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/fix_log_dir_documentation-6f0c7311a8678413.yaml']"
+521,5fad2540c93ef1074e071812a9eb34dd931f5661,Release 9.4.1 (newton),"['metadata.json', 'releasenotes/source/conf.py']"
+522,51f5519f11ba212e9d9c68ca51929db2b405ab77,Change worker defaults to ::os_workers,"['manifests/wsgi/apache.pp', 'releasenotes/notes/os_workers_for_worker_count-05563e8178495993.yaml', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_db_postgresql_spec.rb', 'spec/classes/ceilometer_db_sync_spec.rb', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+523,d4aa3e5cad9b66044d31f0c885458aac7cfbc792,Add option to enable Ceilometer's SSL middleware,"['manifests/api.pp', 'releasenotes/notes/Adds-enable-proxy-header-parsing-64b78b56d8787e1d.yaml', 'spec/classes/ceilometer_api_spec.rb']"
+524,191da2c492e95e41c35d0a5ed1b01507a72cc413,Enable release notes translation,['releasenotes/source/conf.py']
+525,5ceee6fc72ce9bd1f02b4cb7f3615d2333c7b8ae,Changed the home-page to point Openstack Puppet Homepage,['setup.cfg']
+526,aefbf40c136f9da5231b467ae6f4278a7b34df06,Move rspec-puppet-facts to spec helper,['spec/spec_helper.rb']
+527,b7d3c18b2a094be683138a3743480f83f48c5add,Added retries for db_sync,['manifests/db/sync.pp']
+528,babb60d709f3cf15a2bf9e75f788ac19a34173a6,Update reno for stable/newton,"['releasenotes/source/index.rst', 'releasenotes/source/newton.rst']"
+529,125919bf58c97195358507452f4e7b1128d11fb9,"Merge ""Remove unnecesary spaces in log messages.""",['manifests/api.pp']
+530,d7ca881499ac0d7a00c7b36cfbe1bb2be62f3094,standardize release note page ordering,['releasenotes/source/index.rst']
+531,de41a0b02bb1e03c3053a209d9a49dc944171d20,"Merge ""Puppet OpenStack Newton RC2""","['metadata.json', 'releasenotes/source/conf.py']"
+532,20d5850d9cbe309c1aa031cd0e1d3ae6a8493b23,Puppet OpenStack Newton RC2,"['metadata.json', 'releasenotes/source/conf.py']"
+533,f4db1547513e871b90dd545119b8800ffc445443,Remove unnecesary spaces in log messages.,['manifests/api.pp']
+534,4e576d3f5393cb58b2d19b940d9a3c3d81144417,Remove blank values in namespaces array.,"['manifests/agent/polling.pp', 'releasenotes/notes/fix_polling_agent_namespaces-6a79b7e42601f950.yaml']"
+535,6a94c7a8f7a153727ae14a96db8a6df2e4d94821,"Merge ""fix broken join that stops polling service from starting""","['manifests/agent/polling.pp', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+536,666106a8b1a8f3a088927f1e5d1d83f01989474f,"Merge ""Prepare 9.3.0 (newton rc1)""","['metadata.json', 'releasenotes/source/conf.py']"
+537,ff327ffa3a9c5a712cea73654fc1e07ac97de105,fix broken join that stops polling service from starting,"['manifests/agent/polling.pp', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+538,ebe1a452a1f9f8b5f4fb99e026daec2af10c640b,"Merge ""Temporarily add gnocchiclient to acceptance test""",['spec/acceptance/ceilometer_wsgi_apache_spec.rb']
+539,03f17a69db1595adba0cb75c1df5bfc0c0a37308,Prepare 9.3.0 (newton rc1),"['metadata.json', 'releasenotes/source/conf.py']"
+540,b5be6edf543bfde7dd0b461444d12cb44e1c2b3a,Temporarily add gnocchiclient to acceptance test,['spec/acceptance/ceilometer_wsgi_apache_spec.rb']
+541,6a8beb15d47cc39f5a01046c388d04becf76329a,Fix puppet-lint before upgrading gem,"['manifests/api.pp', 'manifests/policy.pp']"
+542,f1814fc266daccd38904e48bd217cd74d6b5bda5,Prepare 9.2.0 (newton b3),"['metadata.json', 'releasenotes/source/conf.py']"
+543,8742b6fad902837b2be3c9eb16c861e195b8257a,Move ceilometer to authtoken,"['examples/ceilometer_with_gnocchi.pp', 'examples/site.pp', 'manifests/api.pp', 'manifests/keystone/authtoken.pp', 'releasenotes/notes/authtoken_resource-be94146ce8104cea.yaml', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_keystone_authtoken_spec.rb']"
+544,0bc51239013a06166703ef4bdd2e86f17eba6d0e,"Merge ""puppet4: fix ordering for compute agent""","['manifests/agent/compute.pp', 'manifests/agent/polling.pp']"
+545,4833a7abe6cd51aa690a3f8b90bfff114c2ef64b,puppet4: fix ordering for compute agent,"['manifests/agent/compute.pp', 'manifests/agent/polling.pp']"
+546,2743cbde8db816d51508d368f492151432f2009d,Move other-requirements.txt to bindep.txt,['bindep.txt']
+547,0148969bafe1423a802119934eaf1700ced7469c,Add event_pipeline.yaml management,"['manifests/agent/notification.pp', 'manifests/params.pp', 'releasenotes/notes/event-pipeline-d49e4bb90fddbb0b.yaml', 'spec/classes/ceilometer_agent_notification_spec.rb', 'templates/event_pipeline.yaml.erb']"
+548,652c497fe3822dc3d6f5cbf2d9884af0fd84e8aa,Include openstacklib defaults manifest.,['manifests/params.pp']
+549,08f764bd38e99d012a1fd16e5032fe36da458015,Prepare 9.1.0 (newton-2),"['metadata.json', 'releasenotes/source/conf.py']"
+550,8f2bac3acf9d00f0739dc5fd2f68a9430ec3a994,"Merge ""Add memcached_servers for keystone authtoken""","['manifests/api.pp', 'releasenotes/notes/keystone-authtoken-memcached-ab13c488a438804d.yaml', 'spec/classes/ceilometer_api_spec.rb']"
+551,1ae57a6e789b0bb2f4abe01c8d2314cca776edb9,Add memcached_servers for keystone authtoken,"['manifests/api.pp', 'releasenotes/notes/keystone-authtoken-memcached-ab13c488a438804d.yaml', 'spec/classes/ceilometer_api_spec.rb']"
+552,2cc3c9e8cbb08423edb86f6b80a170414f097e2e,Remove 12.04 and add 16.04 to metadata,['metadata.json']
+553,d190eac05d9aa1f94d866304ba1d487ffdc2a3a3,Remove mitaka release prelude note,['releasenotes/notes/mitaka-dece9d43a565e6cb.yaml']
+554,585d236e26fcc5a5010417343c33ab6d0ca76c05,Don't print sensitive information to stdout during run.,['lib/puppet/type/ceilometer_config.rb']
+555,b7fb86e3506fed13bacb29705083703cd28efb67,Add nodepool-xenial.yml file,['spec/acceptance/nodesets/nodepool-xenial.yml']
+556,dbaa9e6db36181e1ec6d1c00b086fc6fb45e90e2,fix variable name in comment,['manifests/api.pp']
+557,3cd0448bdcf1cfa4454714ca138a66f73455d597,"Merge ""Provide default service_name for keystone endpoint""","['manifests/keystone/auth.pp', 'releasenotes/notes/keystone-auth-name-6deb28333b29657e.yaml', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+558,8363e51b3ca8721bb092932728ba3833bfb42a7f,Provide default service_name for keystone endpoint,"['manifests/keystone/auth.pp', 'releasenotes/notes/keystone-auth-name-6deb28333b29657e.yaml', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+559,b73ea4f810f840ac1a5c3d8aee4d6dde534fdde0,Fix facts for policy test,['spec/classes/ceilometer_policy_spec.rb']
+560,736b796f65fbf8886041b551f375ad8c7d4dbf65,"Merge ""Test multiple operating systems for policy""",['spec/classes/ceilometer_policy_spec.rb']
+561,0b9bee9ffd94e9d98b192de6f31be2430aadf4f2,Add purge_config option,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+562,78d766a93021f48acfbe2ca783d0f5c4a2d0023d,Test multiple operating systems for policy,['spec/classes/ceilometer_policy_spec.rb']
+563,2eadab0167753c8cee26c84c67c31ebc47dc2de0,"Merge ""Remove deprecated keystone::auth options""","['manifests/keystone/auth.pp', 'releasenotes/notes/remove_deprecated_keystone_auth_options-7702c56e6cc49f3c.yaml', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+564,17f8be5bac4b8817e6bd71557b6a86d6500f1de7,"Merge ""Prepare 9.0.0 release""","['metadata.json', 'releasenotes/source/conf.py']"
+565,651a72a89f3077b51d9ffad55ae9cdba989732ed,"Merge ""Change wiki to docs""",['README.md']
+566,3622ee8228d418f7166e125eb6fe8d171298c8da,Cleanup README,['README.md']
+567,01caa03b573f346552e2a596be83906953c61efa,Remove deprecated keystone::auth options,"['manifests/keystone/auth.pp', 'releasenotes/notes/remove_deprecated_keystone_auth_options-7702c56e6cc49f3c.yaml', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+568,c3de15d8b58a0d85349a259e803e72d9104150b4,Change wiki to docs,['README.md']
+569,9977bf7f073262fc3a771799b585548673b3544d,Prepare 9.0.0 release,"['metadata.json', 'releasenotes/source/conf.py']"
+570,67b1d25e1757788bf0f3f6856ce7b603a88d413d,"Merge ""Revert ""Deprecate use_syslog""""","['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/use_syslog-fc032531ad65d9d2.yaml', 'spec/classes/ceilometer_logging_spec.rb']"
+571,e971cd0aeb26c48ddf9ab0aeafeda92d60324dee,"Revert ""Deprecate use_syslog""","['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/use_syslog-fc032531ad65d9d2.yaml', 'spec/classes/ceilometer_logging_spec.rb']"
+572,644df35ae4d39b6000f88ce3a5036c5e4b643d8a,"Merge ""Add transport_url parameters for oslo.messaging""","['manifests/init.pp', 'releasenotes/notes/add_transport_url_parameters-8c4c520e5cce0edc.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+573,5ca2819480a168fba15e84821320769284d0c8fc,Remove useless parameters,['manifests/params.pp']
+574,39076721e14af645c4d7f1b6590498ef3bedee79,Add transport_url parameters for oslo.messaging,"['manifests/init.pp', 'releasenotes/notes/add_transport_url_parameters-8c4c520e5cce0edc.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+575,066d1f33b3494e7245ba6a190bfb909a8160201a,"Merge ""Use 'password' auth_type by default""","['manifests/agent/auth.pp', 'releasenotes/notes/password_auth_type-810a86921a846b2f.yaml', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+576,d82c232b5e7c782803844826fde9f4242dd6437f,Use 'password' auth_type by default,"['manifests/agent/auth.pp', 'releasenotes/notes/password_auth_type-810a86921a846b2f.yaml', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+577,40b84c310e6b78226a08e7c04865c037542dfc54,Deprecate use_syslog,"['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/use_syslog-fc032531ad65d9d2.yaml', 'spec/classes/ceilometer_logging_spec.rb']"
+578,e1febabab27ca4269ebb31b8c36be40f7a0ea1b0,Adapt ceilometer tests for a new concat version,['spec/classes/ceilometer_wsgi_apache_spec.rb']
+579,79aef841af8ea502031d105ce7cf04818ed54a61,Fix syntax error,['manifests/expirer.pp']
+580,367765c9a69966afbe760ef4e2f6a37aa21156b6,Add other-requirements.txt for bindep,['other-requirements.txt']
+581,c3cef5bd7470f900f40883a39c96f765150f8819,"Merge ""Added support for messaging urls""","['lib/puppet/provider/ceilometer_config/ini_setting.rb', 'lib/puppet/provider/ceilometer_config/openstackconfig.rb', 'lib/puppet/type/ceilometer_config.rb', 'manifests/agent/notification.pp', 'manifests/config.pp', 'releasenotes/notes/added_messaging_urls-fbf1309bf1bfafa4.yaml', 'releasenotes/notes/ceilometer_notifications_messaging_urls-62b27d617a49c609.yaml', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/unit/provider/ceilometer_config/openstackconfig_spec.rb', 'spec/unit/type/ceilometer_config_spec.rb']"
+582,8febdc37c24763d7bbcd4b8761c21a477cc7f832,Deprecate verbose option in logging,"['README.md', 'manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/verbose-deprecation-49b680241facb7c3.yaml', 'spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_logging_spec.rb']"
+583,fd4485d64ea9a0648620756bf871e1ceee79ede0,Added support for messaging urls,"['lib/puppet/provider/ceilometer_config/ini_setting.rb', 'lib/puppet/provider/ceilometer_config/openstackconfig.rb', 'lib/puppet/type/ceilometer_config.rb', 'manifests/agent/notification.pp', 'manifests/config.pp', 'releasenotes/notes/added_messaging_urls-fbf1309bf1bfafa4.yaml', 'releasenotes/notes/ceilometer_notifications_messaging_urls-62b27d617a49c609.yaml', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/unit/provider/ceilometer_config/openstackconfig_spec.rb', 'spec/unit/type/ceilometer_config_spec.rb']"
+584,3a51f72391f00ee1239ba79dbc7dcf80d3037ada,"Merge ""Introduce support for oslo.messaging amqp driver configuration""","['manifests/init.pp', 'releasenotes/notes/add_oslo_messaging_amqp-4ae1ae4234921ad3.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+585,d4e3b55929c1f6489c0fb346bef4c9789e64120d,"Merge ""metering_secret was renamed to telemetry_secret""","['README.md', 'examples/ceilometer_with_gnocchi.pp', 'examples/site.pp', 'manifests/init.pp', 'releasenotes/notes/metering_secret_renamed_to_telemetry_secret-f056f07ae9f1b23e.yaml', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb', 'spec/classes/ceilometer_agent_auth_spec.rb', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_collector_spec.rb', 'spec/classes/ceilometer_dispatcher_gnocchi_spec.rb', 'spec/classes/ceilometer_expirer_spec.rb', 'spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+586,a325f77623228ff9de458afac13ebc11e302e8f7,"Merge ""Correct service_credentials section""","['manifests/agent/auth.pp', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+587,bd50e452c1eb1e0404b0f4e66f263760bf1ad21c,Introduce support for oslo.messaging amqp driver configuration,"['manifests/init.pp', 'releasenotes/notes/add_oslo_messaging_amqp-4ae1ae4234921ad3.yaml', 'spec/classes/ceilometer_init_spec.rb']"
+588,4600d4135ac1bef01f7a7dd4b12582a0c8db6b50,metering_secret was renamed to telemetry_secret,"['README.md', 'examples/ceilometer_with_gnocchi.pp', 'examples/site.pp', 'manifests/init.pp', 'releasenotes/notes/metering_secret_renamed_to_telemetry_secret-f056f07ae9f1b23e.yaml', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb', 'spec/classes/ceilometer_agent_auth_spec.rb', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_collector_spec.rb', 'spec/classes/ceilometer_dispatcher_gnocchi_spec.rb', 'spec/classes/ceilometer_expirer_spec.rb', 'spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+589,35ca4c173b5ebdf06d60a9c7821462a06815bb08,Add support for db_max_retries param,"['manifests/db.pp', 'spec/classes/ceilometer_db_spec.rb']"
+590,c853fc65013ee8ce78c42e822df98b423d25bd48,Correct service_credentials section,"['manifests/agent/auth.pp', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+591,7df4b36d30ac997e33aa3e19cbd9bb0ce453c7b9,acceptance: remove scenario without apache,['spec/acceptance/ceilometer_with_mysql_spec.rb']
+592,ba21901512fdda95a3290933d7e0218eaa936828,Test multiple operating systems for db,"['spec/classes/ceilometer_db_postgresql_spec.rb', 'spec/classes/ceilometer_db_sync_spec.rb']"
+593,e3c649f0877e2deb594864b2aacf5fc480cd4ffa,Totally drop Qpid support,"['manifests/init.pp', 'manifests/logging.pp', 'releasenotes/notes/drop_qpid-9951a68b9e35f1c2.yaml', 'spec/classes/ceilometer_logging_spec.rb']"
+594,01668bfd32c821c13186a89620be3ce4a42850a1,Configure oslo related parameters using puppet-oslo,"['manifests/db.pp', 'manifests/init.pp', 'manifests/logging.pp', 'manifests/policy.pp', 'metadata.json', 'releasenotes/notes/switch_to_oslo_everywhere-7412fe9a4dffdf71.yaml', 'spec/classes/ceilometer_db_spec.rb', 'spec/classes/ceilometer_init_spec.rb']"
+595,fe020912a20c0fc96067448025b7ac48bd2093e3,Gemfile: rely on puppet-openstack_spec_helper for dependencies,['Gemfile']
+596,497aad5423733aabff6d588b1817ffe42dfc175e,Add 'ceilometer-service' tag to collector and agent/notification,"['manifests/agent/notification.pp', 'manifests/collector.pp', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_collector_spec.rb']"
+597,8142a6a019810e74d0be3065e2470b49c4ef33f8,Import release notes from stable/mitaka,"['releasenotes/source/index.rst', 'releasenotes/source/mitaka.rst']"
+598,c7a16c237f331c2370e9c8a36566d3d1fd8750b7,Release 8.0.0,"['CHANGELOG.md', 'metadata.json', 'releasenotes/notes/mitaka-dece9d43a565e6cb.yaml', 'releasenotes/notes/use-reno-1caaec4ba5aa4285.yaml', 'releasenotes/source/index.rst']"
+599,3bd3f99e640eae867bba93b53f811d3cfa0a51d6,releasenotes: add notes for Mitaka cycle,"['releasenotes/notes/deprecate_alarm-273cc49b689fe0a8.yaml', 'releasenotes/notes/deprecate_old_mongo-5909886c13013bde.yaml', 'releasenotes/notes/gnocchi-22478d430337227c.yaml', 'releasenotes/notes/keystone_auth-b821f96e020f9048.yaml', 'releasenotes/notes/pymysql-e57bf1f0289dd426.yaml', 'releasenotes/notes/remove_qpid-0b446db43fdea617.yaml', 'releasenotes/notes/workers-2ce7d757e90b0c84.yaml']"
+600,5d9da8bd9aed97b4322fb57e8305c3df9e2ea292,Add basic structure for ReNo,"['.gitignore', 'releasenotes/notes/use-reno-1caaec4ba5aa4285.yaml', 'releasenotes/source/_static/.placeholder', 'releasenotes/source/conf.py', 'releasenotes/source/index.rst', 'releasenotes/source/unreleased.rst', 'setup.cfg', 'setup.py', 'test-requirements.txt', 'tox.ini']"
+601,9ac7d218d5935e8830bf0dd0bc585f58937bccd5,fix filter_project param values,"['examples/ceilometer_with_gnocchi.pp', 'spec/classes/ceilometer_dispatcher_gnocchi_spec.rb']"
+602,5886f0ad44265c24e981f0bb3148944fcec35397,"Merge ""Add api_paste type/provider for Ceilometer""","['lib/puppet/provider/ceilometer_api_paste_ini/ini_setting.rb', 'lib/puppet/type/ceilometer_api_paste_ini.rb', 'manifests/config.pp', 'spec/unit/provider/ceilometer_api_paste_ini/ini_setting_spec.rb', 'spec/unit/type/ceilometer_api_paste_ini_spec.rb']"
+603,2e0affcd93c566452a5d381cff4a5a76634d93e6,Add api_paste type/provider for Ceilometer,"['lib/puppet/provider/ceilometer_api_paste_ini/ini_setting.rb', 'lib/puppet/type/ceilometer_api_paste_ini.rb', 'manifests/config.pp', 'spec/unit/provider/ceilometer_api_paste_ini/ini_setting_spec.rb', 'spec/unit/type/ceilometer_api_paste_ini_spec.rb']"
+604,f897c0c6c6dce6a90f454ff94fc7b32e23246663,Deprecate ceilometer alarm classes,"['README.md', 'examples/site.pp', 'manifests/alarm/evaluator.pp', 'manifests/alarm/notifier.pp', 'manifests/dispatcher/gnocchi.pp', 'manifests/init.pp', 'manifests/params.pp', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb', 'spec/classes/ceilometer_init_spec.rb']"
+605,f681f80aa51c1fb23bf22d7893832700a22a0d87,"Merge ""Consistent with other core module, auth_uri,identity_uri""","['manifests/api.pp', 'spec/classes/ceilometer_api_spec.rb']"
+606,e7ed2b8f9cc1aa49d3d9b512d7f7ae45b2318c3b,"Consistent with other core module, auth_uri,identity_uri","['manifests/api.pp', 'spec/classes/ceilometer_api_spec.rb']"
+607,0659e509fd4c1d7ca0a67ea24bddd65050a1559a,collector: fix dispatcher config,"['manifests/collector.pp', 'spec/classes/ceilometer_collector_spec.rb']"
+608,4f3365c75cb9fb5921d15e9d08b115262998ce82,"Merge ""Add rabbit_ha_queues option""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+609,60301b4972c4b2bfe24f05836285c00bb225d9c5,Adding amqp_durable_queues parameter to ceilometer,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+610,aeb040c9354dd60c93ef3b3ebfd0ec31c20cae85,drop mock dependency,"['Gemfile', 'spec/classes/ceilometer_collector_spec.rb', 'spec/spec_helper.rb']"
+611,48d299bea89baa7446315b871cd2f506355e08d4,"Merge ""Set auth_region to $::os_service_default""","['manifests/agent/auth.pp', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+612,6efe275561fe579abd5b182488d10b7b8c946ec8,"Merge ""Use puppet-openstack_spec_helper for Rakefile & spec_helper_acceptance""","['Rakefile', 'spec/spec_helper_acceptance.rb']"
+613,b787d19d9ef18e3eabdf9af5758f37b6350f273f,beaker: stop testing ceilometer-alarm,"['spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb']"
+614,ae2c5f7939a9e0776197cd0f70bfc7ac73513eb2,Use puppet-openstack_spec_helper for Rakefile & spec_helper_acceptance,"['Rakefile', 'spec/spec_helper_acceptance.rb']"
+615,83e6993ab314073e6bcb2513a926eb49266f21d1,Add rabbit_ha_queues option,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+616,2bf8cc7f27e4abd9be36be07eba7ae928ec39e28,"Merge ""Add rspec-puppet-facts to the spec_helper""","['Gemfile', 'spec/spec_helper.rb']"
+617,6941231059b868e32db72e640d04dcd3b8183f96,Move workers options into specific sections.,"['manifests/agent/notification.pp', 'manifests/api.pp', 'manifests/collector.pp', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_collector_spec.rb']"
+618,4e5dc348b44ddaccbba698372ca80678c4c385f6,Add rspec-puppet-facts to the spec_helper,"['Gemfile', 'spec/spec_helper.rb']"
+619,540b456c86b45aff5c33313fa163b6ff2d99d8d8,Set auth_region to $::os_service_default,"['manifests/agent/auth.pp', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+620,f6e0e94acf5ca8b578120b1008e0913cd2634968,"Merge ""Improve format of the documentations.""","['manifests/agent/auth.pp', 'manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/agent/notification.pp', 'manifests/agent/polling.pp', 'manifests/alarm/evaluator.pp', 'manifests/alarm/notifier.pp', 'manifests/api.pp', 'manifests/client.pp', 'manifests/collector.pp', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'manifests/db/sync.pp', 'manifests/dispatcher/gnocchi.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/logging.pp', 'manifests/params.pp', 'manifests/policy.pp', 'manifests/wsgi/apache.pp']"
+621,27654f3e170a0d20199e6f125796086cd2cad643,Improve format of the documentations.,"['manifests/agent/auth.pp', 'manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/agent/notification.pp', 'manifests/agent/polling.pp', 'manifests/alarm/evaluator.pp', 'manifests/alarm/notifier.pp', 'manifests/api.pp', 'manifests/client.pp', 'manifests/collector.pp', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/postgresql.pp', 'manifests/db/sync.pp', 'manifests/dispatcher/gnocchi.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/logging.pp', 'manifests/params.pp', 'manifests/policy.pp', 'manifests/wsgi/apache.pp']"
+622,ab503a9e910f946bb02cc557c68364769a9cc4a2,Add required db subclass to README.md,['README.md']
+623,a38d8b40885012b4b56adff0b5655eafb4c569c5,"Merge ""deprecate mongodb_replica_set parameter""","['manifests/db.pp', 'spec/classes/ceilometer_db_spec.rb']"
+624,dd09f26048492dbc6cc19b6053cec50f87ce7602,Use identity_uri and auth_uri by default,"['manifests/api.pp', 'spec/classes/ceilometer_api_spec.rb']"
+625,782eeda90bbf54756130c2db9412321a0ac39d5c,Drop time_to_live parameter,"['examples/site.pp', 'manifests/expirer.pp', 'spec/classes/ceilometer_expirer_spec.rb']"
+626,51fdead1dcd257314af1ae4941557221f7150aa5,deprecate mongodb_replica_set parameter,"['manifests/db.pp', 'spec/classes/ceilometer_db_spec.rb']"
+627,ee93d534214f5dc3c09a9f6bc3414ae44ab2d73b,unit tests: make Keystone_endpoint match service by name/type,['spec/classes/ceilometer_keystone_auth_spec.rb']
+628,6e453d9873d34d18fd38cf7dd014572a30913e95,"Merge ""Ability to configure api, collector and notification workers""","['manifests/agent/notification.pp', 'manifests/api.pp', 'manifests/collector.pp', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_collector_spec.rb']"
+629,be054317ef0f2b760bf5ecf43c58faa22a26cc19,"Merge ""Update example to deploy Ceilometer with Gnocchi dispatcher""",['examples/ceilometer_with_gnocchi.pp']
+630,89e31e9ad8ef081c57dacef973998b25446e9de0,"Ability to configure api, collector and notification workers","['manifests/agent/notification.pp', 'manifests/api.pp', 'manifests/collector.pp', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_collector_spec.rb']"
+631,3abf7d16d2e11b463d9cc835fe125bb66b98a836,"Merge ""Support of PyMySQL driver for MySQL backend""","['manifests/db.pp', 'manifests/params.pp', 'spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb', 'spec/classes/ceilometer_db_spec.rb']"
+632,dea7649e0cbd19bd72dfef344f26d4ab4c7dcbbc,"Merge ""Configure disable_non_metric_meters for notification agent""","['manifests/agent/notification.pp', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+633,dcfdc059463982615a2d6121cff40e26ad82795b,Update example to deploy Ceilometer with Gnocchi dispatcher,['examples/ceilometer_with_gnocchi.pp']
+634,85c31543b8efd7d37d43d93604ab7ac19f67996c,"Merge ""Remove qpid messaging support""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+635,8c5cfdd2ea0c4ec76b4bd19331fb93c4265d3715,Remove qpid messaging support,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+636,2659b510a432327bc614021f5a5202a168c22215,Configure disable_non_metric_meters for notification agent,"['manifests/agent/notification.pp', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+637,e412a06980002ea9d666f3ff0e84108fc698283e,"Merge ""Remove references to puppet-openstack from README""",['README.md']
+638,ae60c149f299c7e623726906bdc7b25856061233,Support of PyMySQL driver for MySQL backend,"['manifests/db.pp', 'manifests/params.pp', 'spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb', 'spec/classes/ceilometer_db_spec.rb']"
+639,f47c52f26dadc767728ebc8cba5cdfe251d94c2d,Implement Gnocchi dispatcher,"['examples/ceilometer_with_gnocchi.pp', 'manifests/collector.pp', 'manifests/dispatcher/gnocchi.pp', 'spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb', 'spec/classes/ceilometer_collector_spec.rb', 'spec/classes/ceilometer_dispatcher_gnocchi_spec.rb']"
+640,0c31e5e35a0f068b5c099ca54a154ed168590caf,"Merge ""Ceilometer $::os_service_default for db and log""","['manifests/db.pp', 'manifests/logging.pp', 'spec/classes/ceilometer_agent_auth_spec.rb', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_client_spec.rb', 'spec/classes/ceilometer_collector_spec.rb', 'spec/classes/ceilometer_db_mysql_spec.rb', 'spec/classes/ceilometer_db_postgresql_spec.rb', 'spec/classes/ceilometer_db_spec.rb', 'spec/classes/ceilometer_db_sync_spec.rb', 'spec/classes/ceilometer_expirer_spec.rb', 'spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_keystone_auth_spec.rb', 'spec/classes/ceilometer_logging_spec.rb', 'spec/classes/ceilometer_policy_spec.rb', 'spec/classes/ceilometer_wsgi_apache_spec.rb', 'spec/spec_helper.rb']"
+641,403316c2f4cda7b1e1c3364c94e685055b002216,Checkout openstack-integration from master,"['Rakefile', 'spec/spec_helper_acceptance.rb']"
+642,8bc29454c17191f13101aaa59a513046ed732691,release: prepare 7.0.0 (liberty),"['CHANGELOG.md', 'README.md', 'Rakefile', 'metadata.json', 'spec/spec_helper_acceptance.rb']"
+643,6156cb49f29b13321bb719de57e4e4cd08838a3d,Ceilometer $::os_service_default for db and log,"['manifests/db.pp', 'manifests/logging.pp', 'spec/classes/ceilometer_agent_auth_spec.rb', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_client_spec.rb', 'spec/classes/ceilometer_collector_spec.rb', 'spec/classes/ceilometer_db_mysql_spec.rb', 'spec/classes/ceilometer_db_postgresql_spec.rb', 'spec/classes/ceilometer_db_spec.rb', 'spec/classes/ceilometer_db_sync_spec.rb', 'spec/classes/ceilometer_expirer_spec.rb', 'spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_keystone_auth_spec.rb', 'spec/classes/ceilometer_logging_spec.rb', 'spec/classes/ceilometer_policy_spec.rb', 'spec/classes/ceilometer_wsgi_apache_spec.rb', 'spec/spec_helper.rb']"
+644,6add4485c28a039e04433a81739720e5af9c800e,Fix unit tests against Puppet 4.3.0,['spec/classes/ceilometer_api_spec.rb']
+645,977c45534070b7444a09a99c24a7f4aab8cdb41f,Remove references to puppet-openstack from README,['README.md']
+646,9869fbee668d35ff1f1838bec6545b1e13c0bfe3,beaker: some cleanup,['spec/acceptance/ceilometer_wsgi_apache_spec.rb']
+647,683260ce0285a9d81b1e840af55456f2bad98ef2,Acceptance: use common bits from puppet-openstack-integration,"['spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb']"
+648,5fbf51147bbc19ea4a78a12735318f9a1126be41,Remove class_parameter_defaults puppet-lint check,['Rakefile']
+649,49201f9427bb874a3c10107d86616e6520528d41,"Merge ""Bump UCA and RDO to Liberty GA""","['spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb']"
+650,d6572a3c1e5c0bd1e0d92c21b22b819867e91d2e,"Merge ""add mongodb_replica_set option to ceilometer module""","['manifests/db.pp', 'spec/classes/ceilometer_db_spec.rb']"
+651,0705e8ea1e93192668fddc83d8144ac4ea21c4da,Bump UCA and RDO to Liberty GA,"['spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb']"
+652,fa33bb0ad6e2481146d4341725556e6bdab1938b,Allow customization of db sync command line,"['manifests/db/sync.pp', 'spec/classes/ceilometer_db_sync_spec.rb']"
+653,1c651fe9870aaa218c52fc66ab244f009c239a0d,add mongodb_replica_set option to ceilometer module,"['manifests/db.pp', 'spec/classes/ceilometer_db_spec.rb']"
+654,fb936e540962e613a1edc60b0cf2effa1603c62d,Remove deprcated mysql_module,"['manifests/db.pp', 'manifests/db/mysql.pp']"
+655,53d5fbaa18480c8859a3b0152f8649a5cf56d46b,"Merge ""Change section name for AMQP qpid parameters""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+656,12a8eeabea53b04ac3f3b541658dc83f01dc4bbb,Update rspec tests for keystone,['spec/classes/ceilometer_keystone_auth_spec.rb']
+657,677f0fbfc39de4bb8a8c272b2d07d41cfba0636f,Change section name for AMQP qpid parameters,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+658,3c8e0c7294e4e2b43ce05576a94d12da8977f254,"Merge ""db: Use postgresql lib class for psycopg package""","['manifests/db.pp', 'manifests/params.pp', 'spec/classes/ceilometer_db_spec.rb']"
+659,52b83f90c97b9e4a6a5f4e8e802646afb4f47b49,Prepare 6.1.0 release,"['CHANGELOG.md', 'README.md', 'metadata.json']"
+660,0edd1257040a793cc3f16dffd29595f68d69c446,db: Use postgresql lib class for psycopg package,"['manifests/db.pp', 'manifests/params.pp', 'spec/classes/ceilometer_db_spec.rb']"
+661,1d771437ad0e6d8c38cacb5612136cee55ee1190,"Merge ""Update ceilometer::db class to match other module pattern""","['manifests/db.pp', 'spec/classes/ceilometer_db_spec.rb']"
+662,60a2c46196d0fdb4675a7482648a85fc928ca0cf,spec: Enable webmock connect to IPv4 link-local,['spec/classes/ceilometer_collector_spec.rb']
+663,d0bc29d6b04d6a5d416be6b7665627b0080449d3,"Merge ""Put all the logging related parameters to the logging class""","['manifests/init.pp', 'manifests/logging.pp', 'spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_logging_spec.rb']"
+664,dfa1e8c0aff263d6bceb53357fee6f3cbae45c8e,Try to use zuul-cloner to prepare fixtures,"['.fixtures.yml', '.gitignore', 'Gemfile', 'Rakefile']"
+665,183b62b35a32390285c454cc35dbfc7721150944,auth: drop service dependency for Keystone_user_role,['manifests/keystone/auth.pp']
+666,919020ed4c42ef90a7066c9f428dbf1509a7f332,"Merge ""wsgi: make sure eventlet process is stopped before httpd""",['manifests/api.pp']
+667,577593222a31f6948d13f2408a0bab017a0305cd,Put all the logging related parameters to the logging class,"['manifests/init.pp', 'manifests/logging.pp', 'spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_logging_spec.rb']"
+668,b0ee27206d0e0de22986f0cfd266a19937d88b87,wsgi: make sure eventlet process is stopped before httpd,['manifests/api.pp']
+669,492544aa5a5140cfd2b6d83b91106ec70f9ce669,Remove the api service subscription on db sync,['manifests/api.pp']
+670,409e35a77671e3b129ad387f5e03f57cbe91872c,stop managing File resources,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+671,270e800e0d824a2741728d3ad28721b197cb1c6a,"Merge ""Implement auth_endpoint_type parameter""","['manifests/agent/auth.pp', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+672,8ae5373336501a02163004b5c51bf8a2eae1e842,"Merge ""agent/auth: bring consistent how we manage empty parameters""",['manifests/agent/auth.pp']
+673,09b62c5f2a787609c24abe834ee06073a0c92805,"Merge ""rspec: run tests for ::ceilometer::agent::auth""",['spec/classes/ceilometer_agent_auth_spec.rb']
+674,ba9e8fe16ebc7b5b3700f139902c186f88c253b9,"Merge ""compute agent: do not try to configure nova.conf""","['lib/puppet/provider/file_line_after/ruby.rb', 'lib/puppet/type/file_line_after.rb', 'manifests/agent/compute.pp', 'manifests/agent/polling.pp', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+675,22723cce88a65a44afac3065ad800b4c0008f75d,Implement auth_endpoint_type parameter,"['manifests/agent/auth.pp', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+676,31879eeac45e8a24449cd09b085c6f856328ad1e,agent/auth: bring consistent how we manage empty parameters,['manifests/agent/auth.pp']
+677,aab80b7f93e033dae564fb6688440333a96dfc05,rspec: run tests for ::ceilometer::agent::auth,['spec/classes/ceilometer_agent_auth_spec.rb']
+678,44fb7ff3b35d35727eb67314cd7fbca05ede16fa,compute agent: do not try to configure nova.conf,"['lib/puppet/provider/file_line_after/ruby.rb', 'lib/puppet/type/file_line_after.rb', 'manifests/agent/compute.pp', 'manifests/agent/polling.pp', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+679,4d72c6ceec902596586509d77e9cf833c2428803,Update ceilometer::db class to match other module pattern,"['manifests/db.pp', 'spec/classes/ceilometer_db_spec.rb']"
+680,392da101bb9212cc1ae9d5c64f923f14ac9a2b9c,Bump RDO packages to tested repos,"['spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb']"
+681,45f51aee3d5a86ccc93b4c4487ad405667970c4d,"Merge ""Make 'alarm_history_time_to_live' parameter configurable""","['manifests/expirer.pp', 'manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+682,67aa7266e75de57daaa88f1d8b2a6b887c64dfc6,"Merge ""Creation of ceilometer::db::sync""","['manifests/api.pp', 'manifests/collector.pp', 'manifests/db.pp', 'manifests/db/sync.pp', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_collector_spec.rb', 'spec/classes/ceilometer_db_spec.rb', 'spec/classes/ceilometer_db_sync_spec.rb']"
+683,2d669a5d6ed2a51f2f842e165ba50422c4d9954f,Make 'alarm_history_time_to_live' parameter configurable,"['manifests/expirer.pp', 'manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+684,93f2f4a2227fc6a138d2c9e9494d44ab626c4840,"Merge ""acceptance/eventlet: make sure apache is stopped""",['spec/acceptance/ceilometer_with_mysql_spec.rb']
+685,2d6f830e136d9e08a2daf9ec110668a869423715,"Merge ""Disable lint warning check""",['manifests/alarm/evaluator.pp']
+686,7c549514a702a597e2dce944cd146416d176e312,acceptance: bump to Liberty,"['spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb']"
+687,a4a12b2612c1e54579c79fa6faef91b684b9aff1,Disable lint warning check,['manifests/alarm/evaluator.pp']
+688,0fb6851f5fc8a306dc2b850d7336591833f8ad1d,acceptance/eventlet: make sure apache is stopped,['spec/acceptance/ceilometer_with_mysql_spec.rb']
+689,7d20689bbb3857872cd63497ac45d523ed775d0d,"Merge ""Reflect provider change in puppet-openstacklib""","['README.md', 'lib/puppet/provider/ceilometer_config/ini_setting.rb', 'lib/puppet/type/ceilometer_config.rb', 'spec/unit/provider/ceilometer_config/ini_setting_spec.rb']"
+690,f167c7a3a95190efeb2533aeeee237de1ecaa0aa,"Merge ""Initial msync run for all Puppet OpenStack modules""","['.gitignore', 'Gemfile', 'Rakefile', 'spec/acceptance/nodesets/centos-70-x64.yml', 'spec/acceptance/nodesets/default.yml', 'spec/acceptance/nodesets/nodepool-centos7.yml', 'spec/acceptance/nodesets/nodepool-trusty.yml', 'spec/acceptance/nodesets/ubuntu-server-1404-x64.yml', 'spec/spec_helper.rb']"
+691,05c5ec1605769579d6f6caeb91cd850da895a730,Reflect provider change in puppet-openstacklib,"['README.md', 'lib/puppet/provider/ceilometer_config/ini_setting.rb', 'lib/puppet/type/ceilometer_config.rb', 'spec/unit/provider/ceilometer_config/ini_setting_spec.rb']"
+692,212630d4f20ef897ba43006408ae7fd90da91a3f,acceptance: enable debug & verbosity for OpenStack logs,['spec/acceptance/ceilometer_with_mysql_spec.rb']
+693,4ff5f42a759c45834ade52bf3aacfe1047c0689f,"Merge ""wsgi: fix typos in comments""","['manifests/api.pp', 'manifests/wsgi/apache.pp']"
+694,7b920066e1aeb7f4201bb74ecf4c31f1efb9cafe,Creation of ceilometer::db::sync,"['manifests/api.pp', 'manifests/collector.pp', 'manifests/db.pp', 'manifests/db/sync.pp', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_collector_spec.rb', 'spec/classes/ceilometer_db_spec.rb', 'spec/classes/ceilometer_db_sync_spec.rb']"
+695,fe4eb1f5efcc6af093663efaa9d3ea7eff8f5ea0,"Merge ""acceptance: bump to Liberty release""",['spec/acceptance/ceilometer_with_mysql_spec.rb']
+696,a0fe2020da5cedcbed87bfbc4ffba6f527047c84,wsgi: fix typos in comments,"['manifests/api.pp', 'manifests/wsgi/apache.pp']"
+697,257a60ce79f00f96239d06d84c9660f14a31bd68,"WSGI: make it work, and test it with acceptance","['manifests/api.pp', 'manifests/params.pp', 'spec/acceptance/ceilometer_wsgi_apache_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+698,6114cbf65fecd62cc905275de8c6f56fafecde20,"Merge ""Rely on autorequire for config resource ordering""","['lib/puppet/type/ceilometer_config.rb', 'manifests/api.pp', 'manifests/init.pp', 'spec/unit/type/ceilometer_config_spec.rb']"
+699,5100d55cd2597575c714b5761fdde90b65384f22,"Merge ""acceptance: clean an old FIXME in manifest""",['spec/acceptance/ceilometer_with_mysql_spec.rb']
+700,e729f2d91177a64db52476b4e3b3c2d361b1cf47,Rely on autorequire for config resource ordering,"['lib/puppet/type/ceilometer_config.rb', 'manifests/api.pp', 'manifests/init.pp', 'spec/unit/type/ceilometer_config_spec.rb']"
+701,47e61845e42ff3f67acaf973a7f6eb5fb3e489aa,"Merge ""Add an ability to manage use_stderr parameter""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+702,b8424f9ffd978ba7b5406d0cc9d9c23308e4217d,Use openstack/ namespace for fixtures modules,['.fixtures.yml']
+703,985c48951b42810cbfcf3a077c8773a8787fa6d2,Add an ability to manage use_stderr parameter,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+704,3dbe940b19d9541b1964f9cba62d1f4369590b99,acceptance: bump to Liberty release,['spec/acceptance/ceilometer_with_mysql_spec.rb']
+705,6d461c803bb86c2fc224a61ba8e9138a2019d319,"Merge ""Add ability to specify ttl and timeout parameters""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+706,93575b1639fc8a465065c6d78d4e514612edbd39,Initial msync run for all Puppet OpenStack modules,"['.gitignore', 'Gemfile', 'Rakefile', 'spec/acceptance/nodesets/centos-70-x64.yml', 'spec/acceptance/nodesets/default.yml', 'spec/acceptance/nodesets/nodepool-centos7.yml', 'spec/acceptance/nodesets/nodepool-trusty.yml', 'spec/acceptance/nodesets/ubuntu-server-1404-x64.yml', 'spec/spec_helper.rb']"
+707,def35c7fd5278ab1da23ec5f8f090de4a51a0629,acceptance: clean an old FIXME in manifest,['spec/acceptance/ceilometer_with_mysql_spec.rb']
+708,2ff489103bf401983c27aa6523c01bbd950c768f,Add ability to specify ttl and timeout parameters,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+709,9529fd4e831cb9f3f37a26435bd33d8fab7521c5,Update Setup in Ceilometer README,['README.md']
+710,cf846dc5324f023a19eddc7ea292895b9a747a8b,Enable support for memcached_servers,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+711,dcc71c619c53db1fa24314c5214abd792ad633e2,"Merge ""Add tag to package and service resources""","['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/agent/polling.pp', 'manifests/api.pp', 'manifests/init.pp', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_init_spec.rb']"
+712,635459c52997ef103f8fc0c11a0e6d841ad7ce41,"Merge ""fix module install reference""",['README.md']
+713,a5353006efee3b3af38b161c9e9c5f79ce93f4b0,Add tag to package and service resources,"['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/agent/polling.pp', 'manifests/api.pp', 'manifests/init.pp', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_init_spec.rb']"
+714,9b60f6661ffdbfe3273e509762102f05ce1c556d,"Merge ""Fix rspec 3.x syntax""",['spec/acceptance/ceilometer_with_mysql_spec.rb']
+715,488599fee83dea47082c6c06ce91d5c3a1438720,Fix rspec 3.x syntax,['spec/acceptance/ceilometer_with_mysql_spec.rb']
+716,071c2349477a4191a57154e2138971502982b266,"Merge ""keystone/auth: make service description configurable""",['manifests/keystone/auth.pp']
+717,c69508b6f20d092d950e0ccdba9842b1a845e65a,fix module install reference,['README.md']
+718,56cacb4a65ffa1bd795cbdbffef4c2071a54a411,Simplify parameters for rpc_backend,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+719,58afd380d1e043f1dd566c942e6dca26cf8e8b38,"Merge ""Add support for RabbitMQ connection heartbeat""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+720,dbc5354b454e429520c8a471e04cb9dd2ad4936f,"Merge ""Prepare 6.0.0 release""","['CHANGELOG.md', 'README.md', 'metadata.json']"
+721,8860f2d5ac1f6d5a4ace552f71dce3630ba46a75,Prepare 6.0.0 release,"['CHANGELOG.md', 'README.md', 'metadata.json']"
+722,f17b3442402529281bdca9b2f70697e04bcfe216,Fix git clone for locally running tests,['spec/spec_helper_acceptance.rb']
+723,6f5f5b04c49d3c55cb56e6949a01d107787294d2,Correct `puppet module list` check in beaker,['spec/spec_helper_acceptance.rb']
+724,643469f5caeb00309b5f08ca67dded8cd1eb4094,Use module install script for acceptance tests,['spec/spec_helper_acceptance.rb']
+725,f9cd34f8a7457e05f28caeb9e1ba637f1a174b59,Add support for RabbitMQ connection heartbeat,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+726,bf194d2f7593d769ea442959b90ec972cfb01c87,Use beaker-puppet_install_helper to install puppet,"['Gemfile', 'spec/spec_helper_acceptance.rb']"
+727,b28de45c2bf497eb202728f9cd3ecbf4fa7ec1e6,acceptance: install latest openstack-selinux,['spec/acceptance/ceilometer_with_mysql_spec.rb']
+728,b68ddc6ae50745248e31715c13828394d57bbc24,"Merge ""make crontab for expirer optional""","['manifests/expirer.pp', 'spec/classes/ceilometer_expirer_spec.rb']"
+729,f612d92bfb88bede54d9d2f44ae8686b0d0a5dc8,make crontab for expirer optional,"['manifests/expirer.pp', 'spec/classes/ceilometer_expirer_spec.rb']"
+730,64face889082c4bd26bdd53377df62e57130bd61,Remove Contact info from README,['README.md']
+731,e09c79a36bcd885c4d47f5f1402287600bcb1d4c,"Merge ""Remove license from README""",['README.md']
+732,1724fb649f8e0fb10b1f34407e107c7604f33d11,"Merge ""Split release notes into a CHANGELOG.md file""","['CHANGELOG.md', 'README.md']"
+733,c363162560f7907c3b073d1d42db945221772323,"Merge ""Update README.md for project namespace change""",['README.md']
+734,a272dd3225767b3bd2a6609e8474f0ddf06dac36,"Merge ""Correct the name of the auth param deprecation msg""",['manifests/api.pp']
+735,deb0972d840d7a2a465a34b2b2183b347a586c4a,Remove license from README,['README.md']
+736,d6369ecccfbaed99049ea64bf42dc6c2a63f6b10,Split release notes into a CHANGELOG.md file,"['CHANGELOG.md', 'README.md']"
+737,cef8078534bd0df26916149c04b2abfada73b1d2,acceptance: install RDO repo the right way,['spec/acceptance/ceilometer_with_mysql_spec.rb']
+738,e4e4d71b682118b9c4f6d4f491e1c2e32b7178ad,Fix Beaker CI according recent puppetlabs-rabbitmq change.,['spec/acceptance/ceilometer_with_mysql_spec.rb']
+739,e7dfcc85deee36633e8cdfeea1fc8707c3690019,keystone/auth: make service description configurable,['manifests/keystone/auth.pp']
+740,29aa27d4f59e0eb208c1aea3feb1cd1ef3d43379,Update README.md for project namespace change,['README.md']
+741,ff77b8736b78236f1ef02aba037730d774e28241,Correct the name of the auth param deprecation msg,['manifests/api.pp']
+742,4d18c07eed8153e1f688619f9ae306a45de756fc,Release 5.1.0 - Juno,"['README.md', 'metadata.json']"
+743,c433a111bc03fa00ba3a21af4e73955e9014fc3d,"Merge ""Deprecate old public, internal and admin parameters""","['manifests/keystone/auth.pp', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+744,17e580e68969e5bff9525b07cc0aed43b4af3983,"Merge ""Update spec_helper_acceptance for project renames""",['spec/spec_helper_acceptance.rb']
+745,79f35ad8522fe831ca0a998f8831dfd65db538b0,Update spec_helper_acceptance for project renames,['spec/spec_helper_acceptance.rb']
+746,2bb88c9e504df19d61c6d272e3658cc47532e686,Update .gitreview file for project rename,['.gitreview']
+747,e984d28464487d8fc53df6f7424fda36aa505266,"Deprecate old public, internal and admin parameters","['manifests/keystone/auth.pp', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+748,430f4f4f72da5bcd401d190876bf04830e0a8e16,"Merge ""Unpin beaker-rspec""","['Gemfile', 'spec/acceptance/nodesets/nodepool-centos7.yml', 'spec/acceptance/nodesets/nodepool-trusty.yml']"
+749,ff9913826b6bf13dba755e578f647e1f76d7c703,Unpin beaker-rspec,"['Gemfile', 'spec/acceptance/nodesets/nodepool-centos7.yml', 'spec/acceptance/nodesets/nodepool-trusty.yml']"
+750,208cee770447b06add82707d28ed616794b1d759,Move rabbit/kombu settings to oslo_messaging_rabbit section,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+751,264ea1b19155bb2f34a95858b18442c14504ddf2,Fix dependency on nova-common package,"['manifests/agent/compute.pp', 'manifests/agent/polling.pp']"
+752,c6f69adf40a95595c362c3cce0bae700ec223b85,"Merge ""acceptance: don't install erlang on RHEL""","['spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/spec_helper_acceptance.rb']"
+753,78a6b698922e91a8c2b45e363e90978b97e513ee,"Merge ""Fix spec tests for RSpec 3.x and Puppet 4.x""","['spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb', 'spec/classes/ceilometer_collector_spec.rb']"
+754,67a7a61ea085ca9888beae2b08c0a45caa82e4a9,acceptance: don't install erlang on RHEL,"['spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/spec_helper_acceptance.rb']"
+755,b4089b1608912f4c917d6ea34593444d76537745,Fix spec tests for RSpec 3.x and Puppet 4.x,"['spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb', 'spec/classes/ceilometer_collector_spec.rb']"
+756,c2e9179394077e838b50fbe501f181fe04729010,Bring Redhat support to acceptance tests,"['Gemfile', 'spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/acceptance/nodesets/nodepool-centos7.yml', 'spec/acceptance/nodesets/nodepool-trusty.yml', 'spec/spec_helper_acceptance.rb']"
+757,f226cc364302694c41aa5705dcec73d2b39d412e,Beaker: install APT repo with openstack_extras,"['spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/spec_helper_acceptance.rb']"
+758,69af03e1665e5eca2ef988ccaacf3623f7ace2af,"Merge ""Ensure python-mysqldb is installed  before MySQL db_sync""",['manifests/db.pp']
+759,c314b89ed12fda413abe7d88f3ca3bea75d54196,"Merge ""Beaker tests""","['Gemfile', 'README.md', 'spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/acceptance/nodesets/default.yml', 'spec/acceptance/nodesets/nodepool.yml', 'spec/spec_helper_acceptance.rb']"
+760,716ef623ba905945b71c0920ab9328e3df1184f6,Beaker tests,"['Gemfile', 'README.md', 'spec/acceptance/ceilometer_with_mysql_spec.rb', 'spec/acceptance/nodesets/default.yml', 'spec/acceptance/nodesets/nodepool.yml', 'spec/spec_helper_acceptance.rb']"
+761,4cc03d183c753f7fcbb9560cfcd80fe8e5f5db45,Ensure python-mysqldb is installed  before MySQL db_sync,['manifests/db.pp']
+762,b22ed8d032850aea3d721557bc12c51d16846197,Bump rspec-puppet to 2.1.0,['Gemfile']
+763,441fe25bfe6b3992436fef9f5691fecce08a51e1,MySQL: change default MySQL collate to utf8_general_ci,"['manifests/db/mysql.pp', 'spec/classes/ceilometer_db_mysql_spec.rb']"
+764,e87b29e6efa1ee37bd80b49624e75ea98d123cbb,"Merge ""Synchronize LICENSE file with OpenStack projects""",['LICENSE']
+765,fae87c07a6bc0b8b66651147405c4310ab528a74,Synchronize LICENSE file with OpenStack projects,['LICENSE']
+766,0ec70ff60f620a1af29ae64a646ee7e5ad98ebb9,spec: Add Unit Tests for Ceilometer_config type/provider,"['spec/unit/provider/ceilometer_config/ini_setting_spec.rb', 'spec/unit/type/ceilometer_config_spec.rb']"
+767,2b3a328ea6776a74e1335c7d800763420b403916,Pin puppetlabs-concat to 1.2.1 in fixtures,['.fixtures.yml']
+768,1c3a3aedddcd8f923bf00763b269b1f8e643b1a1,"Merge ""Add udp_address/udp_port parameters for collector.""","['manifests/collector.pp', 'spec/classes/ceilometer_collector_spec.rb']"
+769,2405adff7d8b08681ed0d97ca5391be5404c5fd2,Add udp_address/udp_port parameters for collector.,"['manifests/collector.pp', 'spec/classes/ceilometer_collector_spec.rb']"
+770,90446142d9b5e1e0c21e98434e5ff0515a2782ad,Fix some missing rspec3 keywords,"['spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_api_spec.rb']"
+771,8d17c36818d99231a64d20f50ea708d59306fe22,Tag all Ceilometer packages,"['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/agent/notification.pp', 'manifests/agent/polling.pp', 'manifests/alarm/evaluator.pp', 'manifests/alarm/notifier.pp', 'manifests/api.pp', 'manifests/client.pp', 'manifests/db.pp', 'manifests/init.pp', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_agent_polling_spec.rb', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_client_spec.rb', 'spec/classes/ceilometer_db_spec.rb', 'spec/classes/ceilometer_init_spec.rb']"
+772,b2e352b9c1e6f20f0c86d31598e67c125bfc1b40,"Merge ""Add Puppet 4.x lint checks""","['Gemfile', 'Rakefile', 'examples/site.pp', 'manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/agent/notification.pp', 'manifests/agent/polling.pp', 'manifests/alarm/evaluator.pp', 'manifests/alarm/notifier.pp', 'manifests/api.pp', 'manifests/client.pp', 'manifests/collector.pp', 'manifests/db.pp', 'manifests/expirer.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/wsgi/apache.pp']"
+773,adca294785c80d207af8cadba30069ac7b68c28f,"Merge ""spec: updates for rspec-puppet 2.x and rspec 3.x""","['Gemfile', 'spec/classes/ceilometer_agent_auth_spec.rb', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_client_spec.rb', 'spec/classes/ceilometer_collector_spec.rb', 'spec/classes/ceilometer_config_spec.rb', 'spec/classes/ceilometer_db_mysql_spec.rb', 'spec/classes/ceilometer_db_postgresql_spec.rb', 'spec/classes/ceilometer_db_spec.rb', 'spec/classes/ceilometer_expirer_spec.rb', 'spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_keystone_auth_spec.rb', 'spec/classes/ceilometer_logging_spec.rb', 'spec/classes/ceilometer_policy_spec.rb', 'spec/classes/ceilometer_wsgi_apache_spec.rb', 'spec/shared_examples.rb']"
+774,70faac7cfe4dafedea034dab81a32c758a524b61,Add support for identity_uri.,"['manifests/api.pp', 'spec/classes/ceilometer_api_spec.rb']"
+775,565c78cc7faf636fb1f224a295c6c0c907dbc22a,Add Puppet 4.x lint checks,"['Gemfile', 'Rakefile', 'examples/site.pp', 'manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/agent/notification.pp', 'manifests/agent/polling.pp', 'manifests/alarm/evaluator.pp', 'manifests/alarm/notifier.pp', 'manifests/api.pp', 'manifests/client.pp', 'manifests/collector.pp', 'manifests/db.pp', 'manifests/expirer.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/wsgi/apache.pp']"
+776,55b7aad8cf0c902cd1469da8547f24e856b06de4,spec: updates for rspec-puppet 2.x and rspec 3.x,"['Gemfile', 'spec/classes/ceilometer_agent_auth_spec.rb', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_client_spec.rb', 'spec/classes/ceilometer_collector_spec.rb', 'spec/classes/ceilometer_config_spec.rb', 'spec/classes/ceilometer_db_mysql_spec.rb', 'spec/classes/ceilometer_db_postgresql_spec.rb', 'spec/classes/ceilometer_db_spec.rb', 'spec/classes/ceilometer_expirer_spec.rb', 'spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_keystone_auth_spec.rb', 'spec/classes/ceilometer_logging_spec.rb', 'spec/classes/ceilometer_policy_spec.rb', 'spec/classes/ceilometer_wsgi_apache_spec.rb', 'spec/shared_examples.rb']"
+777,85c742cd830a16a597b81816215ca387d12a9d54,Add support for ceilometer-polling agent,"['examples/site.pp', 'manifests/agent/compute.pp', 'manifests/agent/polling.pp', 'manifests/params.pp', 'spec/classes/ceilometer_agent_polling_spec.rb']"
+778,bc443c3248ec755539ab6e1d0a8b069057a0fdd1,"Fix lint issues (doc, metadata, manifests)","['Gemfile', 'manifests/api.pp', 'manifests/init.pp', 'manifests/wsgi/apache.pp', 'metadata.json']"
+779,71f27f1a49d04f13cf950871946b2da8240c54fc,spec: pin rspec-puppet to 1.0.1,['Gemfile']
+780,8f9fee1f28fd6af6a4bf1d110329d61730a305ae,"Merge ""Deprecate support for Fedora 18""","['manifests/params.pp', 'spec/classes/ceilometer_db_spec.rb']"
+781,1399ddcb7ebe9f7a5088e3f874a9516cd8d97083,"Merge ""Switch to TLSv1 as SSLv3 is considered insecure and is disabled by default""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+782,a0b8d10f2628bd0212d3de54e7ebf7a05f0c8333,Deprecate support for Fedora 18,"['manifests/params.pp', 'spec/classes/ceilometer_db_spec.rb']"
+783,90247cf8cd0eac760d5b8eb986ceacf0db3fcc7f,Switch to TLSv1 as SSLv3 is considered insecure and is disabled by default,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+784,c22f8578ff868a3fae6a7b56480cb7b10b34bfbe,"Merge ""Implement Ceilometer-API as a WSGI process support""","['.fixtures.yml', 'manifests/params.pp', 'manifests/wsgi/apache.pp', 'metadata.json', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+785,13970d78a325a12e6bebabf9baa67b1eb5cac4ac,"Merge ""fixtures: Unpin puppetlabs-mysql module""",['.fixtures.yml']
+786,8b73d27c7555523cf08b1c406b589cc9336630a6,"Merge ""db: Added postgresql backend using openstacklib helper""","['.fixtures.yml', 'manifests/db/postgresql.pp', 'spec/classes/ceilometer_db_postgresql_spec.rb']"
+787,a3fbf2e8cb9ef76d2ee960cc8087c62736f7de6c,Implement Ceilometer-API as a WSGI process support,"['.fixtures.yml', 'manifests/params.pp', 'manifests/wsgi/apache.pp', 'metadata.json', 'spec/classes/ceilometer_wsgi_apache_spec.rb']"
+788,9edcfeeeab683c7159441a1534046afcba3d89f7,Fix syntax error with postgresql database string,['manifests/db.pp']
+789,a4cac0d56bf2d29a137cc264071b0a20949be6a9,db: Added postgresql backend using openstacklib helper,"['.fixtures.yml', 'manifests/db/postgresql.pp', 'spec/classes/ceilometer_db_postgresql_spec.rb']"
+790,65b41c84b71f5383e631dbc40dbfdaa302cf09d4,fixtures: Unpin puppetlabs-mysql module,['.fixtures.yml']
+791,a83673c3bae7d560680cb77f2a2cc8c998fac2b7,crontab: ensure the script is run with shell,"['manifests/expirer.pp', 'spec/classes/ceilometer_expirer_spec.rb']"
+792,c609affc2c5f0591bf9cffb06b6a4eee1d3b2610,"Merge ""Refactorise Keystone resources management""",['manifests/keystone/auth.pp']
+793,64d872cdef84867728087609996e5d9993398416,"Merge ""Add support for configuring coordination/backend_url""","['manifests/agent/central.pp', 'manifests/alarm/evaluator.pp', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_alarm_evaluator_spec.rb']"
+794,866208cece1c2bb99f5752e1cb64174c36c05b45,Clean up stray copy-paste error,['README.md']
+795,741e89ae5b59e6284d677dd1c3cdf4154902a378,Release 5.0.0 - Juno,['README.md']
+796,c0318f0e1b86fa5d6f40942fd1b9a1f6842a5c60,Refactorise Keystone resources management,['manifests/keystone/auth.pp']
+797,fade72deab0c52f7ea71b2891acb3785e1682a6b,Add support for configuring coordination/backend_url,"['manifests/agent/central.pp', 'manifests/alarm/evaluator.pp', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_alarm_evaluator_spec.rb']"
+798,1d78470e5023e2ca6adef47c904d14d046dd87d1,policy.pp : Fix duplicate ressource issue openstacklib::policy,"['manifests/policy.pp', 'spec/classes/ceilometer_policy_spec.rb']"
+799,c0bf61c0d70a04f77b9c7fdf2211bf36bda12a78,"Merge ""Added metadata lint and puppet-syntax gems""","['Gemfile', 'Rakefile']"
+800,d2615c9e0ad33a6d51652f6e17e047420c3cc01e,"Merge ""policy.json: Allow one to manage them from the puppet module""","['manifests/api.pp', 'manifests/policy.pp', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_policy_spec.rb']"
+801,94825922a040c6e8d9feb6da0643837bef816129,Added metadata lint and puppet-syntax gems,"['Gemfile', 'Rakefile']"
+802,2743465bdcc51a5fe17320abbb365302f598bf5f,Add package_ensure where missing,"['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/agent/notification.pp', 'manifests/api.pp', 'manifests/collector.pp', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_collector_spec.rb']"
+803,d077ad297e7686574653d430c834bb16f4920f88,policy.json: Allow one to manage them from the puppet module,"['manifests/api.pp', 'manifests/policy.pp', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_policy_spec.rb']"
+804,065a353aae3fb869395908289be5d61840d5d38b,Switch to metadata.json for Puppet forge releases,"['Modulefile', 'metadata.json']"
+805,7792885d365306f04260f4e736eb3a2fca4e6a35,"Merge ""Stringify $evaluation_interval for validate_re call""","['Rakefile', 'manifests/alarm/evaluator.pp']"
+806,08fc9d9159cd9eb0830d550abb1058bc2b9b5759,Ensure nova-common is installed before ceilometer,"['manifests/agent/compute.pp', 'spec/classes/ceilometer_agent_compute_spec.rb']"
+807,6e907487951a05e10319f72d11d313e18e21bb2b,"Merge ""Make user creation optional when creating service.""","['manifests/keystone/auth.pp', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+808,7e512f84c64ae633cf0e3aab0c6849990750f8d7,"Merge ""Add manage_service feature""","['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/agent/notification.pp', 'manifests/alarm/evaluator.pp', 'manifests/alarm/notifier.pp', 'manifests/api.pp', 'manifests/collector.pp', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_collector_spec.rb']"
+809,a4f20d069ef002fe22b51cd954fec196954caa89,Stringify $evaluation_interval for validate_re call,"['Rakefile', 'manifests/alarm/evaluator.pp']"
+810,b9dd42dc26d89091e3a19b5fc780714a692b0b56,Update stdlib dependency to 4.x,['Modulefile']
+811,10d38bd8191fc82f4087731ea6932583dd66db8d,Add manage_service feature,"['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/agent/notification.pp', 'manifests/alarm/evaluator.pp', 'manifests/alarm/notifier.pp', 'manifests/api.pp', 'manifests/collector.pp', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_collector_spec.rb']"
+812,7719ceaff07b933006b34aa04e568b4db206bea1,Make user creation optional when creating service.,"['manifests/keystone/auth.pp', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+813,957c2120d0ee0b9db08bfddcce996686ba61d97d,Makes kombu_ssl_* parameters optional when rabbit_use_ssl => true,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+814,61ace074e3b18db487547f93b1125f72c2677219,"Merge ""Adds ability to override service name for service catalog""","['manifests/keystone/auth.pp', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+815,3cd65743e1c294e0494f1888b7f2f63cbcd6c8df,"Merge ""Migrate mysql backend to use openstacklib::db::mysql""","['.fixtures.yml', 'Modulefile', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp', 'spec/classes/ceilometer_db_mysql_spec.rb']"
+816,ed031af7bf3a6dd4f883f9dba37f85fae91a25bf,Adds ability to override service name for service catalog,"['manifests/keystone/auth.pp', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+817,078deea6169bb148e3d31743c2060a19f20e0fcc,Add extended logging options.,"['manifests/logging.pp', 'spec/classes/ceilometer_logging_spec.rb']"
+818,15ab1a6e27f27bd973971efd71d3c8c47ad9a4cf,Migrate mysql backend to use openstacklib::db::mysql,"['.fixtures.yml', 'Modulefile', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp', 'spec/classes/ceilometer_db_mysql_spec.rb']"
+819,3c38c6522de80d53a8b0b7d0621f222c12928295,Fix ceilometer agent notification package error,"['manifests/params.pp', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+820,8c9f4fcd53e4ef0fb7694de6dce6e001c7e8cf7d,Add ability to disable ceilometer-collector without db,"['manifests/collector.pp', 'spec/classes/ceilometer_collector_spec.rb']"
+821,e3ffea2b032f0694db36c34808e634c487054e4f,"Merge ""Use 2.2 as the default mysql_module""","['.fixtures.yml', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp']"
+822,0d0eda813ecc7968570bc6652815e9f1a3622b55,Use 2.2 as the default mysql_module,"['.fixtures.yml', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp']"
+823,ca726ae16daa8574df1c4d2b214d510d3dd44d3a,Remove deprecation notice for sectionless ceilometer_config,['lib/puppet/type/ceilometer_config.rb']
+824,cca209f8b1fb37c611194030ba0701ab2a4134aa,Fixes Facts string comparisons in CentOS 7,['spec/classes/ceilometer_agent_notification_spec.rb']
+825,1519895776ac310dec33eba79fd906da5bdb41f1,Make Modulefile summary and description consistent,['Modulefile']
+826,bea7794633943e454fe3e99ee119298c3d0000ff,Normalize Gemfile & pin tests to rspec < 2.99,['Gemfile']
+827,b10f1af5b0576ad6926d6dbd5e5a0e4a8eab32d4,Hide secrets from puppet logs,"['lib/puppet/type/ceilometer_config.rb', 'manifests/agent/auth.pp', 'manifests/api.pp', 'manifests/db.pp', 'manifests/init.pp', 'spec/classes/ceilometer_agent_auth_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_db_spec.rb', 'spec/classes/ceilometer_init_spec.rb']"
+828,c2f41fb1eb776bcfdaab79c120ac509a861d0828,"Merge ""Fixes agent_notification_service_name""","['manifests/params.pp', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+829,00bfaa1fa4709cec6a03e2772445dc8f27a89224,Fixes agent_notification_service_name,"['manifests/params.pp', 'spec/classes/ceilometer_agent_notification_spec.rb']"
+830,166b00a773bb2830175bd61a451294d757453eb3,Default to utf8 for MySQL,"['manifests/db/mysql.pp', 'spec/classes/ceilometer_db_mysql_spec.rb']"
+831,55cbdace1730a3cb0af780ab9f7be703ac873eab,Fail when ssl parameters are missing and rabbit_use_ssl is set to true,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+832,9ec5122f6d9c1168f9edb077b629d0722ee6c86c,Implement rspec function it_raises,"['spec/shared_examples.rb', 'spec/spec_helper.rb']"
+833,fe9e463fa7d9b74d91c95f0f95140f4894e57020,notification agent: fix dependency cycle,['manifests/agent/notification.pp']
+834,b231c9681d476a05f437f828b95870ab4cbc4327,"Merge ""Add RabbitMQ SSL support""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+835,615b6463ba04af34b810a358e106da25f208b080,ensure_packages needs array in agent::notification,['manifests/agent/notification.pp']
+836,76423fd42a1136279ab2aa51f53adbee477062b0,Add RabbitMQ SSL support,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+837,a914270e284e050f0d1ce94b646c9e742f28c059,4.0.0 - 2014.1.0 - Icehouse Release,"['Modulefile', 'README.md']"
+838,1e7d4c298b3685cae5957067b48646e513f7da00,"Merge ""Introduce ceilometer:config to manage custom options""","['manifests/config.pp', 'spec/classes/ceilometer_config_spec.rb']"
+839,c9cadc53529ffc2028929292d1ce496b1a2777d2,Introduce ceilometer:config to manage custom options,"['manifests/config.pp', 'spec/classes/ceilometer_config_spec.rb']"
+840,f444fc8937a6bc05d0257c1a935e742491e94b02,Add table to mysql_grant call,['manifests/db/mysql/host_access.pp']
+841,bea61ade60e87375c44d242ae196292776332d6c,Remove duplicate instance_usage_audit,"['manifests/agent/compute.pp', 'spec/classes/ceilometer_agent_compute_spec.rb']"
+842,9bd58d7434a9981e910f407feb36f330084d57dd,"Merge ""Updated to match semver and release notes.""","['Modulefile', 'README', 'README.md']"
+843,ca454601ac30c34ca0b0f3007fc04651d3737a12,Updated to match semver and release notes.,"['Modulefile', 'README', 'README.md']"
+844,a43938f7909b149b1b3a50140c154127259fcaec,Fixed gate by Updating Gemfile to pin Rake to 10.1.1,['Gemfile']
+845,ec68e990d469924a05567bdbf988f53468638698,"Merge ""Add support for puppetlabs-mysql 2.2""","['README', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp', 'spec/classes/ceilometer_db_mysql_spec.rb']"
+846,2eb91872c2d8bd7f08878f4e941d2136767a1d6a,"Merge ""Fix ensure_packages error""",['manifests/collector.pp']
+847,8bf875843ef1e22e56d7d84f53856f477a794bc9,"Merge ""Changes file_path to self.file_path""",['lib/puppet/provider/ceilometer_config/ini_setting.rb']
+848,addaf5179d228fa571fdcb0e5017c99a4727bb2a,Add support for puppetlabs-mysql 2.2,"['README', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp', 'spec/classes/ceilometer_db_mysql_spec.rb']"
+849,555df8b3a9b4ea12398bef21aa8d986fdbc2faa6,Fix ensure_packages error,['manifests/collector.pp']
+850,18f6a9d164c53e955a34efc5a3c19ebc37ef8492,Fix region name configuration,"['manifests/agent/auth.pp', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+851,a3b1417a61ffefbb990339a66d14b85111bccfb0,"Merge ""Implement notification agent service""","['examples/site.pp', 'manifests/agent/notification.pp', 'manifests/collector.pp', 'manifests/params.pp', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_collector_spec.rb']"
+852,2d9a4b5c9d6e5496b13c629a02a0c3553faa01a1,"Merge ""Move service polling credentials to service_credentials""","['manifests/agent/auth.pp', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+853,160b5ed239e996e6c18de3f6158c8b0a4e66c175,Move service polling credentials to service_credentials,"['manifests/agent/auth.pp', 'spec/classes/ceilometer_agent_auth_spec.rb']"
+854,db81d776f1e0b3e7ecbb8ae98d74e55e6d773bb1,Implement notification agent service,"['examples/site.pp', 'manifests/agent/notification.pp', 'manifests/collector.pp', 'manifests/params.pp', 'spec/classes/ceilometer_agent_notification_spec.rb', 'spec/classes/ceilometer_collector_spec.rb']"
+855,da165d422a3e5deef9af20d22f5fc33deff7d58a,Add ability to override notification_topics,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+856,a86e117b1b04603b61eb9ed70fb5c3b95f3a8b20,"Merge ""Do not enforce glance_control_exchange""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+857,e6c191194312935ea01c97ae667bf3ea1a912f81,Define $user referenced in db.pp,"['manifests/db.pp', 'manifests/params.pp', 'spec/classes/ceilometer_db_spec.rb']"
+858,1aa1d795f0c06bb5266886b8599814e61fbef3f3,Allow db fields configuration without doing the dbsync,"['manifests/db.pp', 'spec/classes/ceilometer_db_spec.rb']"
+859,2b35c1a04ce6f28f700971c31d18af88b65a089e,Allow log_dir to be set to false in order to disable file logging,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+860,44d9f8f991f96fc6916d562a16b9b13e57f04c0c,Changes file_path to self.file_path,['lib/puppet/provider/ceilometer_config/ini_setting.rb']
+861,499670d585de20aed825033faa26bba9d9433e50,"Merge ""Remove glance_notifications from notification_topic""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+862,9ad19cb58566312a72a1438c7d373db073afe9d0,"Merge ""Move metering_secret to publisher section""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+863,a46bbc4c5179d4988f4beec0fc548c91300008a2,Don't match commented [DEFAULT],['manifests/agent/compute.pp']
+864,85d46894cca6ba80e8cb57243dde57e44cffa443,Do not enforce glance_control_exchange,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+865,924f18ffae174847d4c3d5ec5d5ae4241c9dd897,Remove glance_notifications from notification_topic,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+866,89c9ea591e842da59d0ebbde2a9ea7137eae396f,Move metering_secret to publisher section,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+867,3685997f0ed4a88d0ccacd0415b210a948c66910,Remove log_dir from params and make logs configurable in init,"['manifests/init.pp', 'manifests/params.pp', 'spec/classes/ceilometer_init_spec.rb']"
+868,f2cd6ac8595552e890d4a9bdbb2196eba2dc4d5f,"Merge ""Fix package ceilometer-alarm type error on Debian""","['manifests/alarm/evaluator.pp', 'manifests/alarm/notifier.pp', 'manifests/params.pp', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb']"
+869,25763e827586ff8658f6a8e65d302e15cdcdea82,"Merge ""Only add ceilometer user to nova group if using compute agent""","['manifests/agent/compute.pp', 'manifests/init.pp', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_init_spec.rb']"
+870,49f814a58cc7594584673564ce56996e34cc09ac,Fixed mysql dependency to match other modules,"['.fixtures.yml', 'Modulefile']"
+871,d064997cd4c50d9b5365fe2ffca60e14a86b08e1,Only add ceilometer user to nova group if using compute agent,"['manifests/agent/compute.pp', 'manifests/init.pp', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_init_spec.rb']"
+872,5bc33119dfc2adb8abdd0c475422d0e8559513c1,Fix package ceilometer-alarm type error on Debian,"['manifests/alarm/evaluator.pp', 'manifests/alarm/notifier.pp', 'manifests/params.pp', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb']"
+873,f8eea90cd9f1652ba927bfcc9bf8234af8983c11,Add API binding options,"['manifests/api.pp', 'spec/classes/ceilometer_api_spec.rb']"
+874,b3e43a467959318d48ea63de0f63b33dced832d9,"Merge ""Add Gemfile.lock to gitignore""",['.gitignore']
+875,8e988bb066e59b0bf4098c0609df9cbb28dd3206,Add Gemfile.lock to gitignore,['.gitignore']
+876,f745cf634fa2cf9889a2ef03ee9de3a3d0d1045b,Remove use of deprecated include_class matcher,"['spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_client_spec.rb', 'spec/classes/ceilometer_collector_spec.rb', 'spec/classes/ceilometer_db_spec.rb', 'spec/classes/ceilometer_expirer_spec.rb', 'spec/classes/ceilometer_init_spec.rb']"
+877,0af224916f085166d5ccd104e90cbc680039063d,TTL mechanism support with expirer service,"['examples/site.pp', 'manifests/expirer.pp', 'manifests/params.pp', 'spec/classes/ceilometer_expirer_spec.rb']"
+878,0fb3b8f693ba4cc24bdcfb1f61de843343a13e75,Updates to params.pp for mongo and postgres packages,"['manifests/db.pp', 'manifests/params.pp', 'spec/classes/ceilometer_db_spec.rb']"
+879,7ac2d80c4e5cec07a54670c4165337ce58a32bf8,"Merge ""changed rabbit_virtualhost(wrong) to rabbit_virtual_host""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+880,7f320253bf65cc39c8bd743a5d38654655935c8b,"Merge ""Alarm: record history support""","['manifests/alarm/evaluator.pp', 'spec/classes/ceilometer_alarm_evaluator_spec.rb']"
+881,0bd24d09a84fdc5b38fc2deed2e87a989e90d174,fix postgresql connection string,['manifests/db.pp']
+882,bfece45c001de44b727b0b2441db25fc9b45024c,changed rabbit_virtualhost(wrong) to rabbit_virtual_host,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+883,24a712516bb721bd62ead06cabadc631b8b7f060,Alarm: record history support,"['manifests/alarm/evaluator.pp', 'spec/classes/ceilometer_alarm_evaluator_spec.rb']"
+884,8dd62be47be7e12c2c80d9971ad205e904ee6d35,Updated site.pp and added alarm manifests,['examples/site.pp']
+885,b4294d2939129d6503aeeede21766069ac40e35f,Added alarm-notifier and alarm-evaluator services,"['manifests/alarm/evaluator.pp', 'manifests/alarm/notifier.pp', 'manifests/params.pp', 'spec/classes/ceilometer_alarm_evaluator_spec.rb', 'spec/classes/ceilometer_alarm_notifier_spec.rb']"
+886,ebe908365c280d8cd8d976136c63fedb18c445ea,Allow to set full url for endpoints,"['manifests/keystone/auth.pp', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+887,caf96f5395fc79203a1b53c6b54dd9707469930f,Add ceilometer::agent::auth.,"['examples/site.pp', 'manifests/agent/auth.pp', 'manifests/agent/central.pp', 'manifests/agent/compute.pp', 'spec/classes/ceilometer_agent_auth_spec.rb', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb']"
+888,b7f74dfe9628c07a8c92df3d3778c241b5ed6ecc,Use connection to replace deprecated database_connection,"['manifests/db.pp', 'spec/classes/ceilometer_db_spec.rb']"
+889,9ac4a3c915479c1055fb9d3d5194fe576c129b28,"Merge ""Inline a custom file_line provider to fix agent.""","['lib/puppet/provider/file_line_after/ruby.rb', 'lib/puppet/type/file_line_after.rb', 'manifests/agent/compute.pp', 'spec/classes/ceilometer_agent_compute_spec.rb']"
+890,35109a0585a3c169196d51300d5f7e06d191012e,"Merge ""Add default auth_uri setting for auth token.""","['manifests/api.pp', 'spec/classes/ceilometer_api_spec.rb']"
+891,a3b324dba249f5db38a4ff71b9bb5bc0f7d68147,Inline a custom file_line provider to fix agent.,"['lib/puppet/provider/file_line_after/ruby.rb', 'lib/puppet/type/file_line_after.rb', 'manifests/agent/compute.pp', 'spec/classes/ceilometer_agent_compute_spec.rb']"
+892,bfad5a3821886da6f1620f922e499d19a019148c,"Merge ""Handle Centos/RHEL pymongo packages""","['manifests/db.pp', 'manifests/params.pp', 'spec/classes/ceilometer_db_spec.rb']"
+893,17711d8230432a883753b2f2ebece4fb1cf7ab16,Add default auth_uri setting for auth token.,"['manifests/api.pp', 'spec/classes/ceilometer_api_spec.rb']"
+894,60b0ff4786d4ef7b24fd03d5310cd6c9e7683ad8,Handle Centos/RHEL pymongo packages,"['manifests/db.pp', 'manifests/params.pp', 'spec/classes/ceilometer_db_spec.rb']"
+895,ffde8588fd1360335fbfd376e00f8d53b0ef05e2,Fail puppet-lint on warnings,['Rakefile']
+896,df323d97e62f5f107342ef2dc65bfa64732426f7,"Merge ""Add support for CA authentication in Keystone""","['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb']"
+897,1a9cfe89b1f7e516007a43c31a081e3e33e5e2bf,"Merge ""Clean all warnings for puppet-lint gate""",['manifests/init.pp']
+898,5e629906aed7eb352ed4e1bee17dab4bc558e36b,"Merge ""Use Puppet boolean for better consistency""","['manifests/init.pp', 'manifests/keystone/auth.pp']"
+899,80e2816e0eddb3feb94c20b0a9d194064f4f356e,Clean all warnings for puppet-lint gate,['manifests/init.pp']
+900,9b901a5db9015129f98f189a4ddf5620f777ec7f,Disable 80chars/class_parameter_defaults checks,['Rakefile']
+901,e6835a2872a7f64b085e5ed0e27cb43e5541ce87,Add support for CA authentication in Keystone,"['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'spec/classes/ceilometer_agent_central_spec.rb', 'spec/classes/ceilometer_agent_compute_spec.rb']"
+902,55f17d53f2f90fb019d35af8a27d57544fd581c0,Use Puppet boolean for better consistency,"['manifests/init.pp', 'manifests/keystone/auth.pp']"
+903,11f7f26e9d8609190fe41706f82419abd792e659,Update .fixtures.yml to use puppetlabs/inifile,['.fixtures.yml']
+904,755e53b2cf7aa394c4b74c00110ee7c6101c9692,"Merge ""Adding support for qpid in ceilometer, rspec for qpid part in ceilometer""","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+905,10107796ff2751da858a4616f97e6e3166ec40a8,Update mysql allowed_hosts conditional statement,"['manifests/db/mysql.pp', 'spec/classes/ceilometer_db_mysql_spec.rb']"
+906,9ad650ececf13158a7952a4cd889d7ad5b9d05f3,"Adding support for qpid in ceilometer, rspec for qpid part in ceilometer","['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+907,9b17b8dadc7ce6b1e1042e1748f945d3f32b5ff0,Remove duplicated fixtures,['.fixtures.yml']
+908,5de0d86c1c7987c6d1dae3b8e28e8b8312a6fbfb,Replace deprecated :rubygems source,['Gemfile']
+909,34d22958fcf648d630d9c90c16eeea88e39125a1,"Merge ""Add auth_admin_prefix support for ceilometer::api""","['manifests/api.pp', 'spec/classes/ceilometer_api_spec.rb']"
+910,bc6873041c5952910cf3522c9ce4fecb22278d25,Switch deprecated rabbit_notifier to rpc_notifier,"['manifests/agent/compute.pp', 'spec/classes/ceilometer_agent_compute_spec.rb']"
+911,3a2b7e1acabdbb35292329f941b37f8bb9580c5a,Add auth_admin_prefix support for ceilometer::api,"['manifests/api.pp', 'spec/classes/ceilometer_api_spec.rb']"
+912,0fae5184ae174afad61ef193ef515dcf868e41b6,"Merge ""Capitalize boolean values in config files""",['lib/puppet/type/ceilometer_config.rb']
+913,185a4205261abc4f30e7175808fb809b2bcb415e,"Merge ""Add .gitreview""",['.gitreview']
+914,ff0a9749b874961ce38e868382e65dac95839497,Add puppet-lint to Gemfile,['Gemfile']
+915,82bb4e901b947e03e076fdafc9464218db9d97ca,Capitalize boolean values in config files,['lib/puppet/type/ceilometer_config.rb']
+916,ae75da121e8f30347d7829ec6f931f9fd347dc5e,Add .gitreview,['.gitreview']
+917,31522ff8fa1916706cf0739180f094845326cf04,Update README,['README']
+918,fd7a33ba0ce30b7f9feb325caee85a1e978c7211,Merge pull request #5 from fcharlier/lint,"['.fixtures.yml', '.travis.yml', 'Gemfile', 'Modulefile', 'files/dbsync', 'manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/api.pp', 'manifests/client.pp', 'manifests/collector.pp', 'manifests/db.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/params.pp', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_client_spec.rb', 'spec/classes/ceilometer_collector_spec.rb', 'spec/classes/ceilometer_db_mysql_spec.rb', 'spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_keystone_auth_spec.rb', 'spec/spec_helper.rb']"
+919,50c802f37100cc71ea1959e6e0e5a5bb4e7dc4c1,Update existing puppetdoc & add missing puppetdoc,"['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/client.pp', 'manifests/collector.pp', 'manifests/db.pp', 'manifests/init.pp', 'manifests/params.pp']"
+920,74bbcac98bb94649dd6742d5c85ac93b4db38905,Merge remote-tracking branch 'mgagne/grizzly' into lint,"['manifests/api.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp', 'manifests/keystone/auth.pp']"
+921,55f70a59af56be60fcccd643311473a64d534bbe,Update tests to add DEFAULT/ to nova_config,['spec/classes/ceilometer_agent_compute_spec.rb']
+922,f2ff304078152980052b4cdf7bca4cd0d135332d,Fix notification relationship,['manifests/keystone/auth.pp']
+923,4e4b00a58ac8a0a529f8ce876401e18aba93ead3,Update puppetdoc for ceilometer::keystone::auth,['manifests/keystone/auth.pp']
+924,7ac5982b5c3697951435e82dbeb6030d5915fa51,Fix various puppet-lint errors and warnings,"['manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp']"
+925,4734be5f7d86efdb72efb70f8239f62455edec8a,Check that rabbit_hosts overrides rabbit_host,['spec/classes/ceilometer_init_spec.rb']
+926,6052ac7d88319ef46ded854d1dd7e281f328cd38,Fix spec tests style,"['spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+927,83be2ff7da0e0291b7db9129b43b03e361c930d6,Fix the ceilometer::client class,"['manifests/client.pp', 'manifests/params.pp', 'spec/classes/ceilometer_client_spec.rb']"
+928,c4ca06f62447816559d1e092ef052d384c006dfd,"Remove the dbsync file, it's not used anymore",['files/dbsync']
+929,8e97414369d2284a2163d72f6cd461aa792a2db0,Ensure passwords/secrets are specified by user,"['manifests/db/mysql.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_db_mysql_spec.rb', 'spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+930,f63fde7ab363ab6b0eeae3db022f7a8efab54074,"Fix lint errors, add some documentation","['manifests/agent/compute.pp', 'manifests/api.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/params.pp']"
+931,0b9fa30c53926faf14bda31f205970ffdab2e942,Merge remote-tracking branch 'mgagne/grizzly',"['.fixtures.yml', '.travis.yml', 'Gemfile', 'Modulefile', 'manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/api.pp', 'manifests/client.pp', 'manifests/collector.pp', 'manifests/db.pp', 'manifests/init.pp', 'manifests/params.pp', 'spec/classes/ceilometer_agent_compute_spec.rb', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_client_spec.rb', 'spec/classes/ceilometer_collector_spec.rb', 'spec/classes/ceilometer_db_mysql_spec.rb', 'spec/classes/ceilometer_init_spec.rb', 'spec/classes/ceilometer_keystone_auth_spec.rb', 'spec/spec_helper.rb']"
+932,b4347d5a6f2ae0c42b288ff5b45a74a6ea99f7c5,Exclude 'master' branch from travis CI,['.travis.yml']
+933,1c806d0bc2d8208d6426bbb5c6db8c085f253bbd,Fix ceilometer client package name for Debian,"['manifests/params.pp', 'spec/classes/ceilometer_client_spec.rb']"
+934,015ccb78ad22c03dc0e522d667b2209908ebdff0,Add DEFAULT section to nova_config,"['manifests/agent/compute.pp', 'spec/classes/ceilometer_agent_compute_spec.rb']"
+935,618b5d575b943588eaa70f71bbb9c2fec2844153,Merge pull request #3 from aimonb/inifile-scope-fix,['manifests/agent/compute.pp']
+936,715956f35a28e34f17631d34d9b6a7eaba558a1a,inifile module now requires a section   * Added DEFAULT where missing is compute class,['manifests/agent/compute.pp']
+937,6d38844a5e4f388e2ec4e3941554963d2d36796a,Update fixtures location to use stackforge.,['.fixtures.yml']
+938,4c0368917412fcc740cdb1b560a3bd8e440a8ff7,Remove rabbit_host/rabbit_port config when rabbit_hosts is provided,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+939,7b02742d4bffe7200c60da97fc681f3f79378a53,Add rabbit_hosts parameter,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+940,04ba91c789ad35127bb7077cdefe85bdd3480fac,Fix notification relationship with Service[nova-compute],"['manifests/agent/compute.pp', 'spec/classes/ceilometer_agent_compute_spec.rb']"
+941,220d2e6b5986547d0205d146dd1abe7fc5e2b4bd,Fix Ubuntu support for ceilometer::agent::compute,"['.fixtures.yml', 'manifests/agent/compute.pp', 'manifests/params.pp', 'spec/classes/ceilometer_agent_compute_spec.rb']"
+942,c17a0b26840a51aefc7796ccd670c1044885e1a3,Fix service dependencies and add inheritance from ceilometer,['manifests/agent/compute.pp']
+943,3c60ed1f88e49f98a765a7708bd703fa36affc2f,Remove useless params,"['manifests/init.pp', 'manifests/params.pp', 'spec/classes/ceilometer_init_spec.rb']"
+944,b84a26f6c03da2656cbddf0814332e76bcbc45a8,Use implicit dependencies,"['manifests/init.pp', 'spec/classes/ceilometer_init_spec.rb']"
+945,150367be1b70a6dbf4eb32405a43d5f2a5d5c3ca,Add rspec tests for ceilometer::keystone::auth,"['.fixtures.yml', 'spec/classes/ceilometer_keystone_auth_spec.rb']"
+946,523b00bdf3b205edbefa96521720f7ceb0355b25,Add rspec tests for ceilometer::db::mysql,['spec/classes/ceilometer_db_mysql_spec.rb']
+947,dc36fde835d835fa48b946518fc49fdd0b80ca98,Fix dependencies and various typos,"['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/api.pp', 'manifests/collector.pp', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_collector_spec.rb']"
+948,d167ce22274db0396b00f5c1ded6e50efa7766cd,Add rspec tests for ceilometer::collector,"['manifests/collector.pp', 'spec/classes/ceilometer_collector_spec.rb']"
+949,6403da4057d8e081bbed119623adaf5d4149f9fc,Add rspec tests for ceilometer::client,['spec/classes/ceilometer_client_spec.rb']
+950,a530fe11004b5878ac5a8a977c7fae0623b68042,Remove inheritance from ceilometer,"['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/api.pp', 'manifests/client.pp', 'manifests/collector.pp', 'manifests/db.pp']"
+951,921cb3e64ed85874fcc351f683b7ec55f3bdc91a,Partially add support for RedHat plateform,"['manifests/api.pp', 'manifests/init.pp', 'manifests/params.pp', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_init_spec.rb', 'spec/spec_helper.rb']"
+952,44d74d5742db685aeb68b3922a5c01e97ad2e647,Add keystone_tenant parameter for api,"['manifests/api.pp', 'spec/classes/ceilometer_api_spec.rb']"
+953,49a63ed390863557d2ca71d50fc8de0ecb349ae4,Add rspec tests for ceilometer and ceilometer::api,"['.fixtures.yml', '.travis.yml', 'Gemfile', 'manifests/init.pp', 'spec/classes/ceilometer_api_spec.rb', 'spec/classes/ceilometer_init_spec.rb', 'spec/spec_helper.rb']"
+954,938d647ac733ee7170109cb3d437bd1aeea36923,Remove ceilometer-dbsync override,['manifests/db.pp']
+955,07c9d444ef816bba26dda86b651980a44a4da2d4,Fix dependency syntax in Modulefile,['Modulefile']
+956,f3d57b9e402182315e63acf461520b9ba1da7285,Remove version from endpoint.,['manifests/keystone/auth.pp']
+957,ad09c746cc7052bcbe22cc0651a2f0b4ceea060a,Fix adding notification_driver parameters to the nova.conf,['manifests/agent/compute.pp']
+958,c3e2cc6c26abdf8505c66cb35d2036f5d7d01318,Add required parameters to nova.conf,['manifests/agent/compute.pp']
+959,05f5e6c7a953ccc00c8232489ab42b40b1e932a6,Fix the auth_protocol keystone_authtoken parameter name,['manifests/api.pp']
+960,a9c8517710d44614242264717a809039316b9249,"Revert ""Fix nova notifications""","['files/patches/670b3882-fix-rpc-control_exchange-regression.patch', 'manifests/init.pp']"
+961,c68a36d34147ca949a3ba38b46f082d50606d542,Fix order dependencies,['manifests/db/mysql.pp']
+962,6c8b6630b0f671a055070c658e0e0d51350f8353,Fix nova notifications,"['files/patches/670b3882-fix-rpc-control_exchange-regression.patch', 'manifests/init.pp']"
+963,b841d54fdab8817ed1f4906e1fda360935ee2dd3,Fix glance exchange/topic to read notifications,['manifests/init.pp']
+964,d42456cef041e83250a71f2a76e8142cde347ea2,Fix groups memberships for the ceilometer user,"['manifests/agent/compute.pp', 'manifests/init.pp']"
+965,3ce24a5561b2b48018b7325e30ec60d4b11cd488,"Agents, Api, Db & Collector classes inherit from ceilometer","['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/api.pp', 'manifests/collector.pp', 'manifests/db.pp']"
+966,d40335f4be8d365b7ca49fd7d9f2b07225d829d3,Add “log_dir” parameter,"['manifests/init.pp', 'manifests/params.pp']"
+967,a77b099b073fe516f55074fb0f9dffc7f84896d9,The ceilometer user must be in the libvirt group,['manifests/init.pp']
+968,d8f6d59d5de4cdd3745268e109e0b110c0e581fb,Ensure services are started,"['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/api.pp', 'manifests/collector.pp']"
+969,d16e6661ea82f852377bc256e2baca1c379dd8b0,Update ceilometer user requirements,['manifests/init.pp']
+970,646907f87988f2581246e255047dfccc0f52ebf4,Restart services when config file changes,"['manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/api.pp', 'manifests/collector.pp']"
+971,e2231ffa662005c9d2ab8d1a074968c819dc8adc,Rename default tenant to 'services' instead of 'service',"['manifests/agent/central.pp', 'manifests/agent/compute.pp']"
+972,1a484f01e2a3326f18d6c112e7267b522ef43acf,Ceilometer_config requires package ceilometer-common,['manifests/init.pp']
+973,c32c3ef345297c0898bd3052e798208822431454,Add user to localhost,"['manifests/db.pp', 'manifests/db/mysql.pp']"
+974,ecdc9667d25e2ae5d98970ff410ae0d92a9907b8,Fix $auth_user var name,"['manifests/agent/central.pp', 'manifests/agent/compute.pp']"
+975,08e8040b8718e50dc18d3a01d94def6777808f64,Merge pull request #1 from ekarlso/master,"['manifests/agent/central.pp', 'manifests/agent/compute.pp']"
+976,e643f23b4da21b5a27a70d9a4b30967125e8fcef,Forgot to pass the password also,"['manifests/agent/central.pp', 'manifests/agent/compute.pp']"
+977,4a3b5cdc693a3272ba28234dc0585461815b7602,Only bother setting tenant_id if it's passed,"['manifests/agent/central.pp', 'manifests/agent/compute.pp']"
+978,0460de348cdae58b9a931386bf6184839b338f0a,Fix duplicate opt,['manifests/agent/compute.pp']
+979,604c02e676d1ea7f28631c9a64b6f83c0338f741,Add authentication config opts,"['manifests/agent/central.pp', 'manifests/agent/compute.pp']"
+980,28617fbd594e05f1f49e3587045973ca17f3a7c8,Fix ownership/permissions on /etc/ceilometer/*,['manifests/init.pp']
+981,d3a07cc1ef0a3a65e4dde6b348d351677c0f2f34,Fix style,['manifests/keystone/auth.pp']
+982,1fa87a383678092d681fc102c263232169dba80e,Ensure the ceilometer user has ResellerAdmin role,['manifests/keystone/auth.pp']
+983,100a8b3bb60561555cd901619cbb023b392dc091,Add an example,['examples/site.pp']
+984,46ea311e85d2169004b45380696e883f9a600b42,Update the dbsync_command,['manifests/params.pp']
+985,5c9f72f96db3cf4b4e84c97707cf1feca8fcd53e,"Add the dbsync file, it's not yet in the packages","['files/dbsync', 'manifests/db.pp']"
+986,899003aa46b5d2cf63435a784761d6db5481b979,Add the metering_secret parameter,['manifests/init.pp']
+987,304785e08dffe4ed75fa9bcb57110fa046a43de1,Default keystone_password to false to ensure error if not set,['manifests/api.pp']
+988,530a91160acd224ffbe99e60f2b5f0a1a723c0ec,Add admin user/tenant/password to authtoken config,['manifests/api.pp']
+989,9665551a5f87d4ab9fd762e5307549e80ced2367,Remove wrong requirement for ceilometer-dbsync,['manifests/db.pp']
+990,81657c5a1e472edd5a4b391ca194c3943231451c,Fix incomplete subscribe declaration,['manifests/db.pp']
+991,76e656de2f7bfac988d0c8413997dcb3d37fd745,Fix user (group → gid),['manifests/init.pp']
+992,54582bbbde3ae4f79a21b270c930590c3cbcc2a5,Fix the name of the ceilometer config provider,"['manifests/api.pp', 'manifests/db.pp', 'manifests/init.pp']"
+993,bdbf474489de7af020733a364b7f74f40d3f916c,Create ceilometer user/group,"['manifests/init.pp', 'manifests/params.pp']"
+994,4ae12d7905a6ea43e9c97a40b56fe5a6e13a3565,Add ceilometer-dbsync and fix some db-related deps,"['manifests/api.pp', 'manifests/collector.pp', 'manifests/db.pp', 'manifests/params.pp']"
+995,b240ef55ce00fcce8c4e1503b777b6804b84e01d,Refactoring/Style updates,"['manifests/agent-compute.pp', 'manifests/agent/central.pp', 'manifests/agent/compute.pp', 'manifests/api.pp', 'manifests/client.pp', 'manifests/collector.pp', 'manifests/init.pp', 'manifests/params.pp']"
+996,e2b0c7fca1d663d4ffa7cc280ff48a0901fb41df,Move database settings to a different class,"['manifests/api.pp', 'manifests/collector.pp', 'manifests/db/init.pp']"
+997,9c3b78bf7448e66e4fbbdf695cc3c5fcf096baf3,Add dependencies into the Modulefile,['Modulefile']
+998,a29182c983e4bcd349ef9c069aba312575071132,Finish moving Keystone Auth from init.pp to api.pp,"['manifests/api.pp', 'manifests/init.pp']"
+999,faafa4257e3c77f3958ce2ccc26d2f9085ff256c,Move Keystone Auth from init.pp to api.pp,"['manifests/api.pp', 'manifests/init.pp']"
+1000,2b85f15ac456e2d792d25140fc0251dbbe9a39cd,Fix Licensing email address,['README']
+1001,01b143340c072b9a79a64e361da1997a6d872c29,Add dependency,"['manifests/agent-central.pp', 'manifests/api.pp', 'manifests/collector.pp']"
+1002,1f3d092ad388942629aa7894bb68c629094f43ba,Add dependency,['manifests/agent-compute.pp']
+1003,89a2329499aae14d1901c355b47aafa9f37366e0,Merge branch 'master' of git://github.com/enovance/puppet-ceilometer,"['LICENSE', 'README', 'manifests/init.pp']"
+1004,928507584754e604c7d283e165911f0ce84344ed,Fix tabs,"['manifests/agent-compute.pp', 'tests/agent-central.pp', 'tests/agent-compute.pp', 'tests/api.pp', 'tests/collector.pp', 'tests/init.pp']"
+1005,14274a136eee72eb235b40d4b61b3a64457e5b31,Remove useless test manifests,"['tests/agent-central.pp', 'tests/agent-compute.pp', 'tests/api.pp', 'tests/collector.pp', 'tests/init.pp']"
+1006,0e63d69c8e1652ab335d3f25f8e355e85aa253a7,The ceilometer.conf file needs the directory,['manifests/init.pp']
+1007,e511a1471b4a571ba784d91d6b0495ca4dc8a540,Merge branch 'master' of github.com:enovance/puppet-ceilometer,['manifests/init.pp']
+1008,9cd1b264aff869acbbf1a44401955682218a404c,Fix files stuffs,['manifests/init.pp']
+1009,e081f9704ae4828e33e499b2a82eb2da660e8264,Merge branch 'master' of github.com:enovance/puppet-ceilometer,"['lib/puppet/provider/ceilometer_config/ini_setting.rb', 'lib/puppet/type/ceilometer_config.rb', 'manifests/agent-central.pp', 'manifests/agent-compute.pp', 'manifests/api.pp', 'manifests/collector.pp', 'manifests/db/mysql.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/notify/rabbitmq.pp', 'manifests/params.pp']"
+1010,4dd16804578998dcb690133349ac8301f06d65d6,Delete [],['manifests/init.pp']
+1011,625cb53464a18ff139ae2badd109b64f231ebbfe,Move settings to init.pp,"['manifests/agent-compute.pp', 'manifests/api.pp', 'manifests/collector.pp']"
+1012,481bfb303d91dbbd908312aafa43aa8ab868e131,Fix a typo,['manifests/init.pp']
+1013,d0699f88f09d0db6f522c7f3e62056886c2a2b97,Move ceilometer.conf file to init.pp,"['manifests/agent-central.pp', 'manifests/init.pp']"
+1014,b8365277298efac3a52bc14ee71b43401628b899,Move Settings to init.pp,"['manifests/agent-central.pp', 'manifests/api.pp', 'manifests/init.pp']"
+1015,f027660469449d1dfe1cda443a9fbfdb54982e79,Add mysql::python,['manifests/init.pp']
+1016,4708b420088702e503fede8f229bdeb56ce57299,Add auth.pp for keystone,['manifests/keystone/auth.pp']
+1017,1e813a57aa2760c328adcc4144b59e689213b8d3,Fix ceilometer::db::mysql class,['manifests/db/mysql.pp']
+1018,6f99e6911eadbc4916037c16d4912947a03d8827,Fix ceilometer::db::mysql class,['manifests/db/mysql.pp']
+1019,8c97ba71037cfb98499a1a9991dc71fa40789f1b,Delete Notify Manifest,['manifests/notify/rabbitmq.pp']
+1020,98a22dea28f4848fbb12b4e3bba80b31d2a372cc,Add Services Section,['manifests/params.pp']
+1021,bd14917597f3b25888c8f59d807fdb821b5fc4a3,Add Services Section,"['manifests/init.pp', 'manifests/params.pp']"
+1022,00b244024727abae762b58c1ff17c6d675fab39f,Fix a typo,['manifests/agent-central.pp']
+1023,79f525a01f4c2d6e78d812d2f25cc26792108dfc,Fix service class,"['manifests/agent-central.pp', 'manifests/agent-compute.pp', 'manifests/api.pp', 'manifests/collector.pp']"
+1024,32b2f5faabdc985b3f44d0f7bc78fd03a831b54a,Add  in the class,"['manifests/agent-central.pp', 'manifests/agent-compute.pp', 'manifests/api.pp', 'manifests/collector.pp']"
+1025,3bb4b46fd72733454bfdf94462ecbae30c5de488,Add ceilometer_setting for type/provider,['lib/puppet/provider/ceilometer_config/ini_setting.rb']
+1026,699aab14dfa21813c11ad0b3bd6aecfa30c8b361,Add ceilometer_setting for type/provider,"['lib/puppet/provider/ceilometer_setting/ini_setting.rb', 'lib/puppet/type/ceilometer_config.rb']"
+1027,49110c1fd1e7744823ad108048d5d57a2bab1b90,Add ceilometer_setting for type/provider,['lib/provider/ceilometer_setting/ini_setting.rb']
+1028,c57f071cf247dda7bb4d6fa6427b3f1728ee3746,Add ceilometer_setting for type/provider,['provider/ceilometer_setting/ini_setting.rb']
+1029,b7cdc3e7ae9820b5773b468e2da81796a54d0030,Update LICENSE & README,"['LICENSE', 'README']"
+1030,68b960a245ff1923b7c98743fac3526b2dee65a0,Fix Typos,"['manifests/db/mysql.pp', 'tests/init.pp']"
+1031,92050c58a4883052cd7b54427e8139b124268e2a,Add Manifests,['manifests/agent-central.pp']
+1032,9e411800305dac8bb749db29af3b54e93a939f88,Add tests,"['manifests/central-agent.pp', 'tests/agent-central.pp', 'tests/agent-compute.pp', 'tests/collector.pp']"
+1033,b24af7fa00fcb851c87e24251232d423538e0432,Fix architecture & README,"['README', 'tests/api.pp']"
+1034,ff053ee175f306be686d7a86b575350d20adecd0,First Commit,"['LICENSE', 'Modulefile', 'README', 'Rakefile', 'api.pp', 'manifests/agent-compute.pp', 'manifests/api.pp', 'manifests/central-agent.pp', 'manifests/client.pp', 'manifests/collector.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp', 'manifests/init.pp', 'manifests/notify/rabbitmq.pp', 'manifests/params.pp', 'spec/spec_helper.rb', 'tests/init.pp']"

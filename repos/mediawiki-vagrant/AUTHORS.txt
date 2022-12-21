@@ -1,0 +1,122 @@
+Aaron Schulz <aschulz@wikimedia.org>
+Adam Basso <abaso@wikimedia.org>
+Adam Roses Wight <adam.wight@wikimedia.de>
+Alangi Derick <alangiderick@gmail.com>
+Alex Monk <amonk@wikimedia.org>
+Amir E. Aharoni <amir.aharoni@mail.huji.ac.il>
+Amir Sarabadani <ladsgroup@gmail.com>
+Andre Klapper <a9016009@gmx.de>
+Andrew Bogott <abogott@wikimedia.org>
+Andrew Garrett <agarrett@wikimedia.org>
+Andrew Haberlandt <crazy4sb@gmail.com>
+Andrew Otto <aotto@wikimedia.org>
+André Costa <lokal.profil@gmail.com>
+Antoine Musso <hashar@free.fr>
+Ariel T. Glenn <ariel@wikimedia.org>
+Arthur Richards <arichards@wikimedia.org>
+Brad Jorsch <bjorsch@wikimedia.org>
+Brion Vibber <brion@pobox.com>
+Bryan Davis <bd808@wikimedia.org>
+Casey Dentinger <cdentinger@wikimedia.org>
+Chad Horohoe <chadh@wikimedia.org>
+Chase Pettet <rush@wikimedia.org>
+Chris McMahon <cmcmahon@wikimedia.org>
+Chris Steipp <csteipp@wikimedia.org>
+Christian Aistleitner <christian@quelltextlich.at>
+Christine Stone <cstone@wikimedia.org>
+Cindy Cicalese <cicalese@mitre.org>
+Dan Andreescu <dandreescu@wikimedia.org>
+Dan Duvall <dduvall@wikimedia.org>
+Dan Entous <d_entous@yahoo.com>
+Daniel Kinzler <dkinzler@wikimedia.org>
+Darian Anthony Patrick <dpatrick@wikimedia.org>
+David Causse <dcausse@wikimedia.org>
+Diederik van Liere <dvanliere@wikimedia.org>
+Dmitry Brant <dbrant@wikimedia.org>
+Douglas Gardner <douglas@chippy.ch>
+Dylan Grafmyre <dylang@ava.ai>
+Ebrahim Byagowi <ebrahim@gnu.org>
+Elliott Eggleston <ejegg@ejegg.com>
+Eric Evans <eevans@wikimedia.org>
+Erick Guan <fantasticfears@gmail.com>
+Erik Bernhardson <ebernhardson@wikimedia.org>
+Erik Möller <erik@wikimedia.org>
+Federico Leva <federicoleva@tiscali.it>
+Filippo Giunchedi <fgiunchedi@wikimedia.org>
+FunPika <funpikawiki@gmail.com>
+Gabriel Wicke <gwicke@wikimedia.org>
+Gergő Tisza <gtisza@wikimedia.org>
+Gilles Dubuc <gdubuc@wikimedia.org>
+Grunny <mwgrunny@gmail.com>
+Jackson Isaac <jacksonisaac2008@gmail.com>
+James D. Forrester <jforrester@wikimedia.org>
+Jan Zerebecki <jan.wikimedia@zerebecki.de>
+Jeremy Baron <jeremy@tuxmachine.com>
+Jeroen De Dauw <jeroendedauw@gmail.com>
+jgleeson <jgleeson@wikimedia.org>
+Joel Sahleen <jsahleen@wikimedia.org>
+John Erling Blad <jeblad@gmail.com>
+Jon Robson <jrobson@wikimedia.org>
+Juliusz Gonera <jgonera@wikimedia.org>
+juniorsys <juniorsys_wikimedia@outlook.com>
+Kartik Mistry <kartik.mistry@gmail.com>
+Katie Filbert <aude.wiki@gmail.com>
+Kosta Harlan <kharlan@wikimedia.org>
+Krzysztof Zbudniewek <krzysztof.zbudniewek@gmail.com>
+Kunal Mehta <legoktm@gmail.com>
+Lucas Werkmeister <lucas.werkmeister@wikimedia.de>
+Lucie Kaffee <lucie.kaffee@wikimedia.de>
+Luke Faraone <luke@faraone.cc>
+Mainframe98 <k.s.werf@hotmail.com>
+Marcel Ruiz Forns <mforns@wikimedia.org>
+Mark A. Hershberger <mah@everybody.org>
+Mark Holmquist <mtraceur@member.fsf.org>
+Marko Obrovac <mobrovac@wikimedia.org>
+Matthew Flaschen <mflaschen@wikimedia.org>
+Matthias Mullie <git@mullie.eu>
+Max Semenik <maxsem.wiki@gmail.com>
+Merlijn van Deen <valhallasw@arctus.nl>
+Mhutti1 <mhutti1@gmail.com>
+Michael Holloway <mholloway@wikimedia.org>
+Moriel Schottlender <moriel@gmail.com>
+Moritz Schubotz <wiki@physikerwelt.de>
+Mr. Stradivarius <misterstrad@gmail.com>
+Mukunda Modell <mmodell@wikimedia.org>
+Munaf Assaf <munaf.assaf@gmail.com>
+Neil Kandalgaonkar <neilk@neilk.net>
+Nemo bis <federicoleva@tiscali.it>
+Nik Everett <neverett@wikimedia.org>
+Nuria Ruiz <nuria@wikimedia.org>
+Ori Livneh <ori@wikimedia.org>
+Paladox <thomasmulhall410@yahoo.com>
+Patrick Reilly <preilly@php.net>
+Pavel Astakhov <pastakhov@yandex.ru>
+Peter Hedenskog <phedenskog@wikimedia.org>
+Petr Pchelko <ppchelko@wikimedia.org>
+Prateek Saxena <prtksxna@gmail.com>
+Rainer Rillke <rillke@wikipedia.de>
+Roan Kattouw <roan.kattouw@gmail.com>
+Rob Moen <rmoen@wikimedia.org>
+S Page <spage@wikimedia.org>
+Sage Ross <ragesoss@gmail.com>
+Sam Reed <reedy@wikimedia.org>
+Sam Smith <me@samsmith.io>
+Sau226 <sau226@tools.wmflabs.org>
+Scott Bassett <sbassett@wikimedia.org>
+Sergey Leschina <mail@putnik.ws>
+Stanislav Malyshev <smalyshev@wikimedia.org>
+Stephane Bisson <sbisson@wikimedia.org>
+Thibaut Horel <thibaut.horel@gmail.com>
+Tim Landscheidt <tim@tim-landscheidt.de>
+Timo Tijhof <krinklemail@gmail.com>
+Tobias Gritschacher <tobias.gritschacher@wikimedia.de>
+Tom Arrow <bomarrow1@gmail.com>
+Tyler Cipriani <tcipriani@wikimedia.org>
+Tyler Romeo <tylerromeo@gmail.com>
+Umherirrender <umherirrender_de.wp@web.de>
+wctaiwan <wctaiwan@gmail.com>
+Yuri Astrakhan <yurik@wikimedia.org>
+Yuvi Panda <yuvipanda@gmail.com>
+Zach <terracodes@tools.wmflabs.org>
+zoranzoki21 <zorandori4444@gmail.com>
+Željko Filipin <zeljko.filipin@gmail.com>

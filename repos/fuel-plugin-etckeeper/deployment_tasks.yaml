@@ -1,0 +1,40 @@
+---
+- id: fuel-plugin-etckeeper-install
+  type: puppet
+  version: 2.0.0
+  role: '*'
+  required_for: [post_deployment_end]
+  requires: [post_deployment_start, enable_quorum]
+  parameters:
+    puppet_manifest: 'etckeeper_install.pp'
+    puppet_modules: '/etc/puppet/modules'
+    timeout: 600
+
+- id: fuel-plugin-etckeeper-configure
+  type: puppet
+  version: 2.0.0
+  role: '*'
+  required_for: [post_deployment_end]
+  requires: [fuel-plugin-etckeeper-install]
+  parameters:
+    puppet_manifest: 'etckeeper_configure.pp'
+    puppet_modules: '/etc/puppet/modules'
+    timeout: 600
+
+- id: fuel-plugin-etckeeper-commit
+  type: puppet
+  version: 2.0.0
+  role: '*'
+  required_for: [post_deployment_end]
+  requires: [fuel-plugin-etckeeper-configure]
+  refresh_on: ['*']
+  cross-depends:
+    - name: disable_keystone_service_token
+    - name: update_hosts
+    - name: cgroups
+    - name: ntp-client
+    - name: dns-client
+  parameters:
+    puppet_manifest: 'etckeeper_commit.pp'
+    puppet_modules: '/etc/puppet/modules'
+    timeout: 600

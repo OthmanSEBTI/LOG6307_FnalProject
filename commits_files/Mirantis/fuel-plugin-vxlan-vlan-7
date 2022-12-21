@@ -1,0 +1,27 @@
+,sha,message,files
+0,4a9e8855fcd032f3051d9f4713ba86cf028fb1b0,Merge pull request #10 from oleksiialeksieiev/master,['metadata.yaml']
+1,2f8b37585a0a76203b609a1a96c6b7b97b322638,Updating metadata.yaml. MOS9 is supported now.,['metadata.yaml']
+2,886291c0ed78744f3d92a48d75da9dc1bf9dc96b,Merge pull request #9 from mitroko/master,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']"
+3,291ed2da1424f11c398cc1a89de61a9df88f0f31,Fix for bug in selector. Default setting should not be quoted.,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']"
+4,6c19cb349df58709af5a8ffefbbbe578bcf37d42,Merge pull request #8 from mitroko/master,"['README.md', 'deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']"
+5,7474e01e4c9bbb06e4395d0da8ef1d8b102961e4,Fixing ml2 plugin ini path for liberty-8.0,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']"
+6,1fc92ce585da2d7b7556fefadce216147c11a450,Merge branch 'master' of ssh://github.com/mitroko/fuel-plugin-vxlan-vlan-7,['README.md']
+7,ac034be11faac369530556f4cf17447428d7083e,Updating README.md. MOS9 supported now.,['README.md']
+8,eac1bdbf1370d338b40261bbdc795271f37d4d3e,Updating README.md. MOS9 supported now.,['README.md']
+9,05aedf5402bc7a9a85eb503ef35748d0d9a3b303,Merge pull request #7 from mitroko/ml2_conf_path_fix,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']"
+10,c8116ea1078c3cca87963cd007ea3d2519ad48a1,Merge pull request #6 from mitroko/MOS9_template,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp', 'examples/MOS9-lnx-br-bond.yaml']"
+11,b752855af29deadbbb27265c350ec6ead7398b60,Merge pull request #4 from mitroko/lint_fix,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']"
+12,3fa2cbe4236843e0ad1c892fc10afa81fb0d9b84,Fixing path for ini_subsetting resource,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']"
+13,dd915fc8b5001f661ffa8780905f7e4d8bd7e7dc,MOS9 template,['examples/MOS9-lnx-br-bond.yaml']
+14,02a6e31edbc122eb52590750e1d4708cbd0ab13d,Services names fix.,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']"
+15,8a8a318d5316dd52b0d774e0ed4fd6cc98a1b9fb,Puppet lint checks,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']"
+16,4b3ec0c18ff475fba9a412d725cb5da65896d52a,Merge pull request #3 from mitroko/DVR_template,"['README.md', 'TODO', 'examples/lnx-br-bond-dvr.yaml']"
+17,b9f7b9b37e4e2ddf03d55e93b68a15e8e3d4abe7,DVR template,"['README.md', 'TODO', 'examples/lnx-br-bond-dvr.yaml']"
+18,8063d35cf75035113809b93ad901ec77103977ee,Merge pull request #2 from mitroko/fix_metadata,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']"
+19,3a958d45ad9023e21478bb505d2b38d83c35d4e8,Metadata extraction fix,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']"
+20,dc5a700a93e40bcf7b8d512f0ffa057ee6aa14e4,Merge pull request #1 from mitroko/refactoring_1,"['README.md', 'TODO', 'deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp', 'deployment_tasks.yaml', 'environment_config.yaml', 'examples/lnx-br-bond.yaml', 'metadata.yaml', 'pre_build_hook']"
+21,342d6b996405760f7f86d5a522b0440c85271982,Merge branch 'refactoring_1' of ssh://github.com/mitroko/fuel-plugin-vxlan-vlan-7 into refactoring_1,[]
+22,7745a7227499b6190ffc30962652aa3c02936d36,Refactoring #1,"['README.md', 'TODO', 'deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp', 'deployment_tasks.yaml', 'environment_config.yaml', 'examples/lnx-br-bond.yaml', 'metadata.yaml', 'pre_build_hook']"
+23,1167e277b8db91ecfd2764a2105c562c9f979945,Refactoring #1,"['README.md', 'TODO', 'deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp', 'deployment_tasks.yaml', 'environment_config.yaml', 'examples/lnx-br-bond.yaml', 'metadata.yaml', 'pre_build_hook']"
+24,bbe4a4ce8883da2246d8fe07e415a7504ebf1fdc,Update README.md,['README.md']
+25,f26d7716d2e399c48f33bb044725ba077353be46,first commit,"['.gitignore', 'LICENSE', 'README.md', 'deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp', 'deployment_tasks.yaml', 'environment_config.yaml', 'lnx-br-bond.yaml', 'metadata.yaml', 'pre_build_hook', 'repositories/centos/.gitkeep', 'repositories/ubuntu/.gitkeep', 'volumes.yaml']"

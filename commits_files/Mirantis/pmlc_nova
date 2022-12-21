@@ -1,0 +1,10 @@
+,sha,message,files
+0,3b1157bb68707b1c9092e61cb58824312d5fb5fd,Move live migration and image type out of parameter and into selector based on whether ceph is used or not,"['README.md', 'manifests/init.pp', 'manifests/params.pp']"
+1,fa6b7bf53ee3d591cf98725c60f6646c932dab39,"This is a bit backwards, but default to true on use_ceph and inherit that in the params class to use with a selector for values.",['manifests/init.pp']
+2,d47e457b3baf8d0333dce4d055af6d9231e6f504,"This is a bit backwards, but default to true on use_ceph and inherit that in the params class to use with a selector for values.",['manifests/params.pp']
+3,8c1c74254797f2c0101af811374a4f512543e76b,Fix typo in selector,"['manifests/init.pp', 'manifests/params.pp']"
+4,2cbe257aec1cd23237c583b602611dcfa55a9df1,set use_ceph to true by default. fix typo,['manifests/init.pp']
+5,9637a53947b416fc2bd7f61588a595718c3ca44b,Add toggle for whether to use ceph or not,"['manifests/compute/config.pp', 'manifests/init.pp', 'manifests/params.pp']"
+6,c48c8c3dc6d0ebeb456584d79fa0d5b2cefc4889,Add parameter documentation,['README.md']
+7,92a099896e72a90f7a80668ed8476b16acacd83e,Initial commit,"['.fixtures.yml', '.gitignore', 'Gemfile', 'Modulefile', 'README', 'README.md', 'Rakefile', 'manifests/compute.pp', 'manifests/compute/config.pp', 'manifests/compute/install.pp', 'manifests/compute/service.pp', 'manifests/controller.pp', 'manifests/controller/config.pp', 'manifests/controller/install.pp', 'manifests/controller/service.pp', 'manifests/init.pp', 'manifests/params.pp', 'spec/spec_helper.rb', 'tests/init.pp']"
+8,8f9d490564b258723b4323bad58735c044dcab0f,Initial commit,['LICENSE']

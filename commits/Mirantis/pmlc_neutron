@@ -1,0 +1,6 @@
+35b31d83f1428fd5e78209c47601fe5874962bf3|Fix typo in admin password setting|Thu, 30 Jul 2015 09:39:21 -0700|Thu, 30 Jul 2015 09:39:21 -0700
+be96abe96501ef04d7d405096802aec232372ee5|Initial Commit|Wed, 29 Jul 2015 13:39:28 -0700|Wed, 29 Jul 2015 13:39:28 -0700
+94c7334eeb3efbb1cf27372352aae74f2d37f2ac|Add certificate based authentication to APIC driver. Add agent poll interval of 60s rather than default 2s.|Wed, 29 Jul 2015 13:38:51 -0700|Wed, 29 Jul 2015 13:38:51 -0700
+3bec102682dabfc5547f4bc00786ba2ab0fe5a69|Refactor module to use ini_setting rather than file_lines|Tue, 28 Jul 2015 18:56:46 -0700|Tue, 28 Jul 2015 18:56:46 -0700
+1b4eac9c1ee16ccd4d27532d93612e60047ec142|Initial commit|Mon, 27 Jul 2015 09:54:16 -0700|Mon, 27 Jul 2015 09:54:16 -0700
+bd4dfe159672ebe54b1fd24303bf518fe32ac891|Initial commit|Mon, 27 Jul 2015 06:43:32 -0700|Mon, 27 Jul 2015 06:43:32 -0700

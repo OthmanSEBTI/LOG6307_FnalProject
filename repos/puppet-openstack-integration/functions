@@ -1,0 +1,282 @@
+#!/bin/bash
+#
+# functions - puppet-openstack-integration specific functions
+#
+
+# To retry a command until it succeed for a given
+# number of retries(default to 3).
+retry_cmd() {
+  local cmd=$1
+  local total_tries=${2:-3}
+  local delay=${3:-5}
+  local retry_count=1
+  local ret_code=1
+  until [[ ${ret_code} -eq 0 || ${retry_count} -gt ${total_tries} ]]; do
+      echo Retry count:-${retry_count}, Command:-$cmd
+      set +e
+      $cmd
+      ret_code=$?
+      set -e
+      ((retry_count++))
+      sleep ${delay}
+  done
+  if [ ${ret_code} -ne 0 ]; then
+      echo Failed even after ${total_tries} retries, Exiting
+      exit ${ret_code}
+  fi
+}
+
+# Install external Puppet modules with r10k
+# Uses the following variables:
+#
+# - ``SCRIPT_DIR`` must be set to script path
+# - ``GEM_BIN_DIR`` must be set to Gem bin directory
+install_external() {
+  install_cmd="r10k -v DEBUG puppetfile install \
+    --puppetfile ${SCRIPT_DIR}/Puppetfile1 \
+    --moduledir ${PUPPETFILE_DIR}"
+  retry_cmd "${install_cmd}"
+}
+
+# Install Puppet OpenStack modules from zuul checkouts
+# Uses the following variables:
+#
+# - ``PUPPETFILE_DIR`` must be set to Puppet modules directory
+# - ``SCRIPT_DIR`` must be set to script path
+# - ``ZUUL_BRANCH`` must be set to Zuul branch. Fallback to 'master'.
+# - ``CEPH_VERSION`` can be set to override Ceph version.
+install_openstack() {
+  # Periodic jobs run without ref on master
+  ZUUL_BRANCH=${ZUUL_BRANCH:-master}
+
+  if [ "$ZUUL_PROJECT" != "openstack/puppet-ceph" ] && [ -n "$CEPH_VERSION" ]; then
+    if [ "$CEPH_VERSION" == "jewel" ] || [ "$CEPH_VERSION" == "luminous" ] || [ "$CEPH_VERSION" == "mimic" ]; then
+      ZUUL_BRANCH="stable/$CEPH_VERSION"
+    else
+      ZUUL_BRANCH="master"
+    fi
+  fi
+
+  local project_names=$(awk '{ if ($1 == ":git") print $3 }' \
+    ${SCRIPT_DIR}/Puppetfile0 | tr -d "'," | cut -d '/' -f 4- | xargs
+  )
+
+  for project in $project_names openstack/puppet-openstack-integration
+  do
+    local module_name=$(echo $project | cut -d "-" -f2-)
+
+    if [ -d /home/zuul/src/opendev.org/$project ]; then
+      cp -R /home/zuul/src/opendev.org/$project $PUPPETFILE_DIR/$module_name
+    else
+      git clone -b $ZUUL_BRANCH https://opendev.org/$project $PUPPETFILE_DIR/$module_name
+    fi
+  done
+
+  # Because openstack-integration can't be a class name.
+  # https://projects.puppetlabs.com/issues/5268
+  mv $PUPPETFILE_DIR/openstack-integration $PUPPETFILE_DIR/openstack_integration
+}
+
+# Install all Puppet modules with r10k
+# Uses the following variables:
+#
+# - ``PUPPETFILE_DIR`` must be set to Puppet modules directory
+# - ``SCRIPT_DIR`` must be set to script path
+install_all() {
+  # When installing from local source, we want to install the current source
+  # we're working from.
+  install_cmd="r10k -v DEBUG puppetfile install \
+    --puppetfile ${SCRIPT_DIR}/Puppetfile \
+    --moduledir ${PUPPETFILE_DIR}"
+  retry_cmd "${install_cmd}"
+  cp -a ${SCRIPT_DIR} ${PUPPETFILE_DIR}/openstack_integration
+}
+
+# Install Puppet OpenStack modules and dependencies by using
+# zuul checkouts or r10k.
+# Uses the following variables:
+#
+# - ``PUPPETFILE_DIR`` must be set to Puppet modules directory
+# - ``SCRIPT_DIR`` must be set to script path
+# - ``ZUUL_BRANCH`` must be set to Zuul branch
+install_modules() {
+  if [ -d /home/zuul/src/opendev.org ] ; then
+    csplit ${SCRIPT_DIR}/Puppetfile /'External modules'/ \
+      --prefix ${SCRIPT_DIR}/Puppetfile \
+      --suffix '%d'
+    install_external
+    install_openstack
+  else
+    install_all
+  fi
+}
+
+# This is only executed from install_modules_unit.sh because we have
+# some modules that is only required for puppet6 unit testing.
+# Uses the following variables:
+#
+# - ``PUPPETFILE_DIR`` must be set to Puppet modules directory
+# - ``SCRIPT_DIR`` must be set to script path
+# - ``ZUUL_BRANCH`` must be set to Zuul branch
+install_modules_unit() {
+  if [ -d /home/zuul/src/opendev.org ] ; then
+    csplit ${SCRIPT_DIR}/Puppetfile /'External modules'/ \
+      --prefix ${SCRIPT_DIR}/Puppetfile \
+      --suffix '%d'
+    cat ${SCRIPT_DIR}/Puppetfile_unit >> ${SCRIPT_DIR}/Puppetfile1
+    install_external
+    install_openstack
+  else
+    cat ${SCRIPT_DIR}/Puppetfile_unit >> ${SCRIPT_DIR}/Puppetfile
+    install_all
+  fi
+}
+
+# Write out basic hiera configuration
+#
+# Uses the following variables:
+# - ``SCRIPT_DIR`` must be set to the dir that contains a /hiera folder to use
+# - ``HIERA_CONFIG`` must be set to the hiera config file location
+#
+configure_hiera() {
+  cat <<EOF >$HIERA_CONFIG
+---
+version: 5
+defaults:
+  datadir: ${SCRIPT_DIR}/hiera
+  data_hash: yaml_data
+hierarchy:
+  - name: "OS specific"
+    path: "%{::operatingsystem}.yaml"
+  - name: "OS family specific"
+    path: "%{::osfamily}.yaml"
+  - name: "Common"
+    path: "common.yaml"
+EOF
+}
+
+is_fedora() {
+    if [ -f /etc/os-release ]; then
+        source /etc/os-release
+        test "$ID" = "fedora" -o "$ID" = "centos"
+    else
+        return 1
+    fi
+}
+
+uses_debs() {
+    # check if apt-get is installed, valid for debian based
+    type "apt-get" 2>/dev/null
+}
+
+if type "dnf" 2>/dev/null;then
+    export YUM=dnf
+else
+    export YUM=yum
+fi
+
+print_header() {
+    if [ -n "$(set | grep xtrace)" ]; then
+      set +x
+      local enable_xtrace='yes'
+    fi
+    local msg=$1
+    printf '%.0s-' {1..80}; echo
+    printf '| %-76s |\n' "${msg}"
+    printf '%.0s-' {1..80}; echo
+    if [ -n "${enable_xtrace}" ]; then
+      set -x
+    fi
+}
+
+install_puppet() {
+    if uses_debs; then
+        print_header 'Setup (Debian based)'
+        if [ "${MANAGE_REPOS}" == "true" ] ; then
+            PUPPET_CODENAME=$(lsb_release -s -c)
+            DISTRIBUTION_VENDOR=$(lsb_release -s -i)
+            # In Debian, we use the distro packages
+            if [ "${DISTRIBUTION_VENDOR}" = "Ubuntu" ] ; then
+                $SUDO mkdir -p /etc/apt/sources.list.d
+                echo "deb ${NODEPOOL_PUPPETLABS_MIRROR} ${PUPPET_CODENAME} puppet${PUPPET_MAJ_VERSION}" | $SUDO tee /etc/apt/sources.list.d/puppetlabs.list
+                $SUDO apt-key add files/GPG-KEY-puppetlabs
+                $SUDO apt-key add files/GPG-KEY-ceph
+                $SUDO apt-get update
+            fi
+        fi
+        # In Debian, the distro package name is simply "puppet"
+        # and there's no reason to have it in a variable.
+        if [ "${DISTRIBUTION_VENDOR}" = "Debian" ] ; then
+            $SUDO apt-get install -y puppet
+        else
+            $SUDO apt-get install -y ${PUPPET_PKG}
+        fi
+    elif is_fedora; then
+        print_header 'Setup (RedHat based)'
+        # EPEL does not work fine with RDO, we need to make sure EPEL is really disabled
+        if rpm --quiet -q epel-release; then
+            $SUDO $YUM remove -y epel-release
+        fi
+        source /etc/os-release
+        if [ "${MANAGE_REPOS}" == "true" ] ; then
+            $SUDO rpm --import ${NODEPOOL_PUPPETLABS_MIRROR}/RPM-GPG-KEY-puppetlabs
+            $SUDO rpm --import ${NODEPOOL_PUPPETLABS_MIRROR}/RPM-GPG-KEY-puppet
+            $SUDO rpm --import ${NODEPOOL_PUPPETLABS_MIRROR}/RPM-GPG-KEY-puppet-20250406
+            $SUDO bash -c "cat << EOF > /etc/yum.repos.d/puppetlabs.repo
+[puppetlabs-products]
+name=Puppet Labs Products El ${VERSION_ID} - x86_64
+baseurl=${NODEPOOL_PUPPETLABS_MIRROR}/puppet${PUPPET_MAJ_VERSION}/el/${VERSION_ID}/x86_64/
+gpgkey=${NODEPOOL_PUPPETLABS_MIRROR}/RPM-GPG-KEY-puppetlabs
+       ${NODEPOOL_PUPPETLABS_MIRROR}/RPM-GPG-KEY-puppet
+       ${NODEPOOL_PUPPETLABS_MIRROR}/RPM-GPG-KEY-puppet-20250406
+enabled=1
+gpgcheck=1
+EOF"
+        fi
+        $SUDO $YUM install -y ${PUPPET_PKG}
+    fi
+}
+
+function run_puppet() {
+    local manifest=$1
+    $SUDO $PUPPET_FULL_PATH apply $PUPPET_ARGS fixtures/${manifest}.pp
+    local res=$?
+    return $res
+}
+
+function catch_selinux_alerts() {
+    if is_fedora; then
+        sealert_cmd="$SUDO sealert -a /var/log/audit/audit.log"
+        retry_cmd "$sealert_cmd"
+        if $SUDO grep -iq 'type=AVC' /var/log/audit/audit.log; then
+            echo "AVC detected in /var/log/audit/audit.log"
+            source /etc/os-release
+            # TODO: figure why latest rabbitmq deployed with SSL tries to write in SSL pem file.
+            # https://bugzilla.redhat.com/show_bug.cgi?id=1341738
+            if $SUDO grep -iqE 'denied.*system_r:rabbitmq_t' /var/log/audit/audit.log; then
+                echo "non-critical RabbitMQ AVC, ignoring it now."
+            # FIXME(ykarel) catch_selinux_alerts not work with non ssl scenarios(no rabbitmq alert),
+            # currently running all scenarios without ssl in Fedora and CentOS8,
+            # because glance,nova,mistral py3 has issues when running with eventlet + ssl:
+            # glance https://bugs.launchpad.net/glance/+bug/1769006
+            # nova https://bugs.launchpad.net/nova/+bug/1808975
+            # mistral https://bugs.launchpad.net/mistral/+bug/1808953
+            elif [ -f /etc/fedora-release ] || [[ "${ID,,}" = "centos" ]]; then
+                echo "non ssl scenario, ignoring it now."
+            else
+                echo "Please file a bug on https://bugzilla.redhat.com/enter_bug.cgi?product=Red%20Hat%20OpenStack&component=openstack-selinux showing sealert output."
+                exit 1
+            fi
+        else
+            echo 'No AVC detected in /var/log/audit/audit.log'
+        fi
+    fi
+}
+
+function timestamp_puppet_log() {
+    $SUDO mv ${WORKSPACE}/puppet.log ${WORKSPACE}/puppet-$(date +%Y%m%d_%H%M%S).log
+}
+
+function catch_puppet_failures() {
+    $SUDO grep -wiE '(Error|\(err\))' ${WORKSPACE}/puppet.log
+}

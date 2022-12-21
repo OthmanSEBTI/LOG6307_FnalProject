@@ -1,0 +1,53 @@
+,sha,message,files
+0,6cc9a394128c2e067ddea2165cbd20952d42a2b3,Add dashboard,"['deployment_scripts/puppet/manifests/server.pp', 'deployment_scripts/puppet/modules/celebrer/manifests/dashboard.pp', 'deployment_scripts/puppet/modules/celebrer/manifests/params.pp']"
+1,14fde2371056c44542eb43c690969a62266f51e6,Integrate python client,"['deployment_scripts/puppet/manifests/server.pp', 'deployment_scripts/puppet/modules/celebrer/manifests/client.pp', 'deployment_scripts/puppet/modules/celebrer/manifests/params.pp']"
+2,7c0abae23e7d56bb8d2a54fc5237fd4ba8220189,Update version,['metadata.yaml']
+3,87856d3b0f630c1fb6b9535fcdafb631e45a7e5b,Update ha.pp,['tasks.yaml']
+4,3ec066f90b0cbb534f7e32ac2018d677907639c7,Update server.pp,['deployment_scripts/puppet/manifests/server.pp']
+5,cc7d29a1dcd8d425867d3dbb5edb174001b3f106,Update ha.pp,['deployment_scripts/puppet/manifests/ha.pp']
+6,2a3084ec282ece2c61c0586f33d3e9f0be2bd7b5,Update ha.pp,['deployment_scripts/puppet/manifests/ha.pp']
+7,0cd055c21b3c7f08ce7cb92dcec35a2bd2c4213a,Update ha.pp,['deployment_scripts/puppet/manifests/ha.pp']
+8,9f1079f9f6ab56e6a00bfd193fd9d434ed82d448,Update auth.pp,['deployment_scripts/puppet/modules/celebrer/manifests/keystone/auth.pp']
+9,f85a0043c0af160d08e01372ad1dabec117cfa34,Update keystone.pp,['deployment_scripts/puppet/manifests/keystone.pp']
+10,fc2f76d3ef4e44a6ad13da9fc61d9a574cba67d8,"Fix, change credentials to glance",['deployment_scripts/puppet/manifests/ha.pp']
+11,bc44920e63f3d75cc0aaaf9fbe1f27df92583da6,Update ha.pp,['deployment_scripts/puppet/manifests/ha.pp']
+12,b000cf9efae10134258fd519d87f9e8f324eaa91,Merge branch 'master' of github.com:Mirantis/fuel-plugin-celebrer,['deployment_scripts/puppet/modules/celebrer/manifests/keystone/auth.pp']
+13,7e379e17313b266d281b58317410e8280180e593,Adding HA-proxy supports.,"['deployment_scripts/puppet/manifests/ha.pp', 'tasks.yaml']"
+14,29ec0475d322c8189a594a7c04b2217745349fd0,Create auth.pp,['deployment_scripts/puppet/modules/celebrer/manifests/keystone/auth.pp']
+15,412024a20ff4b3c19d9babf69c172293952a6397,Adding keystone supports.,"['deployment_scripts/puppet/manifests/keystone.pp', 'tasks.yaml']"
+16,e0741b1e7bb432160d3475140db88ca1f34a0e6a,Update params.pp,['deployment_scripts/puppet/modules/celebrer/manifests/params.pp']
+17,379d534e0ee9557ef559535974d5fba0cc9dcf93,Update server.pp,['deployment_scripts/puppet/manifests/server.pp']
+18,96d848b438916edf2501a1b9afdb0f5d467339b9,Update init.pp,['deployment_scripts/puppet/modules/celebrer/manifests/init.pp']
+19,d4ccf8ffad5205a5c0f349d0755d03081f465e5b,Update db.pp,['deployment_scripts/puppet/modules/celebrer/manifests/db.pp']
+20,a3cfcaafd644a8339ec58e7a54f341a5f3c4b139,Update server.pp,['deployment_scripts/puppet/manifests/server.pp']
+21,bd3846717ba76e390570850d66a2ae55169db5ea,Update agent.pp,['deployment_scripts/puppet/manifests/agent.pp']
+22,399591e67206504d7c53e2088a767ee36ef2ef6a,Merge pull request #1 from degorenko/patch-1,['deployment_scripts/puppet/manifests/server.pp']
+23,99a9c8e0dfa2de0d434bd70e341f454d2c75d5c2,Update server.pp,['deployment_scripts/puppet/manifests/server.pp']
+24,6fc81818783666215c86c716b82d6da5083201db,Update server.pp,['deployment_scripts/puppet/manifests/server.pp']
+25,390efb95c65cd98ddfd077c76a8fd591513eda47,Update server.pp,['deployment_scripts/puppet/manifests/server.pp']
+26,0c901506e273f1032134a022fa6a6bad132ff895,Migrate to v2.0.0 FuelPlugin package version,"['.drone.yml', '.drone/build.sh', '.travis.sh', '.travis.yml', 'README.md', 'deployment_scripts/puppet/modules/celebrer/manifests/agent.pp', 'deployment_tasks.yaml', 'environment_config.yaml', 'metadata.yaml', 'repositories/ubuntu/.gitkeep', 'repositories/ubuntu/celebrer-agent_0.0.1.dev42-1_amd64.deb', 'tasks.yaml']"
+27,42f5c769ad20f156797e28190531b790708b14c6,Return to 13 commit,['.travis.yml']
+28,93f7d9b3e11db6bb7a8398d612a875e3b2bcf727,[Travis CI] Try to fix builds,['.travis.yml']
+29,d36bfb074578d09f69d8810ff9dde8e2d989750e,Fix typo,['LICENSE']
+30,ae148531dcc8bd0dc39169561c9b9ab97c48799e,Fix typo,['LICENSE']
+31,7d97e28261813cd673dd9d3e2af30a68632d3579,[Travis CI] Remove sudo requirements,['.travis.yml']
+32,131479f0c9f4a1a6b80bf0ef3fbb070038e789a6,[Travis CI] Fix method to install APT Packages,"['.travis.sh', '.travis.yml']"
+33,1a4e74a942a15835a957ae5181ba77a0d617a4a1,[Travis CI] Autosetup DNS servers,['.travis.sh']
+34,f7db932c2276a3b9b1f017d6f0caac041e1f62f5,[Travis CI] Adding update repos,['.travis.sh']
+35,71f28075e00651d7a7bb558bf2c6ad5eb2c0eda6,[Travis CI] Fix for adding sudo priveleges,['.travis.yml']
+36,e29448e2446eb2f8bcdf4e6e36913180df1b3c41,[Travis CI] Add sudo priveleges,['.travis.yml']
+37,195f0c3568841d98a6e690ec317330600f1f4b78,[Travis CI] Fix for plugin builder (implement autoinstall requre packages),['.travis.sh']
+38,58d9d2decd7098f534ac3d6522d16f7c992b708b,[Travis CI] Fix for plugin builder (implement autoinstall requre packages),['.travis.sh']
+39,04393b2c0d83eab0ce7a47ca12797ff55b23a69b,[Travis CI] Fix for autobuild and publish plugin implementation,['.travis.yml']
+40,494c9049e317138b8f205827c57a0d6eaafb39ed,Fix typo in filename,['.travis.yml']
+41,ea54ca926307eabb703f61e5a8ebaf964759f803,[Travis CI] Implement autobuild and publish plugin,"['.travis.sh', '.travis.yml']"
+42,1ddc7488b50420e8cc1c6c8392dcdfab5d37b60e,Temporary remove Drone CI Banner,['README.md']
+43,bcdf77041746a29512fa686d4b062d5fef2e2b44,[Travis CI] Remove 'fpb --build' implementation,['.travis.yml']
+44,2cd67c20e92c4ce7a071adb7f1ccb946f6ad0d76,[Travis CI] Implement testing deploy,['.travis.yml']
+45,e11ec840da3472bb82067ed8e9c284653a0c4590,[Travis CI] Implement validate checking,['.travis.yml']
+46,a9a35815bc034bf88e8b11161c97ecff9b4033d3,Add Travis CI supporting,"['.travis.yml', 'README.md']"
+47,5350b4d13ce10e53af1d307c1486791b48883d5a,Add Travis CI supporting,"['.travis.yml', 'README.md']"
+48,142fa3709b67bd1434c1cba470e58945dd0d6082,Add support for Drone CI,"['.drone.yml', '.drone/build.sh', 'README.md']"
+49,035b1ca2312312950a38ef7b8a69a00cd4ea7ccf,Update package and install procedure,"['deployment_tasks.yaml', 'repositories/ubuntu/celebrer-agent_0.0.1.dev42-1_amd64.deb']"
+50,ef15b82a99ba5d43c5f2793bd3b45fedbe2919d0,Change deployment tasks,['deployment_tasks.yaml']
+51,69cd8b7d3fd168db86a1747ea9caea5c919df2d4,Initial version,"['.gitignore', 'LICENSE', 'README.md', 'deployment_scripts/puppet/manifests/agent.pp', 'deployment_scripts/puppet/manifests/server.pp', 'deployment_scripts/puppet/modules/celebrer/lib/puppet/provider/celebrer_agent_config/ini_setting.rb', 'deployment_scripts/puppet/modules/celebrer/lib/puppet/provider/celebrer_config/ini_setting.rb', 'deployment_scripts/puppet/modules/celebrer/lib/puppet/provider/celebrer_paste_ini_config/ini_setting.rb', 'deployment_scripts/puppet/modules/celebrer/lib/puppet/type/celebrer_agent_config.rb', 'deployment_scripts/puppet/modules/celebrer/lib/puppet/type/celebrer_config.rb', 'deployment_scripts/puppet/modules/celebrer/lib/puppet/type/celebrer_paste_ini_config.rb', 'deployment_scripts/puppet/modules/celebrer/manifests/agent.pp', 'deployment_scripts/puppet/modules/celebrer/manifests/api.pp', 'deployment_scripts/puppet/modules/celebrer/manifests/db.pp', 'deployment_scripts/puppet/modules/celebrer/manifests/db/mysql.pp', 'deployment_scripts/puppet/modules/celebrer/manifests/db/sync.pp', 'deployment_scripts/puppet/modules/celebrer/manifests/engine.pp', 'deployment_scripts/puppet/modules/celebrer/manifests/init.pp', 'deployment_scripts/puppet/modules/celebrer/manifests/params.pp', 'deployment_tasks.yaml', 'environment_config.yaml', 'metadata.yaml', 'pre_build_hook', 'repositories/centos/.gitkeep', 'repositories/ubuntu/celebrer-agent_0.0.1.dev42-1_amd64.deb']"

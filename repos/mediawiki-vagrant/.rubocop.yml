@@ -1,0 +1,48 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  # Only enforce rules that have an entry in the style guide
+  StyleGuideCopsOnly: true
+  Exclude:
+    - 'cache/**/*'
+    - 'mediawiki/**/*'
+    - 'mediawiki-*/**/*'
+    - 'puppet/modules/activemq/**/*'
+    - 'puppet/modules/nginx/**/*'
+    - 'puppet/modules/stdlib/**/*'
+    - 'puppet/modules/wmflib/**/*'
+    - 'srv/**/*'
+    - 'tmp/**/*'
+    - 'Vagrantfile-extra.rb'
+    - 'vendor/**/*'
+
+# Please enable this when this offense is fixed
+#Metrics/LineLength:
+#  Max: 100
+
+Metrics/MethodLength:
+  Enabled: false
+
+Style/Alias:
+  Enabled: false
+
+# Ignoring for now as many instances of strictly aligned parameters look
+# strange
+Layout/ParameterAlignment:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/SignalException:
+  Enabled: false
+
+# Pick one and stay consistent
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/TrivialAccessors:
+  ExactNameMatch: true
+
+Style/WordArray:
+  Enabled: false

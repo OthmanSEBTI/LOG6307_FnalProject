@@ -1,0 +1,69 @@
+{
+    "author": "Puppet Labs and OpenStack Contributors",
+    "dependencies": [
+        {
+            "name": "puppetlabs/apache",
+            "version_requirement": ">=5.0.0 <9.0.0"
+        },
+        {
+            "name": "puppetlabs/concat",
+            "version_requirement": ">=1.0.0 <8.0.0"
+        },
+        {
+            "name": "puppetlabs/inifile",
+            "version_requirement": ">=2.0.0 <6.0.0"
+        },
+        {
+            "name": "puppetlabs/stdlib",
+            "version_requirement": ">=5.0.0 <9.0.0"
+        },
+        {
+            "name": "openstack/openstacklib",
+            "version_requirement": ">=21.0.0 <22.0.0"
+        },
+        {
+            "name": "openstack/oslo",
+            "version_requirement": ">=21.0.0 <22.0.0"
+        }
+    ],
+    "description": "Installs and configures OpenStack Keystone (Identity).",
+    "issues_url": "https://bugs.launchpad.net/puppet-keystone",
+    "license": "Apache-2.0",
+    "name": "openstack-keystone",
+    "operatingsystem_support": [
+        {
+            "operatingsystem": "Debian",
+            "operatingsystemrelease": [
+                "11"
+            ]
+        },
+        {
+            "operatingsystem": "RedHat",
+            "operatingsystemrelease": [
+                "9"
+            ]
+        },
+        {
+            "operatingsystem": "CentOS",
+            "operatingsystemrelease": [
+                "9"
+            ]
+        },
+        {
+            "operatingsystem": "Ubuntu",
+            "operatingsystemrelease": [
+                "20.04"
+            ]
+        }
+    ],
+    "project_page": "https://launchpad.net/puppet-keystone",
+    "requirements": [
+        {
+            "name": "puppet",
+            "version_requirement": ">= 6.0.0 < 8.0.0"
+        }
+    ],
+    "source": "https://opendev.org/openstack/puppet-keystone.git",
+    "summary": "Puppet module for OpenStack Keystone",
+    "version": "21.0.0"
+}

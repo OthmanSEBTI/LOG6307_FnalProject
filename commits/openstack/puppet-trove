@@ -1,0 +1,695 @@
+8838f7fa8c6c3b900f636878fcabeb9446c92cd9|Remove trove::default_neutron_networks|Tue, 15 Nov 2022 11:09:01 +0900|Tue, 15 Nov 2022 11:09:01 +0900
+a824170d550b20939fd92cc605504ee74a0b742e|Update master for stable/zed|Thu, 20 Oct 2022 11:13:18 +0000|Thu, 20 Oct 2022 11:13:18 +0000
+39e94a5d4621b19da6ca09848d2f3e6eaa1bc262|Prepare Zed RC1|Wed, 5 Oct 2022 18:34:39 +0900|Wed, 5 Oct 2022 18:34:39 +0900
+d76efc7787bdf8a840f41453edf3b2aa3386efc2|Remove deprecated trove::guestagent::control_exchange|Thu, 29 Sep 2022 08:52:46 +0900|Thu, 29 Sep 2022 08:54:05 +0900
+28089130676cabff3ae8f04a49970c5f09a43410|Enable memcached in acceptance tests|Wed, 7 Sep 2022 01:02:13 +0900|Wed, 7 Sep 2022 01:02:13 +0900
+bf850af7af665c68a39564e1c8fde55860a48aaa|Merge "Revert "CentOS 9: Disable unit tests dependent on puppet-postgresql""|Mon, 25 Jul 2022 23:39:58 +0000|Mon, 25 Jul 2022 23:39:58 +0000
+41323ef4adb9bf0733c4bee531e19b1fb62068b7|Merge "Remove resource types for per-daemon config files"|Mon, 25 Jul 2022 16:03:11 +0000|Mon, 25 Jul 2022 16:03:11 +0000
+89a5440fd4bfc160837a2d962d6c7a6f368f0802|Revert "CentOS 9: Disable unit tests dependent on puppet-postgresql"|Sun, 24 Jul 2022 01:01:44 +0900|Sun, 24 Jul 2022 01:02:16 +0900
+dd4cefe338edd5ceba9ad4c49e5fe97fa89191b2|Merge "Add acceptance tests for config management resources"|Fri, 15 Jul 2022 19:37:27 +0000|Fri, 15 Jul 2022 19:37:27 +0000
+4d59d16be52af313d006550a9e8b5cb612fdd3b3|Remove resource types for per-daemon config files|Sat, 9 Jul 2022 22:49:04 +0900|Fri, 15 Jul 2022 18:05:59 +0900
+f2896b839fee10017b2bf07a820d308729fa7747|Fix wrong test description|Fri, 15 Jul 2022 11:56:21 +0900|Fri, 15 Jul 2022 11:56:21 +0900
+ff05673016226cdbba8e1b0f41fdce1bf7bf8b36|Add acceptance tests for config management resources|Sat, 9 Jul 2022 22:45:19 +0900|Sun, 10 Jul 2022 12:55:55 +0900
+8b7be7308835d892dac366f950a9f41a4eed14a1|Merge "api: Remove redundant default values"|Tue, 28 Jun 2022 14:37:55 +0000|Tue, 28 Jun 2022 14:37:55 +0000
+0dbb89d7977336680889382959e82e46703162b3|Merge "Avoid hard-coding default of http_*_rate parameters"|Tue, 28 Jun 2022 14:23:57 +0000|Tue, 28 Jun 2022 14:23:57 +0000
+4eb44b5e2c79fe39220655b39540575f6fde3e9c|Merge "Rename default_neutron_networks"|Tue, 28 Jun 2022 14:23:53 +0000|Tue, 28 Jun 2022 14:23:53 +0000
+13636527400333a663709755ba710fbbcbf18ee3|Merge "Remove deprecated database options"|Tue, 28 Jun 2022 14:23:50 +0000|Tue, 28 Jun 2022 14:23:50 +0000
+a1d2c1ef1eca974fef516067bb62857504c29ed4|Merge "Remove use_neutron parameter"|Tue, 28 Jun 2022 14:23:48 +0000|Tue, 28 Jun 2022 14:23:48 +0000
+f28094de5307f6db55d2c8a6248e6b1938a915b3|api: Remove redundant default values|Fri, 24 Jun 2022 18:19:00 +0900|Fri, 24 Jun 2022 18:20:25 +0900
+df1c3e258ee664c3dacf11c72cf263ac38e56b80|Avoid hard-coding default of http_*_rate parameters|Fri, 24 Jun 2022 18:15:18 +0900|Fri, 24 Jun 2022 18:15:18 +0900
+667028ea266a536f60d71e6aa24b3c9cccdd9ba8|Remove support for CentOS 8 Stream|Wed, 1 Jun 2022 14:05:59 +0900|Wed, 1 Jun 2022 14:05:59 +0900
+6111841dd1da5544b99cda03d2a9ace56c2d8cf5|Add CentOS/RHEL 9 to supported operating systems|Wed, 1 Jun 2022 14:04:53 +0900|Wed, 1 Jun 2022 14:04:53 +0900
+74881548a4315b09fa9488a94a70fa865b7b5d42|Rename default_neutron_networks|Sat, 21 May 2022 12:21:37 +0900|Sat, 21 May 2022 06:48:52 +0000
+7d5e85200aae972efece21b7779a1e5065490a34|Remove deprecated database options|Fri, 20 May 2022 22:41:09 +0900|Sat, 21 May 2022 04:31:55 +0000
+18a4e46704df2cd83f407f6bee57de3922e926a1|Remove use_neutron parameter|Fri, 20 May 2022 22:36:54 +0900|Sat, 21 May 2022 12:24:20 +0900
+4d87fa2c694adb33607fa33273faa849792351b1|Clean up deprecated items related to conductor/taskmanager|Tue, 19 Apr 2022 11:10:49 +0900|Fri, 22 Apr 2022 13:42:46 +0000
+b5d6abdcbd5c5e84d7321460d8846a1d8cf86306|Update master for stable/yoga|Tue, 5 Apr 2022 09:16:04 +0000|Tue, 5 Apr 2022 09:16:04 +0000
+de17c05a96a10982e1162a47cfbfa29577103037|setuptools: Disable auto discovery|Tue, 29 Mar 2022 10:42:49 +0200|Tue, 29 Mar 2022 10:42:57 +0200
+59b44a838de69e295e33ff93e985c540c323e079|Merge "Avoid testing details of oslo::messaging(::*)"|Fri, 18 Mar 2022 21:50:08 +0000|Fri, 18 Mar 2022 21:50:08 +0000
+e6686c48a9fa95cbe62e444246cfad91f58aad56|Merge "guestagent: Deprecate the backup_aes_cbc_key parameter"|Fri, 18 Mar 2022 09:29:05 +0000|Fri, 18 Mar 2022 09:29:05 +0000
+b732428800b464128db2f4a919ef87e3544bedf0|Merge "guestagent: Fix reference to trove::* parameters"|Fri, 18 Mar 2022 09:29:02 +0000|Fri, 18 Mar 2022 09:29:02 +0000
+9d0381ab81f10a3edfe2537a6c3a9528f2581e86|Avoid testing details of oslo::messaging(::*)|Fri, 18 Mar 2022 12:46:15 +0900|Fri, 18 Mar 2022 13:50:07 +0900
+4c6e5c9d76e142b3544a3eed07dcea5a2b75537a|Disable trove-guestagent service by default|Thu, 17 Mar 2022 13:27:53 +0900|Thu, 17 Mar 2022 15:23:59 +0900
+977c0dc0e537286810828c785b1ef1c404df6fd2|guestagent: Deprecate the backup_aes_cbc_key parameter|Thu, 17 Mar 2022 10:40:39 +0900|Thu, 17 Mar 2022 10:40:39 +0900
+2b4efd122f421f69c12d607ae3856d47b901f5f4|guestagent: Fix reference to trove::* parameters|Thu, 17 Mar 2022 10:37:45 +0900|Thu, 17 Mar 2022 10:37:45 +0900
+ecebc7e11c658abdb5ac18d47a825ae4dc0faa44|Prepare Yoga RC1|Sat, 12 Mar 2022 00:31:06 +0900|Sun, 13 Mar 2022 10:24:30 +0000
+f35dc66ff33ddd21ce74606c673c0c800d37d611|Globally support system scope credentials|Fri, 4 Mar 2022 08:33:27 +0900|Fri, 11 Mar 2022 05:17:13 +0000
+967522885aa987f204129ea8919c2d0779bc9aca|Clean up deprecated keystone v2 parameters|Fri, 4 Mar 2022 08:14:31 +0900|Fri, 11 Mar 2022 05:17:03 +0000
+476d5efd18636581f580d9c840b0fe0088ac06e5|Merge "Deprecate database parameters of the base class"|Fri, 11 Mar 2022 00:58:52 +0000|Fri, 11 Mar 2022 00:58:52 +0000
+9032b00c2881b881ea81d330f376794b2f9aac6f|Merge "Deprecate the use_neutron parameter"|Fri, 11 Mar 2022 00:46:22 +0000|Fri, 11 Mar 2022 00:46:22 +0000
+32d22efab535b51f6d635a2764f5a461990f1abc|Merge "Use single trove.conf for api, conductor and taskmanager"|Fri, 11 Mar 2022 00:46:20 +0000|Fri, 11 Mar 2022 00:46:20 +0000
+8b00efde40078d1c5fbf2fca0f8c3da9b74737a7|remove unicode literal from code|Tue, 8 Mar 2022 09:26:20 +0900|Tue, 8 Mar 2022 09:26:20 +0900
+a1f85ce1ef33f2d1f8c9bfe89e84d4f8a32248c0|Deprecate database parameters of the base class|Thu, 24 Feb 2022 00:05:49 +0900|Mon, 7 Mar 2022 23:57:33 +0000
+ddb0f14f95156c483c499fe95982d2e5777b236f|Deprecate the use_neutron parameter|Wed, 23 Feb 2022 23:10:10 +0900|Mon, 7 Mar 2022 23:57:24 +0000
+f1c11c68d56e4f1ad5125fa0df04ab91d929cd33|Use single trove.conf for api, conductor and taskmanager|Wed, 23 Feb 2022 22:14:06 +0900|Mon, 7 Mar 2022 23:56:02 +0000
+4b4816ab143e57d1fdac0ea9100283690497951e|Merge "Do not define service resource when service management is disabled"|Thu, 3 Mar 2022 11:50:57 +0000|Thu, 3 Mar 2022 11:50:57 +0000
+773cd0ee470b061a03ef4d0db4ad8c9ac3e11c5a|Merge "Use openstack CLI instad of trove CLI"|Thu, 3 Mar 2022 11:50:55 +0000|Thu, 3 Mar 2022 11:50:55 +0000
+a0eeadb47cc3163870f93669bf8d195e3aaafae1|Prepare Yoga M3|Thu, 24 Feb 2022 16:13:08 +0800|Thu, 24 Feb 2022 16:13:08 +0800
+b463bd2e09ef48d17ba6ba32a3087224375b046b|Merge "Avoid hard-coding OS user/group in each manifest"|Tue, 22 Feb 2022 20:36:38 +0000|Tue, 22 Feb 2022 20:36:38 +0000
+93551f863cf13777dab94c2123fb04fa22a45758|Use openstack CLI instad of trove CLI|Tue, 22 Feb 2022 01:05:15 +0900|Wed, 23 Feb 2022 00:32:00 +0900
+8fcf75c9063dc112256efa02322025f8d17e2ad9|Do not define service resource when service management is disabled|Mon, 21 Feb 2022 23:27:59 +0900|Mon, 21 Feb 2022 23:27:59 +0900
+00064f41d2e4c068dab10744a7ceb013af15edb4|Avoid hard-coding OS user/group in each manifest|Mon, 21 Feb 2022 01:42:48 +0900|Mon, 21 Feb 2022 01:42:48 +0900
+446b1cb2621da6a478f194b4904da8871df9fce1|Merge "Remove deprecated database_min_pool_size"|Fri, 18 Feb 2022 09:59:49 +0000|Fri, 18 Feb 2022 09:59:49 +0000
+46b2bb7d1426e192d471705109aa593414906c10|Merge "Remove deprecated amqp_allow_insecure_clients"|Fri, 18 Feb 2022 09:59:47 +0000|Fri, 18 Feb 2022 09:59:47 +0000
+d07a47d2cbc51456a89936c3751013297fac96e9|CentOS 9: Disable unit tests dependent on puppet-postgresql|Wed, 16 Feb 2022 00:29:43 +0900|Wed, 16 Feb 2022 00:29:43 +0900
+538f6d5237c5a47b27a3f969891f3f70206803f8|Allow customizing separator for api-paste.ini|Sun, 13 Feb 2022 01:37:56 +0900|Sun, 13 Feb 2022 01:37:56 +0900
+e41f8f7c8263fd8292cb20d0ee60e67d5a3469fa|Remove deprecated database_min_pool_size|Tue, 8 Feb 2022 22:38:30 +0900|Tue, 8 Feb 2022 22:38:54 +0900
+37183b1584218f830062bc222728d18e0476abd5|Remove deprecated amqp_allow_insecure_clients|Tue, 8 Feb 2022 22:26:57 +0900|Tue, 8 Feb 2022 22:28:19 +0900
+69eb2582c16733f1d796af284cc9c326b6d2c6af|Simplify definition to ensure keystone resource creation|Mon, 7 Feb 2022 00:22:42 +0900|Mon, 7 Feb 2022 00:22:42 +0900
+95f516939391a0e0747348cf391c496103c39497|Accept system scope credentials for Keystone API request|Tue, 25 Jan 2022 10:43:40 +0900|Tue, 25 Jan 2022 10:54:14 +0900
+2eb937c16cf63fc7faed236f6ed131c2aaf392ea|Merge "Add support for [keystone_authtoken] service_type"|Mon, 24 Jan 2022 18:50:27 +0000|Mon, 24 Jan 2022 18:50:27 +0000
+d922697212d47c3ac6b985f30daee9f09dc6f520|Merge "Do not test authtoken parameters directly"|Mon, 24 Jan 2022 17:41:49 +0000|Mon, 24 Jan 2022 17:41:49 +0000
+2a28f521ecfe54113d20015a1d22ba33648309b0|Do not test detail of keystone::auth::service_identity|Mon, 24 Jan 2022 15:24:12 +0900|Mon, 24 Jan 2022 15:25:00 +0900
+8b5cb8c0a3173a69135e22985c5e0cd8d69fdbf3|Add support for [keystone_authtoken] service_type|Mon, 24 Jan 2022 13:11:10 +0900|Mon, 24 Jan 2022 13:12:55 +0900
+69eca59c78e7c054f429b6620f603526df2cd3bf|Do not test authtoken parameters directly|Mon, 24 Jan 2022 11:45:02 +0900|Mon, 24 Jan 2022 13:12:55 +0900
+caab4a92864bb5538028049db99415a1786cd835|Merge "Fix ignored auth_url parameters"|Mon, 10 Jan 2022 20:22:21 +0000|Mon, 10 Jan 2022 20:22:21 +0000
+4b3962b803dd973a1f2759949be5f6e4d4f17d16|Fix ignored auth_url parameters|Sat, 8 Jan 2022 12:58:05 +0900|Sat, 8 Jan 2022 12:58:05 +0900
+1d3b078576a4a16444d9bffc346ab03a8bcdf9d4|Prepare Yoga M2|Wed, 1 Dec 2021 14:42:53 +0800|Fri, 7 Jan 2022 14:23:30 +0000
+d3dc5a0ba78c286d16ea9c59a5ae7da4caaf09cd|Load libraries in a single place|Mon, 27 Dec 2021 11:05:27 +0900|Mon, 27 Dec 2021 16:26:02 +0900
+700c7dac77231ba3a096a280daad3f7fb8e0e7e7|Add support for MultiStrOpt|Mon, 27 Dec 2021 13:23:07 +0900|Mon, 27 Dec 2021 16:25:40 +0900
+f90f915599bd95d97b0ef3e9f7f91b9bb97ef31a|Fix dependencies related to openstacklib::policy|Mon, 29 Nov 2021 10:00:05 +0900|Mon, 29 Nov 2021 10:00:05 +0900
+a60d2fff19e48fd10b69a8722d88ebd318de66eb|Bump puppetlabs-inifile|Tue, 2 Nov 2021 13:11:21 +0900|Tue, 2 Nov 2021 13:11:21 +0900
+83cbeabafa4fc374704d8385d00bb3d78de04f3a|Bump version for the start of Yoga|Mon, 11 Oct 2021 11:55:42 +0900|Mon, 11 Oct 2021 11:55:42 +0900
+96deac13ab780c1b14692b9d03bbaf40b97e2aba|Update master for stable/xena|Thu, 7 Oct 2021 08:29:34 +0000|Thu, 7 Oct 2021 08:29:34 +0000
+1cadc20de097bfc7f14c200437305773db566783|Add information technology in the setup.cfg|Fri, 1 Oct 2021 06:54:50 +0800|Fri, 1 Oct 2021 06:54:50 +0800
+0c72e00869327976933d1e3248dfdd611cf18adf|Add license information in the setup.cfg|Thu, 30 Sep 2021 16:48:14 +0800|Thu, 30 Sep 2021 16:48:14 +0800
+8b5efeefdda0c899778fab167411e6f16afe2846|Delete useless code for setup.py|Thu, 30 Sep 2021 13:38:33 +0800|Thu, 30 Sep 2021 13:38:33 +0800
+deb10244e4349f6585c3897e80ff32a6f4279748|Stop configuring install_command in tox.|Wed, 29 Sep 2021 18:21:19 +0900|Wed, 29 Sep 2021 18:21:19 +0900
+6c6c43d66e07f6d33a4ea2397c55442ab38afed5|Merge "Fix pbr>=2.0.0 for setup.py"|Wed, 29 Sep 2021 09:07:29 +0000|Wed, 29 Sep 2021 09:07:29 +0000
+c684e889f94b9862bb57f35b9652b8b17bc07f90|Fix pbr>=2.0.0 for setup.py|Wed, 29 Sep 2021 16:37:10 +0800|Wed, 29 Sep 2021 16:37:10 +0800
+dd5a612963629810a00fdcb24c64633b67f4afd2|Update openstackdocstheme to the latest version|Wed, 29 Sep 2021 16:06:51 +0800|Wed, 29 Sep 2021 16:06:51 +0800
+7c072e7f8087c971796a4e7b3987301d52b98aed|Update reno to the latest version|Tue, 28 Sep 2021 17:14:35 +0800|Tue, 28 Sep 2021 17:14:35 +0800
+38079785edc374f65968623673c57c7753c2f241|metadata.json: debian 11|Tue, 28 Sep 2021 09:20:36 +0800|Tue, 28 Sep 2021 09:20:36 +0800
+5516ff56bedec7be68597d7666afa9c1ced848b2|Fix stdlib version in metadata|Thu, 23 Sep 2021 19:44:23 +0800|Thu, 23 Sep 2021 19:44:23 +0800
+f5ba799ce0b5f94019ba67c35a35a8b105c2fc7f|Prepare Xena RC1|Fri, 17 Sep 2021 17:36:10 +0800|Fri, 17 Sep 2021 17:36:10 +0800
+3c26187e671fa8a328cfe6c7515479eaa7fbd5a7|Add watch_log_file option|Tue, 14 Sep 2021 16:02:09 +0800|Tue, 14 Sep 2021 16:02:09 +0800
+51294c92aaf13c93fa74737d8889ec56cd1a872e|Merge "Allow purging policy files"|Fri, 10 Sep 2021 08:10:54 +0000|Fri, 10 Sep 2021 08:10:54 +0000
+b305a80e69bfb3a85551c36ba38bccec3272fb26|Prepare Xena M3|Mon, 6 Sep 2021 15:32:08 +0800|Mon, 6 Sep 2021 15:32:08 +0800
+53ac7d78a3383052a030091d26034cbe8406f584|Allow purging policy files|Sat, 4 Sep 2021 22:19:58 +0900|Sat, 4 Sep 2021 22:20:01 +0900
+31e26658de2a4c87ff68f72715ca5ade83ecabd3|Support Puppet 7|Mon, 16 Aug 2021 18:15:58 +0900|Mon, 16 Aug 2021 18:15:58 +0900
+e8dfa10ed23c99f5cc67b2ff03d9ab01c6a123ab|Merge "Use Block Storage API v3 by default"|Tue, 27 Jul 2021 16:53:55 +0000|Tue, 27 Jul 2021 16:53:55 +0000
+5bb05bf9af5b547cfae3b0f3e2d8c734052bb4a0|Use Block Storage API v3 by default|Tue, 27 Jul 2021 11:17:15 +0900|Tue, 27 Jul 2021 22:23:17 +0900
+68616f112024d8f4553e36683ddd00fb95771b85|Prepare Xena M2|Mon, 26 Jul 2021 19:03:47 +0800|Mon, 26 Jul 2021 19:03:47 +0800
+56b1669a1ba50bd1d4e6f7ff76ffdc9777f7f9a1|Drop Fedora support|Sat, 12 Jun 2021 15:22:16 +0800|Mon, 14 Jun 2021 10:35:15 +0000
+4d2d6bfe8e45b9702af2484848bab4ec1e925fe4|Get rid of the $pyvers variable|Mon, 14 Jun 2021 09:37:56 +0200|Mon, 14 Jun 2021 09:38:24 +0200
+b07c761623d00d6ab5572853862bd74575f61e54|Merge "Set fixture paths for unit tests"|Thu, 3 Jun 2021 00:14:53 +0000|Thu, 3 Jun 2021 00:14:53 +0000
+fe0f6508c45e0a0f1b6061f3d7b8ed6299691958|Set fixture paths for unit tests|Wed, 2 Jun 2021 14:26:17 +0900|Wed, 2 Jun 2021 14:26:20 +0900
+cdc59e19f0b0da57ceebbe66560ce505abe5949b|Prepare Xena M1|Thu, 27 May 2021 15:50:28 +0800|Thu, 27 May 2021 15:50:28 +0800
+7344f7c463d7f882684e2830f464211efdbfe9a5|setup.cfg: Replace dashes with underscores|Tue, 11 May 2021 18:42:12 +0900|Tue, 11 May 2021 18:42:12 +0900
+21dbc240b138fa2cc468a88d495b5d5685d54bcf|Bump version for the start of Xena|Thu, 29 Apr 2021 09:38:15 +0800|Thu, 29 Apr 2021 09:38:15 +0800
+8781fa19ea9a439a192612aea6109b405a787ef4|Merge "Bump dependency in metadata.json"|Tue, 13 Apr 2021 09:33:11 +0000|Tue, 13 Apr 2021 09:33:11 +0000
+a4f4412946112a0c0dfda749c2a9b1cc38f228fb|Allow to configure policy_dirs|Sun, 11 Apr 2021 23:49:06 +0200|Sun, 11 Apr 2021 23:49:39 +0200
+3ea46aaff1fa932ecf47bfd8d418676e05d4c068|Bump dependency in metadata.json|Thu, 8 Apr 2021 21:10:32 +0200|Thu, 8 Apr 2021 21:10:41 +0200
+d3bdda4aff03d4e98699691a9b36c8c1c378eeaf|Update master for stable/wallaby|Thu, 1 Apr 2021 09:38:11 +0000|Thu, 1 Apr 2021 09:38:11 +0000
+8b9e0802b8c1fde4895edc0d8c59c6d52d48ea11|Update sphinx to the latest version|Sat, 27 Mar 2021 15:31:58 +0800|Sat, 27 Mar 2021 15:31:58 +0800
+935fb60e58b519a02b1764331ac0635e5f049735|Prepare Wallaby RC1|Fri, 26 Mar 2021 11:24:17 +0800|Fri, 26 Mar 2021 11:24:17 +0800
+e5ac8399d8edb38d356eb94128b875668dbbb34f|Merge "Add support for oslo_policy/enforce_new_defaults"|Wed, 24 Mar 2021 16:18:06 +0000|Wed, 24 Mar 2021 16:18:06 +0000
+36e792e94d17f20b530b0a0eb377dc178358d684|Merge "Add support for the oslo_policy/enforce_scope parameter"|Wed, 24 Mar 2021 16:14:21 +0000|Wed, 24 Mar 2021 16:14:21 +0000
+8591466c660ddad5b018d1f8b62b79a536338b91|Add support for oslo_policy/enforce_new_defaults|Wed, 24 Mar 2021 18:23:57 +0900|Wed, 24 Mar 2021 18:37:45 +0900
+77fb34e43ef5d5312654344fff5d681d7d72e37b|Add support for the oslo_policy/enforce_scope parameter|Wed, 24 Mar 2021 18:36:37 +0900|Wed, 24 Mar 2021 18:36:37 +0900
+2e81e9fd30d3993e555f6c43727a8c1246fb89ae|Update supported Ubuntu version to Focal|Tue, 23 Mar 2021 21:44:51 +0900|Tue, 23 Mar 2021 21:44:51 +0900
+82b53aed5c40fae6cb503df2db88dfe51dd7230d|Prepare Wallaby M3|Fri, 12 Mar 2021 14:35:44 +0800|Fri, 12 Mar 2021 14:35:44 +0800
+68f32eb70a65e12b4f0e07d49165433b7e42f913|Prepare Wallaby M2|Tue, 19 Jan 2021 11:19:35 +0800|Tue, 19 Jan 2021 11:19:35 +0800
+19a24023891d4619d78ea418a1e9caed9e4d6ebf|Use yaml instead of json for policy file|Tue, 29 Dec 2020 17:01:09 +0900|Thu, 7 Jan 2021 23:08:29 +0000
+67d06ede879af4ca514548451cf69acb4592cb2f|Support new max_ram_per_tenant quota option|Mon, 7 Dec 2020 16:17:52 +1100|Mon, 7 Dec 2020 16:20:06 +1100
+2bbf23cbf615ac24000876e71e1173fe01e67743|Prepare Wallaby M1|Fri, 4 Dec 2020 13:31:38 +0800|Fri, 4 Dec 2020 13:31:38 +0800
+0cb3a8b007dc6e417d36d2debf2a44b54fec3cda|Allow db sync timeouts to be configurable|Mon, 23 Nov 2020 09:27:52 +0800|Mon, 23 Nov 2020 09:27:52 +0800
+11161fe3227a4cf15732f6c61d63e9b9fd206707|Replace deprecated UPPER_CONSTRAINTS_FILE variable|Wed, 11 Nov 2020 09:08:36 +0800|Wed, 11 Nov 2020 09:08:36 +0800
+8cee8b5ecac0f4135428239a3c3b4439483dc792|Deprecate allow_insecure_clients option|Mon, 2 Nov 2020 14:42:04 +0800|Mon, 2 Nov 2020 15:33:44 +0800
+9f5c04b58da7d573da503b8ed4efdc699562e544|Fix outdated files|Wed, 28 Oct 2020 10:40:09 +0800|Wed, 28 Oct 2020 10:40:09 +0800
+00503dee0aac489d787fd182484cf12fcfefe40c|Bump version for the start of Wallaby|Thu, 15 Oct 2020 09:42:50 +0800|Thu, 15 Oct 2020 09:42:50 +0800
+ad0746de5b0e44160e67169ff7aedb4c14498b91|Include deps class in unit test for postgresql|Sat, 10 Oct 2020 09:31:12 +0800|Sat, 10 Oct 2020 09:31:12 +0800
+b416434eb4543eb1d42f551a1cc1dd34643895f6|Merge "Update master for stable/victoria"|Fri, 9 Oct 2020 07:27:30 +0000|Fri, 9 Oct 2020 07:27:30 +0000
+c57da574d096d9a7e6e9e6a4b11ca43eb4829320|Include deps class in unit test for mysql|Fri, 9 Oct 2020 09:59:55 +0800|Fri, 9 Oct 2020 09:59:55 +0800
+fe3e585112cd7bcfd1a3f84a137aab52648e7057|Update master for stable/victoria|Thu, 8 Oct 2020 14:48:10 +0000|Thu, 8 Oct 2020 14:48:10 +0000
+d31526fb6e670fc0706ec9a74729cf0e6661ba07|Prepare Victoria RC1|Thu, 24 Sep 2020 10:48:54 +0800|Thu, 24 Sep 2020 10:48:54 +0800
+9513b2768a95073ae939a0baea3e9c8e9a039b47|Set openstackdocs_auto_name to use 'project' as name|Wed, 16 Sep 2020 11:05:05 +0800|Wed, 16 Sep 2020 11:05:05 +0800
+7e4bddccd2cef8a377d956d93110ea8f0a5bc446|Merge "Add Puppet Litmus"|Fri, 11 Sep 2020 21:01:51 +0000|Fri, 11 Sep 2020 21:01:51 +0000
+1de53afc37da2d86732cf82465f2d52088d1e866|Add Puppet Litmus|Mon, 31 Aug 2020 22:02:01 +0200|Fri, 11 Sep 2020 10:14:39 +0000
+1fcad83da8255aac7bcad1fd5683c14f67b89bd7|Prepare Victoria M3|Tue, 8 Sep 2020 09:18:03 +0800|Tue, 8 Sep 2020 09:18:03 +0800
+5168c8c123d08ff3c1dcd11e2635252eb0396597|Merge "Use openstack_spec_helper from zuul checkout"|Mon, 31 Aug 2020 15:27:21 +0000|Mon, 31 Aug 2020 15:27:21 +0000
+47d8b0f264d99391ee63c6718398c5f30e0d4063|Do not validate database_connection format|Mon, 31 Aug 2020 17:57:44 +0900|Mon, 31 Aug 2020 17:57:44 +0900
+5ecaaaa6aedbfe281028f5997c9c12a15d9ebfea|Use openstack_spec_helper from zuul checkout|Sun, 30 Aug 2020 23:07:14 +0200|Sun, 30 Aug 2020 23:07:14 +0200
+f6a0c6413d6aa539201f3bdbceaa2287e1b4b99b|Merge "Add mysql_enable_ndb option"|Thu, 27 Aug 2020 13:55:47 +0000|Thu, 27 Aug 2020 13:55:47 +0000
+97668a0d9399d0ef4ff320d8a33ed19d3d7a789e|Merge "Use common class to manage apache service in beaker job"|Thu, 27 Aug 2020 08:33:07 +0000|Thu, 27 Aug 2020 08:33:07 +0000
+ecce3cb65a8de35813e01ba2290f37fa67ea1359|Use common class to manage apache service in beaker job|Thu, 27 Aug 2020 12:08:38 +0900|Thu, 27 Aug 2020 12:08:38 +0900
+f6d7eb879450f642c1af9c3a86bb9c10bd9136b4|Add mysql_enable_ndb option|Wed, 26 Aug 2020 11:53:17 +0800|Wed, 26 Aug 2020 11:56:36 +0800
+1afa1afac188cf759190f23fd20469bc424860ee|Add service_token_roles for keystone authtoken config|Thu, 20 Aug 2020 10:41:27 +0800|Thu, 20 Aug 2020 10:41:27 +0800
+32c6e742ae9cca99ab8e4774ec943fc7d1d9d2fc|Merge "Cleanup deperecated per_user parameters from trove::quota"|Thu, 30 Jul 2020 16:04:09 +0000|Thu, 30 Jul 2020 16:04:09 +0000
+d83d7404dfddaf5314c5af1f011a3487cc0a70c8|Prepare Victoria M2|Thu, 30 Jul 2020 13:35:29 +0800|Thu, 30 Jul 2020 13:35:29 +0800
+55da9540026effd864ac6f1a16faf79d0a1432dc|Cleanup deperecated per_user parameters from trove::quota|Tue, 28 Jul 2020 20:48:02 +0900|Tue, 28 Jul 2020 20:49:02 +0900
+7585243d3f60b4a7abd1037f7aa58aa3cd387bae|Add support for the interface parameter in authtoken middleware|Thu, 16 Jul 2020 18:06:54 +1000|Thu, 16 Jul 2020 21:28:49 +1000
+05a2bd8514c9ac5ff9aded5234968dcea0f9a276|Change to relative include|Mon, 13 Jul 2020 21:24:44 +0200|Mon, 13 Jul 2020 23:45:55 +0200
+3fc1d517547e0a55ccc7be7b866ad44ec3d688ae|Prepare Victoria M1|Fri, 19 Jun 2020 10:38:55 +0800|Fri, 19 Jun 2020 10:38:55 +0800
+aee29abc9665493c456aec17e1f8fcfda86bca41|Switch to newer openstackdocstheme and reno versions|Tue, 2 Jun 2020 15:03:47 +0200|Tue, 2 Jun 2020 15:03:47 +0200
+257c933f8f3edd7a8431cc9f8045bc27abcc65c7|Update Puppet requirement to >= 6.0.0|Sat, 30 May 2020 09:58:09 +0200|Sat, 30 May 2020 09:58:09 +0200
+b4df8bf68dcd87144dd66d9952f4e7a97e69e127|Remove unnecessary puppet-rabbitmq from dependencies|Tue, 26 May 2020 22:21:03 +0900|Tue, 26 May 2020 22:21:03 +0900
+9a1b5dac6cace3101e758e17e3ced6dc32adc96b|Merge "Remove password hash generation in each puppet modules"|Wed, 20 May 2020 04:57:32 +0000|Wed, 20 May 2020 04:57:32 +0000
+8a733cddad286a444bfe546e2bf98f7f5d48ae93|Remove password hash generation in each puppet modules|Tue, 19 May 2020 21:51:56 +0900|Tue, 19 May 2020 21:51:56 +0900
+1cf1bfd5c2d7d84428947f05286967f8ab19043b|Bump version for the start of Victoria|Thu, 14 May 2020 12:24:28 -0600|Thu, 14 May 2020 12:28:17 -0600
+8ef84388ffc5e0358de40182f07c6fd07fbfaeb2|Merge "Use service credential parameters to define keystone v3 auth"|Wed, 13 May 2020 18:17:40 +0000|Wed, 13 May 2020 18:17:40 +0000
+284ee42b6a9ca39f419d73042d746fe3866572ba|Merge "[ussuri][goal] Add CONTRIBUTING.rst"|Wed, 13 May 2020 07:12:41 +0000|Wed, 13 May 2020 07:12:41 +0000
+f2acb11eb68ab691ad424e6d85d40394d6ec34d9|Bump reno to 2.5.0|Tue, 12 May 2020 10:50:07 +0800|Tue, 12 May 2020 10:50:07 +0800
+7f0cbb2340aec2beba5584762534618ef47d7898|Merge "Add CentOS8 to nodesets"|Mon, 11 May 2020 22:46:27 +0000|Mon, 11 May 2020 22:46:28 +0000
+17674d78674b528d413fa67c8768c2188f5bc42a|[ussuri][goal] Add CONTRIBUTING.rst|Sun, 10 May 2020 22:54:29 +0200|Sun, 10 May 2020 22:54:29 +0200
+b1fa577e77c5cc01dc5d7a0e69d87cbf533c5197|Add CentOS8 to nodesets|Sun, 10 May 2020 21:51:30 +0900|Sun, 10 May 2020 21:51:30 +0900
+1d3bffd18b903aba95e5590b3c8444334d21a656|Use service credential parameters to define keystone v3 auth|Mon, 4 May 2020 21:48:45 +0900|Wed, 6 May 2020 21:36:00 +0900
+26944d9e50536d506ade918e040e946828d872e6|Use anchor to require necessary packages|Mon, 4 May 2020 15:26:32 +0900|Mon, 4 May 2020 15:26:32 +0900
+431016708ac68574b05ad7a602e64ad337e35b9c|Bump openstackdocstheme to 1.30.0|Thu, 30 Apr 2020 15:28:38 +0800|Thu, 30 Apr 2020 15:28:38 +0800
+3f7b09f15833e36e0e1b8904cea4fb24047a210b|Fix rabbitmq version in metadata|Thu, 30 Apr 2020 14:04:44 +0800|Thu, 30 Apr 2020 14:04:44 +0800
+f76b0e99723f4d598bbfdff4916ba530d6259825|Change rpsec to rspec|Thu, 30 Apr 2020 13:24:46 +0800|Thu, 30 Apr 2020 13:24:46 +0800
+867f03e70ec412ce80061ea298735b2a4dc35766|Update master for stable/ussuri|Tue, 28 Apr 2020 15:00:17 +0000|Tue, 28 Apr 2020 15:00:17 +0000
+eab7237160b1d7e82119aba8172b120e200f191e|Prepare Ussuri RC1|Fri, 24 Apr 2020 14:23:10 +0800|Fri, 24 Apr 2020 14:23:10 +0800
+753795a28137fb0047f5fd4704a3a39fc29633b8|Prepare Ussuri M3 again|Tue, 14 Apr 2020 00:13:16 +0900|Tue, 14 Apr 2020 00:13:16 +0900
+180b3027f40c29ffc456063a49fc5704a360fff2|Resolve duplicated requirement names in metadata|Mon, 13 Apr 2020 23:07:38 +0900|Mon, 13 Apr 2020 23:07:38 +0900
+9529bf8c9e81f40d4f9ee2685cbcb83e9026b101|Merge "Prepare Ussuri M3"|Tue, 7 Apr 2020 20:48:25 +0000|Tue, 7 Apr 2020 20:48:25 +0000
+ce810936d32386f7c1bac095daa9cf2d7051e3db|Expect python3 client package in CentOS8|Tue, 7 Apr 2020 12:35:00 +0900|Tue, 7 Apr 2020 12:35:25 +0900
+3b3b4c5f01cd43c433837a955e559542f198a42d|Prepare Ussuri M3|Tue, 7 Apr 2020 09:21:16 +0800|Tue, 7 Apr 2020 09:21:16 +0800
+844017b6f26e65deb6a285e76d4ea4ce81134ed8|Merge "Add CentOS 8 and Puppet 6 in metadata"|Tue, 31 Mar 2020 15:53:02 +0000|Tue, 31 Mar 2020 15:53:02 +0000
+4be1bf5e784d22a15f9f3bcdf05ddf0d9a545fe9|Update mysql module to <11.0.0|Mon, 30 Mar 2020 10:07:40 +0200|Mon, 30 Mar 2020 10:07:40 +0200
+6de9df953009f14a445f29ff4ae01d4e70d135a3|Add CentOS 8 and Puppet 6 in metadata|Mon, 30 Mar 2020 09:39:27 +0200|Mon, 30 Mar 2020 07:53:25 +0000
+b4fa0d647cbf8804291ee60e3caaa6dd444c909d|Deprecate min_pool_size option|Wed, 25 Mar 2020 14:53:41 +0800|Wed, 25 Mar 2020 14:53:41 +0800
+c812c3a322db7911af480f491bc0e8e93b05484e|Remove idle_timeout option|Mon, 23 Mar 2020 14:45:49 +0800|Mon, 23 Mar 2020 14:45:49 +0800
+f9f5221648b0a30a55f602d2788f3457c6e9fe36|[ussuri][goal] Cleanup for python 2.7 drop|Sat, 15 Feb 2020 20:56:33 -0600|Sat, 15 Feb 2020 20:57:26 -0600
+1044a9f318c59cb05bf3446860d5b35a6534d2b6|Prepare Ussuri M2|Thu, 13 Feb 2020 14:21:29 +0800|Thu, 13 Feb 2020 14:21:29 +0800
+61b2d6ac54f7aa73d752a581aed7ed967eadfc59|Fix stdlib version in metadata|Wed, 11 Dec 2019 11:53:04 +0800|Wed, 11 Dec 2019 11:53:04 +0800
+26315a4c973ab16d92e3ad6304887a7728f14a74|Prepare Ussuri M1|Tue, 10 Dec 2019 14:24:49 +0800|Tue, 10 Dec 2019 14:24:49 +0800
+a053d4e86ea4ae6b32ea50c01d5a41aabfacf690|Convert all class usage to relative names|Sun, 8 Dec 2019 23:24:12 +0100|Sun, 8 Dec 2019 23:24:12 +0100
+298ab338012b58361f8b804da7b0644652d699fc|Fix rabbitmq dependency|Tue, 29 Oct 2019 09:31:05 +0800|Tue, 29 Oct 2019 09:31:05 +0800
+7013f5828a4b7f3e95a4dbdd4b27eb2c85e9e09e|Update master for stable/train|Fri, 4 Oct 2019 13:38:23 +0000|Fri, 4 Oct 2019 13:38:23 +0000
+267a71e9d74132a736cbec766a781c4a3087b73d|Merge "Update the constraints url"|Fri, 27 Sep 2019 03:13:47 +0000|Fri, 27 Sep 2019 03:13:47 +0000
+0ac965ee3af73e014e8203f5ff4284af57a7e01f|Update the constraints url|Thu, 26 Sep 2019 11:08:40 +0800|Thu, 26 Sep 2019 11:09:24 +0800
+0cb6233f9828a71f71249de9626b679278d4ab9f|Prepare Train RC1|Wed, 25 Sep 2019 13:45:44 +0800|Wed, 25 Sep 2019 13:45:44 +0800
+76a78add5f00bb1d85e97793ca29070c3972de29|Prepare Train M4|Thu, 5 Sep 2019 09:04:50 +0800|Thu, 5 Sep 2019 09:04:50 +0800
+818193f5785ddedecb5b5744d8c5b987cbaf949d|Introduce the new rabbit_heartbeat_in_pthread option|Wed, 21 Aug 2019 14:21:01 +0800|Wed, 21 Aug 2019 14:24:26 +0800
+d69c2831b414ae0687d9a95a2af7a905262deed7|Remove deprecated pki related options|Thu, 15 Aug 2019 11:51:38 +0800|Thu, 15 Aug 2019 11:51:38 +0800
+37cf57c839e94e8aad90221932b4d62041cb4661|Bump the openstackdocstheme extension to 1.20|Tue, 13 Aug 2019 11:29:08 +0800|Tue, 13 Aug 2019 11:29:08 +0800
+88392fb6a4e70fcf2e6da2ddeb0ae1d55a043aa6|Sync Sphinx requirement|Wed, 7 Aug 2019 09:10:10 +0800|Wed, 7 Aug 2019 09:10:10 +0800
+3b544b911af5d69569713ff04431283ad8a8bd83|Prepare Train M3|Wed, 24 Jul 2019 16:19:41 +0800|Wed, 24 Jul 2019 16:19:41 +0800
+06e33d81bbf5c736b2019fe858bbc37d1a3e2d12|Prepare Train M2|Wed, 5 Jun 2019 09:40:23 +0800|Mon, 10 Jun 2019 10:06:41 +0800
+742ce235d3a2ef418d2bff18fd5d85ee180111fd|Fix client spec test|Mon, 20 May 2019 11:03:21 +0800|Mon, 20 May 2019 11:03:21 +0800
+321a15b3424805555ac8f962ea70c6b93dda2e72|Add openstackclient installation to the client class|Thu, 16 May 2019 09:52:26 +0800|Fri, 17 May 2019 16:31:21 +0800
+2cbfbf7d5f0b15f0cf80d2248b448c934df5e9b7|Deprecate idle_timeout option|Sun, 28 Apr 2019 15:00:14 +0800|Sun, 28 Apr 2019 15:00:14 +0800
+d6d5fbaa3b5f94f78ae5951b790197f79612cfdf|Merge "Provide more useful fail message"|Thu, 25 Apr 2019 16:26:07 +0000|Thu, 25 Apr 2019 16:26:07 +0000
+b7ddd3b7eb31fc1318015b5245dd5cc3960c5328|Move to opendev|Sun, 21 Apr 2019 14:44:49 +0800|Sun, 21 Apr 2019 14:44:49 +0800
+90e75ef1b2ede451b5160bedea231919debb992c|Fix Repository|Sun, 21 Apr 2019 12:59:10 +0800|Sun, 21 Apr 2019 12:59:10 +0800
+99726b29e5b471c2f6be3e7dd9bf0bf87441ed28|Replace git.openstack.org with opendev.org/openstack|Sun, 21 Apr 2019 11:50:33 +0800|Sun, 21 Apr 2019 11:50:33 +0800
+307fff83b26c3a376d4868da0899cff247bf733a|OpenDev Migration Patch|Fri, 19 Apr 2019 19:34:13 +0000|Fri, 19 Apr 2019 19:34:13 +0000
+44a2c6a2105428015e10dffb7cc766e55b61870a|Add Beaker-Rspec to the table of contents|Wed, 17 Apr 2019 09:42:45 +0800|Wed, 17 Apr 2019 09:42:45 +0800
+c8234d261d5993861188739127b08ae502213f8d|Bump version for the start of Train|Mon, 25 Mar 2019 07:25:24 -0600|Mon, 25 Mar 2019 07:27:59 -0600
+4ba3084c42b43e83be49660e6ce1a94c8dc4e994|Update master for stable/stein|Fri, 22 Mar 2019 16:55:13 +0000|Fri, 22 Mar 2019 16:55:13 +0000
+8a9c68b52f75b9a1519328d05ea8a4ab2e6b994a|Prepare Stein RC1|Mon, 18 Mar 2019 10:38:17 +0800|Mon, 18 Mar 2019 10:38:17 +0800
+fc5ad426bcf0a60d7eaf35c3c5d6f00423c43295|Prepare Stein M3|Wed, 6 Mar 2019 14:55:49 +0800|Wed, 6 Mar 2019 14:55:49 +0800
+1aa85c54f717ff08cd6e4cbcfb520c37eabf6f7e|Merge "Change keystone v2.0 to v3"|Mon, 25 Feb 2019 18:42:48 +0000|Mon, 25 Feb 2019 18:42:48 +0000
+f7d97b492e6c74dfd0c96eec0b7c1dc3131ba997|Merge "Add release note about Ubuntu py3 upgrade"|Mon, 25 Feb 2019 18:23:03 +0000|Mon, 25 Feb 2019 18:23:03 +0000
+049b28dff50f68a09b8c1e0bfde8846749805bc5|Change keystone v2.0 to v3|Sun, 24 Feb 2019 13:57:27 +0100|Sun, 24 Feb 2019 13:57:27 +0100
+c79d1877f51e1bb633f8dcfd16c1b59311834288|Add release note about Ubuntu py3 upgrade|Sun, 24 Feb 2019 00:12:45 +0100|Sun, 24 Feb 2019 00:12:45 +0100
+880b5e0c1cc48134e16d02eaac2e8db28e7e7104|Use validate_legacy|Sat, 23 Feb 2019 23:12:52 +0100|Sat, 23 Feb 2019 23:12:52 +0100
+42128008522805333bf29ea725fd30bf914abd79|Service_token_roles_required missing in the server config file|Fri, 15 Feb 2019 10:03:10 +0800|Fri, 15 Feb 2019 10:03:10 +0800
+3b4f6d59dc94cece38dbade60e3721fe0fbdbf63|Merge "Use puppet 4 compatible mysql functions"|Mon, 11 Feb 2019 21:48:56 +0000|Mon, 11 Feb 2019 21:48:56 +0000
+d9baafa84d704a27640f75a097a2067a3c340696|Merge "Remove Ubuntu Xenial from metadata.json"|Mon, 11 Feb 2019 20:57:23 +0000|Mon, 11 Feb 2019 20:57:23 +0000
+c2c5c5f5135dff0a1b03f29dca22969970c7d42c|Use puppet 4 compatible mysql functions|Fri, 8 Feb 2019 12:29:30 +0100|Fri, 8 Feb 2019 12:29:30 +0100
+d3e724a8403e72f7ddec70fe52714661b4053531|Remove Ubuntu Xenial from metadata.json|Fri, 8 Feb 2019 11:39:02 +0100|Fri, 8 Feb 2019 11:39:02 +0100
+dcc0c9b9f20918c0662718335f5846821feb4e54|Fix lint issue|Fri, 25 Jan 2019 12:23:46 +0800|Fri, 25 Jan 2019 12:23:46 +0800
+bbc9f81bdc20611d0258409030005d03ef51684e|Merge "Inherit pyvers from openstacklib::defaults"|Sat, 19 Jan 2019 04:15:58 +0000|Sat, 19 Jan 2019 04:15:58 +0000
+51affa560b03ce60bf624a18de1e20cd63985a5c|Remove redundantly tested code|Fri, 18 Jan 2019 11:00:17 +0100|Fri, 18 Jan 2019 11:00:17 +0100
+4856ae2868f2e0a0dd28001c50d5527becebc516|Inherit pyvers from openstacklib::defaults|Thu, 17 Jan 2019 22:06:38 +0100|Thu, 17 Jan 2019 22:06:38 +0100
+6f318cb3922fccebb6e60e483e0b4bd86b0a385b|Modify puppet version 4 to 5|Tue, 15 Jan 2019 10:11:20 +0800|Tue, 15 Jan 2019 10:11:20 +0800
+1fe1f3e97f8377fda65dfd5fd5d2269066624ffa|Prepare Stein M2|Thu, 10 Jan 2019 09:24:04 +0800|Thu, 10 Jan 2019 09:24:04 +0800
+8374bd324eef659d8b064cd311acace27424c06a|Merge "Modify http to https."|Wed, 9 Jan 2019 12:45:27 +0000|Wed, 9 Jan 2019 12:45:27 +0000
+36f42e96a738a9961937b156acabbd04e0ba4897|Add rabbitmq dependency|Tue, 25 Dec 2018 15:16:38 +0800|Tue, 25 Dec 2018 15:16:38 +0800
+b217a4d3ae205f5d0375b1a5999fbedadc990f8e|Fix editorial problem|Mon, 24 Dec 2018 14:02:33 +0800|Mon, 24 Dec 2018 14:02:33 +0800
+325bcb9a97ca32604f432fc58355d7d8b38fccb3|Cleanup documentation|Thu, 13 Dec 2018 17:10:02 +0800|Thu, 13 Dec 2018 17:10:02 +0800
+f933c3f6f9d16a0a80ae282c4299e313b09d680a|Merge "Install python3 in Fedora or RedHat > 7"|Thu, 13 Dec 2018 00:25:42 +0000|Thu, 13 Dec 2018 00:25:42 +0000
+52bc586480e09cef3c947a05b0d5c3b8ec21f842|Merge "Remove deprecated rabbit_hosts"|Wed, 12 Dec 2018 03:25:29 +0000|Wed, 12 Dec 2018 03:25:29 +0000
+7a1ede25f94eb9dfc827d7df1bb638b04904309d|Install python3 in Fedora or RedHat > 7|Tue, 11 Dec 2018 16:05:32 +0800|Wed, 12 Dec 2018 08:29:35 +0800
+20cb69ba327fdadb73153cf8022020928053f0f4|Modify http to https.|Tue, 11 Dec 2018 15:14:09 +0800|Tue, 11 Dec 2018 15:14:29 +0800
+d556aace26d75959cc850d5a576dd4323a1766ba|Merge "Remove auth_uri"|Mon, 10 Dec 2018 10:44:37 +0000|Mon, 10 Dec 2018 10:44:37 +0000
+608b180704cbf68856a64e144ca6938c594f73a0|Merge "Remove deprecated logging"|Fri, 7 Dec 2018 10:36:59 +0000|Fri, 7 Dec 2018 10:36:59 +0000
+a4d25a31c2343922baecd3865af044e82677aa04|Remove deprecated rabbit_hosts|Fri, 7 Dec 2018 09:56:06 +0800|Fri, 7 Dec 2018 09:56:06 +0800
+1a677878d4aa5591cd8d99cf002d951e1e2cce63|Change openstack-dev to openstack-discuss|Sun, 2 Dec 2018 18:20:45 +0100|Sun, 2 Dec 2018 18:20:45 +0100
+ab83c20ddf4fedc797f029556dfce95dcf6cf09e|Remove auth_uri|Thu, 29 Nov 2018 00:32:14 +0100|Fri, 30 Nov 2018 11:33:02 +0100
+ad1aa1611c89dc010cb670ec15d1b87199cbd3cb|Remove deprecated logging|Thu, 29 Nov 2018 11:05:35 +0100|Thu, 29 Nov 2018 11:05:35 +0100
+ff52d5f8a5bd516bbf024b46c30a6f85383c8f40|Deprecate pki related options|Thu, 22 Nov 2018 11:31:58 +0800|Fri, 23 Nov 2018 10:23:57 +0800
+4ced9b36a09b748e0bd198d56fc549b3c85b2d1a|Prepare Stein M1|Tue, 13 Nov 2018 14:53:26 +0800|Tue, 13 Nov 2018 14:53:26 +0800
+4013043e5f6d4af9c0ad0a7beb8b867b7384ba3a|Fix stdlib version in metadata|Fri, 9 Nov 2018 14:56:43 +0800|Fri, 9 Nov 2018 14:56:43 +0800
+605684b22e4d15197f0a9e9828dc02bc2e384fbf|Merge "Fix rabbitmq example"|Tue, 23 Oct 2018 21:15:10 +0000|Tue, 23 Oct 2018 21:15:10 +0000
+0ee3267e1ec2b039d784594208cd55a73f0ce025|Merge "Remove deprecated rabbit params in guestagent"|Tue, 23 Oct 2018 16:37:01 +0000|Tue, 23 Oct 2018 16:37:01 +0000
+8a26e059da973e7531737fee7ab35814dd193961|Fix rabbitmq example|Sun, 21 Oct 2018 18:09:10 +0200|Sun, 21 Oct 2018 18:09:10 +0200
+08f3eca1ee21e1c9f242503ca34f9fc53fb5ecf4|Remove deprecated rabbit params in guestagent|Sun, 21 Oct 2018 18:03:30 +0200|Sun, 21 Oct 2018 18:05:41 +0200
+f11194a4637223c64c7b588bcdb66484a7cbc669|Remove faulty set rabbitmq options|Sun, 21 Oct 2018 17:50:02 +0200|Sun, 21 Oct 2018 17:50:02 +0200
+ca483a625bacefbeb09182236c53e852290a1457|Update min tox version to 2.0|Tue, 16 Oct 2018 11:40:19 +0800|Tue, 16 Oct 2018 11:40:19 +0800
+2a1ad0bff154ba894aed3fdca2aebc04898302c3|Dissuade .gitignore references to personal tools|Mon, 8 Oct 2018 11:39:25 +0800|Mon, 8 Oct 2018 11:39:25 +0800
+ca4c7ece371c9d82cf896363ed23910cfd0dbf3f|Provide more useful fail message|Thu, 13 Sep 2018 20:10:24 -0400|Thu, 13 Sep 2018 20:41:54 -0400
+e9da9c855ae3b4c7846669628e44447243496dbb|Merge "Add the missing 'Table of Contents' in README"|Sat, 8 Sep 2018 14:32:22 +0000|Sat, 8 Sep 2018 14:32:22 +0000
+bc3d3b1cff3550d1cdc64c34f611db3bf7f5ed64|Merge "Bump version for the start of Stein"|Fri, 31 Aug 2018 21:35:02 +0000|Fri, 31 Aug 2018 21:35:02 +0000
+d8e7e6da3d0f3b89726847d5ca98d76da9ef1de1|switch documentation job to new PTI|Fri, 31 Aug 2018 08:24:47 -0400|Fri, 31 Aug 2018 08:24:47 -0400
+9c66ed9e2183177652da06a8f498846be3d64aae|import zuul job settings from project-config|Fri, 31 Aug 2018 08:23:46 -0400|Fri, 31 Aug 2018 08:23:46 -0400
+b18b38223d658b4417ea0a08e3c657af1713e951|Bump version for the start of Stein|Thu, 30 Aug 2018 12:08:30 -0600|Thu, 30 Aug 2018 12:11:22 -0600
+1682b7ce06f9727875b77f3a59b3cc519e8ef8cb|Add the missing 'Table of Contents' in README|Mon, 27 Aug 2018 23:36:35 +0800|Tue, 28 Aug 2018 13:43:25 +0000
+0a2c0da16750c780cf549b87e27067d3055b3c82|Update reno for stable/rocky|Mon, 20 Aug 2018 18:43:46 +0000|Mon, 20 Aug 2018 18:43:46 +0000
+6b382cf48ddabcdb1ec544b086d1dfd513ae3a32|Remove PE requirement from metadata.json|Thu, 16 Aug 2018 23:29:24 +0200|Thu, 16 Aug 2018 23:29:24 +0200
+e65b323662fe77bcf250fdb7ed936e143bbe3ad3|Prepare Rocky RC1|Tue, 14 Aug 2018 08:56:17 -0600|Tue, 14 Aug 2018 08:58:58 -0600
+926dd39833ef0ef9b86d05de5d1ebfc16b76af65|Make providers use auth_url for authentication|Fri, 3 Aug 2018 14:11:31 +0200|Fri, 3 Aug 2018 14:11:47 +0200
+0cb77e69ca118975988ca1448b22034585548f8e|Remove the unnecessary _|Wed, 25 Jul 2018 12:01:11 +0800|Wed, 25 Jul 2018 12:01:42 +0800
+c23eb09e030c57ce5cc1032f6e017a1f36566db1|Prepare Rocky M3|Tue, 24 Jul 2018 10:17:05 -0600|Tue, 24 Jul 2018 10:20:19 -0600
+2473776ee512c3c9d56fb03e87a4bde7eb144e8a|Merge "modulesync: sync and add nodepool-bionic for beaker"|Mon, 23 Jul 2018 15:49:52 +0000|Mon, 23 Jul 2018 15:49:52 +0000
+2de45421800968c33d4fb6e2fea54e784ff1e159|Merge "Fix OS versions in metadata"|Mon, 23 Jul 2018 12:46:41 +0000|Mon, 23 Jul 2018 12:46:41 +0000
+62ea65320797fd6f8edd1587543d616334b99601|Add the project source code repository in README|Fri, 20 Jul 2018 22:52:41 +0800|Fri, 20 Jul 2018 22:53:23 +0800
+b5bbadfb2340e6b08a5d758cca066eba3685761b|Fix OS versions in metadata|Thu, 19 Jul 2018 09:48:02 +0700|Thu, 19 Jul 2018 09:48:31 +0700
+2f777f73898ce4a84d4f9257c1656297c4d1cce4|modulesync: sync and add nodepool-bionic for beaker|Wed, 18 Jul 2018 16:20:27 +0200|Wed, 18 Jul 2018 16:20:27 +0200
+422faf084eac206e33850838561593a2e888cc63|Fix inifile version in metadata|Mon, 16 Jul 2018 14:59:28 +0800|Mon, 16 Jul 2018 14:59:28 +0800
+67e69a76d772eedbcb00dec6dac6010f00b58fd5|Debian release is 9 in metadata|Mon, 2 Jul 2018 14:06:33 +0800|Mon, 2 Jul 2018 14:06:33 +0800
+7e91b74d24aebd78be7f01cef78b3f5f4a366514|Merge "Replace port 35357 with 5000"|Mon, 25 Jun 2018 09:30:08 +0000|Mon, 25 Jun 2018 09:30:08 +0000
+85b88ced26d2e6198dfcac324e49658621647801|add release note link in readme|Thu, 21 Jun 2018 15:05:14 +0000|Thu, 21 Jun 2018 15:05:38 +0000
+f3e88bc1d0f14b16baa6c6a933342e82ae4fad8b|fix tox python3 overrides|Fri, 8 Jun 2018 14:23:33 +0800|Fri, 8 Jun 2018 14:23:33 +0800
+6122c9f20b3c12f42fdb9523e68f7284e3b0f899|Prepare a new Rocky release|Tue, 5 Jun 2018 09:43:25 -0700|Tue, 5 Jun 2018 09:47:43 -0700
+fdf5145eb6eb60372a093680968e9b9c322e13c6|Remove deprecated rabbit params|Thu, 24 May 2018 11:15:03 +0800|Mon, 28 May 2018 13:38:35 +0800
+d116eb73c98fb7ba76110d7c5bb5f5768e93f259|Remove deprecated heat_service_type param|Thu, 24 May 2018 11:17:38 +0800|Thu, 24 May 2018 11:18:20 +0800
+70b9cde1317349c4367983cb2334e1504cac5098|Merge "Deprecate auth_uri option"|Tue, 15 May 2018 19:16:32 +0000|Tue, 15 May 2018 19:16:32 +0000
+4e3341f58988bf938b409cc35a97b8ba57d87a07|Deprecate auth_uri option|Tue, 3 Apr 2018 16:55:04 +0800|Tue, 15 May 2018 12:20:31 +0200
+35fc44fb958d068755ffea35d4ba1d4ca4f57642|Replace port 35357 with 5000|Sun, 13 May 2018 15:10:00 +0800|Sun, 13 May 2018 15:10:23 +0800
+9fe546b7d05a7ae8461cbcc44ff7c125f8eaa24e|neat: missing : in $::os_service_default|Fri, 11 May 2018 14:02:40 +0800|Fri, 11 May 2018 14:02:40 +0800
+2ad52efaafda2d4d3e462c747b970dcedb3a3ced|Merge "Missing deps for config.pp unit test"|Mon, 23 Apr 2018 16:47:23 +0000|Mon, 23 Apr 2018 16:47:23 +0000
+13652ee7c67cb89002195664e3a1814592dfb8cd|Prepare Rocky M1|Thu, 19 Apr 2018 08:54:37 -0600|Thu, 19 Apr 2018 08:58:11 -0600
+9efdcbdad2d3de0467450fab47ec049d096ed865|Missing deps for config.pp unit test|Thu, 19 Apr 2018 13:57:24 +0800|Thu, 19 Apr 2018 13:57:24 +0800
+94d064e6385808ae72b4d71c5dd054392ad9acc0|Merge "Update .gitignore"|Wed, 18 Apr 2018 00:52:52 +0000|Wed, 18 Apr 2018 00:52:52 +0000
+1dfb0d428bae80f8b71a5eade2ddbc8aa0dbfa23|Debian is using python3-troveclient|Thu, 12 Apr 2018 11:42:33 +0800|Thu, 12 Apr 2018 13:30:44 +0800
+3dc2e1aaece5b2f11609f527c13388b6e99ae92f|Update .gitignore|Wed, 11 Apr 2018 08:43:45 +0800|Wed, 11 Apr 2018 08:55:40 +0800
+2a99e642d8d3761dfdfc3af49fc0a3da47d27757|Remove deprecated ensure_package option|Thu, 29 Mar 2018 12:01:15 +0800|Thu, 29 Mar 2018 12:01:15 +0800
+ed21e2b1f3375fb22ea5f3fd97778fcdc9e164de|Merge "Add glance_service_type option"|Wed, 28 Mar 2018 21:02:25 +0000|Wed, 28 Mar 2018 21:02:25 +0000
+0d8382175a844928854fff26c66512fe8aaae18d|Add glance_service_type option|Wed, 28 Mar 2018 11:40:59 +0800|Wed, 28 Mar 2018 11:40:59 +0800
+ae7290a27296a036e46e8b8841e5559e6c2be98d|Remove deprecated keystone authtoken revocation_cache_time option|Tue, 27 Mar 2018 10:33:24 +0800|Tue, 27 Mar 2018 10:48:15 +0800
+064ecaf4beba4ce67f5d199ecbac872371c1e855|Add pool_timeout option|Thu, 22 Mar 2018 11:09:50 +0800|Thu, 22 Mar 2018 11:09:50 +0800
+09de2784ee0aa92462499127d7d0cd7e3969a107|Switch acceptance test to use integration classes|Thu, 15 Mar 2018 14:28:56 +0800|Thu, 15 Mar 2018 14:28:56 +0800
+90863dce616038131cd05b221aa3d28c81604d9a|Add 'openstack-db' tag to db-sync Exec resource|Mon, 12 Mar 2018 16:33:10 +0800|Mon, 12 Mar 2018 16:33:10 +0800
+ff3af8ac4e6393e33a7a1efbb722e7e6fe1e8b0f|Follow the new PTI for document build|Wed, 28 Feb 2018 14:42:12 +0800|Wed, 28 Feb 2018 14:42:12 +0800
+1d1243fcad46db362f2c01cc659cbebb7f8a6d9c|Update reno for stable/queens|Wed, 21 Feb 2018 00:17:48 +0000|Wed, 21 Feb 2018 00:17:48 +0000
+7abbf2147284b2978b7d283707a706b4075d7c47|Prepare for official Queens release|Mon, 19 Feb 2018 12:37:53 -0500|Mon, 19 Feb 2018 12:43:52 -0500
+0763133219ac02e433a7988afb73fcde49f91cc0|Add endpoint_type options|Wed, 17 Jan 2018 15:00:08 +0800|Wed, 14 Feb 2018 08:32:00 +0800
+d33c0265c93bb77969077a97dfeac98d3ffde82c|Merge "Add kombu_failover_strategy option"|Tue, 13 Feb 2018 20:28:55 +0000|Tue, 13 Feb 2018 20:28:55 +0000
+3a3e1be6dccca06483cf128066c51a7a1e2ef2b4|Merge "Deprecate heat_service_type option"|Tue, 13 Feb 2018 20:25:15 +0000|Tue, 13 Feb 2018 20:25:15 +0000
+1808b236c18ef413358e95e7c0557ffe6d7ef470|Load puppet-openstack_spec_helper locally during tests|Mon, 12 Feb 2018 10:53:40 +0800|Mon, 12 Feb 2018 10:53:40 +0800
+ccf6a66e1f2f5d98caa42c4574e5629dbd971336|Add kombu_failover_strategy option|Fri, 9 Feb 2018 15:05:28 +0800|Fri, 9 Feb 2018 15:05:28 +0800
+578556bdb49ed66c2bf4e298a8532cbd2536775c|Deprecate heat_service_type option|Wed, 17 Jan 2018 16:23:37 +0800|Wed, 7 Feb 2018 10:59:17 +0800
+c14750293774e315abd80e86fb6d9e0120e7f6f8|Merge "Zuul: Remove project name"|Sat, 3 Feb 2018 01:40:24 +0000|Sat, 3 Feb 2018 01:40:24 +0000
+e5f15affe497fe00e8b5d9cee280b6d660ed154e|Zuul: Remove project name|Wed, 24 Jan 2018 17:02:59 -0800|Fri, 2 Feb 2018 12:12:24 -0800
+d15a1c36b6467cc18f4cc0c1415edc5032618c80|Zuul: Remove project name|Mon, 29 Jan 2018 02:58:36 +0800|Mon, 29 Jan 2018 02:58:36 +0800
+d5a6346274c9c14307178be2e0df46a34af89c4f|Merge "Remove pinned versions from test-requirements.txt"|Wed, 17 Jan 2018 14:02:12 +0000|Wed, 17 Jan 2018 14:02:12 +0000
+87ea119fbc787f72c67f336c56463f611631115c|Prepare for Queens Milestone 3|Tue, 16 Jan 2018 15:51:10 -0800|Tue, 16 Jan 2018 15:56:17 -0800
+02dae82bfcf0a69a561bf59af25753ef81589dbc|Remove pinned versions from test-requirements.txt|Tue, 16 Jan 2018 12:29:50 +0800|Tue, 16 Jan 2018 12:29:50 +0800
+6dc198fe4e1547a773c0ca45f8a9b95396df7bfe|Add use_journal option for logging configuration|Mon, 15 Jan 2018 16:26:34 +0800|Mon, 15 Jan 2018 17:37:10 +0800
+6941810418b1faca89bd5a98b1b7242a195ce0ae|Add group to policy management|Wed, 10 Jan 2018 14:11:43 -0800|Thu, 11 Jan 2018 15:53:16 +0000
+c69542dfd132eac7cca9289d81c0b52005c6ba06|Run puppet-openstack-beaker-jobs|Thu, 21 Dec 2017 19:00:24 -0800|Thu, 21 Dec 2017 19:00:24 -0800
+29efec8d1dab335347b849c92b568b91c2eab5e5|Merge "Expose use_json logging option"|Wed, 29 Nov 2017 05:19:24 +0000|Wed, 29 Nov 2017 05:19:24 +0000
+42c28a3424a71162f0d8a987b3676e253394b560|Prepare for Queens Milestone 2|Tue, 28 Nov 2017 16:14:20 -0700|Tue, 28 Nov 2017 16:19:34 -0700
+b10d37ccbdb2a7af8e94e2417f4ed3df11067c39|Expose use_json logging option|Tue, 28 Nov 2017 09:45:05 +0800|Tue, 28 Nov 2017 09:45:05 +0800
+761b29c85ef68adbebcf55144b44608820aad368|Merge "Switch to Zuul v3 testing"|Wed, 1 Nov 2017 06:18:56 +0000|Wed, 1 Nov 2017 06:18:57 +0000
+11513c0a792e841d65874d8fcbb58439e868f435|Add Puppet package to bindep, for module build|Fri, 27 Oct 2017 13:16:57 -0700|Fri, 27 Oct 2017 13:16:57 -0700
+8a9762f096638660cbec31ee67032bdeae347e0f|Switch to Zuul v3 testing|Thu, 26 Oct 2017 08:46:09 +0800|Thu, 26 Oct 2017 08:46:17 +0800
+0b64218652cdc3c332032e8df4d66c2223051f03|Merge "Force trove_auth_url to point to the v3 api URL"|Tue, 24 Oct 2017 20:03:17 +0000|Tue, 24 Oct 2017 20:03:17 +0000
+aa57603fb4e9a67bd628caa7e37ccb390b4186a9|Force trove_auth_url to point to the v3 api URL|Thu, 19 Oct 2017 16:05:43 +0000|Fri, 20 Oct 2017 09:55:39 +0200
+1e319ac08bd0aa38644a41771c8b5d8560e516eb|Prepare for Queens Milestone 1|Tue, 17 Oct 2017 14:26:32 -0600|Wed, 18 Oct 2017 01:52:47 +0000
+e156c4136f6197a06fd977d8f377108ce8fa2826|Switch trove auth provider to keystone v3|Mon, 16 Oct 2017 16:26:35 +0200|Mon, 16 Oct 2017 16:27:37 +0200
+a54b81c779101e1e8fae5e5b438e3042a39b443b|Configure *_domain_name to Default by default|Fri, 13 Oct 2017 14:44:08 +0800|Fri, 13 Oct 2017 14:44:08 +0800
+8b0783abb0f0d7ddec2ba610cd8e8d54eb190c14|Accept empty strings for log_dir and log_file|Thu, 12 Oct 2017 09:42:15 +0800|Thu, 12 Oct 2017 09:42:26 +0800
+968f052b90c4d62be715dfa466873b0cdafdf3a5|Merge "Add deps to all that is needed"|Fri, 22 Sep 2017 03:24:19 +0000|Fri, 22 Sep 2017 03:24:19 +0000
+01637cb0dec58f98ef5f987e807054c458c02aeb|Update to the latest address in README|Thu, 21 Sep 2017 12:34:34 +0800|Thu, 21 Sep 2017 12:34:34 +0800
+64389fe88056f644de28e27dc68d34fc51185cb0|Add deps to all that is needed|Thu, 21 Sep 2017 09:23:24 +0800|Thu, 21 Sep 2017 09:23:24 +0800
+57cce7a8041d71d7885db4e0775c92c9783c81bb|Update openstackdocstheme to latest version|Tue, 19 Sep 2017 21:04:30 +0800|Wed, 20 Sep 2017 11:08:57 +0800
+2d905626da10df10b25a39b2c170c7a679f7784b|Deprecate revocation_cache_time option|Thu, 14 Sep 2017 11:58:05 +0800|Thu, 14 Sep 2017 11:58:05 +0800
+99cf76ddb5864a3f899b6c664f3222fdaf9dd7e9|Use Python to compute release notes version|Wed, 30 Aug 2017 13:48:47 -0700|Wed, 30 Aug 2017 13:48:47 -0700
+cc54a7a4d43ba8780626070721b4fbe860f85efe|Merge "Update versions for Queens cycle"|Fri, 25 Aug 2017 23:05:36 +0000|Fri, 25 Aug 2017 23:05:36 +0000
+2bb408e01d10cac53d66ff4029610fe2ed952227|Merge "Update reno>=2.5.0"|Fri, 25 Aug 2017 23:05:26 +0000|Fri, 25 Aug 2017 23:05:26 +0000
+aa58edf3b6ec57c0ab0d8f5fe56a9955bf14d7a3|Update versions for Queens cycle|Thu, 24 Aug 2017 13:06:05 -0600|Thu, 24 Aug 2017 13:08:27 -0600
+c6da4ea2f785d8aece4cf9ae7a4965b337811fa6|Update reno for stable/pike|Thu, 24 Aug 2017 14:02:03 +0000|Thu, 24 Aug 2017 14:02:03 +0000
+ba0ac93b0f1f0a9b271d112a5e7a732f49c33b86|Prepare for official Pike release|Mon, 21 Aug 2017 15:58:44 -0600|Mon, 21 Aug 2017 16:01:02 -0600
+c3b125d9eee925d6866ae8e20e5b8f769f593da3|Update reno>=2.5.0|Mon, 21 Aug 2017 11:22:03 +0800|Mon, 21 Aug 2017 11:22:03 +0800
+3150e14ad0d7729dc202d7077931bc6a2c7c908b|Fix rpc_backend option warning|Mon, 7 Aug 2017 09:42:52 +0800|Mon, 7 Aug 2017 09:48:50 +0800
+dd2f674f3dfcda34292176bb6df5213bab083cb7|Merge "Update openstackdocstheme>=1.16.0"|Sat, 5 Aug 2017 07:34:01 +0000|Sat, 5 Aug 2017 07:34:01 +0000
+204aefc06848873c21074fb99d9502e288f4dff3|Bump modules to next minor with -dev|Fri, 4 Aug 2017 13:36:15 -0600|Fri, 4 Aug 2017 13:39:00 -0600
+9aad4ffee7679acdb5ac95246189a2c5d8397cd6|Update openstackdocstheme>=1.16.0|Mon, 31 Jul 2017 11:04:30 +0800|Mon, 31 Jul 2017 11:04:30 +0800
+6e1a56adb1e991e22096cdc7db99238734f4f6cf|Deprecate oslo.messaging rpc_backend option parameter|Thu, 27 Jul 2017 12:14:53 -0400|Thu, 27 Jul 2017 12:14:53 -0400
+3fdefbfb4622ebdbb348f12cdecafb0fff43a28f|Drop -dev version for Pike M3|Tue, 25 Jul 2017 08:12:57 -0600|Tue, 25 Jul 2017 08:15:31 -0600
+8726a56d421812c2c0ec00e0e4ac1d7868f6835f|Update URLs in documents according to document migration|Fri, 14 Jul 2017 08:54:51 +0800|Fri, 14 Jul 2017 13:52:02 +0800
+46ed6e493ccb18fe45c1d60304efb2cee2027606|changed author|Tue, 11 Jul 2017 16:30:46 +0530|Tue, 11 Jul 2017 13:43:08 +0000
+4b9db23377e208708bc441c9fa65a519cfa2365c|Remove deprecated keystone authtoken signing_dir option|Fri, 7 Jul 2017 10:01:10 +0800|Fri, 7 Jul 2017 10:01:10 +0800
+095b2c055420e1d0e4a4ec680f921281af9c82ab|Fix openstackdocstheme|Sun, 2 Jul 2017 14:29:51 +0800|Sun, 2 Jul 2017 14:29:51 +0800
+d165b2278d7f449d6d21fd4bca4384e8cabc33d8|Switch from oslosphinx to openstackdocstheme|Mon, 26 Jun 2017 10:12:47 +0800|Mon, 26 Jun 2017 10:12:47 +0800
+8dca46a27b588d189dde35e9367481210fff7a00|Merge "Add environment variable"|Tue, 13 Jun 2017 10:07:02 +0000|Tue, 13 Jun 2017 10:07:02 +0000
+f512af0aee22865da0dc8d26c395e36fd8ce4595|Add environment variable|Mon, 12 Jun 2017 16:07:02 +0800|Mon, 12 Jun 2017 16:07:02 +0800
+50edc2c85292a4381e6862093d4403fd4a5dc8dd|Fix markdown format typo|Mon, 12 Jun 2017 12:01:27 +0800|Mon, 12 Jun 2017 12:01:27 +0800
+332661e6e1fe0a0643436374fcc96033424c1741|Merge "Bump version for Pike M3 Dev"|Fri, 9 Jun 2017 09:33:10 +0000|Fri, 9 Jun 2017 09:33:10 +0000
+e53e7e5f12797c108939d4a0f8ef2ea8e9087e3f|Bump version for Pike M3 Dev|Thu, 8 Jun 2017 15:30:57 -0600|Thu, 8 Jun 2017 15:34:18 -0600
+14d4f125e024f455445b6a7c5d715529c6f7db42|Update global requirements|Thu, 8 Jun 2017 14:01:13 +0800|Thu, 8 Jun 2017 14:01:13 +0800
+28db9f952af1d0f4e5d304e86ffab1c7dcaf5f47|Drop -dev in preparation for Pike M2|Thu, 1 Jun 2017 08:53:02 -0600|Thu, 1 Jun 2017 08:55:25 -0600
+331c0100b44c0269afd3f0903e465d5f05d6e284|Fix unit test|Thu, 25 May 2017 11:35:25 +0800|Thu, 25 May 2017 11:35:25 +0800
+f92817c91d41b42b1e65229d9372b22349acf391|oslo policy: check puppet resource instead of actual config in spec|Tue, 23 May 2017 15:28:12 +0800|Tue, 23 May 2017 15:28:12 +0800
+1430f8d6efeb4fc56d9c7a05b268cf34a987eca3|Update tox configuration|Wed, 17 May 2017 09:49:00 -0600|Wed, 17 May 2017 09:49:03 -0600
+264da12ac70f82c4d25970d92fc359a712cdcd35|Add unit test for sync.pp|Mon, 8 May 2017 15:30:58 +0800|Mon, 8 May 2017 15:47:43 +0800
+46534ad1bc6c0d3dbc8ec6f9770ffd8d0d59b216|Bump modules to next minor with -dev|Fri, 21 Apr 2017 17:21:44 -0600|Fri, 21 Apr 2017 17:24:35 -0600
+41cff39bdeaafc6ca6432f8b180ea1a3f78ea917|Add the setting log level|Tue, 18 Apr 2017 11:34:30 +0800|Tue, 18 Apr 2017 11:34:30 +0800
+64b2ca9a5eeef0aa50c5517ed2e8dcac0c7076f3|Separate out api/taskmanager config settings|Mon, 10 Apr 2017 14:17:43 +1000|Wed, 12 Apr 2017 03:08:18 +0000
+3705c795afe59d2cd55e8cbeac2375842f25ccae|oslo db: check puppet resource instead of actual config in spec|Tue, 11 Apr 2017 14:31:09 +0800|Tue, 11 Apr 2017 14:31:09 +0800
+a105fbaaf62114f10f6884e073a6e4a29eac6dc7|Drop -dev for release prep|Wed, 5 Apr 2017 10:36:14 -0600|Wed, 5 Apr 2017 10:46:27 -0600
+ca278bdf0c4e34cc8bb45d05844df990b3b38271|oslo log: check puppet resource instead of actual config in spec|Mon, 3 Apr 2017 13:23:36 +0300|Mon, 3 Apr 2017 14:48:29 +0300
+a01e2caf2a956d1f67cfecad518b5ce3477bb087|Update test-requirements.txt|Thu, 23 Mar 2017 14:55:35 +0800|Thu, 23 Mar 2017 14:55:35 +0800
+4d2d638ad18c7821ff8269205461c7cb6cf6d6ff|Merge "Fix typo"|Wed, 15 Mar 2017 21:49:16 +0000|Wed, 15 Mar 2017 21:49:16 +0000
+97f9ee66ca141501c20ba8a1fe44290f62094d15|Fix ci|Mon, 13 Mar 2017 21:54:40 +0800|Mon, 13 Mar 2017 21:54:40 +0800
+ab05262dbf6aa532dd6c3fe809475767521618f2|Fix typo|Mon, 13 Mar 2017 20:22:50 +0800|Mon, 13 Mar 2017 20:22:50 +0800
+7594ac44155dc95fc4515377620e6398ed92f34e|Merge "Inconsistent package_ensure parameter name"|Fri, 10 Mar 2017 11:31:26 +0000|Fri, 10 Mar 2017 11:31:26 +0000
+7fdbe6e50c9406a7ecd8dac66880b690464e64ee|Add support for single tenant mode|Wed, 8 Mar 2017 16:31:17 +1100|Thu, 9 Mar 2017 12:51:15 +1100
+3cf985f57ef6f12a09fc4bdb0ad038814dd42db0|Inconsistent package_ensure parameter name|Thu, 9 Mar 2017 09:25:07 +0800|Thu, 9 Mar 2017 09:25:07 +0800
+86acd8bac2501772ca8529944e13746cc756dfe8|Prepare Pike metadata|Tue, 7 Mar 2017 14:39:57 -0700|Tue, 7 Mar 2017 15:35:10 -0700
+3df5ea37db30ff2c055448a48dd940e112469aca|Remove rpc_backend check for amqp|Tue, 28 Feb 2017 08:20:46 -0700|Tue, 28 Feb 2017 08:20:46 -0700
+fb0eae41e7a04be21fc23c62cf9db30d94621b1b|Merge "Add rpc_response_timeout option"|Thu, 9 Feb 2017 09:40:04 +0000|Thu, 9 Feb 2017 09:40:04 +0000
+52d137c4538220f8da6c7f65c64d845b501d245a|Update reno for stable/ocata|Wed, 8 Feb 2017 11:04:53 +0000|Wed, 8 Feb 2017 11:04:53 +0000
+370c0bf8fa124062b8d006ce75336b7d11804872|Add rpc_response_timeout option|Wed, 8 Feb 2017 10:54:48 +0800|Wed, 8 Feb 2017 11:35:26 +0800
+9a9fca039803aad78a0915944ad1905d4bb0d704|Prepare ocata-rc1 release|Fri, 3 Feb 2017 16:21:53 -0700|Fri, 3 Feb 2017 16:24:33 -0700
+ca075e0a9c1742607ee068bd2e7b221a6c622ccb|Add backup_aes_cbc_key parameter|Fri, 27 Jan 2017 10:52:57 -0500|Fri, 27 Jan 2017 15:01:50 -0500
+82cc12da2f0654d5756a13cf7249e2261156ead4|Prepare 10.2.1 release|Thu, 26 Jan 2017 13:23:25 -0700|Thu, 26 Jan 2017 13:24:15 -0700
+47e6091f75cd17abb61d913e0ea5f6b0002c8595|Add oslo::db to dependency chain|Sun, 22 Jan 2017 22:04:22 +0800|Sun, 22 Jan 2017 22:04:22 +0800
+a3f5be4c03a387eaf07b544f29d0ff077c0f54aa|Merge "Fix the tag of trove service"|Mon, 16 Jan 2017 22:01:19 +0000|Mon, 16 Jan 2017 22:01:19 +0000
+c73ca7742ccb89a2ff543af4a643cad56ddc93ff|Fix the tag of trove service|Thu, 12 Jan 2017 19:29:00 +0800|Thu, 12 Jan 2017 19:31:10 +0800
+1266a13ba0ab24c3228a6f07148a5ed4563673d5|Allow python-memcache install from authtoken class|Wed, 11 Jan 2017 18:05:34 -0500|Wed, 11 Jan 2017 18:08:54 -0500
+9a54d07420c27938ee33081997ae7eef3a4e443d|Fix database_idle_timeout option|Tue, 3 Jan 2017 14:49:39 +0800|Tue, 3 Jan 2017 14:49:39 +0800
+160d44ab518fc6792a21713f1cccab09ba7f3fde|Deprecate signing_dir option|Wed, 28 Dec 2016 14:36:31 +0800|Wed, 28 Dec 2016 14:36:31 +0800
+93e6abb33455648ac55fbe8c142bf5b7d43a45b1|Pin reno version to reno>=0.1.1,!=2.0.0|Thu, 22 Dec 2016 15:34:18 +0400|Thu, 22 Dec 2016 15:37:15 +0400
+25f4d8b2f46618c522c6c90ac5ecd2b1afbfbae2|Fix hosts lists in example.pp|Wed, 14 Dec 2016 12:34:32 +0100|Wed, 14 Dec 2016 12:34:32 +0100
+1db71b415954b815aebc92f362ae8df042104f9f|Prepare 10.1.0 release|Fri, 9 Dec 2016 09:34:05 -0700|Fri, 9 Dec 2016 09:35:38 -0700
+3f41bd07f256a9e3b1d9578d70b9e8981c943713|Add support for policy|Wed, 7 Dec 2016 15:39:59 +0800|Wed, 7 Dec 2016 15:39:59 +0800
+a78d74811092794e438b31e6dff2b574f48aeb6a|Merge "Use lowercase project name for doc"|Wed, 30 Nov 2016 00:32:53 +0000|Wed, 30 Nov 2016 00:32:53 +0000
+972af4ba662664e6753d48fa2e4616090bb634f8|Show team and repo badges on README|Fri, 25 Nov 2016 17:09:43 +0100|Fri, 25 Nov 2016 17:36:31 +0100
+c638ac755b4ac16be39fd5d2efdbd037e92414cd|Merge "removing deprecated options from DEFAULT"|Tue, 22 Nov 2016 04:34:20 +0000|Tue, 22 Nov 2016 04:34:20 +0000
+3beaf12a983044b980ce9ba67584e8f0ab03695b|Merge "Deprecate rabbitmq connection parameters"|Tue, 22 Nov 2016 01:25:38 +0000|Tue, 22 Nov 2016 01:25:38 +0000
+47e28a539dd9d26656fcc9d38aa38f6926328d36|Merge "Prepare 10.0.0 release"|Thu, 17 Nov 2016 19:52:10 +0000|Thu, 17 Nov 2016 19:52:10 +0000
+2d2fa6ab8a7be883b042d2dee9506e069d0ed188|removing deprecated options from DEFAULT|Thu, 17 Nov 2016 11:06:56 +0100|Thu, 17 Nov 2016 13:27:39 +0100
+c5ae4010ef4b71bc6f3440d33f00b8d3bf78119f|Merge "Fix common options position in params.pp"|Tue, 15 Nov 2016 13:03:51 +0000|Tue, 15 Nov 2016 13:03:51 +0000
+cb81e5b872ea4b8f0ed9f7cd7e0a70ac82712679|Prepare 10.0.0 release|Mon, 14 Nov 2016 16:39:19 -0700|Mon, 14 Nov 2016 16:41:06 -0700
+a44d0c259ecf6bfa49a39c93e9196c3ffc98ca22|Use lowercase project name for doc|Sun, 13 Nov 2016 19:54:44 -0800|Sun, 13 Nov 2016 19:54:44 -0800
+29c19ff6379ae0828169e654ae43062d7cb3a2b2|Merge "Update tests to use rspec-puppet-facts"|Sat, 12 Nov 2016 01:32:21 +0000|Sat, 12 Nov 2016 01:32:21 +0000
+8bf2f8c39468ea225b1f9ddbdad8319868ad1862|Deprecate rabbitmq connection parameters|Tue, 8 Nov 2016 16:03:31 -0700|Wed, 9 Nov 2016 07:56:02 -0700
+287ef4dfe279471885c862ece9e800121325a472|Remove old authtoken options|Tue, 8 Nov 2016 00:50:52 -0300|Tue, 8 Nov 2016 01:11:16 -0300
+9ed939888b2984997ba2f21810ad6b66b7d9d239|Fix common options position in params.pp|Tue, 8 Nov 2016 11:40:07 +0800|Tue, 8 Nov 2016 11:40:07 +0800
+1032a9e41ee2cc940588f3279e25e19dff52b15b|Merge "adding taskmanager_manager entry to define Trove taskmanager entry point"|Fri, 4 Nov 2016 17:23:02 +0000|Fri, 4 Nov 2016 17:23:02 +0000
+cef146205755ac79ceef80806c8d86641842329f|Fix puppet version for requirements in metadata|Thu, 3 Nov 2016 10:28:08 +0800|Thu, 3 Nov 2016 12:03:36 +0800
+e8be948eb702d9a7633d6a31e8c0c7a09da089ed|Update tests to use rspec-puppet-facts|Tue, 25 Oct 2016 09:51:35 -0600|Wed, 26 Oct 2016 08:19:13 -0600
+dfe7564169f5e4726991289260364401ee00b49f|Merge "Remove verbose"|Mon, 24 Oct 2016 18:47:25 +0000|Mon, 24 Oct 2016 18:47:25 +0000
+0c14143f4042c14a2a16a18c9acb5fb567f68b79|Merge "Fix documentation for log_dir parameter"|Sat, 22 Oct 2016 04:04:31 +0000|Sat, 22 Oct 2016 04:04:31 +0000
+2bfd97b44d9ec95eceabba05d3e26b2e72236be4|Merge "fixing storage_namespace; the correct location is under trove.common"|Tue, 18 Oct 2016 23:14:39 +0000|Tue, 18 Oct 2016 23:14:39 +0000
+258a6bbfe845b2a149b735aa74c16c7e4cf250d2|Merge "Change worker defaults to ::os_workers"|Tue, 18 Oct 2016 19:07:10 +0000|Tue, 18 Oct 2016 19:07:10 +0000
+c3019c4f75e6175ec22d2bfc2fe4a7dcc3155d5a|fixing storage_namespace; the correct location is under trove.common|Tue, 18 Oct 2016 18:02:25 +0200|Tue, 18 Oct 2016 18:03:18 +0200
+483c1ff63c700543747520dd6c6221fa688d1380|adding taskmanager_manager entry to define Trove taskmanager entry point|Fri, 14 Oct 2016 15:03:10 +0200|Fri, 14 Oct 2016 15:34:04 +0200
+3cb02d8768cfbf6823f3453fc7ad87d99e6a430e|Make swift_service_type configurable in guestagent.conf|Tue, 11 Oct 2016 16:28:44 +0300|Tue, 11 Oct 2016 16:31:21 +0300
+39062e3ac92691f835b5a05ed0eea56d55f707cd|Fix documentation for log_dir parameter|Mon, 10 Oct 2016 17:30:07 +0300|Mon, 10 Oct 2016 17:31:27 +0300
+86221d0df02c62379a1ba5ab221083afcccbe128|Change worker defaults to ::os_workers|Sat, 8 Oct 2016 02:06:17 +0300|Sat, 8 Oct 2016 02:07:19 +0300
+36263dc353fa1876dc825e8dcd2fac838202f2cd|Enable release notes translation|Thu, 6 Oct 2016 20:48:19 +0200|Thu, 6 Oct 2016 20:48:19 +0200
+f8711ad177e9c434d734db992e3437439843b651|Merge "Changed the home-page to point Openstack Puppet Homepage"|Tue, 4 Oct 2016 19:46:47 +0000|Tue, 4 Oct 2016 19:46:47 +0000
+0fd03aaca600bebbaa2bb2819dc924ad554ae61f|Changed the home-page to point Openstack Puppet Homepage|Tue, 4 Oct 2016 11:20:04 +0530|Tue, 4 Oct 2016 11:46:38 +0000
+83fb92f505fba788ba2679dd4c7394025188ee71|Move rspec-puppet-facts to spec helper|Fri, 30 Sep 2016 13:33:11 -0600|Fri, 30 Sep 2016 13:33:16 -0600
+b2aeee7afe98568ab608bf9ef9ac3ee7d7729d16|Added retries for db_sync|Thu, 29 Sep 2016 12:55:29 +0530|Thu, 29 Sep 2016 14:16:24 +0000
+01e4cea5d229c98946864924d6d86ecf1af0593a|Remove verbose|Tue, 27 Sep 2016 19:46:42 -0300|Tue, 27 Sep 2016 19:46:42 -0300
+ec4b0488a7eedef8f15ce09c7fde004685fc5b59|Update reno for stable/newton|Tue, 27 Sep 2016 12:42:10 -0400|Tue, 27 Sep 2016 16:57:45 +0000
+29facdf424b72036b28df411cc07a360f170c38a|Merge "Remove unnecesary spaces in log messages."|Tue, 27 Sep 2016 02:24:06 +0000|Tue, 27 Sep 2016 02:24:06 +0000
+b54970adc88883f18b46e4baafb65c61c57084cf|Puppet OpenStack Newton RC2|Mon, 26 Sep 2016 07:31:19 -0600|Mon, 26 Sep 2016 07:33:15 -0600
+1fafc35313ab93bf517c913631fa9a9f7dec5815|Remove unnecesary spaces in log messages.|Mon, 26 Sep 2016 10:02:23 +0200|Mon, 26 Sep 2016 14:30:44 +0200
+2d534788ad8287e382970b8da521c135788277c5|Merge "Update log_file documentation"|Tue, 20 Sep 2016 01:11:10 +0000|Tue, 20 Sep 2016 01:11:10 +0000
+e874207b39094228d9ec4c896c2a59398ac5ba2e|Prepare 9.3.0 (newton rc1)|Fri, 16 Sep 2016 11:42:21 -0400|Fri, 16 Sep 2016 11:42:21 -0400
+56b1e146bb41f77d6a7688524c0d25cb159a7eef|Fix puppet-lint before upgrading gem|Wed, 14 Sep 2016 13:24:17 +0200|Wed, 14 Sep 2016 13:24:51 +0200
+9ebd92afbe281aaa393abf0fb9236d04a31e9d93|Update log_file documentation|Thu, 8 Sep 2016 17:48:39 -0600|Thu, 8 Sep 2016 17:49:22 -0600
+61de1417ce318e07d0729a8acbb1e425fb0eaec8|Prepare 9.2.0 (newton b3)|Fri, 26 Aug 2016 09:56:58 -0400|Fri, 26 Aug 2016 09:56:58 -0400
+8f9f6967087ada7f3740cf38c55b89f9f0ffe2f4|Merge "Configure keystone authtoken options"|Thu, 25 Aug 2016 22:07:10 +0000|Thu, 25 Aug 2016 22:07:10 +0000
+e2729f0fa87b9a41b8e129dd2c6c21eaac7bca00|Policy support for Trove|Wed, 24 Aug 2016 11:17:23 -0400|Wed, 24 Aug 2016 11:17:23 -0400
+b51e789701f8ee81e34f5b22b87fc6224b18da8b|Configure keystone authtoken options|Mon, 25 Jul 2016 13:08:35 +0300|Tue, 23 Aug 2016 22:08:04 -0300
+7558054c040391b4b7e15c6a24a709ae52106e80|Move other-requirements.txt to bindep.txt|Fri, 12 Aug 2016 21:12:43 +0200|Fri, 12 Aug 2016 21:12:43 +0200
+3cf09ad3d400ebfab8377dc813930965256221d4|Include openstacklib defaults manifest.|Thu, 7 Jul 2016 12:01:25 +0200|Fri, 8 Jul 2016 09:04:01 +0000
+84ccd56ae13533e0a0d8e51aa9c50f9476644b76|Prepare 9.1.0 (newton-2)|Thu, 7 Jul 2016 09:10:14 -0400|Thu, 7 Jul 2016 09:10:19 -0400
+28ca9c6bb3a407efb6c6b288a7d5b46df1bae90a|Remove 12.04 and add 16.04 from metadata|Wed, 29 Jun 2016 22:59:35 -0300|Wed, 29 Jun 2016 22:59:35 -0300
+96c3ac9fdcdec8659dab6a29c78788a3ef71ce37|Merge "Add missing keystone service and endpoint tests"|Wed, 29 Jun 2016 22:55:03 +0000|Wed, 29 Jun 2016 22:55:03 +0000
+92dddd2523785efe26fa1cfef565ed1db13efe84|Remove mitaka release prelude note|Tue, 28 Jun 2016 15:09:57 -0400|Tue, 28 Jun 2016 15:10:03 -0400
+b3df42b803f2b4bd129532659b12e7481dca16ce|Merge "Add transport_url parameters for oslo.messaging"|Tue, 28 Jun 2016 15:33:25 +0000|Tue, 28 Jun 2016 15:33:25 +0000
+d24a11c35d3cfa522cea7e7aa441554816ebe205|Option to specify the trove guestagent log file.|Wed, 25 May 2016 14:04:16 -0400|Tue, 28 Jun 2016 13:21:59 +0000
+7cb103c17ff121de8f852988f356386fcf4229f1|Add transport_url parameters for oslo.messaging|Wed, 1 Jun 2016 10:47:05 -0400|Tue, 28 Jun 2016 13:17:26 +0000
+4d5c63416f4433764edf50f2fae4a2ca16378dc5|Lint fixes for absolute class name|Tue, 28 Jun 2016 07:16:39 -0600|Tue, 28 Jun 2016 07:17:02 -0600
+5dc2d3359e561e618baf24eead4bc6aca11a1b36|Add Users/DBs related parameters to guestagent class|Thu, 26 May 2016 20:08:35 +0800|Tue, 21 Jun 2016 14:29:26 +0800
+b3e93872857fdddc3886259d009ef8aae4ec12be|beaker: disable taskmanager on Xenial|Mon, 13 Jun 2016 10:23:22 -0400|Mon, 13 Jun 2016 10:23:22 -0400
+98f9434696dcc9e7a037b3d29297f4db3043632a|Add nodepool-xenial.yml file|Fri, 10 Jun 2016 13:33:56 -0400|Fri, 10 Jun 2016 13:34:02 -0400
+c90a8440e1d41bd4a9c77d5fd9f905bb65c521c9|Add missing keystone service and endpoint tests|Wed, 1 Jun 2016 10:43:06 -0400|Fri, 10 Jun 2016 03:36:57 -0400
+a3a2b33c68344222d2a6a11c0f6318d59399e6d4|Merge "Change default service_name to 'trove'"|Thu, 9 Jun 2016 17:16:17 +0000|Thu, 9 Jun 2016 17:16:17 +0000
+6c9f6eba03a917174f5ef8fee429a7db444ed135|Allow guestagent to use unique rabbit_use_ssl param.|Wed, 25 May 2016 16:34:29 -0400|Wed, 8 Jun 2016 18:36:02 +0000
+e99cc9e7cecc199af7bda0cd9d36a091938d3763|Change default service_name to 'trove'|Tue, 7 Jun 2016 18:35:04 -0500|Tue, 7 Jun 2016 21:17:19 -0500
+d6bb8e7152a596c1cb967fab6cbcb893a05bcbd6|Merge "Prepare 9.0.0 release"|Fri, 3 Jun 2016 17:29:25 +0000|Fri, 3 Jun 2016 17:29:25 +0000
+e016ffc813400127517d093333e6958f5ae144ea|Merge "Change wiki to docs"|Fri, 3 Jun 2016 16:55:04 +0000|Fri, 3 Jun 2016 16:55:04 +0000
+2fac9cb2f76df9a9db40653e04ac4019e36387c4|Cleanup README|Fri, 3 Jun 2016 12:30:41 +0300|Fri, 3 Jun 2016 12:31:06 +0300
+f325264483d62187b1a82e5112846b7361f5fbd2|Change wiki to docs|Thu, 2 Jun 2016 23:09:59 -0300|Thu, 2 Jun 2016 23:41:35 -0300
+8c8ea4db2c31e3fee754fa0a7cd720ac67e68aaa|Prepare 9.0.0 release|Thu, 2 Jun 2016 18:33:46 -0400|Thu, 2 Jun 2016 18:43:44 -0400
+45503b548a2be61bc1799f176dae8558592db47a|Remove deprecated keystone::auth options|Wed, 1 Jun 2016 18:36:49 +0300|Wed, 1 Jun 2016 18:37:42 +0300
+a498d302b776f8e0143baa5ed6224e9cc8cf7428|Revert "Trove Deprecations"|Tue, 31 May 2016 11:50:45 -0300|Tue, 31 May 2016 12:19:24 -0300
+2d5ee453cf2e4ef1092c797ca5ff2368cee7be2c|Trove Deprecations|Sun, 22 May 2016 20:29:49 -0300|Fri, 27 May 2016 12:34:18 -0300
+c780bfc9641cba07a4b755bbb4897322a42e8c19|Providing an option to disable configure_user in Keystone|Fri, 20 May 2016 06:25:13 -0400|Tue, 24 May 2016 06:00:34 -0400
+2c4809cd764d93db985b945157deb38d072ec819|Merge "Cover control_exchange with tests"|Sat, 21 May 2016 16:01:23 +0000|Sat, 21 May 2016 16:01:23 +0000
+f386e67f8b829a05487accfc33a966a5518864f9|Add other-requirements.txt for bindep|Thu, 19 May 2016 19:16:53 +0200|Thu, 19 May 2016 19:17:07 +0200
+8246a805582e89b967c47ca9184e1089233a8203|Deprecate verbose option in logging|Wed, 18 May 2016 13:03:40 -0300|Wed, 18 May 2016 13:34:00 -0300
+364cd54b745bb15ed3f457d147422cef6877f8e2|Merge "Introduce support for oslo.messaging amqp driver configuration"|Tue, 17 May 2016 16:34:04 +0000|Tue, 17 May 2016 16:34:04 +0000
+25ed088b87143c917dbac1fb6ab3b0cd0d091e43|Merge "Use oslo module for logging"|Fri, 13 May 2016 20:59:35 +0000|Fri, 13 May 2016 20:59:35 +0000
+8d7be7ac236624690334fca22d0d158de65f1878|Use oslo module for logging|Thu, 12 May 2016 16:07:56 +0300|Fri, 13 May 2016 18:43:04 +0300
+c9f63e67d14bd27d8c4f2d8ba1740da463cc3801|Merge "default swift_url to SERVICE_DEFAULT"|Fri, 13 May 2016 15:16:02 +0000|Fri, 13 May 2016 15:16:02 +0000
+52371ee818ec78179a668d20fdfa2b4b43f0e55f|Introduce support for oslo.messaging amqp driver configuration|Thu, 12 May 2016 16:13:30 -0400|Thu, 12 May 2016 16:13:30 -0400
+ed529e5a5a702c6e9c70edcbf4ca7cb4cc4d004c|default swift_url to SERVICE_DEFAULT|Mon, 9 May 2016 15:45:43 -0600|Wed, 11 May 2016 10:18:47 -0600
+6c08197369f7f38682ed67c27cb44f22ee35a502|Add a release note|Wed, 11 May 2016 08:15:58 +0800|Wed, 11 May 2016 08:15:58 +0800
+c48df46352bb74c406a2eacac7680965ca1263d7|Cover control_exchange with tests|Tue, 10 May 2016 11:13:32 -0600|Tue, 10 May 2016 11:15:50 -0600
+f3519c4825b1f0096b21e6d44371b510abbf3e20|Correct name of guestagent config option|Tue, 10 May 2016 07:53:10 -0600|Tue, 10 May 2016 07:55:34 -0600
+ae8ac0b3401e80afd3943293b209b0ec2690706c|Merge "Allow guestagent to use different rabbit params"|Tue, 10 May 2016 00:28:15 +0000|Tue, 10 May 2016 00:28:15 +0000
+692f8b08354b04ed3fc21029ec626b46ab62a090|Use oslo module for configuration|Sat, 7 May 2016 14:10:18 +0800|Sat, 7 May 2016 14:57:59 +0800
+57b14b015890e7edd40e00b27f826908a6db6a42|Allow guestagent to use different rabbit params|Wed, 4 May 2016 11:53:25 -0600|Fri, 6 May 2016 09:44:15 -0600
+e7b043b92394303798522128ddb2a600a6f76392|Add openstack/oslo dependencies in metdata.json|Fri, 6 May 2016 15:20:27 +0800|Fri, 6 May 2016 15:20:27 +0800
+2e795ef5965b62fca894393e7f5868cc9120ecc4|Merge "deprecate templated guestagent config"|Mon, 2 May 2016 20:19:48 +0000|Mon, 2 May 2016 20:19:49 +0000
+f31f5309614c62bea5623fb1bf0570560298d473|Test multiple operating systems for trove::db::postgresql|Sat, 30 Apr 2016 12:01:24 +0800|Sat, 30 Apr 2016 12:01:50 +0800
+86bf28728c62320847512ff32ca513f1abe15783|Add amqp_durable_queues option in trove-guestagent.conf.erb.|Fri, 22 Apr 2016 16:20:33 +0530|Fri, 29 Apr 2016 11:52:45 +0530
+ca9ae11db8c6afdf07d1a9f9ae95903bd687be4e|Merge "Use oslo module for logging and database configuration"|Sat, 23 Apr 2016 12:56:45 +0000|Sat, 23 Apr 2016 12:56:45 +0000
+151ca19923974be904d471b6f913ff04d35b7122|Merge "Use oslo module for messaging (rabbit) configuration"|Sat, 23 Apr 2016 12:28:21 +0000|Sat, 23 Apr 2016 12:28:21 +0000
+b0804e5f8a5869805ef9ec46d4828a0b2f247687|Use oslo module for logging and database configuration|Wed, 20 Apr 2016 11:57:37 +0300|Sat, 23 Apr 2016 11:56:34 +0000
+24839ec63f6b1dfaa1b410a5ac76ba0f4f636b65|Use oslo module for messaging (rabbit) configuration|Tue, 19 Apr 2016 15:11:20 +0000|Fri, 22 Apr 2016 15:45:13 +0000
+9975bb3c4583aab4e592fab1c1d2d0a05aff7489|Merge "Remove the extra space in the conductor.pp"|Thu, 21 Apr 2016 15:48:50 +0000|Thu, 21 Apr 2016 15:48:50 +0000
+fb8c51d9de56d9e111b5aadde75291243cbfef11|Merge "Remove nova_* options from trove-guestagent.conf.erb"|Thu, 21 Apr 2016 03:50:52 +0000|Thu, 21 Apr 2016 03:50:52 +0000
+06a8eefb16d015f8d4236d2fab20ecf9ac86f9f0|Remove the extra space in the conductor.pp|Wed, 20 Apr 2016 08:39:54 +0800|Thu, 21 Apr 2016 08:45:37 +0800
+2cc9b86601b74d3fa94f4fb5fe636efb4aa5bd63|deprecate templated guestagent config|Tue, 19 Apr 2016 10:13:11 -0600|Tue, 19 Apr 2016 19:50:54 -0600
+328f005c927daa7b0a4bc9501dabe05dd15849d7|Remove nova_* options from trove-guestagent.conf.erb|Tue, 19 Apr 2016 01:46:38 +0530|Tue, 19 Apr 2016 01:55:27 +0530
+3352d44262c16b22f3daf14845763cb1a65efb71|Totally drop Qpid support|Mon, 18 Apr 2016 14:11:21 +0300|Mon, 18 Apr 2016 14:11:52 +0300
+8544b1a761471ab16d799d0d5c00140181069ec2|Merge "Add related parameters to profiler section"|Fri, 15 Apr 2016 21:01:42 +0000|Fri, 15 Apr 2016 21:01:42 +0000
+a4764b960e9fb7981747cb6e7125059a7bc2ad72|Merge "Remove nova_* options from guestagent"|Thu, 14 Apr 2016 16:46:53 +0000|Thu, 14 Apr 2016 16:46:53 +0000
+d0da01d63fbee48fc2fa87e5a53768a6e95998a8|Remove nova_* options from guestagent|Thu, 14 Apr 2016 08:29:04 -0600|Thu, 14 Apr 2016 08:34:09 -0600
+6798619a0691c9f067cab7bd56031469a98e2e0e|Add related parameters to profiler section|Thu, 7 Apr 2016 03:31:18 -0700|Thu, 7 Apr 2016 07:59:16 -0700
+50dec1e92e8c6349e2a172e4e9f3a64f726d3820|conductor: add workers parameter|Fri, 1 Apr 2016 11:23:03 -0400|Fri, 1 Apr 2016 12:01:06 -0400
+80cf1085e208f3412b2a50f473b6583523692255|api: move SSL parameters under [ssl] section|Thu, 31 Mar 2016 16:07:23 -0400|Thu, 31 Mar 2016 16:12:46 -0400
+683c303f943a3a8aababbdd7d914935cfb810203|Gemfile: rely on puppet-openstack_spec_helper for dependencies|Tue, 29 Mar 2016 21:37:36 -0400|Tue, 29 Mar 2016 21:37:36 -0400
+18a06bf2a326544a9d93b2512c92c31d86374a16|Merge "trivial comment paste-o fix"|Mon, 28 Mar 2016 15:11:25 +0000|Mon, 28 Mar 2016 15:11:25 +0000
+934e13cff45d7ee411e677a6b3157fd9a99fb152|Import release notes from stable/mitaka|Thu, 24 Mar 2016 19:11:44 -0400|Thu, 24 Mar 2016 19:12:07 -0400
+1a4ffa527123e783fccf7ac3b4e05eef17d53799|trivial comment paste-o fix|Thu, 24 Mar 2016 13:59:53 -0600|Thu, 24 Mar 2016 13:59:53 -0600
+9fa99515da64f533e64f6613a6b7456a6566bf15|guestagent.conf template should use rabbit_hosts|Thu, 24 Mar 2016 12:20:07 -0600|Thu, 24 Mar 2016 12:23:02 -0600
+2ccdb978fffe990e28512069a4c4f69465ace942|Release 8.0.0|Wed, 23 Mar 2016 14:44:12 -0400|Wed, 23 Mar 2016 16:08:00 -0400
+35737af627966da7ffed9247fabbfe789acdec73|Merge "Trove external dependency management"|Tue, 22 Mar 2016 12:53:51 +0000|Tue, 22 Mar 2016 12:53:51 +0000
+59f75e6085bd49ec0159272ae42d20155f1b2f58|Trove external dependency management|Thu, 17 Mar 2016 18:37:31 -0600|Mon, 21 Mar 2016 19:42:26 -0600
+b30fb1fb05d36164bc95c17a29e488a595e4f4ff|releasenotes: add notes for Mitaka cycle|Fri, 18 Mar 2016 12:20:52 -0400|Fri, 18 Mar 2016 12:20:52 -0400
+77c50a16f1b083ef7a1f70568407e6c59891ad7d|Merge "Remove deprecated mysql_module references"|Fri, 18 Mar 2016 08:54:22 +0000|Fri, 18 Mar 2016 08:54:22 +0000
+b2c7774e6df4ddecb04dd0b12ba988276b242ae1|Remove deprecated mysql_module references|Thu, 17 Mar 2016 16:57:58 -0600|Thu, 17 Mar 2016 16:57:58 -0600
+3f22aa648c46b9869078bf48a3529c0e77e22a32|Add basic structure for ReNo|Sun, 13 Mar 2016 19:00:52 -0400|Mon, 14 Mar 2016 08:36:32 -0400
+679c384e6416618ff6644227f3e0ed5db4b78a18|Add kombu_reconnect_delay option|Fri, 12 Feb 2016 14:29:10 -0700|Tue, 23 Feb 2016 09:20:44 -0700
+140ade657e188edc707b6bd8a5595fe9e1c9caa3|Merge "Changed $::trove::rabbit_user to $::trove::rabbit_userid."|Sat, 13 Feb 2016 02:00:58 +0000|Sat, 13 Feb 2016 02:00:58 +0000
+3edae3ca7e8a581418318ffa24dd806d9e406879|Merge "Use uppercase 'S' in word "OpenStack""|Thu, 11 Feb 2016 01:06:08 +0000|Thu, 11 Feb 2016 01:06:08 +0000
+49f29e28fd766c841b5864dd052c7e0377de545e|Merge "Use tag not name for service collector"|Fri, 5 Feb 2016 23:41:16 +0000|Fri, 5 Feb 2016 23:41:16 +0000
+08723f9ddc71020125aa700e2c2677ae12f12e13|Use tag not name for service collector|Mon, 25 Jan 2016 08:42:58 -0700|Fri, 5 Feb 2016 18:03:51 +0000
+faee9d97e38fc68005ccac7ce43420ec364d17c5|Use uppercase 'S' in word "OpenStack"|Fri, 5 Feb 2016 12:46:30 +0530|Fri, 5 Feb 2016 12:47:09 +0530
+f057c9b474af8444d2febc3986778b5b00acb8a9|Merge "Add notification system options in trove"|Tue, 26 Jan 2016 16:02:16 +0000|Tue, 26 Jan 2016 16:02:17 +0000
+32bd9f5a2c765a2dc09524f3e63b204f5ddd3641|Merge "Disable exists_notification_transformer for all OS"|Mon, 25 Jan 2016 15:22:32 +0000|Mon, 25 Jan 2016 15:22:32 +0000
+d2e34ec91f7c57941cca322f78544333e09eaec0|drop mock dependency|Fri, 22 Jan 2016 10:12:41 -0500|Fri, 22 Jan 2016 10:12:41 -0500
+2e03d5bce64780796d1d44d2c7a2cee98ba93b27|Merge "Deprecate auth_* old parameters"|Thu, 21 Jan 2016 10:29:31 +0000|Thu, 21 Jan 2016 10:29:31 +0000
+4ccae65825539710b7be615953f64acce3cf04d4|Deprecate auth_* old parameters|Fri, 9 Oct 2015 13:34:38 -0400|Wed, 20 Jan 2016 15:38:40 -0500
+5db75452a592ddbb4e7bf4e135ec74904315a0e3|Use puppet-openstack_spec_helper for Rakefile & spec_helper_acceptance|Mon, 18 Jan 2016 09:11:34 -0500|Mon, 18 Jan 2016 09:11:34 -0500
+b5124d205b78287c70b4a521fc7e4385a98c48f3|Disable exists_notification_transformer for all OS|Fri, 15 Jan 2016 22:22:20 +0800|Fri, 15 Jan 2016 22:26:28 +0800
+4f9b1c46ed3ee869c13fb729be2deeb298b4ad5d|Add rspec-puppet-facts to the spec_helper|Wed, 6 Jan 2016 21:28:56 -0700|Thu, 14 Jan 2016 20:15:39 +0300
+5002dfad3c545753f4faf1ff30ed366db58526d0|Merge "Introduce amqp_durable_queues option"|Tue, 12 Jan 2016 15:24:06 +0000|Tue, 12 Jan 2016 15:24:06 +0000
+75192f5327b0c92cc9c5be11cdd3d28d0a51aff5|Merge "Add rabbit_ha_queues option"|Tue, 12 Jan 2016 15:21:31 +0000|Tue, 12 Jan 2016 15:21:31 +0000
+29ffe75672c0f7e3a13741084ffd88ff13546e55|Merge "Typo in README.md"|Thu, 7 Jan 2016 20:27:21 +0000|Thu, 7 Jan 2016 20:27:21 +0000
+20a26281122caeb73f1b947b3880ded9c12d7752|update Setup section|Thu, 7 Jan 2016 14:52:56 +0000|Thu, 7 Jan 2016 14:52:56 +0000
+d91b9599b41e7951a30385054a23721d0ed2ebc1|Introduce amqp_durable_queues option|Wed, 19 Aug 2015 12:50:34 +0800|Thu, 7 Jan 2016 04:04:40 +0000
+2443294da20b9f59ce5001b957a4bffe0798b340|Add rabbit_ha_queues option|Wed, 19 Aug 2015 10:10:45 +0800|Thu, 7 Jan 2016 03:49:36 +0000
+c73c228ae73062ddf421a4a74748f9cf0066cbc8|Make Keystone_endpoint match service by name/type|Mon, 21 Dec 2015 20:50:32 +0100|Wed, 6 Jan 2016 12:08:28 -0500
+d87726b6d76046dfc961912819a94ffcb018df6d|Merge "Put all the logging related parameters to the logging class"|Tue, 15 Dec 2015 15:11:05 +0000|Tue, 15 Dec 2015 15:11:05 +0000
+0ddd0067a19473a088b14575f477c284d18ba393|Put all the logging related parameters to the logging class|Fri, 6 Nov 2015 09:42:39 +0100|Tue, 15 Dec 2015 14:38:42 +0100
+00f6f5429f7a728f56326f89895d5bd36dd0c967|Typo in README.md|Mon, 14 Dec 2015 10:02:24 -0800|Mon, 14 Dec 2015 10:04:10 -0800
+f712a483ff8449c5cd0f094f13be127b09727604|Use swift_url variable in the template instead of the hardcoded url.|Fri, 11 Dec 2015 15:38:36 +0100|Fri, 11 Dec 2015 15:44:13 +0100
+98ba7b3b6d5c68a43659bf0a588a83d9a407ef2c|Merge "Remove trove ubuntu package hack"|Thu, 10 Dec 2015 17:49:20 +0000|Thu, 10 Dec 2015 17:49:21 +0000
+05cbdefa6b239d8ad515481ca5776cdeb4ba4561|Remove qpid messaging support|Thu, 3 Dec 2015 20:56:56 +0300|Mon, 7 Dec 2015 20:44:35 +0300
+0f3cbadffffe6c32d2b74eeda74bcabd7cc5c709|Remove trove ubuntu package hack|Tue, 8 Sep 2015 14:10:29 +0200|Thu, 3 Dec 2015 16:05:00 +0100
+c533f497f18acf28f187de97095d4ac41cd700b9|Follow-up on PyMySQL support for Red Hat platforms|Wed, 2 Dec 2015 17:07:59 +0300|Wed, 2 Dec 2015 20:58:37 +0300
+fabf1af142c1551f97eaa94eedbfd1b1b450df49|Merge "Support of PyMySQL driver for MySQL backend"|Tue, 1 Dec 2015 00:56:46 +0000|Tue, 1 Dec 2015 00:56:46 +0000
+1dcf76f083e837364eb705d821eb08cae7d00922|Checkout openstack-integration from master|Thu, 26 Nov 2015 11:46:22 +0100|Thu, 26 Nov 2015 11:46:22 +0100
+2462480f91102088928f18178f8db7f0d15429fa|release: prepare 7.0.0 (liberty)|Thu, 26 Nov 2015 00:10:38 +0100|Thu, 26 Nov 2015 09:31:33 +0100
+3c0ac8112eba3a40f1fa191e623b012d9af54e3d|Support of PyMySQL driver for MySQL backend|Tue, 24 Nov 2015 14:22:46 +0300|Tue, 24 Nov 2015 14:23:21 +0300
+6d541be368a09f73a83ef598443395a4bf811f82|Merge "Fix db sync command resource title."|Fri, 20 Nov 2015 03:24:13 +0000|Fri, 20 Nov 2015 03:24:13 +0000
+c23ca2575231b5dc03445031f1fff4eeb6f67883|Acceptance: use common bits from puppet-openstack-integration|Thu, 19 Nov 2015 11:43:28 +0100|Thu, 19 Nov 2015 11:43:28 +0100
+90ba4bdaa7df065a9449185fc42c12b163c0dc1e|Bump UCA and RDO to Liberty GA|Wed, 4 Nov 2015 10:21:45 -0500|Wed, 18 Nov 2015 16:00:32 +0000
+4d152b2a24c63fe9040db4a6f33796e0f6944a2c|Fix db sync command resource title.|Mon, 16 Nov 2015 12:25:34 +0800|Mon, 16 Nov 2015 15:23:09 +0800
+12b0de0a22d6faf23b77bea56e238ba4b2b3eae4|Remove class_parameter_defaults puppet-lint check|Thu, 12 Nov 2015 12:51:52 +0100|Thu, 12 Nov 2015 12:51:52 +0100
+ffee17b8830c79ce6aa7645e5fdbc781859d5d09|Add notification system options in trove|Sat, 11 Jul 2015 05:08:26 +0800|Mon, 9 Nov 2015 00:16:22 +0800
+7b790cc6632c893a733780731fd9ddbe195f6c94|Introduce trove::db class|Wed, 4 Nov 2015 16:55:47 +0100|Fri, 6 Nov 2015 09:21:41 +0100
+0299eeb5da6cc8e5e5e04ba6b28e5ca10c348f8a|Fix rabbit_userid parameter|Tue, 3 Nov 2015 12:33:43 -0500|Tue, 3 Nov 2015 12:33:43 -0500
+b44b81214c35000a4d61a958a499faed12c1f878|Update rspec tests for keystone|Wed, 21 Oct 2015 09:50:32 -0400|Wed, 21 Oct 2015 09:50:32 -0400
+10ff52202573c3ebc1339ec0e9fb829fbd4bb395|Prepare 6.1.0 release|Wed, 14 Oct 2015 19:10:26 +0200|Mon, 19 Oct 2015 15:28:53 -0400
+03f5a793a63e3788d92bda067b1b342a07db3ff7|Simplify rpc_backend parameter|Tue, 13 Oct 2015 10:32:09 +0200|Tue, 13 Oct 2015 10:32:09 +0200
+045d929556389a631a34a68b011dc87b960fb9a6|Try to use zuul-cloner to prepare fixtures|Thu, 8 Oct 2015 14:39:59 -0700|Thu, 8 Oct 2015 15:20:39 -0700
+c5b0e46a63125fa7b87b6461ac1dd0de49b8a881|Bump RDO packages to tested repos|Tue, 22 Sep 2015 13:47:11 -0400|Tue, 22 Sep 2015 13:47:11 -0400
+2c907a77f9a8a76516f784fbf3a2bca213876e4c|Merge "Fix rspec 3.x syntax"|Sun, 13 Sep 2015 23:02:27 +0000|Sun, 13 Sep 2015 23:02:27 +0000
+61d3378cb51f4b4b4175058b5c1bd93a55f0a51d|Merge "Initial msync run for all Puppet OpenStack modules"|Fri, 11 Sep 2015 16:16:31 +0000|Fri, 11 Sep 2015 16:16:31 +0000
+340f2c0fef0079b7a1091287093cc11dee15a729|Fix rspec 3.x syntax|Fri, 11 Sep 2015 15:04:10 +0200|Fri, 11 Sep 2015 15:05:37 +0200
+ea102af2ecb9ff594231b220fb0a8eee739b0cbd|acceptance: switch RDO to CBS repositories|Thu, 10 Sep 2015 12:13:16 -0400|Thu, 10 Sep 2015 12:13:16 -0400
+3c634e122f8b086ada3744c3188a1b02e0c480a0|acceptance: bump trusty packaging to trusty-proposed/liberty|Wed, 2 Sep 2015 14:34:29 -0400|Wed, 2 Sep 2015 21:11:03 +0000
+3da8e3e2fa5c8a5484bd17f7206f287201cd3e1c|Merge "Introduce use_guestagent_template option"|Sun, 30 Aug 2015 23:54:02 +0000|Sun, 30 Aug 2015 23:54:02 +0000
+1244fcaf35a8857437418e1065c8bed0fb4beb03|Merge "Reflect provider change in puppet-openstacklib"|Fri, 21 Aug 2015 21:10:30 +0000|Fri, 21 Aug 2015 21:10:30 +0000
+cdf452769e0da7944c51ca422898911de753a3cc|Introduce use_guestagent_template option|Fri, 21 Aug 2015 14:08:04 +0800|Fri, 21 Aug 2015 15:42:09 +0800
+c8527beace1b2138b6953a518a2f1bb1e328b70c|Reflect provider change in puppet-openstacklib|Thu, 6 Aug 2015 13:06:40 +0200|Wed, 19 Aug 2015 11:21:42 +0200
+f5288e5d0ad8486b2f3ec19ec987041e178666b6|Fix default value of guestagent_config_file option|Sat, 1 Aug 2015 10:45:35 +0800|Wed, 19 Aug 2015 00:54:53 +0800
+27313c16bc6fd953b382c31d0b583c09a202d406|Merge "acceptance: enable debug & verbosity for OpenStack logs"|Tue, 18 Aug 2015 13:05:39 +0000|Tue, 18 Aug 2015 13:05:39 +0000
+7145694b744be5008d2f805886d6e7416b646051|Initial msync run for all Puppet OpenStack modules|Tue, 4 Aug 2015 11:34:13 -0700|Tue, 18 Aug 2015 14:40:01 +0200
+de3899f7861e72499b6a110b9477d49fb47da456|Merge "Add api ratelimit options"|Tue, 18 Aug 2015 08:33:56 +0000|Tue, 18 Aug 2015 08:33:56 +0000
+ca97cff6105433b18db48f406da57096a2057389|acceptance: enable debug & verbosity for OpenStack logs|Sun, 16 Aug 2015 09:50:01 -0400|Sun, 16 Aug 2015 09:50:01 -0400
+9c4efb004654fb575a161a866e310a9467be6fe6|Merge "acceptance: bump to Liberty release"|Fri, 14 Aug 2015 20:54:30 +0000|Fri, 14 Aug 2015 20:54:30 +0000
+4a34620aa769cffa20a3608e3c02c846c90b063c|Merge "Make taskmanager_queue option configurable"|Fri, 14 Aug 2015 13:05:02 +0000|Fri, 14 Aug 2015 13:05:02 +0000
+37b81a21509255e5344300283f62cb25e3338526|Make taskmanager_queue option configurable|Thu, 6 Aug 2015 05:49:37 +0800|Wed, 12 Aug 2015 06:11:06 +0800
+2b91b85c510065f3bc87fac78592b8019e823d2f|Use openstack/ namespace for fixtures modules|Tue, 11 Aug 2015 14:58:10 +0200|Tue, 11 Aug 2015 14:58:10 +0200
+3f9c2ce517054e0509733b784ef0d9553c38f447|acceptance: bump to Liberty release|Tue, 4 Aug 2015 20:36:18 -0400|Tue, 4 Aug 2015 21:21:49 -0400
+b2a76998dff311a60153420d95b1a700741a881e|Add api ratelimit options|Thu, 9 Jul 2015 11:36:32 +0800|Fri, 31 Jul 2015 23:34:32 +0800
+4ce651ef07dad50dca1563737e7403f7ac7f46f1|Merge "Fix catalog compilation when not configuring endpoint"|Tue, 28 Jul 2015 13:04:02 +0000|Tue, 28 Jul 2015 13:04:02 +0000
+b3be8c5f78119cb581e47fb836de53941aa7429b|Merge "Add tag to package and service resources"|Mon, 27 Jul 2015 13:07:02 +0000|Mon, 27 Jul 2015 13:07:02 +0000
+39867dcd31cacf6882ede22fb25d9cd62aaf1a40|Fix catalog compilation when not configuring endpoint|Wed, 10 Jun 2015 15:24:07 -0400|Thu, 23 Jul 2015 18:30:29 -0400
+c9966f7d97d2b06867e8deffacd7edc252b087be|Add tag to package and service resources|Wed, 22 Jul 2015 16:59:16 +0200|Wed, 22 Jul 2015 21:36:10 +0200
+0e3faace3c92b474fb01b9acca7b7e21868da07d|Add region and resource url related options|Thu, 9 Jul 2015 09:06:09 +0800|Mon, 20 Jul 2015 09:59:59 +0800
+0cb468f9b8765a7537b1106b5c4d3b919fb52f35|Merge "Add default_neutron_networks in trove::taskmanager"|Sun, 19 Jul 2015 23:49:40 +0000|Sun, 19 Jul 2015 23:49:40 +0000
+5539bdac6595a7993231da62bcb8a516f6ffe67a|Merge "keystone/auth: make service description configurable"|Sun, 19 Jul 2015 17:50:05 +0000|Sun, 19 Jul 2015 17:50:05 +0000
+22c9a45aba6b784aed9871d00cb950206b7e27f2|Merge "Complete qpid support"|Fri, 10 Jul 2015 19:20:21 +0000|Fri, 10 Jul 2015 19:20:21 +0000
+1104c2d29d6dbc06c5b5eb7bfd37f4664f527558|Merge "Add trove::quota class"|Fri, 10 Jul 2015 16:07:54 +0000|Fri, 10 Jul 2015 16:07:54 +0000
+843d1b80d29d803559067f9b06e2e9ea86136423|Add default_neutron_networks in trove::taskmanager|Thu, 9 Jul 2015 12:18:48 +0800|Thu, 9 Jul 2015 15:48:15 +0800
+ccad0d083b26123b27a4f22a6a7ce7e4395cb99c|Introduce trove:config to manage custom options|Thu, 9 Jul 2015 12:46:27 +0800|Thu, 9 Jul 2015 13:58:23 +0800
+003b3b35ba13da656d6ca1b3880f10ceb52e7e88|Prepare 6.0.0 release|Thu, 9 Jul 2015 10:19:59 -0400|Thu, 9 Jul 2015 10:20:03 -0400
+2636a384f67c2ac1513ac709f3ae4525668ccb62|Fix git clone for locally running tests|Wed, 8 Jul 2015 11:40:45 -0700|Wed, 8 Jul 2015 11:56:56 -0700
+2767c1fae6c81386582aa9ee7252b6a40ddf080c|Use module install script for acceptance tests|Tue, 7 Jul 2015 14:18:43 -0700|Tue, 7 Jul 2015 14:18:43 -0700
+650c8f9f559739e082158cd6ba52db3e89bbd756|Correct `puppet module list` check in beaker|Tue, 7 Jul 2015 14:18:24 -0700|Tue, 7 Jul 2015 14:18:24 -0700
+83e9d07a6acb1c2c1391bf59af1a600d51f6c216|Use beaker-puppet_install_helper to install puppet|Tue, 30 Jun 2015 17:00:23 -0400|Tue, 30 Jun 2015 17:00:23 -0400
+2a020fdf931332c4bd0f4ce2204572b22dab30c0|Complete qpid support|Wed, 24 Jun 2015 13:10:54 +0200|Tue, 30 Jun 2015 11:30:10 +0200
+b04dd42edfb4604bc1c3569bbc0b77c574ae1f08|acceptance: install latest openstack-selinux|Mon, 29 Jun 2015 15:26:49 -0400|Mon, 29 Jun 2015 15:26:49 -0400
+cc138ca44540fbe9d800661d0a58d674cface464|Add trove::quota class|Sun, 28 Jun 2015 23:16:00 +0800|Mon, 29 Jun 2015 03:11:13 +0800
+c09363e986790183ea60889bd2d4b3ea364439b0|Update README.md for project namespace change|Mon, 22 Jun 2015 12:37:38 +0800|Sun, 28 Jun 2015 15:43:29 +0000
+9706bd779dfe2743d81315f18a5da3cdbf7d8c7e|Merge "Remove Release Notes section from README"|Sun, 28 Jun 2015 15:24:14 +0000|Sun, 28 Jun 2015 15:24:14 +0000
+11be3cdb73dd8057edd12ae91bad6540e3da3741|Remove Release Notes section from README|Fri, 26 Jun 2015 17:18:11 -0700|Fri, 26 Jun 2015 17:18:11 -0700
+290604f25cf668df2d0964b9336d28134e8c346b|acceptance: install RDO repo the right way|Fri, 26 Jun 2015 15:53:56 -0400|Fri, 26 Jun 2015 15:53:56 -0400
+d1f751bcfd24940a6a069052615aedddf8e1b3a0|keystone/auth: make service description configurable|Wed, 24 Jun 2015 17:50:39 +0200|Fri, 26 Jun 2015 17:58:23 +0000
+05f62bad89061cd1c8a131f191c12ce919b82892|Changed $::trove::rabbit_user to $::trove::rabbit_userid.|Thu, 25 Jun 2015 17:36:23 +0200|Fri, 26 Jun 2015 10:54:09 +0200
+51d4624f36016148c650081780f837e5720fad2b|lint: Fix lint issues (missing documentation for define types)|Thu, 25 Jun 2015 11:41:14 +0200|Thu, 25 Jun 2015 11:41:14 +0200
+abc81a8700d09ba4b3e9cfff1d58f4f55dc90e49|Fix Beaker CI according recent puppetlabs-rabbitmq change.|Wed, 24 Jun 2015 19:06:49 +0200|Wed, 24 Jun 2015 23:58:41 +0200
+46ae10d808ca2d1ed066da81782efb74b3e9b303|Merge "Sync amqp support with other openstack modules"|Tue, 23 Jun 2015 15:03:48 +0000|Tue, 23 Jun 2015 15:03:48 +0000
+357e8f0db2ce2aa8a7b573d0144df29931900773|Merge "Introduce public_url, internal_url and admin_url"|Tue, 16 Jun 2015 23:59:27 +0000|Tue, 16 Jun 2015 23:59:27 +0000
+cf116cd069ef2fe2de5e3fa64b9453f627c243f0|Merge "Update spec_helper_acceptance for project renames"|Mon, 15 Jun 2015 23:43:45 +0000|Mon, 15 Jun 2015 23:43:45 +0000
+fbaf565e85435cb331acd19bec3c6fad6496c95e|Update spec_helper_acceptance for project renames|Fri, 12 Jun 2015 17:36:19 -0700|Fri, 12 Jun 2015 17:36:19 -0700
+ec563fbaf5545939efe8376c3382912562eca1df|Update .gitreview file for project rename|Fri, 12 Jun 2015 22:41:20 +0000|Fri, 12 Jun 2015 23:12:30 +0000
+86b7d23f298426ce3c84ea6c7ab9afb682dffa69|Sync amqp support with other openstack modules|Wed, 1 Apr 2015 11:25:57 -0400|Fri, 12 Jun 2015 04:40:07 +0000
+df63776cec468578897bdac9a6d479266fdef742|Introduce public_url, internal_url and admin_url|Thu, 11 Jun 2015 17:15:56 -0400|Thu, 11 Jun 2015 17:26:18 -0400
+8063a02c8f33a00f3fcbf40136aeedf5f40a57a4|Unpin beaker-rspec|Mon, 8 Jun 2015 14:07:45 -0700|Mon, 8 Jun 2015 14:08:47 -0700
+16e82e68ea62efec3ec7e11d7b9887e16b773372|CentOS 7 compatibility|Wed, 20 May 2015 13:54:45 +0200|Fri, 22 May 2015 10:15:57 -0700
+bd16e3dbe597dcea9506c611f4a98926578176db|Bring Redhat support to acceptance tests|Tue, 19 May 2015 15:26:58 +0200|Fri, 22 May 2015 10:14:31 -0700
+29be41ed02a4adda3d4012dcf0c0c9677dd7cb8d|Beaker: install APT repo with openstack_extras|Tue, 19 May 2015 15:21:43 +0200|Fri, 22 May 2015 10:12:52 -0700
+c9ff84d3e4aed8f9d91ea12d704cec633e5bf2a0|Document requirement to use separate RabbitMQ|Mon, 11 May 2015 11:53:49 +0200|Mon, 11 May 2015 15:21:39 +0200
+19731ad8f1598106226617b7bd66a1ee1fd67ac2|Beaker tests|Thu, 30 Apr 2015 10:03:29 -0400|Mon, 4 May 2015 23:14:02 -0400
+fead756a6c74bf939bd8d2faaf38892808963d37|Create Trove config before dbsync|Mon, 4 May 2015 16:18:49 -0400|Mon, 4 May 2015 23:13:15 -0400
+4aa993d4355ef7637a1a217db15d6ab1fc3af4ed|Fix spec tests for RSpec 3.x and Puppet 4.x|Tue, 28 Apr 2015 03:33:03 +0200|Tue, 28 Apr 2015 03:33:03 +0200
+25ad7704797491194e10f71db867fb7aea3bc939|Merge "Bump rspec-puppet to 2.1.0"|Thu, 23 Apr 2015 15:06:50 +0000|Thu, 23 Apr 2015 15:06:50 +0000
+6058f2c7a9cc48b2ac981c4488d6a8d169dcf081|Bump rspec-puppet to 2.1.0|Wed, 22 Apr 2015 23:58:36 -0400|Wed, 22 Apr 2015 23:58:36 -0400
+bc197410acc13d8d85ebeca97c925068739ae622|MySQL: change default MySQL collate to utf8_general_ci|Tue, 21 Apr 2015 13:14:41 -0400|Tue, 21 Apr 2015 20:39:29 +0000
+70325fb0fc1dad9254a3520095d20c75342daf64|Pin puppetlabs-concat to 1.2.1 in fixtures|Tue, 21 Apr 2015 14:03:43 -0400|Tue, 21 Apr 2015 14:03:43 -0400
+27f3940b92d803e18bbad37a40533bdeeab0a85e|Merge "Change sql_connection to connection."|Wed, 1 Apr 2015 01:19:02 +0000|Wed, 1 Apr 2015 01:19:02 +0000
+b032aca232c23f22d8324b03d146c0d19b03fa65|Change sql_connection to connection.|Tue, 24 Mar 2015 15:50:03 +0100|Tue, 31 Mar 2015 09:10:07 +0000
+4a0a588bca4e2db984dc7626e9404dc4201b48ff|Merge "Adds ability to override service name for service catalog"|Mon, 30 Mar 2015 18:42:10 +0000|Mon, 30 Mar 2015 18:42:10 +0000
+b38fef5f763768981b9d74bafedcc63ff51d93e2|Merge "Migrate postgresql backend to use openstacklib::db::postgresql"|Tue, 24 Mar 2015 14:47:48 +0000|Tue, 24 Mar 2015 14:47:48 +0000
+57755f18d0bdc8dc1869db92fc07ac729553b034|Adds ability to override service name for service catalog|Mon, 23 Mar 2015 08:49:36 +0800|Mon, 23 Mar 2015 10:05:35 +0800
+edde7da295d2a2c3544ea28694bb3e846f89a96d|Migrate postgresql backend to use openstacklib::db::postgresql|Tue, 30 Dec 2014 22:26:48 +0100|Tue, 17 Mar 2015 11:58:45 +0100
+feee104f7f150948f77f357c5708e87a080595c1|Add Puppet 4.x lint checks|Wed, 25 Feb 2015 04:53:52 +0100|Mon, 16 Mar 2015 18:41:48 +0000
+53d51d8f35a9564a6954efcef87cfe9697ddb4fa|spec: updates for rspec-puppet 2.x and rspec 3.x|Wed, 25 Feb 2015 04:52:01 +0100|Wed, 25 Feb 2015 05:15:02 +0100
+b946d3d24578e56b2b555d4db951aea737c6886a|Fix lint issues (doc, metadata, manifests)|Wed, 25 Feb 2015 04:49:55 +0100|Wed, 25 Feb 2015 04:51:00 +0100
+c6d7addb151d572b5146d59898179434d1c2ba73|fixtures: Unpin puppetlabs-mysql module|Tue, 30 Dec 2014 22:23:52 +0100|Mon, 16 Feb 2015 18:05:37 +0000
+6a8ce8a6b2d51d0cb6d94aa8885c72cf6ee214e3|spec: pin rspec-puppet to 1.0.1|Tue, 3 Feb 2015 15:32:21 +0100|Tue, 3 Feb 2015 15:32:21 +0100
+c345e128c7fec585acf00b5a275a78cd1ae89f03|Support Neutron|Tue, 16 Dec 2014 15:42:00 -0500|Thu, 15 Jan 2015 16:17:05 -0500
+1b43832a1b022f92fb7001e624d1c85d01d1c3d6|Set control_exchange in the main config file|Tue, 16 Dec 2014 15:40:19 -0500|Mon, 5 Jan 2015 13:11:17 -0500
+9e5b82fcdacc07b0f1028cb2928292f8d68ae075|Configure auth via conf file, not paste file|Tue, 16 Dec 2014 15:31:29 -0500|Thu, 18 Dec 2014 11:33:55 -0500
+2ef93e8e90978915d166ed21fd53dab67f820fe7|Fix trove-db-sync|Wed, 17 Dec 2014 12:50:49 +0100|Wed, 17 Dec 2014 12:52:26 +0100
+4fe79ee6c333e74c8d3986185ef87c1d1720b5b3|Refactorise Keystone resources management|Fri, 21 Nov 2014 11:07:08 -0500|Fri, 21 Nov 2014 11:07:34 -0500
+b9881559b137b76b0a156bb09e95c36a0ea83e7b|Fix db sync relationships|Thu, 23 Oct 2014 15:45:47 -0700|Thu, 23 Oct 2014 16:00:49 -0700
+e3e8b27bbdffcf5cba6b268dea5b44587da86115|Switch to metadata.json for Puppet forge releases|Sat, 27 Sep 2014 11:43:54 +0200|Wed, 22 Oct 2014 15:51:44 +0200
+2aa4c7a5313abcb1d61bce1a1cade7ebc77e0f76|Merge "Migrate mysql backend to use openstacklib::db::mysql"|Tue, 21 Oct 2014 15:40:36 +0000|Tue, 21 Oct 2014 15:40:36 +0000
+eda9844c01b2b007c91140443c13dba58bd5a5a1|keystone/auth: Fix puppetdoc typos|Mon, 6 Oct 2014 17:23:28 +0200|Mon, 6 Oct 2014 17:23:28 +0200
+1fc6cd2619c89997ccb6dded548b333b2ad74f2b|Migrate mysql backend to use openstacklib::db::mysql|Sat, 6 Sep 2014 01:17:43 +0200|Sat, 6 Sep 2014 01:18:34 +0200
+7d9db32423b25dcc227ea6a6d43c90c63fde0d58|Merge "Allow specifying Nova, Cinder and Swift endpoints"|Thu, 4 Sep 2014 15:48:31 +0000|Thu, 4 Sep 2014 15:48:31 +0000
+c1db9827c4c17376cd0f4c30615efa18d0e1ebbe|Merge "Fix eNovance domain name"|Wed, 3 Sep 2014 13:35:30 +0000|Wed, 3 Sep 2014 13:35:30 +0000
+1401da25416995b89186e75fa2075bb5472451c4|Merge "Add a site.pp for example"|Mon, 1 Sep 2014 07:08:02 +0000|Mon, 1 Sep 2014 07:08:02 +0000
+34fe5b8a0f6431353403528def8031358bcdac68|Allow specifying Nova, Cinder and Swift endpoints|Sun, 10 Aug 2014 23:18:01 +0200|Fri, 29 Aug 2014 14:06:44 +0200
+064f3dc20d778cd372b582af81ec72e6b8708baf|Merge "Add trove_datastore and trove_datastore_version types"|Fri, 29 Aug 2014 00:46:19 +0000|Fri, 29 Aug 2014 00:46:19 +0000
+47dbf92f77d2fe49ecbfafc0e0629626607fcec3|Merge "Require Class['mysql::server'], not Service['mysqld'] when creating DB."|Fri, 29 Aug 2014 00:45:46 +0000|Fri, 29 Aug 2014 00:45:46 +0000
+9b21c01ecabdb079588f5959ed8e6c3ca360a699|Merge "Generate injected guest agent configuration file"|Fri, 29 Aug 2014 00:45:15 +0000|Fri, 29 Aug 2014 00:45:15 +0000
+01caaff08121f6d0b22938f5f6d7d6307600680e|Add a site.pp for example|Fri, 4 Jul 2014 11:36:27 +0200|Tue, 19 Aug 2014 13:56:25 +0200
+4e15809e991a29bd8c1187faae60082338034086|Require Class['mysql::server'], not Service['mysqld'] when creating DB.|Mon, 28 Jul 2014 13:59:13 +0200|Tue, 12 Aug 2014 15:39:44 +0200
+8d37ba945115459c0961abc40f74846d5c64f558|Add trove_datastore and trove_datastore_version types|Wed, 9 Jul 2014 12:36:54 +0200|Mon, 11 Aug 2014 12:03:44 +0200
+4a9e8e8099794feaf723ca9c75f7ecef492015d7|Merge "First commit in Stackforge"|Mon, 4 Aug 2014 17:07:44 +0000|Mon, 4 Aug 2014 17:07:44 +0000
+c7a5df8623e05c5c3f2a3ffca8e7e13a581f5039|Use 2.2 as the default mysql_module|Wed, 16 Jul 2014 18:43:48 +0530|Wed, 16 Jul 2014 18:47:36 +0530
+4fdc9f802a0047355c10f6db888783b9d09925bb|Fix eNovance domain name|Sat, 12 Jul 2014 02:30:36 +0200|Sat, 12 Jul 2014 02:30:39 +0200
+e009fae96b74e87a565f980c0baede2f6fad3419|Generate injected guest agent configuration file|Wed, 9 Jul 2014 13:30:03 +0200|Wed, 9 Jul 2014 13:36:44 +0200
+0ba3c116044a9485e59c521c86cafe93da84b0d8|Merge "Make Modulefile summary and description consistent"|Mon, 7 Jul 2014 15:44:06 +0000|Mon, 7 Jul 2014 15:44:06 +0000
+4ca5567d92238d0b2d73aed27f873fa336170891|First commit in Stackforge|Fri, 4 Jul 2014 10:26:39 +0200|Sun, 6 Jul 2014 18:11:18 +0000
+e53fce5c92af38de83f8c6a67315eb0637390eb7|First implementation of trove::guestagent|Fri, 4 Jul 2014 11:17:39 +0200|Fri, 4 Jul 2014 14:46:20 +0200
+5eb04a0967f16afed5487bb8b27f6de079ac4d46|Make Modulefile summary and description consistent|Fri, 4 Jul 2014 10:31:33 +0200|Fri, 4 Jul 2014 10:31:33 +0200
+6cad2a1474ece5dad813821893f994b69df29fed|Merge pull request #11 from enovance/taskmanager|Thu, 3 Jul 2014 15:34:16 +0200|Thu, 3 Jul 2014 15:34:16 +0200
+3063b1903c2c923a3263bc9f3136ae9ab5da7da2|trove/api: fix spec tests (move to init classe)|Thu, 3 Jul 2014 15:21:24 +0200|Thu, 3 Jul 2014 15:21:24 +0200
+86e238ee54487e35d456e848a02a4a176830153a|conductor: move rabbit notification to init classe (and fix enabled services)|Thu, 3 Jul 2014 14:49:52 +0200|Thu, 3 Jul 2014 15:12:38 +0200
+2097a2249f83b8625dc1c7aa245bbe202ea49b35|conductor: Update conductor support|Thu, 3 Jul 2014 14:27:18 +0200|Thu, 3 Jul 2014 15:12:38 +0200
+49fc05bbf950de6967ed5274ebd7088b8a727e01|taskmanager: reload taskmanager if config is updated|Thu, 3 Jul 2014 14:26:58 +0200|Thu, 3 Jul 2014 15:12:38 +0200
+1156b47642bd861dc333ae96ecf82a9751e52f97|taskmanager: Fix typo and inherits from init (for exec post_config)|Thu, 3 Jul 2014 14:25:48 +0200|Thu, 3 Jul 2014 15:12:38 +0200
+0fdfe32a550efa5ee58985b6f4eed7b2e700f56c|trove: implement trove::taskmanager|Thu, 3 Jul 2014 13:08:40 +0200|Thu, 3 Jul 2014 15:12:38 +0200
+5e7fa924654f8cbef27b9edd6dbbc4103ec21f8a|move nova_proxy_admin_* to init class|Thu, 3 Jul 2014 11:35:02 +0200|Thu, 3 Jul 2014 15:12:38 +0200
+b58ab1dd2a662dbb7d3ec1a79f173909fb4b125c|Merge pull request #12 from enovance/api-paste|Thu, 3 Jul 2014 14:30:12 +0200|Thu, 3 Jul 2014 14:30:12 +0200
+b2caa68930f1e0b3a1f9f373e590ddd44d7ed1ab|Configure api-paste.ini for trove-api|Thu, 3 Jul 2014 14:15:04 +0200|Thu, 3 Jul 2014 14:15:39 +0200
+e729cb3a87127f283121f3d8a5d6bc4789a2e36e|Merge pull request #10 from enovance/api|Wed, 2 Jul 2014 17:56:26 +0200|Wed, 2 Jul 2014 17:56:26 +0200
+8998c4ae37ff380b8383298dc14701259a0a07b3|Merge branch 'api-paste' into api|Wed, 2 Jul 2014 17:48:00 +0200|Wed, 2 Jul 2014 17:48:00 +0200
+851537f8c5be2204b1c0ddf75c10904b71c19d43|Fix trove_api_paste provider|Wed, 2 Jul 2014 17:47:10 +0200|Wed, 2 Jul 2014 17:47:10 +0200
+9549151dcf9067aa6bb4075f95c08ed4adaef177|api: fix tests|Wed, 2 Jul 2014 17:20:01 +0200|Wed, 2 Jul 2014 17:20:53 +0200
+9ecfa5b832d02f912bb42d4cbe0c0bacc1377133|Merge pull request #9 from enovance/fix-sqlite-path|Wed, 2 Jul 2014 17:04:40 +0200|Wed, 2 Jul 2014 17:04:40 +0200
+7bf9375a85c74b1319a87437e4160fd7313e115f|Fix default sqlite path|Wed, 2 Jul 2014 16:51:47 +0200|Wed, 2 Jul 2014 16:51:47 +0200
+fb29aa8d4dc17115d596f4d5e35e60ba1de81a1a|Merge pull request #8 from enovance/api|Wed, 2 Jul 2014 15:58:21 +0200|Wed, 2 Jul 2014 15:58:21 +0200
+0b2ab24cf7d6753029cd84b7cc3863c4fe96b05d|api: fix unit test|Wed, 2 Jul 2014 15:44:33 +0200|Wed, 2 Jul 2014 15:52:48 +0200
+6ac2d6bfb033b2ad4f4c946a6615edfbbcdd8285|api: fix spec tests and trove api rpc backend|Wed, 2 Jul 2014 15:05:39 +0200|Wed, 2 Jul 2014 15:43:20 +0200
+09074c34bc7e76bd3d80f75c17840a30734269ee|api: fix trove api rpc backend 'trove.openstack.common.rpc.impl_qpid'|Wed, 2 Jul 2014 15:05:39 +0200|Wed, 2 Jul 2014 15:05:39 +0200
+dcef06f12dd5e087723f348e90bcc83249afee3a|Implement tests for trove::api|Wed, 2 Jul 2014 14:00:16 +0200|Wed, 2 Jul 2014 14:49:45 +0200
+d50774d9c1ac60a0b9cfbce247a8f908abb5dd4a|Merge pull request #7 from enovance/conductor|Wed, 2 Jul 2014 14:44:19 +0200|Wed, 2 Jul 2014 14:44:19 +0200
+1caefc79fc94f3fae87f90c3ca8ca6931c00f4e8|conductor: Introduce conductor support|Wed, 2 Jul 2014 14:01:37 +0200|Wed, 2 Jul 2014 14:15:31 +0200
+e209d4fbee0fc6311f6fd84bc39abb18d81910fc|Merge pull request #6 from enovance/api|Wed, 2 Jul 2014 14:10:14 +0200|Wed, 2 Jul 2014 14:10:14 +0200
+bc884e0b26323f35a896d5d2a11c1304a4d49162|Fix api and init classes (trove)|Wed, 2 Jul 2014 14:06:23 +0200|Wed, 2 Jul 2014 14:06:23 +0200
+4d84d61d484b93baf2f5089f07eb753c19ce2c03|First implementation of trove::api|Wed, 2 Jul 2014 11:48:42 +0200|Wed, 2 Jul 2014 13:32:27 +0200
+17b193fc2950bd86ebc347d3735c5721e7dcc26c|Merge pull request #2 from enovance/mysql|Wed, 2 Jul 2014 13:16:53 +0200|Wed, 2 Jul 2014 13:16:53 +0200
+01439a4f96ba4e9d7a28cbde5cc7274da802bd82|Fix trove_config provider name and introduce postgresql support|Wed, 2 Jul 2014 12:29:09 +0200|Wed, 2 Jul 2014 12:29:09 +0200
+a14a65b2cb0a9f97d0073fc3e5b96cc7e1dccc85|Merge pull request #5 from enovance/type-provider-spec|Wed, 2 Jul 2014 12:04:36 +0200|Wed, 2 Jul 2014 12:04:36 +0200
+ddee700cab78bb0aa2b0606128511a0214357c47|type/provider: Add unit tests for trove_config provider|Wed, 2 Jul 2014 11:56:44 +0200|Wed, 2 Jul 2014 11:56:44 +0200
+547e2f703da31ed09b5534d305695af3e97cb134|Merge pull request #4 from enovance/type_provider|Wed, 2 Jul 2014 11:48:22 +0200|Wed, 2 Jul 2014 11:48:22 +0200
+fb1ffcd5598bfe097b93718d581ba8ac4b57c52b|Merge pull request #3 from enovance/init|Wed, 2 Jul 2014 11:31:26 +0200|Wed, 2 Jul 2014 11:31:26 +0200
+170af9ad614ad57983eee7c746279aa3fb4fee22|type/providers: Introduce basic type/provider for puppet-trove|Wed, 2 Jul 2014 11:28:18 +0200|Wed, 2 Jul 2014 11:28:18 +0200
+a2c37013dfbb256703fbdcdd01bb095f49ead35c|Introduce init class|Wed, 2 Jul 2014 11:17:21 +0200|Wed, 2 Jul 2014 11:17:21 +0200
+476f0d16db9637b28440fd7331a7e251a8636bfa|MySQL support|Wed, 2 Jul 2014 10:58:01 +0200|Wed, 2 Jul 2014 10:58:01 +0200
+6bbea19e1ab5c518a3e441790038c7d065900a0b|Add travis config (for dev purpose)|Wed, 2 Jul 2014 10:02:55 +0200|Wed, 2 Jul 2014 10:02:55 +0200
+b0e6ecc985de877fc48e63c47886bf7c3a8b62f0|Merge pull request #1 from enovance/quick-fix|Tue, 1 Jul 2014 14:30:12 +0200|Tue, 1 Jul 2014 14:30:12 +0200
+3644706d641474a984f9f4e96459648252adc6d0|Normalize Gemfile & pin tests to rspec < 2.99|Fri, 20 Jun 2014 16:29:03 +0200|Fri, 20 Jun 2014 16:29:03 +0200
+73d0b4fb94c79b4ce950549b2105902af6d927dc|Added gitignore and modulefile|Tue, 17 Jun 2014 18:12:13 +0200|Tue, 17 Jun 2014 18:22:17 +0200
+24b23d05af84c0a5acd8a439e5df98d98072ea49|[keystone/auth] Fix port number (thanks @fghaas)|Tue, 17 Jun 2014 18:11:23 +0200|Tue, 17 Jun 2014 18:11:23 +0200
+25f3836186dd6765a180856a7082f10ceefbf9e6|[keystone/auth] Fix service type|Tue, 17 Jun 2014 18:10:18 +0200|Tue, 17 Jun 2014 18:10:18 +0200
+fcd2c5a6a4efb6d807bf898a1c0f40dabba0337b|[params] Update trove::params class|Tue, 17 Jun 2014 18:09:01 +0200|Tue, 17 Jun 2014 18:09:05 +0200
+275ddcb4f3a539eb0a72cefbb553895d40f9df91|[client] Introduce trove::params classe and fix client_package_name|Tue, 17 Jun 2014 18:08:00 +0200|Tue, 17 Jun 2014 18:08:00 +0200
+2f4abc06c49fd1a14b6cb827089650f17d38ca8d|introduce trove::keystone::auth class|Fri, 30 May 2014 18:04:09 +0200|Fri, 30 May 2014 18:04:09 +0200
+2de1f7cacb651c05f2020850dc9da18a4ab664dc|add trove::client class|Fri, 30 May 2014 18:01:24 +0200|Fri, 30 May 2014 18:01:24 +0200
+fd78d43bf4eb643cac12bad6672c65889b2293bb|README: quick note about roadmap.|Sun, 18 May 2014 11:50:08 +0200|Sun, 18 May 2014 11:50:08 +0200
+0c008777169700dc9dcda0b19a0e7de0a2c3534a|Prepare Type & Provider|Sun, 18 May 2014 11:47:30 +0200|Sun, 18 May 2014 11:47:30 +0200
+c01ac0bb4fadd7f4e588f6c6692105c05714d0a3|First commit|Sun, 18 May 2014 01:38:51 -0400|Sun, 18 May 2014 01:38:51 -0400

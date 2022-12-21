@@ -1,0 +1,9 @@
+,sha,message,files,issues
+0,1712c47dd29b69b98b6add39d092650bc783e1a2,Merge pull request #12 from derekhiggins/targets-conf,"['manifests/volume/iscsi.pp', 'spec/classes/cinder_volume_iscsi_spec.rb']",['#12']
+2,bd9853a2bfe9488cbace8d944a1f6416374ef249,Merge pull request #11 from bodepd/redhat_support,"['manifests/api.pp', 'manifests/client.pp', 'manifests/params.pp', 'manifests/scheduler.pp', 'manifests/volume.pp']",['#11']
+6,d42598691c11a59374789127249300446c51f5f0,Merge pull request #9 from bodepd/add_client,"['manifests/client.pp', 'spec/classes/cinder_client_spec.rb']",['#9']
+8,fb153e9e31fd2e1dbc1bd73c1f1b3a630fa9a8cb,Merge pull request #8 from bodepd/add_spec_tests,"['.fixtures.yml', '.gemfile', '.gitignore', '.travis.yml', 'Modulefile', 'Rakefile', 'manifests/base.pp', 'manifests/params.pp', 'manifests/volume.pp', 'spec/classes/cinder_api_spec.rb', 'spec/classes/cinder_base_spec.rb', 'spec/classes/cinder_db_mysql_spec.rb', 'spec/classes/cinder_db_sync_spec.rb', 'spec/classes/cinder_keystone_auth_spec.rb', 'spec/classes/cinder_params_spec.rb', 'spec/classes/cinder_scheduler_spec.rb', 'spec/classes/cinder_setup_test_volume_spec.rb', 'spec/classes/cinder_volume_iscsi_spec.rb', 'spec/classes/cinder_volume_spec.rb', 'spec/spec_helper.rb']",['#8']
+14,1ab53029648acc982633ac428e58ed4ec3321d86,Merge pull request #7 from bodepd/remove_tail_comma,['manifests/volume/iscsi.pp'],['#7']
+16,5435b9e580ff5e650fdcf4bcd221f3ea3db34ef2,Merge pull request #6 from bodepd/setup_test_volume,['manifests/setup_test_volume.pp'],['#6']
+18,e166885f5f75ca9396eca1a217620d7952da6c41,Merge pull request #5 from bodepd/dev_issue,['manifests/scheduler.pp'],['#5']
+20,45b49fad2d59c38dbdc15382efe6885f519f895b,Merge pull request #4 from jtopjian/folsom,"['manifests/keystone/auth.pp', 'manifests/volume/iscsi.pp']",['#4']

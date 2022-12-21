@@ -1,0 +1,225 @@
+434cedd48833f5cc9bbb3818cdb184232ddea50c|Merge pull request #33 from potto007/add-manage_zk_file|Mon, 27 Apr 2015 10:30:08 +0200|Mon, 27 Apr 2015 10:30:08 +0200
+b3ca04c0219e4fa23b51773774419819ae44756a|Added manage_zk_file parameter, tests, and documentation.|Sun, 26 Apr 2015 22:25:33 -0600|Sun, 26 Apr 2015 22:39:04 -0600
+91217e589259818fe9e1f0432d471a9fc90fbebd|test with STRICT_VARIABLES=yes|Sun, 26 Apr 2015 14:29:55 +0200|Sun, 26 Apr 2015 14:29:55 +0200
+a2f0c16ef71dd335900f94e03e1fc52466c96f24|avoid calling out of scope variables|Sun, 26 Apr 2015 14:29:01 +0200|Sun, 26 Apr 2015 14:29:01 +0200
+e1aed6ee5bf67a98f41db1d1a35bc7dfd490d37b|update travis test matrix, focus on puppet 3.x versions|Sun, 26 Apr 2015 14:20:23 +0200|Sun, 26 Apr 2015 14:20:23 +0200
+a4eaa7b97d2bc6bcb2dd83f311bcae6698e8c0c9|Merge pull request #32 from potto007/fix-travis|Sun, 26 Apr 2015 13:49:53 +0200|Sun, 26 Apr 2015 13:49:53 +0200
+ce7c0a6fc5c7af47577b5a36f8b3cdd46c62c7af|Removed tests for Puppet 2.6.18. Removed tests for Puppet 3.0.2 due to rspec issues.|Thu, 23 Apr 2015 15:51:59 -0600|Sat, 25 Apr 2015 01:27:25 -0600
+44011de82b9accc6ed84a200d57202ff0e11f3cf|Fix Gemfile to use PUPPET_VERSION environment variable. Restrict Puppet to < 4.0. Add testing for Puppet 3.6.2 and 3.7.5. Tests on Travis were not honoring the requested Puppet version, as the Gemfile was not using the PUPPET_VERSION environment variable. Puppet 4.0 was added to Gem, which has breaking changes.|Thu, 23 Apr 2015 14:56:04 -0600|Sat, 25 Apr 2015 01:27:25 -0600
+495785956f47a6c12087b06b55f069ca6eb76920|[blacksmith] Bump version to 0.5.4|Wed, 11 Mar 2015 10:55:48 +0100|Wed, 11 Mar 2015 10:55:48 +0100
+3147b69a3253dcd147099f12c33c048ac19d2f41|do not manage python package by default|Wed, 11 Mar 2015 10:54:52 +0100|Wed, 11 Mar 2015 10:54:52 +0100
+61a58cd098c73720f557d6582691f3c2056c01a9|several improvements for #29: allow changing python package name, ensure python is installed before mesos package|Wed, 11 Mar 2015 10:32:34 +0100|Wed, 11 Mar 2015 10:32:34 +0100
+226ee6d2d3666fd484d9806bc9adb56cc2d8a445|restrict highline version|Wed, 11 Mar 2015 10:19:46 +0100|Wed, 11 Mar 2015 10:19:46 +0100
+f2c3fb1462c210d339edb5428bf4459037c2a268|Merge pull request #29 from kscherer/optional_python|Wed, 11 Mar 2015 10:15:52 +0100|Wed, 11 Mar 2015 10:15:52 +0100
+e4834173481e688f10ee147b84693774855582b4|Add param to control whether python package is installed by mesos module|Tue, 10 Mar 2015 11:48:59 -0400|Tue, 10 Mar 2015 16:05:17 -0400
+485c505b47bc3ffad76e292387f8b510188b22a6|Merge pull request #27 from felixb/master|Wed, 11 Feb 2015 14:05:05 +0100|Wed, 11 Feb 2015 14:05:05 +0100
+a13864dc7eafe417f85ca7d5a9a65c7f9bf5ef3f|Update README.md|Wed, 11 Feb 2015 11:05:53 +0100|Wed, 11 Feb 2015 11:05:53 +0100
+2d93986eb08a9c248dd7cff4b7e02156ee1367f8|Allow omitting service resource|Wed, 11 Feb 2015 10:23:21 +0100|Wed, 11 Feb 2015 10:26:28 +0100
+b5fa7fa1997f0c5cf4cfffe29080dbef010b3657|Merge pull request #26 from felixb/patch-1|Thu, 29 Jan 2015 11:31:49 +0100|Thu, 29 Jan 2015 11:31:49 +0100
+2afbe6c202e5c066d24706822ce4c1ccf51e611a|Fix readme: isolation 'cgroups' is depricated|Thu, 29 Jan 2015 11:29:15 +0100|Thu, 29 Jan 2015 11:29:15 +0100
+c294c17c2933e36e2f264a2c857471a322b39960|added `force_provider` to readme. closes #16|Wed, 28 Jan 2015 11:36:32 +0100|Wed, 28 Jan 2015 11:36:32 +0100
+038b4c646b9a47289e59878abc3e0e93117aae6c|[blacksmith] Bump version to 0.5.3|Tue, 13 Jan 2015 15:59:45 +0100|Tue, 13 Jan 2015 15:59:45 +0100
+683b5988f433ef973ee23ec649ab290e693669d4|rspec for #25|Tue, 13 Jan 2015 12:23:19 +0100|Tue, 13 Jan 2015 12:23:19 +0100
+1625b634f6f8aa17e807322c892c7fa99117f22f|updated readme|Tue, 13 Jan 2015 11:22:06 +0100|Tue, 13 Jan 2015 11:22:06 +0100
+ae96af7939529276f345c88752d0597e91b1da52|linting|Tue, 13 Jan 2015 11:10:43 +0100|Tue, 13 Jan 2015 11:10:43 +0100
+27ac28d1494bfa5d6e7452204d3fa8b3b2d91477|don't version Gemfile.lock|Tue, 13 Jan 2015 10:57:09 +0100|Tue, 13 Jan 2015 11:06:46 +0100
+f38c14bc7f517001253ce35ad7c0eb2c3602e4f2|Merge pull request #25 from broadinstitute/master|Tue, 13 Jan 2015 11:06:06 +0100|Tue, 13 Jan 2015 11:06:06 +0100
+4ebdf43bfde359dea4ee9773e136d88e9a955814|* Add missing bracket in repo.pp|Mon, 12 Jan 2015 17:13:59 -0500|Mon, 12 Jan 2015 17:13:59 -0500
+9ac89e3ccef3d3aa70effc660ee63300366ff038|* Compress down the package definition in repo.pp for RHEL a little|Mon, 12 Jan 2015 17:12:45 -0500|Mon, 12 Jan 2015 17:12:45 -0500
+acb7da0f63f5fcedbd11cf069c14808b076b6a35|* Better variable-ize repo.pp additions|Mon, 12 Jan 2015 17:08:40 -0500|Mon, 12 Jan 2015 17:08:40 -0500
+953a1f58ad47b307ed0a478c68d340735d651fc6|* Test to see if the install in slave is necessary|Mon, 12 Jan 2015 16:59:26 -0500|Mon, 12 Jan 2015 16:59:26 -0500
+3be36326255c22c161ddd354730d734104de8b44|* Make sure slave also requires packages to be installed|Mon, 12 Jan 2015 16:46:49 -0500|Mon, 12 Jan 2015 16:46:49 -0500
+bcb09d9707421de354a5a0a07690f6fe9e1910c7|* Change the provider to "rpm" for remote mesosphere repo RPM install|Mon, 12 Jan 2015 16:00:37 -0500|Mon, 12 Jan 2015 16:00:37 -0500
+98221156f050c4437afd1aaae3c29955ed68e7ed|* Fix incorrect closing brackets in repo.pp|Mon, 12 Jan 2015 15:35:29 -0500|Mon, 12 Jan 2015 15:35:29 -0500
+6f09ef114b78fec0cd072e6bd917c5e630484509|* Fix typo in repo.pp|Mon, 12 Jan 2015 15:32:00 -0500|Mon, 12 Jan 2015 15:32:00 -0500
+149f598004a2cc3a58d805cc812f6f5a1b208bf5|* Add support for RHEL6/7 mesosphere repositories|Fri, 9 Jan 2015 17:15:25 -0500|Fri, 9 Jan 2015 17:15:25 -0500
+21e429faf3a5dc8ac996950b8a6468ae41178f67|fixed version|Fri, 2 Jan 2015 14:03:45 +0100|Fri, 2 Jan 2015 14:03:45 +0100
+d61f7611beddaa26e0819579bce73af85edd25cf|added os_support|Fri, 2 Jan 2015 14:01:11 +0100|Fri, 2 Jan 2015 14:03:14 +0100
+464e3d46d542d84886c5234dddf6db933ddcc03a|using metadata.json instead of Modulefile|Fri, 2 Jan 2015 13:58:29 +0100|Fri, 2 Jan 2015 14:02:17 +0100
+0e8aa10511b355308bce3a01ba7c4a83add68b7d|changed license to valid identified according to http://spdx.org/licenses/|Fri, 2 Jan 2015 13:02:19 +0100|Fri, 2 Jan 2015 14:01:38 +0100
+f8baa2e6fb22a00d2579f3740a43992f5bf03e9e|[blacksmith] Bump version to 0.5.2|Tue, 2 Dec 2014 16:41:51 +0100|Tue, 2 Dec 2014 16:41:51 +0100
+9f10cf265f292462259fb2e615185b57200a7efd|Merge pull request #22 from tomstockton/dependency_fix|Tue, 2 Dec 2014 16:35:32 +0100|Tue, 2 Dec 2014 16:35:32 +0100
+3a93e11a9fea18ad67747ba8bc90e29fdf3916ad|Install the package before managing the $conf_dir.|Tue, 2 Dec 2014 15:18:21 +0000|Tue, 2 Dec 2014 15:18:21 +0000
+5309fc559b21ceebbb1b438ba58d1c0aa0b51998|more specs|Sun, 30 Nov 2014 13:48:08 +0100|Sun, 30 Nov 2014 13:48:08 +0100
+ef127b6573b73d05400ad41a120bf9545280c23a|test compilation without cycles in dependencies|Sat, 29 Nov 2014 12:36:07 +0100|Sat, 29 Nov 2014 12:36:07 +0100
+3f5b163d62faacb697b937069830f4284b8041ce|added forge badge|Sat, 29 Nov 2014 09:43:26 +0100|Sat, 29 Nov 2014 09:43:26 +0100
+7d56e9f0e0cacd352c532ac2b503f6ba9fef5861|linting|Sat, 29 Nov 2014 09:41:05 +0100|Sat, 29 Nov 2014 09:41:05 +0100
+6f0ca8756afe1be25f77ee2d30b745471a88aa1b|fixed running lint, see https://github.com/rodjek/puppet-lint/issues/331|Sat, 29 Nov 2014 09:28:27 +0100|Sat, 29 Nov 2014 09:28:27 +0100
+10d6ffea0ab460769d8621d7c1949f9edc141226|version bump|Fri, 28 Nov 2014 23:24:05 +0100|Fri, 28 Nov 2014 23:24:05 +0100
+c0e6e5ee1dee16730fec952c8be77c4ae471001c|make it 0.5|Fri, 28 Nov 2014 23:01:18 +0100|Fri, 28 Nov 2014 23:01:18 +0100
+6e48bbc367095b4457be6dda18db8ccb98d6c47a|don't require blacksmith on ruby 1.8.7 or on CI builds|Fri, 28 Nov 2014 21:23:19 +0100|Fri, 28 Nov 2014 21:24:18 +0100
+afdb278a2c34d996bd300ddf3c4bf92b81f03702|removed linting from default task, don't install blacksmith|Fri, 28 Nov 2014 21:12:09 +0100|Fri, 28 Nov 2014 21:12:09 +0100
+a6b3ca16cc7dd7c5de5c010160359095d0ecb127|compatibility with 1.8.7|Fri, 28 Nov 2014 16:45:03 +0100|Fri, 28 Nov 2014 16:45:03 +0100
+25586023644c5bd3765fadfc7ebff52548b39094|updated travis matrix|Fri, 28 Nov 2014 16:23:43 +0100|Fri, 28 Nov 2014 16:23:43 +0100
+2b8ddc685cd00704f5ecdd8f8aea3e947fe70f4f|compatibility with 1.8.7|Fri, 28 Nov 2014 16:23:21 +0100|Fri, 28 Nov 2014 16:23:21 +0100
+0b2eeac778713a35ba84b8e21728b52aa9fa8df0|disabled fact test|Fri, 28 Nov 2014 16:08:06 +0100|Fri, 28 Nov 2014 16:08:06 +0100
+a97b815438ec7066e105b7e62b1a27b641fbfe46|configured hiera|Fri, 28 Nov 2014 15:43:36 +0100|Fri, 28 Nov 2014 15:43:36 +0100
+fd60fd858145e3a2818017736aee903b4eec40ac|removed hiera-helper|Fri, 28 Nov 2014 15:41:38 +0100|Fri, 28 Nov 2014 15:41:38 +0100
+1e7100348ea10c2540195b90a022836b0d1a8d99|using blacksmith from gem|Fri, 28 Nov 2014 15:35:37 +0100|Fri, 28 Nov 2014 15:35:37 +0100
+e473e16d803117c1e99f739ca94ef3d89b694986|updated puppet forge API url|Fri, 28 Nov 2014 15:34:20 +0100|Fri, 28 Nov 2014 15:34:20 +0100
+620af2e32740798cb2d2664847f6a47e0bd829aa|updated dependencies|Fri, 28 Nov 2014 15:31:33 +0100|Fri, 28 Nov 2014 15:31:33 +0100
+5d7a37e400bcf664ff9ef69a5d4d3750d15fb2fa|updated readme|Wed, 12 Nov 2014 01:06:37 +0100|Wed, 12 Nov 2014 01:06:37 +0100
+a5730890e59e7e7017f94ea53b97848902de95ff|don't set ipaddress by default (leave it to mesos autodetection)|Wed, 12 Nov 2014 01:00:06 +0100|Wed, 12 Nov 2014 01:00:06 +0100
+2f1b2ca146eb2b3592278845e2ad8e0a61087ff9|listen_address|Wed, 15 Oct 2014 10:49:37 +0200|Wed, 15 Oct 2014 10:49:37 +0200
+9e994649160fd3daeb7b131725a10c41d42ad6eb|linting|Wed, 24 Sep 2014 00:56:56 +0200|Wed, 24 Sep 2014 00:56:56 +0200
+f553ee22172aa53b3bcc7a9b829fc5a6614f5596|allow specifying ulimit|Tue, 23 Sep 2014 22:43:53 +0200|Tue, 23 Sep 2014 22:43:53 +0200
+166c154a770a3927255077914a4020e448cab9c0|testing version/ensure param|Tue, 23 Sep 2014 22:32:16 +0200|Tue, 23 Sep 2014 22:34:45 +0200
+55f08d5f99090e4a2024d5819780a2c391d4f0c0|removed explicit hiera calls|Tue, 23 Sep 2014 20:14:29 +0200|Tue, 23 Sep 2014 20:14:29 +0200
+f4908b992548b0dfd5746ca353c2f0504eab4f4a|Merge pull request #20 from sophaskins/validate|Fri, 5 Sep 2014 21:59:59 +0200|Fri, 5 Sep 2014 21:59:59 +0200
+f39b9a285829144d6b764f3e971f30fcb7940a70|validate  type|Fri, 5 Sep 2014 15:39:14 -0400|Fri, 5 Sep 2014 15:39:14 -0400
+cc461cb20e7459ac1f691921ae45e0c01fb1e2d7|Merge pull request #19 from sophaskins/environment_variables|Thu, 4 Sep 2014 10:43:13 +0200|Thu, 4 Sep 2014 10:43:13 +0200
+48d0c7dd55ccc54f5979ccc48fc3124be615ea97|Adding `env_var` configuration to `mesos::master` and `mesos::config`|Wed, 3 Sep 2014 12:52:38 -0400|Wed, 3 Sep 2014 12:52:38 -0400
+e5b56add6475d0c98890fd95331b3e428e33067d|temporary workaround for running services on RedHat Linux family (error due to bad rpm packages, see #16)|Tue, 2 Sep 2014 18:35:13 +0200|Tue, 2 Sep 2014 18:35:13 +0200
+380ffc4164919888f8b5c2b7ea649779abe2a73e|Merge pull request #18 from samos123/master|Thu, 28 Aug 2014 11:01:00 +0200|Thu, 28 Aug 2014 11:01:00 +0200
+37637880c03429ee31d0fee5ad6040a58a3e4411|Fixed issue with source repo class|Thu, 28 Aug 2014 16:42:15 +0800|Thu, 28 Aug 2014 16:42:15 +0800
+ad61c1b86c52b9b65045378de6925478e1d84f90|fixed ruby 1.8.7 compatibility|Tue, 12 Aug 2014 11:34:26 +0200|Tue, 12 Aug 2014 11:34:26 +0200
+ac4e3ff4d05d64edc853a5e618358c9a7e2e43f4|updated documentation|Tue, 12 Aug 2014 11:18:39 +0200|Tue, 12 Aug 2014 11:18:39 +0200
+1d916e4d3f2a9627c8821e60c2d8379cadd1c2a2|documentation for repositories|Tue, 12 Aug 2014 11:09:52 +0200|Tue, 12 Aug 2014 11:09:52 +0200
+880f126bd996ee9ae39aac86511bd1c40425a234|added Debian repository from mesosphere, closes #15|Tue, 12 Aug 2014 11:01:09 +0200|Tue, 12 Aug 2014 11:02:46 +0200
+882e2ce1796add55293d067c6638d9c275a41b1d|[blacksmith] Bump version|Wed, 23 Jul 2014 16:53:32 +0200|Wed, 23 Jul 2014 16:53:32 +0200
+ad1b96638522d451cc149a3fe507a207a7e025c0|installation instructions|Wed, 23 Jul 2014 15:15:51 +0200|Wed, 23 Jul 2014 15:15:51 +0200
+3994432ebc6d3464ad4a02f57b5268ef8d1d6e36|removed some env variables from default/mesos-* as preferred way is configuration via files in /etc/mesos-{master,slave} (as it was mentioned in #12)|Wed, 23 Jul 2014 14:59:35 +0200|Wed, 23 Jul 2014 15:02:16 +0200
+32b456d978c6bdd4ffd66b9cc11889027227730a|Merge pull request #14 from chartbeat-labs/master|Wed, 23 Jul 2014 14:19:54 +0200|Wed, 23 Jul 2014 14:19:54 +0200
+18eac911afaa752d989fe9ce8e489d1084ccf03e|allow passing numeric values via options|Wed, 23 Jul 2014 10:42:22 +0200|Wed, 23 Jul 2014 10:42:22 +0200
+3b383b20bb4a5503779ffefd4ab0ea1d4043101a|support boolean flags, closes #13|Wed, 23 Jul 2014 10:35:07 +0200|Wed, 23 Jul 2014 10:35:07 +0200
+f8132c0e92448df183730a5bed9a2f7b2d0a3e2e|updated documentation|Wed, 23 Jul 2014 10:28:36 +0200|Wed, 23 Jul 2014 10:28:36 +0200
+fa7094d6e3afa7dc6a865c9e9cbdd23fbaef9ced|Don't export MESOS_work_dir since in conflicts with args passed via cmd line|Tue, 22 Jul 2014 11:52:49 -0400|Tue, 22 Jul 2014 11:52:49 -0400
+b94c594652c2814c49308b20f1e3f3c54b227e69|[blacksmith] Bump version|Tue, 22 Jul 2014 16:57:38 +0200|Tue, 22 Jul 2014 16:57:38 +0200
+6ede2d70c8f5f6875c9f0603bee3af5c89dd53ee|version 0.4.0|Tue, 22 Jul 2014 16:57:15 +0200|Tue, 22 Jul 2014 16:57:15 +0200
+daf5d4631e705e5f37fe4a8432d6396ecbb8b63f|added property file spec|Tue, 22 Jul 2014 15:26:50 +0200|Tue, 22 Jul 2014 15:26:50 +0200
+b72873735bfc48a94a276f8ee8d1744eb7a9c3f8|notify services about when property file changes|Tue, 22 Jul 2014 15:26:21 +0200|Tue, 22 Jul 2014 15:26:21 +0200
+07ee380f85cf749e253c859859b09a0fac5b52c1|hostname example|Mon, 21 Jul 2014 17:11:27 +0200|Mon, 21 Jul 2014 17:11:27 +0200
+1d11de3550814021bc1f5837a5c0862779515e72|fixed test: renaming log dir env variable|Mon, 21 Jul 2014 16:49:38 +0200|Mon, 21 Jul 2014 16:49:38 +0200
+694988aa4abecb8380340ffd8aa1a79061dec8ad|updated default file|Mon, 21 Jul 2014 15:49:38 +0200|Mon, 21 Jul 2014 15:49:38 +0200
+31590c8a5c8b941ecd307ee462dc0fc7e7dbf446|workdir properties|Mon, 21 Jul 2014 15:48:35 +0200|Mon, 21 Jul 2014 15:48:35 +0200
+46dfea4b6b4434fab1c09c4f13b728ea6241dc8a|work dir property is causing too many problems|Mon, 21 Jul 2014 14:51:49 +0200|Mon, 21 Jul 2014 14:51:49 +0200
+dbb1460426d610faf39abf6bddb55b621a827fac|fixed require for define|Mon, 21 Jul 2014 14:36:03 +0200|Mon, 21 Jul 2014 14:36:03 +0200
+4aa33ad9dc4c14dae2dde7555adf8693a2282b8b|work dir can't be specified via options right now|Mon, 21 Jul 2014 14:23:33 +0200|Mon, 21 Jul 2014 14:23:33 +0200
+7b747fd13f75220d8202c60fd3ff8e36f05da337|ensure creation of slave's work_dir|Mon, 21 Jul 2014 13:16:26 +0200|Mon, 21 Jul 2014 13:16:26 +0200
+0efa4ecfb669d3a0990f0364a58e6c1d47649f67|ensure creating work_dir|Mon, 21 Jul 2014 13:01:23 +0200|Mon, 21 Jul 2014 13:01:23 +0200
+6bbcba2b8ea15caa9a8d9462550574c12e8c2791|code formatting|Mon, 21 Jul 2014 12:45:34 +0200|Mon, 21 Jul 2014 12:45:34 +0200
+e1ea8376082ac9ef9d3219cd93f70af685e083a2|changing master config directory. updated README|Mon, 21 Jul 2014 12:42:28 +0200|Mon, 21 Jul 2014 12:42:28 +0200
+309cc74b504a529172aa5461f171518aaea0cd88|allow changing slave's config directory|Mon, 21 Jul 2014 12:27:55 +0200|Mon, 21 Jul 2014 12:27:55 +0200
+2fa630cdc1bde28a411f5a0f33b79a9bb97967c1|allow passing options to master via options|Mon, 21 Jul 2014 12:23:23 +0200|Mon, 21 Jul 2014 12:23:23 +0200
+ab0a874be202bda2dbe4293147613e885f6c0776|added options spec|Mon, 21 Jul 2014 11:31:04 +0200|Mon, 21 Jul 2014 12:17:21 +0200
+0a25ad405680bf9b7fea794b5d677f87c7ddc5f5|using hiera helper gem|Mon, 21 Jul 2014 09:32:56 +0200|Mon, 21 Jul 2014 09:32:56 +0200
+d024780aca5234ef0d6726282e12113fb4fc9051|Merge pull request #11 from wleese/cleanup_provider|Tue, 15 Jul 2014 09:51:06 +0200|Tue, 15 Jul 2014 09:51:06 +0200
+2089f3a6efe561304de6f23e6cd9dedce8bd5df7|commas|Tue, 15 Jul 2014 16:40:41 +0900|Tue, 15 Jul 2014 16:40:41 +0900
+615c4f6b77346b3c8678652a7333675ca7f58c23|missed provider argument|Tue, 15 Jul 2014 16:33:30 +0900|Tue, 15 Jul 2014 16:33:30 +0900
+0d0d6d15577c77f69fddafbacbf2267bb978c03c|remove provider mangling|Tue, 15 Jul 2014 16:18:57 +0900|Tue, 15 Jul 2014 16:18:57 +0900
+ec72a13e4b7ba739050dd51e8885b6f73fd89a47|Merge pull request #9 from cvrebert/patch-1|Sat, 12 Jul 2014 11:27:25 +0200|Sat, 12 Jul 2014 11:27:25 +0200
+944153b958db90f3d84cf6a86ec5739a3142a44a|fix typos in README|Fri, 11 Jul 2014 17:17:00 -0700|Fri, 11 Jul 2014 17:17:00 -0700
+2233ae4be256af8813439ee4de671b8d00de26e7|Merge pull request #7 from activars/master|Wed, 9 Jul 2014 17:03:13 +0200|Wed, 9 Jul 2014 17:03:13 +0200
+40a54a13ea4feefc2c1b6e162ec9efe9ae11bdcc|Update README.md|Wed, 9 Jul 2014 11:19:15 +0100|Wed, 9 Jul 2014 11:19:15 +0100
+15ad9b4bcd45904dfa2e9f84fe69a9f8d537dc42|Restore file to original state if value is empty|Wed, 9 Jul 2014 11:04:42 +0100|Wed, 9 Jul 2014 11:04:42 +0100
+0c194a5e7518976f63c4812d10aaed15875c1875|Merge pull request #6 from wleese/master|Mon, 7 Jul 2014 10:50:10 +0200|Mon, 7 Jul 2014 10:50:10 +0200
+55cf41540c52ec81927f24be203e7be644bd3fc0|additional unit test for rhel7|Mon, 7 Jul 2014 17:38:23 +0900|Mon, 7 Jul 2014 17:38:23 +0900
+0f14572ec0f2e823219fd89975dd80f3aeea7383|add os_maj_version fact to service unit tests|Mon, 7 Jul 2014 17:27:41 +0900|Mon, 7 Jul 2014 17:27:41 +0900
+e1b3c50c4ece978055c0956521399196081941cb|allow compatibility with RHEL7 and systemd|Mon, 7 Jul 2014 16:56:59 +0900|Mon, 7 Jul 2014 16:56:59 +0900
+ba1534ddc2afe1ce81809128f847adddd10a0809|updated readme|Wed, 25 Jun 2014 09:22:54 +0200|Wed, 25 Jun 2014 09:22:54 +0200
+a973c87d27f4d123474d422bad4f2583fd33e1f8|Merge pull request #4 from solarkennedy/purge_it|Wed, 25 Jun 2014 09:07:12 +0200|Wed, 25 Jun 2014 09:07:12 +0200
+0cf025db09411a2d0ce54157efb19feb4eec9997|Enabling puppet purging on puppet controlled config folders|Tue, 24 Jun 2014 17:10:00 -0700|Tue, 24 Jun 2014 17:10:00 -0700
+379c98ee86bd2931fcd4f6976789b58c0e9d00d6|version bump v0.3.1|Thu, 5 Jun 2014 11:04:44 +0200|Thu, 5 Jun 2014 11:04:44 +0200
+6230a518375e67ee80e0abe215444e429ee2fa62|/etc/mesos/zk file should be on master and slave -> moved to config class|Thu, 5 Jun 2014 11:02:03 +0200|Thu, 5 Jun 2014 11:02:03 +0200
+836a7635e39161b1d83d23e0dcd33d4cb79de12e|mesos service tests|Thu, 5 Jun 2014 10:44:04 +0200|Thu, 5 Jun 2014 10:44:04 +0200
+b5e0c2ea674206a4870242e200b59e7747dc111f|Merge pull request #2 from seanmcl/master|Thu, 5 Jun 2014 10:04:28 +0200|Thu, 5 Jun 2014 10:04:28 +0200
+72cefe6fd56ac414db6c9b466abf3b3d47d94623|Correct capitalization.  It works with all lower case, but facter returns RedHat.|Wed, 4 Jun 2014 17:31:03 -0400|Wed, 4 Jun 2014 17:31:03 -0400
+e46ecca48e6720bf5e02be9f097727697e4b99ba|Set undef for non-redhat families.|Wed, 4 Jun 2014 17:19:28 -0400|Wed, 4 Jun 2014 17:19:28 -0400
+24c1b773a39dadf1c79f9ba5893c2f09b04c64fa|Use the 'upstart' service on centos.|Mon, 19 May 2014 17:48:15 -0400|Mon, 19 May 2014 17:48:15 -0400
+d6d634f73d82550e15a8edfbcd39c69052b25af2|syslog parameter|Wed, 19 Mar 2014 18:27:57 +0100|Wed, 19 Mar 2014 18:27:57 +0100
+aee2aabcc1d80f89d6ab37d76a1491613691d366|removed site file|Wed, 19 Mar 2014 18:25:51 +0100|Wed, 19 Mar 2014 18:25:51 +0100
+3120d5def2fe3730840ea3cbd6685406e1c8db4e|test for setting ip address fact|Thu, 6 Mar 2014 13:53:44 +0100|Thu, 6 Mar 2014 13:53:44 +0100
+11f8fbcb484650504b456da6a53d8486e4d45ced|using maestrodev's version|Mon, 24 Feb 2014 23:30:44 +0100|Mon, 24 Feb 2014 23:30:44 +0100
+2f37808c94e87eb7f0fa3cf97953c54d81cc12f1|spec site.pp is in version control|Sun, 23 Feb 2014 23:22:03 +0100|Sun, 23 Feb 2014 23:22:03 +0100
+5a69ec0637e3ec8075a84a9a95c6656b1578a61c|using blacksmith from github|Sun, 23 Feb 2014 23:12:40 +0100|Sun, 23 Feb 2014 23:12:40 +0100
+fd65fdb0a16bde5238fd74cae66c46bd92332287|spec helper tasks|Sat, 22 Feb 2014 17:48:03 +0100|Sat, 22 Feb 2014 17:48:03 +0100
+4465a770032dc3a48718e3499fb6a94591ef0c46|added blacksmith for pushing module to forge|Sat, 22 Feb 2014 17:44:48 +0100|Sat, 22 Feb 2014 17:44:48 +0100
+ef9afdb4b615b18a332801f71ad8a2abbf355db5|using fixtures.yml for linking module folder|Sat, 22 Feb 2014 17:37:57 +0100|Sat, 22 Feb 2014 17:37:57 +0100
+4722fb03148c891db6043dbca8928eb68d0e342c|version bump|Sat, 22 Feb 2014 17:29:16 +0100|Sat, 22 Feb 2014 17:29:16 +0100
+06a2a53cf360699b351a110563502a22d9d5b18d|Merge pull request #1 from EvanKrall/master|Sat, 22 Feb 2014 17:15:59 +0100|Sat, 22 Feb 2014 17:15:59 +0100
+837eb877b3f62becfaf61cf21f467f1a257108ab|Pull out IP-picking magic, allow it to be passed in when including mesos::slave or mesos::master instead.|Wed, 19 Feb 2014 21:27:49 -0800|Fri, 21 Feb 2014 12:30:41 -0800
+5b86f40a7f355f607299f707cdd48304ba0b60a0|sort variables in array so that random order won't produce change each time|Mon, 3 Feb 2014 23:23:41 +0100|Mon, 3 Feb 2014 23:23:41 +0100
+487ad28a33e5f2d1d27218da8cd69ff24c826d6c|try to make sure that we have public ip address|Mon, 3 Feb 2014 23:12:33 +0100|Mon, 3 Feb 2014 23:12:33 +0100
+83f7f5ab18ab4b78281b77090c69e71f514ceafe|changed module name, pkg dir is ignored|Wed, 29 Jan 2014 10:36:12 +0100|Wed, 29 Jan 2014 10:37:52 +0100
+8890f6f35426edc54ad59eebad8e53a473aabbae|added puppet 3.4 to build matrix|Mon, 13 Jan 2014 00:50:50 +0100|Mon, 13 Jan 2014 00:50:50 +0100
+283f0644b54fee58bd4ad262edfb33850af0d25d|zookeeper is by default empty string because 'undef' caused problems with ruby 1.8.7|Mon, 13 Jan 2014 00:41:07 +0100|Mon, 13 Jan 2014 00:41:07 +0100
+0bfd3274e86aef32386959a5ba66020653403dc9|removed empty param test|Sun, 12 Jan 2014 01:30:48 +0100|Sun, 12 Jan 2014 01:30:48 +0100
+75f3cb8555ab5ab59c0db9a804378cd8da498617|Use earlier version of Rubygems to avoid Bundler fatal error|Sun, 12 Jan 2014 01:05:52 +0100|Sun, 12 Jan 2014 01:05:52 +0100
+c01a67bc22be4dedcba6716ff0ebbc5dff9bdd36|running travis with bundle exec|Sun, 12 Jan 2014 00:55:25 +0100|Sun, 12 Jan 2014 00:55:25 +0100
+b23d03535c03727723174e910613a5ca0575800e|resources and attributes specification|Sun, 12 Jan 2014 00:44:30 +0100|Sun, 12 Jan 2014 00:44:30 +0100
+05da253ef4bb01d36e6a52d8ef6b886685072d7e|prefixes support|Sun, 12 Jan 2014 00:22:55 +0100|Sun, 12 Jan 2014 00:22:55 +0100
+d250ff487227e6de171f9afc568f4fd365e0baf6|storing slave configuration in files|Sat, 11 Jan 2014 23:44:56 +0100|Sat, 11 Jan 2014 23:44:56 +0100
+a84af46c873bfbc3acec136454981f6f121b7063|allow changing slave and master config file location|Sat, 11 Jan 2014 18:48:43 +0100|Sat, 11 Jan 2014 18:48:43 +0100
+0dc104c0837c59c12a64ee5ab02d14079c8a1f9e|zookeeper URL is saved in a file|Sat, 11 Jan 2014 18:39:11 +0100|Sat, 11 Jan 2014 18:39:11 +0100
+015a8762e003693f92e262611afd5ff1e82b04e9|slave and master have configuration directories|Sat, 11 Jan 2014 18:03:31 +0100|Sat, 11 Jan 2014 18:03:31 +0100
+e476c2b6d525c297a46ce906d1b6506ad513f0b8|moved mesos config files from /etc/mesos/* to /etc/default/mesos-* in order to be compatible with mesosphere packages|Sat, 11 Jan 2014 17:17:53 +0100|Sat, 11 Jan 2014 17:17:53 +0100
+de5bf7b2962ef61b0d48ca85591ccbabcfee7f76|cgroups key indentation|Tue, 26 Nov 2013 13:42:45 +0100|Tue, 26 Nov 2013 13:42:45 +0100
+6c92883f3a1d72a0ce8cef40adc5a7701e0ac1f3|hiera cgroups example, version bump|Mon, 25 Nov 2013 11:21:08 +0100|Mon, 25 Nov 2013 11:21:08 +0100
+3344dbe60941bce92348bbc98626427589373caf|cgroups added to readme|Mon, 25 Nov 2013 11:16:06 +0100|Mon, 25 Nov 2013 11:16:06 +0100
+1ffcfd90291e4ca103a64860d2a6899438e2d997|passing cgroups params|Mon, 25 Nov 2013 11:13:09 +0100|Mon, 25 Nov 2013 11:13:09 +0100
+a6b715222f2bd279a592520cf097e54c5396e236|cgroups variables|Fri, 22 Nov 2013 18:28:29 +0100|Fri, 22 Nov 2013 18:28:29 +0100
+7865af992ff5d0b52b013c4f3e91812eaf0c084d|slave params should start at the beginning of line|Fri, 22 Nov 2013 18:19:11 +0100|Fri, 22 Nov 2013 18:19:11 +0100
+046254e6c4b53264f07c8c713266ce9f14ac7184|support for isolation mechanism|Fri, 22 Nov 2013 18:16:18 +0100|Fri, 22 Nov 2013 18:16:18 +0100
+ccb23946b14e049d49e824ed0d20b81a9d0913da|trim empty lines in erb template|Tue, 19 Nov 2013 10:54:54 +0100|Tue, 19 Nov 2013 10:54:54 +0100
+23bf2e10434083c711f7cd54d30d03b59370af6e|packages links|Mon, 18 Nov 2013 16:10:45 +0100|Mon, 18 Nov 2013 16:10:45 +0100
+9c9a8828cb770b95c9cd72bd35a59360fe73e188|updated hiera configs|Mon, 18 Nov 2013 16:00:53 +0100|Mon, 18 Nov 2013 16:00:53 +0100
+4c6174f14719f94ac3f928c7687c13dd957a0198|env_var hash validation, version: 0.1.1|Mon, 18 Nov 2013 15:39:08 +0100|Mon, 18 Nov 2013 15:39:08 +0100
+2b742ecdddcf0d2717485c420b4a6e43d681fd3e|ensure packages without dependencis (for now)|Mon, 18 Nov 2013 15:29:17 +0100|Mon, 18 Nov 2013 15:29:17 +0100
+01756f82ea3129f71723bbecc8f3997d3768774f|fixing directory structure for travis|Mon, 18 Nov 2013 15:28:48 +0100|Mon, 18 Nov 2013 15:28:48 +0100
+33c37bc2ac1b358e7a3c2ad88d32a91f093dc229|fixed undeclared package error|Mon, 18 Nov 2013 14:49:03 +0100|Mon, 18 Nov 2013 14:49:03 +0100
+a0edea6f29523936bb9acd923a7ac88a6be88af8|reverted linking mesos directory to modules directory (doesn't work on travis)|Mon, 18 Nov 2013 12:58:28 +0100|Mon, 18 Nov 2013 12:58:28 +0100
+365c1afe09be963bcdc7eb6fb318bb6537f16817|should fix syntax errors on 1.8.7|Mon, 18 Nov 2013 12:50:55 +0100|Mon, 18 Nov 2013 12:50:55 +0100
+135157c507d2acb7fbdcfceaa40521b5b9a7e173|requiring conf dir to be created|Sun, 17 Nov 2013 22:37:06 +0100|Sun, 17 Nov 2013 22:37:06 +0100
+4ef41ca14ea26ef641632cdb704e3400f67304f3|slave's environment variables|Sun, 17 Nov 2013 22:30:31 +0100|Sun, 17 Nov 2013 22:30:31 +0100
+1d3a2b48f2b47e0bb00974f665e341cc31cfb909|removed start parameter from service|Sun, 17 Nov 2013 21:56:19 +0100|Sun, 17 Nov 2013 21:56:19 +0100
+ba0ca0280399c9163346390024967820ac3c4133|only shared parameters in init, service cleanup|Sun, 17 Nov 2013 21:45:47 +0100|Sun, 17 Nov 2013 21:45:47 +0100
+25be1e9ead8f8abbd433a5483bc7b7328b2ae445|master's tests|Sun, 17 Nov 2013 21:37:42 +0100|Sun, 17 Nov 2013 21:37:42 +0100
+04034fc0f6cb69b197c004ba45f544d065e00e32|customization of ulimit, testing default config|Sun, 17 Nov 2013 20:50:08 +0100|Sun, 17 Nov 2013 20:50:08 +0100
+5386abbaf92e4a09078ceb1eab561b435cde76ad|Workdir, checkpoint tests. Added slave's documentation|Sun, 17 Nov 2013 20:36:09 +0100|Sun, 17 Nov 2013 20:36:09 +0100
+c9535e224560e14f067cbe48d0491209f6a6b88f|testing slave configuration, zk renamed to zookeeper|Sun, 17 Nov 2013 20:07:14 +0100|Sun, 17 Nov 2013 20:07:14 +0100
+840c000788db5b75a604bcd7decbaed6a33ad592|cleaned rake config|Sun, 17 Nov 2013 19:13:30 +0100|Sun, 17 Nov 2013 19:13:30 +0100
+e81eeb1c3bbcba6303bc0a7fd99907aa9e834b02|site.pp shouldn't be cleaned|Sun, 17 Nov 2013 19:09:34 +0100|Sun, 17 Nov 2013 19:09:34 +0100
+e4c803a053c9870748f0d0be39b1f98d79d3bab4|travis icon|Sun, 17 Nov 2013 13:40:36 +0100|Sun, 17 Nov 2013 13:40:36 +0100
+b9dd16d31975ef179ed06f9449aeda86f2478c7b|testing master's url with only one master node|Sun, 17 Nov 2013 12:49:33 +0100|Sun, 17 Nov 2013 12:49:33 +0100
+2f26424a0e224437d49f45681164a41b89250ed9|testing slave's ip address|Sun, 17 Nov 2013 12:03:24 +0100|Sun, 17 Nov 2013 12:03:24 +0100
+b799e74e84977eb143514690d816e5171810c0d2|linting|Sat, 16 Nov 2013 22:59:33 +0100|Sat, 16 Nov 2013 22:59:33 +0100
+c6587c6992ae09b7222822381dc9ab8a1d9ed983|added travis config|Sat, 16 Nov 2013 22:41:52 +0100|Sat, 16 Nov 2013 22:41:52 +0100
+f8042ba16b734cadaa63c90febc38e3481398481|ensuring packages with stdlib function|Sat, 16 Nov 2013 22:34:03 +0100|Sat, 16 Nov 2013 22:34:03 +0100
+535abe8a4fdaf6959f25f2f1d5c34e30497f4ceb|master specs|Sat, 16 Nov 2013 22:24:45 +0100|Sat, 16 Nov 2013 22:24:45 +0100
+6fa240463d05153cb69cda58792bafadc4af1467|fixed config, added specs|Sat, 16 Nov 2013 22:12:22 +0100|Sat, 16 Nov 2013 22:12:22 +0100
+6fc75be1a759ac616ad59c180dad0376c5295dcf|removed dependency on puppi, hiera is not strictly required|Sat, 16 Nov 2013 21:55:21 +0100|Sat, 16 Nov 2013 21:55:21 +0100
+2fe7002e068a1c4db8ea06d8a7d134f8ce1f83c2|added empty site manifest|Sat, 16 Nov 2013 13:24:28 +0100|Sat, 16 Nov 2013 13:24:28 +0100
+381f9ea495454a9d6e928d6bce48ea252c32370e|version bump|Fri, 15 Nov 2013 23:57:29 +0100|Fri, 15 Nov 2013 23:57:29 +0100
+a37ce31dc8ef381d0ef83188b9a4d04fca690cb6|testing infrastructure|Fri, 15 Nov 2013 23:53:46 +0100|Fri, 15 Nov 2013 23:53:46 +0100
+4f4cf179264b48126b48455197f9edb74c8bb443|removed unit test folder, new spec helper|Fri, 15 Nov 2013 23:24:35 +0100|Fri, 15 Nov 2013 23:24:35 +0100
+ab488db7b0ea4ab68e7e061ce52cdc9a96f329eb|added Puppetfile and std lib as dependency|Fri, 15 Nov 2013 23:00:09 +0100|Fri, 15 Nov 2013 23:00:09 +0100
+e9c3f0d108a440af8031e2f93f45b4c45fd02fe4|added checkpoint and workdir parameters to hiera|Mon, 26 Aug 2013 22:20:41 +0200|Mon, 26 Aug 2013 22:20:41 +0200
+fbd910d715d85c4af730a321b514a1194ad83d3a|slave ip must be set (using public ip from puppet)|Mon, 26 Aug 2013 20:15:43 +0200|Mon, 26 Aug 2013 20:15:43 +0200
+a8c0ca51531a0f71bf24e566e21e6812d690acbe|added hiera example|Mon, 26 Aug 2013 10:33:17 +0200|Mon, 26 Aug 2013 10:33:17 +0200
+c05f2892c237aab20e988b0a44749f2e2d8d6b70|added license, updated link to mesos project|Mon, 26 Aug 2013 10:23:54 +0200|Mon, 26 Aug 2013 10:23:54 +0200
+2758e3ded14c2eb413a16f137e88af035e092fa2|master ip address is taken from node's ip address|Mon, 26 Aug 2013 10:15:10 +0200|Mon, 26 Aug 2013 10:15:10 +0200
+131a078e3ae362072c8ed7481b6261da2a9c7595|slave should work with zookeeper|Thu, 15 Aug 2013 13:21:00 +0200|Thu, 15 Aug 2013 13:21:00 +0200
+1a321e1dc05321d4882324ce8bbe0952b953890f|slaves, zk and whitelist parameters for master are supported|Thu, 15 Aug 2013 11:57:51 +0200|Thu, 15 Aug 2013 11:57:51 +0200
+d57363bc6ddc9596c6c6ed5eb74939d198e83dbf|missing square bracket|Wed, 14 Aug 2013 16:08:04 +0200|Wed, 14 Aug 2013 16:08:04 +0200
+72b476a62214d59aed0ae0383516e4a1ad0dc14d|double quotes|Wed, 14 Aug 2013 16:06:12 +0200|Wed, 14 Aug 2013 16:06:12 +0200
+86294e4478d9a856c732686b61f03ea962f3cf4b|fixed references to non-existing files|Wed, 14 Aug 2013 16:04:04 +0200|Wed, 14 Aug 2013 16:04:04 +0200
+1b7c5ae49b07fb1063cba510f9430828bdf1273a|added mesos master and slave config files|Wed, 14 Aug 2013 16:00:07 +0200|Wed, 14 Aug 2013 16:00:07 +0200
+f5e32ae274db99543731eef49f99f5781db50dc2|removed lxc package|Wed, 26 Jun 2013 09:02:31 +0200|Wed, 26 Jun 2013 09:02:31 +0200
+f2675588fe549084d5e6180ccbbd30a9a31f54de|fixed ensure|Tue, 28 May 2013 13:49:52 +0200|Tue, 28 May 2013 13:49:52 +0200
+27e2a7d74cc3f02fef7b850642fdd149754eddda|reverting last commit, ensure is in service file|Tue, 28 May 2013 13:47:30 +0200|Tue, 28 May 2013 13:47:30 +0200
+10daf21b92a784652c07538abd5b1144786aca08|ensure that services are running|Tue, 28 May 2013 13:43:59 +0200|Tue, 28 May 2013 13:43:59 +0200
+f1e6bbee160dbefe62502e568b0c8fc27af76022|fixed conf file dependency|Sat, 20 Apr 2013 12:51:14 +0200|Sat, 20 Apr 2013 12:51:14 +0200
+964fff96eac0f489409199ec707d10cbd707c865|fixed brackets|Sat, 20 Apr 2013 12:50:34 +0200|Sat, 20 Apr 2013 12:50:34 +0200
+ec28451872faaabf41370554c9bdd47f7501dd6a|changed require statement|Sat, 20 Apr 2013 12:38:05 +0200|Sat, 20 Apr 2013 12:38:05 +0200
+b9c83eb0026f62b7f1c022d1c1c181f5c4f78e31|linux containers should be installed with mesos|Sat, 20 Apr 2013 12:32:39 +0200|Sat, 20 Apr 2013 12:32:39 +0200
+a2679e30a7cbb32fcf030a6af0094e2620030b95|moved config file to /etc/mesos|Sat, 20 Apr 2013 12:29:02 +0200|Sat, 20 Apr 2013 12:29:02 +0200
+9c8b2d888937bc19b01bd923ac5d287c3e51e68b|master port as text|Fri, 19 Apr 2013 23:53:54 +0200|Fri, 19 Apr 2013 23:53:54 +0200
+f7df23098e7a7bd59b18a63893997acda5bf2b2b|using params lookup|Fri, 19 Apr 2013 23:23:58 +0200|Fri, 19 Apr 2013 23:23:58 +0200
+f4b307e83e2da931311f2cf033a90ae6bef61cf0|parameters lookup|Fri, 19 Apr 2013 23:15:47 +0200|Fri, 19 Apr 2013 23:15:47 +0200
+50cd795c55c31bafa38783eed132fd54258e886f|fixed service config|Thu, 18 Apr 2013 00:25:16 +0200|Thu, 18 Apr 2013 00:25:16 +0200
+a9da5841602427c328fe192f2df4a5ced275024c|added params|Thu, 18 Apr 2013 00:17:31 +0200|Thu, 18 Apr 2013 00:17:31 +0200
+4504d56b199fcb810c27b41e2a506d21f0317038|fixed typo|Thu, 18 Apr 2013 00:09:23 +0200|Thu, 18 Apr 2013 00:09:23 +0200
+586dc210daea127360db498ccaf53c4509f814cb|formatting|Wed, 17 Apr 2013 10:46:28 +0200|Wed, 17 Apr 2013 10:46:28 +0200
+a832cfcc4de894784cf7fe112da95cc8aea0c06d|changed readme|Wed, 17 Apr 2013 10:42:56 +0200|Wed, 17 Apr 2013 10:42:56 +0200
+1ce459302b292d024a03d45715264919e4373ed6|trivial implementation of mesos module|Wed, 17 Apr 2013 10:36:33 +0200|Wed, 17 Apr 2013 10:36:33 +0200
+9f38debbb28669552c3f7f83229946956219b1fb|initial scaffold|Wed, 17 Apr 2013 09:53:54 +0200|Wed, 17 Apr 2013 09:53:54 +0200

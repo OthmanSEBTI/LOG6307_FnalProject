@@ -1,0 +1,132 @@
+eb24f44669bf6b83fa0ee37bfd1742fb2e297d4c|Introduce linters using rake|Fri, 17 Feb 2017 17:24:03 +0100|Fri, 17 Feb 2017 17:52:29 +0100
+2b4e99f0af4b781cafaaf5f4c29e0c9ce09c03a7|Add CDH5 support, drop CDH4 support|Mon, 26 May 2014 17:07:00 -0400|Thu, 26 Jun 2014 17:08:34 -0400
+26b019f4c160d3adc7b2e84f46c25f75a3f6e9e0|Support logging via GELF, for sending to Logstash|Thu, 19 Jun 2014 02:26:23 -0700|Thu, 26 Jun 2014 16:53:54 -0400
+807519d285672cc6abbb2d3f22000285d8a7a6f9|Allow to set up hive's auxpath globally|Thu, 29 May 2014 11:38:01 +0000|Fri, 30 May 2014 08:42:31 +0000
+877225a3810a7a48248d421dc928b470e59cc005|Allowing root and hdfs as well as hue to submit oozie -doas commands as any user|Tue, 20 May 2014 11:01:42 +0200|Tue, 20 May 2014 11:02:38 +0200
+d7a258934473f9753cb275c8840f3bbcb8e9a7dc|Enable ResourceManager API in hue.ini to enable JobHistory in Hue.|Wed, 12 Feb 2014 17:11:39 -0500|Wed, 12 Feb 2014 17:12:16 -0500
+30fc8b2072ac422faadb66d0913ce7540396d686|Adding parameters to set root database (mysql) user and pass|Tue, 14 Jan 2014 11:28:45 -0500|Tue, 14 Jan 2014 11:29:49 -0500
+46501a8da5d516c4a9c23541c7929be71bdc1dcd|Adding mapreduce_shuffle_port parameter|Mon, 13 Jan 2014 15:18:11 -0500|Mon, 13 Jan 2014 15:18:11 -0500
+7095c8b51e16f14f9b88166da8a5f90a5f887063|Adding hcatalog.pp|Fri, 10 Jan 2014 11:15:10 -0500|Fri, 10 Jan 2014 11:17:25 -0500
+1ca15cef9350e39cf1037ae7d80ef942d555ab07|Adding jmxtrans README and convenience worker and master classes|Thu, 26 Dec 2013 14:06:11 -0500|Thu, 26 Dec 2013 14:06:11 -0500
+bbe60e30e3ae3d669a334f7be482efaecfbcd0d6|Adding jmxtrans classes for datanode and nodemanager|Thu, 26 Dec 2013 12:04:54 -0500|Thu, 26 Dec 2013 12:06:30 -0500
+0e3e759b90fbaae5bbd7d218bd99d6e4dce34ba0|Removing no longer used parameters from jmxtrans classes|Tue, 24 Dec 2013 17:21:26 -0500|Tue, 24 Dec 2013 17:21:26 -0500
+1f6f7b565cf74de43ae18db752fd9d58baf57dd7|Removing manual inclusion of jmxtrans class|Tue, 24 Dec 2013 17:16:30 -0500|Tue, 24 Dec 2013 17:16:30 -0500
+1866f44dab99b29667541ba83552c36add412ab3|Adding jmxtrans/resourcemanager.pp|Tue, 24 Dec 2013 17:09:31 -0500|Tue, 24 Dec 2013 17:09:31 -0500
+4e099965f3dfa633d11d6b1f46a301d6e26f13a4|Removing bad jmxtrans objects, adding log_level and run_interval params|Tue, 24 Dec 2013 16:05:20 -0500|Tue, 24 Dec 2013 16:05:20 -0500
+c332e54cc02f55d31f475c130193823ef57fa9cd|Adding namenode/jmxtrans.pp for sending NameNode jmx metrics|Tue, 24 Dec 2013 15:39:28 -0500|Tue, 24 Dec 2013 15:42:26 -0500
+6275d772ca6a057b3a5dbadb273f5820ef9030cd|Moving jmx port variables into defaults.pp|Tue, 24 Dec 2013 15:37:23 -0500|Tue, 24 Dec 2013 15:37:23 -0500
+1baa5f6c08953af0439c4e8815b5985a124e21f5|Adding more parameters for compression types|Mon, 23 Dec 2013 17:39:57 -0500|Mon, 23 Dec 2013 17:40:48 -0500
+20b701480e4ef04f8cb990b77a3a934a65147591|Ah!  Need == 'present' for the net-toplogy.sh content check.|Mon, 25 Nov 2013 17:59:59 -0500|Mon, 25 Nov 2013 17:59:59 -0500
+34c3918add69f98aa97ad66d2c0db4261455f48e|Conditionally setting content attribute for net-topology.sh file.|Mon, 25 Nov 2013 17:54:54 -0500|Mon, 25 Nov 2013 17:54:54 -0500
+3816887260d3cf40a0863e883616f24c8c3d29bc|$net_topology_script_path needs to be set before hadoop-core is rendered|Wed, 20 Nov 2013 13:10:29 -0500|Wed, 20 Nov 2013 13:10:29 -0500
+ec8299a59e4a81c70f0a3cdd32a494ad680800e6|Adding $net_topology_script_template parameter to make Hadoop rack/row aware|Wed, 20 Nov 2013 09:58:29 -0500|Wed, 20 Nov 2013 09:58:29 -0500
+e55bfa10f47a84fa78dee9a540175d503775dc0c|Installing ssl-cert package to make sure ssl-cert group is created for Hue SSL.|Wed, 4 Sep 2013 11:25:16 -0400|Wed, 4 Sep 2013 11:25:28 -0400
+5bde42ead8e72fb23a33cb7efd1c90f8b43e746d|Puppetizing HA NameNode via Quorum Based JournalNode.|Thu, 25 Jul 2013 17:59:53 -0400|Fri, 2 Aug 2013 09:47:26 -0400
+5d765b733fdd53a15761403f21e514c03b3663c0|Rendering fs.default.name if not using yarn|Thu, 25 Jul 2013 15:28:55 -0400|Thu, 25 Jul 2013 15:28:55 -0400
+9d77119bfbef655d565b006f0a75466ae6809d76|Fixing automated hue SSL generation and permissions|Fri, 19 Jul 2013 17:04:31 -0400|Wed, 24 Jul 2013 11:55:14 -0400
+3d3e7f2e0187ea0cc291569c3a0aa7c78ea14da7|Fixing sqoop path based on sqoop or sqoop2|Mon, 22 Jul 2013 10:48:58 -0400|Mon, 22 Jul 2013 10:48:58 -0400
+b8fa6bac8c06410766d965c741f40211466b7ad6|Adding hasrestart and hasstatus to hadoop services|Mon, 22 Jul 2013 10:34:27 -0400|Mon, 22 Jul 2013 10:34:27 -0400
+fc968e5ba69a982b4a993165f102ded084f979bd|Puppetizing hue|Thu, 20 Jun 2013 07:32:28 -0700|Fri, 19 Jul 2013 12:20:08 -0400
+f3bb77c471e46d180b551fa994fb19d0ef8c9410|Fixing default driver for hive|Wed, 17 Jul 2013 16:46:47 -0400|Wed, 17 Jul 2013 16:46:47 -0400
+c728ce56df9ee764b3f8807ad04e533f89f3ed7d|Puppetizing oozie client and server|Thu, 20 Jun 2013 07:20:37 -0700|Wed, 17 Jul 2013 09:25:51 -0400
+ee788a72b5292965c66e2d0495bfa105e91423b9|Adding missing jdbc_port parameter in  hive class|Tue, 16 Jul 2013 17:47:57 -0400|Tue, 16 Jul 2013 17:47:57 -0400
+3e7c36c7069b11ff8b978327df29219ec54fd2e7|Updating README.md with gerrit URL|Mon, 15 Jul 2013 15:42:30 -0400|Mon, 15 Jul 2013 15:42:30 -0400
+0f072d09d750b0d802439e188e42db8c685d8be4|added mapred.system.dir|Mon, 15 Jul 2013 18:04:34 +0000|Mon, 15 Jul 2013 18:04:34 +0000
+7441029bddea71195896b98f19601484d2960521|Owning hive-site.xml as hive:hive|Thu, 11 Jul 2013 16:46:43 -0400|Thu, 11 Jul 2013 16:46:43 -0400
+bf2442c1deed67a91f20e971adf17f62ee40ca85|Puppetizing hive client, server and metastore.|Tue, 18 Jun 2013 15:53:28 -0400|Thu, 11 Jul 2013 15:51:32 -0400
+6d47f6e9ab4839929981a781c0ec0d558a7c8ae7|Updating README.md|Wed, 3 Jul 2013 10:30:24 -0400|Wed, 3 Jul 2013 10:30:24 -0400
+5d133c63888eb3d2ceb858448e79ed36ca130d4a|Updating README.md|Mon, 1 Jul 2013 21:42:50 -0400|Mon, 1 Jul 2013 21:42:50 -0400
+e707a089a36a99b5ebc51680d518448896f72737|Merge "Fixing pig.properties.erb comment"|Wed, 19 Jun 2013 19:15:04 +0000|Wed, 19 Jun 2013 19:15:04 +0000
+5a9945a2a1260dfd77b1af8001687b09f7e32618|Fixing pig.properties.erb comment|Wed, 19 Jun 2013 15:14:45 -0400|Wed, 19 Jun 2013 15:14:45 -0400
+66eae6836ca86e1078a80ababcca742257b56bb0|Using 4 spaces instead of 2 for indent (WMF puppet code guideline)|Mon, 17 Jun 2013 15:42:33 -0400|Mon, 17 Jun 2013 15:42:33 -0400
+2e59495ca7aa87b18eadb4bf02319f14a1c1895c|Making cdh4::hadoop::directory { '/user/hdfs': require Cdh4::Hadoop::Directory['/user'],|Mon, 17 Jun 2013 15:20:18 -0400|Mon, 17 Jun 2013 15:22:18 -0400
+02718e3af97b2b0cddf9f428d32e4904b0389576|Adding support for ganglia metrics in hadoop-metrics2.properties|Fri, 7 Jun 2013 10:02:18 -0400|Fri, 7 Jun 2013 10:02:39 -0400
+b5f7b70b2191528e9df2a81d2361e1a1fdf2469b|Moving compression configs to mapred-site.xml where they belong|Mon, 3 Jun 2013 15:47:25 -0400|Mon, 3 Jun 2013 15:48:29 -0400
+a418135516d382ffb6629d85b725eb2d5b4661a9|Updating some hadoop mapreduce and yarn configs|Sat, 1 Jun 2013 17:26:34 +0200|Sat, 1 Jun 2013 17:26:34 +0200
+a9ce1b1f5ac29392c6679dd7952dd0fd8db37bd3|Adding classes to install hive, pig and sqoop.  (very simple!)|Fri, 24 May 2013 15:21:29 +0200|Sat, 25 May 2013 13:10:05 +0200
+79452a332dc23b8400686f96bb45a18c18241796|Puppetizing Hadoop for CDH4.|Tue, 30 Apr 2013 18:30:38 -0400|Fri, 24 May 2013 13:03:19 +0200
+65a6793c970a6b19712d8bd6b5280adac86e3566|Adding .gitreview file|Tue, 14 May 2013 17:42:38 -0700|Tue, 14 May 2013 17:42:55 -0700
+58d37b961aa1932ba0104de069b0f208c939c91d|Removing all files for refactorization for v0.2|Tue, 30 Apr 2013 18:20:03 -0400|Tue, 30 Apr 2013 18:20:03 -0400
+69c78c9ef9578df9d1e4944d2202387a25e44494|Puppetizing more hue ldap parameters|Wed, 19 Dec 2012 16:17:06 -0500|Wed, 19 Dec 2012 16:17:06 -0500
+9817985e6528f64b03b878753c15630f6d5f1bc4|Fixing smtp_from_email parameter|Tue, 11 Dec 2012 14:44:07 -0500|Tue, 11 Dec 2012 14:44:07 -0500
+dcc3cc9465375ba37ca348af61925b19ea836dd9|No longer using smtp_use_tls parameter|Tue, 11 Dec 2012 14:41:55 -0500|Tue, 11 Dec 2012 14:41:55 -0500
+bf228a81a46ebe402a8c34dbbaa2e081ed2d120e|Puppetizing smtp settings for oozie.|Tue, 11 Dec 2012 14:38:01 -0500|Tue, 11 Dec 2012 14:38:01 -0500
+ee4b40b58bad6669854841e806c636113e58aa4d|Modifying some hue smtp parameter names|Tue, 11 Dec 2012 14:33:27 -0500|Tue, 11 Dec 2012 14:33:27 -0500
+30ffb54ef6451b0325a28c43bef53b49ea099f6b|Puppetizing hue email configs|Tue, 11 Dec 2012 12:32:30 -0500|Tue, 11 Dec 2012 12:32:30 -0500
+5a3ff720b67c64468fb88ed1a4944ef3b244fbaf|Puppetizing ldap for hue|Thu, 6 Dec 2012 12:15:21 -0500|Thu, 6 Dec 2012 12:15:21 -0500
+96c9ebf54abcb1f68028f32d8743dfad3d6b4b97|hadoop-env.sh - using YARN for all commands|Tue, 4 Dec 2012 16:35:35 -0500|Tue, 4 Dec 2012 16:35:35 -0500
+38aaf8086a570726b1db84a5696b6d5af144601c|Puppetizing authorization_service_security_enabled oozie config variable.|Mon, 3 Dec 2012 10:35:19 -0500|Mon, 3 Dec 2012 10:35:19 -0500
+199946a61ab10c6b3730749d6414f2187750b6eb|Merge branch 'master' of github.com:wmf-analytics/puppet-cdh4|Mon, 3 Dec 2012 09:58:07 -0500|Mon, 3 Dec 2012 09:58:07 -0500
+90db8f1248c00008343ff35c78b72b31c2a204a6|Fixing template variable for reduce_parallel_copies|Mon, 3 Dec 2012 09:57:43 -0500|Mon, 3 Dec 2012 09:57:43 -0500
+7df1b479bb3a40edf7017e1595e176dea5ef0422|Update examples/README.md|Mon, 19 Nov 2012 15:09:48 -0500|Mon, 19 Nov 2012 15:09:48 -0500
+e8ea755ccc382100a5028aa7d1056a4c24e3c470|Updating README to link to kraken-puppet|Mon, 19 Nov 2012 15:03:20 -0500|Mon, 19 Nov 2012 15:03:20 -0500
+fd49844671c38598a3a881c61c693582d86ab5de|Ensuring that hosts.exclude exists|Mon, 19 Nov 2012 11:19:43 -0500|Mon, 19 Nov 2012 11:19:43 -0500
+d4b790afe3919b36480a337d810a365f3fab87c5|Adding hosts.exclude file to hadoop configs|Fri, 16 Nov 2012 12:02:30 -0500|Fri, 16 Nov 2012 12:02:30 -0500
+4bb0070253c92c26db8b7a5db6726cedb4f07279|Ah, there was a reason I didn't name this parameter 'hdfs' mounts before. Renaming to 'datanode_mounts'.|Mon, 12 Nov 2012 16:11:50 -0500|Mon, 12 Nov 2012 16:11:50 -0500
+d9435444daba8fc2ef4029ff98021df9b602150c|Renaming mounts parameter to dfs_data_dir_mounts. Making dfs_data_dir_mounts optional.|Mon, 12 Nov 2012 16:04:17 -0500|Mon, 12 Nov 2012 16:04:17 -0500
+643a68ae06969d0720e2f096d87788c4bac03c8c|Explicitly setting jobhistory.intermediate-done-dir and jobhistory.done-dir to fix Job History Server.|Thu, 8 Nov 2012 16:39:50 -0500|Thu, 8 Nov 2012 16:39:50 -0500
+5513df557403c2908d0120948bbb22bf0736c4c5|Adding back in default yarn-env.sh in addition to JMX settings.|Wed, 7 Nov 2012 14:08:36 -0500|Wed, 7 Nov 2012 14:08:36 -0500
+2ba22cd557ed2acbc86cb4e220ab649b7351333e|Enabling remote JMX by default for hadoop services|Wed, 7 Nov 2012 13:58:13 -0500|Wed, 7 Nov 2012 13:58:13 -0500
+0ffdd5a67505af07b4da79fa50d8f59f567547db|Merge branch 'master' of github.com:wmf-analytics/puppet-cdh4|Wed, 7 Nov 2012 12:13:08 -0500|Wed, 7 Nov 2012 12:13:08 -0500
+89ea7b17229045ff827fb0b4c7e0fda98981f115|Puppetizing remote JMX for zookeeper.  Defaults to port 9998.|Wed, 7 Nov 2012 12:10:16 -0500|Wed, 7 Nov 2012 12:10:16 -0500
+4646c0aca3899dc3db3ee42454e16ac7d3f0805b|Adding to oozie example|Wed, 7 Nov 2012 10:47:01 -0500|Wed, 7 Nov 2012 10:47:01 -0500
+61afbc4e194ccaf936b7c3f4ec1177045f7551da|Update README.md|Wed, 7 Nov 2012 10:38:01 -0500|Wed, 7 Nov 2012 10:38:01 -0500
+0f3fec2868e5ebb6ebb265a3b25cd91d4cd48505|Update README.md|Wed, 7 Nov 2012 10:35:16 -0500|Wed, 7 Nov 2012 10:35:16 -0500
+5016d9664aa2e61aa54e71d7d980817b371f9f97|Puppetizing extjs install and symlink for oozie|Wed, 7 Nov 2012 10:31:35 -0500|Wed, 7 Nov 2012 10:31:35 -0500
+c272bce2e99849fe7126a5c57348114f6385eb10|This module now only supports use on Debian and Ubuntu.|Wed, 7 Nov 2012 10:31:13 -0500|Wed, 7 Nov 2012 10:31:13 -0500
+85fe9597c213c9333fc9da607d5ac512baac3b4f|Fixing proxy user settings for oozie and hue|Tue, 6 Nov 2012 16:43:11 -0500|Tue, 6 Nov 2012 16:43:11 -0500
+83f5173861035a1a5113c87c034b1a6a647c3cb0|Oozie needs libtcnative-1|Tue, 6 Nov 2012 15:54:53 -0500|Tue, 6 Nov 2012 15:54:53 -0500
+d08e67214eef75ac8e31f21d97e9fa792d2d03dd|Fixing oozie and hive install execs|Tue, 6 Nov 2012 15:50:25 -0500|Tue, 6 Nov 2012 15:50:25 -0500
+ca60763414533e54f6d7d06687830b33d83db083|Puppetizing Oozie/Catalina workdirs|Tue, 6 Nov 2012 15:50:02 -0500|Tue, 6 Nov 2012 15:50:02 -0500
+64bc36374dedb40607788b4692bf334006341c4b|oozie-site.xml - fixing tabs|Tue, 6 Nov 2012 14:03:42 -0500|Tue, 6 Nov 2012 14:03:42 -0500
+35b2502aa7bbf60babef312e61101e5d12c51a36|oozie-site.xml.erb - enabling oozie.service.AuthorizationService.security.enabled|Tue, 6 Nov 2012 14:02:34 -0500|Tue, 6 Nov 2012 14:02:34 -0500
+c6301a823656c83e0cab9d6515642eaf30be5ca4|Adding more parameters for hive-site.xml configuration|Fri, 2 Nov 2012 16:39:41 -0400|Fri, 2 Nov 2012 16:39:41 -0400
+f13a139162b724f8058846b06473686c06ac697e|Setting mapred.job.tracker so that hue doesn't get confused|Fri, 2 Nov 2012 13:18:10 -0400|Fri, 2 Nov 2012 13:18:10 -0400
+bc9dbdad2fb2d116e40e6893c52025e8ec2629ee|Fixing references to namenode_hostname variable in hue.ini|Thu, 1 Nov 2012 12:57:41 -0400|Thu, 1 Nov 2012 12:57:41 -0400
+ebb95fe959937a81c4bca09d7b89223909a3db0e|Fixing unless in exec for hive warehouse directory creation|Tue, 30 Oct 2012 11:26:40 -0400|Tue, 30 Oct 2012 11:26:40 -0400
+1ab61755d93de8c3c8b238be66493358eec653ad|webapps listen on port 0.0.0.0|Fri, 26 Oct 2012 11:05:01 -0400|Fri, 26 Oct 2012 11:05:01 -0400
+f54a6ab0e64aab460e75b801f2adf4afa69494da|Putting back in default metrics settings|Wed, 24 Oct 2012 12:13:14 -0400|Wed, 24 Oct 2012 12:13:14 -0400
+895b042256be18d7d3eab2a52e875c93c5ebe2b4|Adding ganglia monitoring|Wed, 24 Oct 2012 11:58:13 -0400|Wed, 24 Oct 2012 11:58:13 -0400
+81e89bc69ce883fcd8649cf970c7ae3bb50a6afc|Configuring hive-site.xml.erb with Zookeeper hosts|Mon, 22 Oct 2012 17:40:06 -0400|Mon, 22 Oct 2012 17:40:06 -0400
+b6d52f97316f04b7a809a1b1701018aaa01bf187|Removing apt_source from init.pp|Mon, 22 Oct 2012 17:18:07 -0400|Mon, 22 Oct 2012 17:18:07 -0400
+19840624b4d4a1d1c224faba7a8aa15d138e62f8|Bettering examples|Mon, 22 Oct 2012 17:15:05 -0400|Mon, 22 Oct 2012 17:15:05 -0400
+3bd621544b3513702eed373409ed2bafd809248f|Added zookeeper examples|Mon, 22 Oct 2012 17:10:27 -0400|Mon, 22 Oct 2012 17:10:27 -0400
+6b4d1c5a6733995fbf20964c7a8c75073521880a|Manually requiring hadoop-client package in hadoop config files|Mon, 22 Oct 2012 17:04:23 -0400|Mon, 22 Oct 2012 17:04:23 -0400
+1c54e58223f47986d679400133b1731ea98c79f5|Running zookeeper-server-initialize as zookeeper user|Mon, 22 Oct 2012 16:59:55 -0400|Mon, 22 Oct 2012 16:59:55 -0400
+207d3b4b66cf2a98c1aaeeaeaf966b4a403fd705|Puppetizing zookeeper|Mon, 22 Oct 2012 16:28:04 -0400|Mon, 22 Oct 2012 16:28:04 -0400
+91d55d59ae4a9476e5c235463cc61c5c43dd5484|Fixing Hue Pig and Hive shells|Mon, 22 Oct 2012 12:44:39 -0400|Mon, 22 Oct 2012 12:44:39 -0400
+2228cdd057a47446f950ed0b5367ad09970da055|Updating README.md|Mon, 22 Oct 2012 11:25:17 -0400|Mon, 22 Oct 2012 11:25:17 -0400
+427e5ef0df8efeaa198c049a7c9af4178d20f5b4|Updating README.md|Mon, 22 Oct 2012 11:23:47 -0400|Mon, 22 Oct 2012 11:23:47 -0400
+6a2b334a242bc8f22f4c36705edadd33aa2cce30|Adding examples directory|Mon, 22 Oct 2012 11:20:57 -0400|Mon, 22 Oct 2012 11:20:57 -0400
+f2309766a61cbebccdced415c5f493758a0a9f21|Removing unused yarn variable|Mon, 22 Oct 2012 11:20:42 -0400|Mon, 22 Oct 2012 11:20:42 -0400
+7bab284909fe1c6408a3cc6438a091bf3a1d92ed|Adding "This file is managed by Puppet" comments in config files|Mon, 22 Oct 2012 11:09:13 -0400|Mon, 22 Oct 2012 11:09:13 -0400
+5121bc936ab4eeead6dbdba0ed332cf3f34bd50b|Ensuring that hive warehouse exists and has proper permissions|Mon, 22 Oct 2012 10:59:08 -0400|Mon, 22 Oct 2012 10:59:08 -0400
+65c508931d039b9f3baa2deff31cbeec99432f42|Puppetizing Hive.|Mon, 22 Oct 2012 10:27:06 -0400|Mon, 22 Oct 2012 10:27:06 -0400
+15b46ca0dc116f2d0622f4d2a643d0ee5a318221|Fixing ShareLib exec|Fri, 19 Oct 2012 13:25:19 -0400|Fri, 19 Oct 2012 13:25:19 -0400
+a3d87f9c2638497d595dc83adf50842b888c1f7c|Adding command to install yarn oozie ShareLib|Fri, 19 Oct 2012 13:13:05 -0400|Fri, 19 Oct 2012 13:13:05 -0400
+cb1d94527f03093c7fc45105d25efb964fb8559a|Enabling uber jars for oozie|Fri, 19 Oct 2012 12:49:58 -0400|Fri, 19 Oct 2012 12:49:58 -0400
+306e3a393f43cd0b205b3729c13a623d52b87d1c|Fixing oozie database configs|Fri, 19 Oct 2012 12:31:25 -0400|Fri, 19 Oct 2012 12:31:25 -0400
+26dca17116c805da5c0ea62cd6e222713d92ee86|Puppetizing oozie, cool!|Thu, 18 Oct 2012 18:06:41 -0400|Thu, 18 Oct 2012 18:06:41 -0400
+31d1afcef3bbaec38a1298cf371bfca0c5a07b5d|Flume NG does not have a shell.  Disabling for hue|Thu, 18 Oct 2012 15:15:25 -0400|Thu, 18 Oct 2012 15:15:25 -0400
+5911f9f55d51a482a6957767070b47140b5f3e5b|Excluding MRv1 cluster from hue config|Thu, 18 Oct 2012 14:37:58 -0400|Thu, 18 Oct 2012 14:37:58 -0400
+6cf35a447f3339bcdb45fd59d2c129368b40fb84|hue.ini should be 644|Thu, 18 Oct 2012 14:21:03 -0400|Thu, 18 Oct 2012 14:21:03 -0400
+56b017a3ac18eb9b564c5a205e79e823e54d4617|Puppetizing hue secret key.|Thu, 18 Oct 2012 14:07:48 -0400|Thu, 18 Oct 2012 14:07:48 -0400
+2d5d37f17e3fd7f515769609d3c1d28a28ae451c|fixing variable name|Thu, 18 Oct 2012 12:21:02 -0400|Thu, 18 Oct 2012 12:21:02 -0400
+18f0c9bd0224f9f07c5ae6c980da61faaccbb731|requireing hadoop::config in hadoop:: services|Thu, 18 Oct 2012 12:17:38 -0400|Thu, 18 Oct 2012 12:17:38 -0400
+6a769b2bb8094d153e2d6d8bf40171e93a22ea0b|Updating some ports to match CDH4 defaults|Thu, 18 Oct 2012 11:48:32 -0400|Thu, 18 Oct 2012 11:48:32 -0400
+bd4e3618d2a4d15ba410b8c346b12c08f3b6a618|Fixing variable in mapred-site.xml.erb|Thu, 18 Oct 2012 11:39:08 -0400|Thu, 18 Oct 2012 11:39:08 -0400
+5fc65282f6692460b930766337c440decdbfb386|Installing httpfs-site.xml|Thu, 18 Oct 2012 11:37:08 -0400|Thu, 18 Oct 2012 11:37:08 -0400
+0c6dfbfc8d7d7e6728926016cca9b1dde2fe6147|Adding extra mapred-site.xml vars|Thu, 18 Oct 2012 11:34:33 -0400|Thu, 18 Oct 2012 11:34:33 -0400
+c121171881af88b214343a07780fdbf0a961c786|Updating yarn.resourcemanager.address to port 8032|Thu, 18 Oct 2012 11:25:31 -0400|Thu, 18 Oct 2012 11:25:31 -0400
+f74b5e29c1434e55378c14dd722c940589ef9222|Puppetizing hue|Thu, 18 Oct 2012 11:22:57 -0400|Thu, 18 Oct 2012 11:22:57 -0400
+2e412aff021bdc81b69c645e037cb4796935f2d0|test commit for submodules|Thu, 11 Oct 2012 15:42:33 -0400|Thu, 11 Oct 2012 15:42:33 -0400
+2c209aaee8ac42655c50676150f06a0ed98a9b41|Adding some extra config parameters|Mon, 8 Oct 2012 16:08:03 -0400|Mon, 8 Oct 2012 16:08:03 -0400
+9445cf71ca724d475dcc3a22a21f846408f0e03b|Adding parameters for mapreduce compression|Fri, 5 Oct 2012 10:45:01 -0400|Fri, 5 Oct 2012 10:45:01 -0400
+3e61fd67fc424b234e4548d7822d59c897c0d8b3|Updating README.md|Wed, 3 Oct 2012 12:40:01 -0400|Wed, 3 Oct 2012 12:40:01 -0400
+4234a7fc13aca4816379696a28337882386d8d5e|Updating README.md|Wed, 3 Oct 2012 12:39:09 -0400|Wed, 3 Oct 2012 12:39:09 -0400
+cc23da483446448fc48ad187661443fa389e7faf|Updating README|Tue, 2 Oct 2012 16:30:10 -0400|Tue, 2 Oct 2012 16:30:10 -0400
+a579d87355720fd53cf546817582eb3f32f3717e|Updating README|Tue, 2 Oct 2012 16:29:43 -0400|Tue, 2 Oct 2012 16:29:43 -0400
+2d62461065655d71a534c67c6b52ebbb729b6b4f|Updating README|Tue, 2 Oct 2012 16:28:25 -0400|Tue, 2 Oct 2012 16:28:25 -0400
+0fa75b41c16a42359ad3b02d7742b0a582c62797|Removing unused test/ directory|Tue, 2 Oct 2012 16:23:34 -0400|Tue, 2 Oct 2012 16:23:34 -0400
+b3d62a22279e39cf960317145645e47932837ecb|Updating README.md|Tue, 2 Oct 2012 16:22:31 -0400|Tue, 2 Oct 2012 16:22:31 -0400
+40db41d4a842c080324f789434fbb6f00f666f09|Initial commit.|Tue, 2 Oct 2012 16:12:35 -0400|Tue, 2 Oct 2012 16:12:35 -0400

@@ -1,0 +1,50 @@
+1769f1ff39939e59c50d22a1f6d2a3bc82b37910|Replace libmysqlclient-dev with default-libmysqlclient-dev|Sat, 2 Dec 2017 11:09:06 -0800|Sun, 3 Dec 2017 00:16:35 +0000
+2f2a0154e1f96b775d7aee029c55616ed6ad3caa|Introduce linters using rake|Fri, 17 Feb 2017 17:19:14 +0100|Fri, 17 Feb 2017 17:52:36 +0100
+1e694e3630d256c20b9b0bcef25efc6778602e6e|lint fixes|Thu, 3 Dec 2015 18:42:43 -0800|Fri, 4 Dec 2015 23:20:30 +0000
+51be23f1843cef2e69d5f0a23ae116d1fc04ef2d|wikimetrics - lint fixes|Fri, 31 Oct 2014 16:47:58 -0700|Fri, 31 Oct 2014 16:49:19 -0700
+5f416bbce4188914f48a044a8df09f1c34b07183|Add centralauth to puppet db_config.yaml|Fri, 17 Oct 2014 15:10:22 -0300|Fri, 24 Oct 2014 19:53:20 +0000
+28e504701ca0ea5dbbe3510d0a3ed553da85ff7e|Allow local server-status requests on http|Fri, 3 Oct 2014 19:30:19 +0200|Fri, 3 Oct 2014 19:30:19 +0200
+b886ca331045432afe76882f184c0cdd4a077f3d|Make archive table name configurable|Tue, 23 Sep 2014 13:15:22 -0400|Thu, 25 Sep 2014 16:42:30 -0400
+71b3624b99548d0ec7dc378db5ae7f3aa6e364cf|Add .gitreview file|Mon, 15 Sep 2014 15:07:44 +0100|Mon, 15 Sep 2014 15:07:44 +0100
+437e28d4d561b2e112ca5363b0624e0716c0e8a1|Adding gzip compression for several file types|Mon, 8 Sep 2014 14:17:44 -0700|Tue, 9 Sep 2014 16:33:37 -0700
+bb42e20f61a99c07211698e640518da75408c74a|Adding caching headers for wikimetrics public directory|Fri, 5 Sep 2014 16:40:16 -0700|Mon, 8 Sep 2014 07:47:24 -0700
+3f583918531a25e3a716a1b1ba48371c22aa9b2a|Add replication lag settings|Mon, 25 Aug 2014 22:20:43 +0200|Tue, 26 Aug 2014 00:17:46 +0200
+30ebca775a7391da8cfbd04a1fd45155cd0a1df4|Force redis dump before backing up|Mon, 11 Aug 2014 12:28:42 +0000|Fri, 15 Aug 2014 16:55:29 +0000
+050978bd6a132be3aaa0175eccdf0dd237ec44aa|Make hourly backup keep around known-good full backups in case of issues|Mon, 11 Aug 2014 23:50:04 +0200|Fri, 15 Aug 2014 09:18:55 +0000
+82d886d8685fec403c7dee3b682bf39c5381baa1|Reschedule backups to not interfer with queue runs so easily|Mon, 11 Aug 2014 11:30:30 +0200|Thu, 14 Aug 2014 18:47:15 +0000
+d0a43502b7e4d0066a39ecd05a85030d2b7624e3|Lowering celery concurrency and removing MAX_PARALLEL_RUN|Mon, 11 Aug 2014 12:55:45 +0200|Wed, 13 Aug 2014 19:47:28 +0000
+83ee4fde480a0da6e32c77c73024797119409b7c|Re-align block of attributes|Mon, 11 Aug 2014 10:25:30 +0200|Mon, 11 Aug 2014 10:25:30 +0200
+0e4af7341f28f652466c31fe0ddd028dab5264cb|Enable Apache's headers module|Fri, 25 Jul 2014 11:24:16 +0200|Fri, 25 Jul 2014 14:12:49 +0000
+49d46823623b9a592042dae993e58f73ef26d553|Document database pool size parameters|Fri, 25 Jul 2014 11:13:18 +0200|Fri, 25 Jul 2014 11:13:18 +0200
+79af619d37b5d56530788e630669e49d29b3d4a9|Make pool size configurable|Thu, 24 Jul 2014 17:29:36 -0400|Thu, 24 Jul 2014 17:29:36 -0400
+f03d8afb22e892874eef763641d1ad145b9548ad|Fix celery_concurrency type in queue_config.yaml.erb, change default to 16|Thu, 24 Jul 2014 16:42:40 -0400|Thu, 24 Jul 2014 16:43:04 -0400
+563489a168cccc82b9b98deea5b8b0830ef7476a|Fix documentation of default path for wikimetrics base|Wed, 16 Jul 2014 13:03:35 +0200|Wed, 16 Jul 2014 13:03:35 +0200
+aacac335bfca241e484a27bee6bcb8ae199e3dc5|Add CORS support to public files|Tue, 8 Jul 2014 16:35:44 -0400|Wed, 9 Jul 2014 10:21:47 -0400
+4d45501b1aa8b2816a8489e2b0d812b0d5ba8e91|Add settings to throttle scheduled runs|Fri, 4 Jul 2014 11:17:16 -0400|Mon, 7 Jul 2014 13:01:01 -0400
+7394efd9316270aa178121fffad5220c339b6740|Lint: Scope global|Tue, 1 Jul 2014 13:29:10 +0200|Tue, 1 Jul 2014 11:37:23 +0000
+9e184d86c58ac602906b1150384f9c2646be5d61|Make backup handle ensuring 'absent'|Tue, 1 Jul 2014 12:08:29 +0200|Tue, 1 Jul 2014 12:31:44 +0200
+3c9e50a453be49e4ef5949baa5a8339d7275e95a|Add backup role and scripts to wikimetrics|Fri, 13 Jun 2014 18:06:33 -0400|Thu, 26 Jun 2014 00:06:56 +0200
+007bb44a39ccbb027e986b6aa349f260b47b7d4f|Unqualify local variables|Fri, 20 Jun 2014 01:01:59 +0200|Tue, 24 Jun 2014 14:10:40 +0000
+ac472a1b1367a65c123071805778c2e623cdab5b|Reports in prod should be stored on redis 30 days|Thu, 19 Jun 2014 20:32:01 +0200|Thu, 19 Jun 2014 20:48:31 +0200
+21fa3a14905c9a58f1c7148e3426c7e24b11174a|Fix for redis include and apache module changes|Wed, 18 Jun 2014 10:55:50 -0400|Wed, 18 Jun 2014 10:55:50 -0400
+98430d5c6e73e9ad627f2ee58688027aa32a9b4a|Stop relying on limited redis module|Tue, 17 Jun 2014 14:33:28 -0400|Tue, 17 Jun 2014 14:48:27 -0400
+29ac9573fc57c0970765d203d2ef1eb4c8b89ce0|Make upstart track the wikimetrics PID|Wed, 30 Apr 2014 13:47:44 +0200|Thu, 15 May 2014 08:01:04 +0000
+93982ae72840ab016636daf5eca835e9776e9365|Fix provision from scratch|Tue, 29 Apr 2014 17:26:36 -0400|Wed, 30 Apr 2014 10:30:59 -0400
+f9ad1560b61684527479f077b5b4111d4bba7b85|Add second test wiki database|Thu, 24 Apr 2014 15:39:08 -0400|Fri, 25 Apr 2014 13:35:11 -0400
+f4a18c48decc6ed447495f9273f21c9cc5fb6ef1|Making sure apache can write to /var/lib/wikimetrics directory|Wed, 2 Apr 2014 17:25:23 +0200|Wed, 2 Apr 2014 12:55:46 -0400
+e13fcfde827f425bbd2926a715dd44ef05e07496|Adding scheduler mode for wikimetrics in puppet|Fri, 28 Mar 2014 19:03:40 +0100|Fri, 28 Mar 2014 20:23:00 +0100
+fdfab3c952a619637f730528721b4b1f919f617c|Creating var and public directories so that wikimetrics can write out public datasets and serve them|Fri, 21 Mar 2014 11:12:45 -0400|Fri, 21 Mar 2014 11:12:45 -0400
+55e3b50554e8f4771f695f170d02c680963c98c5|Using regex instead of 2 grep commands to match database name|Mon, 3 Mar 2014 13:51:35 -0500|Mon, 3 Mar 2014 13:55:44 -0500
+6324e40d9dff1e467aaf9e7fcfcc519f0787012e|Changes in puppet to support a testing db for wikimetrics in vagrant.|Mon, 3 Mar 2014 13:47:24 +0100|Mon, 3 Mar 2014 17:50:04 +0000
+6d41aff9a3278833142d0a2ba36efe818e945867|Drive-by lint!|Wed, 29 Jan 2014 07:00:26 -0800|Wed, 29 Jan 2014 11:01:33 -0500
+f3b110023cead2c159585c3fcbdea0bcaa166357|Requiring clone of wikimetrics repo before setting up config files|Tue, 28 Jan 2014 16:28:40 -0500|Tue, 28 Jan 2014 16:28:40 -0500
+55e1e548c617a4df0dde99c72a65c55048da1fcb|Don't need to fully qualify local variables|Mon, 27 Jan 2014 16:21:45 -0500|Mon, 27 Jan 2014 16:21:45 -0500
+1e83e2d444d0734661b95388484d5594f7cf8c86|Not writing out :80 in redirect urls|Mon, 27 Jan 2014 14:41:15 -0500|Mon, 27 Jan 2014 14:41:15 -0500
+1d0b3208f35fb7afac3a6907359cd4c245b9b3d4|Fixing META_MW_REDIRECT_URI in web_config.yaml.erb|Mon, 27 Jan 2014 13:19:39 -0500|Mon, 27 Jan 2014 13:19:39 -0500
+9ba1f01b035156e4436567fb28d27cdb1c6d8774|Fixing conditional Listen in wikimetrics.vhost.erb|Fri, 24 Jan 2014 12:51:51 -0500|Fri, 24 Jan 2014 12:51:51 -0500
+65799cc7fb0a07e546a250d75aaa8b94de46c116|Adding $service_start_on parameter so that mediawiki-vagrant can override|Fri, 24 Jan 2014 11:26:42 -0500|Fri, 24 Jan 2014 11:26:42 -0500
+93512cce79bd962d367b801aceb7d7b8e5818b3e|Some fixes for labs related issues|Thu, 23 Jan 2014 17:35:11 -0500|Thu, 23 Jan 2014 17:35:11 -0500
+e83bdf6a6dc7160156caa812298e42f2dfaebbc4|Adding params for config file ownership and celery concurrency|Thu, 23 Jan 2014 14:32:24 -0500|Thu, 23 Jan 2014 14:32:24 -0500
+0415ccf2a82e772e3a46ad6c5ef44c9bcde87451|Updating wikimetrics module with ability to run in daemon mode|Thu, 23 Jan 2014 13:32:21 -0500|Thu, 23 Jan 2014 13:33:52 -0500
+d6693e2f5c25b74df578c117ba1e602ea4add3e9|Puppetizing wikimetrics|Mon, 20 Jan 2014 17:41:29 -0500|Wed, 22 Jan 2014 10:24:38 -0500
+fa4fbfe7f0c010b60f05ea193aab3aba739b0f4f|Initial empty repository|Mon, 20 Jan 2014 22:39:19 +0000|Mon, 20 Jan 2014 22:39:19 +0000

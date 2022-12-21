@@ -1,0 +1,9 @@
+3b1157bb68707b1c9092e61cb58824312d5fb5fd|Move live migration and image type out of parameter and into selector based on whether ceph is used or not|Thu, 30 Jul 2015 09:37:35 -0700|Thu, 30 Jul 2015 09:37:35 -0700
+fa6b7bf53ee3d591cf98725c60f6646c932dab39|This is a bit backwards, but default to true on use_ceph and inherit that in the params class to use with a selector for values.|Thu, 30 Jul 2015 09:13:48 -0700|Thu, 30 Jul 2015 09:13:48 -0700
+d47e457b3baf8d0333dce4d055af6d9231e6f504|This is a bit backwards, but default to true on use_ceph and inherit that in the params class to use with a selector for values.|Thu, 30 Jul 2015 09:13:43 -0700|Thu, 30 Jul 2015 09:13:43 -0700
+8c1c74254797f2c0101af811374a4f512543e76b|Fix typo in selector|Thu, 30 Jul 2015 09:05:03 -0700|Thu, 30 Jul 2015 09:05:03 -0700
+2cbe257aec1cd23237c583b602611dcfa55a9df1|set use_ceph to true by default. fix typo|Wed, 29 Jul 2015 14:12:49 -0700|Wed, 29 Jul 2015 14:12:49 -0700
+9637a53947b416fc2bd7f61588a595718c3ca44b|Add toggle for whether to use ceph or not|Wed, 29 Jul 2015 09:26:38 -0700|Wed, 29 Jul 2015 09:26:38 -0700
+c48c8c3dc6d0ebeb456584d79fa0d5b2cefc4889|Add parameter documentation|Wed, 29 Jul 2015 09:25:49 -0700|Wed, 29 Jul 2015 09:25:49 -0700
+92a099896e72a90f7a80668ed8476b16acacd83e|Initial commit|Mon, 27 Jul 2015 09:47:57 -0700|Mon, 27 Jul 2015 09:47:57 -0700
+8f9d490564b258723b4323bad58735c044dcab0f|Initial commit|Mon, 27 Jul 2015 06:43:02 -0700|Mon, 27 Jul 2015 06:43:02 -0700

@@ -1,0 +1,25 @@
+mod 'augeas_core',
+  :git => 'https://github.com/puppetlabs/puppetlabs-augeas_core',
+  :ref => '1.0.5'
+
+mod 'cron_core',
+  :git => 'https://github.com/puppetlabs/puppetlabs-cron_core',
+  :ref => '1.0.3'
+
+mod 'sshkeys_core',
+  :git => 'https://github.com/puppetlabs/puppetlabs-sshkeys_core',
+  :ref => '1.0.3'
+
+mod 'yumrepo_core',
+  :git => 'https://github.com/puppetlabs/puppetlabs-yumrepo_core',
+  :ref => '1.0.7'
+
+# NOTE(tobias-urdin): Needed by puppet-swift.
+mod 'mount_core',
+  :git => 'https://github.com/puppetlabs/puppetlabs-mount_core',
+  :ref => '1.0.4'
+
+# NOTE(tobias-urdin): Needed by p-o-i.
+mod 'selinux_core',
+  :git => 'https://github.com/puppetlabs/puppetlabs-selinux_core',
+  :ref => '1.0.4'

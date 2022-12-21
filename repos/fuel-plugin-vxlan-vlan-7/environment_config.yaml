@@ -1,0 +1,19 @@
+attributes:
+  metadata:
+    physnet: providernet
+    restrictions:
+      - condition: cluster:net_provider != 'neutron' or networking_parameters:segmentation_type == 'vlan'
+        message: "Neutron with VxLAN tunneling segmentation ONLY supported"
+        action: disable
+  vlan_bridge:
+    value: 'br-prv'
+    label: 'Bridge name'
+    description: 'The name of the the bridge used for VLANs in network-template'
+    weight: 25
+    type: "text"
+  vlan_range:
+    value: '2:4094'
+    label: 'VLAN range'
+    description: 'Range for VLANs in network-template'
+    weight: 30
+    type: "text"

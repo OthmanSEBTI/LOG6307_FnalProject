@@ -1,0 +1,281 @@
+654528315621dc358bd3d50c594b41fb72b42de7|Update README.md|Thu, 29 Nov 2012 14:28:32 -0500|Thu, 29 Nov 2012 14:28:32 -0500
+4713c6cafa6a65d4a1ac12c32f66e04be936fda2|Updating paths to kraken templates|Wed, 28 Nov 2012 16:04:29 -0500|Wed, 28 Nov 2012 16:04:29 -0500
+b34922484132bf18c3e83d125118273283dec762|Ah, doh, Need to have manifests/ dir|Wed, 28 Nov 2012 16:03:09 -0500|Wed, 28 Nov 2012 16:03:09 -0500
+c7b978b70355217ac4e837dbaaaf7419a366cf5f|Including kraken module classes instead of analytics::|Wed, 28 Nov 2012 15:41:00 -0500|Wed, 28 Nov 2012 15:41:00 -0500
+52e2bd2114920b0b7b7f633a20ca99f04db36a84|Renaming analytics module to 'kraken'|Wed, 28 Nov 2012 15:36:45 -0500|Wed, 28 Nov 2012 15:36:45 -0500
+a88ece863fe06d5b46bc875c543e2d5a4ac3bfd0|Un qualifying some classes, hmm..|Wed, 28 Nov 2012 15:31:48 -0500|Wed, 28 Nov 2012 15:31:48 -0500
+db1a7f0b79a0284d4c8c99fe6eedb65576080bd3|Not fully qualifying inclusion of analytics module base class|Wed, 28 Nov 2012 15:30:24 -0500|Wed, 28 Nov 2012 15:30:24 -0500
+4f192d331f278d7180284b4029c141b171768812|Don't need to include analytics/*.pp anymore.|Wed, 28 Nov 2012 15:29:23 -0500|Wed, 28 Nov 2012 15:29:23 -0500
+675dc76e32b3314c1802e766652823e41a88dca9|Moving manifests/analytics to modules/analytics|Wed, 28 Nov 2012 15:28:11 -0500|Wed, 28 Nov 2012 15:28:11 -0500
+47697c8162d991627e9c525ec892db1391c5f219|comments'|Wed, 28 Nov 2012 15:27:31 -0500|Wed, 28 Nov 2012 15:27:31 -0500
+34046334a8c23f618efd00e47ca82b80d9b9dc4d|Moved some logic out of role classes.|Wed, 28 Nov 2012 15:22:43 -0500|Wed, 28 Nov 2012 15:23:19 -0500
+498d9709fb55b88a4a100c6818b66d9d5e5cf59c|Removing accounts, they are in operations/puppet|Wed, 28 Nov 2012 15:11:12 -0500|Wed, 28 Nov 2012 15:11:12 -0500
+e6cf73eafc6e6e7554c21b2a103244d4280894d5|Moving analytics_temp to misc.pp|Wed, 28 Nov 2012 14:59:00 -0500|Wed, 28 Nov 2012 14:59:00 -0500
+95c4e8da4cb5ed7f8dbe2f757d554e90dcd285f4|Setting up cronjob to backup hue desktop.db database into HDFS.|Wed, 28 Nov 2012 14:28:53 -0500|Wed, 28 Nov 2012 14:28:53 -0500
+24f32fc8b5fea5b3563f40181b7a6748d3dd57ea|assignment alignment|Wed, 28 Nov 2012 14:26:19 -0500|Wed, 28 Nov 2012 14:26:19 -0500
+6d062479e67e4e647de8c8de58bf1e55742c579b|Fixing variable name|Tue, 27 Nov 2012 14:59:42 -0500|Tue, 27 Nov 2012 14:59:42 -0500
+807c9002e5055e1478f1fbf3b617ac50f598b04b|Puppetizing index.php as a template|Tue, 27 Nov 2012 14:58:19 -0500|Tue, 27 Nov 2012 14:58:19 -0500
+4d1906a8e40bccf787bd1d6251812ff7bfb4f92f|Fixing typo|Tue, 27 Nov 2012 13:33:25 -0500|Tue, 27 Nov 2012 13:33:25 -0500
+4e2bc73c6d99e59e8e09711180cdfa2d4a2a2847|Requireing hadoop and storm configs before rendering proxy conf|Tue, 27 Nov 2012 13:32:58 -0500|Tue, 27 Nov 2012 13:32:58 -0500
+595f4d893a211b2caacc1c39693be82f2a37e2b0|Updating proxy with storm access|Tue, 27 Nov 2012 13:31:33 -0500|Tue, 27 Nov 2012 13:31:33 -0500
+a6208f7e3d634e24711aed094a8bc228aed88370|Ah, currently storm ui only connects to localhost.|Tue, 27 Nov 2012 13:22:23 -0500|Tue, 27 Nov 2012 13:22:23 -0500
+25ad2d6ae5d386272a94866b5f7d6f23ec128283|Renaming analytics::storm::ui to frontend|Tue, 27 Nov 2012 13:15:36 -0500|Tue, 27 Nov 2012 13:15:36 -0500
+639c33b8b0e3cee08038aa16f399e69782323da6|Fixing typo|Tue, 27 Nov 2012 12:28:34 -0500|Tue, 27 Nov 2012 12:28:34 -0500
+68bceda283d9f222af2fd7a300d991262fa5bd98|updating storm module|Tue, 27 Nov 2012 12:23:36 -0500|Tue, 27 Nov 2012 12:23:36 -0500
+70be398b072ec85daf5da9a458799511b2e066bc|Fully qualifying analytics storm class names in role inclusion|Tue, 27 Nov 2012 11:55:20 -0500|Tue, 27 Nov 2012 11:55:20 -0500
+8e823c8a6c337ed927f81384637dd0dbb4050060|Fully qualifying inclusion of storm init class|Tue, 27 Nov 2012 11:50:54 -0500|Tue, 27 Nov 2012 11:50:54 -0500
+a0d6053871905478f2ce980118c3e897570adb9e|Requiring zookeeper config from storm|Tue, 27 Nov 2012 11:43:39 -0500|Tue, 27 Nov 2012 11:43:39 -0500
+83a31f391adf3188f0cf507a06c0dd76d9613280|Still using port 80 for apt, but allowing any public access to Kraken Apt repo|Tue, 27 Nov 2012 11:24:17 -0500|Tue, 27 Nov 2012 11:24:17 -0500
+1de029f1465473abb2759abd170ce250492ec615|Whitelisting analytics networks|Tue, 27 Nov 2012 11:02:30 -0500|Tue, 27 Nov 2012 11:02:30 -0500
+387865fdc82537bb8c414052550ee81c9aae2d7d|Apt is now on port 81|Tue, 27 Nov 2012 11:00:01 -0500|Tue, 27 Nov 2012 11:00:01 -0500
+fe5d0867cdadb65b225d5d5e9ed17c76e7f713bf|Adding comments for new Storm role classes|Tue, 27 Nov 2012 10:51:20 -0500|Tue, 27 Nov 2012 10:51:20 -0500
+85d63204cf0161790c733ff7295fac6dd9e9c894|Whitelisting dschoon's IP|Mon, 26 Nov 2012 17:53:27 -0500|Mon, 26 Nov 2012 17:53:27 -0500
+c48cfe1834223e548716b582f09c4ddb1cde3807|Whitelisting dschoon's IP|Mon, 26 Nov 2012 17:52:10 -0500|Mon, 26 Nov 2012 17:52:10 -0500
+7bbf79a64c592338360121625a4a8d3a2d9df736|Puppetizing Storm on an02-an09|Mon, 26 Nov 2012 17:04:55 -0500|Mon, 26 Nov 2012 17:04:55 -0500
+d43aa3a8e1974e1e309fd4ecd1f0e1b5a33787ae|Adding modules/storm as a git submodule.|Mon, 26 Nov 2012 16:49:22 -0500|Mon, 26 Nov 2012 16:49:22 -0500
+797776ee386f06950df620e414eed067a2c2dfc1|Adding user louisdang to haproxy userlist|Tue, 20 Nov 2012 17:06:16 -0500|Tue, 20 Nov 2012 17:06:16 -0500
+a7da5e98be411f3bd1fadb65326a7743cd62e8b4|Adding backend for localhost apache instance on a01|Tue, 20 Nov 2012 16:34:42 -0500|Tue, 20 Nov 2012 16:34:42 -0500
+ead109f333273caf5628baf8d4e6c84d84be9da6|creating auth_ok acl|Tue, 20 Nov 2012 16:11:21 -0500|Tue, 20 Nov 2012 16:11:21 -0500
+defbb136b28087dd43952419af3f7e831baeb433|Enable => true for haproxy|Tue, 20 Nov 2012 16:06:32 -0500|Tue, 20 Nov 2012 16:06:32 -0500
+54b43c009a9d027ae18208aaa937177657aad224|Fixing typo|Tue, 20 Nov 2012 16:05:16 -0500|Tue, 20 Nov 2012 16:05:16 -0500
+9c32459db853133ddca5a1581f42ad86567327f4|Adding haproxy.cfg.erb|Tue, 20 Nov 2012 16:04:33 -0500|Tue, 20 Nov 2012 16:04:33 -0500
+6cc596ed8cb89a416a31d2ffda83a6cdb1f7d23a|Adding proxy.pp|Tue, 20 Nov 2012 16:02:30 -0500|Tue, 20 Nov 2012 16:02:30 -0500
+0ecd597b7182e940446fa4619369a2bcf0929997|Setting up haproxy for proxied internal interfaces|Tue, 20 Nov 2012 16:01:37 -0500|Tue, 20 Nov 2012 16:01:37 -0500
+31e606b3575a2c67969483e44701bd10e1a6dbe9|Requiring cdh4::zookeeper|Mon, 19 Nov 2012 15:42:06 -0500|Mon, 19 Nov 2012 15:42:06 -0500
+b5ca0b9a7ed36e9ed480a6722a7343585f97bfcc|Fixing zk deps, inheriting zk and kafka roles from role::analytics|Mon, 19 Nov 2012 15:41:31 -0500|Mon, 19 Nov 2012 15:41:31 -0500
+ec216d453b74e5740a0844a6d65e2f568ce7a371|Updating README|Mon, 19 Nov 2012 15:01:55 -0500|Mon, 19 Nov 2012 15:01:55 -0500
+28e44959c89a491790e2fed6ebd9b30e8066186d|Including hue for frontend|Mon, 19 Nov 2012 14:13:56 -0500|Mon, 19 Nov 2012 14:13:56 -0500
+5caffec3eaeccc42f85361dbb53f52175d3ac4cd|Removing duplicate inclusion of hadoop config|Mon, 19 Nov 2012 13:26:41 -0500|Mon, 19 Nov 2012 13:26:41 -0500
+e73a8c95e4cce028fa556e240dd4d62b5fa0f52e|Removing import of monitoring.pp since it doesn't exist|Mon, 19 Nov 2012 13:15:36 -0500|Mon, 19 Nov 2012 13:15:36 -0500
+53e97dbf8897e25234fa5c15702b011518156f9f|Big manifests/ refactor.|Mon, 19 Nov 2012 13:00:15 -0500|Mon, 19 Nov 2012 13:00:15 -0500
+fc438d77d5d164ca996cf70250b37e4324569e5c|Attempting to resolve dependency|Mon, 19 Nov 2012 12:02:20 -0500|Mon, 19 Nov 2012 12:02:20 -0500
+9b6f9fa6754bfca1c70bc5b8202abbef73fba333|Moving css fix|Mon, 19 Nov 2012 11:55:35 -0500|Mon, 19 Nov 2012 11:55:35 -0500
+4811679d0b5cbf8dc6412cc7726a4606495d8ba3|including hadoop config on an01|Mon, 19 Nov 2012 11:45:57 -0500|Mon, 19 Nov 2012 11:45:57 -0500
+9220a44e2c8bb987a3e859154bda82308464357e|Fixing namenode_hostname|Mon, 19 Nov 2012 11:29:18 -0500|Mon, 19 Nov 2012 11:29:18 -0500
+48dd23b5cad380cd8085f339af739815c48a9f65|updating CDH4 module|Mon, 19 Nov 2012 11:20:01 -0500|Mon, 19 Nov 2012 11:20:01 -0500
+0d5d18931655a84789c97fced37fb776238f7c14|nodes.pp|Mon, 19 Nov 2012 11:13:14 -0500|Mon, 19 Nov 2012 11:13:14 -0500
+0e48695a4cf728671c220adf98572353f9aeafbe|nodes.pp removing an10 from worker list|Mon, 19 Nov 2012 10:54:41 -0500|Mon, 19 Nov 2012 10:54:41 -0500
+8a2ca58f0327c23cdf98cb00656f8965faaf2065|Namenode is on an10, extra services remain on an01 for now|Mon, 19 Nov 2012 10:49:18 -0500|Mon, 19 Nov 2012 10:49:18 -0500
+9e28da7784d8844d5b99342723f8ce0835697500|Moving namenode to an10|Mon, 19 Nov 2012 10:46:02 -0500|Mon, 19 Nov 2012 10:46:02 -0500
+76a418c3373906a44799d91cecb44ae38648d1f8|Depuppetizing hadoop install on an02-an10.|Fri, 16 Nov 2012 16:26:53 -0500|Fri, 16 Nov 2012 16:26:53 -0500
+063b114eea871e2b6d925ba7ef2d6104cc646ab9|Fixing datanode_mounts arg|Fri, 16 Nov 2012 12:06:07 -0500|Fri, 16 Nov 2012 12:06:07 -0500
+24150ae9234f7758acad163823ee8172b726c9e3|Oops, didn't mean to commit this yet|Fri, 16 Nov 2012 12:04:22 -0500|Fri, 16 Nov 2012 12:04:22 -0500
+1480d507d388bbba94d9364711690b5ffeb0f7c7|updating CDH4 module|Fri, 16 Nov 2012 12:03:15 -0500|Fri, 16 Nov 2012 12:03:15 -0500
+4a332ff3668a0021c4fe28792cafda75ac9a7630|updating jmxtrans module|Thu, 15 Nov 2012 13:42:22 -0500|Thu, 15 Nov 2012 13:42:22 -0500
+faf9435b1f606d6d0e150169eeaa1a379389bf83|updating jmxtrans module|Thu, 15 Nov 2012 13:40:06 -0500|Thu, 15 Nov 2012 13:40:06 -0500
+d868b70896d0429c014cd166060bce45cd7e5b42|Adding monitoring.pp|Thu, 15 Nov 2012 13:36:21 -0500|Thu, 15 Nov 2012 13:36:21 -0500
+8b8cc58fb3c4ee83586c9f3d5136994023c9f829|Setting up kafka jmxtrans|Thu, 15 Nov 2012 13:35:13 -0500|Thu, 15 Nov 2012 13:35:13 -0500
+70b1540512dcb0c57d4a385f4957c64ae21a90f9|puppet-jmxtrans has moved to wmf-analytics|Thu, 15 Nov 2012 13:17:52 -0500|Thu, 15 Nov 2012 13:17:52 -0500
+18cb945951ca6d548396bee494ec65a676c059af|Adding modules/jmxtrans as a git submodule.|Thu, 15 Nov 2012 12:58:54 -0500|Thu, 15 Nov 2012 12:58:54 -0500
+61dfde104d86e5dcb719eb8643a562396ca174fa|updating kafka module|Wed, 14 Nov 2012 11:59:56 -0500|Wed, 14 Nov 2012 11:59:56 -0500
+3a6cd3e1ed2d6c48fc40d612b42bed4cb216cd55|renenabling kraken apt repo|Wed, 14 Nov 2012 11:38:05 -0500|Wed, 14 Nov 2012 11:38:05 -0500
+7575a5fe87bf0e02e0f934fe6608d31866bbce4d|Installing Kafka on an21,an22|Tue, 13 Nov 2012 11:55:50 -0500|Tue, 13 Nov 2012 11:55:50 -0500
+111083eb57231fcbd772ac1c07d76ad92a090834|Removing unused modules|Mon, 12 Nov 2012 16:26:11 -0500|Mon, 12 Nov 2012 16:26:11 -0500
+a1b1b102fe491cbc2443fa78dae86c3f01cae655|Removing unused services/ directory|Mon, 12 Nov 2012 16:25:17 -0500|Mon, 12 Nov 2012 16:25:17 -0500
+c94b417b956c924dd54da8d16b70142abb9869d1|Removing cloudera_apt, since cdh4::apt_source is now in cdh4 module|Mon, 12 Nov 2012 16:24:41 -0500|Mon, 12 Nov 2012 16:24:41 -0500
+cce8e26f82e3171b1bcb376b333b58b849f1db6d|Making sure we are using /var/lib/hadoop|Mon, 12 Nov 2012 16:17:54 -0500|Mon, 12 Nov 2012 16:17:54 -0500
+94cc6dc7381e131f969d9eeb9e2fef6bc27357e0|Fixing one more hadoop_mounts parameter|Mon, 12 Nov 2012 16:15:50 -0500|Mon, 12 Nov 2012 16:15:50 -0500
+50054beb231e403ac9700d832192aa09822e1a8d|updating CDH4, using parameter 'datanode_mounts'.|Mon, 12 Nov 2012 16:13:16 -0500|Mon, 12 Nov 2012 16:13:16 -0500
+d82069f0a1b2181f45559659d054afb0c128bdcb|Fixing parameter name|Mon, 12 Nov 2012 16:08:29 -0500|Mon, 12 Nov 2012 16:08:29 -0500
+2b0f7e7a71eaec498a78a1162cb36c1059ccd1a2|updating CDH4, using different hadoop configs for different node types.|Mon, 12 Nov 2012 16:06:28 -0500|Mon, 12 Nov 2012 16:06:28 -0500
+281985226e172dad8f02ae8ae5d0cabfdd0c1b1b|updating CDH4|Thu, 8 Nov 2012 16:41:40 -0500|Thu, 8 Nov 2012 16:41:40 -0500
+88ef92fd57b72f61dc312770a42cdce99323e90f|Fixing typo|Thu, 8 Nov 2012 15:37:56 -0500|Thu, 8 Nov 2012 15:37:56 -0500
+70644aefe665f6eabd44e869290939cbed2c29a3|Puppetizing mysql hive stats db connection info|Thu, 8 Nov 2012 15:35:50 -0500|Thu, 8 Nov 2012 15:35:50 -0500
+9bbb30012c0d671c6711881040d30be571c3688f|PUppetizing hive metrics db user|Thu, 8 Nov 2012 15:33:17 -0500|Thu, 8 Nov 2012 15:33:17 -0500
+1da78bed6bfa9015824d2c548cf347aa03f8e5ae|updating CDH4|Wed, 7 Nov 2012 14:10:48 -0500|Wed, 7 Nov 2012 14:10:48 -0500
+b2e084fe4f02bc4b20cd045f159d4f2f24afd2d8|updating CDH4|Wed, 7 Nov 2012 13:58:29 -0500|Wed, 7 Nov 2012 13:58:29 -0500
+5ba13179ac9b55cffeeeddeba80a704222f2c0f7|updating CDH4|Wed, 7 Nov 2012 12:13:14 -0500|Wed, 7 Nov 2012 12:13:14 -0500
+893e3473de9ffd9ada5bc0bfb1dba093e3084932|updating CDH4|Wed, 7 Nov 2012 12:10:56 -0500|Wed, 7 Nov 2012 12:10:56 -0500
+16bdfe952574c289cdfc9e2ab0de05fc26bde0b1|updating CDH4|Tue, 6 Nov 2012 16:43:32 -0500|Tue, 6 Nov 2012 16:43:32 -0500
+c0d71f88f7873a269f5fdb2103935293b3a5a2e1|updating CDH4|Tue, 6 Nov 2012 16:03:17 -0500|Tue, 6 Nov 2012 16:03:17 -0500
+34946667bfa24ae4416ad27795d86069d32b0880|Altering oozie.WF_JOBS table to MEDIUMTEXT|Tue, 6 Nov 2012 16:00:11 -0500|Tue, 6 Nov 2012 16:00:11 -0500
+8c3737269fe23bd5a5420f6cd5a0e1d9c680cfdd|updating CDH4|Fri, 2 Nov 2012 16:40:19 -0400|Fri, 2 Nov 2012 16:40:19 -0400
+090ca29b4a5508bdabc92a65e1a41686c79d8518|updating CDH4|Fri, 2 Nov 2012 13:18:42 -0400|Fri, 2 Nov 2012 13:18:42 -0400
+740a08198efa092961151f327983768fc9854d97|updating CDH4|Thu, 1 Nov 2012 12:58:11 -0400|Thu, 1 Nov 2012 12:58:11 -0400
+6e03ea42aa2cbbc03ea8e68bcf81f44ab9082ace|updating cdh4|Tue, 30 Oct 2012 11:27:38 -0400|Tue, 30 Oct 2012 11:27:38 -0400
+82eda1cb59d5bd65e64c5cf283318deb662d024f|Missing comma|Fri, 26 Oct 2012 11:07:40 -0400|Fri, 26 Oct 2012 11:07:40 -0400
+e44c6c3408acfdedb830db6ef931db10e6dc996e|updating CDH4|Fri, 26 Oct 2012 11:05:35 -0400|Fri, 26 Oct 2012 11:05:35 -0400
+da5b376a3088e5c19e81c0939fab1e441eb6807e|Copying hadoop.css in place for namenode web interface|Fri, 26 Oct 2012 11:03:44 -0400|Fri, 26 Oct 2012 11:03:44 -0400
+ae5433f2c696e881d97bf8756cc36bff95ee9342|Only setting http_proxy env variable on nodes other than an01|Fri, 26 Oct 2012 10:01:24 -0400|Fri, 26 Oct 2012 10:01:24 -0400
+d7e793b7e6ddff0ed4f6a485da759165ecc5daa1|Ung, duno what's up with class resolution today!|Thu, 25 Oct 2012 17:33:20 -0400|Thu, 25 Oct 2012 17:33:20 -0400
+00169dbc264d05960f72b3d324858b85cd778250|updating CDH4|Thu, 25 Oct 2012 17:31:56 -0400|Thu, 25 Oct 2012 17:31:56 -0400
+5eb39ed81b6bfc20e038b784f1d23e254939be39|Ung, dealing with puppet class resolution, ung|Thu, 25 Oct 2012 17:28:54 -0400|Thu, 25 Oct 2012 17:28:54 -0400
+10150a3fc7a90083373010d8aa8418ebd230060b|Not dealing with kraken apt, somethign is busted|Thu, 25 Oct 2012 17:20:18 -0400|Thu, 25 Oct 2012 17:20:18 -0400
+8b8a02291e49765d24c560ddf093236168aeab7d|Not installing kafka client everywhere (yet)|Thu, 25 Oct 2012 17:19:34 -0400|Thu, 25 Oct 2012 17:19:34 -0400
+2a6c0c003bf25132bb383b92f42e66ab8fd98b47|Only running kafka on an27 for now|Thu, 25 Oct 2012 17:15:00 -0400|Thu, 25 Oct 2012 17:15:00 -0400
+ec4f9a1d07ff78a580fd2d4854bf825db28ab4e4|Fixing syntax error|Thu, 25 Oct 2012 17:13:32 -0400|Thu, 25 Oct 2012 17:13:32 -0400
+6035095ed0070d1e7061fb806749e87f32f5f26e|Puppetizing kafka server|Thu, 25 Oct 2012 17:09:07 -0400|Thu, 25 Oct 2012 17:09:07 -0400
+69ef1a70b2780ffba9c33c7a30480b038519c2ec|Adding submodule kafka|Thu, 25 Oct 2012 15:29:31 -0400|Thu, 25 Oct 2012 15:29:31 -0400
+1fd2e2c97303bf2fcce9cd2ba09362ff6ced21aa|Using http_proxy for apt-get update|Thu, 25 Oct 2012 14:13:21 -0400|Thu, 25 Oct 2012 14:13:21 -0400
+42c0fc7489e30eab1c8fa5aac7f4a2783ec95b18|INitial puppetization of an26 and an27|Thu, 25 Oct 2012 14:10:24 -0400|Thu, 25 Oct 2012 14:10:24 -0400
+3560995c4185e9ca9f0eb915e97f63b444f47460|apt repo for kraken|Thu, 25 Oct 2012 13:20:42 -0400|Thu, 25 Oct 2012 13:20:42 -0400
+b2c872d839c79bdc81a9ce45b8eafe8d56a29355|analytics.pp - Using mcast_address for analytics ganglia cluster|Wed, 24 Oct 2012 12:47:15 -0400|Wed, 24 Oct 2012 12:47:15 -0400
+242b8429300bcc5e3121d7dc636b7b8ec18405fd|updating CDH4|Wed, 24 Oct 2012 12:13:38 -0400|Wed, 24 Oct 2012 12:13:38 -0400
+a6ddcfcba2a51a7444aced91e863e2ef6d1ff1e1|Puppetizing ganglia hadoop metrics|Wed, 24 Oct 2012 12:04:36 -0400|Wed, 24 Oct 2012 12:04:36 -0400
+0c160214431c80070537f24f5d7e0c722e87c8d3|Removing unused test module submodule0|Wed, 24 Oct 2012 12:03:17 -0400|Wed, 24 Oct 2012 12:03:17 -0400
+e90d933cc0b64bb77798de79d562d6eecf70c56f|updating CDH4|Mon, 22 Oct 2012 17:40:33 -0400|Mon, 22 Oct 2012 17:40:33 -0400
+b35971b4aa0140802537bc0ca61a0f7a1b8c954c|Moving cdh4::apt_source to this repo.|Mon, 22 Oct 2012 17:18:42 -0400|Mon, 22 Oct 2012 17:18:42 -0400
+dbf9c98544ac880633bc5d9947d585cc581cfde2|updating CDH4|Mon, 22 Oct 2012 17:04:46 -0400|Mon, 22 Oct 2012 17:04:46 -0400
+82786bc45827c804a62c513edf0b7f05ecfed065|updating CDH4|Mon, 22 Oct 2012 17:00:13 -0400|Mon, 22 Oct 2012 17:00:13 -0400
+8a7f0acdbe4535e5b1fef001174151bcf3555d88|More manual requires of apt_source|Mon, 22 Oct 2012 16:56:42 -0400|Mon, 22 Oct 2012 16:56:42 -0400
+dce836497503c7231183a1f93cd81fd17429fd4e|Syntax error|Mon, 22 Oct 2012 16:52:20 -0400|Mon, 22 Oct 2012 16:52:20 -0400
+b45b50cce0bd747f3541435b4ac3ed8f2e289cc0|Manuallying requiring apt_source before installing CDH4|Mon, 22 Oct 2012 16:51:45 -0400|Mon, 22 Oct 2012 16:51:45 -0400
+a43487f94a35b8aab515998c4bce6dd22e69dc81|Installing curl before cdh4::apt_source|Mon, 22 Oct 2012 16:49:31 -0400|Mon, 22 Oct 2012 16:49:31 -0400
+84e172b60c7820abb165f6ce84fabaaa872a152b|Using role::analytics|Mon, 22 Oct 2012 16:46:48 -0400|Mon, 22 Oct 2012 16:46:48 -0400
+0611a0beff7d39bc729da7818eb0bf092c1ba06f|Not using analytics_basenode anymore|Mon, 22 Oct 2012 16:45:32 -0400|Mon, 22 Oct 2012 16:45:32 -0400
+02a0d4423ca31e03733b412d797f8494f09d5dd2|Puppetizing zookeeper on an23,an24 and an25.  Updating CDH4 module|Mon, 22 Oct 2012 16:33:18 -0400|Mon, 22 Oct 2012 16:33:18 -0400
+900c0e72356de9fa3445069da74c0a331c6c5c5c|updating CDH4|Mon, 22 Oct 2012 12:44:51 -0400|Mon, 22 Oct 2012 12:44:51 -0400
+4f42aef29edcabe46364da73e9ea1448a9c8c0e6|updating CDH4|Mon, 22 Oct 2012 10:59:23 -0400|Mon, 22 Oct 2012 10:59:23 -0400
+cb50ede17902c23191d753fd860cfed09eef64f5|updating CDH4|Mon, 22 Oct 2012 10:43:23 -0400|Mon, 22 Oct 2012 10:43:23 -0400
+793a43a6089b121cde272e5e9fd45f215bc78a72|Removing duplicate definition of libmysql-java|Mon, 22 Oct 2012 10:39:15 -0400|Mon, 22 Oct 2012 10:39:15 -0400
+d76c6ccdff2846fed1d447cf24ae21a38995b3c3|can't require analytics::db::mysql, it is in ops puppet repo|Mon, 22 Oct 2012 10:37:36 -0400|Mon, 22 Oct 2012 10:37:36 -0400
+1580302725b12b8f66035035b2451272d971366a|updating CDH4 and puppetizing hive|Mon, 22 Oct 2012 10:37:17 -0400|Mon, 22 Oct 2012 10:37:17 -0400
+733d553c8b213194aa40b218b0c82c8bff989a9a|updating CDH4|Fri, 19 Oct 2012 13:25:39 -0400|Fri, 19 Oct 2012 13:25:39 -0400
+4679f3aed5752fc51d1bcfd9242143f4202019d2|updating CDH4|Fri, 19 Oct 2012 13:13:39 -0400|Fri, 19 Oct 2012 13:13:39 -0400
+2ee79d0fa23e19d3f3fbd1485d1c88774d4dfb10|Changing names of classes|Fri, 19 Oct 2012 12:42:37 -0400|Fri, 19 Oct 2012 12:42:37 -0400
+07c7e75c1751e2edd75a84dc60a25a18977bf707|Fixing oozie db conf|Fri, 19 Oct 2012 12:38:06 -0400|Fri, 19 Oct 2012 12:38:06 -0400
+c31c6f7fcf0f21962c7e00d8d455fd43f9c38a1f|Adding analyitcs.pp file|Thu, 18 Oct 2012 18:09:11 -0400|Thu, 18 Oct 2012 18:09:11 -0400
+ce9ffc7826cc4cd5488d9ed6980bc7bac0691242|Ooooooozie-ing|Thu, 18 Oct 2012 18:08:01 -0400|Thu, 18 Oct 2012 18:08:01 -0400
+10d836d7507d8076a529129d63635006b785c58f|updating CDH4|Thu, 18 Oct 2012 15:15:40 -0400|Thu, 18 Oct 2012 15:15:40 -0400
+9f359528cc0bb0c91563f4c98275e92818ce23d6|updating CDH4|Thu, 18 Oct 2012 14:38:17 -0400|Thu, 18 Oct 2012 14:38:17 -0400
+3b55e9c9203f83d8f0ee9ff30d399cb087468b3f|updating CDH4|Thu, 18 Oct 2012 14:21:36 -0400|Thu, 18 Oct 2012 14:21:36 -0400
+6c26e37dd7cc01495e173d06b27baf1cc7dad3b2|Including hue class on an01|Thu, 18 Oct 2012 14:08:47 -0400|Thu, 18 Oct 2012 14:08:47 -0400
+028e92cd9ca95645a5010cf63bf9522367c91eb9|updating CDH4|Thu, 18 Oct 2012 14:08:20 -0400|Thu, 18 Oct 2012 14:08:20 -0400
+43bcbcb73f7035a7be25f2d1863fee3dabfbb479|updating CDH4|Thu, 18 Oct 2012 12:21:26 -0400|Thu, 18 Oct 2012 12:21:26 -0400
+4324d00ae99c985c886fc83ffa87ea13482e9b27|Updating cdh4|Thu, 18 Oct 2012 12:18:08 -0400|Thu, 18 Oct 2012 12:18:08 -0400
+be0f8fac37a73a6291db20dc547705c84c26b701|Removing analytics::http_proxy, it is puppetized by ops puppet|Thu, 18 Oct 2012 12:00:23 -0400|Thu, 18 Oct 2012 12:00:23 -0400
+a113731ba77d0b180f17befbfecdbffbb0a89663|Updating cdh4|Thu, 18 Oct 2012 11:48:55 -0400|Thu, 18 Oct 2012 11:48:55 -0400
+15891da4239c611cfc3604951bd6960d7c7ad1b1|Updating cdh4|Thu, 18 Oct 2012 11:40:58 -0400|Thu, 18 Oct 2012 11:40:58 -0400
+584a696337547b262c5f6da47b06447917d99578|Updating mapred-site.xml, updating cdh4|Thu, 18 Oct 2012 11:37:28 -0400|Thu, 18 Oct 2012 11:37:28 -0400
+0d7feb9c5afa0356d6dfc6cdde3257865ab9dbd6|Updating cdh4|Thu, 18 Oct 2012 11:26:01 -0400|Thu, 18 Oct 2012 11:26:01 -0400
+809a195b732b0a9135246890e64d432092f412cb|Test change commit on submodule|Mon, 15 Oct 2012 16:22:16 -0400|Mon, 15 Oct 2012 16:22:16 -0400
+134741d77c76aee0835f7792bfd4da2e393a8b58|Adding test submodule|Mon, 15 Oct 2012 16:08:09 -0400|Mon, 15 Oct 2012 16:08:09 -0400
+b7196a7fed3fce876ff068e43ff769294e934117|Testing submodule update|Thu, 11 Oct 2012 15:43:20 -0400|Thu, 11 Oct 2012 15:43:20 -0400
+8d2a084988e97d050b05bc653d70ee417882c1eb|Changing formula for map/reduce max|Mon, 8 Oct 2012 16:33:59 -0400|Mon, 8 Oct 2012 16:33:59 -0400
+c7cd1ed721de7ed91c43607b6e5f20a8175a8184|Doh, was passing configs to wrong class|Mon, 8 Oct 2012 16:31:03 -0400|Mon, 8 Oct 2012 16:31:03 -0400
+c3a6ef5ff008f8cf9547017b43d2c869bdfe74bc|Updating commit for cdh4 module|Mon, 8 Oct 2012 16:21:36 -0400|Mon, 8 Oct 2012 16:21:36 -0400
+f5047a89cf91f2ab1704f40ccc31168344d7c23a|Configuring analytics::hadoop::config class|Mon, 8 Oct 2012 16:14:46 -0400|Mon, 8 Oct 2012 16:14:46 -0400
+598a7fbe41537e384571a8320b98642fa6c814c5|Updating cdh4 url in .gitmodules|Fri, 5 Oct 2012 11:09:59 -0400|Fri, 5 Oct 2012 11:09:59 -0400
+2965e61111073a40340d3c014d5c0e76c2d257cc|Updating cdh4 submodule pointer|Fri, 5 Oct 2012 11:08:40 -0400|Fri, 5 Oct 2012 11:08:40 -0400
+0f11f8671e6f8820bae9b33527c597d9b08a522a|Changing cdh4 url to readonly github url|Tue, 2 Oct 2012 17:12:55 -0400|Tue, 2 Oct 2012 17:12:55 -0400
+73d257fa7d0bb43c10e494eac7d71833970bc3af|Adding modules/cdh4 as a submodule from git@github.com:wmf-analytics/cloudera-cdh4-puppet.git|Tue, 2 Oct 2012 16:21:30 -0400|Tue, 2 Oct 2012 16:21:30 -0400
+4c92fc7f1b5867df59b840db260839008660c47f|Removing cdh4 module.  This will be a submodule cloned from github (for now).|Tue, 2 Oct 2012 16:19:57 -0400|Tue, 2 Oct 2012 16:19:57 -0400
+6fed93040ce140c9bc1c8ce3d71300084dc974a2|Documentation update|Tue, 2 Oct 2012 16:08:05 -0400|Tue, 2 Oct 2012 16:08:05 -0400
+e7460e145a52d51709f85f616824a7dd2ce4902c|No such thing has hadoop-mapreduce service (where did I get that from?)|Tue, 2 Oct 2012 16:04:49 -0400|Tue, 2 Oct 2012 16:04:49 -0400
+96d4c1c58baec6bc4f6a4209787458138e56383c|Removing requirements on services from config|Tue, 2 Oct 2012 16:01:03 -0400|Tue, 2 Oct 2012 16:01:03 -0400
+d8c6a967287386189c28ef65e561ea2bec901230|Removing LICENSE file|Tue, 2 Oct 2012 15:58:48 -0400|Tue, 2 Oct 2012 15:58:48 -0400
+120ca694ce9fc3dad4bc62e96f7abf4365eda2f3|Updating documentation, changing a couple of classnames|Tue, 2 Oct 2012 15:58:17 -0400|Tue, 2 Oct 2012 15:58:17 -0400
+7937f4d789fa60ba4795d91327887de830482acb|Removing Cloudera Licensing docs from every file|Tue, 2 Oct 2012 15:42:16 -0400|Tue, 2 Oct 2012 15:42:16 -0400
+e8dd801fec1cb32e86775b078ea77b2d80167add|Not automatically including proxyserver on master node|Tue, 2 Oct 2012 15:41:59 -0400|Tue, 2 Oct 2012 15:41:59 -0400
+46a4bf3b0e0bd28ca916d212541fdac88cad28cb|Adding missing sqoop.pp|Tue, 2 Oct 2012 15:38:06 -0400|Tue, 2 Oct 2012 15:38:06 -0400
+584a81ec8e63d0aa47d96ff85f54cf7ac68067ea|INstalling sqoop|Tue, 2 Oct 2012 15:37:05 -0400|Tue, 2 Oct 2012 15:37:05 -0400
+0fb0e170e97ca9b248e6ab5b226e3b1210ee8417|Packages are called 'hive' and 'hbase'|Tue, 2 Oct 2012 15:33:28 -0400|Tue, 2 Oct 2012 15:33:28 -0400
+9a75fe9788e1cbc1f675248c3096346f2a5405a2|install.pp classes are called 'install'|Tue, 2 Oct 2012 15:31:38 -0400|Tue, 2 Oct 2012 15:31:38 -0400
+6a11d7e22f8c9ca5f6ff5a566a08dce2669c25b6|renamed to dfs_data_path|Tue, 2 Oct 2012 15:30:38 -0400|Tue, 2 Oct 2012 15:30:38 -0400
+92c418e17f14e0a86ddaf0270df8aaf9eddbd161|Adding zookeeper.pp|Tue, 2 Oct 2012 15:30:06 -0400|Tue, 2 Oct 2012 15:30:06 -0400
+a8798f6a97414135754e8d7a26ce195156134072|Fixing hive class name|Tue, 2 Oct 2012 15:27:14 -0400|Tue, 2 Oct 2012 15:27:14 -0400
+82d9b9dce898f03ec23137398e12c356d2469466|A bit of restructuring and documentation for cdh4 module.|Tue, 2 Oct 2012 15:23:26 -0400|Tue, 2 Oct 2012 15:23:26 -0400
+2357f38276aed16df6713632a8ed7a857fd43738|Adding yarn-site.xml.erb and making some other changes for CDH4|Tue, 2 Oct 2012 11:52:39 -0400|Tue, 2 Oct 2012 11:52:39 -0400
+4d1ad30df26a61fccba1437b37ee2c09ad680cc9|Puppetizing analytics http proxy|Tue, 2 Oct 2012 10:35:38 -0400|Tue, 2 Oct 2012 10:35:38 -0400
+4061766e7377827d1c9d22678993ca5ec0b1e01d|cdh4 module now only works with yarn|Mon, 1 Oct 2012 17:45:36 -0400|Mon, 1 Oct 2012 17:45:36 -0400
+8b2720c4b2d93a70486238c3bc902050f5fb0aa2|hadoop.pp - allowing use of YARN or MRv1|Mon, 1 Oct 2012 15:37:49 -0400|Mon, 1 Oct 2012 15:37:49 -0400
+cc6333c3b82bb625ee8decc995bc996d2c49d4e1|nodes.pp - installing cdh4|Mon, 1 Oct 2012 15:22:52 -0400|Mon, 1 Oct 2012 15:22:52 -0400
+073b7b9ef2e10fe7ca099c6d53cd6c8924adfe19|Fixing cdh4 related manifests|Mon, 1 Oct 2012 15:16:12 -0400|Mon, 1 Oct 2012 15:16:12 -0400
+f0a4f109dd21c0a33a4094d32d00abed03c90e66|Adding cdh4 module, installing only apt source for now|Mon, 1 Oct 2012 14:40:42 -0400|Mon, 1 Oct 2012 14:40:42 -0400
+c3a98407af58ed22941a86494732c3e67bcbb00f|Cannot use cdh module for cdh4, will build new module.|Mon, 1 Oct 2012 13:35:51 -0400|Mon, 1 Oct 2012 13:35:51 -0400
+78cc3cfe691f2120732684da155a3978976a2565|Installing CDH4 on an02-an22.|Fri, 28 Sep 2012 15:02:14 -0400|Fri, 28 Sep 2012 15:02:14 -0400
+e2cbcd46edd65a7e25ceb4d2fc14070b1303475b|Need to configure cassandra.yaml on an18 too|Mon, 24 Sep 2012 11:12:21 -0400|Mon, 24 Sep 2012 11:12:21 -0400
+9ab868347e9bc7d4d72f5d6e1b02d74a9a01a0e8|Doh, need include|Mon, 24 Sep 2012 10:42:46 -0400|Mon, 24 Sep 2012 10:42:46 -0400
+858d52dcfa682f6147e7d6210bac387109f4eb5f|Installing dse packages on an18|Mon, 24 Sep 2012 10:28:15 -0400|Mon, 24 Sep 2012 10:28:15 -0400
+37a25f493ec2c1543b777abfba087724adc79acd|Oop, don't need to do diederik here, he is already created in production|Fri, 21 Sep 2012 12:37:58 -0400|Fri, 21 Sep 2012 12:37:58 -0400
+dcee86731d036c7eb943b04f0275fef683de9815|diederik, not dvanliere|Fri, 21 Sep 2012 12:36:11 -0400|Fri, 21 Sep 2012 12:36:11 -0400
+414f797c967cd7d7bc6a28aaba9d4c5693610ef2|Adding erosen and diederik|Fri, 21 Sep 2012 12:35:16 -0400|Fri, 21 Sep 2012 12:35:31 -0400
+0021a3957ef419adea5b4a8c5c56936f0fd7936c|Using local var|Fri, 21 Sep 2012 12:04:40 -0400|Fri, 21 Sep 2012 12:04:40 -0400
+2a9f376aeeff875c64ffab66b3a01b78e6cb11c5|Fully qualifying variable|Fri, 21 Sep 2012 11:58:26 -0400|Fri, 21 Sep 2012 11:58:26 -0400
+7f19a92ae24eec83204cdab30e2219dfd860b893|Ensuring casssandra directories have proper ownership|Fri, 21 Sep 2012 11:57:40 -0400|Fri, 21 Sep 2012 11:57:40 -0400
+26287a94560c4594374e4eda809bf313d44267ed|Not managing dse service (for now)|Fri, 21 Sep 2012 11:53:09 -0400|Fri, 21 Sep 2012 11:53:09 -0400
+d48ad08b1e2a04b587af1112734697c3c9cacc0c|Changing cassandra seeds to an03 and an04|Fri, 21 Sep 2012 11:49:00 -0400|Fri, 21 Sep 2012 11:49:00 -0400
+aa1233ebe9d660bb2a8047f0040768f0bef2fd70|Not including apt source from nodes.pp|Fri, 21 Sep 2012 10:58:11 -0400|Fri, 21 Sep 2012 10:58:11 -0400
+ae4425685b938f2bf42c5f0f3f310c30f85b1c8e|nodes.pp including dse with default type|Fri, 21 Sep 2012 10:57:34 -0400|Fri, 21 Sep 2012 10:57:34 -0400
+9d51e782184574414eaa590e8e97f745417247bc|Configuring dse nodes by $type|Fri, 21 Sep 2012 10:50:24 -0400|Fri, 21 Sep 2012 10:50:24 -0400
+b6f26326e51c39f61bc9263322127e60f4131a38|Not installing dse on analytics1001|Fri, 21 Sep 2012 10:50:12 -0400|Fri, 21 Sep 2012 10:50:12 -0400
+c7c38ce2798617274d61381cf51262b64d0dc01b|Putting seeds in quotes|Fri, 21 Sep 2012 10:49:35 -0400|Fri, 21 Sep 2012 10:49:35 -0400
+8fbd73277b3eba4faa97480b2fa2912ef7f76ea8|Changing default rpc address to $ipadress|Wed, 19 Sep 2012 12:40:37 -0400|Wed, 19 Sep 2012 12:40:37 -0400
+3dd64318bfd6d2333e0d29f6f02fea680d28faf6|Missing saved caches|Wed, 19 Sep 2012 12:03:05 -0400|Wed, 19 Sep 2012 12:03:05 -0400
+15b507e612046005ed94204077dfbe329df05315|Updating cassandra.yaml.erb template for newer version|Wed, 19 Sep 2012 11:59:20 -0400|Wed, 19 Sep 2012 11:59:20 -0400
+aa777c6d5c99fae42daa4a317b9a8cef88bc98d5|config requires dse::packages|Wed, 19 Sep 2012 11:27:34 -0400|Wed, 19 Sep 2012 11:27:34 -0400
+5452282eeb36d1366224c5f37e1c873970ecc533|Bringing an01 back in for decommission.|Tue, 18 Sep 2012 16:25:12 -0400|Tue, 18 Sep 2012 16:25:12 -0400
+f4d2104aa528f1272e1d164696a257af9201a82c|Changing cluster name back to orignal|Tue, 18 Sep 2012 16:23:31 -0400|Tue, 18 Sep 2012 16:23:31 -0400
+0cbf4bc1579e07a652dc4e78570d713f7c9142b5|Not running cassandra on an01|Tue, 18 Sep 2012 16:12:54 -0400|Tue, 18 Sep 2012 16:12:54 -0400
+91a2c67f03513383c32f72552a5bc9f069ef05d8|Removing an01 out of list of cassandra machines to avoid weirdness.|Tue, 18 Sep 2012 16:12:04 -0400|Tue, 18 Sep 2012 16:12:04 -0400
+3b7dec9bff40cf6388672345c6d90b7db068bcd8|Not subscribing dse service to config files.|Tue, 18 Sep 2012 13:34:24 -0400|Tue, 18 Sep 2012 13:34:24 -0400
+7915e8e8a0ffca9b9cd3fc083c992fd08d4e55f4|Added services/README.md|Tue, 18 Sep 2012 09:52:58 -0400|Tue, 18 Sep 2012 09:52:58 -0400
+7ffa00b2c1dd068ad8f02b6ce8f240309bce6748|Using only an01 and an06 as cassandra seeds|Tue, 18 Sep 2012 09:52:37 -0400|Tue, 18 Sep 2012 09:52:37 -0400
+f48c6bc4307f6b5e53ae053352f3998fd4f413b0|Setting default endpoint snitch to DseDelegateSnitch|Mon, 17 Sep 2012 17:39:07 -0400|Mon, 17 Sep 2012 17:39:07 -0400
+8b85fc9d7e2dd107dfa75e3fc14dde5cf4400011|More unused options|Mon, 17 Sep 2012 17:36:57 -0400|Mon, 17 Sep 2012 17:36:57 -0400
+aa8d2284c0fd40e53d39ec5591e88eb3014d1d3b|More unused options|Mon, 17 Sep 2012 17:35:35 -0400|Mon, 17 Sep 2012 17:35:35 -0400
+2da96fadb9866e5abeabd58b57e9becca32421b2|Removing unused (and deprecated?) options|Mon, 17 Sep 2012 17:32:54 -0400|Mon, 17 Sep 2012 17:32:54 -0400
+e07d03c00a60c0f68032fb62b48429c61c3cd0ed|Syntax error|Mon, 17 Sep 2012 17:27:52 -0400|Mon, 17 Sep 2012 17:27:52 -0400
+852f79e01707648580969cca3828d02d0062ee32|Setting cluster name properly|Mon, 17 Sep 2012 17:27:27 -0400|Mon, 17 Sep 2012 17:27:27 -0400
+341e6a503ee2ec2a0f0053f456e0402fc88da06b|Setting dse service name|Mon, 17 Sep 2012 17:25:57 -0400|Mon, 17 Sep 2012 17:25:57 -0400
+0def39272b375533dde922947c78743a10d95fb9|Fixing service name variable.|Mon, 17 Sep 2012 17:22:17 -0400|Mon, 17 Sep 2012 17:22:17 -0400
+565e1b0998c373d5f05595485e55298d5824575d|Adding cassandra seed IPs|Mon, 17 Sep 2012 17:19:33 -0400|Mon, 17 Sep 2012 17:19:33 -0400
+ad93036e165a5f7e0e9a38b0df3e9b2141c0c45d|removing more validations|Mon, 17 Sep 2012 17:12:57 -0400|Mon, 17 Sep 2012 17:12:57 -0400
+ad2048ab4b87b8326da0a895040b21e2c4b67c83|Removing argument validation - I think this is only available in puppet enterprise|Mon, 17 Sep 2012 17:12:05 -0400|Mon, 17 Sep 2012 17:12:05 -0400
+145b40f65b8a735f538fb4a2f7b6e1bdd502bd9b|Fixing syntax error|Mon, 17 Sep 2012 17:09:24 -0400|Mon, 17 Sep 2012 17:09:24 -0400
+9d95de9b2ea2543396414994571218e204f4ca49|Renaming cassandra.pp to cassandra/server.pp|Mon, 17 Sep 2012 17:08:05 -0400|Mon, 17 Sep 2012 17:08:05 -0400
+c7339f421617fd47cbf1c571b6f20f1cd33308c8|Adding DSE and Cassandra classes|Mon, 17 Sep 2012 17:02:58 -0400|Mon, 17 Sep 2012 17:02:58 -0400
+b4d1317335171ffa06ce618a6e78acd4a70cea52|Fixing Ori's thing|Wed, 12 Sep 2012 16:44:06 -0700|Wed, 12 Sep 2012 16:44:06 -0700
+4f507927e9023a5ddfce588dba6ef17c85dcc270|Adding Ori!  woo!|Wed, 12 Sep 2012 16:34:07 -0700|Wed, 12 Sep 2012 16:34:07 -0700
+f071d265cec90ef185067326d083e3e1f2919895|an01 does have access, don't need proxy there|Tue, 24 Jul 2012 09:45:47 -0400|Tue, 24 Jul 2012 09:45:47 -0400
+1131b7e307733be063aa90e2a6bbddc830753d3d|Resetting to defaults|Wed, 20 Jun 2012 19:14:47 -0400|Wed, 20 Jun 2012 19:14:47 -0400
+917d676f86d286da3f517a6f4b53319a9f981182|17 mappers, 7 reducers|Tue, 19 Jun 2012 18:02:07 -0400|Tue, 19 Jun 2012 18:02:07 -0400
+d67b7c6f7cc8b4ec451d04f25095401fc0ff8309|setting block size to 512MB|Tue, 19 Jun 2012 15:45:54 -0400|Tue, 19 Jun 2012 15:45:54 -0400
+dde4b177ae063ab6d01431e63dc38e1cd02d8db8|Setting map/red maxes back to default|Tue, 19 Jun 2012 15:34:07 -0400|Tue, 19 Jun 2012 15:34:07 -0400
+715aadfe4c5b0b6ece7e0bf3073ee14cd59d352f|Upping block size to 256MB|Tue, 19 Jun 2012 14:13:54 -0400|Tue, 19 Jun 2012 14:13:54 -0400
+538badb96ee2d251790ef0a030eb8adf00838b1d|changing map/red maxes again|Tue, 19 Jun 2012 13:58:16 -0400|Tue, 19 Jun 2012 13:58:16 -0400
+1c35e302c3d78796f001f0966e3599ed402c282c|Setting block size to 128MB.  Will reload all sampled logs with this default block size|Tue, 19 Jun 2012 11:17:32 -0400|Tue, 19 Jun 2012 11:17:32 -0400
+da8c19b659294af08f8409bee13dd84ad3017827|Switching back to default 16/8 map/reduce|Mon, 18 Jun 2012 16:49:00 -0400|Mon, 18 Jun 2012 16:49:00 -0400
+24e7fe520f34414ae03ef78ff71b85bdb59a860f|Will have to reload the input files to change block size.  Testing with different max mappers and reducers first|Mon, 18 Jun 2012 16:15:14 -0400|Mon, 18 Jun 2012 16:15:14 -0400
+8f44b84dadd72911bd3bcdc34785d177c91d45d0|Upping block size to 128MB for testing pig script|Mon, 18 Jun 2012 16:13:17 -0400|Mon, 18 Jun 2012 16:13:17 -0400
+3d8f157765a4b45e253c8340e114ae08639d0e17|Ah, make sure public key is installed|Fri, 15 Jun 2012 12:43:32 -0400|Fri, 15 Jun 2012 12:43:32 -0400
+49611c7e9519ec75ca0446f5c177f181dd3811fd|removing dependency for wikidev group, it isn't defined in our secret puppet repo|Fri, 15 Jun 2012 12:36:56 -0400|Fri, 15 Jun 2012 12:36:56 -0400
+dc13dc4fb8505b5350222f0fc2d671a594bd2265|Setting default gid to wikidev|Fri, 15 Jun 2012 12:35:23 -0400|Fri, 15 Jun 2012 12:35:23 -0400
+6bd9b8215b9181a65e37d4214b95cfcaec4bca27|Including fabian on analytics cluster, woohoo|Fri, 15 Jun 2012 12:27:42 -0400|Fri, 15 Jun 2012 12:27:42 -0400
+9c0de8e1e248d534f643b635a394d12f8459233e|Changing default blocksize back to 64MB|Wed, 13 Jun 2012 12:30:53 -0400|Wed, 13 Jun 2012 12:30:53 -0400
+6f612b896dae01d74385d67fda1a966db03623af|Fixing syntax error, forgot comma|Fri, 8 Jun 2012 18:57:09 -0400|Fri, 8 Jun 2012 18:57:09 -0400
+ed647d79dc74b51f63371210eda0700d4570b598|Setting block size to 128MB|Fri, 8 Jun 2012 18:56:15 -0400|Fri, 8 Jun 2012 18:56:15 -0400
+6eaa5ad316242fa17f9636b92e2eafde724d1cfa|Fixing pupup alias so it doesn't change your directory|Fri, 8 Jun 2012 17:42:16 -0400|Fri, 8 Jun 2012 17:42:16 -0400
+1daa6261afd6042943581b67872934ba07e7c8e1|Want to do more testing with 64MB block size.  Will come back to 128MB|Fri, 8 Jun 2012 17:40:24 -0400|Fri, 8 Jun 2012 17:40:24 -0400
+7e82e868d5b67c5737aa72c38b088659a31c13d7|Changing default block size to 128MB.  Going to try teragen and dsfio with this block size|Fri, 8 Jun 2012 17:33:37 -0400|Fri, 8 Jun 2012 17:33:37 -0400
+56c30a9e7da8bf15046b31cc022b38b85c02c83b|Trying something crazy.  16 mappers and reducers!|Fri, 8 Jun 2012 16:08:10 -0400|Fri, 8 Jun 2012 16:08:10 -0400
+bf1e25dac3871298ab6f757d17f386d22344098d|Converting strings to integers when multiplying|Fri, 8 Jun 2012 14:28:39 -0400|Fri, 8 Jun 2012 14:28:39 -0400
+2fd0baf4ed1cdb9400384318f9f7ab0c799a30c9|Setting mapred.map.tasks  and mapred.reduce.tasks based on the maximums|Fri, 8 Jun 2012 14:27:27 -0400|Fri, 8 Jun 2012 14:27:27 -0400
+1905d3f0eb729d48a456d354144e4602420f644b|Setting max map/red to 17:7 and trying terasort again, to see if it makes a difference.|Fri, 8 Jun 2012 14:23:19 -0400|Fri, 8 Jun 2012 14:23:19 -0400
+ac645c4c1b691a8ed8e762629a22f6cf0fab7848|Setting map and reduce configs|Fri, 8 Jun 2012 11:59:17 -0400|Fri, 8 Jun 2012 11:59:17 -0400
+d61d0dfaceca137104dcb152048db42b3af6a7f2|Setting map and reduce tasks to 16|Wed, 6 Jun 2012 15:48:28 -0400|Wed, 6 Jun 2012 15:48:28 -0400
+8f2d42b68212d61497ddf61830cde298de2b50bb|site.pp - ensuring dstat is installed|Wed, 6 Jun 2012 13:50:31 -0400|Wed, 6 Jun 2012 13:50:31 -0400
+cca2a48bb926c23a167c675ebae2bc10528a04d4|hadoop_mapred_local_path, not hadoop_mapred_path|Wed, 6 Jun 2012 10:40:44 -0400|Wed, 6 Jun 2012 10:40:44 -0400
+28f8e2cb3cce92b6063d6e9fcb81524ff1a9242f|Needed to change parameter names here too|Wed, 6 Jun 2012 10:38:47 -0400|Wed, 6 Jun 2012 10:38:47 -0400
+32595d8351ba0c2c2a75ea7c3501fd6f3c056b84|Moving mapred/local out of hdfs data dir.  Changing names of class parameters to match hadoop property names.|Wed, 6 Jun 2012 10:37:30 -0400|Wed, 6 Jun 2012 10:37:30 -0400
+f95850a202b432e1dbe36be606c99bd5ec5773d0|Making jobtracker port different than namenode port|Tue, 5 Jun 2012 12:54:29 -0400|Tue, 5 Jun 2012 12:54:29 -0400
+119d81015fc2920b5da3bf7132c5d30aa09d9cf1|Adding mapred.system.dir to mapred-site.xml.erb|Tue, 5 Jun 2012 12:19:21 -0400|Tue, 5 Jun 2012 12:19:21 -0400
+1065db5530234e071c311a1a1792196ed737bf01|Including CDH service daemon packages in approriate places.  Also rearranged base/master/slave classes for analytics::cloudera stuff|Tue, 5 Jun 2012 12:13:54 -0400|Tue, 5 Jun 2012 12:13:54 -0400
+a7ee656eb1b2eefebdd0aa4fa3c10b3611871dd7|Configuring core-site.xml|Tue, 5 Jun 2012 11:43:52 -0400|Tue, 5 Jun 2012 11:43:52 -0400
+b3f2c5724ca64b4000ab2205378f642aae8cb72e|Oops, don't want to name the real files .erb|Tue, 5 Jun 2012 11:29:09 -0400|Tue, 5 Jun 2012 11:29:09 -0400
+48f62a3b97db31dc764c42718a2dc77e3c5a4412|Moving templates into hadoop/ dir|Tue, 5 Jun 2012 11:27:21 -0400|Tue, 5 Jun 2012 11:27:21 -0400
+6083ec0afd41608e70f0fd8ccacbe438d4f05cd8|Adding hdfs-site.xml and mapred-site.xml templates to cdh module.|Tue, 5 Jun 2012 11:23:47 -0400|Tue, 5 Jun 2012 11:23:47 -0400
+b094f45329e6bdb1ecadcece822c44f42ef79674|Need to set version parameter in analytics::cloudera::apt_source|Fri, 1 Jun 2012 16:14:30 -0400|Fri, 1 Jun 2012 16:14:30 -0400
+a810e1ddf050120814f775cb2ce9e8772b04b7e6|Oh yeah, I remember why I put the repository stuff in the module in the first place.  Hmmm, I hope it still works on a fresh install.  We will see later...|Fri, 1 Jun 2012 16:12:14 -0400|Fri, 1 Jun 2012 16:12:14 -0400
+f7a20f12a856ea3e32ae021a5955e1ad4ffab5e1|Don't need to include dse repository in dse module anymore|Fri, 1 Jun 2012 16:11:01 -0400|Fri, 1 Jun 2012 16:11:01 -0400
+54718cbbf3d259a4bf6ca1a0770b8167a3ebf4e7|Don't need to include repository in cdh module anymore|Fri, 1 Jun 2012 16:10:02 -0400|Fri, 1 Jun 2012 16:10:02 -0400
+f2dc8684b3cb295ef55ab23dca9ce2f636ba6776|Moving apt source repo configs out of module and into services/analytics|Fri, 1 Jun 2012 16:06:21 -0400|Fri, 1 Jun 2012 16:06:21 -0400
+40e815b51d25b1785026978792a433e428a97cd2|Fixing one more dse,cdh/datastax,cloudera name|Fri, 1 Jun 2012 16:03:37 -0400|Fri, 1 Jun 2012 16:03:37 -0400
+76fa0165e3337064dd412a556d058b61e1c7e225|Fixing module / service name conflict|Fri, 1 Jun 2012 16:00:04 -0400|Fri, 1 Jun 2012 16:00:04 -0400
+a527c0c0b80621f045398dcf0e2ac89f940d0928|Moving DSE apt source repo configs to analytics/services directory.|Fri, 1 Jun 2012 15:52:52 -0400|Fri, 1 Jun 2012 15:52:52 -0400
+e55b87d29c8f54f6bba17b8136e730c43d0dde8b|Adding new DSE module and including it on analytics nodes.|Fri, 1 Jun 2012 15:16:49 -0400|Fri, 1 Jun 2012 15:16:49 -0400
+90b14dc4f2c9130e98abb74a791c1ee50896426e|nodes.pp - fixing class name in require|Fri, 1 Jun 2012 13:12:43 -0400|Fri, 1 Jun 2012 13:12:43 -0400
+022de8d16e48ff4a57a829a149dbb4da5f2aacb0|Installing file with useful aliases in /etc/profile.d/analytics.sh|Wed, 30 May 2012 11:51:10 -0400|Wed, 30 May 2012 11:51:10 -0400
+ef886b77762e386961b73b7c89c1bc71cb240cd0|Installing cloudera repository in cdh module.  Using puppet.analytics directories|Wed, 30 May 2012 11:22:39 -0400|Wed, 30 May 2012 11:22:39 -0400
+c1fecf0d8a7d580e8fb5e511f8ac620fd390808e|First commit.  Adding cdh module and some bare bones stuff for analytics module.|Thu, 24 May 2012 15:47:06 -0400|Thu, 24 May 2012 15:47:06 -0400
+9de7513289e0f62b5bf28a2a6fed09295ba7edb1|Initial commit.|Thu, 24 May 2012 09:09:56 -0700|Thu, 24 May 2012 09:09:56 -0700

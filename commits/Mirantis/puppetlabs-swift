@@ -1,0 +1,175 @@
+3fd9ac9b9d7e251475602aaa2cfa2ee05331af7c|Merge pull request #47 from bodepd/node_regex|Tue, 31 Jul 2012 15:22:06 -0700|Tue, 31 Jul 2012 15:22:06 -0700
+90c666326d6c488d90b8b877497a9848da163932|Update node blocks to use regex|Mon, 23 Jul 2012 20:14:21 -0700|Mon, 23 Jul 2012 20:14:21 -0700
+b63a9dbe07fec6d3186bd92af68e49715ee146e9|Merge pull request #46 from bodepd/add_loopback_mnt_param|Mon, 23 Jul 2012 16:32:49 -0700|Mon, 23 Jul 2012 16:32:49 -0700
+bb85c667cc2a7029dfb6c0f270260473327b64b5|Style related updates|Mon, 23 Jul 2012 15:05:21 -0700|Mon, 23 Jul 2012 16:32:24 -0700
+4691b3929d0f079b8152cc5e73496c1ae48237eb|Add spec tests for additional loopback parameter.|Mon, 23 Jul 2012 15:04:14 -0700|Mon, 23 Jul 2012 15:04:14 -0700
+d268fd1d3f1144953e0ffece8e4bd81c7ede6644|Merge pull request #45 from branan/fix_rspec_211|Thu, 12 Jul 2012 16:10:04 -0700|Thu, 12 Jul 2012 16:10:04 -0700
+eef6b12f44800c92c32bb91ab6af2ec65ab71aad|Replace expect..should with expect..to|Thu, 12 Jul 2012 15:24:03 -0700|Thu, 12 Jul 2012 15:24:03 -0700
+1c10f67a37df491241c162c85c30c6162459b623|Merge pull request #44 from branan/puppet_26_compat|Tue, 10 Jul 2012 13:20:52 -0700|Tue, 10 Jul 2012 13:20:52 -0700
+eb02382140d908cab457941b05fb5e24d530f8f6|Remove trailing comma for puppet 2.6 compat|Tue, 10 Jul 2012 11:10:10 -0700|Tue, 10 Jul 2012 11:10:10 -0700
+ffdcaaf803be702699099c6d06311d91618e90c7|Merge pull request #43 from branan/single_replica_example|Fri, 6 Jul 2012 17:37:55 -0700|Fri, 6 Jul 2012 17:37:55 -0700
+337e7f83ab84a68f2a8e8d3297fcfe794c58aaf0|Use a single replica in the all-in-one example|Fri, 6 Jul 2012 14:49:35 -0700|Fri, 6 Jul 2012 15:22:51 -0700
+12b8159941ede46cd3f948b744917eb9d882a22d|Revert "Allow multiple instances of swift::storage::server on one host"|Fri, 6 Jul 2012 14:43:52 -0700|Fri, 6 Jul 2012 14:43:52 -0700
+18417713553995abe9cc76c3e1c211d5a08a3fe5|updated loopback, xfs, and mount to support non-loopback devices|Tue, 26 Jun 2012 16:24:06 -0700|Tue, 26 Jun 2012 16:24:06 -0700
+cfc0730556566319a96062470c403c9236c84546|Merge pull request #40 from fcharlier/fc/rsync_no_chroot|Wed, 20 Jun 2012 12:39:44 -0700|Wed, 20 Jun 2012 12:39:44 -0700
+a5788bae83ffcdb9279bb5f312d28b39ad6fa914|Disable 'use chroot' for rsync::server|Tue, 19 Jun 2012 16:16:24 +0200|Tue, 19 Jun 2012 16:16:24 +0200
+03d39f1663a51eeb96d5029ccc79f34ed195b520|Merge pull request #39 from branan/forge_release|Fri, 15 Jun 2012 12:07:01 -0700|Fri, 15 Jun 2012 12:07:01 -0700
+1b861d283a35d855e88da8fc5dc7f7108fd7d354|Add SSH dependency to Modulefile|Fri, 15 Jun 2012 11:49:18 -0700|Fri, 15 Jun 2012 11:49:18 -0700
+acb17d14979b060c894483aa2743c3b45f525991|Merge pull request #38 from branan/forge_release|Fri, 15 Jun 2012 11:22:28 -0700|Fri, 15 Jun 2012 11:22:28 -0700
+51c14d7879000651dd6677874c9f0fff5538176d|Prepare for initial forge release|Fri, 15 Jun 2012 11:01:36 -0700|Fri, 15 Jun 2012 11:08:08 -0700
+cfa7ff6b4ebf35855cdec7606a68c091488ac71f|Merge pull request #37 from branan/doc_update|Fri, 15 Jun 2012 09:44:37 -0700|Fri, 15 Jun 2012 09:44:37 -0700
+a292b9e796ec26907bbab4e34094e3875155729c|Documentation updates and formatting fixes|Fri, 15 Jun 2012 09:26:10 -0700|Fri, 15 Jun 2012 09:33:42 -0700
+58c9780b7530e35c124611a6cda41fe844c42e44|Merge pull request #35 from branan/fix_all_example|Thu, 14 Jun 2012 17:28:20 -0700|Thu, 14 Jun 2012 17:28:20 -0700
+12d04dc82750efafbcea9df717cce00ac023efb9|Merge pull request #36 from branan/add_node_spec|Thu, 14 Jun 2012 17:22:21 -0700|Thu, 14 Jun 2012 17:22:21 -0700
+8fd2591362f8afe9d6031cb3cdcace68e80d3231|Implement basic spec test for swift::storage::node|Thu, 14 Jun 2012 12:45:30 -0700|Thu, 14 Jun 2012 12:45:30 -0700
+02efd7afe06f029edee3bfcc6395857e1459b3ec|Allow multiple instances of swift::storage::server on one host|Thu, 14 Jun 2012 11:32:48 -0700|Thu, 14 Jun 2012 11:57:58 -0700
+c759ab69fe0c043ffd48bf6c8e8ede6fbacbf354|Fix ring_*_device usage in swift::storage::node|Thu, 14 Jun 2012 11:32:22 -0700|Thu, 14 Jun 2012 11:32:22 -0700
+6b0b2dedafcce25986c0e76724cc68f39fce3edc|Make sure the replicator services are ordered properly|Thu, 14 Jun 2012 11:31:53 -0700|Thu, 14 Jun 2012 11:31:53 -0700
+634e6a7e26eeda698ac38cfa8cc55ab0c416bea5|Merge pull request #34 from bodepd/swift_test_code|Tue, 12 Jun 2012 19:36:01 -0700|Tue, 12 Jun 2012 19:36:01 -0700
+43cd95fb797e35548118a9c1cadccc96ea12d6c3|Merge pull request #33 from bodepd/swift_example_manifest|Tue, 12 Jun 2012 19:35:30 -0700|Tue, 12 Jun 2012 19:35:30 -0700
+bdf67a91aa3049d84607579504f13eb220c85516|Remove invalid keystone test code|Tue, 12 Jun 2012 19:32:16 -0700|Tue, 12 Jun 2012 19:32:16 -0700
+75889ab7fcf214238da4c73d7bfe328251c79182|Add example site.pp|Tue, 12 Jun 2012 19:05:59 -0700|Tue, 12 Jun 2012 19:14:18 -0700
+f0c041eb7d2a51623e5c7bec57ecd6a62bfcaa63|Merge pull request #29 from branan/use_spechelper_gem|Fri, 8 Jun 2012 13:44:36 -0700|Fri, 8 Jun 2012 13:44:36 -0700
+7c1cf9b14f83d2bfa96e8573891ca779436fa936|Merge pull request #31 from fcharlier/dispersion|Wed, 6 Jun 2012 09:01:42 -0700|Wed, 6 Jun 2012 09:01:42 -0700
+8ccb51bddbe8614ad2e4677158f83ae2a4914b3e|Merge pull request #32 from bodepd/allow_multi_devices|Tue, 5 Jun 2012 17:16:53 -0700|Tue, 5 Jun 2012 17:16:53 -0700
+b66f98e25fb2f3a572629b9787d49f468ea1c97d|Move the keystone integration tests to files directory|Tue, 5 Jun 2012 16:53:34 -0700|Tue, 5 Jun 2012 16:53:34 -0700
+09f726c3634a3828aafa492e4914cd6da3835217|Allow multiple devices per endpoint.|Tue, 5 Jun 2012 16:45:47 -0700|Tue, 5 Jun 2012 16:45:47 -0700
+b428438460238e0991332a87ebf5f457fb903737|Merge pull request #26 from fcharlier/replicator_services|Tue, 5 Jun 2012 09:29:54 -0700|Tue, 5 Jun 2012 09:29:54 -0700
+c6c99a452438054054817f00bd99b50655c4600a|Merge pull request #30 from bodepd/middlewares|Tue, 5 Jun 2012 09:22:47 -0700|Tue, 5 Jun 2012 09:22:47 -0700
+2bdc710d66e051471c3409ec073536d918d7e8a6|Add note concerning keystone auth and swift-dispersion tools|Tue, 5 Jun 2012 15:44:23 +0200|Tue, 5 Jun 2012 15:44:23 +0200
+bac1b65de1ed40c9f4b1999e896116ebe26b5da3|Add test for keystone auth|Mon, 4 Jun 2012 22:48:21 -0700|Mon, 4 Jun 2012 22:48:21 -0700
+478c4b994adbfd7f3c0ab4ce39dbad65988c3bb1|Update swift proxy example|Mon, 4 Jun 2012 13:26:21 -0700|Mon, 4 Jun 2012 13:48:01 -0700
+a3d1b08e960530798fc1b0919af62dc05541fe05|Expand supported storage middlewares|Mon, 4 Jun 2012 13:19:51 -0700|Mon, 4 Jun 2012 13:47:57 -0700
+caad4e3732e7bee625e74dfedaccf5d9887fa410|Implement additional proxy middlewares|Mon, 4 Jun 2012 13:18:12 -0700|Mon, 4 Jun 2012 13:47:52 -0700
+d831ec1c45b61f499057a6a40516b74213ddafad|Reimplement keystone pipeline|Mon, 4 Jun 2012 11:59:24 -0700|Mon, 4 Jun 2012 13:47:48 -0700
+18365a7c43b730fecd584a58d6ebdb35ec0241b7|Reimplement concurrency to be per process|Mon, 4 Jun 2012 11:11:16 -0700|Mon, 4 Jun 2012 13:47:43 -0700
+01ecb029cd1a0c7f5306f3a7fb135cb6c23b908c|Implement individual server pipelines|Mon, 4 Jun 2012 11:04:26 -0700|Mon, 4 Jun 2012 13:47:31 -0700
+8c45b3920481b2ab7335fb7289c9180a0abedd28|Add doc for dispersion|Mon, 4 Jun 2012 17:10:10 +0200|Mon, 4 Jun 2012 21:46:18 +0200
+22d2f6128930a7d59b4b5599ead55a9ad0efb98b|Add swift-dispersion configuration|Mon, 4 Jun 2012 16:37:33 +0200|Mon, 4 Jun 2012 21:46:18 +0200
+df7c59ccee70470e89538bc6feae9c3618dccf7f|Update module to use puppetlabs_spec_helper gem|Thu, 31 May 2012 17:06:34 -0700|Thu, 31 May 2012 17:11:07 -0700
+4a0eb9d83628e316492b2b3d31116c16d12c32b4|Merge pull request #28 from bodepd/concat|Tue, 29 May 2012 16:40:35 -0700|Tue, 29 May 2012 16:40:35 -0700
+e16d6637b08b8a9d5c435a73c87580dddfc2d5b4|Merge pull request #27 from bodepd/keystone_auth|Tue, 29 May 2012 16:40:15 -0700|Tue, 29 May 2012 16:40:15 -0700
+6323311c048957e73ac17f8919cee53fb576a49f|Add concat_basedir fact|Tue, 29 May 2012 16:31:21 -0700|Tue, 29 May 2012 16:31:21 -0700
+83b8466eb05218e42ef61ff2faf25e7f8e150d24|Add tests for swift::keystone::auth|Tue, 29 May 2012 13:06:21 -0700|Tue, 29 May 2012 13:06:21 -0700
+ad081d901bce143023c7dee5af1979b1612c463d|Implement creation of user & endpoints for swift|Tue, 15 May 2012 18:13:03 +0200|Tue, 29 May 2012 10:40:34 -0700
+1413a9ed6eec7526844416c9a7889350ff2a048d|Merge pull request #24 from fcharlier/operator_roles|Tue, 29 May 2012 09:25:07 -0700|Tue, 29 May 2012 09:25:07 -0700
+03c805e1b8748922bcb1e6f37f91b6a2c36983dd|Update example for Swift::Ringsync|Wed, 23 May 2012 21:27:19 +0200|Wed, 23 May 2012 21:27:19 +0200
+9514dd250a8c4f0b524ff5fa78c5cf16a629f535|Ensure the replicator services are started|Wed, 23 May 2012 17:16:58 +0200|Wed, 23 May 2012 17:16:58 +0200
+284dd0d092f6e33ef496aed58e95e096d29d5d20|Merge pull request #25 from fcharlier/rsyncmodulename|Tue, 22 May 2012 09:25:18 -0700|Tue, 22 May 2012 09:25:18 -0700
+b394c6df19b60d53cfa2c50cfe75c7b7b78a8348|Fix the rsync modules names|Tue, 22 May 2012 17:18:41 +0200|Tue, 22 May 2012 17:27:34 +0200
+0b397ac492aa9c450c5119f6fa2bab69e1a731a0|Fix operator_roles test after changes in 2304e863|Mon, 21 May 2012 15:05:20 +0200|Mon, 21 May 2012 15:05:20 +0200
+2e671c2afad342d9bda4a35184b5ec999f6243b6|Merge pull request #19 from branan/fix_spec_tests|Mon, 14 May 2012 15:59:23 -0700|Mon, 14 May 2012 15:59:23 -0700
+0b387731cf80b3a9a1cdfa6f9042267d48b75d43|Merge pull request #21 from fcharlier/operator_roles|Mon, 14 May 2012 13:28:16 -0700|Mon, 14 May 2012 13:28:16 -0700
+2304e8631754b99f09114e378e7cb8ba37a4b996|The “operator_roles” list should be coma separated|Mon, 14 May 2012 21:53:43 +0200|Mon, 14 May 2012 21:59:00 +0200
+fa9e0788ffbbe19a27024a682871641020e3431f|Merge pull request #20 from branan/fix_old_puppet|Tue, 8 May 2012 16:13:39 -0700|Tue, 8 May 2012 16:13:39 -0700
+bfa4904234eba5f72994eff794ec8bd4efa92928|Remove some trailing commas|Tue, 8 May 2012 16:06:59 -0700|Tue, 8 May 2012 16:06:59 -0700
+078cef7f9dd03ba7917d215cc03c7fbb4e018335|Change contain_exec path from list to string|Tue, 8 May 2012 15:52:19 -0700|Tue, 8 May 2012 15:52:19 -0700
+0684d1f6cd3a33373f2f71baa55cfd66dcadc1cb|Add concat_basedir fact to tests that validate concat fragments|Tue, 8 May 2012 15:51:51 -0700|Tue, 8 May 2012 15:51:51 -0700
+d64ebe5fba166ca22082ca0fc4d0d4d6c5240c6e|Merge pull request #18 from bodepd/dev|Mon, 23 Apr 2012 22:29:44 -0700|Mon, 23 Apr 2012 22:29:44 -0700
+4a750768cbc6d641bde7ddf249b09e6c89e7a906|Update example file|Sun, 22 Apr 2012 23:34:06 -0700|Sun, 22 Apr 2012 23:34:06 -0700
+8fd3d194314d20caaa8e6ffb65f5f2ab3972fc90|Update examples to use explicit pipelines|Sun, 22 Apr 2012 13:26:46 -0700|Sun, 22 Apr 2012 13:26:46 -0700
+993ed67fd291d24373c843633e5b200fddbbfeb9|Remove inheritance|Sun, 22 Apr 2012 12:12:53 -0700|Sun, 22 Apr 2012 12:12:53 -0700
+047cb81ff3ea5146ac24db3db75bde1ea9d5dcd0|Remove ppa rspec code|Sun, 22 Apr 2012 12:12:07 -0700|Sun, 22 Apr 2012 12:12:07 -0700
+24a01d1bea6a8f05cda04e8c4f47f6daec9cb021|Implement proxy pipline into fragments|Sun, 22 Apr 2012 12:11:27 -0700|Sun, 22 Apr 2012 12:11:27 -0700
+84d59985fc428cc21646f7c3d15b414c95cf6242|Remove ppa config|Sat, 21 Apr 2012 12:55:51 -0700|Sat, 21 Apr 2012 12:55:51 -0700
+59afc07d3bfd677dbdb716a7cecbe4985c9cbf4b|Refactor of swift server configs|Sat, 21 Apr 2012 12:54:17 -0700|Sat, 21 Apr 2012 12:54:17 -0700
+aaf2784c73e59fb4ea4c75aaf21f13c5cd435ff1|Merge pull request #17 from bodepd/dev|Fri, 13 Apr 2012 13:41:59 -0700|Fri, 13 Apr 2012 13:41:59 -0700
+c9389516bace2fa95f89559e962375a6683a698e|Ensure swift hash is rebuilt for every puppet run|Wed, 11 Apr 2012 10:47:53 -0700|Fri, 13 Apr 2012 13:41:12 -0700
+cf78b8343e66078d0c5cb52e0b4885697ff5cb70|Merge pull request #16 from fcharlier/swift_on_debian|Wed, 11 Apr 2012 20:05:54 -0700|Wed, 11 Apr 2012 20:05:54 -0700
+5798be1f04da831bf33f86fc20f4c20182e29058|Merge pull request #15 from bodepd/dev|Tue, 10 Apr 2012 21:36:02 -0700|Tue, 10 Apr 2012 21:36:02 -0700
+184118716438392a326d8c35a8a548ec87e38d3f|Replace ppa code|Tue, 10 Apr 2012 16:29:36 -0700|Tue, 10 Apr 2012 21:35:15 -0700
+0a5a91bb683a1e679bb21a65171761976db62745|Merge pull request #14 from bodepd/dev|Sun, 8 Apr 2012 21:57:52 -0700|Sun, 8 Apr 2012 21:57:52 -0700
+f802df8e5aea46685ba5d7a97b7b31f18aafeae7|Fix dep issue in swift|Fri, 6 Apr 2012 10:55:07 -0700|Fri, 6 Apr 2012 10:55:07 -0700
+0cbd9597611f33e5755a3609b33f75efcb81d527|Upsate trunk for use Ubuntu latest packages|Fri, 6 Apr 2012 10:19:29 -0700|Fri, 6 Apr 2012 10:19:29 -0700
+01b9c7cbd1b9ca04a68c24a455a9024a38ec77a7|Add unit tests for xfs|Fri, 6 Apr 2012 10:18:14 -0700|Fri, 6 Apr 2012 10:18:14 -0700
+c07615d55756abda23645033f9914b47909995d3|Remove patched upstart scripts|Fri, 6 Apr 2012 09:30:30 -0700|Fri, 6 Apr 2012 09:42:48 -0700
+2474649cb868396f10fb63bcfe4395ed01588107|Enforce some dependencies|Thu, 29 Mar 2012 19:38:41 +0200|Thu, 29 Mar 2012 19:48:44 +0200
+dba28ed0a643137e611898c99b46bd3dd0009864|Enable other providers than upstart|Thu, 29 Mar 2012 19:37:51 +0200|Thu, 29 Mar 2012 19:48:44 +0200
+abc89b899af0f0185203423818218f91318a2929|change port 6010 to 6040 due to a conflict in vagrant|Thu, 29 Mar 2012 19:35:39 +0200|Thu, 29 Mar 2012 19:41:18 +0200
+12275e41abd54d5f4bfdacda7b59f1412c1daed1|Add swift trunk ppa|Thu, 22 Mar 2012 22:51:48 -0700|Thu, 22 Mar 2012 23:06:22 -0700
+ff6ec8b8dc16515d94476f464a4091b522dea492|Merge pull request #13 from bodepd/e1f44ff26f6b6bd00f7b33e65c2e5cc0fbbba0d0|Thu, 22 Mar 2012 22:47:36 -0700|Thu, 22 Mar 2012 22:47:36 -0700
+35bc1051a627dff1c12824c983332beb50283b42|Merge pull request #12 from bodepd/master|Wed, 21 Mar 2012 23:19:31 -0700|Wed, 21 Mar 2012 23:19:31 -0700
+e1f44ff26f6b6bd00f7b33e65c2e5cc0fbbba0d0|Merge pull request #1 from derekhiggins/dev|Wed, 21 Mar 2012 15:12:51 -0700|Wed, 21 Mar 2012 15:12:51 -0700
+5377fbc2f2f035eb5e0236ddea7c3a961a657d67|Get service_provider from params file|Wed, 21 Mar 2012 15:53:30 +0000|Wed, 21 Mar 2012 15:58:15 +0000
+cd33a745c5daf0d76c9db1bfc92fd562baad949d|Add fedora support|Tue, 20 Mar 2012 09:30:58 -0700|Tue, 20 Mar 2012 12:55:34 -0700
+94fb333ab9203ea9b89d9873cb15f2afcd728a98|Move generic::upstart to its own file|Sat, 17 Mar 2012 01:42:15 -0700|Sat, 17 Mar 2012 01:42:15 -0700
+a11c1af72657b6fa272ea4837a3579f2fa8c4b30|Update memcache bind address to localhost|Wed, 14 Mar 2012 11:43:44 -0700|Wed, 14 Mar 2012 11:43:44 -0700
+cf34ab0522d7630e70a1a09796b065944f9110ab|Add ring syncing to the multi node example|Wed, 14 Mar 2012 05:47:55 +0000|Wed, 14 Mar 2012 05:47:55 +0000
+6fed9719eda82e30a54c8f379aea2850af660f6d|Add code for ring syncing|Wed, 14 Mar 2012 05:45:17 +0000|Wed, 14 Mar 2012 05:45:17 +0000
+f93ba72fbbddaf8ff8c9c2b2aa7a14e2b0c29a8b|Munge weights to be in the format %.2f|Wed, 14 Mar 2012 05:41:41 +0000|Wed, 14 Mar 2012 05:41:41 +0000
+d7698139fe31016d150bb6c05f43c967bf039ef3|Update spec tests|Tue, 13 Mar 2012 16:42:57 -0700|Tue, 13 Mar 2012 16:42:57 -0700
+f07363b6afbfa07213c2a20732968b9ec4bbe332|Update spec tests|Tue, 13 Mar 2012 16:30:19 -0700|Tue, 13 Mar 2012 16:30:19 -0700
+cb233bd6a17976654dc766587da5cfe43aea733b|Remove rsync service mentions|Tue, 13 Mar 2012 15:36:49 -0700|Tue, 13 Mar 2012 16:06:51 -0700
+6f9e108695dbc0012c2c6ec127ea83aba7348789|Use xinetd for rsync|Tue, 13 Mar 2012 14:49:28 -0700|Tue, 13 Mar 2012 14:49:28 -0700
+41ab9b3cf523fd5ed30d14168f1a805ad58b2751|Merge pull request #11 from bodepd/master|Tue, 13 Mar 2012 13:56:16 -0700|Tue, 13 Mar 2012 13:56:16 -0700
+66b723585649cf98424eafb1d7d96a1b0a20196d|Only fix upstart scripts on Ubuntu.|Tue, 13 Mar 2012 12:14:33 -0700|Tue, 13 Mar 2012 12:14:33 -0700
+75d1aa8ca0b22c6a839e396c3da9d956af0d1e59|Merge pull request #10 from bodepd/master|Tue, 13 Mar 2012 09:42:17 -0700|Tue, 13 Mar 2012 09:42:17 -0700
+b05fe0bb0ba04afc07c4a4578ee085a8ef9c41cf|update ip address to use eth0|Mon, 12 Mar 2012 21:15:33 -0700|Mon, 12 Mar 2012 21:15:33 -0700
+c416f209868fb1ab329f58ef1a9c3df5410433b1|update mispellings of local_net_ip|Mon, 12 Mar 2012 21:05:46 -0700|Mon, 12 Mar 2012 21:14:01 -0700
+1d4c460a6f80d2d515a5404fb894918179b3874d|Merge pull request #9 from bodepd/multi_local_net_swift_proxy|Mon, 12 Mar 2012 20:10:13 -0700|Mon, 12 Mar 2012 20:10:13 -0700
+6a8318535a0a6441c9f8180b57b7e8c50003d817|Add local net ip to swift proxy for multi|Mon, 12 Mar 2012 20:07:25 -0700|Mon, 12 Mar 2012 20:07:25 -0700
+b8b09be2d58884c9d7f661b97202387fe3814e9b|Merge pull request #8 from bodepd/add_saio_local_net_to_proxy_class|Sun, 11 Mar 2012 23:30:59 -0700|Sun, 11 Mar 2012 23:30:59 -0700
+a9cafd8dcdcfd3ba3026f7f286cbdacf73210fa6|Supply missing required param to all in one example|Sun, 11 Mar 2012 23:24:53 -0700|Sun, 11 Mar 2012 23:29:43 -0700
+7f55060309ad7f98e1c1c40f83881bf27109e2d5|Merge pull request #6 from bodepd/master|Mon, 5 Mar 2012 22:06:40 -0800|Mon, 5 Mar 2012 22:06:40 -0800
+2eea26431a16fd2431bd81dfb4f0e7f69d12c60a|Remove proxy files used for testing|Fri, 2 Mar 2012 20:10:45 -0800|Mon, 5 Mar 2012 21:57:10 -0800
+794fc909d1f192235395d23be6f18586f9bc4e78|Add unit tests fr swift::storage::server|Fri, 2 Mar 2012 20:08:47 -0800|Mon, 5 Mar 2012 21:57:10 -0800
+900e061a1115981ed1f7c954dee8183b0f597055|Add inline commments|Fri, 2 Mar 2012 20:08:32 -0800|Mon, 5 Mar 2012 21:57:10 -0800
+4752a3d85f25ba4cfd38ca2bf374deab673b3bbc|Decouple memcached configuration from proxy|Fri, 2 Mar 2012 20:07:56 -0800|Mon, 5 Mar 2012 21:57:10 -0800
+c7caf05c36d130ddbb3d18265c09a4bc1f9b2beb|Make all local net ips required|Fri, 2 Mar 2012 20:06:41 -0800|Mon, 5 Mar 2012 21:56:37 -0800
+0e7cb86dcdfdc619af8cee658cac6c0333f77dde|Update ring creation defaults|Fri, 2 Mar 2012 20:03:36 -0800|Fri, 2 Mar 2012 20:03:53 -0800
+5083e19bc4e1193c8cb00a402935c05e3f730e07|Decouple storage server types from each other|Fri, 2 Mar 2012 20:01:49 -0800|Fri, 2 Mar 2012 20:01:49 -0800
+530ed65ea9c2ef433363694c582e9bb8f1e7f95a|Add modue synlinks to gitignore|Fri, 2 Mar 2012 19:56:33 -0800|Fri, 2 Mar 2012 19:56:33 -0800
+954e6c0357f57822f39a37840dfc5e5b4cf794df|Remove reference to ssh keys|Fri, 2 Mar 2012 10:30:11 -0800|Fri, 2 Mar 2012 10:35:02 -0800
+2dbcf740df8886a4ae53e67e4c8fbb0ead65537d|Add everything needed by travis-ci|Mon, 27 Feb 2012 16:44:45 -0800|Mon, 27 Feb 2012 16:52:49 -0800
+8d4d5ea6b864b6e55b972e3e0ee03dd92d7f5e4f|Merge pull request #5 from bodepd/fix_test|Sun, 26 Feb 2012 21:21:53 -0800|Sun, 26 Feb 2012 21:21:53 -0800
+4acfaeaa9dce0a4dd68a423253936053169e5ad6|Update stoage::xfs tests|Sun, 26 Feb 2012 21:19:13 -0800|Sun, 26 Feb 2012 21:19:13 -0800
+272937ed9c077e779d25734e6aba4668efd1f0f1|Pass correct mount dir to swift::storage::mount|Sun, 26 Feb 2012 21:09:50 -0800|Sun, 26 Feb 2012 21:14:12 -0800
+97d6e20b88b5f538ae28849662a1b5b0880975cd|Merge pull request #4 from bodepd/add_spec_tests|Sun, 26 Feb 2012 20:58:52 -0800|Sun, 26 Feb 2012 20:58:52 -0800
+6705d556cfbabbcbc03e67321618c8b06a5ef8ad|Fix swauth proxy config|Sun, 26 Feb 2012 20:57:51 -0800|Sun, 26 Feb 2012 20:57:51 -0800
+65b6f0a69592e3f214d2c30f42e55b42c36f8e03|Fix milestone and release ppa config|Sun, 26 Feb 2012 20:54:57 -0800|Sun, 26 Feb 2012 20:54:57 -0800
+b569cf6f0ff239bc567b2235f575d94f35966465|Remove extra newlines from swift proxy erb|Sun, 26 Feb 2012 20:53:10 -0800|Sun, 26 Feb 2012 20:53:10 -0800
+4775be3a5f9028eb603ef5680ec23eaa94bb2609|Add rspec-puppet test coverage|Sun, 26 Feb 2012 20:51:17 -0800|Sun, 26 Feb 2012 20:52:27 -0800
+3f35820347600a6aef2e32e407ede704396e7a04|Merge pull request #3 from bodepd/add_integration_test|Tue, 14 Feb 2012 19:24:59 -0800|Tue, 14 Feb 2012 19:24:59 -0800
+405069829ee9cb80db2aa815c49da28f11b049dd|Add swift test script|Tue, 14 Feb 2012 16:43:07 -0800|Tue, 14 Feb 2012 19:24:20 -0800
+3cef45b2cca4043930a30ca329183a6d446d9419|Merge pull request #2 from bodepd/swift_update|Tue, 14 Feb 2012 15:16:44 -0800|Tue, 14 Feb 2012 15:16:44 -0800
+547a96930e4122165367cd99eb518359312cbb44|Add repo class for milestone and release|Tue, 14 Feb 2012 15:06:07 -0800|Tue, 14 Feb 2012 15:06:07 -0800
+e9dfe0f8e57faf0698ce8a8794535a4e641aea56|Improve documentation|Tue, 14 Feb 2012 15:05:35 -0800|Tue, 14 Feb 2012 15:05:35 -0800
+e5a31452b0655b2b5e5515cdf4f35a3089372836|Fix swift::storage device path default|Tue, 14 Feb 2012 15:04:45 -0800|Tue, 14 Feb 2012 15:04:45 -0800
+0955f3cd1c19bdbf853648babd5ae486b0c87506|Add explicit class params for setting storeage ports|Tue, 14 Feb 2012 15:03:49 -0800|Tue, 14 Feb 2012 15:03:49 -0800
+b7713e5a511cd6867f277f6d70988db4faed1142|Merge pull request #1 from bodepd/multi_node_support|Tue, 14 Feb 2012 14:22:34 -0800|Tue, 14 Feb 2012 14:22:34 -0800
+b7a8f0cdeee301d39510f93d9e6d0339bfe38d4b|Improve inline comments|Tue, 14 Feb 2012 14:19:52 -0800|Tue, 14 Feb 2012 14:19:52 -0800
+380ab56cc02f951d01b7d5df6827b95fd36c5ee6|Add ringbuilder role class to proxy role|Tue, 14 Feb 2012 14:19:16 -0800|Tue, 14 Feb 2012 14:19:16 -0800
+6f5cf724e8aa4928fb43bf6f1afb026931095b26|Update ring exported resources|Tue, 14 Feb 2012 14:17:43 -0800|Tue, 14 Feb 2012 14:17:43 -0800
+eded81575ccdb54bf917dc1a78877c885be3f691|Remove swift::storage::device declaration|Tue, 14 Feb 2012 14:16:37 -0800|Tue, 14 Feb 2012 14:16:37 -0800
+31dc69b98565cc9f75ae1680269c004ae45d9758|remove puppetmaster node declaration|Tue, 14 Feb 2012 14:14:23 -0800|Tue, 14 Feb 2012 14:14:23 -0800
+3689cf7a202972158b4972357b91f2568148e3bf|Use node declarations|Tue, 14 Feb 2012 14:11:27 -0800|Tue, 14 Feb 2012 14:13:35 -0800
+44b1c56d74f97b366a5477dc97a7c712690fd7e2|Renamed storage::device to storage::server|Tue, 14 Feb 2012 14:09:01 -0800|Tue, 14 Feb 2012 14:09:01 -0800
+c56bc60bfd7f699807964a542ec9a14d7777c52f|Add custom upstart scripts|Tue, 14 Feb 2012 14:03:25 -0800|Tue, 14 Feb 2012 14:03:25 -0800
+edd9a6b7d05f10f2fd36cdbe9c77b2fe3497cb4a|Clean up swift ringbuilder role|Mon, 13 Feb 2012 17:02:21 -0800|Mon, 13 Feb 2012 17:02:21 -0800
+cc163db0bbf30f731ba089af41b943fb470c7161|Add ringbuilder class to swift proxy role|Mon, 13 Feb 2012 17:00:26 -0800|Mon, 13 Feb 2012 17:00:26 -0800
+d062985219ec99bcce9629abaf49ee8b84c4ddef|Add proxy to apt class|Mon, 13 Feb 2012 16:58:45 -0800|Mon, 13 Feb 2012 16:58:45 -0800
+310ca91b594f8fb79960a38aee73c077d81b17e5|Removed swift::storage::device::* defines|Mon, 13 Feb 2012 16:50:41 -0800|Mon, 13 Feb 2012 16:50:41 -0800
+3cd7bdf27670c54b5fdda0a934be06df754f419e|Add role_puppetmaster class|Mon, 13 Feb 2012 15:43:43 -0800|Mon, 13 Feb 2012 15:43:43 -0800
+5bebb8410363844a18c90a110fc7572e3c1246de|Added code for setting swift_storage_3|Mon, 13 Feb 2012 15:42:55 -0800|Mon, 13 Feb 2012 15:42:55 -0800
+ea7973635b3f67de3f0e3a7c56cc740bd5892eb1|Change swift_local_net_ip address to be a global var|Mon, 13 Feb 2012 15:41:12 -0800|Mon, 13 Feb 2012 15:41:12 -0800
+18d681943e05936b55e36185af9c63e41ee5f01b|Add inline docs to manifests|Mon, 13 Feb 2012 15:39:18 -0800|Mon, 13 Feb 2012 15:39:18 -0800
+7228c5cd95d2edaaa9df20274a15e01374306b87|Create multi-node example|Fri, 27 Jan 2012 22:11:27 -0800|Fri, 27 Jan 2012 22:11:27 -0800
+69ef2c16865bb74b44128e3ffbfc358f1ec0a3ea|Refactor single node example|Fri, 27 Jan 2012 22:11:08 -0800|Fri, 27 Jan 2012 22:11:08 -0800
+b035a32b42be8f238fa95acc455e9938c8f86904|Refactor swift::storage::node to use device defines|Fri, 27 Jan 2012 22:09:31 -0800|Fri, 27 Jan 2012 22:09:31 -0800
+67d53de23ae1774dbfd47fb275d1e1caca3c8486|Remove swift::storage::node from loopback define|Fri, 27 Jan 2012 22:07:28 -0800|Fri, 27 Jan 2012 22:07:28 -0800
+cea6b846dcbb73f8ae159bbd659196ab9f87bfe1|Remove Rsync::Server::Module defaults|Fri, 27 Jan 2012 22:02:50 -0800|Fri, 27 Jan 2012 22:02:50 -0800
+a6fcff35efea5e8bb49b6087fe6b12e6b5412ffa|Add defines for managing devices and rings|Fri, 27 Jan 2012 21:59:50 -0800|Fri, 27 Jan 2012 21:59:50 -0800
+4ff3e18f3a338f9667649f52af1057a5099f799b|Split example manifests into separate files|Mon, 23 Jan 2012 13:12:57 -0800|Mon, 23 Jan 2012 13:12:57 -0800
+01d2a78bc8cde6dd6d1f0faf7cf4e44358eed787|Add validation instructions to README|Mon, 23 Jan 2012 11:40:34 -0800|Mon, 23 Jan 2012 11:46:24 -0800
+8c13cd147f46f90eeedb2604e57a3c614c3d3f97|Fix mispelling of container|Mon, 23 Jan 2012 11:39:03 -0800|Mon, 23 Jan 2012 11:45:36 -0800
+de50a0923b6f7b118b70c095ae7df2f6ba6db476|Update misnamed ringbuilder defines|Mon, 23 Jan 2012 11:37:55 -0800|Mon, 23 Jan 2012 11:45:18 -0800
+b6b13ce1b2149f3f9cf128373e0fa686fd6032c6|Handle case where ring_builder has no rows|Mon, 23 Jan 2012 11:36:26 -0800|Mon, 23 Jan 2012 11:44:54 -0800
+1be67de6d4d7d02a6e898827803d23a750807e4d|Remove accidentally checked in swap file|Mon, 23 Jan 2012 11:03:08 -0800|Mon, 23 Jan 2012 11:44:52 -0800
+9d3bb3c364f1f4416827e7c6647809d201559d86|Refactor README|Mon, 23 Jan 2012 10:58:39 -0800|Mon, 23 Jan 2012 11:44:33 -0800
+ece1d8407f02d57c53c5b57d682b0a1ce085883f|Refactor of example site.pp|Mon, 23 Jan 2012 10:57:19 -0800|Mon, 23 Jan 2012 11:44:22 -0800
+900096f27d4dc4bde2c5db74d556c889fadf7fe9|Remove comma from last define parameter|Mon, 23 Jan 2012 10:53:09 -0800|Mon, 23 Jan 2012 11:44:11 -0800
+d74a7cebaa99f924fe741cc1334f856b3cef6c28|Calls to scope.lookupvar replaced with has_variable?|Mon, 23 Jan 2012 10:50:45 -0800|Mon, 23 Jan 2012 11:43:55 -0800
+917426380e88cbd0ef9a4a254017f8c0180cbd95|Implement ringbuilder|Mon, 23 Jan 2012 10:47:35 -0800|Mon, 23 Jan 2012 11:42:42 -0800
+50eaa8e66dde22489e3f3a9ed3f27254fe0868cd|refactor to markdown|Thu, 19 Jan 2012 19:11:13 -0800|Thu, 19 Jan 2012 19:11:13 -0800
+70282576b2dad59606be6204ed601399b5ca7ce4|Rename README to README.markdown|Thu, 19 Jan 2012 19:03:09 -0800|Thu, 19 Jan 2012 19:03:09 -0800
+47d49e7780156175f86a9bec853453649b9c5de1|Initial commit.|Thu, 19 Jan 2012 18:58:37 -0800|Thu, 19 Jan 2012 18:58:37 -0800

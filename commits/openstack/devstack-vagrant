@@ -1,0 +1,102 @@
+8b300b8c440e082dd1d3bdd37b76b474d20401df|Update vagrant box version|Tue, 4 Aug 2020 11:56:19 +0200|Tue, 4 Aug 2020 12:06:23 +0200
+566a3afe753099389db0caa7b23b9361aff873dd|[ussuri][goal] Update contributor documentation|Mon, 20 Apr 2020 12:12:28 -0500|Mon, 20 Apr 2020 12:12:58 -0500
+eb992f36d8bf8944263548ce6758bfd8cd72df7f|Change to use --remote-ip with security group rules|Thu, 16 May 2019 10:48:37 -0400|Mon, 10 Jun 2019 15:56:10 +0000
+8e6e640f1eb71a92c35b2a45431647b942169c80|OpenDev Migration Patch|Fri, 19 Apr 2019 19:40:12 +0000|Fri, 19 Apr 2019 19:40:12 +0000
+e0623b03c37b13b774b5b862b72af47a54953e83|Update APT before installing puppet|Mon, 4 Dec 2017 17:28:59 +0100|Tue, 5 Dec 2017 17:17:54 +0100
+b4365bed49ba6de89211d08d6ba5fc2631ab2b01|update default box to ubuntu/xenial64; add puppet|Thu, 1 Jun 2017 10:03:55 +1000|Thu, 1 Jun 2017 12:02:11 +1000
+323306a8d945ae079c19552f190cfa13eb76adb3|make internal interface names configurable from config.yaml|Thu, 1 Jun 2017 10:00:30 +1000|Thu, 1 Jun 2017 12:02:06 +1000
+20b2965fd9772c951630e2a11c13974a9a40da74|make vagrant user configurable from config.yaml|Thu, 1 Jun 2017 09:59:17 +1000|Thu, 1 Jun 2017 12:02:04 +1000
+c109cd09a9f60af36a53b2746935a18d1a0abd9a|Replace obsolete vanity openstack.org URLs|Wed, 8 Mar 2017 19:31:40 +0100|Wed, 8 Mar 2017 19:31:40 +0100
+e7b036709ef353c3038e06889a11f55c2cefe3d1|Merge "Add manager_extra_services to config.yaml and local.erb"|Mon, 6 Mar 2017 13:48:25 +0000|Mon, 6 Mar 2017 13:48:25 +0000
+cbedf6bcf494c7fb9f724e7bf05745ada94f7a8a|Merge "Add use_ip_resolver to config.yaml"|Mon, 6 Mar 2017 13:45:38 +0000|Mon, 6 Mar 2017 13:45:38 +0000
+2656879c55b0e272cffd2fc1c03c86771514b323|Replace nova CLI commands w/ openstack CLI|Tue, 12 Jul 2016 15:48:10 +0300|Tue, 12 Jul 2016 18:51:36 +0300
+ad67271514d2a0a9fd8c90865d110d90ffae3fec|Work around invalid public key issue|Tue, 12 Jul 2016 18:04:12 +0300|Tue, 12 Jul 2016 18:23:00 +0300
+e15d17e0ed1bcf72752cc07a76cfd5f1edabcb8c|Use git.openstack.org everywhere|Wed, 30 Dec 2015 12:34:08 +0100|Wed, 30 Dec 2015 12:34:08 +0100
+262398f2c601e044f55abd7f91f1f5de452500f1|Merge "Advise about vagrant-cachier in the README"|Wed, 4 Nov 2015 14:22:39 +0000|Wed, 4 Nov 2015 14:22:39 +0000
+8485e2c0bdef9d0f4bc43748a1e239ea600ef666|Remove Cirros URL from IMAGE_URLS|Sat, 19 Sep 2015 12:35:42 +0200|Sat, 19 Sep 2015 12:43:03 +0200
+4a3f15cb2d2088eda59a81ed991c21261a2c0e1a|Advise about vagrant-cachier in the README|Wed, 9 Sep 2015 13:18:28 +0200|Wed, 9 Sep 2015 13:18:28 +0200
+6c753a824396dafc9adce353c2edc124c4dcf90d|Add use_ip_resolver to config.yaml|Wed, 9 Sep 2015 11:43:22 +0200|Wed, 9 Sep 2015 12:54:27 +0200
+4eea7f382070e3ac98cdaf148de14d96210889f9|Add manager_extra_services to config.yaml and local.erb|Wed, 9 Sep 2015 10:46:55 +0200|Wed, 9 Sep 2015 10:49:52 +0000
+2fb1e4e8ea30ba982fc82dcd5d33fefb169afa5f|update cirros version|Tue, 21 Jul 2015 19:06:52 +0900|Tue, 21 Jul 2015 11:05:07 +0000
+f748559f8f554b8f80c9f74486bc8a2008e5411b|Fix hostmanger ip resolver exception when guest is not really up|Wed, 10 Jun 2015 17:46:06 -0700|Wed, 10 Jun 2015 20:21:19 -0700
+b32412fa2e03f23f36cc9e4585e925314b8eecd1|Updated repeatble to repeatable in README.md|Wed, 8 Apr 2015 16:07:20 -0400|Wed, 8 Apr 2015 16:07:20 -0400
+eab558e288f016aff79674afc5fbb8a0e42f6e9b|read ip from eth1 if using host-only network|Sat, 28 Mar 2015 21:54:57 +0800|Sat, 28 Mar 2015 22:22:29 +0800
+1782ba1a5b762a2a860f1ca0a14cc47801b948af|Merge "Add extra-images puppet variable"|Wed, 18 Feb 2015 15:38:42 +0000|Wed, 18 Feb 2015 15:38:42 +0000
+64ef7d6e3868fd5dcbbc097bf915496d3fdb7ab9|Add extra-images puppet variable|Tue, 6 Jan 2015 23:40:08 -0600|Wed, 7 Jan 2015 11:22:30 -0600
+d65fe587e311d1cb28f01c1deffe9822bdb0b18f|Proxy settings fixes and improvements|Thu, 25 Dec 2014 21:33:57 -0600|Mon, 5 Jan 2015 22:43:59 -0600
+c94d2b34792191e7a4cb301635d18703e6342890|Increase the readability of the configuration file|Thu, 6 Nov 2014 09:40:56 +0100|Thu, 6 Nov 2014 10:01:28 +0100
+9026d4605d108ded70e3d554ca7ca016826d4255|Merge "Mark 'manager' as primary machine"|Thu, 30 Oct 2014 18:53:26 +0000|Thu, 30 Oct 2014 18:53:26 +0000
+3937c1f4ea06074cd816c98dba2767836bfdb0d5|Merge "Update/add/remove images"|Thu, 30 Oct 2014 18:52:19 +0000|Thu, 30 Oct 2014 18:52:19 +0000
+cd1b2f383e6fa158c188d7cbea490638aaf3e17b|Merge "Do not use multiline strings for the 'stack_sshkey' option"|Thu, 30 Oct 2014 18:51:50 +0000|Thu, 30 Oct 2014 18:51:50 +0000
+5420f201b12af7b13a5d460f7434c5054308e828|Merge "Make it possible to use a hostonly-network instead of a bridge"|Thu, 30 Oct 2014 18:51:19 +0000|Thu, 30 Oct 2014 18:51:19 +0000
+e229dfc5808900a3b7137f2fad955f8befabb06f|Merge "Make the used passwords configurable"|Thu, 30 Oct 2014 18:51:05 +0000|Thu, 30 Oct 2014 18:51:05 +0000
+e6720b9f847e3702a060d1646f54196906660ff2|Merge "Use the vagrant-proxyconf plugin to allow the usage of a HTTP proxy"|Thu, 30 Oct 2014 18:50:52 +0000|Thu, 30 Oct 2014 18:50:52 +0000
+0bfa78e01574723d9e5fe958f77ef40e9f0b2695|Add commands to the base module to update/upgrade Debian/Ubuntu systems|Thu, 2 Oct 2014 18:19:35 +0200|Wed, 8 Oct 2014 11:00:56 +0200
+87407369abdf465f6eb9d0e05ecd8e0f5b3bcd3b|Use the vagrant-proxyconf plugin to allow the usage of a HTTP proxy|Wed, 1 Oct 2014 17:24:24 +0200|Wed, 1 Oct 2014 17:27:14 +0200
+93cb2899ae730623c00a4c433fd9531f7e73a9dc|Make the used passwords configurable|Wed, 1 Oct 2014 13:20:03 +0200|Wed, 1 Oct 2014 13:22:02 +0200
+c9e799bf86df8a6010baf08e7e757e2a2b84a0f3|Do not use multiline strings for the 'stack_sshkey' option|Fri, 19 Sep 2014 12:36:07 +0200|Tue, 30 Sep 2014 14:22:03 +0000
+b1e4ab7f07ddb2ef5d65d1120d9cbae5f7552d9c|Make it possible to use a hostonly-network instead of a bridge|Fri, 19 Sep 2014 21:41:41 +0200|Tue, 30 Sep 2014 14:21:56 +0000
+f06427dd280d5cf45809d9047703db347b3e1d19|Update/add/remove images|Sat, 20 Sep 2014 11:46:45 +0200|Tue, 30 Sep 2014 16:21:43 +0200
+162b0b52e98ad03fa579b164730dca85a319aad8|Mark 'manager' as primary machine|Thu, 7 Aug 2014 10:43:26 +0200|Tue, 30 Sep 2014 14:19:43 +0000
+4a29af6db4494932e77f592beb56e2d6149cf9f3|Merge "Use MongoDB as default backend for ceilometer"|Tue, 30 Sep 2014 14:16:51 +0000|Tue, 30 Sep 2014 14:16:51 +0000
+3823ba2b8eb6921525c794f005d21a0f274c99d3|Restructure and document the local configuration file|Tue, 30 Sep 2014 09:59:17 +0200|Tue, 30 Sep 2014 07:59:59 +0000
+6b681b790416fd71276da28a3e1900b13c15c0d0|Use MongoDB as default backend for ceilometer|Tue, 30 Sep 2014 09:41:43 +0200|Tue, 30 Sep 2014 09:43:22 +0200
+db6d680a06b5a5d10d8846da54769078eae91fee|Merge "Create symlinks/files in /home/vagrant"|Mon, 29 Sep 2014 15:28:30 +0000|Mon, 29 Sep 2014 15:28:30 +0000
+d174bea0caf7d4cf21e301f9ede53d9dc5736e39|Merge "Add suport for LDAP"|Mon, 29 Sep 2014 15:28:12 +0000|Mon, 29 Sep 2014 15:28:12 +0000
+1363e5a522997ff6ce7e9484b5d6e0447ca72f84|Merge "Variable SERVICE_HOST has to use the value of 'hostname_manager'"|Mon, 29 Sep 2014 15:27:45 +0000|Mon, 29 Sep 2014 15:27:45 +0000
+89efc99248a8290fc7840f012a2ca891253d198d|Add suport for vagrant-hostmanager to manage /etc/hosts|Mon, 22 Sep 2014 15:00:28 +0200|Mon, 22 Sep 2014 15:05:06 +0200
+8933d60efa8571fd9106260454449be9cd4f63e1|Variable SERVICE_HOST has to use the value of 'hostname_manager'|Mon, 22 Sep 2014 14:29:25 +0200|Mon, 22 Sep 2014 14:29:25 +0200
+d678e0f6a8cb795c34395718533fba879b695a79|Add suport for LDAP|Sat, 20 Sep 2014 13:32:00 +0200|Sat, 20 Sep 2014 13:32:00 +0200
+d2826a57c4816700dbbc12343c7291f5c160d3b6|Create symlinks/files in /home/vagrant|Sat, 20 Sep 2014 12:21:16 +0200|Sat, 20 Sep 2014 12:21:16 +0200
+c3d5a9214ac78842a0217a388be68411b537ff38|Merge "Rewrite two if statements to improve readability"|Wed, 3 Sep 2014 14:17:11 +0000|Wed, 3 Sep 2014 14:17:11 +0000
+af756b3d9d2ae34318df5b8f0ca7f79c5bc89834|Merge "Rename several variable/machine names"|Wed, 3 Sep 2014 14:16:18 +0000|Wed, 3 Sep 2014 14:16:18 +0000
+a74b09f97a33c3341d6b8ff6c4c350d03a051cca|Merge "Resolve Vagrant issue 1673"|Wed, 3 Sep 2014 14:15:42 +0000|Wed, 3 Sep 2014 14:15:43 +0000
+26d5821159f2f3401b3b42593827c302698dd227|Merge "Enfore the used Vagrantfile API/syntax version when not initialised"|Wed, 3 Sep 2014 14:14:42 +0000|Wed, 3 Sep 2014 14:14:42 +0000
+8008ecd450ecd763d132a99d237d76edd94686f8|Only try to load an existing configuration file|Thu, 7 Aug 2014 10:21:23 +0200|Wed, 3 Sep 2014 11:13:13 +0000
+412934271577799731ee2c7f884ec94c2c597b92|Enfore the used Vagrantfile API/syntax version when not initialised|Thu, 7 Aug 2014 08:22:09 +0200|Wed, 3 Sep 2014 08:58:29 +0000
+580fc649410924aeee9c65e8c3e3f0750bcd86ba|Merge "Forward ports used by Horizon"|Thu, 28 Aug 2014 13:28:17 +0000|Thu, 28 Aug 2014 13:28:17 +0000
+f49d0752bbcdc9440309acd0a197e08ffab8d44d|Resolve Vagrant issue 1673|Thu, 7 Aug 2014 11:04:37 +0200|Thu, 7 Aug 2014 11:10:17 +0200
+9a93e43801765739ce03bcc65eb1aa6f97b59316|Rename several variable/machine names|Thu, 7 Aug 2014 10:55:28 +0200|Thu, 7 Aug 2014 10:55:28 +0200
+54c8738d3076b7e84e8b2a5f6ab1a34cae347efc|Rewrite two if statements to improve readability|Thu, 7 Aug 2014 10:37:31 +0200|Thu, 7 Aug 2014 10:37:31 +0200
+845ffd6016f0e87d1f9926a180f6e43cef71d125|Forward ports used by Horizon|Wed, 6 Aug 2014 19:15:05 +0200|Thu, 7 Aug 2014 06:52:41 +0000
+14d1bc632cbdadda08a167a454b4ba2b8e2f4de9|Add support for the vagrant-cachier plugin|Wed, 6 Aug 2014 19:08:26 +0200|Wed, 6 Aug 2014 19:08:26 +0200
+7a830d58e6a790aa0886ff1ed5bdad790e40ba53|move running of setup scripts to shell provisioner|Mon, 21 Jul 2014 12:42:24 -0400|Mon, 21 Jul 2014 12:42:24 -0400
+2262bb4b1aac1ca43d5f553b2e763c7e3fd1eef3|add vagrant_package.sh for building local cache|Mon, 21 Jul 2014 08:57:25 -0400|Mon, 21 Jul 2014 08:57:25 -0400
+effe364e6ed1adf7c83bb38013f8ff16aecc6f7c|Always specify box_name|Mon, 21 Jul 2014 08:56:04 -0400|Mon, 21 Jul 2014 08:56:04 -0400
+a44158764d663311a30f44a26c2faeeea6850e17|Add .gitreview file and update puppet coding style|Fri, 27 Jun 2014 01:50:44 +0800|Tue, 8 Jul 2014 21:50:49 +0800
+2a1e2ee1ff182d82c236ef4c356e7ed0671d5836|Merge pull request #4 from cdent/git-clone-dir-safety|Thu, 29 May 2014 06:34:10 -0400|Thu, 29 May 2014 06:34:10 -0400
+1a20a28119b245054d8d4c6ebd4230b61b1bf901|safely handle git clone from alien directory|Thu, 29 May 2014 11:10:06 +0100|Thu, 29 May 2014 11:10:06 +0100
+919de746b5f04c2bf71947531d7f9fa00e39171f|Merge pull request #3 from cdent/puppet-os-flexibility|Thu, 29 May 2014 05:56:44 -0400|Thu, 29 May 2014 05:56:44 -0400
+cd168e6bfc3e745b51233434988ca8bc398b8ef9|Merge pull request #2 from cdent/allow-local-box|Thu, 29 May 2014 05:55:21 -0400|Thu, 29 May 2014 05:55:21 -0400
+fd79f17016c5af1d4ffd357235d22b79185038e2|Make the puppet manifests more happy on Red Hat|Thu, 29 May 2014 10:27:16 +0100|Thu, 29 May 2014 10:27:16 +0100
+aa556b8a563413d7530c6f92ba79b0aa3c216010|Allow use of local box for base box.|Thu, 29 May 2014 10:14:04 +0100|Thu, 29 May 2014 10:14:04 +0100
+3a04738765431bd52a44b455ee5869e06c983c50|Merge branch 'master' of github.com:sdague/devstack-vagrant|Sat, 5 Apr 2014 07:56:12 -0400|Sat, 5 Apr 2014 07:56:12 -0400
+bdcd8822f7948d3928c5d76b56147d6a9afc4b35|add support for stable mac addresses|Sat, 5 Apr 2014 07:55:04 -0400|Sat, 5 Apr 2014 07:55:04 -0400
+329d1d0e38add21d44c5447bead51455f9a448d8|Merge pull request #1 from patux/master|Thu, 3 Apr 2014 07:50:35 -0400|Thu, 3 Apr 2014 07:50:35 -0400
+6183fc382d98db92f2c34f4fa1f6181cf77d4ec9|Merge branch 'stacksh-notimeout'|Wed, 2 Apr 2014 23:32:24 -0600|Wed, 2 Apr 2014 23:32:24 -0600
+543d77ad3c79bc233f07758433aab0dcc5aa17df|Merge branch 'use-puppet-template'|Wed, 2 Apr 2014 23:32:16 -0600|Wed, 2 Apr 2014 23:32:16 -0600
+ad2add2d941cdeb60b83e3ff0840d018a829457f|Merge branch 'add-setup-mode'|Wed, 2 Apr 2014 23:32:11 -0600|Wed, 2 Apr 2014 23:32:11 -0600
+8810a36c86b860832f37dc4af633463366f5220d|timeout to 0 while running stack.sh|Wed, 2 Apr 2014 23:20:58 -0600|Wed, 2 Apr 2014 23:20:58 -0600
+3a744c1759f0f963336a6d574ddf09b436354ef9|Use puppet template and enable logging|Wed, 2 Apr 2014 22:26:56 -0600|Wed, 2 Apr 2014 23:11:41 -0600
+dea07d6a2093eb866faa7567716d191dda45e1bb|Add setup-mode fact|Wed, 2 Apr 2014 22:39:20 -0600|Wed, 2 Apr 2014 22:39:20 -0600
+b853f165e75c653bb855293f2536b6fcc9911a23|Fix wrong path for git_clone.sh in base module|Wed, 2 Apr 2014 22:28:28 -0600|Wed, 2 Apr 2014 22:28:28 -0600
+18525b606ff2c8bd59a574e32811f188b3c3e7e5|Merge branch 'master' of github.com:sdague/devstack-vagrant|Thu, 27 Mar 2014 16:00:42 -0400|Thu, 27 Mar 2014 16:00:42 -0400
+2c453a2ac93e6498324dd9d157b93e1918b77549|bridge should be default route|Thu, 27 Mar 2014 15:59:48 -0400|Thu, 27 Mar 2014 15:59:48 -0400
+20ed03aeb2426e8f6194d2a4d47c334522439122|make local.sh do the right thing|Thu, 27 Mar 2014 10:35:33 -0400|Thu, 27 Mar 2014 10:35:33 -0400
+fc8b4ca1a2269a737b290b69b98279426d733708|new local.sh|Tue, 25 Mar 2014 09:43:06 -0400|Tue, 25 Mar 2014 09:43:06 -0400
+d6271592a75ff3f7e830768f3ecb63145f368e05|fix the add of keypairs for the demo user|Tue, 25 Mar 2014 09:28:13 -0400|Tue, 25 Mar 2014 09:28:13 -0400
+422f0d2722d94275de63650d83102cd0a8e4214f|refactor to support grenade|Wed, 12 Mar 2014 09:51:47 -0400|Wed, 12 Mar 2014 09:51:47 -0400
+05f53087f945055076ea40eaf4c10806e5705752|don't always bring up 2nd node|Mon, 10 Mar 2014 17:14:45 -0400|Mon, 10 Mar 2014 17:14:45 -0400
+3a1ba75c8656e2976043cca3eb076142ad5c1f07|fix typo|Thu, 6 Mar 2014 07:10:27 -0500|Thu, 6 Mar 2014 07:10:27 -0500
+1f4179b2116ae9280797f6d1f4adcff64cef99ed|fix git clone script to do the right things|Mon, 3 Mar 2014 12:57:12 -0500|Mon, 3 Mar 2014 12:57:12 -0500
+9d51a85072c444b0e9118b3df559ab7336635e64|add .box files to ignore|Mon, 3 Mar 2014 10:09:59 -0500|Mon, 3 Mar 2014 10:09:59 -0500
+8700f3b88b25ffce65f7019f69d250e31fe4e323|add config.yaml to ignore list|Mon, 3 Mar 2014 10:09:38 -0500|Mon, 3 Mar 2014 10:09:38 -0500
+62a3a28612bbc7ff692512df2e5f8f64566fef9d|convert to yaml configs|Mon, 3 Mar 2014 10:09:17 -0500|Mon, 3 Mar 2014 10:09:17 -0500
+b3e958bc0bcb07550de9eaf321d874471b90d9d6|move to git_clone script|Mon, 3 Mar 2014 08:57:46 -0500|Mon, 3 Mar 2014 08:57:46 -0500
+53086ca8dbb88dcea65ed7cb320b48ab7c2f5608|add the ability to expose a devstack branch|Sat, 1 Mar 2014 06:19:23 -0500|Sat, 1 Mar 2014 06:19:23 -0500
+4c25788365cf9c6dbb2c445cce151efc1f7fd144|enable ceilometer|Fri, 28 Feb 2014 19:13:09 -0500|Fri, 28 Feb 2014 19:13:09 -0500
+b10a18e81f16f7b22c9c6fd5e49efdd0c08d58a1|bring in the vagrant file and updated readme|Sat, 22 Feb 2014 08:42:50 -0500|Sat, 22 Feb 2014 08:42:50 -0500
+f9f48873d20aaf35b753a9f626d4dedb7bdc9d3b|massive import of the puppet modules|Sat, 22 Feb 2014 08:26:23 -0500|Sat, 22 Feb 2014 08:26:23 -0500
+9756d829f2a6b166720a7e9c747e924f9dbb48e9|add in gitignore|Sat, 22 Feb 2014 08:24:53 -0500|Sat, 22 Feb 2014 08:24:53 -0500
+ac52baf0c7dac085601df1885772560517cd857c|Create README.md|Sat, 22 Feb 2014 06:47:43 -0500|Sat, 22 Feb 2014 06:47:43 -0500
+0b1e6dce9de72e7e4630ab60f30f001dc7a9a4ef|Create LICENSE.md|Sat, 22 Feb 2014 06:47:29 -0500|Sat, 22 Feb 2014 06:47:29 -0500

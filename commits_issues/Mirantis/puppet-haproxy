@@ -1,0 +1,2 @@
+,sha,message,files,issues
+0,802ba51113fae827cec858562c71953f4269e4d5,Merge pull request #10 from rtyler/chicken-dinner,"['Rakefile', 'manifests/balancermember.pp', 'manifests/config.pp', 'manifests/init.pp', 'spec/defines/balancermember_spec.rb', 'templates/haproxy_balancermember.erb', 'tests/init.pp']",['#10']

@@ -1,0 +1,3 @@
+,sha,message,files,issues
+94,1815e11384e4060a51059a53b5d019540859105c,"Merge ""Add new options to PKCS#11 backend""","['manifests/plugins/p11_crypto.pp', 'releasenotes/notes/add-pkcs11-options-dd38e8f087888595.yaml', 'spec/classes/barbican_plugins_p11_crypto_spec.rb']",['#11']
+96,8685ed4a4cd3c886a00889bb150fbb3ba2620c8d,Add new options to PKCS#11 backend,"['manifests/plugins/p11_crypto.pp', 'releasenotes/notes/add-pkcs11-options-dd38e8f087888595.yaml', 'spec/classes/barbican_plugins_p11_crypto_spec.rb']",['#11']

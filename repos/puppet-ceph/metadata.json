@@ -1,0 +1,79 @@
+{
+    "name": "openstack-ceph",
+    "version": "4.0.0",
+    "author": "Puppet Ceph community and OpenStack Contributors",
+    "summary": "Community Developed Ceph Module",
+    "license": "Apache-2.0",
+    "source": "https://opendev.org/openstack/puppet-ceph.git",
+    "project_page": "https://launchpad.net/puppet-ceph",
+    "issues_url": "https://bugs.launchpad.net/puppet-ceph",
+    "requirements": [
+        {
+            "name": "puppet",
+            "version_requirement": ">= 5.0.0 < 8.0.0"
+        }
+    ],
+    "operatingsystem_support": [
+        {
+            "operatingsystem": "Debian",
+            "operatingsystemrelease": [
+                "9"
+            ]
+        },
+        {
+            "operatingsystem": "RedHat",
+            "operatingsystemrelease": [
+                "7",
+                "8",
+                "9"
+            ]
+        },
+        {
+            "operatingsystem": "CentOS",
+            "operatingsystemrelease": [
+                "7",
+                "8",
+                "9"
+            ]
+        },
+        {
+            "operatingsystem": "Ubuntu",
+            "operatingsystemrelease": [
+                "18.04",
+                "20.04"
+            ]
+        }
+    ],
+    "description": "Installs and configures Ceph.",
+    "dependencies": [
+        {
+            "name": "puppetlabs/apt",
+            "version_requirement": ">=2.0.0 <10.0.0"
+        },
+        {
+            "name": "puppetlabs/apache",
+            "version_requirement": ">=3.0.0"
+        },
+        {
+            "name": "puppetlabs/concat",
+            "version_requirement": ">=1.2.1 <8.0.0"
+        },
+        {
+            "name": "puppetlabs/inifile",
+            "version_requirement": ">=2.0.0 <6.0.0"
+        },
+        {
+            "name": "puppetlabs/stdlib",
+            "version_requirement": ">=5.0.0 <9.0.0"
+        },
+        {
+            "name": "openstack/openstacklib",
+            "version_requirement": ">=9.0.0"
+        },
+        {
+            "name": "openstack/keystone",
+            "version_requirement": ">=9.0.0"
+        }
+
+    ]
+}

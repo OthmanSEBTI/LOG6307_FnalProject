@@ -1,0 +1,3 @@
+,sha,message,files,issues
+0,15688553dbb78061451e03b0dab7611e8b63af60,Merge pull request #2 from alekseychuprin/7.0,['deployment_scripts/modules/openldap/manifests/slave/configure.pp'],['#2']
+2,aabc91f68d987ea006b5c50142d9a78f84ec91e0,Merge pull request #1 from alekseychuprin/7.0,"['deployment_scripts/modules/openldap/manifests/master/configure.pp', 'deployment_scripts/modules/openldap/manifests/slave/configure.pp', 'deployment_scripts/modules/openldap/templates/slapd-master.sh.tmpl.erb', 'deployment_scripts/modules/openldap/templates/slapd-slave.sh.tmpl.erb', 'deployment_scripts/modules/openldap/templates/supervisor-slapd-master.tmpl.erb', 'deployment_scripts/modules/openldap/templates/supervisor-slapd-slave.tmpl.erb']",['#1']

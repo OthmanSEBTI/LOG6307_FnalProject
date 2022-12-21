@@ -1,0 +1,1035 @@
+834d9a6780c33233cef141a7b6007dbfe527ae08|Remove implementations to set up Ceilometer DB|Thu, 24 Nov 2022 13:50:42 +0900|Thu, 24 Nov 2022 14:08:10 +0900
+6d780115877567c35cde91c861a4cfa9cde9b83a|Remove parameters for [hardware] options|Tue, 15 Nov 2022 11:13:31 +0900|Tue, 15 Nov 2022 11:15:50 +0900
+2abdae02d95b9fde775c72a48d454cd9d56b2f4b|Update master for stable/zed|Thu, 20 Oct 2022 11:02:00 +0000|Thu, 20 Oct 2022 11:02:00 +0000
+c7eb9c1fc36175d040af4dfa86d428f688e47508|Prepare Zed RC1|Wed, 5 Oct 2022 18:10:41 +0900|Wed, 5 Oct 2022 18:10:41 +0900
+b00000fb86e2882c11fb399d9adf410812a895bd|Add new parameter `tenant_name_discovery`|Fri, 9 Sep 2022 15:18:40 +0000|Wed, 21 Sep 2022 13:35:48 +0900
+1dcdea2e622dbbe5b49ce1991cea9db322270dfd|Forcefully purge [hardware] readonly_user_* parameters|Thu, 8 Sep 2022 00:02:36 +0900|Thu, 8 Sep 2022 00:05:44 +0900
+3cee14c87ffaad8ee83c564eac147c65fbf7768a|Enable memcached and redis in acceptance tests|Wed, 31 Aug 2022 00:51:48 +0900|Wed, 31 Aug 2022 00:51:48 +0900
+f42458bfe61cc6d4b5a4a184ace5a82003b0fb04|Remove deprecated notificaton_workers|Wed, 17 Aug 2022 08:54:12 +0900|Wed, 17 Aug 2022 08:54:12 +0900
+2f053934da8ee09b694eebf55327a2921356e75a|Remove deprecated ceilometer::agent::polling::coordination_url|Fri, 5 Aug 2022 01:14:13 +0900|Fri, 5 Aug 2022 01:14:49 +0900
+588c9c9501216553e458274cf831d2ea7d3be59b|Revert "CentOS 9: Disable unit tests dependent on puppet-postgresql"|Sun, 24 Jul 2022 01:07:32 +0900|Sun, 24 Jul 2022 01:08:05 +0900
+53a6f17dc77be0ff8752295a91f7aa1d6ade2eec|Merge "Add acceptance tests for config management resources"|Fri, 15 Jul 2022 19:46:09 +0000|Fri, 15 Jul 2022 19:46:09 +0000
+962afdd17dab55fc0151343481ca86f5b3e13ee7|Fix wrong test description|Mon, 11 Jul 2022 23:26:04 +0900|Mon, 11 Jul 2022 23:26:04 +0900
+a48659ea0d5c8d4f1784cd9adffefe755c4190fa|Add acceptance tests for config management resources|Sat, 9 Jul 2022 12:20:10 +0900|Sun, 10 Jul 2022 12:36:25 +0900
+3f9fa0dc6f172b2547192160c9ec6dc8efe4579f|Merge "Deprecate classes to set up Ceilometer DB"|Mon, 20 Jun 2022 19:38:10 +0000|Mon, 20 Jun 2022 19:38:10 +0000
+60882c29dff6b5302d982eaf79796913c4a8bea9|Deprecate classes to set up Ceilometer DB|Mon, 20 Jun 2022 10:08:13 +0900|Mon, 20 Jun 2022 10:08:13 +0900
+a8e2dc6891cc36209d947da06137cd450e9711af|Clean up deprecated cache parameters|Sun, 19 Jun 2022 21:50:29 +0900|Sun, 19 Jun 2022 21:53:29 +0900
+7d3af77f010fa6c1921ae6b1d4b7fc903f7b62da|Fix typos in parameter descriptions and tests|Fri, 17 Jun 2022 19:06:27 +0530|Fri, 17 Jun 2022 19:07:22 +0530
+210fdec48f384d9d80c3a11999a80d0540a1d168|Merge "Refactor service user/group management"|Tue, 14 Jun 2022 02:26:50 +0000|Tue, 14 Jun 2022 02:26:50 +0000
+c6bd935e275dc6bb3e56dbea8f88d3bad3764818|Replace usage of mongodb in unit tests|Wed, 8 Jun 2022 11:05:44 +0900|Wed, 8 Jun 2022 11:05:44 +0900
+7e4f8d6778e0f4ee262efe9778bf23c886fa676a|Remove support for CentOS 8 Stream|Fri, 27 May 2022 02:14:00 +0900|Fri, 27 May 2022 02:20:18 +0900
+eafc9088718239b6b9b4a8a579c4588dfb7d10af|Refactor service user/group management|Sun, 15 May 2022 01:01:23 +0900|Mon, 16 May 2022 11:57:13 +0900
+a569c41855f624204903ad0c85fa2eda6cc6125f|Merge "polling: Ensure unused parameters are cleared"|Wed, 11 May 2022 10:29:07 +0000|Wed, 11 May 2022 10:29:07 +0000
+e5ce40b16d7534a917416cb2e5f3669336fc816f|Deprecate support for [hardware] options|Fri, 6 May 2022 12:19:10 +0900|Fri, 6 May 2022 12:20:09 +0900
+2c48365980cd93de53aa17f25dc2531c8bcbfc6e|polling: Ensure unused parameters are cleared|Wed, 4 May 2022 00:48:48 +0900|Fri, 6 May 2022 11:26:26 +0900
+b5f4557ee1a817f5b5c2bde96c3c7d56716f5ba0|Update master for stable/yoga|Tue, 5 Apr 2022 09:09:00 +0000|Tue, 5 Apr 2022 09:09:00 +0000
+cd5746f34f6d98ee1364916e5071d9245d31d53c|Merge "Remove unused "transformers" field from event pipeline configuration"|Wed, 30 Mar 2022 08:33:30 +0000|Wed, 30 Mar 2022 08:33:30 +0000
+e1604e16dd82b04ca60eef4d61d8275496952582|Merge "Remove unused "triggers" field from event pipeline configuration"|Wed, 30 Mar 2022 08:01:57 +0000|Wed, 30 Mar 2022 08:01:57 +0000
+ac3f658a202069d91f254bec7f65a40a9d5f1fae|setuptools: Disable auto discovery|Tue, 29 Mar 2022 10:37:24 +0200|Tue, 29 Mar 2022 10:37:32 +0200
+72235236a171ae114f0196e27063db500ab710d8|Remove unused "transformers" field from event pipeline configuration|Fri, 25 Mar 2022 01:43:07 +0900|Fri, 25 Mar 2022 08:16:38 +0900
+17864e2aec4556ed18864a0b26839b81a472a068|Remove unused "triggers" field from event pipeline configuration|Fri, 25 Mar 2022 01:42:19 +0900|Fri, 25 Mar 2022 08:14:54 +0900
+e2051dae5eb6c81d9da50ed96112c200bb342e2f|Prepare Yoga RC1|Fri, 11 Mar 2022 21:39:29 +0900|Sun, 13 Mar 2022 10:23:02 +0000
+8cb0afd1976cd68dea197fbd8fea718b9437704b|Merge "Globally support system scope credentials"|Sat, 12 Mar 2022 05:19:54 +0000|Sat, 12 Mar 2022 05:19:54 +0000
+1ab7f372cc370bc94799389708455b3c1603213b|remove unicode literal from code|Tue, 8 Mar 2022 09:06:07 +0900|Tue, 8 Mar 2022 09:06:07 +0900
+5f52d0d0e754cc781df18d9350542d888b36b200|Globally support system scope credentials|Fri, 4 Mar 2022 00:41:56 +0900|Fri, 4 Mar 2022 01:16:58 +0900
+4efbd44f6cf92a7759370fea97e3548c7d56d874|Prepare Yoga M3|Thu, 24 Feb 2022 16:13:07 +0800|Sun, 27 Feb 2022 13:22:12 +0000
+1bbaea2895d70e7c4da2ab847b08e82487929a4b|Merge "Add CentOS/RHEL 9 to supported operating systems"|Thu, 24 Feb 2022 15:19:29 +0000|Thu, 24 Feb 2022 15:19:29 +0000
+8ea0c1a747678fe6e55846bea56afdd456e7874c|Merge "Fix missing mode/owner/group enforcement of polling.yaml"|Tue, 22 Feb 2022 16:25:04 +0000|Tue, 22 Feb 2022 16:25:04 +0000
+afc6e0cbe910a52ea82a925af8ec97f2eaaaba3f|Add CentOS/RHEL 9 to supported operating systems|Wed, 23 Feb 2022 01:08:34 +0900|Wed, 23 Feb 2022 01:08:34 +0900
+8ac9135920cd0cca41e3b70ceae33ae63211785a|Fix missing mode/owner/group enforcement of polling.yaml|Sun, 20 Feb 2022 18:57:46 +0900|Sun, 20 Feb 2022 19:07:33 +0900
+1532a32b9c2d3b21a1358249661bf1c1e0367e4b|Merge "Remove deprecated database_min_pool_size"|Sat, 19 Feb 2022 16:34:55 +0000|Sat, 19 Feb 2022 16:34:55 +0000
+f6287824de3f2b8415f789d5b05503fac273bb19|Merge "Remove deprecated amqp_allow_insecure_clients"|Fri, 18 Feb 2022 09:55:07 +0000|Fri, 18 Feb 2022 09:55:07 +0000
+23ab18bfb6f53e39665770e9588826f61d919dbb|CentOS 9: Disable unit tests dependent on puppet-postgresql|Wed, 16 Feb 2022 00:00:55 +0900|Wed, 16 Feb 2022 00:17:56 +0900
+04f0e54653c40e880abef9a2fce4884ee8ea88a0|Merge "Add scenario002 integration job"|Mon, 14 Feb 2022 11:27:57 +0000|Mon, 14 Feb 2022 11:27:57 +0000
+5c58831b527f52dd90a8a071d4de5bbe7f82f8e6|Remove deprecated database_min_pool_size|Tue, 8 Feb 2022 22:32:53 +0900|Tue, 8 Feb 2022 22:32:53 +0900
+2fb392103cc347cd6fc70c1fbb8129a5b240be3f|Remove deprecated amqp_allow_insecure_clients|Tue, 8 Feb 2022 21:59:37 +0900|Tue, 8 Feb 2022 13:03:37 +0000
+0c04ba25d2eb37b89527f054879ab2818676f7ae|Bugfix - Deprecated notification_workers is ignored|Mon, 7 Feb 2022 13:10:32 +1100|Mon, 7 Feb 2022 14:59:24 +1100
+6d3ed4dddb2f2e6e1e3e8432592c8b9e4de8958f|Merge "Update outdated example"|Fri, 4 Feb 2022 17:04:00 +0000|Fri, 4 Feb 2022 17:04:00 +0000
+6975e81db4fa3af7a56343deac56114c95155d98|Add scenario002 integration job|Fri, 4 Feb 2022 18:28:27 +0900|Fri, 4 Feb 2022 18:28:27 +0900
+c456f0b60b347dc54dacba4b1649830454705dc5|Update outdated example|Fri, 4 Feb 2022 12:09:39 +0900|Fri, 4 Feb 2022 12:10:49 +0900
+a7cf7060ddfeab7440bf2e84522d220014c10bd8|Deprecate cache parameters in the base class|Thu, 27 Jan 2022 14:04:04 +0900|Fri, 4 Feb 2022 11:30:26 +0900
+b13732ce19965d663b660abca76ecf617881d03f|Add HashClient retry options for the dogpile.cache backend|Mon, 31 Jan 2022 11:29:13 +0100|Mon, 31 Jan 2022 11:33:51 +0100
+f1a4758061798b9380cd43b6bdf09aeba9eea75a|Add cache client retry options for the pymemcache backend|Mon, 31 Jan 2022 10:55:57 +0100|Mon, 31 Jan 2022 11:32:54 +0100
+0b751f669cfb208f28d91780cd5b0e060861f506|Merge "Add socket keepalive options for the pymemcache backend"|Fri, 28 Jan 2022 22:08:58 +0000|Fri, 28 Jan 2022 22:08:58 +0000
+0f3def326579d888d7c67bf6203a1f7092d0609b|Merge "Fix duplicate (Optional) in parameter description"|Thu, 27 Jan 2022 19:32:57 +0000|Thu, 27 Jan 2022 19:32:57 +0000
+9252cc892c0d6e0341c41d2574a5b7824282470d|Fix duplicate (Optional) in parameter description|Thu, 27 Jan 2022 20:40:53 +0900|Thu, 27 Jan 2022 20:40:53 +0900
+455cf1ba649c392e2fe88f04af55adb63af3ec28|Add socket keepalive options for the pymemcache backend|Thu, 4 Nov 2021 10:57:54 +0100|Thu, 27 Jan 2022 20:08:54 +0900
+fecba8f3515e03aaa3dbb49631b84a36c1c5e1fc|Fix wrong service user name in parameter description|Tue, 25 Jan 2022 10:54:33 +0900|Tue, 25 Jan 2022 10:54:33 +0900
+2101af92df2deab9319fdb12ba817d4fd34f23ad|Merge "Allow customizing roles of the ceilometer service user"|Mon, 24 Jan 2022 18:11:15 +0000|Mon, 24 Jan 2022 18:11:15 +0000
+49dbd55f166826ef5c419d3ec5f5434f49351c9e|Merge "Do not test detail of keystone::auth::service_identity"|Mon, 24 Jan 2022 17:29:20 +0000|Mon, 24 Jan 2022 17:29:20 +0000
+68d6a5193136746690f7e7e59733942945249e40|Allow customizing roles of the ceilometer service user|Sat, 22 Jan 2022 21:23:53 +0900|Sat, 22 Jan 2022 21:24:57 +0900
+bcb4265b2b485642ff9015f9e82e885c2aab1d13|Do not test detail of keystone::auth::service_identity|Sat, 22 Jan 2022 21:19:45 +0900|Sat, 22 Jan 2022 21:24:44 +0900
+453cc408784648c6092279159121250eeb62ccbe|Avoid testing details of oslo::messaging(::*)|Fri, 21 Jan 2022 23:33:05 +0900|Fri, 21 Jan 2022 23:49:50 +0900
+8ff2661983b01fefc04ea0834a0a7513eb409d06|Merge "compute: Add support for tunables parameters"|Sat, 8 Jan 2022 05:41:40 +0000|Sat, 8 Jan 2022 05:41:40 +0000
+3e022187f42a2be664c08e17cb0cedd0c5ba9da9|Prepare Yoga M2|Wed, 1 Dec 2021 14:42:52 +0800|Fri, 7 Jan 2022 14:18:05 +0000
+ddeb43dacc61a4181a5420365f1803d7cbb055c8|Add support for rootwrap.conf|Mon, 27 Dec 2021 12:05:35 +0900|Mon, 3 Jan 2022 09:28:20 +0900
+6bdf24f75020d57205ba361577a1dbde8aa8350d|Merge "Remove deprecated ceilometer::agent::auth"|Sat, 1 Jan 2022 21:25:18 +0000|Sat, 1 Jan 2022 21:25:18 +0000
+e0d2492f4c2494a78acf83271fa2cfb8b326d068|Merge "Remove unnecessary dependency"|Thu, 30 Dec 2021 21:26:14 +0000|Thu, 30 Dec 2021 21:26:14 +0000
+e25e6bd483b613ca35bb657706398900f8a8cbfd|Remove deprecated ceilometer::agent::auth|Mon, 27 Dec 2021 21:24:43 +0900|Mon, 27 Dec 2021 21:26:59 +0900
+f1dab428d208c20ecf8537240635e57a8e7e53f4|Remove unnecessary dependency|Mon, 27 Dec 2021 12:06:19 +0900|Mon, 27 Dec 2021 12:06:19 +0900
+f9bd8755ed4bf88af62360f37061d838f1818cfd|Load libraries in a single place|Mon, 27 Dec 2021 11:58:53 +0900|Mon, 27 Dec 2021 11:58:53 +0900
+6892474ace1d02260f074c48eabf409cb16fdfb9|compute: Add support for tunables parameters|Fri, 17 Dec 2021 15:39:14 +0900|Fri, 17 Dec 2021 18:11:23 +0900
+5d40c9503c54f44c8d0b88c79b5ec73af9216566|Add support for oslo.cache parameters|Mon, 29 Nov 2021 10:49:36 +0900|Mon, 29 Nov 2021 10:49:36 +0900
+b05d311bb6519a72764ea1daf497b3709293d0bb|Install coordination backend packages before starting services|Mon, 29 Nov 2021 10:14:15 +0900|Mon, 29 Nov 2021 10:14:38 +0900
+8a567216f7d30338c9e946ca81b87c50ebb2a8ff|Merge "Add support for [polling] batch_size"|Wed, 17 Nov 2021 13:16:32 +0000|Wed, 17 Nov 2021 13:16:32 +0000
+29fae2cabd6b285823853186dde257f825549fa7|Merge "Add support for polling Radosgw metrics"|Wed, 10 Nov 2021 17:50:27 +0000|Wed, 10 Nov 2021 17:50:27 +0000
+abab7dcb42bec274f8be11e0abee1620b982538d|Merge "Add support for the [service_types] parameters"|Wed, 10 Nov 2021 17:50:25 +0000|Wed, 10 Nov 2021 17:50:25 +0000
+3923bd9dc85c2fd9c1e92e8cd89683ec80235c8a|Merge "Do not hardcode default of [DEFAULT] http_timeout"|Tue, 9 Nov 2021 08:57:42 +0000|Tue, 9 Nov 2021 08:57:42 +0000
+2ce16ad4b84109ab73856be22f316a012d445b94|Merge "Add support for [DEFAULT] max_parallel_requests"|Tue, 9 Nov 2021 08:33:05 +0000|Tue, 9 Nov 2021 08:33:05 +0000
+7fbd758d72d347c66f3431fc6ed475266b263081|Add support for polling Radosgw metrics|Tue, 9 Nov 2021 00:28:19 +0900|Tue, 9 Nov 2021 02:30:55 +0000
+89923f7eb120a1139d13af84f15c04aef261db48|Add support for the [service_types] parameters|Tue, 9 Nov 2021 00:10:06 +0900|Mon, 8 Nov 2021 23:34:32 +0000
+31b5d7f00be5510576449328659b499f1f655276|Remove unused, outdated unit test cases|Mon, 8 Nov 2021 23:24:23 +0900|Mon, 8 Nov 2021 23:27:09 +0900
+ed000c0cda6b1b610c68e634e289dc2f001aa74d|Do not hardcode default of [DEFAULT] http_timeout|Mon, 8 Nov 2021 23:19:26 +0900|Mon, 8 Nov 2021 23:21:50 +0900
+b1ebc891f1bcf0396f55fd6ecc265deab89a9692|Add support for [DEFAULT] max_parallel_requests|Mon, 8 Nov 2021 23:18:22 +0900|Mon, 8 Nov 2021 23:18:22 +0900
+c3c1afb8bd9d446a4be2c96f640f44e10f45541e|Add support for [polling] batch_size|Fri, 5 Nov 2021 09:27:42 +0900|Fri, 5 Nov 2021 09:27:42 +0900
+d481b0cec1211529ff70044b728d576c97f71a25|Bump puppetlabs-inifile|Tue, 2 Nov 2021 12:59:15 +0900|Tue, 2 Nov 2021 12:59:15 +0900
+330da65baf0dbfda5608c2b03cb33ccd90054f9c|Remove the ceilometer::policy class|Tue, 12 Oct 2021 13:35:47 +0900|Tue, 12 Oct 2021 13:35:47 +0900
+5cf53703eb79f989e1f451eec4f57dabe8104e08|Bump version for the start of Yoga|Mon, 11 Oct 2021 10:57:07 +0900|Mon, 11 Oct 2021 10:57:07 +0900
+8f648f237999b70cc43d97e262f3cc93610c661a|Update master for stable/xena|Thu, 7 Oct 2021 08:21:06 +0000|Thu, 7 Oct 2021 08:21:06 +0000
+07d4c5a8e0f622222ab2c7f95cfcc66b0ecabcd3|Add information technology in the setup.cfg|Fri, 1 Oct 2021 06:54:49 +0800|Fri, 1 Oct 2021 06:54:49 +0800
+6f1d3687c41b690c1594a7765bb61a1e2e3f9b27|Add license information in the setup.cfg|Thu, 30 Sep 2021 16:48:13 +0800|Thu, 30 Sep 2021 16:48:13 +0800
+57161189950da12e459ee52599ff24cf4b3e6924|Delete useless code for setup.py|Thu, 30 Sep 2021 13:38:32 +0800|Thu, 30 Sep 2021 13:38:32 +0800
+da421b669a1627bed52358398720eb889945d586|Merge "Stop configuring install_command in tox."|Wed, 29 Sep 2021 12:05:53 +0000|Wed, 29 Sep 2021 12:05:53 +0000
+59fce8a64118f965442ee9d8c9e383975ce92d99|Merge "Fix pbr>=2.0.0 for setup.py"|Wed, 29 Sep 2021 09:11:49 +0000|Wed, 29 Sep 2021 09:11:49 +0000
+dad345e872ebab4b76055ce72644ddf852f7b65d|Stop configuring install_command in tox.|Wed, 29 Sep 2021 17:58:57 +0900|Wed, 29 Sep 2021 18:04:20 +0900
+d0d3f465e10a5aba7f62e23d20b619c7028b2725|Fix pbr>=2.0.0 for setup.py|Wed, 29 Sep 2021 16:37:10 +0800|Wed, 29 Sep 2021 16:37:10 +0800
+2790fe786d38410f5328e9b4ae73a6ea07717113|Update openstackdocstheme to the latest version|Wed, 29 Sep 2021 16:06:50 +0800|Wed, 29 Sep 2021 16:06:50 +0800
+ce66596c6e5eb44487446a886d4da9d4b528c9d4|Update reno to the latest version|Tue, 28 Sep 2021 17:14:34 +0800|Tue, 28 Sep 2021 17:14:34 +0800
+f100a2c545c40194ba51a4f565fefbd8a6e0ebf2|Do not define service resource when manage_service is false|Fri, 24 Sep 2021 16:58:52 +0900|Fri, 24 Sep 2021 16:58:52 +0900
+1dd5ddb8273cb6d6e2af98a2c5529b1d185415cd|Use package resource directly|Fri, 24 Sep 2021 16:49:05 +0900|Fri, 24 Sep 2021 16:51:08 +0900
+317147f6706bc4acaa9e885cfcbe677a30e45cb4|Merge "[hardware] readonly_user_password should be secret"|Thu, 23 Sep 2021 19:40:56 +0000|Thu, 23 Sep 2021 19:40:56 +0000
+9f7c5f236b29e5d8a92922c97d77f6e657907cf7|Merge "Remove parameters for keystone endpoint/service"|Thu, 23 Sep 2021 19:19:30 +0000|Thu, 23 Sep 2021 19:19:30 +0000
+c8559b4cbf5c194fbc2106f4f7e92a357951fd84|Merge "Do not use the deprecated service_type in unit tests"|Thu, 23 Sep 2021 18:19:34 +0000|Thu, 23 Sep 2021 18:19:34 +0000
+d987257e4ef452653650aa03bab748be7c207b3e|[hardware] readonly_user_password should be secret|Thu, 23 Sep 2021 22:37:02 +0900|Thu, 23 Sep 2021 22:37:23 +0900
+2c2cfcb5b032a2ff7e7874e612690c0bfcb79d04|Fix stdlib version in metadata|Thu, 23 Sep 2021 19:44:22 +0800|Thu, 23 Sep 2021 19:44:22 +0800
+2fd8cd69ab76a845aea92a7929d5464b9fabffc7|Remove parameters for keystone endpoint/service|Tue, 21 Sep 2021 17:33:06 +0900|Wed, 22 Sep 2021 19:14:15 +0900
+d94ba5a10f74c7d1c9404249cc4846513e0036d4|Do not use the deprecated service_type in unit tests|Wed, 22 Sep 2021 19:11:42 +0900|Wed, 22 Sep 2021 19:13:39 +0900
+090c67725b94dd5407206f18aeec463a5184dc8c|Prepare Xena RC1|Fri, 17 Sep 2021 17:36:09 +0800|Fri, 17 Sep 2021 17:36:09 +0800
+b87511973bde61cb55569dd2b9671c0ead1219c5|Add watch_log_file option|Tue, 14 Sep 2021 16:02:08 +0800|Tue, 14 Sep 2021 16:02:08 +0800
+1ea01f7b0679f3f35c60c46277d504ed4b626553|Prepare Xena M3|Mon, 6 Sep 2021 15:32:07 +0800|Mon, 6 Sep 2021 15:32:07 +0800
+1dd365cd36cdb6e08308b9090d1c5fc2d7cbed5f|Merge "Deprecate the ceilometer::policy class"|Mon, 16 Aug 2021 17:33:07 +0000|Mon, 16 Aug 2021 17:33:07 +0000
+7021e05beba1807f26f993d1ee01b8209ffb8feb|Deprecate the ceilometer::policy class|Sun, 15 Aug 2021 00:25:40 +0900|Sun, 15 Aug 2021 00:25:40 +0900
+7c1a8a949c2f215d42cf28cf38fbe7e715ca9054|Support Puppet 7|Sat, 14 Aug 2021 19:28:47 +0900|Sat, 14 Aug 2021 19:28:47 +0900
+d840e19f9812bda6cce64cff8949ec1bb8539308|Prepare Xena M2|Mon, 26 Jul 2021 19:03:46 +0800|Mon, 26 Jul 2021 19:03:46 +0800
+4cd36de603af9e755ac095c044556868eb742915|Merge "Use oslo::coordination to manage coordination parameters"|Mon, 28 Jun 2021 10:13:07 +0000|Mon, 28 Jun 2021 10:13:07 +0000
+e99dc4acf47d8bc9b85465456f0c9fcd11ec3c65|Merge "Set fixture paths for unit tests"|Wed, 2 Jun 2021 23:46:48 +0000|Wed, 2 Jun 2021 23:46:48 +0000
+abb7623404988b1bc0adddc95be204a53b511f69|Set fixture paths for unit tests|Wed, 2 Jun 2021 13:47:49 +0900|Wed, 2 Jun 2021 13:53:11 +0900
+d7938910b42819dd24348b74623e4d704b9a7c7e|Add a release note about Fedora support removal|Mon, 31 May 2021 16:16:14 +0900|Mon, 31 May 2021 16:16:14 +0900
+6540640c0b7a2a47ff4d0cd41fd1e205ec4c5e97|Merge "Drop Fedora support"|Mon, 31 May 2021 07:02:12 +0000|Mon, 31 May 2021 07:02:12 +0000
+938738477a64986c161d43354ff2ebbe9e44eabd|Prepare Xena M1|Thu, 27 May 2021 15:50:27 +0800|Thu, 27 May 2021 15:50:27 +0800
+9c876228713889cfe89bfb62f0522ceb7bddc385|Drop Fedora support|Wed, 26 May 2021 18:52:24 +0900|Wed, 26 May 2021 18:55:26 +0900
+1155b41db051e95e9246aa02eed2205f1f0f845a|Use oslo::coordination to manage coordination parameters|Fri, 21 May 2021 16:02:00 +0900|Fri, 21 May 2021 17:42:39 +0900
+32cbb8a241d89489890b341bfd0918fe3ad1db47|setup.cfg: Replace dashes with underscores|Tue, 11 May 2021 18:25:32 +0900|Tue, 11 May 2021 18:25:32 +0900
+9e4553499bd0dcfcfec0bc60c77ada2a5419dbca|Bump version for the start of Xena|Thu, 29 Apr 2021 09:38:14 +0800|Thu, 29 Apr 2021 09:38:14 +0800
+f14b8262608a7133d079e7c55fe2c2dd94d49265|Merge "Drop ResellerAdmin role from ceilometer user"|Tue, 20 Apr 2021 13:19:41 +0000|Tue, 20 Apr 2021 13:19:41 +0000
+58d9927112ce0553265108580ca1087312d1627d|Drop ResellerAdmin role from ceilometer user|Sun, 18 Apr 2021 23:22:05 +0900|Sun, 18 Apr 2021 23:25:06 +0900
+a286f07d3fa04249e0ca33ed4f32af0b0b035197|Merge "Bump dependency in metadata.json"|Tue, 13 Apr 2021 11:09:50 +0000|Tue, 13 Apr 2021 11:09:50 +0000
+f40d89a4d76ddeb95b8b0de068ab2acad98e381a|Bump dependency in metadata.json|Thu, 8 Apr 2021 20:55:06 +0200|Thu, 8 Apr 2021 20:55:06 +0200
+8fed7967ead8e12f473c8b102820a569b7ae5e7b|Update master for stable/wallaby|Thu, 1 Apr 2021 09:12:56 +0000|Thu, 1 Apr 2021 09:12:56 +0000
+70b830f0767fe43c83e74e4308a694a0fe56ac20|Merge "metadata.json: debian 11"|Wed, 31 Mar 2021 07:04:14 +0000|Wed, 31 Mar 2021 07:04:14 +0000
+ee236d482d909accd11c58a6245a8b36683102ab|Update sphinx to the latest version|Sat, 27 Mar 2021 15:31:56 +0800|Sat, 27 Mar 2021 15:31:56 +0800
+0ed4b7bc9d3df083d1c84773d6c58dad53d66578|Prepare Wallaby RC1|Fri, 26 Mar 2021 11:24:16 +0800|Fri, 26 Mar 2021 05:43:47 +0000
+458d0ad9ccff75f9788b4fdab1fb83efa61961c8|Merge "Use consistent names for service_credentials options"|Fri, 26 Mar 2021 05:42:10 +0000|Fri, 26 Mar 2021 05:42:10 +0000
+8f85187576df601d43089183036d35e0d23c70c7|metadata.json: debian 11|Thu, 25 Mar 2021 12:31:14 +0100|Thu, 25 Mar 2021 12:31:14 +0100
+181441f58314ed759f2fffad50119ffb4be03015|Update supported Ubuntu version to Focal|Tue, 23 Mar 2021 21:30:56 +0900|Tue, 23 Mar 2021 21:30:56 +0900
+eec43073b70b6623b0d74342907aa8e69df3da3a|Remove puppetlabs-apache from dependencies|Thu, 18 Mar 2021 22:27:24 +0900|Thu, 18 Mar 2021 22:27:24 +0900
+c2ebbfb4dffc4981503c4ca10e247b0dfa5ad58e|Prepare Wallaby M3|Fri, 12 Mar 2021 14:35:43 +0800|Fri, 12 Mar 2021 14:35:43 +0800
+9a5323ad18b9bc0e15b514ea98449a3ea5d58b68|Use consistent names for service_credentials options|Tue, 16 Feb 2021 11:54:05 +0900|Sun, 21 Feb 2021 00:00:01 +0900
+6671c06e8ee676315d93b56b2f73e3bc1a4dcf43|Merge "Add TLS options for oslo.cache"|Mon, 15 Feb 2021 18:22:58 +0000|Mon, 15 Feb 2021 18:22:58 +0000
+44fc5d25c1c9418ed4d82a48380fe6ab8362aee5|Add TLS options for oslo.cache|Wed, 2 Dec 2020 11:34:36 +0100|Wed, 3 Feb 2021 13:10:28 +0000
+d27fbd3fed472a51670393a4a295ba6b16a35bea|Fix the wrong file mentioned in the bug 1912345 release note|Wed, 27 Jan 2021 17:28:47 +0900|Wed, 27 Jan 2021 17:29:15 +0900
+e73ba70b8ab6768a62c7e21a6dc013b95a5bff13|Merge "Remove transformers from pipeline.yaml"|Mon, 25 Jan 2021 19:31:58 +0000|Mon, 25 Jan 2021 19:31:58 +0000
+34a3316c594a82d70f5dc39829bcde3653c11121|Merge "Update cpu meters of hardware resource"|Mon, 25 Jan 2021 19:31:53 +0000|Mon, 25 Jan 2021 19:31:53 +0000
+83e94f768a1c94e8656a53212849950f61571deb|Merge "Replace disk.* meters by disk.device.* meters"|Mon, 25 Jan 2021 19:31:49 +0000|Mon, 25 Jan 2021 19:31:49 +0000
+5b8f5d0490f43f43a62cee9718c75290e30473cf|Remove transformers from pipeline.yaml|Tue, 19 Jan 2021 21:56:17 +0900|Tue, 19 Jan 2021 22:05:15 +0900
+621b9062f82cd0c4ee9e0071136723a2469fb243|Prepare Wallaby M2|Tue, 19 Jan 2021 11:19:34 +0800|Tue, 19 Jan 2021 11:19:34 +0800
+5d8685175d89c75263ee9640f5302a0a4f6f67c8|Update cpu meters of hardware resource|Fri, 15 Jan 2021 20:30:57 +0900|Fri, 15 Jan 2021 21:06:53 +0900
+682ef848b7ecfd417f1160a7da496742fff4d9f3|Replace disk.* meters by disk.device.* meters|Fri, 15 Jan 2021 14:51:43 +0900|Fri, 15 Jan 2021 21:04:59 +0900
+41579d71e5aa8a753f6197fcec323c728f4c1885|Merge "Rename the redundant worker parameter"|Tue, 5 Jan 2021 17:54:51 +0000|Tue, 5 Jan 2021 17:54:51 +0000
+15921006c595ff705be40c02d324a387c92a4339|Rename the redundant worker parameter|Wed, 30 Dec 2020 21:17:15 +0900|Wed, 30 Dec 2020 21:21:04 +0900
+ecba97adec6b63f3f3fc4b9ffb5081f64e7cffb6|Use $::os_service_default instead of undef as default value|Sun, 20 Dec 2020 23:19:10 +0900|Mon, 21 Dec 2020 12:26:13 +0900
+935666dab33c4bc6fb853482ec3c64698c912d4f|Prepare Wallaby M1|Fri, 4 Dec 2020 13:31:37 +0800|Fri, 4 Dec 2020 13:31:37 +0800
+6eb05e37b220b607ae37935ae03dc41df1fda7e7|Allow db sync timeouts to be configurable|Mon, 23 Nov 2020 09:27:52 +0800|Mon, 23 Nov 2020 09:27:52 +0800
+3fc5ed291c4d1f644ecd937210af6a8ca059d68f|Replace deprecated UPPER_CONSTRAINTS_FILE variable|Wed, 11 Nov 2020 09:08:35 +0800|Wed, 11 Nov 2020 09:08:35 +0800
+b4722f6f1fe69c30d34392a87f2ff120c0759d50|Deprecate allow_insecure_clients option|Mon, 2 Nov 2020 14:42:03 +0800|Mon, 2 Nov 2020 15:23:22 +0800
+c50f812450d792369b1e808fc64597cbef0f51e1|Fix outdated files|Wed, 28 Oct 2020 10:40:08 +0800|Wed, 28 Oct 2020 10:40:08 +0800
+be7a359ad661aa5a3950974e25adf9aa343ee369|Disable keystone service/endpoint for ceilometer|Thu, 22 Oct 2020 11:54:43 +0900|Fri, 23 Oct 2020 08:12:39 +0900
+5023a2c51ff55c7b2d84c8124bb258a6c28d23ff|add parameter to specify if service on keystone should be configured|Tue, 20 Oct 2020 16:40:45 +0200|Thu, 22 Oct 2020 17:36:32 +0200
+a45dd69aca3bb4af45153944f8322cabb8e951e4|Bump version for the start of Wallaby|Thu, 15 Oct 2020 09:42:49 +0800|Thu, 15 Oct 2020 09:42:49 +0800
+390cfd1f332bc110ff0dec2df18b7490453b91da|Remove api_paste_ini resource|Wed, 29 Jul 2020 08:05:37 +0900|Mon, 12 Oct 2020 10:30:49 +0000
+84f8be51aac27a6de27c05f41855b11631b04adb|Include deps class in unit test for sync|Mon, 12 Oct 2020 10:46:40 +0800|Mon, 12 Oct 2020 10:46:40 +0800
+a4386416daaaff131b35091429455edebcf8dff1|Include deps class in unit test for postgresql|Sat, 10 Oct 2020 09:31:12 +0800|Sat, 10 Oct 2020 09:31:12 +0800
+aba0cbf782d81beb0bcb34fb9ba067796d405a4b|Merge "Update master for stable/victoria"|Fri, 9 Oct 2020 07:31:04 +0000|Fri, 9 Oct 2020 07:31:04 +0000
+5e5ed9f30b4e657b299e48508d4495d1703208fd|Include deps class in unit test for mysql|Fri, 9 Oct 2020 09:59:55 +0800|Fri, 9 Oct 2020 09:59:55 +0800
+9545eea59786a2a9176ae7d8fb0d590241dfe129|Update master for stable/victoria|Thu, 8 Oct 2020 14:37:34 +0000|Thu, 8 Oct 2020 14:37:34 +0000
+a6605ade4b403d716fd2dd84e109b254d7d26b51|Prepare Victoria RC1|Thu, 24 Sep 2020 10:48:54 +0800|Thu, 24 Sep 2020 10:48:54 +0800
+431ea31c25a7fd6f00cae85e1082dd68de26a6dc|Change to Puppet Litmus|Sun, 20 Sep 2020 18:56:20 +0200|Sun, 20 Sep 2020 18:56:20 +0200
+2cf3c76ae617db58e4d74fbd83338e8e3e72a6b6|Set openstackdocs_auto_name to use 'project' as name|Wed, 16 Sep 2020 11:05:05 +0800|Wed, 16 Sep 2020 11:05:05 +0800
+ba5e354a2fbbc951be9c98d52d3c02eaa22e23c1|Prepare Victoria M3|Tue, 8 Sep 2020 09:18:03 +0800|Tue, 8 Sep 2020 09:18:03 +0800
+33c6d9ad179bc25d5915b72d45528987db9afd3b|Use openstack_spec_helper from zuul checkout|Sun, 30 Aug 2020 22:53:21 +0200|Sun, 30 Aug 2020 22:53:21 +0200
+5db94a1a65e7b284efb5c97007cafd6b7dd6e27b|Merge "Add mysql_enable_ndb option"|Thu, 27 Aug 2020 18:36:06 +0000|Thu, 27 Aug 2020 18:36:06 +0000
+b7551d7104ce23a9f998a17bf0e928d1c561dac4|Use common class to manage apache service in beaker job|Thu, 27 Aug 2020 19:29:54 +0900|Thu, 27 Aug 2020 19:29:54 +0900
+448056ebba04262568b212999fbbed8276cb4b2c|Add mysql_enable_ndb option|Wed, 26 Aug 2020 11:53:17 +0800|Wed, 26 Aug 2020 11:55:34 +0800
+bb3801835bbe58c91ee4b49d78f7fdf9a7656caf|Merge "assert_private() params and deps classes"|Sun, 2 Aug 2020 19:11:05 +0000|Sun, 2 Aug 2020 19:11:05 +0000
+e5d8c3813ef2fd6a92a999f0741f19c11f003b89|Prepare Victoria M2|Thu, 30 Jul 2020 13:35:28 +0800|Thu, 30 Jul 2020 13:35:28 +0800
+746b2480dd520712703408a64b450143a00e5dcd|Merge "Remove ceilometer::keystone::authtoken"|Mon, 27 Jul 2020 05:00:24 +0000|Mon, 27 Jul 2020 05:00:24 +0000
+3b429eca34a0d44f617da10a250762330e6169ef|assert_private() params and deps classes|Tue, 18 Jun 2019 01:10:28 +0200|Wed, 8 Jul 2020 17:52:59 +0200
+60f3d678d1d328a0db4aab127bd7c7839c7c62bf|Remove ceilometer::expirer|Sun, 5 Jul 2020 00:15:18 +0900|Sun, 5 Jul 2020 00:15:18 +0900
+2a07c94a7f1015bf7184d98f002ec6b56fc77a02|Remove ceilometer::keystone::authtoken|Sun, 5 Jul 2020 00:11:30 +0900|Sun, 5 Jul 2020 00:11:30 +0900
+81ab075cde39f738eecd4d762258fecd6fefc47e|Prepare Victoria M1|Fri, 19 Jun 2020 10:38:54 +0800|Fri, 19 Jun 2020 10:38:54 +0800
+a90a69ff146e1d690ded6033930104433295f248|Switch to newer openstackdocstheme and reno versions|Tue, 2 Jun 2020 14:32:28 +0200|Tue, 2 Jun 2020 14:33:11 +0200
+f132b4c25a7f7ab06e2c4342946fa198514bc415|Update Puppet requirement to >= 6.0.0|Sat, 30 May 2020 09:45:15 +0200|Sat, 30 May 2020 09:45:15 +0200
+2b44bcb990443f8818cfa4da4d558991716990e8|Add more oslo::cache params to init|Wed, 27 May 2020 11:33:58 +0200|Wed, 27 May 2020 11:35:14 +0200
+a02324fff410fa27dd52614b19933b60c5bfb322|Remove unnecessary puppet-rabbitmq from dependencies|Tue, 26 May 2020 22:00:24 +0900|Tue, 26 May 2020 22:00:24 +0900
+10075a5c7a31d39d94001ebf1914e1e81ca11c8f|Merge "Remove password hash generation in each puppet modules"|Wed, 20 May 2020 05:32:49 +0000|Wed, 20 May 2020 05:32:49 +0000
+f562e27069c70afa62b839de869dd7c91bd7e7f6|Remove password hash generation in each puppet modules|Tue, 19 May 2020 19:35:58 +0900|Tue, 19 May 2020 19:40:36 +0900
+e2e04a9f1542ead7a13196553a6af00ad9cc0c0f|Bump version for the start of Victoria|Thu, 14 May 2020 12:24:27 -0600|Thu, 14 May 2020 12:25:09 -0600
+8c956ab506588df73c2309a12c98863e39a88a65|Merge "[ussuri][goal] Add CONTRIBUTING.rst"|Tue, 12 May 2020 12:43:48 +0000|Tue, 12 May 2020 12:43:48 +0000
+d5756b7d9f97fd34d0526cc33882d563a3b40c9f|Bump reno to 2.5.0|Tue, 12 May 2020 10:50:06 +0800|Tue, 12 May 2020 10:50:06 +0800
+68a44d13440efadfb99f18635a4e27b490e4d6bb|Merge "Support notification/polling full config by hiera"|Mon, 11 May 2020 23:07:24 +0000|Mon, 11 May 2020 23:07:24 +0000
+64e3669b8cd13776687d05d9d780c65650e3e9a9|Merge "Add CentOS8 to nodesets"|Mon, 11 May 2020 22:33:49 +0000|Mon, 11 May 2020 22:33:49 +0000
+fa3e59e1f78ab6621e9fefca2c4e4fcba2759d24|Support notification/polling full config by hiera|Thu, 30 Apr 2020 11:38:13 +1000|Mon, 11 May 2020 11:45:16 +1000
+acdaa37d3ada3688a9e4d6b3b1edfeb6982bbb4b|[ussuri][goal] Add CONTRIBUTING.rst|Sun, 10 May 2020 22:31:33 +0200|Sun, 10 May 2020 22:31:33 +0200
+eb9780b281c1c2c38f6e8a2385a26de6ac26878d|Add CentOS8 to nodesets|Sun, 10 May 2020 21:42:15 +0900|Sun, 10 May 2020 21:42:15 +0900
+bda58c878b9541a40ca296cacec8084d0aef63d7|Merge "Deprecate ceilometer::expirer"|Mon, 4 May 2020 17:52:57 +0000|Mon, 4 May 2020 17:52:57 +0000
+669d16f1f4f0749abca41f71cc487099f58ba832|Merge "Deprecate parameter and resource for api-paste.ini"|Mon, 4 May 2020 14:11:12 +0000|Mon, 4 May 2020 14:11:12 +0000
+f8fd464e13fc5938e8f4e228f30c7d29d174fd54|Deprecate parameter and resource for api-paste.ini|Mon, 4 May 2020 03:33:07 +0900|Mon, 4 May 2020 13:40:24 +0900
+d642526108c722fbcce7c5df4a69834820dfcc93|Merge "Use anchor to require necessary packages"|Mon, 4 May 2020 01:31:32 +0000|Mon, 4 May 2020 01:31:32 +0000
+f1e98f158522560a7189df091d6d6089a7cfa5f2|Use anchor to require necessary packages|Mon, 4 May 2020 01:06:07 +0900|Mon, 4 May 2020 01:43:51 +0900
+352f9c08f639a5de8eafdcda9e8f297c23378720|Runs on Debian 10.|Sat, 2 May 2020 22:28:36 +0200|Sat, 2 May 2020 22:28:36 +0200
+8a5ec2926068f1d67775fef3eab6a6e39de34a29|Deprecate ceilometer::expirer|Wed, 29 Apr 2020 00:02:28 +0900|Fri, 1 May 2020 00:03:54 +0900
+9b56d885571d07a333dc2d938050fb342bce9351|Bump openstackdocstheme to 1.30.0|Thu, 30 Apr 2020 15:28:37 +0800|Thu, 30 Apr 2020 15:28:37 +0800
+42786ffe1a2b5ce4c87426936c518f6565838b2d|Fix rabbitmq version in metadata|Thu, 30 Apr 2020 14:04:44 +0800|Thu, 30 Apr 2020 14:04:44 +0800
+6fa9896876d1ef38f64160459233d0dbf145638e|Change rpsec to rspec|Thu, 30 Apr 2020 13:24:45 +0800|Thu, 30 Apr 2020 13:24:45 +0800
+f6563cb4dee4bd33cab16a538c86375257ea53c2|Update master for stable/ussuri|Tue, 28 Apr 2020 14:49:32 +0000|Tue, 28 Apr 2020 14:49:32 +0000
+ffed06ca430597a38849bf4ee39251d2c22cab46|Prepare Ussuri RC1|Fri, 24 Apr 2020 14:23:09 +0800|Fri, 24 Apr 2020 14:23:09 +0800
+423190d13ac1179f28d09f0af986cb8e6f97a285|Prepare Ussuri M3 again|Mon, 13 Apr 2020 23:52:58 +0900|Mon, 13 Apr 2020 23:52:58 +0900
+fc873267aaaf5628801c47b32ab6b7f82840cff6|Resolve duplicated requirement names in metadata|Mon, 13 Apr 2020 22:40:57 +0900|Mon, 13 Apr 2020 22:40:57 +0900
+0106a731038791cf2580185a3eaf1df46d6dfcdf|Merge "Deprecate ceilometer::keystone::authtoken"|Tue, 7 Apr 2020 21:39:32 +0000|Tue, 7 Apr 2020 21:39:32 +0000
+0befdba12408242a8b797a00896ebb2cd07f0aab|Deprecate ceilometer::keystone::authtoken|Tue, 7 Apr 2020 21:46:12 +0900|Tue, 7 Apr 2020 21:48:18 +0900
+5dff1a86787f3954939bb7163509e3d04bc3e128|Prepare Ussuri M3|Tue, 7 Apr 2020 09:21:15 +0800|Tue, 7 Apr 2020 09:21:15 +0800
+03315e95febe6dec7727fc77c4903904183d7bcf|Merge "Add CentOS 8 and Puppet 6 in metadata"|Tue, 31 Mar 2020 14:36:24 +0000|Tue, 31 Mar 2020 14:36:24 +0000
+533f52f2a9904cb3256781bd958a17da25f6f95f|Update mysql module to <11.0.0|Mon, 30 Mar 2020 09:59:11 +0200|Mon, 30 Mar 2020 09:59:11 +0200
+1bf03105f8481013124952850cbef50b4396125e|Add CentOS 8 and Puppet 6 in metadata|Mon, 30 Mar 2020 09:17:41 +0200|Mon, 30 Mar 2020 07:43:43 +0000
+8a21f3b5b57d34f59ea284a2f1eef6d64dc76614|Deprecate min_pool_size option|Wed, 25 Mar 2020 14:53:40 +0800|Wed, 25 Mar 2020 14:53:40 +0800
+d6265c7b45f20148e78bcc4970b546ddc461ddd6|Remove idle_timeout option|Mon, 23 Mar 2020 14:45:48 +0800|Mon, 23 Mar 2020 14:45:48 +0800
+5504f63803bae554873fe97a78194e4c259223aa|[ussuri][goal] Cleanup for python 2.7 drop|Sat, 15 Feb 2020 18:39:11 -0600|Sat, 15 Feb 2020 18:42:57 -0600
+4ae0f7e8849e401f39aef09c80bce27e5d86e392|Prepare Ussuri M2|Thu, 13 Feb 2020 14:21:29 +0800|Thu, 13 Feb 2020 14:21:29 +0800
+a8de27f86dda29916c93b144a06a6ece587c5c5f|Fix stdlib version in metadata|Wed, 11 Dec 2019 11:53:02 +0800|Wed, 11 Dec 2019 11:53:02 +0800
+917bf0688e6f136bc73819966c583c3d6247d818|Prepare Ussuri M1|Tue, 10 Dec 2019 14:24:48 +0800|Tue, 10 Dec 2019 14:24:48 +0800
+74fe1d927fce4ed1cfc01e866f0b481156bc3d54|Convert all class usage to relative names|Sun, 8 Dec 2019 15:20:50 +0100|Sun, 8 Dec 2019 15:20:50 +0100
+f289344487662b8d23deb0e48ceb45dd72c616d3|Add executor_thread_pool_size|Wed, 13 Nov 2019 17:33:20 +1100|Wed, 13 Nov 2019 17:51:24 +1100
+c5807a735e82b0cc258aa42d4520b1f64a7afa53|Fix rabbitmq dependency|Tue, 29 Oct 2019 09:31:04 +0800|Tue, 29 Oct 2019 09:31:04 +0800
+75f614b12312e7709329362e4f42e760e8be4a5a|Change notification ack_on_event_error to service default|Mon, 21 Oct 2019 17:13:11 +0200|Mon, 21 Oct 2019 17:13:11 +0200
+fecdf5818e9a4d20644c7fc7ef30a01ce0938ebd|Update master for stable/train|Fri, 4 Oct 2019 13:22:38 +0000|Fri, 4 Oct 2019 13:22:38 +0000
+71698a1ed365d69eaa02cb84e279e95c42ffd935|Merge "Update the constraints url"|Fri, 27 Sep 2019 02:44:19 +0000|Fri, 27 Sep 2019 02:44:19 +0000
+64b5df0feba2cdb0bc38541482680eff5b59de35|Update the constraints url|Thu, 26 Sep 2019 11:38:57 +0800|Thu, 26 Sep 2019 11:41:45 +0800
+edcc50f15cebde2616c3af2bfc5198173ad7fd8c|Prepare Train RC1|Wed, 25 Sep 2019 13:45:42 +0800|Wed, 25 Sep 2019 13:45:42 +0800
+2b4bf2cd72a39de91be608bb075d3d071e1e3c88|Prepare Train M4|Thu, 5 Sep 2019 09:04:48 +0800|Thu, 5 Sep 2019 09:04:48 +0800
+2bc879129acbacc757a89a83b931f3ca80a17953|Merge "Introduce the new rabbit_heartbeat_in_pthread option"|Thu, 22 Aug 2019 03:15:22 +0000|Thu, 22 Aug 2019 03:15:22 +0000
+803e4ac363b281fa0b5b97c550b5bd839d2b35e7|Introduce the new rabbit_heartbeat_in_pthread option|Wed, 21 Aug 2019 14:21:00 +0800|Wed, 21 Aug 2019 14:22:50 +0800
+cba7e5554498a61e02a75c08163e24a54baea7e1|Merge "Remove deprecated params and agents"|Wed, 21 Aug 2019 01:28:28 +0000|Wed, 21 Aug 2019 01:28:28 +0000
+ddf478bc55027daaec964add8fb82b672db889db|Remove deprecated params and agents|Tue, 20 Aug 2019 10:22:48 +0200|Tue, 20 Aug 2019 10:22:48 +0200
+d10a6d9c28dea8d4e8ce515844dcb3fea8027652|Remove gnocchi dispatcher|Tue, 20 Aug 2019 10:14:44 +0200|Tue, 20 Aug 2019 10:14:44 +0200
+7949e78c68b6ad1e55357e923cdf7dd23953d2a6|Remove deprecated pki related options|Thu, 15 Aug 2019 11:51:37 +0800|Thu, 15 Aug 2019 11:51:37 +0800
+a5ca4e110dfb4acfbaa2385c94c174a9c242ba38|Bump the openstackdocstheme extension to 1.20|Tue, 13 Aug 2019 11:29:06 +0800|Tue, 13 Aug 2019 11:29:06 +0800
+6f69b2b9245da2995d0e63be8f2067c20a849766|Sync Sphinx requirement|Wed, 7 Aug 2019 09:10:08 +0800|Wed, 7 Aug 2019 09:10:08 +0800
+654c30441bae6256535c913d7b9bc79a739d7e10|Prepare Train M3|Wed, 24 Jul 2019 16:19:32 +0800|Wed, 24 Jul 2019 16:19:32 +0800
+3518ee931631aff41b1dc7c29943422d247c6e8d|Prepare Train M2|Wed, 5 Jun 2019 09:40:16 +0800|Mon, 10 Jun 2019 10:01:35 +0800
+c7415121fc6e6a803b9a163516f5de4f91e98f28|Deprecate idle_timeout option|Sun, 28 Apr 2019 15:00:06 +0800|Sun, 28 Apr 2019 16:56:50 +0800
+cc4d71253b2ac6cea08be54289e974c2ea8d7540|Move to opendev|Sun, 21 Apr 2019 14:44:48 +0800|Sun, 21 Apr 2019 14:44:48 +0800
+9b19532cf083d66939c6ca3da0fa764a1bef89e8|Fix Repository|Sun, 21 Apr 2019 12:59:08 +0800|Sun, 21 Apr 2019 12:59:08 +0800
+9e2673dfaf587a83368f9483c7744bb3a28b3dc0|Replace git.openstack.org with opendev.org/openstack|Sun, 21 Apr 2019 11:50:26 +0800|Sun, 21 Apr 2019 11:50:26 +0800
+47bef667f2e3ef822f6494139cb7b566954ac653|OpenDev Migration Patch|Fri, 19 Apr 2019 19:45:43 +0000|Fri, 19 Apr 2019 19:45:43 +0000
+7cc36a2d7105fa5b1daf8bbbe236506a0a5de6d1|Add Beaker-Rspec to the table of contents|Wed, 17 Apr 2019 09:42:43 +0800|Wed, 17 Apr 2019 09:42:43 +0800
+1f4e7939aa96247215f6c7e80763b64fd34a71df|Merge "Bump version for the start of Train"|Mon, 25 Mar 2019 14:15:05 +0000|Mon, 25 Mar 2019 14:15:05 +0000
+91e1a086513dedb2d3d578011c42f5423b8463a8|Merge "Correct cafile directive for service_credentials"|Mon, 25 Mar 2019 14:15:05 +0000|Mon, 25 Mar 2019 14:15:05 +0000
+55d998f974ad747f8e793bd9a1c370f4246b8523|Bump version for the start of Train|Mon, 25 Mar 2019 07:25:24 -0600|Mon, 25 Mar 2019 07:25:50 -0600
+9508fe1b5bf3ee69faa24b0ca21af499fbf3f271|Correct cafile directive for service_credentials|Sun, 10 Mar 2019 21:53:42 +0100|Sun, 24 Mar 2019 00:19:55 +0100
+48d77bb18a8ca34011e68c7c91fafd5290a9d6d7|Update master for stable/stein|Fri, 22 Mar 2019 16:45:49 +0000|Fri, 22 Mar 2019 16:45:49 +0000
+f47e88dcca4b0c335378e965e3ed60078e40a0e5|Prepare Stein RC1|Mon, 18 Mar 2019 10:38:12 +0800|Mon, 18 Mar 2019 10:38:12 +0800
+201f379a43314dd354fee21a4c894e195708c4d5|Add log_file parameter|Tue, 12 Mar 2019 10:37:37 +0800|Tue, 12 Mar 2019 10:37:37 +0800
+76ad8f6dbcb82d9389ca914d462f02a947d264a3|Prepare Stein M3|Wed, 6 Mar 2019 14:55:41 +0800|Wed, 6 Mar 2019 14:55:41 +0800
+61a46adfd30ca10cd8bdfd5361dcf1081998cd18|Merge "Change keystone v2.0 url to v3"|Tue, 26 Feb 2019 01:42:49 +0000|Tue, 26 Feb 2019 01:42:49 +0000
+08cf1a14adb021c49a2275a4e9bebabf4cee9f62|Merge "Use validate_legacy"|Mon, 25 Feb 2019 22:59:51 +0000|Mon, 25 Feb 2019 22:59:51 +0000
+ffb374cbee0d69ff513663a5c616eddf62d6ec4d|Merge "Add release note about Ubuntu py3 upgrade"|Mon, 25 Feb 2019 17:52:27 +0000|Mon, 25 Feb 2019 17:52:27 +0000
+d1b6cd492b014b7a71f9c156d0656fbb61afd871|Change keystone v2.0 url to v3|Sun, 24 Feb 2019 01:49:40 +0100|Sun, 24 Feb 2019 01:49:40 +0100
+5616321fbf4d779ee4c87b8fd8ca62f638fd1d6b|Add release note about Ubuntu py3 upgrade|Sat, 23 Feb 2019 23:55:22 +0100|Sat, 23 Feb 2019 23:15:06 +0000
+0ad4f6296db0a0b31d861ede9e15157cf265c0bd|Service_token_roles_required missing in the server config file|Fri, 15 Feb 2019 10:02:59 +0800|Fri, 15 Feb 2019 10:02:59 +0800
+8e594d094bf8680d1720c9eb40eb18b0cc5fd0b5|Change wiki to docs|Wed, 13 Feb 2019 10:31:04 +0800|Wed, 13 Feb 2019 10:31:04 +0800
+83d1a116831ec683ad74fc9164cb3c9a891854fa|Merge "Use puppet 4 compatible mysql functions"|Mon, 11 Feb 2019 21:19:46 +0000|Mon, 11 Feb 2019 21:19:46 +0000
+8cae2679514a967100ccec11bf42bd7b901cb1ac|Merge "Remove Ubuntu Xenial from metadata.json"|Mon, 11 Feb 2019 20:27:29 +0000|Mon, 11 Feb 2019 20:27:29 +0000
+28afa466d74fffa567bbad12ec164ae097fd963a|Use validate_legacy|Sun, 10 Feb 2019 13:47:02 +0100|Sun, 10 Feb 2019 13:47:02 +0100
+2727fa248da612d0823de8e35381df07985d9170|Use puppet 4 compatible mysql functions|Fri, 8 Feb 2019 11:56:47 +0100|Fri, 8 Feb 2019 11:56:47 +0100
+766a7faae79d7347704d514147dfa3d5a186ad8d|Remove Ubuntu Xenial from metadata.json|Fri, 8 Feb 2019 11:23:31 +0100|Fri, 8 Feb 2019 11:23:31 +0100
+be78b483ae28e1c7631b72283d796d75942054db|Fix lint issue|Fri, 25 Jan 2019 12:23:42 +0800|Fri, 25 Jan 2019 12:23:42 +0800
+714ccfec35a903268d79e75b4bb4d1c459c5560d|Merge "Update Prefixes."|Fri, 18 Jan 2019 17:30:23 +0000|Fri, 18 Jan 2019 17:30:23 +0000
+a28cb64fb0cb17099e74f629db544442a22612d5|Remove redundantly tested code|Thu, 17 Jan 2019 22:15:10 +0100|Thu, 17 Jan 2019 22:16:08 +0100
+8cc46892b5d9be92f806a77592776e0decae589e|Update Prefixes.|Tue, 15 Jan 2019 16:27:20 +0000|Tue, 15 Jan 2019 16:52:13 +0000
+ca0e3a01edaf2db09e689fa47f905b2caa24b705|Modify puppet version 4 to 5|Tue, 15 Jan 2019 10:11:18 +0800|Tue, 15 Jan 2019 10:11:18 +0800
+d262eed3cf88d3881134900839a0097f989147da|Prepare Stein M2|Thu, 10 Jan 2019 09:24:05 +0800|Thu, 10 Jan 2019 09:24:05 +0800
+8453d0b67cacd7acda39a263c6f5006e88edb9e3|Add rabbitmq dependency|Tue, 25 Dec 2018 15:16:34 +0800|Tue, 25 Dec 2018 15:16:34 +0800
+4b2810887b831be50ac28823e228e6d58cb893ff|Fix editorial problem|Mon, 24 Dec 2018 14:02:25 +0800|Mon, 24 Dec 2018 14:02:25 +0800
+1e6f2c2ec3f62c8fcfdb66b01a0ae00ccb0cfb73|Cleanup documentation|Thu, 13 Dec 2018 17:10:01 +0800|Thu, 13 Dec 2018 17:10:01 +0800
+3880135d67a66cf2d943abeca870c0ce38b486c1|Merge "Remove deprecated logging"|Wed, 12 Dec 2018 02:11:24 +0000|Wed, 12 Dec 2018 02:11:24 +0000
+c34604974e1e935d708cda78fd656e9d0c2d46a3|Merge "Remove auth_uri"|Wed, 12 Dec 2018 02:11:23 +0000|Wed, 12 Dec 2018 02:11:23 +0000
+c69a8fb0ba5601f2cfad3e9a859bdbea3824649b|Change openstack-dev to openstack-discuss|Sun, 2 Dec 2018 18:19:32 +0100|Sun, 2 Dec 2018 18:19:32 +0100
+5caabd1e65ee0ca13e8d8a385340f6a71ccd53b5|Remove deprecated logging|Thu, 29 Nov 2018 09:58:25 +0100|Sat, 1 Dec 2018 15:58:16 +0100
+9ca733a8d775fd498197ebb3e3446dde47a03a34|Remove auth_uri|Thu, 29 Nov 2018 00:07:08 +0100|Sat, 1 Dec 2018 15:52:40 +0100
+fccb52b246fce1d98023e8d7fd741f9c909cba7e|Merge "deprecate pki related options"|Thu, 29 Nov 2018 15:09:49 +0000|Thu, 29 Nov 2018 15:09:49 +0000
+6e5261868a59ae7f05a20b22f4e7bc66bce067ef|deprecate pki related options|Thu, 22 Nov 2018 11:31:55 +0800|Fri, 23 Nov 2018 10:20:34 +0800
+3be5f50d4b20387be0b42cca48a78f62658f279f|fix mistakes|Thu, 22 Nov 2018 20:06:15 +0800|Thu, 22 Nov 2018 20:07:27 +0800
+a46ab4e1464fc0e671d0ccae3f10c11cb667ff38|Prepare Stein M1|Tue, 13 Nov 2018 14:53:18 +0800|Tue, 13 Nov 2018 14:53:18 +0800
+7b727f3d920b7766db6641258f3abba85fe37236|Fix stdlib version in metadata|Fri, 9 Nov 2018 14:56:37 +0800|Fri, 9 Nov 2018 14:56:37 +0800
+4ad1e23b846fbfd1e9038eccc85b27f1ac8b7a27|Fix gnocchi examples file|Sun, 21 Oct 2018 12:06:07 +0200|Sun, 21 Oct 2018 12:06:07 +0200
+955964ff09287ab135e6b7266a821b567db11146|Update min tox version to 2.0|Tue, 16 Oct 2018 11:40:17 +0800|Tue, 16 Oct 2018 11:43:51 +0800
+aeaa92b2cb4636c0fdf24bfd4b8da38931036681|Dissuade .gitignore references to personal tools|Mon, 8 Oct 2018 11:39:23 +0800|Mon, 8 Oct 2018 11:39:23 +0800
+983685e86f2b4d14ca19088c65b75d1de8f0a19e|Merge "Add the missing 'Table of Contents'"|Sat, 8 Sep 2018 14:37:34 +0000|Sat, 8 Sep 2018 14:37:34 +0000
+858747dca7a30282365832d51f983005bca24f53|Merge "switch documentation job to new PTI"|Fri, 31 Aug 2018 23:26:57 +0000|Fri, 31 Aug 2018 23:26:57 +0000
+1e329d38a3355bcd4ce7d36a9c9db03a31f55187|Merge "import zuul job settings from project-config"|Fri, 31 Aug 2018 23:21:31 +0000|Fri, 31 Aug 2018 23:21:31 +0000
+37a963380bad5e86def28930f586a9cf14ea11bc|switch documentation job to new PTI|Fri, 31 Aug 2018 08:24:33 -0400|Fri, 31 Aug 2018 08:24:33 -0400
+0304ac8f3882750151507ea5a953dacc5152feec|import zuul job settings from project-config|Fri, 31 Aug 2018 08:16:02 -0400|Fri, 31 Aug 2018 08:16:02 -0400
+cd7cc78861c061d60bb67f09f0dfab88c7102f19|Bump version for the start of Stein|Thu, 30 Aug 2018 12:08:29 -0600|Thu, 30 Aug 2018 12:08:52 -0600
+d20b97bcf617d9743105361012c8a85b9019cae0|Add the missing 'Table of Contents'|Mon, 27 Aug 2018 14:13:25 +0000|Mon, 27 Aug 2018 14:13:25 +0000
+baac38bfe5c39bf85c1ac6745dbf5300b5397e52|Update reno for stable/rocky|Mon, 20 Aug 2018 18:32:46 +0000|Mon, 20 Aug 2018 18:32:46 +0000
+672fc1a6c0a417afd25f7d7021285af26f5a29fc|Remove PE requirement from metadata.json|Thu, 16 Aug 2018 23:12:48 +0200|Thu, 16 Aug 2018 23:12:48 +0200
+ef9c82f4ad7eea9a731196525b04d61c5115d389|Prepare Rocky RC1|Tue, 14 Aug 2018 08:56:16 -0600|Tue, 14 Aug 2018 08:56:40 -0600
+ebf95cf30385ce4133163aed470e97de50d40eb4|Reorganize that 'Release Notes' in README|Sat, 28 Jul 2018 14:46:34 +0000|Sat, 28 Jul 2018 14:47:00 +0000
+f92846f568aba6fe61a03df87ff4512144806179|Remove the unnecessary _|Wed, 25 Jul 2018 11:01:49 +0800|Wed, 25 Jul 2018 11:02:17 +0800
+85e3dd96940a1e81cc48910e24df07f5f8301d42|Merge "Prepare Rocky M3"|Tue, 24 Jul 2018 21:45:15 +0000|Tue, 24 Jul 2018 21:45:15 +0000
+e43eb4b42b331d0d3bbcbe9c788dbef8b37d6ad6|Merge "Add support to customize polling meters"|Tue, 24 Jul 2018 21:45:15 +0000|Tue, 24 Jul 2018 21:45:15 +0000
+e313371bfde07625a15c44ab32200f46096c29cb|Merge "Add the project source code repository in README"|Tue, 24 Jul 2018 20:33:45 +0000|Tue, 24 Jul 2018 20:33:45 +0000
+9f0403ebc80dcec5acbb01b4dee11f3564a0c4b0|Prepare Rocky M3|Tue, 24 Jul 2018 10:17:04 -0600|Tue, 24 Jul 2018 10:17:52 -0600
+f236f531df8f342c475973620e3f3913399dc2c0|Add support to customize polling meters|Mon, 23 Jul 2018 22:21:21 +0200|Tue, 24 Jul 2018 12:16:05 +0200
+dfe9385457b4b4e453ff3d372cee0ea622b8a69f|Merge "Fix OS versions in metadata"|Mon, 23 Jul 2018 12:44:32 +0000|Mon, 23 Jul 2018 12:44:32 +0000
+71d9e028e1089debe4519b35e51874c897031269|Add the project source code repository in README|Fri, 20 Jul 2018 14:31:14 +0800|Fri, 20 Jul 2018 14:32:06 +0800
+429b6a21fac139bcdf787036a9f8df6c018a6493|modulesync: sync and add nodepool-bionic for beaker|Wed, 18 Jul 2018 16:17:13 +0200|Wed, 18 Jul 2018 16:17:13 +0200
+77581b0cfd2d9261126088c77f1aff75b85db36f|Fix OS versions in metadata|Wed, 18 Jul 2018 15:59:01 +0700|Wed, 18 Jul 2018 15:59:01 +0700
+9535a03b4202e4d913a91ca8fa040d0286f37f12|Merge "Debian release is 9 in metadata"|Mon, 16 Jul 2018 15:49:26 +0000|Mon, 16 Jul 2018 15:49:26 +0000
+ce4d9109626a1f432599d1a7bda13209baf5e353|Fix inifile version in metadata|Mon, 16 Jul 2018 14:59:24 +0800|Mon, 16 Jul 2018 14:59:24 +0800
+c7ede0e4b82ce9e99310528b97abe4dbd9712f31|Debian release is 9 in metadata|Thu, 12 Jul 2018 21:44:13 +0800|Thu, 12 Jul 2018 21:47:19 +0800
+89e8b12108568cc793db7fec6024cd8ab80da237|Merge "Fix apache version in metadata"|Sun, 1 Jul 2018 10:20:31 +0000|Sun, 1 Jul 2018 10:20:31 +0000
+719788aa4f9d9c73869f98745babe4eedeaf0578|Merge "use correct warning message for deprecation of agent::central"|Fri, 29 Jun 2018 10:33:42 +0000|Fri, 29 Jun 2018 10:33:42 +0000
+36cfb44f5d436a530a129d542fdae762dcaecc99|Fix apache version in metadata|Thu, 28 Jun 2018 23:09:35 +0200|Thu, 28 Jun 2018 23:10:09 +0200
+9f670ce767b0c7a98c961c62e26dec51f4fa6e4a|use correct warning message for deprecation of agent::central|Thu, 28 Jun 2018 10:37:21 +0200|Thu, 28 Jun 2018 10:38:13 +0200
+edc49fde1095b93c6ec0e91b7268a036a9aa31b6|Merge "Deprecated ceilometer::dispatcher::gnocchi"|Wed, 27 Jun 2018 16:08:57 +0000|Wed, 27 Jun 2018 16:08:57 +0000
+3be918b568b38393fee12e0c8d991dcb6b2e4496|Merge "Deprecate time_to_live options"|Wed, 27 Jun 2018 16:08:57 +0000|Wed, 27 Jun 2018 16:08:57 +0000
+6366ed47c84e815f266b27e864ad9ed4844d7f28|Merge "Fix deprecation warning message"|Wed, 27 Jun 2018 16:02:26 +0000|Wed, 27 Jun 2018 16:02:26 +0000
+0b1f3785c1c8c7bfc4639420e718cf268442544b|Add release note link in README|Wed, 27 Jun 2018 21:49:56 +0800|Wed, 27 Jun 2018 21:50:35 +0800
+d54585f517052d1e322ece308cc864e682ef2f8d|Deprecate time_to_live options|Mon, 25 Jun 2018 15:43:25 +0200|Wed, 27 Jun 2018 13:00:02 +0200
+5cbdc9e890035ff1940b7bbb69323b3a491fab8a|Deprecated ceilometer::dispatcher::gnocchi|Mon, 25 Jun 2018 13:41:37 +0200|Wed, 27 Jun 2018 10:48:08 +0200
+8bc3e823d9f06433027c128d521066926ac1f2da|Fix deprecation warning message|Mon, 25 Jun 2018 09:57:17 +0200|Mon, 25 Jun 2018 09:57:46 +0200
+da9e7085189d88bc9aca989157f2a914606a2686|Fix annotations|Fri, 15 Jun 2018 15:07:36 +0800|Fri, 15 Jun 2018 15:07:36 +0800
+638605f521ca8ee3ef169823247b16912cc222b1|Merge "Remove deprecated parameters"|Wed, 13 Jun 2018 02:42:00 +0000|Wed, 13 Jun 2018 02:42:00 +0000
+7ba0dd422fc9d06549a0fd3eba562357f56e1779|Remove deprecated parameters|Sun, 20 May 2018 00:10:33 +0200|Tue, 12 Jun 2018 09:58:48 +0200
+bbe8df55cd1c998acfb207e1d09e690a5112cff2|fix tox python3 overrides|Fri, 8 Jun 2018 14:23:31 +0800|Fri, 8 Jun 2018 14:23:31 +0800
+e2a4f8ef6fc73b10c1a8916b7906ac87cb2ff6a3|Prepare a new Rocky release|Tue, 5 Jun 2018 09:43:25 -0700|Tue, 5 Jun 2018 09:44:12 -0700
+6159763e95cf7bcb68c4eaaf673ca5b872721a88|Merge "Replace port 35357 with 5000"|Mon, 28 May 2018 04:53:15 +0000|Mon, 28 May 2018 04:53:15 +0000
+5650855f4db7e8000bfc3b583f1beeab40b98dcf|Replace port 35357 with 5000|Sun, 13 May 2018 00:30:13 +0800|Sun, 13 May 2018 00:32:30 +0800
+d99517b6b0ac53865d1297dce4da8876e849c6e7|neat: missing : in $::os_service_default|Fri, 11 May 2018 14:02:39 +0800|Fri, 11 May 2018 14:02:39 +0800
+766ca6ded0508585df0b5da06a6a8ff5a9190a3b|Merge "Deprecate auth_uri option"|Thu, 3 May 2018 18:24:41 +0000|Thu, 3 May 2018 18:24:41 +0000
+ba317b2fd17299e501cd055883e6b33517305f7c|Merge "fix a typo: s/allowd/allowed/"|Sun, 29 Apr 2018 21:17:05 +0000|Sun, 29 Apr 2018 21:17:05 +0000
+d0b64072b5efce0f6011c285fcb86be1881a9f6c|Merge "Missing deps for config.pp unit test"|Mon, 23 Apr 2018 16:43:31 +0000|Mon, 23 Apr 2018 16:43:31 +0000
+402734915d5ce1cad021b0f7d9e17b891b35fe85|Merge "Fix unit test for config.pp"|Mon, 23 Apr 2018 16:41:58 +0000|Mon, 23 Apr 2018 16:41:58 +0000
+4bf8d7668e5ae90bbbe9b6693827e8a6624b491c|Prepare Rocky M1|Thu, 19 Apr 2018 08:54:36 -0600|Thu, 19 Apr 2018 08:55:47 -0600
+708aa692ddb78daf43a0191e6a889c3d5811524e|fix a typo: s/allowd/allowed/|Thu, 19 Apr 2018 10:55:19 +0000|Thu, 19 Apr 2018 10:55:38 +0000
+d230f265fcc735821587cdd10a214a35820b3a36|Missing deps for config.pp unit test|Thu, 19 Apr 2018 09:13:38 +0800|Thu, 19 Apr 2018 09:18:24 +0800
+3fbe51b6a78ba8ad69f1e52e7496ac7b6f5a3317|Fix unit test for config.pp|Thu, 19 Apr 2018 09:12:30 +0800|Thu, 19 Apr 2018 09:12:59 +0800
+0bd92ad4d579cc09e7a343b1939f83d1b6fa3b5d|Update .gitignore|Wed, 11 Apr 2018 08:43:42 +0800|Wed, 11 Apr 2018 08:55:10 +0800
+ff451da3e7c15958482e9290490b47411eb0466f|Update LICENSE|Fri, 6 Apr 2018 10:18:53 +0800|Fri, 6 Apr 2018 20:14:08 +0800
+54aa99c544e0c1fb2ad813a92fbb5a61d2717391|Deprecate auth_uri option|Tue, 3 Apr 2018 16:54:59 +0800|Wed, 4 Apr 2018 16:15:14 +0800
+49d53d4c67e2aefde09c246ad6d4884add852670|Add cinder metrics to polling.yaml|Sun, 1 Apr 2018 15:54:48 +0200|Sun, 1 Apr 2018 15:54:48 +0200
+6955b22bd27b1f678b811c707ca36f4488918736|Merge "Remove wsgi"|Wed, 28 Mar 2018 18:12:37 +0000|Wed, 28 Mar 2018 18:12:37 +0000
+ac9edcb172d2efae23f26703a3776e6574289eb3|Remove deprecated keystone authtoken revocation_cache_time option|Tue, 27 Mar 2018 10:33:20 +0800|Tue, 27 Mar 2018 10:33:20 +0800
+6cff354d93e0134a8dcdd1cde20ff3363a43cb5a|Merge "Add pool_timeout option"|Mon, 26 Mar 2018 18:56:56 +0000|Mon, 26 Mar 2018 18:56:56 +0000
+ba978b8947df36ffb8a2c8fb10f950b0f23e878e|Remove wsgi|Mon, 26 Mar 2018 14:44:59 +0800|Mon, 26 Mar 2018 15:15:51 +0800
+091a8a15b463be3bc564cfb2daa36fe864e4ec3a|fix typos in documentation|Fri, 23 Mar 2018 06:28:30 +0800|Fri, 23 Mar 2018 06:28:30 +0800
+eeac98468176aadc8168317230084bfc5c096f1d|Merge "Remove deprecated metering_secret option"|Thu, 22 Mar 2018 21:54:28 +0000|Thu, 22 Mar 2018 21:54:28 +0000
+03db4e5145a5b554742ec6515dabda39cf1dac3c|Add pool_timeout option|Thu, 22 Mar 2018 11:09:50 +0800|Thu, 22 Mar 2018 11:09:50 +0800
+29b45e8ab544282e71ff817151a8769c3bb2acfb|Switch acceptance test to use integration classes|Tue, 20 Mar 2018 13:57:30 +0800|Tue, 20 Mar 2018 14:23:56 +0800
+f28830d5aae8021215026bdf2f63a8713b7deeb1|Remove deprecated metering_secret option|Tue, 20 Mar 2018 14:03:51 +0800|Tue, 20 Mar 2018 14:03:51 +0800
+c7b7671f973b7df8b7bc5fc10ba633010a726545|Add oslo::cache to dependency chain|Fri, 16 Mar 2018 09:07:09 +0800|Fri, 16 Mar 2018 09:12:39 +0800
+e112d00c32d75976b31167c731eb3656d13e7934|Remove useless code|Wed, 14 Mar 2018 17:00:50 +0800|Wed, 14 Mar 2018 17:00:50 +0800
+d44ea974b953d008ecd9a9119946613059b796cf|Merge "Add 'openstack-db' tag to db-sync Exec resource"|Tue, 13 Mar 2018 15:46:12 +0000|Tue, 13 Mar 2018 15:46:12 +0000
+9964140c437b725a4dad3cf727afac028382a80b|Merge "Fix mysql connection"|Tue, 13 Mar 2018 06:35:49 +0000|Tue, 13 Mar 2018 06:35:49 +0000
+bdbf6614e1fe5f78e58786498956815e48890a27|Add 'openstack-db' tag to db-sync Exec resource|Mon, 12 Mar 2018 16:33:06 +0800|Mon, 12 Mar 2018 16:33:06 +0800
+b6a61b9f39e3daa565010e2b70878c84dc059bf2|Merge "Follow the new PTI for document build"|Mon, 5 Mar 2018 09:49:27 +0000|Mon, 5 Mar 2018 09:49:27 +0000
+76bce0ada4dbb0b59f4936ef4f9a6d76f82066f0|Fix mysql connection|Mon, 5 Mar 2018 08:51:30 +0800|Mon, 5 Mar 2018 08:57:27 +0800
+e985087545cf116ea30a8d270e4adb11aa86f994|Do not skip gnocchi resource type creation by default in db::sync|Wed, 28 Feb 2018 15:20:47 +0100|Wed, 28 Feb 2018 23:33:56 +0000
+386e5f035e98efd27f52fb34a7ed7ebca788165e|Follow the new PTI for document build|Wed, 28 Feb 2018 14:42:10 +0800|Wed, 28 Feb 2018 14:52:03 +0800
+396b3d7dc9d3ea9e76851a72204e8aabc6271278|Merge "Remove store_events option"|Tue, 27 Feb 2018 16:10:06 +0000|Tue, 27 Feb 2018 16:10:07 +0000
+c53c5424e2fe4895ee9de1789e65b539169b8a43|Remove store_events option|Wed, 7 Feb 2018 14:15:37 +0800|Tue, 27 Feb 2018 00:35:38 +0000
+bc832afbfdc0dea61caebd1dbe8d5eecae84686a|Remove deprecated ceilometer alarm classes|Wed, 7 Feb 2018 14:40:28 +0800|Tue, 27 Feb 2018 00:35:27 +0000
+41825ec5d4635968ec792e5ad810ad28f985807f|Update reno for stable/queens|Tue, 20 Feb 2018 22:10:12 +0000|Tue, 20 Feb 2018 22:10:12 +0000
+15b01a18c6c7d5919c559259ddefa51e99b8f65c|Prepare for official Queens release|Mon, 19 Feb 2018 12:37:51 -0500|Mon, 19 Feb 2018 12:38:27 -0500
+f3a0c3923fcb5c1b3e49cbe4c9a0333970df42f1|Merge "Add some kombu options"|Tue, 13 Feb 2018 19:53:19 +0000|Tue, 13 Feb 2018 19:53:19 +0000
+ea76c217eb5f3674bf35614671c1eeaad5526ec9|Merge "Load puppet-openstack_spec_helper locally during tests"|Mon, 12 Feb 2018 17:57:33 +0000|Mon, 12 Feb 2018 17:57:33 +0000
+4ba2952d3598aa4e65f3599a424f5e1cec6b6927|Load puppet-openstack_spec_helper locally during tests|Mon, 12 Feb 2018 10:53:34 +0800|Mon, 12 Feb 2018 10:53:34 +0800
+25f34eb492e6f6b98209c79a28452cf6558e7579|Remove ceilometer api class related parameters in params.pp|Sun, 11 Feb 2018 11:23:45 +0800|Sun, 11 Feb 2018 11:28:07 +0800
+a5b9a060eb57d9fd345b33c90d43205e9814e8f3|Add some kombu options|Fri, 9 Feb 2018 14:09:58 +0800|Fri, 9 Feb 2018 14:14:14 +0800
+7ecb339928afd0c6e17960b2561c73f552e5189b|Remove ceilometer api class|Wed, 7 Feb 2018 14:25:44 +0800|Wed, 7 Feb 2018 14:29:36 +0800
+f5a8aa7ddc943e49fb75eb920fb6264350ae3958|Zuul: Remove project name|Mon, 29 Jan 2018 02:09:32 +0800|Mon, 29 Jan 2018 02:09:32 +0800
+489db857ea212e63ea4c7dd2ce607254a6625e59|Merge "Remove url option"|Mon, 22 Jan 2018 14:38:30 +0000|Mon, 22 Jan 2018 14:38:30 +0000
+84122796373412bab2615483ab5240ee9273462b|Merge "Remove pinned versions from test-requirements.txt"|Wed, 17 Jan 2018 13:59:45 +0000|Wed, 17 Jan 2018 13:59:45 +0000
+2420ac33cb96fa56d15d392782e9fec70cf674ad|Prepare for Queens Milestone 3|Tue, 16 Jan 2018 15:51:09 -0800|Wed, 17 Jan 2018 13:35:37 +0000
+0aee614a7e2f7e2068e707e526e09dfccd274258|Remove url option|Wed, 17 Jan 2018 16:57:22 +0800|Wed, 17 Jan 2018 16:57:22 +0800
+a9474aa5afa53acfa7048d4d0f1c04c3ed401828|Remove pinned versions from test-requirements.txt|Tue, 16 Jan 2018 10:11:48 +0800|Tue, 16 Jan 2018 11:59:31 +0800
+994e23c29784ed03b0fa1e871f365860e0d6ed9e|Add use_journal option for logging configuration|Mon, 15 Jan 2018 15:27:54 +0800|Mon, 15 Jan 2018 17:20:08 +0800
+f03bc45b99366698796add77046464146ecf65b3|Add group to policy management|Wed, 10 Jan 2018 14:07:50 -0800|Thu, 11 Jan 2018 15:55:12 +0000
+f562bff73e48073e75206273118b838f015b9a7d|Run puppet-openstack-beaker-jobs|Thu, 21 Dec 2017 18:54:56 -0800|Thu, 21 Dec 2017 18:54:56 -0800
+24085e979fe6b73fbfa773c1471c5d23d1925e7d|Remove client_package_name in params.pp|Tue, 12 Dec 2017 08:50:37 +0800|Tue, 12 Dec 2017 08:50:37 +0800
+87567851772f4510855cf4116a6135dc159981ff|Merge "Prepare for Queens Milestone 2"|Wed, 29 Nov 2017 02:03:50 +0000|Wed, 29 Nov 2017 02:03:50 +0000
+9d638efa47baace0ee1838e77bf5aecac7781ba4|Prepare for Queens Milestone 2|Tue, 28 Nov 2017 16:14:20 -0700|Tue, 28 Nov 2017 16:17:49 -0700
+cec993b71360000e7c0e1335dd5e6d039a32fc96|Remove ceilometer client class|Tue, 28 Nov 2017 14:14:06 -0700|Tue, 28 Nov 2017 14:14:06 -0700
+78b9e1d743d6b62369c3277d6770319b65095888|Expose use_json logging option|Mon, 27 Nov 2017 14:57:17 +0200|Mon, 27 Nov 2017 14:57:17 +0200
+b5764ac345203590453d1242dbc62861f87bd2c9|Merge "Switch to Zuul v3 testing"|Tue, 14 Nov 2017 18:41:07 +0000|Tue, 14 Nov 2017 18:41:07 +0000
+2548dbd378d81932fc0e93407d18eeaebbeeee73|Bump metadata|Mon, 13 Nov 2017 12:02:54 -0700|Mon, 13 Nov 2017 12:02:54 -0700
+b36b496fab9f55fbe9ae285fe5d35bc2e28a0aa6|Fix metadata for queens-1|Mon, 13 Nov 2017 09:49:29 -0700|Mon, 13 Nov 2017 09:49:29 -0700
+35141f8f35cf00feaae21e2b136597295412d1c6|Merge "Remove deprecated collector classes"|Mon, 6 Nov 2017 17:41:51 +0000|Mon, 6 Nov 2017 17:41:51 +0000
+63bebbcfeb3295be4535c556e3959d54704e3735|Merge "Include cpu_l3_cache meter in polling"|Mon, 6 Nov 2017 14:31:11 +0000|Mon, 6 Nov 2017 14:31:11 +0000
+e2928d2d4c11d0c534f99f37d8e3dce8bf5223d4|Remove deprecated collector classes|Mon, 16 Oct 2017 11:40:35 -0400|Mon, 6 Nov 2017 13:50:18 +0000
+4d168fb8ef73a96959117eff90e71f2a4983c3d9|Include cpu_l3_cache meter in polling|Wed, 25 Oct 2017 08:04:24 -0400|Wed, 1 Nov 2017 20:52:19 +0000
+4a249ae38c62d2670a37990c7cb44abd77ae3aa4|Add support to set host param|Tue, 3 Oct 2017 09:31:34 -0400|Wed, 1 Nov 2017 20:52:00 +0000
+b30a0359ab590eaa54243e3b45e3ddbfd6ba4410|Add Puppet package to bindep, for module build|Fri, 27 Oct 2017 13:11:02 -0700|Mon, 30 Oct 2017 17:58:28 -0400
+926c9039c5d9c32bc8db2d24fcb4ffe45d1458c6|Drop Ceilometer API & Collector from Beaker|Mon, 30 Oct 2017 12:01:06 -0400|Mon, 30 Oct 2017 17:57:27 -0400
+d4a1abf8095a0f8c6803d3a1816c9004fdd5f1ab|Switch to Zuul v3 testing|Wed, 25 Oct 2017 17:12:11 +0800|Wed, 25 Oct 2017 17:12:11 +0800
+9d34005f5d1451dd5be0dcacac23c8f5c3603548|Prepare for Queens Milestone 1|Tue, 17 Oct 2017 14:26:32 -0600|Wed, 18 Oct 2017 01:56:27 +0000
+9d133f35ff232764004586f77d41cb52d60cf37a|Merge "Configure *_domain_name to Default by default"|Sun, 8 Oct 2017 00:15:25 +0000|Sun, 8 Oct 2017 00:15:25 +0000
+5f97c67f31d3cab502fb874c68457b2d4c27679d|Merge "Allow setting log files for apache vhost"|Sat, 7 Oct 2017 03:36:22 +0000|Sat, 7 Oct 2017 03:36:22 +0000
+ead9b824543f7f2a47daf6df6516461d134c59a3|Configure *_domain_name to Default by default|Fri, 6 Oct 2017 09:33:21 -0400|Fri, 6 Oct 2017 09:33:55 -0400
+240169cd55ef1b48a3b6906ec4503286f20ebbc5|Allow setting log files for apache vhost|Fri, 6 Oct 2017 14:23:31 +0300|Fri, 6 Oct 2017 14:23:31 +0300
+2d02f8924ea9c0e2423ad99cbe1f9ecc55206018|Accept empty strings for log_dir|Fri, 6 Oct 2017 13:00:04 +0300|Fri, 6 Oct 2017 13:00:04 +0300
+ff5da92ef073c9ca6a6a9fb7c819cd81c4caff82|Merge "add parameter to overwrite/add wsgi process options"|Thu, 21 Sep 2017 21:59:18 +0000|Thu, 21 Sep 2017 21:59:18 +0000
+c37eca499cb48029104c441ef48c00043f2bf272|Update to the latest address in README|Thu, 21 Sep 2017 11:40:40 +0800|Thu, 21 Sep 2017 11:40:40 +0800
+e59795a1ba94117f6715e1810c6699a532ee8527|Merge "Update openstackdocstheme to latest version"|Wed, 20 Sep 2017 17:08:02 +0000|Wed, 20 Sep 2017 17:08:02 +0000
+0ce1fd94aa0982a69f48ed2474dc5bc6644e1a89|Update openstackdocstheme to latest version|Tue, 19 Sep 2017 21:49:00 +0800|Wed, 20 Sep 2017 10:44:11 +0800
+560b82e9ae36d52f8eaca2e07d5d6ba58c61a3dc|add parameter to overwrite/add wsgi process options|Mon, 18 Sep 2017 10:51:30 +0200|Mon, 18 Sep 2017 10:51:30 +0200
+58e125774bf015d31b1502bb02b8e44a255ca7a2|Deprecate revocation_cache_time option|Thu, 14 Sep 2017 11:00:03 +0800|Thu, 14 Sep 2017 11:00:03 +0800
+b6ee08938f518ff5fd93025811044278e40f69d6|Use Python to compute release notes version|Wed, 30 Aug 2017 13:41:00 -0700|Wed, 30 Aug 2017 13:41:00 -0700
+b0e962f1eef3a6899c3f44bcfaa9cd0194ee9278|Merge "Update versions for Queens cycle"|Fri, 25 Aug 2017 17:44:15 +0000|Fri, 25 Aug 2017 17:44:15 +0000
+d2ab067399ab9c75121886016760e82bd6653b7a|Merge "Update reno>=2.5.0"|Fri, 25 Aug 2017 17:44:10 +0000|Fri, 25 Aug 2017 17:44:10 +0000
+4d706081883c808554f179444b28a7236586a1d6|Update versions for Queens cycle|Thu, 24 Aug 2017 13:06:05 -0600|Thu, 24 Aug 2017 13:06:36 -0600
+73d326b50c042682172df8e81135e87737c1f42c|Update reno for stable/pike|Thu, 24 Aug 2017 14:00:02 +0000|Thu, 24 Aug 2017 14:00:02 +0000
+c64b7a7e5007d207589865c90f6cd57b7dbf86e0|Merge "Revert "deprecate dispatcher::gnocchi::archive_policy""|Wed, 23 Aug 2017 19:42:28 +0000|Wed, 23 Aug 2017 19:42:28 +0000
+c9174849f91bda2d6194c584a7b156670707e5b7|Revert "deprecate dispatcher::gnocchi::archive_policy"|Wed, 23 Aug 2017 14:51:17 +0000|Wed, 23 Aug 2017 14:51:17 +0000
+20171a211af8c88941eec1dbfece8362709a5872|Prepare for official Pike release|Mon, 21 Aug 2017 15:58:44 -0600|Mon, 21 Aug 2017 15:59:14 -0600
+7284c8d5a65d184e076746736d75b14154bd19f7|Update reno>=2.5.0|Mon, 21 Aug 2017 11:18:59 +0800|Mon, 21 Aug 2017 11:18:59 +0800
+1015437b0c595e3154e47c9995c2de9d2d3ee28f|Fix unit test|Mon, 7 Aug 2017 11:57:03 +0800|Mon, 7 Aug 2017 11:57:03 +0800
+0e294df6d6be7f3f664f158f68724e1eff59821a|Merge "Update openstackdocstheme>=1.16.0"|Sat, 5 Aug 2017 04:53:05 +0000|Sat, 5 Aug 2017 04:53:05 +0000
+df5f64634c18a504bdded733b034984e6a3e2485|Bump modules to next minor with -dev|Fri, 4 Aug 2017 13:36:15 -0600|Fri, 4 Aug 2017 13:37:14 -0600
+56afe13ad2fe260e16f2c9429e960cf401d748a0|Update openstackdocstheme>=1.16.0|Mon, 31 Jul 2017 11:00:39 +0800|Mon, 31 Jul 2017 11:00:39 +0800
+138c320c893bb8a8958a90609dea9d84ccdc6a5f|Deprecate oslo.messaging rpc_backend option parameter|Wed, 26 Jul 2017 20:50:00 -0400|Thu, 27 Jul 2017 06:34:27 -0400
+ff39854f4f0c6077b0767cf7d163c8043517d103|Merge "Limit out of the box metrics ceilometer polls"|Tue, 25 Jul 2017 17:01:51 +0000|Tue, 25 Jul 2017 17:01:51 +0000
+e51ef01aa0c4c91c299b2a69a7d96911465ac515|Drop -dev version for Pike M3|Tue, 25 Jul 2017 08:12:56 -0600|Tue, 25 Jul 2017 08:13:37 -0600
+d2ef803b10cb2be06bbc09d1ce0a93378b6a03d7|Limit out of the box metrics ceilometer polls|Fri, 21 Jul 2017 11:24:11 -0400|Fri, 21 Jul 2017 11:39:35 -0400
+22d188e733a383051bb78176f5d4ceb2618e46e0|Merge "Update URLs in documents according to document migration"|Wed, 19 Jul 2017 17:28:19 +0000|Wed, 19 Jul 2017 17:28:19 +0000
+8e5658d9aae9bfb37de0912246c11ce492991a4d|Update URLs in documents according to document migration|Fri, 14 Jul 2017 11:45:40 +0800|Fri, 14 Jul 2017 11:45:40 +0800
+bda7b8b76fe1ea0aabade7d4628bf1f8068dc583|Fix unit tests|Thu, 13 Jul 2017 15:25:29 -0600|Thu, 13 Jul 2017 15:25:29 -0600
+df37477dbdb49e962c8d20800a31772ffe2a04ff|Remove deprecated keystone authtoken signing_dir option|Fri, 7 Jul 2017 09:58:16 +0800|Fri, 7 Jul 2017 09:58:16 +0800
+30e069012d58f5e848ce1e0753e62157600d76f7|Merge "Ensure pipeline yamls are created with correct permissions"|Thu, 6 Jul 2017 18:54:03 +0000|Thu, 6 Jul 2017 18:54:03 +0000
+1c6943edcdcbbe5c9be03b3ffe8e16e79d2ac03b|Merge "Deprecate store_events config option"|Thu, 6 Jul 2017 15:59:52 +0000|Thu, 6 Jul 2017 15:59:52 +0000
+d86e1f57fd8898f7e205967bc1dbc9dfb1e7b0a3|Deprecate store_events config option|Thu, 29 Jun 2017 16:43:32 +1000|Tue, 4 Jul 2017 17:03:10 +1000
+abf547dca0e6c431a46bbfd8280fbc85e5e9c871|Ensure pipeline yamls are created with correct permissions|Thu, 29 Jun 2017 11:48:31 +0200|Mon, 3 Jul 2017 11:57:59 +0200
+6bb72092e06a80b40b357eb1d88d60aea6869ab3|Fix openstackdocstheme|Sun, 2 Jul 2017 13:55:20 +0800|Sun, 2 Jul 2017 13:58:19 +0800
+7da50571cf98d215c8551b52cacb4f891d5f4207|Add rabbit_qos_prefetch_count to oslo_messaging_rabbit options|Mon, 22 May 2017 13:19:25 +1000|Tue, 27 Jun 2017 16:21:08 +1000
+68f16be098c07104fa277fe1645f93a5f9e6b073|Switch from oslosphinx to openstackdocstheme|Mon, 26 Jun 2017 09:21:47 +0800|Mon, 26 Jun 2017 09:26:15 +0800
+53be1653f6acf4d8c580d24095fceec2e077ef48|Merge "Add ensure value for user and group resources"|Fri, 23 Jun 2017 02:26:30 +0000|Fri, 23 Jun 2017 02:26:30 +0000
+06e3faf8b6d1bafcb5e9d93fe54591390c2847b9|Merge "Optimize the link address and correct author"|Fri, 23 Jun 2017 02:23:55 +0000|Fri, 23 Jun 2017 02:23:55 +0000
+cf96476c22e8af7b4fcb2640d358466fc1279e91|Add ensure value for user and group resources|Wed, 21 Jun 2017 13:35:05 +1000|Thu, 22 Jun 2017 17:18:30 +1000
+2fab94fd6e4794ce162b1b29f528ed3ba86c1e44|Optimize the link address and correct author|Wed, 21 Jun 2017 10:03:21 +0700|Wed, 21 Jun 2017 10:25:12 +0700
+6170a18bf5c7bb37afc218bbe42edfafcd0729a7|Fix filename of api_paste.ini|Tue, 23 May 2017 16:04:07 +1000|Fri, 16 Jun 2017 10:39:56 +1000
+917605c8502b4ff846bfcc563f913288c2011299|Add environment variable|Mon, 12 Jun 2017 15:47:43 +0800|Mon, 12 Jun 2017 15:47:43 +0800
+da7768f211090ac5e324d1b9bd3f820218e211cc|Merge "Bump version for Pike M3 Dev"|Fri, 9 Jun 2017 09:25:46 +0000|Fri, 9 Jun 2017 09:25:46 +0000
+84ddccf62244d7c57767c8265584646901abb577|Bump version for Pike M3 Dev|Thu, 8 Jun 2017 15:30:57 -0600|Thu, 8 Jun 2017 15:32:24 -0600
+562426fe3ec4d7ab81d9ef6d901d3524156dcd91|Update global requirements|Thu, 8 Jun 2017 10:48:19 +0800|Thu, 8 Jun 2017 10:48:19 +0800
+ea0272ff35660c6fafe7ea97f15d77c46ecad180|Merge "Missing some parameters to test in db.pp"|Mon, 5 Jun 2017 11:13:43 +0000|Mon, 5 Jun 2017 11:13:44 +0000
+ebd21c6ca089f55cabe3712fa0a2e9d11598210b|Drop -dev in preparation for Pike M2|Thu, 1 Jun 2017 08:53:02 -0600|Thu, 1 Jun 2017 08:53:35 -0600
+36bb23cb17053ec27d7b54e272ea0de22f8688e5|Missing some parameters to test in db.pp|Thu, 1 Jun 2017 10:14:29 +0800|Thu, 1 Jun 2017 10:14:29 +0800
+af6c2a9e013803452fbaed3b7ae353afd9dfe17e|Fix unit test|Thu, 25 May 2017 11:05:06 +0800|Thu, 25 May 2017 11:05:06 +0800
+83de4b0a4a3761e0c911dde7caa14b5e9d2e617b|Merge "oslo policy: check puppet resource instead of actual config in spec"|Wed, 24 May 2017 03:07:59 +0000|Wed, 24 May 2017 03:07:59 +0000
+1ddf8365f90162e240d2b98043989bfc81a73ec0|Merge "Deprecate memcached_servers parameter"|Tue, 23 May 2017 18:32:18 +0000|Tue, 23 May 2017 18:32:18 +0000
+28645c0ab02f5d51035bf603f9664ed5ae5cb18e|oslo policy: check puppet resource instead of actual config in spec|Tue, 23 May 2017 13:51:52 +0800|Tue, 23 May 2017 13:52:16 +0800
+fec3e733bf62e1b9f3387678809f212d44fbdef6|Merge "expirer: remove the crontab if enable_cron is False"|Tue, 23 May 2017 03:53:00 +0000|Tue, 23 May 2017 03:53:00 +0000
+1ef657da0ed3dcb073fabbd72d65516e7a57a76e|expirer: remove the crontab if enable_cron is False|Thu, 18 May 2017 16:16:40 -0400|Thu, 18 May 2017 16:16:40 -0400
+76c872007f1abbfe03dc064eb1ce28813be7df37|Add deprecate warning to ceilometer::client|Mon, 15 May 2017 11:22:51 -0400|Wed, 17 May 2017 16:31:28 +0000
+f7d5a712dccdd8a519b951519743211cd1e40c81|Deprecate memcached_servers parameter|Tue, 16 May 2017 11:54:52 +0800|Wed, 17 May 2017 16:27:41 +0000
+389a67eebcd9684bce319af2a81e1c376c9b87db|Update tox configuration|Wed, 17 May 2017 08:21:20 -0600|Wed, 17 May 2017 08:21:34 -0600
+3d45585f8fb15776c9372b2a8adaaa7f074bcb2f|Fix dependencies of yaml files|Tue, 9 May 2017 12:57:20 +0200|Wed, 10 May 2017 14:28:41 +0200
+36b2ecdd7c38abb023edf9aa47d37439d12bdf79|Allow to configure the polling interval|Tue, 9 May 2017 12:51:31 +0200|Wed, 10 May 2017 14:28:41 +0200
+6431cca541da1ff51716ebdf1417849ccd3df434|Set debug to true|Fri, 5 May 2017 15:02:00 +0800|Fri, 5 May 2017 15:02:00 +0800
+e016a4bb234fc4ae2d6a0e6ea9665e1a83832867|Expose snmpd auth params|Wed, 3 May 2017 12:23:15 -0400|Wed, 3 May 2017 12:30:19 -0400
+43a3bc2c217c0681a9ace4038483ed329f88e49c|Bump modules to next minor with -dev|Fri, 21 Apr 2017 17:21:43 -0600|Fri, 21 Apr 2017 17:22:18 -0600
+347140eca06a3ffa282d710f4599856b984c676f|Add support to configure publisher in pipeline.yaml|Thu, 16 Mar 2017 15:45:45 -0400|Tue, 11 Apr 2017 13:56:33 -0400
+bd1ebe015f8c6819e5aaf4d9bd549de1ed556999|Merge "Update default event publisher"|Mon, 10 Apr 2017 15:58:45 +0000|Mon, 10 Apr 2017 15:58:46 +0000
+a14eab371488f3e3f9762f9d69593ab6ba582775|oslo db: check puppet resource instead of actual config in spec|Sat, 8 Apr 2017 11:24:59 +0800|Sat, 8 Apr 2017 11:24:59 +0800
+64903dc23d39c4dc0f25263dce2a26528216356b|Update default event publisher|Thu, 6 Apr 2017 17:45:12 -0400|Thu, 6 Apr 2017 17:53:33 -0400
+d3c2c4e75a2f61776d7946ba9106fe53240b0219|Drop -dev for release prep|Wed, 5 Apr 2017 10:36:13 -0600|Wed, 5 Apr 2017 10:44:11 -0600
+a791baa616668e8b7ce12e49d7f918a52293b74f|Fix dispatcher params|Tue, 4 Apr 2017 15:55:43 -0400|Tue, 4 Apr 2017 17:26:49 -0400
+5d63e7bc79440a2b2ee712c2931251fa80fc37fb|Fix strict variable errors in ceilometer::agent::polling|Thu, 30 Mar 2017 12:19:04 -0400|Thu, 30 Mar 2017 12:19:04 -0400
+50dc1b74eb2270741e711659401e48a5ead5f1e2|Merge "Password should be secured"|Wed, 29 Mar 2017 21:17:14 +0000|Wed, 29 Mar 2017 21:17:14 +0000
+1a4bdd359d8b52989435440dd4629b598489bf59|deprecate dispatcher::gnocchi::archive_policy|Wed, 22 Mar 2017 14:50:44 +0100|Tue, 28 Mar 2017 14:12:05 +0200
+015fd676e45095d38ff3a0b0050aab96bafe7c94|Password should be secured|Tue, 28 Mar 2017 16:21:30 +0800|Tue, 28 Mar 2017 16:24:10 +0800
+2e25568305a0521a9fd90c02308ad14e5fbda454|Merge "deprecate ceilometer::dispatcher::gnocchi::url"|Tue, 28 Mar 2017 01:33:03 +0000|Tue, 28 Mar 2017 01:33:03 +0000
+01d8712becb181340ed7ed0cf40ae4880c1092cb|Update test-requirements.txt|Thu, 23 Mar 2017 14:37:15 +0800|Thu, 23 Mar 2017 14:37:15 +0800
+1ef6b0b7f6c38d155f1ccf7daf7a8027f13860e6|deprecate ceilometer::dispatcher::gnocchi::url|Wed, 22 Mar 2017 14:46:36 +0100|Wed, 22 Mar 2017 12:31:28 -0400
+e6643302983cd8ca958e203b30a05835679589a3|oslo log: check puppet resource instead of actual config in spec|Thu, 16 Mar 2017 18:40:15 +0200|Thu, 16 Mar 2017 18:40:43 +0200
+8e7e6194014ff22293a6a74136b8c39545ef78bf|Merge "Make skip gnocchi option overridable"|Wed, 15 Mar 2017 23:50:32 +0000|Wed, 15 Mar 2017 23:50:32 +0000
+96040df940c22c989a20012a68a5c4c378ff331a|Make skip gnocchi option overridable|Mon, 23 Jan 2017 08:59:49 -0500|Wed, 15 Mar 2017 17:51:06 +0000
+7952b1c13799bebbb3cc8ff5e0d9210e5f709af8|Fix typo|Mon, 13 Mar 2017 20:08:25 +0800|Mon, 13 Mar 2017 20:08:25 +0800
+c874c83ac01ae9d1f517d031e5e58c97c9337437|Merge "Deprecate ceilometer collector"|Sat, 11 Mar 2017 02:57:48 +0000|Sat, 11 Mar 2017 02:57:48 +0000
+180bfecb39fe0fd9da54a100532da8fb932c7cf2|rabbitmq SSL: check puppet resource instead of actual config|Fri, 10 Mar 2017 13:47:48 +0200|Fri, 10 Mar 2017 13:47:48 +0200
+643c2836061e64bb011c9aa9af0050dde2edb1da|Deprecate ceilometer collector|Wed, 8 Mar 2017 11:58:13 -0500|Wed, 8 Mar 2017 12:00:22 -0500
+da9656943fc3cea97161a4a8bb46d4b60b485e17|Prepare Pike metadata|Tue, 7 Mar 2017 14:39:56 -0700|Tue, 7 Mar 2017 15:33:25 -0700
+8190fba40affa3fcb3177319c24975d19050fe04|Deprecate meter_dispatcher and event_dispatcher options|Fri, 3 Mar 2017 15:19:07 +0800|Fri, 3 Mar 2017 15:22:19 +0800
+72b33608c7571cd2cff403f94cd40f448f60f18c|Remove rpc_backend check for amqp|Tue, 28 Feb 2017 08:14:14 -0700|Tue, 28 Feb 2017 10:11:50 -0700
+c3d330eeb5c90a5d284522e4677aaf8a8b5a8b81|Add notification_driver option|Mon, 13 Feb 2017 17:39:44 +0800|Mon, 13 Feb 2017 17:39:44 +0800
+840efb3bd60be5aab05de4484d8253fb2e25cacc|Update reno for stable/ocata|Wed, 8 Feb 2017 11:03:39 +0000|Wed, 8 Feb 2017 11:03:39 +0000
+15aeb9dc9816b45548b681d5c86ced30f17895a6|Prepare ocata-rc1 release|Fri, 3 Feb 2017 16:21:52 -0700|Fri, 3 Feb 2017 16:22:45 -0700
+895a8eaa87561e6801b477a7db25fd92417f1fff|Add control_exchange and rpc_response_timeout options|Sat, 28 Jan 2017 12:59:08 +0800|Sat, 28 Jan 2017 12:59:08 +0800
+e80d90dc18d0168294ad7c4611c93b708471b02e|Merge "Add oslo::db to dependency chain"|Mon, 23 Jan 2017 18:54:02 +0000|Mon, 23 Jan 2017 18:54:02 +0000
+0d0b20f5a84e245b0d8e084401e0ec3a1c344364|Add oslo::db to dependency chain|Sun, 22 Jan 2017 21:29:52 +0800|Sun, 22 Jan 2017 21:29:52 +0800
+3b4e53fe8e3eb9d8cb73c45248cc0b24253b01c4|Fix puppet example in README|Sat, 21 Jan 2017 12:36:48 +0800|Sat, 21 Jan 2017 12:40:12 +0800
+52307287b5c729a8bc692e6cb352424bd656a87b|Merge "Fix typo in ceilometer_api_paste_ini_spec.rb"|Fri, 20 Jan 2017 20:36:54 +0000|Fri, 20 Jan 2017 20:36:54 +0000
+699c190772fa5924b2f9ac8937a7ccb6a3d7705f|Fix typo in ceilometer_api_paste_ini_spec.rb|Fri, 20 Jan 2017 06:07:37 +0000|Fri, 20 Jan 2017 06:07:50 +0000
+9cf46cbf926cc0db197d61305f93ac938df25464|Configure compute params in config|Mon, 16 Jan 2017 13:15:03 -0500|Thu, 19 Jan 2017 13:29:03 -0500
+306c6d660d49ed71419cae534e52935e1e1069c5|Fix Ubuntu Ocata issues|Tue, 17 Jan 2017 15:22:53 -0700|Wed, 18 Jan 2017 12:57:56 -0700
+14a4c1262fde01a8930ccc0a12ef741cf0e07063|Deprecate ceilometer::agent::central|Mon, 16 Jan 2017 15:17:58 -0500|Mon, 16 Jan 2017 15:53:20 -0500
+7b2cfda7d41378a112111bcc45be53b7b85245f7|Prepare 10.2.0 release|Fri, 13 Jan 2017 17:29:31 -0700|Fri, 13 Jan 2017 17:31:00 -0700
+3bda006e6e40a3581f4f0893600066312ab027e3|Allow python-memcache install from authtoken class|Wed, 11 Jan 2017 17:18:55 -0500|Wed, 11 Jan 2017 17:19:23 -0500
+6e7688e2e1de035307744edacc2fb565d3ffc0e9|Add deprecation warning to ceilo api|Tue, 3 Jan 2017 11:51:20 -0500|Tue, 3 Jan 2017 17:47:57 -0500
+776f73c32c24e857cd75429eee3de719e8ca0001|Deprecate signing_dir option|Tue, 27 Dec 2016 11:50:32 +0800|Tue, 27 Dec 2016 17:06:18 +0800
+7d0c2e0dda4bcd51d2f2015c95441a72df929c07|Pin reno version to reno>=0.1.1,!=2.0.0|Thu, 22 Dec 2016 15:15:00 +0400|Thu, 22 Dec 2016 11:24:08 +0000
+29e54fbb8d16cc241f8f100293e11675422b574a|Add customization for wsgi process display name|Wed, 21 Dec 2016 12:55:37 +0800|Wed, 21 Dec 2016 12:56:30 +0800
+2025907cc5c5f7119d825c0b56520bc77b88ce78|Prepare 10.1.0 release|Fri, 9 Dec 2016 09:34:05 -0700|Fri, 9 Dec 2016 09:34:18 -0700
+73a2d03e713d7d9d6dbf34598b455f6203e04f96|Fix spec test for sync|Thu, 1 Dec 2016 16:10:22 +0800|Thu, 1 Dec 2016 16:10:22 +0800
+fc4a0fd5100128280703dbb3f8e109fb9393a2d0|Add hooks for external install & svc management|Tue, 29 Nov 2016 09:21:48 +0800|Tue, 29 Nov 2016 17:32:37 +0800
+012078446e9079f00889ea31f618fc10339bb34d|Show team and repo badges on README|Fri, 25 Nov 2016 17:10:33 +0100|Fri, 25 Nov 2016 17:40:26 +0100
+12360108f1c11809e13ea45d389124e8d9f14983|Merge "Prepare 10.0.0 release"|Thu, 17 Nov 2016 19:58:22 +0000|Thu, 17 Nov 2016 19:58:22 +0000
+69931b06858c73abd08bc34a6c5c24b099b00d6c|Merge "Fix common options position in params.pp"|Thu, 17 Nov 2016 08:56:28 +0000|Thu, 17 Nov 2016 08:56:28 +0000
+30ec07245249b649a14100e91bb6facb5da1bc14|Merge "Remove old authtoken options"|Thu, 17 Nov 2016 08:07:43 +0000|Thu, 17 Nov 2016 08:07:43 +0000
+16af61ed7728b642de3d247dda0f2de052d77ebb|Prepare 10.0.0 release|Mon, 14 Nov 2016 16:39:18 -0700|Mon, 14 Nov 2016 16:39:45 -0700
+52ebcc955d0b7c9f737710c266dc60be8ba559ea|Switch ceilometer to rspec-puppet-facts|Fri, 11 Nov 2016 19:03:11 +0200|Mon, 14 Nov 2016 15:50:37 +0200
+e885bafe5789be7ea57c40320183178f9e24d9e0|Fix common options position in params.pp|Mon, 14 Nov 2016 11:41:03 +0800|Mon, 14 Nov 2016 11:42:27 +0800
+af4af189eaa83bbc2d5dc43a7eb19dd17a3afc6e|Replace ceilometer-dbsync by ceilometer-upgrade|Fri, 11 Nov 2016 06:28:35 -0500|Fri, 11 Nov 2016 10:50:33 -0500
+b39fa37eaeec5199cbc9de273572260b2627ba74|Remove old authtoken options|Sat, 5 Nov 2016 13:26:35 -0300|Sat, 5 Nov 2016 13:27:25 -0300
+7c34dbff3544fd29310e4b8729c7132250fde0f9|Fix puppet version for requirements in metadata|Thu, 3 Nov 2016 10:25:10 +0800|Thu, 3 Nov 2016 12:01:09 +0800
+9dbbf98385b9e2dc488c652853000cb37596e42e|Define libvirt_group for RHEL family|Wed, 26 Oct 2016 11:28:59 -0600|Tue, 1 Nov 2016 14:27:57 -0600
+d77e7067de5f020d4ffeabc8d0439463f936940f|Deprecate rabbitmq connection parameters|Mon, 31 Oct 2016 14:11:52 -0600|Tue, 1 Nov 2016 07:41:11 -0600
+054a1f65e8e52ac3e47a842c4b3d7fcf8af3f0b7|Merge "Add test for policy"|Fri, 28 Oct 2016 10:30:13 +0000|Fri, 28 Oct 2016 10:30:13 +0000
+bd83c2a094a2373459480e4203da7d7dab7048f6|Add test for policy|Thu, 27 Oct 2016 23:20:58 +0800|Thu, 27 Oct 2016 23:20:58 +0800
+a1b8f3b3317d52f71ff58d20c07ed5d311df37ba|Remove verbose|Tue, 27 Sep 2016 20:38:55 -0300|Tue, 25 Oct 2016 19:59:23 -0300
+765557b9dc4a42cbe901ff73794344a8f1f899a2|Fix documentation for log_dir parameter|Mon, 10 Oct 2016 15:10:27 +0300|Tue, 18 Oct 2016 15:06:50 +0000
+5fad2540c93ef1074e071812a9eb34dd931f5661|Release 9.4.1 (newton)|Fri, 14 Oct 2016 08:37:34 -0400|Fri, 14 Oct 2016 08:37:54 -0400
+51f5519f11ba212e9d9c68ca51929db2b405ab77|Change worker defaults to ::os_workers|Mon, 10 Oct 2016 16:57:46 +0300|Thu, 13 Oct 2016 13:44:37 -0600
+d4aa3e5cad9b66044d31f0c885458aac7cfbc792|Add option to enable Ceilometer's SSL middleware|Mon, 10 Oct 2016 11:54:52 +0300|Tue, 11 Oct 2016 13:11:32 +0300
+191da2c492e95e41c35d0a5ed1b01507a72cc413|Enable release notes translation|Thu, 6 Oct 2016 20:44:36 +0200|Thu, 6 Oct 2016 20:44:36 +0200
+5ceee6fc72ce9bd1f02b4cb7f3615d2333c7b8ae|Changed the home-page to point Openstack Puppet Homepage|Mon, 3 Oct 2016 20:32:55 +0530|Mon, 3 Oct 2016 20:32:55 +0530
+aefbf40c136f9da5231b467ae6f4278a7b34df06|Move rspec-puppet-facts to spec helper|Fri, 30 Sep 2016 13:16:25 -0600|Fri, 30 Sep 2016 13:16:30 -0600
+b7d3c18b2a094be683138a3743480f83f48c5add|Added retries for db_sync|Thu, 29 Sep 2016 11:43:11 +0530|Thu, 29 Sep 2016 07:00:43 +0000
+babb60d709f3cf15a2bf9e75f788ac19a34173a6|Update reno for stable/newton|Tue, 27 Sep 2016 12:36:48 -0400|Tue, 27 Sep 2016 12:36:48 -0400
+125919bf58c97195358507452f4e7b1128d11fb9|Merge "Remove unnecesary spaces in log messages."|Tue, 27 Sep 2016 06:50:20 +0000|Tue, 27 Sep 2016 06:50:20 +0000
+d7ca881499ac0d7a00c7b36cfbe1bb2be62f3094|standardize release note page ordering|Sun, 25 Sep 2016 14:36:41 +0800|Tue, 27 Sep 2016 01:35:15 +0000
+de41a0b02bb1e03c3053a209d9a49dc944171d20|Merge "Puppet OpenStack Newton RC2"|Mon, 26 Sep 2016 21:55:37 +0000|Mon, 26 Sep 2016 21:55:37 +0000
+20d5850d9cbe309c1aa031cd0e1d3ae6a8493b23|Puppet OpenStack Newton RC2|Mon, 26 Sep 2016 07:31:18 -0600|Mon, 26 Sep 2016 07:32:02 -0600
+f4db1547513e871b90dd545119b8800ffc445443|Remove unnecesary spaces in log messages.|Mon, 26 Sep 2016 09:58:00 +0200|Mon, 26 Sep 2016 14:28:01 +0200
+4e576d3f5393cb58b2d19b940d9a3c3d81144417|Remove blank values in namespaces array.|Fri, 23 Sep 2016 19:27:04 -0400|Fri, 23 Sep 2016 19:27:04 -0400
+6a94c7a8f7a153727ae14a96db8a6df2e4d94821|Merge "fix broken join that stops polling service from starting"|Sat, 17 Sep 2016 17:37:29 +0000|Sat, 17 Sep 2016 17:37:30 +0000
+666106a8b1a8f3a088927f1e5d1d83f01989474f|Merge "Prepare 9.3.0 (newton rc1)"|Sat, 17 Sep 2016 07:36:00 +0000|Sat, 17 Sep 2016 07:36:00 +0000
+ff327ffa3a9c5a712cea73654fc1e07ac97de105|fix broken join that stops polling service from starting|Tue, 6 Sep 2016 22:44:22 +1000|Fri, 16 Sep 2016 19:52:01 +0000
+ebe1a452a1f9f8b5f4fb99e026daec2af10c640b|Merge "Temporarily add gnocchiclient to acceptance test"|Fri, 16 Sep 2016 19:08:55 +0000|Fri, 16 Sep 2016 19:08:55 +0000
+03f17a69db1595adba0cb75c1df5bfc0c0a37308|Prepare 9.3.0 (newton rc1)|Fri, 16 Sep 2016 11:39:32 -0400|Fri, 16 Sep 2016 11:39:32 -0400
+b5be6edf543bfde7dd0b461444d12cb44e1c2b3a|Temporarily add gnocchiclient to acceptance test|Wed, 14 Sep 2016 06:45:15 -0600|Wed, 14 Sep 2016 06:48:55 -0600
+6a8beb15d47cc39f5a01046c388d04becf76329a|Fix puppet-lint before upgrading gem|Wed, 14 Sep 2016 13:40:14 +0200|Wed, 14 Sep 2016 13:40:42 +0200
+f1814fc266daccd38904e48bd217cd74d6b5bda5|Prepare 9.2.0 (newton b3)|Fri, 26 Aug 2016 09:53:54 -0400|Fri, 26 Aug 2016 09:53:54 -0400
+8742b6fad902837b2be3c9eb16c861e195b8257a|Move ceilometer to authtoken|Fri, 22 Jul 2016 01:21:49 -0300|Fri, 19 Aug 2016 08:16:15 +0000
+0bc51239013a06166703ef4bdd2e86f17eba6d0e|Merge "puppet4: fix ordering for compute agent"|Mon, 15 Aug 2016 15:09:51 +0000|Mon, 15 Aug 2016 15:09:51 +0000
+4833a7abe6cd51aa690a3f8b90bfff114c2ef64b|puppet4: fix ordering for compute agent|Fri, 12 Aug 2016 10:40:24 -0400|Mon, 15 Aug 2016 08:11:56 -0400
+2743cbde8db816d51508d368f492151432f2009d|Move other-requirements.txt to bindep.txt|Fri, 12 Aug 2016 21:05:28 +0200|Fri, 12 Aug 2016 21:05:28 +0200
+0148969bafe1423a802119934eaf1700ced7469c|Add event_pipeline.yaml management|Wed, 24 Feb 2016 13:46:08 +1100|Tue, 9 Aug 2016 15:52:18 +1000
+652c497fe3822dc3d6f5cbf2d9884af0fd84e8aa|Include openstacklib defaults manifest.|Tue, 5 Jul 2016 13:15:17 +0200|Fri, 8 Jul 2016 08:55:09 +0000
+08f764bd38e99d012a1fd16e5032fe36da458015|Prepare 9.1.0 (newton-2)|Thu, 7 Jul 2016 09:07:18 -0400|Thu, 7 Jul 2016 09:07:24 -0400
+8f2bac3acf9d00f0739dc5fd2f68a9430ec3a994|Merge "Add memcached_servers for keystone authtoken"|Fri, 1 Jul 2016 10:36:42 +0000|Fri, 1 Jul 2016 10:36:42 +0000
+1ae57a6e789b0bb2f4abe01c8d2314cca776edb9|Add memcached_servers for keystone authtoken|Thu, 30 Jun 2016 11:09:01 -0600|Thu, 30 Jun 2016 11:09:01 -0600
+2cc3c9e8cbb08423edb86f6b80a170414f097e2e|Remove 12.04 and add 16.04 to metadata|Wed, 29 Jun 2016 20:45:57 -0300|Wed, 29 Jun 2016 20:46:36 -0300
+d190eac05d9aa1f94d866304ba1d487ffdc2a3a3|Remove mitaka release prelude note|Tue, 28 Jun 2016 15:07:23 -0400|Tue, 28 Jun 2016 15:07:28 -0400
+585d236e26fcc5a5010417343c33ab6d0ca76c05|Don't print sensitive information to stdout during run.|Tue, 28 Jun 2016 10:11:31 +0200|Tue, 28 Jun 2016 13:09:27 +0200
+b7fb86e3506fed13bacb29705083703cd28efb67|Add nodepool-xenial.yml file|Fri, 10 Jun 2016 13:30:14 -0400|Fri, 10 Jun 2016 13:30:19 -0400
+dbaa9e6db36181e1ec6d1c00b086fc6fb45e90e2|fix variable name in comment|Thu, 9 Jun 2016 09:31:05 +0200|Thu, 9 Jun 2016 09:31:05 +0200
+3cd0448bdcf1cfa4454714ca138a66f73455d597|Merge "Provide default service_name for keystone endpoint"|Wed, 8 Jun 2016 15:29:37 +0000|Wed, 8 Jun 2016 15:29:37 +0000
+8363e51b3ca8721bb092932728ba3833bfb42a7f|Provide default service_name for keystone endpoint|Tue, 7 Jun 2016 10:52:42 -0600|Tue, 7 Jun 2016 10:53:43 -0600
+b73ea4f810f840ac1a5c3d8aee4d6dde534fdde0|Fix facts for policy test|Tue, 7 Jun 2016 19:53:38 +0300|Tue, 7 Jun 2016 19:53:38 +0300
+736b796f65fbf8886041b551f375ad8c7d4dbf65|Merge "Test multiple operating systems for policy"|Tue, 7 Jun 2016 12:40:04 +0000|Tue, 7 Jun 2016 12:40:04 +0000
+0b9bee9ffd94e9d98b192de6f31be2430aadf4f2|Add purge_config option|Tue, 7 Jun 2016 10:10:06 +0800|Tue, 7 Jun 2016 11:20:37 +0800
+78d766a93021f48acfbe2ca783d0f5c4a2d0023d|Test multiple operating systems for policy|Sat, 4 Jun 2016 00:01:26 +0800|Tue, 7 Jun 2016 08:48:11 +0800
+2eadab0167753c8cee26c84c67c31ebc47dc2de0|Merge "Remove deprecated keystone::auth options"|Mon, 6 Jun 2016 11:36:00 +0000|Mon, 6 Jun 2016 11:36:00 +0000
+17f8be5bac4b8817e6bd71557b6a86d6500f1de7|Merge "Prepare 9.0.0 release"|Fri, 3 Jun 2016 16:45:54 +0000|Fri, 3 Jun 2016 16:45:54 +0000
+651a72a89f3077b51d9ffad55ae9cdba989732ed|Merge "Change wiki to docs"|Fri, 3 Jun 2016 13:42:38 +0000|Fri, 3 Jun 2016 13:42:38 +0000
+3622ee8228d418f7166e125eb6fe8d171298c8da|Cleanup README|Fri, 3 Jun 2016 12:29:54 +0300|Fri, 3 Jun 2016 12:30:18 +0300
+01caa03b573f346552e2a596be83906953c61efa|Remove deprecated keystone::auth options|Fri, 3 Jun 2016 01:22:44 -0300|Fri, 3 Jun 2016 01:33:33 -0300
+c3de15d8b58a0d85349a259e803e72d9104150b4|Change wiki to docs|Thu, 2 Jun 2016 22:21:48 -0300|Thu, 2 Jun 2016 22:56:30 -0300
+9977bf7f073262fc3a771799b585548673b3544d|Prepare 9.0.0 release|Thu, 2 Jun 2016 18:33:16 -0400|Thu, 2 Jun 2016 18:40:36 -0400
+67b1d25e1757788bf0f3f6856ce7b603a88d413d|Merge "Revert "Deprecate use_syslog""|Tue, 31 May 2016 20:07:35 +0000|Tue, 31 May 2016 20:07:35 +0000
+e971cd0aeb26c48ddf9ab0aeafeda92d60324dee|Revert "Deprecate use_syslog"|Tue, 31 May 2016 13:41:17 +0000|Tue, 31 May 2016 13:41:17 +0000
+644df35ae4d39b6000f88ce3a5036c5e4b643d8a|Merge "Add transport_url parameters for oslo.messaging"|Tue, 31 May 2016 10:34:14 +0000|Tue, 31 May 2016 10:34:14 +0000
+5ca2819480a168fba15e84821320769284d0c8fc|Remove useless parameters|Tue, 31 May 2016 00:45:30 +0800|Tue, 31 May 2016 00:45:30 +0800
+39076721e14af645c4d7f1b6590498ef3bedee79|Add transport_url parameters for oslo.messaging|Mon, 30 May 2016 12:09:59 -0400|Mon, 30 May 2016 12:09:59 -0400
+066d1f33b3494e7245ba6a190bfb909a8160201a|Merge "Use 'password' auth_type by default"|Fri, 27 May 2016 15:41:00 +0000|Fri, 27 May 2016 15:41:00 +0000
+d82c232b5e7c782803844826fde9f4242dd6437f|Use 'password' auth_type by default|Tue, 24 May 2016 16:29:46 +0300|Wed, 25 May 2016 14:44:59 +0000
+40b84c310e6b78226a08e7c04865c037542dfc54|Deprecate use_syslog|Sun, 22 May 2016 21:09:03 -0300|Wed, 25 May 2016 12:39:51 +0000
+e1febabab27ca4269ebb31b8c36be40f7a0ea1b0|Adapt ceilometer tests for a new concat version|Tue, 24 May 2016 20:46:13 +0300|Tue, 24 May 2016 20:46:13 +0300
+79aef841af8ea502031d105ce7cf04818ed54a61|Fix syntax error|Mon, 23 May 2016 20:32:14 +0300|Mon, 23 May 2016 20:33:47 +0300
+367765c9a69966afbe760ef4e2f6a37aa21156b6|Add other-requirements.txt for bindep|Thu, 19 May 2016 19:03:18 +0200|Thu, 19 May 2016 19:03:33 +0200
+c3cef5bd7470f900f40883a39c96f765150f8819|Merge "Added support for messaging urls"|Wed, 18 May 2016 23:17:30 +0000|Wed, 18 May 2016 23:17:30 +0000
+8febdc37c24763d7bbcd4b8761c21a477cc7f832|Deprecate verbose option in logging|Wed, 18 May 2016 01:26:28 -0300|Wed, 18 May 2016 01:42:06 -0300
+fd4485d64ea9a0648620756bf871e1ceee79ede0|Added support for messaging urls|Thu, 28 Apr 2016 23:36:30 -0400|Tue, 17 May 2016 14:17:08 -0400
+3a51f72391f00ee1239ba79dbc7dcf80d3037ada|Merge "Introduce support for oslo.messaging amqp driver configuration"|Tue, 17 May 2016 14:22:50 +0000|Tue, 17 May 2016 14:22:50 +0000
+d4e3b55929c1f6489c0fb346bef4c9789e64120d|Merge "metering_secret was renamed to telemetry_secret"|Mon, 16 May 2016 22:50:20 +0000|Mon, 16 May 2016 22:50:21 +0000
+a325f77623228ff9de458afac13ebc11e302e8f7|Merge "Correct service_credentials section"|Mon, 16 May 2016 16:47:33 +0000|Mon, 16 May 2016 16:47:33 +0000
+bd50e452c1eb1e0404b0f4e66f263760bf1ad21c|Introduce support for oslo.messaging amqp driver configuration|Tue, 10 May 2016 13:17:42 -0400|Mon, 16 May 2016 12:31:54 -0400
+4600d4135ac1bef01f7a7dd4b12582a0c8db6b50|metering_secret was renamed to telemetry_secret|Thu, 12 May 2016 20:32:16 -0600|Sun, 15 May 2016 11:31:58 +0200
+35ca4c173b5ebdf06d60a9c7821462a06815bb08|Add support for db_max_retries param|Mon, 9 May 2016 16:25:48 +0200|Sun, 15 May 2016 08:39:17 +0000
+c853fc65013ee8ce78c42e822df98b423d25bd48|Correct service_credentials section|Fri, 13 May 2016 20:22:16 -0600|Sun, 15 May 2016 08:39:00 +0000
+7df4b36d30ac997e33aa3e19cbd9bb0ce453c7b9|acceptance: remove scenario without apache|Sun, 15 May 2016 10:34:13 +0200|Sun, 15 May 2016 10:34:13 +0200
+ba21901512fdda95a3290933d7e0218eaa936828|Test multiple operating systems for db|Sat, 30 Apr 2016 09:37:47 +0800|Sat, 30 Apr 2016 09:55:32 +0800
+e3c649f0877e2deb594864b2aacf5fc480cd4ffa|Totally drop Qpid support|Mon, 18 Apr 2016 13:51:15 +0300|Mon, 18 Apr 2016 13:51:40 +0300
+01668bfd32c821c13186a89620be3ce4a42850a1|Configure oslo related parameters using puppet-oslo|Tue, 29 Mar 2016 15:58:33 +0300|Mon, 11 Apr 2016 18:11:08 +0300
+fe020912a20c0fc96067448025b7ac48bd2093e3|Gemfile: rely on puppet-openstack_spec_helper for dependencies|Tue, 29 Mar 2016 21:35:55 -0400|Wed, 30 Mar 2016 11:44:00 -0400
+497aad5423733aabff6d588b1817ffe42dfc175e|Add 'ceilometer-service' tag to collector and agent/notification|Tue, 29 Mar 2016 15:05:59 +0200|Tue, 29 Mar 2016 15:11:20 +0200
+8142a6a019810e74d0be3065e2470b49c4ef33f8|Import release notes from stable/mitaka|Thu, 24 Mar 2016 19:02:09 -0400|Thu, 24 Mar 2016 19:02:49 -0400
+c7a16c237f331c2370e9c8a36566d3d1fd8750b7|Release 8.0.0|Wed, 23 Mar 2016 14:43:54 -0400|Wed, 23 Mar 2016 16:06:56 -0400
+3bd3f99e640eae867bba93b53f811d3cfa0a51d6|releasenotes: add notes for Mitaka cycle|Mon, 14 Mar 2016 20:16:56 -0400|Mon, 14 Mar 2016 20:16:56 -0400
+5d9da8bd9aed97b4322fb57e8305c3df9e2ea292|Add basic structure for ReNo|Sun, 13 Mar 2016 18:58:36 -0400|Mon, 14 Mar 2016 08:24:10 -0400
+9ac7d218d5935e8830bf0dd0bc585f58937bccd5|fix filter_project param values|Wed, 17 Feb 2016 14:48:40 -0500|Wed, 9 Mar 2016 00:06:54 +0000
+5886f0ad44265c24e981f0bb3148944fcec35397|Merge "Add api_paste type/provider for Ceilometer"|Wed, 9 Mar 2016 00:03:37 +0000|Wed, 9 Mar 2016 00:03:37 +0000
+2e0affcd93c566452a5d381cff4a5a76634d93e6|Add api_paste type/provider for Ceilometer|Sat, 27 Feb 2016 07:25:53 +0800|Tue, 8 Mar 2016 22:25:49 +0800
+f897c0c6c6dce6a90f454ff94fc7b32e23246663|Deprecate ceilometer alarm classes|Fri, 19 Feb 2016 13:07:15 +0300|Fri, 4 Mar 2016 19:28:29 +0300
+f681f80aa51c1fb23bf22d7893832700a22a0d87|Merge "Consistent with other core module, auth_uri,identity_uri"|Thu, 28 Jan 2016 20:13:38 +0000|Thu, 28 Jan 2016 20:13:38 +0000
+e7ed2b8f9cc1aa49d3d9b512d7f7ae45b2318c3b|Consistent with other core module, auth_uri,identity_uri|Tue, 19 Jan 2016 17:32:49 +0800|Thu, 28 Jan 2016 09:05:55 +0800
+0659e509fd4c1d7ca0a67ea24bddd65050a1559a|collector: fix dispatcher config|Wed, 27 Jan 2016 16:24:40 -0500|Wed, 27 Jan 2016 16:24:40 -0500
+4f3365c75cb9fb5921d15e9d08b115262998ce82|Merge "Add rabbit_ha_queues option"|Mon, 25 Jan 2016 22:46:34 +0000|Mon, 25 Jan 2016 22:46:34 +0000
+60301b4972c4b2bfe24f05836285c00bb225d9c5|Adding amqp_durable_queues parameter to ceilometer|Sat, 23 Jan 2016 18:39:49 +0800|Sun, 24 Jan 2016 15:05:04 +0800
+aeb040c9354dd60c93ef3b3ebfd0ec31c20cae85|drop mock dependency|Fri, 22 Jan 2016 09:31:14 -0500|Fri, 22 Jan 2016 09:31:14 -0500
+48d299bea89baa7446315b871cd2f506355e08d4|Merge "Set auth_region to $::os_service_default"|Wed, 20 Jan 2016 06:27:26 +0000|Wed, 20 Jan 2016 06:27:26 +0000
+6efe275561fe579abd5b182488d10b7b8c946ec8|Merge "Use puppet-openstack_spec_helper for Rakefile & spec_helper_acceptance"|Tue, 19 Jan 2016 22:44:54 +0000|Tue, 19 Jan 2016 22:44:54 +0000
+b787d19d9ef18e3eabdf9af5758f37b6350f273f|beaker: stop testing ceilometer-alarm|Mon, 18 Jan 2016 12:30:34 -0500|Mon, 18 Jan 2016 12:31:34 -0500
+ae2c5f7939a9e0776197cd0f70bfc7ac73513eb2|Use puppet-openstack_spec_helper for Rakefile & spec_helper_acceptance|Mon, 18 Jan 2016 09:11:13 -0500|Mon, 18 Jan 2016 09:11:13 -0500
+83e6993ab314073e6bcb2513a926eb49266f21d1|Add rabbit_ha_queues option|Sat, 16 Jan 2016 15:35:12 +0800|Sat, 16 Jan 2016 21:05:31 +0800
+2bf8cc7f27e4abd9be36be07eba7ae928ec39e28|Merge "Add rspec-puppet-facts to the spec_helper"|Sat, 16 Jan 2016 18:09:10 +0000|Sat, 16 Jan 2016 18:09:10 +0000
+6941231059b868e32db72e640d04dcd3b8183f96|Move workers options into specific sections.|Wed, 13 Jan 2016 00:34:27 +0800|Fri, 15 Jan 2016 10:00:56 +0800
+4e5dc348b44ddaccbba698372ca80678c4c385f6|Add rspec-puppet-facts to the spec_helper|Wed, 6 Jan 2016 21:28:00 -0700|Thu, 14 Jan 2016 20:32:37 +0300
+540b456c86b45aff5c33313fa163b6ff2d99d8d8|Set auth_region to $::os_service_default|Wed, 13 Jan 2016 01:06:21 +0800|Wed, 13 Jan 2016 07:04:20 +0800
+f6e0e94acf5ca8b578120b1008e0913cd2634968|Merge "Improve format of the documentations."|Tue, 12 Jan 2016 11:31:21 +0000|Tue, 12 Jan 2016 11:31:21 +0000
+27654f3e170a0d20199e6f125796086cd2cad643|Improve format of the documentations.|Sun, 10 Jan 2016 20:26:28 +0800|Mon, 11 Jan 2016 22:33:42 +0800
+ab503a9e910f946bb02cc557c68364769a9cc4a2|Add required db subclass to README.md|Thu, 7 Jan 2016 18:41:57 -0800|Thu, 7 Jan 2016 18:47:52 -0800
+a38d8b40885012b4b56adff0b5655eafb4c569c5|Merge "deprecate mongodb_replica_set parameter"|Tue, 5 Jan 2016 23:08:49 +0000|Tue, 5 Jan 2016 23:08:49 +0000
+dd09f26048492dbc6cc19b6053cec50f87ce7602|Use identity_uri and auth_uri by default|Tue, 29 Dec 2015 14:53:32 +0800|Wed, 30 Dec 2015 16:46:41 +0800
+782eeda90bbf54756130c2db9412321a0ac39d5c|Drop time_to_live parameter|Wed, 23 Dec 2015 23:38:23 +0100|Wed, 23 Dec 2015 23:38:23 +0100
+51fdead1dcd257314af1ae4941557221f7150aa5|deprecate mongodb_replica_set parameter|Tue, 22 Dec 2015 16:41:03 +0100|Wed, 23 Dec 2015 11:54:41 +0100
+ee93d534214f5dc3c09a9f6bc3414ae44ab2d73b|unit tests: make Keystone_endpoint match service by name/type|Mon, 21 Dec 2015 19:29:58 +0100|Tue, 22 Dec 2015 18:05:32 +0100
+6e453d9873d34d18fd38cf7dd014572a30913e95|Merge "Ability to configure api, collector and notification workers"|Wed, 16 Dec 2015 21:53:38 +0000|Wed, 16 Dec 2015 21:53:38 +0000
+be054317ef0f2b760bf5ecf43c58faa22a26cc19|Merge "Update example to deploy Ceilometer with Gnocchi dispatcher"|Tue, 15 Dec 2015 13:54:17 +0000|Tue, 15 Dec 2015 13:54:17 +0000
+89e31e9ad8ef081c57dacef973998b25446e9de0|Ability to configure api, collector and notification workers|Mon, 21 Sep 2015 21:40:55 +0200|Mon, 14 Dec 2015 14:19:25 +0300
+3abf7d16d2e11b463d9cc835fe125bb66b98a836|Merge "Support of PyMySQL driver for MySQL backend"|Thu, 10 Dec 2015 17:14:49 +0000|Thu, 10 Dec 2015 17:14:49 +0000
+dea7649e0cbd19bd72dfef344f26d4ab4c7dcbbc|Merge "Configure disable_non_metric_meters for notification agent"|Thu, 10 Dec 2015 17:13:52 +0000|Thu, 10 Dec 2015 17:13:52 +0000
+dcfdc059463982615a2d6121cff40e26ad82795b|Update example to deploy Ceilometer with Gnocchi dispatcher|Tue, 8 Dec 2015 14:44:52 -0500|Tue, 8 Dec 2015 14:45:24 -0500
+85c31543b8efd7d37d43d93604ab7ac19f67996c|Merge "Remove qpid messaging support"|Tue, 8 Dec 2015 02:58:55 +0000|Tue, 8 Dec 2015 02:58:55 +0000
+8c5cfdd2ea0c4ec76b4bd19331fb93c4265d3715|Remove qpid messaging support|Thu, 3 Dec 2015 19:17:35 +0300|Mon, 7 Dec 2015 20:26:02 +0300
+2659b510a432327bc614021f5a5202a168c22215|Configure disable_non_metric_meters for notification agent|Fri, 4 Dec 2015 14:14:31 +0300|Mon, 7 Dec 2015 14:24:37 +0000
+e412a06980002ea9d666f3ff0e84108fc698283e|Merge "Remove references to puppet-openstack from README"|Mon, 7 Dec 2015 14:17:37 +0000|Mon, 7 Dec 2015 14:17:37 +0000
+ae60c149f299c7e623726906bdc7b25856061233|Support of PyMySQL driver for MySQL backend|Thu, 19 Nov 2015 15:17:03 +0300|Thu, 3 Dec 2015 13:06:57 +0300
+f47c52f26dadc767728ebc8cba5cdfe251d94c2d|Implement Gnocchi dispatcher|Fri, 27 Nov 2015 12:11:01 +0100|Tue, 1 Dec 2015 11:45:04 -0500
+0c31e5e35a0f068b5c099ca54a154ed168590caf|Merge "Ceilometer $::os_service_default for db and log"|Tue, 1 Dec 2015 15:07:34 +0000|Tue, 1 Dec 2015 15:07:34 +0000
+403316c2f4cda7b1e1c3364c94e685055b002216|Checkout openstack-integration from master|Thu, 26 Nov 2015 10:44:59 +0100|Thu, 26 Nov 2015 10:44:59 +0100
+8bc29454c17191f13101aaa59a513046ed732691|release: prepare 7.0.0 (liberty)|Wed, 25 Nov 2015 10:43:51 +0100|Wed, 25 Nov 2015 10:43:51 +0100
+6156cb49f29b13321bb719de57e4e4cd08838a3d|Ceilometer $::os_service_default for db and log|Tue, 24 Nov 2015 11:20:09 +0000|Tue, 24 Nov 2015 18:49:06 +0000
+6add4485c28a039e04433a81739720e5af9c800e|Fix unit tests against Puppet 4.3.0|Tue, 24 Nov 2015 10:41:20 +0100|Tue, 24 Nov 2015 10:41:20 +0100
+977c45534070b7444a09a99c24a7f4aab8cdb41f|Remove references to puppet-openstack from README|Sat, 21 Nov 2015 18:37:05 +0000|Sun, 22 Nov 2015 16:32:11 +0000
+9869fbee668d35ff1f1838bec6545b1e13c0bfe3|beaker: some cleanup|Thu, 19 Nov 2015 11:12:21 +0100|Thu, 19 Nov 2015 11:12:21 +0100
+683260ce0285a9d81b1e840af55456f2bad98ef2|Acceptance: use common bits from puppet-openstack-integration|Wed, 18 Nov 2015 17:47:31 +0100|Thu, 19 Nov 2015 11:09:31 +0100
+5fbf51147bbc19ea4a78a12735318f9a1126be41|Remove class_parameter_defaults puppet-lint check|Thu, 12 Nov 2015 12:28:02 +0100|Thu, 12 Nov 2015 12:28:02 +0100
+49201f9427bb874a3c10107d86616e6520528d41|Merge "Bump UCA and RDO to Liberty GA"|Fri, 6 Nov 2015 21:35:20 +0000|Fri, 6 Nov 2015 21:35:20 +0000
+d6572a3c1e5c0bd1e0d92c21b22b819867e91d2e|Merge "add mongodb_replica_set option to ceilometer module"|Fri, 6 Nov 2015 08:14:52 +0000|Fri, 6 Nov 2015 08:14:52 +0000
+0705e8ea1e93192668fddc83d8144ac4ea21c4da|Bump UCA and RDO to Liberty GA|Wed, 4 Nov 2015 09:43:42 -0500|Wed, 4 Nov 2015 09:45:00 -0500
+fa33bb0ad6e2481146d4341725556e6bdab1938b|Allow customization of db sync command line|Tue, 3 Nov 2015 16:22:01 +0000|Tue, 3 Nov 2015 16:50:23 +0000
+1c651fe9870aaa218c52fc66ab244f009c239a0d|add mongodb_replica_set option to ceilometer module|Thu, 22 Oct 2015 16:38:25 +0300|Wed, 28 Oct 2015 11:05:01 +0200
+fb936e540962e613a1edc60b0cf2effa1603c62d|Remove deprcated mysql_module|Wed, 21 Oct 2015 21:18:24 -0600|Wed, 21 Oct 2015 21:18:24 -0600
+53d5fbaa18480c8859a3b0152f8649a5cf56d46b|Merge "Change section name for AMQP qpid parameters"|Wed, 21 Oct 2015 20:41:33 +0000|Wed, 21 Oct 2015 20:41:33 +0000
+12a8eeabea53b04ac3f3b541658dc83f01dc4bbb|Update rspec tests for keystone|Wed, 21 Oct 2015 09:45:01 -0400|Wed, 21 Oct 2015 09:45:01 -0400
+677f0fbfc39de4bb8a8c272b2d07d41cfba0636f|Change section name for AMQP qpid parameters|Wed, 21 Oct 2015 14:47:38 +0300|Wed, 21 Oct 2015 14:48:10 +0300
+3c8e0c7294e4e2b43ce05576a94d12da8977f254|Merge "db: Use postgresql lib class for psycopg package"|Wed, 21 Oct 2015 11:17:43 +0000|Wed, 21 Oct 2015 11:17:43 +0000
+52b83f90c97b9e4a6a5f4e8e802646afb4f47b49|Prepare 6.1.0 release|Sat, 10 Oct 2015 11:37:34 -0400|Wed, 21 Oct 2015 01:58:18 +0000
+0edd1257040a793cc3f16dffd29595f68d69c446|db: Use postgresql lib class for psycopg package|Tue, 20 Oct 2015 15:37:09 +0200|Tue, 20 Oct 2015 15:37:09 +0200
+1d771437ad0e6d8c38cacb5612136cee55ee1190|Merge "Update ceilometer::db class to match other module pattern"|Mon, 19 Oct 2015 23:40:20 +0000|Mon, 19 Oct 2015 23:40:20 +0000
+60a2c46196d0fdb4675a7482648a85fc928ca0cf|spec: Enable webmock connect to IPv4 link-local|Sun, 6 Sep 2015 01:37:30 +0200|Mon, 12 Oct 2015 21:03:58 +0000
+d0bc29d6b04d6a5d416be6b7665627b0080449d3|Merge "Put all the logging related parameters to the logging class"|Mon, 12 Oct 2015 12:16:41 +0000|Mon, 12 Oct 2015 12:16:41 +0000
+dfa1e8c0aff263d6bceb53357fee6f3cbae45c8e|Try to use zuul-cloner to prepare fixtures|Thu, 8 Oct 2015 14:37:08 -0700|Thu, 8 Oct 2015 14:46:03 -0700
+183b62b35a32390285c454cc35dbfc7721150944|auth: drop service dependency for Keystone_user_role|Fri, 2 Oct 2015 16:17:25 -0400|Fri, 2 Oct 2015 16:17:25 -0400
+919020ed4c42ef90a7066c9f428dbf1509a7f332|Merge "wsgi: make sure eventlet process is stopped before httpd"|Fri, 2 Oct 2015 14:44:02 +0000|Fri, 2 Oct 2015 14:44:02 +0000
+577593222a31f6948d13f2408a0bab017a0305cd|Put all the logging related parameters to the logging class|Fri, 25 Sep 2015 09:39:58 +0200|Fri, 2 Oct 2015 10:06:17 +0200
+b0ee27206d0e0de22986f0cfd266a19937d88b87|wsgi: make sure eventlet process is stopped before httpd|Mon, 28 Sep 2015 15:45:53 -0400|Wed, 30 Sep 2015 13:30:42 -0400
+492544aa5a5140cfd2b6d83b91106ec70f9ce669|Remove the api service subscription on db sync|Wed, 30 Sep 2015 00:09:20 +0100|Wed, 30 Sep 2015 00:31:55 +0100
+409e35a77671e3b129ad387f5e03f57cbe91872c|stop managing File resources|Mon, 28 Sep 2015 15:34:35 -0400|Mon, 28 Sep 2015 15:35:21 -0400
+270e800e0d824a2741728d3ad28721b197cb1c6a|Merge "Implement auth_endpoint_type parameter"|Fri, 25 Sep 2015 14:09:41 +0000|Fri, 25 Sep 2015 14:09:41 +0000
+8ae5373336501a02163004b5c51bf8a2eae1e842|Merge "agent/auth: bring consistent how we manage empty parameters"|Fri, 25 Sep 2015 14:09:38 +0000|Fri, 25 Sep 2015 14:09:38 +0000
+09b62c5f2a787609c24abe834ee06073a0c92805|Merge "rspec: run tests for ::ceilometer::agent::auth"|Fri, 25 Sep 2015 14:07:44 +0000|Fri, 25 Sep 2015 14:07:44 +0000
+ba9e8fe16ebc7b5b3700f139902c186f88c253b9|Merge "compute agent: do not try to configure nova.conf"|Fri, 25 Sep 2015 14:07:37 +0000|Fri, 25 Sep 2015 14:07:37 +0000
+22723cce88a65a44afac3065ad800b4c0008f75d|Implement auth_endpoint_type parameter|Thu, 24 Sep 2015 09:35:59 -0400|Thu, 24 Sep 2015 19:07:39 +0000
+31879eeac45e8a24449cd09b085c6f856328ad1e|agent/auth: bring consistent how we manage empty parameters|Thu, 24 Sep 2015 09:31:28 -0400|Thu, 24 Sep 2015 19:07:26 +0000
+aab80b7f93e033dae564fb6688440333a96dfc05|rspec: run tests for ::ceilometer::agent::auth|Thu, 24 Sep 2015 09:26:33 -0400|Thu, 24 Sep 2015 15:06:44 -0400
+44fb7ff3b35d35727eb67314cd7fbca05ede16fa|compute agent: do not try to configure nova.conf|Tue, 22 Sep 2015 15:23:43 -0400|Thu, 24 Sep 2015 18:38:15 +0000
+4d72c6ceec902596586509d77e9cf833c2428803|Update ceilometer::db class to match other module pattern|Thu, 24 Sep 2015 10:35:23 +0200|Thu, 24 Sep 2015 10:39:14 +0200
+392da101bb9212cc1ae9d5c64f923f14ac9a2b9c|Bump RDO packages to tested repos|Tue, 22 Sep 2015 13:47:07 -0400|Tue, 22 Sep 2015 13:47:07 -0400
+45f51aee3d5a86ccc93b4c4487ad405667970c4d|Merge "Make 'alarm_history_time_to_live' parameter configurable"|Mon, 21 Sep 2015 14:06:20 +0000|Mon, 21 Sep 2015 14:06:20 +0000
+67aa7266e75de57daaa88f1d8b2a6b887c64dfc6|Merge "Creation of ceilometer::db::sync"|Fri, 18 Sep 2015 15:15:46 +0000|Fri, 18 Sep 2015 15:15:46 +0000
+2d669a5d6ed2a51f2f842e165ba50422c4d9954f|Make 'alarm_history_time_to_live' parameter configurable|Mon, 14 Sep 2015 18:00:22 +0300|Wed, 16 Sep 2015 15:57:55 +0300
+93f2f4a2227fc6a138d2c9e9494d44ab626c4840|Merge "acceptance/eventlet: make sure apache is stopped"|Fri, 11 Sep 2015 13:55:46 +0000|Fri, 11 Sep 2015 13:55:46 +0000
+2d6f830e136d9e08a2daf9ec110668a869423715|Merge "Disable lint warning check"|Fri, 11 Sep 2015 13:48:24 +0000|Fri, 11 Sep 2015 13:48:24 +0000
+7c549514a702a597e2dce944cd146416d176e312|acceptance: bump to Liberty|Thu, 10 Sep 2015 12:13:15 -0400|Thu, 10 Sep 2015 15:47:37 -0400
+a4a12b2612c1e54579c79fa6faef91b684b9aff1|Disable lint warning check|Fri, 4 Sep 2015 11:28:00 -0700|Fri, 4 Sep 2015 11:28:00 -0700
+0fb6851f5fc8a306dc2b850d7336591833f8ad1d|acceptance/eventlet: make sure apache is stopped|Sun, 23 Aug 2015 10:36:58 -0400|Sun, 23 Aug 2015 10:36:58 -0400
+7d20689bbb3857872cd63497ac45d523ed775d0d|Merge "Reflect provider change in puppet-openstacklib"|Thu, 20 Aug 2015 16:35:58 +0000|Thu, 20 Aug 2015 16:35:58 +0000
+f167c7a3a95190efeb2533aeeee237de1ecaa0aa|Merge "Initial msync run for all Puppet OpenStack modules"|Thu, 20 Aug 2015 01:29:41 +0000|Thu, 20 Aug 2015 01:29:41 +0000
+05c5ec1605769579d6f6caeb91cd850da895a730|Reflect provider change in puppet-openstacklib|Thu, 6 Aug 2015 13:05:21 +0200|Wed, 19 Aug 2015 10:37:41 +0200
+212630d4f20ef897ba43006408ae7fd90da91a3f|acceptance: enable debug & verbosity for OpenStack logs|Sun, 16 Aug 2015 09:50:01 -0400|Tue, 18 Aug 2015 13:51:20 +0000
+4ff5f42a759c45834ade52bf3aacfe1047c0689f|Merge "wsgi: fix typos in comments"|Tue, 18 Aug 2015 13:26:15 +0000|Tue, 18 Aug 2015 13:26:15 +0000
+7b920066e1aeb7f4201bb74ecf4c31f1efb9cafe|Creation of ceilometer::db::sync|Wed, 22 Jul 2015 14:53:29 +0200|Mon, 17 Aug 2015 10:09:41 +0200
+fe4eb1f5efcc6af093663efaa9d3ea7eff8f5ea0|Merge "acceptance: bump to Liberty release"|Fri, 14 Aug 2015 21:03:16 +0000|Fri, 14 Aug 2015 21:03:16 +0000
+a0fe2020da5cedcbed87bfbc4ffba6f527047c84|wsgi: fix typos in comments|Fri, 14 Aug 2015 11:39:22 -0400|Fri, 14 Aug 2015 15:53:22 -0400
+257a60ce79f00f96239d06d84c9660f14a31bd68|WSGI: make it work, and test it with acceptance|Tue, 4 Aug 2015 22:36:47 -0400|Thu, 13 Aug 2015 13:31:59 -0400
+6114cbf65fecd62cc905275de8c6f56fafecde20|Merge "Rely on autorequire for config resource ordering"|Thu, 13 Aug 2015 09:18:41 +0000|Thu, 13 Aug 2015 09:18:41 +0000
+5100d55cd2597575c714b5761fdde90b65384f22|Merge "acceptance: clean an old FIXME in manifest"|Thu, 13 Aug 2015 08:32:10 +0000|Thu, 13 Aug 2015 08:32:13 +0000
+e729f2d91177a64db52476b4e3b3c2d361b1cf47|Rely on autorequire for config resource ordering|Wed, 12 Aug 2015 09:45:38 +0200|Wed, 12 Aug 2015 18:45:28 +0200
+47e61845e42ff3f67acaf973a7f6eb5fb3e489aa|Merge "Add an ability to manage use_stderr parameter"|Wed, 12 Aug 2015 07:17:54 +0000|Wed, 12 Aug 2015 07:17:54 +0000
+b8424f9ffd978ba7b5406d0cc9d9c23308e4217d|Use openstack/ namespace for fixtures modules|Tue, 11 Aug 2015 14:44:09 +0200|Tue, 11 Aug 2015 14:44:09 +0200
+985c48951b42810cbfcf3a077c8773a8787fa6d2|Add an ability to manage use_stderr parameter|Fri, 7 Aug 2015 15:44:01 +0300|Fri, 7 Aug 2015 19:46:24 +0300
+3dbe940b19d9541b1964f9cba62d1f4369590b99|acceptance: bump to Liberty release|Tue, 4 Aug 2015 20:23:59 -0400|Fri, 7 Aug 2015 15:27:58 +0000
+6d461c803bb86c2fc224a61ba8e9138a2019d319|Merge "Add ability to specify ttl and timeout parameters"|Fri, 7 Aug 2015 15:12:09 +0000|Fri, 7 Aug 2015 15:12:09 +0000
+93575b1639fc8a465065c6d78d4e514612edbd39|Initial msync run for all Puppet OpenStack modules|Tue, 4 Aug 2015 15:37:05 +0200|Thu, 6 Aug 2015 18:43:19 +0000
+def35c7fd5278ab1da23ec5f8f090de4a51a0629|acceptance: clean an old FIXME in manifest|Tue, 4 Aug 2015 22:37:52 -0400|Tue, 4 Aug 2015 22:37:52 -0400
+2ff489103bf401983c27aa6523c01bbd950c768f|Add ability to specify ttl and timeout parameters|Fri, 31 Jul 2015 16:18:36 +0300|Tue, 4 Aug 2015 16:48:10 +0300
+9529fd4e831cb9f3f37a26435bd33d8fab7521c5|Update Setup in Ceilometer README|Tue, 21 Jul 2015 17:26:21 -0300|Fri, 31 Jul 2015 14:50:35 +0000
+cf846dc5324f023a19eddc7ea292895b9a747a8b|Enable support for memcached_servers|Wed, 8 Jul 2015 20:43:56 -0600|Thu, 23 Jul 2015 20:10:21 +0000
+dcc71c619c53db1fa24314c5214abd792ad633e2|Merge "Add tag to package and service resources"|Thu, 23 Jul 2015 16:09:48 +0000|Thu, 23 Jul 2015 16:09:48 +0000
+635459c52997ef103f8fc0c11a0e6d841ad7ce41|Merge "fix module install reference"|Thu, 23 Jul 2015 14:34:02 +0000|Thu, 23 Jul 2015 14:34:02 +0000
+a5353006efee3b3af38b161c9e9c5f79ce93f4b0|Add tag to package and service resources|Wed, 22 Jul 2015 14:53:29 +0200|Wed, 22 Jul 2015 21:00:51 +0200
+9b60f6661ffdbfe3273e509762102f05ce1c556d|Merge "Fix rspec 3.x syntax"|Tue, 21 Jul 2015 15:42:01 +0000|Tue, 21 Jul 2015 15:42:01 +0000
+488599fee83dea47082c6c06ce91d5c3a1438720|Fix rspec 3.x syntax|Mon, 20 Jul 2015 15:51:26 +0200|Mon, 20 Jul 2015 15:51:26 +0200
+071c2349477a4191a57154e2138971502982b266|Merge "keystone/auth: make service description configurable"|Mon, 20 Jul 2015 10:21:56 +0000|Mon, 20 Jul 2015 10:21:57 +0000
+c69508b6f20d092d950e0ccdba9842b1a845e65a|fix module install reference|Wed, 8 Jul 2015 19:12:31 -0600|Sun, 19 Jul 2015 22:10:30 -0600
+56cacb4a65ffa1bd795cbdbffef4c2071a54a411|Simplify parameters for rpc_backend|Fri, 26 Jun 2015 14:40:33 +0200|Mon, 13 Jul 2015 09:51:54 +0200
+58afd380d1e043f1dd566c942e6dca26cf8e8b38|Merge "Add support for RabbitMQ connection heartbeat"|Fri, 10 Jul 2015 15:40:37 +0000|Fri, 10 Jul 2015 15:40:38 +0000
+dbc5354b454e429520c8a471e04cb9dd2ad4936f|Merge "Prepare 6.0.0 release"|Thu, 9 Jul 2015 19:00:44 +0000|Thu, 9 Jul 2015 19:00:44 +0000
+8860f2d5ac1f6d5a4ace552f71dce3630ba46a75|Prepare 6.0.0 release|Wed, 8 Jul 2015 17:36:09 -0400|Thu, 9 Jul 2015 12:42:11 -0400
+f17b3442402529281bdca9b2f70697e04bcfe216|Fix git clone for locally running tests|Wed, 8 Jul 2015 11:40:45 -0700|Wed, 8 Jul 2015 11:56:15 -0700
+6f5f5b04c49d3c55cb56e6949a01d107787294d2|Correct `puppet module list` check in beaker|Tue, 7 Jul 2015 13:38:27 -0700|Tue, 7 Jul 2015 13:38:27 -0700
+643469f5caeb00309b5f08ca67dded8cd1eb4094|Use module install script for acceptance tests|Tue, 7 Jul 2015 13:07:52 -0700|Tue, 7 Jul 2015 13:07:52 -0700
+f9cd34f8a7457e05f28caeb9e1ba637f1a174b59|Add support for RabbitMQ connection heartbeat|Mon, 22 Jun 2015 14:03:24 -0600|Tue, 7 Jul 2015 11:31:07 -0600
+bf194d2f7593d769ea442959b90ec972cfb01c87|Use beaker-puppet_install_helper to install puppet|Tue, 30 Jun 2015 16:48:22 -0400|Tue, 30 Jun 2015 16:48:22 -0400
+b28de45c2bf497eb202728f9cd3ecbf4fa7ec1e6|acceptance: install latest openstack-selinux|Mon, 29 Jun 2015 15:22:28 -0400|Mon, 29 Jun 2015 15:22:28 -0400
+b68ddc6ae50745248e31715c13828394d57bbc24|Merge "make crontab for expirer optional"|Mon, 29 Jun 2015 16:58:01 +0000|Mon, 29 Jun 2015 16:58:01 +0000
+f612d92bfb88bede54d9d2f44ae8686b0d0a5dc8|make crontab for expirer optional|Thu, 25 Jun 2015 15:28:12 +1200|Mon, 29 Jun 2015 12:49:05 +0200
+64face889082c4bd26bdd53377df62e57130bd61|Remove Contact info from README|Fri, 26 Jun 2015 11:43:41 -0700|Sun, 28 Jun 2015 22:18:29 +0000
+e09c79a36bcd885c4d47f5f1402287600bcb1d4c|Merge "Remove license from README"|Sun, 28 Jun 2015 16:22:49 +0000|Sun, 28 Jun 2015 16:22:49 +0000
+1724fb649f8e0fb10b1f34407e107c7604f33d11|Merge "Split release notes into a CHANGELOG.md file"|Sun, 28 Jun 2015 07:15:27 +0000|Sun, 28 Jun 2015 07:15:27 +0000
+c363162560f7907c3b073d1d42db945221772323|Merge "Update README.md for project namespace change"|Sat, 27 Jun 2015 15:46:22 +0000|Sat, 27 Jun 2015 15:46:22 +0000
+a272dd3225767b3bd2a6609e8474f0ddf06dac36|Merge "Correct the name of the auth param deprecation msg"|Sat, 27 Jun 2015 15:41:16 +0000|Sat, 27 Jun 2015 15:41:16 +0000
+deb0972d840d7a2a465a34b2b2183b347a586c4a|Remove license from README|Fri, 26 Jun 2015 11:38:59 -0700|Fri, 26 Jun 2015 15:40:19 -0700
+d6369ecccfbaed99049ea64bf42dc6c2a63f6b10|Split release notes into a CHANGELOG.md file|Fri, 26 Jun 2015 11:29:22 -0700|Fri, 26 Jun 2015 15:40:19 -0700
+cef8078534bd0df26916149c04b2abfada73b1d2|acceptance: install RDO repo the right way|Fri, 26 Jun 2015 15:40:31 -0400|Fri, 26 Jun 2015 15:40:31 -0400
+e4e4d71b682118b9c4f6d4f491e1c2e32b7178ad|Fix Beaker CI according recent puppetlabs-rabbitmq change.|Wed, 24 Jun 2015 19:11:00 +0200|Thu, 25 Jun 2015 00:02:38 +0200
+e7dfcc85deee36633e8cdfeea1fc8707c3690019|keystone/auth: make service description configurable|Wed, 24 Jun 2015 17:51:15 +0200|Wed, 24 Jun 2015 17:51:15 +0200
+29aa27d4f59e0eb208c1aea3feb1cd1ef3d43379|Update README.md for project namespace change|Mon, 22 Jun 2015 15:02:02 +0800|Mon, 22 Jun 2015 17:04:06 +0800
+ff77b8736b78236f1ef02aba037730d774e28241|Correct the name of the auth param deprecation msg|Wed, 17 Jun 2015 21:36:15 -0400|Sun, 21 Jun 2015 08:09:40 -0400
+4d18c07eed8153e1f688619f9ae306a45de756fc|Release 5.1.0 - Juno|Wed, 17 Jun 2015 13:45:54 -0400|Wed, 17 Jun 2015 13:46:24 -0400
+c433a111bc03fa00ba3a21af4e73955e9014fc3d|Merge "Deprecate old public, internal and admin parameters"|Wed, 17 Jun 2015 00:02:27 +0000|Wed, 17 Jun 2015 00:02:27 +0000
+17e580e68969e5bff9525b07cc0aed43b4af3983|Merge "Update spec_helper_acceptance for project renames"|Tue, 16 Jun 2015 15:54:46 +0000|Tue, 16 Jun 2015 15:54:46 +0000
+79f35ad8522fe831ca0a998f8831dfd65db538b0|Update spec_helper_acceptance for project renames|Fri, 12 Jun 2015 17:33:15 -0700|Fri, 12 Jun 2015 17:33:15 -0700
+2bb88c9e504df19d61c6d272e3658cc47532e686|Update .gitreview file for project rename|Fri, 12 Jun 2015 22:41:19 +0000|Fri, 12 Jun 2015 23:12:30 +0000
+e984d28464487d8fc53df6f7424fda36aa505266|Deprecate old public, internal and admin parameters|Thu, 11 Jun 2015 14:04:12 -0400|Thu, 11 Jun 2015 16:48:19 -0400
+430f4f4f72da5bcd401d190876bf04830e0a8e16|Merge "Unpin beaker-rspec"|Tue, 9 Jun 2015 17:18:09 +0000|Tue, 9 Jun 2015 17:18:09 +0000
+ff9913826b6bf13dba755e578f647e1f76d7c703|Unpin beaker-rspec|Mon, 8 Jun 2015 12:55:06 -0700|Mon, 8 Jun 2015 12:55:06 -0700
+208cee770447b06add82707d28ed616794b1d759|Move rabbit/kombu settings to oslo_messaging_rabbit section|Tue, 14 Apr 2015 21:35:39 +0200|Mon, 8 Jun 2015 17:27:04 +0000
+264ea1b19155bb2f34a95858b18442c14504ddf2|Fix dependency on nova-common package|Fri, 22 May 2015 12:39:48 +0300|Fri, 22 May 2015 12:43:51 +0300
+c6f69adf40a95595c362c3cce0bae700ec223b85|Merge "acceptance: don't install erlang on RHEL"|Sun, 17 May 2015 01:29:10 +0000|Sun, 17 May 2015 01:29:10 +0000
+78a6b698922e91a8c2b45e363e90978b97e513ee|Merge "Fix spec tests for RSpec 3.x and Puppet 4.x"|Thu, 14 May 2015 18:35:32 +0000|Thu, 14 May 2015 18:35:32 +0000
+67a7a61ea085ca9888beae2b08c0a45caa82e4a9|acceptance: don't install erlang on RHEL|Wed, 13 May 2015 17:08:35 -0400|Wed, 13 May 2015 17:08:35 -0400
+b4089b1608912f4c917d6ea34593444d76537745|Fix spec tests for RSpec 3.x and Puppet 4.x|Wed, 13 May 2015 17:36:59 +0200|Wed, 13 May 2015 17:37:19 +0200
+c2e9179394077e838b50fbe501f181fe04729010|Bring Redhat support to acceptance tests|Mon, 11 May 2015 15:38:43 -0400|Wed, 13 May 2015 08:10:39 -0400
+f226cc364302694c41aa5705dcec73d2b39d412e|Beaker: install APT repo with openstack_extras|Mon, 11 May 2015 15:22:36 -0400|Tue, 12 May 2015 00:04:02 -0400
+69af03e1665e5eca2ef988ccaacf3623f7ace2af|Merge "Ensure python-mysqldb is installed  before MySQL db_sync"|Wed, 6 May 2015 14:20:26 +0000|Wed, 6 May 2015 14:20:26 +0000
+c314b89ed12fda413abe7d88f3ca3bea75d54196|Merge "Beaker tests"|Tue, 5 May 2015 08:45:03 +0000|Tue, 5 May 2015 08:45:03 +0000
+716ef623ba905945b71c0920ab9328e3df1184f6|Beaker tests|Sat, 25 Apr 2015 15:19:58 -0400|Fri, 1 May 2015 17:27:00 -0400
+4cc03d183c753f7fcbb9560cfcd80fe8e5f5db45|Ensure python-mysqldb is installed  before MySQL db_sync|Sun, 26 Apr 2015 06:48:24 -0400|Sun, 26 Apr 2015 06:48:24 -0400
+b22ed8d032850aea3d721557bc12c51d16846197|Bump rspec-puppet to 2.1.0|Wed, 22 Apr 2015 17:12:26 -0400|Wed, 22 Apr 2015 23:42:54 -0400
+441fe25bfe6b3992436fef9f5691fecce08a51e1|MySQL: change default MySQL collate to utf8_general_ci|Tue, 21 Apr 2015 13:05:47 -0400|Tue, 21 Apr 2015 13:05:47 -0400
+e87b29e6efa1ee37bd80b49624e75ea98d123cbb|Merge "Synchronize LICENSE file with OpenStack projects"|Mon, 20 Apr 2015 14:26:59 +0000|Mon, 20 Apr 2015 14:26:59 +0000
+fae87c07a6bc0b8b66651147405c4310ab528a74|Synchronize LICENSE file with OpenStack projects|Tue, 14 Apr 2015 17:02:51 -0400|Mon, 20 Apr 2015 09:17:21 -0400
+0ec70ff60f620a1af29ae64a646ee7e5ad98ebb9|spec: Add Unit Tests for Ceilometer_config type/provider|Fri, 3 Apr 2015 15:15:02 +0200|Thu, 16 Apr 2015 11:40:12 +0200
+2b3a328ea6776a74e1335c7d800763420b403916|Pin puppetlabs-concat to 1.2.1 in fixtures|Wed, 15 Apr 2015 15:14:14 -0700|Wed, 15 Apr 2015 15:14:14 -0700
+1c3a3aedddcd8f923bf00763b269b1f8e643b1a1|Merge "Add udp_address/udp_port parameters for collector."|Fri, 10 Apr 2015 07:45:36 +0000|Fri, 10 Apr 2015 07:45:36 +0000
+2405adff7d8b08681ed0d97ca5391be5404c5fd2|Add udp_address/udp_port parameters for collector.|Mon, 23 Mar 2015 14:42:41 -0400|Fri, 3 Apr 2015 14:20:43 -0400
+90446142d9b5e1e0c21e98434e5ff0515a2782ad|Fix some missing rspec3 keywords|Fri, 3 Apr 2015 15:10:59 +0200|Fri, 3 Apr 2015 15:10:59 +0200
+8d17c36818d99231a64d20f50ea708d59306fe22|Tag all Ceilometer packages|Sat, 28 Mar 2015 14:05:31 +0100|Tue, 31 Mar 2015 10:19:24 +0200
+b2e352b9c1e6f20f0c86d31598e67c125bfc1b40|Merge "Add Puppet 4.x lint checks"|Mon, 16 Mar 2015 06:16:56 +0000|Mon, 16 Mar 2015 06:16:56 +0000
+adca294785c80d207af8cadba30069ac7b68c28f|Merge "spec: updates for rspec-puppet 2.x and rspec 3.x"|Fri, 13 Mar 2015 15:31:04 +0000|Fri, 13 Mar 2015 15:31:04 +0000
+70faac7cfe4dafedea034dab81a32c758a524b61|Add support for identity_uri.|Thu, 12 Mar 2015 09:45:46 -0400|Thu, 12 Mar 2015 09:51:27 -0400
+565c78cc7faf636fb1f224a295c6c0c907dbc22a|Add Puppet 4.x lint checks|Sun, 22 Feb 2015 22:14:37 +0100|Wed, 11 Mar 2015 09:03:59 +0100
+55b7aad8cf0c902cd1469da8547f24e856b06de4|spec: updates for rspec-puppet 2.x and rspec 3.x|Sun, 22 Feb 2015 22:02:45 +0100|Wed, 11 Mar 2015 08:56:44 +0100
+85c742cd830a16a597b81816215ca387d12a9d54|Add support for ceilometer-polling agent|Mon, 26 Jan 2015 14:25:43 +0300|Wed, 25 Feb 2015 11:10:44 +0000
+bc443c3248ec755539ab6e1d0a8b069057a0fdd1|Fix lint issues (doc, metadata, manifests)|Sun, 22 Feb 2015 21:53:35 +0100|Mon, 23 Feb 2015 11:09:20 +0100
+71f27f1a49d04f13cf950871946b2da8240c54fc|spec: pin rspec-puppet to 1.0.1|Tue, 3 Feb 2015 15:32:20 +0100|Tue, 3 Feb 2015 15:32:20 +0100
+8f9fee1f28fd6af6a4bf1d110329d61730a305ae|Merge "Deprecate support for Fedora 18"|Wed, 14 Jan 2015 14:41:24 +0000|Wed, 14 Jan 2015 14:41:24 +0000
+1399ddcb7ebe9f7a5088e3f874a9516cd8d97083|Merge "Switch to TLSv1 as SSLv3 is considered insecure and is disabled by default"|Mon, 12 Jan 2015 23:41:30 +0000|Mon, 12 Jan 2015 23:41:30 +0000
+a0b8d10f2628bd0212d3de54e7ebf7a05f0c8333|Deprecate support for Fedora 18|Fri, 19 Dec 2014 13:04:04 +0100|Mon, 12 Jan 2015 18:19:01 +0100
+90247cf8cd0eac760d5b8eb986ceacf0db3fcc7f|Switch to TLSv1 as SSLv3 is considered insecure and is disabled by default|Fri, 2 Jan 2015 20:04:10 +0100|Mon, 12 Jan 2015 16:36:44 +0000
+c22f8578ff868a3fae6a7b56480cb7b10b34bfbe|Merge "Implement Ceilometer-API as a WSGI process support"|Mon, 12 Jan 2015 00:14:55 +0000|Mon, 12 Jan 2015 00:14:55 +0000
+13970d78a325a12e6bebabf9baa67b1eb5cac4ac|Merge "fixtures: Unpin puppetlabs-mysql module"|Sun, 11 Jan 2015 23:59:00 +0000|Sun, 11 Jan 2015 23:59:00 +0000
+8b73d27c7555523cf08b1c406b589cc9336630a6|Merge "db: Added postgresql backend using openstacklib helper"|Sun, 11 Jan 2015 23:54:37 +0000|Sun, 11 Jan 2015 23:54:37 +0000
+a3fbf2e8cb9ef76d2ee960cc8087c62736f7de6c|Implement Ceilometer-API as a WSGI process support|Wed, 7 Jan 2015 18:40:33 -0500|Wed, 7 Jan 2015 19:06:51 -0500
+9edcfeeeab683c7159441a1534046afcba3d89f7|Fix syntax error with postgresql database string|Mon, 5 Jan 2015 23:52:14 -0500|Mon, 5 Jan 2015 23:54:05 -0500
+a4cac0d56bf2d29a137cc264071b0a20949be6a9|db: Added postgresql backend using openstacklib helper|Tue, 30 Dec 2014 18:55:06 +0100|Tue, 30 Dec 2014 18:55:06 +0100
+65b41c84b71f5383e631dbc40dbfdaa302cf09d4|fixtures: Unpin puppetlabs-mysql module|Tue, 30 Dec 2014 18:39:40 +0100|Tue, 30 Dec 2014 18:39:40 +0100
+a83673c3bae7d560680cb77f2a2cc8c998fac2b7|crontab: ensure the script is run with shell|Tue, 9 Dec 2014 10:53:50 -0500|Tue, 9 Dec 2014 13:46:54 -0500
+c609affc2c5f0591bf9cffb06b6a4eee1d3b2610|Merge "Refactorise Keystone resources management"|Wed, 3 Dec 2014 22:22:16 +0000|Wed, 3 Dec 2014 22:22:16 +0000
+64d872cdef84867728087609996e5d9993398416|Merge "Add support for configuring coordination/backend_url"|Wed, 26 Nov 2014 13:23:52 +0000|Wed, 26 Nov 2014 13:23:52 +0000
+866208cece1c2bb99f5752e1cb64174c36c05b45|Clean up stray copy-paste error|Mon, 24 Nov 2014 17:51:50 -0800|Mon, 24 Nov 2014 17:51:50 -0800
+741e89ae5b59e6284d677dd1c3cdf4154902a378|Release 5.0.0 - Juno|Thu, 20 Nov 2014 16:59:10 -0800|Sat, 22 Nov 2014 15:22:23 -0800
+c0318f0e1b86fa5d6f40942fd1b9a1f6842a5c60|Refactorise Keystone resources management|Fri, 21 Nov 2014 10:06:47 -0500|Fri, 21 Nov 2014 10:12:40 -0500
+fade72deab0c52f7ea71b2891acb3785e1682a6b|Add support for configuring coordination/backend_url|Thu, 13 Nov 2014 20:24:33 +0000|Fri, 14 Nov 2014 12:40:13 +0000
+1d78470e5023e2ca6adef47c904d14d046dd87d1|policy.pp : Fix duplicate ressource issue openstacklib::policy|Mon, 10 Nov 2014 14:45:07 -0500|Mon, 10 Nov 2014 14:45:07 -0500
+c0bf61c0d70a04f77b9c7fdf2211bf36bda12a78|Merge "Added metadata lint and puppet-syntax gems"|Sun, 9 Nov 2014 11:25:25 +0000|Sun, 9 Nov 2014 11:25:25 +0000
+d2615c9e0ad33a6d51652f6e17e047420c3cc01e|Merge "policy.json: Allow one to manage them from the puppet module"|Sun, 9 Nov 2014 11:23:58 +0000|Sun, 9 Nov 2014 11:23:58 +0000
+94825922a040c6e8d9feb6da0643837bef816129|Added metadata lint and puppet-syntax gems|Thu, 9 Oct 2014 16:50:53 +0200|Sun, 2 Nov 2014 17:08:36 +0000
+2743465bdcc51a5fe17320abbb365302f598bf5f|Add package_ensure where missing|Tue, 2 Sep 2014 20:59:29 +1200|Fri, 24 Oct 2014 11:07:37 +1300
+d077ad297e7686574653d430c834bb16f4920f88|policy.json: Allow one to manage them from the puppet module|Fri, 26 Sep 2014 19:07:49 -0400|Wed, 22 Oct 2014 11:20:16 -0400
+065a353aae3fb869395908289be5d61840d5d38b|Switch to metadata.json for Puppet forge releases|Sat, 27 Sep 2014 11:14:56 +0200|Wed, 22 Oct 2014 15:54:30 +0200
+7792885d365306f04260f4e736eb3a2fca4e6a35|Merge "Stringify $evaluation_interval for validate_re call"|Fri, 3 Oct 2014 20:18:33 +0000|Fri, 3 Oct 2014 20:18:33 +0000
+08fc9d9159cd9eb0830d550abb1058bc2b9b5759|Ensure nova-common is installed before ceilometer|Wed, 1 Oct 2014 20:10:50 -0500|Wed, 1 Oct 2014 20:11:09 -0500
+6e907487951a05e10319f72d11d313e18e21bb2b|Merge "Make user creation optional when creating service."|Mon, 29 Sep 2014 19:39:13 +0000|Mon, 29 Sep 2014 19:39:13 +0000
+7e512f84c64ae633cf0e3aab0c6849990750f8d7|Merge "Add manage_service feature"|Mon, 29 Sep 2014 04:13:53 +0000|Mon, 29 Sep 2014 04:13:53 +0000
+a4f20d069ef002fe22b51cd954fec196954caa89|Stringify $evaluation_interval for validate_re call|Thu, 18 Sep 2014 12:18:30 -0600|Tue, 23 Sep 2014 11:33:53 -0700
+b9dd42dc26d89091e3a19b5fc780714a692b0b56|Update stdlib dependency to 4.x|Mon, 22 Sep 2014 14:53:47 -0700|Mon, 22 Sep 2014 14:57:08 -0700
+10d38bd8191fc82f4087731ea6932583dd66db8d|Add manage_service feature|Wed, 20 Aug 2014 15:57:55 +0200|Fri, 19 Sep 2014 12:29:53 +0200
+7719ceaff07b933006b34aa04e568b4db206bea1|Make user creation optional when creating service.|Wed, 10 Sep 2014 11:39:04 -0500|Thu, 11 Sep 2014 18:11:51 -0500
+957c2120d0ee0b9db08bfddcce996686ba61d97d|Makes kombu_ssl_* parameters optional when rabbit_use_ssl => true|Thu, 4 Sep 2014 13:49:30 -0600|Thu, 4 Sep 2014 14:03:47 -0600
+61ace074e3b18db487547f93b1125f72c2677219|Merge "Adds ability to override service name for service catalog"|Wed, 3 Sep 2014 15:15:10 +0000|Wed, 3 Sep 2014 15:15:10 +0000
+3cd65743e1c294e0494f1888b7f2f63cbcd6c8df|Merge "Migrate mysql backend to use openstacklib::db::mysql"|Wed, 3 Sep 2014 03:32:40 +0000|Wed, 3 Sep 2014 03:32:40 +0000
+ed031af7bf3a6dd4f883f9dba37f85fae91a25bf|Adds ability to override service name for service catalog|Wed, 13 Aug 2014 09:19:26 -0600|Thu, 21 Aug 2014 09:53:34 -0400
+078deea6169bb148e3d31743c2060a19f20e0fcc|Add extended logging options.|Tue, 12 Aug 2014 14:17:33 +0200|Tue, 19 Aug 2014 15:24:29 +0000
+15ab1a6e27f27bd973971efd71d3c8c47ad9a4cf|Migrate mysql backend to use openstacklib::db::mysql|Thu, 31 Jul 2014 11:11:26 -0700|Wed, 13 Aug 2014 11:13:44 -0700
+3c38c6522de80d53a8b0b7d0621f222c12928295|Fix ceilometer agent notification package error|Thu, 7 Aug 2014 15:05:23 +0800|Thu, 7 Aug 2014 15:12:01 +0800
+8c9f4fcd53e4ef0fb7694de6dce6e001c7e8cf7d|Add ability to disable ceilometer-collector without db|Tue, 5 Aug 2014 11:58:27 -0400|Tue, 5 Aug 2014 12:11:53 -0400
+e3ffea2b032f0694db36c34808e634c487054e4f|Merge "Use 2.2 as the default mysql_module"|Tue, 29 Jul 2014 23:01:01 +0000|Tue, 29 Jul 2014 23:01:01 +0000
+0d0eda813ecc7968570bc6652815e9f1a3622b55|Use 2.2 as the default mysql_module|Wed, 16 Jul 2014 18:43:48 +0530|Wed, 16 Jul 2014 18:44:55 +0530
+ca726ae16daa8574df1c4d2b214d510d3dd44d3a|Remove deprecation notice for sectionless ceilometer_config|Sat, 12 Jul 2014 02:20:30 +0200|Sat, 12 Jul 2014 02:20:30 +0200
+cca209f8b1fb37c611194030ba0701ab2a4134aa|Fixes Facts string comparisons in CentOS 7|Wed, 9 Jul 2014 11:52:25 +0200|Wed, 9 Jul 2014 19:43:13 +0200
+1519895776ac310dec33eba79fd906da5bdb41f1|Make Modulefile summary and description consistent|Wed, 2 Jul 2014 13:51:13 -0400|Thu, 3 Jul 2014 17:05:25 -0400
+bea7794633943e454fe3e99ee119298c3d0000ff|Normalize Gemfile & pin tests to rspec < 2.99|Fri, 20 Jun 2014 07:51:19 -0400|Fri, 20 Jun 2014 09:13:19 -0400
+b10f1af5b0576ad6926d6dbd5e5a0e4a8eab32d4|Hide secrets from puppet logs|Tue, 10 Jun 2014 11:17:39 +0200|Tue, 10 Jun 2014 15:24:30 +0200
+c2f41fb1eb776bcfdaab79c120ac509a861d0828|Merge "Fixes agent_notification_service_name"|Thu, 5 Jun 2014 15:42:45 +0000|Thu, 5 Jun 2014 15:42:45 +0000
+00bfaa1fa4709cec6a03e2772445dc8f27a89224|Fixes agent_notification_service_name|Mon, 26 May 2014 06:54:45 -0600|Mon, 2 Jun 2014 21:56:52 -0400
+166b00a773bb2830175bd61a451294d757453eb3|Default to utf8 for MySQL|Fri, 23 May 2014 15:14:48 -0400|Fri, 23 May 2014 15:14:48 -0400
+55cbdace1730a3cb0af780ab9f7be703ac873eab|Fail when ssl parameters are missing and rabbit_use_ssl is set to true|Fri, 16 May 2014 11:48:51 -0400|Fri, 16 May 2014 12:23:39 -0400
+9ec5122f6d9c1168f9edb077b629d0722ee6c86c|Implement rspec function it_raises|Thu, 15 May 2014 14:40:46 -0400|Thu, 15 May 2014 14:42:34 -0400
+fe9e463fa7d9b74d91c95f0f95140f4894e57020|notification agent: fix dependency cycle|Wed, 7 May 2014 22:50:52 +0200|Wed, 7 May 2014 22:53:09 +0200
+b231c9681d476a05f437f828b95870ab4cbc4327|Merge "Add RabbitMQ SSL support"|Tue, 6 May 2014 12:59:27 +0000|Tue, 6 May 2014 12:59:27 +0000
+615b6463ba04af34b810a358e106da25f208b080|ensure_packages needs array in agent::notification|Tue, 6 May 2014 13:36:10 +0200|Tue, 6 May 2014 13:36:10 +0200
+76423fd42a1136279ab2aa51f53adbee477062b0|Add RabbitMQ SSL support|Mon, 5 May 2014 16:20:49 -0400|Mon, 5 May 2014 16:23:24 -0400
+a914270e284e050f0d1ce94b646c9e742f28c059|4.0.0 - 2014.1.0 - Icehouse Release|Thu, 1 May 2014 10:00:42 -0700|Thu, 1 May 2014 10:01:16 -0700
+1e7d4c298b3685cae5957067b48646e513f7da00|Merge "Introduce ceilometer:config to manage custom options"|Tue, 29 Apr 2014 13:22:42 +0000|Tue, 29 Apr 2014 13:22:42 +0000
+c9cadc53529ffc2028929292d1ce496b1a2777d2|Introduce ceilometer:config to manage custom options|Thu, 3 Apr 2014 19:24:03 +0800|Tue, 22 Apr 2014 11:39:24 +0800
+f444fc8937a6bc05d0257c1a935e742491e94b02|Add table to mysql_grant call|Thu, 17 Apr 2014 03:16:00 -0400|Thu, 17 Apr 2014 03:17:35 -0400
+bea61ade60e87375c44d242ae196292776332d6c|Remove duplicate instance_usage_audit|Mon, 7 Apr 2014 13:44:45 -0700|Mon, 7 Apr 2014 13:50:35 -0700
+9bd58d7434a9981e910f407feb36f330084d57dd|Merge "Updated to match semver and release notes."|Fri, 28 Mar 2014 21:45:37 +0000|Fri, 28 Mar 2014 21:45:37 +0000
+ca454601ac30c34ca0b0f3007fc04651d3737a12|Updated to match semver and release notes.|Fri, 21 Mar 2014 15:45:41 -0700|Fri, 28 Mar 2014 09:12:15 -0700
+a43938f7909b149b1b3a50140c154127259fcaec|Fixed gate by Updating Gemfile to pin Rake to 10.1.1|Mon, 24 Mar 2014 15:28:37 -0700|Mon, 24 Mar 2014 15:35:44 -0700
+ec68e990d469924a05567bdbf988f53468638698|Merge "Add support for puppetlabs-mysql 2.2"|Fri, 21 Mar 2014 15:23:31 +0000|Fri, 21 Mar 2014 15:23:31 +0000
+2eb91872c2d8bd7f08878f4e941d2136767a1d6a|Merge "Fix ensure_packages error"|Tue, 18 Mar 2014 08:55:54 +0000|Tue, 18 Mar 2014 08:55:54 +0000
+8bf875843ef1e22e56d7d84f53856f477a794bc9|Merge "Changes file_path to self.file_path"|Mon, 17 Mar 2014 12:00:50 +0000|Mon, 17 Mar 2014 12:00:50 +0000
+addaf5179d228fa571fdcb0e5017c99a4727bb2a|Add support for puppetlabs-mysql 2.2|Fri, 28 Feb 2014 20:08:29 +1100|Sun, 16 Mar 2014 21:24:10 +1100
+555df8b3a9b4ea12398bef21aa8d986fdbc2faa6|Fix ensure_packages error|Sat, 15 Mar 2014 01:15:02 -0400|Sat, 15 Mar 2014 01:17:55 -0400
+18f6a9d164c53e955a34efc5a3c19ebc37ef8492|Fix region name configuration|Tue, 11 Mar 2014 15:58:37 -0400|Tue, 11 Mar 2014 15:58:37 -0400
+a3b1417a61ffefbb990339a66d14b85111bccfb0|Merge "Implement notification agent service"|Wed, 5 Mar 2014 23:53:39 +0000|Wed, 5 Mar 2014 23:53:39 +0000
+2d9a4b5c9d6e5496b13c629a02a0c3553faa01a1|Merge "Move service polling credentials to service_credentials"|Wed, 5 Mar 2014 21:42:07 +0000|Wed, 5 Mar 2014 21:42:07 +0000
+160b5ed239e996e6c18de3f6158c8b0a4e66c175|Move service polling credentials to service_credentials|Tue, 4 Mar 2014 16:57:42 -0500|Tue, 4 Mar 2014 16:57:42 -0500
+db81d776f1e0b3e7ecbb8ae98d74e55e6d773bb1|Implement notification agent service|Fri, 24 Jan 2014 15:25:06 +0100|Mon, 3 Mar 2014 11:40:10 +0100
+da165d422a3e5deef9af20d22f5fc33deff7d58a|Add ability to override notification_topics|Tue, 28 Jan 2014 18:28:26 -0500|Wed, 26 Feb 2014 10:52:23 -0500
+a86e117b1b04603b61eb9ed70fb5c3b95f3a8b20|Merge "Do not enforce glance_control_exchange"|Sun, 23 Feb 2014 04:37:07 +0000|Sun, 23 Feb 2014 04:37:07 +0000
+e6c191194312935ea01c97ae667bf3ea1a912f81|Define $user referenced in db.pp|Thu, 20 Feb 2014 09:55:13 -0500|Fri, 21 Feb 2014 14:26:06 -0500
+1aa1d795f0c06bb5266886b8599814e61fbef3f3|Allow db fields configuration without doing the dbsync|Wed, 19 Feb 2014 13:50:34 -0500|Thu, 20 Feb 2014 10:03:28 -0500
+2b35c1a04ce6f28f700971c31d18af88b65a089e|Allow log_dir to be set to false in order to disable file logging|Fri, 14 Feb 2014 11:42:16 -0500|Fri, 14 Feb 2014 11:47:19 -0500
+44d9f8f991f96fc6916d562a16b9b13e57f04c0c|Changes file_path to self.file_path|Fri, 14 Feb 2014 16:19:41 +0100|Fri, 14 Feb 2014 16:28:21 +0100
+499670d585de20aed825033faa26bba9d9433e50|Merge "Remove glance_notifications from notification_topic"|Fri, 14 Feb 2014 02:36:41 +0000|Fri, 14 Feb 2014 02:36:41 +0000
+9ad19cb58566312a72a1438c7d373db073afe9d0|Merge "Move metering_secret to publisher section"|Wed, 5 Feb 2014 12:47:51 +0000|Wed, 5 Feb 2014 12:47:51 +0000
+a46bbc4c5179d4988f4beec0fc548c91300008a2|Don't match commented [DEFAULT]|Mon, 3 Feb 2014 14:31:26 +0100|Mon, 3 Feb 2014 14:31:26 +0100
+85d46894cca6ba80e8cb57243dde57e44cffa443|Do not enforce glance_control_exchange|Tue, 28 Jan 2014 18:18:00 -0500|Tue, 28 Jan 2014 18:18:00 -0500
+924f18ffae174847d4c3d5ec5d5ae4241c9dd897|Remove glance_notifications from notification_topic|Tue, 28 Jan 2014 18:13:01 -0500|Tue, 28 Jan 2014 18:13:01 -0500
+89c9ea591e842da59d0ebbde2a9ea7137eae396f|Move metering_secret to publisher section|Fri, 24 Jan 2014 14:19:42 +0100|Fri, 24 Jan 2014 14:19:42 +0100
+3685997f0ed4a88d0ccacd0415b210a948c66910|Remove log_dir from params and make logs configurable in init|Tue, 21 Jan 2014 13:30:02 -0500|Thu, 23 Jan 2014 15:21:24 -0500
+f2cd6ac8595552e890d4a9bdbb2196eba2dc4d5f|Merge "Fix package ceilometer-alarm type error on Debian"|Tue, 14 Jan 2014 16:57:55 +0000|Tue, 14 Jan 2014 16:57:55 +0000
+25763e827586ff8658f6a8e65d302e15cdcdea82|Merge "Only add ceilometer user to nova group if using compute agent"|Tue, 14 Jan 2014 08:01:03 +0000|Tue, 14 Jan 2014 08:01:03 +0000
+49f814a58cc7594584673564ce56996e34cc09ac|Fixed mysql dependency to match other modules|Wed, 8 Jan 2014 16:20:19 -0800|Wed, 8 Jan 2014 16:20:19 -0800
+d064997cd4c50d9b5365fe2ffca60e14a86b08e1|Only add ceilometer user to nova group if using compute agent|Tue, 7 Jan 2014 16:41:14 -0500|Tue, 7 Jan 2014 16:44:03 -0500
+5bc33119dfc2adb8abdd0c475422d0e8559513c1|Fix package ceilometer-alarm type error on Debian|Sat, 4 Jan 2014 11:32:35 +0100|Sat, 4 Jan 2014 12:30:37 +0100
+f8eea90cd9f1652ba927bfcc9bf8234af8983c11|Add API binding options|Thu, 2 Jan 2014 15:50:34 +0100|Thu, 2 Jan 2014 15:50:34 +0100
+b3e43a467959318d48ea63de0f63b33dced832d9|Merge "Add Gemfile.lock to gitignore"|Sun, 29 Dec 2013 07:06:04 +0000|Sun, 29 Dec 2013 07:06:04 +0000
+8e988bb066e59b0bf4098c0609df9cbb28dd3206|Add Gemfile.lock to gitignore|Mon, 23 Dec 2013 19:00:48 +0100|Mon, 23 Dec 2013 19:00:48 +0100
+f745cf634fa2cf9889a2ef03ee9de3a3d0d1045b|Remove use of deprecated include_class matcher|Mon, 23 Dec 2013 02:27:17 -0500|Mon, 23 Dec 2013 02:27:28 -0500
+0af224916f085166d5ccd104e90cbc680039063d|TTL mechanism support with expirer service|Wed, 4 Dec 2013 01:04:42 +0100|Sat, 7 Dec 2013 12:37:59 +0100
+0fb3b8f693ba4cc24bdcfb1f61de843343a13e75|Updates to params.pp for mongo and postgres packages|Thu, 31 Oct 2013 19:11:58 +0100|Thu, 14 Nov 2013 17:49:10 +0100
+7ac2d80c4e5cec07a54670c4165337ce58a32bf8|Merge "changed rabbit_virtualhost(wrong) to rabbit_virtual_host"|Wed, 13 Nov 2013 10:49:16 +0000|Wed, 13 Nov 2013 10:49:16 +0000
+7f320253bf65cc39c8bd743a5d38654655935c8b|Merge "Alarm: record history support"|Wed, 13 Nov 2013 10:35:42 +0000|Wed, 13 Nov 2013 10:35:42 +0000
+0bd24d09a84fdc5b38fc2deed2e87a989e90d174|fix postgresql connection string|Wed, 6 Nov 2013 10:32:59 +0100|Wed, 6 Nov 2013 10:32:59 +0100
+bfece45c001de44b727b0b2441db25fc9b45024c|changed rabbit_virtualhost(wrong) to rabbit_virtual_host|Wed, 6 Nov 2013 09:26:41 +0100|Wed, 6 Nov 2013 09:26:41 +0100
+24a712516bb721bd62ead06cabadc631b8b7f060|Alarm: record history support|Sat, 2 Nov 2013 00:50:54 +0100|Sat, 2 Nov 2013 00:50:54 +0100
+8dd62be47be7e12c2c80d9971ad205e904ee6d35|Updated site.pp and added alarm manifests|Tue, 29 Oct 2013 18:07:31 +0100|Tue, 29 Oct 2013 18:47:17 +0100
+b4294d2939129d6503aeeede21766069ac40e35f|Added alarm-notifier and alarm-evaluator services|Wed, 9 Oct 2013 19:54:24 +0200|Tue, 15 Oct 2013 20:09:16 +0200
+ebe908365c280d8cd8d976136c63fedb18c445ea|Allow to set full url for endpoints|Thu, 19 Sep 2013 17:33:58 +0200|Mon, 23 Sep 2013 10:24:13 +0200
+caf96f5395fc79203a1b53c6b54dd9707469930f|Add ceilometer::agent::auth.|Wed, 4 Sep 2013 13:00:36 -0400|Wed, 11 Sep 2013 22:28:03 -0400
+b7f74dfe9628c07a8c92df3d3778c241b5ed6ecc|Use connection to replace deprecated database_connection|Mon, 9 Sep 2013 18:49:38 +0800|Tue, 10 Sep 2013 09:22:53 +0800
+9ac4a3c915479c1055fb9d3d5194fe576c129b28|Merge "Inline a custom file_line provider to fix agent."|Thu, 5 Sep 2013 16:11:01 +0000|Thu, 5 Sep 2013 16:11:01 +0000
+35109a0585a3c169196d51300d5f7e06d191012e|Merge "Add default auth_uri setting for auth token."|Thu, 5 Sep 2013 05:14:15 +0000|Thu, 5 Sep 2013 05:14:15 +0000
+a3b324dba249f5db38a4ff71b9bb5bc0f7d68147|Inline a custom file_line provider to fix agent.|Thu, 29 Aug 2013 12:56:10 -0400|Tue, 3 Sep 2013 13:17:29 -0400
+bfad5a3821886da6f1620f922e499d19a019148c|Merge "Handle Centos/RHEL pymongo packages"|Sat, 31 Aug 2013 20:46:22 +0000|Sat, 31 Aug 2013 20:46:22 +0000
+17711d8230432a883753b2f2ebece4fb1cf7ab16|Add default auth_uri setting for auth token.|Thu, 29 Aug 2013 10:41:48 -0400|Thu, 29 Aug 2013 10:41:48 -0400
+60b0ff4786d4ef7b24fd03d5310cd6c9e7683ad8|Handle Centos/RHEL pymongo packages|Thu, 22 Aug 2013 14:53:32 +1000|Thu, 29 Aug 2013 15:26:37 +1000
+ffde8588fd1360335fbfd376e00f8d53b0ef05e2|Fail puppet-lint on warnings|Wed, 28 Aug 2013 13:21:53 -0400|Wed, 28 Aug 2013 13:26:34 -0400
+df323d97e62f5f107342ef2dc65bfa64732426f7|Merge "Add support for CA authentication in Keystone"|Thu, 15 Aug 2013 21:35:37 +0000|Thu, 15 Aug 2013 21:35:37 +0000
+1a9cfe89b1f7e516007a43c31a081e3e33e5e2bf|Merge "Clean all warnings for puppet-lint gate"|Tue, 13 Aug 2013 15:13:46 +0000|Tue, 13 Aug 2013 15:13:46 +0000
+5e629906aed7eb352ed4e1bee17dab4bc558e36b|Merge "Use Puppet boolean for better consistency"|Tue, 13 Aug 2013 14:34:30 +0000|Tue, 13 Aug 2013 14:34:30 +0000
+80e2816e0eddb3feb94c20b0a9d194064f4f356e|Clean all warnings for puppet-lint gate|Tue, 13 Aug 2013 16:29:34 +0200|Tue, 13 Aug 2013 16:30:23 +0200
+9b901a5db9015129f98f189a4ddf5620f777ec7f|Disable 80chars/class_parameter_defaults checks|Mon, 12 Aug 2013 16:46:08 -0400|Mon, 12 Aug 2013 17:47:54 -0400
+e6835a2872a7f64b085e5ed0e27cb43e5541ce87|Add support for CA authentication in Keystone|Fri, 9 Aug 2013 16:43:05 +0200|Mon, 12 Aug 2013 22:04:50 +0200
+55f17d53f2f90fb019d35af8a27d57544fd581c0|Use Puppet boolean for better consistency|Fri, 9 Aug 2013 15:50:41 -0400|Fri, 9 Aug 2013 15:50:41 -0400
+11f7f26e9d8609190fe41706f82419abd792e659|Update .fixtures.yml to use puppetlabs/inifile|Thu, 8 Aug 2013 18:56:20 -0700|Thu, 8 Aug 2013 18:56:20 -0700
+755e53b2cf7aa394c4b74c00110ee7c6101c9692|Merge "Adding support for qpid in ceilometer, rspec for qpid part in ceilometer"|Thu, 8 Aug 2013 14:34:31 +0000|Thu, 8 Aug 2013 14:34:31 +0000
+10107796ff2751da858a4616f97e6e3166ec40a8|Update mysql allowed_hosts conditional statement|Sun, 4 Aug 2013 17:09:06 +0800|Sun, 4 Aug 2013 17:38:44 +0800
+9ad650ececf13158a7952a4cd889d7ad5b9d05f3|Adding support for qpid in ceilometer, rspec for qpid part in ceilometer|Thu, 1 Aug 2013 14:42:23 +0200|Fri, 2 Aug 2013 10:32:32 +0200
+9b17b8dadc7ce6b1e1042e1748f945d3f32b5ff0|Remove duplicated fixtures|Sun, 30 Jun 2013 22:16:34 -0400|Sun, 30 Jun 2013 22:17:33 -0400
+5de0d86c1c7987c6d1dae3b8e28e8b8312a6fbfb|Replace deprecated :rubygems source|Sun, 30 Jun 2013 22:08:36 -0400|Sun, 30 Jun 2013 22:08:36 -0400
+34d22958fcf648d630d9c90c16eeea88e39125a1|Merge "Add auth_admin_prefix support for ceilometer::api"|Mon, 17 Jun 2013 04:46:23 +0000|Mon, 17 Jun 2013 04:46:23 +0000
+bc6873041c5952910cf3522c9ce4fecb22278d25|Switch deprecated rabbit_notifier to rpc_notifier|Thu, 6 Jun 2013 12:23:53 +0200|Sat, 8 Jun 2013 11:45:31 +0200
+3a2b7e1acabdbb35292329f941b37f8bb9580c5a|Add auth_admin_prefix support for ceilometer::api|Thu, 6 Jun 2013 15:41:45 +0200|Thu, 6 Jun 2013 15:41:45 +0200
+0fae5184ae174afad61ef193ef515dcf868e41b6|Merge "Capitalize boolean values in config files"|Wed, 22 May 2013 04:21:46 +0000|Wed, 22 May 2013 04:21:46 +0000
+185a4205261abc4f30e7175808fb809b2bcb415e|Merge "Add .gitreview"|Wed, 22 May 2013 00:26:29 +0000|Wed, 22 May 2013 00:26:29 +0000
+ff0a9749b874961ce38e868382e65dac95839497|Add puppet-lint to Gemfile|Tue, 21 May 2013 19:50:07 -0400|Tue, 21 May 2013 19:50:07 -0400
+82bb4e901b947e03e076fdafc9464218db9d97ca|Capitalize boolean values in config files|Tue, 21 May 2013 19:47:00 -0400|Tue, 21 May 2013 19:49:24 -0400
+ae75da121e8f30347d7829ec6f931f9fd347dc5e|Add .gitreview|Tue, 21 May 2013 19:48:04 -0400|Tue, 21 May 2013 19:49:00 -0400
+31522ff8fa1916706cf0739180f094845326cf04|Update README|Fri, 26 Apr 2013 13:09:21 +0300|Fri, 26 Apr 2013 13:09:21 +0300
+fd7a33ba0ce30b7f9feb325caee85a1e978c7211|Merge pull request #5 from fcharlier/lint|Tue, 23 Apr 2013 12:33:55 -0700|Tue, 23 Apr 2013 12:33:55 -0700
+50c802f37100cc71ea1959e6e0e5a5bb4e7dc4c1|Update existing puppetdoc & add missing puppetdoc|Tue, 23 Apr 2013 11:22:31 +0200|Tue, 23 Apr 2013 11:22:31 +0200
+74bbcac98bb94649dd6742d5c85ac93b4db38905|Merge remote-tracking branch 'mgagne/grizzly' into lint|Tue, 23 Apr 2013 10:51:24 +0200|Tue, 23 Apr 2013 10:51:24 +0200
+55f70a59af56be60fcccd643311473a64d534bbe|Update tests to add DEFAULT/ to nova_config|Mon, 22 Apr 2013 15:45:17 +0200|Mon, 22 Apr 2013 15:45:17 +0200
+f2ff304078152980052b4cdf7bca4cd0d135332d|Fix notification relationship|Sun, 21 Apr 2013 17:46:58 -0400|Sun, 21 Apr 2013 17:46:58 -0400
+4e4b00a58ac8a0a529f8ce876401e18aba93ead3|Update puppetdoc for ceilometer::keystone::auth|Sun, 21 Apr 2013 17:43:27 -0400|Sun, 21 Apr 2013 17:45:32 -0400
+7ac5982b5c3697951435e82dbeb6030d5915fa51|Fix various puppet-lint errors and warnings|Sun, 21 Apr 2013 17:29:06 -0400|Sun, 21 Apr 2013 17:29:06 -0400
+4734be5f7d86efdb72efb70f8239f62455edec8a|Check that rabbit_hosts overrides rabbit_host|port|Sat, 20 Apr 2013 05:12:19 +0200|Sat, 20 Apr 2013 08:29:06 +0200
+6052ac7d88319ef46ded854d1dd7e281f328cd38|Fix spec tests style|Sat, 20 Apr 2013 05:11:43 +0200|Sat, 20 Apr 2013 08:29:06 +0200
+83be2ff7da0e0291b7db9129b43b03e361c930d6|Fix the ceilometer::client class|Sat, 20 Apr 2013 04:54:31 +0200|Sat, 20 Apr 2013 08:29:06 +0200
+c4ca06f62447816559d1e092ef052d384c006dfd|Remove the dbsync file, it's not used anymore|Sat, 20 Apr 2013 04:30:56 +0200|Sat, 20 Apr 2013 05:50:29 +0200
+8e97414369d2284a2163d72f6cd461aa792a2db0|Ensure passwords/secrets are specified by user|Sat, 20 Apr 2013 04:29:00 +0200|Sat, 20 Apr 2013 05:50:29 +0200
+f63fde7ab363ab6b0eeae3db022f7a8efab54074|Fix lint errors, add some documentation|Sat, 20 Apr 2013 03:46:05 +0200|Sat, 20 Apr 2013 04:28:44 +0200
+0b9fa30c53926faf14bda31f205970ffdab2e942|Merge remote-tracking branch 'mgagne/grizzly'|Sat, 20 Apr 2013 03:10:45 +0200|Sat, 20 Apr 2013 03:10:45 +0200
+b4347d5a6f2ae0c42b288ff5b45a74a6ea99f7c5|Exclude 'master' branch from travis CI|Fri, 19 Apr 2013 12:37:50 -0400|Fri, 19 Apr 2013 12:37:50 -0400
+1c806d0bc2d8208d6426bbb5c6db8c085f253bbd|Fix ceilometer client package name for Debian|Fri, 19 Apr 2013 11:34:00 -0400|Fri, 19 Apr 2013 11:45:13 -0400
+015ccb78ad22c03dc0e522d667b2209908ebdff0|Add DEFAULT section to nova_config|Fri, 19 Apr 2013 11:25:46 -0400|Fri, 19 Apr 2013 11:25:46 -0400
+618b5d575b943588eaa70f71bbb9c2fec2844153|Merge pull request #3 from aimonb/inifile-scope-fix|Fri, 19 Apr 2013 01:24:31 -0700|Fri, 19 Apr 2013 01:24:31 -0700
+715956f35a28e34f17631d34d9b6a7eaba558a1a|inifile module now requires a section   * Added DEFAULT where missing is compute class|Fri, 19 Apr 2013 01:00:37 -0700|Fri, 19 Apr 2013 01:00:37 -0700
+6d38844a5e4f388e2ec4e3941554963d2d36796a|Update fixtures location to use stackforge.|Fri, 12 Apr 2013 12:26:41 -0400|Fri, 12 Apr 2013 12:26:41 -0400
+4c0368917412fcc740cdb1b560a3bd8e440a8ff7|Remove rabbit_host/rabbit_port config when rabbit_hosts is provided|Thu, 11 Apr 2013 14:50:54 -0400|Thu, 11 Apr 2013 14:50:54 -0400
+7b02742d4bffe7200c60da97fc681f3f79378a53|Add rabbit_hosts parameter|Thu, 11 Apr 2013 13:48:08 -0400|Thu, 11 Apr 2013 13:49:07 -0400
+04ba91c789ad35127bb7077cdefe85bdd3480fac|Fix notification relationship with Service[nova-compute]|Mon, 8 Apr 2013 17:09:04 -0400|Mon, 8 Apr 2013 17:09:04 -0400
+220d2e6b5986547d0205d146dd1abe7fc5e2b4bd|Fix Ubuntu support for ceilometer::agent::compute|Mon, 8 Apr 2013 16:45:25 -0400|Mon, 8 Apr 2013 16:45:25 -0400
+c17a0b26840a51aefc7796ccd670c1044885e1a3|Fix service dependencies and add inheritance from ceilometer|Fri, 5 Apr 2013 12:01:38 -0400|Fri, 5 Apr 2013 12:01:38 -0400
+3c60ed1f88e49f98a765a7708bd703fa36affc2f|Remove useless params|Thu, 4 Apr 2013 21:50:37 -0400|Thu, 4 Apr 2013 21:50:37 -0400
+b84a26f6c03da2656cbddf0814332e76bcbc45a8|Use implicit dependencies|Thu, 4 Apr 2013 21:34:15 -0400|Thu, 4 Apr 2013 21:34:15 -0400
+150367be1b70a6dbf4eb32405a43d5f2a5d5c3ca|Add rspec tests for ceilometer::keystone::auth|Thu, 4 Apr 2013 21:21:13 -0400|Thu, 4 Apr 2013 21:21:13 -0400
+523b00bdf3b205edbefa96521720f7ceb0355b25|Add rspec tests for ceilometer::db::mysql|Thu, 4 Apr 2013 20:51:22 -0400|Thu, 4 Apr 2013 20:51:22 -0400
+dc36fde835d835fa48b946518fc49fdd0b80ca98|Fix dependencies and various typos|Thu, 4 Apr 2013 20:44:41 -0400|Thu, 4 Apr 2013 20:44:41 -0400
+d167ce22274db0396b00f5c1ded6e50efa7766cd|Add rspec tests for ceilometer::collector|Thu, 4 Apr 2013 20:19:10 -0400|Thu, 4 Apr 2013 20:19:10 -0400
+6403da4057d8e081bbed119623adaf5d4149f9fc|Add rspec tests for ceilometer::client|Thu, 4 Apr 2013 20:16:27 -0400|Thu, 4 Apr 2013 20:16:27 -0400
+a530fe11004b5878ac5a8a977c7fae0623b68042|Remove inheritance from ceilometer|Thu, 4 Apr 2013 19:51:49 -0400|Thu, 4 Apr 2013 19:51:49 -0400
+921cb3e64ed85874fcc351f683b7ec55f3bdc91a|Partially add support for RedHat plateform|Thu, 4 Apr 2013 19:37:25 -0400|Thu, 4 Apr 2013 19:37:25 -0400
+44d74d5742db685aeb68b3922a5c01e97ad2e647|Add keystone_tenant parameter for api|Thu, 4 Apr 2013 17:53:52 -0400|Thu, 4 Apr 2013 17:53:52 -0400
+49a63ed390863557d2ca71d50fc8de0ecb349ae4|Add rspec tests for ceilometer and ceilometer::api|Thu, 4 Apr 2013 17:40:02 -0400|Thu, 4 Apr 2013 17:40:02 -0400
+938d647ac733ee7170109cb3d437bd1aeea36923|Remove ceilometer-dbsync override|Wed, 3 Apr 2013 19:22:32 -0400|Wed, 3 Apr 2013 19:22:32 -0400
+07c9d444ef816bba26dda86b651980a44a4da2d4|Fix dependency syntax in Modulefile|Wed, 3 Apr 2013 19:08:41 -0400|Wed, 3 Apr 2013 19:12:06 -0400
+f3d57b9e402182315e63acf461520b9ba1da7285|Remove version from endpoint.|Mon, 18 Mar 2013 14:56:49 +0100|Mon, 18 Mar 2013 14:56:49 +0100
+ad09c746cc7052bcbe22cc0651a2f0b4ceea060a|Fix adding notification_driver parameters to the nova.conf|Mon, 18 Feb 2013 18:33:02 +0100|Mon, 18 Feb 2013 18:33:02 +0100
+c3e2cc6c26abdf8505c66cb35d2036f5d7d01318|Add required parameters to nova.conf|Mon, 18 Feb 2013 14:32:06 +0100|Mon, 18 Feb 2013 14:32:06 +0100
+05f5e6c7a953ccc00c8232489ab42b40b1e932a6|Fix the auth_protocol keystone_authtoken parameter name|Thu, 10 Jan 2013 16:54:31 +0100|Thu, 10 Jan 2013 16:54:31 +0100
+a9c8517710d44614242264717a809039316b9249|Revert "Fix nova notifications"|Thu, 10 Jan 2013 16:53:55 +0100|Thu, 10 Jan 2013 16:53:55 +0100
+c68a36d34147ca949a3ba38b46f082d50606d542|Fix order dependencies|Fri, 21 Dec 2012 23:41:15 +0100|Fri, 21 Dec 2012 23:42:06 +0100
+6c8b6630b0f671a055070c658e0e0d51350f8353|Fix nova notifications|Fri, 21 Dec 2012 23:39:43 +0100|Fri, 21 Dec 2012 23:42:06 +0100
+b841d54fdab8817ed1f4906e1fda360935ee2dd3|Fix glance exchange/topic to read notifications|Fri, 21 Dec 2012 14:49:33 +0100|Fri, 21 Dec 2012 23:42:06 +0100
+d42456cef041e83250a71f2a76e8142cde347ea2|Fix groups memberships for the ceilometer user|Thu, 20 Dec 2012 15:09:55 +0100|Thu, 20 Dec 2012 15:09:55 +0100
+3ce24a5561b2b48018b7325e30ec60d4b11cd488|Agents, Api, Db & Collector classes inherit from ceilometer|Thu, 20 Dec 2012 15:09:08 +0100|Thu, 20 Dec 2012 15:09:08 +0100
+d40335f4be8d365b7ca49fd7d9f2b07225d829d3|Add “log_dir” parameter|Thu, 20 Dec 2012 00:34:45 +0100|Thu, 20 Dec 2012 00:34:45 +0100
+a77b099b073fe516f55074fb0f9dffc7f84896d9|The ceilometer user must be in the libvirt group|Thu, 20 Dec 2012 00:34:27 +0100|Thu, 20 Dec 2012 00:34:27 +0100
+d8f6d59d5de4cdd3745268e109e0b110c0e581fb|Ensure services are started|Thu, 20 Dec 2012 00:33:36 +0100|Thu, 20 Dec 2012 00:33:36 +0100
+d16e6661ea82f852377bc256e2baca1c379dd8b0|Update ceilometer user requirements|Tue, 18 Dec 2012 18:58:37 +0100|Tue, 18 Dec 2012 18:58:37 +0100
+646907f87988f2581246e255047dfccc0f52ebf4|Restart services when config file changes|Mon, 17 Dec 2012 17:31:49 +0100|Mon, 17 Dec 2012 17:31:49 +0100
+e2231ffa662005c9d2ab8d1a074968c819dc8adc|Rename default tenant to 'services' instead of 'service'|Mon, 17 Dec 2012 17:31:19 +0100|Mon, 17 Dec 2012 17:31:19 +0100
+1a484f01e2a3326f18d6c112e7267b522ef43acf|Ceilometer_config requires package ceilometer-common|Mon, 17 Dec 2012 17:15:27 +0100|Mon, 17 Dec 2012 17:15:27 +0100
+c32c3ef345297c0898bd3052e798208822431454|Add user to localhost|Mon, 17 Dec 2012 17:14:57 +0100|Mon, 17 Dec 2012 17:14:57 +0100
+ecdc9667d25e2ae5d98970ff410ae0d92a9907b8|Fix $auth_user var name|Mon, 17 Dec 2012 17:13:00 +0100|Mon, 17 Dec 2012 17:13:00 +0100
+08e8040b8718e50dc18d3a01d94def6777808f64|Merge pull request #1 from ekarlso/master|Mon, 17 Dec 2012 07:10:53 -0800|Mon, 17 Dec 2012 07:10:53 -0800
+e643f23b4da21b5a27a70d9a4b30967125e8fcef|Forgot to pass the password also|Mon, 17 Dec 2012 02:45:58 +0100|Mon, 17 Dec 2012 02:45:58 +0100
+4a3b5cdc693a3272ba28234dc0585461815b7602|Only bother setting tenant_id if it's passed|Mon, 17 Dec 2012 02:43:31 +0100|Mon, 17 Dec 2012 02:43:31 +0100
+0460de348cdae58b9a931386bf6184839b338f0a|Fix duplicate opt|Mon, 17 Dec 2012 02:38:13 +0100|Mon, 17 Dec 2012 02:38:13 +0100
+604c02e676d1ea7f28631c9a64b6f83c0338f741|Add authentication config opts|Mon, 17 Dec 2012 02:33:38 +0100|Mon, 17 Dec 2012 02:33:38 +0100
+28617fbd594e05f1f49e3587045973ca17f3a7c8|Fix ownership/permissions on /etc/ceilometer/*|Fri, 14 Dec 2012 11:54:09 +0100|Fri, 14 Dec 2012 11:54:09 +0100
+d3a07cc1ef0a3a65e4dde6b348d351677c0f2f34|Fix style|Fri, 14 Dec 2012 11:13:44 +0100|Fri, 14 Dec 2012 11:13:44 +0100
+1fa87a383678092d681fc102c263232169dba80e|Ensure the ceilometer user has ResellerAdmin role|Fri, 14 Dec 2012 11:12:13 +0100|Fri, 14 Dec 2012 11:12:13 +0100
+100a8b3bb60561555cd901619cbb023b392dc091|Add an example|Tue, 11 Dec 2012 18:35:54 +0100|Tue, 11 Dec 2012 18:35:54 +0100
+46ea311e85d2169004b45380696e883f9a600b42|Update the dbsync_command|Tue, 11 Dec 2012 18:18:16 +0100|Tue, 11 Dec 2012 18:18:16 +0100
+5c9f72f96db3cf4b4e84c97707cf1feca8fcd53e|Add the dbsync file, it's not yet in the packages|Tue, 11 Dec 2012 18:14:37 +0100|Tue, 11 Dec 2012 18:14:37 +0100
+899003aa46b5d2cf63435a784761d6db5481b979|Add the metering_secret parameter|Tue, 11 Dec 2012 17:04:07 +0100|Tue, 11 Dec 2012 17:04:07 +0100
+304785e08dffe4ed75fa9bcb57110fa046a43de1|Default keystone_password to false to ensure error if not set|Mon, 10 Dec 2012 18:33:33 +0100|Mon, 10 Dec 2012 18:33:33 +0100
+530a91160acd224ffbe99e60f2b5f0a1a723c0ec|Add admin user/tenant/password to authtoken config|Mon, 10 Dec 2012 18:19:02 +0100|Mon, 10 Dec 2012 18:19:02 +0100
+9665551a5f87d4ab9fd762e5307549e80ced2367|Remove wrong requirement for ceilometer-dbsync|Mon, 10 Dec 2012 18:00:20 +0100|Mon, 10 Dec 2012 18:00:20 +0100
+81657c5a1e472edd5a4b391ca194c3943231451c|Fix incomplete subscribe declaration|Mon, 10 Dec 2012 17:56:10 +0100|Mon, 10 Dec 2012 17:56:10 +0100
+76e656de2f7bfac988d0c8413997dcb3d37fd745|Fix user (group → gid)|Mon, 10 Dec 2012 17:31:18 +0100|Mon, 10 Dec 2012 17:31:18 +0100
+54582bbbde3ae4f79a21b270c930590c3cbcc2a5|Fix the name of the ceilometer config provider|Mon, 10 Dec 2012 17:29:37 +0100|Mon, 10 Dec 2012 17:29:37 +0100
+bdbf474489de7af020733a364b7f74f40d3f916c|Create ceilometer user/group|Mon, 10 Dec 2012 17:23:37 +0100|Mon, 10 Dec 2012 17:23:37 +0100
+4ae12d7905a6ea43e9c97a40b56fe5a6e13a3565|Add ceilometer-dbsync and fix some db-related deps|Mon, 10 Dec 2012 17:22:46 +0100|Mon, 10 Dec 2012 17:22:46 +0100
+b240ef55ce00fcce8c4e1503b777b6804b84e01d|Refactoring/Style updates|Mon, 10 Dec 2012 16:53:39 +0100|Mon, 10 Dec 2012 16:55:38 +0100
+e2b0c7fca1d663d4ffa7cc280ff48a0901fb41df|Move database settings to a different class|Mon, 10 Dec 2012 16:52:40 +0100|Mon, 10 Dec 2012 16:55:38 +0100
+9c3b78bf7448e66e4fbbdf695cc3c5fcf096baf3|Add dependencies into the Modulefile|Mon, 10 Dec 2012 16:04:48 +0100|Mon, 10 Dec 2012 16:04:48 +0100
+a29182c983e4bcd349ef9c069aba312575071132|Finish moving Keystone Auth from init.pp to api.pp|Mon, 10 Dec 2012 15:58:20 +0100|Mon, 10 Dec 2012 15:58:50 +0100
+faafa4257e3c77f3958ce2ccc26d2f9085ff256c|Move Keystone Auth from init.pp to api.pp|Mon, 10 Dec 2012 13:56:51 +0100|Mon, 10 Dec 2012 13:56:51 +0100
+2b85f15ac456e2d792d25140fc0251dbbe9a39cd|Fix Licensing email address|Mon, 10 Dec 2012 12:28:12 +0100|Mon, 10 Dec 2012 12:28:12 +0100
+01b143340c072b9a79a64e361da1997a6d872c29|Add dependency|Fri, 7 Dec 2012 18:03:41 +0100|Fri, 7 Dec 2012 18:03:41 +0100
+1f3d092ad388942629aa7894bb68c629094f43ba|Add dependency|Fri, 7 Dec 2012 18:01:08 +0100|Fri, 7 Dec 2012 18:01:08 +0100
+89a2329499aae14d1901c355b47aafa9f37366e0|Merge branch 'master' of git://github.com/enovance/puppet-ceilometer|Fri, 7 Dec 2012 17:32:09 +0100|Fri, 7 Dec 2012 17:32:09 +0100
+928507584754e604c7d283e165911f0ce84344ed|Fix tabs|Fri, 7 Dec 2012 17:31:58 +0100|Fri, 7 Dec 2012 17:31:58 +0100
+14274a136eee72eb235b40d4b61b3a64457e5b31|Remove useless test manifests|Fri, 7 Dec 2012 16:49:55 +0100|Fri, 7 Dec 2012 16:49:55 +0100
+0e63d69c8e1652ab335d3f25f8e355e85aa253a7|The ceilometer.conf file needs the directory|Fri, 7 Dec 2012 16:24:44 +0100|Fri, 7 Dec 2012 16:24:44 +0100
+e511a1471b4a571ba784d91d6b0495ca4dc8a540|Merge branch 'master' of github.com:enovance/puppet-ceilometer|Fri, 7 Dec 2012 16:11:24 +0100|Fri, 7 Dec 2012 16:11:24 +0100
+9cd1b264aff869acbbf1a44401955682218a404c|Fix files stuffs|Fri, 7 Dec 2012 16:11:12 +0100|Fri, 7 Dec 2012 16:11:12 +0100
+e081f9704ae4828e33e499b2a82eb2da660e8264|Merge branch 'master' of github.com:enovance/puppet-ceilometer|Fri, 7 Dec 2012 16:07:35 +0100|Fri, 7 Dec 2012 16:07:35 +0100
+4dd16804578998dcb690133349ac8301f06d65d6|Delete []|Fri, 7 Dec 2012 16:04:09 +0100|Fri, 7 Dec 2012 16:04:09 +0100
+625cb53464a18ff139ae2badd109b64f231ebbfe|Move settings to init.pp|Fri, 7 Dec 2012 15:52:50 +0100|Fri, 7 Dec 2012 15:52:50 +0100
+481bfb303d91dbbd908312aafa43aa8ab868e131|Fix a typo|Fri, 7 Dec 2012 15:48:21 +0100|Fri, 7 Dec 2012 15:48:21 +0100
+d0699f88f09d0db6f522c7f3e62056886c2a2b97|Move ceilometer.conf file to init.pp|Fri, 7 Dec 2012 15:46:47 +0100|Fri, 7 Dec 2012 15:46:47 +0100
+b8365277298efac3a52bc14ee71b43401628b899|Move Settings to init.pp|Fri, 7 Dec 2012 15:44:52 +0100|Fri, 7 Dec 2012 15:44:52 +0100
+f027660469449d1dfe1cda443a9fbfdb54982e79|Add mysql::python|Fri, 7 Dec 2012 15:24:01 +0100|Fri, 7 Dec 2012 15:24:01 +0100
+4708b420088702e503fede8f229bdeb56ce57299|Add auth.pp for keystone|Fri, 7 Dec 2012 15:23:14 +0100|Fri, 7 Dec 2012 15:23:14 +0100
+1e813a57aa2760c328adcc4144b59e689213b8d3|Fix ceilometer::db::mysql class|Fri, 7 Dec 2012 15:20:47 +0100|Fri, 7 Dec 2012 15:20:47 +0100
+6f99e6911eadbc4916037c16d4912947a03d8827|Fix ceilometer::db::mysql class|Fri, 7 Dec 2012 15:18:57 +0100|Fri, 7 Dec 2012 15:18:57 +0100
+8c97ba71037cfb98499a1a9991dc71fa40789f1b|Delete Notify Manifest|Fri, 7 Dec 2012 15:06:13 +0100|Fri, 7 Dec 2012 15:06:13 +0100
+98a22dea28f4848fbb12b4e3bba80b31d2a372cc|Add Services Section|Fri, 7 Dec 2012 15:00:13 +0100|Fri, 7 Dec 2012 15:00:13 +0100
+bd14917597f3b25888c8f59d807fdb821b5fc4a3|Add Services Section|Fri, 7 Dec 2012 14:57:13 +0100|Fri, 7 Dec 2012 14:57:13 +0100
+00b244024727abae762b58c1ff17c6d675fab39f|Fix a typo|Fri, 7 Dec 2012 14:48:21 +0100|Fri, 7 Dec 2012 14:48:21 +0100
+79f525a01f4c2d6e78d812d2f25cc26792108dfc|Fix service class|Fri, 7 Dec 2012 14:45:35 +0100|Fri, 7 Dec 2012 14:45:35 +0100
+32b2f5faabdc985b3f44d0f7bc78fd03a831b54a|Add  in the class|Fri, 7 Dec 2012 14:42:33 +0100|Fri, 7 Dec 2012 14:42:33 +0100
+3bb4b46fd72733454bfdf94462ecbae30c5de488|Add ceilometer_setting for type/provider|Fri, 7 Dec 2012 14:36:18 +0100|Fri, 7 Dec 2012 14:36:18 +0100
+699aab14dfa21813c11ad0b3bd6aecfa30c8b361|Add ceilometer_setting for type/provider|Fri, 7 Dec 2012 14:33:17 +0100|Fri, 7 Dec 2012 14:33:17 +0100
+49110c1fd1e7744823ad108048d5d57a2bab1b90|Add ceilometer_setting for type/provider|Fri, 7 Dec 2012 14:29:40 +0100|Fri, 7 Dec 2012 14:29:40 +0100
+c57f071cf247dda7bb4d6fa6427b3f1728ee3746|Add ceilometer_setting for type/provider|Fri, 7 Dec 2012 14:28:27 +0100|Fri, 7 Dec 2012 14:28:27 +0100
+b7cdc3e7ae9820b5773b468e2da81796a54d0030|Update LICENSE & README|Fri, 7 Dec 2012 12:37:28 +0100|Fri, 7 Dec 2012 12:37:28 +0100
+68b960a245ff1923b7c98743fac3526b2dee65a0|Fix Typos|Fri, 7 Dec 2012 11:52:05 +0100|Fri, 7 Dec 2012 11:52:05 +0100
+92050c58a4883052cd7b54427e8139b124268e2a|Add Manifests|Fri, 7 Dec 2012 10:11:06 +0100|Fri, 7 Dec 2012 10:11:06 +0100
+9e411800305dac8bb749db29af3b54e93a939f88|Add tests|Fri, 7 Dec 2012 10:10:13 +0100|Fri, 7 Dec 2012 10:10:13 +0100
+b24af7fa00fcb851c87e24251232d423538e0432|Fix architecture & README|Fri, 7 Dec 2012 09:50:49 +0100|Fri, 7 Dec 2012 09:50:49 +0100
+ff053ee175f306be686d7a86b575350d20adecd0|First Commit|Fri, 7 Dec 2012 09:43:55 +0100|Fri, 7 Dec 2012 09:43:55 +0100

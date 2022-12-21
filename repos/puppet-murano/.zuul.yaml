@@ -1,0 +1,6 @@
+- project:
+    templates:
+      - puppet-openstack-check-jobs
+      - puppet-openstack-module-unit-jobs
+      - release-notes-jobs-python3
+      - puppet-openstack-litmus-jobs

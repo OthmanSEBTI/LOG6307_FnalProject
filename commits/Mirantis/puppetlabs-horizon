@@ -1,0 +1,29 @@
+b55d627c79bc6017474159b9cf3cdbcad5daac2c|Properly require and enable mod_wsgi before installing dashboard|Tue, 21 Aug 2012 14:25:54 -0700|Tue, 21 Aug 2012 14:26:19 -0700
+1a3a265659d56d3df6ce48e3b09aeaa474f80501|Merge pull request #11 from fcharlier/fc/more_parameters|Tue, 10 Jul 2012 12:01:15 -0700|Tue, 10 Jul 2012 12:01:15 -0700
+cfa8ee9245c576812cf254ae8a551a910aff3b13|Remove the trailing comma on last parameter|Tue, 10 Jul 2012 20:52:24 +0200|Tue, 10 Jul 2012 20:52:24 +0200
+d714a2c64ad5bf32bebebbd1e6817033c3d91fbe|Add more parameters:|Thu, 28 Jun 2012 16:21:30 +0200|Thu, 28 Jun 2012 16:21:30 +0200
+af98c681c86188ce4683b75d11194d8700d0abc3|Add keystone_default_role parameter|Thu, 28 Jun 2012 15:26:04 +0200|Thu, 28 Jun 2012 15:26:04 +0200
+84c89d6be8b4851b88fa63a98311fb91d0177779|Add parameters for keystone endpoint|Mon, 25 Jun 2012 17:00:51 +0200|Mon, 25 Jun 2012 17:00:51 +0200
+ba357810d879350b565caeaf8269e6526e8d30c0|Merge pull request #7 from sbadia/master|Tue, 19 Jun 2012 15:52:22 -0700|Tue, 19 Jun 2012 15:52:22 -0700
+ff60c16b2ea9ddb2aabac998433bb0e00fe6a0e7|Use operatingsystem instead of lsbdistid (Refs pull request #7)|Tue, 19 Jun 2012 23:24:34 +0200|Tue, 19 Jun 2012 23:24:34 +0200
+177d647f2663b485f80a626f92c9a363c5cf1751|Merge pull request #10 from branan/fix_trailing_comma|Mon, 18 Jun 2012 16:21:38 -0700|Mon, 18 Jun 2012 16:21:38 -0700
+58ad431a5b03d8baa648532b3b6cafc3e1f9c8a1|Remove trailing comma to be compatible with older puppets|Mon, 18 Jun 2012 16:17:52 -0700|Mon, 18 Jun 2012 16:17:52 -0700
+d05366e909a5867d52b2cd3f9ad72c0b21893292|Merge pull request #9 from branan/test|Mon, 18 Jun 2012 16:14:40 -0700|Mon, 18 Jun 2012 16:14:40 -0700
+c386cd4a718675884a9b031d72465d01d2004781|Add initial spec test|Mon, 18 Jun 2012 16:12:32 -0700|Mon, 18 Jun 2012 16:12:32 -0700
+99c9279726919f2fdedade778cd0c20c8d36d1d0|Debian: openstack-dashboard is an dependency of openstack-dashboard-apache|Fri, 15 Jun 2012 01:43:49 +0200|Fri, 15 Jun 2012 01:43:49 +0200
+62f265c0e5d9ceeafe50477c95fe5def07c66016|Merge pull request #3 from branan/forge_release|Tue, 12 Jun 2012 10:11:26 -0700|Tue, 12 Jun 2012 10:11:26 -0700
+7a3a0a6c713d8fc76af2f1c57a5918b74cd5d288|Add modulefile and changelog for initial release|Thu, 7 Jun 2012 13:43:54 -0700|Tue, 12 Jun 2012 10:11:08 -0700
+3ab2c713a95f45677f431af1bf179ed8d2892e4e|Merge pull request #6 from jtopjian/master|Tue, 12 Jun 2012 09:27:41 -0700|Tue, 12 Jun 2012 09:27:41 -0700
+baa5d2c6aa0143e392f4d99a15b6de24158e9f84|The trailing comma caused the links to not parse for me.|Tue, 12 Jun 2012 10:22:05 -0600|Tue, 12 Jun 2012 10:22:05 -0600
+ed71167be362c292928ec045e66d5389d6c8f349|Merge pull request #5 from robertstarmer/master|Tue, 12 Jun 2012 00:48:44 -0700|Tue, 12 Jun 2012 00:48:44 -0700
+816258e20e6629a8c2055daf4dfec685ae7e88d8|Fixed comments on pull.|Tue, 12 Jun 2012 07:38:54 +0000|Tue, 12 Jun 2012 07:38:54 +0000
+c0f59d91347106e77651d633b28e28b4b4a31e5a|Merge pull request #4 from sbadia/master|Mon, 11 Jun 2012 23:48:30 -0700|Mon, 11 Jun 2012 23:48:30 -0700
+5dc486cb65ceb9baa742d3d6ce8b7337141af686|added enhancements to the template to support swift and quantum, and added tags and templates for app, compute, and storage monitoring callouts|Tue, 12 Jun 2012 05:36:32 +0000|Tue, 12 Jun 2012 05:36:32 +0000
+b1f4d606fb2e19b7a4a6e52778a92537f1578cab|minimal readme|Tue, 12 Jun 2012 01:30:21 +0200|Tue, 12 Jun 2012 01:30:21 +0200
+adcfda7235095cc8cea2971fbf86d6f7ae3d472c|For debian apache2 is not an dependence of openstack-dashboard|Tue, 12 Jun 2012 01:30:09 +0200|Tue, 12 Jun 2012 01:30:09 +0200
+d1a8334b3c7fcac6dc853dc3f0a48edacb0f3e3b|Merge pull request #2 from derekhiggins/import-params|Mon, 23 Apr 2012 20:12:50 -0700|Mon, 23 Apr 2012 20:12:50 -0700
+75211935e5f9ef2a3f975e63eea1e8bf0a790b8e|Params should have been imported, it was only working in tests by accident|Fri, 20 Apr 2012 22:26:27 +0100|Fri, 20 Apr 2012 22:26:27 +0100
+9c1c8275cdff58c487dfe4f4c0fa12d8a007db01|Merge pull request #1 from derekhiggins/adding-params|Wed, 18 Apr 2012 08:01:25 -0700|Wed, 18 Apr 2012 08:01:25 -0700
+d1ffe8defaa4fd9f55df56a7bac8b5b260111460|Adding name of the httpd service as a param|Wed, 18 Apr 2012 09:58:39 +0100|Wed, 18 Apr 2012 10:04:37 +0100
+342faab69a73ee18e2f30958262dcf5192893182|Remove wsgi dependency|Wed, 11 Apr 2012 19:31:26 -0700|Wed, 11 Apr 2012 19:31:26 -0700
+c79dbe794ec276cabac2cecbd78e5152951ba098|initial checkin|Tue, 10 Apr 2012 14:26:56 -0700|Tue, 10 Apr 2012 20:22:41 -0700

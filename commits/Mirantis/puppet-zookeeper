@@ -1,0 +1,20 @@
+caac083a3264e4258b32328d084da8a2a05067fd|Chagne ::fqdn to ::hostname|Thu, 22 Oct 2015 17:41:34 -0600|Thu, 22 Oct 2015 17:41:34 -0600
+7532ab230bdf3c4ea7f65833ea06bc49cc45f9d7|For now change this to ::hostname instead of ::fqdn. Will make this value assignable in the future so that assumptions arene't made|Thu, 22 Oct 2015 17:40:52 -0600|Thu, 22 Oct 2015 17:40:52 -0600
+efbba6014948e3965fbc0ea142b3167af5916c88|Make sure that the full path to the data directory exists|Wed, 21 Oct 2015 11:29:55 -0600|Wed, 21 Oct 2015 11:29:55 -0600
+1c7ecff1301e536a9a0237059f1f25687995ff0d|Change references to the zookeeper service from "zookeeper" to "zookeeper-server"|Wed, 21 Oct 2015 11:24:09 -0600|Wed, 21 Oct 2015 11:24:09 -0600
+20571418109a2f1b0ddcd29d9999d1172ef21a8e|Change service to proper name of zookeeper-server|Wed, 21 Oct 2015 11:22:37 -0600|Wed, 21 Oct 2015 11:22:37 -0600
+53aca60af3f0831202ce6ec6e41f03440cb3a8b4|Too many equals is a syntax error|Wed, 21 Oct 2015 11:21:40 -0600|Wed, 21 Oct 2015 11:21:40 -0600
+43f30eebb3a5bbbe65f243f2aebafe9071808fe9|Add "enabled" option for the server service|Wed, 21 Oct 2015 11:20:48 -0600|Wed, 21 Oct 2015 11:20:48 -0600
+1fad07d522adac434080b0964f2388b6272118a2|Chagne all references of zookeeperd to zookeeper-server|Wed, 21 Oct 2015 11:16:22 -0600|Wed, 21 Oct 2015 11:16:22 -0600
+0b2cfefae15719b42396a69c1f38c478821a6003|Fix variable scope|Wed, 21 Oct 2015 11:14:08 -0600|Wed, 21 Oct 2015 11:14:08 -0600
+757b46ac353ed747b1d47837fcf53ee9ad97aa52|Change package name to zookeeper-server (from zookeeperd)|Wed, 21 Oct 2015 11:13:24 -0600|Wed, 21 Oct 2015 11:13:24 -0600
+6e3a24b08327f61bb09a9924e76e51c09180b3d9|Qualify @jmx_port in zookeeper.default.erb|Thu, 18 Jun 2015 12:45:38 -0400|Thu, 18 Jun 2015 12:46:47 -0400
+3272c7cc8dbe5ca5746c20ab8598229c69ad6d2d|zookeeper-cleanup: don't generate cron email for normal operation|Thu, 21 May 2015 19:26:16 -0700|Thu, 21 May 2015 19:28:49 -0700
+9514acee04bd50bfa7845babd354a2a0e001e25c|zoo.cfg is rendered by zookeeper class, need new params there|Thu, 3 Jul 2014 14:03:22 -0400|Thu, 3 Jul 2014 14:04:20 -0400
+8392756f2659f42db344dd1ae31667fba50b4602|Parameterize tickTime, initLimit and syncLimit|Thu, 3 Jul 2014 13:29:46 -0400|Thu, 3 Jul 2014 13:30:32 -0400
+29c95428b3379f3e61b0a63fc3b3ec1f1e75c34e|Fixing zookeeper::jmxtrans class name|Mon, 14 Apr 2014 16:35:43 -0400|Mon, 14 Apr 2014 16:35:43 -0400
+9dc0baaf3720fc224d78e2b1afb40c24f050ed65|Adding zookeeper::jmxtrans class|Mon, 14 Apr 2014 16:07:47 -0400|Mon, 14 Apr 2014 16:08:23 -0400
+8e831a20b22673a9ab3c261b6d43312fc5f2a0cf|Adding a cron job to run zkCleanup.sh daily.|Fri, 23 Aug 2013 15:52:29 -0400|Fri, 23 Aug 2013 15:54:05 -0400
+4d07c61baab09094ce80b7c1e837d541eb1d0a75|Adding proper .md formatting for code block to README.md|Wed, 12 Jun 2013 14:24:40 -0400|Wed, 12 Jun 2013 14:24:40 -0400
+9b89f1f3c4e9af17c285f951a3882c009a912a0d|Initial commit of zookeeper module.|Mon, 3 Jun 2013 18:29:31 -0400|Thu, 6 Jun 2013 14:08:26 -0400
+73f2449259f859768ca2dfe7678cb9ff92846c22|Initial commit, adding README.md|Mon, 3 Jun 2013 18:28:30 -0400|Mon, 3 Jun 2013 18:28:30 -0400

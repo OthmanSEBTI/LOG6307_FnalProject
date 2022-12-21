@@ -1,0 +1,60 @@
+attributes:
+  metadata:
+    weight: 5
+  backmysql:
+    value: true
+    label: "MySQL backup?"
+    description: "If selected mysql data will be backed up to $backup_location on primary-controller node"
+    weight: 10
+    type: "checkbox"
+    restrictions:
+      - action: hide
+        condition: not (settings:backup.metadata.enabled == true)
+  backetc:
+    value: true
+    label: "Nodes info + /etc backup?"
+    description: "If selected then folder /etc and key-information from all nodes will be backed up to $backup_location on primary-controller node"
+    weight: 10
+    type: "checkbox"
+    restrictions:
+      - action: hide
+        condition: not (settings:backup.metadata.enabled == true)
+  backceph:
+    value: false
+    label: "Ceph rbd backup?"
+    description: "If selected Ceph rbd-pools images, compute, volumes will be backed up to $backup_location on primary-controller node.\nDANGER!!! This will backup whole cloud data!"
+    weight: 10
+    type: "checkbox"
+    restrictions:
+      - action: hide
+        condition: not (settings:backup.metadata.enabled == true and settings:storage.volumes_ceph.value == true)
+  backfuel:
+    value: false
+    label: "Fuel backup?"
+    description: "If selected Fuel-master will be backed up to $backup_location on primary-controller node\nDANGER!!! 1 copy ±= 11GB of space."
+    weight: 10
+    type: "checkbox"
+    restrictions:
+      - action: hide
+        condition: not (settings:backup.metadata.enabled == true)
+  backup_location:
+    value: '/var/backups'
+    label: 'Backup location'
+    description: 'Please select location of backups on primary-controller node'
+    weight: 20
+    type: "text"
+    restrictions:
+      - action: hide
+        condition: not (settings:backup.metadata.enabled == true )
+    weight: 30
+  numtokeep:
+    value: '7'
+    label: 'Copies to keep'
+    description: 'Number of copies to keep'
+    weight: 20
+    type: "text"
+    restrictions:
+      - action: hide
+        condition: not (settings:backup.metadata.enabled == true )
+    weight: 32
+    

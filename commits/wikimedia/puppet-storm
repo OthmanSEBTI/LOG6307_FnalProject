@@ -1,0 +1,12 @@
+3a87e4fb32d750e0192d22b7cd9fe35309539e48|Fixing URLs in README|Thu, 14 Feb 2013 14:16:04 -0500|Thu, 14 Feb 2013 14:16:04 -0500
+bd953a1370ce7f4fb04fd93dc3b7660b75623ee4|Merge branch 'master' of github.com:wikimedia/puppet-storm|Thu, 14 Feb 2013 14:13:39 -0500|Thu, 14 Feb 2013 14:13:39 -0500
+3b199578b5e0321f13d98c2920ca3b6a41991f63|Modyfing README.md|Thu, 14 Feb 2013 14:13:11 -0500|Thu, 14 Feb 2013 14:13:11 -0500
+5d93a353691a726fb8c55af69b9bca2697ac083d|Fixes Storm classpath (esp to add ${storm.home})|Tue, 27 Nov 2012 12:23:43 -0800|Tue, 27 Nov 2012 12:23:43 -0800
+1bf52bb5d9f32aabe9e09f47e4135dbc544ed6dc|Iterating worker ports starting at 6700|Tue, 27 Nov 2012 12:23:05 -0500|Tue, 27 Nov 2012 12:23:05 -0500
+084f5f2197bec2a2db83038f3d663b5cc2f322e2|Updating README.md|Mon, 26 Nov 2012 16:48:25 -0500|Mon, 26 Nov 2012 16:48:25 -0500
+cebfabac46d3c5e7edc5d2004a86998347e39502|Updating README.md with puppet module installtion instructions|Mon, 26 Nov 2012 16:47:08 -0500|Mon, 26 Nov 2012 16:47:08 -0500
+f56f1706580afa522b04c48dc405557c8f71d349|Update README.md|Mon, 26 Nov 2012 16:44:07 -0500|Mon, 26 Nov 2012 16:44:07 -0500
+31549eea71fb98f0f89b3774fbaaa80fc5f59f0b|Update README.md|Mon, 26 Nov 2012 16:43:51 -0500|Mon, 26 Nov 2012 16:43:51 -0500
+9a7c7a50aa25680d01e4559cdf1af3cad641b511|Update README.md|Mon, 26 Nov 2012 16:42:47 -0500|Mon, 26 Nov 2012 16:42:47 -0500
+d2adacda674ec7a42544f4a48b25eabf50fa7f28|Update README.md|Mon, 26 Nov 2012 16:40:32 -0500|Mon, 26 Nov 2012 16:40:32 -0500
+c3df9a1f39ca41fe4072db1b567c1bad367efd9f|Initial commit|Mon, 26 Nov 2012 16:36:44 -0500|Mon, 26 Nov 2012 16:36:44 -0500

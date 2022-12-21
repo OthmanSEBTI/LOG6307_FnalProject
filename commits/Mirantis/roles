@@ -1,0 +1,8 @@
+5b94f457643cce0d6d2bee70deabfa18bfe229fa|Revert "debug sudo"|Mon, 27 Jul 2015 19:20:12 -0700|Mon, 27 Jul 2015 19:20:12 -0700
+e015defa639aaaaeda428c47e3381cd350985a6e|debug sudo|Mon, 27 Jul 2015 19:18:15 -0700|Mon, 27 Jul 2015 19:18:15 -0700
+4c24a1c0a934dd5a8e49def49ff64288e6c5f4bb|Revert "Remove unnecessary/unconfigured modules for pmlc"|Mon, 27 Jul 2015 17:46:44 -0700|Mon, 27 Jul 2015 17:46:44 -0700
+18c59dabd7fe721ab70bf155f22d1b417f37ef96|Remove unnecessary/unconfigured modules for pmlc|Mon, 27 Jul 2015 13:24:31 -0700|Mon, 27 Jul 2015 13:24:31 -0700
+7db117f776dcb2ed941c02d2fac24dff6fc25612|Add roles for pmlc versions of openstack boxen|Mon, 27 Jul 2015 12:54:11 -0700|Mon, 27 Jul 2015 12:54:11 -0700
+331724b73830f8c5d2472b71de34d6483e73c87a|Change cicd firewall profile name to deploy.|Mon, 27 Jul 2015 09:41:52 -0700|Mon, 27 Jul 2015 09:41:52 -0700
+e01ed9c154bbd9c5e71ad429cadab0b02d8880d2|Initial commit|Mon, 27 Jul 2015 09:18:42 -0700|Mon, 27 Jul 2015 09:18:42 -0700
+f6df7b7809c98188a702ae07de46add2fd51133e|Initial commit|Mon, 27 Jul 2015 06:20:54 -0700|Mon, 27 Jul 2015 06:20:54 -0700

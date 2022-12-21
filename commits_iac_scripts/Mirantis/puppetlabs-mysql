@@ -1,0 +1,155 @@
+,sha,message,files
+0,75582b455bba4d0aac9145a3d41937c93577d10a,Merge branch 'custom-setup-class',['manifests/server.pp']
+1,6869b77541dc3b465a73aed23fb73776fc86716f,Parameterized pidfile; critical for successful first restart,"['manifests/config.pp', 'manifests/params.pp', 'spec/classes/mysql_config_spec.rb', 'spec/fixtures/manifests/site.pp', 'templates/my.cnf.erb']"
+2,03c2ac858500b69d3eb559c45fe937e8b714eb16,Customizable setup class for package/service.,['manifests/server.pp']
+3,3084f8c44cbadd0c57d48251c7e01bbb5feea0cc,Merge pull request #97 from bodepd/revert,"['Modulefile', 'lib/puppet/provider/database/mysql.rb', 'lib/puppet/provider/database_grant/mysql.rb', 'lib/puppet/provider/database_user/mysql.rb', 'manifests/config.pp', 'manifests/params.pp', 'manifests/server.pp', 'templates/apparmor.usr.sbin.mysqld.erb', 'templates/my.cnf.erb']"
+4,211da13545930d80978159b414d2ea9bd174e037,"Revert ""Merge pull request #90 from emonty/master""","['Modulefile', 'lib/puppet/provider/database/mysql.rb', 'lib/puppet/provider/database_grant/mysql.rb', 'lib/puppet/provider/database_user/mysql.rb', 'manifests/config.pp', 'manifests/params.pp', 'manifests/server.pp', 'templates/apparmor.usr.sbin.mysqld.erb', 'templates/my.cnf.erb']"
+5,063d72493c776db2e036c1f1fada0702ac8636f5,Merge pull request #90 from emonty/master,"['Modulefile', 'lib/puppet/provider/database/mysql.rb', 'lib/puppet/provider/database_grant/mysql.rb', 'lib/puppet/provider/database_user/mysql.rb', 'manifests/config.pp', 'manifests/params.pp', 'manifests/server.pp', 'templates/apparmor.usr.sbin.mysqld.erb', 'templates/my.cnf.erb']"
+6,9c10b3a6c3f99dcdc44272325ba2056ed4877d51,Merge pull request #96 from branan/missing_curly_brace,['manifests/params.pp']
+7,02695533c8ec5a9381220d181fa2ffff0e459816,Put that curly brace in the right place this time,['manifests/params.pp']
+8,ecf1f7685bfa1a91edf3db7e7f24d79259ddec6b,Merge pull request #95 from branan/missing_curly_brace,['manifests/params.pp']
+9,1da8ae7a280a69937af3783daa2abd0d59de6a2f,Add a missing curly brace,['manifests/params.pp']
+10,c041fddbada29fed684b40d1fa6cbd6e5ed2aa8c,Merge pull request #94 from hunner/amazon-linux,['manifests/params.pp']
+11,65f72ad317f47a1ade705a58951d64345c27507d,Add support for Amazon Linux.,['manifests/params.pp']
+12,bdf181a155ef3888a9ce7343abbe1b222d8d2023,Adjust location of apparmor module.,['Modulefile']
+13,8e404d464b422cd117f16c4fef3ef5a7b51cd382,Add support for debian defaults file.,"['lib/puppet/provider/database/mysql.rb', 'lib/puppet/provider/database_grant/mysql.rb', 'lib/puppet/provider/database_user/mysql.rb']"
+14,8d97f5dca8a8c68b3a85a2c6d833a08aed49d85f,Add apparmor support.,"['Modulefile', 'manifests/params.pp', 'manifests/server.pp', 'templates/apparmor.usr.sbin.mysqld.erb']"
+15,3ffa0bd66bd17d1839ba50c75abbfc0fd11c5344,Merge pull request #73 from razorsedge/mysqladmin_passwd,"['manifests/config.pp', 'spec/classes/mysql_config_spec.rb']"
+16,605fa718e1a46cd550bedea2196e852cc13ef5e8,Escape $root_password during execs.,"['manifests/config.pp', 'spec/classes/mysql_config_spec.rb']"
+17,069dc48d3811235c0172d2c288867995cbe8b951,Add parameterization changes from wikipedia.,"['manifests/config.pp', 'manifests/params.pp', 'templates/my.cnf.erb']"
+18,583e60fe843082e5c551ee93ab2ce45b47733216,Merge pull request #88 from branan/release_0.4.0,"['CHANGELOG', 'Modulefile']"
+19,14b612e26f68e4fcaa6fb86f741410b488f01844,Update module for 0.4.0,"['CHANGELOG', 'Modulefile']"
+20,be493c3a4117ff1096b9cf39bb004406239e95fe,Merge pull request #87 from branan/fix_rspec_211,"['spec/classes/mysql_config_spec.rb', 'spec/classes/mysql_init_spec.rb', 'spec/classes/mysql_java_spec.rb', 'spec/classes/mysql_python_spec.rb', 'spec/classes/mysql_ruby_spec.rb']"
+21,5c4f14e3863033f678ddd500932ffc1b2301411d,Fix negative tests on rspec 2.11,"['spec/classes/mysql_config_spec.rb', 'spec/classes/mysql_init_spec.rb', 'spec/classes/mysql_java_spec.rb', 'spec/classes/mysql_python_spec.rb', 'spec/classes/mysql_ruby_spec.rb']"
+22,66c17cd14c4e7ba2216a282e0c36be82dccc3893,Merge pull request #82 from agerlic/escape_database_name,['lib/puppet/provider/database/mysql.rb']
+23,514eca42982fdcaf4250a689e31ad54b9651d1c6,Merge pull request #83 from agerlic/add_db_to_database_grant,['lib/puppet/provider/database_grant/mysql.rb']
+24,de0f749ea5839039a17951a3ec7aa7d6ffcbb381,add missing db param to database_grant,['lib/puppet/provider/database_grant/mysql.rb']
+25,2817f362d5faaf902ed6fd4f285e51b712ed945a,escape database name,['lib/puppet/provider/database/mysql.rb']
+26,920d25d273a21daaa7809fa26dcecfc5a7179962,Merge pull request #81 from bodepd/enabled_param,"['manifests/server.pp', 'spec/classes/mysql_server_spec.rb']"
+27,8b2b29a13689a0833722899e1c05eabbb4c3925a,Add enabled parameter to mysql::server,"['manifests/server.pp', 'spec/classes/mysql_server_spec.rb']"
+28,01fe9e55b7ef8b991b3545ad69003d29950bd899,Merge pull request #79 from branan/use_spechelper_gem,"['.gemfile', '.travis.yml', 'Rakefile', 'spec/spec_helper.rb']"
+29,62b395fe6997b5b13ba43190fc9352dee4588579,Switch to using the puppetlabs_spec_helper gem for common files,"['.gemfile', '.travis.yml', 'Rakefile', 'spec/spec_helper.rb']"
+30,d66607d21aae44afdfc8ef8da086be5411918f33,Merge pull request #78 from branan/merge_freebsd,"['manifests/config.pp', 'manifests/params.pp', 'spec/classes/mysql_config_spec.rb', 'spec/classes/mysql_init_spec.rb', 'spec/classes/mysql_java_spec.rb', 'spec/classes/mysql_python_spec.rb', 'spec/classes/mysql_ruby_spec.rb', 'spec/classes/mysql_server_spec.rb', 'templates/my.cnf.erb']"
+31,f572b90f9e268389aed7ee509341bcb326da973e,(#14330) Add FreeBSD spec tests,"['spec/classes/mysql_config_spec.rb', 'spec/classes/mysql_init_spec.rb', 'spec/classes/mysql_java_spec.rb', 'spec/classes/mysql_python_spec.rb', 'spec/classes/mysql_ruby_spec.rb', 'spec/classes/mysql_server_spec.rb']"
+32,05d7e23fe8833ec1caf8ec9a5e7a6c70623a614a,(#14330) Add support for FreeBSD,"['manifests/config.pp', 'manifests/params.pp', 'spec/classes/mysql_config_spec.rb', 'templates/my.cnf.erb']"
+33,ece11c57fa26751ea90f9a8350ced8625ae33b27,Merge pull request #77 from branan/updated_module_layout,"['.fixtures.yml', '.gemfile', '.gitignore', '.travis.yml', 'Rakefile', 'spec/fixtures/modules/mysql', 'spec/spec_helper.rb']"
+35,703c0bde307d320b47dfc89283b5c6307a374377,Update the module to the new layout for easier testing and packaging,"['.fixtures.yml', '.gemfile', '.gitignore', '.travis.yml', 'Rakefile', 'spec/fixtures/modules/mysql', 'spec/spec_helper.rb']"
+36,c1e3bcabf4cf720597646b7c263d9e4360413aac,Merge pull request #76 from brdude/master,"['lib/puppet/provider/database/default.rb', 'lib/puppet/provider/database_grant/default.rb', 'lib/puppet/provider/database_user/default.rb']"
+37,f0f9e76db7a3484ff31bae33a7a76e0aeae0a5df,Default types hacks not needed.,"['lib/puppet/provider/database/default.rb', 'lib/puppet/provider/database_grant/default.rb', 'lib/puppet/provider/database_user/default.rb']"
+38,65de49f090bf81bfe2f553d3169054767b5c6ae1,Merge pull request #74 from jmchilton/specify_engine,"['manifests/config.pp', 'spec/classes/mysql_config_spec.rb', 'templates/my.cnf.erb']"
+39,41be95e26277679fdcf7e2dc8200a50e86e4f705,Add spec's to test setting default storage engine.,['spec/classes/mysql_config_spec.rb']
+40,0f0928ae888159468c6dba0ae08eca63d33b33ef,Allow specification of storage engine.,"['manifests/config.pp', 'templates/my.cnf.erb']"
+41,360f8d968a53475f8d3d504057d163b4fa2da5f0,Merge pull request #64 from runningman/backup,"['README.md', 'manifests/backup.pp', 'spec/classes/mysql_backup_spec.rb', 'templates/mysqlbackup.sh.erb', 'tests/backup.pp']"
+42,017834739280ac349b21f8ef533e38bcc8cc7310,Merge pull request #72 from branan/travisci,"['.travis.yml', 'Gemfile']"
+44,02089f4faf77e3856dd781c702dab251ebcc704d,Update travis config for our testing targets,['.travis.yml']
+45,05f7807fc02a504e4bb5100cb12d2e750e0fc007,Merge pull request #71 from runningman/security,['lib/puppet/type/database_user.rb']
+46,eaf9ee50f689fc89250131f4aa06b11436708aa2,Fixed regex of database user.,['lib/puppet/type/database_user.rb']
+47,ed627770454ee00bf10ce9ff0bd4b41411df0dbf,Merge pull request #63 from runningman/security,"['manifests/server/account_security.pp', 'spec/classes/mysql_server_account_security_spec.rb', 'tests/server/account_security.pp']"
+48,c2b90348b2cdcc44824635c5e24deba6883d694e,Merge pull request #70 from branan/14221_forge_update,"['CHANGELOG', 'Modulefile']"
+49,5185cf422c9c304f420f0a2c2af43823ab048e36,(#14221) Update Modulefile and CHANGELOG for next release,"['CHANGELOG', 'Modulefile']"
+50,22f59f0b5d13cd38897da4819947ba3582bd2726,Merge pull request #68 from runningman/wild_host,['manifests/db.pp']
+51,73a07bfbf3be706fea077c15e9f8e5c459290881,Merge pull request #69 from branan/case_insensitive,"['lib/puppet/provider/database_grant/mysql.rb', 'lib/puppet/type/database_grant.rb', 'spec/unit/puppet/provider/database_grant/mysql_spec.rb']"
+52,6a81a2f6871957e4a412ab892197b19300a590cb,(#14316) make privileges case-insensitive,"['lib/puppet/provider/database_grant/mysql.rb', 'lib/puppet/type/database_grant.rb', 'spec/unit/puppet/provider/database_grant/mysql_spec.rb']"
+53,8dc651c0e27c605ae6e9cef8c086e6c0bf11d94d,"Simplify Exec[""${name}-import""]",['manifests/db.pp']
+55,70d14e84d79a08e25705502c67a9e06a940955ec,Update privilege names to comply with 3fbb54de6c.,['manifests/backup.pp']
+56,3fbb54de6c922d01d3431811ccb596c376969ab4,Merge pull request #65 from branan/14218_query_db_for_permissions,"['lib/puppet/provider/database_grant/mysql.rb', 'manifests/db.pp', 'spec/unit/puppet/provider/database_grant/mysql_spec.rb']"
+57,29cef3f71ad5893e7831cb9e9b776ac4b71c9f45,Add initial spec for mysql grant provider,['spec/unit/puppet/provider/database_grant/mysql_spec.rb']
+58,d0a5b1c53499b3830a8e465e8a1b468930b483a2,remove $safe_grant,['manifests/db.pp']
+59,4485dbb95f93bef38541e0bc49b841e40ef9fe9c,Remove the global *_PRIVS variables,['lib/puppet/provider/database_grant/mysql.rb']
+60,fbee243ff6dbd477e5ebba52b4e086e07539d040,Rip out backup class parameter defaults.,"['manifests/backup.pp', 'manifests/params.pp']"
+61,e6b45ebfae3366bc368630d55368fc3a3f99b478,Merge pull request #60 from geogdog/patch-1,['manifests/config.pp']
+62,f750b39ad57b875b9390d1bc403128f9a9721c6d,Merge pull request #61 from runningman/java,"['README.md', 'manifests/java.pp', 'manifests/params.pp', 'spec/classes/mysql_java_spec.rb', 'tests/java.pp']"
+63,779affeb52c49f2e9480bfbd445bd25ed577b9c4,Merge pull request #62 from fcharlier/syntax_error_monitor,"['manifests/server/monitor.pp', 'spec/classes/mysql_server_monitor_spec.rb']"
+64,64f367fbb47bffd4b34a27922b137d66d6f20c8f,Fix typos in mysql::server::monitor class,"['manifests/server/monitor.pp', 'spec/classes/mysql_server_monitor_spec.rb']"
+65,7890f795470b60c4956df8fc1a9af19385096dff,Added mysql::server::account_security class.,"['manifests/server/account_security.pp', 'spec/classes/mysql_server_account_security_spec.rb', 'tests/server/account_security.pp']"
+66,4158137278387de262dd8c92360d8786892ff3a1,Added mysql::backup class.,"['README.md', 'manifests/backup.pp', 'manifests/params.pp', 'spec/classes/mysql_backup_spec.rb', 'templates/mysqlbackup.sh.erb', 'tests/backup.pp']"
+68,0743faa6db7f5058ec3c381086fcb50daa69f158,Added tests to mysql::java.,"['manifests/java.pp', 'spec/classes/mysql_java_spec.rb', 'tests/java.pp']"
+69,ba4df4dead1caa9b69e0c48a1ba072159c1b23e5,Added mysql::java class.,"['manifests/java.pp', 'manifests/params.pp']"
+70,097879bad31401fb25a4b05abdb4f166f464fe4c,I noticed the following message whilst provisioning using this module:,['manifests/config.pp']
+71,12a4410e63f8d07a5b2c0d3162ac4e4edac04628,Merge pull request #58 from derekhiggins/set-errorlog,"['manifests/config.pp', 'manifests/params.pp', 'templates/my.cnf.erb']"
+72,9ff99ba33678564a0606d379dfaeaaeb04d34c55,set platform dependent error logfile location,"['manifests/config.pp', 'manifests/params.pp', 'templates/my.cnf.erb']"
+73,07a8a5fc3358d32eee549cc5600bd956d30a259e,Merge branch 'maint/master/release_0.2.0',"['CHANGELOG', 'Modulefile']"
+74,c16a71d96b63617413262b56f959913bb7ffe2bb,Update Modulefile CHANGELOG for 0.2.0 release,"['CHANGELOG', 'Modulefile']"
+75,0a1d154acccf798cd132a5ee2d1580318702369c,Merge pull request #54 from blkperl/ticket_13203_add_ssl_support,"['manifests/config.pp', 'manifests/params.pp', 'spec/classes/mysql_config_spec.rb', 'templates/my.cnf.erb']"
+76,f7e0ea589337cb7fc046d1cd0d589515612e5dfc,(#13203) Add ssl support,"['manifests/config.pp', 'manifests/params.pp', 'spec/classes/mysql_config_spec.rb', 'templates/my.cnf.erb']"
+77,ce606a952560987f60889431852ecfa29dd0f01d,Merge pull request #53 from nanliu/tb/travis,"['.travis.yml', 'Gemfile', 'manifests/db.pp', 'manifests/server.pp']"
+78,06ac21ab3cdfb503f528e2bf257e4d2f6574efbf,Merge pull request #47 from blkperl/ticket_13163_datadir_should_be_configurable,"['manifests/config.pp', 'manifests/params.pp', 'spec/classes/mysql_config_spec.rb', 'templates/my.cnf.erb']"
+80,0ea463b5f0692ed10f8de3021bbb5cc791686468,Travis ci before script needs success exit code.,['.travis.yml']
+81,9ebbbc434da48384c4cc967b11fa43bf73c41372,Fix Puppet 2.6 compilation issues.,"['manifests/db.pp', 'manifests/server.pp']"
+82,33c72efde10692e1d3d6aaaead9e6ed9364ffdac,Add travis.ci for testing multiple puppet versions.,"['.travis.yml', 'Gemfile']"
+83,f353fc6a2d9931bbad1968edfbee7247e54bb63b,(#13163) Datadir should be configurable,"['manifests/config.pp', 'manifests/params.pp', 'spec/classes/mysql_config_spec.rb', 'templates/my.cnf.erb']"
+84,b9e6a78816db8f7a57d9ff2a4e278439ecbe2e7a,Merge pull request #51 from nanliu/tb/spec,['spec/classes/mysql_config_spec.rb']
+86,eff79b5331886f7b2f7df9788f342a9d04fd2345,Fix spec test issues related to error message.,['spec/classes/mysql_config_spec.rb']
+87,c6f1ea71bad6adc27f13818558b30b04047e1595,Merge pull request #50 from nanliu/tb/13194,"['manifests/config.pp', 'manifests/params.pp', 'manifests/server.pp', 'spec/classes/mysql_server_spec.rb']"
+88,72da2c58383dfa71d27dcef331cc580a3d9dfd78,Fix mysql service on Ubuntu.,"['manifests/config.pp', 'manifests/params.pp', 'manifests/server.pp', 'spec/classes/mysql_server_spec.rb']"
+91,9779208b0a01f5104af591e852178de1f54f1917,Merge pull request #48 from nanliu/tb/11963,['spec/classes/mysql_config_spec.rb']
+92,1700349a7675e1e4ee049f49fad5556bed6be6d3,(#11963) Fix spec test due to path changes.,['spec/classes/mysql_config_spec.rb']
+93,812ba015098cb4f73193c8287ee0811a60df5537,Merge pull request #46 from bodepd/add_rspec_tests_for_config_class,"['manifests/config.pp', 'manifests/server.pp', 'spec/classes/mysql_config_spec.rb']"
+94,a3ce533deb2dd58ec195c3ccc447eac629f35b1b,Merge pull request #42 from fcharlier/master,"['manifests/config.pp', 'spec/classes/mysql_server_spec.rb']"
+95,b14c7d14d27f891c5fa85e2e789f2830b18edb00,Add a test to check path for 'mysqld-restart',"['manifests/config.pp', 'spec/classes/mysql_server_spec.rb']"
+96,1a9ae6bddf726ff1a8c4afad4c9aaeac5f20496f,Fix path for 'mysqld-restart',['manifests/config.pp']
+97,907331a750331ee01416be73cd42cf83aabd4c49,Add rspec-puppet tests for mysql::config,['spec/classes/mysql_config_spec.rb']
+98,da62ad66f016a336249cc27c41dcf5c2073c6955,Moved class dependency between sever and config to server,"['manifests/config.pp', 'manifests/server.pp']"
+100,36f9ef408eef1e04280ee099000e38d8546f61d7,Merge pull request #45 from bodepd/fix_issues_from_nans_massive_pull_request,"['lib/puppet/provider/database_user/mysql.rb', 'manifests/config.pp', 'manifests/params.pp']"
+101,0832a2c1d2fc2672b74c6df9964657cd4a4be7d9,Notify mysql restart from set_mysql_rootpw exec,['manifests/config.pp']
+103,e472d3b48d548deae2a02162a9061067cb91f8cc,Mention osfamily value in failure message,['manifests/params.pp']
+104,015490c787111d7682bd70604c276578d3e3399e,Fix bug when querying for all database users,['lib/puppet/provider/database_user/mysql.rb']
+105,82d0ae59cf3eb0d004a5e71a8d9f716f4dff45d5,Merge pull request #41 from nanliu/tb/update,"['Modulefile', 'README.md', 'Rakefile', 'lib/puppet/parser/functions/mysql_password.rb', 'lib/puppet/provider/database/default.rb', 'lib/puppet/provider/database/mysql.rb', 'lib/puppet/provider/database_grant/default.rb', 'lib/puppet/provider/database_grant/mysql.rb', 'lib/puppet/provider/database_user/default.rb', 'lib/puppet/provider/database_user/mysql.rb', 'lib/puppet/type/database.rb', 'lib/puppet/type/database_grant.rb', 'lib/puppet/type/database_user.rb', 'manifests/config.pp', 'manifests/db.pp', 'manifests/init.pp', 'manifests/params.pp', 'manifests/python.pp', 'manifests/ruby.pp', 'manifests/server.pp', 'manifests/server/monitor.pp', 'manifests/server/mysqltuner.pp', 'spec/classes/mysql_init_spec.rb', 'spec/defines/mysql_db_spec.rb', 'spec/fixtures/manifests/site.pp', 'spec/fixtures/modules/mysql', 'spec/spec_helper.rb', 'spec/unit/mysql_password_spec.rb', 'templates/my.cnf.erb', 'tests/mysql_database.pp', 'tests/mysql_user.pp', 'tests/server.pp']"
+106,b1f90fd1d2581186c6fb07c10a4a76f5c5a073b1,Major refactor of mysql module.,"['Modulefile', 'README.md', 'Rakefile', 'lib/puppet/parser/functions/mysql_password.rb', 'lib/puppet/provider/database/default.rb', 'lib/puppet/provider/database/mysql.rb', 'lib/puppet/provider/database_grant/default.rb', 'lib/puppet/provider/database_grant/mysql.rb', 'lib/puppet/provider/database_user/default.rb', 'lib/puppet/provider/database_user/mysql.rb', 'lib/puppet/type/database.rb', 'lib/puppet/type/database_grant.rb', 'lib/puppet/type/database_user.rb', 'manifests/config.pp', 'manifests/db.pp', 'manifests/init.pp', 'manifests/params.pp', 'manifests/python.pp', 'manifests/ruby.pp', 'manifests/server.pp', 'manifests/server/monitor.pp', 'manifests/server/mysqltuner.pp', 'spec/classes/mysql_init_spec.rb', 'spec/defines/mysql_db_spec.rb', 'spec/fixtures/manifests/site.pp', 'spec/fixtures/modules/mysql', 'spec/spec_helper.rb', 'spec/unit/mysql_password_spec.rb', 'templates/my.cnf.erb', 'tests/mysql_database.pp', 'tests/mysql_user.pp', 'tests/server.pp']"
+107,1e926b4516884e05189a45c265dca93985807f95,Ruby and Python's MySQL libraries are named differently on different distros.,['manifests/params.pp']
+108,09af083e3c232ee5e05147ef9492365d956bb6a3,"Per @ghoneycutt, we should fail explicitly and explain why.",['manifests/params.pp']
+109,7513d0308cf3658f09b436c5574d08b11c2765e6,Removing duplicate declaration,['manifests/params.pp']
+111,031a47dfad1b2c78383b80baa6b8fb4ad995321b,"Instead of hardcoding the config file target, pull it from mysql::params",['manifests/config.pp']
+112,360eacd4e0e646a02e7120fb0996e9947d81ce13,Moved $socket to within the case to toggle between distros.  Added a $config_file variable to allow per-distro config file destinations.,['manifests/params.pp']
+113,3462e6bf1361113529c9e246c74f1419ed3c9d32,"Pretty sure this is a bug, 99% of Linux distros out there won't ever hit the default.",['manifests/params.pp']
+118,2f5615688ff7101e2cc67a41aba9400790b5a9f4,Merge branch 'ticket/master/11363-missing_privs',['lib/puppet/provider/database_grant/mysql.rb']
+119,d15c9d1621a675a8fecc1d9ad6f1a510fc30ec68,"(#11363) Add two missing privileges to grant: event_priv, trigger_priv",['lib/puppet/provider/database_grant/mysql.rb']
+120,a0ed6a14839ecaf5f152d859058cf8f04f00cd27,(minor) Fixup typos in Modulefile metadata,['Modulefile']
+121,f5f9cc5367ffa182237c7c9275615388a3d08ebe,Merge branch 'bug/master/db_notify_import_sql_if_given',"['manifests/db.pp', 'spec/defines/mysql_db_spec.rb']"
+122,0783c748b7350919f3cbe9ff26b436bac7e2d8cc,Only notify Exec to import sql if sql is given,"['manifests/db.pp', 'spec/defines/mysql_db_spec.rb']"
+123,4f02a86ca24d35574f22ee5621fa75d466914780,Merge pull request #28 from ccaum/feature/master/11508_set_sql_load_refreshonly,"['Rakefile', 'manifests/db.pp', 'spec/classes/mysql_init_spec.rb', 'spec/defines/mysql_db_spec.rb', 'spec/spec.opts', 'spec/spec_helper.rb']"
+124,e3b9fd90a6cfd766ccbeda44125c5fecc56a0c20,(#11508) Only load sql_scripts on DB creation,"['Rakefile', 'manifests/db.pp', 'spec/classes/mysql_init_spec.rb', 'spec/defines/mysql_db_spec.rb', 'spec/spec.opts', 'spec/spec_helper.rb']"
+125,79579125c5bc58d3791bf9255b9ab6c9973d5463,Merge pull request #27 from justintime/conf.d-resource,['manifests/config.pp']
+126,3058feb1f376a63a4f2b850f8d95b241e4480aea,Require not needed due to implicit dependencies,['manifests/config.pp']
+127,a557b8d7c804a8422f42cab177bf95323255e297,Bug #11375: puppetlabs-mysql fails on CentOS/RHEL,['manifests/config.pp']
+128,0b0774323773ad1f6371fe09a639e6e347522dcc,Merge branch 'ticket/11184-wildcard_hostnames',"['lib/puppet/type/database_user.rb', 'tests/mysql_user.pp']"
+129,0292456f76e70973067e388fd1df71ff273a5585,(#11184) Allow wildcards in account host names,"['lib/puppet/type/database_user.rb', 'tests/mysql_user.pp']"
+130,f2f773c44f84db07ad904abe0e2e44f7e8a59032,Merge branch 'ticket/11185-fully-qualify',['manifests/params.pp']
+131,92660497a2fa610cd6867329f2f038d6a35cb011,(#11185) Fully qualify $operatingsystem,['manifests/params.pp']
+132,c9030cdcd994e5d36aebdb7c6f2add0b66800dc4,Merge pull request #22 from webfactory/optional_commands,"['lib/puppet/provider/database/mysql.rb', 'lib/puppet/provider/database_grant/mysql.rb', 'lib/puppet/provider/database_user/mysql.rb']"
+133,b0ff4338601c0fa9e3659b298fd4d460609e0573,Fix (#10882) by making all commands optional.,"['lib/puppet/provider/database/mysql.rb', 'lib/puppet/provider/database_grant/mysql.rb', 'lib/puppet/provider/database_user/mysql.rb']"
+134,68e4c6af3257deaa6517577ae133de01abfe092c,Merge pull request #21 from bodepd/config_hash_update,"['README', 'manifests/server.pp', 'tests/mysql_database.pp', 'tests/server.pp']"
+135,7e062367179fa3f61ffc7e933c3b525c23854618,Merge pull request #20 from bodepd/manage_conf_dir,['manifests/config.pp']
+136,e1cb227803cce844734cc2c10e4c6222cf886ede,(#10391) Update docs to reflect config_hash.,"['README', 'manifests/server.pp', 'tests/mysql_database.pp', 'tests/server.pp']"
+137,319644cec514e21a6eec04a13af5165d6183a104,(#10390) Manage /etc/mysql directory.,['manifests/config.pp']
+140,29bdca5a76ee40f3441b8192d68275ac58f7bc32,Merge pull request #17 from bodepd/issue/master/dep_on_cond_resource,['manifests/config.pp']
+141,eb608164e49018330c18862e7d477e925999bb89,Fixed dep issue.,['manifests/config.pp']
+142,9f77e8a24a434036653b99b224f2213e0b574e2a,Merge pull request #14 from bodepd/issue/master/root_pw_cleanup,['manifests/config.pp']
+143,acef166ed735687d072e09b917ac94c7b58d1298,Merge pull request #16 from kbarber/issue/master/15_incorrect-resource-names-in-monitor,['manifests/server/monitor.pp']
+144,a1bd55423b77e80a0f37f6c75c04b00835f8519e,15 - Fix resource names in monitor.pp,['manifests/server/monitor.pp']
+145,0963d2eb4f21e811c8793a60528333510a423b67,Cleaned up implementation for setting root pw,['manifests/config.pp']
+146,3a1672c23c46c819a7b24dd1cbde7653f8be7cad,Merge pull request #13 from bodepd/issue/master/fixed_root_pw,['manifests/config.pp']
+147,b93e0f65cb647be2795252e0537a8650e77bbdcb,Fixed bug with updating mysql root pw.,['manifests/config.pp']
+148,aaffc471c18c204472c22cc686ca9bf791720517,Merge pull request #12 from bodepd/feauture/master/expand_config,"['Modulefile', 'manifests/config.pp', 'manifests/server.pp', 'manifests/server/redhat.pp', 'templates/my.cnf.erb', 'templates/my.cnf.pass.erb']"
+149,a24881a682c9ac4db7b53332ed2879ca77ee2e9d,Created config class and extended params.,"['Modulefile', 'manifests/config.pp', 'manifests/server.pp', 'manifests/server/redhat.pp', 'templates/my.cnf.erb', 'templates/my.cnf.pass.erb']"
+150,dbcdaf98d143c28e7fc4bd9c099d448fb1625d55,Merge pull request #11 from bodepd/issue/master/set_charset_on_create,['lib/puppet/provider/database/mysql.rb']
+151,0f3f58f6cacb0a218ea077474761ca296ec24a4e,Merge pull request #9 from glarizza/feature/master/password_ordering,"['manifests/init.pp', 'manifests/params.pp', 'manifests/server/redhat.pp']"
+152,4774c634359abbe8f93eb57f2496054265c856a2,Database should set charset on create.,['lib/puppet/provider/database/mysql.rb']
+153,190fd129fc7b00e3a35fa1b4b2a778a917514ca5,Merge pull request #10 from glarizza/feature/master/service_path_fix,['manifests/server.pp']
+154,bba9589770c6b7a11aefc082d8ab5f7d614f30fe,Fix service path,['manifests/server.pp']
+155,273aeb4ad08467acb1a78481b42c6f5969d89ce4,Merge pull request #8 from glarizza/feature/master/ruby_mysql_fix,['manifests/ruby.pp']
+156,1d16d45f4e825fdf6d1ec487a78b53e081178b8d,Fix root password ordering issue,['manifests/server/redhat.pp']
+157,6b98633cc82ebab76659b3a8edab57df6e81fb6b,Add client package variable,"['manifests/init.pp', 'manifests/params.pp']"
+158,c15ef0ad1bc374053107c0c2c467dc13ceae6bcc,Remove path to service binary,['manifests/server.pp']
+159,f4291778cc5fd4433e1cf54711f892ebf59d6414,Refactor ruby package provider,['manifests/ruby.pp']
+160,3c1793ac731690f47184d3beaf3310b5b286ce49,Merge pull request #5 from bodepd/feature/master/no_root_debian,"['manifests/server.pp', 'manifests/server/redhat.pp']"
+161,fb00c75cedc2c35fbd3ebd0031934c3e1192c377,Debian should not manage root password,"['manifests/server.pp', 'manifests/server/redhat.pp']"
+167,b7761efd5b25532c3753997c4dee4a97dd2328f1,corrected /etc/my.cnf path,['manifests/server.pp']
+168,bf334ccb4ecd2136ba180e9365eb71e5532cdd13,Added modulefile.,['Modulefile']
+169,344d644d5c92c69fa53d448ded087dc32b3cc3e1,Added documentation and license to module.,"['LICENSE', 'README', 'manifests/db.pp', 'manifests/init.pp', 'manifests/params.pp', 'manifests/python.pp', 'manifests/ruby.pp', 'manifests/server.pp', 'manifests/server/monitor.pp']"
+170,03d2ad55500dd8938f764dffa6ad1c8100d09e5a,Added ensure param to mysql::ruby.,['manifests/ruby.pp']
+171,fa7f0ebf17228b594553cc9215e4ba4bebbc3c1a,removed accidentally checked in swap file.,"['manifests/.db.pp.swp', 'manifests/db.pp']"
+172,0b5cc21348687ec2c1745f96b07d93502eec54bb,cleaned up style a little:,"['manifests/db.pp', 'manifests/params.pp', 'manifests/ruby.pp', 'manifests/server.pp', 'templates/my.cnf.erb', 'tests/mysql_database.pp', 'tests/mysql_user.pp', 'tests/server.pp']"
+173,f65e49e2cebb7794276ab0c2731d314c893fcd60,added more input validation for db user.,['lib/puppet/type/database_user.rb']
+174,30338032a59ac349e180d678b38e9a8ca0a8f551,added module to install python tools for mysql,"['manifests/python.pp', 'tests/python.pp']"
+176,d28f0e0327d73dde80331494d2abb5562d0ff144,adding first commit for mysql.,"['TODO', 'files/mysqltuner.pl', 'lib/puppet/parser/functions/mysql_password.rb', 'lib/puppet/provider/database/default.rb', 'lib/puppet/provider/database/mysql.rb', 'lib/puppet/provider/database_grant/default.rb', 'lib/puppet/provider/database_grant/mysql.rb', 'lib/puppet/provider/database_user/default.rb', 'lib/puppet/provider/database_user/mysql.rb', 'lib/puppet/type/database.rb', 'lib/puppet/type/database_grant.rb', 'lib/puppet/type/database_user.rb', 'manifests/.db.pp.swp', 'manifests/db.pp', 'manifests/init.pp', 'manifests/params.pp', 'manifests/ruby.pp', 'manifests/server.pp', 'manifests/server/monitor.pp', 'manifests/server/mysqltuner.pp', 'templates/my.cnf.erb', 'tests/init.pp', 'tests/mysql_database.pp', 'tests/mysql_grant.pp', 'tests/mysql_user.pp', 'tests/ruby.pp', 'tests/server.pp']"

@@ -1,0 +1,12 @@
+,sha,message,files,issues
+0,4a9e8855fcd032f3051d9f4713ba86cf028fb1b0,Merge pull request #10 from oleksiialeksieiev/master,['metadata.yaml'],['#10']
+2,886291c0ed78744f3d92a48d75da9dc1bf9dc96b,Merge pull request #9 from mitroko/master,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']",['#9']
+4,6c19cb349df58709af5a8ffefbbbe578bcf37d42,Merge pull request #8 from mitroko/master,"['README.md', 'deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']",['#8']
+6,05aedf5402bc7a9a85eb503ef35748d0d9a3b303,Merge pull request #7 from mitroko/ml2_conf_path_fix,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']",['#7']
+7,c8116ea1078c3cca87963cd007ea3d2519ad48a1,Merge pull request #6 from mitroko/MOS9_template,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp', 'examples/MOS9-lnx-br-bond.yaml']",['#6']
+8,b752855af29deadbbb27265c350ec6ead7398b60,Merge pull request #4 from mitroko/lint_fix,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']",['#4']
+13,4b3ec0c18ff475fba9a412d725cb5da65896d52a,Merge pull request #3 from mitroko/DVR_template,"['README.md', 'TODO', 'examples/lnx-br-bond-dvr.yaml']",['#3']
+15,8063d35cf75035113809b93ad901ec77103977ee,Merge pull request #2 from mitroko/fix_metadata,"['deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp']",['#2']
+17,dc5a700a93e40bcf7b8d512f0ffa057ee6aa14e4,Merge pull request #1 from mitroko/refactoring_1,"['README.md', 'TODO', 'deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp', 'deployment_tasks.yaml', 'environment_config.yaml', 'examples/lnx-br-bond.yaml', 'metadata.yaml', 'pre_build_hook']",['#1']
+18,7745a7227499b6190ffc30962652aa3c02936d36,Refactoring #1,"['README.md', 'TODO', 'deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp', 'deployment_tasks.yaml', 'environment_config.yaml', 'examples/lnx-br-bond.yaml', 'metadata.yaml', 'pre_build_hook']",['#1']
+19,1167e277b8db91ecfd2764a2105c562c9f979945,Refactoring #1,"['README.md', 'TODO', 'deployment_scripts/configure-ml2-compute.pp', 'deployment_scripts/configure-ml2-controller.pp', 'deployment_tasks.yaml', 'environment_config.yaml', 'examples/lnx-br-bond.yaml', 'metadata.yaml', 'pre_build_hook']",['#1']

@@ -1,0 +1,221 @@
+attributes:
+  ol-mode:
+    value: "master_slave"
+    label: "LDAP deployment mode"
+    type: "radio"
+    weight: 5
+    values:
+      - data: "master_slave"
+        label: "Deploy LDAP Master-Slave"
+        description: "LDAP Master will be deployed as a separate role. LDAP Slaves will be deployed on Controller nodes"
+      - data: "caching_proxy"
+        label: "Deploy LDAP as caching proxy"
+        description: "LDAP Server will be deployed on Controller node with caching proxy module enabled"
+  ol-domain_name:
+    value: "domain.tld"
+    label: "Domain name"
+    weight: 10
+    type: "text"
+    regex:
+      source: '\S'
+      error: "Username field cannot be empty"
+  ol-user_password:
+    value: "very_strong_password"
+    label: "OpneLDAP password"
+    weight: 15
+    type: "password"
+    regex:
+      source: '\S'
+      error: "Password field cannot be empty"
+  ol-tls:
+    value: false
+    label: "Use TLS for upstream LDAP connection"
+    weight: 20
+    type: "checkbox"
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'master_slave'"
+        action: "hide"
+  ol-ca_cert:
+    value: "-----BEGIN CERTIFICATE----- MIIEATCCAumgAwIBAgIJAMoBd7An0sR7MA0GCSqGSIb3DQEBBQUAMIGWMQswCQYD
+    VQQGEwJSVTEPMA0GA1UECAwGTW9zY293MQ8wDQYDVQQHDAZNb3Njb3cxETAPBgNV BAoMCE1pcmFudGlzMREwDwYDVQQLDAhTZXJ2aWNlczEVMBMGA1UEAwwMKi5kb21h
+    aW4udGxkMSgwJgYJKoZIhvcNAQkBFhlha2lyaWxvY2hraW5AbWlyYW50aXMuY29t MB4XDTE1MTAyMDEyMzYzNloXDTE4MDgwOTEyMzYzNlowgZYxCzAJBgNVBAYTAlJV
+    MQ8wDQYDVQQIDAZNb3Njb3cxDzANBgNVBAcMBk1vc2NvdzERMA8GA1UECgwITWly YW50aXMxETAPBgNVBAsMCFNlcnZpY2VzMRUwEwYDVQQDDAwqLmRvbWFpbi50bGQx
+    KDAmBgkqhkiG9w0BCQEWGWFraXJpbG9jaGtpbkBtaXJhbnRpcy5jb20wggEiMA0G CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDOCawX9Hisz1SggitbXHFBMVlhMgfz
+    KDXAdOLDAIwzcrLXjeV/ZUop35hV1lyINCH4Sja798ta1WXeYjYoe36nuiIRsf3a 4TmRvTvGpWVrMTBqOlDhX2yydJeiYWd79af2cuHN5QfPq38EklSG6VF+AFHEnMG/
+    340I3R3iLKkpkCBhd0VKkJLU+qQpEt64zaBt5oBBq7SnKexlo+b1Ut7eW/sthaLT JOwf8OW+FbMKlKt4rBxqVCSt6M/JXraWSXYy+LfdYeAUNgR2pwZq9BTmAKn6JfVF
+    /bvM1BwdPTFlP0KCPTFLkImCQsnWEluFukTl3gM/bn3baOCPz4U9WU9lAgMBAAGj UDBOMB0GA1UdDgQWBBRiyBboXpyOwBuU44D/G2iiEWoizzAfBgNVHSMEGDAWgBRi
+    yBboXpyOwBuU44D/G2iiEWoizzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUA A4IBAQAhW8D8dGnF78TJyeqtWEDMLTb4pzM8qoKWS+B4ShShuypY1XFzxryH3CHO
+    uozsbbpvR0nIN9zQRQ0gz1LgJPSAegcyitE3Law4Pzmz4LkC9sNNY6N5P5ZN9rjo tZJtsX889OUAQPPgmFpvLXbau5ASdV/wtw/FZVupXLOf95paX69P537xGo3UjY5d
+    sF808U14Q6opetICXXlXyQlDuY/+rSiWhY1l/8sWML+BaTMXzGdOZLTH96/5cmve /OMAC4QLzOLkE/cb5mDnVzXM2t/2Tu2kMR5hEVKdGoqTcMjjT3PR9CAaKsOBCJqZ
+    ul1b5bZT3BT6a2G6e0NxjqfTXt0C -----END CERTIFICATE-----"
+    label: "CA cetificate"
+    weight: 25
+    description: "Copy CA certficate in pem format here."
+    type: "text"
+    regex:
+      source: '\S'
+      error: "Copy CA certficate in pem format here."
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'caching_proxy' and settings:openldap.ol-tls.value == false"
+        action: "hide"
+  ol-slapd_cert:
+    value: "-----BEGIN CERTIFICATE----- MIIDqjCCApICCQC2U/DwduKqRzANBgkqhkiG9w0BAQUFADCBljELMAkGA1UEBhMC
+    UlUxDzANBgNVBAgMBk1vc2NvdzEPMA0GA1UEBwwGTW9zY293MREwDwYDVQQKDAhN aXJhbnRpczERMA8GA1UECwwIU2VydmljZXMxFTATBgNVBAMMDCouZG9tYWluLnRs
+    ZDEoMCYGCSqGSIb3DQEJARYZYWtpcmlsb2Noa2luQG1pcmFudGlzLmNvbTAeFw0x NTEwMjAxMjM4NTJaFw0xNzAzMDMxMjM4NTJaMIGWMQswCQYDVQQGEwJSVTEPMA0G
+    A1UECAwGTW9zY293MQ8wDQYDVQQHDAZNb3Njb3cxETAPBgNVBAoMCE1pcmFudGlz MREwDwYDVQQLDAhTZXJ2aWNlczEVMBMGA1UEAwwMKi5kb21haW4udGxkMSgwJgYJ
+    KoZIhvcNAQkBFhlha2lyaWxvY2hraW5AbWlyYW50aXMuY29tMIIBIjANBgkqhkiG 9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7k/ur1phKlcnFLhrEieO5zQCif2OVAzVOyrk
+    Pv79oZKseOgQa/xeEhBZxEuwLhwYQOtHPxg4MIPOHWhsXL1hde0+ikjM4vdRdLLm cXeZBTAZC6QwzXt/DsHmSK0wvIGQ0dr3zCFEejWqCfXjPXNtiQ4nJZNSlWWZ1gIH
+    tZ2uEue9Qdx3e6bvLCjy5gvn8QL2Hehy3Bgt++ZVeOc9Dx5dLNczZpRNWshMi/Zr zrVVcqFVBzJ0Nl1eFbmtfcGD7z5mDYEuSwPloOLSncOTvt04QfNErim/gBSvbSoS
+    7NK4TGCruVF+qgvxXq/at2pgdkc6AcgmKfB5Of1Kv/hrLKjZBwIDAQABMA0GCSqG SIb3DQEBBQUAA4IBAQCsCSvnoZYv2QlqiH0bbkY5oRBSwEQ+T8ytmGfhHsbGdhPc
+    ZOJlNM+5/3HSJwk5NvLgLYNWYHyeBTbN25JxuT46sFwjYjftirRw4VZLgqmHqezP Pvcc12djDV5xnBiRWWbMiUf0arVz39RxBo86nTUXUkGZKxNPA9cX7rEHpt6itJey
+    4FQZN/LRLgRWcNlDqKi36XaL1W3OUEw5LQKXKjfexkWhYZAjd19GI/dNqGB/eW6V Uj5b6W8m3f8/1mSopYfvdQ7hU5TR5e7I7dMiWmbvZdsSRHp1HatuheB/cVUPrhHc
+    OWAnf/JKd5wCSsb1R07sgaDzmKikaemG0JsJDK8D -----END CERTIFICATE-----"
+    label: "ldap server certificate"
+    weight: 30
+    description: "You can use generated cert for ldap server.(PLEASE USE PUBLIC IP assigned to master node as CommonName when creating csr)."
+    type: "text"
+    regex:
+      source: '\S'
+      error: "Copy ldap server certficate in pem format here."
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'caching_proxy'"
+        action: "hide"
+  ol-slapd_key:
+    value: "-----BEGIN RSA PRIVATE KEY----- MIIEpAIBAAKCAQEA7k/ur1phKlcnFLhrEieO5zQCif2OVAzVOyrkPv79oZKseOgQ
+    a/xeEhBZxEuwLhwYQOtHPxg4MIPOHWhsXL1hde0+ikjM4vdRdLLmcXeZBTAZC6Qw zXt/DsHmSK0wvIGQ0dr3zCFEejWqCfXjPXNtiQ4nJZNSlWWZ1gIHtZ2uEue9Qdx3
+    e6bvLCjy5gvn8QL2Hehy3Bgt++ZVeOc9Dx5dLNczZpRNWshMi/ZrzrVVcqFVBzJ0 Nl1eFbmtfcGD7z5mDYEuSwPloOLSncOTvt04QfNErim/gBSvbSoS7NK4TGCruVF+
+    qgvxXq/at2pgdkc6AcgmKfB5Of1Kv/hrLKjZBwIDAQABAoIBADpNAcaSZMz3706p Y0BYvyQe3DQn/MbhMNU9xAMJXMFHYbxegY35eoYOy/cy0RImu2Q+avqrkSuFQ0p8
+    fm4dwpcYCEHKV517Bcl37tp5eM0FHEt1yp6qhMX2d8D15cNoKya72/1rchY3xLaV Ghexgm2SMc+GgCCeb4kkjABJaAmlgQml/fZHBbd+/pKTpDTPqMCgT93nbThIanOg
+    msrb0SlaoqwD4rv3Ktf3w9eZlRHUxiI0cQXXLDjQl9W4J6WHBttMHp3jKthb3uma 9Uxc6zVBQ/NQHaw9VDXBuh4eOOPwYT8wsn+XpdNLmsGChQrP0eBQuIu8b7X9y518
+    dhkoi/kCgYEA/X2FVn4FjxI1HlUynWpJnQmzsDXCXE5+6iCZCV02LZmdolkhAaO7 XN6u+hPI0nMFlwSxmmQJDwY9ytwDBN68uW5IEQomFHtJxuwXL+ayzXGkIOMSyrCi
+    J+/a/sBKjt0YGLyvSNyrI3Wsw/zoG4PXesfz4OCCKa3sf5u2qN2Vq90CgYEA8Kvx M4pI1o2CwB5s5OeVF/4bTQyA+d8A5iWgBsWuMXDFa/d0bvTsq3q3tjUEa3DA5e2D
+    bxPGdNa5VQfmzq5tEhZm1FDSLmbwincHRq7zg2qLH/O1dit7RaPSjbvUtTU0+seX iH23Ur28BL9wM6Y+bf/PsLjRRHmhq0RRSR/6TDMCgYEAp2AfD6osb3idPEcTIZ+R
+    tbA3Rm1oxVxLLrqRcf5rDJb238CsK5H53+tla9hubI7oLPw7bO8KkDIV0QGOuMN9 p46q5R1nYXS6lS9EbCuO+lpD/jcRLGaO24Hjfvxm/of8JjFIJ/sUwVgs2EgA1lIq
+    kHbAkEaNi4m8s9GUPVH6Rr0CgYBUItgEu6AxGXGPNlO9RlRx+cyTh/6C2/oVeyvR kkQOVq09zFlw/MDMRe95jFlKMjXNa9YZ++DSMcrCtitzL7lDrH8wVDzWKfiHf4sU
+    o87Pr2yJtApJEHRc6SOPlw2Kd9pYnXQVLFXtYBUd18si00hZ7icuUb4e4SKqnAyK stouzwKBgQCAwgSIXRhFafbFrf09DLpGpXMPsvahDn8WiW4TOj+4MmBzpVOcOoGD
+    JAycOf0DngwQrJAxfnrebjcHLWAzhY+3R1R/h8kjGRDxepZSZ+SXnzPSFWkv2E3X wL9k019mqBefGVIHn4m8J4w9Rme+kLG73pzrGoMwos3jozc5LMoIZg==
+    -----END RSA PRIVATE KEY-----"
+    label: "ldap server key"
+    weight: 32
+    description: "You can use generated key for ldap server."
+    type: "text"
+    regex:
+      source: '\S'
+      error: "Copy ldap server key in pem format here."
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'caching_proxy'"
+        action: "hide"
+  ol-first_cloud:
+    type: "checkbox"
+    weight: 35
+    value: true
+    label: "This is the first master"
+    description: "if this is the first installation and or you plan to use single master - Please check. Otherwise uncheck it and specify IPs of remote masters below."
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'caching_proxy'"
+        action: "hide"
+  ol-remote_master_fqdn:
+    value: ""
+    label: "Remote master servers"
+    description: "If you have opeldap master servers deployed eralier with this plugin, please provide their fqdn here. Use comma as a delimiter."
+    weight: 40
+    type: "text"
+    regex:
+      source: '((([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]*[a-zA-Z0-9])\.)*([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9\-]*[A-Za-z0-9])(,\n|,?$)|^$)'
+      error: "Specify valid FQDN"
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'caching_proxy'"
+        action: "hide"
+  ol-upstream_host:
+    value: ""
+    label: "FQDN or IP Address of upstream LDAP server"
+    description: "This parameter will be used to determine ldap connection string to upstrem LDAP server"
+    weight: 43
+    type: "text"
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'master_slave'"
+        action: "hide"
+  ol-upstream_proto:
+    value: "ldap"
+    label: "Upsteam LDAP server connection protocol"
+    description: "Protocol to connect to upstream LDAP server"
+    weight: 46
+    type: "text"
+    regex:
+      source: 'ldap|ldaps'
+      error: 'Allowed values ldap ar ldaps'
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'master_slave'"
+        action: "hide"
+  ol-hdb_index:
+    value: |
+      index default pres,eq
+      index objectClass eq
+      index cn,uid,sn,mail pres,eq,sub
+      index contextCSN,entryUUID,member eq
+    label: "LDAP DB index parameters"
+    weight: 50
+    type: "textarea"
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'master_slave'"
+        action: "hide"
+  ol-cache_suffix:
+    value: "dc=domain,dc=local"
+    label: "Suffix for caching database"
+    description: "Suffix for Cache database. Should be used as basedn in Keystone config"
+    weight: 60
+    type: "text"
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'master_slave'"
+        action: "hide"
+  ol-suffixmassage:
+    value: ""
+    label: "Do a suffix rewrite if needed"
+    description: "This feature is known as suffixmassage. Can be specified if you need to replase basedn"
+    weight: 70
+    type: "text"
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'master_slave'"
+        action: "hide"
+  ol-binddn:
+    value: ""
+    label: "Bind DN to connect to upstream LDAP"
+    weight: 80
+    type: "text"
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'master_slave'"
+        action: "hide"
+  ol-bind_password:
+    value: "admin2"
+    label: "Password for binding to upstream LDAP"
+    weight: 90
+    type: "password"
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'master_slave'"
+        action: "hide"
+  ol-cache_attrs:
+    value: |
+      pcacheAttrset 0 uid userPassword
+      pcacheAttrset 1 ou cn description
+      pcacheTemplate (&(uid=)(objectClass=)) 0 3600
+      pcacheTemplate (&(&(objectClass=)(member=))(objectClass=)) 1 3600
+    label: "Cache attributes"
+    weight: 100
+    type: "textarea"
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'master_slave'"
+        action: "hide"
+  ol-cache_index_params:
+    value: |
+      index objectClass eq
+      index ou eq
+      index cn eq
+      index uid eq
+      index userPassword eq
+      index description eq
+    label: "Cache index parameters"
+    weight: 110
+    type: "textarea"
+    restrictions:
+      - condition: "settings:openldap.ol-mode.value == 'master_slave'"
+        action: "hide"

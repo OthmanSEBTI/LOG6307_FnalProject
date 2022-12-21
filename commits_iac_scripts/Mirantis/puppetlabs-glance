@@ -1,0 +1,111 @@
+,sha,message,files
+0,0f98eb07ba60f0728af1b717c2b31288c7c1406d,"Customizable auth_url, not hardwired to 127.0.0.1","['spec/classes/glance_api_spec.rb', 'templates/glance-cache.conf.erb']"
+1,947b8c3b26f32ad82aeebdf82ad258958bc93f96,Merge pull request #42 from jtopjian/jtopjian-glance_image,"['lib/puppet/provider/glance.rb', 'lib/puppet/provider/glance_image/glance.rb', 'lib/puppet/type/glance_image.rb']"
+2,69ffc7424eda819f704c1027ce2b2b6bfcce8974,Slight changes.,"['lib/puppet/provider/glance_image/glance.rb', 'lib/puppet/type/glance_image.rb']"
+3,242a424561b893f0feba435c13d52aa0d7246978,First attempt at creating a glance_image type,"['lib/puppet/provider/glance.rb', 'lib/puppet/provider/glance_image/glance.rb', 'lib/puppet/type/glance_image.rb']"
+4,9071ed1743a3d65f014e50fa519e7970c390eda8,Merge pull request #41 from bodepd/allow_enabled,"['manifests/api.pp', 'manifests/registry.pp', 'spec/classes/glance_api_spec.rb', 'spec/classes/glance_registry_spec.rb']"
+5,1fb892afd70783b4bf35816839cb8b5b5629745b,Add enabled parameter to glance services.,"['manifests/api.pp', 'manifests/registry.pp', 'spec/classes/glance_api_spec.rb', 'spec/classes/glance_registry_spec.rb']"
+6,68606f6773c153c82e8f4e39d3ba9a3eb90afe06,Merge pull request #39 from branan/use_spechelper_gem,"['.gemfile', '.travis.yml', 'Rakefile', 'spec/spec_helper.rb']"
+7,f6d5813236d2d65dee15adff855c175b3e60f2e4,Merge pull request #40 from branan/module_dependencies,"['CHANGELOG', 'Modulefile']"
+8,3e423c4c0313cf8fc5da39422e516922f95b5684,Update modulefile for initial release; add initial changelog,"['CHANGELOG', 'Modulefile']"
+9,ecc5a2d605fbc8363ad56c3ad5662d1ee962c957,Switch to using the puppetlabs_spec_helper gem for common files instead of duplicating code,"['.gemfile', '.travis.yml', 'Rakefile', 'spec/spec_helper.rb']"
+10,959e52773bda3e19c23be165000f82c2d05b0745,Merge pull request #38 from branan/enable_ci,"['.fixtures.yml', '.gemfile', '.travis.yml', 'Rakefile', 'spec/spec_helper.rb']"
+11,0b0bf5adcdc4b05f5cc7af64125906957695d221,Add files for CI support,"['.fixtures.yml', '.gemfile', '.travis.yml', 'Rakefile', 'spec/spec_helper.rb']"
+12,ea532aa278eba47d51208740702eb36bc722ac5b,Merge pull request #37 from jmchilton/mysql_improvements,"['manifests/db/mysql.pp', 'spec/classes/glance_db_mysql_spec.rb']"
+13,a7dedf197a24bf8a3fad00d1d1f58eede2f43057,Allow override of mysql charset & small whitespace fixes and spec improvements to test this change.,"['manifests/db/mysql.pp', 'spec/classes/glance_db_mysql_spec.rb']"
+14,cbd1a0d43f8de038277c21fd89e29aaa4f37465c,Change require => mysql::server to mysql::config so the mysql is fully configured before glance database is created.,"['manifests/db/mysql.pp', 'spec/classes/glance_db_mysql_spec.rb']"
+16,264456ee7ebb9c4da6e05834ab846f964c72e341,Merge pull request #36 from branan/fix_old_puppet,"['manifests/backend/swift.pp', 'manifests/client.pp']"
+17,87740b26ae6c70c41a04fe78649948bcf4c615a7,fix old puppet,"['manifests/backend/swift.pp', 'manifests/client.pp']"
+19,685a9f0683c452114467b81adb18ad8c4df53f07,Merge pull request #34 from branan/14221_forge_release,"['Modulefile', 'README.markdown']"
+21,ac1c791fed7d66dbc4542c843b47552ce34adc9c,Merge pull request #33 from jmchilton/endpoint_optional,"['manifests/keystone/auth.pp', 'spec/classes/glance_keystone_auth_spec.rb']"
+23,8e2de5d1937141fbc80bbd40cd4a19677e7c9db7,(#14221) add initial Modulefile to prep for forge release,['Modulefile']
+24,db28c354cae699c1e3fa2855c90d6a36c6962f3b,Fix default boolean value for configure_endpoint.,['manifests/keystone/auth.pp']
+25,f1df5e64d1cffb9bd351baf2a9cedc792083929e,Make endpoint configuration in glance::keystone::auth optional in case not using templated catalog file for defining endpoints. (keystone_endpoint type seems to assume always using SQL driver.),"['manifests/keystone/auth.pp', 'spec/classes/glance_keystone_auth_spec.rb']"
+26,232c66be298d40dc2d8122cd041039628cd7d0fd,Merge pull request #32 from jmchilton/client-module,"['manifests/client.pp', 'manifests/params.pp', 'spec/classes/glance_client_spec.rb']"
+27,9d8a1fb56d44611431f35c19215bf3edee7988c7,Specify glance client package name in params.pp.,"['manifests/client.pp', 'manifests/params.pp']"
+28,7f08fd42071c4a9f6fa766c0923923dc0c74ac9d,"Create configuration class for glance client, mirroring puppetlabs nova::client to some degree.","['manifests/client.pp', 'spec/classes/glance_client_spec.rb']"
+29,ee7eb63b223245626f10caf930e1dea3e07cd871,Merge pull request #31 from bodepd/dev,"['manifests/keystone/auth.pp', 'spec/classes/glance_keystone_auth_spec.rb']"
+30,b454b902cf44357e624b44e8ba345b039d0de369,Refactor of glance::keystone::auth,"['manifests/keystone/auth.pp', 'spec/classes/glance_keystone_auth_spec.rb']"
+31,8c551a97b02efdba53d5dc19713ce14e8b115cce,Merge pull request #30 from bodepd/dev,"['examples/single.pp', 'manifests/api/config.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp']"
+32,622143771b45b71c8f325a03eafa9d113403872a,Update glance tenant,['examples/single.pp']
+33,384ff2a73584f20b8daca277e3d824510da01251,Set registry mysql connection,['examples/single.pp']
+34,8de1261f96a05741a5b89bfeff10975fbc844f12,Update glance example,['examples/single.pp']
+35,52aae65a4ca8a6ca9c717c99bac9c2a7dcc147d5,Move mysql code to db::mysql,"['examples/single.pp', 'manifests/api/config.pp', 'manifests/db/mysql.pp', 'manifests/db/mysql/host_access.pp']"
+36,827b302824c4dd8a9b3fbee30227cf973c925b66,Merge pull request #29 from bodepd/dev,"['manifests/api.pp', 'manifests/registry.pp']"
+37,cc9fe8ce8474d2240ff8a937ad297b751b028802,Fix backend config resource,['manifests/api.pp']
+38,cb60a379728d11cba90a99f22b2165788302f130,Require python keystone,"['manifests/api.pp', 'manifests/registry.pp']"
+39,19dd25b1aec825c1adf79b5a88641d22951baaa4,Merge pull request #28 from bodepd/dev,['manifests/api.pp']
+40,e38e09d3edb59237fca7a90db14a4a12154c789e,Ensure that glance requires a backend,['manifests/api.pp']
+41,2a148cb5e70dd27fefbb43f2d42f752e28b76acf,Merge pull request #27 from derekhiggins/glance-manage-as-glance,['manifests/registry.pp']
+42,5debef3b98dddd166127cdee30f4beb17681dcbf,Run glance-manage db_sync as glance,['manifests/registry.pp']
+43,ce412b1b8af8b1f073b5cb5a75cee109fc336aac,Merge pull request #26 from bodepd/dev,"['manifests/db.pp', 'manifests/keystone/auth.pp', 'manifests/params.pp', 'manifests/registry.pp']"
+44,edaf2053b5aa40e60b861ba0d2772ca446bb3b64,Only changes to the database should trigger db_sync,['manifests/db.pp']
+45,0f751551db10e2fefc4b9d2c6748abb8fb31c601,Make the db_sync command different per distro,"['manifests/params.pp', 'manifests/registry.pp']"
+46,c73c4a8fcf488e71810efec56a7aeea32fe4605b,Do not start services until glance user_role exists,['manifests/keystone/auth.pp']
+47,47ee87f17c42b60d8bc100dd09c7b65abddb9994,DB sync should also require db privs,"['manifests/db.pp', 'manifests/registry.pp']"
+48,736bdb2f5cb438eb8de4e9f146be094bba6ecd83,Merge pull request #25 from bodepd/dev,"['manifests/registry.pp', 'spec/classes/glance_registry_spec.rb']"
+49,4b95b9dae7d39034e5046c982b628ea05e4d99c0,Perform explicit db migrations,"['manifests/registry.pp', 'spec/classes/glance_registry_spec.rb']"
+50,8776a013316d011d95679217931c0e095bf6bdc8,Merge pull request #24 from bodepd/dev,['examples/single.pp']
+51,52cbb6f59bb285984d0e0869f026f98bc1d71f70,Make repo setup code Debian specific,['examples/single.pp']
+52,08cbc784271cf846f3746921af003c9e010feb29,Merge pull request #23 from bodepd/dev,"['ext/glance.sh', 'manifests/keystone/auth.pp']"
+54,e1529167d77d82eae8d6410e5cc18a20945a2feb,Update glance service definitions,['manifests/keystone/auth.pp']
+55,e0a8affee28b2df30e26f62a053b1a13cb775b80,Merge pull request #22 from bodepd/dev,"['manifests/api.pp', 'manifests/db.pp', 'manifests/init.pp', 'manifests/keystone/auth.pp', 'manifests/registry.pp']"
+56,ace411f92f5860cd30e3f9af30aa49b1fe137f9f,Require mysql::python,['manifests/db.pp']
+57,ceb41af5fc21a8f7c16a5d74c997c54057086ae2,Remove explicit management of python-migrate,['manifests/init.pp']
+58,cdfc5a48f4621a47ca722145496b652c9a07d580,Remove unused admin_token,"['manifests/api.pp', 'manifests/registry.pp']"
+59,616b32d617c0bfb88006a53b3988e34ee63e045a,Update keystone tenant name,['manifests/keystone/auth.pp']
+60,a84a072a0e27d96e3a7eeb43413386984b581e53,Merge pull request #21 from bodepd/dev,['examples/single.pp']
+61,cfc951664aa2fdd1ae5850224e644fcc8c99a7a3,Add test code for glance with mysql backend,['examples/single.pp']
+62,1180bffdb1aadd5cd58d9c653fcd3e3c30f8bb39,Merge pull request #20 from bodepd/dev,"['examples/single.pp', 'manifests/api.pp', 'manifests/init.pp', 'manifests/registry.pp', 'templates/glance-api-paste.ini.erb', 'templates/glance-registry-paste.ini.erb']"
+63,a2512fcff1252fa258371625b101783e4865c861,Remove ref to deprecated keystone::sqlite,['examples/single.pp']
+64,fdbf846d153688d514a18d3c516a6798eb1fe9e6,Refactor api-ini config files,"['manifests/api.pp', 'manifests/init.pp', 'manifests/registry.pp', 'templates/glance-api-paste.ini.erb', 'templates/glance-registry-paste.ini.erb']"
+65,9b0c1c375780001be3c87946a995e2bdbd08f61b,Merge pull request #19 from bodepd/dev,"['manifests/api.pp', 'manifests/backend.pp', 'manifests/backend/file.pp', 'manifests/backend/swift.pp', 'manifests/notify.pp', 'spec/classes/glance_api_spec.rb', 'spec/classes/glance_backend_file_spec.rb', 'spec/classes/glance_backend_swift_spec.rb', 'spec/classes/glance_notify_qpid_spec.rb', 'spec/classes/glance_notify_rabbitmq_spec.rb']"
+66,a7a96af75ee346908f1b6677f20d3f446b04e365,Fix broken tests,"['manifests/api.pp', 'spec/classes/glance_api_spec.rb', 'spec/classes/glance_backend_file_spec.rb', 'spec/classes/glance_backend_swift_spec.rb', 'spec/classes/glance_notify_qpid_spec.rb', 'spec/classes/glance_notify_rabbitmq_spec.rb']"
+67,151493f294684eadfd36bc4789a75f4459833ac2,Remove backend class,"['manifests/backend.pp', 'manifests/backend/file.pp', 'manifests/backend/swift.pp', 'manifests/notify.pp']"
+68,d9ce5e87e37bb8125d138ed1e101c14c63d03d8a,Merge pull request #18 from bodepd/dev,"['examples/single.pp', 'ext/glance.rb', 'manifests/api.pp', 'manifests/api/config.pp', 'manifests/backend.pp', 'manifests/backend/file.pp', 'manifests/backend/swift.pp', 'manifests/notify.pp', 'manifests/notify/qpid.pp', 'manifests/notify/rabbitmq.pp', 'manifests/registry.pp', 'spec/classes/glance_api_spec.rb', 'spec/classes/glance_backend_file_spec.rb', 'spec/classes/glance_backend_swift_spec.rb', 'spec/classes/glance_notify_qpid_spec.rb', 'spec/classes/glance_notify_rabbitmq_spec.rb', 'spec/classes/glance_registry_spec.rb', 'spec/fixtures/manifests/site.pp', 'spec/spec_helper.rb', 'templates/api/backend.erb', 'templates/api/file.erb', 'templates/api/footer.erb', 'templates/api/header.erb', 'templates/api/notify.erb', 'templates/api/qpid.erb', 'templates/api/rabbitmq.erb', 'templates/api/swift.erb', 'templates/glance-api-paste.ini.erb', 'templates/glance-api.conf.erb', 'templates/glance-registry-paste.ini.erb']"
+70,2e4350915b754deb652abb6cf3d45e4ff71b8f12,Remove dependency from glance::api to concat::setup,['manifests/api.pp']
+71,6bd7dc6592b5ea53c363a5ae9e4824245c5a50f8,Namespace glance apu fragments to avoid duplicates,['manifests/api/config.pp']
+72,bcf95f281963d5393e1aeba354d029370d72b806,Refactor example based on fragment reafactor,['examples/single.pp']
+73,e17b49b64729cbdd521ff2c21aac51f770884a44,Refactor glance-api.conf erb file,['templates/glance-api.conf.erb']
+74,0a400dcc6a973a539d9ba3a83ccc0bd1cc7bd383,Add rspec tests,"['spec/classes/glance_api_spec.rb', 'spec/classes/glance_backend_file_spec.rb', 'spec/classes/glance_backend_swift_spec.rb', 'spec/classes/glance_notify_qpid_spec.rb', 'spec/classes/glance_notify_rabbitmq_spec.rb', 'spec/classes/glance_registry_spec.rb', 'spec/fixtures/manifests/site.pp', 'spec/spec_helper.rb']"
+75,98027b54709207e7a46080a8eb9d94cfef29bdfd,Remove service parameters,"['manifests/api.pp', 'manifests/registry.pp', 'templates/glance-api-paste.ini.erb', 'templates/glance-registry-paste.ini.erb']"
+76,2ec7af015071b849fcfc05c4ef01038d2cb63806,Refactor glance::api to use fragments,['manifests/api.pp']
+77,6c29550dcb3cbeb7dfe37871ece1d2a7b20a8e05,Split api.conf file into fragments,"['manifests/api/config.pp', 'manifests/backend.pp', 'manifests/backend/file.pp', 'manifests/backend/swift.pp', 'manifests/notify.pp', 'manifests/notify/qpid.pp', 'manifests/notify/rabbitmq.pp', 'templates/api/backend.erb', 'templates/api/file.erb', 'templates/api/footer.erb', 'templates/api/header.erb', 'templates/api/notify.erb', 'templates/api/qpid.erb', 'templates/api/rabbitmq.erb', 'templates/api/swift.erb']"
+78,e9361dbaa60d6572569ec453c7a12ecada3f74f4,Merge pull request #17 from bodepd/dev,"['examples/single.pp', 'manifests/keystone/auth.pp']"
+79,1a15b76eda37f9d194f0aec01187ec45174f7397,Ensure repo stage is applied before main stage,['examples/single.pp']
+80,d1e33cc81f07ac9d5c8d433da0dccad6651ef764,Add code to use latest ppas,"['examples/single.pp', 'manifests/keystone/auth.pp']"
+81,ba5b0b0fbdc7935f8df4a8256cd4e611ce20cfec,Merge pull request #16 from bodepd/dev,"['TODO', 'examples/single.pp', 'ext/glance.sh', 'manifests/api.pp', 'manifests/db.pp', 'manifests/db/host_access.pp', 'manifests/keystone/auth.pp', 'manifests/registry.pp', 'manifests/scrubber.pp', 'templates/glance-api-paste.ini.erb', 'templates/glance-api.conf-sample', 'templates/glance-api.conf.erb', 'templates/glance-cache.conf.erb', 'templates/glance-registry-paste.ini.erb', 'templates/glance-registry.conf-sample', 'templates/glance-registry.conf.erb']"
+83,9db052933a76fd4dc2fb4dd05df6d0006b58f4a1,Update example site.pp,['examples/single.pp']
+84,a5ac23272d86c2026b192956990e0e244b567242,Refactor config files for essex,"['manifests/api.pp', 'manifests/keystone/auth.pp', 'manifests/registry.pp', 'manifests/scrubber.pp', 'templates/glance-api-paste.ini.erb', 'templates/glance-api.conf-sample', 'templates/glance-api.conf.erb', 'templates/glance-cache.conf.erb', 'templates/glance-registry-paste.ini.erb', 'templates/glance-registry.conf-sample', 'templates/glance-registry.conf.erb']"
+85,dd5fb3ea91ecc310d67b55dce7b31418ffed6515,Add code for db and host_access,"['manifests/db.pp', 'manifests/db/host_access.pp']"
+86,7708359f04cdbdb0b40d1c98fcb74d049c6445d7,Merge pull request #15 from bodepd/dev,"['examples/single.pp', 'manifests/api.pp', 'manifests/init.pp', 'manifests/params.pp', 'manifests/registry.pp', 'spec/classes/glance_api_spec.rb', 'spec/classes/glance_registry_spec.rb', 'spec/classes/glance_spec.rb']"
+87,29d18c442e988a46ea447a046089d1e65004b90c,Merge pull request #1 from derekhiggins/dev,['manifests/init.pp']
+88,f6a9d5c22c3aaa2b7e721da04e3647fa81a10b1b,fix typo,['manifests/init.pp']
+90,7c6d5405fd4008ad7e39c1baf0fa5d80b624bb98,Add python migrate dependency,['manifests/init.pp']
+91,0d205ba2e22a06f5497b419a3ac3bf68d7553c44,Add an example file,['examples/single.pp']
+92,2167074954618a4e1ea306f61c3b84e18ce88930,Add fedora support for glance,"['manifests/api.pp', 'manifests/init.pp', 'manifests/params.pp', 'manifests/registry.pp']"
+93,682db69b82c32e328748932d08158d728bd2bdff,Merge pull request #14 from bodepd/master,"['README.markdown', 'manifests/api.pp', 'manifests/init.pp', 'manifests/registry.pp', 'spec/classes/glance_spec.rb', 'templates/glance-api.conf.erb']"
+96,33913effb1b1bd58900ccd826daa77ced67639cf,Add rdoc to glance::api,['manifests/api.pp']
+98,c273426619a3b2b560bbaa2638ffd6006c54ffdf,Style update,"['manifests/api.pp', 'manifests/init.pp', 'manifests/registry.pp', 'templates/glance-api.conf.erb']"
+99,43f2c731dd83cd48dcb62ab70dfed1bfaf0724b5,Merge pull request #13 from bodepd/add_missing_dollar,"['manifests/init.pp', 'spec/classes/glance_api_spec.rb']"
+101,7ba954f324d77da9803882fe5f4cbe91f13d7eb0,Add $ to glance package_ensure,['manifests/init.pp']
+103,e1a92cf3c38dd0c2dde5b8e6a7433085c0eb589e,Merge pull request #9 from bodepd/11693_add_package_ensure_param,['manifests/init.pp']
+104,4d06c905f3938acc8e8025ea4eaf2981dce7bf61,Merge pull request #8 from bodepd/11694_fix_bind_host_param,['templates/glance-registry.conf.erb']
+106,2bf87bcc2fbd4d7163b592e80659147ee2210227,(#11693) Add package_ensure param to glance class,['manifests/init.pp']
+107,80bdf4475a32c05d48035fc98416aa25efcb2c1e,(#11694) Add bind host to template,['templates/glance-registry.conf.erb']
+108,f8b922582dbd6bf22eda39f1281cf9f5685dc236,Merge pull request #6 from cblument/issue/master/additional_config_bug,['templates/glance-registry.conf.erb']
+109,b538bbecd42742558ea01ab2a22152d7e88c4b08,fix described in https://bugs.launchpad.net/glance/+bug/827034,['templates/glance-registry.conf.erb']
+110,8df3d6552bf1b0abf9f3b61d0419e99348e24edf,Updated glance-registry.conf in accordance with https://bugs.launchpad.net/glance/+bug/814981,['templates/glance-registry.conf.erb']
+111,7b1666f37867fad0a3dede03d9b8e261480579d6,Updated glance-api.conf in accordance with https://bugs.launchpad.net/glance/+bug/814981,['templates/glance-api.conf.erb']
+112,ba246b2d408fe9c985e7169b83a12bae1a789cf1,Merge pull request #4 from gandelman-a/master,"['manifests/api.pp', 'manifests/registry.pp', 'templates/glance-api.conf.erb', 'templates/glance-registry.conf.erb', 'tests/api.pp', 'tests/registry.pp']"
+113,0f9c5030eec816de8280feb9094f1e5a9fa69329,Set verbose + debug false by default,"['manifests/api.pp', 'manifests/registry.pp']"
+114,16a544c083677c09792a0863fb8c5455195b6755,"Modify class parameters, templates and tests for logging options avoiding use of 'debug'","['manifests/api.pp', 'manifests/registry.pp', 'templates/glance-api.conf.erb', 'templates/glance-registry.conf.erb', 'tests/api.pp', 'tests/registry.pp']"
+115,0883495bb333e158fd38d3e111ec146fd88f7863,Merge pull request #3 from jamtur01/master,['templates/glance-registry.conf.erb']
+116,2bea1c2fb4581a7cb64b3c2c1bd5b692d1891306,Edited Glance registry template to add log option.,['templates/glance-registry.conf.erb']
+117,062c02ff7155a2768d20823b33cde70212e68f62,Merge pull request #2 from bodepd/issue/master/fixes,"['manifests/api.pp', 'manifests/registry.pp']"
+118,5e48e4a97429d38047b76afe706352c418c5bbc5,"added hasrestart, hasstatus to services.","['manifests/api.pp', 'manifests/registry.pp']"
+119,86147633a33789b5f6c7af049a502bbdf4855bb3,Added missing comma,['manifests/registry.pp']
+120,a9b06dd20a6afd60fea642fe4b348fcc26db0980,Merge pull request #1 from cblument/master,"['manifests/registry.pp', 'templates/glance-registry.conf.erb']"
+121,bdde53d8cf34186c859f0f14ee24027bc74be18c,Making the sql_connection a variable,['templates/glance-registry.conf.erb']
+122,e8a6e3df49b8c4f8b217e5a471bc50a1b94b49a0,Fixing the filename for the default sql_connection,['manifests/registry.pp']
+123,70c652874dc5e7c390759e96aee4c91e37105d40,initial commit for glance.,"['manifests/api.pp', 'manifests/init.pp', 'manifests/registry.pp', 'templates/glance-api.conf-sample', 'templates/glance-api.conf.erb', 'templates/glance-registry.conf-sample', 'templates/glance-registry.conf.erb', 'tests/api.pp', 'tests/init.pp', 'tests/registry.pp']"

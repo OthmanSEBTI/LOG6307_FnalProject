@@ -1,0 +1,14 @@
+0fa00aaf67a63c835d49d863789259454f6a7e94|Updated readme|Mon, 22 Aug 2016 08:58:55 +0000|Mon, 22 Aug 2016 08:58:55 +0000
+c2e4ca9f2c237352f3f537243f09d64b7d6c07b7|Cleanup of plugin repo|Mon, 22 Aug 2016 08:51:48 +0000|Mon, 22 Aug 2016 08:53:40 +0000
+736bb5d8ae6c6122b483b346762d29a02b789683|Fixed swift-related YAQLs|Thu, 18 Aug 2016 11:42:35 +0000|Thu, 18 Aug 2016 11:42:35 +0000
+250052299a76d4e075b15a7ea2d9c7656b8b975f|Removed the dedicated user for nova|Thu, 18 Aug 2016 07:29:11 +0000|Thu, 18 Aug 2016 07:29:11 +0000
+9d1b97ef48b81fc9111de5087d65b444e5605cae|9.0 Port|Thu, 11 Aug 2016 09:51:16 +0000|Thu, 18 Aug 2016 06:42:56 +0000
+9626f88f483c7eb03eba299398326b1f67bf6652|Added README|Wed, 30 Mar 2016 13:53:35 +0300|Wed, 4 May 2016 11:08:23 -0500
+8e24239ef4cdd55f7632bf20d624c4d974e98548|Made cinder integration multibackend-aware|Wed, 30 Mar 2016 13:05:00 +0300|Wed, 30 Mar 2016 13:10:59 +0300
+4af62802f6eb8193f72e4a4c0f1ee9bc7fcfebc7|Refactored UX|Tue, 29 Mar 2016 01:00:34 -0700|Tue, 29 Mar 2016 01:00:34 -0700
+15feadfb1de3f21b8f7d46d8570a2045c9be3518|Implemented radosgw deployment|Tue, 22 Mar 2016 02:36:23 -0700|Tue, 22 Mar 2016 02:36:23 -0700
+cfc1f430c3f26e5d819a5101bdd1a9215a612c45|Indroduced conditions for tasks|Tue, 22 Mar 2016 00:05:30 -0700|Tue, 22 Mar 2016 00:05:30 -0700
+9591e338c9c1989db09e9c4dcb5d08bba302a7c6|Added integration with external glance|Mon, 21 Mar 2016 06:10:35 -0700|Mon, 21 Mar 2016 06:10:35 -0700
+fb4a9a821a5e234e22edb5f494c85336d083ac37|Fixed Volumes and Ephemeral storage integration|Fri, 18 Mar 2016 01:57:08 -0700|Fri, 18 Mar 2016 01:57:08 -0700
+0587980f1c5f7bdd07c10850bd214ae90bcbe595|Basic integration with cinder, ephemeral|Thu, 17 Mar 2016 03:48:01 -0700|Thu, 17 Mar 2016 06:03:51 -0700
+9ea895260cc33ca4ab08ced752dfc522e0a09496|Initial version|Fri, 11 Mar 2016 16:59:32 +0300|Fri, 11 Mar 2016 16:59:32 +0300

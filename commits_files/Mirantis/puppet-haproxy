@@ -1,0 +1,13 @@
+,sha,message,files
+0,802ba51113fae827cec858562c71953f4269e4d5,Merge pull request #10 from rtyler/chicken-dinner,"['Rakefile', 'manifests/balancermember.pp', 'manifests/config.pp', 'manifests/init.pp', 'spec/defines/balancermember_spec.rb', 'templates/haproxy_balancermember.erb', 'tests/init.pp']"
+1,c409a0953552107f4ad4c6535392071980d9e33b,"Fix some, but by no means all, of puppet-lint's complaining","['manifests/balancermember.pp', 'manifests/config.pp', 'manifests/init.pp', 'tests/init.pp']"
+2,f9e56b6d4308da2b298b6b616313ecc553a5b6dc,Properly handle both Arrays and Strings passed as balancer member options,"['spec/defines/balancermember_spec.rb', 'templates/haproxy_balancermember.erb']"
+3,eb482ec09f20a6d3a1ec6539bf65167478284a04,Add puppet-lint to the Rakefile,['Rakefile']
+4,e75b807f8571cff4bae145dd4c37773fb16a694f,Merge pull request #8 from rtyler/chicken-dinner,"['.gitmodules', 'README', 'README.md', 'spec/fixtures/modules/concat']"
+5,1bb2ef6b72a4e0f0cb22a6c9348a1c9c0b56ac54,Add a Hacking section to the README,['README.md']
+6,83bfb1f1553f69047366192ae562b082772a3712,Rename the README for fancy GitHub formatting,['README.md']
+7,52e16b0bebe4455ae3154f561f75ecaa3c67fce6,Add the puppet-concat module as a submodule for tests,"['.gitmodules', 'spec/fixtures/modules/concat']"
+8,580e831fbb7ba60cc0206661a8cfe263613c2b5e,Commit spec tests for the haproxy module,"['Rakefile', 'spec/classes/haproxy_spec.rb', 'spec/defines/balancermember_spec.rb', 'spec/defines/config_spec.rb', 'spec/fixtures/manifests/site.pp', 'spec/fixtures/modules/haproxy', 'spec/spec_helper.rb']"
+9,01d46be262154b76ffd794fadf0d43deeb425fa6,Use array in config class default,['manifests/config.pp']
+10,98aaa48b6759c05a9e7bb1cab3d6f178658bc450,Ensure hasrestart parameter with haproxy service,['manifests/init.pp']
+11,c4799e59b9d9891e6c296c554a11814f14a5abfc,Initial Commit,"['Modulefile', 'README', 'manifests/balancermember.pp', 'manifests/config.pp', 'manifests/data.pp', 'manifests/init.pp', 'spec/spec_helper.rb', 'templates/haproxy-base.cfg.erb', 'templates/haproxy_balancermember.erb', 'templates/haproxy_config_block.erb', 'tests/init.pp']"
